@@ -29,7 +29,8 @@
 | T1.13 | done   | 482af6d       | sub_saharan count ≥ 35; roster test passed                                                                                      | 25      | Kush, Sahel, and southern states from Appendix B. Independence states are a debated split of the 1950s–70s line.                                     |
 | T1.14 | done   | 8362abc       | nile_egyptian count ≥ 18; roster test passed                                                                                    | 15      | 15 checklist rows beside the 3 migrated kingdoms. The unnamed 332–305 BCE gap is a debated period, not a named dynasty.                              |
 | T1.15 | done   | aa8eaef       | mesopotamian count ≥ 14; roster test passed                                                                                     | 15      | 12 checklist rows beside the 4 migrated bundles. Hittites stay the v1 id.                                                                            |
-| T1.16 | done   | (this commit) | persian_iranian count ≥ 14; roster test passed                                                                                  | 15      | 12 checklist rows beside the 3 migrated bundles. Safavid keeps both 1722 and 1736 as endpoints. Achaemenid stays the v1 id.                          |
+| T1.16 | done   | 859c4fb       | persian_iranian count ≥ 14; roster test passed                                                                                  | 15      | 12 checklist rows beside the 3 migrated bundles. Safavid keeps both 1722 and 1736 as endpoints. Achaemenid stays the v1 id.                          |
+| T1.17 | done   | (this commit) | levantine_semitic count ≥ 14; roster test passed                                                                                | 15      | 13 checklist rows beside the migrated Phoenicia bundle. Syria, Lebanon, Jordan, and Iraq are a debated split of the 1930s–70s line.                  |
 
 ## Blocked
 

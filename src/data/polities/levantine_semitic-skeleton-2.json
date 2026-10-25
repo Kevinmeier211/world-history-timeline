@@ -1,0 +1,25 @@
+[
+  {
+    "id": "iraq",
+    "name": "Iraq",
+    "family": "levantine_semitic",
+    "start": 1930,
+    "end": 2000,
+    "confidence": "debated",
+    "dateNote": "Appendix B says modern Arab states in the 1930s–70s and does not name each state. Skeleton uses 1930–2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1930,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Iraq is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  }
+]
