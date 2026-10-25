@@ -1,0 +1,31 @@
+---
+description: Chronos Atlas v2 — always-on rules for long autonomous runs
+alwaysApply: true
+---
+# Mission
+Build Chronos Atlas v2 per docs/CURSOR_PLAN.md (the full plan; Appendix E is the task queue). Work through Appendix E top-to-bottom without waiting for confirmation.
+
+# Every session, first
+1. Read docs/RUN_CONFIG.md, tail of docs/PROGRESS.md, docs/DECISIONS.md titles, docs/CONTEXT.md.
+2. git status; git log -10; npm run check.
+3. Take the first `todo` task whose deps are done and whose phase ≤ MAX_PHASE.
+
+# Every task
+Tests first for pure logic → implement → npm run check + task verification → commit locally (`Txx.yy: …`) → update PROGRESS.md with evidence. Tree must be green at each commit.
+
+# Hard rules
+- NEVER push, deploy, publish, or change remotes unless RUN_CONFIG allows it. NEVER add GitHub Actions.
+- NEVER download media unless ALLOW_MEDIA_DOWNLOAD=true. Never use unlicensed or AI-generated images.
+- NEVER invent sources, URLs, accession numbers, quotes, or dates. Unsure → confidence:'debated' or omit; verification:'unverified'.
+- NEVER trace or copy the reference poster; all data, prose, images, coordinates are our own.
+- Don't weaken tests/validators/design-lint to get green. No @ts-ignore/any without a DECISIONS entry.
+- Don't stop to ask: log in docs/QUESTIONS.md, apply the default, continue. 3 failed attempts → log Blocked and move on.
+
+# Design & code
+- Follow docs/DESIGN.md (§4 design, §5 image principles). Colors/fonts only from tokens.css. Min font sizes enforced.
+- Layout code in src/layout is pure (no DOM/React). Files ≤ 400 lines. Strict TypeScript.
+- BCE negative, no year 0; use src/lib/years.ts helpers only.
+- Data: every entity has sourceIds, confidence, importance, verification. Summaries ≤ 60 words; callout blurbs ≤ 14 words; original prose.
+
+# Output hygiene
+Small commits, descriptive messages, no giant diffs. Keep docs/CONTEXT.md current. End of run: docs/HANDOFF.md.

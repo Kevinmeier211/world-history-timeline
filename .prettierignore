@@ -1,0 +1,24 @@
+dist
+dist-print
+media-cache
+node_modules
+package-lock.json
+docs/CURSOR_PLAN.md
+docs/DESIGN.md
+docs/DATA_PROTOCOL.md
+PLAN.md
+test-results
+playwright-report
+
+# v1 sources, removed in T3.16. Do not add new paths.
+src/components
+src/utils
+src/styles
+src/App.tsx
+src/main.tsx
+src/types
+src/data/politiesWest.ts
+src/data/politiesEast.ts
+src/data/historicalNodes.ts
+src/data/regionsAndEras.ts
+src/data/index.ts

@@ -104,7 +104,10 @@ export function App() {
 
   const visibleRegions = useMemo(() => {
     const regMap = Object.fromEntries(REGIONS.map((r) => [r.id, r]));
-    return visibleRegionIds.map((id) => regMap[id]).filter(Boolean);
+    return visibleRegionIds.flatMap((id) => {
+      const region = regMap[id];
+      return region ? [region] : [];
+    });
   }, [visibleRegionIds]);
 
   const scrollContainerRef = useRef<HTMLDivElement | null>(null);
@@ -279,6 +282,7 @@ export function App() {
       if (targetIdx < 0 || targetIdx >= prev.length) return prev;
       const copy = [...prev];
       const [item] = copy.splice(idx, 1);
+      if (!item) return prev;
       copy.splice(targetIdx, 0, item);
       setActivePresetId('custom');
       return copy;
@@ -583,14 +587,16 @@ export function App() {
             </span>
           </div>
 
-          <div className="story-waypoint-content">
-            <h3>{activeTour.waypoints[tourStepIndex].title}</h3>
-            <p>{activeTour.waypoints[tourStepIndex].narrative}</p>
-            <div className="story-takeaway">
-              <strong>Key Insight:</strong>{' '}
-              {activeTour.waypoints[tourStepIndex].keyTakeaway}
+          {activeTour.waypoints[tourStepIndex] && (
+            <div className="story-waypoint-content">
+              <h3>{activeTour.waypoints[tourStepIndex].title}</h3>
+              <p>{activeTour.waypoints[tourStepIndex].narrative}</p>
+              <div className="story-takeaway">
+                <strong>Key Insight:</strong>{' '}
+                {activeTour.waypoints[tourStepIndex].keyTakeaway}
+              </div>
             </div>
-          </div>
+          )}
 
           <div className="story-tour-controls">
             <button

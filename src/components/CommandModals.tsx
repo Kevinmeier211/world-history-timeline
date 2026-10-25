@@ -125,13 +125,15 @@ export const SearchCommandDialog: React.FC<SearchCommandDialogProps> = ({
     const trimmed = query.trim().toUpperCase();
     if (!trimmed) return null;
     const bceMatch = trimmed.match(/^(\d{1,4})\s*(BCE|BC)$/);
-    if (bceMatch) {
-      const y = -parseInt(bceMatch[1], 10);
+    const bceText = bceMatch?.[1];
+    if (bceText) {
+      const y = -parseInt(bceText, 10);
       if (y >= -3300 && y <= 2025) return y;
     }
     const ceMatch = trimmed.match(/^(-?\d{1,4})\s*(CE|AD)?$/);
-    if (ceMatch) {
-      const y = parseInt(ceMatch[1], 10);
+    const ceText = ceMatch?.[1];
+    if (ceText) {
+      const y = parseInt(ceText, 10);
       if (y >= -3300 && y <= 2025) return y;
     }
     return null;
