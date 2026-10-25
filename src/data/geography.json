@@ -1,0 +1,76 @@
+{
+  "knots": [
+    { "longitude": -125, "x": 0 },
+    { "longitude": -95, "x": 0.06 },
+    { "longitude": -75, "x": 0.13 },
+    { "longitude": -35, "x": 0.19 },
+    { "longitude": -10, "x": 0.22 },
+    { "longitude": 10, "x": 0.34 },
+    { "longitude": 30, "x": 0.45 },
+    { "longitude": 45, "x": 0.55 },
+    { "longitude": 60, "x": 0.63 },
+    { "longitude": 80, "x": 0.71 },
+    { "longitude": 100, "x": 0.79 },
+    { "longitude": 120, "x": 0.88 },
+    { "longitude": 145, "x": 0.96 },
+    { "longitude": 180, "x": 1 }
+  ],
+  "macroRegions": [
+    { "id": "americas", "name": "Americas", "xZones": ["americas"] },
+    { "id": "europe", "name": "Europe", "xZones": ["europe", "mediterranean"] },
+    { "id": "africa", "name": "Africa", "xZones": ["africa", "mediterranean"] },
+    {
+      "id": "west_central_asia",
+      "name": "West and Central Asia",
+      "xZones": ["west_asia", "steppe", "mediterranean"]
+    },
+    { "id": "south_asia", "name": "South Asia", "xZones": ["south_asia"] },
+    { "id": "east_asia", "name": "East Asia", "xZones": ["east_asia"] },
+    {
+      "id": "se_asia_oceania",
+      "name": "Southeast Asia and Oceania",
+      "xZones": ["se_asia"]
+    }
+  ],
+  "xZones": [
+    { "id": "americas", "name": "Americas", "x0": 0, "x1": 0.18 },
+    { "id": "africa", "name": "Sub-Saharan Africa", "x0": 0.2, "x1": 0.34 },
+    { "id": "europe", "name": "Europe", "x0": 0.22, "x1": 0.46 },
+    {
+      "id": "mediterranean",
+      "name": "Mediterranean and Egypt",
+      "x0": 0.32,
+      "x1": 0.52
+    },
+    {
+      "id": "west_asia",
+      "name": "Levant, Mesopotamia, and Iran",
+      "x0": 0.42,
+      "x1": 0.62
+    },
+    { "id": "steppe", "name": "Steppe and Central Asia", "x0": 0.4, "x1": 0.7 },
+    { "id": "south_asia", "name": "South Asia", "x0": 0.62, "x1": 0.76 },
+    { "id": "east_asia", "name": "East Asia", "x0": 0.74, "x1": 0.92 },
+    { "id": "se_asia", "name": "Southeast Asia and Oceania", "x0": 0.86, "x1": 1 }
+  ],
+  "familyBias": {
+    "andean": 0,
+    "mesoamerican": 0.02,
+    "north_american": 0.04,
+    "sub_saharan": 0,
+    "nile_egyptian": 0.03,
+    "mesopotamian": 0,
+    "persian_iranian": 0.02,
+    "levantine_semitic": -0.02,
+    "greek_byzantine": 0.02,
+    "latin_west": -0.02,
+    "celtic_germanic_norse": -0.04,
+    "slavic_steppe": 0.04,
+    "islamic_arab": 0,
+    "turkic_mongol": 0.04,
+    "indian": 0,
+    "chinese": 0,
+    "korean_japanese": 0.03,
+    "southeast_oceanian": 0.04
+  }
+}

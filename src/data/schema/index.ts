@@ -32,3 +32,4 @@ export type Dataset = z.infer<typeof datasetSchema>;
 export * from './primitives.ts';
 export * from './polity.ts';
 export * from './records.ts';
+export * from './geography.ts';
