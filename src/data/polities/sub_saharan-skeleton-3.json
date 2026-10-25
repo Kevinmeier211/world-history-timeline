@@ -1,0 +1,117 @@
+[
+  {
+    "id": "senegal",
+    "name": "Senegal",
+    "family": "sub_saharan",
+    "start": 1950,
+    "end": 2000,
+    "confidence": "debated",
+    "dateNote": "Appendix B says independence in the 1950s–70s and does not name each state or a country year. Skeleton uses 1950–2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1950,
+        "xKey": "sub_saharan_africa"
+      }
+    ],
+    "summary": "Senegal is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "kenya",
+    "name": "Kenya",
+    "family": "sub_saharan",
+    "start": 1950,
+    "end": 2000,
+    "confidence": "debated",
+    "dateNote": "Appendix B says independence in the 1950s–70s and does not name each state or a country year. Skeleton uses 1950–2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1950,
+        "xKey": "sub_saharan_africa"
+      }
+    ],
+    "summary": "Kenya is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "tanzania",
+    "name": "Tanzania",
+    "family": "sub_saharan",
+    "start": 1950,
+    "end": 2000,
+    "confidence": "debated",
+    "dateNote": "Appendix B says independence in the 1950s–70s and does not name each state or a country year. Skeleton uses 1950–2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1950,
+        "xKey": "sub_saharan_africa"
+      }
+    ],
+    "summary": "Tanzania is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "angola",
+    "name": "Angola",
+    "family": "sub_saharan",
+    "start": 1950,
+    "end": 2000,
+    "confidence": "debated",
+    "dateNote": "Appendix B says independence in the 1950s–70s and does not name each state or a country year. Skeleton uses 1950–2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1950,
+        "xKey": "sub_saharan_africa"
+      }
+    ],
+    "summary": "Angola is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "congo_kinshasa",
+    "name": "Congo-Kinshasa",
+    "family": "sub_saharan",
+    "start": 1950,
+    "end": 2000,
+    "confidence": "debated",
+    "dateNote": "Appendix B says independence in the 1950s–70s and does not name each state or a country year. Skeleton uses 1950–2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1950,
+        "xKey": "sub_saharan_africa"
+      }
+    ],
+    "summary": "Congo-Kinshasa is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  }
+]

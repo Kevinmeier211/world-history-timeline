@@ -1,0 +1,278 @@
+[
+  {
+    "id": "kerma",
+    "name": "Kerma",
+    "family": "sub_saharan",
+    "start": -2500,
+    "end": -1500,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: c.2500–1500 BCE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "culture",
+    "anchor": [
+      {
+        "year": -2500,
+        "xKey": "sub_saharan_africa"
+      }
+    ],
+    "summary": "Kerma is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "kush_napatan",
+    "name": "Kush, Napatan",
+    "family": "sub_saharan",
+    "start": -1000,
+    "end": -300,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Napatan c.1000–300 BCE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -1000,
+        "xKey": "sub_saharan_africa"
+      }
+    ],
+    "summary": "Kush, Napatan is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "kush_twenty_fifth",
+    "name": "Kushite 25th Dynasty",
+    "family": "sub_saharan",
+    "start": -744,
+    "end": -656,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: 25th Dynasty 744–656 BCE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -744,
+        "xKey": "sub_saharan_africa"
+      }
+    ],
+    "summary": "Kushite 25th Dynasty is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "meroitic_kush",
+    "name": "Meroitic Kush",
+    "family": "sub_saharan",
+    "start": -300,
+    "end": 350,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Meroitic c.300 BCE–350 CE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -300,
+        "xKey": "sub_saharan_africa"
+      }
+    ],
+    "summary": "Meroitic Kush is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "aksum",
+    "name": "Aksum",
+    "family": "sub_saharan",
+    "start": 100,
+    "end": 940,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: c.100–940.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 100,
+        "xKey": "sub_saharan_africa"
+      }
+    ],
+    "summary": "Aksum is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "ghana_wagadu",
+    "name": "Ghana / Wagadu",
+    "family": "sub_saharan",
+    "start": 300,
+    "end": 1200,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: c.300–1200.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 300,
+        "xKey": "sub_saharan_africa"
+      }
+    ],
+    "summary": "Ghana / Wagadu is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "great_zimbabwe",
+    "name": "Great Zimbabwe",
+    "family": "sub_saharan",
+    "start": 1100,
+    "end": 1450,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: c.1100–1450.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1100,
+        "xKey": "sub_saharan_africa"
+      }
+    ],
+    "summary": "Great Zimbabwe is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "swahili_coast",
+    "name": "Swahili city-states",
+    "family": "sub_saharan",
+    "start": 800,
+    "end": 1500,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: c.800–1500+. Skeleton ends at 1500.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 800,
+        "xKey": "sub_saharan_africa"
+      }
+    ],
+    "summary": "Swahili city-states is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "mali_empire",
+    "name": "Mali",
+    "family": "sub_saharan",
+    "start": 1235,
+    "end": 1600,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: c.1235–1600.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 1235,
+        "xKey": "sub_saharan_africa"
+      }
+    ],
+    "summary": "Mali is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "songhai_empire",
+    "name": "Songhai",
+    "family": "sub_saharan",
+    "start": 1464,
+    "end": 1591,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: c.1464–1591.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 1464,
+        "xKey": "sub_saharan_africa"
+      }
+    ],
+    "summary": "Songhai is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "kanem_bornu",
+    "name": "Kanem–Bornu",
+    "family": "sub_saharan",
+    "start": 700,
+    "end": 1900,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: c.700–1900.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 700,
+        "xKey": "sub_saharan_africa"
+      }
+    ],
+    "summary": "Kanem–Bornu is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "benin_kingdom",
+    "name": "Benin",
+    "family": "sub_saharan",
+    "start": 1180,
+    "end": 1897,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: c.1180–1897.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1180,
+        "xKey": "sub_saharan_africa"
+      }
+    ],
+    "summary": "Benin is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  }
+]

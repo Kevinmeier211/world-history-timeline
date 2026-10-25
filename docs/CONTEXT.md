@@ -1,6 +1,6 @@
 # Context
 
-Resume here. Phase P0 is the tooling baseline on `v2/p0-tooling`. v1 still renders. v2 data and layout are not built.
+Resume here. Branch `v2/p1-data`. Last done task is in `docs/PROGRESS.md`. v1 still renders. Layout and the v2 renderer are not started. Do not start P8.
 
 ## Architecture
 
@@ -8,7 +8,7 @@ Vite 6 + React 19 + TypeScript, strict and `noUncheckedIndexedAccess`. v1 chart:
 
 ## Commands
 
-`npm run check` = typecheck + lint + design:lint + palette:check + vitest + validate:data. `npm run shots` writes Playwright PNGs. `npm run dev` / `build` / `preview`. Palette, validate, layout, perf, media, and export commands are stubs until the task named in their log line. `media:fetch` refuses to download while `ALLOW_MEDIA_DOWNLOAD=false`.
+`npm run check` = typecheck + lint + design:lint + palette:check + vitest + validate:data. `npm run shots` writes Playwright PNGs. `npm run dev` / `build` / `preview`. `validate:data` is real and warns on polities with no inbound relation until T1.28. Layout, perf, media, and export commands are still stubs. `media:fetch` refuses to download while `ALLOW_MEDIA_DOWNLOAD=false`. Checklist rows are applied with `npx tsx scripts/apply-roster.ts <family>`.
 
 ## Conventions
 
@@ -16,8 +16,8 @@ One task, one commit, message `T0.01: …`. Green `npm run check` before every c
 
 ## Gotchas
 
-Poster and both Gemini PDFs are missing (Q-01). ESLint, Prettier, and design-lint ignore v1 until T3.16; design-lint also ignores `index.html` until T3.01. The allowlist is asserted in `src/lint/designRules.test.ts`. Vitest includes only `src/**/*.test.ts` and `scripts/**/*.test.ts` so Playwright specs are not unit tests. v1 opens with the dossier and map visible; on a 390px screen the chart is covered, so the four mobile baselines match. Zod 4 is the installed major. `@types/node` is a dev dependency for scripts.
+Poster and both Gemini PDFs are missing (Q-01). Gemini bibliography [1]–[37] was not reconstructed (Q-02). Tag `gemini-v1` has 6 routes and 5 presets, not 9 and 16 (Q-03). Undated checklist names are omitted (Q-04). ESLint, Prettier, and design-lint ignore v1 until T3.16; design-lint also ignores `index.html` until T3.01. The allowlist is asserted in `src/lint/designRules.test.ts`. Vitest includes only `src/**/*.test.ts` and `scripts/**/*.test.ts`. `src/data/sources.json` and `LICENSES/SOURCES.md` are prettier-ignored. v1 map centers are schematic pixels, so migrated anchors use `xKey`. Skeleton files are `src/data/polities/<family>-skeleton.json` and may split as `-2`, `-3` to stay under 400 lines. Orphan warnings are expected until T1.28. Zod 4 is the installed major.
 
 ## Next
 
-T0.12 closes P0. Then branch `v2/p1-data` and start T1.01 (zod schemas). Do not start P8.
+T1.14 Nile and Egypt checklist skeleton (`nile_egyptian`, minimum 18). Then T1.15 through T1.27, T1.28 relations, T1.29 era minimums, T1.30 unverified report, T1.31 overrides, T1.99 phase gate. Do not start P8.

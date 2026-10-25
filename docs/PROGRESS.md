@@ -25,7 +25,8 @@
 | T1.09 | done   | f07adbb       | annotation test: 58 callouts, 11 bands, 6 routes, 3 tours, 5 presets; climate curve schema passed                               | 30      | Tag counts, not the plan's 9 routes and 16 presets (Q-03). Blurbs clipped to 14 words. All migrated rows stay unverified.                            |
 | T1.10 | done   | ec91259       | andean count ≥ 23 after `apply-roster andean`; roster test passed                                                               | 20      | 16 checklist rows beside the 7 migrated bundles. Independence years stay inside the 1810s–1830s band.                                                |
 | T1.11 | done   | bf810a0       | mesoamerican count ≥ 19; roster test passed                                                                                     | 15      | Mixtec omitted (Q-04). Central American republics are debated splits of the 1821/1838 checklist line.                                                |
-| T1.12 | done   | (this commit) | north_american count ≥ 14; roster test passed                                                                                   | 12      | Thule omitted (Q-04). Haudenosaunee starts at 1400, the edge of the checklist's 15th century.                                                        |
+| T1.12 | done   | cca090a       | north_american count ≥ 14; roster test passed                                                                                   | 12      | Thule omitted (Q-04). Haudenosaunee starts at 1400, the edge of the checklist's 15th century.                                                        |
+| T1.13 | done   | (this commit) | sub_saharan count ≥ 35; roster test passed                                                                                      | 25      | Kush, Sahel, and southern states from Appendix B. Independence states are a debated split of the 1950s–70s line.                                     |
 
 ## Blocked
 

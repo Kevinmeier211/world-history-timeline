@@ -94,10 +94,19 @@ export function skeletonPolity(row: RosterRow): Polity {
   return polity;
 }
 
+const SKELETON_CHUNK = 12;
+
 export function writeSkeleton(family: FamilyId, rows: RosterRow[]): Polity[] {
   const polities = rows.map(skeletonPolity);
-  const file = path.join('src/data/polities', `${family}-skeleton.json`);
-  writeFileSync(file, `${JSON.stringify(polities, null, 2)}\n`);
+  for (let index = 0; index < polities.length; index += SKELETON_CHUNK) {
+    const part = index / SKELETON_CHUNK + 1;
+    const suffix = part === 1 ? '' : `-${part}`;
+    const file = path.join('src/data/polities', `${family}-skeleton${suffix}.json`);
+    writeFileSync(
+      file,
+      `${JSON.stringify(polities.slice(index, index + SKELETON_CHUNK), null, 2)}\n`,
+    );
+  }
   return polities;
 }
 

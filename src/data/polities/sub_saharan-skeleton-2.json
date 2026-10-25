@@ -1,0 +1,278 @@
+[
+  {
+    "id": "ethiopia_solomonic",
+    "name": "Solomonic Ethiopia",
+    "family": "sub_saharan",
+    "start": 1270,
+    "end": 1974,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: 1270–1974.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1270,
+        "xKey": "sub_saharan_africa"
+      }
+    ],
+    "summary": "Solomonic Ethiopia is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "kongo",
+    "name": "Kongo",
+    "family": "sub_saharan",
+    "start": 1390,
+    "end": 1914,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: c.1390–1914.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1390,
+        "xKey": "sub_saharan_africa"
+      }
+    ],
+    "summary": "Kongo is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "oyo",
+    "name": "Oyo",
+    "family": "sub_saharan",
+    "start": 1400,
+    "end": 1835,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: c.1400–1835.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1400,
+        "xKey": "sub_saharan_africa"
+      }
+    ],
+    "summary": "Oyo is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "ashanti",
+    "name": "Ashanti",
+    "family": "sub_saharan",
+    "start": 1701,
+    "end": 1901,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: c.1701–1901.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1701,
+        "xKey": "sub_saharan_africa"
+      }
+    ],
+    "summary": "Ashanti is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "sokoto",
+    "name": "Sokoto Caliphate",
+    "family": "sub_saharan",
+    "start": 1804,
+    "end": 1903,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: 1804–1903.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1804,
+        "xKey": "sub_saharan_africa"
+      }
+    ],
+    "summary": "Sokoto Caliphate is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "zulu",
+    "name": "Zulu Kingdom",
+    "family": "sub_saharan",
+    "start": 1816,
+    "end": 1897,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: 1816–1897.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1816,
+        "xKey": "sub_saharan_africa"
+      }
+    ],
+    "summary": "Zulu Kingdom is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "european_partition_africa",
+    "name": "European partition of Africa",
+    "family": "sub_saharan",
+    "start": 1880,
+    "end": 1914,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: c.1880–1914.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": 1880,
+        "xKey": "sub_saharan_africa"
+      }
+    ],
+    "summary": "European partition of Africa is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "african_independence",
+    "name": "African independence",
+    "family": "sub_saharan",
+    "start": 1950,
+    "end": 1975,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: independence 1950s–70s. Skeleton uses 1950–1975.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": 1950,
+        "xKey": "sub_saharan_africa"
+      }
+    ],
+    "summary": "African independence is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "south_africa_union",
+    "name": "Union of South Africa",
+    "family": "sub_saharan",
+    "start": 1910,
+    "end": 1948,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Union 1910. Skeleton ends at the apartheid date the checklist also gives.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1910,
+        "xKey": "sub_saharan_africa"
+      }
+    ],
+    "summary": "Union of South Africa is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "south_africa_apartheid",
+    "name": "Apartheid South Africa",
+    "family": "sub_saharan",
+    "start": 1948,
+    "end": 1994,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: apartheid 1948–94.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1948,
+        "xKey": "sub_saharan_africa"
+      }
+    ],
+    "summary": "Apartheid South Africa is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "ghana_republic",
+    "name": "Ghana",
+    "family": "sub_saharan",
+    "start": 1950,
+    "end": 2000,
+    "confidence": "debated",
+    "dateNote": "Appendix B says independence in the 1950s–70s and does not name each state or a country year. Skeleton uses 1950–2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1950,
+        "xKey": "sub_saharan_africa"
+      }
+    ],
+    "summary": "Ghana is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "nigeria",
+    "name": "Nigeria",
+    "family": "sub_saharan",
+    "start": 1950,
+    "end": 2000,
+    "confidence": "debated",
+    "dateNote": "Appendix B says independence in the 1950s–70s and does not name each state or a country year. Skeleton uses 1950–2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1950,
+        "xKey": "sub_saharan_africa"
+      }
+    ],
+    "summary": "Nigeria is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  }
+]
