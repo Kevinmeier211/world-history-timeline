@@ -81,3 +81,13 @@ Alternatives: Fail the build on orphans and single ancient sources now. Skip the
 Why: §6.3 says errors fail and warnings print. Orphans are cleared in T1.28, second ancient sources arrive as the roster is sourced, and lanes do not exist until the solver. The color function is already strict so the later call site cannot quietly drop the gate.
 
 Reversible? y
+
+## 2026-10-25 — `sources.json` is one object per line
+
+Decision: `src/data/sources.json` is a JSON array with one source per line, and Prettier ignores that file. `scripts/write-sources-md.ts` regenerates `LICENSES/SOURCES.md`.
+
+Alternatives: Let Prettier expand each object, which pushes the file past 400 lines. Split the bibliography across several JSON files.
+
+Why: T1.07 names a single `sources.json`. The line cap still applies. A test checks that the markdown matches the generator.
+
+Reversible? y
