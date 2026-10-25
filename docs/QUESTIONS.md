@@ -25,3 +25,11 @@ Why it matters: T1.09 says the migrated counts should match v1 at 58 nodes, 11 b
 Default applied: Migrate the rows that are on the tag. Do not invent three routes or eleven presets to hit the plan's numbers. Era-gutter periods in v1 (`early_bronze` through `modern_period`) stay out of the band list; the 11 bands are the cross-cutting set. Paleoclimate is 18 points, copied with `verification: unverified`.
 
 Affects tasks: T1.09, T5.10, T5.11.
+
+## Q-04 — Checklist names with no year span are left out
+
+Why it matters: Appendix B names some polities without a start or end (Mixtec is the first). A skeleton still needs integer years. Guessing a span would be a new historical claim.
+
+Default applied: Omit the undated name and meet the family count with dated checklist rows, including group successors when the checklist names a group and two years (Central American states, 1821/1838). Those successor rows use `confidence: debated` and say the checklist did not name each state. Further undated names will be added to this note as later family tasks reach them.
+
+Affects tasks: T1.11–T1.27.

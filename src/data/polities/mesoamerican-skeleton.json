@@ -1,0 +1,311 @@
+[
+  {
+    "id": "zapotec_monte_alban",
+    "name": "Zapotec / Monte Albán",
+    "family": "mesoamerican",
+    "start": -500,
+    "end": 800,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: c.500 BCE–800.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "culture",
+    "anchor": [
+      {
+        "year": -500,
+        "xKey": "mesoamerica"
+      }
+    ],
+    "summary": "Zapotec / Monte Albán is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["inah", "field_museum"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "teotihuacan",
+    "name": "Teotihuacan",
+    "family": "mesoamerican",
+    "start": -100,
+    "end": 550,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: c.100 BCE–550 CE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -100,
+        "xKey": "mesoamerica"
+      }
+    ],
+    "summary": "Teotihuacan is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["inah", "field_museum"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "maya_preclassic",
+    "name": "Maya Preclassic",
+    "family": "mesoamerican",
+    "start": -2000,
+    "end": 250,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Preclassic c.2000 BCE–250 CE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": -2000,
+        "xKey": "mesoamerica"
+      }
+    ],
+    "summary": "Maya Preclassic is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["inah", "field_museum"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "maya_classic",
+    "name": "Maya Classic",
+    "family": "mesoamerican",
+    "start": 250,
+    "end": 900,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Classic 250–900.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": 250,
+        "xKey": "mesoamerica"
+      }
+    ],
+    "summary": "Maya Classic is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["inah", "field_museum"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "maya_postclassic",
+    "name": "Maya Postclassic",
+    "family": "mesoamerican",
+    "start": 900,
+    "end": 1697,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Postclassic 900–1697.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": 900,
+        "xKey": "mesoamerica"
+      }
+    ],
+    "summary": "Maya Postclassic is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["inah", "field_museum"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "tarascan",
+    "name": "Tarascan",
+    "family": "mesoamerican",
+    "start": 1300,
+    "end": 1530,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: c.1300–1530.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1300,
+        "xKey": "mesoamerica"
+      }
+    ],
+    "summary": "Tarascan is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["inah", "field_museum"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "mexico",
+    "name": "Mexico",
+    "family": "mesoamerican",
+    "start": 1821,
+    "end": 2000,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Mexico 1821–. Skeleton ends at 2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1821,
+        "xKey": "mesoamerica"
+      }
+    ],
+    "summary": "Mexico is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["inah", "field_museum"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "united_provinces_central_america",
+    "name": "United Provinces of Central America",
+    "family": "mesoamerican",
+    "start": 1821,
+    "end": 1838,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Central American states 1821/1838–.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1821,
+        "xKey": "mesoamerica"
+      }
+    ],
+    "summary": "United Provinces of Central America is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["inah", "field_museum"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row.",
+    "endpoints": [
+      {
+        "label": "Independence from Spain",
+        "year": 1821
+      },
+      {
+        "label": "Federation dissolves",
+        "year": 1838
+      }
+    ]
+  },
+  {
+    "id": "guatemala",
+    "name": "Guatemala",
+    "family": "mesoamerican",
+    "start": 1838,
+    "end": 2000,
+    "confidence": "debated",
+    "dateNote": "Appendix B says Central American states 1821/1838– and does not name each republic. Skeleton uses 1838–2000 and is not re-verified.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1838,
+        "xKey": "mesoamerica"
+      }
+    ],
+    "summary": "Guatemala is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["inah", "field_museum"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "el_salvador",
+    "name": "El Salvador",
+    "family": "mesoamerican",
+    "start": 1838,
+    "end": 2000,
+    "confidence": "debated",
+    "dateNote": "Appendix B says Central American states 1821/1838– and does not name each republic. Skeleton uses 1838–2000 and is not re-verified.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1838,
+        "xKey": "mesoamerica"
+      }
+    ],
+    "summary": "El Salvador is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["inah", "field_museum"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "honduras",
+    "name": "Honduras",
+    "family": "mesoamerican",
+    "start": 1838,
+    "end": 2000,
+    "confidence": "debated",
+    "dateNote": "Appendix B says Central American states 1821/1838– and does not name each republic. Skeleton uses 1838–2000 and is not re-verified.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1838,
+        "xKey": "mesoamerica"
+      }
+    ],
+    "summary": "Honduras is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["inah", "field_museum"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "nicaragua",
+    "name": "Nicaragua",
+    "family": "mesoamerican",
+    "start": 1838,
+    "end": 2000,
+    "confidence": "debated",
+    "dateNote": "Appendix B says Central American states 1821/1838– and does not name each republic. Skeleton uses 1838–2000 and is not re-verified.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1838,
+        "xKey": "mesoamerica"
+      }
+    ],
+    "summary": "Nicaragua is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["inah", "field_museum"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "costa_rica",
+    "name": "Costa Rica",
+    "family": "mesoamerican",
+    "start": 1838,
+    "end": 2000,
+    "confidence": "debated",
+    "dateNote": "Appendix B says Central American states 1821/1838– and does not name each republic. Skeleton uses 1838–2000 and is not re-verified.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1838,
+        "xKey": "mesoamerica"
+      }
+    ],
+    "summary": "Costa Rica is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["inah", "field_museum"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  }
+]
