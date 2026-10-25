@@ -1,0 +1,105 @@
+import type { RosterRow } from '../roster.ts';
+
+const row = (
+  id: string,
+  name: string,
+  start: number,
+  end: number,
+  kind: RosterRow['kind'],
+  dateNote: string,
+  confidence: RosterRow['confidence'] = 'conventional',
+): RosterRow => ({
+  id,
+  name,
+  family: 'celtic_germanic_norse',
+  start,
+  end,
+  kind,
+  dateNote,
+  confidence,
+});
+
+const kingdom = (id: string, name: string): RosterRow =>
+  row(
+    id,
+    name,
+    1800,
+    2000,
+    'state',
+    `Appendix B names ${name} among the Scandinavian kingdoms and does not give it a year. Skeleton uses 1800–2000.`,
+    'debated',
+  );
+
+export const ROWS: RosterRow[] = [
+  row(
+    'hallstatt',
+    'Hallstatt',
+    -1200,
+    -500,
+    'culture',
+    'Appendix B: Hallstatt c.1200–500 BCE.',
+    'approximate',
+  ),
+  row(
+    'la_tene',
+    'La Tène',
+    -450,
+    -50,
+    'culture',
+    'Appendix B: La Tène c.450–50 BCE.',
+    'approximate',
+  ),
+  row(
+    'anglo_saxons',
+    'Anglo-Saxons',
+    410,
+    1066,
+    'people',
+    'Appendix B: Anglo-Saxons c.410–1066.',
+    'approximate',
+  ),
+  row(
+    'vikings',
+    'Vikings',
+    793,
+    1066,
+    'people',
+    'Appendix B: Vikings c.793–1066.',
+    'approximate',
+  ),
+  row(
+    'kingdom_of_england',
+    'England',
+    1066,
+    1707,
+    'state',
+    'Appendix B: Norman England 1066, then England until Great Britain in 1707.',
+  ),
+  row(
+    'great_britain',
+    'Great Britain',
+    1707,
+    1801,
+    'state',
+    'Appendix B: Great Britain 1707, then the UK in 1801.',
+  ),
+  row(
+    'united_kingdom',
+    'United Kingdom',
+    1801,
+    2000,
+    'state',
+    'Appendix B: UK 1801–. Skeleton ends at 2000. The migrated british_empire bundle stays.',
+  ),
+  row(
+    'kalmar_union',
+    'Kalmar Union',
+    1397,
+    1523,
+    'confederation',
+    'Appendix B: Kalmar Union 1397–1523.',
+  ),
+  kingdom('denmark', 'Denmark'),
+  kingdom('sweden', 'Sweden'),
+  kingdom('norway', 'Norway'),
+];
