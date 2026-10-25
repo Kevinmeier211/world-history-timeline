@@ -30,7 +30,7 @@ Affects tasks: T1.09, T5.10, T5.11.
 
 Why it matters: Appendix B names some polities without a start or end (Mixtec is the first). A skeleton still needs integer years. Guessing a span would be a new historical claim.
 
-Default applied: Omit the undated name and meet the family count with dated checklist rows, including group successors when the checklist names a group and a year band but not each state (Central American states, 1821/1838; African independence, 1950s–70s). Those successor rows use `confidence: debated` and say the checklist did not name each state. Undated names skipped so far: Mixtec (T1.11), Thule (T1.12), medieval Serbia (T1.18), Aragon, Castile, and Habsburg Austria (T1.19, no start year), Gaul (end only, 51 BCE) and Germanic tribes (T1.20), Sarmatians and Muscovy (T1.21, no start year). Further names will be added here.
+Default applied: Omit the undated name and meet the family count with dated checklist rows, including group successors when the checklist names a group and a year band but not each state (Central American states, 1821/1838; African independence, 1950s–70s). Those successor rows use `confidence: debated` and say the checklist did not name each state. Undated names skipped so far: Mixtec (T1.11), Thule (T1.12), medieval Serbia (T1.18), Aragon, Castile, and Habsburg Austria (T1.19, no start year), Gaul (end only, 51 BCE) and Germanic tribes (T1.20), Sarmatians and Muscovy (T1.21, no start year), Xianbei and Chagatai (T1.23). Further names will be added here.
 
 Affects tasks: T1.11–T1.27.
 
