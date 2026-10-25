@@ -13,7 +13,8 @@
 | T0.09 | done   | 529e2f4       | `npm run design:lint` ok; `vitest` 8 tests passed                                                                               | 18      | Five §13.6 rules. Legacy allowlist is tested and limited to v1 plus index.html.                                                                    |
 | T0.10 | done   | c960ae9       | `npm run check` exit 0                                                                                                          | 15      | Palette, validate, layout, shots, perf, media, and export scripts are stubs with named replacement tasks. `media:fetch` exits gated.               |
 | T0.11 | done   | b9e3968       | `npm run shots` → 12 PNGs in `docs/shots/v1/`                                                                                   | 20      | Desktop and wide show bronze, classical, and modern chart positions. Mobile v1 covers the chart with the open dossier, so those four frames match. |
-| T0.12 | done   | (this commit) | `docs/CONTEXT.md` rewritten with commands, layout, and gotchas                                                                  | 8       | P0 exit still needs a production build, then merge into `v2/main`.                                                                                 |
+| T0.12 | done   | 30271ba       | `docs/CONTEXT.md` rewritten with commands, layout, and gotchas                                                                  | 8       | P0 merged to `v2/main` as `328b547` and tagged `v2-p0-done`. `npm run build` succeeded.                                                            |
+| T1.01 | done   | (this commit) | `vitest` schema tests passed                                                                                                    | 25      | Zod schemas for every §6.3 entity plus verification, endpoints, spanLanes, and group.                                                              |
 
 ## Blocked
 

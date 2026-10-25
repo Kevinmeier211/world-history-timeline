@@ -31,3 +31,13 @@ Alternatives: Fail `design:lint` on v1 now, or loosen the rules so the current C
 Why: T0.11 still needs an untouched v1 screenshot, and T3.01 / T3.16 are the tasks that remove Google fonts and the old canvas. The allowlist is a constant asserted by a test so it cannot grow quietly.
 
 Reversible? y
+
+## 2026-10-25 — Year 0 is invalid data, and endpoints are explicit
+
+Decision: Schema years reject `0`. Alternative political ends (Safavid 1722/1736 and the like) go in optional `endpoints` notes instead of a second silent `end`.
+
+Alternatives: Allow `0` and map it only at display time. Store one end and mention the other only in prose.
+
+Why: The date policy says display has no year 0 and debated ends must not be chosen silently. Rejecting `0` in the schema makes the mistake fail validation.
+
+Reversible? y
