@@ -111,3 +111,13 @@ Alternatives: Add empty routes and presets until the counts match the plan sente
 Why: Those extra rows are not in the tagged source. Inventing them would be new historical content.
 
 Reversible? y
+
+## 2026-10-25 — Checklist rows sit beside the v1 bundles
+
+Decision: Appendix B entries that are not already a v1 id go in `src/data/polities/<family>-skeleton.json`. They stay `verification: unverified`, importance 2, and the summary is only the checklist label (≤ 30 words). `c.` ranges use `confidence: approximate`. Plain checklist years use `conventional`. A named cluster with no single year, such as Andean independence in the 1810s–1830s, starts at the edge of that band and ends at 2000, with that limit written in `dateNote`. Anchors use the same v1 column `xKey` as the migrated rows. v1 bundles such as `nazca_moche` stay, so a checklist split can share the chart until a later pass merges them. A family is checked against its Appendix E minimum only after its skeleton file exists.
+
+Alternatives: Replace the v1 bundles in place. Invent years for names the checklist does not date.
+
+Why: Callouts still point at the v1 ids. Deleting those ids would break validation. Undated names are left out rather than given a made-up span.
+
+Reversible? y
