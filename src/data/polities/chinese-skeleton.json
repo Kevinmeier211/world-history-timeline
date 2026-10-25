@@ -1,0 +1,278 @@
+[
+  {
+    "id": "liangzhu",
+    "name": "Liangzhu",
+    "family": "chinese",
+    "start": -3300,
+    "end": -2300,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Liangzhu c.3300–2300 BCE. The migrated neolithic bundle stays.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "culture",
+    "anchor": [
+      {
+        "year": -3300,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Liangzhu is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "erlitou",
+    "name": "Erlitou",
+    "family": "chinese",
+    "start": -1900,
+    "end": -1500,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Erlitou c.1900–1500 BCE. The Xia link is marked debated there and is not a separate row.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "culture",
+    "anchor": [
+      {
+        "year": -1900,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Erlitou is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "western_zhou",
+    "name": "Western Zhou",
+    "family": "chinese",
+    "start": -1046,
+    "end": -771,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Western Zhou 1046–771 BCE. The migrated zhou_dynasty bundle stays.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -1046,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Western Zhou is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "spring_autumn",
+    "name": "Spring and Autumn",
+    "family": "chinese",
+    "start": -770,
+    "end": -476,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Spring and Autumn 770–476 BCE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": -770,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Spring and Autumn is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "warring_states",
+    "name": "Warring States",
+    "family": "chinese",
+    "start": -475,
+    "end": -221,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Warring States 475–221 BCE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": -475,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Warring States is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "qin",
+    "name": "Qin",
+    "family": "chinese",
+    "start": -221,
+    "end": -206,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Qin 221–206 BCE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": -221,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Qin is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "western_han",
+    "name": "Western Han",
+    "family": "chinese",
+    "start": -206,
+    "end": 9,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Western Han 206 BCE–9 CE. The migrated han_dynasty bundle stays.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": -206,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Western Han is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "xin",
+    "name": "Xin",
+    "family": "chinese",
+    "start": 9,
+    "end": 23,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Xin 9–23.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 9,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Xin is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "china_23",
+    "name": "China in 23–25",
+    "family": "chinese",
+    "start": 23,
+    "end": 25,
+    "confidence": "debated",
+    "dateNote": "Appendix B ends Xin at 23 and starts Eastern Han at 25. It does not name the interval.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": 23,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "China in 23–25 is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "eastern_han",
+    "name": "Eastern Han",
+    "family": "chinese",
+    "start": 25,
+    "end": 220,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Eastern Han 25–220.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 25,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Eastern Han is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "three_kingdoms",
+    "name": "Three Kingdoms",
+    "family": "chinese",
+    "start": 220,
+    "end": 280,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Three Kingdoms 220–280.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": 220,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Three Kingdoms is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "jin_266",
+    "name": "Jin",
+    "family": "chinese",
+    "start": 266,
+    "end": 420,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Jin 266–420.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 266,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Jin is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  }
+]

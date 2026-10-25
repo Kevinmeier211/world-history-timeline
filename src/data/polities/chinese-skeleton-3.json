@@ -1,0 +1,48 @@
+[
+  {
+    "id": "roc",
+    "name": "Republic of China",
+    "family": "chinese",
+    "start": 1912,
+    "end": 2000,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: ROC 1912–. Skeleton ends at 2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1912,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Republic of China is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "prc",
+    "name": "People's Republic of China",
+    "family": "chinese",
+    "start": 1949,
+    "end": 2000,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: PRC 1949–. Skeleton ends at 2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1949,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "People's Republic of China is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  }
+]

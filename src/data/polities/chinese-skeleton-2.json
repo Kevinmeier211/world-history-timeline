@@ -1,0 +1,278 @@
+[
+  {
+    "id": "northern_southern",
+    "name": "Northern and Southern dynasties",
+    "family": "chinese",
+    "start": 420,
+    "end": 589,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Northern and Southern dynasties 420–589.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": 420,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Northern and Southern dynasties is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "sui",
+    "name": "Sui",
+    "family": "chinese",
+    "start": 581,
+    "end": 618,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Sui 581–618.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 581,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Sui is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "tang",
+    "name": "Tang",
+    "family": "chinese",
+    "start": 618,
+    "end": 907,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Tang 618–907. Distinct from the migrated tang_song_dynasty bundle.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 618,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Tang is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "five_dynasties",
+    "name": "Five Dynasties",
+    "family": "chinese",
+    "start": 907,
+    "end": 960,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Five Dynasties 907–960.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": 907,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Five Dynasties is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "liao",
+    "name": "Liao",
+    "family": "chinese",
+    "start": 916,
+    "end": 1125,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Liao 916–1125. Distinct from khitan_liao.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 916,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Liao is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "northern_song",
+    "name": "Northern Song",
+    "family": "chinese",
+    "start": 960,
+    "end": 1127,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Northern Song 960–1127.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 960,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Northern Song is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "southern_song",
+    "name": "Southern Song",
+    "family": "chinese",
+    "start": 1127,
+    "end": 1279,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Southern Song 1127–1279.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1127,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Southern Song is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "western_xia",
+    "name": "Western Xia",
+    "family": "chinese",
+    "start": 1038,
+    "end": 1227,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Western Xia 1038–1227.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1038,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Western Xia is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "jin_1115",
+    "name": "Jin",
+    "family": "chinese",
+    "start": 1115,
+    "end": 1234,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Jin 1115–1234. Distinct from jurchen_jin.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1115,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Jin is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "yuan_china",
+    "name": "Yuan",
+    "family": "chinese",
+    "start": 1271,
+    "end": 1368,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Yuan 1271–1368. Distinct from the Turkic yuan row.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1271,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Yuan is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "ming",
+    "name": "Ming",
+    "family": "chinese",
+    "start": 1368,
+    "end": 1644,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Ming 1368–1644. Distinct from the migrated ming_qing_china bundle.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 1368,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Ming is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "qing",
+    "name": "Qing",
+    "family": "chinese",
+    "start": 1644,
+    "end": 1912,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Qing 1644–1912.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 1644,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Qing is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  }
+]
