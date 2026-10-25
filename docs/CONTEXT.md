@@ -20,4 +20,4 @@ Poster and both Gemini PDFs are missing (Q-01). Gemini bibliography [1]–[37] w
 
 ## Next
 
-T1.24 India and South Asia checklist skeleton (`indian`, minimum 28). Then T1.25 through T1.27, T1.28 relations, T1.29 era minimums, T1.30 unverified report, T1.31 overrides, T1.99 phase gate. Do not start P8.
+T1.25 China checklist skeleton (`chinese`, minimum 32). Then T1.26, T1.27, T1.28 relations, T1.29 era minimums, T1.30 unverified report, T1.31 overrides, T1.99 phase gate. Do not start P8.

@@ -1,0 +1,209 @@
+[
+  {
+    "id": "vijayanagara",
+    "name": "Vijayanagara",
+    "family": "indian",
+    "start": 1336,
+    "end": 1646,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Vijayanagara 1336–1646.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1336,
+        "xKey": "indus_india"
+      }
+    ],
+    "summary": "Vijayanagara is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "india_1857",
+    "name": "South Asia in 1857–1858",
+    "family": "indian",
+    "start": 1857,
+    "end": 1858,
+    "confidence": "debated",
+    "dateNote": "Appendix B ends the Mughal line at 1857 and starts the British Raj at 1858. It does not name the interval.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": 1857,
+        "xKey": "indus_india"
+      }
+    ],
+    "summary": "South Asia in 1857–1858 is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "maratha",
+    "name": "Maratha",
+    "family": "indian",
+    "start": 1674,
+    "end": 1818,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Maratha 1674–1818.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1674,
+        "xKey": "indus_india"
+      }
+    ],
+    "summary": "Maratha is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "sikh_empire",
+    "name": "Sikh Empire",
+    "family": "indian",
+    "start": 1799,
+    "end": 1849,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Sikh Empire 1799–1849.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 1799,
+        "xKey": "indus_india"
+      }
+    ],
+    "summary": "Sikh Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "british_raj",
+    "name": "British Raj",
+    "family": "indian",
+    "start": 1858,
+    "end": 1947,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: British Raj 1858–1947.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1858,
+        "xKey": "indus_india"
+      }
+    ],
+    "summary": "British Raj is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "india",
+    "name": "India",
+    "family": "indian",
+    "start": 1947,
+    "end": 2000,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: India/Pakistan 1947–. Skeleton ends at 2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1947,
+        "xKey": "indus_india"
+      }
+    ],
+    "summary": "India is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "pakistan",
+    "name": "Pakistan",
+    "family": "indian",
+    "start": 1947,
+    "end": 2000,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: India/Pakistan 1947–. Skeleton ends at 2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1947,
+        "xKey": "indus_india"
+      }
+    ],
+    "summary": "Pakistan is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "bangladesh",
+    "name": "Bangladesh",
+    "family": "indian",
+    "start": 1971,
+    "end": 2000,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Bangladesh 1971–. Skeleton ends at 2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1971,
+        "xKey": "indus_india"
+      }
+    ],
+    "summary": "Bangladesh is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "tibetan_empire",
+    "name": "Tibetan Empire",
+    "family": "indian",
+    "start": 618,
+    "end": 842,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Tibetan Empire c.618–842.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 618,
+        "xKey": "indus_india"
+      }
+    ],
+    "summary": "Tibetan Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  }
+]
