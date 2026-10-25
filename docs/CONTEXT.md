@@ -20,4 +20,4 @@ Poster and both Gemini PDFs are missing (Q-01). Gemini bibliography [1]–[37] w
 
 ## Next
 
-T1.27 Southeast Asia and Oceania checklist skeleton (`southeast_oceanian`, minimum 28). Then T1.28 relations, T1.29 era minimums, T1.30 unverified report, T1.31 overrides, T1.99 phase gate. Do not start P8.
+T1.28 cross-family relations so orphan warnings reach 0 or a reasoned whitelist. Then T1.29 era minimums, T1.30 unverified report, T1.31 overrides, T1.99 phase gate. Do not start P8.

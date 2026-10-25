@@ -1,0 +1,278 @@
+[
+  {
+    "id": "dong_son",
+    "name": "Dong Son",
+    "family": "southeast_oceanian",
+    "start": -700,
+    "end": 100,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Dong Son c.700 BCE–100 CE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "culture",
+    "anchor": [
+      {
+        "year": -700,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Dong Son is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["field_museum", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "funan",
+    "name": "Funan",
+    "family": "southeast_oceanian",
+    "start": 68,
+    "end": 550,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Funan c.68–550.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 68,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Funan is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["field_museum", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "champa",
+    "name": "Champa",
+    "family": "southeast_oceanian",
+    "start": 192,
+    "end": 1832,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Champa 192–1832.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 192,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Champa is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["field_museum", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "srivijaya",
+    "name": "Srivijaya",
+    "family": "southeast_oceanian",
+    "start": 650,
+    "end": 1377,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Srivijaya c.650–1377.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 650,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Srivijaya is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["field_museum", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "pagan",
+    "name": "Pagan",
+    "family": "southeast_oceanian",
+    "start": 849,
+    "end": 1297,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Pagan 849–1297.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 849,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Pagan is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["field_museum", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "khmer_angkor",
+    "name": "Khmer Angkor",
+    "family": "southeast_oceanian",
+    "start": 802,
+    "end": 1431,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Khmer/Angkor 802–1431. The migrated khmer_majapahit_sea bundle stays.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 802,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Khmer Angkor is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["field_museum", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "dai_viet",
+    "name": "Dai Viet",
+    "family": "southeast_oceanian",
+    "start": 968,
+    "end": 2000,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Dai Viet 968–. Skeleton ends at 2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 968,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Dai Viet is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["field_museum", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "majapahit",
+    "name": "Majapahit",
+    "family": "southeast_oceanian",
+    "start": 1293,
+    "end": 1527,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Majapahit 1293–1527.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1293,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Majapahit is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["field_museum", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "ayutthaya",
+    "name": "Ayutthaya",
+    "family": "southeast_oceanian",
+    "start": 1351,
+    "end": 1767,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Ayutthaya 1351–1767.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1351,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Ayutthaya is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["field_museum", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "konbaung",
+    "name": "Konbaung",
+    "family": "southeast_oceanian",
+    "start": 1752,
+    "end": 1885,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Konbaung 1752–1885.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1752,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Konbaung is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["field_museum", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "nguyen",
+    "name": "Nguyen",
+    "family": "southeast_oceanian",
+    "start": 1802,
+    "end": 1945,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Nguyen 1802–1945.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1802,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Nguyen is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["field_museum", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "spanish_philippines",
+    "name": "Spanish Philippines",
+    "family": "southeast_oceanian",
+    "start": 1565,
+    "end": 1898,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Spanish Philippines 1565–1898.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1565,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Spanish Philippines is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["field_museum", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "id": "new_zealand",
+    "name": "New Zealand",
+    "family": "southeast_oceanian",
+    "start": 1840,
+    "end": 2000,
+    "confidence": "debated",
+    "dateNote": "Appendix B dates the Treaty of Waitangi at 1840 and does not name a later end. Skeleton uses 1840–2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1840,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "New Zealand is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["field_museum", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "australia",
+    "name": "Australia",
+    "family": "southeast_oceanian",
+    "start": 1901,
+    "end": 2000,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Australia federation 1901–. Skeleton ends at 2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1901,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Australia is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["field_museum", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "pacific_microstates",
+    "name": "Pacific micro-states",
+    "family": "southeast_oceanian",
+    "start": 1800,
+    "end": 2000,
+    "confidence": "debated",
+    "dateNote": "Section 15 groups micro-states. Appendix B does not name the later Pacific states. Skeleton uses 1800–2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "confederation",
+    "anchor": [
+      {
+        "year": 1800,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Pacific micro-states is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["field_museum", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  }
+]

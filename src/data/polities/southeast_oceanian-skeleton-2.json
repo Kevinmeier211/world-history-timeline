@@ -1,0 +1,292 @@
+[
+  {
+    "id": "philippines",
+    "name": "Philippines",
+    "family": "southeast_oceanian",
+    "start": 1898,
+    "end": 2000,
+    "confidence": "debated",
+    "dateNote": "Appendix B ends the Spanish Philippines at 1898 and does not name the later state. Skeleton uses 1898–2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1898,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Philippines is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["field_museum", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "voc",
+    "name": "VOC",
+    "family": "southeast_oceanian",
+    "start": 1602,
+    "end": 1799,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: VOC 1602–1799.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1602,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "VOC is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["field_museum", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "dutch_east_indies",
+    "name": "Dutch East Indies",
+    "family": "southeast_oceanian",
+    "start": 1799,
+    "end": 1945,
+    "confidence": "debated",
+    "dateNote": "Appendix B places the Dutch East Indies between the VOC end in 1799 and Indonesia in 1945 and does not give it years.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1799,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Dutch East Indies is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["field_museum", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "indonesia",
+    "name": "Indonesia",
+    "family": "southeast_oceanian",
+    "start": 1945,
+    "end": 2000,
+    "confidence": "debated",
+    "dateNote": "Appendix B: Indonesia 1945/49. The earlier listed year is the span start. Skeleton ends at 2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1945,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Indonesia is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["field_museum", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row.",
+    "endpoints": [
+      {
+        "label": "Appendix B alternate start",
+        "year": 1949,
+        "note": "Appendix B lists 1945/49 and does not say which year starts the state."
+      }
+    ]
+  },
+  {
+    "id": "thailand",
+    "name": "Thailand",
+    "family": "southeast_oceanian",
+    "start": 1800,
+    "end": 2000,
+    "confidence": "debated",
+    "dateNote": "Appendix B names Thailand/Siam and does not give a year. Skeleton uses 1800–2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1800,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Thailand is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["field_museum", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "vietnam",
+    "name": "Vietnam",
+    "family": "southeast_oceanian",
+    "start": 1945,
+    "end": 2000,
+    "confidence": "debated",
+    "dateNote": "Appendix B: Vietnam 1945/76. The earlier listed year is the span start. Skeleton ends at 2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1945,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Vietnam is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["field_museum", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row.",
+    "endpoints": [
+      {
+        "label": "Appendix B alternate year",
+        "year": 1976,
+        "note": "Appendix B lists 1945/76 and does not say which year starts the state."
+      }
+    ]
+  },
+  {
+    "id": "lapita",
+    "name": "Lapita",
+    "family": "southeast_oceanian",
+    "start": -1600,
+    "end": -500,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Lapita c.1600–500 BCE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "culture",
+    "anchor": [
+      {
+        "year": -1600,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Lapita is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["field_museum", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "tonga",
+    "name": "Tonga",
+    "family": "southeast_oceanian",
+    "start": -900,
+    "end": 1300,
+    "confidence": "debated",
+    "dateNote": "Appendix B dates Tonga at c.900 BCE inside a Polynesian expansion whose latest checklist year is c.1300. It does not give the island its own span.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "culture",
+    "anchor": [
+      {
+        "year": -900,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Tonga is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["field_museum", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "samoa",
+    "name": "Samoa",
+    "family": "southeast_oceanian",
+    "start": -900,
+    "end": 1300,
+    "confidence": "debated",
+    "dateNote": "Appendix B dates Samoa at c.900 BCE inside a Polynesian expansion whose latest checklist year is c.1300. It does not give the island its own span.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "culture",
+    "anchor": [
+      {
+        "year": -900,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Samoa is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["field_museum", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "east_polynesia",
+    "name": "East Polynesia",
+    "family": "southeast_oceanian",
+    "start": 1000,
+    "end": 1300,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: East Polynesia c.1000–1300 CE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "culture",
+    "anchor": [
+      {
+        "year": 1000,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "East Polynesia is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["field_museum", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "aotearoa",
+    "name": "Aotearoa",
+    "family": "southeast_oceanian",
+    "start": 1250,
+    "end": 1300,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Aotearoa c.1250–1300. The checklist gives a settlement window, not a political end.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "culture",
+    "anchor": [
+      {
+        "year": 1250,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Aotearoa is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["field_museum", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "nsw_colony",
+    "name": "NSW colony",
+    "family": "southeast_oceanian",
+    "start": 1788,
+    "end": 1901,
+    "confidence": "debated",
+    "dateNote": "Appendix B dates the NSW colony at 1788 and Australian federation at 1901 and does not give the colony an end.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1788,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "NSW colony is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["field_museum", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  }
+]
