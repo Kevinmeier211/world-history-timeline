@@ -61,3 +61,13 @@ Alternatives: Keep `@types/culori` and cast through `any`.
 Why: Those published types make `differenceCiede2000()` a union too large for `tsc` to represent (`TS2590`). A narrow local declaration typechecks the calls we actually make.
 
 Reversible? y
+
+## 2026-10-25 — v1 data barrel moved to `legacy.ts`
+
+Decision: `src/data/index.ts` is the v2 catalog entry. The previous barrel lives in `src/data/legacy.ts` and is re-exported so the v1 app keeps compiling until T3.16.
+
+Alternatives: Replace the barrel now and update every v1 import. Leave the v2 catalog under a second filename.
+
+Why: The plan names `src/data/index.ts` as the loader. Keeping the v1 names exported avoids a broken chart before the renderer swap.
+
+Reversible? y
