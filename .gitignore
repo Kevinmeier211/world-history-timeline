@@ -6,7 +6,14 @@ node_modules/
 # Build output
 dist/
 dist-ssr/
+dist-print/
 *.local
+
+# Media pipeline cache and test artifacts
+media-cache/
+test-results/
+playwright-report/
+*.tsbuildinfo
 
 # Logs
 npm-debug.log*
