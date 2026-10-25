@@ -1,0 +1,278 @@
+[
+  {
+    "id": "jomon",
+    "name": "Jōmon",
+    "family": "korean_japanese",
+    "start": -14000,
+    "end": -300,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Jōmon c.14000–300 BCE. The start is before the chart window and is not clipped.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "culture",
+    "anchor": [
+      {
+        "year": -14000,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Jōmon is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["korea_national", "tokyo_national"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "yayoi",
+    "name": "Yayoi",
+    "family": "korean_japanese",
+    "start": -300,
+    "end": 300,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Yayoi c.300 BCE–300 CE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "culture",
+    "anchor": [
+      {
+        "year": -300,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Yayoi is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["korea_national", "tokyo_national"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "kofun",
+    "name": "Kofun",
+    "family": "korean_japanese",
+    "start": 250,
+    "end": 538,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Kofun c.250–538.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": 250,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Kofun is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["korea_national", "tokyo_national"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "asuka",
+    "name": "Asuka",
+    "family": "korean_japanese",
+    "start": 538,
+    "end": 710,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Asuka 538–710.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": 538,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Asuka is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["korea_national", "tokyo_national"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "nara",
+    "name": "Nara",
+    "family": "korean_japanese",
+    "start": 710,
+    "end": 794,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Nara 710–794.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": 710,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Nara is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["korea_national", "tokyo_national"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "heian",
+    "name": "Heian",
+    "family": "korean_japanese",
+    "start": 794,
+    "end": 1185,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Heian 794–1185.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": 794,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Heian is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["korea_national", "tokyo_national"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "kamakura",
+    "name": "Kamakura",
+    "family": "korean_japanese",
+    "start": 1185,
+    "end": 1333,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Kamakura 1185–1333.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": 1185,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Kamakura is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["korea_national", "tokyo_national"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "muromachi",
+    "name": "Muromachi",
+    "family": "korean_japanese",
+    "start": 1336,
+    "end": 1573,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Muromachi 1336–1573.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": 1336,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Muromachi is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["korea_national", "tokyo_national"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "azuchi_momoyama",
+    "name": "Azuchi-Momoyama",
+    "family": "korean_japanese",
+    "start": 1573,
+    "end": 1603,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Azuchi–Momoyama 1573–1603.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": 1573,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Azuchi-Momoyama is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["korea_national", "tokyo_national"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "tokugawa",
+    "name": "Tokugawa",
+    "family": "korean_japanese",
+    "start": 1603,
+    "end": 1868,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Tokugawa 1603–1868.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1603,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Tokugawa is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["korea_national", "tokyo_national"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "meiji",
+    "name": "Meiji",
+    "family": "korean_japanese",
+    "start": 1868,
+    "end": 1912,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Meiji 1868–1912.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": 1868,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Meiji is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["korea_national", "tokyo_national"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "empire_of_japan",
+    "name": "Empire of Japan",
+    "family": "korean_japanese",
+    "start": 1868,
+    "end": 1947,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Empire of Japan 1868–1947. The migrated japan_timeline bundle stays.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 1868,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Empire of Japan is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["korea_national", "tokyo_national"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  }
+]

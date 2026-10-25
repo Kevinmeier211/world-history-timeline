@@ -1,0 +1,48 @@
+[
+  {
+    "id": "japan",
+    "name": "Japan",
+    "family": "korean_japanese",
+    "start": 1947,
+    "end": 2000,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Japan 1947–. Skeleton ends at 2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1947,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Japan is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["korea_national", "tokyo_national"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "ryukyu",
+    "name": "Ryukyu Kingdom",
+    "family": "korean_japanese",
+    "start": 1429,
+    "end": 1879,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Ryukyu Kingdom 1429–1879.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1429,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Ryukyu Kingdom is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["korea_national", "tokyo_national"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  }
+]
