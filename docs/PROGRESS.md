@@ -27,7 +27,8 @@
 | T1.11 | done   | bf810a0       | mesoamerican count ≥ 19; roster test passed                                                                                     | 15      | Mixtec omitted (Q-04). Central American republics are debated splits of the 1821/1838 checklist line.                                                |
 | T1.12 | done   | cca090a       | north_american count ≥ 14; roster test passed                                                                                   | 12      | Thule omitted (Q-04). Haudenosaunee starts at 1400, the edge of the checklist's 15th century.                                                        |
 | T1.13 | done   | 482af6d       | sub_saharan count ≥ 35; roster test passed                                                                                      | 25      | Kush, Sahel, and southern states from Appendix B. Independence states are a debated split of the 1950s–70s line.                                     |
-| T1.14 | done   | (this commit) | nile_egyptian count ≥ 18; roster test passed                                                                                    | 15      | 15 checklist rows beside the 3 migrated kingdoms. The unnamed 332–305 BCE gap is a debated period, not a named dynasty.                              |
+| T1.14 | done   | 8362abc       | nile_egyptian count ≥ 18; roster test passed                                                                                    | 15      | 15 checklist rows beside the 3 migrated kingdoms. The unnamed 332–305 BCE gap is a debated period, not a named dynasty.                              |
+| T1.15 | done   | (this commit) | mesopotamian count ≥ 14; roster test passed                                                                                     | 15      | 12 checklist rows beside the 4 migrated bundles. Hittites stay the v1 id.                                                                            |
 
 ## Blocked
 
