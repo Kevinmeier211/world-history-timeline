@@ -24,7 +24,8 @@
 | T1.08 | done   | a7716a0       | `migrate-v1` wrote 69 polities; `validate:data` exit 0 (69 orphan warnings, relations come in T1.28)                            | 35      | Column map plus 14 lineage overrides in DECISIONS. Anchors use `xKey`, not fabricated coordinates. All rows `verification: unverified`.              |
 | T1.09 | done   | f07adbb       | annotation test: 58 callouts, 11 bands, 6 routes, 3 tours, 5 presets; climate curve schema passed                               | 30      | Tag counts, not the plan's 9 routes and 16 presets (Q-03). Blurbs clipped to 14 words. All migrated rows stay unverified.                            |
 | T1.10 | done   | ec91259       | andean count ≥ 23 after `apply-roster andean`; roster test passed                                                               | 20      | 16 checklist rows beside the 7 migrated bundles. Independence years stay inside the 1810s–1830s band.                                                |
-| T1.11 | done   | (this commit) | mesoamerican count ≥ 19; roster test passed                                                                                     | 15      | Mixtec omitted (Q-04). Central American republics are debated splits of the 1821/1838 checklist line.                                                |
+| T1.11 | done   | bf810a0       | mesoamerican count ≥ 19; roster test passed                                                                                     | 15      | Mixtec omitted (Q-04). Central American republics are debated splits of the 1821/1838 checklist line.                                                |
+| T1.12 | done   | (this commit) | north_american count ≥ 14; roster test passed                                                                                   | 12      | Thule omitted (Q-04). Haudenosaunee starts at 1400, the edge of the checklist's 15th century.                                                        |
 
 ## Blocked
 

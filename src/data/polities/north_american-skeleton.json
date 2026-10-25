@@ -1,0 +1,186 @@
+[
+  {
+    "id": "adena",
+    "name": "Adena",
+    "family": "north_american",
+    "start": -1000,
+    "end": -200,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: c.1000–200 BCE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "culture",
+    "anchor": [
+      {
+        "year": -1000,
+        "xKey": "north_america"
+      }
+    ],
+    "summary": "Adena is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["field_museum", "dpla"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "cahokia",
+    "name": "Cahokia",
+    "family": "north_american",
+    "start": 1050,
+    "end": 1350,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Cahokia c.1050–1350.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1050,
+        "xKey": "north_america"
+      }
+    ],
+    "summary": "Cahokia is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["field_museum", "dpla"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "haudenosaunee",
+    "name": "Haudenosaunee Confederacy",
+    "family": "north_american",
+    "start": 1400,
+    "end": 2000,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: 15th century–. Skeleton starts at 1400, the edge of that century, and ends at 2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "confederation",
+    "anchor": [
+      {
+        "year": 1400,
+        "xKey": "north_america"
+      }
+    ],
+    "summary": "Haudenosaunee Confederacy is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["field_museum", "dpla"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "new_france",
+    "name": "New France",
+    "family": "north_american",
+    "start": 1534,
+    "end": 1763,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: 1534–1763.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1534,
+        "xKey": "north_america"
+      }
+    ],
+    "summary": "New France is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["field_museum", "dpla"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "thirteen_colonies",
+    "name": "Thirteen Colonies",
+    "family": "north_american",
+    "start": 1607,
+    "end": 1776,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: 1607–1776.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1607,
+        "xKey": "north_america"
+      }
+    ],
+    "summary": "Thirteen Colonies is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["field_museum", "dpla"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "united_states",
+    "name": "United States",
+    "family": "north_american",
+    "start": 1776,
+    "end": 2000,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: USA 1776–. Skeleton ends at 2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1776,
+        "xKey": "north_america"
+      }
+    ],
+    "summary": "United States is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["field_museum", "dpla"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "canada",
+    "name": "Canada",
+    "family": "north_american",
+    "start": 1867,
+    "end": 2000,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Canada 1867–. Skeleton ends at 2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1867,
+        "xKey": "north_america"
+      }
+    ],
+    "summary": "Canada is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["field_museum", "dpla"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "russian_america",
+    "name": "Russian America",
+    "family": "north_american",
+    "start": 1799,
+    "end": 1867,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: 1799–1867.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1799,
+        "xKey": "north_america"
+      }
+    ],
+    "summary": "Russian America is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["field_museum", "dpla"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  }
+]
