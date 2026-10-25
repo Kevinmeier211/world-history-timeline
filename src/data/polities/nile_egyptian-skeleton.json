@@ -1,0 +1,278 @@
+[
+  {
+    "id": "early_dynastic_egypt",
+    "name": "Early Dynastic Egypt",
+    "family": "nile_egyptian",
+    "start": -3100,
+    "end": -2686,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: c.3100–2686 BCE. The migrated Old Kingdom bundle still covers this span.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": -3100,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Early Dynastic Egypt is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "unesco_gha"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "first_intermediate_egypt",
+    "name": "First Intermediate Period",
+    "family": "nile_egyptian",
+    "start": -2181,
+    "end": -2055,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: First Intermediate 2181–2055 BCE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": -2181,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "First Intermediate Period is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "unesco_gha"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "second_intermediate_egypt",
+    "name": "Second Intermediate Period",
+    "family": "nile_egyptian",
+    "start": -1650,
+    "end": -1550,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Second Intermediate 1650–1550 BCE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": -1650,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Second Intermediate Period is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "unesco_gha"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "third_intermediate_egypt",
+    "name": "Third Intermediate Period",
+    "family": "nile_egyptian",
+    "start": -1069,
+    "end": -664,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Third Intermediate 1069–664 BCE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": -1069,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Third Intermediate Period is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "unesco_gha"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "late_period_egypt",
+    "name": "Late Period Egypt",
+    "family": "nile_egyptian",
+    "start": -664,
+    "end": -332,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Late Period 664–332 BCE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": -664,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Late Period Egypt is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "unesco_gha"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "egypt_late_to_ptolemaic",
+    "name": "Egypt between Late Period and Ptolemaic",
+    "family": "nile_egyptian",
+    "start": -332,
+    "end": -305,
+    "confidence": "debated",
+    "dateNote": "Appendix B ends the Late Period at 332 BCE and starts the Ptolemaic period at 305 BCE. It does not name this interval.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": -332,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Egypt between Late Period and Ptolemaic is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "unesco_gha"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "ptolemaic_egypt",
+    "name": "Ptolemaic Egypt",
+    "family": "nile_egyptian",
+    "start": -305,
+    "end": -30,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Ptolemaic 305–30 BCE. Distinct from the migrated ptolemaic_seleucid bundle.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -305,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Ptolemaic Egypt is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "unesco_gha"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "roman_egypt",
+    "name": "Roman Egypt",
+    "family": "nile_egyptian",
+    "start": -30,
+    "end": 641,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Roman Egypt 30 BCE–641 CE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -30,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Roman Egypt is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "unesco_gha"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "tulunid_egypt",
+    "name": "Tulunid Egypt",
+    "family": "nile_egyptian",
+    "start": 868,
+    "end": 905,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Tulunid 868–905.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 868,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Tulunid Egypt is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "unesco_gha"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "fatimid_egypt",
+    "name": "Fatimid Egypt",
+    "family": "nile_egyptian",
+    "start": 969,
+    "end": 1171,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Fatimid 969–1171. Nile copy; an Islamic-family row can use another id.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 969,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Fatimid Egypt is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "unesco_gha"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "ayyubid_egypt",
+    "name": "Ayyubid Egypt",
+    "family": "nile_egyptian",
+    "start": 1171,
+    "end": 1250,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Ayyubid 1171–1250.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1171,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Ayyubid Egypt is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "unesco_gha"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "mamluk_egypt",
+    "name": "Mamluk Egypt",
+    "family": "nile_egyptian",
+    "start": 1250,
+    "end": 1517,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Mamluk 1250–1517. Nile copy so a later Islamic row can keep its own id.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1250,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Mamluk Egypt is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "unesco_gha"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  }
+]

@@ -20,4 +20,4 @@ Poster and both Gemini PDFs are missing (Q-01). Gemini bibliography [1]–[37] w
 
 ## Next
 
-T1.14 Nile and Egypt checklist skeleton (`nile_egyptian`, minimum 18). Then T1.15 through T1.27, T1.28 relations, T1.29 era minimums, T1.30 unverified report, T1.31 overrides, T1.99 phase gate. Do not start P8.
+T1.15 Mesopotamia and West Asia checklist skeleton (`mesopotamian`, minimum 14). Then T1.16 through T1.27, T1.28 relations, T1.29 era minimums, T1.30 unverified report, T1.31 overrides, T1.99 phase gate. Do not start P8.

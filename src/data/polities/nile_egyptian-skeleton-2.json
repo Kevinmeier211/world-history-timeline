@@ -1,0 +1,71 @@
+[
+  {
+    "id": "ottoman_egypt",
+    "name": "Ottoman Egypt",
+    "family": "nile_egyptian",
+    "start": 1517,
+    "end": 1805,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Ottoman Egypt 1517–1805.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1517,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Ottoman Egypt is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "unesco_gha"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "muhammad_ali_egypt",
+    "name": "Muhammad Ali dynasty",
+    "family": "nile_egyptian",
+    "start": 1805,
+    "end": 1953,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Muhammad Ali dynasty 1805–1953.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1805,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Muhammad Ali dynasty is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "unesco_gha"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "egypt_republic",
+    "name": "Republic of Egypt",
+    "family": "nile_egyptian",
+    "start": 1953,
+    "end": 2000,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Republic 1953–. Skeleton ends at 2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1953,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Republic of Egypt is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "unesco_gha"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  }
+]
