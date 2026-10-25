@@ -1,0 +1,278 @@
+[
+  {
+    "id": "etruscans",
+    "name": "Etruscans",
+    "family": "latin_west",
+    "start": -900,
+    "end": -264,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Etruscans c.900–264 BCE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "culture",
+    "anchor": [
+      {
+        "year": -900,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Etruscans is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "roman_kingdom",
+    "name": "Roman Kingdom",
+    "family": "latin_west",
+    "start": -753,
+    "end": -509,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Roman Kingdom (trad.) 753–509 BCE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -753,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Roman Kingdom is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "republic_of_rome",
+    "name": "Roman Republic",
+    "family": "latin_west",
+    "start": -509,
+    "end": -27,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Republic 509–27 BCE. The migrated roman_republic bundle still includes the kingdom.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -509,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Roman Republic is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "ostrogoths",
+    "name": "Ostrogoths",
+    "family": "latin_west",
+    "start": 493,
+    "end": 553,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Ostrogoths 493–553.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 493,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Ostrogoths is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "visigoths",
+    "name": "Visigoths",
+    "family": "latin_west",
+    "start": -418,
+    "end": 711,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Visigoths c.418–711.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -418,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Visigoths is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "vandals",
+    "name": "Vandals",
+    "family": "latin_west",
+    "start": 429,
+    "end": 534,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Vandals 429–534.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 429,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Vandals is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "lombards",
+    "name": "Lombards",
+    "family": "latin_west",
+    "start": 568,
+    "end": 774,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Lombards 568–774.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 568,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Lombards is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "merovingian_franks",
+    "name": "Merovingian Franks",
+    "family": "latin_west",
+    "start": 481,
+    "end": 751,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Merovingian Franks 481–751.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 481,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Merovingian Franks is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "carolingian",
+    "name": "Carolingian Empire",
+    "family": "latin_west",
+    "start": 751,
+    "end": 843,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Carolingian 751–843.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 751,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Carolingian Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "west_francia",
+    "name": "West Francia",
+    "family": "latin_west",
+    "start": 843,
+    "end": 987,
+    "confidence": "debated",
+    "dateNote": "Appendix B places West Francia between the Carolingian end in 843 and Capetian France in 987 and does not give it years.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 843,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "West Francia is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "capetian_france",
+    "name": "Capetian France",
+    "family": "latin_west",
+    "start": 987,
+    "end": 2000,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Capetian 987–. Skeleton ends at 2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 987,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Capetian France is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "east_francia",
+    "name": "East Francia",
+    "family": "latin_west",
+    "start": 843,
+    "end": 962,
+    "confidence": "debated",
+    "dateNote": "Appendix B places East Francia between the Carolingian end in 843 and the Holy Roman Empire in 962 and does not give it years.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 843,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "East Francia is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  }
+]

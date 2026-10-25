@@ -1,0 +1,117 @@
+[
+  {
+    "id": "first_french_republic",
+    "name": "First French Republic",
+    "family": "latin_west",
+    "start": 1792,
+    "end": 1804,
+    "confidence": "debated",
+    "dateNote": "Appendix B dates the First Republic at 1792 and the Empire at 1804 and does not give the republic an end.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1792,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "First French Republic is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "first_french_empire",
+    "name": "First French Empire",
+    "family": "latin_west",
+    "start": 1804,
+    "end": 1814,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Empire 1804–14.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 1804,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "First French Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "belgium",
+    "name": "Belgium",
+    "family": "latin_west",
+    "start": 1800,
+    "end": 2000,
+    "confidence": "debated",
+    "dateNote": "Section 15 includes modern UN members. Appendix B does not date Belgium. Skeleton uses 1800–2000 and does not claim a founding year.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1800,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Belgium is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "switzerland",
+    "name": "Switzerland",
+    "family": "latin_west",
+    "start": 1800,
+    "end": 2000,
+    "confidence": "debated",
+    "dateNote": "Section 15 includes modern UN members. Appendix B does not date Switzerland. Skeleton uses 1800–2000 and does not claim a founding year.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1800,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Switzerland is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "western_european_microstates",
+    "name": "Western European micro-states",
+    "family": "latin_west",
+    "start": 1800,
+    "end": 2000,
+    "confidence": "debated",
+    "dateNote": "Section 15 groups micro-states. Appendix B does not name or date them. Skeleton uses 1800–2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "confederation",
+    "anchor": [
+      {
+        "year": 1800,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Western European micro-states is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  }
+]

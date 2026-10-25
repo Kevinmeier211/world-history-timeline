@@ -30,6 +30,14 @@ Affects tasks: T1.09, T5.10, T5.11.
 
 Why it matters: Appendix B names some polities without a start or end (Mixtec is the first). A skeleton still needs integer years. Guessing a span would be a new historical claim.
 
-Default applied: Omit the undated name and meet the family count with dated checklist rows, including group successors when the checklist names a group and a year band but not each state (Central American states, 1821/1838; African independence, 1950s–70s). Those successor rows use `confidence: debated` and say the checklist did not name each state. Undated names skipped so far: Mixtec (T1.11), Thule (T1.12), medieval Serbia (T1.18). Further names will be added here.
+Default applied: Omit the undated name and meet the family count with dated checklist rows, including group successors when the checklist names a group and a year band but not each state (Central American states, 1821/1838; African independence, 1950s–70s). Those successor rows use `confidence: debated` and say the checklist did not name each state. Undated names skipped so far: Mixtec (T1.11), Thule (T1.12), medieval Serbia (T1.18), Aragon, Castile, and Habsburg Austria (T1.19, no start year). Further names will be added here.
 
 Affects tasks: T1.11–T1.27.
+
+## Q-05 — The Latin West checklist is shorter than the family minimum
+
+Why it matters: T1.19 requires at least 45 `latin_west` polities. Appendix B's dated Latin West lines, plus the six migrated bundles, do not reach 45. Inventing foundation years for Aragon, Castile, or Habsburg Austria would be a new claim.
+
+Default applied: Add every dated Appendix B line the v1 ids do not already occupy, and add a debated row only where two checklist dates leave an unnamed interval (West and East Francia, Spain after 1700, the Netherlands after 1795, Austria and Hungary after 1918, Germany in 1918–19, 1945–49, and after 1990, Italy in 476–493, the French Revolution and First Republic). Section 15 says to include modern UN members and to cluster micro-states. Belgium, Switzerland, and one micro-state cluster use 1800–2000 with `confidence: debated`. The note says 1800 is the plan's modern-era edge, not a founding year. Aragon, Castile, and Habsburg Austria stay omitted (Q-04).
+
+Affects tasks: T1.19.

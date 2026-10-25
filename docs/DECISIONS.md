@@ -121,3 +121,13 @@ Alternatives: Replace the v1 bundles in place. Invent years for names the checkl
 Why: Callouts still point at the v1 ids. Deleting those ids would break validation. Undated names are left out rather than given a made-up span.
 
 Reversible? y
+
+## 2026-10-25 — Family minimums can add bounded gaps and a modern-era edge
+
+Decision: When Appendix B's dated lines plus the migrated bundles are still under the Appendix E family minimum, add a debated row for an interval the checklist bounds on both sides and does not name. For a modern UN member that Section 15 includes and Appendix B never dates, use 1800–2000, `confidence: debated`, and a note that 1800 is the plan's modern-era edge. See Q-05.
+
+Alternatives: Lower the family minimum. Invent a foundation year. Stop the family short of the gate.
+
+Why: The minimum is a machine-checked gate. The era edge is a plan boundary, and the note stops it from being read as a historical start.
+
+Reversible? y
