@@ -33,6 +33,7 @@
     "@types/d3-scale": "^4.0.9",
     "@types/d3-shape": "^3.2.0",
     "@types/d3-zoom": "^3.0.9",
+    "@types/node": "^26.6.5",
     "@types/rbush": "^4.0.0",
     "@types/react": "^19.1.0",
     "@types/react-dom": "^19.1.0",

@@ -46,14 +46,15 @@ export const WorldMapPanel: React.FC<WorldMapPanelProps> = ({
     for (const p of polities) {
       for (const s of p.spans) {
         if (activeYear >= s.startYear && activeYear <= s.endYear) {
-          if (!map[s.regionId]) map[s.regionId] = [];
-          map[s.regionId].push({ polity: p, weight: s.weight });
+          const bucket = map[s.regionId] ?? [];
+          bucket.push({ polity: p, weight: s.weight });
+          map[s.regionId] = bucket;
         }
       }
     }
     // Sort by weight descending so dominant empire is primary
     for (const k of Object.keys(map)) {
-      map[k].sort((a, b) => b.weight - a.weight);
+      map[k]?.sort((a, b) => b.weight - a.weight);
     }
     return map;
   }, [polities, activeYear]);
@@ -69,15 +70,20 @@ export const WorldMapPanel: React.FC<WorldMapPanelProps> = ({
     for (const p of polities) {
       const activeRegions = p.spans
         .filter((s) => activeYear >= s.startYear && activeYear <= s.endYear)
-        .map((s) => regionById[s.regionId])
-        .filter(Boolean);
+        .flatMap((s) => {
+          const region = regionById[s.regionId];
+          return region ? [region] : [];
+        });
 
       if (activeRegions.length >= 2) {
         for (let i = 0; i < activeRegions.length - 1; i++) {
+          const from = activeRegions[i];
+          const to = activeRegions[i + 1];
+          if (!from || !to) continue;
           bridges.push({
             polity: p,
-            fromCenter: activeRegions[i].mapCenter,
-            toCenter: activeRegions[i + 1].mapCenter,
+            fromCenter: from.mapCenter,
+            toCenter: to.mapCenter,
           });
         }
       }

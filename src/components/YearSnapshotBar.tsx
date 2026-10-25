@@ -67,6 +67,7 @@ export const YearSnapshotBar: React.FC<YearSnapshotBarProps> = ({
     for (let i = 0; i < PALEOCLIMATE_CURVE.length - 1; i++) {
       const a = PALEOCLIMATE_CURVE[i];
       const b = PALEOCLIMATE_CURVE[i + 1];
+      if (!a || !b) continue;
       if (activeYear >= a.year && activeYear <= b.year) {
         const t = (activeYear - a.year) / Math.max(1, b.year - a.year);
         const val = a.tempDeltaC + t * (b.tempDeltaC - a.tempDeltaC);
@@ -123,12 +124,14 @@ export const YearSnapshotBar: React.FC<YearSnapshotBarProps> = ({
           <div className="snapshot-year-readout">
             <Clock size={14} className="accent-icon" />
             <strong>{formatYear(activeYear)}</strong>
-            <span
-              className="era-badge-mini"
-              style={{ backgroundColor: currentEra.color }}
-            >
-              {currentEra.shortName}
-            </span>
+            {currentEra && (
+              <span
+                className="era-badge-mini"
+                style={{ backgroundColor: currentEra.color }}
+              >
+                {currentEra.shortName}
+              </span>
+            )}
           </div>
         </div>
 
@@ -166,7 +169,7 @@ export const YearSnapshotBar: React.FC<YearSnapshotBarProps> = ({
             )}
           </span>
 
-          {activeBands.length > 0 && (
+          {activeBands[0] && (
             <span
               className="active-band-alert"
               style={{ borderColor: activeBands[0].color }}

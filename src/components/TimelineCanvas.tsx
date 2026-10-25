@@ -218,6 +218,7 @@ export const TimelineCanvas: React.FC<TimelineCanvasProps> = ({
       const primary =
         visibleSpans.find((s) => s.regionId === polity.primaryRegionId) ||
         visibleSpans[0];
+      if (!primary) continue;
 
       for (const other of visibleSpans) {
         if (other === primary) continue;
@@ -256,8 +257,11 @@ export const TimelineCanvas: React.FC<TimelineCanvasProps> = ({
         const childSpans = computedSpans.filter((s) => s.polity.id === child.id);
         if (parentSpans.length === 0 || childSpans.length === 0) continue;
 
-        let pSpan = parentSpans[0];
-        let cSpan = childSpans[0];
+        const firstParent = parentSpans[0];
+        const firstChild = childSpans[0];
+        if (!firstParent || !firstChild) continue;
+        let pSpan = firstParent;
+        let cSpan = firstChild;
         for (const ps of parentSpans) {
           const sameReg = childSpans.find((cs) => cs.regionId === ps.regionId);
           if (sameReg) {
