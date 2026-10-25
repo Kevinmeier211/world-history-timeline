@@ -223,6 +223,7 @@ export const tourSchema = z.object({
           .string()
           .refine(atMostWords(70), { message: 'narrative must be 1–70 words' }),
         sourceIds: sourceIdListSchema,
+        verification: verificationSchema.optional(),
       }),
     )
     .min(1),
@@ -235,6 +236,7 @@ export const presetSchema = z.object({
   familyIds: z.array(familyIdSchema).optional(),
   macroRegions: z.array(macroRegionSchema).optional(),
   year: yearSchema.optional(),
+  evidence: z.string().min(1).optional(),
 });
 
 export type Relation = z.infer<typeof relationSchema>;

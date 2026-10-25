@@ -94,7 +94,7 @@ const FAMILY_MACRO: Record<string, string> = {
 };
 
 /** Two real bibliography pointers per family. Not a claim that the page was opened. */
-const FAMILY_SOURCES: Record<string, [string, string]> = {
+export const FAMILY_SOURCES: Record<string, [string, string]> = {
   andean: ['museo_larco', 'field_museum'],
   mesoamerican: ['inah', 'field_museum'],
   north_american: ['field_museum', 'dpla'],

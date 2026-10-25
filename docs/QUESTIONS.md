@@ -17,3 +17,11 @@ Why it matters: T1.07 asks for the Expanded PDF's sources [1]–[37], plus 15 fu
 Default applied: [1]–[37] are omitted. `sources.json` has 58 pages that returned HTTP 200 on 2026-10-25 (Louvre, Getty, Rijksmuseum, Cambridge Histories, Yale HRAF and eHRAF, UNESCO General History of Africa, Library of Congress, and the US, UK, French, German, and Japanese national archives, among others). These hosts answered 403, 429, or a challenge page and were left out: Met (`metmuseum.org`), British Museum, Smithsonian (`si.edu` and its museums), National Gallery of Art, Oxford handbooks and Oxford Research Encyclopedias, UNESCO World Heritage Centre, Encyclopaedia Britannica, Encyclopaedia Iranica, and Khan Academy. Empty `url` fields were not used as placeholders for sources we cannot name. Skeleton rows may point at the verified pages only as bibliography pointers and stay `verification: unverified`.
 
 Affects tasks: T1.07, T1.08–T1.27, T6.09.
+
+## Q-03 — Tag gemini-v1 has fewer routes and presets than Appendix E states
+
+Why it matters: T1.09 says the migrated counts should match v1 at 58 nodes, 11 bands, 9 routes, 3 tours, and 16 presets. The tag `gemini-v1` actually contains 58 nodes, 11 cross-cutting bands, 6 routes, 3 tours, and 5 comparison presets.
+
+Default applied: Migrate the rows that are on the tag. Do not invent three routes or eleven presets to hit the plan's numbers. Era-gutter periods in v1 (`early_bronze` through `modern_period`) stay out of the band list; the 11 bands are the cross-cutting set. Paleoclimate is 18 points, copied with `verification: unverified`.
+
+Affects tasks: T1.09, T5.10, T5.11.

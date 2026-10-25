@@ -21,7 +21,8 @@
 | T1.05 | done   | e5073bc       | catalog tests passed; bundled families = 18                                                                                     | 18      | v1 barrel moved to `legacy.ts` and re-exported. Indexes: byId, byFamily, relations, children, eras.                                                  |
 | T1.06 | done   | b3c47cd       | `vitest` validate tests passed; `npm run validate:data` exit 0 on the empty roster                                              | 25      | Errors fail. Orphans, thin ancient sourcing, empty URLs, and Wikipedia-only major entries warn. Lane colors are tested and wait for layout pairs.    |
 | T1.07 | done   | 3c3c8ab       | 58 source URLs returned HTTP 200 on 2026-10-25; `sources-md` test matches `LICENSES/SOURCES.md`                                 | 40      | Gemini [1]–[37] omitted (Q-02). Met, British Museum, Smithsonian, and Oxford handbooks blocked this environment and were not given placeholder URLs. |
-| T1.08 | done   | (this commit) | `migrate-v1` wrote 69 polities; `validate:data` exit 0 (69 orphan warnings, relations come in T1.28)                            | 35      | Column map plus 14 lineage overrides in DECISIONS. Anchors use `xKey`, not fabricated coordinates. All rows `verification: unverified`.              |
+| T1.08 | done   | a7716a0       | `migrate-v1` wrote 69 polities; `validate:data` exit 0 (69 orphan warnings, relations come in T1.28)                            | 35      | Column map plus 14 lineage overrides in DECISIONS. Anchors use `xKey`, not fabricated coordinates. All rows `verification: unverified`.              |
+| T1.09 | done   | (this commit) | annotation test: 58 callouts, 11 bands, 6 routes, 3 tours, 5 presets; climate curve schema passed                               | 30      | Tag counts, not the plan's 9 routes and 16 presets (Q-03). Blurbs clipped to 14 words. All migrated rows stay unverified.                            |
 
 ## Blocked
 

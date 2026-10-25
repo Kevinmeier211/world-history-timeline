@@ -33,3 +33,4 @@ export * from './primitives.ts';
 export * from './polity.ts';
 export * from './records.ts';
 export * from './geography.ts';
+export * from './climate.ts';

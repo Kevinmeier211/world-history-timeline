@@ -1,0 +1,133 @@
+[
+  {
+    "id": "tour_bronze_collapse",
+    "title": "1177 BCE: The Late Bronze Age Collapse",
+    "subtitle": "How the world’s first globalized trade network unraveled in a single generation",
+    "waypoints": [
+      {
+        "title": "1. The Cosmopolitan Club of Great Powers (1350 BCE)",
+        "year": -1350,
+        "zoom": 1.5,
+        "lens": "trade",
+        "polityId": "egypt_new_kingdom",
+        "narrative": "In the 14th century BCE, the kings of New Kingdom Egypt, the Hittite Empire, Babylon, Assyria, and Mycenaean Greece addressed one another as \"Brothers\" in diplomatic cuneiform tablets (the Amarna Letters). Their bronze armies depended on long-distance copper from Cyprus and tin from Afghanistan and Cornwall.",
+        "sourceIds": ["cambridge_histories"],
+        "verification": "unverified"
+      },
+      {
+        "title": "2. Battle of Kadesh & Peak Chariot Diplomacy (1274 BCE)",
+        "year": -1274,
+        "zoom": 1.8,
+        "lens": "politics",
+        "polityId": "hittites",
+        "narrative": "Ramesses II of Egypt and Muwatalli II of the Hittites fought the largest chariot battle in history at Kadesh in Syria, culminating in the world’s oldest surviving peace treaty (1259 BCE). Neither superpower suspected their world order had less than 80 years left.",
+        "sourceIds": ["cambridge_histories"],
+        "verification": "unverified"
+      },
+      {
+        "title": "3. The Systemic Collapse (1200–1150 BCE)",
+        "year": -1177,
+        "zoom": 1.8,
+        "lens": "climate",
+        "calloutId": "node_sea_peoples",
+        "narrative": "A \"perfect storm\" of multi-decade megadrought, earthquake storms along the Aegean-Levant fault line, internal rebellions, and migrations of the \"Sea Peoples\" burned Hattusa, Mycenae, Pylos, and Ugarit to ash. Linear B writing vanished.",
+        "sourceIds": ["cambridge_histories"],
+        "verification": "unverified"
+      },
+      {
+        "title": "4. Out of the Ashes: Iron & The Alphabet (1000–800 BCE)",
+        "year": -900,
+        "zoom": 1.6,
+        "lens": "technology",
+        "polityId": "phoenicia_israel",
+        "narrative": "With tin trade routes severed, smiths turned to locally abundant iron ore. In the power vacuum of the Levant, Phoenician maritime merchants spread a 22-letter phonetic alphabet across the Mediterranean, while Israelite and Aramaean kingdoms rose.",
+        "sourceIds": ["cambridge_histories"],
+        "verification": "unverified"
+      }
+    ]
+  },
+  {
+    "id": "tour_axial_age",
+    "title": "The Axial Age: Humanity’s Great Awakening",
+    "subtitle": "Why Confucius, Buddha, Zoroaster, the Hebrew Prophets, and Socrates lived within centuries of each other",
+    "waypoints": [
+      {
+        "title": "1. Spring & Autumn China: Confucius & Laozi (551–479 BCE)",
+        "year": -500,
+        "zoom": 1.7,
+        "lens": "art",
+        "polityId": "zhou_dynasty",
+        "narrative": "As the Zhou Dynasty fractured into warring states, itinerant scholars asked how society could restore harmony. Confucius championed ethical cultivation, ritual propriety (li), and meritocracy, while Daoist sages taught alignment with the natural Way (Dao).",
+        "sourceIds": ["cambridge_histories"],
+        "verification": "unverified"
+      },
+      {
+        "title": "2. Gangetic India: The Buddha, Mahavira & Upanishads (500 BCE)",
+        "year": -480,
+        "zoom": 1.7,
+        "lens": "art",
+        "polityId": "mahajanapadas",
+        "narrative": "In the sixteen Mahajanapada kingdoms along the Ganges, Siddhartha Gautama (the Buddha) and Mahavira (Jainism) challenged ritual caste orthodoxy, proposing universal ethics of non-violence (ahimsa), mindfulness, and liberation from suffering.",
+        "sourceIds": ["cambridge_histories"],
+        "verification": "unverified"
+      },
+      {
+        "title": "3. Persia & Judea: Cosmic Ethics & Monotheism (539 BCE)",
+        "year": -539,
+        "zoom": 1.6,
+        "lens": "art",
+        "polityId": "achaemenid_empire",
+        "narrative": "Cyrus the Great founded the Achaemenid Persian Empire—the largest the world had yet seen—and allowed exiled Judeans in Babylon to return to Jerusalem. During this era, Zoroastrianism and Second Temple Judaism articulated universal moral history.",
+        "sourceIds": ["cambridge_histories"],
+        "verification": "unverified"
+      },
+      {
+        "title": "4. Classical Athens: Socrates, Plato & Aristotle (450–322 BCE)",
+        "year": -400,
+        "zoom": 1.7,
+        "lens": "art",
+        "polityId": "classical_greece",
+        "narrative": "In the democratic polis of Athens, dramatic theater, historical inquiry (Herodotus, Thucydides), and Socratic philosophy subjected nature, politics, and ethics to rational debate.",
+        "sourceIds": ["cambridge_histories"],
+        "verification": "unverified"
+      }
+    ]
+  },
+  {
+    "id": "tour_rome_han",
+    "title": "Parallel Giants: Imperial Rome & Han China",
+    "subtitle": "Two empires of ~60 million people at opposite ends of Eurasia, linked by a thread of silk",
+    "waypoints": [
+      {
+        "title": "1. Twin Consolidations (~200 BCE – 27 BCE)",
+        "year": -100,
+        "zoom": 1.4,
+        "lens": "politics",
+        "polityId": "han_dynasty",
+        "narrative": "While the Roman Republic conquered the Mediterranean basin (defeating Carthage and Hellenistic kingdoms), the Qin and Han Dynasties unified China, standardized script, weights, and axles, and established the Confucian civil service examination.",
+        "sourceIds": ["cambridge_histories"],
+        "verification": "unverified"
+      },
+      {
+        "title": "2. Connecting the Silk Road (130 BCE – 150 CE)",
+        "year": 117,
+        "zoom": 1.4,
+        "lens": "trade",
+        "polityId": "roman_empire",
+        "narrative": "In 117 CE, the Roman Empire reached its greatest territorial extent under Trajan while the Eastern Han flourished. Between them, Parthian Persia and the Kushan Empire mediated trade in Chinese silk, Roman glassware, and Indian spices.",
+        "sourceIds": ["cambridge_histories"],
+        "verification": "unverified"
+      },
+      {
+        "title": "3. Divergent Afterlives (220–600 CE)",
+        "year": 450,
+        "zoom": 1.5,
+        "lens": "politics",
+        "polityId": "byzantine_empire",
+        "narrative": "Both empires suffered plagues, frontier nomadic pressures, and fragmentation. While Western Rome fractured into medieval European kingdoms (with Byzantium enduring in the East), China’s cultural-bureaucratic core reunited under the Sui and Tang Dynasties.",
+        "sourceIds": ["cambridge_histories"],
+        "verification": "unverified"
+      }
+    ]
+  }
+]

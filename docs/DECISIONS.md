@@ -101,3 +101,13 @@ Alternatives: Keep each row in its v1 column family. Copy the pixel pairs into `
 Why: Several v1 columns mix lineages (Mongols sit in the China column; Celts sit in Western Europe). Treating pixels as longitude would fail the coordinate bounds and place ribbons in the wrong ocean.
 
 Reversible? y
+
+## 2026-10-25 — v1 notes migrate at the tag's real counts
+
+Decision: Nodes become callouts (zoom tier 1/2/3 → importance 4/3/2; blurb is the v1 significance clipped to 14 words). Cross-cutting bands, the six routes, three tours, and five presets are copied with `verification: unverified` where the schema has that field. Route waypoints store poster-x from the v1 column's geography zone, not longitude. The paleoclimate curve is `src/data/climate.json` and stays unverified. See Q-03 for the 9-route and 16-preset figures in the plan.
+
+Alternatives: Add empty routes and presets until the counts match the plan sentence.
+
+Why: Those extra rows are not in the tagged source. Inventing them would be new historical content.
+
+Reversible? y
