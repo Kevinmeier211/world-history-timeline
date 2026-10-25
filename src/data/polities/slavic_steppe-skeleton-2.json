@@ -1,0 +1,25 @@
+[
+  {
+    "id": "poland_lithuania",
+    "name": "Poland-Lithuania",
+    "family": "slavic_steppe",
+    "start": 1569,
+    "end": 1795,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Poland–Lithuania 1569–1795.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1569,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "Poland-Lithuania is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  }
+]

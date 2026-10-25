@@ -1,0 +1,278 @@
+[
+  {
+    "id": "scythians",
+    "name": "Scythians",
+    "family": "slavic_steppe",
+    "start": -900,
+    "end": -200,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Scythians c.900–200 BCE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "people",
+    "anchor": [
+      {
+        "year": -900,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "Scythians is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "huns",
+    "name": "Huns",
+    "family": "slavic_steppe",
+    "start": 370,
+    "end": 469,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Huns c.370–469.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "people",
+    "anchor": [
+      {
+        "year": 370,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "Huns is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "avars",
+    "name": "Avars",
+    "family": "slavic_steppe",
+    "start": 567,
+    "end": 822,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Avars 567–822.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "people",
+    "anchor": [
+      {
+        "year": 567,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "Avars is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "khazars",
+    "name": "Khazars",
+    "family": "slavic_steppe",
+    "start": 650,
+    "end": 1000,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Khazars c.650–1000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 650,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "Khazars is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "kievan_rus",
+    "name": "Kievan Rus",
+    "family": "slavic_steppe",
+    "start": 882,
+    "end": 1240,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Kievan Rus c.882–1240. The migrated russia_soviet bundle stays.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 882,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "Kievan Rus is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "golden_horde",
+    "name": "Golden Horde",
+    "family": "slavic_steppe",
+    "start": 1242,
+    "end": 1502,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Golden Horde 1242–1502.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1242,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "Golden Horde is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "rus_1502",
+    "name": "Steppe between Golden Horde and the Tsardom",
+    "family": "slavic_steppe",
+    "start": 1502,
+    "end": 1547,
+    "confidence": "debated",
+    "dateNote": "Appendix B ends the Golden Horde at 1502 and starts the Tsardom at 1547. It does not name the interval.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": 1502,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "Steppe between Golden Horde and the Tsardom is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "tsardom_of_russia",
+    "name": "Tsardom of Russia",
+    "family": "slavic_steppe",
+    "start": 1547,
+    "end": 1721,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Tsardom 1547–1721.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1547,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "Tsardom of Russia is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "russian_empire",
+    "name": "Russian Empire",
+    "family": "slavic_steppe",
+    "start": 1721,
+    "end": 1917,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Russian Empire 1721–1917.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 1721,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "Russian Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "russia_1917",
+    "name": "Russia in 1917–1922",
+    "family": "slavic_steppe",
+    "start": 1917,
+    "end": 1922,
+    "confidence": "debated",
+    "dateNote": "Appendix B ends the Russian Empire at 1917 and starts the USSR at 1922. It does not name the interval.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": 1917,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "Russia in 1917–1922 is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "ussr",
+    "name": "USSR",
+    "family": "slavic_steppe",
+    "start": 1922,
+    "end": 1991,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: USSR 1922–91.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1922,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "USSR is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "russia",
+    "name": "Russia",
+    "family": "slavic_steppe",
+    "start": 1991,
+    "end": 2000,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Russia 1991–. Skeleton ends at 2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1991,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "Russia is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  }
+]
