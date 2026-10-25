@@ -1,0 +1,150 @@
+[
+  {
+    "id": "achaemenid_empire",
+    "name": "Achaemenid Persian Empire",
+    "family": "persian_iranian",
+    "start": -550,
+    "end": -330,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.92,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": -550,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "Founded by Cyrus the Great, the Achaemenid Empire united the Near East from the Nile and Aegean to the Indus River. Famous for cultural and religious tolerance, the satrapy system, the 2,700 km Royal Road postal relay, qanat underground irrigation, and Persepolis.",
+    "keyFacts": [
+      "Cyrus Cylinder (539 BCE)—landmark declaration of religious and cultural restoration",
+      "Royal Road courier system (\"neither snow nor rain...\"), gold Daric coinage, and Persepolis",
+      "Qanat subterranean aquifer channels turning arid plateaus into gardens (pairidaeza → \"paradise\")"
+    ],
+    "sourceIds": ["isac", "louvre"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["First Persian Empire (Hakhamanishiya)"],
+    "rulers": [
+      {
+        "name": "Cyrus II the Great",
+        "reign": "559–530 BCE",
+        "title": "Founder & Author of Cyrus Cylinder"
+      },
+      {
+        "name": "Darius I the Great",
+        "reign": "522–486 BCE",
+        "title": "Builder of Persepolis & Royal Road"
+      },
+      {
+        "name": "Xerxes I",
+        "reign": "486–465 BCE",
+        "title": "Shahanshah"
+      }
+    ],
+    "wikipediaTitle": "Achaemenid_Empire",
+    "spans": [
+      {
+        "macroRegion": "africa",
+        "start": -525,
+        "end": -332
+      },
+      {
+        "macroRegion": "south_asia",
+        "start": -518,
+        "end": -330
+      }
+    ]
+  },
+  {
+    "id": "parthian_sassanid",
+    "name": "Parthian & Sassanid Persian Empires",
+    "family": "persian_iranian",
+    "start": -247,
+    "end": 651,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.78,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": -247,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "For nine centuries, Parthian heavy cataphracts and horse-archers and the Sassanid Empire served as Rome and Byzantium’s sole superpower equal, connecting the Silk Road and founding the medical-philosophical Academy of Gondishapur.",
+    "keyFacts": [
+      "Taq Kasra (Arch of Ctesiphon)—still the world’s largest unreinforced brick vault",
+      "Academy of Gondishapur (center of medicine, astronomy, and Greek-Sanskrit-Persian translation)"
+    ],
+    "sourceIds": ["isac", "louvre"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Arsacid Parthia & Eranshahr (Sassanid Empire)"],
+    "rulers": [
+      {
+        "name": "Mithridates II of Parthia",
+        "reign": "124–88 BCE",
+        "title": "Opened Silk Road Diplomacy with Han China"
+      },
+      {
+        "name": "Ardashir I & Shapur I",
+        "reign": "224–270 CE",
+        "title": "Founders of Sassanid Empire"
+      },
+      {
+        "name": "Khosrow I Anushirvan",
+        "reign": "531–579 CE",
+        "title": "Patron of Academy of Gondishapur"
+      }
+    ],
+    "wikipediaTitle": "Sasanian_Empire"
+  },
+  {
+    "id": "safavid_iran",
+    "name": "Seljuk, Timurid & Safavid → Modern Iran",
+    "family": "persian_iranian",
+    "start": 1037,
+    "end": 2025,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.68,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1037,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "From Seljuk astronomy (Omar Khayyam’s Jalali calendar, more accurate than the Gregorian) and Persian poetry (Ferdowsi, Rumi, Hafez, Saadi) to Timurid Samarkand and Safavid Isfahan (\"Isfahan is half the world\").",
+    "keyFacts": [
+      "Ferdowsi’s Shahnameh, Rumi’s Masnavi, and Omar Khayyam’s algebra & Jalali solar calendar",
+      "Naqsh-e Jahan Square in Isfahan and Ulugh Beg’s Samarkand astronomical observatory"
+    ],
+    "sourceIds": ["isac", "louvre"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Persianate Renaissance & Modern Iran"],
+    "rulers": [
+      {
+        "name": "Malik-Shah I & Nizam al-Mulk",
+        "reign": "1072–1092",
+        "title": "Seljuk Patrons of Omar Khayyam"
+      },
+      {
+        "name": "Timur (Tamerlane) & Ulugh Beg",
+        "reign": "1370–1449",
+        "title": "Timurid Samarkand Observatory"
+      },
+      {
+        "name": "Shah Abbas I the Great",
+        "reign": "1588–1629",
+        "title": "Builder of Naqsh-e Jahan Square in Isfahan"
+      }
+    ],
+    "wikipediaTitle": "Safavid_Iran"
+  }
+]

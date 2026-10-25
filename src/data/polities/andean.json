@@ -1,0 +1,252 @@
+[
+  {
+    "id": "norte_chico",
+    "name": "Norte Chico (Caral-Supe)",
+    "family": "andean",
+    "start": -3100,
+    "end": -1800,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.48,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": -3100,
+        "xKey": "andean"
+      }
+    ],
+    "summary": "The oldest known civilization in the Americas. Emerged along coastal Peruvian rivers with monumental platform pyramids, sunken circular plazas, cotton fishing-net trade, and early quipu knot records—notably without ceramics or fortifications.",
+    "keyFacts": [
+      "Monumental terraced pyramids at Caral contemporary with Egyptian Old Kingdom",
+      "Early quipu knotted-string recording system",
+      "Bone flutes and coastal-inland cotton-for-anchovy exchange"
+    ],
+    "sourceIds": ["museo_larco", "field_museum"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Caral Civilization"],
+    "startUncertainty": 150,
+    "wikipediaTitle": "Caral–Supe_civilization"
+  },
+  {
+    "id": "chavin_culture",
+    "name": "Chavín Culture",
+    "family": "andean",
+    "start": -900,
+    "end": -200,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.45,
+    "kind": "culture",
+    "anchor": [
+      {
+        "year": -900,
+        "xKey": "andean"
+      }
+    ],
+    "summary": "Unifying artistic and religious horizon in the northern Andean highlands. Famous for the labyrinthine stone temple at Chavín de Huántar, the Lanzón monolith, acoustic water drainage, and gold metallurgy.",
+    "keyFacts": [
+      "Lanzón granite monolith and tenon heads",
+      "Advanced goldsmithing and repoussé metalwork",
+      "Acoustic temple engineering simulating jaguar roars"
+    ],
+    "sourceIds": ["museo_larco", "field_museum"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Chavín Horizon"],
+    "startUncertainty": 80,
+    "wikipediaTitle": "Chavín_culture"
+  },
+  {
+    "id": "nazca_moche",
+    "name": "Nazca & Moche Cultures",
+    "family": "andean",
+    "start": -100,
+    "end": 750,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.4,
+    "kind": "culture",
+    "anchor": [
+      {
+        "year": -100,
+        "xKey": "andean"
+      }
+    ],
+    "summary": "While the Nazca on the arid south coast etched giant desert geoglyphs and built underground puquio aqueducts, the Moche in the north built colossal adobe pyramids, irrigation canals, and lifelike portrait ceramics.",
+    "keyFacts": [
+      "Nazca Lines geoglyphs and subterranean puquio aqueducts",
+      "Huaca del Sol (largest pre-Columbian adobe structure) & Royal Tombs of Sipán",
+      "Masterful Moche stirrup-spout portrait vessels and tumbaga gold alloy"
+    ],
+    "sourceIds": ["museo_larco", "field_museum"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Early Intermediate Andean States"],
+    "rulers": [
+      {
+        "name": "Lord of Sipán",
+        "reign": "c. 250 CE",
+        "title": "Moche Warrior-Priest"
+      }
+    ],
+    "wikipediaTitle": "Moche_culture"
+  },
+  {
+    "id": "wari_tiwanaku",
+    "name": "Wari & Tiwanaku Empires",
+    "family": "andean",
+    "start": 500,
+    "end": 1050,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.65,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": 500,
+        "xKey": "andean"
+      }
+    ],
+    "summary": "Twin highland empires that pioneered state road networks, terraced hillside farming (andenes), raised-field agriculture (suka kollus) around Lake Titicaca, and administrative khipu accounting.",
+    "keyFacts": [
+      "Gate of the Sun & Kalasasaya monolithic architecture at Tiwanaku",
+      "Wari highway network and terraced agricultural engineering later adopted by the Inca"
+    ],
+    "sourceIds": ["museo_larco", "field_museum"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Middle Horizon Empires"],
+    "wikipediaTitle": "Tiwanaku_Empire"
+  },
+  {
+    "id": "chimor_kingdom",
+    "name": "Kingdom of Chimor",
+    "family": "andean",
+    "start": 900,
+    "end": 1470,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.4,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 900,
+        "xKey": "andean"
+      }
+    ],
+    "summary": "Ruled the northern Peruvian coast from Chan Chan, the largest adobe city in the Americas, renowned for split-inheritance royal compounds (ciudadelas) and industrial-scale gold/silver metallurgy.",
+    "keyFacts": [
+      "Chan Chan adobe metropolis covering 20 sq km",
+      "Inter-valley irrigation canals"
+    ],
+    "sourceIds": ["museo_larco", "field_museum"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Chimú Empire"],
+    "rulers": [
+      {
+        "name": "Taycanamo",
+        "reign": "c. 900 CE",
+        "title": "Founder"
+      },
+      {
+        "name": "Minchancaman",
+        "reign": "c. 1440–1470 CE",
+        "title": "Last Chimú Monarch"
+      }
+    ],
+    "wikipediaTitle": "Chimor"
+  },
+  {
+    "id": "inca_empire",
+    "name": "Inca Empire (Tawantinsuyu)",
+    "family": "andean",
+    "start": 1438,
+    "end": 1533,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.85,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 1438,
+        "xKey": "andean"
+      }
+    ],
+    "summary": "The largest empire in pre-Columbian America, stretching 4,000 km along the Andes. Governed without money or wheeled vehicles through the mit’a labor tax, state granaries (qullqa), quipu registries, and the 40,000 km Qhapaq Ñan road network.",
+    "keyFacts": [
+      "40,000 km Qhapaq Ñan mountain highway and suspension bridges",
+      "Earthquake-resistant ashlar masonry at Cusco, Ollantaytambo, and Machu Picchu",
+      "Freeze-dried food preservation (chuño) and high-altitude agricultural laboratories (Moray)"
+    ],
+    "sourceIds": ["museo_larco", "field_museum"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Tawantinsuyu (\"The Four Regions\")"],
+    "rulers": [
+      {
+        "name": "Pachacuti",
+        "reign": "1438–1471",
+        "title": "Sapa Inca (Builder of Machu Picchu)"
+      },
+      {
+        "name": "Huayna Capac",
+        "reign": "1493–1527",
+        "title": "Sapa Inca"
+      },
+      {
+        "name": "Atahualpa",
+        "reign": "1532–1533",
+        "title": "Last Sovereign Sapa Inca"
+      }
+    ],
+    "wikipediaTitle": "Inca_Empire"
+  },
+  {
+    "id": "viceroyalty_peru",
+    "name": "Viceroyalty of Peru → Modern Andes",
+    "family": "andean",
+    "start": 1533,
+    "end": 2025,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.65,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1533,
+        "xKey": "andean"
+      }
+    ],
+    "summary": "Following Pizarro’s conquest, Peru and Upper Peru (Potosí) became the silver heart of the Spanish Empire before winning independence in the 1820s as Peru, Bolivia, Ecuador, Colombia, and Chile.",
+    "keyFacts": [
+      "Potosí silver mint powering global trade from Seville to Ming China",
+      "Andean Wars of Independence (1810–1825)"
+    ],
+    "sourceIds": ["museo_larco", "field_museum"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Spanish Peru & Andean Republics"],
+    "rulers": [
+      {
+        "name": "Túpac Amaru II",
+        "reign": "1780–1781",
+        "title": "Indigenous Revolutionary Leader"
+      },
+      {
+        "name": "Simón Bolívar & José de San Martín",
+        "reign": "1820–1826",
+        "title": "Libertadores"
+      }
+    ],
+    "wikipediaTitle": "History_of_Peru"
+  }
+]

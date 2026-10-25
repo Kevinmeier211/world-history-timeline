@@ -1,0 +1,238 @@
+[
+  {
+    "id": "minoans_mycenaeans",
+    "name": "Minoan & Mycenaean Greece",
+    "family": "greek_byzantine",
+    "start": -2700,
+    "end": -1100,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.58,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -2700,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "Europe’s first literate civilizations: Minoan Crete built multi-story frescoed palaces at Knossos with indoor plumbing and Linear A, followed by Mycenaean mainland citadel-kings writing early Greek in Linear B and inspiring Homer’s Trojan War epics.",
+    "keyFacts": [
+      "Palace of Knossos frescoes and Thera (Santorini) maritime town",
+      "Lion Gate of Mycenae, Treasury of Atreus, and Linear B tablets"
+    ],
+    "sourceIds": ["louvre", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Aegean Bronze Age Civilizations"],
+    "rulers": [
+      {
+        "name": "Agamemnon (Legendary) / Minos",
+        "reign": "Late Bronze Age",
+        "title": "Wanax"
+      }
+    ],
+    "wikipediaTitle": "Minoan_civilization"
+  },
+  {
+    "id": "classical_greece",
+    "name": "Archaic & Classical Greece",
+    "family": "greek_byzantine",
+    "start": -800,
+    "end": -338,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.65,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": -800,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "Network of over 1,000 Greek poleis across the Mediterranean and Black Sea. Defeated the Achaemenid Persian invasions at Marathon and Salamis, and gave birth to direct democracy, theater, Olympic Games, historiography, and Western philosophy.",
+    "keyFacts": [
+      "Athenian direct democracy (Ecclesia), Parthenon, and Greek Tragedy/Comedy",
+      "Socrates, Plato, Aristotle, Hippocrates, Herodotus, and Thucydides"
+    ],
+    "sourceIds": ["louvre", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Hellas (Athens, Sparta, Corinth, Thebes)"],
+    "rulers": [
+      {
+        "name": "Solon & Cleisthenes",
+        "reign": "594 / 508 BCE",
+        "title": "Founders of Athenian Democracy"
+      },
+      {
+        "name": "Pericles",
+        "reign": "461–429 BCE",
+        "title": "Strategos of Golden Age Athens"
+      }
+    ],
+    "wikipediaTitle": "Classical_Greece"
+  },
+  {
+    "id": "empire_of_alexander",
+    "name": "Empire of Alexander the Great",
+    "family": "greek_byzantine",
+    "start": -336,
+    "end": -312,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.9,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": -336,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "In just 13 years, Alexander of Macedon conquered the Achaemenid Persian Empire from Greece and Egypt to the Indus River, founding over 20 Alexandrias and inaugurating the three-century Hellenistic synthesis.",
+    "keyFacts": [
+      "Unbeaten campaign from the Hellespont to the Punjab",
+      "Foundation of Alexandria in Egypt and spread of Koine Greek across Western Asia"
+    ],
+    "sourceIds": ["louvre", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Macedonian Empire"],
+    "rulers": [
+      {
+        "name": "Philip II of Macedon",
+        "reign": "359–336 BCE",
+        "title": "Unifier of Greece"
+      },
+      {
+        "name": "Alexander III the Great",
+        "reign": "336–323 BCE",
+        "title": "King of Macedon, Pharaoh, Shahanshah"
+      }
+    ],
+    "wikipediaTitle": "Empire_of_Alexander_the_Great",
+    "spans": [
+      {
+        "macroRegion": "africa",
+        "start": -332,
+        "end": -312
+      },
+      {
+        "macroRegion": "west_central_asia",
+        "start": -331,
+        "end": -312
+      },
+      {
+        "macroRegion": "south_asia",
+        "start": -326,
+        "end": -323
+      }
+    ]
+  },
+  {
+    "id": "ptolemaic_seleucid",
+    "name": "Ptolemaic Egypt & Seleucid Empire",
+    "family": "greek_byzantine",
+    "start": -312,
+    "end": -30,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.72,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": -312,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Born from the partition of Alexander’s empire, Ptolemaic Alexandria built the Pharos Lighthouse and the Great Library (where Euclid, Archimedes, and Eratosthenes worked), while the Seleucids ruled from Syria to Persia.",
+    "keyFacts": [
+      "Great Library & Mouseion of Alexandria; Lighthouse (Pharos) of Alexandria",
+      "Eratosthenes’ calculation of Earth’s circumference & Rosetta Stone (196 BCE)"
+    ],
+    "sourceIds": ["louvre", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Successor Kingdoms of the Diadochi"],
+    "rulers": [
+      {
+        "name": "Ptolemy I Soter & Seleucus I Nicator",
+        "reign": "305–281 BCE",
+        "title": "Diadochi Founders"
+      },
+      {
+        "name": "Cleopatra VII Philopator",
+        "reign": "51–30 BCE",
+        "title": "Last Pharaoh of Ptolemaic Egypt"
+      }
+    ],
+    "wikipediaTitle": "Ptolemaic_Kingdom",
+    "spans": [
+      {
+        "macroRegion": "africa",
+        "start": -312,
+        "end": -30
+      },
+      {
+        "macroRegion": "west_central_asia",
+        "start": -312,
+        "end": -141
+      }
+    ]
+  },
+  {
+    "id": "byzantine_empire",
+    "name": "Byzantine Empire (Eastern Rome)",
+    "family": "greek_byzantine",
+    "start": 330,
+    "end": 1453,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.7,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 330,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "Direct continuation of the Roman Empire in the Greek-speaking East for more than a thousand years after the fall of Western Rome. Preserved classical Greek literature, codified Roman law, and shielded Europe until 1453.",
+    "keyFacts": [
+      "Corpus Juris Civilis (Code of Justinian) & Hagia Sophia dome",
+      "Transmission of Greek manuscripts to Renaissance Italy & Cyrillic heritage to Slavic lands"
+    ],
+    "sourceIds": ["louvre", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Basileia Rhōmaiōn"],
+    "rulers": [
+      {
+        "name": "Justinian I & Theodora",
+        "reign": "527–565",
+        "title": "Codifier of Roman Law & Hagia Sophia"
+      },
+      {
+        "name": "Basil II",
+        "reign": "976–1025",
+        "title": "Macedonian Renaissance Emperor"
+      },
+      {
+        "name": "Constantine XI Palaiologos",
+        "reign": "1449–1453",
+        "title": "Last Roman Emperor"
+      }
+    ],
+    "wikipediaTitle": "Byzantine_Empire",
+    "spans": [
+      {
+        "macroRegion": "africa",
+        "start": 395,
+        "end": 641
+      }
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "khmer_majapahit_sea",
+    "name": "Funan, Khmer Empire (Angkor) & Majapahit",
+    "family": "southeast_oceanian",
+    "start": 100,
+    "end": 2025,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.4,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 100,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "At the crossroads of the Indian and Pacific Oceans, the Khmer Empire engineered vast baray reservoirs and Angkor Wat (the largest religious monument on Earth), while Srivijaya and Majapahit united the Indonesian spice archipelago.",
+    "keyFacts": [
+      "Angkor Wat & Angkor Thom hydraulic city (covering 1,000 km², largest pre-industrial urban footprint)",
+      "Borobudur Buddhist stupa in Java & spice trade maritime networks"
+    ],
+    "sourceIds": ["field_museum", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Mainland & Maritime Southeast Asia"],
+    "rulers": [
+      {
+        "name": "Suryavarman II & Jayavarman VII",
+        "reign": "1113–1218",
+        "title": "Builders of Angkor Wat & Angkor Thom"
+      },
+      {
+        "name": "Hayam Wuruk & Gajah Mada",
+        "reign": "1350–1389",
+        "title": "Golden Age of Majapahit"
+      }
+    ],
+    "wikipediaTitle": "Khmer_Empire"
+  }
+]

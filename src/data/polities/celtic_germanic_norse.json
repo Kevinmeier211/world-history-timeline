@@ -1,0 +1,92 @@
+[
+  {
+    "id": "megalithic_celts",
+    "name": "Megalithic, Bell Beaker & Celtic Europe",
+    "family": "celtic_germanic_norse",
+    "start": -3100,
+    "end": -50,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.45,
+    "kind": "confederation",
+    "anchor": [
+      {
+        "year": -3100,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "From Neolithic megalithic builders of Stonehenge, Carnac, and Maltese temples to the Bronze Age Bell Beaker horizon and Iron Age Hallstatt/La Tène Celts who spread across Gaul, Iberia, Britain, and Central Europe.",
+    "keyFacts": [
+      "Stonehenge astronomical sarsen circle & Newgrange passage tomb",
+      "Nebra Sky Disk (1600 BCE)—oldest concrete depiction of the cosmos",
+      "La Tène Celtic ironworking, chainmail, and wheeled chariotry"
+    ],
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Stonehenge, Hallstatt & La Tène"],
+    "startUncertainty": 100,
+    "rulers": [
+      {
+        "name": "Vercingetorix",
+        "reign": "52 BCE",
+        "title": "Chieftain of the Arverni (Gaul)"
+      }
+    ],
+    "wikipediaTitle": "Celts"
+  },
+  {
+    "id": "british_empire",
+    "name": "England → British Empire & UK",
+    "family": "celtic_germanic_norse",
+    "start": 871,
+    "end": 2025,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.65,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 871,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Pioneered Magna Carta (1215), parliamentary constitutionalism (1689), Newton’s Scientific Revolution, and the late-18th-century Industrial Revolution, expanding into the largest maritime empire in history (including the British Raj in India).",
+    "keyFacts": [
+      "Magna Carta (1215), Common Law, and Parliamentary Sovereignty",
+      "First Industrial Revolution (Watt steam engine, railways, factory system)",
+      "Shakespeare, Isaac Newton, Charles Darwin, and Alan Turing"
+    ],
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Anglo-Saxon, Tudor, British Empire & United Kingdom"],
+    "rulers": [
+      {
+        "name": "Elizabeth I",
+        "reign": "1558–1603",
+        "title": "Tudor Queen"
+      },
+      {
+        "name": "Queen Victoria",
+        "reign": "1837–1901",
+        "title": "Queen-Empress"
+      },
+      {
+        "name": "Elizabeth II",
+        "reign": "1952–2022",
+        "title": "Longest-Reigning British Monarch"
+      }
+    ],
+    "wikipediaTitle": "British_Empire",
+    "spans": [
+      {
+        "macroRegion": "south_asia",
+        "start": 1757,
+        "end": 1947
+      }
+    ]
+  }
+]

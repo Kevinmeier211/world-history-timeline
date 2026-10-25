@@ -20,7 +20,8 @@
 | T1.04 | done   | 8892a78       | geography schema tests passed; knots monotone, endpoints 0 and 1                                                                | 12      | Appendix G knots. `interpolatePosterX` is what T2.02 will call. Family bias matches `families.json`.                                                 |
 | T1.05 | done   | e5073bc       | catalog tests passed; bundled families = 18                                                                                     | 18      | v1 barrel moved to `legacy.ts` and re-exported. Indexes: byId, byFamily, relations, children, eras.                                                  |
 | T1.06 | done   | b3c47cd       | `vitest` validate tests passed; `npm run validate:data` exit 0 on the empty roster                                              | 25      | Errors fail. Orphans, thin ancient sourcing, empty URLs, and Wikipedia-only major entries warn. Lane colors are tested and wait for layout pairs.    |
-| T1.07 | done   | (this commit) | 58 source URLs returned HTTP 200 on 2026-10-25; `sources-md` test matches `LICENSES/SOURCES.md`                                 | 40      | Gemini [1]–[37] omitted (Q-02). Met, British Museum, Smithsonian, and Oxford handbooks blocked this environment and were not given placeholder URLs. |
+| T1.07 | done   | 3c3c8ab       | 58 source URLs returned HTTP 200 on 2026-10-25; `sources-md` test matches `LICENSES/SOURCES.md`                                 | 40      | Gemini [1]–[37] omitted (Q-02). Met, British Museum, Smithsonian, and Oxford handbooks blocked this environment and were not given placeholder URLs. |
+| T1.08 | done   | (this commit) | `migrate-v1` wrote 69 polities; `validate:data` exit 0 (69 orphan warnings, relations come in T1.28)                            | 35      | Column map plus 14 lineage overrides in DECISIONS. Anchors use `xKey`, not fabricated coordinates. All rows `verification: unverified`.              |
 
 ## Blocked
 

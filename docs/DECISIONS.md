@@ -91,3 +91,13 @@ Alternatives: Let Prettier expand each object, which pushes the file past 400 li
 Why: T1.07 names a single `sources.json`. The line cap still applies. A test checks that the markdown matches the generator.
 
 Reversible? y
+
+## 2026-10-25 — v1 columns map to families, with lineage overrides
+
+Decision: `scripts/migrate-v1.ts` reads polities from tag `gemini-v1` and writes one JSON file per family. The column default is: andean → andean; mesoamerica → mesoamerican; north_america → north_american; sub_saharan_africa → sub_saharan; western_europe → latin_west; eastern_med_europe → greek_byzantine; egypt_levant → nile_egyptian; mesopotamia_persia → persian_iranian; indus_india → indian; china_east_asia → chinese; austronesia_japan_sea → southeast_oceanian. These ids override that default: megalithic_celts and british_empire → celtic_germanic_norse; russia_soviet → slavic_steppe; hittites, sumer_akkad, babylon_assyria, and neo_assyria_babylon → mesopotamian; phoenicia_israel → levantine_semitic; ptolemaic_seleucid → greek_byzantine; umayyad_abbasid and ottoman_empire → islamic_arab; mongol_empire → turkic_mongol; korea_dynasties and japan_timeline → korean_japanese. Every row is `verification: unverified`, `confidence: approximate`, importance 3. v1 `mapCenter` values are schematic pixels, so anchors store `xKey` = the v1 region id and do not invent longitude. Two `sources.json` ids are bibliography pointers, named in `evidence`, not checked citations. Parent links wait for T1.28, so orphan warnings are expected.
+
+Alternatives: Keep each row in its v1 column family. Copy the pixel pairs into `geo`.
+
+Why: Several v1 columns mix lineages (Mongols sit in the China column; Celts sit in Western Europe). Treating pixels as longitude would fail the coordinate bounds and place ribbons in the wrong ocean.
+
+Reversible? y

@@ -1,0 +1,187 @@
+[
+  {
+    "id": "sumer_akkad",
+    "name": "Sumerian City-States & Akkadian Empire",
+    "family": "mesopotamian",
+    "start": -3300,
+    "end": -2004,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.72,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": -3300,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "Cradle of urban civilization between the Tigris and Euphrates. Invented cuneiform writing, the potter’s and vehicular wheel, base-60 mathematics (60-minute hour, 360° circle), ziggurats, the Epic of Gilgamesh, and the world’s first empire under Sargon of Akkad.",
+    "keyFacts": [
+      "Cuneiform script (c. 3200 BCE) & Epic of Gilgamesh",
+      "Sexagesimal (base-60) mathematics, astronomy, and wheeled transport",
+      "Great Ziggurat of Ur & Code of Ur-Nammu (2100 BCE)"
+    ],
+    "sourceIds": ["cdli", "isac"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Uruk, Ur, Lagash & Empire of Akkad"],
+    "rulers": [
+      {
+        "name": "Gilgamesh of Uruk",
+        "reign": "c. 2700 BCE",
+        "title": "Semi-legendary King of Uruk"
+      },
+      {
+        "name": "Sargon of Akkad",
+        "reign": "c. 2334–2279 BCE",
+        "title": "Founder of World’s First Empire"
+      },
+      {
+        "name": "Ur-Nammu of Ur",
+        "reign": "c. 2112–2095 BCE",
+        "title": "Author of Oldest Surviving Law Code"
+      }
+    ],
+    "wikipediaTitle": "Sumer"
+  },
+  {
+    "id": "babylon_assyria",
+    "name": "Old Babylonia, Assyria & Elam",
+    "family": "mesopotamian",
+    "start": -2000,
+    "end": -911,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.65,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -2000,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "Hammurabi united Mesopotamia and erected his famous basalt stele of 282 laws, while Babylonian mathematicians recorded Plimpton 322 (Pythagorean triples a millennium before Pythagoras) and algebraic tables.",
+    "keyFacts": [
+      "Code of Hammurabi stele (c. 1750 BCE)",
+      "Old Babylonian algebra and Plimpton 322 trigonometric tablet"
+    ],
+    "sourceIds": ["cdli", "isac"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Hammurabi’s Babylon, Middle Assyria & Kassites"],
+    "rulers": [
+      {
+        "name": "Hammurabi of Babylon",
+        "reign": "1792–1750 BCE",
+        "title": "Lawgiver & King of Babylon"
+      }
+    ],
+    "wikipediaTitle": "Babylonia"
+  },
+  {
+    "id": "hittites",
+    "name": "Hittite Empire",
+    "family": "mesopotamian",
+    "start": -1650,
+    "end": -1180,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.4,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": -1650,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Indo-European superpower centered in Anatolia that pioneered early ironworking, three-man war chariots, and international treaty law, rivaling New Kingdom Egypt across Syria and the Levant.",
+    "keyFacts": [
+      "Oldest surviving Indo-European written texts (Hittite cuneiform)",
+      "Early meteoric and smelted ironworking & Kadesh Peace Treaty"
+    ],
+    "sourceIds": ["cdli", "isac"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Kingdom of Hattusa"],
+    "rulers": [
+      {
+        "name": "Suppiluliuma I",
+        "reign": "c. 1344–1322 BCE",
+        "title": "Great King of Hatti"
+      },
+      {
+        "name": "Hattusili III & Puduhepa",
+        "reign": "c. 1267–1237 BCE",
+        "title": "Co-Signers of Peace Treaty"
+      }
+    ],
+    "wikipediaTitle": "Hittites",
+    "spans": [
+      {
+        "macroRegion": "europe",
+        "start": -1650,
+        "end": -1180
+      },
+      {
+        "macroRegion": "africa",
+        "start": -1400,
+        "end": -1180
+      }
+    ]
+  },
+  {
+    "id": "neo_assyria_babylon",
+    "name": "Neo-Assyrian & Neo-Babylonian Empires",
+    "family": "mesopotamian",
+    "start": -911,
+    "end": -539,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.75,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": -911,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "The Neo-Assyrian Empire forged the first iron-equipped standing army and Ashurbanipal’s 30,000-tablet Library of Nineveh, followed by the Neo-Babylonian renaissance of glazed-brick Ishtar Gate architecture and predictive mathematical astronomy.",
+    "keyFacts": [
+      "Royal Library of Ashurbanipal at Nineveh (preserving the Epic of Gilgamesh)",
+      "Ishtar Gate of Babylon & Chaldean saros-cycle eclipse astronomy"
+    ],
+    "sourceIds": ["cdli", "isac"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Nineveh & Nebuchadnezzar’s Babylon"],
+    "rulers": [
+      {
+        "name": "Tiglath-Pileser III & Sargon II",
+        "reign": "745–705 BCE",
+        "title": "Neo-Assyrian Conquerors"
+      },
+      {
+        "name": "Ashurbanipal",
+        "reign": "669–631 BCE",
+        "title": "Founder of Royal Library of Nineveh"
+      },
+      {
+        "name": "Nebuchadnezzar II",
+        "reign": "605–562 BCE",
+        "title": "Builder of Ishtar Gate of Babylon"
+      }
+    ],
+    "wikipediaTitle": "Neo-Assyrian_Empire",
+    "spans": [
+      {
+        "macroRegion": "africa",
+        "start": -732,
+        "end": -539
+      }
+    ]
+  }
+]

@@ -1,0 +1,229 @@
+[
+  {
+    "id": "olmecs",
+    "name": "Olmec Civilization",
+    "family": "mesoamerican",
+    "start": -1500,
+    "end": -400,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.65,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": -1500,
+        "xKey": "mesoamerica"
+      }
+    ],
+    "summary": "Flourished in the tropical lowlands of Veracruz and Tabasco. Carved 20-ton basalt Colossal Heads, pioneered the Mesoamerican rubber ballgame, ritual bloodletting, jade carving, the Long Count calendar, and the earliest writing in the Americas.",
+    "keyFacts": [
+      "17 monumental basalt Colossal Heads portraying Olmec rulers",
+      "Cascajal Block & Epi-Olmec script; concept of zero",
+      "Vulcanized rubber balls for the Mesoamerican ballgame"
+    ],
+    "sourceIds": ["inah", "field_museum"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Cultura Madre of Mesoamerica"],
+    "startUncertainty": 100,
+    "wikipediaTitle": "Olmecs"
+  },
+  {
+    "id": "maya_civilization",
+    "name": "Maya Civilization",
+    "family": "mesoamerican",
+    "start": -1000,
+    "end": 1524,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.45,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -1000,
+        "xKey": "mesoamerica"
+      }
+    ],
+    "summary": "Renowned for the only fully developed phonetic-logographic writing system in the pre-Columbian Americas, positional mathematics with an explicit zero, ultra-precise Venus and eclipse astronomy, and soaring limestone step-pyramids.",
+    "keyFacts": [
+      "Maya hieroglyphic script and bark-paper codices (Dresden Codex)",
+      "Base-20 positional mathematics with zero & Long Count calendar",
+      "Tikal, Palenque, Copán, and Chichén Itzá astronomical architecture"
+    ],
+    "sourceIds": ["inah", "field_museum"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Preclassic, Classic & Postclassic Maya"],
+    "rulers": [
+      {
+        "name": "K’inich Janaab’ Pakal",
+        "reign": "615–683 CE",
+        "title": "Ajaw of Palenque"
+      },
+      {
+        "name": "Jasaw Chan K’awiil I",
+        "reign": "682–734 CE",
+        "title": "Ajaw of Tikal"
+      }
+    ],
+    "wikipediaTitle": "Maya_civilization"
+  },
+  {
+    "id": "zapotec_teotihuacan",
+    "name": "Zapotecs & Teotihuacan",
+    "family": "mesoamerican",
+    "start": -500,
+    "end": 650,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.42,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": -500,
+        "xKey": "mesoamerica"
+      }
+    ],
+    "summary": "Teotihuacan dominated Classic Mesoamerica with its Avenue of the Dead, Pyramid of the Sun, Pyramid of the Moon, multi-family apartment compounds, and obsidian export monopoly, while Zapotec Monte Albán ruled Oaxaca.",
+    "keyFacts": [
+      "Pyramid of the Sun & Avenue of the Dead urban grid",
+      "Talud-tablero architectural style exported across Mesoamerica"
+    ],
+    "sourceIds": ["inah", "field_museum"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Monte Albán & City of the Gods"],
+    "rulers": [
+      {
+        "name": "Spearthrower Owl",
+        "reign": "374–439 CE",
+        "title": "Teotihuacan Hegemon"
+      }
+    ],
+    "wikipediaTitle": "Teotihuacan"
+  },
+  {
+    "id": "toltecs",
+    "name": "Toltec Empire",
+    "family": "mesoamerican",
+    "start": 900,
+    "end": 1168,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.4,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 900,
+        "xKey": "mesoamerica"
+      }
+    ],
+    "summary": "Postclassic central Mexican power famous for the Atlantean warrior columns at Tula and venerated by the later Aztecs as the supreme progenitors of civilization (\"Toltecayotl\").",
+    "keyFacts": [
+      "Colossal basalt Atlantean warrior pillars at Tula",
+      "Chacmool sculpture tradition"
+    ],
+    "sourceIds": ["inah", "field_museum"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Tollan-Xicocotitlan"],
+    "rulers": [
+      {
+        "name": "Ce Acatl Topiltzin Quetzalcoatl",
+        "reign": "c. 947 CE",
+        "title": "Priest-King of Tula"
+      }
+    ],
+    "wikipediaTitle": "Toltec"
+  },
+  {
+    "id": "aztec_empire",
+    "name": "Aztec Empire (Triple Alliance)",
+    "family": "mesoamerican",
+    "start": 1428,
+    "end": 1521,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.78,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 1428,
+        "xKey": "mesoamerica"
+      }
+    ],
+    "summary": "Alliance of Tenochtitlan, Texcoco, and Tlacopan that built an island metropolis on Lake Texcoco connected by causeways, aqueducts, and hyper-productive chinampa \"floating gardens.\"",
+    "keyFacts": [
+      "Island metropolis of Tenochtitlan & Templo Mayor",
+      "Chinampa lacustrine agriculture supporting 200,000+ urban residents",
+      "Universal compulsory education (Telpochcalli & Calmecac schools)"
+    ],
+    "sourceIds": ["inah", "field_museum"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Excan Tlahtoloyan (Mexica)"],
+    "rulers": [
+      {
+        "name": "Itzcoatl & Tlacaelel",
+        "reign": "1427–1440",
+        "title": "Founders of Triple Alliance"
+      },
+      {
+        "name": "Ahuitzotl",
+        "reign": "1486–1502",
+        "title": "Huey Tlatoani"
+      },
+      {
+        "name": "Moctezuma II",
+        "reign": "1502–1520",
+        "title": "Huey Tlatoani"
+      }
+    ],
+    "wikipediaTitle": "Aztec_Empire"
+  },
+  {
+    "id": "new_spain_mexico",
+    "name": "New Spain → Mexico",
+    "family": "mesoamerican",
+    "start": 1521,
+    "end": 2025,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.7,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1521,
+        "xKey": "mesoamerica"
+      }
+    ],
+    "summary": "Hub of the Spanish Empire linking the Atlantic and Pacific (Manila Galleons), achieving independence in 1821 and undergoing the transformative Mexican Revolution (1910–1920).",
+    "keyFacts": [
+      "First printing press (1539) and university (1551) in the Americas",
+      "Mexican Constitution of 1917 pioneering social and labor rights"
+    ],
+    "sourceIds": ["inah", "field_museum"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Virreinato de Nueva España → Estados Unidos Mexicanos"],
+    "rulers": [
+      {
+        "name": "Miguel Hidalgo & José María Morelos",
+        "reign": "1810–1815",
+        "title": "Independence Leaders"
+      },
+      {
+        "name": "Benito Juárez",
+        "reign": "1858–1872",
+        "title": "President of Mexico"
+      }
+    ],
+    "wikipediaTitle": "History_of_Mexico"
+  }
+]

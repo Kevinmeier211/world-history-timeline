@@ -1,0 +1,47 @@
+[
+  {
+    "id": "russia_soviet",
+    "name": "Kievan Rus’ → Russia & USSR",
+    "family": "slavic_steppe",
+    "start": 882,
+    "end": 2025,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.45,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": 882,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "Originating along Varangian river trade routes from the Baltic to Byzantium as Kievan Rus’, Moscow later threw off Mongol suzerainty, expanded across Siberia to the Pacific, and in 1917 established the Soviet Union—launching Sputnik and Yuri Gagarin into space.",
+    "keyFacts": [
+      "Adoption of Eastern Orthodoxy & Cyrillic literacy (988 CE)",
+      "Sputnik 1 (1957) & Yuri Gagarin first human in space (1961)"
+    ],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Kievan Rus’, Tsardom, Russian Empire, USSR & RF"],
+    "rulers": [
+      {
+        "name": "Vladimir the Great & Yaroslav the Wise",
+        "reign": "980–1054",
+        "title": "Grand Princes of Kyiv"
+      },
+      {
+        "name": "Peter the Great & Catherine the Great",
+        "reign": "1682–1796",
+        "title": "Russian Emperors"
+      },
+      {
+        "name": "Vladimir Lenin",
+        "reign": "1917–1924",
+        "title": "Founder of USSR"
+      }
+    ],
+    "wikipediaTitle": "History_of_Russia"
+  }
+]

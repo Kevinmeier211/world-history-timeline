@@ -1,0 +1,256 @@
+[
+  {
+    "id": "neolithic_erlitou_china",
+    "name": "Yangshao, Longshan & Erlitou (Xia)",
+    "family": "chinese",
+    "start": -3200,
+    "end": -1600,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.55,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": -3200,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "From Liangzhu’s jade cong and massive hydraulic dams in the Yangtze delta to Longshan black pottery and the Bronze Age palace-workshops at Erlitou (linked by archaeologists to the traditional Xia Dynasty).",
+    "keyFacts": [
+      "Liangzhu hydraulic dam complex (3000 BCE)—oldest large-scale water engineering in East Asia",
+      "Piece-mold ritual bronze vessels, silk sericulture, and rammed-earth palaces at Erlitou"
+    ],
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Yellow & Yangtze River Cradle"],
+    "startUncertainty": 120,
+    "rulers": [
+      {
+        "name": "Yu the Great (Traditional)",
+        "reign": "c. 2070 BCE",
+        "title": "Tamer of the Floods"
+      }
+    ],
+    "wikipediaTitle": "Erlitou_culture"
+  },
+  {
+    "id": "shang_dynasty",
+    "name": "Shang Dynasty",
+    "family": "chinese",
+    "start": -1600,
+    "end": -1046,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.65,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -1600,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "First archaeologically verified Chinese dynasty with contemporary written records: over 150,000 oracle bone inscriptions (jiaguwen) directly ancestral to modern Chinese characters, alongside monumental bronze casting (Houmuwu ding) and Sanxingdui in Sichuan.",
+    "keyFacts": [
+      "Oracle Bone Script (Jiaguwen)—direct ancestor of modern Chinese writing used for 3,300+ years",
+      "832 kg Houmuwu Ding bronze vessel & Tomb of Lady Fu Hao"
+    ],
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Yin Dynasty (Oracle Bone Era)"],
+    "rulers": [
+      {
+        "name": "King Tang of Shang",
+        "reign": "c. 1600 BCE",
+        "title": "Founder"
+      },
+      {
+        "name": "King Wu Ding & Lady Fu Hao",
+        "reign": "c. 1250–1192 BCE",
+        "title": "King & Warrior-Queen General"
+      }
+    ],
+    "wikipediaTitle": "Shang_dynasty"
+  },
+  {
+    "id": "zhou_dynasty",
+    "name": "Zhou Dynasty (Spring & Autumn / Warring States)",
+    "family": "chinese",
+    "start": -1046,
+    "end": -221,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.72,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -1046,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "China’s longest-lasting dynasty (825 years). Articulated the \"Mandate of Heaven\" (Tianming) and during its Eastern Zhou era (Spring & Autumn and Warring States) witnessed cast-iron metallurgy, the crossbow, Dujiangyan irrigation, and the Hundred Schools of Thought.",
+    "keyFacts": [
+      "Mandate of Heaven political philosophy & Book of Songs (Shijing)",
+      "Confucius (Analects), Laozi (Dao De Jing), and Sun Tzu (The Art of War)",
+      "Blast-furnace cast iron (centuries before Europe), crossbow, and Dujiangyan irrigation system (256 BCE, still irrigating Sichuan today)"
+    ],
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Western & Eastern Zhou"],
+    "rulers": [
+      {
+        "name": "King Wu & Duke of Zhou",
+        "reign": "1046–1035 BCE",
+        "title": "Architects of Mandate of Heaven"
+      },
+      {
+        "name": "Confucius, Laozi, Mozi & Sun Tzu",
+        "reign": "6th–4th c. BCE",
+        "title": "Hundred Schools of Thought"
+      }
+    ],
+    "wikipediaTitle": "Zhou_dynasty"
+  },
+  {
+    "id": "han_dynasty",
+    "name": "Qin & Han Dynasties",
+    "family": "chinese",
+    "start": -221,
+    "end": 220,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.88,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": -221,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Qin Shi Huang unified the Warring States in 221 BCE, standardizing script, weights, coins, and road gauges and building the Terracotta Army and early Great Wall. The succeeding 400-year Han Dynasty institutionalized Confucian education, opened the Silk Road, and invented paper and the seismometer.",
+    "keyFacts": [
+      "Unification of Chinese script, Terracotta Army, and Imperial Civil Service Imperial University",
+      "Invention of papermaking by Cai Lun (105 CE) & Zhang Heng’s seismoscope (132 CE)",
+      "Sima Qian’s Records of the Grand Historian (Shiji) & opening of the Silk Road"
+    ],
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["First Imperial Unification & Classical Golden Age"],
+    "rulers": [
+      {
+        "name": "Qin Shi Huang",
+        "reign": "221–210 BCE",
+        "title": "First Emperor of China"
+      },
+      {
+        "name": "Emperor Gaozu (Liu Bang)",
+        "reign": "202–195 BCE",
+        "title": "Founder of Han Dynasty"
+      },
+      {
+        "name": "Emperor Wu of Han (Han Wudi)",
+        "reign": "141–87 BCE",
+        "title": "Opened the Silk Road"
+      }
+    ],
+    "wikipediaTitle": "Han_dynasty"
+  },
+  {
+    "id": "tang_song_dynasty",
+    "name": "Sui, Tang & Song Dynasties",
+    "family": "chinese",
+    "start": 581,
+    "end": 1279,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.85,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 581,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "After the Sui built the 1,776 km Grand Canal, Cosmopolitan Tang Chang’an became the world’s largest city and golden age of poetry (Li Bai, Du Fu). The succeeding Song Dynasty achieved a proto-industrial revolution: woodblock and movable-type printing, gunpowder, the magnetic mariner’s compass, paper currency (Jiaozi), and coal-fired steel production.",
+    "keyFacts": [
+      "Three of the \"Four Great Inventions\": Woodblock/Movable-Type Printing (Bi Sheng, 1040), Gunpowder, and Magnetic Compass",
+      "Grand Canal (longest artificial waterway in the world) & world’s first government paper money",
+      "Competitive imperial civil service examinations (Keju) & Tang poetry"
+    ],
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Cosmopolitan Golden Age & Song Technological Revolution"],
+    "rulers": [
+      {
+        "name": "Emperor Taizong of Tang",
+        "reign": "626–649",
+        "title": "Co-Founder of Tang Golden Age"
+      },
+      {
+        "name": "Empress Wu Zetian",
+        "reign": "690–705",
+        "title": "Only Female Emperor in Chinese History"
+      },
+      {
+        "name": "Emperor Taizu & Su Song",
+        "reign": "960–1101",
+        "title": "Song Dynasty Innovators"
+      }
+    ],
+    "wikipediaTitle": "Tang_dynasty"
+  },
+  {
+    "id": "ming_qing_china",
+    "name": "Ming & Qing Dynasties → Modern China",
+    "family": "chinese",
+    "start": 1368,
+    "end": 2025,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.9,
+    "kind": "people",
+    "anchor": [
+      {
+        "year": 1368,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "The Ming Dynasty built the Forbidden City, the stone-clad Ming Great Wall, blue-and-white Jingdezhen porcelain, and launched Admiral Zheng He’s 300-ship treasure fleets across the Indian Ocean to East Africa (1405–1433). The Qing expanded China’s frontiers before the 1911 Xinhai Revolution and China’s late-20th/21st-century economic and technological resurgence.",
+    "keyFacts": [
+      "Forbidden City, Ming Great Wall, Yongle Encyclopedia, and Zheng He’s 7 Indian Ocean voyages",
+      "Rapid poverty reduction and high-speed rail/space station engineering in the 21st century"
+    ],
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Forbidden City, Zheng He & Modern China"],
+    "rulers": [
+      {
+        "name": "Hongwu & Yongle Emperors (Ming)",
+        "reign": "1368–1424",
+        "title": "Forbidden City & Zheng He Voyages"
+      },
+      {
+        "name": "Kangxi & Qianlong Emperors (Qing)",
+        "reign": "1661–1796",
+        "title": "High Qing Era"
+      },
+      {
+        "name": "Sun Yat-sen, Mao Zedong & Deng Xiaoping",
+        "reign": "20th Century",
+        "title": "Modern Chinese Leaders"
+      }
+    ],
+    "wikipediaTitle": "History_of_China"
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "id": "egypt_old_kingdom",
+    "name": "Early Dynastic & Old Kingdom Egypt",
+    "family": "nile_egyptian",
+    "start": -3150,
+    "end": -2181,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.72,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -3150,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Unified Upper and Lower Egypt around 3150 BCE. During the Old Kingdom (2686–2181 BCE), pharaohs marshaled national Nile flood-season labor to construct the Step Pyramid of Djoser and the Great Pyramids and Sphinx of Giza.",
+    "keyFacts": [
+      "Great Pyramid of Giza (tallest human-made structure for 3,800 years)",
+      "Hieroglyphic writing, papyrus scrolls, and the 365-day solar calendar",
+      "Pyramid Texts—oldest religious corpus in the world"
+    ],
+    "sourceIds": ["louvre", "unesco_gha"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Age of the Pyramids (Dynasties I–VI)"],
+    "rulers": [
+      {
+        "name": "Narmer (Menes)",
+        "reign": "c. 3150 BCE",
+        "title": "Unifier of Upper & Lower Egypt"
+      },
+      {
+        "name": "Djoser & Imhotep",
+        "reign": "c. 2670 BCE",
+        "title": "Step Pyramid of Saqqara"
+      },
+      {
+        "name": "Khufu (Cheops)",
+        "reign": "c. 2589–2566 BCE",
+        "title": "Builder of the Great Pyramid"
+      }
+    ],
+    "wikipediaTitle": "Old_Kingdom_of_Egypt"
+  },
+  {
+    "id": "egypt_middle_kingdom",
+    "name": "Egyptian Middle Kingdom",
+    "family": "nile_egyptian",
+    "start": -2055,
+    "end": -1650,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.65,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -2055,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Following the 4.2 kiloyear drought and First Intermediate Period, Mentuhotep II reunified Egypt, ushering in the golden age of classical Egyptian literature (Tale of Sinuhe), Faiyum land reclamation, and Red Sea expeditions to Punt.",
+    "keyFacts": [
+      "Classical Middle Egyptian literature & mathematical papyri (Rhind & Moscow Papyri)",
+      "Canal of the Pharaohs linking the Nile to the Red Sea"
+    ],
+    "sourceIds": ["louvre", "unesco_gha"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Classical Period of Egypt (Dynasties XI–XIII)"],
+    "rulers": [
+      {
+        "name": "Mentuhotep II",
+        "reign": "2055–2004 BCE",
+        "title": "Reunifier of Egypt"
+      },
+      {
+        "name": "Senusret III",
+        "reign": "1878–1839 BCE",
+        "title": "Warrior-Pharaoh"
+      }
+    ],
+    "wikipediaTitle": "Middle_Kingdom_of_Egypt"
+  },
+  {
+    "id": "egypt_new_kingdom",
+    "name": "Egyptian New Kingdom",
+    "family": "nile_egyptian",
+    "start": -1550,
+    "end": -1077,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.75,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -1550,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "After expelling the Hyksos, New Kingdom pharaohs forged an empire from Nubia to the Euphrates, building Karnak, Luxor, the Valley of the Kings, and Abu Simbel, and surviving the Late Bronze Age Collapse.",
+    "keyFacts": [
+      "Temple complexes of Karnak, Luxor, Deir el-Bahari, and Abu Simbel",
+      "Valley of the Kings royal tombs (including Tutankhamun’s intact tomb)",
+      "Amarna diplomatic archive & Kadesh Peace Treaty (1259 BCE)"
+    ],
+    "sourceIds": ["louvre", "unesco_gha"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Egyptian Empire (Dynasties XVIII–XX)"],
+    "rulers": [
+      {
+        "name": "Hatshepsut & Thutmose III",
+        "reign": "1479–1425 BCE",
+        "title": "18th Dynasty Peak"
+      },
+      {
+        "name": "Akhenaten, Nefertiti & Tutankhamun",
+        "reign": "1353–1323 BCE",
+        "title": "Amarna Period"
+      },
+      {
+        "name": "Ramesses II the Great",
+        "reign": "1279–1213 BCE",
+        "title": "19th Dynasty Builder of Abu Simbel"
+      }
+    ],
+    "wikipediaTitle": "New_Kingdom_of_Egypt"
+  }
+]
