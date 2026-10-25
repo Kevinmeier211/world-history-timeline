@@ -14,7 +14,8 @@
 | T0.10 | done   | c960ae9       | `npm run check` exit 0                                                                                                          | 15      | Palette, validate, layout, shots, perf, media, and export scripts are stubs with named replacement tasks. `media:fetch` exits gated.               |
 | T0.11 | done   | b9e3968       | `npm run shots` → 12 PNGs in `docs/shots/v1/`                                                                                   | 20      | Desktop and wide show bronze, classical, and modern chart positions. Mobile v1 covers the chart with the open dossier, so those four frames match. |
 | T0.12 | done   | 30271ba       | `docs/CONTEXT.md` rewritten with commands, layout, and gotchas                                                                  | 8       | P0 merged to `v2/main` as `328b547` and tagged `v2-p0-done`. `npm run build` succeeded.                                                            |
-| T1.01 | done   | (this commit) | `vitest` schema tests passed                                                                                                    | 25      | Zod schemas for every §6.3 entity plus verification, endpoints, spanLanes, and group.                                                              |
+| T1.01 | done   | 790ec60       | `vitest` schema tests passed                                                                                                    | 25      | Zod schemas for every §6.3 entity plus verification, endpoints, spanLanes, and group.                                                              |
+| T1.02 | done   | (this commit) | `vitest` year tests passed (gap of 1 between -1 and 1; range c. rules; parse examples)                                         | 12      | `src/lib/years.ts` is the only year formatter new code should call.                                                                   |
 
 ## Blocked
 
