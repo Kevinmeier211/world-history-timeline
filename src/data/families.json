@@ -1,0 +1,146 @@
+[
+  {
+    "id": "andean",
+    "name": "Andean",
+    "color": "#2F6F5A",
+    "macroRegion": "americas",
+    "xBias": 0,
+    "xZones": ["americas"]
+  },
+  {
+    "id": "mesoamerican",
+    "name": "Mesoamerican",
+    "color": "#FAB800",
+    "macroRegion": "americas",
+    "xBias": 0.02,
+    "xZones": ["americas"]
+  },
+  {
+    "id": "north_american",
+    "name": "North American",
+    "color": "#8A4E1F",
+    "macroRegion": "americas",
+    "xBias": 0.04,
+    "xZones": ["americas"]
+  },
+  {
+    "id": "sub_saharan",
+    "name": "Sub-Saharan",
+    "color": "#FEAC9B",
+    "macroRegion": "africa",
+    "xBias": 0,
+    "xZones": ["africa"]
+  },
+  {
+    "id": "nile_egyptian",
+    "name": "Nile and Egypt",
+    "color": "#ADA300",
+    "macroRegion": "africa",
+    "xBias": 0.03,
+    "xZones": ["africa", "mediterranean"]
+  },
+  {
+    "id": "mesopotamian",
+    "name": "Mesopotamian",
+    "color": "#988C62",
+    "macroRegion": "west_central_asia",
+    "xBias": 0,
+    "xZones": ["west_asia"]
+  },
+  {
+    "id": "persian_iranian",
+    "name": "Persian and Iranian",
+    "color": "#6D91AE",
+    "macroRegion": "west_central_asia",
+    "xBias": 0.02,
+    "xZones": ["west_asia", "steppe"]
+  },
+  {
+    "id": "levantine_semitic",
+    "name": "Levantine and Semitic",
+    "color": "#B3B9FF",
+    "macroRegion": "west_central_asia",
+    "xBias": -0.02,
+    "xZones": ["west_asia", "mediterranean"]
+  },
+  {
+    "id": "greek_byzantine",
+    "name": "Greek and Byzantine",
+    "color": "#6E90AF",
+    "macroRegion": "europe",
+    "xBias": 0.02,
+    "xZones": ["mediterranean", "europe"]
+  },
+  {
+    "id": "latin_west",
+    "name": "Latin West",
+    "color": "#652399",
+    "macroRegion": "europe",
+    "xBias": -0.02,
+    "xZones": ["europe", "mediterranean"]
+  },
+  {
+    "id": "celtic_germanic_norse",
+    "name": "Celtic, Germanic, and Norse",
+    "color": "#685C81",
+    "macroRegion": "europe",
+    "xBias": -0.04,
+    "xZones": ["europe"]
+  },
+  {
+    "id": "slavic_steppe",
+    "name": "Slavic and Steppe",
+    "color": "#96C8FF",
+    "macroRegion": "europe",
+    "xBias": 0.04,
+    "xZones": ["europe", "steppe"]
+  },
+  {
+    "id": "islamic_arab",
+    "name": "Islamic and Arab",
+    "color": "#2C5742",
+    "macroRegion": "west_central_asia",
+    "xBias": 0,
+    "xZones": ["west_asia", "mediterranean", "africa", "south_asia"]
+  },
+  {
+    "id": "turkic_mongol",
+    "name": "Turkic and Mongol",
+    "color": "#FFB200",
+    "macroRegion": "west_central_asia",
+    "xBias": 0.04,
+    "xZones": ["steppe", "west_asia", "south_asia", "east_asia"]
+  },
+  {
+    "id": "indian",
+    "name": "Indian",
+    "color": "#A88468",
+    "macroRegion": "south_asia",
+    "xBias": 0,
+    "xZones": ["south_asia"]
+  },
+  {
+    "id": "chinese",
+    "name": "Chinese",
+    "color": "#8E2F2A",
+    "macroRegion": "east_asia",
+    "xBias": 0,
+    "xZones": ["east_asia", "se_asia"]
+  },
+  {
+    "id": "korean_japanese",
+    "name": "Korean and Japanese",
+    "color": "#B28391",
+    "macroRegion": "east_asia",
+    "xBias": 0.03,
+    "xZones": ["east_asia"]
+  },
+  {
+    "id": "southeast_oceanian",
+    "name": "Southeast Asian and Oceanian",
+    "color": "#3FA3A0",
+    "macroRegion": "se_asia_oceania",
+    "xBias": 0.04,
+    "xZones": ["se_asia", "south_asia"]
+  }
+]

@@ -103,6 +103,7 @@ export const familySchema = z.object({
   color: hexColorSchema,
   macroRegion: macroRegionSchema,
   xBias: z.number().min(-0.2).max(0.2).optional(),
+  xZones: z.array(z.string().regex(/^[a-z0-9_]+$/)).min(1),
 });
 
 export type Polity = z.infer<typeof politySchema>;
