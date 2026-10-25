@@ -18,7 +18,8 @@
 | T1.02 | done   | 997b6fd       | `vitest` year tests passed (gap of 1 between -1 and 1; range c. rules; parse examples)                                          | 12      | `src/lib/years.ts` is the only year formatter new code should call.                                                                                |
 | T1.03 | done   | 8b50503       | `npm run palette:check` exit 0, matrix printed                                                                                  | 30      | 18 families. Hues stayed near Appendix A; lightness changed so contrast and CVD ΔE pass. See DECISIONS.                                            |
 | T1.04 | done   | 8892a78       | geography schema tests passed; knots monotone, endpoints 0 and 1                                                                | 12      | Appendix G knots. `interpolatePosterX` is what T2.02 will call. Family bias matches `families.json`.                                               |
-| T1.05 | done   | (this commit) | catalog tests passed; bundled families = 18                                                                                     | 18      | v1 barrel moved to `legacy.ts` and re-exported. Indexes: byId, byFamily, relations, children, eras.                                                |
+| T1.05 | done   | e5073bc       | catalog tests passed; bundled families = 18                                                                                     | 18      | v1 barrel moved to `legacy.ts` and re-exported. Indexes: byId, byFamily, relations, children, eras.                                                |
+| T1.06 | done   | (this commit) | `vitest` validate tests passed; `npm run validate:data` exit 0 on the empty roster                                              | 25      | Errors fail. Orphans, thin ancient sourcing, empty URLs, and Wikipedia-only major entries warn. Lane colors are tested and wait for layout pairs.  |
 
 ## Blocked
 

@@ -71,3 +71,13 @@ Alternatives: Replace the barrel now and update every v1 import. Leave the v2 ca
 Why: The plan names `src/data/index.ts` as the loader. Keeping the v1 names exported avoids a broken chart before the renderer swap.
 
 Reversible? y
+
+## 2026-10-25 — Validator warnings versus errors
+
+Decision: Schema failures, duplicate ids, missing endpoints, a relation year outside a life ± 50 years, and missing source or media ids are errors. A polity with no inbound relation, a pre-1000 BCE polity with fewer than two sources, an empty source URL, and an importance ≥ 3 entry whose only citations are Wikipedia are warnings. The adjacent-lane color rule (>25% of touching pairs share a hex) is implemented and unit-tested; `validate:data` does not invent lane pairs, and prints that the check waits for the layout report.
+
+Alternatives: Fail the build on orphans and single ancient sources now. Skip the color rule until T2.
+
+Why: §6.3 says errors fail and warnings print. Orphans are cleared in T1.28, second ancient sources arrive as the roster is sourced, and lanes do not exist until the solver. The color function is already strict so the later call site cannot quietly drop the gate.
+
+Reversible? y
