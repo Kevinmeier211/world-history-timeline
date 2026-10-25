@@ -9,7 +9,8 @@
 | T0.05 | done   | a076e69       | `.cursor/rules/chronos.mdc` present, `alwaysApply: true`                                                                        | 4       | Body matches Appendix F.                                                                               |
 | T0.06 | done   | a9ce8d4       | `npm ls --depth=0` exit 0                                                                                                       | 6       | Lucide stays until T5.20. Zod 4 resolved as the current major.                                         |
 | T0.07 | done   | a79f11a       | `npx tsc -b` exit 0; `npx vitest run` exit 0 (no test files)                                                                    | 20      | `noUncheckedIndexedAccess` on; v1 index sites guarded. `@types/node` added for configs.                |
-| T0.08 | done   | (this commit) | `npm run lint` exit 0                                                                                                           | 12      | v1 sources ignored by ESLint and Prettier until T3.16. DESIGN and DATA_PROTOCOL stay verbatim.         |
+| T0.08 | done   | c664b7c       | `npm run lint` exit 0                                                                                                           | 12      | v1 sources ignored by ESLint and Prettier until T3.16. DESIGN and DATA_PROTOCOL stay verbatim.         |
+| T0.09 | done   | (this commit) | `npm run design:lint` ok; `vitest` 8 tests passed                                                                               | 18      | Five §13.6 rules. Legacy allowlist is tested and limited to v1 plus index.html.                        |
 
 ## Blocked
 

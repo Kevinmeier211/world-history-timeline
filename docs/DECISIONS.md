@@ -21,3 +21,13 @@ Alternatives: Keep configs out of `tsc` and use URL-only aliases with no Node im
 Why: T0.07 requires `tsc -b` to typecheck the Vite and Playwright configs, and every later script is TypeScript on Node. This is not a runtime dependency and is under the size switch.
 
 Reversible? y
+
+## 2026-10-25 — Design lint skips v1 until it is deleted
+
+Decision: `scripts/design-lint.ts` does not scan `index.html` or the v1 app (`src/App.tsx`, `src/main.tsx`, `src/components/`, `src/styles/app.css`, `src/utils/`). The five §13.6 rules still run on every other file, and unit tests cover each rule.
+
+Alternatives: Fail `design:lint` on v1 now, or loosen the rules so the current CSS passes.
+
+Why: T0.11 still needs an untouched v1 screenshot, and T3.01 / T3.16 are the tasks that remove Google fonts and the old canvas. The allowlist is a constant asserted by a test so it cannot grow quietly.
+
+Reversible? y
