@@ -2,6 +2,18 @@
 
 An interactive, synchronoptic world history web application inspired by the *UsefulCharts Timeline of World History*. Built with **React 19**, **TypeScript**, and **Vite**.
 
+## Project documents
+
+- [Implementation plan](docs/CURSOR_PLAN.md)
+- [Run configuration](docs/RUN_CONFIG.md) (approvals; all default off)
+- [Progress](docs/PROGRESS.md)
+- [Decisions](docs/DECISIONS.md)
+- [Questions](docs/QUESTIONS.md)
+- [Unverified claims](docs/UNVERIFIED.md)
+- [Context for the next session](docs/CONTEXT.md)
+- [Design](docs/DESIGN.md)
+- [Data protocol](docs/DATA_PROTOCOL.md)
+
 ## Core Features
 
 - **11 Global Macro-Regions**: Andean Peoples, Mesoamerica, North America, Sub-Saharan Africa, Western Europe, Aegean & Eastern Europe, Egypt & The Levant, Mesopotamia & Persia, Indus & Indian Subcontinent, China & Steppe Frontier, and Korea, Japan, SE Asia & Pacific.
