@@ -451,3 +451,13 @@ Alternatives: Point `npm run shots` at both specs and regenerate v1. Leave the o
 Why: T0.11 already accepted the v1 frames. Re-running that spec would replace them. A phone-height fit shows the whole axis in one window, so the era scenes have to zoom in or three of them are the same picture.
 
 Reversible? y
+
+## 2026-10-26 — Frame time is measured on a 300-ribbon bench
+
+Decision: `npm run perf` opens `/?bench=300`, clones real ribbon paints until 300 are mounted, then pans and clicks zoom for about 150 frames. The score is the 95th percentile gap between animation frames. The budget is 20 ms. The public chart does not read `bench`. A run on this machine mounted 300 ribbons, p95 16.70 ms, worst frame 50 ms.
+
+Alternatives: Time the 194-ribbon roster and call it enough. Ignore the worst frame by raising the percentile.
+
+Why: The task asks for 300 ribbons. The roster has 194. Copying paints stresses the stage without inventing polities. p95 is the gate; the 50 ms frame stays in the log.
+
+Reversible? y

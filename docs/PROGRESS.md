@@ -81,7 +81,9 @@
 | T3.12 | done   | 70c0fcb | theme tests: stored dark restores, blocked storage stays system, ink contrast ≥ 4.5 on both themes; reload keeps dark            | 20      | `chronos-theme` is try/catch. System follows the OS. See DECISIONS.                                                                                   |
 
 | T3.13 | done | 57cc758 | reading tests: six ideas in our words, 18 swatches, closed until asked; escape and Close hide it | 25 | The key sits one click from the title band. See DECISIONS. |
-| T3.14 | done | (this commit) | `npm run shots` → 21 PNGs in `docs/shots/p3/`; v1 baselines unchanged; phone era frames are separate windows | 30 | Overview is centered. `npm run shots` no longer rewrites `docs/shots/v1/`. See DECISIONS. |
+| T3.14 | done | e6c79d1 | `npm run shots` → 21 PNGs in `docs/shots/p3/`; v1 baselines unchanged; phone era frames are separate windows | 30 | Overview is centered. `npm run shots` no longer rewrites `docs/shots/v1/`. See DECISIONS. |
+
+| T3.15 | done | (this commit) | `npm run perf` p95 16.70 ms over 149 frames with 300 ribbons mounted; worst frame 50 ms | 25 | `?bench=300` clones real ribbon paints. The public chart is unchanged. See DECISIONS. |
 
 ## Blocked
 

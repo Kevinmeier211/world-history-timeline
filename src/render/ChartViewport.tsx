@@ -1,6 +1,7 @@
-import { useEffect, useLayoutEffect, useRef, useState } from 'react';
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 
 import { posterWorld, SCALE_MAX, SCALE_MIN } from '../camera/camera.ts';
+import { benchRibbonCount, padRibbons } from './bench.ts';
 import { Minimap } from './Minimap.tsx';
 import { posterModel } from './posterModel.ts';
 import { Stage } from './Stage.tsx';
@@ -44,6 +45,13 @@ export function ChartViewport({ onSheet }: { onSheet: (sheet: SheetSize) => void
   const [zoom, setZoom] = useState(1);
   const world = posterWorld();
   const paint = posterModel();
+  const bench = benchRibbonCount(
+    typeof window === 'undefined' ? '' : window.location.search,
+  );
+  const ribbons = useMemo(
+    () => (bench > 0 ? padRibbons(paint.ribbons, bench) : paint.ribbons),
+    [bench, paint.ribbons],
+  );
 
   useLayoutEffect(() => {
     const el = host.current;
@@ -153,14 +161,14 @@ export function ChartViewport({ onSheet }: { onSheet: (sheet: SheetSize) => void
   }, [metrics, onSheet, scale, world.height, world.width]);
 
   return (
-    <div className="stage-host" ref={host}>
+    <div className="stage-host" ref={host} data-ribbon-count={ribbons.length}>
       {metrics ? (
         <Stage
           camera={camera}
           viewport={{ width: metrics.width, height: Math.max(metrics.portHeight, 1) }}
           scale={scale}
           world={world}
-          ribbons={paint.ribbons}
+          ribbons={ribbons}
           labels={paint.labels}
           connectors={paint.connectors}
           bands={paint.bands}
@@ -174,7 +182,7 @@ export function ChartViewport({ onSheet }: { onSheet: (sheet: SheetSize) => void
         >
           <Minimap
             world={world}
-            ribbons={paint.ribbons}
+            ribbons={ribbons}
             scrollTop={metrics.scrollTop}
             portHeight={metrics.portHeight}
             scale={scale}
