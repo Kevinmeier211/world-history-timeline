@@ -1071,3 +1071,13 @@ Alternatives: Raise Ur III, the Akkadian Empire, the Old Kingdom, and Liangzhu t
 Why: The Louvre homepage describes the museum’s hours and current exhibitions. It does not state a row year. Importance 4 still waits on an opened page that states the claim. The runtime miss is the roster, not a new solver.
 
 Reversible? y
+
+## 2026-10-26 — Four extra tours restate years already on the sheet
+
+Decision: T6.07 adds Steppe vs settled, Religion & philosophy across Eurasia, Seas & routes (Indian Ocean/Pacific/Atlantic), and Cities that reshaped the world. Each stop uses a year already stored on a row and says the cited page was not opened. No raid, doctrine, voyage, cargo, or founding story is added. The tour count goes from 11 to 15. Nothing is marked cross-checked.
+
+Alternatives: Leave the four titles off because the count was already past 10. Copy migrated blurbs about rulers, goods, and city plans into the new stops.
+
+Why: The plan names those four titles. The count floor was already met, and the titles were still absent. Restating stored years fills them without a new claim.
+
+Reversible? y

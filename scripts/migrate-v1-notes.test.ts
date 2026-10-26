@@ -171,7 +171,7 @@ describe('migrated annotation files', () => {
       ]),
     );
     expect(data.routes).toHaveLength(6);
-    expect(data.tours).toHaveLength(11);
+    expect(data.tours).toHaveLength(15);
     expect(data.tours).toEqual(
       expect.arrayContaining([
         expect.objectContaining({ id: 'tour_bronze_collapse' }),
@@ -185,6 +185,10 @@ describe('migrated annotation files', () => {
         expect.objectContaining({ id: 'tour_mongol' }),
         expect.objectContaining({ id: 'tour_silk_roads' }),
         expect.objectContaining({ id: 'tour_writing' }),
+        expect.objectContaining({ id: 'tour_steppe' }),
+        expect.objectContaining({ id: 'tour_religion' }),
+        expect.objectContaining({ id: 'tour_seas' }),
+        expect.objectContaining({ id: 'tour_cities' }),
       ]),
     );
     expect(data.presets).toHaveLength(5);

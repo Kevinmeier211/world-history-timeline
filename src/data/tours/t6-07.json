@@ -1,0 +1,220 @@
+[
+  {
+    "id": "tour_steppe",
+    "title": "Steppe vs settled",
+    "subtitle": "Checklist rows only. No raid or conquest is added.",
+    "waypoints": [
+      {
+        "title": "Yamnaya, 3300 BCE",
+        "year": -3300,
+        "zoom": 1.5,
+        "lens": "politics",
+        "polityId": "yamnaya",
+        "narrative": "The Yamnaya row on this sheet runs from about 3300 BCE to 2600 BCE. The Sumerian city-states row runs from about 3500 BCE to 2334 BCE, so it is current. This stop uses 3300 BCE. It does not add a migration. The cited page was not opened.",
+        "sourceIds": ["cambridge_histories", "british_library", "cdli", "isac"],
+        "verification": "unverified"
+      },
+      {
+        "title": "Scythians, 900 BCE",
+        "year": -900,
+        "zoom": 1.5,
+        "lens": "politics",
+        "polityId": "scythians",
+        "narrative": "Appendix B dates the Scythians from about 900 BCE to 200 BCE. This stop uses 900 BCE. It does not add a raid or a border. The cited page was not opened.",
+        "sourceIds": ["cambridge_histories", "british_library"],
+        "verification": "unverified"
+      },
+      {
+        "title": "Western Han, 206 BCE",
+        "year": -206,
+        "zoom": 1.5,
+        "lens": "politics",
+        "polityId": "western_han",
+        "narrative": "Appendix B dates Western Han from 206 BCE to 9 CE. The Xiongnu row runs from about 209 BCE to 93 CE, so it is current. This stop uses 206 BCE. It does not add a battle. The cited page was not opened.",
+        "sourceIds": ["chgis", "cambridge_histories", "unesco_mow"],
+        "verification": "unverified"
+      },
+      {
+        "title": "Huns, 370",
+        "year": 370,
+        "zoom": 1.5,
+        "lens": "politics",
+        "polityId": "huns",
+        "narrative": "Appendix B dates the Huns from about 370 to 469. The Roman Empire row on this sheet runs from 27 BCE to 395, so it is current. This stop uses 370. It does not add a battle. The cited page was not opened.",
+        "sourceIds": ["cambridge_histories", "british_library"],
+        "verification": "unverified"
+      },
+      {
+        "title": "Mongol Empire, 1206",
+        "year": 1206,
+        "zoom": 1.5,
+        "lens": "politics",
+        "polityId": "mongol_empire",
+        "narrative": "The Mongol Empire and Yuan row on this sheet runs from 1206 to 1368. The Sui, Tang, and Song row runs from 581 to 1279, so it is current. This stop uses 1206. It does not add a conquest. The cited page was not opened.",
+        "sourceIds": ["cambridge_histories", "unesco_mow", "chgis"],
+        "verification": "unverified"
+      }
+    ]
+  },
+  {
+    "id": "tour_religion",
+    "title": "Religion & philosophy across Eurasia",
+    "subtitle": "Checklist rows only. No doctrine or teacher is added.",
+    "waypoints": [
+      {
+        "title": "Spring and Autumn, 770 BCE",
+        "year": -770,
+        "zoom": 1.5,
+        "lens": "religion",
+        "polityId": "spring_autumn",
+        "narrative": "Appendix B dates Spring and Autumn from 770 BCE to 476 BCE. This stop uses 770 BCE. It does not add a teacher or a text. The cited page was not opened.",
+        "sourceIds": ["chgis", "cambridge_histories"],
+        "verification": "unverified"
+      },
+      {
+        "title": "Second Temple, 516 BCE",
+        "year": -516,
+        "zoom": 1.5,
+        "lens": "religion",
+        "polityId": "second_temple",
+        "narrative": "Appendix B dates the Second Temple period from 516 BCE to 70 CE. This stop uses 516 BCE. It does not add a doctrine or a text. The cited page was not opened.",
+        "sourceIds": ["louvre", "british_library"],
+        "verification": "unverified"
+      },
+      {
+        "title": "Athens, 480 BCE",
+        "year": -480,
+        "zoom": 1.5,
+        "lens": "religion",
+        "polityId": "athens",
+        "narrative": "Appendix B names Athens inside Classical 480 to 323 BCE and does not give the city its own years. This stop uses 480 BCE. It does not add a teacher or a school. The cited page was not opened.",
+        "sourceIds": ["louvre", "cambridge_histories"],
+        "verification": "unverified"
+      },
+      {
+        "title": "Gupta, 320",
+        "year": 320,
+        "zoom": 1.5,
+        "lens": "religion",
+        "polityId": "gupta",
+        "narrative": "Appendix B dates the Gupta from about 320 to 550. This stop uses 320. It does not add a doctrine or a text. The cited page was not opened.",
+        "sourceIds": ["british_library", "cambridge_histories"],
+        "verification": "unverified"
+      },
+      {
+        "title": "Umayyad Caliphate, 661",
+        "year": 661,
+        "zoom": 1.5,
+        "lens": "religion",
+        "polityId": "umayyad",
+        "narrative": "Appendix B dates the Umayyad Caliphate from 661 to 750. This stop uses 661. It does not add a doctrine or a text. The cited page was not opened.",
+        "sourceIds": ["unesco_gha", "cambridge_histories"],
+        "verification": "unverified"
+      }
+    ]
+  },
+  {
+    "id": "tour_seas",
+    "title": "Seas & routes (Indian Ocean/Pacific/Atlantic)",
+    "subtitle": "Checklist rows only. No voyage or cargo is added.",
+    "waypoints": [
+      {
+        "title": "Lapita, 1600 BCE",
+        "year": -1600,
+        "zoom": 1.5,
+        "lens": "trade",
+        "polityId": "lapita",
+        "narrative": "Appendix B dates Lapita from about 1600 BCE to 500 BCE. This stop uses 1600 BCE. It does not add a voyage or a cargo. The cited page was not opened.",
+        "sourceIds": ["field_museum", "unesco_mow"],
+        "verification": "unverified"
+      },
+      {
+        "title": "Srivijaya, 650",
+        "year": 650,
+        "zoom": 1.5,
+        "lens": "trade",
+        "polityId": "srivijaya",
+        "narrative": "Appendix B dates Srivijaya from about 650 to 1377. This stop uses 650. It does not add a voyage or a cargo. The cited page was not opened.",
+        "sourceIds": ["field_museum", "unesco_mow"],
+        "verification": "unverified"
+      },
+      {
+        "title": "Swahili city-states, 800",
+        "year": 800,
+        "zoom": 1.5,
+        "lens": "trade",
+        "polityId": "swahili_coast",
+        "narrative": "Appendix B dates the Swahili city-states from about 800 and past 1500. This row ends at 1500. This stop uses 800. It does not add a cargo. The cited page was not opened.",
+        "sourceIds": ["unesco_gha", "british_library"],
+        "verification": "unverified"
+      },
+      {
+        "title": "Portugal, 1139",
+        "year": 1139,
+        "zoom": 1.5,
+        "lens": "trade",
+        "polityId": "portugal",
+        "narrative": "Appendix B dates Portugal from 1139 with no end. This row stops at 2000, the chart end. This stop uses 1139. It does not add a voyage. The cited page was not opened.",
+        "sourceIds": ["cambridge_histories", "british_library"],
+        "verification": "unverified"
+      }
+    ]
+  },
+  {
+    "id": "tour_cities",
+    "title": "Cities that reshaped the world",
+    "subtitle": "Checklist rows only. No founding story is added.",
+    "waypoints": [
+      {
+        "title": "Phoenician city-states, 1500 BCE",
+        "year": -1500,
+        "zoom": 1.5,
+        "lens": "politics",
+        "polityId": "phoenician_city_states",
+        "narrative": "Appendix B dates the Phoenician city-states from about 1500 BCE to 539 BCE. This stop uses 1500 BCE. It does not add a founding story. The cited page was not opened.",
+        "sourceIds": ["louvre", "british_library"],
+        "verification": "unverified"
+      },
+      {
+        "title": "Carthage, 814 BCE",
+        "year": -814,
+        "zoom": 1.5,
+        "lens": "politics",
+        "polityId": "carthage",
+        "narrative": "Appendix B dates Carthage from about 814 BCE to 146 BCE. This stop uses 814 BCE. It does not add a founding story. The cited page was not opened.",
+        "sourceIds": ["louvre", "british_library"],
+        "verification": "unverified"
+      },
+      {
+        "title": "Athens, 480 BCE",
+        "year": -480,
+        "zoom": 1.5,
+        "lens": "politics",
+        "polityId": "athens",
+        "narrative": "Appendix B names Athens inside Classical 480 to 323 BCE and does not give the city its own years. This stop uses 480 BCE. It does not add a founding story. The cited page was not opened.",
+        "sourceIds": ["louvre", "cambridge_histories"],
+        "verification": "unverified"
+      },
+      {
+        "title": "Venice, 697",
+        "year": 697,
+        "zoom": 1.5,
+        "lens": "politics",
+        "polityId": "venice",
+        "narrative": "Appendix B dates Venice from 697 to 1797. This stop uses 697. It does not add a founding story. The cited page was not opened.",
+        "sourceIds": ["cambridge_histories", "british_library"],
+        "verification": "unverified"
+      },
+      {
+        "title": "Aztec Empire, 1428",
+        "year": 1428,
+        "zoom": 1.5,
+        "lens": "politics",
+        "polityId": "aztec_empire",
+        "narrative": "The Aztec Empire row on this sheet runs from 1428 to 1521. This stop uses 1428. It does not add a city plan. The cited page was not opened.",
+        "sourceIds": ["inah", "field_museum"],
+        "verification": "unverified"
+      }
+    ]
+  }
+]

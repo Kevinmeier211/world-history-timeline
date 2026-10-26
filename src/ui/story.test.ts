@@ -43,6 +43,10 @@ describe('story stops', () => {
       'tour_mongol',
       'tour_silk_roads',
       'tour_writing',
+      'tour_steppe',
+      'tour_religion',
+      'tour_seas',
+      'tour_cities',
     ]);
     for (const tour of tours) {
       expect(tour.waypoints.length).toBeGreaterThan(0);
