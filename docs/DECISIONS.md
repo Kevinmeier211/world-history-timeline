@@ -581,3 +581,13 @@ Alternatives: Animate the dash. Use the same stroke for trade and migration. Mak
 Why: T5.08 asks for static hairlines, a hover highlight, and emphasis for the active kind. Motion stays off unless the user points at a route.
 
 Reversible? y
+
+## 2026-10-26 — Fold hides a column and pin isolates the rest
+
+Decision: Fold on a family or macro-region removes its ribbons and the layout solves again. Pin shows only the pinned families and regions. A pinned family stays even when its region is folded. Fold wins when the same id is in both lists. The hash keeps `fold` and adds `pin`, both sorted, with commas left readable. Ribbons move by interpolating centerline keyframes over 300 ms. Ribbons that leave fade out and ribbons that arrive fade in. Labels and connectors wait until the tween ends. Reduced motion, or a missing `matchMedia`, jumps to the solved layout. The columns panel is a region, so `/` still opens search, and the search sits above the panel.
+
+Alternatives: Collapse a family into one summary ribbon. Morph the path with CSS. Make the panel a dialog.
+
+Why: T5.09 asks for fold and pin, a re-solved layout, and a keyframe tween no longer than 300 ms.
+
+Reversible? y

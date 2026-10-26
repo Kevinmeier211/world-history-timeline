@@ -4,7 +4,7 @@ import { posterWorld, SCALE_MAX, SCALE_MIN } from '../camera/camera.ts';
 import { useView } from '../state/view.ts';
 import { benchRibbonCount, padRibbons } from './bench.ts';
 import { Minimap } from './Minimap.tsx';
-import { posterModel } from './posterModel.ts';
+import { useFoldedPaint } from './useFoldedPaint.ts';
 import { Scrubber } from './Scrubber.tsx';
 import { Stage } from './Stage.tsx';
 import { Tooltip } from './Tooltip.tsx';
@@ -55,10 +55,12 @@ export function ChartViewport({
   const [zoom, setZoom] = useState(1);
   const selectedId = useView((state) => state.link.sel);
   const lens = useView((state) => state.link.lens ?? 'all');
+  const fold = useView((state) => state.link.fold);
+  const pin = useView((state) => state.link.pin);
   const flyYear = useView((state) => state.link.y);
   const flown = useRef<string | null>(null);
   const world = posterWorld();
-  const paint = posterModel();
+  const paint = useFoldedPaint(fold, pin);
   const bench = benchRibbonCount(
     typeof window === 'undefined' ? '' : window.location.search,
   );

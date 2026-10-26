@@ -28,6 +28,8 @@ export interface RibbonPaint {
   dashPath: string;
   dashArray: string;
   gradientId: string;
+  /** Set while a fold tween fades this ribbon. Omitted means fully visible. */
+  opacity?: number;
 }
 
 export interface LabelPaint {

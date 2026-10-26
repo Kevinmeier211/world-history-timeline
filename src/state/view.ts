@@ -11,7 +11,7 @@ interface ViewState {
 }
 
 export const useView = create<ViewState>((set) => ({
-  link: { fold: [] },
+  link: readLocationView(),
   setLink: (link, mode = 'push') => {
     set({ link });
     publishView(link, mode);

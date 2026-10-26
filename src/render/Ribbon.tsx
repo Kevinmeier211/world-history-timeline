@@ -28,11 +28,15 @@ function RibbonView({
   onHover?: (ribbon: RibbonPaint, x: number, y: number) => void;
   onLeave?: (event: PointerEvent<SVGPathElement>) => void;
 }) {
+  const className = ['ribbon'];
+  if (dimmed) className.push('ribbon-dim');
+  if (ribbon.opacity !== undefined && ribbon.opacity < 1) className.push('ribbon-fold');
   return (
     <g
-      className={dimmed ? 'ribbon ribbon-dim' : 'ribbon'}
+      className={className.join(' ')}
       data-polity={ribbon.id}
       data-selected={selected ? 'true' : undefined}
+      opacity={ribbon.opacity}
     >
       <path
         className="ribbon-body"

@@ -178,6 +178,47 @@ describe('poster shell', () => {
     expect(screen.queryByRole('dialog', { name: 'Dossier' })).toBeNull();
   });
 
+  it('folds and pins columns without making a dialog', async () => {
+    vi.stubGlobal('ResizeObserver', FakeResizeObserver);
+    const user = userEvent.setup();
+    render(createElement(PosterApp));
+    expect(screen.queryByRole('region', { name: 'Columns' })).toBeNull();
+    const before = document
+      .querySelector('.stage-host')
+      ?.getAttribute('data-ribbon-count');
+    await user.click(screen.getByRole('button', { name: 'Columns' }));
+    expect(screen.getByRole('region', { name: 'Columns' })).toBeInTheDocument();
+    expect(screen.queryByRole('dialog', { name: 'Columns' })).toBeNull();
+    await user.keyboard('/');
+    expect(screen.getByRole('dialog', { name: 'Search' })).toBeInTheDocument();
+    await user.click(screen.getByRole('button', { name: 'Close search' }));
+    expect(screen.queryByRole('dialog', { name: 'Search' })).toBeNull();
+    expect(screen.getByRole('region', { name: 'Columns' })).toBeInTheDocument();
+    await user.click(screen.getByRole('button', { name: 'Fold Chinese' }));
+    expect(window.location.hash).toBe('#fold=chinese');
+    await waitFor(() => {
+      const count = document
+        .querySelector('.stage-host')
+        ?.getAttribute('data-ribbon-count');
+      expect(count).not.toBe(before);
+      expect(Number(count)).toBeGreaterThan(0);
+    });
+    const folded = document
+      .querySelector('.stage-host')
+      ?.getAttribute('data-ribbon-count');
+    await user.click(screen.getByRole('button', { name: 'Pin Americas' }));
+    expect(window.location.hash).toBe('#fold=chinese&pin=americas');
+    await waitFor(() => {
+      const count = Number(
+        document.querySelector('.stage-host')?.getAttribute('data-ribbon-count'),
+      );
+      expect(count).toBeGreaterThan(0);
+      expect(count).toBeLessThan(Number(folded));
+    });
+    await user.keyboard('{Escape}');
+    expect(screen.queryByRole('region', { name: 'Columns' })).toBeNull();
+  });
+
   it('mounts the poster and leaves the v1 canvas deleted', () => {
     const main = readFileSync('src/main.tsx', 'utf8');
     expect(main).toContain('PosterApp');

@@ -179,6 +179,10 @@
   opacity: 0.25;
 }
 
+.ribbon-fold {
+  transition: none;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .ribbon {
     transition: none;

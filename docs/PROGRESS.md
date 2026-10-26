@@ -95,7 +95,8 @@
 | T5.05 | done | 0444436 | scrub tests map y to a year, list importance ≥ 3 per macro-region, and keep the snapshot closed until Lock year | 30 | No bottom strip. A polity in the snapshot selects that ribbon. See DECISIONS. |
 | T5.06 | done | 073a0f2 | lapse tests step 25 years, skip year 0, and stop at 2000; reduced motion disables Play | 20 | Play locks the year and scrolls with it. Pause and Unlock stop the run. See DECISIONS. |
 | T5.07 | done | 42a5877 | lens tests keep opacity above 0; trade reveals trade and migration arcs and dims the chart to 0.55 | 30 | All and climate draw no arcs. Bands in the lens stay at full weight. See DECISIONS. |
-| T5.08 | done | (this commit) | arc tests dash trade at 1.5 and thicken a hovered arc to 2.5 with the dash removed | 20 | Migration stays the finer hairline. The highlight is instant. See DECISIONS. |
+| T5.08 | done | be3022e | arc tests dash trade at 1.5 and thicken a hovered arc to 2.5 with the dash removed | 20 | Migration stays the finer hairline. The highlight is instant. See DECISIONS. |
+| T5.09 | done | (this commit) | column tests hide a folded family, keep a pinned family inside a folded region, and lerp a keyframe halfway in 300 ms | 35 | Reduced motion jumps. The columns panel is not a dialog. See DECISIONS. |
 
 ## Blocked
 

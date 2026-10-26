@@ -8,6 +8,8 @@ export interface ViewLink {
   sel?: string;
   lens?: LensId;
   fold: readonly string[];
+  /** Families and macro-regions kept on the chart. Absent means no pin. */
+  pin?: readonly string[];
 }
 
 export interface ViewTrail {
@@ -40,7 +42,9 @@ export function serializeView(view: ViewLink): string {
   if (view.lens && view.lens !== 'all') params.set('lens', view.lens);
   const fold = cleanFold(view.fold);
   if (fold.length > 0) params.set('fold', fold.join(','));
-  const query = params.toString();
+  const pin = cleanFold(view.pin ?? []);
+  if (pin.length > 0) params.set('pin', pin.join(','));
+  const query = params.toString().replaceAll('%2C', ',');
   return query ? `#${query}` : '';
 }
 
@@ -59,6 +63,8 @@ export function parseView(hash: string): ViewLink {
   const lens = params.get('lens');
   if (lens && isLensId(lens) && lens !== 'all') view.lens = lens;
   view.fold = cleanFold((params.get('fold') ?? '').split(','));
+  const pin = cleanFold((params.get('pin') ?? '').split(','));
+  if (pin.length > 0) view.pin = pin;
   return view;
 }
 

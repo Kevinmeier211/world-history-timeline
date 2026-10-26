@@ -40,6 +40,14 @@ describe('hash url', () => {
     });
   });
 
+  it('round-trips a pin and drops an id that is not a token', () => {
+    const view = { fold: ['chinese'], pin: ['east_asia', 'europe'] };
+    expect(serializeView(view)).toBe('#fold=chinese&pin=east_asia,europe');
+    expect(parseView('#fold=chinese&pin=east_asia,europe')).toEqual(view);
+    expect(parseView('#pin=Nope,europe').pin).toEqual(['europe']);
+    expect(parseView('#pin=')).not.toHaveProperty('pin');
+  });
+
   it('walks back and forward without growing the stack on replace', () => {
     let trail: ViewTrail = { entries: [''], index: 0 };
     trail = pushView(trail, sample);

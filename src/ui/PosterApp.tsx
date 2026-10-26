@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 
+import { withFold, withPin } from '../layout/columns.ts';
 import { clientDataset } from '../data/clientDataset.ts';
 import { ChartViewport, type SheetSize } from '../render/ChartViewport.tsx';
 import {
@@ -10,6 +11,7 @@ import {
 } from '../search/query.ts';
 import { useView } from '../state/view.ts';
 import type { ViewLink } from '../state/hashUrl.ts';
+import { Columns } from './Columns.tsx';
 import { Dossier } from './Dossier.tsx';
 import { dossierFor } from './dossier.ts';
 import { Legend, legendFamilies } from './Legend.tsx';
@@ -65,7 +67,19 @@ export function PosterApp() {
     readStoredTheme(browserStorage()),
   );
   const [reading, setReading] = useState(false);
+  const [columnsOpen, setColumnsOpen] = useState(false);
   const closeReading = useCallback(() => setReading(false), []);
+  const closeColumns = useCallback(() => setColumnsOpen(false), []);
+  const applyColumns = useCallback(
+    (next: { fold: string[]; pin: string[] }) => {
+      const current = useView.getState().link;
+      const linkNext: ViewLink = { ...current, fold: next.fold };
+      if (next.pin.length > 0) linkNext.pin = next.pin;
+      else delete linkNext.pin;
+      setLink(linkNext);
+    },
+    [setLink],
+  );
   const [sheet, setSheet] = useState<SheetSize>({ height: 0, minWidth: 0 });
   const onSheet = useCallback((next: SheetSize) => {
     setSheet((prev) =>
@@ -164,7 +178,15 @@ export function PosterApp() {
         sheetHeight={view === 'chart' ? sheet.height : undefined}
         sheetMinWidth={view === 'chart' ? sheet.minWidth : 0}
         readingOpen={reading}
-        onReading={() => setReading(true)}
+        onReading={() => {
+          setReading(true);
+          setColumnsOpen(false);
+        }}
+        columnsOpen={columnsOpen}
+        onColumns={() => {
+          setColumnsOpen((open) => !open);
+          setReading(false);
+        }}
       >
         {view === 'table' ? (
           <p className="chart-note">
@@ -175,6 +197,14 @@ export function PosterApp() {
         )}
       </PosterFrame>
       {reading ? <Legend families={legendFamilies()} onClose={closeReading} /> : null}
+      <Columns
+        open={columnsOpen}
+        fold={link.fold}
+        pin={link.pin ?? []}
+        onClose={closeColumns}
+        onFold={(id) => applyColumns(withFold(link.fold, link.pin ?? [], id))}
+        onPin={(id) => applyColumns(withPin(link.fold, link.pin ?? [], id))}
+      />
       {dossier ? <Dossier model={dossier} onClose={() => setDossierId(null)} /> : null}
     </div>
   );
