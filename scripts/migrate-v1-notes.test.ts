@@ -163,7 +163,7 @@ describe('migrated annotation files', () => {
       readFileSync('src/data/bands/migrated-01.json', 'utf8'),
     ) as unknown[];
     expect(migrated).toHaveLength(11);
-    expect(data.bands).toHaveLength(13);
+    expect(data.bands).toHaveLength(35);
     expect(data.bands).toEqual(
       expect.arrayContaining([
         expect.objectContaining({ id: 'band_mongol_conquests' }),

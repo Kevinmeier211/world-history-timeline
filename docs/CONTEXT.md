@@ -24,8 +24,8 @@ T6.01 through T6.06 are on this branch through shots. T6.07 added four tours tha
 
 Era floors are met: 38, 48, 83, 67, 103, 113, 108, and 171. Polities 436, callouts 323, tours 15. `docs/UNVERIFIED.md` lists importance 4 and 5 unverified as 40 of 40. Cross-checked rows are 0.
 
-Relations are 450. Short of §7: bands 13, routes 6, images 0, callouts at importance 3 or higher 58. Next task: plan-named bands toward 35, then routes toward 15, then original callouts at importance 3 or higher toward 100. New rows stay unverified unless a listed page was opened and the evidence records what it said. Images stay 0 and queued-gated.
+Relations are 450. Bands are 35. Short of §7: routes 6, images 0, callouts at importance 3 or higher 58. Next task: routes toward 15, then original callouts at importance 3 or higher toward 100. New rows stay unverified unless a listed page was opened and the evidence records what it said. Images stay 0 and queued-gated.
 
-Layout report after the overlap edges: overlaps 0, unroutable 0, markers 13, placed 88, dropped 222, warm runtime 188 ms, over the 150 ms gate. The layout engine stays as it is. Do not weaken the gate. Item 2 stays partial on `japan_timeline`. `npm run perf` p95 was 16.80 ms. `ALLOW_MEDIA_DOWNLOAD` stays false. Do not start P8. Do not demote a row to make the unverified count 0. Pushes: 0.
+Layout report after the plan bands: overlaps 0, unroutable 0, markers 13, placed 88, dropped 222, warm runtime 177 ms, over the 150 ms gate. The layout engine stays as it is. Do not weaken the gate. Item 2 stays partial on `japan_timeline`. `npm run perf` p95 was 16.80 ms. `ALLOW_MEDIA_DOWNLOAD` stays false. Do not start P8. Do not demote a row to make the unverified count 0. Pushes: 0.
 
 The layout pass remains `docs/reviews/layout-pass.md`, 9/10, with item 2 partial. Tag `v2-p4-done` is merge `7aa3c39`. Tag `v2-p5-done` stays at `b5f7501`. Tag `v2-p2-done` is merge `390baa7`. Tag `v2-p3-done` is merge `09a5f75`.

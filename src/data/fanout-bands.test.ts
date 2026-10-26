@@ -36,8 +36,20 @@ describe('1800 fan-out bands', () => {
     expect(decolonization?.evidence).toContain('not opened');
     expect(wars).toMatchObject({ start: 1914, end: 1991 });
     expect(industrial).toMatchObject({ start: 1700, end: 1900 });
-    expect(rows.some((band) => band.id === 'band_wwi')).toBe(false);
-    expect(rows.some((band) => band.id === 'band_wwii')).toBe(false);
-    expect(rows.some((band) => band.id === 'band_cold_war')).toBe(false);
+    expect(rows.find((band) => band.id === 'band_world_war_i')).toMatchObject({
+      start: 1914,
+      end: 1918,
+      verification: 'unverified',
+    });
+    expect(rows.find((band) => band.id === 'band_world_war_ii')).toMatchObject({
+      start: 1939,
+      end: 1945,
+      verification: 'unverified',
+    });
+    expect(rows.find((band) => band.id === 'band_cold_war')).toMatchObject({
+      start: 1947,
+      end: 1991,
+      verification: 'unverified',
+    });
   });
 });

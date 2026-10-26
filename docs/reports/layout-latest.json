@@ -32,8 +32,8 @@
   "labelHits": 0,
   "maxDrift": 3.211,
   "runtimeMs": {
-    "cold": 260,
-    "warm": 188
+    "cold": 255,
+    "warm": 177
   },
   "gates": {
     "overlaps": true,

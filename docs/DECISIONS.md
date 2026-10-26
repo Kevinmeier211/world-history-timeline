@@ -1131,3 +1131,13 @@ Alternatives: Add split or merge edges. Use a year outside either lifetime. Chan
 Why: The sheet had 188 relations. The floor is 450. These edges use a start year and source ids already stored on the later row.
 
 Reversible? y
+
+## 2026-10-26 — Plan periods fill the band floor
+
+Decision: Twenty-two bands bring the count from 13 to 35. Each title is a period named in the plan or in Appendix B. Where the plan gives years, the band uses those years. Where it names a period and gives no years, the band uses a widely cited span and says so. The thirteen older bands keep their spans. Every new row is unverified. The cited pages were not opened. `npm run layout:report`: 238 ribbons, 0 overlaps, 0 unroutable, markers 13, placed 88, warm runtime 177 ms, over the 150 ms gate. The layout engine was not changed.
+
+Alternatives: Leave the count at 13. Move the older bundled bands onto the narrower years. Mark a band cross-checked from a page that was not opened.
+
+Why: The floor is 35. Earlier passes left these titles off when the plan gave them no years.
+
+Reversible? y
