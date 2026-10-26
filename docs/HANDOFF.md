@@ -2,7 +2,7 @@
 
 Chronos Atlas v2, local only. This is the §13.14 closeout. Pushes made: **0**. CI runs triggered: **0**.
 
-The print gate is the merge `a9f3a4e` on `v2/main`. The annotated tag `v2-p7-done` points at that merge (tag object `eaca0fa`). Closeout commits are on `v2/p7-print` after `fa54816`. They are not in the tag.
+The print gate is the merge `a9f3a4e`. The annotated tag `v2-p7-done` points at that merge (tag object `eaca0fa`). Closeout commits are merged `--no-ff` into `v2/main`. The tag stays on `a9f3a4e`.
 
 ## Per-phase status
 
@@ -152,7 +152,7 @@ Switches in `docs/RUN_CONFIG.md`: `MAX_PHASE=7`, `ALLOW_MEDIA_DOWNLOAD=false`, `
 
 Pushes made: **0**. CI runs triggered: **0**.
 
-`v2/main` is `a9f3a4e`, 223 commits, parents `533cafd` and `fa54816`. `v2/p7-print` holds the print work through `fa54816` and the closeout commits after that. It does not contain the merge commit. The tag was not moved.
+Tag `v2-p7-done` stays on `a9f3a4e`, the P7 exit merge (parents `533cafd` and `fa54816`, 223 commits at that commit). The closeout commits are a later `--no-ff` merge into `v2/main`. That merge leaves the tag on `a9f3a4e`.
 
 Annotated tags: `v2-p6-done` (`50fb131` → `533cafd`), `v2-p7-done` (`eaca0fa` → `a9f3a4e`). The other `v2-pN-done` tags are lightweight and point straight at the commits in the phase table. `gemini-v1` is `14b5965`.
 
@@ -166,4 +166,4 @@ Closeout hashes are the T9 rows in `docs/PROGRESS.md`.
 - Leave the 40 importance-4 callouts unverified until a listed page is opened and the evidence note records what it said.
 - A contract proof before any press run.
 - P8 stays closed until `MAX_PHASE` is at least 8 and Kevin asks. This closeout does not start it.
-- Leave `v2-p7-done` on `a9f3a4e`. The closeout commits stay on `v2/p7-print`.
+- `v2-p7-done` stays on `a9f3a4e`. The closeout is merged `--no-ff` into `v2/main`.

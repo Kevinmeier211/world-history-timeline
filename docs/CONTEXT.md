@@ -1,6 +1,6 @@
 # Context
 
-Resume here. The print gate is merge `a9f3a4e` on `v2/main`, annotated tag `v2-p7-done` (tag object `eaca0fa`). Closeout commits sit on `v2/p7-print` after `fa54816` and are not in that tag. Pushes made: 0. CI runs triggered: 0. Last done task is in `docs/PROGRESS.md`. The poster is the only chart. `src/layout` is the pure layout engine. Do not start P8. Item 2 stays partial on `japan_timeline`. `ALLOW_MEDIA_DOWNLOAD` stays false. New claims stay `verification: unverified` unless a listed source page was opened. Tag `v2-p6-done` is merge `533cafd`. Tag `v2-p5-done` stays at `b5f7501`. Tag `v2-p4-done` is merge `7aa3c39`. The content checkpoint is `docs/reviews/M3.md` at `b151b47`.
+Resume here. The print gate is merge `a9f3a4e`, annotated tag `v2-p7-done` (tag object `eaca0fa`). The closeout, including `docs/reviews/closeout.md`, is merged `--no-ff` into `v2/main`. The tag stays on `a9f3a4e`. Pushes made: 0. CI runs triggered: 0. Last done task is in `docs/PROGRESS.md`. The poster is the only chart. `src/layout` is the pure layout engine. Do not start P8. Item 2 stays partial on `japan_timeline`. `ALLOW_MEDIA_DOWNLOAD` stays false. New claims stay `verification: unverified` unless a listed source page was opened. Tag `v2-p6-done` is merge `533cafd`. Tag `v2-p5-done` stays at `b5f7501`. Tag `v2-p4-done` is merge `7aa3c39`. The content checkpoint is `docs/reviews/M3.md` at `b151b47`.
 
 ## Architecture
 
@@ -12,7 +12,7 @@ Vite 6 + React 19 + TypeScript, strict and `noUncheckedIndexedAccess`. The poste
 
 ## Conventions
 
-One task, one commit, message `T0.01: …`. Green `npm run check` before every commit. Files ≤ 400 lines. BCE years are negative; no year 0; display goes through `src/lib/years.ts`. Do not invent sources, URLs, accession numbers, quotes, or poster artwork. Unverified claims stay `verification: unverified` or `confidence: debated`. No push, no CI, no deploy. Branches: `v2/pN-…`, merge `--no-ff` into `v2/main` at the phase gate. Never commit to `main`. The closeout after `v2-p7-done` stays on `v2/p7-print` and does not move the tag.
+One task, one commit, message `T0.01: …`. Green `npm run check` before every commit. Files ≤ 400 lines. BCE years are negative; no year 0; display goes through `src/lib/years.ts`. Do not invent sources, URLs, accession numbers, quotes, or poster artwork. Unverified claims stay `verification: unverified` or `confidence: debated`. No push, no CI, no deploy. Branches: `v2/pN-…`, merge `--no-ff` into `v2/main` at the phase gate. Never commit to `main`. The closeout after `v2-p7-done` is merged `--no-ff` into `v2/main`. The tag stays on `a9f3a4e`.
 
 ## Gotchas
 
@@ -20,8 +20,8 @@ Poster and both Gemini PDFs are missing (Q-01). Gemini bibliography [1]–[37] w
 
 ## Next
 
-The closeout is written: `README.md`, `docs/LICENSES.md`, `docs/HANDOFF.md`, and this page. T9.03 is unrun. That checkpoint is shots, perf, layout:report, media:budget, axe, and a review under a new filename, so `docs/reviews/M4.md` stays the P5 score. The layout engine and the 150 ms gate stay as they are.
+The closeout is written: `README.md`, `docs/LICENSES.md`, `docs/HANDOFF.md`, `docs/reviews/closeout.md`, and this page. `docs/reviews/M4.md` stays the older 5/11 score. T9.03 is unrun. The layout engine and the 150 ms gate stay as they are.
 
 The four non-image floors stay met: relations 450, bands 35, routes 15, callouts at importance 3 or higher 100. Images stay 0 and queued-gated. The 40 migrated callouts stay importance 4 and unverified. `docs/UNVERIFIED.md` lists 40 of 40. The dossier chip is the honest state. No contract proof was printed.
 
-P8 stays closed. Do not start it. Do not merge this closeout into `v2/main`. Do not move `v2-p7-done`. Pushes made: 0. CI runs triggered: 0.
+P8 stays closed. `v2-p7-done` stays on `a9f3a4e`. Pushes made: 0. CI runs triggered: 0.

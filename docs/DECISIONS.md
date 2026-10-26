@@ -1261,3 +1261,13 @@ Alternatives: Re-run T9.03 and overwrite `docs/reviews/M4.md`. Merge the closeou
 Why: The requested closeout is those four documents. T9.03 is a separate checkpoint, and the filename it would use already holds an earlier review.
 
 Reversible? y
+
+## 2026-10-26 — The closeout merges, and the print tag stays
+
+Decision: The closeout commits on `v2/p7-print` merge `--no-ff` into `v2/main`. Tag `v2-p7-done` stays on `a9f3a4e`. `docs/reviews/closeout.md` points at the older 5/11 score in `docs/reviews/M4.md`, the 9/10 layout pass, the handoff counts, gated images, 40 unverified importance-4 callouts, and warm layout 177 ms. That note is not an M4 run. Nothing is pushed. P8 stays closed.
+
+Alternatives: Move the tag onto the closeout merge. Re-run M4 and overwrite `docs/reviews/M4.md`. Leave the closeout only on `v2/p7-print`.
+
+Why: Kevin asked for the merge and for the review note, and asked for the tag to stay.
+
+Reversible? y
