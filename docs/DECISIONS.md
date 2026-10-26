@@ -881,3 +881,13 @@ Alternatives: Invent URLs to reach 60 images. Attach the Cleveland rows to callo
 Why: The download switch is off, and a plate needs a local file. The queue is the real list, not a new one.
 
 Reversible? y
+
+## 2026-10-26 — The P4 gate passes with no shipped image files
+
+Decision: Desktop callout geometry passed. `media:budget` passed with 0 thumbnails and reported the set as gated. That meets the phase gate. `v2/p4-media` merges into `v2/main` with `--no-ff`. Tag `v2-p4-done` points at that merge. Tag `v2-p5-done` stays at `b5f7501`.
+
+Alternatives: Hold the gate until 120 real images are downloaded. Count the empty thumbnail directory as a budget failure.
+
+Why: The switch forbids downloads, the geometry is green, and the budget is honestly gated.
+
+Reversible? y
