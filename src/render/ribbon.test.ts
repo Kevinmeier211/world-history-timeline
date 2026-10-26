@@ -101,6 +101,24 @@ describe('ribbon components', () => {
     );
     expect(unfit.container.querySelector('.ribbon-label')).toBeNull();
     cleanup();
+    const seated = render(
+      createElement(RibbonLabel, {
+        label: {
+          ...label,
+          glyphs: [
+            { char: 'R', x: 100, y: 110, advance: 12 },
+            { char: 'o', x: 104, y: 122, advance: 12 },
+          ],
+        },
+      }),
+    );
+    const letters = seated.container.querySelectorAll('.ribbon-label');
+    expect([...letters].map((node) => node.textContent).join('')).toBe('Ro');
+    expect(letters[1]?.getAttribute('transform')).toBe('rotate(90 104 122)');
+    expect(
+      seated.container.querySelector('[aria-label="Roman Empire"]'),
+    ).not.toBeNull();
+    cleanup();
     const dimmed = render(createElement(Ribbon, { ribbon, dimmed: true }));
     expect(dimmed.container.querySelector('.ribbon-dim')).not.toBeNull();
   });

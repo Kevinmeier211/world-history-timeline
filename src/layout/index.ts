@@ -19,6 +19,7 @@ import { applyDrift, yOfYear } from './drift.ts';
 import { ribbonRuns, sampleAt, separateRuns, type DatedPoint } from './frames.ts';
 import { stableHash } from './hash.ts';
 import { canvasTextMeasurer } from './labelFit.ts';
+import { labelObstacleBoxes, parkRotatedLabels } from './labelTrack.ts';
 import { solveLanes, type LaneSliceInput } from './laneSolver.ts';
 import { selectLod, type LodItem } from './lod.ts';
 import { indexOverrides, nudgeCallout, type OverrideIndex } from './overrides.ts';
@@ -242,7 +243,10 @@ function computeLayout(input: LayoutInput): LayoutResult {
       },
     ];
   });
-  const labels = placeRibbonLabels(polities, frames, measure, overrides.labels);
+  const labels = parkRotatedLabels(
+    placeRibbonLabels(polities, frames, measure, overrides.labels),
+    new Map(ribbons.map((ribbon) => [ribbon.polityId, ribbon.keyframes])),
+  );
   const connectors = relations.flatMap((relation) => {
     const built = connect(relation, byId, frames, zoomY);
     return built ? [built] : [];
@@ -255,15 +259,7 @@ function computeLayout(input: LayoutInput): LayoutResult {
       y: yOfYear(callout.year, zoomY),
       mediaId: callout.mediaId,
     })),
-    labels
-      .filter((label) => label.fitted)
-      .map((label) => ({
-        id: label.polityId,
-        x: label.x,
-        y: label.y,
-        width: label.width,
-        height: label.height,
-      })),
+    labelObstacleBoxes(labels),
   );
   const nudged = callouts.map((card) =>
     nudgeCallout(card, overrides.nudges.get(card.calloutId)),

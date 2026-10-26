@@ -121,7 +121,7 @@ describe('golden fixtures', () => {
     ]);
     expect(ribbonOverlap(result.ribbons).overlaps).toBe(0);
     expect(digest(result)).toMatchInlineSnapshot(
-      `"086a7aead69c4260c58da72e7bff6ebc59a6f02a7490fd627ef7e86331cca2a2"`,
+      `"1c6a2df102e75fc6066d62f71457e13fc038272e1c3766efcc63e1d68c9d9f86"`,
     );
   });
 
@@ -166,7 +166,7 @@ describe('golden fixtures', () => {
     expect(moves(result.connectors[0]?.d)).toBe(4);
     expect(ribbonOverlap(result.ribbons).overlaps).toBe(0);
     expect(digest(result)).toMatchInlineSnapshot(
-      `"58799298ab41302bf87e173c687fbc0b850cfb31beacd62c808248a86d8fffd2"`,
+      `"2036f0f0d90c76b4378186b125ea7288abfed44cf9146b0f1916f10c671d3690"`,
     );
   });
 
@@ -219,7 +219,7 @@ describe('golden fixtures', () => {
     const drawn = result.labels.filter((label) => label.fitted || label.leader).length;
     expect(drawn / result.labels.length).toBeGreaterThanOrEqual(0.85);
     expect(digest(result)).toMatchInlineSnapshot(
-      `"2554a5a9e56ff61040e68b20e5b7759308db212ab5d2b797fabaff831935b2a0"`,
+      `"28a916d5b8fc2a2d930df01843a28f6494550ed89bd66fa9b98018b53b3dea38"`,
     );
   });
 
@@ -281,7 +281,7 @@ describe('golden fixtures', () => {
     expect(result.connectors.map((connector) => connector.type)).toEqual(['merge']);
     expect(ribbonOverlap(result.ribbons).overlaps).toBe(0);
     expect(digest(result)).toMatchInlineSnapshot(
-      `"82022771c7a04d3cf835322ce59b154171344f7490b96404b9e3ae40b881ae78"`,
+      `"d01901051281b1a8897b6290129ec5b9972f31809b98aaea9695f6bbbb6f1d0d"`,
     );
   });
 

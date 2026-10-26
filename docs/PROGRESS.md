@@ -105,7 +105,11 @@
 | T5.15 | done | 20001f3 | milestone tests drop year 0 and a blocked store; a locked year can add and remove a mark; the mark is a dashed outline | 25 | Marks stay out of the catalog. Twelve is the cap. See DECISIONS. |
 | T5.16 | done | 30841d0 | `npm run axe` is clean for serious and critical on chart, dossier, dark theme, table, search, reading key, stories, columns, and era reading | 30 | The Overview control says Overview. Dossier buttons use paper and ink. See DECISIONS. |
 | T5.17 | done | aa1f0ed | `docs/reviews/M2.md` scores Appendix D at 5/11; perf p95 16.70 ms; axe serious/critical stay 0 | 20 | A partial is not a pass. P6 stays closed. See DECISIONS. |
-| T5.20 | done | (this commit) | `lucide-react` is unused and removed; `npm run bundle:check` reports 233.77 KB gzipped JS | 15 | The limit is 400 KB. See DECISIONS. |
+| T5.20 | done | a1521fc | `lucide-react` is unused and removed; `npm run bundle:check` reports 233.77 KB gzipped JS | 15 | The limit is 400 KB. See DECISIONS. |
+
+## Layout tuning
+
+2026-10-26 — Rotated and horizontal names are pinned to a straight column or line on the ribbon. `npm run layout:report` label hits 0, warm 126 ms, gates pass. `docs/reviews/M3.md` is 5/11. Per-letter bend seating was not kept. P4 and P6 stay closed.
 
 ## Blocked
 

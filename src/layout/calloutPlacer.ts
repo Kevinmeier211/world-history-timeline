@@ -252,6 +252,8 @@ export function placeCallouts(
       right.importance - left.importance || left.id.localeCompare(right.id),
   );
   const tree = new RBush<BBox>();
+  const labelTree = new RBush<BBox>();
+  if (labels.length > 0) labelTree.load(labels.map((label) => inflate(label, PAD)));
   const placedLeaders: ObstacleLeader[] = [...leaders];
   const results: PlacedCallout[] = [];
   for (const anchor of ordered) {
@@ -265,9 +267,9 @@ export function placeCallouts(
         const collisions = tree
           .search(region)
           .filter((hit) => overlaps(region, hit)).length;
-        const labelOverlaps = labels.filter((label) =>
-          overlaps(region, inflate(label, PAD)),
-        ).length;
+        const labelOverlaps = labelTree
+          .search(region)
+          .filter((hit) => overlaps(region, hit)).length;
         const leaderCrosses =
           placedLeaders.filter((line) => segmentsCross(slot.leader, line)).length +
           placedLeaders.filter((line) => hitsBox(line, box)).length;

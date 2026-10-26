@@ -691,3 +691,13 @@ Alternatives: Leave the unused dependency. Split the bundle in this pass.
 Why: T5.20 asks to remove `lucide-react` when nothing uses it, and to check the gzipped JavaScript against 400 KB.
 
 Reversible? y
+
+## 2026-10-26 — Rotated names stay one straight column
+
+Decision: A fitted rotated name is pinned to the ribbon centerline at the middle of the name and drawn as one string. A fitted horizontal name is pinned the same way and may slide along its ribbon. If the box still crosses another fitted label, the name slides to the nearest clear span on its own ribbon. Text, size, and fit stay put. Per-letter seating that followed each bend was drawn and then dropped: the classical and medieval shots pulled the letters off the column. `labelHitPairs` on the full roster is 0. Nine hover-only names and 21 already-shortened fitted names remain. M3 in `docs/reviews/M3.md` is 5/11.
+
+Alternatives: Draw one glyph per letter along the bend. Force `outside` or an ellipsis on the remaining names.
+
+Why: Item 8 needs the full name readable. Following the bend removed the 15 overlaps and made the names unreadable. A straight column on the river removes the overlaps and leaves the string intact.
+
+Reversible? y

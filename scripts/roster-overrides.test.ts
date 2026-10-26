@@ -30,7 +30,7 @@ function hitCount(result: LayoutResult): number {
 }
 
 describe('roster label overrides', () => {
-  it('cuts fitted-label overlaps without hiding a name', () => {
+  it('does not hide a name or add a fitted overlap', () => {
     const dataset = datasetSchema.parse(loadDataset());
     const tunedFile = layoutOverridesSchema.parse(
       JSON.parse(readFileSync('src/data/layoutOverrides.json', 'utf8')),
@@ -51,8 +51,8 @@ describe('roster label overrides', () => {
     const tuned = layout({ ...input, overrides: tunedFile });
     const bareHits = hitCount(bare);
     const tunedHits = hitCount(tuned);
-    expect(tunedHits).toBeLessThan(bareHits);
-    expect(tunedHits).toBeLessThanOrEqual(15);
+    expect(bareHits).toBe(0);
+    expect(tunedHits).toBeLessThanOrEqual(bareHits);
     expect(ribbonOverlap(tuned.ribbons).overlaps).toBe(0);
     const importance = new Map(
       dataset.polities.map((polity) => [polity.id, polity.importance]),

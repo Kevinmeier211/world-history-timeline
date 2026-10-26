@@ -46,6 +46,7 @@ export interface LabelPaint {
   fill: string;
   fitted: boolean;
   leader?: LayoutLabel['leader'];
+  glyphs?: LayoutLabel['glyphs'];
 }
 
 function channels(hex: string): [number, number, number] | null {
@@ -195,6 +196,7 @@ export function posterPaint(
         fill: labelFill(fill, LABEL_INK, LABEL_PAPER),
         fitted: true,
         leader: label.leader,
+        glyphs: label.glyphs,
       },
     ];
   });

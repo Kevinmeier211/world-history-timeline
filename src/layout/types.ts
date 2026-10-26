@@ -85,8 +85,20 @@ export interface LayoutConnector {
   sideAttach: boolean;
 }
 
-/** How a ribbon label is drawn. `rotated` follows the ribbon; `outside` sits beside a short one. */
+/** How a ribbon label is drawn. `rotated` is one column; `outside` sits beside a short ribbon. */
 export type LayoutLabelOrientation = 'rotated' | 'horizontal' | 'outside';
+
+/** One character of a rotated label, centered on the ribbon. */
+export interface LayoutGlyph {
+  /** A single grapheme. */
+  char: string;
+  /** Center x in design px. */
+  x: number;
+  /** Center y in design px. */
+  y: number;
+  /** Vertical advance of this grapheme in design px. */
+  advance: number;
+}
 
 /** A fitted or hover-only ribbon label. */
 export interface LayoutLabel {
@@ -110,6 +122,11 @@ export interface LayoutLabel {
   fitted: boolean;
   /** Leader for a label that sits outside a short ribbon. */
   leader?: LayoutLeader;
+  /**
+   * Optional per-letter boxes. Layout leaves this unset and draws one
+   * straight column pinned to the ribbon.
+   */
+  glyphs?: readonly LayoutGlyph[];
 }
 
 /** Leader from a ribbon edge to a callout card. */
