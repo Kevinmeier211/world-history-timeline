@@ -79,7 +79,34 @@ export function themeLabel(choice: ThemeChoice): string {
   return 'System';
 }
 
-/** Session theme only. Persistence is T3.12. */
+export const THEME_STORAGE_KEY = 'chronos-theme';
+
+export function isThemeChoice(value: string | null): value is ThemeChoice {
+  return value === 'system' || value === 'light' || value === 'dark';
+}
+
+/** Missing, garbage, or blocked storage stays on the system theme. */
+export function readStoredTheme(storage: Pick<Storage, 'getItem'> | null): ThemeChoice {
+  try {
+    const value = storage?.getItem(THEME_STORAGE_KEY) ?? null;
+    return isThemeChoice(value) ? value : 'system';
+  } catch {
+    return 'system';
+  }
+}
+
+/** A failed write still leaves the choice applied for this session. */
+export function writeStoredTheme(
+  choice: ThemeChoice,
+  storage: Pick<Storage, 'setItem'> | null,
+): void {
+  try {
+    storage?.setItem(THEME_STORAGE_KEY, choice);
+  } catch {
+    // private mode and disabled storage
+  }
+}
+
 export function applyTheme(choice: ThemeChoice, root: HTMLElement): void {
   if (choice === 'system') root.removeAttribute('data-theme');
   else root.setAttribute('data-theme', choice);

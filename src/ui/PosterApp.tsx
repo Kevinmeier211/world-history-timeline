@@ -6,17 +6,29 @@ import { TopBar } from './TopBar.tsx';
 import {
   applyTheme,
   nextTheme,
+  readStoredTheme,
+  writeStoredTheme,
   type LensId,
   type ThemeChoice,
   type ViewId,
 } from './frame.ts';
 import './shell.css';
 
+function browserStorage(): Storage | null {
+  try {
+    return globalThis.localStorage;
+  } catch {
+    return null;
+  }
+}
+
 export function PosterApp() {
   const [query, setQuery] = useState('');
   const [lens, setLens] = useState<LensId>('all');
   const [view, setView] = useState<ViewId>('chart');
-  const [theme, setTheme] = useState<ThemeChoice>('system');
+  const [theme, setTheme] = useState<ThemeChoice>(() =>
+    readStoredTheme(browserStorage()),
+  );
   const [sheet, setSheet] = useState<SheetSize>({ height: 0, minWidth: 0 });
   const onSheet = useCallback((next: SheetSize) => {
     setSheet((prev) =>
@@ -29,6 +41,7 @@ export function PosterApp() {
 
   useEffect(() => {
     applyTheme(theme, document.documentElement);
+    writeStoredTheme(theme, browserStorage());
   }, [theme]);
 
   return (

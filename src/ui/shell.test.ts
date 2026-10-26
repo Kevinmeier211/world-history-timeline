@@ -6,7 +6,7 @@ import userEvent from '@testing-library/user-event';
 import { afterEach, describe, expect, it, vi } from 'vitest';
 
 import { PosterApp } from './PosterApp.tsx';
-import { applyTheme, posterSpan } from './frame.ts';
+import { applyTheme, posterSpan, THEME_STORAGE_KEY } from './frame.ts';
 
 class FakeResizeObserver {
   private readonly callback: ResizeObserverCallback;
@@ -29,6 +29,7 @@ class FakeResizeObserver {
 describe('poster shell', () => {
   afterEach(() => {
     applyTheme('system', document.documentElement);
+    localStorage.removeItem(THEME_STORAGE_KEY);
     vi.unstubAllGlobals();
   });
 
@@ -70,6 +71,18 @@ describe('poster shell', () => {
     await user.click(screen.getByRole('button', { name: 'Theme: light' }));
     expect(document.documentElement).toHaveAttribute('data-theme', 'dark');
     await user.click(screen.getByRole('button', { name: 'Theme: dark' }));
+    expect(document.documentElement.hasAttribute('data-theme')).toBe(false);
+    expect(localStorage.getItem(THEME_STORAGE_KEY)).toBe('system');
+  });
+
+  it('restores the stored theme', async () => {
+    vi.stubGlobal('ResizeObserver', FakeResizeObserver);
+    localStorage.setItem(THEME_STORAGE_KEY, 'dark');
+    const user = userEvent.setup();
+    render(createElement(PosterApp));
+    expect(document.documentElement).toHaveAttribute('data-theme', 'dark');
+    await user.click(screen.getByRole('button', { name: 'Theme: dark' }));
+    expect(localStorage.getItem(THEME_STORAGE_KEY)).toBe('system');
     expect(document.documentElement.hasAttribute('data-theme')).toBe(false);
   });
 

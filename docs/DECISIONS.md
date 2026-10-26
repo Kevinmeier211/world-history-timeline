@@ -421,3 +421,13 @@ Alternatives: Leave the buttons at the bottom of the sheet. Zoom only the time a
 Why: A control at the end of a 3,500 px sheet is off-screen. Uniform zoom wider than the column clips the gutters unless the frame can scroll sideways. The wheel already moves through the years.
 
 Reversible? y
+
+## 2026-10-26 — The theme is stored on this browser
+
+Decision: The theme control cycles system, light, and dark. The choice is written to `localStorage` under `chronos-theme`, inside try/catch. A missing, garbage, or blocked store stays on system. System removes `data-theme` so the OS preference applies. Ink and muted ink stay at least 4.5:1 on paper in both token sets. Family contrast stays on `palette:check`.
+
+Alternatives: Keep the choice for the session only. Share v1's `color-scheme` key.
+
+Why: A reload should open the atlas the reader left. v1's key belongs to the old shell. The night tokens are the ones in §4.2.
+
+Reversible? y
