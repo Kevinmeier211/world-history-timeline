@@ -791,3 +791,13 @@ Alternatives: Leave overview type at about 2px. Invent a twelfth era gutter. Cit
 Why: Overview has to stay readable, and the band count has to reach 12 from a span the dataset already dates.
 
 Reversible? y
+
+## 2026-10-26 — Fit width keeps every full name
+
+Decision: The overview cull starts only once the type has doubled (`scale` at or below 0.5). Fit width still grows the type so a 10px name is at least 10px on screen, and it does not drop a ribbon name. Overview still drops a name that would cover a more important one.
+
+Alternatives: Cull at every scale below 1. That removed 26 names from the 1440px fit-width sheet, including nine modern states.
+
+Why: The readable floor applies at the default zoom. The default zoom is fit width, and those names have to stay on the sheet.
+
+Reversible? y
