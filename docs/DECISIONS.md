@@ -151,3 +151,13 @@ Alternatives: Lower the floor to 26. Treat Yangshao and Longshan as sharing Lian
 Why: A red tree would block every later task. Inventing nine early spans would be a new historical claim. The report stays visible, and the test locks both the floor and the current count.
 
 Reversible? y
+
+## 2026-10-26 — Layout overrides are an empty pin-and-nudge file
+
+Decision: `src/data/layoutOverrides.json` starts with empty `ribbons` and `callouts`. A ribbon row may pin poster-x keyframes and force a label to `along`, `horizontal`, or `outside`. A callout row stores `dx` and `dy` in poster pixels. Each row needs a reason of at least 8 characters. `validate:data` rejects an id that is not in the roster. T2.19 applies the file.
+
+Alternatives: Store pins only on each polity's `xOverride`. Leave the file untyped until T2.19.
+
+Why: The plan's escape hatch is a separate file, so a layout pass can record a reason without rewriting the roster. There is nothing to pin yet.
+
+Reversible? y

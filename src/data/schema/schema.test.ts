@@ -1,9 +1,13 @@
 import { describe, expect, it } from 'vitest';
 
+import { readFileSync } from 'node:fs';
+
 import {
   bandSchema,
   calloutSchema,
+  layoutOverridesSchema,
   mediaSchema,
+  overrideTargetIssues,
   politySchema,
   relationSchema,
   sourceSchema,
@@ -180,5 +184,88 @@ describe('source, media, and tour schemas', () => {
         ],
       }).success,
     ).toBe(false);
+  });
+});
+
+describe('layout overrides', () => {
+  const reason = 'Keep the ribbon readable.';
+
+  it('accepts the empty seed and a dated pin, and rejects a bad one', () => {
+    const seeded = JSON.parse(readFileSync('src/data/layoutOverrides.json', 'utf8'));
+    const empty = layoutOverridesSchema.parse(seeded);
+    expect(empty).toEqual({ ribbons: [], callouts: [] });
+    expect(
+      layoutOverridesSchema.safeParse({
+        ribbons: [
+          {
+            polityId: 'roman_empire',
+            x: [
+              { year: -27, x: 0.4 },
+              { year: 476, x: 0.42 },
+            ],
+            label: 'horizontal',
+            reason,
+          },
+        ],
+        callouts: [{ calloutId: 'node_cuneiform', dx: 12, dy: -8, reason }],
+      }).success,
+    ).toBe(true);
+    expect(
+      layoutOverridesSchema.safeParse({
+        ribbons: [{ polityId: 'roman_empire', reason }],
+        callouts: [],
+      }).success,
+    ).toBe(false);
+    expect(
+      layoutOverridesSchema.safeParse({
+        ribbons: [{ polityId: 'roman_empire', x: [{ year: 0, x: 0.4 }], reason }],
+        callouts: [],
+      }).success,
+    ).toBe(false);
+    expect(
+      layoutOverridesSchema.safeParse({
+        ribbons: [
+          {
+            polityId: 'roman_empire',
+            x: [
+              { year: 476, x: 0.4 },
+              { year: -27, x: 0.42 },
+            ],
+            reason,
+          },
+        ],
+        callouts: [],
+      }).success,
+    ).toBe(false);
+    expect(
+      layoutOverridesSchema.safeParse({
+        ribbons: [
+          { polityId: 'roman_empire', label: 'along', reason },
+          { polityId: 'roman_empire', label: 'outside', reason },
+        ],
+        callouts: [],
+      }).success,
+    ).toBe(false);
+    expect(overrideTargetIssues(empty, new Set(), new Set())).toEqual([]);
+    expect(
+      overrideTargetIssues(
+        layoutOverridesSchema.parse({
+          ribbons: [{ polityId: 'missing_polity', label: 'along', reason }],
+          callouts: [
+            {
+              calloutId: 'missing_callout',
+              dx: 0,
+              dy: 0,
+              reason: 'Missing callout id.',
+            },
+          ],
+        }),
+        new Set(['roman_empire']),
+        new Set(['node_cuneiform']),
+      ),
+    ).toEqual([
+      'ribbon override missing_polity is not a polity',
+      'callout override missing_callout is not a callout',
+    ]);
   });
 });
