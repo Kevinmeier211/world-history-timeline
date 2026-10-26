@@ -1021,3 +1021,13 @@ Alternatives: Raise Ming, the Mughals, Habsburg Spain, and the Safavids to impor
 Why: Importance 4 still waits on an opened page that states the claim. The warm runtime is already over the gate, and another wider spine is not required to keep overlaps at 0.
 
 Reversible? y
+
+## 2026-10-26 — The Iron Age transition stays undated
+
+Decision: T6.05 adds no band for an Iron Age transition. The pass names it and gives it no years. The Late Bronze Age Collapse band stays 1200–1150 BCE. The Greek Dark Ages band stays 1100–750 BCE. The Greek Dark Ages checklist row stays about 1100–800 BCE, and the two spans were not forced to match. Pages were not opened. `verification` on those bands stays unverified.
+
+Alternatives: Invent an Iron Age transition span. Move the Greek Dark Ages band from 1100–750 BCE to the checklist row’s about 1100–800 BCE. Add a Sea Peoples row beside the collapse band.
+
+Why: A new band has to use a span the dataset already dates. The collapse band and the Greek Dark Ages band already cover the dated frames this pass can stand on. Sea Peoples stay inside the existing collapse description.
+
+Reversible? y
