@@ -56,7 +56,65 @@
 }
 
 .stage-host {
+  position: relative;
   height: 100%;
+}
+
+.chart-chrome {
+  position: fixed;
+  z-index: 4;
+  width: 0;
+  pointer-events: none;
+}
+
+.zoom-bar {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  pointer-events: auto;
+}
+
+.zoom-bar button {
+  min-width: 36px;
+  min-height: 32px;
+  padding: 0 6px;
+  border: 1px solid var(--rule);
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.minimap {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3;
+  border: 1px solid var(--frame);
+  background: var(--paper);
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.minimap-sheet {
+  fill: var(--paper-shade);
+}
+
+.minimap-ribbon {
+  pointer-events: none;
+}
+
+.minimap-view {
+  fill: transparent;
+  stroke: var(--focus);
+  stroke-width: 2px;
+  vector-effect: non-scaling-stroke;
+  pointer-events: none;
 }
 
 .watermark {

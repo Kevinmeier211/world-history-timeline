@@ -6,13 +6,16 @@ export function PosterFrame({
   lens,
   children,
   sheetHeight,
+  sheetMinWidth,
 }: {
   lens: LensId;
   children?: ReactNode;
   sheetHeight?: number;
+  sheetMinWidth?: number;
 }) {
-  const bodyStyle: CSSProperties | undefined =
-    sheetHeight && sheetHeight > 0 ? { height: sheetHeight } : undefined;
+  const bodyStyle: CSSProperties = {};
+  if (sheetHeight && sheetHeight > 0) bodyStyle.height = sheetHeight;
+  if (sheetMinWidth && sheetMinWidth > 0) bodyStyle.minWidth = sheetMinWidth;
   return (
     <div className="poster-frame" data-lens={lens}>
       <header className="title-band">
@@ -21,7 +24,10 @@ export function PosterFrame({
         <p className="title-span">{posterSpan()}</p>
       </header>
       <div className="poster-scroll">
-        <div className="poster-body" style={bodyStyle}>
+        <div
+          className="poster-body"
+          style={Object.keys(bodyStyle).length > 0 ? bodyStyle : undefined}
+        >
           <div className="chart-well" role="region" aria-label="Chart">
             {children}
           </div>

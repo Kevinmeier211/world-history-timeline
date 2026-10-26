@@ -17,10 +17,13 @@ export function PosterApp() {
   const [lens, setLens] = useState<LensId>('all');
   const [view, setView] = useState<ViewId>('chart');
   const [theme, setTheme] = useState<ThemeChoice>('system');
-  const [sheetHeight, setSheetHeight] = useState<number | undefined>(undefined);
-  const onSheet = useCallback((sheet: SheetSize) => {
-    setSheetHeight((prev) =>
-      prev !== undefined && Math.abs(prev - sheet.height) < 0.5 ? prev : sheet.height,
+  const [sheet, setSheet] = useState<SheetSize>({ height: 0, minWidth: 0 });
+  const onSheet = useCallback((next: SheetSize) => {
+    setSheet((prev) =>
+      Math.abs(prev.height - next.height) < 0.5 &&
+      Math.abs(prev.minWidth - next.minWidth) < 0.5
+        ? prev
+        : next,
     );
   }, []);
 
@@ -42,7 +45,11 @@ export function PosterApp() {
           setTheme((current) => nextTheme(current));
         }}
       />
-      <PosterFrame lens={lens} sheetHeight={view === 'chart' ? sheetHeight : undefined}>
+      <PosterFrame
+        lens={lens}
+        sheetHeight={view === 'chart' ? sheet.height : undefined}
+        sheetMinWidth={view === 'chart' ? sheet.minWidth : 0}
+      >
         {view === 'table' ? (
           <p className="chart-note">
             Table view lists the same polities, one row each.

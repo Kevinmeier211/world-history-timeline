@@ -411,3 +411,13 @@ Alternatives: Dim only the hovered ribbon's siblings by id. Put the tooltip insi
 Why: Section 4.11 is a lineage focus, not a single-ribbon highlight. An HTML tooltip stays at 13 px when the sheet is scaled down.
 
 Reversible? y
+
+## 2026-10-26 — Zoom stays on the scrollport
+
+Decision: The sheet opens at the column fit (multiplier 1). +/− and the zoom buttons scale around the viewport center, clamped to 0.2–6. Arrows, Home, and End pan the scroller. Past the column width the sheet grows so that overflow can be panned; Fit drops the extra width. The overview map is a 56 px copy of the ribbons with a focus-colored viewport rect, pinned to the scrollport with the buttons. A focused field ignores the shortcuts.
+
+Alternatives: Leave the buttons at the bottom of the sheet. Zoom only the time axis. Take the wheel away from vertical scroll.
+
+Why: A control at the end of a 3,500 px sheet is off-screen. Uniform zoom wider than the column clips the gutters unless the frame can scroll sideways. The wheel already moves through the years.
+
+Reversible? y
