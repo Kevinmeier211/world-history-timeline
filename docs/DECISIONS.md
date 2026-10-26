@@ -671,3 +671,13 @@ Alternatives: Count a partial as a pass. Open P6 at 45%. Treat the phone sheet a
 Why: T5.17 is the M2 checkpoint. The plan says not to open content depth while the poster is still under 70%.
 
 Reversible? y
+
+## 2026-10-26 — A forced label orientation does not clear the fitted pairs
+
+Decision: For each polity in the 15 fitted label pairs, forcing `outside`, `horizontal`, or `along` was measured with `layout()`. Every force that removed a pair either ellipsized the name or left the label hover-only. Those results are not kept. The full name stays on the ribbon. The next layout lever is a lane pin or a fitter change that keeps the full string.
+
+Alternatives: Ship the ellipsis. Drop the label to hover-only and call the pair fixed.
+
+Why: Item 8 asks for labels that are not clipped. Shortening a name to delete an overlap does not pass it.
+
+Reversible? y
