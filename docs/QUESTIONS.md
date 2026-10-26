@@ -40,6 +40,8 @@ T6.02 adds three more undated spans the pass names: Sweden 1523–1800, Denmark�
 
 T6.03 does not add Chagatai, medieval Serbia, or a year for the Western Dark Ages or the Medieval Warm Period. Those names stay undated. The Visigoth row was moved from a stored start of 418 BCE to 418 CE, which is the checklist span. Pages were not opened.
 
+T6.04 does not add Chagatai, Gaul, the Germanic tribes, Gojoseon, Xianbei, or a year for the Roman Climate Optimum. Those names stay undated. Pages were not opened.
+
 ## Q-05 — The Latin West checklist is shorter than the family minimum
 
 Why it matters: T1.19 requires at least 45 `latin_west` polities. Appendix B's dated Latin West lines, plus the six migrated bundles, do not reach 45. Inventing foundation years for Aragon, Castile, or Habsburg Austria would be a new claim.
