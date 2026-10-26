@@ -87,8 +87,44 @@
 | T3.16 | done | 9321c02 | shell test: poster mounts, v1 canvas files absent, `docs/shots/v1/` remains | 20 | `?v1=1` no longer switches apps. Polity tables stay. See DECISIONS. |
 | T3.17 | done | de79809 | `docs/reviews/M1.md`: 5 pass, 3 partial, 3 fail (45%) | 30 | Poster image missing (Q-01). P4 does not start. See DECISIONS. |
 | T3.18 | done | 060a5ae | roster override test: fitted label overlaps 23 → 15; importance-3 fit stays 1; ribbon overlaps 0 | 40 | Eight labels move aside. The modern fan-out crossings remain. See DECISIONS. |
-| T3.99 | done | (this commit) | `npm run shots` 3 passed; `layout:report` gates pass (warm 114 ms); `npm run perf` p95 16.70 ms, worst 83.40 ms | 25 | Tag `v2-p3-done` is the `--no-ff` merge into `v2/main`. P4 stays closed. See DECISIONS. |
+| T3.99 | done | 67d63e2 | `npm run shots` 3 passed; `layout:report` gates pass (warm 114 ms); `npm run perf` p95 16.70 ms, worst 83.40 ms | 25 | Tag `v2-p3-done` is merge `09a5f75`. P4 stays closed. See DECISIONS. |
+| T5.01 | done | d8725de | hash tests round-trip `#y=-221&z=1.4&sel=han&lens=trade&fold=chinese`; shell test pushes the lens and back/forward restores it | 25 | `y`, `z`, `sel`, and `fold` parse. The chart does not fly yet. Theme stays in localStorage. See DECISIONS. |
+| T5.02 | done | 94d3d57 | search tests match names, alternate names, people, and `44 BCE`; shell test opens on `/`, chooses Han, and writes `#y=-221&sel=han_dynasty` | 35 | Recents stay in memory. Scroll does not push. See DECISIONS. |
+| T5.03 | done | 508ae5c | dossier model for Han includes dates, rulers, disputed lineage, notes, and sources; shell test stays closed until a ribbon click | 30 | The figure says no image is attached. Escape and a click on empty paper close it. See DECISIONS. |
+| T5.04 | done | 577eac8 | wiki tests cache a trimmed extract, drop a 404, show "From Wikipedia", and abort on close | 25 | The extract loads only after a click. A failure says Wikipedia did not respond. See DECISIONS. |
+| T5.05 | done | 0444436 | scrub tests map y to a year, list importance ≥ 3 per macro-region, and keep the snapshot closed until Lock year | 30 | No bottom strip. A polity in the snapshot selects that ribbon. See DECISIONS. |
+| T5.06 | done | 073a0f2 | lapse tests step 25 years, skip year 0, and stop at 2000; reduced motion disables Play | 20 | Play locks the year and scrolls with it. Pause and Unlock stop the run. See DECISIONS. |
+| T5.07 | done | 42a5877 | lens tests keep opacity above 0; trade reveals trade and migration arcs and dims the chart to 0.55 | 30 | All and climate draw no arcs. Bands in the lens stay at full weight. See DECISIONS. |
+| T5.08 | done | be3022e | arc tests dash trade at 1.5 and thicken a hovered arc to 2.5 with the dash removed | 20 | Migration stays the finer hairline. The highlight is instant. See DECISIONS. |
+| T5.09 | done | 1c0e43a | column tests hide a folded family, keep a pinned family inside a folded region, and lerp a keyframe halfway in 300 ms | 35 | Reduced motion jumps. The columns panel is not a dialog. See DECISIONS. |
+| T5.10 | done | 481bb78 | preset tests apply the five migrated rows and cap saved compares at 8; shell test restores `My Americas` from localStorage | 25 | All regions clears the pin. A preset year of 0 is dropped. See DECISIONS. |
+| T5.11 | done | b8c8239 | story tests keep 3 tours at ≤ 70 words; a stop sets year, scale, lens, and highlight; Fit width clears `z` | 35 | Art maps to the ideas lens. Politics and technology stay on All. See DECISIONS. |
+| T5.12 | done | e41dea0 | table tests sort years across the missing year 0, follow fold and pin, and window rows; a row opens the dossier | 35 | Callouts stay with the polity they attach to. See DECISIONS. |
+| T5.13 | done | 7801bb9 | tab-order test reads y then x; shell test focuses the chart from Skip to chart and keeps ribbon y sorted | 25 | Panels take focus and hand it back. Reduced motion clears transition time. See DECISIONS. |
+| T5.14 | done | 85f7eab | era tests list Bronze polities in year order; shell test opens Egyptian New Kingdom from the era sheet; a pinch triples the scale | 30 | On a phone the dossier and era list are bottom sheets. Lens and View words collapse. See DECISIONS. |
+| T5.15 | done | 20001f3 | milestone tests drop year 0 and a blocked store; a locked year can add and remove a mark; the mark is a dashed outline | 25 | Marks stay out of the catalog. Twelve is the cap. See DECISIONS. |
+| T5.16 | done | 30841d0 | `npm run axe` is clean for serious and critical on chart, dossier, dark theme, table, search, reading key, stories, columns, and era reading | 30 | The Overview control says Overview. Dossier buttons use paper and ink. See DECISIONS. |
+| T5.17 | done | aa1f0ed | `docs/reviews/M2.md` scores Appendix D at 5/11; perf p95 16.70 ms; axe serious/critical stay 0 | 20 | A partial is not a pass. P6 stays closed. See DECISIONS. |
+| T5.20 | done | a1521fc | `lucide-react` is unused and removed; `npm run bundle:check` reports 233.77 KB gzipped JS | 15 | The limit is 400 KB. See DECISIONS. |
+
+## Layout tuning
+
+2026-10-26 — Rotated and horizontal names are pinned to a straight column or line on the ribbon (`71f4ea2`). `npm run layout:report` label hits 0, warm 126 ms, gates pass. `docs/reviews/M3.md` is 5/11. Per-letter bend seating was not kept.
+
+2026-10-26 — Fork endpoints can replace an equal-importance ribbon. The Carolingian split routes. `npm run layout:report` label hits 0, warm 123 ms, max drift 296.774, gates pass. `docs/reviews/M4.md` is 5/11. A `MAX_DRIFT` clamp on packed steps left 246 overlaps and was not kept. P4 and P6 stay closed.
+
+2026-10-26 — `easeCenterlines` carries center and width. `egypt_late_to_ptolemaic` moves 0.22px across 0.62px of y (`07cb451`). `npm run layout:report` gates pass.
+
+2026-10-26 — Rome ends in 395 and splits into western and eastern ribbons. Aragon and Castile merge into `spain_union` (`4ba3029`). `npm run layout:report` overlaps 0, label hits 0, importance 3 fit 74/74, warm 136 ms, max drift 4.193. Gates pass.
+
+2026-10-26 — Modern slices spend spare width in place (`fd85844`). India, Pakistan, North Korea, and South Korea keep their full names. Half-em modern fits rise from 31 to 53. `npm run layout:report` overlaps 0, label hits 0, importance 3 fit 74/74, warm 149 ms, max drift 4.193. Gates pass.
 
 ## Blocked
 
-None.
+2026-10-26 — Layout pass. `docs/reviews/layout-pass.md` scores Appendix D after `fd85844`. Item 7 (shipped images) is deferred to P4 and is out of the denominator. Painted callout plates are deferred to P4 and do not fail item 8 by themselves. Ten items remain. The bar is 8 passes. The score is 5 pass, 3 partial, 2 fail.
+
+Fails: item 3, modern edge, 53 half-em fits and 52 painted names, both under 60 (`docs/shots/p3/desktop-modern.png`, `docs/reports/layout-latest.json`). Item 8, labels, 33 painted ellipses and 11 drawn ribbons with no painted name, including `western_roman_empire` (`docs/shots/p3/desktop-classical.png`).
+
+Partials: item 1, overview labels about 2px (`docs/shots/p3/desktop-overview.png`). Item 2, both Roman ribbons and the Castile–Aragon merge are drawn, and the Egypt step is 0.22px, while the west ribbon has no painted name and `maxRibbonDrift` is 4.193 on `umayyad_abbasid` (13px across 3.1px of y). Item 6, six era bands and 11 cross-cutting bands.
+
+`npm run check` green. `npm run shots` 3 passed. `npm run perf` p95 16.80 ms, worst 66.70 ms. `npm run axe` 24 passed, no serious or critical violation. Tag `v2-p5-done` is on `v2/p5-interactions`. `v2/main` was not merged. P4 and P6 stay closed.

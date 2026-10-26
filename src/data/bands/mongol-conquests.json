@@ -1,0 +1,15 @@
+[
+  {
+    "id": "band_mongol_conquests",
+    "title": "MONGOL CONQUESTS",
+    "start": 1206,
+    "end": 1368,
+    "scope": ["europe", "east_asia"],
+    "type": "war",
+    "importance": 3,
+    "description": "This band uses the Mongol Empire row already in the dataset: 1206 to 1368, across Europe and East Asia. The Cambridge Histories page was not opened.",
+    "sourceIds": ["cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Years and regions are the mongol_empire span already in this dataset. The Cambridge Histories page was not opened for this row."
+  }
+]

@@ -1,17 +1,5 @@
 [
   {
-    "id": "abut_ussr_russia",
-    "from": ["ussr"],
-    "to": ["russia"],
-    "year": 1991,
-    "type": "succession",
-    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
-    "sourceIds": ["cambridge_histories", "british_library"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
-  },
-  {
     "id": "abut_uyghur_khaganate_steppe_840",
     "from": ["uyghur_khaganate"],
     "to": ["steppe_840"],
@@ -91,6 +79,18 @@
     "type": "succession",
     "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
     "sourceIds": ["chgis", "cambridge_histories"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
+  },
+  {
+    "id": "abut_western_roman_empire_italy_476",
+    "from": ["western_roman_empire"],
+    "to": ["italy_476"],
+    "year": 476,
+    "type": "succession",
+    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
+    "sourceIds": ["cambridge_histories", "british_library"],
     "confidence": "debated",
     "verification": "unverified",
     "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."

@@ -234,5 +234,28 @@
         "end": 641
       }
     ]
+  },
+  {
+    "id": "eastern_roman_empire",
+    "name": "Eastern Roman Empire",
+    "family": "greek_byzantine",
+    "start": 395,
+    "end": 476,
+    "confidence": "debated",
+    "dateNote": "Conventional division in 395. This ribbon stops at 476 so it does not lie on the Byzantine ribbon through 1453. Pages were not opened.",
+    "importance": 3,
+    "weight": 0.55,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 395,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "The eastern half of the Roman Empire from the conventional division of 395 until 476. The longer eastern continuation is the Byzantine ribbon. Dates were not re-verified.",
+    "keyFacts": ["Checklist ribbon for the division of 395."],
+    "sourceIds": ["cambridge_histories", "louvre"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row."
   }
 ]

@@ -1,5 +1,17 @@
 [
   {
+    "id": "middle_assyrian",
+    "reason": "gemini-v1 names no parent; nearest same-family end is old_babylonian at a gap of 230 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "minoan",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "minoans_mycenaeans",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
     "id": "mississippian_culture",
     "reason": "gemini-v1 parents hopewell_tradition have no year inside both lifetimes ± 50; nearest same-family end is hopewell_tradition at a gap of 300 continuous years, outside a shared-boundary handoff."
   },
@@ -82,17 +94,5 @@
   {
     "id": "ottoman",
     "reason": "gemini-v1 names no parent; nearest same-family end is almohad at a gap of 30 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "ottoman_levant",
-    "reason": "gemini-v1 names no parent; nearest same-family end is crusader_states at a gap of 225 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "oyo",
-    "reason": "gemini-v1 names no parent; nearest same-family end is ghana_wagadu at a gap of 200 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "pacific_microstates",
-    "reason": "gemini-v1 names no parent; nearest same-family end is voc at a gap of 1 continuous year, while other polities in the family are still current."
   }
 ]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "v1_wari_tiwanaku_chimor_kingdom",
+    "from": ["wari_tiwanaku"],
+    "to": ["chimor_kingdom"],
+    "year": 900,
+    "type": "cultural_continuity",
+    "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
+    "sourceIds": ["museo_larco", "field_museum"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."
+  }
+]

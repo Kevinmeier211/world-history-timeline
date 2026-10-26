@@ -1,7 +1,19 @@
 [
   {
+    "id": "european_partition_africa",
+    "reason": "gemini-v1 names no parent; nearest same-family end is oyo at a gap of 45 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "fatimid",
+    "reason": "gemini-v1 names no parent; nearest same-family end is umayyad at a gap of 159 continuous years, outside a shared-boundary handoff."
+  },
+  {
     "id": "first_bulgarian_empire",
-    "reason": "gemini-v1 names no parent; nearest same-family end is ptolemaic_seleucid at a gap of 710 continuous years, outside a shared-boundary handoff."
+    "reason": "gemini-v1 names no parent; nearest same-family end is eastern_roman_empire at a gap of 205 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "franks_charlemagne",
+    "reason": "gemini-v1 parents roman_empire have no year inside both lifetimes ± 50; nearest same-family end is western_roman_empire at a gap of 5 continuous years, outside a shared-boundary handoff."
   },
   {
     "id": "french_revolution",
@@ -82,17 +94,5 @@
   {
     "id": "ilkhanate",
     "reason": "gemini-v1 names no parent; nearest same-family end is jurchen_jin at a gap of 22 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "india_1857",
-    "reason": "gemini-v1 names no parent; nearest same-family end is sikh_empire at a gap of 8 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "indus_valley",
-    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
-  },
-  {
-    "id": "iraq",
-    "reason": "gemini-v1 names no parent; nearest same-family end is ottoman_levant at a gap of 12 continuous years, outside a shared-boundary handoff."
   }
 ]

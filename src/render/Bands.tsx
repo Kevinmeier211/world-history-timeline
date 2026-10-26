@@ -1,5 +1,7 @@
 import { LEFT_GUTTER, PLOT_WIDTH, RIGHT_GUTTER } from '../layout/constants.ts';
+import type { LensId } from '../ui/frame.ts';
 import type { BandHatch, BandPaint } from './bandInk.ts';
+import { bandRole, lensOpacity } from './lensWeight.ts';
 
 const PLOT_RIGHT = LEFT_GUTTER + PLOT_WIDTH;
 
@@ -47,7 +49,13 @@ function HatchDefs({ hatches }: { hatches: ReadonlySet<BandHatch> }) {
   );
 }
 
-export function Bands({ bands }: { bands: readonly BandPaint[] }) {
+export function Bands({
+  bands,
+  lens = 'all',
+}: {
+  bands: readonly BandPaint[];
+  lens?: LensId;
+}) {
   const hatches = new Set(
     bands.map((band) => band.hatch).filter((hatch) => hatch !== 'none'),
   );
@@ -62,6 +70,7 @@ export function Bands({ bands }: { bands: readonly BandPaint[] }) {
             key={band.id}
             className={`cross-band cross-band-${band.type}`}
             data-band={band.id}
+            opacity={lensOpacity(lens, bandRole(band.type))}
           >
             <rect
               className="band-wash"

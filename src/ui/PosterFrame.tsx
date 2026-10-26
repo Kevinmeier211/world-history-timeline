@@ -9,6 +9,12 @@ export function PosterFrame({
   sheetMinWidth,
   readingOpen = false,
   onReading,
+  columnsOpen = false,
+  onColumns,
+  storiesOpen = false,
+  onStories,
+  eraOpen = false,
+  onEra,
 }: {
   lens: LensId;
   children?: ReactNode;
@@ -16,6 +22,12 @@ export function PosterFrame({
   sheetMinWidth?: number;
   readingOpen?: boolean;
   onReading?: () => void;
+  columnsOpen?: boolean;
+  onColumns?: () => void;
+  storiesOpen?: boolean;
+  onStories?: () => void;
+  eraOpen?: boolean;
+  onEra?: () => void;
 }) {
   const bodyStyle: CSSProperties = {};
   if (sheetHeight && sheetHeight > 0) bodyStyle.height = sheetHeight;
@@ -26,22 +38,63 @@ export function PosterFrame({
         <p className="title-kicker">{POSTER_KICKER}</p>
         <h1>{POSTER_TITLE}</h1>
         <p className="title-span">{posterSpan()}</p>
-        <button
-          type="button"
-          className="reading-open"
-          aria-expanded={readingOpen}
-          aria-controls="reading-key"
-          onClick={onReading}
-        >
-          How to read this
-        </button>
+        <div className="title-actions">
+          <button
+            type="button"
+            className="reading-open"
+            aria-expanded={readingOpen}
+            aria-controls="reading-key"
+            onClick={onReading}
+          >
+            How to read this
+          </button>
+          {onColumns ? (
+            <button
+              type="button"
+              className="reading-open"
+              aria-expanded={columnsOpen}
+              aria-controls="columns-panel"
+              onClick={onColumns}
+            >
+              Columns
+            </button>
+          ) : null}
+          {onStories ? (
+            <button
+              type="button"
+              className="reading-open"
+              aria-expanded={storiesOpen}
+              aria-controls="story-panel"
+              onClick={onStories}
+            >
+              Stories
+            </button>
+          ) : null}
+          {onEra ? (
+            <button
+              type="button"
+              className="reading-open"
+              aria-expanded={eraOpen}
+              aria-controls="era-panel"
+              onClick={onEra}
+            >
+              Era reading
+            </button>
+          ) : null}
+        </div>
       </header>
       <div className="poster-scroll">
         <div
           className="poster-body"
           style={Object.keys(bodyStyle).length > 0 ? bodyStyle : undefined}
         >
-          <div className="chart-well" role="region" aria-label="Chart">
+          <div
+            className="chart-well"
+            id="chart"
+            role="region"
+            aria-label="Chart"
+            tabIndex={-1}
+          >
             {children}
           </div>
         </div>

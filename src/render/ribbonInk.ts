@@ -24,10 +24,14 @@ export interface RibbonPaint {
   ariaLabel: string;
   y0: number;
   y1: number;
+  /** Design x at the top of the ribbon. Tab order uses it after y. */
+  x: number;
   fadePx: number;
   dashPath: string;
   dashArray: string;
   gradientId: string;
+  /** Set while a fold tween fades this ribbon. Omitted means fully visible. */
+  opacity?: number;
 }
 
 export interface LabelPaint {
@@ -42,6 +46,9 @@ export interface LabelPaint {
   fill: string;
   fitted: boolean;
   leader?: LayoutLabel['leader'];
+  glyphs?: LayoutLabel['glyphs'];
+  /** Used when a zoomed-out sheet has to drop a covering name. */
+  importance?: number;
 }
 
 function channels(hex: string): [number, number, number] | null {
@@ -127,6 +134,9 @@ function paintOne(
     years,
   );
   const ys = ribbon.keyframes.map((point) => point.y);
+  const top = ribbon.keyframes.reduce((best, point) =>
+    point.y < best.y ? point : best,
+  );
   return {
     id: ribbon.polityId,
     familyId: ribbon.familyId,
@@ -146,6 +156,7 @@ function paintOne(
     ),
     y0: Math.min(...ys),
     y1: Math.max(...ys),
+    x: top.x,
     fadePx: cap.fadePx,
     dashPath: cap.dashPath,
     dashArray: cap.dashArray,
@@ -173,7 +184,8 @@ export function posterPaint(
   const labels = result.labels.flatMap((label) => {
     if (!label.fitted) return [];
     const fill = fills.get(label.polityId);
-    if (!fill) return [];
+    const polity = polities.get(label.polityId);
+    if (!fill || !polity) return [];
     return [
       {
         polityId: label.polityId,
@@ -187,6 +199,8 @@ export function posterPaint(
         fill: labelFill(fill, LABEL_INK, LABEL_PAPER),
         fitted: true,
         leader: label.leader,
+        glyphs: label.glyphs,
+        importance: polity.importance,
       },
     ];
   });

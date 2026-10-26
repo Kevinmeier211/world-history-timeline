@@ -1,5 +1,17 @@
 [
   {
+    "id": "samoa",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "satavahana",
+    "reason": "gemini-v1 names no parent; nearest same-family end is mahajanapadas, nanda at a gap of 92 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "saudi_arabia",
+    "reason": "gemini-v1 names no parent; nearest same-family end is ottoman at a gap of 10 continuous years, outside a shared-boundary handoff."
+  },
+  {
     "id": "scythians",
     "reason": "gemini-v1 names no parent; nearest same-family end is yamnaya at a gap of 1700 continuous years, outside a shared-boundary handoff."
   },
@@ -44,10 +56,6 @@
     "reason": "gemini-v1 names no parent; nearest same-family end is sokoto at a gap of 7 continuous years, outside a shared-boundary handoff."
   },
   {
-    "id": "spain_union",
-    "reason": "gemini-v1 names no parent; nearest same-family end is west_francia at a gap of 482 continuous years, outside a shared-boundary handoff."
-  },
-  {
     "id": "spanish_philippines",
     "reason": "gemini-v1 names no parent; nearest same-family end is majapahit at a gap of 38 continuous years, outside a shared-boundary handoff."
   },
@@ -86,13 +94,5 @@
   {
     "id": "tang_song_dynasty",
     "reason": "gemini-v1 parents han_dynasty have no year inside both lifetimes ± 50; nearest same-family end is jin_266 at a gap of 161 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "tanzania",
-    "reason": "gemini-v1 names no parent; nearest same-family end is south_africa_union at a gap of 2 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "tarascan",
-    "reason": "gemini-v1 names no parent; nearest same-family end is toltecs at a gap of 132 continuous years, outside a shared-boundary handoff."
   }
 ]

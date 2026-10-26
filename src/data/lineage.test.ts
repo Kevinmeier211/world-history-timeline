@@ -189,4 +189,38 @@ describe('buildLineage', () => {
     });
     expect(result.roots.map((root) => root.id)).toEqual(['yuan']);
   });
+
+  it('emits the Roman split and the Spanish merge instead of abutment edges', () => {
+    const result = buildLineage(
+      [
+        polity('roman_empire', 'latin_west', -27, 395),
+        polity('western_roman_empire', 'latin_west', 395, 476),
+        polity('eastern_roman_empire', 'greek_byzantine', 395, 476),
+        polity('aragon', 'latin_west', 1137, 1469),
+        polity('castile', 'latin_west', 1230, 1469),
+        polity('spain_union', 'latin_west', 1469, 1516),
+      ],
+      [],
+      [],
+    );
+    const split = result.relations.find((item) => item.type === 'split');
+    const merge = result.relations.find((item) => item.type === 'merge');
+    expect(split).toMatchObject({
+      from: ['roman_empire'],
+      to: ['eastern_roman_empire', 'western_roman_empire'],
+      year: 395,
+    });
+    expect(merge).toMatchObject({
+      from: ['aragon', 'castile'],
+      to: ['spain_union'],
+      year: 1469,
+    });
+    expect(
+      result.relations.some(
+        (item) =>
+          item.type === 'succession' && item.to.includes('western_roman_empire'),
+      ),
+    ).toBe(false);
+    expect(result.relations.some((item) => item.type === 'disputed')).toBe(false);
+  });
 });

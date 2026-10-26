@@ -1,5 +1,17 @@
 [
   {
+    "id": "india_1857",
+    "reason": "gemini-v1 names no parent; nearest same-family end is sikh_empire at a gap of 8 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "indus_valley",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "iraq",
+    "reason": "gemini-v1 names no parent; nearest same-family end is ottoman_levant at a gap of 12 continuous years, outside a shared-boundary handoff."
+  },
+  {
     "id": "israel_judah",
     "reason": "gemini-v1 names no parent; nearest same-family end is ebla at a gap of 600 continuous years, outside a shared-boundary handoff."
   },
@@ -82,17 +94,5 @@
   {
     "id": "kura_araxes",
     "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
-  },
-  {
-    "id": "kush_napatan",
-    "reason": "gemini-v1 names no parent; nearest same-family end is kerma at a gap of 500 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "kush_twenty_fifth",
-    "reason": "gemini-v1 names no parent; nearest same-family end is kerma at a gap of 756 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "kushan",
-    "reason": "gemini-v1 names no parent; nearest same-family end is mahajanapadas, nanda at a gap of 351 continuous years, outside a shared-boundary handoff."
   }
 ]

@@ -14,11 +14,13 @@ import {
   PLOT_WIDTH,
 } from './constants.ts';
 import { cullToFit } from './cull.ts';
+import { buildFanSpec, fanLayout, type FanSpec } from './sliceBudget.ts';
 import { layoutDebug } from './debug.ts';
 import { applyDrift, yOfYear } from './drift.ts';
 import { ribbonRuns, sampleAt, separateRuns, type DatedPoint } from './frames.ts';
 import { stableHash } from './hash.ts';
 import { canvasTextMeasurer } from './labelFit.ts';
+import { labelObstacleBoxes, parkRotatedLabels } from './labelTrack.ts';
 import { solveLanes, type LaneSliceInput } from './laneSolver.ts';
 import { selectLod, type LodItem } from './lod.ts';
 import { indexOverrides, nudgeCallout, type OverrideIndex } from './overrides.ts';
@@ -177,34 +179,64 @@ function computeLayout(input: LayoutInput): LayoutResult {
       relation.from.every((id) => drawn.has(id)) &&
       relation.to.every((id) => drawn.has(id)),
   );
+  const guarded = new Set<string>();
+  for (const relation of relations) {
+    if (relation.type !== 'split' && relation.type !== 'merge') continue;
+    for (const id of relation.from) guarded.add(id);
+    for (const id of relation.to) guarded.add(id);
+  }
   const slices = buildSlices(polities, relations);
-  const laneSlices: LaneSliceInput[] = slices
-    .map((slice) => ({
-      start: slice.start,
-      end: slice.end,
-      ribbons: slice.activeIds.flatMap((id) => {
-        const polity = byId.get(id);
-        if (!polity) return [];
-        return [
-          {
-            id,
-            familyId: polity.family,
-            weight: polity.weight,
-            importance: polity.importance,
-            desiredX: desiredX(
-              polity,
-              midYear(slice.start, slice.end),
-              input.geography,
-              overrides.pins,
-            ),
-          },
-        ];
-      }),
-    }))
-    .map((slice) => ({ ...slice, ribbons: cullToFit(slice.ribbons) }));
+  const spans = new Map(
+    polities.map((polity) => [polity.id, { start: polity.start, end: polity.end }]),
+  );
+  const prepared = slices.map((slice) => {
+    const ribbons = slice.activeIds.flatMap((id) => {
+      const polity = byId.get(id);
+      if (!polity) return [];
+      return [
+        {
+          id,
+          familyId: polity.family,
+          weight: polity.weight,
+          importance: polity.importance,
+          desiredX: desiredX(
+            polity,
+            midYear(slice.start, slice.end),
+            input.geography,
+            overrides.pins,
+          ),
+        },
+      ];
+    });
+    const core = cullToFit(ribbons, guarded);
+    const fan: FanSpec | undefined = buildFanSpec(
+      slice.start,
+      slice.end,
+      ribbons,
+      new Set(core.map((ribbon) => ribbon.id)),
+      spans,
+      guarded,
+    );
+    return { start: slice.start, end: slice.end, ribbons: core, fan };
+  });
+  const laneSlices: LaneSliceInput[] = prepared.map((slice) => ({
+    start: slice.start,
+    end: slice.end,
+    ribbons: slice.ribbons,
+  }));
   const solved = solveLanes(laneSlices, relations);
-  const drifted = applyDrift(
+  const fannedLanes = fanLayout(
     solved.map((slice, index) => ({
+      lanes: slice.lanes,
+      spec: prepared[index]?.fan,
+    })),
+  );
+  const fanned = solved.map((slice, index) => ({
+    ...slice,
+    lanes: fannedLanes[index] ?? slice.lanes,
+  }));
+  const drifted = applyDrift(
+    fanned.map((slice, index) => ({
       start: slice.start,
       end: slice.end,
       span: slices[index]?.span ?? 0,
@@ -242,7 +274,11 @@ function computeLayout(input: LayoutInput): LayoutResult {
       },
     ];
   });
-  const labels = placeRibbonLabels(polities, frames, measure, overrides.labels);
+  const tracks = new Map(ribbons.map((ribbon) => [ribbon.polityId, ribbon.keyframes]));
+  const labels = parkRotatedLabels(
+    placeRibbonLabels(polities, tracks, measure, overrides.labels),
+    tracks,
+  );
   const connectors = relations.flatMap((relation) => {
     const built = connect(relation, byId, frames, zoomY);
     return built ? [built] : [];
@@ -255,15 +291,7 @@ function computeLayout(input: LayoutInput): LayoutResult {
       y: yOfYear(callout.year, zoomY),
       mediaId: callout.mediaId,
     })),
-    labels
-      .filter((label) => label.fitted)
-      .map((label) => ({
-        id: label.polityId,
-        x: label.x,
-        y: label.y,
-        width: label.width,
-        height: label.height,
-      })),
+    labelObstacleBoxes(labels),
   );
   const nudged = callouts.map((card) =>
     nudgeCallout(card, overrides.nudges.get(card.calloutId)),

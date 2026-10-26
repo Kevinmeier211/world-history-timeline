@@ -12,6 +12,8 @@ import {
 export interface TopBarProps {
   query: string;
   onQuery: (value: string) => void;
+  searchOpen: boolean;
+  onSearchFocus: () => void;
   lens: LensId;
   onLens: (lens: LensId) => void;
   view: ViewId;
@@ -23,6 +25,8 @@ export interface TopBarProps {
 export function TopBar({
   query,
   onQuery,
+  searchOpen,
+  onSearchFocus,
   lens,
   onLens,
   view,
@@ -48,13 +52,15 @@ export function TopBar({
           type="search"
           value={query}
           placeholder="Name or year"
+          aria-controls={searchOpen ? 'search-dialog' : undefined}
+          onFocus={onSearchFocus}
           onChange={(event) => {
             onQuery(event.target.value);
           }}
         />
       </form>
       <label className="bar-field">
-        Lens
+        <span className="bar-label">Lens</span>
         <select
           value={lens}
           onChange={(event) => {
@@ -69,7 +75,7 @@ export function TopBar({
         </select>
       </label>
       <label className="bar-field">
-        View
+        <span className="bar-label">View</span>
         <select
           value={view}
           onChange={(event) => {

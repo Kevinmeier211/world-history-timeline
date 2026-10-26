@@ -30,7 +30,7 @@ function hitCount(result: LayoutResult): number {
 }
 
 describe('roster label overrides', () => {
-  it('cuts fitted-label overlaps without hiding a name', () => {
+  it('does not hide a name or add a fitted overlap', () => {
     const dataset = datasetSchema.parse(loadDataset());
     const tunedFile = layoutOverridesSchema.parse(
       JSON.parse(readFileSync('src/data/layoutOverrides.json', 'utf8')),
@@ -51,9 +51,40 @@ describe('roster label overrides', () => {
     const tuned = layout({ ...input, overrides: tunedFile });
     const bareHits = hitCount(bare);
     const tunedHits = hitCount(tuned);
-    expect(tunedHits).toBeLessThan(bareHits);
-    expect(tunedHits).toBeLessThanOrEqual(15);
+    expect(bareHits).toBe(0);
+    expect(tunedHits).toBeLessThanOrEqual(bareHits);
     expect(ribbonOverlap(tuned.ribbons).overlaps).toBe(0);
+    expect(tuned.ribbons.some((ribbon) => ribbon.polityId === 'east_francia')).toBe(
+      true,
+    );
+    expect(tuned.ribbons.some((ribbon) => ribbon.polityId === 'west_francia')).toBe(
+      true,
+    );
+    expect(
+      tuned.connectors.some((connector) =>
+        connector.relationId.startsWith('split_carolingian_'),
+      ),
+    ).toBe(true);
+    expect(
+      tuned.ribbons.some((ribbon) => ribbon.polityId === 'western_roman_empire'),
+    ).toBe(true);
+    expect(
+      tuned.ribbons.some((ribbon) => ribbon.polityId === 'eastern_roman_empire'),
+    ).toBe(true);
+    expect(
+      tuned.connectors.some(
+        (connector) => connector.relationId === 'merge_aragon_castile_spain_union',
+      ),
+    ).toBe(true);
+    const west = tuned.ribbons.find(
+      (ribbon) => ribbon.polityId === 'western_roman_empire',
+    );
+    const east = tuned.ribbons.find(
+      (ribbon) => ribbon.polityId === 'eastern_roman_empire',
+    );
+    const westX = west?.keyframes[0]?.x ?? 0;
+    const eastX = east?.keyframes[0]?.x ?? 0;
+    expect(westX).toBeLessThan(eastX);
     const importance = new Map(
       dataset.polities.map((polity) => [polity.id, polity.importance]),
     );
@@ -71,6 +102,11 @@ describe('roster label overrides', () => {
       expect(after?.text.endsWith('…') && !before?.text.endsWith('…')).toBe(false);
     }
     const byId = new Map(dataset.polities.map((polity) => [polity.id, polity]));
+    for (const id of ['india', 'pakistan', 'north_korea', 'south_korea']) {
+      const label = tuned.labels.find((row) => row.polityId === id);
+      expect(label?.fitted).toBe(true);
+      expect(label?.text).toBe(byId.get(id)?.name);
+    }
     const covers = (start: number, end: number) =>
       tunedFile.ribbons.some((row) => {
         const polity = byId.get(row.polityId);

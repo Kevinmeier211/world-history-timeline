@@ -501,3 +501,303 @@ Alternatives: Hold the merge until Appendix D reaches 70%. Open P4 on the pictog
 Why: The phase gate is shots, the layout report, and the frame budget. M1 is a separate bar, and it blocks P4 only. P5 does not require P4.
 
 Reversible? y
+
+## 2026-10-26 — The hash stores the lens; the chart does not fly yet
+
+Decision: `#y=-221&z=1.4&sel=han&lens=trade&fold=chinese` round-trips. The lens control writes that hash and keeps `y`, `z`, `sel`, and `fold`. Back and forward restore the lens. Those four fields do not move the camera, select a ribbon, or fold a family yet. Theme stays in `chronos-theme`, not the hash. Scrolling does not push a history entry.
+
+Alternatives: Fly the camera from `y` and `z` in this same commit. Push a history entry on every scroll.
+
+Why: T5.01 is the serializer and back/forward. A scroll entry would flood the session history. Camera, selection, and fold belong to the tasks that use them.
+
+Reversible? y
+
+## 2026-10-26 — Search is an in-memory index, and only a choice moves the chart
+
+Decision: Search is a small scorer over polity names, alternate names, rulers, callout titles, and band titles. It does not add MiniSearch. A year such as `44 BCE` returns what is active then and scrolls to that year. A name scrolls to the polity's start and selects it. `/` and Ctrl/Cmd-K open the dialog. The choice pushes `y` and `sel`. Recents stay in component state, not localStorage. A ribbon click replaces `sel` and does not scroll. Scrolling never pushes history. `z` still does not zoom.
+
+Alternatives: Add MiniSearch. Store recents in localStorage. Push a history entry on every scroll.
+
+Why: The task allows a custom index. The plan stores only the theme and custom milestones in localStorage. A scroll entry would flood the session history.
+
+Reversible? y
+
+## 2026-10-26 — The dossier opens from a ribbon and shows no invented image
+
+Decision: The dossier stays closed until a ribbon click. It shows the summary, dates, confidence, key facts, rulers, typed lineage, related notes, sources, and a verification chip. The figure says "No image is attached." No media row is on a polity, and downloads stay off. Escape closes the panel and leaves the selection. A click on empty paper clears the selection and closes the panel. Search does not open it. On a phone the panel is still a side sheet; the bottom sheet is T5.14.
+
+Alternatives: Open the dossier from search. Draw a placeholder picture. Fetch a thumbnail.
+
+Why: T5.03 asks for the panel and for it to be closed by default. An invented image would break the media rule.
+
+Reversible? y
+
+## 2026-10-26 — The Wikipedia extract is optional and labeled
+
+Decision: A polity with `wikipediaTitle` shows a button labeled "From Wikipedia". The extract loads only after that click, from the English Wikipedia summary endpoint. A successful extract is cached. A failed or empty response is not cached, and the panel says "Wikipedia did not respond." Closing the dossier aborts the request. The loaded text sits under the heading "From Wikipedia". No image is fetched.
+
+Alternatives: Fetch the extract as soon as the dossier opens. Cache failures. Download a thumbnail.
+
+Why: T5.04 asks for an optional, abortable extract with a failure state and that label. Media downloads stay off.
+
+Reversible? y
+
+## 2026-10-26 — The year snapshot opens only when the crosshair is locked
+
+Decision: A horizontal line follows the pointer and names the year under it. The snapshot stays closed until Lock year. It lists every macro-region and, in each, the importance ≥ 3 polities active that year: the family's region, plus any span that covers the year. Importance below 3 is omitted. Choosing a name selects that ribbon and opens the dossier. Unlock closes the snapshot and leaves the line. There is no permanent bottom strip. The line is not a dialog, so search still opens with `/`.
+
+Alternatives: Keep an 11-card strip on screen. Open the snapshot on hover. Include every polity, including importance 2.
+
+Why: T5.05 replaces the permanent strip with a locked popover of the states that matter in each region. Chrome at rest stays the top bar.
+
+Reversible? y
+
+## 2026-10-26 — Time-lapse steps the locked year, and reduced motion disables it
+
+Decision: Play sits on the crosshair. It locks the year, then advances 25 years at a time, skipping year 0, and stops at 2000. The chart scrolls to keep that year in view, and the snapshot follows. Pause and Unlock stop the run. When `prefers-reduced-motion` matches, or when `matchMedia` is missing, Play is disabled and no timer starts.
+
+Alternatives: Animate every year. Leave Play enabled and jump instantly under reduced motion. Run the lapse without locking the snapshot.
+
+Why: T5.06 asks for an optional time-lapse that reduced motion disables. A 25-year step is readable. The missing-`matchMedia` case matches the fly, so tests do not animate.
+
+Reversible? y
+
+## 2026-10-26 — A lens re-weights the chart and reveals its arcs
+
+Decision: All leaves every layer at full opacity and draws no arcs. Trade emphasizes trade and migration routes and reveals those arcs. Climate emphasizes climate, pandemic, and collapse bands. Ideas emphasizes golden-age bands and cultural routes. Everything else, including the ribbons, stays at least at 0.4 opacity, and ribbons stay at 0.55, so the chart is never hidden. Arc waypoints are ordered by year. Hover emphasis is still T5.08.
+
+Alternatives: Filter the roster down to the lens. Re-run the lane solver with new importance. Draw every route on the default view.
+
+Why: T5.07 asks for re-weighting and an arcs layer. The plan says a lens never hides the chart. Layout stays on the full roster so the lanes do not jump.
+
+Reversible? y
+
+## 2026-10-26 — Route arcs are static hairlines and thicken on hover
+
+Decision: A trade arc is a 1.5px dash of 6 4. A migration arc is a finer 1.25px dash of 2 3. Hover removes the dash, sets the stroke to the focus color, and thickens it to 2.5px. There is no transition. A wider transparent stroke is the hit target along the whole route, including the gaps of the dash. Ribbons beside that stroke still receive the pointer.
+
+Alternatives: Animate the dash. Use the same stroke for trade and migration. Make the whole bounding box capture the pointer.
+
+Why: T5.08 asks for static hairlines, a hover highlight, and emphasis for the active kind. Motion stays off unless the user points at a route.
+
+Reversible? y
+
+## 2026-10-26 — Fold hides a column and pin isolates the rest
+
+Decision: Fold on a family or macro-region removes its ribbons and the layout solves again. Pin shows only the pinned families and regions. A pinned family stays even when its region is folded. Fold wins when the same id is in both lists. The hash keeps `fold` and adds `pin`, both sorted, with commas left readable. Ribbons move by interpolating centerline keyframes over 300 ms. Ribbons that leave fade out and ribbons that arrive fade in. Labels and connectors wait until the tween ends. Reduced motion, or a missing `matchMedia`, jumps to the solved layout. The columns panel is a region, so `/` still opens search, and the search sits above the panel.
+
+Alternatives: Collapse a family into one summary ribbon. Morph the path with CSS. Make the panel a dialog.
+
+Why: T5.09 asks for fold and pin, a re-solved layout, and a keyframe tween no longer than 300 ms.
+
+Reversible? y
+
+## 2026-10-26 — Five migrated presets, and compares the reader names
+
+Decision: The columns panel lists the five presets in `presets.json` and no others. Applying one clears fold. Pin becomes the preset's regions and families, or is cleared when those regions already cover every macro-region. A non-zero integer year moves the chart; year 0 is dropped, and a preset with no year leaves the current year. A reader can save the current fold and pin under a name. Those compares live in localStorage key `chronos-compares`, at most eight, and a failed write is ignored. Applying a compare sets fold and pin and leaves the year alone.
+
+Alternatives: Invent the eleven presets named in the plan but missing from the tag. Store compares in the hash.
+
+Why: T5.10 asks for the migrated presets and user-defined compare sets. Q-03 keeps the count at five. The year stays out of a compare so a saved column filter can be reused at another date.
+
+Reversible? y
+
+## 2026-10-26 — A story stop moves the camera and names its sources
+
+Decision: The title band opens the three migrated tours and no others. Each stop sets the year, writes `z` as the camera scale, selects the polity, and shows the narrative with the catalog source titles. A callout stop highlights the polity that callout is attached to. Trade and climate use those chart lenses. Art uses the ideas lens. Politics and technology leave the lens on All, because the chart has no lens by those names. The card is a region, so search still opens. The dossier stays closed. Fit width and Overview clear `z` and return to the local scale. Narratives stay at or under 70 words.
+
+Alternatives: Invent the seven tours named in the plan but missing from the tag. Add a politics lens. Open the dossier on every stop.
+
+Why: T5.11 asks for a waypoint that sets the camera, the lens, the highlight, and a sourced narrative. Q-03 keeps the tour count at three.
+
+Reversible? y
+
+## 2026-10-26 — The table lists the same rows the chart is showing
+
+Decision: Table view is a grid with row, columnheader, and cell roles. It lists every polity the current fold and pin still show, plus callouts attached to those polities. A callout with no polity stays only when every family is visible. Columns sort by name, start, end, family, and importance. Years use the same continuous index as the chart, so there is no year 0. A search box filters the name, the family, and the kind. Only the rows inside the scrollport are painted, with a short fallback when the port has not been measured. Choosing a polity sets the year and opens the dossier. Choosing a callout sets the year and selects the polity it is attached to.
+
+Alternatives: Render all 400 rows at once. Give the table its own family list apart from fold and pin. Leave the placeholder sentence and ship no rows.
+
+Why: T5.12 asks for a virtualized, sortable, filtered table with ARIA table semantics, using the same roster as the chart.
+
+Reversible? y
+
+## 2026-10-26 — Tab order follows the poster, and panels return focus
+
+Decision: Ribbons are focused from top to bottom, and left to right when they start on the same line. Two skip controls sit first: one focuses the chart, the other focuses search. They do not write the address hash. Opening search, the dossier, the reading key, the columns panel, or a story moves focus to the first control inside it. Closing returns focus to whatever had it. A focus ring uses the focus token, 2px with a 2px offset. Under reduced motion, transitions and animations on the poster drop to zero duration. The ribbon fade already did this; the rule now covers the rest of the shell.
+
+Alternatives: Give every ribbon a positive tabindex. Leave focus on the control that opened a panel. Keep the 200ms fade when reduced motion is requested.
+
+Why: T5.13 asks for tab order by time then x, focus management, skip links, and reduced motion everywhere.
+
+Reversible? y
+
+## 2026-10-26 — A phone uses a bottom sheet and a two-finger pinch
+
+Decision: At 480px and below, the dossier and the era list sit on the bottom of the screen, at most 70vh and 560px. Lens and View keep their controls and hide the words. Era reading lists every polity whose span meets the poster era that contains the current year, earliest first. Choosing one sets the year, selects the ribbon, and opens the dossier. A two-finger pinch changes the camera scale by the change in distance between the pointers. A mouse pointer does not. The scale stays inside the existing 0.2–6 clamp.
+
+Alternatives: Keep the side dossier on a phone. Add a separate mobile route. Treat a mouse drag as a pinch.
+
+Why: T5.14 asks for a bottom-sheet dossier, a collapsed toolbar, pinch zoom, and era reading mode.
+
+Reversible? y
+
+## 2026-10-26 — Custom milestones stay out of the catalog
+
+Decision: A mark is a year plus a short label, at most 12, stored in localStorage under `chronos-milestones`. Reading and writing are wrapped in try/catch. Bad JSON, year 0, a year outside 3300 BCE–2000 CE, and a blocked store do not throw. A blocked store keeps the list in memory for the session. The same label at the same year replaces itself. Marks draw as dashed outlines on the chart and can be added or removed from the locked year card. They are not catalog callouts, they have no source, and they do not appear in the table.
+
+Alternatives: Write marks into the polity JSON. Style them as solid catalog callouts. Drop the list when storage throws.
+
+Why: T5.15 asks for the custom-milestone store, dashed-outline styling, and try/catch around storage. The catalog stays sourced.
+
+Reversible? y
+
+## 2026-10-26 — Axe scenes report no serious or critical issues
+
+Decision: `npm run axe` runs `@axe-core/playwright` on the chart, an open dossier, the dark theme, table view, search, the reading key, stories, columns, and era reading. It runs at 1440×900, 1920×1080, and 390×844. The run fails if any violation is serious or critical. The Overview control’s visible word is Overview, matching its accessible name. Dossier buttons paint paper behind ink, so the dark theme stays above 4.5:1. Moderate landmark notes remain: the top bar and the title band are both banners, and the page has no main landmark.
+
+Alternatives: Hide the Overview mismatch with an aria-label that drops the visible word. Exclude the chart from the panel scenes. Treat moderate landmarks as failures in this pass.
+
+Why: T5.16 asks for scripted axe checks across scenes and zero serious or critical violations.
+
+Reversible? y
+
+## 2026-10-26 — M2 is 5 of 11
+
+Decision: `docs/reviews/M2.md` scores Appendix D again on `v2/p5-interactions`. Five items pass, three are partial, three fail. That is 45%. M1 stays 5/11. Interactions did not change the resting layout score. P6 stays closed until a later honest score is at least 8/11. The next work is layout tuning and overrides on the rows that already exist. Images and painted callouts stay P4. No band or country is invented to raise the score.
+
+Alternatives: Count a partial as a pass. Open P6 at 45%. Treat the phone sheet as a layout improvement.
+
+Why: T5.17 is the M2 checkpoint. The plan says not to open content depth while the poster is still under 70%.
+
+Reversible? y
+
+## 2026-10-26 — A forced label orientation does not clear the fitted pairs
+
+Decision: For each polity in the 15 fitted label pairs, forcing `outside`, `horizontal`, or `along` was measured with `layout()`. Every force that removed a pair either ellipsized the name or left the label hover-only. Those results are not kept. The full name stays on the ribbon. The next layout lever is a lane pin or a fitter change that keeps the full string.
+
+Alternatives: Ship the ellipsis. Drop the label to hover-only and call the pair fixed.
+
+Why: Item 8 asks for labels that are not clipped. Shortening a name to delete an overlap does not pass it.
+
+Reversible? y
+
+## 2026-10-26 — The poster JavaScript stays under 400 KB gzipped
+
+Decision: `lucide-react` is not imported, so it is removed. `npm run bundle:check` builds the poster and fails when the gzipped JavaScript in `dist/assets` is missing or over 400 KB. This build is 233.77 KB gzipped. The check is not part of `npm run check`.
+
+Alternatives: Leave the unused dependency. Split the bundle in this pass.
+
+Why: T5.20 asks to remove `lucide-react` when nothing uses it, and to check the gzipped JavaScript against 400 KB.
+
+Reversible? y
+
+## 2026-10-26 — Rotated names stay one straight column
+
+Decision: A fitted rotated name is pinned to the ribbon centerline at the middle of the name and drawn as one string. A fitted horizontal name is pinned the same way and may slide along its ribbon. If the box still crosses another fitted label, the name slides to the nearest clear span on its own ribbon. Text, size, and fit stay put. Per-letter seating that followed each bend was drawn and then dropped: the classical and medieval shots pulled the letters off the column. `labelHitPairs` on the full roster is 0. Nine hover-only names and 21 already-shortened fitted names remain. M3 in `docs/reviews/M3.md` is 5/11.
+
+Alternatives: Draw one glyph per letter along the bend. Force `outside` or an ellipsis on the remaining names.
+
+Why: Item 8 needs the full name readable. Following the bend removed the 15 overlaps and made the names unreadable. A straight column on the river removes the overlaps and leaves the string intact.
+
+Reversible? y
+
+## 2026-10-26 — Fork endpoints can take a peer's slot
+
+Decision: `cullToFit` keeps its importance order. A split or merge endpoint that did not fit then replaces the lowest unprotected ribbon of no higher importance, when the widths allow it. East Francia and West Francia are drawn under their full names, and the Carolingian split routes. Sparta, Thebes, Maya postclassic, the Thirteen Colonies, the United States, Yuan, and Ming are drawn as well. Ribbon overlaps stay 0 and fitted label hits stay 0. `maxRibbonDrift` rises from 154.839 to 296.774 because packing still jumps when the slice membership changes. A clamp of those packed steps to `MAX_DRIFT` left 246 overlaps on a forward pass and 257 on a backward pass, so it was not kept. M4 in `docs/reviews/M4.md` is 5/11.
+
+Alternatives: Protect every endpoint with no swap, and let the slice overflow. Hard-code only the two Francia ids. Ship the slope clamp and accept the overlaps.
+
+Why: Item 2 asks for the Frankish fork. The children already exist and were culled. A higher-importance ribbon is not dropped to make room.
+
+Reversible? y
+
+## 2026-10-26 — A membership change does not rebuild the row from the gutter
+
+Decision: `easeCenterlines` carries each ribbon's center and width down the chart. A continuing ribbon may follow its sample by at most `MAX_DRIFT` per px of y. A new ribbon is seated in a gap. When the tight chain can hold a 10px name, width stays at least `10 / 0.62` instead of falling to the 12px minimum. The old gutter reset is what moved `egypt_late_to_ptolemaic` 184px across 0.62px of y. That step is now 0.22px (slope 0.35). A clamp of every packed step to `MAX_DRIFT` is still not shipped: it left 246 overlaps forward and 257 backward. Rows that cannot separate inside the drift window still use the rightward overlap push, so `japan_timeline` still moves 6.6px across 0.62px (slope 10.66). Fixture C's fan-out keeps a fitted label on every drawn ribbon. The roster report is overlaps 0, label hits 0, importance 3 fit 69/69, importance 2 fit 120/125, warm 129ms.
+
+Alternatives: Clamp centerlines after packing. Delete the 0.62px sample so the metric ignores the kink. Shorten the fan-out names.
+
+Why: Item 2 needs a river that does not kink when neighbors appear or leave, and the sixty-state fixture still has to draw its names. Spending width, not a global slope cap, is what keeps the gaps.
+
+Reversible? y
+
+## 2026-10-26 — Rome splits, and Castile joins Aragon, in the data
+
+Decision: `roman_empire` now ends at the conventional year 395. `western_roman_empire` (395–476, western Europe) and `eastern_roman_empire` (395–476, eastern Mediterranean) are checklist ribbons. The eastern ribbon stops at 476 so it does not lie on the Byzantine ribbon through 1453. `aragon` (1137–1469) and `castile` (1230–1469) meet `spain_union`, whose importance is 3 so the child stays in a full slice. `buildLineage` emits the split and the merge from `EXPLICIT_FORKS`. Abutment stays inside one family, and two predecessors would otherwise become `disputed`, so those edges are named rather than inferred. The cited pages were not opened. The lane solver places the ribbons: west at x 418, east at x 757, and the merge connector is routed. A same-family handoff still runs from the western ribbon to Italy in 476. The v1 cultural-continuity edge from Rome to the Franks drops, because 481 is outside the new end, and that pair is a skipped parent. The roster report is overlaps 0, label hits 0, importance 3 fit 74/74, warm 136ms. `maxRibbonDrift` is 4.193 on `umayyad_abbasid` (13px across 3.1px of y). The Egypt step stays 0.22px across 0.62px.
+
+Alternatives: Draw the fork as a hand-built path. Keep one Roman ribbon. Invent a merge that has no polities behind it.
+
+Why: Item 2 asks for the Rome east/west split and a merge the relation data already supports. The geometry has to come from the solver.
+
+Reversible? y
+
+## 2026-10-26 — Modern slices spend spare width in place
+
+Decision: After the native lane solve, a slice that reaches 1900 may shrink only the spare width of an importance-2 lane and seat culled states into the gaps that open. Centers do not move. Importance 3 keeps its solved width, so `modern_india` and `modern_africa` stay fitted. Each slice picks its own shrink: a keep copied from the busiest year left Pakistan and South Korea unseated. A ribbon under 40px may take an outside name, and a name that still hits slides to another row. The string is not shortened to clear a hit. `easeCenterlines` adopts a narrower sample without leaving its center. India, Pakistan, North Korea, and South Korea draw their full names. Fitted labels on polities that meet 1900–2000 rise from 31 to 53 of 119. The roster report is overlaps 0, label hits 0, importance 3 fit 74/74, warm 149ms. `maxRibbonDrift` stays 4.193 on `umayyad_abbasid` (13px across 3.1px of y). The Egypt step stays 0.22px. West stays left of east, and `merge_aragon_castile_spain_union` still routes. 53 is not 60.
+
+Alternatives: Solve the modern slices with compressed weights. That seated more names and moved `british_empire` 115px across 2.48px, dropped two importance-3 labels to hover, and warmed at about 240ms. Share one shrink across every modern slice. Shorten the four names.
+
+Why: Item 3 asks for about 60 readable states on the modern edge, including India, Pakistan, and both Koreas. The names have to stay full, and the rivers have to stay where the solver put them.
+
+Reversible? y
+
+## 2026-10-26 — The layout pass is 5 of 10
+
+Decision: `docs/reviews/layout-pass.md` scores Appendix D on `fd85844`. Shipped images are deferred to P4 and leave the denominator. Painted callout plates are deferred to P4 and do not fail the label row by themselves. Ten items remain. Five pass, three are partial, two fail. The bar is 8. `v2/p5-interactions` is not merged into `v2/main`. The interaction gate still runs: `npm run check`, `npm run shots` (3 passed), `npm run perf` (p95 16.80 ms), and `npm run axe` (24 passed, no serious or critical violation). Tag `v2-p5-done` records that gate on this branch. P4 and P6 stay closed.
+
+Alternatives: Count the Roman split as a pass while its west ribbon has no painted name. Count 53 modern fits as the required 60. Open P6 at 5/10.
+
+Why: The three layout commits changed the chart, and the rescore has to say what the shots show. The phase gate can be tagged when its commands are green. The poster merge waits for 8 of the 10 scored items.
+
+Reversible? y
+
+## 2026-10-26 — The west Rome name is painted, and the Umayyad step is eased
+
+Decision: A ribbon whose inside box cannot hold its own name takes that full name beside the ribbon, sized to the measurer. A short ribbon under 40px still uses the 72px outside box, so fixture H stays ellipsized. "Western Roman Empire" and "Eastern Roman Empire" both paint in full. A later run moves only when its drift window is parked on a neighbor and that neighbor cannot open the gap. The move is at most one minimum ribbon plus the minimum gap, and only when the overflow is at least that gap. Al-Andalus returns into the open space instead of shoving `umayyad_abbasid`. That step was 13px across 3.1px of y (slope 4.193). The steepest Umayyad step is now 0.22px across 0.62px (slope 0.35). The Mongol override sits outside so the full name is not rotated into an ellipsis. The roster report is overlaps 0, label hits 0, importance 3 fit 74/74, warm 140ms. `maxRibbonDrift` is 3.211 on `japan_timeline` (1.99px across 0.62px), which was already that step before this change. West stays left of east. `merge_aragon_castile_spain_union` still routes. The Egypt step stays 0.22px across 0.62px.
+
+Alternatives: Cap every centerline at `MAX_DRIFT`. That left 246 overlaps forward and 257 backward. Open every returning run. That moved Safavid onto the Mughal label. Leave the west ribbon with no painted name.
+
+Why: The Roman split needs the west name on the sheet, and the Umayyad river should not step 13px in 3px of y. The overlap push stays for rows the window cannot separate, so the overlap count stays 0.
+
+Reversible? y
+
+## 2026-10-26 — Modern slices seat six more states, and a broken ribbon labels its longer piece
+
+Decision: An importance-3 lane may give up half its solved width, and no more, so a modern slice can open a gap. Each slice seats at most six extras, and it stops at the smallest shrink that reaches that count. India, Pakistan, North Korea, and South Korea are seated ahead of other importance-2 extras. A ribbon that is missing from a middle slice keeps its name on the longer drawn piece, not in the gap. Ghana was sitting between Costa Rica and El Salvador; the name now sits on the lower piece and the hit is gone. Polities that meet 1900–2000 have 63 fitted labels, 48 of them the full name. India, Pakistan, North Korea, and South Korea are still the full names. The roster report is overlaps 0, label hits 0, importance 3 fit 74/74, warm 142ms. `maxRibbonDrift` stays 3.211 on `japan_timeline`.
+
+Alternatives: Shrink importance 3 all the way to the label floor. That seated more names and raised `peru_republic` to slope 6.82. Skip `ghana_republic` by id. Add eight pixels of clearance around every extra. That dropped the fitted count to 43.
+
+Why: The modern edge needs 60 painted states, and the four named states have to stay complete. Half a wide lane is enough spare width. A name in a gap is not a painted name.
+
+Reversible? y
+
+## 2026-10-26 — A drawn ribbon paints its full name
+
+Decision: An unforced label is the polity's own name, or it is not drawn. A short ribbon uses the same measurer-sized box as a name that spills out of a tall ribbon. The 72px box no longer ellipsizes fixture H: "Nāṣer the Great" paints in full. Forced `along` and `horizontal` are unchanged. On the roster, 231 of 231 drawn ribbons carry that full name, including the 65 modern states that are drawn. Label hits stay 0. One more callout is crowded out (dropped 9, markers 12) because the wider names are larger obstacles. The report is overlaps 0, importance 3 fit 74/74, warm 144ms. `maxRibbonDrift` stays 3.211 on `japan_timeline`.
+
+Alternatives: Keep the word-boundary ellipsis on short ribbons. Drop every ribbon whose name is longer than 72px. Leave hover-only ribbons on the sheet.
+
+Why: A painted ellipsis, or a ribbon with no name, does not pass the label rule. The full string fits beside the ribbon, so nothing had to be removed.
+
+Reversible? y
+
+## 2026-10-26 — Overview type stays at its design size, and the Mongol span is a band
+
+Decision: When the sheet is below one screen pixel per design pixel, era names, year labels, band titles, and ribbon labels grow by `1 / scale`, so a 10px label is still 10px on screen. A ribbon name that would then cover a more important name is left off until the reader zooms in. The six era gutters are unchanged. A twelfth cross-cutting band, `band_mongol_conquests`, uses the years and regions already on `mongol_empire` (1206–1368, Europe and East Asia) and cites `cambridge_histories`. Verification is unverified. The page was not opened. The migrated file stays the original 11 rows. The roster report is overlaps 0, label hits 0, importance 3 fit 74/74, warm 143ms. `maxRibbonDrift` stays 3.211 on `japan_timeline`.
+
+Alternatives: Leave overview type at about 2px. Invent a twelfth era gutter. Cite a source id that is not in the dataset.
+
+Why: Overview has to stay readable, and the band count has to reach 12 from a span the dataset already dates.
+
+Reversible? y
+
+## 2026-10-26 — Fit width keeps every full name
+
+Decision: The overview cull starts only once the type has doubled (`scale` at or below 0.5). Fit width still grows the type so a 10px name is at least 10px on screen, and it does not drop a ribbon name. Overview still drops a name that would cover a more important one.
+
+Alternatives: Cull at every scale below 1. That removed 26 names from the 1440px fit-width sheet, including nine modern states.
+
+Why: The readable floor applies at the default zoom. The default zoom is fit width, and those names have to stay on the sheet.
+
+Reversible? y

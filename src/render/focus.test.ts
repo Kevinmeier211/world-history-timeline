@@ -23,6 +23,7 @@ function ribbon(id: string, familyId: string): RibbonPaint {
     ariaLabel: id,
     y0: 10,
     y1: 80,
+    x: 0,
     fadePx: 0,
     dashPath: '',
     dashArray: '',

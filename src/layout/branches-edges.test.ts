@@ -208,8 +208,9 @@ describe('layout branch edges', () => {
       },
       measure,
     );
-    expect(wide.fitted).toBe(false);
-    expect(wide.orientation).toBe('horizontal');
+    expect(wide.fitted).toBe(true);
+    expect(wide.text).toBe('Antidisestablishmentarianism');
+    expect(wide.orientation).toBe('outside');
     const gap = wideRibbon([
       { id: 'east', start: 1, end: 10, x: 100, weight: 0.3 },
       { id: 'west', start: 20, end: 30, x: 40, weight: 0.3 },

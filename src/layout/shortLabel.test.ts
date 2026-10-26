@@ -4,7 +4,7 @@ import { describe, expect, it } from 'vitest';
 
 import { LEFT_GUTTER, MIN_GAP, PLOT_WIDTH } from './constants.ts';
 import { type TextMeasurer } from './labelFit.ts';
-import { placeRibbonLabel, type ShortRibbon } from './shortLabel.ts';
+import { placeRibbonLabel, placeRibbonLabels, type ShortRibbon } from './shortLabel.ts';
 
 function fakeMeasure(): TextMeasurer {
   return {
@@ -23,7 +23,7 @@ function load(): { name: string; ribbons: ShortRibbon[] } {
 describe('short ribbon labels', () => {
   const measure = fakeMeasure();
 
-  it('fixture H puts an ellipsized diacritic label outside a short ribbon', () => {
+  it('fixture H paints the full diacritic name outside a short ribbon', () => {
     const fixture = load();
     const ribbon = fixture.ribbons[0];
     expect(fixture.name).toBe('H');
@@ -32,7 +32,7 @@ describe('short ribbon labels', () => {
     const placed = placeRibbonLabel(ribbon, measure);
     expect(placed.orientation).toBe('outside');
     expect(placed.fitted).toBe(true);
-    expect(placed.text).toBe('Nāṣer the…');
+    expect(placed.text).toBe('Nāṣer the Great');
     expect(placed.text).toContain('ā');
     expect(placed.fontSize).toBe(10);
     expect(placed.leader).toBeDefined();
@@ -75,7 +75,7 @@ describe('short ribbon labels', () => {
     expect(placed.leader?.x2).toBeCloseTo(placed.x + placed.width);
   });
 
-  it('keeps a name that cannot be drawn as a hover-only label', () => {
+  it('paints a long single-word name in full beside a short ribbon', () => {
     const placed = placeRibbonLabel(
       {
         id: 'long',
@@ -87,10 +87,70 @@ describe('short ribbon labels', () => {
       },
       measure,
     );
-    expect(placed.fitted).toBe(false);
+    expect(placed.fitted).toBe(true);
     expect(placed.orientation).toBe('outside');
     expect(placed.text).toBe('Antidisestablishmentarianism');
-    expect(placed.leader).toBeUndefined();
+    expect(placed.leader).toBeDefined();
+  });
+
+  it('paints the full western name when the ribbon is too narrow to hold it', () => {
+    const placed = placeRibbonLabel(
+      {
+        id: 'western_roman_empire',
+        name: 'Western Roman Empire',
+        x: 418,
+        y: 2410,
+        width: 56,
+        height: 50,
+      },
+      measure,
+    );
+    expect(placed.fitted).toBe(true);
+    expect(placed.text).toBe('Western Roman Empire');
+    expect(placed.orientation).toBe('outside');
+    expect(placed.leader).toBeDefined();
+  });
+
+  it('anchors a broken ribbon on the longer piece', () => {
+    const placed = placeRibbonLabels(
+      [{ id: 'ghana_republic', name: 'Ghana' }],
+      new Map([
+        [
+          'ghana_republic',
+          [
+            { x: 131, y: 3374, width: 12 },
+            { x: 131, y: 3376, width: 12 },
+            { x: 129, y: 3399, width: 12, breakBefore: true },
+            { x: 130, y: 3405, width: 12 },
+          ],
+        ],
+      ]),
+      measure,
+    );
+    const label = placed[0];
+    expect(label?.text).toBe('Ghana');
+    expect(label?.fitted).toBe(true);
+    expect(label?.orientation).toBe('outside');
+    expect(label && label.y + label.height / 2).toBeCloseTo(3402);
+  });
+
+  it('keeps one run centered on the whole ribbon', () => {
+    const placed = placeRibbonLabels(
+      [{ id: 'western_roman_empire', name: 'Western Roman Empire' }],
+      new Map([
+        [
+          'western_roman_empire',
+          [
+            { x: 418, y: 2410, width: 56 },
+            { x: 418, y: 2460, width: 56 },
+          ],
+        ],
+      ]),
+      measure,
+    );
+    const label = placed[0];
+    expect(label?.text).toBe('Western Roman Empire');
+    expect(label && label.y + label.height / 2).toBeCloseTo(2435);
   });
 
   it('forces a tall ribbon outside or along when an override says so', () => {

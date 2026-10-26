@@ -1,21 +1,28 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 
 import { posterWorld, SCALE_MAX, SCALE_MIN } from '../camera/camera.ts';
+import { useView } from '../state/view.ts';
 import { benchRibbonCount, padRibbons } from './bench.ts';
 import { Minimap } from './Minimap.tsx';
-import { posterModel } from './posterModel.ts';
+import { useFoldedPaint } from './useFoldedPaint.ts';
+import { Scrubber } from './Scrubber.tsx';
+import { bindPinch } from './pinch.ts';
 import { Stage } from './Stage.tsx';
+import { useMilestones } from './useMilestones.ts';
 import { Tooltip } from './Tooltip.tsx';
 import { ZoomBar } from './ZoomBar.tsx';
 import { cameraFromScroll, stageScale } from './visible.ts';
 import {
   anchoredScroll,
+  approachScroll,
+  cameraScale,
   chartCommand,
   clampScroll,
   isTypingTarget,
   overlayOffsets,
   panScroll,
   scrollFromMinimap,
+  scrollTopForYear,
   sheetMinWidth,
   steppedScale,
   type OverlayOffsets,
@@ -38,13 +45,26 @@ function scrollerOf(host: HTMLElement | null): HTMLElement | null {
   return port instanceof HTMLElement ? port : null;
 }
 
-export function ChartViewport({ onSheet }: { onSheet: (sheet: SheetSize) => void }) {
+export function ChartViewport({
+  onSheet,
+  onOpen,
+}: {
+  onSheet: (sheet: SheetSize) => void;
+  onOpen?: (id: string | null) => void;
+}) {
   const host = useRef<HTMLDivElement>(null);
+  const milestones = useMilestones();
   const [metrics, setMetrics] = useState<Metrics | null>(null);
   const [overlay, setOverlay] = useState<OverlayOffsets | null>(null);
   const [zoom, setZoom] = useState(1);
+  const selectedId = useView((state) => state.link.sel);
+  const lens = useView((state) => state.link.lens ?? 'all');
+  const fold = useView((state) => state.link.fold);
+  const pin = useView((state) => state.link.pin);
+  const flyYear = useView((state) => state.link.y);
+  const flown = useRef<string | null>(null);
   const world = posterWorld();
-  const paint = posterModel();
+  const paint = useFoldedPaint(fold, pin);
   const bench = benchRibbonCount(
     typeof window === 'undefined' ? '' : window.location.search,
   );
@@ -108,7 +128,57 @@ export function ChartViewport({ onSheet }: { onSheet: (sheet: SheetSize) => void
   }, []);
 
   const fit = metrics ? stageScale(metrics.width, world.width) : 1;
-  const scale = Math.min(SCALE_MAX, Math.max(SCALE_MIN, fit * zoom));
+  const hashZoom = useView((state) => state.link.z);
+  const scale = cameraScale(fit, zoom, hashZoom);
+  const laidOut = metrics !== null;
+
+  useEffect(() => {
+    if (!laidOut || flyYear === undefined) return;
+    const key = `${flyYear}:${selectedId ?? ''}`;
+    if (flown.current === key) return;
+    const scroller = scrollerOf(host.current);
+    if (!scroller) return;
+    const target = scrollTopForYear(
+      flyYear,
+      scale,
+      scroller.clientHeight,
+      world.height * scale,
+    );
+    let frame = 0;
+    let cancelled = false;
+    const done = () => {
+      if (!cancelled) flown.current = key;
+    };
+    const reduced =
+      typeof window.matchMedia !== 'function' ||
+      window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduced) {
+      scroller.scrollTop = target;
+      done();
+      return () => {
+        cancelled = true;
+      };
+    }
+    const from = scroller.scrollTop;
+    const start = performance.now();
+    const step = (now: number) => {
+      if (cancelled) return;
+      const next = approachScroll(from, target, now - start, false);
+      scroller.scrollTop = next;
+      if (next === target) done();
+      else frame = requestAnimationFrame(step);
+    };
+    frame = requestAnimationFrame(step);
+    const stop = () => {
+      cancelled = true;
+      cancelAnimationFrame(frame);
+    };
+    scroller.addEventListener('wheel', stop, { once: true, passive: true });
+    return () => {
+      stop();
+      scroller.removeEventListener('wheel', stop);
+    };
+  }, [flyYear, laidOut, scale, selectedId, world.height]);
   const camera = cameraFromScroll(
     metrics?.scrollLeft ?? 0,
     metrics?.scrollTop ?? 0,
@@ -125,6 +195,37 @@ export function ChartViewport({ onSheet }: { onSheet: (sheet: SheetSize) => void
       );
     }
     setZoom(fit > 0 ? next / fit : 1);
+    const current = useView.getState().link;
+    if (current.z !== undefined) {
+      useView.getState().setLink({ ...current, z: cameraScale(1, next) }, 'replace');
+    }
+  };
+
+  const scaleNow = useRef(scale);
+  const applyNow = useRef(applyScale);
+  useEffect(() => {
+    scaleNow.current = scale;
+    applyNow.current = applyScale;
+  });
+
+  useEffect(() => {
+    const el = host.current;
+    if (!el) return;
+    return bindPinch(
+      el,
+      () => scaleNow.current,
+      (next) => {
+        applyNow.current(next);
+      },
+    );
+  }, []);
+
+  const clearHashZoom = () => {
+    const current = useView.getState().link;
+    if (current.z === undefined) return;
+    const next = { ...current };
+    delete next.z;
+    useView.getState().setLink(next, 'replace');
   };
 
   useEffect(() => {
@@ -161,7 +262,12 @@ export function ChartViewport({ onSheet }: { onSheet: (sheet: SheetSize) => void
   }, [metrics, onSheet, scale, world.height, world.width]);
 
   return (
-    <div className="stage-host" ref={host} data-ribbon-count={ribbons.length}>
+    <div
+      className="stage-host"
+      ref={host}
+      data-ribbon-count={ribbons.length}
+      data-scale={scale}
+    >
       {metrics ? (
         <Stage
           camera={camera}
@@ -172,9 +278,48 @@ export function ChartViewport({ onSheet }: { onSheet: (sheet: SheetSize) => void
           labels={paint.labels}
           connectors={paint.connectors}
           bands={paint.bands}
+          selectedId={selectedId}
+          milestones={milestones.marks}
+          lens={lens}
+          onSelect={(id) => {
+            const current = useView.getState().link;
+            useView.getState().setLink({ ...current, sel: id }, 'replace');
+            onOpen?.(id);
+          }}
+          onClear={() => {
+            const current = useView.getState().link;
+            if (current.sel !== undefined) {
+              const next = { ...current };
+              delete next.sel;
+              useView.getState().setLink(next, 'replace');
+            }
+            onOpen?.(null);
+          }}
         />
       ) : null}
       <Tooltip />
+      <Scrubber
+        scale={scale}
+        scrollTop={metrics?.scrollTop ?? 0}
+        onPick={(id) => {
+          const current = useView.getState().link;
+          useView.getState().setLink({ ...current, sel: id }, 'replace');
+          onOpen?.(id);
+        }}
+        milestones={milestones.marks}
+        onAddMilestone={milestones.add}
+        onRemoveMilestone={milestones.remove}
+        onYear={(next) => {
+          const scroller = scrollerOf(host.current);
+          if (!scroller) return;
+          scroller.scrollTop = scrollTopForYear(
+            next,
+            scale,
+            scroller.clientHeight,
+            world.height * scale,
+          );
+        }}
+      />
       {metrics && overlay ? (
         <div
           className="chart-chrome"
@@ -199,7 +344,26 @@ export function ChartViewport({ onSheet }: { onSheet: (sheet: SheetSize) => void
           <ZoomBar
             onIn={() => applyScale(steppedScale(scale, 1))}
             onOut={() => applyScale(steppedScale(scale, -1))}
-            onFit={() => setZoom(1)}
+            onFit={() => {
+              const current = useView.getState().link;
+              if (current.z !== undefined) {
+                const scroller = scrollerOf(host.current);
+                if (scroller) {
+                  scroller.scrollTop = clampScroll(
+                    anchoredScroll(
+                      scroller.scrollTop,
+                      scroller.clientHeight,
+                      scale,
+                      fit,
+                    ),
+                    world.height * fit,
+                    scroller.clientHeight,
+                  );
+                }
+                clearHashZoom();
+              }
+              setZoom(1);
+            }}
             onOverview={() => {
               const scroller = scrollerOf(host.current);
               const port =
@@ -209,6 +373,7 @@ export function ChartViewport({ onSheet }: { onSheet: (sheet: SheetSize) => void
                 Math.max(SCALE_MIN, port / world.height),
               );
               setZoom(fit > 0 ? next / fit : 1);
+              clearHashZoom();
               if (scroller) {
                 scroller.scrollTop = 0;
                 scroller.scrollLeft = 0;

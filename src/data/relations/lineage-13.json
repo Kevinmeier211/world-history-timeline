@@ -1,5 +1,29 @@
 [
   {
+    "id": "v1_chimor_kingdom_inca_empire",
+    "from": ["chimor_kingdom"],
+    "to": ["inca_empire"],
+    "year": 1438,
+    "type": "cultural_continuity",
+    "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
+    "sourceIds": ["museo_larco", "field_museum"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."
+  },
+  {
+    "id": "v1_classical_greece_empire_of_alexander",
+    "from": ["classical_greece"],
+    "to": ["empire_of_alexander"],
+    "year": -336,
+    "type": "cultural_continuity",
+    "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
+    "sourceIds": ["louvre", "cambridge_histories"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."
+  },
+  {
     "id": "v1_egypt_new_kingdom_phoenicia_israel",
     "from": ["egypt_new_kingdom"],
     "to": ["phoenicia_israel"],
@@ -115,30 +139,6 @@
     "type": "cultural_continuity",
     "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
     "sourceIds": ["unesco_gha", "british_library"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."
-  },
-  {
-    "id": "v1_maurya_empire_gupta_chola",
-    "from": ["maurya_empire"],
-    "to": ["gupta_chola"],
-    "year": 319,
-    "type": "cultural_continuity",
-    "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
-    "sourceIds": ["british_library", "cambridge_histories"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."
-  },
-  {
-    "id": "v1_maya_civilization_new_spain_mexico",
-    "from": ["maya_civilization"],
-    "to": ["new_spain_mexico"],
-    "year": 1521,
-    "type": "cultural_continuity",
-    "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
-    "sourceIds": ["inah", "field_museum"],
     "confidence": "debated",
     "verification": "unverified",
     "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."

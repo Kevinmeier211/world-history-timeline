@@ -55,6 +55,19 @@ export function layoutDebug(input: {
     if (bounds) boxes.push(bounds);
   }
   for (const label of input.labels) {
+    if (label.glyphs && label.glyphs.length > 0) {
+      for (const [index, glyph] of label.glyphs.entries()) {
+        const bounds = box(
+          `label:${label.polityId}:${index}`,
+          glyph.x - label.fontSize / 2,
+          glyph.y - glyph.advance / 2,
+          label.fontSize,
+          glyph.advance,
+        );
+        if (bounds) boxes.push(bounds);
+      }
+      continue;
+    }
     const bounds = box(
       `label:${label.polityId}`,
       label.x,

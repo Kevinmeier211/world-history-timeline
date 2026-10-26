@@ -17,6 +17,7 @@ function ribbon(id: string): RibbonPaint {
     ariaLabel: id,
     y0: 10,
     y1: 40,
+    x: 0,
     fadePx: 0,
     dashPath: '',
     dashArray: '',

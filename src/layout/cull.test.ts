@@ -30,4 +30,27 @@ describe('cull to fit', () => {
     expect(tight.length).toBeLessThan(20);
     expect(tight[0]?.id).toBe('n00');
   });
+
+  it('swaps a fork endpoint in for an equal-importance ribbon', () => {
+    const ribbons = Array.from({ length: 30 }, (_, index) =>
+      ribbon(`n${String(index).padStart(2, '0')}`, 2, 0.35),
+    );
+    const bare = cullToFit(ribbons);
+    expect(bare.some((item) => item.id === 'n29')).toBe(false);
+    const kept = cullToFit(ribbons, new Set(['n29']));
+    expect(kept.some((item) => item.id === 'n29')).toBe(true);
+    expect(kept).toHaveLength(bare.length);
+    expect(kept.some((item) => item.id === 'n28')).toBe(false);
+    expect(kept[0]?.id).toBe('n00');
+  });
+
+  it('does not drop a higher-importance ribbon to save an endpoint', () => {
+    const ribbons = [
+      ...Array.from({ length: 16 }, (_, index) => ribbon(`h${index}`, 3)),
+      ribbon('child', 2),
+    ];
+    const kept = cullToFit(ribbons, new Set(['child']));
+    expect(kept.some((item) => item.id === 'child')).toBe(false);
+    expect(kept.every((item) => item.importance === 3)).toBe(true);
+  });
 });

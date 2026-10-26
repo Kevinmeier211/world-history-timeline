@@ -21,7 +21,7 @@ export function ZoomBar({
         Fit
       </button>
       <button type="button" aria-label="Overview" onClick={onOverview}>
-        All
+        Overview
       </button>
     </div>
   );

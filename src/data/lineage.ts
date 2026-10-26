@@ -1,4 +1,5 @@
 import type { Relation, RelationType } from './schema/index.ts';
+import { forkRelations, forkReplaces } from './lineage-forks.ts';
 import { CHECKLIST_TWINS } from './lineage-twins.ts';
 import { RELATION_YEAR_TOLERANCE } from './validate.ts';
 import { toT } from '../lib/years.ts';
@@ -344,6 +345,11 @@ export function buildLineage(
     );
     seen.add(`${twin.from}>${twin.to}`);
   }
+
+  const forks = forkRelations(polities);
+  const kept = relations.filter((item) => !forkReplaces(item, forks));
+  relations.length = 0;
+  relations.push(...kept, ...forks);
 
   const inbound = new Set(relations.flatMap((item) => item.to));
   const roots = polities

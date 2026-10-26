@@ -72,18 +72,6 @@
     "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
   },
   {
-    "id": "abut_roman_empire_italy_476",
-    "from": ["roman_empire"],
-    "to": ["italy_476"],
-    "year": 476,
-    "type": "succession",
-    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
-    "sourceIds": ["cambridge_histories", "british_library"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
-  },
-  {
     "id": "abut_roman_kingdom_republic_of_rome",
     "from": ["roman_kingdom"],
     "to": ["republic_of_rome"],
@@ -139,6 +127,18 @@
     "type": "succession",
     "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
     "sourceIds": ["cambridge_histories", "british_library"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
+  },
+  {
+    "id": "abut_safavid_dynasty_afsharid",
+    "from": ["safavid_dynasty"],
+    "to": ["afsharid"],
+    "year": 1736,
+    "type": "succession",
+    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
+    "sourceIds": ["isac", "louvre"],
     "confidence": "debated",
     "verification": "unverified",
     "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."

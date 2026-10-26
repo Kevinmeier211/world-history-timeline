@@ -40,6 +40,10 @@
     "reason": "gemini-v1 names no parent; nearest same-family end is funan at a gap of 700 continuous years, outside a shared-boundary handoff."
   },
   {
+    "id": "aragon",
+    "reason": "gemini-v1 names no parent; nearest same-family end is west_francia at a gap of 150 continuous years, outside a shared-boundary handoff."
+  },
+  {
     "id": "ashanti",
     "reason": "gemini-v1 names no parent; nearest same-family end is mali_empire at a gap of 101 continuous years, outside a shared-boundary handoff."
   },
@@ -90,9 +94,5 @@
   {
     "id": "buyid",
     "reason": "gemini-v1 names no parent; nearest same-family end is parthian_sassanid, sasanian at a gap of 283 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "cahokia",
-    "reason": "gemini-v1 names no parent; nearest same-family end is hopewell_tradition at a gap of 550 continuous years, outside a shared-boundary handoff."
   }
 ]

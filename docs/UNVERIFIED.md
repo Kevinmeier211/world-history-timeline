@@ -8,10 +8,10 @@ A row is unverified when `verification` is `unverified`, or when a tour stop omi
 
 | kind | unverified | cross-checked | primary-checked | total |
 | --- | --- | --- | --- | --- |
-| polities | 404 | 0 | 0 | 404 |
-| relations | 180 | 0 | 0 | 180 |
+| polities | 408 | 0 | 0 | 408 |
+| relations | 181 | 0 | 0 | 181 |
 | callouts | 58 | 0 | 0 | 58 |
-| bands | 11 | 0 | 0 | 11 |
+| bands | 12 | 0 | 0 | 12 |
 | routes | 6 | 0 | 0 | 6 |
 | tour stops | 11 | 0 | 0 | 11 |
 | climate | 1 | 0 | 0 | 1 |
@@ -23,8 +23,8 @@ Counts are unverified / cross-checked / primary-checked.
 | kind | importance | unverified | cross-checked | primary-checked |
 | --- | --- | --- | --- | --- |
 | polities | 1 | 0 | 0 | 0 |
-| polities | 2 | 335 | 0 | 0 |
-| polities | 3 | 69 | 0 | 0 |
+| polities | 2 | 334 | 0 | 0 |
+| polities | 3 | 74 | 0 | 0 |
 | polities | 4 | 0 | 0 | 0 |
 | polities | 5 | 0 | 0 | 0 |
 | callouts | 1 | 0 | 0 | 0 |
@@ -34,7 +34,7 @@ Counts are unverified / cross-checked / primary-checked.
 | callouts | 5 | 0 | 0 | 0 |
 | bands | 1 | 0 | 0 | 0 |
 | bands | 2 | 0 | 0 | 0 |
-| bands | 3 | 11 | 0 | 0 |
+| bands | 3 | 12 | 0 | 0 |
 | bands | 4 | 0 | 0 | 0 |
 | bands | 5 | 0 | 0 | 0 |
 | routes | 1 | 0 | 0 | 0 |
@@ -101,9 +101,9 @@ Unverified counts only.
 | 3300_2000bce | 38 | 9 | 10 | 1 | 3 | 0 |
 | 2000_1000bce | 48 | 11 | 13 | 2 | 3 | 3 |
 | 1000_1bce | 84 | 13 | 30 | 3 | 2 | 6 |
-| 1_500ce | 65 | 5 | 17 | 0 | 3 | 2 |
+| 1_500ce | 67 | 5 | 17 | 0 | 3 | 2 |
 | 500_1000ce | 103 | 4 | 28 | 2 | 3 | 0 |
-| 1000_1500ce | 111 | 11 | 25 | 3 | 4 | 0 |
+| 1000_1500ce | 113 | 11 | 26 | 4 | 4 | 0 |
 | 1500_1800ce | 103 | 3 | 23 | 2 | 2 | 0 |
 | 1800_2000ce | 144 | 2 | 37 | 2 | 1 | 0 |
 
@@ -123,8 +123,8 @@ Unverified callouts with no family: 0.
 | mesopotamian | 20 | 5 |
 | persian_iranian | 16 | 1 |
 | levantine_semitic | 15 | 1 |
-| greek_byzantine | 19 | 8 |
-| latin_west | 48 | 3 |
+| greek_byzantine | 20 | 8 |
+| latin_west | 51 | 3 |
 | celtic_germanic_norse | 15 | 3 |
 | slavic_steppe | 15 | 0 |
 | islamic_arab | 12 | 1 |

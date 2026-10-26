@@ -9,6 +9,11 @@
   vector-effect: non-scaling-stroke;
 }
 
+.guides,
+.era-band {
+  pointer-events: none;
+}
+
 .era-band {
   fill: var(--paper-shade);
 }
@@ -35,12 +40,29 @@
 .era-name {
   fill: var(--ink-muted);
   font-family: var(--font-display);
-  font-size: 13px;
+  font-size: calc(13px * var(--sheet-boost, 1));
   font-weight: 700;
   letter-spacing: 0.02em;
   text-anchor: middle;
   dominant-baseline: middle;
   text-transform: uppercase;
+}
+
+.milestones {
+  pointer-events: none;
+  color: var(--ink);
+}
+
+.milestone-box {
+  stroke: currentColor;
+  vector-effect: non-scaling-stroke;
+}
+
+.milestone-label {
+  fill: currentColor;
+  font-family: var(--font-label);
+  font-size: calc(12px * var(--sheet-boost, 1));
+  font-weight: 600;
 }
 
 .axis-label {
@@ -49,7 +71,7 @@
   stroke-width: 4px;
   paint-order: stroke fill;
   font-family: var(--font-label);
-  font-size: 12px;
+  font-size: calc(12px * var(--sheet-boost, 1));
   font-weight: 600;
   text-anchor: start;
   dominant-baseline: auto;
@@ -58,6 +80,7 @@
 .stage-host {
   position: relative;
   height: 100%;
+  touch-action: pan-y;
 }
 
 .chart-chrome {
@@ -150,6 +173,10 @@
   outline-offset: 2px;
 }
 
+.ribbon[data-selected='true'] .ribbon-body {
+  stroke-width: 3px;
+}
+
 .ribbon-label {
   font-family: var(--font-label);
   font-weight: 600;
@@ -168,6 +195,10 @@
 
 .ribbon-dim {
   opacity: 0.25;
+}
+
+.ribbon-fold {
+  transition: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -233,6 +264,22 @@
   pointer-events: none;
 }
 
+.arc-hit {
+  fill: none;
+  stroke: transparent;
+  pointer-events: stroke;
+}
+
+.arc {
+  fill: none;
+  stroke: var(--ink);
+  pointer-events: none;
+}
+
+.arc-hot {
+  stroke: var(--focus);
+}
+
 .band-wash {
   fill: var(--ink);
   opacity: 0.06;
@@ -254,6 +301,118 @@
 .band-label {
   fill: var(--ink);
   font-family: var(--font-label);
-  font-size: 11px;
+  font-size: calc(11px * var(--sheet-boost, 1));
   font-weight: 700;
+}
+
+.scrub-anchor {
+  position: absolute;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+}
+
+.scrubber {
+  position: fixed;
+  z-index: 3;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.scrub-line {
+  height: 1px;
+  background: var(--ink);
+}
+
+.scrub-readout,
+.scrub-card {
+  pointer-events: auto;
+}
+
+.scrub-readout {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: max-content;
+  margin-top: 4px;
+  padding: 4px 8px;
+  border: 1px solid var(--rule);
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 13px;
+}
+
+.scrub-readout button,
+.scrub-card button {
+  border: 1px solid var(--rule);
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.scrub-readout button:disabled {
+  color: var(--ink-muted);
+  cursor: default;
+}
+
+.scrub-card button {
+  display: block;
+  width: 100%;
+  margin-top: 2px;
+  text-align: left;
+}
+
+.scrub-card {
+  width: min(280px, calc(100vw - 24px));
+  max-height: 240px;
+  margin-top: 4px;
+  overflow: auto;
+  padding: 8px;
+  border: 1px solid var(--rule);
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 13px;
+}
+
+.milestone-form input {
+  width: 100%;
+  height: 28px;
+  margin-top: 4px;
+  border: 1px solid var(--rule);
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 13px;
+}
+
+.scrub-card h3 {
+  margin: 0 0 6px;
+  font-size: 13px;
+}
+
+.scrub-card ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.scrub-card li {
+  margin: 4px 0;
+}
+
+.scrub-region {
+  display: block;
+  color: var(--ink-muted);
+  font-size: 13px;
+}
+
+.scrubber[data-side='above'] .scrub-card {
+  position: absolute;
+  left: 0;
+  bottom: calc(100% + 4px);
+  margin-top: 0;
 }

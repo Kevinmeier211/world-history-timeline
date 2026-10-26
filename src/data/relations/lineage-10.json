@@ -48,6 +48,18 @@
     "evidence": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened."
   },
   {
+    "id": "merge_aragon_castile_spain_union",
+    "from": ["aragon", "castile"],
+    "to": ["spain_union"],
+    "year": 1469,
+    "type": "merge",
+    "note": "Checklist date for the union of the crowns, 1469. Pages were not opened.",
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Checklist date for the union of the crowns, 1469. Pages were not opened."
+  },
+  {
     "id": "split_archaic_greece_athens_classical_period_sparta_thebes",
     "from": ["archaic_greece"],
     "to": ["athens", "classical_period", "sparta", "thebes"],
@@ -127,18 +139,6 @@
     "type": "split",
     "note": "Several same-family polities start on this handoff. Pages were not opened.",
     "sourceIds": ["korea_national", "tokyo_national"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Several same-family polities start on this handoff. Pages were not opened."
-  },
-  {
-    "id": "split_maya_classic_maya_postclassic_toltecs",
-    "from": ["maya_classic"],
-    "to": ["maya_postclassic", "toltecs"],
-    "year": 900,
-    "type": "split",
-    "note": "Several same-family polities start on this handoff. Pages were not opened.",
-    "sourceIds": ["inah", "field_museum"],
     "confidence": "debated",
     "verification": "unverified",
     "evidence": "Several same-family polities start on this handoff. Pages were not opened."

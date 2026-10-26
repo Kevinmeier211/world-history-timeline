@@ -4,6 +4,7 @@ import { bundledGeography } from '../src/data/catalog.ts';
 import { datasetSchema } from '../src/data/schema/index.ts';
 import { layoutOverridesSchema } from '../src/data/schema/overrides.ts';
 import { clearLayoutCache, layout } from '../src/layout/index.ts';
+import { labelHitPairs } from '../src/layout/labelTrack.ts';
 import {
   droppedCallouts,
   gateFailures,
@@ -75,6 +76,7 @@ const report = {
     routed: result.connectors.length,
     ...routing,
   },
+  labelHits: labelHitPairs(result.labels).length,
   maxDrift: Math.round(drift * 1000) / 1000,
   runtimeMs: {
     cold: Math.round(coldMs),
@@ -107,6 +109,7 @@ console.log(
     `label fit importance>=3 ${fitLabel}`,
     `unroutable ${routing.unroutable}  omitted ${routing.omitted}`,
     `callouts dropped ${callouts.dropped}  markers ${callouts.markers}`,
+    `label hits ${report.labelHits}`,
     `maxDrift ${drift.toFixed(2)}`,
     `runtime cold ${report.runtimeMs.cold}ms  warm ${report.runtimeMs.warm}ms`,
     failures.length === 0 ? 'gates pass' : `gates failed: ${failures.join(', ')}`,

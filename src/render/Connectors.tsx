@@ -1,10 +1,16 @@
 import { Connector, CONNECTOR_HATCH } from './Connector.tsx';
 import type { ConnectorPaint } from './connectorInk.ts';
 
-export function Connectors({ connectors }: { connectors: readonly ConnectorPaint[] }) {
+export function Connectors({
+  connectors,
+  opacity = 1,
+}: {
+  connectors: readonly ConnectorPaint[];
+  opacity?: number;
+}) {
   const hatched = connectors.some((connector) => connector.hatch);
   return (
-    <g className="connectors">
+    <g className="connectors" opacity={opacity}>
       {hatched ? (
         <defs>
           <pattern

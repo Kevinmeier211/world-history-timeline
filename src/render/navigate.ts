@@ -1,4 +1,5 @@
 import { SCALE_MAX, SCALE_MIN } from '../camera/camera.ts';
+import { yOfYear } from '../layout/drift.ts';
 
 const ZOOM_STEP = 1.2;
 const PAN_FRACTION = 0.2;
@@ -11,6 +12,34 @@ export type ChartCommand =
 export function steppedScale(scale: number, direction: 1 | -1): number {
   const next = scale * (direction > 0 ? ZOOM_STEP : 1 / ZOOM_STEP);
   return Math.min(SCALE_MAX, Math.max(SCALE_MIN, next));
+}
+
+export function pointerDistance(
+  a: { x: number; y: number },
+  b: { x: number; y: number },
+): number {
+  return Math.hypot(a.x - b.x, a.y - b.y);
+}
+
+/** Scale after a two-finger pinch. A zero distance leaves the scale alone. */
+export function pinchScale(
+  startScale: number,
+  startDistance: number,
+  distance: number,
+): number {
+  if (!(startScale > 0) || !(startDistance > 0) || !(distance > 0)) return startScale;
+  return Math.min(
+    SCALE_MAX,
+    Math.max(SCALE_MIN, startScale * (distance / startDistance)),
+  );
+}
+
+/** Hash zoom is the camera scale. Otherwise the local multiplier rides on fit. */
+export function cameraScale(fit: number, localZoom: number, hashZoom?: number): number {
+  const raw =
+    hashZoom !== undefined && Number.isFinite(hashZoom) ? hashZoom : fit * localZoom;
+  if (!Number.isFinite(raw)) return SCALE_MIN;
+  return Math.min(SCALE_MAX, Math.max(SCALE_MIN, raw));
 }
 
 /** Keep the same world point under the middle of the viewport. */
@@ -133,6 +162,32 @@ export function overlayOffsets(
     right: Math.max(margin, view.width - port.right + margin),
     bottom: Math.max(margin, view.height - port.bottom + margin),
   };
+}
+
+const FLY_SCROLL_MS = 600;
+
+/** Scroll so `year` sits at the vertical center of the port. */
+export function scrollTopForYear(
+  year: number,
+  scale: number,
+  portHeight: number,
+  sheetHeight: number,
+): number {
+  if (!Number.isInteger(year) || year === 0 || scale <= 0) return 0;
+  return clampScroll(yOfYear(year) * scale - portHeight / 2, sheetHeight, portHeight);
+}
+
+/** Ease toward a scroll offset. Reduced motion arrives immediately. */
+export function approachScroll(
+  from: number,
+  to: number,
+  elapsedMs: number,
+  reducedMotion: boolean,
+): number {
+  if (reducedMotion || elapsedMs >= FLY_SCROLL_MS || from === to) return to;
+  const t = Math.max(0, elapsedMs) / FLY_SCROLL_MS;
+  const eased = 1 - (1 - t) ** 3;
+  return from + (to - from) * eased;
 }
 
 /** `fraction` is 0 at the top of the minimap and 1 at the bottom. */

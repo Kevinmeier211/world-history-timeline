@@ -121,7 +121,7 @@ describe('golden fixtures', () => {
     ]);
     expect(ribbonOverlap(result.ribbons).overlaps).toBe(0);
     expect(digest(result)).toMatchInlineSnapshot(
-      `"086a7aead69c4260c58da72e7bff6ebc59a6f02a7490fd627ef7e86331cca2a2"`,
+      `"945a536e4c9c5ad2e7f11bff4e93741a0837da4724961e4ac85656a01557ba03"`,
     );
   });
 
@@ -166,7 +166,7 @@ describe('golden fixtures', () => {
     expect(moves(result.connectors[0]?.d)).toBe(4);
     expect(ribbonOverlap(result.ribbons).overlaps).toBe(0);
     expect(digest(result)).toMatchInlineSnapshot(
-      `"58799298ab41302bf87e173c687fbc0b850cfb31beacd62c808248a86d8fffd2"`,
+      `"2036f0f0d90c76b4378186b125ea7288abfed44cf9146b0f1916f10c671d3690"`,
     );
   });
 
@@ -219,7 +219,7 @@ describe('golden fixtures', () => {
     const drawn = result.labels.filter((label) => label.fitted || label.leader).length;
     expect(drawn / result.labels.length).toBeGreaterThanOrEqual(0.85);
     expect(digest(result)).toMatchInlineSnapshot(
-      `"2554a5a9e56ff61040e68b20e5b7759308db212ab5d2b797fabaff831935b2a0"`,
+      `"23be75d0ceae449010d387264ef05df20dfb68592370309af9dc805b41045ee9"`,
     );
   });
 
@@ -281,7 +281,7 @@ describe('golden fixtures', () => {
     expect(result.connectors.map((connector) => connector.type)).toEqual(['merge']);
     expect(ribbonOverlap(result.ribbons).overlaps).toBe(0);
     expect(digest(result)).toMatchInlineSnapshot(
-      `"82022771c7a04d3cf835322ce59b154171344f7490b96404b9e3ae40b881ae78"`,
+      `"d01901051281b1a8897b6290129ec5b9972f31809b98aaea9695f6bbbb6f1d0d"`,
     );
   });
 
@@ -321,7 +321,7 @@ describe('golden fixtures', () => {
     );
   });
 
-  it('fixture H puts a diacritic ellipsis outside a short ribbon', () => {
+  it('fixture H paints the full diacritic name outside a short ribbon', () => {
     const fixture = load('short-labels');
     expect(fixture.name).toBe('H');
     const ribbons = fixture.ribbons as { name: string }[];
@@ -330,10 +330,10 @@ describe('golden fixtures', () => {
     const label = result.labels[0];
     expect(label?.orientation).toBe('outside');
     expect(label?.leader).toBeDefined();
+    expect(label?.text).toBe(name);
     expect(label?.text).toContain('ā');
-    expect(label?.text.endsWith('…')).toBe(true);
     expect(digest(result)).toMatchInlineSnapshot(
-      `"7ddc57ad4830d91baab011372e2fda53811d9d40598223bd5aef2da64b66b02b"`,
+      `"24ee0405420ba66f9d63f7977f1e8e46203f7d67be5050a5abbc64d8b9fbdcf2"`,
     );
   });
 });

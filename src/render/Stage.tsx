@@ -1,9 +1,17 @@
+import type { CSSProperties } from 'react';
+
 import type { Camera, Size, WorldBox } from '../camera/camera.ts';
+import type { Milestone } from '../state/milestones.ts';
+import type { LensId } from '../ui/frame.ts';
+import { Arcs } from './Arcs.tsx';
+import { MilestoneMarks } from './MilestoneMarks.tsx';
 import { Bands } from './Bands.tsx';
 import { Connectors } from './Connectors.tsx';
 import { Guides } from './Guides.tsx';
 import { Ribbons } from './Ribbons.tsx';
 import { Watermark } from './Watermark.tsx';
+import { labelsAtScale, sheetBoost } from './labelScale.ts';
+import { lensOpacity } from './lensWeight.ts';
 import type { BandPaint } from './bandInk.ts';
 import type { ConnectorPaint } from './connectorInk.ts';
 import type { LabelPaint, RibbonPaint } from './ribbonInk.ts';
@@ -22,7 +30,11 @@ export function Stage({
   connectors = [],
   bands = [],
   padScreens = VISIBLE_PAD,
+  selectedId,
   onSelect,
+  onClear,
+  lens = 'all',
+  milestones = [],
 }: {
   camera: Camera;
   viewport: Size;
@@ -34,7 +46,11 @@ export function Stage({
   connectors?: readonly ConnectorPaint[];
   bands?: readonly BandPaint[];
   padScreens?: number;
+  selectedId?: string;
   onSelect?: (id: string) => void;
+  onClear?: () => void;
+  lens?: LensId;
+  milestones?: readonly Milestone[];
 }) {
   const windows: YSpan[] = [
     ...spans,
@@ -50,7 +66,11 @@ export function Stage({
   const shownIds = new Set(shown.map((span) => span.id));
   const extraIds = new Set(spans.map((span) => span.id));
   const drawnRibbons = ribbons.filter((ribbon) => shownIds.has(ribbon.id));
-  const drawnLabels = labels.filter((label) => shownIds.has(label.polityId));
+  const drawnLabels = labelsAtScale(
+    labels.filter((label) => shownIds.has(label.polityId)),
+    scale,
+    selectedId,
+  );
   const drawnConnectors = connectors.filter((connector) => shownIds.has(connector.id));
   const drawnBands = bands.filter((band) => shownIds.has(band.id));
   return (
@@ -61,6 +81,7 @@ export function Stage({
       height={world.height * scale}
       role="group"
       aria-label="States and peoples chart"
+      style={{ '--sheet-boost': String(sheetBoost(scale)) } as CSSProperties}
     >
       <rect
         className="stage-sheet"
@@ -68,12 +89,21 @@ export function Stage({
         y={world.y}
         width={world.width}
         height={world.height}
+        onClick={onClear}
       />
       <Guides scale={scale} />
       <Watermark />
-      <Bands bands={drawnBands} />
-      <Connectors connectors={drawnConnectors} />
-      <Ribbons ribbons={drawnRibbons} labels={drawnLabels} onSelect={onSelect} />
+      <Bands bands={drawnBands} lens={lens} />
+      <Connectors connectors={drawnConnectors} opacity={lensOpacity(lens, 'polity')} />
+      <Ribbons
+        ribbons={drawnRibbons}
+        labels={drawnLabels}
+        selectedId={selectedId}
+        onSelect={onSelect}
+        opacity={lensOpacity(lens, 'polity')}
+      />
+      <Arcs lens={lens} />
+      <MilestoneMarks marks={milestones} />
       {shown
         .filter((span) => extraIds.has(span.id))
         .map((span) => (

@@ -111,11 +111,12 @@ function outsideLabel(
   ribbon: ShortRibbon,
   measure: TextMeasurer,
   plotRight: number,
+  boxW = OUTSIDE_LABEL_W,
 ): PlacedRibbonLabel {
   const fitted = labelFit(
     ribbon.name,
-    ribbon.shortName,
-    { w: OUTSIDE_LABEL_W, h: OUTSIDE_LABEL_H },
+    boxW === OUTSIDE_LABEL_W ? ribbon.shortName : undefined,
+    { w: boxW, h: OUTSIDE_LABEL_H },
     measure,
   );
   if (!fitted) return hoverOnly(ribbon, 'outside');
@@ -161,18 +162,51 @@ function outsideLabel(
  * The right side is preferred until the label would leave the plot.
  * `along` is the rotated ribbon label.
  */
+interface AnchorPoint {
+  x: number;
+  y: number;
+  width: number;
+  breakBefore?: boolean;
+}
+
+/** The longest drawn piece. A gap between runs is not part of the ribbon. */
+function longestRun(points: readonly AnchorPoint[]): AnchorPoint[] {
+  const runs: AnchorPoint[][] = [];
+  let current: AnchorPoint[] = [];
+  for (const point of points) {
+    if (point.breakBefore && current.length > 0) {
+      runs.push(current);
+      current = [];
+    }
+    current.push(point);
+  }
+  if (current.length > 0) runs.push(current);
+  let best = runs[0] ?? [];
+  let bestSpan = -1;
+  for (const run of runs) {
+    const first = run[0];
+    const last = run.at(-1);
+    const span = first && last ? last.y - first.y : -1;
+    if (span > bestSpan) {
+      bestSpan = span;
+      best = run;
+    }
+  }
+  return best;
+}
+
 /** One label per drawn ribbon. A missing frame is skipped. */
 export function placeRibbonLabels(
   polities: readonly { id: string; name: string; shortName?: string }[],
-  frames: ReadonlyMap<string, readonly { x: number; y: number; width: number }[]>,
+  frames: ReadonlyMap<string, readonly AnchorPoint[]>,
   measure: TextMeasurer,
   forces: ReadonlyMap<string, LabelForce> = new Map(),
 ): PlacedRibbonLabel[] {
   return polities.flatMap((polity) => {
-    const points = frames.get(polity.id);
-    const first = points?.[0];
-    const last = points?.at(-1);
-    if (!points || !first || !last) return [];
+    const run = longestRun(frames.get(polity.id) ?? []);
+    const first = run[0];
+    const last = run.at(-1);
+    if (!first || !last) return [];
     return [
       placeRibbonLabel(
         {
@@ -192,16 +226,39 @@ export function placeRibbonLabels(
   });
 }
 
+/** Full name beside the ribbon, or undefined when that string does not fit. */
+function fullOutside(
+  ribbon: ShortRibbon,
+  measure: TextMeasurer,
+  plotRight: number,
+): PlacedRibbonLabel | undefined {
+  const advance = measure.measure(ribbon.name, 10);
+  const wide = outsideLabel(
+    ribbon,
+    measure,
+    plotRight,
+    Math.max(OUTSIDE_LABEL_W, advance + 8),
+  );
+  if (wide.fitted && wide.text === ribbon.name) return wide;
+  return undefined;
+}
+
 export function placeRibbonLabel(
   ribbon: ShortRibbon,
   measure: TextMeasurer,
   plotRight = LEFT_GUTTER + PLOT_WIDTH,
   force?: 'along' | 'horizontal' | 'outside',
 ): PlacedRibbonLabel {
-  if (force === 'outside' || (force === undefined && ribbon.height < SHORT_RIBBON_PX)) {
-    return outsideLabel(ribbon, measure, plotRight);
-  }
+  if (force === 'outside')
+    return fullOutside(ribbon, measure, plotRight) ?? hoverOnly(ribbon, 'outside');
   if (force === 'along') return insideLabel(ribbon, measure, 'rotated');
   if (force === 'horizontal') return insideLabel(ribbon, measure, 'horizontal');
-  return insideLabel(ribbon, measure);
+  if (force === undefined && ribbon.height < SHORT_RIBBON_PX) {
+    return fullOutside(ribbon, measure, plotRight) ?? hoverOnly(ribbon, 'outside');
+  }
+  const inside = insideLabel(ribbon, measure);
+  if (inside.fitted && inside.text === ribbon.name) return inside;
+  return (
+    fullOutside(ribbon, measure, plotRight) ?? hoverOnly(ribbon, inside.orientation)
+  );
 }

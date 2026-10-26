@@ -1,5 +1,17 @@
 [
   {
+    "id": "split_maya_classic_maya_postclassic_toltecs",
+    "from": ["maya_classic"],
+    "to": ["maya_postclassic", "toltecs"],
+    "year": 900,
+    "type": "split",
+    "note": "Several same-family polities start on this handoff. Pages were not opened.",
+    "sourceIds": ["inah", "field_museum"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Several same-family polities start on this handoff. Pages were not opened."
+  },
+  {
     "id": "split_rio_de_la_plata_argentina_bolivia_chile_colombia_ecuador_paraguay_peru_republic_uruguay_venezuela",
     "from": ["rio_de_la_plata"],
     "to": [
@@ -20,6 +32,18 @@
     "confidence": "debated",
     "verification": "unverified",
     "evidence": "Several same-family polities start on this handoff. Pages were not opened."
+  },
+  {
+    "id": "split_roman_empire_eastern_roman_empire_western_roman_empire",
+    "from": ["roman_empire"],
+    "to": ["eastern_roman_empire", "western_roman_empire"],
+    "year": 395,
+    "type": "split",
+    "note": "Conventional division in 395. The western ribbon runs to 476. The eastern ribbon stops at 476 so it does not lie on the Byzantine ribbon through 1453. Pages were not opened.",
+    "sourceIds": ["cambridge_histories", "louvre"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Conventional division in 395. The western ribbon runs to 476. The eastern ribbon stops at 476 so it does not lie on the Byzantine ribbon through 1453. Pages were not opened."
   },
   {
     "id": "split_shang_dynasty_western_zhou_zhou_dynasty",
@@ -128,29 +152,5 @@
     "confidence": "debated",
     "verification": "unverified",
     "evidence": "Same Appendix B span, 1115–1234, stored in two families. Not a checked conquest."
-  },
-  {
-    "id": "twin_khitan_liao_liao",
-    "from": ["khitan_liao"],
-    "to": ["liao"],
-    "year": 916,
-    "type": "cultural_continuity",
-    "note": "Same Appendix B span, 916–1125, stored in two families. Not a checked conquest.",
-    "sourceIds": ["chgis", "cambridge_histories"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Same Appendix B span, 916–1125, stored in two families. Not a checked conquest."
-  },
-  {
-    "id": "twin_mamluk_sultanate_mamluk_egypt",
-    "from": ["mamluk_sultanate"],
-    "to": ["mamluk_egypt"],
-    "year": 1250,
-    "type": "cultural_continuity",
-    "note": "Same Appendix B span, 1250–1517, stored in two families. Not a checked conquest.",
-    "sourceIds": ["louvre", "unesco_gha"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Same Appendix B span, 1250–1517, stored in two families. Not a checked conquest."
   }
 ]
