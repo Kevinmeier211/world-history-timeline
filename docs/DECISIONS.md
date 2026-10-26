@@ -461,3 +461,13 @@ Alternatives: Time the 194-ribbon roster and call it enough. Ignore the worst fr
 Why: The task asks for 300 ribbons. The roster has 194. Copying paints stresses the stage without inventing polities. p95 is the gate; the 50 ms frame stays in the log.
 
 Reversible? y
+
+## 2026-10-26 — The v1 canvas is gone
+
+Decision: `src/App.tsx`, `src/components/`, `src/utils/timeLayout.ts`, `src/styles/app.css`, and `tests/e2e/v1-baseline.spec.ts` are deleted. `src/main.tsx` always mounts the poster. `?v1=1` no longer switches apps. The design-lint allowlist is empty. ESLint and Prettier still skip the v1 polity tables and `src/types`, which the lineage scripts and the catalog re-export still read. Baseline PNGs stay in `docs/shots/v1/`.
+
+Alternatives: Keep `?v1=1` as a second app. Format the v1 data tables in this same commit.
+
+Why: T3.16 removes the old canvas. Formatting those tables would mix a data cleanup into the deletion. The screenshots remain the T0.11 record.
+
+Reversible? y

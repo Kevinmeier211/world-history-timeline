@@ -83,7 +83,8 @@
 | T3.13 | done | 57cc758 | reading tests: six ideas in our words, 18 swatches, closed until asked; escape and Close hide it | 25 | The key sits one click from the title band. See DECISIONS. |
 | T3.14 | done | e6c79d1 | `npm run shots` → 21 PNGs in `docs/shots/p3/`; v1 baselines unchanged; phone era frames are separate windows | 30 | Overview is centered. `npm run shots` no longer rewrites `docs/shots/v1/`. See DECISIONS. |
 
-| T3.15 | done | (this commit) | `npm run perf` p95 16.70 ms over 149 frames with 300 ribbons mounted; worst frame 50 ms | 25 | `?bench=300` clones real ribbon paints. The public chart is unchanged. See DECISIONS. |
+| T3.15 | done | fdb48f7 | `npm run perf` p95 16.70 ms over 149 frames with 300 ribbons mounted; worst frame 50 ms | 25 | `?bench=300` clones real ribbon paints. The public chart is unchanged. See DECISIONS. |
+| T3.16 | done | (this commit) | shell test: poster mounts, v1 canvas files absent, `docs/shots/v1/` remains | 20 | `?v1=1` no longer switches apps. Polity tables stay. See DECISIONS. |
 
 ## Blocked
 

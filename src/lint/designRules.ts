@@ -10,14 +10,8 @@ export interface DesignViolation {
   message: string;
 }
 
-/** Removed in T3.16. Rules themselves do not change. */
-export const LEGACY_DESIGN_LINT_ALLOWLIST = [
-  'src/App.tsx',
-  'src/main.tsx',
-  'src/components/',
-  'src/styles/app.css',
-  'src/utils/',
-] as const;
+/** Empty after T3.16. The rules themselves do not change. */
+export const LEGACY_DESIGN_LINT_ALLOWLIST: readonly string[] = [];
 
 const COLOR_RE =
   /#(?:[0-9a-fA-F]{8}|[0-9a-fA-F]{6}|[0-9a-fA-F]{4}|[0-9a-fA-F]{3})\b|\b(?:rgb|rgba|hsl|hsla|oklch|oklab)\s*\(/g;

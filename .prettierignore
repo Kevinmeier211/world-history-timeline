@@ -19,12 +19,7 @@ public/watermark.svg
 test-results
 playwright-report
 
-# v1 sources, removed in T3.16. Do not add new paths.
-src/components
-src/utils
-src/styles
-src/App.tsx
-src/main.tsx
+# v1 polity tables. The canvas was removed in T3.16. Do not add new paths.
 src/types
 src/data/politiesWest.ts
 src/data/politiesEast.ts

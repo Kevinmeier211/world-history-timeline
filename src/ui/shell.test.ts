@@ -1,4 +1,4 @@
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 
 import { createElement } from 'react';
 import { render, screen } from '@testing-library/react';
@@ -93,13 +93,16 @@ describe('poster shell', () => {
     expect(document.documentElement.hasAttribute('data-theme')).toBe(false);
   });
 
-  it('keeps v1 off the default module path', () => {
+  it('mounts the poster and leaves the v1 canvas deleted', () => {
     const main = readFileSync('src/main.tsx', 'utf8');
-    const spec = readFileSync('tests/e2e/v1-baseline.spec.ts', 'utf8');
     expect(main).toContain('PosterApp');
-    expect(main).not.toMatch(/import '\.\/styles\/app\.css'/);
-    expect(main).toContain("import('./styles/app.css')");
-    expect(main).toContain("has('v1')");
-    expect(spec).toContain('/?v1=1');
+    expect(main).not.toContain('app.css');
+    expect(main).not.toContain("has('v1')");
+    expect(existsSync('src/App.tsx')).toBe(false);
+    expect(existsSync('src/utils/timeLayout.ts')).toBe(false);
+    expect(existsSync('src/styles/app.css')).toBe(false);
+    expect(existsSync('src/components/TimelineCanvas.tsx')).toBe(false);
+    expect(existsSync('tests/e2e/v1-baseline.spec.ts')).toBe(false);
+    expect(existsSync('docs/shots/v1')).toBe(true);
   });
 });

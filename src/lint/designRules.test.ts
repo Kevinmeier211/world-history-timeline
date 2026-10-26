@@ -109,15 +109,11 @@ describe('remote fonts', () => {
 });
 
 describe('legacy allowlist', () => {
-  it('stays limited to v1 paths', () => {
-    expect([...LEGACY_DESIGN_LINT_ALLOWLIST]).toEqual([
-      'src/App.tsx',
-      'src/main.tsx',
-      'src/components/',
-      'src/styles/app.css',
-      'src/utils/',
-    ]);
-    expect(isLegacyDesignPath('src/components/TimelineCanvas.tsx')).toBe(true);
+  it('is empty once the v1 canvas is gone', () => {
+    expect([...LEGACY_DESIGN_LINT_ALLOWLIST]).toEqual([]);
+    expect(isLegacyDesignPath('src/components/TimelineCanvas.tsx')).toBe(false);
+    expect(isLegacyDesignPath('src/App.tsx')).toBe(false);
+    expect(isLegacyDesignPath('src/main.tsx')).toBe(false);
     expect(isLegacyDesignPath('src/styles/tokens.css')).toBe(false);
     expect(isLegacyDesignPath('src/ui/TopBar.tsx')).toBe(false);
   });
