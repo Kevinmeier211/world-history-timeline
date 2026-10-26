@@ -1031,3 +1031,13 @@ Alternatives: Invent an Iron Age transition span. Move the Greek Dark Ages band 
 Why: A new band has to use a span the dataset already dates. The collapse band and the Greek Dark Ages band already cover the dated frames this pass can stand on. Sea Peoples stay inside the existing collapse description.
 
 Reversible? y
+
+## 2026-10-26 — Bronze-age importance stays at the rows already set
+
+Decision: No 2000–600 BCE row was raised to importance 3 or 4 in this pass. Weights were not changed. `npm run layout:report` after the callouts: 238 ribbons drawn, 436 polities, 0 overlaps, minimum gap 6, importance-3 labels 82/82, 0 unroutable relations, 82 omitted, max drift 3.211. Cold runtime 252 ms, warm 167 ms, over the 150 ms gate. Callouts dropped 221, with 13 markers and 81 placed. The layout engine was not changed.
+
+Alternatives: Raise the Middle Kingdom, the New Kingdom, the Hittites, and the Shang to importance 3. Raise any of them to importance 4 without an opened page.
+
+Why: The CDLI homepage describes a cuneiform library and does not state a row year. Importance 4 still waits on an opened page that states the claim. The runtime miss is the roster, not a new solver.
+
+Reversible? y
