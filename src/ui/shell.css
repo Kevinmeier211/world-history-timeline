@@ -705,6 +705,21 @@
   font-size: 13px;
 }
 
+@page {
+  margin: 0;
+}
+
+html:has(.poster-print),
+body:has(.poster-print) {
+  margin: 0;
+  background: var(--paper);
+}
+
+body:has(.poster-print) #root {
+  width: fit-content;
+  height: fit-content;
+}
+
 .poster-print {
   background: var(--paper);
   color: var(--ink);

@@ -1171,3 +1171,13 @@ Alternatives: Shrink the screen floor to 6 pt. Raise letter and tabloid type unt
 Why: §4.5 sets the print floor at 24×36, and the screen floor already clears it there. Raising type to 6 pt on letter covered the ribbons. Bleed and the PDF script stay on later tasks.
 
 Reversible? y
+
+## 2026-10-26 — Trim PDFs come from the print route
+
+Decision: `scripts/export-pdf.ts` builds the app and prints `?print=1` with Playwright `page.pdf` to `dist-print/`. Letter is 8.5 by 11, tabloid is 11 by 17, and the poster is 24 by 36. `npm run check` does not run that export. On 2026-10-26, `pdfinfo` reported 612 by 792 pt, 792 by 1224 pt, and 1728 by 2592 pt, one page each. `pdffonts` listed every face with emb=yes: BarlowCondensed-Bold, BarlowCondensed-ExtraBold, BarlowCondensed-SemiBold as CID TrueType, that same SemiBold name as Type 3, Arimo-Bold, and SourceSans3ExtraLight-Regular. `pdftotext` reads CHRONOS from the masthead. The weight-400 Source Sans 3 woff2 name table says SourceSans3ExtraLight-Regular. Its OS/2 weight class is 400, and the glyph advance for n matches the woff named SourceSans3-Regular. Arimo-Bold is Chromium’s fallback for U+2192, which sits outside the Barlow unicode-range, on ribbon names that use that arrow. The Type 3 face is the stroked axis text. This task writes no PNG.
+
+Alternatives: Rasterize the sheet. Rename the woff2. Replace the arrows in the roster. Run the export inside `npm run check`.
+
+Why: T7.02 asks for those three PDFs and a `pdffonts` check. The names above are the ones the tool printed.
+
+Reversible? y
