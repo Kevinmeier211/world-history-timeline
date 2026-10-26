@@ -931,3 +931,13 @@ Alternatives: Leave the names off, as the skeleton pass did under Q-04. Invent a
 Why: T6.01 names these states, and Appendix B is a checklist, not a ceiling. A cluster does not paint as wide as one empire. Other undated checklist names stay omitted.
 
 Reversible? y
+
+## 2026-10-26 — The modern spine is importance 3 and weight 0.48
+
+Decision: United States, United Kingdom, Ottoman Empire, USSR, India, People's Republic of China, Empire of Japan, and Brazil are importance 3 and weight 0.48. Gulf states and the Central Asian republics stay importance 2 and weight 0.22. Every other fan-out row stays at its previous importance and weight. None of these is importance 4 or 5. `npm run layout:report` after the change: 238 ribbons, 0 overlaps, importance 3 labels 82/82, 0 unroutable relations, max drift 3.211. Warm runtime is about 168–199 ms, over the 150 ms gate. The layout engine was not changed.
+
+Alternatives: Leave every row at importance 2 and weight 0.35. Raise the spine to importance 4 without an opened page. Widen every new state.
+
+Why: Width and importance should show the states a reader looks for, and the two clusters are not one empire. Importance 4 still waits on an opened page. The runtime miss is the larger roster, not a new solver.
+
+Reversible? y

@@ -125,8 +125,8 @@
     "end": 2000,
     "confidence": "conventional",
     "dateNote": "Appendix B: USA 1776–. Skeleton ends at 2000.",
-    "importance": 2,
-    "weight": 0.35,
+    "importance": 3,
+    "weight": 0.48,
     "kind": "state",
     "anchor": [
       {

@@ -198,8 +198,8 @@
     "end": 1922,
     "confidence": "approximate",
     "dateNote": "Appendix B: Ottoman c.1299–1922. Distinct from the migrated ottoman_empire bundle, which runs past 1922.",
-    "importance": 2,
-    "weight": 0.35,
+    "importance": 3,
+    "weight": 0.48,
     "kind": "empire",
     "anchor": [
       {
