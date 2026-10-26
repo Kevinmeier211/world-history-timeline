@@ -1,3 +1,5 @@
+import { readFileSync } from 'node:fs';
+
 import { describe, expect, it } from 'vitest';
 
 import {
@@ -152,7 +154,16 @@ describe('migrated annotation files', () => {
       presets: unknown[];
     };
     expect(data.callouts).toHaveLength(58);
-    expect(data.bands).toHaveLength(11);
+    const migrated = JSON.parse(
+      readFileSync('src/data/bands/migrated-01.json', 'utf8'),
+    ) as unknown[];
+    expect(migrated).toHaveLength(11);
+    expect(data.bands).toHaveLength(12);
+    expect(data.bands).toEqual(
+      expect.arrayContaining([
+        expect.objectContaining({ id: 'band_mongol_conquests' }),
+      ]),
+    );
     expect(data.routes).toHaveLength(6);
     expect(data.tours).toHaveLength(3);
     expect(data.presets).toHaveLength(5);

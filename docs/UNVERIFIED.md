@@ -11,7 +11,7 @@ A row is unverified when `verification` is `unverified`, or when a tour stop omi
 | polities | 408 | 0 | 0 | 408 |
 | relations | 181 | 0 | 0 | 181 |
 | callouts | 58 | 0 | 0 | 58 |
-| bands | 11 | 0 | 0 | 11 |
+| bands | 12 | 0 | 0 | 12 |
 | routes | 6 | 0 | 0 | 6 |
 | tour stops | 11 | 0 | 0 | 11 |
 | climate | 1 | 0 | 0 | 1 |
@@ -34,7 +34,7 @@ Counts are unverified / cross-checked / primary-checked.
 | callouts | 5 | 0 | 0 | 0 |
 | bands | 1 | 0 | 0 | 0 |
 | bands | 2 | 0 | 0 | 0 |
-| bands | 3 | 11 | 0 | 0 |
+| bands | 3 | 12 | 0 | 0 |
 | bands | 4 | 0 | 0 | 0 |
 | bands | 5 | 0 | 0 | 0 |
 | routes | 1 | 0 | 0 | 0 |
@@ -103,7 +103,7 @@ Unverified counts only.
 | 1000_1bce | 84 | 13 | 30 | 3 | 2 | 6 |
 | 1_500ce | 67 | 5 | 17 | 0 | 3 | 2 |
 | 500_1000ce | 103 | 4 | 28 | 2 | 3 | 0 |
-| 1000_1500ce | 113 | 11 | 26 | 3 | 4 | 0 |
+| 1000_1500ce | 113 | 11 | 26 | 4 | 4 | 0 |
 | 1500_1800ce | 103 | 3 | 23 | 2 | 2 | 0 |
 | 1800_2000ce | 144 | 2 | 37 | 2 | 1 | 0 |
 

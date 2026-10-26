@@ -47,6 +47,8 @@ export interface LabelPaint {
   fitted: boolean;
   leader?: LayoutLabel['leader'];
   glyphs?: LayoutLabel['glyphs'];
+  /** Used when a zoomed-out sheet has to drop a covering name. */
+  importance?: number;
 }
 
 function channels(hex: string): [number, number, number] | null {
@@ -182,7 +184,8 @@ export function posterPaint(
   const labels = result.labels.flatMap((label) => {
     if (!label.fitted) return [];
     const fill = fills.get(label.polityId);
-    if (!fill) return [];
+    const polity = polities.get(label.polityId);
+    if (!fill || !polity) return [];
     return [
       {
         polityId: label.polityId,
@@ -197,6 +200,7 @@ export function posterPaint(
         fitted: true,
         leader: label.leader,
         glyphs: label.glyphs,
+        importance: polity.importance,
       },
     ];
   });

@@ -781,3 +781,13 @@ Alternatives: Keep the word-boundary ellipsis on short ribbons. Drop every ribbo
 Why: A painted ellipsis, or a ribbon with no name, does not pass the label rule. The full string fits beside the ribbon, so nothing had to be removed.
 
 Reversible? y
+
+## 2026-10-26 — Overview type stays at its design size, and the Mongol span is a band
+
+Decision: When the sheet is below one screen pixel per design pixel, era names, year labels, band titles, and ribbon labels grow by `1 / scale`, so a 10px label is still 10px on screen. A ribbon name that would then cover a more important name is left off until the reader zooms in. The six era gutters are unchanged. A twelfth cross-cutting band, `band_mongol_conquests`, uses the years and regions already on `mongol_empire` (1206–1368, Europe and East Asia) and cites `cambridge_histories`. Verification is unverified. The page was not opened. The migrated file stays the original 11 rows. The roster report is overlaps 0, label hits 0, importance 3 fit 74/74, warm 143ms. `maxRibbonDrift` stays 3.211 on `japan_timeline`.
+
+Alternatives: Leave overview type at about 2px. Invent a twelfth era gutter. Cite a source id that is not in the dataset.
+
+Why: Overview has to stay readable, and the band count has to reach 12 from a span the dataset already dates.
+
+Reversible? y

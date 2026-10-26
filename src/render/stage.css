@@ -40,7 +40,7 @@
 .era-name {
   fill: var(--ink-muted);
   font-family: var(--font-display);
-  font-size: 13px;
+  font-size: calc(13px * var(--sheet-boost, 1));
   font-weight: 700;
   letter-spacing: 0.02em;
   text-anchor: middle;
@@ -61,7 +61,7 @@
 .milestone-label {
   fill: currentColor;
   font-family: var(--font-label);
-  font-size: 12px;
+  font-size: calc(12px * var(--sheet-boost, 1));
   font-weight: 600;
 }
 
@@ -71,7 +71,7 @@
   stroke-width: 4px;
   paint-order: stroke fill;
   font-family: var(--font-label);
-  font-size: 12px;
+  font-size: calc(12px * var(--sheet-boost, 1));
   font-weight: 600;
   text-anchor: start;
   dominant-baseline: auto;
@@ -301,7 +301,7 @@
 .band-label {
   fill: var(--ink);
   font-family: var(--font-label);
-  font-size: 11px;
+  font-size: calc(11px * var(--sheet-boost, 1));
   font-weight: 700;
 }
 

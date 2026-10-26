@@ -1,3 +1,5 @@
+import type { CSSProperties } from 'react';
+
 import type { Camera, Size, WorldBox } from '../camera/camera.ts';
 import type { Milestone } from '../state/milestones.ts';
 import type { LensId } from '../ui/frame.ts';
@@ -8,6 +10,7 @@ import { Connectors } from './Connectors.tsx';
 import { Guides } from './Guides.tsx';
 import { Ribbons } from './Ribbons.tsx';
 import { Watermark } from './Watermark.tsx';
+import { labelsAtScale, sheetBoost } from './labelScale.ts';
 import { lensOpacity } from './lensWeight.ts';
 import type { BandPaint } from './bandInk.ts';
 import type { ConnectorPaint } from './connectorInk.ts';
@@ -63,7 +66,11 @@ export function Stage({
   const shownIds = new Set(shown.map((span) => span.id));
   const extraIds = new Set(spans.map((span) => span.id));
   const drawnRibbons = ribbons.filter((ribbon) => shownIds.has(ribbon.id));
-  const drawnLabels = labels.filter((label) => shownIds.has(label.polityId));
+  const drawnLabels = labelsAtScale(
+    labels.filter((label) => shownIds.has(label.polityId)),
+    scale,
+    selectedId,
+  );
   const drawnConnectors = connectors.filter((connector) => shownIds.has(connector.id));
   const drawnBands = bands.filter((band) => shownIds.has(band.id));
   return (
@@ -74,6 +81,7 @@ export function Stage({
       height={world.height * scale}
       role="group"
       aria-label="States and peoples chart"
+      style={{ '--sheet-boost': String(sheetBoost(scale)) } as CSSProperties}
     >
       <rect
         className="stage-sheet"
