@@ -5,6 +5,7 @@ import type { Geography } from '../data/schema/geography.ts';
 import type { LayoutOverrides } from '../data/schema/overrides.ts';
 import { layout } from '../layout/index.ts';
 import type { LayoutInput, LayoutResult } from '../layout/types.ts';
+import { connectorPaints, type ConnectorPaint } from './connectorInk.ts';
 import { posterPaint, type LabelPaint, type RibbonPaint } from './ribbonInk.ts';
 
 export function posterLayoutInput(
@@ -28,6 +29,7 @@ export function posterLayoutInput(
 export interface PosterPaint {
   ribbons: RibbonPaint[];
   labels: LabelPaint[];
+  connectors: ConnectorPaint[];
   result: LayoutResult;
 }
 
@@ -40,6 +42,10 @@ export function posterModel(): PosterPaint {
   const result = layout(
     posterLayoutInput(dataset, bundledGeography(), clientOverrides()),
   );
-  paintCache = { ...posterPaint(dataset, result), result };
+  paintCache = {
+    ...posterPaint(dataset, result),
+    connectors: connectorPaints(dataset, result.connectors),
+    result,
+  };
   return paintCache;
 }

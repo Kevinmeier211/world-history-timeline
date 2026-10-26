@@ -101,3 +101,22 @@
 .ribbon-dim {
   opacity: 0.25;
 }
+
+.connectors {
+  pointer-events: none;
+}
+
+.connector-flow {
+  fill-opacity: 0.55;
+  stroke-width: 1.5;
+  vector-effect: non-scaling-stroke;
+}
+
+.connector-hatch {
+  opacity: 0.55;
+}
+
+.connector-hatch-line {
+  stroke: var(--ink);
+  stroke-width: 0.75;
+}

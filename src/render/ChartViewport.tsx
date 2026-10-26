@@ -82,6 +82,7 @@ export function ChartViewport({ onSheet }: { onSheet: (sheet: SheetSize) => void
           world={world}
           ribbons={paint.ribbons}
           labels={paint.labels}
+          connectors={paint.connectors}
         />
       ) : null}
     </div>

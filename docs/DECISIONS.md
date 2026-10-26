@@ -381,3 +381,13 @@ Alternatives: Always use `--ink`. Keep `role="img"` on the chart.
 Why: A dark ribbon needs light type in both themes. `role="img"` would hide the buttons from the accessibility tree.
 
 Reversible? y
+
+## 2026-10-26 — Connectors use the source family at 55 percent
+
+Decision: Routed relations paint between the watermark and the ribbons. Succession, split, and merge are a solid fill at 55% of the source family color, with no stroke. Continuity, disputed, and migration are unfilled dashes (`4 3` or `1 2.5`). Conquest and vassalage add a diagonal hatch. The roster currently has succession, split, continuity, and disputed only.
+
+Alternatives: Stroke every flow. Color a connector by its target.
+
+Why: Section 4.4 asks for the same hue at 55% and a dash where the link is not a succession. The hatch is the non-color cue for conquest.
+
+Reversible? y
