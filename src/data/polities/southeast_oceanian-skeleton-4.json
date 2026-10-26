@@ -1,0 +1,139 @@
+[
+  {
+    "id": "british_burma",
+    "name": "British Burma",
+    "family": "southeast_oceanian",
+    "start": 1885,
+    "end": 1948,
+    "confidence": "approximate",
+    "dateNote": "1885 is the checklist end of the Konbaung and the widely cited start of British rule. 1948 is widely cited for independence. Appendix B does not date this interval. Pages were not opened.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1885,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "British rule is widely dated from 1885, the checklist end of the Konbaung, to independence in 1948. Appendix B does not date this interval. The cited pages were not opened.",
+    "keyFacts": [
+      "1885 is the checklist end of the Konbaung.",
+      "1948 is widely cited for independence.",
+      "Appendix B does not date this interval."
+    ],
+    "sourceIds": ["field_museum", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Widely cited political dates. The cited pages were not opened for this row."
+  },
+  {
+    "id": "burma",
+    "name": "Burma",
+    "altNames": ["Myanmar"],
+    "family": "southeast_oceanian",
+    "start": 1948,
+    "end": 2000,
+    "confidence": "approximate",
+    "dateNote": "1948 is widely cited for independence. 1989 is widely cited for the name Myanmar. 2000 is the chart end. Appendix B does not date this row. Pages were not opened.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1948,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Independence is widely dated to 1948. The name Myanmar is widely dated to 1989 and is not a separate row. This row runs to 2000, the chart end. Appendix B does not date it. The cited pages were not opened.",
+    "keyFacts": [
+      "1948 is widely cited for independence.",
+      "1989 is widely cited for the name Myanmar.",
+      "2000 is the chart end."
+    ],
+    "sourceIds": ["field_museum", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Widely cited political dates. The cited pages were not opened for this row."
+  },
+  {
+    "id": "laos",
+    "name": "Laos",
+    "family": "southeast_oceanian",
+    "start": 1953,
+    "end": 2000,
+    "confidence": "approximate",
+    "dateNote": "1953 is widely cited for independence. 1975 is widely cited for the Lao People's Democratic Republic and is not a separate row. 2000 is the chart end. Appendix B does not date Laos. Pages were not opened.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1953,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Independence is widely dated to 1953. The 1975 republic is not a separate row. This row runs to 2000, the chart end. Appendix B does not date Laos. The cited pages were not opened.",
+    "keyFacts": [
+      "1953 is widely cited for independence.",
+      "1975 is not a separate row.",
+      "2000 is the chart end."
+    ],
+    "sourceIds": ["field_museum", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Widely cited political dates. The cited pages were not opened for this row."
+  },
+  {
+    "id": "cambodia",
+    "name": "Cambodia",
+    "family": "southeast_oceanian",
+    "start": 1953,
+    "end": 2000,
+    "confidence": "approximate",
+    "dateNote": "1953 is widely cited for independence. 1975 and 1979 are widely cited later breaks and are not separate rows. 2000 is the chart end. Appendix B does not date Cambodia. Pages were not opened.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1953,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Independence is widely dated to 1953. Breaks in 1975 and 1979 are not separate rows. This row runs to 2000, the chart end. Appendix B does not date Cambodia. The cited pages were not opened.",
+    "keyFacts": [
+      "1953 is widely cited for independence.",
+      "1975 and 1979 are not separate rows.",
+      "2000 is the chart end."
+    ],
+    "sourceIds": ["field_museum", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Widely cited political dates. The cited pages were not opened for this row."
+  },
+  {
+    "id": "malaysia",
+    "name": "Malaysia",
+    "altNames": ["Malaya"],
+    "family": "southeast_oceanian",
+    "start": 1957,
+    "end": 2000,
+    "confidence": "approximate",
+    "dateNote": "1957 is widely cited for Malayan independence. 1963 is widely cited for Malaysia. This row starts in 1957. 2000 is the chart end. Appendix B does not date it. Pages were not opened.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1957,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Malayan independence is widely dated to 1957, and Malaysia to 1963. This row starts in 1957 and runs to 2000, the chart end. Appendix B does not date it. The cited pages were not opened.",
+    "keyFacts": [
+      "1957 is widely cited for Malayan independence.",
+      "1963 is widely cited for Malaysia.",
+      "2000 is the chart end."
+    ],
+    "sourceIds": ["field_museum", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Widely cited political dates. The cited pages were not opened for this row."
+  }
+]

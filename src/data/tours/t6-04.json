@@ -1,0 +1,49 @@
+[
+  {
+    "id": "tour_silk_roads",
+    "title": "Silk Roads",
+    "subtitle": "The route already on the sheet, 130 BCE to 1453",
+    "waypoints": [
+      {
+        "title": "Western Han, 130 BCE",
+        "year": -130,
+        "zoom": 1.5,
+        "lens": "trade",
+        "polityId": "western_han",
+        "narrative": "The silk road route on this sheet runs from 130 BCE to 1453. This stop uses 130 BCE. The Western Han checklist row is current then. The cited page was not opened.",
+        "sourceIds": ["chgis", "cambridge_histories"],
+        "verification": "unverified"
+      },
+      {
+        "title": "Kushan, 50",
+        "year": 50,
+        "zoom": 1.6,
+        "lens": "trade",
+        "polityId": "kushan",
+        "narrative": "A waypoint on that route sits in 50. The Kushan checklist row runs from about 30 to 375, so it is current. This stop uses 50. The cited page was not opened.",
+        "sourceIds": ["british_library", "cambridge_histories"],
+        "verification": "unverified"
+      },
+      {
+        "title": "Parthian, 100",
+        "year": 100,
+        "zoom": 1.6,
+        "lens": "trade",
+        "polityId": "parthian",
+        "narrative": "A waypoint on that route sits in 100. The Parthian checklist row runs from 247 BCE to 224 CE, so it is current. This stop uses 100. The cited page was not opened.",
+        "sourceIds": ["isac", "louvre"],
+        "verification": "unverified"
+      },
+      {
+        "title": "Roman Empire, 150",
+        "year": 150,
+        "zoom": 1.5,
+        "lens": "trade",
+        "polityId": "roman_empire",
+        "narrative": "A waypoint on that route sits in 150. The Roman Empire row on this sheet runs from 27 BCE to 395, so it is current. This stop uses 150. The cited page was not opened.",
+        "sourceIds": ["cambridge_histories", "british_library"],
+        "verification": "unverified"
+      }
+    ]
+  }
+]

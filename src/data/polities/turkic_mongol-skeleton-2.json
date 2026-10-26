@@ -16,8 +16,11 @@
         "xKey": "china_east_asia"
       }
     ],
-    "summary": "Dzungar is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Dzungar state from about 1634 to 1757. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 1634 to 1757.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "unesco_mow"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

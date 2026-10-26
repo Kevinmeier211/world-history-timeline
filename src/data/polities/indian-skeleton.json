@@ -16,8 +16,12 @@
         "xKey": "indus_india"
       }
     ],
-    "summary": "Mature Harappan is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the mature Harappan from about 2600 BCE to 1900 BCE, inside the Indus span. This row uses that span. The migrated Indus bundle stays. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 2600 BCE to 1900 BCE.",
+      "It sits inside the Indus span. The migrated bundle stays.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -39,8 +43,11 @@
         "xKey": "indus_india"
       }
     ],
-    "summary": "Nanda is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Nanda from 345 BCE to 322 BCE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 345 BCE to 322 BCE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -62,8 +69,11 @@
         "xKey": "indus_india"
       }
     ],
-    "summary": "Satavahana is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Satavahana from about 230 BCE to 220 CE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 230 BCE to 220 CE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -85,8 +95,11 @@
         "xKey": "indus_india"
       }
     ],
-    "summary": "Kushan is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Kushan from about 30 to 375. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 30 to 375.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -108,8 +121,12 @@
         "xKey": "indus_india"
       }
     ],
-    "summary": "Gupta is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Gupta from about 320 to 550. This row uses that span and is distinct from the migrated Gupta–Chola bundle. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 320 to 550.",
+      "A migrated row bundles Gupta and Chola.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -131,8 +148,12 @@
         "xKey": "indus_india"
       }
     ],
-    "summary": "Pallava is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B names Pallava and Chalukya in the 6th to 8th centuries and does not give each dynasty its own years. This row uses 500 to 800. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist names both dynasties and gives neither its own years.",
+      "This row uses 500 to 800.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -154,8 +175,12 @@
         "xKey": "indus_india"
       }
     ],
-    "summary": "Chalukya is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B names Chalukya and Pallava in the 6th to 8th centuries and does not give each dynasty its own years. This row uses 500 to 800. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist names both dynasties and gives neither its own years.",
+      "This row uses 500 to 800.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -177,8 +202,11 @@
         "xKey": "indus_india"
       }
     ],
-    "summary": "Harsha is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Harsha from 606 to 647. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 606 to 647.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -200,8 +228,11 @@
         "xKey": "indus_india"
       }
     ],
-    "summary": "Rashtrakuta is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Rashtrakuta from 753 to 982. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 753 to 982.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -223,8 +254,11 @@
         "xKey": "indus_india"
       }
     ],
-    "summary": "Pala is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Pala from about 750 to 1161. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 750 to 1161.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -246,8 +280,11 @@
         "xKey": "indus_india"
       }
     ],
-    "summary": "Chola is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Chola from about 850 to 1279. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 850 to 1279.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -269,8 +306,11 @@
         "xKey": "indus_india"
       }
     ],
-    "summary": "Delhi Sultanate is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Delhi Sultanate from 1206 to 1526. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1206 to 1526.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

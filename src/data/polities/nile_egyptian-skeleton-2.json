@@ -16,8 +16,12 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Mamluk Egypt is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Mamluk rule from 1250 to 1517. This Nile copy keeps that span so a later Islamic row can keep its own id. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1250 to 1517.",
+      "This is the Nile copy of the Mamluk span.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "unesco_gha"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -39,8 +43,11 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Ottoman Egypt is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Ottoman Egypt from 1517 to 1805. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1517 to 1805.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "unesco_gha"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -62,8 +69,11 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Muhammad Ali dynasty is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Muhammad Ali dynasty from 1805 to 1953. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1805 to 1953.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "unesco_gha"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -85,8 +95,11 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Republic of Egypt is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Republic of Egypt from 1953 with no end. This row stops at 2000, the chart end. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist start is 1953.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["louvre", "unesco_gha"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

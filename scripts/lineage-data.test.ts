@@ -24,6 +24,7 @@ describe('generated lineage files', () => {
       end: polity.end,
       sourceIds: polity.sourceIds,
       overlay: polity.dateNote?.includes('Migrated from gemini-v1') ?? false,
+      clusterStart: polity.dateNote?.includes('gives no single year') ?? false,
     }));
     const built = buildLineage(
       polities,

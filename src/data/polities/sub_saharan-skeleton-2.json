@@ -16,8 +16,11 @@
         "xKey": "sub_saharan_africa"
       }
     ],
-    "summary": "Solomonic Ethiopia is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Solomonic Ethiopia from 1270 to 1974. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1270 to 1974.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["unesco_gha", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -39,8 +42,11 @@
         "xKey": "sub_saharan_africa"
       }
     ],
-    "summary": "Kongo is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Kongo from about 1390 to 1914. This row starts at 1390 and ends at 1914. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist says about 1390 to 1914.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["unesco_gha", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -62,8 +68,11 @@
         "xKey": "sub_saharan_africa"
       }
     ],
-    "summary": "Oyo is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Oyo from about 1400 to 1835. This row starts at 1400 and ends at 1835. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist says about 1400 to 1835.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["unesco_gha", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -85,8 +94,11 @@
         "xKey": "sub_saharan_africa"
       }
     ],
-    "summary": "Ashanti is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Ashanti from about 1701 to 1901. This row starts at 1701 and ends at 1901. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist says about 1701 to 1901.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["unesco_gha", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -108,8 +120,11 @@
         "xKey": "sub_saharan_africa"
       }
     ],
-    "summary": "Sokoto Caliphate is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Sokoto Caliphate from 1804 to 1903. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1804 to 1903.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["unesco_gha", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -131,8 +146,11 @@
         "xKey": "sub_saharan_africa"
       }
     ],
-    "summary": "Zulu Kingdom is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Zulu Kingdom from 1816 to 1897. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1816 to 1897.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["unesco_gha", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -154,8 +172,11 @@
         "xKey": "sub_saharan_africa"
       }
     ],
-    "summary": "European partition of Africa is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the European partition of Africa from about 1880 to 1914. This row starts at 1880 and ends at 1914. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist says about 1880 to 1914.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["unesco_gha", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -177,8 +198,11 @@
         "xKey": "sub_saharan_africa"
       }
     ],
-    "summary": "African independence is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates African independence in the 1950s to the 1970s and does not name this row. This row uses 1950 to 1975 as that band. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist says the 1950s to the 1970s.",
+      "1950 and 1975 stand in for that band."
+    ],
     "sourceIds": ["unesco_gha", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -200,8 +224,11 @@
         "xKey": "sub_saharan_africa"
       }
     ],
-    "summary": "Union of South Africa is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Union of South Africa at 1910 and does not give it an end. This row ends at 1948, the apartheid year the checklist also gives. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist dates the Union at 1910.",
+      "1948 is the apartheid year on the checklist, not a new end."
+    ],
     "sourceIds": ["unesco_gha", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -223,8 +250,11 @@
         "xKey": "sub_saharan_africa"
       }
     ],
-    "summary": "Apartheid South Africa is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates apartheid South Africa from 1948 to 1994. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1948 to 1994.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["unesco_gha", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -246,8 +276,11 @@
         "xKey": "sub_saharan_africa"
       }
     ],
-    "summary": "Ghana is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates independence in the 1950s to the 1970s and does not name this state or give it a year. This row uses 1950 to 2000 as a placeholder. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist does not name this state or give it a year.",
+      "1950 and 2000 are placeholders, not a founding claim."
+    ],
     "sourceIds": ["unesco_gha", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -269,8 +302,11 @@
         "xKey": "sub_saharan_africa"
       }
     ],
-    "summary": "Nigeria is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates independence in the 1950s to the 1970s and does not name this state or give it a year. This row uses 1950 to 2000 as a placeholder. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist does not name this state or give it a year.",
+      "1950 and 2000 are placeholders, not a founding claim."
+    ],
     "sourceIds": ["unesco_gha", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

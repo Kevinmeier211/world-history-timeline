@@ -1,7 +1,7 @@
 {
   "baseline": "Degrees Celsius relative to 1900, as recorded on gemini-v1.",
   "verification": "unverified",
-  "evidence": "Curve copied from gemini-v1 PALEOCLIMATE_CURVE. Temperatures were not re-checked.",
+  "evidence": "Curve copied from gemini-v1 PALEOCLIMATE_CURVE. Temperatures were not re-checked. On 2026-10-26, max_planck_history loaded and described the Max Planck Institute for the History of Science, founded in 1994. worldhistory_org loaded and featured the Hundred Years' War from 1337 to 1453. unesco_gha loaded and listed General History of Africa volumes by century. None of those pages stated a temperature on this curve.",
   "points": [
     {
       "year": -3300,

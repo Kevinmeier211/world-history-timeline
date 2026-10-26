@@ -16,8 +16,12 @@
         "xKey": "eastern_med_europe"
       }
     ],
-    "summary": "Minoan is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Minoans from about 2700 BCE to 1450 BCE. This row uses that span. The migrated Minoan–Mycenaean bundle stays. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 2700 BCE to 1450 BCE.",
+      "The migrated Minoan–Mycenaean bundle stays.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -39,8 +43,11 @@
         "xKey": "eastern_med_europe"
       }
     ],
-    "summary": "Mycenaean is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Mycenaeans from about 1600 BCE to 1100 BCE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 1600 BCE to 1100 BCE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -62,8 +69,11 @@
         "xKey": "eastern_med_europe"
       }
     ],
-    "summary": "Greek Dark Ages is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Greek Dark Ages from about 1100 BCE to 800 BCE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 1100 BCE to 800 BCE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -85,8 +95,11 @@
         "xKey": "eastern_med_europe"
       }
     ],
-    "summary": "Archaic Greece is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Archaic Greece from 800 BCE to 480 BCE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 800 BCE to 480 BCE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -108,8 +121,12 @@
         "xKey": "eastern_med_europe"
       }
     ],
-    "summary": "Classical Greece is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Classical period from 480 BCE to 323 BCE. Athens, Sparta, and Thebes are not given their own years. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 480 BCE to 323 BCE.",
+      "Athens, Sparta, and Thebes share that span.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -131,8 +148,13 @@
         "xKey": "eastern_med_europe"
       }
     ],
-    "summary": "Athens is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B names Athens inside Classical 480 to 323 BCE and does not give the city its own years. This row uses 480 BCE to 323 BCE. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist names Athens, Sparta, and Thebes inside 480 to 323 BCE.",
+      "It does not give each city its own years.",
+      "This row uses 480 BCE to 323 BCE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -154,8 +176,13 @@
         "xKey": "eastern_med_europe"
       }
     ],
-    "summary": "Sparta is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B names Sparta inside Classical 480 to 323 BCE and does not give the city its own years. This row uses 480 BCE to 323 BCE. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist names Athens, Sparta, and Thebes inside 480 to 323 BCE.",
+      "It does not give each city its own years.",
+      "This row uses 480 BCE to 323 BCE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -177,8 +204,13 @@
         "xKey": "eastern_med_europe"
       }
     ],
-    "summary": "Thebes is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B names Thebes inside Classical 480 to 323 BCE and does not give the city its own years. This row uses 480 BCE to 323 BCE. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist names Athens, Sparta, and Thebes inside 480 to 323 BCE.",
+      "It does not give each city its own years.",
+      "This row uses 480 BCE to 323 BCE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -200,8 +232,12 @@
         "xKey": "eastern_med_europe"
       }
     ],
-    "summary": "Hellenistic kingdoms is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Hellenistic kingdoms from 323 BCE to 31 BCE. It names Antigonid, Seleucid, Ptolemaic, and Greco-Bactrian without separate years. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 323 BCE to 31 BCE.",
+      "Antigonid, Seleucid, Ptolemaic, and Greco-Bactrian are not given separate years.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -223,8 +259,11 @@
         "xKey": "eastern_med_europe"
       }
     ],
-    "summary": "First Bulgarian Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates First Bulgarian Empire from 681 to 1018. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 681 to 1018.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -246,8 +285,11 @@
         "xKey": "eastern_med_europe"
       }
     ],
-    "summary": "Second Bulgarian Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Second Bulgarian Empire from 1185 to 1396. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1185 to 1396.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -269,8 +311,11 @@
         "xKey": "eastern_med_europe"
       }
     ],
-    "summary": "Latin Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Latin Empire from 1204 to 1261. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1204 to 1261.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

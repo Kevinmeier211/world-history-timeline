@@ -1,0 +1,93 @@
+[
+  {
+    "eraId": "era_600bce_500",
+    "macroRegion": "americas",
+    "entries": [
+      {
+        "range": "2000 BCE–250",
+        "text": "The checklist dates the Maya Preclassic from about 2000 BCE to 250 and Paracas from about 800 BCE to 100 CE. Nazca and Teotihuacan stay on the checklist spans already on those rows. The cited pages were not opened.",
+        "sourceIds": ["inah", "museo_larco"]
+      }
+    ],
+    "whyItMatters": "The Preclassic row ends in 250, where the Maya Classic checklist row starts.",
+    "connections": ["Teotihuacan’s checklist span ends about 550."]
+  },
+  {
+    "eraId": "era_600bce_500",
+    "macroRegion": "europe",
+    "entries": [
+      {
+        "range": "814 BCE–493",
+        "text": "The checklist dates the Roman Kingdom from 753 to 509 BCE, the Republic from 509 to 27 BCE, and Carthage from about 814 to 146 BCE. An unnamed interval runs from 476 to 493. The cited pages were not opened.",
+        "sourceIds": ["cambridge_histories", "british_library"]
+      }
+    ],
+    "whyItMatters": "476 to 493 is the gap between the western Roman end and the Ostrogoths. The checklist does not name it.",
+    "connections": ["The Hellenistic kingdoms checklist row ends in 31 BCE."]
+  },
+  {
+    "eraId": "era_600bce_500",
+    "macroRegion": "africa",
+    "entries": [
+      {
+        "range": "1000 BCE–350",
+        "text": "The checklist dates Napatan Kush from about 1000 to 300 BCE, Meroitic Kush from about 300 BCE to 350, and Ptolemaic Egypt from 305 to 30 BCE. The Late Period ends in 332 BCE. The cited pages were not opened.",
+        "sourceIds": ["unesco_gha", "louvre"]
+      }
+    ],
+    "whyItMatters": "332 to 305 BCE is an unnamed interval between the Late Period and Ptolemaic Egypt.",
+    "connections": ["Aksum’s checklist row starts about 100."]
+  },
+  {
+    "eraId": "era_600bce_500",
+    "macroRegion": "west_central_asia",
+    "entries": [
+      {
+        "range": "312 BCE–224",
+        "text": "The checklist dates the Seleucid kingdom from 312 to 63 BCE and the Parthian Empire from 247 BCE to 224 CE. The Hellenistic kingdoms row runs from 323 to 31 BCE. The cited pages were not opened.",
+        "sourceIds": ["isac", "louvre"]
+      }
+    ],
+    "whyItMatters": "Hellenism on this sheet is 323 to 31 BCE, the same span as the Hellenistic kingdoms row.",
+    "connections": ["The Achaemenid row was already on the sheet."]
+  },
+  {
+    "eraId": "era_600bce_500",
+    "macroRegion": "south_asia",
+    "entries": [
+      {
+        "range": "345 BCE–375",
+        "text": "The checklist dates the Nanda from 345 to 322 BCE, the Satavahana from about 230 BCE to 220, and the Kushan from about 30 to 375. The Maurya row on this sheet runs from 322 to 300 BCE. The cited pages were not opened.",
+        "sourceIds": ["british_library", "cambridge_histories"]
+      }
+    ],
+    "whyItMatters": "Nanda ends in 322 BCE, the start already stored on the Maurya row.",
+    "connections": ["The Gupta checklist row starts about 320."]
+  },
+  {
+    "eraId": "era_600bce_500",
+    "macroRegion": "east_asia",
+    "entries": [
+      {
+        "range": "770 BCE–280",
+        "text": "The checklist dates Spring and Autumn from 770 to 476 BCE, Qin from 221 to 206 BCE, Western Han from 206 BCE to 9 CE, and Eastern Han from 25 to 220. Xin is 9 to 23. The unnamed interval is 23 to 25. The cited pages were not opened.",
+        "sourceIds": ["chgis", "cambridge_histories"]
+      }
+    ],
+    "whyItMatters": "Qin meets Western Han in 206 BCE. Xin meets the unnamed interval in 23.",
+    "connections": ["The Axial Age band on this sheet runs from 650 to 250 BCE."]
+  },
+  {
+    "eraId": "era_600bce_500",
+    "macroRegion": "se_asia_oceania",
+    "entries": [
+      {
+        "range": "14000 BCE–550",
+        "text": "The checklist dates Dong Son from about 700 BCE to 100 CE and Funan from about 68 to 550. Jōmon uses about 14000 BCE to 300 BCE, and that start is before the chart window and is not clipped. The cited pages were not opened.",
+        "sourceIds": ["field_museum", "unesco_mow"]
+      }
+    ],
+    "whyItMatters": "Jōmon’s early start stays on the row. The chart window does not clip it.",
+    "connections": ["Yayoi’s checklist span is about 300 BCE to 300."]
+  }
+]

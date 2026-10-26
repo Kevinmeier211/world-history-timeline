@@ -16,8 +16,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Holy Roman Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Holy Roman Empire from 962 to 1806. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 962 to 1806.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -39,8 +42,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Papal States is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Papal States from 756 to 1870. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 756 to 1870.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -62,8 +68,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Venice is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Venice from 697 to 1797. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 697 to 1797.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -85,8 +94,12 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Spain at the union of the crowns is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates a union of the crowns in 1469 and Habsburg Spain in 1516. It does not name the interval, and this row uses those two years. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist years are 1469 and 1516.",
+      "The checklist does not name this interval.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -108,8 +121,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Habsburg Spain is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Habsburg Spain from 1516 to 1700. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1516 to 1700.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -131,8 +147,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Spain after Habsburg rule is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B ends Habsburg Spain at 1700 and does not name the later state. This row uses 1700 to 2000 as a placeholder. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist does not name the state after 1700.",
+      "2000 is the chart end, not a founding claim."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -154,8 +173,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Portugal is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Portugal from 1139 with no end. This row stops at 2000, the chart end. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist start is 1139.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -177,8 +199,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Dutch Republic is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Dutch Republic from 1581 to 1795. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1581 to 1795.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -200,8 +225,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Netherlands is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B ends the Dutch Republic in 1795 and does not name the later state. This row uses 1795 to 2000 as a placeholder. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist does not name the state after 1795.",
+      "2000 is the chart end, not a founding claim."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -223,8 +251,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Austria-Hungary is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Austria-Hungary from 1867 to 1918. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1867 to 1918.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -246,8 +277,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Austria is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B ends Austria-Hungary in 1918 and does not name the later states. This row uses 1918 to 2000 for Austria as a placeholder. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist does not name Austria after 1918.",
+      "2000 is the chart end, not a founding claim."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -269,8 +303,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Hungary is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B ends Austria-Hungary in 1918 and does not name the later states. This row uses 1918 to 2000 for Hungary as a placeholder. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist does not name Hungary after 1918.",
+      "2000 is the chart end, not a founding claim."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

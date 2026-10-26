@@ -16,8 +16,11 @@
         "xKey": "indus_india"
       }
     ],
-    "summary": "Vijayanagara is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Vijayanagara from 1336 to 1646. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1336 to 1646.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -39,8 +42,11 @@
         "xKey": "indus_india"
       }
     ],
-    "summary": "South Asia in 1857–1858 is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B ends the Mughal line at 1857 and starts the British Raj at 1858. It does not name this interval. This row uses those two years. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist years are 1857 and 1858.",
+      "The checklist does not name this interval."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -62,8 +68,11 @@
         "xKey": "indus_india"
       }
     ],
-    "summary": "Maratha is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Maratha from 1674 to 1818. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1674 to 1818.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -85,8 +94,11 @@
         "xKey": "indus_india"
       }
     ],
-    "summary": "Sikh Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Sikh Empire from 1799 to 1849. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1799 to 1849.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -108,8 +120,11 @@
         "xKey": "indus_india"
       }
     ],
-    "summary": "British Raj is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the British Raj from 1858 to 1947. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1858 to 1947.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -122,8 +137,8 @@
     "end": 2000,
     "confidence": "conventional",
     "dateNote": "Appendix B: India/Pakistan 1947–. Skeleton ends at 2000.",
-    "importance": 2,
-    "weight": 0.35,
+    "importance": 3,
+    "weight": 0.48,
     "kind": "state",
     "anchor": [
       {
@@ -131,8 +146,11 @@
         "xKey": "indus_india"
       }
     ],
-    "summary": "India is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates India and Pakistan from 1947 with no end. This row is India and stops at 2000, the chart end. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist start is 1947.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -154,8 +172,11 @@
         "xKey": "indus_india"
       }
     ],
-    "summary": "Pakistan is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates India and Pakistan from 1947 with no end. This row is Pakistan and stops at 2000, the chart end. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist start is 1947.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -177,8 +198,11 @@
         "xKey": "indus_india"
       }
     ],
-    "summary": "Bangladesh is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Bangladesh from 1971 with no end. This row stops at 2000, the chart end. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist start is 1971.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -200,8 +224,11 @@
         "xKey": "indus_india"
       }
     ],
-    "summary": "Tibetan Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Tibetan Empire from about 618 to 842. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 618 to 842.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

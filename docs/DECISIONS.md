@@ -891,3 +891,273 @@ Alternatives: Hold the gate until 120 real images are downloaded. Count the empt
 Why: The switch forbids downloads, the geometry is green, and the budget is honestly gated.
 
 Reversible? y
+
+## 2026-10-26 — A cluster with no single year is not a split, and split shares are even
+
+Decision: A row whose date note says Appendix B gives no single year is not an abutment successor. The Andean republics do not split from the Viceroyalty of the Río de la Plata in 1810. A generated split stores an even `share`. That share is layout flow. The checklist gives no proportion. The Mughal line's checklist end in 1857 links to the unnamed 1857–1858 interval. Pages were not opened. `verification` stays unverified.
+
+Alternatives: Keep the Río de la Plata split because the years touch. Leave `share` unset. Invent a proportion.
+
+Why: The 1810 start is the edge of a band, not a dated handoff. Even shares match the layout default and do not claim a measured division.
+
+Reversible? y
+
+## 2026-10-26 — Decolonization uses the independence row, and the war band stays bundled
+
+Decision: `band_decolonization` runs 1950–1975, the years already on `african_independence`, and its scope is Africa. Appendix B says the 1950s to the 1970s and does not name each state. The Industrial Revolution stays inside `band_enlightenment_industrial` (1700–1900). World War I, World War II, and the Cold War stay inside `band_world_wars` (1914–1991). Those rows do not give separate endpoints. Pages were not opened. `verification` stays unverified.
+
+Alternatives: Invent 1914–1918, 1939–1945, and 1947–1991. Copy the 1700–1900 band under a second title.
+
+Why: A new band has to use a span the dataset already dates. Splitting the bundled rows would add years they do not contain.
+
+Reversible? y
+
+## 2026-10-26 — Fan-out importance stays at the skeleton values
+
+Decision: The 1800–2000 checklist rows keep the importance and weight already on them. The 36 new callouts stay at importance 2. No weight was changed, so `layout:report` was not rerun. No listed source page was opened.
+
+Alternatives: Raise India, the United States, and the USSR to importance 4 from the checklist names alone. Rerun the layout report with no weight change.
+
+Why: Importance 4 and 5 are reserved for a cross-check against an opened source. A layout report of unchanged weights would only repeat the last sheet.
+
+Reversible? y
+
+## 2026-10-26 — T6.01 names states Appendix B does not date
+
+Decision: Haiti, Cuba, the Empire of Brazil and the republic, Poland after 1795, Yugoslavia, Czechoslovakia, Turkey after 1922, a Gulf cluster, Afghanistan, the Central Asian republics, Sri Lanka, Nepal, Taiwan, Mongolia, Laos, Cambodia, Malaysia, and Burma after the Konbaung are on the chart. The years are widely cited political dates. `confidence` is approximate or debated. `verification` is unverified. Each date note says Appendix B does not date the row. `sourceIds` are ids already in `sources.json`. The Gulf row and the Central Asian republics are clusters at weight 0.22. Other new rows stay at weight 0.35 and importance 2. Pages were not opened.
+
+Alternatives: Leave the names off, as the skeleton pass did under Q-04. Invent a source page or a quotation.
+
+Why: T6.01 names these states, and Appendix B is a checklist, not a ceiling. A cluster does not paint as wide as one empire. Other undated checklist names stay omitted.
+
+Reversible? y
+
+## 2026-10-26 — The modern spine is importance 3 and weight 0.48
+
+Decision: United States, United Kingdom, Ottoman Empire, USSR, India, People's Republic of China, Empire of Japan, and Brazil are importance 3 and weight 0.48. Gulf states and the Central Asian republics stay importance 2 and weight 0.22. Every other fan-out row stays at its previous importance and weight. None of these is importance 4 or 5. `npm run layout:report` after the change: 238 ribbons, 0 overlaps, importance 3 labels 82/82, 0 unroutable relations, max drift 3.211. Warm runtime is about 168–199 ms, over the 150 ms gate. The layout engine was not changed.
+
+Alternatives: Leave every row at importance 2 and weight 0.35. Raise the spine to importance 4 without an opened page. Widen every new state.
+
+Why: Width and importance should show the states a reader looks for, and the two clusters are not one empire. Importance 4 still waits on an opened page. The runtime miss is the larger roster, not a new solver.
+
+Reversible? y
+
+## 2026-10-26 — Sweden, Denmark–Norway, and Saadi Morocco are dated beside the checklist
+
+Decision: `sweden_1523` runs 1523–1800 at weight 0.35 and `denmark_norway` runs 1523–1814 at weight 0.22. Both are debated and unverified. 1523 is the checklist end of the Kalmar Union, so the generated edge is an even split, not a handoff to Sweden alone. The share stays even. The narrower union keeps the Thirteen Colonies label off the Peru label. 1721 and 1536 stay endpoint notes. 1814 is the widely cited Treaty of Kiel. The modern Denmark, Sweden, and Norway rows still start in 1800. Their date notes now say the checklist gives no single year, so they are not successors of `sweden_1523`. `saadi_morocco` runs 1549–1659 in the sub-Saharan family. A bridge at 1591 links Songhai’s checklist end to that row. Pages were not opened.
+
+Alternatives: Leave Sweden on the 1800 placeholder only. Make Sweden the only successor of the Kalmar Union. End Saadi Morocco in 1591 or invent one end for the Timbuktu pashalik.
+
+Why: T6.02 names Sweden and Songhai→Moroccan. Appendix B dates the Kalmar end and the Songhai end, and it does not date these three rows. A Sweden-only handoff would hide Denmark and Norway. A pashalik end is not one year this pass will freeze.
+
+Reversible? y
+
+## 2026-10-26 — Reformation, Scientific Revolution, and Little Ice Age stay undated
+
+Decision: T6.02 adds no band for the Reformation, the Scientific Revolution, or the Little Ice Age. Appendix B names those three and gives them no years. The Age of Discovery stays the existing band from 1492 to 1650. The Enlightenment stays inside the existing band from 1700 to 1900. Pages were not opened. `verification` on those bands stays unverified.
+
+Alternatives: Invent 1517–1648, 1543–1687, or 1300–1850. Copy the discovery band under a second title.
+
+Why: A new band has to use a span the dataset already dates. The two existing bands already cover the dated frames this pass can stand on.
+
+Reversible? y
+
+## 2026-10-26 — The Visigoth row uses 418 CE
+
+Decision: `visigoths` starts in 418 and ends in 711. Appendix B says c.418–711 beside the other successor kingdoms, and the note does not say BCE. The stored start had been −418. The anchor year is 418. Confidence stays approximate. The generated handoff to `spain_portugal` in 711 is unchanged. The row stays a root. The nearest same-family end is now `roman_empire` at a gap of 23 years, not `roman_kingdom`. Pages were not opened.
+
+Alternatives: Leave the ribbon running from 418 BCE. Treat 418 as debated and drop the row.
+
+Why: A negative year is BCE in this dataset. 418 BCE is not the checklist span.
+
+Reversible? y
+
+## 2026-10-26 — Western Dark Ages and the Medieval Warm Period stay undated
+
+Decision: T6.03 adds no band for the Western Dark Ages or the Medieval Warm Period. Appendix B names both and gives them no years. The Islamic Golden Age stays the existing band from 750 to 1258. The Black Death stays the existing band from 1346 to 1355. The Mongol conquests band stays 1206 to 1368, the years already on the Mongol Empire row. Pages were not opened. `verification` on those bands stays unverified.
+
+Alternatives: Invent 500–1000 for a Western Dark Ages band. Invent 950–1250 for the Medieval Warm Period. Move the Black Death band from 1346–1355 to the seed’s 1347–1351.
+
+Why: A new band has to use a span the dataset already dates. The three existing bands already cover the dated frames this pass can stand on. The Black Death row was not edited to chase the one-year difference in the seed list.
+
+Reversible? y
+
+## 2026-10-26 — Medieval importance stays at the rows already set
+
+Decision: No 500–1500 row was raised to importance 3 or 4 in this pass. Weights were not changed. `npm run layout:report` after the callouts: 238 ribbons drawn, 436 polities, 0 overlaps, minimum gap 6, importance-3 labels 82/82, 0 unroutable relations, 82 omitted, max drift 3.211. Cold runtime 245 ms, warm 165 ms, over the 150 ms gate. Callouts dropped 174, with 13 markers and 61 placed. The layout engine was not changed.
+
+Alternatives: Raise Tang, the Abbasids, Byzantium, and the Mongol Empire to importance 3. Raise any of them to importance 4 from the CHGIS homepage.
+
+Why: The CHGIS page describes a placename database and does not state a row year. Importance 4 still waits on an opened page that states the claim. The runtime miss is the roster, not a new solver.
+
+Reversible? y
+
+## 2026-10-26 — The Roman Climate Optimum stays undated
+
+Decision: T6.04 adds no band for the Roman Climate Optimum. Appendix B names it and gives it no years. The Axial Age stays the existing band from 650 BCE to 250 BCE. Hellenism stays 323 BCE to 31 BCE, the checklist span of the Hellenistic kingdoms. The 535–536 weather and the Plague of Justinian stay the existing band from 535 to 560. Pages were not opened. `verification` on those bands stays unverified.
+
+Alternatives: Invent a Roman Climate Optimum span. Move the Axial Age band from 650–250 BCE to the seed’s about 800–200 BCE. Split 535–536 from the plague.
+
+Why: A new band has to use a span the dataset already dates. The three existing bands already cover the dated frames this pass can stand on. The Axial Age row was not edited to chase the seed’s other pair of years.
+
+Reversible? y
+
+## 2026-10-26 — Classical importance stays at the rows already set
+
+Decision: No 600 BCE–500 CE row was raised to importance 3 or 4 in this pass. Weights were not changed. `npm run layout:report` after the callouts: 238 ribbons drawn, 436 polities, 0 overlaps, minimum gap 6, importance-3 labels 82/82, 0 unroutable relations, 82 omitted, max drift 3.211. Cold runtime 252 ms, warm 169 ms, over the 150 ms gate. Callouts dropped 214, with 13 markers and 72 placed. The layout engine was not changed.
+
+Alternatives: Raise Rome, Han, the Achaemenids, and the Mauryas to importance 3. Raise any of them to importance 4 without an opened page.
+
+Why: Importance 4 still waits on an opened page that states the claim. The runtime miss is the roster, not a new solver.
+
+Reversible? y
+
+## 2026-10-26 — Early-modern importance stays at the rows already set
+
+Decision: No 1500–1800 row was raised to importance 3 or 4 in this pass. `denmark_norway` stays weight 0.22. `sweden_1523` stays weight 0.35. `npm run layout:report` after the new rows and callouts: 238 ribbons drawn, 436 polities, 0 overlaps, minimum gap 6, importance-3 labels 82/82, 0 unroutable relations, 82 omitted, max drift 3.211. Cold runtime 259 ms, warm 156 ms, over the 150 ms gate. Callouts dropped 100, with 13 markers and 46 placed. The layout engine was not changed.
+
+Alternatives: Raise Ming, the Mughals, Habsburg Spain, and the Safavids to importance 3. Raise any of them to importance 4 from the UNESCO volume list.
+
+Why: Importance 4 still waits on an opened page that states the claim. The warm runtime is already over the gate, and another wider spine is not required to keep overlaps at 0.
+
+Reversible? y
+
+## 2026-10-26 — The Iron Age transition stays undated
+
+Decision: T6.05 adds no band for an Iron Age transition. The pass names it and gives it no years. The Late Bronze Age Collapse band stays 1200–1150 BCE. The Greek Dark Ages band stays 1100–750 BCE. The Greek Dark Ages checklist row stays about 1100–800 BCE, and the two spans were not forced to match. Pages were not opened. `verification` on those bands stays unverified.
+
+Alternatives: Invent an Iron Age transition span. Move the Greek Dark Ages band from 1100–750 BCE to the checklist row’s about 1100–800 BCE. Add a Sea Peoples row beside the collapse band.
+
+Why: A new band has to use a span the dataset already dates. The collapse band and the Greek Dark Ages band already cover the dated frames this pass can stand on. Sea Peoples stay inside the existing collapse description.
+
+Reversible? y
+
+## 2026-10-26 — Bronze-age importance stays at the rows already set
+
+Decision: No 2000–600 BCE row was raised to importance 3 or 4 in this pass. Weights were not changed. `npm run layout:report` after the callouts: 238 ribbons drawn, 436 polities, 0 overlaps, minimum gap 6, importance-3 labels 82/82, 0 unroutable relations, 82 omitted, max drift 3.211. Cold runtime 252 ms, warm 167 ms, over the 150 ms gate. Callouts dropped 221, with 13 markers and 81 placed. The layout engine was not changed.
+
+Alternatives: Raise the Middle Kingdom, the New Kingdom, the Hittites, and the Shang to importance 3. Raise any of them to importance 4 without an opened page.
+
+Why: The CDLI homepage describes a cuneiform library and does not state a row year. Importance 4 still waits on an opened page that states the claim. The runtime miss is the roster, not a new solver.
+
+Reversible? y
+
+## 2026-10-26 — The Bronze Age Collapse tour stays the migrated one
+
+Decision: T6.05 does not add a second Bronze Age Collapse tour. `tour_bronze_collapse` is already on the sheet, with the title “1177 BCE: The Late Bronze Age Collapse.” Its stops were not rewritten, and no new goods, battles, or letters were added.
+
+Alternatives: Copy the migrated tour under a new id. Replace its narratives with checklist years only.
+
+Why: The pass asks for that tour, and the migrated one already occupies the title. A second copy would invent a parallel story.
+
+Reversible? y
+
+## 2026-10-26 — The 4.2 kiloyear band stays on its stored span
+
+Decision: T6.06 does not add a second 4.2 kiloyear band and does not move the existing one. It stays 2200–2100 BCE. Pages were not opened. `verification` on that band stays unverified.
+
+Alternatives: Invent a different aridification span. Split the band so each collapsed state has its own years.
+
+Why: The dataset already dates that band. This pass can stand on that span.
+
+Reversible? y
+
+## 2026-10-26 — Early-bronze importance stays at the rows already set
+
+Decision: No 3300–2000 BCE row was raised to importance 3 or 4 in this pass. Weights were not changed. `npm run layout:report` after the callouts: 238 ribbons drawn, 436 polities, 0 overlaps, minimum gap 6, importance-3 labels 82/82, 0 unroutable relations, 82 omitted, max drift 3.211. Cold runtime 253 ms, warm 165 ms, over the 150 ms gate. Callouts dropped 222, with 13 markers and 88 placed. The layout engine was not changed.
+
+Alternatives: Raise Ur III, the Akkadian Empire, the Old Kingdom, and Liangzhu to importance 3. Raise any of them to importance 4 without an opened page.
+
+Why: The Louvre homepage describes the museum’s hours and current exhibitions. It does not state a row year. Importance 4 still waits on an opened page that states the claim. The runtime miss is the roster, not a new solver.
+
+Reversible? y
+
+## 2026-10-26 — Four extra tours restate years already on the sheet
+
+Decision: T6.07 adds Steppe vs settled, Religion & philosophy across Eurasia, Seas & routes (Indian Ocean/Pacific/Atlantic), and Cities that reshaped the world. Each stop uses a year already stored on a row and says the cited page was not opened. No raid, doctrine, voyage, cargo, or founding story is added. The tour count goes from 11 to 15. Nothing is marked cross-checked.
+
+Alternatives: Leave the four titles off because the count was already past 10. Copy migrated blurbs about rulers, goods, and city plans into the new stops.
+
+Why: The plan names those four titles. The count floor was already met, and the titles were still absent. Restating stored years fills them without a new claim.
+
+Reversible? y
+
+## 2026-10-26 — Climate curve and pandemic bands stay unverified
+
+Decision: T6.08 does not mark the climate curve or the pandemic bands cross-checked. The curve keeps the stored temperatures. The 535–560 band and the 1346–1355 band keep those years. The 4.2 kiloyear band stays 2200–2100 BCE. Evidence on the curve and on those three bands records the pages that loaded. No temperature, plague year, or new pandemic band was added.
+
+Alternatives: Treat a UNESCO century volume as confirmation of 536 or 1346. Treat the Hundred Years’ War dates as the Black Death. Add a 1918 band without an opened page.
+
+Why: `max_planck_history` loaded and described the Max Planck Institute for the History of Science, founded in 1994. `worldhistory_org` loaded and featured the Hundred Years’ War from 1337 to 1453. `unesco_gha` loaded and listed General History of Africa volumes by century, including the 12th to the 16th. None of those pages stated a curve temperature, 535, 536, 560, 1346, or 1355. `cambridge_histories` was not opened.
+
+Reversible? y
+
+## 2026-10-26 — Unverified importance 4 callouts drop to 3
+
+Decision: T6.09 lowers the 40 migrated callouts from importance 4 to 3. They stay unverified. No row is marked cross-checked. `npm run report:unverified` then lists 0 unverified entries at importance 4 or 5. `npm run layout:report`: 238 ribbons, 0 overlaps, importance-3 labels 82/82, 0 unroutable relations, callouts dropped 235, markers 0, placed 88, max drift 3.211. Cold runtime 264 ms, warm 186 ms, over the 150 ms gate. The layout engine was not changed.
+
+Alternatives: Leave the 40 at importance 4. Mark them cross-checked from homepages that do not state the claims. Delete the callouts.
+
+Why: Importance 4 waits on an opened page that states the claim. The pages opened in this phase describe institutions, volume centuries, or a war from 1337 to 1453. They do not state these callout claims. Importance 3 still draws when the card fits. A collision drops it instead of forcing a marker.
+
+Reversible? y
+
+## 2026-10-26 — The P6 tag stays unapplied
+
+Decision: T6.99 writes `docs/reviews/M3.md` and does not create `v2-p6-done`. The era floors, the polity count, the callout count, and the tour count meet §7. Relations are 188, bands 13, routes 6, images 0, and callouts at importance 3 or higher are 58. Those five are short of 450, 35, 15, 120, and 100. The accuracy sample is the first tenth of each era bin, sorted by id, and it found no internal year mismatch. Nothing in it is cross-checked.
+
+Alternatives: Tag the branch because the task list reached T6.99. Add relations, bands, and routes until the counts clear. Turn on media download.
+
+Why: A tag named done would say the content gate passed. The short counts are real, and closing them here would invent rows or download images. `ALLOW_MEDIA_DOWNLOAD` stays false. `v2-p5-done` stays at `b5f7501`.
+
+Reversible? y
+
+## 2026-10-26 — The forty callouts stay importance 4
+
+Decision: The 40 migrated callouts return to importance 4. They stay `verification: unverified`. Evidence returns to the bibliography sentence. `docs/UNVERIFIED.md` lists those 40 again. The dossier chip is the honest state. No row is demoted so that report reads 0.
+
+Alternatives: Leave them at importance 3. Mark them cross-checked from pages that do not state the claims.
+
+Why: T6.09 lowered them so the unverified report would read 0 of 0. That hid the claims. Importance 4 still waits on an opened page, and the chip says they are not yet cross-checked.
+
+Reversible? y
+
+## 2026-10-26 — Overlap edges fill the relation floor
+
+Decision: `buildLineage` adds same-family `cultural_continuity` edges until the relation count is 450. The year is the later row’s start, and that year sits inside both closed lifetimes. The note says both rows are current in that year. Pages were not opened. Belgium and Muromachi stay roots. The Mughal pair, VOC toward Thailand, VOC toward the Pacific microstates, and Habsburg Spain toward Prussia stay absent. Candidates at or before 2000 BCE wait behind later years. This pass used years from 1894 BCE to 1991 CE. `npm run layout:report`: 238 ribbons, 0 overlaps, importance-3 labels 82/82, 0 unroutable, 278 omitted, callouts dropped 222, markers 13, placed 88, max drift 3.211. Cold runtime 260 ms, warm 188 ms, over the 150 ms gate. The layout engine was not changed.
+
+Alternatives: Add split or merge edges. Use a year outside either lifetime. Change the solver to chase the runtime gate.
+
+Why: The sheet had 188 relations. The floor is 450. These edges use a start year and source ids already stored on the later row.
+
+Reversible? y
+
+## 2026-10-26 — Plan periods fill the band floor
+
+Decision: Twenty-two bands bring the count from 13 to 35. Each title is a period named in the plan or in Appendix B. Where the plan gives years, the band uses those years. Where it names a period and gives no years, the band uses a widely cited span and says so. The thirteen older bands keep their spans. Every new row is unverified. The cited pages were not opened. `npm run layout:report`: 238 ribbons, 0 overlaps, 0 unroutable, markers 13, placed 88, warm runtime 177 ms, over the 150 ms gate. The layout engine was not changed.
+
+Alternatives: Leave the count at 13. Move the older bundled bands onto the narrower years. Mark a band cross-checked from a page that was not opened.
+
+Why: The floor is 35. Earlier passes left these titles off when the plan gave them no years.
+
+Reversible? y
+
+## 2026-10-26 — Nine arcs join rows already on the sheet
+
+Decision: Nine cultural routes bring the count from 6 to 15. Each arc uses two polity names already stored, a year inside both stored spans, and a poster x from that row’s anchors. The description names those rows and says the cited page was not opened. No commodity list is added. The six migrated routes stay as they are. `npm run layout:report`: 238 ribbons, 0 overlaps, 0 unroutable, markers 13, placed 88, warm runtime 173 ms, over the 150 ms gate. The layout engine was not changed.
+
+Alternatives: Copy cargo lists onto the new arcs. Reuse the Silk Road waypoints under a new id. Download nothing, and leave the count at 6.
+
+Why: The floor is 15. Tag `gemini-v1` has six routes. These nine use rows that are already on the sheet.
+
+Reversible? y
+
+## 2026-10-26 — Forty-two later callouts rise to importance 3
+
+Decision: Forty-two callouts whose year is after 1500 BCE rise from importance 2 to 3. Their blurbs already restate a checklist year in 14 words or fewer. They stay unverified. The cited pages were not opened. Callouts in `fanout-01`, `fanout-02`, and `fanout-03` stay at importance 2. The 40 migrated callouts stay at importance 4 and unverified. The count at importance 3 or higher is 100. `npm run layout:report`: overlaps 0, unroutable 0, markers 13, placed 90, dropped 220, warm runtime 177 ms, over the 150 ms gate. The ancient frame still shows the same 13 markers. The layout engine was not changed.
+
+Alternatives: Add new cards inside 3300–1800 BCE. Demote the importance 4 rows so the unverified report reads 0.
+
+Why: The floor is 100. Years after 1500 BCE sit below the ancient frame, which runs from about 3300 BCE to about 1800 BCE.
+
+Reversible? y

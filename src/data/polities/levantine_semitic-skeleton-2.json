@@ -16,8 +16,11 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Iraq is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B places modern Arab states in the 1930s to the 1970s and does not name this state. This row uses 1930 to 2000 as a placeholder. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist does not name this state.",
+      "1930 and 2000 are placeholders, not a founding claim."
+    ],
     "sourceIds": ["louvre", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

@@ -16,8 +16,11 @@
         "xKey": "china_east_asia"
       }
     ],
-    "summary": "Qing is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Qing from 1644 to 1912. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1644 to 1912.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["chgis", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -39,8 +42,11 @@
         "xKey": "china_east_asia"
       }
     ],
-    "summary": "Republic of China is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Republic of China from 1912 with no end. This row stops at 2000, the chart end. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist start is 1912.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["chgis", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -53,8 +59,8 @@
     "end": 2000,
     "confidence": "conventional",
     "dateNote": "Appendix B: PRC 1949–. Skeleton ends at 2000.",
-    "importance": 2,
-    "weight": 0.35,
+    "importance": 3,
+    "weight": 0.48,
     "kind": "state",
     "anchor": [
       {
@@ -62,8 +68,11 @@
         "xKey": "china_east_asia"
       }
     ],
-    "summary": "People's Republic of China is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the People's Republic of China from 1949 with no end. This row stops at 2000, the chart end. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist start is 1949.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["chgis", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

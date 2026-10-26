@@ -16,8 +16,11 @@
         "xKey": "andean"
       }
     ],
-    "summary": "Paracas is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Paracas from about 800 BCE to 100 CE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 800 BCE to 100 CE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["museo_larco", "field_museum"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -39,8 +42,11 @@
         "xKey": "andean"
       }
     ],
-    "summary": "Nazca is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Nazca from about 100 BCE to 800 CE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 100 BCE to 800 CE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["museo_larco", "field_museum"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -62,8 +68,11 @@
         "xKey": "andean"
       }
     ],
-    "summary": "Moche is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Moche from about 100 to 700. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 100 to 700.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["museo_larco", "field_museum"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -85,8 +94,11 @@
         "xKey": "andean"
       }
     ],
-    "summary": "Wari is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Wari from about 600 to 1000. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 600 to 1000.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["museo_larco", "field_museum"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -108,54 +120,11 @@
         "xKey": "andean"
       }
     ],
-    "summary": "Tiwanaku is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
-    "sourceIds": ["museo_larco", "field_museum"],
-    "verification": "unverified",
-    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
-  },
-  {
-    "id": "viceroyalty_new_granada",
-    "name": "Viceroyalty of New Granada",
-    "family": "andean",
-    "start": 1717,
-    "end": 1819,
-    "confidence": "conventional",
-    "dateNote": "Appendix B: 1717–1819.",
-    "importance": 2,
-    "weight": 0.35,
-    "kind": "state",
-    "anchor": [
-      {
-        "year": 1717,
-        "xKey": "andean"
-      }
+    "summary": "Appendix B dates Tiwanaku from about 500 to 1000. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 500 to 1000.",
+      "The pages cited on this row were not opened."
     ],
-    "summary": "Viceroyalty of New Granada is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
-    "sourceIds": ["museo_larco", "field_museum"],
-    "verification": "unverified",
-    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
-  },
-  {
-    "id": "rio_de_la_plata",
-    "name": "Viceroyalty of the Río de la Plata",
-    "family": "andean",
-    "start": 1776,
-    "end": 1810,
-    "confidence": "conventional",
-    "dateNote": "Appendix B: 1776–1810.",
-    "importance": 2,
-    "weight": 0.35,
-    "kind": "state",
-    "anchor": [
-      {
-        "year": 1776,
-        "xKey": "andean"
-      }
-    ],
-    "summary": "Viceroyalty of the Río de la Plata is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
     "sourceIds": ["museo_larco", "field_museum"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -177,8 +146,11 @@
         "xKey": "andean"
       }
     ],
-    "summary": "Argentina is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Argentina is in the Appendix B independence cluster of the 1810s to the 1830s, which gives no single year. This row starts at 1810 and ends at 2000. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist gives no single independence year.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["museo_larco", "field_museum"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -200,8 +172,11 @@
         "xKey": "andean"
       }
     ],
-    "summary": "Chile is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Chile is in the Appendix B independence cluster of the 1810s to the 1830s, which gives no single year. This row starts at 1810 and ends at 2000. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist gives no single independence year.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["museo_larco", "field_museum"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -223,8 +198,11 @@
         "xKey": "andean"
       }
     ],
-    "summary": "Peru is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Peru is in the Appendix B independence cluster of the 1810s to the 1830s, which gives no single year. This row starts at 1810 and ends at 2000. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist gives no single independence year.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["museo_larco", "field_museum"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -246,8 +224,11 @@
         "xKey": "andean"
       }
     ],
-    "summary": "Bolivia is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Bolivia is in the Appendix B independence cluster of the 1810s to the 1830s, which gives no single year. This row starts at 1810 and ends at 2000. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist gives no single independence year.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["museo_larco", "field_museum"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -269,8 +250,11 @@
         "xKey": "andean"
       }
     ],
-    "summary": "Ecuador is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Ecuador is in the Appendix B independence cluster of the 1810s to the 1830s, which gives no single year. This row starts at 1810 and ends at 2000. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist gives no single independence year.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["museo_larco", "field_museum"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -292,8 +276,11 @@
         "xKey": "andean"
       }
     ],
-    "summary": "Colombia is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Colombia is in the Appendix B independence cluster of the 1810s to the 1830s, which gives no single year. This row starts at 1810 and ends at 2000. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist gives no single independence year.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["museo_larco", "field_museum"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -315,8 +302,11 @@
         "xKey": "andean"
       }
     ],
-    "summary": "Venezuela is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Venezuela is in the Appendix B independence cluster of the 1810s to the 1830s, which gives no single year. This row starts at 1810 and ends at 2000. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist gives no single independence year.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["museo_larco", "field_museum"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -338,8 +328,11 @@
         "xKey": "andean"
       }
     ],
-    "summary": "Paraguay is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Paraguay is in the Appendix B independence cluster of the 1810s to the 1830s, which gives no single year. This row starts at 1810 and ends at 2000. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist gives no single independence year.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["museo_larco", "field_museum"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -361,8 +354,11 @@
         "xKey": "andean"
       }
     ],
-    "summary": "Uruguay is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Uruguay is in the Appendix B independence cluster of the 1810s to the 1830s, which gives no single year. This row starts at 1810 and ends at 2000. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist gives no single independence year.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["museo_larco", "field_museum"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

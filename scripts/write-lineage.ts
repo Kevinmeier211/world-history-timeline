@@ -43,6 +43,7 @@ const polities = dataset.polities.map((polity: Polity) => ({
   end: polity.end,
   sourceIds: polity.sourceIds,
   overlay: polity.dateNote?.includes('Migrated from gemini-v1') ?? false,
+  clusterStart: polity.dateNote?.includes('gives no single year') ?? false,
 }));
 const parents = [...POLITIES_WEST, ...POLITIES_EAST].map((polity) => ({
   id: polity.id,

@@ -1,0 +1,93 @@
+[
+  {
+    "eraId": "era_3300bce_2000",
+    "macroRegion": "americas",
+    "entries": [
+      {
+        "range": "3100–1800 BCE",
+        "text": "The Norte Chico row on this sheet runs from about 3100 BCE to 1800 BCE. No other Americas checklist row was added in this pass. The cited pages were not opened.",
+        "sourceIds": ["inah", "museo_larco"]
+      }
+    ],
+    "whyItMatters": "Norte Chico was already on the sheet. This pass did not change its years.",
+    "connections": ["The Olmec row on this sheet starts about 1500 BCE."]
+  },
+  {
+    "eraId": "era_3300bce_2000",
+    "macroRegion": "europe",
+    "entries": [
+      {
+        "range": "3300–1450 BCE",
+        "text": "The rows on this sheet date Yamnaya from about 3300 BCE to 2600 BCE and the Minoans from about 2700 BCE to 1450 BCE. The migrated Minoan–Mycenaean bundle stays. The cited pages were not opened.",
+        "sourceIds": ["louvre", "cambridge_histories"]
+      }
+    ],
+    "whyItMatters": "Minoan origins stay on the checklist row that starts about 2700 BCE.",
+    "connections": ["The 4.2 kiloyear band on this sheet is 2200 to 2100 BCE."]
+  },
+  {
+    "eraId": "era_3300bce_2000",
+    "macroRegion": "africa",
+    "entries": [
+      {
+        "range": "3100–2055 BCE",
+        "text": "The checklist dates Early Dynastic Egypt from about 3100 BCE to 2686 BCE, the Old Kingdom from 2686 BCE to 2181 BCE, and the First Intermediate Period from 2181 BCE to 2055 BCE. The cited pages were not opened.",
+        "sourceIds": ["louvre", "unesco_gha"]
+      }
+    ],
+    "whyItMatters": "The migrated bundle is the wider Early Dynastic and Old Kingdom ribbon.",
+    "connections": ["Kerma’s checklist row starts about 2500 BCE."]
+  },
+  {
+    "eraId": "era_3300bce_2000",
+    "macroRegion": "west_central_asia",
+    "entries": [
+      {
+        "range": "3500–2004 BCE",
+        "text": "The checklist dates the Sumerian city-states from about 3500 BCE to 2334 BCE, the Akkadian Empire from about 2334 BCE to 2154 BCE, and Ur III from about 2112 BCE to 2004 BCE. The interval 2154 to 2112 BCE is unnamed. The cited pages were not opened.",
+        "sourceIds": ["cdli", "isac"]
+      }
+    ],
+    "whyItMatters": "The Akkadian line ends in 2154 BCE, the start of the unnamed interval.",
+    "connections": ["Ur III ends in 2004 BCE, where the next unnamed interval starts."]
+  },
+  {
+    "eraId": "era_3300bce_2000",
+    "macroRegion": "south_asia",
+    "entries": [
+      {
+        "range": "3300–1900 BCE",
+        "text": "The Indus row on this sheet runs from about 3300 BCE to 1300 BCE. The mature Harappan checklist row runs from about 2600 BCE to 1900 BCE, inside that span. The cited pages were not opened.",
+        "sourceIds": ["british_library", "cambridge_histories"]
+      }
+    ],
+    "whyItMatters": "The mature Harappan row does not replace the migrated Indus bundle.",
+    "connections": ["The Vedic row on this sheet starts about 1500 BCE."]
+  },
+  {
+    "eraId": "era_3300bce_2000",
+    "macroRegion": "east_asia",
+    "entries": [
+      {
+        "range": "3300–1900 BCE",
+        "text": "The checklist dates Liangzhu from about 3300 BCE to 2300 BCE. The unnamed interval runs from 2300 BCE to 1900 BCE. Longshan on this sheet runs from about 3000 BCE to 1900 BCE. The cited pages were not opened.",
+        "sourceIds": ["chgis", "cambridge_histories"]
+      }
+    ],
+    "whyItMatters": "The Xia link stays off this sheet. Erlitou’s checklist row starts about 1900 BCE.",
+    "connections": ["Jōmon on this sheet starts about 14000 BCE and is not clipped."]
+  },
+  {
+    "eraId": "era_3300bce_2000",
+    "macroRegion": "se_asia_oceania",
+    "entries": [
+      {
+        "range": "1600–500 BCE",
+        "text": "No checklist row in this region overlaps 3300 to 2000 BCE. Lapita, the earliest row on this sheet for the region, starts about 1600 BCE. The cited pages were not opened.",
+        "sourceIds": ["field_museum", "unesco_mow"]
+      }
+    ],
+    "whyItMatters": "Austronesian origins stay off this sheet. The pass did not invent a start year.",
+    "connections": ["Dong Son’s checklist span starts about 700 BCE."]
+  }
+]

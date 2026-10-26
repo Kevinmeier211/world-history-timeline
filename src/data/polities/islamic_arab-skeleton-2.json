@@ -1,0 +1,65 @@
+[
+  {
+    "id": "turkey",
+    "name": "Turkey",
+    "altNames": ["Republic of Turkey"],
+    "family": "islamic_arab",
+    "start": 1923,
+    "end": 2000,
+    "confidence": "approximate",
+    "dateNote": "1923 is widely cited for the republic. The checklist Ottoman row ends in 1922. 2000 is the chart end. Appendix B does not date Turkey. Pages were not opened.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1923,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "The republic is widely dated to 1923. The checklist Ottoman row ends in 1922. This row runs to 2000, the chart end. Appendix B does not date Turkey. The cited pages were not opened.",
+    "keyFacts": [
+      "1923 is widely cited for the republic.",
+      "The checklist Ottoman row ends in 1922.",
+      "2000 is the chart end."
+    ],
+    "sourceIds": ["unesco_gha", "cambridge_histories"],
+    "rulers": [
+      {
+        "name": "Mustafa Kemal Atatürk",
+        "reign": "1923–1938",
+        "title": "President"
+      }
+    ],
+    "verification": "unverified",
+    "evidence": "Widely cited political dates. The cited pages were not opened for this row."
+  },
+  {
+    "id": "gulf_states",
+    "name": "Gulf states",
+    "altNames": ["Bahrain", "Qatar", "United Arab Emirates", "Kuwait", "Oman"],
+    "family": "islamic_arab",
+    "start": 1971,
+    "end": 2000,
+    "confidence": "debated",
+    "dateNote": "1971 is widely cited for Bahrain, Qatar, and the United Arab Emirates. Kuwait is widely dated to 1961. Oman is older. Appendix B does not name each state. This row is a cluster. 2000 is the chart end. Pages were not opened.",
+    "importance": 2,
+    "weight": 0.22,
+    "kind": "confederation",
+    "anchor": [
+      {
+        "year": 1971,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "1971 is widely cited for Bahrain, Qatar, and the United Arab Emirates. Kuwait is widely dated to 1961, and Oman is older. This cluster runs to 2000, the chart end. Appendix B does not name each state. The cited pages were not opened.",
+    "keyFacts": [
+      "1971 is widely cited for Bahrain, Qatar, and the United Arab Emirates.",
+      "Kuwait is widely dated to 1961, and Oman is older.",
+      "Appendix B does not name each state."
+    ],
+    "sourceIds": ["unesco_gha", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Widely cited political dates. The cited pages were not opened for this row."
+  }
+]

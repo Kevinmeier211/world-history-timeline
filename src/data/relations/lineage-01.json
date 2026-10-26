@@ -60,6 +60,30 @@
     "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
   },
   {
+    "id": "abut_brazil_empire_brazil",
+    "from": ["brazil_empire"],
+    "to": ["brazil"],
+    "year": 1889,
+    "type": "succession",
+    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
+    "sourceIds": ["museo_larco", "field_museum"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
+  },
+  {
+    "id": "abut_british_burma_burma",
+    "from": ["british_burma"],
+    "to": ["burma"],
+    "year": 1948,
+    "type": "succession",
+    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
+    "sourceIds": ["field_museum", "unesco_mow"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
+  },
+  {
     "id": "abut_china_23_eastern_han",
     "from": ["china_23"],
     "to": ["eastern_han"],
@@ -84,6 +108,18 @@
     "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
   },
   {
+    "id": "abut_duchy_of_warsaw_congress_poland",
+    "from": ["duchy_of_warsaw"],
+    "to": ["congress_poland"],
+    "year": 1815,
+    "type": "succession",
+    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
+  },
+  {
     "id": "abut_dutch_republic_netherlands",
     "from": ["dutch_republic"],
     "to": ["netherlands"],
@@ -100,42 +136,6 @@
     "from": ["early_dynastic_egypt"],
     "to": ["old_kingdom_egypt"],
     "year": -2686,
-    "type": "succession",
-    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
-    "sourceIds": ["louvre", "unesco_gha"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
-  },
-  {
-    "id": "abut_east_francia_hre",
-    "from": ["east_francia"],
-    "to": ["hre"],
-    "year": 962,
-    "type": "succession",
-    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
-    "sourceIds": ["cambridge_histories", "british_library"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
-  },
-  {
-    "id": "abut_egypt_late_to_ptolemaic_ptolemaic_egypt",
-    "from": ["egypt_late_to_ptolemaic"],
-    "to": ["ptolemaic_egypt"],
-    "year": -305,
-    "type": "succession",
-    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
-    "sourceIds": ["louvre", "unesco_gha"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
-  },
-  {
-    "id": "abut_egypt_middle_kingdom_second_intermediate_egypt",
-    "from": ["egypt_middle_kingdom"],
-    "to": ["second_intermediate_egypt"],
-    "year": -1650,
     "type": "succession",
     "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
     "sourceIds": ["louvre", "unesco_gha"],

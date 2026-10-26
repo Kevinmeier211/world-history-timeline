@@ -16,8 +16,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Hallstatt is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Hallstatt from about 1200 BCE to 500 BCE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 1200 BCE to 500 BCE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -39,8 +42,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "La Tène is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates La Tène from about 450 BCE to 50 BCE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 450 BCE to 50 BCE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -62,8 +68,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Anglo-Saxons is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Anglo-Saxons from about 410 to 1066. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 410 to 1066.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -85,8 +94,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Vikings is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Vikings from about 793 to 1066. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 793 to 1066.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -108,8 +120,12 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "England is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Norman England from 1066 and keeps England until Great Britain in 1707. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1066 to 1707.",
+      "1707 is the checklist start of Great Britain.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -131,8 +147,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Great Britain is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Great Britain from 1707, then the United Kingdom in 1801. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist years are 1707 and 1801.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -145,8 +164,8 @@
     "end": 2000,
     "confidence": "conventional",
     "dateNote": "Appendix B: UK 1801–. Skeleton ends at 2000. The migrated british_empire bundle stays.",
-    "importance": 2,
-    "weight": 0.35,
+    "importance": 3,
+    "weight": 0.48,
     "kind": "state",
     "anchor": [
       {
@@ -154,8 +173,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "United Kingdom is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the United Kingdom from 1801 with no end. This row stops at 2000, the chart end. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist start is 1801.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -177,8 +199,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Kalmar Union is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Kalmar Union from 1397 to 1523. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1397 to 1523.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -190,7 +215,7 @@
     "start": 1800,
     "end": 2000,
     "confidence": "debated",
-    "dateNote": "Appendix B names Denmark among the Scandinavian kingdoms and does not give it a year. Skeleton uses 1800–2000.",
+    "dateNote": "Appendix B names Denmark among the Scandinavian kingdoms and gives no single year. Skeleton uses 1800–2000.",
     "importance": 2,
     "weight": 0.35,
     "kind": "state",
@@ -200,8 +225,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Denmark is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Denmark is named among the Scandinavian kingdoms, and Appendix B gives it no year. This row uses 1800 to 2000 as a placeholder. 1800 is not a founding year. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist names this kingdom and gives no year.",
+      "1800 is a placeholder, not a founding year."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -213,7 +241,7 @@
     "start": 1800,
     "end": 2000,
     "confidence": "debated",
-    "dateNote": "Appendix B names Sweden among the Scandinavian kingdoms and does not give it a year. Skeleton uses 1800–2000.",
+    "dateNote": "Appendix B names Sweden among the Scandinavian kingdoms and gives no single year. Skeleton uses 1800–2000.",
     "importance": 2,
     "weight": 0.35,
     "kind": "state",
@@ -223,8 +251,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Sweden is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Sweden is named among the Scandinavian kingdoms, and Appendix B gives it no year. This row uses 1800 to 2000 as a placeholder. 1800 is not a founding year. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist names this kingdom and gives no year.",
+      "1800 is a placeholder, not a founding year."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -236,7 +267,7 @@
     "start": 1800,
     "end": 2000,
     "confidence": "debated",
-    "dateNote": "Appendix B names Norway among the Scandinavian kingdoms and does not give it a year. Skeleton uses 1800–2000.",
+    "dateNote": "Appendix B names Norway among the Scandinavian kingdoms and gives no single year. Skeleton uses 1800–2000.",
     "importance": 2,
     "weight": 0.35,
     "kind": "state",
@@ -246,11 +277,90 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Norway is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Norway is named among the Scandinavian kingdoms, and Appendix B gives it no year. This row uses 1800 to 2000 as a placeholder. 1800 is not a founding year. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist names this kingdom and gives no year.",
+      "1800 is a placeholder, not a founding year."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "sweden_1523",
+    "name": "Sweden",
+    "altNames": ["Swedish Empire"],
+    "family": "celtic_germanic_norse",
+    "start": 1523,
+    "end": 1800,
+    "confidence": "debated",
+    "dateNote": "Appendix B does not date Sweden before the modern row. 1523 is the checklist end of the Kalmar Union. 1800 is where the undated Sweden row begins. 1721 is widely cited for the Treaty of Nystad and is not this end. Pages were not opened.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1523,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Appendix B does not date Sweden before the modern row. This span runs from 1523, the checklist end of the Kalmar Union, to 1800, where that undated row begins. 1721 is a widely cited treaty year and is not this end. The cited pages were not opened.",
+    "keyFacts": [
+      "1523 is the checklist end of the Kalmar Union.",
+      "1721 is widely cited and is not this end.",
+      "The undated Sweden row still begins in 1800."
+    ],
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "rulers": [
+      {
+        "name": "Gustav Vasa",
+        "reign": "1523–1560",
+        "title": "King"
+      }
+    ],
+    "endpoints": [
+      {
+        "label": "Treaty of Nystad",
+        "year": 1721,
+        "note": "Widely cited end of the great-power period. Not used as the span end."
+      }
+    ],
+    "verification": "unverified",
+    "evidence": "Widely cited political dates. The cited pages were not opened for this row."
+  },
+  {
+    "id": "denmark_norway",
+    "name": "Denmark–Norway",
+    "family": "celtic_germanic_norse",
+    "start": 1523,
+    "end": 1814,
+    "confidence": "debated",
+    "dateNote": "Appendix B does not date Denmark–Norway. 1523 is the checklist end of the Kalmar Union. 1814 is widely cited for the Treaty of Kiel. 1536 is also cited and is not the start. Pages were not opened.",
+    "importance": 2,
+    "weight": 0.22,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1523,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Appendix B does not date Denmark–Norway. This row uses 1523, the checklist end of the Kalmar Union, and 1814, widely cited for the Treaty of Kiel. 1536 is also cited and is not the start. The cited pages were not opened.",
+    "keyFacts": [
+      "1523 is the checklist end of the Kalmar Union.",
+      "1814 is widely cited for the Treaty of Kiel.",
+      "1536 is also cited and is not the start."
+    ],
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "endpoints": [
+      {
+        "label": "Norway under the Danish crown",
+        "year": 1536,
+        "note": "Another widely cited year. Not used as the span start."
+      }
+    ],
+    "verification": "unverified",
+    "evidence": "Widely cited political dates. The cited pages were not opened for this row."
   },
   {
     "id": "corded_ware",

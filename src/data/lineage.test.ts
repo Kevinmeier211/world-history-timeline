@@ -70,9 +70,58 @@ describe('buildLineage', () => {
     const disputed = result.relations.find((item) => item.type === 'disputed');
     expect(split?.from).toEqual(['mid']);
     expect(split?.to).toEqual(['east', 'west']);
+    expect(split?.share).toEqual([0.5, 0.5]);
     expect(disputed?.from).toEqual(['pred_a', 'pred_b']);
     expect(disputed?.to).toEqual(['child']);
-    expect(result.roots.map((root) => root.id)).toEqual(['mid', 'pred_a', 'pred_b']);
+    expect(
+      result.relations.find((item) => item.id === 'overlap_pred_a_pred_b'),
+    ).toMatchObject({
+      type: 'cultural_continuity',
+      year: -160,
+      from: ['pred_a'],
+      to: ['pred_b'],
+    });
+    expect(result.roots.map((root) => root.id)).toEqual(['mid', 'pred_a']);
+  });
+
+  it('does not hand a no-single-year cluster to the polity that ends on that edge', () => {
+    const cluster = (id: string): LineagePolity => ({
+      ...polity(id, 'andean', 1810, 2000),
+      clusterStart: true,
+    });
+    const result = buildLineage(
+      [
+        polity('rio', 'andean', 1776, 1810),
+        cluster('argentina'),
+        cluster('chile'),
+        polity('mughal', 'turkic', 1526, 1857),
+        polity('india_1857', 'indian', 1857, 1858),
+      ],
+      [],
+      [],
+    );
+    expect(result.relations.some((item) => item.to.includes('argentina'))).toBe(false);
+    expect(
+      result.relations.some((item) => item.id === 'bridge_mughal_india_1857'),
+    ).toBe(true);
+    const songhai = buildLineage(
+      [
+        polity('songhai_empire', 'sub_saharan', 1464, 1591),
+        polity('saadi_morocco', 'sub_saharan', 1549, 1659),
+      ],
+      [],
+      [],
+    );
+    expect(
+      songhai.relations.some(
+        (item) =>
+          item.id === 'bridge_songhai_empire_saadi_morocco' && item.year === 1591,
+      ),
+    ).toBe(true);
+    expect(result.roots.find((root) => root.id === 'argentina')?.reason).toContain(
+      'no single year',
+    );
+    expect(result.roots.some((root) => root.id === 'india_1857')).toBe(false);
   });
 
   it('copies a v1 parent only when one year sits inside both lifetimes', () => {
@@ -122,10 +171,18 @@ describe('buildLineage', () => {
       [],
       [],
     );
-    expect(crowded.relations.map((item) => item.id)).toEqual(['abut_habsburg_spain']);
-    expect(crowded.roots.find((root) => root.id === 'prussia')?.reason).toContain(
-      'still current',
-    );
+    expect(crowded.relations.map((item) => item.id)).toEqual([
+      'abut_habsburg_spain',
+      'overlap_france_habsburg',
+      'overlap_france_prussia',
+      'overlap_france_spain',
+      'overlap_spain_prussia',
+    ]);
+    expect(
+      crowded.relations
+        .filter((item) => item.to.includes('prussia'))
+        .every((item) => item.type === 'cultural_continuity'),
+    ).toBe(true);
 
     const overlay = { ...polity('zhou', 'chinese', -1046, -221), overlay: true };
     const open = buildLineage(
@@ -137,7 +194,10 @@ describe('buildLineage', () => {
       [],
       [],
     );
-    expect(open.relations.map((item) => item.id)).toEqual(['abut_western_spring']);
+    expect(open.relations.map((item) => item.id)).toEqual([
+      'abut_western_spring',
+      'overlap_zhou_spring',
+    ]);
     const blocked = buildLineage(
       [
         polity('zhou', 'chinese', -1046, -221),
@@ -147,7 +207,8 @@ describe('buildLineage', () => {
       [],
       [],
     );
-    expect(blocked.relations).toEqual([]);
+    expect(blocked.relations.map((item) => item.id)).toEqual(['overlap_zhou_spring']);
+    expect(blocked.relations.some((item) => item.type === 'succession')).toBe(false);
   });
 
   it('does not invent a year in the tolerance gap between two spans', () => {
@@ -209,6 +270,7 @@ describe('buildLineage', () => {
       from: ['roman_empire'],
       to: ['eastern_roman_empire', 'western_roman_empire'],
       year: 395,
+      share: [0.5, 0.5],
     });
     expect(merge).toMatchObject({
       from: ['aragon', 'castile'],

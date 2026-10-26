@@ -29,12 +29,24 @@ function waypoint(
 }
 
 describe('story stops', () => {
-  it('keeps the three migrated tours inside the word limit', () => {
+  it('keeps the migrated tours and the era tours inside the word limit', () => {
     const tours = clientDataset().tours;
     expect(tours.map((tour) => tour.id)).toEqual([
       'tour_bronze_collapse',
       'tour_axial_age',
       'tour_rome_han',
+      'tour_industrial',
+      'tour_decolonization',
+      'tour_columbian',
+      'tour_atlantic',
+      'tour_islamic',
+      'tour_mongol',
+      'tour_silk_roads',
+      'tour_writing',
+      'tour_steppe',
+      'tour_religion',
+      'tour_seas',
+      'tour_cities',
     ]);
     for (const tour of tours) {
       expect(tour.waypoints.length).toBeGreaterThan(0);

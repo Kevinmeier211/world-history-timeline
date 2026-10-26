@@ -8,12 +8,12 @@ A row is unverified when `verification` is `unverified`, or when a tour stop omi
 
 | kind | unverified | cross-checked | primary-checked | total |
 | --- | --- | --- | --- | --- |
-| polities | 408 | 0 | 0 | 408 |
-| relations | 181 | 0 | 0 | 181 |
-| callouts | 58 | 0 | 0 | 58 |
-| bands | 12 | 0 | 0 | 12 |
-| routes | 6 | 0 | 0 | 6 |
-| tour stops | 11 | 0 | 0 | 11 |
+| polities | 436 | 0 | 0 | 436 |
+| relations | 450 | 0 | 0 | 450 |
+| callouts | 323 | 0 | 0 | 323 |
+| bands | 35 | 0 | 0 | 35 |
+| routes | 15 | 0 | 0 | 15 |
+| tour stops | 63 | 0 | 0 | 63 |
 | climate | 1 | 0 | 0 | 1 |
 
 ## By importance
@@ -23,22 +23,22 @@ Counts are unverified / cross-checked / primary-checked.
 | kind | importance | unverified | cross-checked | primary-checked |
 | --- | --- | --- | --- | --- |
 | polities | 1 | 0 | 0 | 0 |
-| polities | 2 | 334 | 0 | 0 |
-| polities | 3 | 74 | 0 | 0 |
+| polities | 2 | 354 | 0 | 0 |
+| polities | 3 | 82 | 0 | 0 |
 | polities | 4 | 0 | 0 | 0 |
 | polities | 5 | 0 | 0 | 0 |
 | callouts | 1 | 0 | 0 | 0 |
-| callouts | 2 | 0 | 0 | 0 |
-| callouts | 3 | 18 | 0 | 0 |
+| callouts | 2 | 223 | 0 | 0 |
+| callouts | 3 | 60 | 0 | 0 |
 | callouts | 4 | 40 | 0 | 0 |
 | callouts | 5 | 0 | 0 | 0 |
 | bands | 1 | 0 | 0 | 0 |
-| bands | 2 | 0 | 0 | 0 |
+| bands | 2 | 23 | 0 | 0 |
 | bands | 3 | 12 | 0 | 0 |
 | bands | 4 | 0 | 0 | 0 |
 | bands | 5 | 0 | 0 | 0 |
 | routes | 1 | 0 | 0 | 0 |
-| routes | 2 | 0 | 0 | 0 |
+| routes | 2 | 9 | 0 | 0 |
 | routes | 3 | 6 | 0 | 0 |
 | routes | 4 | 0 | 0 | 0 |
 | routes | 5 | 0 | 0 | 0 |
@@ -98,14 +98,14 @@ Unverified counts only.
 
 | era | polities | callouts | relations | bands | routes | tour stops |
 | --- | --- | --- | --- | --- | --- | --- |
-| 3300_2000bce | 38 | 9 | 10 | 1 | 3 | 0 |
-| 2000_1000bce | 48 | 11 | 13 | 2 | 3 | 3 |
-| 1000_1bce | 84 | 13 | 30 | 3 | 2 | 6 |
-| 1_500ce | 67 | 5 | 17 | 0 | 3 | 2 |
-| 500_1000ce | 103 | 4 | 28 | 2 | 3 | 0 |
-| 1000_1500ce | 113 | 11 | 26 | 4 | 4 | 0 |
-| 1500_1800ce | 103 | 3 | 23 | 2 | 2 | 0 |
-| 1800_2000ce | 144 | 2 | 37 | 2 | 1 | 0 |
+| 3300_2000bce | 38 | 23 | 10 | 1 | 3 | 4 |
+| 2000_1000bce | 48 | 27 | 22 | 4 | 3 | 6 |
+| 1000_1bce | 83 | 61 | 47 | 6 | 3 | 14 |
+| 1_500ce | 67 | 30 | 24 | 2 | 7 | 7 |
+| 500_1000ce | 103 | 53 | 58 | 8 | 9 | 7 |
+| 1000_1500ce | 113 | 52 | 76 | 9 | 8 | 9 |
+| 1500_1800ce | 108 | 23 | 68 | 7 | 3 | 6 |
+| 1800_2000ce | 171 | 60 | 159 | 12 | 1 | 9 |
 
 ## By family
 
@@ -115,23 +115,23 @@ Unverified callouts with no family: 0.
 
 | family | unverified polities | unverified callouts |
 | --- | --- | --- |
-| andean | 23 | 1 |
-| mesoamerican | 19 | 3 |
-| north_american | 14 | 5 |
-| sub_saharan | 35 | 4 |
-| nile_egyptian | 20 | 3 |
-| mesopotamian | 20 | 5 |
-| persian_iranian | 16 | 1 |
-| levantine_semitic | 15 | 1 |
-| greek_byzantine | 20 | 8 |
-| latin_west | 51 | 3 |
-| celtic_germanic_norse | 15 | 3 |
-| slavic_steppe | 15 | 0 |
-| islamic_arab | 12 | 1 |
-| turkic_mongol | 14 | 1 |
-| indian | 28 | 6 |
-| chinese | 35 | 9 |
-| korean_japanese | 28 | 3 |
-| southeast_oceanian | 28 | 1 |
+| andean | 25 | 8 |
+| mesoamerican | 21 | 13 |
+| north_american | 14 | 10 |
+| sub_saharan | 36 | 18 |
+| nile_egyptian | 20 | 17 |
+| mesopotamian | 20 | 19 |
+| persian_iranian | 17 | 12 |
+| levantine_semitic | 15 | 8 |
+| greek_byzantine | 20 | 21 |
+| latin_west | 51 | 30 |
+| celtic_germanic_norse | 17 | 12 |
+| slavic_steppe | 23 | 19 |
+| islamic_arab | 14 | 13 |
+| turkic_mongol | 16 | 16 |
+| indian | 30 | 25 |
+| chinese | 36 | 36 |
+| korean_japanese | 28 | 23 |
+| southeast_oceanian | 33 | 23 |
 
 Notes, presets, media, and sources have no `verification` field, so they are not counted.

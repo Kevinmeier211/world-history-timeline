@@ -63,10 +63,10 @@ export const ROWS: RosterRow[] = [
   row(
     'visigoths',
     'Visigoths',
-    -418,
+    418,
     711,
     'state',
-    'Appendix B: Visigoths c.418–711.',
+    'Appendix B: Visigoths c.418–711. The year is 418 CE, beside the other successor kingdoms. It is not 418 BCE.',
     'approximate',
   ),
   row('vandals', 'Vandals', 429, 534, 'state', 'Appendix B: Vandals 429–534.'),

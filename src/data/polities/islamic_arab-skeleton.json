@@ -16,8 +16,12 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Rashidun Caliphate is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Rashidun Caliphate from 632 to 661. This row uses that span. The migrated Umayyad–Abbasid bundle stays. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 632 to 661.",
+      "A migrated row bundles the later caliphates.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["unesco_gha", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -39,8 +43,11 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Umayyad Caliphate is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Umayyad Caliphate from 661 to 750. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 661 to 750.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["unesco_gha", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -62,8 +69,11 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Abbasid Caliphate is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Abbasid Caliphate from 750 to 1258. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 750 to 1258.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["unesco_gha", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -85,8 +95,11 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Al-Andalus is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Al-Andalus from 711 to 1492. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 711 to 1492.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["unesco_gha", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -108,8 +121,11 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Almoravid is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Almoravid from 1040 to 1147. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1040 to 1147.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["unesco_gha", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -131,8 +147,11 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Almohad is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Almohad from 1121 to 1269. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1121 to 1269.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["unesco_gha", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -154,8 +173,13 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Fatimid Caliphate is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Fatimid Caliphate from 909 to 1171 and also lists 969. This row starts at the earlier year and is distinct from Fatimid Egypt. The cited pages were not opened.",
+    "keyFacts": [
+      "The earlier listed year is 909 and the span ends in 1171.",
+      "969 is also listed and is not this start.",
+      "This row is distinct from Fatimid Egypt.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["unesco_gha", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row.",
@@ -184,8 +208,12 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Mamluk Sultanate is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Mamluk Sultanate from 1250 to 1517. This row is distinct from the Nile copy. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1250 to 1517.",
+      "The Nile copy uses another id.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["unesco_gha", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -198,8 +226,8 @@
     "end": 1922,
     "confidence": "approximate",
     "dateNote": "Appendix B: Ottoman c.1299–1922. Distinct from the migrated ottoman_empire bundle, which runs past 1922.",
-    "importance": 2,
-    "weight": 0.35,
+    "importance": 3,
+    "weight": 0.48,
     "kind": "empire",
     "anchor": [
       {
@@ -207,8 +235,11 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Ottoman Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Ottoman Empire from about 1299 to 1922. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist says about 1299 to 1922.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["unesco_gha", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -230,8 +261,11 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Saudi Arabia is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Saudi Arabia from 1932 with no end. This row stops at 2000, the chart end. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist start is 1932.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["unesco_gha", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

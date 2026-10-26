@@ -153,19 +153,44 @@ describe('migrated annotation files', () => {
       tours: unknown[];
       presets: unknown[];
     };
-    expect(data.callouts).toHaveLength(58);
+    const callouts = data.callouts as { evidence?: string }[];
+    expect(
+      callouts.filter((callout) =>
+        callout.evidence?.includes('Migrated from gemini-v1'),
+      ),
+    ).toHaveLength(58);
     const migrated = JSON.parse(
       readFileSync('src/data/bands/migrated-01.json', 'utf8'),
     ) as unknown[];
     expect(migrated).toHaveLength(11);
-    expect(data.bands).toHaveLength(12);
+    expect(data.bands).toHaveLength(35);
     expect(data.bands).toEqual(
       expect.arrayContaining([
         expect.objectContaining({ id: 'band_mongol_conquests' }),
+        expect.objectContaining({ id: 'band_decolonization' }),
       ]),
     );
-    expect(data.routes).toHaveLength(6);
-    expect(data.tours).toHaveLength(3);
+    expect(data.routes).toHaveLength(15);
+    expect(data.tours).toHaveLength(15);
+    expect(data.tours).toEqual(
+      expect.arrayContaining([
+        expect.objectContaining({ id: 'tour_bronze_collapse' }),
+        expect.objectContaining({ id: 'tour_axial_age' }),
+        expect.objectContaining({ id: 'tour_rome_han' }),
+        expect.objectContaining({ id: 'tour_industrial' }),
+        expect.objectContaining({ id: 'tour_decolonization' }),
+        expect.objectContaining({ id: 'tour_columbian' }),
+        expect.objectContaining({ id: 'tour_atlantic' }),
+        expect.objectContaining({ id: 'tour_islamic' }),
+        expect.objectContaining({ id: 'tour_mongol' }),
+        expect.objectContaining({ id: 'tour_silk_roads' }),
+        expect.objectContaining({ id: 'tour_writing' }),
+        expect.objectContaining({ id: 'tour_steppe' }),
+        expect.objectContaining({ id: 'tour_religion' }),
+        expect.objectContaining({ id: 'tour_seas' }),
+        expect.objectContaining({ id: 'tour_cities' }),
+      ]),
+    );
     expect(data.presets).toHaveLength(5);
   });
 });

@@ -16,8 +16,11 @@
         "xKey": "north_america"
       }
     ],
-    "summary": "Adena is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Adena from about 1000 BCE to 200 BCE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 1000 BCE to 200 BCE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["field_museum", "dpla"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -39,8 +42,11 @@
         "xKey": "north_america"
       }
     ],
-    "summary": "Cahokia is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Cahokia from about 1050 to 1350. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 1050 to 1350.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["field_museum", "dpla"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -62,8 +68,11 @@
         "xKey": "north_america"
       }
     ],
-    "summary": "Haudenosaunee Confederacy is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B places the Haudenosaunee Confederacy from the 15th century with no end. This row starts at 1400, the edge of that century, and ends at 2000. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist says the 15th century and gives no end.",
+      "1400 is the edge of that century, not a new date."
+    ],
     "sourceIds": ["field_museum", "dpla"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -85,8 +94,11 @@
         "xKey": "north_america"
       }
     ],
-    "summary": "New France is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates New France from 1534 to 1763. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1534 to 1763.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["field_museum", "dpla"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -108,8 +120,11 @@
         "xKey": "north_america"
       }
     ],
-    "summary": "Thirteen Colonies is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Thirteen Colonies from 1607 to 1776. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1607 to 1776.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["field_museum", "dpla"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -122,8 +137,8 @@
     "end": 2000,
     "confidence": "conventional",
     "dateNote": "Appendix B: USA 1776–. Skeleton ends at 2000.",
-    "importance": 2,
-    "weight": 0.35,
+    "importance": 3,
+    "weight": 0.48,
     "kind": "state",
     "anchor": [
       {
@@ -131,8 +146,11 @@
         "xKey": "north_america"
       }
     ],
-    "summary": "United States is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the United States from 1776 with no end. This row stops at 2000, the chart end. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist start is 1776.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["field_museum", "dpla"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -154,8 +172,11 @@
         "xKey": "north_america"
       }
     ],
-    "summary": "Canada is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Canada from 1867 with no end. This row stops at 2000, the chart end. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist start is 1867.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["field_museum", "dpla"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -177,8 +198,11 @@
         "xKey": "north_america"
       }
     ],
-    "summary": "Russian America is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Russian America from 1799 to 1867. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1799 to 1867.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["field_museum", "dpla"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

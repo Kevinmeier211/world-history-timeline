@@ -10,7 +10,7 @@
     "description": "One of the most severe climatic events of the Holocene. Contributed to the collapse of the Old Kingdom in Egypt, the Akkadian Empire in Mesopotamia, the de-urbanization of the Indus Valley, and Liangzhu culture shifts in China.",
     "sourceIds": ["cambridge_histories", "unesco_gha"],
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
+    "evidence": "Migrated from gemini-v1. On 2026-10-26, unesco_gha loaded and listed Volume I as methodology and African prehistory and Volume II as ancient civilizations of Africa. It did not state 2200 BCE or 2100 BCE. cambridge_histories was not opened."
   },
   {
     "id": "band_bronze_collapse",
@@ -75,7 +75,7 @@
     "description": "Massive volcanic eruptions veiled the northern hemisphere in dust for 18 months, causing global summer frosts and famine, immediately followed by Yersinia pestis devastating Constantinople and the Mediterranean.",
     "sourceIds": ["cambridge_histories", "unesco_gha"],
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
+    "evidence": "Migrated from gemini-v1. On 2026-10-26, unesco_gha loaded and listed volumes from African prehistory through the 7th to the 11th century. It did not state 535, 536, or 560. cambridge_histories was not opened."
   },
   {
     "id": "band_islamic_golden_age",
@@ -101,7 +101,7 @@
     "description": "Spreading along Mongol-era Silk Road and maritime trade routes from Central/East Asia to Crimea, Cairo, and Western Europe, fundamentally transforming feudal labor and demographics.",
     "sourceIds": ["cambridge_histories", "unesco_gha"],
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
+    "evidence": "Migrated from gemini-v1. On 2026-10-26, unesco_gha loaded and listed Volume IV as Africa from the 12th to the 16th century. It did not state 1346 or 1355. worldhistory_org loaded and featured the Hundred Years' War from 1337 to 1453, not this band. cambridge_histories was not opened."
   },
   {
     "id": "band_age_of_discovery",

@@ -1,46 +1,46 @@
 {
   "zoomY": 1,
-  "ribbons": 231,
-  "polities": 408,
+  "ribbons": 238,
+  "polities": 436,
   "overlaps": 0,
   "minGap": 6,
   "labelFit": {
     "2": {
-      "fitted": 157,
-      "total": 157,
+      "fitted": 156,
+      "total": 156,
       "rate": 1
     },
     "3": {
-      "fitted": 74,
-      "total": 74,
+      "fitted": 82,
+      "total": 82,
       "rate": 1
     }
   },
   "importance3Fit": 1,
   "callouts": {
-    "dropped": 9,
-    "markers": 12,
-    "placed": 37
+    "dropped": 220,
+    "markers": 13,
+    "placed": 90
   },
   "relations": {
-    "total": 181,
-    "routed": 105,
+    "total": 450,
+    "routed": 172,
     "unroutable": 0,
-    "omitted": 76,
+    "omitted": 278,
     "unroutableIds": []
   },
   "labelHits": 0,
   "maxDrift": 3.211,
   "runtimeMs": {
-    "cold": 227,
-    "warm": 145
+    "cold": 257,
+    "warm": 177
   },
   "gates": {
     "overlaps": true,
     "unroutable": true,
     "importance3Fit": true,
-    "runtimeMs": true,
-    "pass": true
+    "runtimeMs": false,
+    "pass": false
   },
-  "failures": []
+  "failures": ["runtimeMs"]
 }

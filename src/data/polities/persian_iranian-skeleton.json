@@ -16,8 +16,12 @@
         "xKey": "mesopotamia_persia"
       }
     ],
-    "summary": "Seleucid Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Seleucid kingdom from 312 BCE to 63 BCE and lists it under Persia and Iran. The migrated Ptolemaic–Seleucid bundle stays. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 312 BCE to 63 BCE.",
+      "A migrated row bundles Ptolemaic and Seleucid.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["isac", "louvre"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -39,8 +43,12 @@
         "xKey": "mesopotamia_persia"
       }
     ],
-    "summary": "Parthian Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Parthian Empire from 247 BCE to 224 CE. This row uses that span and is distinct from the migrated Parthian–Sasanian bundle. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 247 BCE to 224 CE.",
+      "A migrated row bundles Parthian and Sasanian.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["isac", "louvre"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -62,8 +70,11 @@
         "xKey": "mesopotamia_persia"
       }
     ],
-    "summary": "Sasanian Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Sasanian Empire from 224 to 651. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 224 to 651.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["isac", "louvre"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -85,8 +96,11 @@
         "xKey": "mesopotamia_persia"
       }
     ],
-    "summary": "Buyid is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Buyid from 934 to 1062. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 934 to 1062.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["isac", "louvre"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -108,8 +122,12 @@
         "xKey": "mesopotamia_persia"
       }
     ],
-    "summary": "Seljuk is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Seljuk from 1037 to 1194 and lists it under Persia and Iran. A Turkic-family row uses another id. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1037 to 1194.",
+      "This is the Persia and Iran copy.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["isac", "louvre"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -131,8 +149,12 @@
         "xKey": "mesopotamia_persia"
       }
     ],
-    "summary": "Ilkhanate is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Ilkhanate from 1256 to 1335 and lists it under Persia and Iran. This row is that Persian copy. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1256 to 1335.",
+      "This is the Persia and Iran copy.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["isac", "louvre"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -154,8 +176,12 @@
         "xKey": "mesopotamia_persia"
       }
     ],
-    "summary": "Timurid is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Timurid span from 1370 to 1507 under Persia and Iran. A Turkic-family row uses another id. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1370 to 1507.",
+      "The Turkic copy uses another id.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["isac", "louvre"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -177,8 +203,13 @@
         "xKey": "mesopotamia_persia"
       }
     ],
-    "summary": "Safavid is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Safavid dynasty from 1501 to 1722 or 1736. This row ends in 1736, the later listed year. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist start is 1501.",
+      "1722 is the listed alternate end.",
+      "The span ends in 1736.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["isac", "louvre"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row.",
@@ -207,8 +238,11 @@
         "xKey": "mesopotamia_persia"
       }
     ],
-    "summary": "Afsharid is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Afsharid dynasty from 1736 to 1796. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1736 to 1796.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["isac", "louvre"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -230,8 +264,11 @@
         "xKey": "mesopotamia_persia"
       }
     ],
-    "summary": "Qajar is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Qajar dynasty from 1789 to 1925. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1789 to 1925.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["isac", "louvre"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -253,8 +290,11 @@
         "xKey": "mesopotamia_persia"
       }
     ],
-    "summary": "Pahlavi is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Pahlavi dynasty from 1925 to 1979. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1925 to 1979.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["isac", "louvre"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -276,8 +316,11 @@
         "xKey": "mesopotamia_persia"
       }
     ],
-    "summary": "Islamic Republic of Iran is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Islamic Republic of Iran from 1979 with no end. This row stops at 2000, the chart end. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist start is 1979.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["isac", "louvre"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

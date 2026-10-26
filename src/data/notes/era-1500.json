@@ -1,0 +1,97 @@
+[
+  {
+    "eraId": "era_1500_1800",
+    "macroRegion": "americas",
+    "entries": [
+      {
+        "range": "1534–1776",
+        "text": "The checklist dates New France from 1534 to 1763 and the Thirteen Colonies from 1607 to 1776. The Maya Postclassic runs to 1697 and the Tarascan state to about 1530. The Age of Discovery band is 1492 to 1650. The cited pages were not opened.",
+        "sourceIds": ["cambridge_histories", "british_library"]
+      }
+    ],
+    "whyItMatters": "Atlantic colonies and the last Postclassic rows sit inside the discovery band.",
+    "connections": ["Habsburg Spain and Portugal are the European rows on these years."]
+  },
+  {
+    "eraId": "era_1500_1800",
+    "macroRegion": "europe",
+    "entries": [
+      {
+        "range": "1516–1814",
+        "text": "Checklist years here include Habsburg Spain 1516–1700, the Dutch Republic 1581–1795, the Holy Roman Empire to 1806, Poland–Lithuania 1569–1795, and the Tsardom 1547–1721. Sweden from 1523 and Denmark–Norway to 1814 are not checklist spans. The Kalmar Union ends in 1523. The cited pages were not opened.",
+        "sourceIds": ["cambridge_histories", "british_library"]
+      }
+    ],
+    "whyItMatters": "1523 splits the Kalmar Union evenly. The modern Denmark, Sweden, and Norway rows still start in 1800.",
+    "connections": [
+      "The Enlightenment band on this sheet still runs from 1700 to 1900."
+    ]
+  },
+  {
+    "eraId": "era_1500_1800",
+    "macroRegion": "africa",
+    "entries": [
+      {
+        "range": "1464–1701",
+        "text": "The checklist dates Songhai from about 1464 to 1591, Mali to 1600, and names Kongo, Oyo, Benin, and Ashanti. Saadi Morocco uses 1549 to 1659. A bridge uses Songhai’s checklist end in 1591. The cited pages were not opened.",
+        "sourceIds": ["unesco_gha", "british_library"]
+      }
+    ],
+    "whyItMatters": "1591 is the checklist end of Songhai, not a dated end of Moroccan rule in Timbuktu.",
+    "connections": [
+      "The migrated Ghana–Mali–Songhai bundle also ends in 1591 and is not the bridge."
+    ]
+  },
+  {
+    "eraId": "era_1500_1800",
+    "macroRegion": "west_central_asia",
+    "entries": [
+      {
+        "range": "1501–1796",
+        "text": "The checklist dates the Safavid dynasty from 1501 to 1736, with 1722 as the other listed end, and the Afsharid dynasty from 1736 to 1796. The Ottoman row runs through 1922. The Timurid span ends in 1507. The cited pages were not opened.",
+        "sourceIds": ["cambridge_histories", "unesco_gha"]
+      }
+    ],
+    "whyItMatters": "Safavid to Afsharid is a shared checklist year, 1736.",
+    "connections": ["The Mughal checklist row starts in 1526."]
+  },
+  {
+    "eraId": "era_1500_1800",
+    "macroRegion": "south_asia",
+    "entries": [
+      {
+        "range": "1336–1857",
+        "text": "The checklist dates the Delhi Sultanate through 1526, Vijayanagara from 1336 to 1646, and the Mughal line from 1526 to 1857. The Mughal end links to the unnamed 1857 interval. The cited pages were not opened.",
+        "sourceIds": ["cambridge_histories", "british_library"]
+      }
+    ],
+    "whyItMatters": "Delhi and the Mughals meet in 1526 on the years, in two families.",
+    "connections": ["The 1857 bridge stays on the checklist end."]
+  },
+  {
+    "eraId": "era_1500_1800",
+    "macroRegion": "east_asia",
+    "entries": [
+      {
+        "range": "1368–1757",
+        "text": "The checklist dates the Ming from 1368 to 1644 and the Qing from 1644. Muromachi runs to 1573, Azuchi–Momoyama from 1573 to 1603, and Tokugawa from 1603. Joseon starts in 1392. The cited pages were not opened.",
+        "sourceIds": ["chgis", "cambridge_histories"]
+      }
+    ],
+    "whyItMatters": "Ming to Qing, and Muromachi to Tokugawa, are shared-year handoffs.",
+    "connections": ["The Dzungar checklist span is about 1634 to 1757."]
+  },
+  {
+    "eraId": "era_1500_1800",
+    "macroRegion": "se_asia_oceania",
+    "entries": [
+      {
+        "range": "1351–1799",
+        "text": "The checklist dates Ayutthaya from 1351 to 1767, Dai Viet as one long row, Majapahit to 1527, and the VOC from 1602 to 1799. The Dutch East Indies then use 1799. The cited pages were not opened.",
+        "sourceIds": ["field_museum", "unesco_mow"]
+      }
+    ],
+    "whyItMatters": "Ayutthaya and the VOC stay on checklist spans.",
+    "connections": ["The Age of Discovery band covers 1492 to 1650."]
+  }
+]

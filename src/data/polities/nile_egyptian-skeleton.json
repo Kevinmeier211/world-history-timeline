@@ -16,8 +16,12 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Early Dynastic Egypt is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Early Dynastic Egypt from about 3100 BCE to 2686 BCE. This row uses that span. The migrated Old Kingdom bundle stays. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 3100 BCE to 2686 BCE.",
+      "The migrated Old Kingdom bundle stays.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "unesco_gha"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -39,8 +43,12 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Old Kingdom is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Old Kingdom from 2686 BCE to 2181 BCE. This row uses that span. The migrated bundle is the wider Early Dynastic and Old Kingdom ribbon. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 2686 BCE to 2181 BCE.",
+      "The migrated bundle is the wider Early Dynastic and Old Kingdom ribbon.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "unesco_gha"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -62,8 +70,11 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "First Intermediate Period is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the First Intermediate Period from 2181 BCE to 2055 BCE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 2181 BCE to 2055 BCE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "unesco_gha"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -85,8 +96,11 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Second Intermediate Period is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Second Intermediate Period from 1650 BCE to 1550 BCE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1650 BCE to 1550 BCE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "unesco_gha"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -108,8 +122,11 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Third Intermediate Period is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Third Intermediate Period from 1069 BCE to 664 BCE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1069 BCE to 664 BCE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "unesco_gha"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -131,8 +148,11 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Late Period Egypt is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Late Period Egypt from 664 BCE to 332 BCE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 664 BCE to 332 BCE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "unesco_gha"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -154,8 +174,12 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Egypt between Late Period and Ptolemaic is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B ends the Late Period in 332 BCE and starts the Ptolemaic period in 305 BCE. It does not name the interval. This row uses those bounds. The cited pages were not opened.",
+    "keyFacts": [
+      "The bounding years are 332 BCE and 305 BCE.",
+      "The checklist does not name the interval.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "unesco_gha"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -177,8 +201,12 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Ptolemaic Egypt is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Ptolemaic Egypt from 305 BCE to 30 BCE. This row uses that span and is distinct from the migrated Ptolemaic–Seleucid bundle. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 305 BCE to 30 BCE.",
+      "A migrated row bundles Ptolemaic and Seleucid.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "unesco_gha"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -200,8 +228,11 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Roman Egypt is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Roman Egypt from 30 BCE to 641 CE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 30 BCE to 641 CE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "unesco_gha"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -223,8 +254,11 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Tulunid Egypt is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Tulunid Egypt from 868 to 905. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 868 to 905.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "unesco_gha"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -246,8 +280,12 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Fatimid Egypt is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Fatimid Egypt from 969 to 1171. This Nile copy keeps that span so an Islamic-family row can use another id. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 969 to 1171.",
+      "This is the Nile copy of the Fatimid span.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "unesco_gha"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -269,8 +307,11 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Ayyubid Egypt is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Ayyubid Egypt from 1171 to 1250. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1171 to 1250.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "unesco_gha"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

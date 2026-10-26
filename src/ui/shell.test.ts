@@ -314,7 +314,24 @@ describe('poster shell', () => {
     const panel = screen.getByRole('region', { name: 'Stories' });
     expect(panel).toBeInTheDocument();
     expect(screen.queryByRole('dialog', { name: 'Stories' })).toBeNull();
-    expect(screen.queryByRole('button', { name: 'Silk Roads' })).toBeNull();
+    expect(
+      screen.getByRole('button', { name: 'Writing independently invented' }),
+    ).toBeInTheDocument();
+    expect(
+      screen.getByRole('button', { name: 'Steppe vs settled' }),
+    ).toBeInTheDocument();
+    expect(
+      screen.getByRole('button', { name: 'Religion & philosophy across Eurasia' }),
+    ).toBeInTheDocument();
+    expect(
+      screen.getByRole('button', {
+        name: 'Seas & routes (Indian Ocean/Pacific/Atlantic)',
+      }),
+    ).toBeInTheDocument();
+    expect(
+      screen.getByRole('button', { name: 'Cities that reshaped the world' }),
+    ).toBeInTheDocument();
+    expect(screen.queryByRole('button', { name: 'Deep Prehistory' })).toBeNull();
     await user.click(
       screen.getByRole('button', { name: '1177 BCE: The Late Bronze Age Collapse' }),
     );

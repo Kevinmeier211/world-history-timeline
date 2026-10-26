@@ -16,8 +16,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Etruscans is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Etruscans from about 900 BCE to 264 BCE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 900 BCE to 264 BCE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -39,8 +42,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Roman Kingdom is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Roman Kingdom from 753 BCE to 509 BCE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 753 BCE to 509 BCE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -62,8 +68,12 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Roman Republic is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Roman Republic from 509 BCE to 27 BCE. This row uses that span. The migrated bundle still includes the kingdom. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 509 BCE to 27 BCE.",
+      "A migrated row still includes the kingdom.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -85,8 +95,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Ostrogoths is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Ostrogoths from 493 to 553. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 493 to 553.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -95,21 +108,25 @@
     "id": "visigoths",
     "name": "Visigoths",
     "family": "latin_west",
-    "start": -418,
+    "start": 418,
     "end": 711,
     "confidence": "approximate",
-    "dateNote": "Appendix B: Visigoths c.418–711.",
+    "dateNote": "Appendix B: Visigoths c.418–711. The year is 418 CE, beside the other successor kingdoms. It is not 418 BCE.",
     "importance": 2,
     "weight": 0.35,
     "kind": "state",
     "anchor": [
       {
-        "year": -418,
+        "year": 418,
         "xKey": "western_europe"
       }
     ],
-    "summary": "Visigoths is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Visigoths from about 418 to 711. That year is 418 CE, beside the other successor kingdoms, and it is not 418 BCE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 418 to 711.",
+      "418 is CE and is not 418 BCE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -131,8 +148,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Vandals is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Vandals from 429 to 534. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 429 to 534.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -154,8 +174,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Lombards is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Lombards from 568 to 774. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 568 to 774.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -177,8 +200,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Merovingian Franks is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Merovingian Franks from 481 to 751. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 481 to 751.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -200,8 +226,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Carolingian Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Carolingian Empire from 751 to 843. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 751 to 843.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -223,8 +252,12 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "West Francia is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B places West Francia between the Carolingian end in 843 and Capetian France in 987 and does not give it years. This row uses that interval. The cited pages were not opened.",
+    "keyFacts": [
+      "The interval runs from the Carolingian end in 843 to 987.",
+      "The checklist does not give West Francia its own years.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -246,8 +279,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Capetian France is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Capetian France from 987 with no end. This row stops at 2000, the chart end. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist start is 987.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -269,8 +305,12 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "East Francia is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B places East Francia between the Carolingian end in 843 and the Holy Roman Empire in 962 and does not give it years. This row uses that interval. The cited pages were not opened.",
+    "keyFacts": [
+      "The interval runs from the Carolingian end in 843 to 962.",
+      "The checklist does not give East Francia its own years.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

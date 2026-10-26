@@ -1,0 +1,93 @@
+[
+  {
+    "eraId": "era_500_1500",
+    "macroRegion": "americas",
+    "entries": [
+      {
+        "range": "250–1350",
+        "text": "The checklist dates the Maya Classic from 250 to 900 and Teotihuacan to about 550. Cahokia runs from about 1050 to 1350. Tiwanaku and Wari use about 500 and about 600 as starts, both ending in 1000. The cited pages were not opened.",
+        "sourceIds": ["inah", "field_museum"]
+      }
+    ],
+    "whyItMatters": "Maya Classic, Cahokia, Tiwanaku, and Wari stay on checklist spans. The Aztec and Inca rows were already on the sheet.",
+    "connections": ["The Maya Postclassic checklist row starts in 900."]
+  },
+  {
+    "eraId": "era_500_1500",
+    "macroRegion": "europe",
+    "entries": [
+      {
+        "range": "418–1492",
+        "text": "The checklist dates the Visigoths from about 418 to 711 and the Carolingian Empire from 751 to 843. East Francia runs to 962 and West Francia to 987. Al-Andalus runs from 711 to 1492. The cited pages were not opened.",
+        "sourceIds": ["cambridge_histories", "british_library"]
+      }
+    ],
+    "whyItMatters": "843 splits the Carolingian end four ways, evenly, because the checklist gives no proportion. The Visigoth start is 418 CE.",
+    "connections": ["The Holy Roman Empire checklist row starts in 962."]
+  },
+  {
+    "eraId": "era_500_1500",
+    "macroRegion": "africa",
+    "entries": [
+      {
+        "range": "100–1450",
+        "text": "The checklist dates Aksum from about 100 to 940, Ghana from about 300 to 1200, and Great Zimbabwe from about 1100 to 1450. The Swahili row starts at about 800 and ends at 1500. The cited pages were not opened.",
+        "sourceIds": ["unesco_gha", "british_library"]
+      }
+    ],
+    "whyItMatters": "The Swahili checklist note continues past 1500. This row stops at 1500.",
+    "connections": ["Mali’s checklist row starts at about 1235."]
+  },
+  {
+    "eraId": "era_500_1500",
+    "macroRegion": "west_central_asia",
+    "entries": [
+      {
+        "range": "224–1335",
+        "text": "The checklist dates the Sasanian Empire from 224 to 651, the Rashidun Caliphate from 632 to 661, and the Abbasid Caliphate from 750 to 1258. The Seljuk span is 1037 to 1194 and the Ilkhanate is 1256 to 1335. The cited pages were not opened.",
+        "sourceIds": ["cambridge_histories", "unesco_gha"]
+      }
+    ],
+    "whyItMatters": "The Islamic Golden Age band stays 750 to 1258, the Abbasid span.",
+    "connections": ["Umayyad meets Rashidun in 661 and Abbasid in 750."]
+  },
+  {
+    "eraId": "era_500_1500",
+    "macroRegion": "south_asia",
+    "entries": [
+      {
+        "range": "320–1279",
+        "text": "The checklist dates the Gupta from about 320 to 550, Harsha from 606 to 647, the Pala from about 750 to 1161, and the Chola from about 850 to 1279. Pallava and Chalukya share 500 to 800. The cited pages were not opened.",
+        "sourceIds": ["british_library", "cambridge_histories"]
+      }
+    ],
+    "whyItMatters": "Pallava and Chalukya are not given separate checklist years.",
+    "connections": ["The Delhi Sultanate checklist row starts in 1206."]
+  },
+  {
+    "eraId": "era_500_1500",
+    "macroRegion": "east_asia",
+    "entries": [
+      {
+        "range": "618–1368",
+        "text": "The checklist dates the Tang from 618 to 907, Northern Song from 960 to 1127, and Southern Song from 1127 to 1279. Yuan runs from 1271 to 1368. Heian runs from 794 to 1185 and Kamakura from 1185 to 1333. The cited pages were not opened.",
+        "sourceIds": ["chgis", "cambridge_histories"]
+      }
+    ],
+    "whyItMatters": "Tang to Five Dynasties to Northern Song, and Heian to Kamakura, are shared-year handoffs.",
+    "connections": ["Sui meets Tang in 618."]
+  },
+  {
+    "eraId": "era_500_1500",
+    "macroRegion": "se_asia_oceania",
+    "entries": [
+      {
+        "range": "650–1431",
+        "text": "The checklist dates Srivijaya from about 650 to 1377, Khmer Angkor from 802 to 1431, and Pagan from 849 to 1297. Samoa and Tonga use about 900 BCE to about 1300 because the checklist gives no island span. The cited pages were not opened.",
+        "sourceIds": ["field_museum", "unesco_mow"]
+      }
+    ],
+    "whyItMatters": "Samoa and Tonga are bounds on a Polynesian note, not dated kingdoms.",
+    "connections": ["Majapahit’s checklist row starts in 1293."]
+  }
+]
