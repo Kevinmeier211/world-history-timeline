@@ -131,13 +131,14 @@ Partials: item 1, overview labels about 2px (`docs/shots/p3/desktop-overview.png
 
 ## P4
 
-| Task  | Status | Commit  | Evidence                                                                               | Minutes | Notes                                                                                       |
-| ----- | ------ | ------- | -------------------------------------------------------------------------------------- | ------- | ------------------------------------------------------------------------------------------- |
-| T4.01 | done   | 1f9ccb0 | pictogram test: 26 icons, stroke 1.5, every callout kind maps to one                   | 20      | Lucide is already gone. The set is the plate mark until a real image exists. See DECISIONS. |
-| T4.02 | done   | 5dff571 | callout test paints year, 10-word blurb, pictogram, and leader; a 15-word blurb throws | 25      | Importance 5 titles are 13px. Importance 2 titles stay 11px. A plate keeps the pictogram.   |
-| T4.03 | done   | 0611067 | `playwright` desktop geometry passed for fit, four eras, focus, and dark               | 30      | Seated cards miss labels. A marker within 12px of a label is omitted. Overview hides cards. |
-| T4.04 | done   | bc8fdf5 | media-src test: empty file validates; CC-BY without approval and an NC license fail    | 15      | No image rows. Licenses stay on the allowlist.                                              |
-| T4.05 | done   | 5083ff3 | `media:plan` kept 84 Cleveland CC0 rows and saw 178; no image file downloaded          | 25      | Met public-domain rows have no license URL and stay out. See DECISIONS.                     |
-| T4.06 | done   | d5b9a5a | media-src validates with 84 curated rows, under the 120 target                         | 20      | Each caption says the object page was not opened. No row was invented to fill the gap.      |
-| T4.07 | done   | 0459add | fetch test: buffer sha256, gated run calls no HEAD; `media:fetch` exits queued-gated   | 25      | Downloads stay off. A matching hash is stored only when the switch is on and HEAD is 2xx.   |
-| T4.08 | done   | pending | process test: synthetic plate crops, desaturates, frames, and writes AVIF and WebP     | 30      | No cached original, so the command writes an empty derivative list. Fixture is not a photo. |
+| Task  | Status | Commit  | Evidence                                                                                 | Minutes | Notes                                                                                       |
+| ----- | ------ | ------- | ---------------------------------------------------------------------------------------- | ------- | ------------------------------------------------------------------------------------------- |
+| T4.01 | done   | 1f9ccb0 | pictogram test: 26 icons, stroke 1.5, every callout kind maps to one                     | 20      | Lucide is already gone. The set is the plate mark until a real image exists. See DECISIONS. |
+| T4.02 | done   | 5dff571 | callout test paints year, 10-word blurb, pictogram, and leader; a 15-word blurb throws   | 25      | Importance 5 titles are 13px. Importance 2 titles stay 11px. A plate keeps the pictogram.   |
+| T4.03 | done   | 0611067 | `playwright` desktop geometry passed for fit, four eras, focus, and dark                 | 30      | Seated cards miss labels. A marker within 12px of a label is omitted. Overview hides cards. |
+| T4.04 | done   | bc8fdf5 | media-src test: empty file validates; CC-BY without approval and an NC license fail      | 15      | No image rows. Licenses stay on the allowlist.                                              |
+| T4.05 | done   | 5083ff3 | `media:plan` kept 84 Cleveland CC0 rows and saw 178; no image file downloaded            | 25      | Met public-domain rows have no license URL and stay out. See DECISIONS.                     |
+| T4.06 | done   | d5b9a5a | media-src validates with 84 curated rows, under the 120 target                           | 20      | Each caption says the object page was not opened. No row was invented to fill the gap.      |
+| T4.07 | done   | 0459add | fetch test: buffer sha256, gated run calls no HEAD; `media:fetch` exits queued-gated     | 25      | Downloads stay off. A matching hash is stored only when the switch is on and HEAD is 2xx.   |
+| T4.08 | done   | 52a3e6d | process test: synthetic plate crops, desaturates, frames, and writes AVIF and WebP       | 30      | No cached original, so the command writes an empty derivative list. Fixture is not a photo. |
+| T4.09 | done   | pending | plate test: pictogram stays, remote href is dropped, local figure has caption and credit | 20      | Chart plates keep the reserved box. The dossier still says no image is attached.            |

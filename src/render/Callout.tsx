@@ -1,3 +1,4 @@
+import { Plate } from './Plate.tsx';
 import { Pictogram } from './Pictogram.tsx';
 import {
   calloutBlurb,
@@ -119,22 +120,15 @@ export function Callout({ model }: { model: CalloutViewModel }) {
         </g>
       </g>
       {model.plate ? (
-        <g
-          data-plate={model.id}
-          transform={`translate(${model.plate.x} ${model.plate.y})`}
-        >
-          <rect
-            className="callout-plate"
-            width={model.plate.width}
-            height={model.plate.height}
-            rx={2}
-          />
-          <g
-            transform={`translate(${(model.plate.width - type.icon) / 2} ${(model.plate.height - type.icon) / 2})`}
-          >
-            <Pictogram name={model.pictogram} size={type.icon} />
-          </g>
-        </g>
+        <Plate
+          id={model.id}
+          x={model.plate.x}
+          y={model.plate.y}
+          width={model.plate.width}
+          height={model.plate.height}
+          name={model.pictogram}
+          icon={type.icon}
+        />
       ) : null}
     </g>
   );

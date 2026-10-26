@@ -841,3 +841,13 @@ Alternatives: Download a Cleveland file to test sharp. Commit a derivative of a 
 Why: The treatment has to be real, and no reviewed image file exists yet.
 
 Reversible? y
+
+## 2026-10-26 — A plate draws a pictogram until a local file exists
+
+Decision: The chart plate reserves its box and paints the in-house pictogram. A dossier figure shows caption and credit only when its `src` is a local path. An `http` or `https` address is not written into the SVG or the figure. No callout is given a `mediaId`.
+
+Alternatives: Hotlink the Cleveland object pages. Leave the plate markup inline in `Callout` with no reserved-image path.
+
+Why: Derivatives are not shipped while downloads are off, and a remote address would be a hotlink.
+
+Reversible? y

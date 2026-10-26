@@ -454,6 +454,14 @@
   stroke: var(--rule);
 }
 
+.plate-reserve {
+  fill: var(--paper-shade);
+}
+
+.plate-image {
+  pointer-events: none;
+}
+
 .callout-marker {
   fill: var(--ink);
 }
