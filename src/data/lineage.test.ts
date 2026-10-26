@@ -73,7 +73,15 @@ describe('buildLineage', () => {
     expect(split?.share).toEqual([0.5, 0.5]);
     expect(disputed?.from).toEqual(['pred_a', 'pred_b']);
     expect(disputed?.to).toEqual(['child']);
-    expect(result.roots.map((root) => root.id)).toEqual(['mid', 'pred_a', 'pred_b']);
+    expect(
+      result.relations.find((item) => item.id === 'overlap_pred_a_pred_b'),
+    ).toMatchObject({
+      type: 'cultural_continuity',
+      year: -160,
+      from: ['pred_a'],
+      to: ['pred_b'],
+    });
+    expect(result.roots.map((root) => root.id)).toEqual(['mid', 'pred_a']);
   });
 
   it('does not hand a no-single-year cluster to the polity that ends on that edge', () => {
@@ -163,10 +171,18 @@ describe('buildLineage', () => {
       [],
       [],
     );
-    expect(crowded.relations.map((item) => item.id)).toEqual(['abut_habsburg_spain']);
-    expect(crowded.roots.find((root) => root.id === 'prussia')?.reason).toContain(
-      'still current',
-    );
+    expect(crowded.relations.map((item) => item.id)).toEqual([
+      'abut_habsburg_spain',
+      'overlap_france_habsburg',
+      'overlap_france_prussia',
+      'overlap_france_spain',
+      'overlap_spain_prussia',
+    ]);
+    expect(
+      crowded.relations
+        .filter((item) => item.to.includes('prussia'))
+        .every((item) => item.type === 'cultural_continuity'),
+    ).toBe(true);
 
     const overlay = { ...polity('zhou', 'chinese', -1046, -221), overlay: true };
     const open = buildLineage(
@@ -178,7 +194,10 @@ describe('buildLineage', () => {
       [],
       [],
     );
-    expect(open.relations.map((item) => item.id)).toEqual(['abut_western_spring']);
+    expect(open.relations.map((item) => item.id)).toEqual([
+      'abut_western_spring',
+      'overlap_zhou_spring',
+    ]);
     const blocked = buildLineage(
       [
         polity('zhou', 'chinese', -1046, -221),
@@ -188,7 +207,8 @@ describe('buildLineage', () => {
       [],
       [],
     );
-    expect(blocked.relations).toEqual([]);
+    expect(blocked.relations.map((item) => item.id)).toEqual(['overlap_zhou_spring']);
+    expect(blocked.relations.some((item) => item.type === 'succession')).toBe(false);
   });
 
   it('does not invent a year in the tolerance gap between two spans', () => {

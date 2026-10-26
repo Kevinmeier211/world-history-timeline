@@ -5,6 +5,7 @@ import {
   forkRelations,
   forkReplaces,
 } from './lineage-forks.ts';
+import { overlapRelations } from './lineage-overlap.ts';
 import { CHECKLIST_TWINS } from './lineage-twins.ts';
 import { RELATION_YEAR_TOLERANCE } from './validate.ts';
 import { toT } from '../lib/years.ts';
@@ -372,6 +373,9 @@ export function buildLineage(
   const kept = relations.filter((item) => !forkReplaces(item, forks));
   relations.length = 0;
   relations.push(...kept, ...forks);
+  relations.push(
+    ...overlapRelations(polities, pairSet(relations), 450 - relations.length, relation),
+  );
 
   const inbound = new Set(relations.flatMap((item) => item.to));
   const roots = polities

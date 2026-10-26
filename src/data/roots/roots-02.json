@@ -1,81 +1,5 @@
 [
   {
-    "id": "bolivia",
-    "reason": "Appendix B gives no single year for this start, so this row is not a shared-boundary handoff. Pages were not opened."
-  },
-  {
-    "id": "brazil_empire",
-    "reason": "gemini-v1 names no parent; nearest same-family end is viceroyalty_new_granada at a gap of 3 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "british_empire",
-    "reason": "gemini-v1 parents roman_empire have no year inside both lifetimes ± 50; nearest same-family end is la_tene, megalithic_celts at a gap of 920 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "buyid",
-    "reason": "gemini-v1 names no parent; nearest same-family end is parthian_sassanid, sasanian at a gap of 283 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "cahokia",
-    "reason": "gemini-v1 names no parent; nearest same-family end is hopewell_tradition at a gap of 550 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "cambodia",
-    "reason": "gemini-v1 names no parent; nearest same-family end is british_burma at a gap of 5 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "carthage",
-    "reason": "gemini-v1 names no parent; nearest same-family end is ebla at a gap of 786 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "castile",
-    "reason": "gemini-v1 names no parent; nearest same-family end is west_francia at a gap of 243 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "central_asian_republics",
-    "reason": "gemini-v1 names no parent; nearest same-family end is mughal at a gap of 134 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "chalukya",
-    "reason": "gemini-v1 names no parent; nearest same-family end is kushan at a gap of 125 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "champa",
-    "reason": "gemini-v1 names no parent; nearest same-family end is dong_son at a gap of 92 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "chavin_culture",
-    "reason": "gemini-v1 parents norte_chico have no year inside both lifetimes ± 50; nearest same-family end is norte_chico at a gap of 900 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "chile",
-    "reason": "Appendix B gives no single year for this start, so this row is not a shared-boundary handoff. Pages were not opened."
-  },
-  {
-    "id": "chola",
-    "reason": "gemini-v1 names no parent; nearest same-family end is tibetan_empire at a gap of 8 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "colombia",
-    "reason": "Appendix B gives no single year for this start, so this row is not a shared-boundary handoff. Pages were not opened."
-  },
-  {
-    "id": "congo_kinshasa",
-    "reason": "gemini-v1 names no parent; nearest same-family end is south_africa_union at a gap of 2 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "corded_ware",
-    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
-  },
-  {
-    "id": "crusader_states",
-    "reason": "gemini-v1 names no parent; nearest same-family end is nabataean at a gap of 992 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "cuba",
-    "reason": "gemini-v1 names no parent; nearest same-family end is united_provinces_central_america at a gap of 64 continuous years, outside a shared-boundary handoff."
-  },
-  {
     "id": "czechoslovakia",
     "reason": "gemini-v1 names no parent; nearest same-family end is russian_empire at a gap of 1 continuous year, while other polities in the family are still current."
   },
@@ -84,15 +8,91 @@
     "reason": "gemini-v1 names no parent; nearest same-family end is yugoslavia_kingdom at a gap of 4 continuous years, outside a shared-boundary handoff."
   },
   {
-    "id": "dai_viet",
-    "reason": "gemini-v1 names no parent; nearest same-family end is funan at a gap of 418 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "delhi_sultanate",
-    "reason": "gemini-v1 names no parent; nearest same-family end is pala at a gap of 45 continuous years, outside a shared-boundary handoff."
-  },
-  {
     "id": "denmark",
     "reason": "Appendix B gives no single year for this start, so this row is not a shared-boundary handoff. Pages were not opened."
+  },
+  {
+    "id": "dong_son",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "duchy_of_warsaw",
+    "reason": "gemini-v1 names no parent; nearest same-family end is poland_lithuania at a gap of 12 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "dzungar",
+    "reason": "gemini-v1 names no parent; nearest same-family end is timurid at a gap of 127 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "early_cycladic",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "early_dynastic_egypt",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "ebla",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "ecuador",
+    "reason": "Appendix B gives no single year for this start, so this row is not a shared-boundary handoff. Pages were not opened."
+  },
+  {
+    "id": "egypt_old_kingdom",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "elam",
+    "reason": "gemini-v1 names no parent; nearest same-family end is jemdet_nasr at a gap of 200 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "etruscans",
+    "reason": "gemini-v1 names no parent; nearest same-family end is los_millares at a gap of 1300 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "franks_charlemagne",
+    "reason": "gemini-v1 parents roman_empire have no year inside both lifetimes ± 50; nearest same-family end is western_roman_empire at a gap of 5 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "goguryeo",
+    "reason": "gemini-v1 names no parent; nearest same-family end is jomon at a gap of 263 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "gokturk",
+    "reason": "gemini-v1 names no parent; nearest same-family end is xiongnu at a gap of 459 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "golden_horde",
+    "reason": "gemini-v1 names no parent; nearest same-family end is kievan_rus at a gap of 2 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "greece",
+    "reason": "gemini-v1 names no parent; nearest same-family end is byzantine_empire at a gap of 368 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "gulf_states",
+    "reason": "gemini-v1 names no parent; nearest same-family end is ottoman at a gap of 49 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "gupta",
+    "reason": "gemini-v1 names no parent; nearest same-family end is maurya_empire at a gap of 20 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "haiti",
+    "reason": "gemini-v1 names no parent; nearest same-family end is maya_postclassic at a gap of 107 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "hallstatt",
+    "reason": "gemini-v1 names no parent; nearest same-family end is bell_beaker at a gap of 600 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "haudenosaunee",
+    "reason": "gemini-v1 names no parent; nearest same-family end is cahokia at a gap of 50 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "huns",
+    "reason": "gemini-v1 names no parent; nearest same-family end is scythians at a gap of 569 continuous years, outside a shared-boundary handoff."
   }
 ]

@@ -18,22 +18,22 @@
   },
   "importance3Fit": 1,
   "callouts": {
-    "dropped": 235,
-    "markers": 0,
+    "dropped": 222,
+    "markers": 13,
     "placed": 88
   },
   "relations": {
-    "total": 188,
-    "routed": 106,
+    "total": 450,
+    "routed": 172,
     "unroutable": 0,
-    "omitted": 82,
+    "omitted": 278,
     "unroutableIds": []
   },
   "labelHits": 0,
   "maxDrift": 3.211,
   "runtimeMs": {
-    "cold": 264,
-    "warm": 186
+    "cold": 260,
+    "warm": 188
   },
   "gates": {
     "overlaps": true,

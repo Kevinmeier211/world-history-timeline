@@ -1121,3 +1121,13 @@ Alternatives: Leave them at importance 3. Mark them cross-checked from pages tha
 Why: T6.09 lowered them so the unverified report would read 0 of 0. That hid the claims. Importance 4 still waits on an opened page, and the chip says they are not yet cross-checked.
 
 Reversible? y
+
+## 2026-10-26 — Overlap edges fill the relation floor
+
+Decision: `buildLineage` adds same-family `cultural_continuity` edges until the relation count is 450. The year is the later row’s start, and that year sits inside both closed lifetimes. The note says both rows are current in that year. Pages were not opened. Belgium and Muromachi stay roots. The Mughal pair, VOC toward Thailand, VOC toward the Pacific microstates, and Habsburg Spain toward Prussia stay absent. Candidates at or before 2000 BCE wait behind later years. This pass used years from 1894 BCE to 1991 CE. `npm run layout:report`: 238 ribbons, 0 overlaps, importance-3 labels 82/82, 0 unroutable, 278 omitted, callouts dropped 222, markers 13, placed 88, max drift 3.211. Cold runtime 260 ms, warm 188 ms, over the 150 ms gate. The layout engine was not changed.
+
+Alternatives: Add split or merge edges. Use a year outside either lifetime. Change the solver to chase the runtime gate.
+
+Why: The sheet had 188 relations. The floor is 450. These edges use a start year and source ids already stored on the later row.
+
+Reversible? y
