@@ -1,4 +1,45 @@
 {
-  "ribbons": [],
+  "ribbons": [
+    {
+      "polityId": "chalukya",
+      "label": "outside",
+      "reason": "500–800: the Chalukya name sat on the Gupta ribbon."
+    },
+    {
+      "polityId": "champa",
+      "label": "outside",
+      "reason": "Champa's rotated name crossed Japan through 1832."
+    },
+    {
+      "polityId": "etruscans",
+      "label": "outside",
+      "reason": "The Etruscan name crossed Kush, so it sits beside the ribbon."
+    },
+    {
+      "polityId": "goguryeo",
+      "label": "outside",
+      "reason": "500–668: Goguryeo's name crossed the Parthian ribbon."
+    },
+    {
+      "polityId": "kofun",
+      "label": "outside",
+      "reason": "Kofun's rotated name crossed the Parthian ribbon."
+    },
+    {
+      "polityId": "kura_araxes",
+      "label": "outside",
+      "reason": "The Kura-Araxes name crossed Early Dynastic Mesopotamia."
+    },
+    {
+      "polityId": "mongol_empire",
+      "label": "along",
+      "reason": "1200–1300: the Mongol name ran across Aotearoa."
+    },
+    {
+      "polityId": "nok_culture",
+      "label": "outside",
+      "reason": "The Nok name crossed the Roman Republic ribbon."
+    }
+  ],
   "callouts": []
 }

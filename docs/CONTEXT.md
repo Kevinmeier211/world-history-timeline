@@ -20,4 +20,4 @@ Poster and both Gemini PDFs are missing (Q-01). Gemini bibliography [1]–[37] w
 
 ## Next
 
-T3.18 tune the eight densest windows with `layoutOverrides.json` on branch `v2/p3-poster`. M1 is 5/11 passes (45%) in `docs/reviews/M1.md`. Do not start P4. Do not start P8. The early bin is 38/35. Tag `v2-p2-done` is the merge `390baa7`.
+T3.99 is the P3 gate on branch `v2/p3-poster`: Playwright shots, layout-report, and perf, then tag `v2-p3-done` and merge `--no-ff` into `v2/main` only if that gate passes. M1 is 5/11 passes (45%) in `docs/reviews/M1.md`. Do not start P4. Do not start P8. The early bin is 38/35. Tag `v2-p2-done` is the merge `390baa7`.

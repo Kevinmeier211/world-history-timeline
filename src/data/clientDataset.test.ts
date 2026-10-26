@@ -13,6 +13,13 @@ describe('client dataset', () => {
     expect(ids(fromBundle.relations)).toEqual(ids(fromDisk.relations));
     expect(ids(fromBundle.bands)).toEqual(ids(fromDisk.bands));
     expect(fromBundle.polities.length).toBeGreaterThan(100);
-    expect(clientOverrides().ribbons).toEqual([]);
+    const overrides = clientOverrides();
+    expect(overrides.callouts).toEqual([]);
+    expect(overrides.ribbons.length).toBeGreaterThanOrEqual(8);
+    const polityIds = new Set(fromBundle.polities.map((polity) => polity.id));
+    for (const row of overrides.ribbons) {
+      expect(polityIds.has(row.polityId)).toBe(true);
+      expect(row.reason.trim().length).toBeGreaterThanOrEqual(8);
+    }
   });
 });

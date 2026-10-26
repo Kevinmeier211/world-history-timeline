@@ -481,3 +481,13 @@ Alternatives: Count a partial as a pass and open P4. Treat the missing poster as
 Why: The checkpoint says to score honestly and to withhold P4 until at least 70% pass. Inventing the missing band, the missing states, or the missing images would fake the score.
 
 Reversible? y
+
+## 2026-10-26 — Dense-window labels move aside only when the name survives
+
+Decision: `layoutOverrides.json` forces eight labels. Chalukya, Champa, the Etruscans, Goguryeo, Kofun, Kura-Araxes, and Nok sit beside the ribbon. The Mongol name runs along the ribbon. Fitted overlaps fall from 23 to 15. Every moved name is at least as long as before, importance-3 fit stays 69/69, and ribbon overlaps stay 0. The 1750–2000 crossings stay. Turning those labels horizontal replaces “England → British Empire & UK” with “England →…”. An Argentina x pin clears the United States label and lands on Bolivia instead.
+
+Alternatives: Ellipsize the long names. Pin x anyway and accept a swapped collision. Leave the file empty.
+
+Why: T3.18 asks for a recorded reason on a real flaw. Hiding the name is a different flaw. The lane solver treats a pin as a new desired x and snaps to the next open slot.
+
+Reversible? y
