@@ -1,0 +1,103 @@
+[
+  {
+    "eraId": "era_2000bce_600",
+    "macroRegion": "americas",
+    "entries": [
+      {
+        "range": "1700–200 BCE",
+        "text": "The rows on this sheet date Poverty Point from about 1700 BCE to 1100 BCE, the Olmecs from about 1500 BCE to 400 BCE, and Chavín from about 900 BCE to 200 BCE. The cited pages were not opened.",
+        "sourceIds": ["inah", "museo_larco"]
+      }
+    ],
+    "whyItMatters": "Those three rows were already on the sheet. This pass did not change their years.",
+    "connections": [
+      "The Maya Preclassic checklist row runs from about 2000 BCE to 250."
+    ]
+  },
+  {
+    "eraId": "era_2000bce_600",
+    "macroRegion": "europe",
+    "entries": [
+      {
+        "range": "2700–800 BCE",
+        "text": "The checklist dates the Minoans from about 2700 BCE to 1450 BCE, the Mycenaeans from about 1600 BCE to 1100 BCE, and the Greek Dark Ages from about 1100 BCE to 800 BCE. The cited pages were not opened.",
+        "sourceIds": ["louvre", "cambridge_histories"]
+      }
+    ],
+    "whyItMatters": "The Greek Dark Ages band stays 1100 to 750 BCE. The checklist row ends in 800 BCE.",
+    "connections": [
+      "The Late Bronze Age Collapse band on this sheet is 1200 to 1150 BCE."
+    ]
+  },
+  {
+    "eraId": "era_2000bce_600",
+    "macroRegion": "africa",
+    "entries": [
+      {
+        "range": "2500–300 BCE",
+        "text": "The checklist dates Kerma from about 2500 BCE to 1500 BCE, the Kushite 25th Dynasty from 744 BCE to 656 BCE, and Napatan Kush from about 1000 BCE to 300 BCE. The cited pages were not opened.",
+        "sourceIds": ["unesco_gha", "british_library"]
+      }
+    ],
+    "whyItMatters": "The 25th Dynasty sits inside the Napatan span already on that row.",
+    "connections": [
+      "The Middle Kingdom row on this sheet runs from about 2055 BCE to 1650 BCE."
+    ]
+  },
+  {
+    "eraId": "era_2000bce_600",
+    "macroRegion": "west_central_asia",
+    "entries": [
+      {
+        "range": "2004–609 BCE",
+        "text": "The checklist leaves 2004 to 1894 BCE unnamed, between Ur III and Old Babylonian. Old Babylonian runs from about 1894 BCE to 1595 BCE, and the Neo-Assyrian Empire from 911 BCE to 609 BCE. The cited pages were not opened.",
+        "sourceIds": ["cdli", "isac"]
+      }
+    ],
+    "whyItMatters": "Kassite Babylon starts in 1595 BCE, where the Old Babylonian row ends.",
+    "connections": [
+      "The Hittite row on this sheet runs from about 1650 BCE to 1180 BCE."
+    ]
+  },
+  {
+    "eraId": "era_2000bce_600",
+    "macroRegion": "south_asia",
+    "entries": [
+      {
+        "range": "2600–322 BCE",
+        "text": "The checklist dates the mature Harappan from about 2600 BCE to 1900 BCE, inside the Indus span. The Vedic row on this sheet runs from about 1500 BCE to 600 BCE, and the Mahajanapadas from about 600 BCE to 322 BCE. The cited pages were not opened.",
+        "sourceIds": ["british_library", "cambridge_histories"]
+      }
+    ],
+    "whyItMatters": "The mature Harappan row stays inside the migrated Indus span. It does not replace that bundle.",
+    "connections": ["The Nanda checklist row starts in 345 BCE."]
+  },
+  {
+    "eraId": "era_2000bce_600",
+    "macroRegion": "east_asia",
+    "entries": [
+      {
+        "range": "2300–771 BCE",
+        "text": "The checklist leaves 2300 to 1900 BCE unnamed, between Liangzhu and Erlitou. Erlitou runs from about 1900 BCE to 1500 BCE, and Western Zhou from 1046 BCE to 771 BCE. The cited pages were not opened.",
+        "sourceIds": ["chgis", "cambridge_histories"]
+      }
+    ],
+    "whyItMatters": "The Shang row on this sheet runs from about 1600 BCE to 1046 BCE, where Western Zhou starts.",
+    "connections": [
+      "The Xia link on the Erlitou row is debated and is not a separate row."
+    ]
+  },
+  {
+    "eraId": "era_2000bce_600",
+    "macroRegion": "se_asia_oceania",
+    "entries": [
+      {
+        "range": "1600 BCE–300",
+        "text": "The checklist dates Lapita from about 1600 BCE to 500 BCE. Jōmon on this sheet runs from about 14000 BCE to 300 BCE, and Yayoi from about 300 BCE to 300. The cited pages were not opened.",
+        "sourceIds": ["field_museum", "unesco_mow"]
+      }
+    ],
+    "whyItMatters": "Lapita’s checklist span ends in 500 BCE. Jōmon’s start stays before the chart window.",
+    "connections": ["Dong Son’s checklist span is about 700 BCE to 100 CE."]
+  }
+]
