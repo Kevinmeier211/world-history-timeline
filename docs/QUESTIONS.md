@@ -38,6 +38,8 @@ T6.01 later added states Appendix B does not date, because that pass names them 
 
 T6.02 adds three more undated spans the pass names: Sweden 1523–1800, Denmark–Norway 1523–1814, and Saadi Morocco 1549–1659. The modern Scandinavian rows stay 1800–2000 placeholders. Pages were not opened.
 
+T6.03 does not add Chagatai, medieval Serbia, or a year for the Western Dark Ages or the Medieval Warm Period. Those names stay undated. The Visigoth row was moved from a stored start of 418 BCE to 418 CE, which is the checklist span. Pages were not opened.
+
 ## Q-05 — The Latin West checklist is shorter than the family minimum
 
 Why it matters: T1.19 requires at least 45 `latin_west` polities. Appendix B's dated Latin West lines, plus the six migrated bundles, do not reach 45. Inventing foundation years for Aragon, Castile, or Habsburg Austria would be a new claim.
