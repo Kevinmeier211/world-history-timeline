@@ -191,3 +191,13 @@ Alternatives: Use the solved x with only the drift cap. Spring inside every rela
 Why: The plan asks for hysteresis so a small geographic change does not jitter the ribbon, and it does not give a coefficient. A quarter is enough to calm that noise and still lets a real move through. The cap stays the hard limit.
 
 Reversible? y
+
+## 2026-10-26 — Tag the data phase without moving v2/main
+
+Decision: `v2-p1-done` points at `b4f3bea` only. That commit is not merged into `v2/main`. `v2/p2-layout` merges only when the P2 gate passes.
+
+Alternatives: Merge `b4f3bea` into `v2/main`. Tag the current layout tip. Leave the phase untagged.
+
+Why: `b4f3bea` descends from T2.01 and T2.02. A merge would put those unfinished layout commits on `v2/main`. The tag records the roster that meets every §7 floor. `v2/main` stays at the P0 merge.
+
+Reversible? y

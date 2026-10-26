@@ -20,4 +20,4 @@ Poster and both Gemini PDFs are missing (Q-01). Gemini bibliography [1]–[37] w
 
 ## Next
 
-T2.10 connectors, on branch `v2/p2-layout`. Uncertainty caps are in `src/layout/uncertainty.ts`. The early bin is 38/35. T1.99 stays untagged: do not merge this layout branch into `v2/main` or create `v2-p1-done` mid-phase. Do not start P8.
+T2.10 connectors, on branch `v2/p2-layout`. Uncertainty caps are in `src/layout/uncertainty.ts`. The early bin is 38/35. Tag `v2-p1-done` is `b4f3bea` only; `v2/main` was not moved, because that commit also contains T2.01 and T2.02. Merge this branch at the P2 gate. Do not start P8.
