@@ -248,6 +248,24 @@
   color: var(--focus);
 }
 
+.columns-save {
+  display: flex;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.columns-save input {
+  flex: 1;
+  min-width: 0;
+  height: 28px;
+  padding: 0 8px;
+  border: 1px solid var(--rule);
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 13px;
+}
+
 .legend-swatch {
   display: inline-block;
   width: 14px;

@@ -591,3 +591,13 @@ Alternatives: Collapse a family into one summary ribbon. Morph the path with CSS
 Why: T5.09 asks for fold and pin, a re-solved layout, and a keyframe tween no longer than 300 ms.
 
 Reversible? y
+
+## 2026-10-26 — Five migrated presets, and compares the reader names
+
+Decision: The columns panel lists the five presets in `presets.json` and no others. Applying one clears fold. Pin becomes the preset's regions and families, or is cleared when those regions already cover every macro-region. A non-zero integer year moves the chart; year 0 is dropped, and a preset with no year leaves the current year. A reader can save the current fold and pin under a name. Those compares live in localStorage key `chronos-compares`, at most eight, and a failed write is ignored. Applying a compare sets fold and pin and leaves the year alone.
+
+Alternatives: Invent the eleven presets named in the plan but missing from the tag. Store compares in the hash.
+
+Why: T5.10 asks for the migrated presets and user-defined compare sets. Q-03 keeps the count at five. The year stays out of a compare so a saved column filter can be reused at another date.
+
+Reversible? y

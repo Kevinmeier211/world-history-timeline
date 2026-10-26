@@ -1,20 +1,31 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 import { columnChoices } from '../layout/columns.ts';
+import type { CompareSet } from '../state/compares.ts';
 
 export function Columns({
   open,
   fold,
   pin,
+  presets,
+  compares,
   onFold,
   onPin,
+  onPreset,
+  onCompare,
+  onSave,
   onClose,
 }: {
   open: boolean;
   fold: readonly string[];
   pin: readonly string[];
+  presets: readonly { id: string; name: string }[];
+  compares: readonly CompareSet[];
   onFold: (id: string) => void;
   onPin: (id: string) => void;
+  onPreset: (id: string) => void;
+  onCompare: (id: string) => void;
+  onSave: (name: string) => void;
   onClose: () => void;
 }) {
   useEffect(() => {
@@ -26,6 +37,7 @@ export function Columns({
     return () => window.removeEventListener('keydown', onKey);
   }, [open, onClose]);
 
+  const [draft, setDraft] = useState('');
   if (!open) return null;
   const rows = columnChoices();
   const regions = rows.filter((row) => row.kind === 'region');
@@ -39,6 +51,42 @@ export function Columns({
         </button>
       </div>
       <p className="columns-note">Fold hides a column. Pin shows only what you pin.</p>
+      <h3>Presets</h3>
+      <ul className="columns-list">
+        {presets.map((preset) => (
+          <li key={preset.id}>
+            <button type="button" onClick={() => onPreset(preset.id)}>
+              {preset.name}
+            </button>
+          </li>
+        ))}
+      </ul>
+      <h3>Your compares</h3>
+      <ul className="columns-list">
+        {compares.map((row) => (
+          <li key={row.id}>
+            <button type="button" onClick={() => onCompare(row.id)}>
+              {row.name}
+            </button>
+          </li>
+        ))}
+      </ul>
+      <div className="columns-save">
+        <input
+          aria-label="Compare name"
+          value={draft}
+          onChange={(event) => setDraft(event.target.value)}
+        />
+        <button
+          type="button"
+          onClick={() => {
+            onSave(draft);
+            setDraft('');
+          }}
+        >
+          Save compare
+        </button>
+      </div>
       <ColumnList
         title="Regions"
         rows={regions}

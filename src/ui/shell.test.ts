@@ -5,6 +5,7 @@ import { cleanup, render, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { afterEach, describe, expect, it, vi } from 'vitest';
 
+import { COMPARE_STORAGE_KEY } from '../state/compares.ts';
 import { resetView } from '../state/view.ts';
 import { PosterApp } from './PosterApp.tsx';
 import { applyTheme, posterSpan, THEME_STORAGE_KEY } from './frame.ts';
@@ -32,6 +33,7 @@ describe('poster shell', () => {
     cleanup();
     applyTheme('system', document.documentElement);
     localStorage.removeItem(THEME_STORAGE_KEY);
+    localStorage.removeItem(COMPARE_STORAGE_KEY);
     resetView();
     window.history.replaceState(null, '', '/');
     vi.unstubAllGlobals();
@@ -217,6 +219,31 @@ describe('poster shell', () => {
     });
     await user.keyboard('{Escape}');
     expect(screen.queryByRole('region', { name: 'Columns' })).toBeNull();
+  });
+
+  it('applies a migrated preset and restores a saved compare', async () => {
+    vi.stubGlobal('ResizeObserver', FakeResizeObserver);
+    const user = userEvent.setup();
+    const first = render(createElement(PosterApp));
+    await user.click(screen.getByRole('button', { name: 'Columns' }));
+    await user.click(screen.getByRole('button', { name: 'Rome vs. Han China' }));
+    expect(window.location.hash).toBe('#y=100&pin=east_asia,europe,west_central_asia');
+    expect(screen.queryByRole('button', { name: 'Invented preset' })).toBeNull();
+    await user.click(screen.getByRole('button', { name: 'All 11 World Regions' }));
+    expect(window.location.hash).toBe('#y=100');
+    await user.click(screen.getByRole('button', { name: 'Pin Americas' }));
+    await user.type(
+      screen.getByRole('textbox', { name: 'Compare name' }),
+      'My Americas',
+    );
+    await user.click(screen.getByRole('button', { name: 'Save compare' }));
+    first.unmount();
+    resetView();
+    window.history.replaceState(null, '', '/');
+    render(createElement(PosterApp));
+    await user.click(screen.getByRole('button', { name: 'Columns' }));
+    await user.click(screen.getByRole('button', { name: 'My Americas' }));
+    expect(window.location.hash).toBe('#pin=americas');
   });
 
   it('mounts the poster and leaves the v1 canvas deleted', () => {

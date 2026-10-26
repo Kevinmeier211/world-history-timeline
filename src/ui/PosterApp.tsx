@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 
-import { withFold, withPin } from '../layout/columns.ts';
+import { columnChoices, withFold, withPin } from '../layout/columns.ts';
 import { clientDataset } from '../data/clientDataset.ts';
 import { ChartViewport, type SheetSize } from '../render/ChartViewport.tsx';
 import {
@@ -9,6 +9,13 @@ import {
   searchRecords,
   type SearchHit,
 } from '../search/query.ts';
+import {
+  applyPreset,
+  readCompares,
+  saveCompare,
+  writeCompares,
+  type CompareSet,
+} from '../state/compares.ts';
 import { useView } from '../state/view.ts';
 import type { ViewLink } from '../state/hashUrl.ts';
 import { Columns } from './Columns.tsx';
@@ -68,6 +75,9 @@ export function PosterApp() {
   );
   const [reading, setReading] = useState(false);
   const [columnsOpen, setColumnsOpen] = useState(false);
+  const [compares, setCompares] = useState<readonly CompareSet[]>(() =>
+    readCompares(browserStorage()),
+  );
   const closeReading = useCallback(() => setReading(false), []);
   const closeColumns = useCallback(() => setColumnsOpen(false), []);
   const applyColumns = useCallback(
@@ -79,6 +89,39 @@ export function PosterApp() {
       setLink(linkNext);
     },
     [setLink],
+  );
+  const applyPresetId = useCallback(
+    (id: string) => {
+      const preset = clientDataset().presets.find((item) => item.id === id);
+      if (!preset) return;
+      const regions = columnChoices()
+        .filter((row) => row.kind === 'region')
+        .map((row) => row.id);
+      const applied = applyPreset(preset, regions);
+      const current = useView.getState().link;
+      const next: ViewLink = { ...current, fold: applied.fold };
+      if (applied.pin.length > 0) next.pin = applied.pin;
+      else delete next.pin;
+      if (applied.y !== undefined) next.y = applied.y;
+      setLink(next);
+    },
+    [setLink],
+  );
+  const applyCompare = useCallback(
+    (id: string) => {
+      const row = compares.find((item) => item.id === id);
+      if (!row) return;
+      applyColumns({ fold: [...row.fold], pin: [...row.pin] });
+    },
+    [applyColumns, compares],
+  );
+  const saveCurrent = useCallback(
+    (name: string) => {
+      const current = useView.getState().link;
+      const next = saveCompare(compares, name, current.pin ?? [], current.fold);
+      setCompares(writeCompares(browserStorage(), next));
+    },
+    [compares],
   );
   const [sheet, setSheet] = useState<SheetSize>({ height: 0, minWidth: 0 });
   const onSheet = useCallback((next: SheetSize) => {
@@ -204,6 +247,11 @@ export function PosterApp() {
         onClose={closeColumns}
         onFold={(id) => applyColumns(withFold(link.fold, link.pin ?? [], id))}
         onPin={(id) => applyColumns(withPin(link.fold, link.pin ?? [], id))}
+        presets={clientDataset().presets}
+        compares={compares}
+        onPreset={applyPresetId}
+        onCompare={applyCompare}
+        onSave={saveCurrent}
       />
       {dossier ? <Dossier model={dossier} onClose={() => setDossierId(null)} /> : null}
     </div>
