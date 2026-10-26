@@ -76,6 +76,10 @@
     "reason": "gemini-v1 names no parent; nearest same-family end is venice at a gap of 3 continuous years, outside a shared-boundary handoff."
   },
   {
+    "id": "bell_beaker",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
     "id": "benin_kingdom",
     "reason": "gemini-v1 names no parent; nearest same-family end is aksum at a gap of 240 continuous years, outside a shared-boundary handoff."
   },
@@ -90,9 +94,5 @@
   {
     "id": "cahokia",
     "reason": "gemini-v1 names no parent; nearest same-family end is hopewell_tradition at a gap of 550 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "carthage",
-    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
   }
 ]

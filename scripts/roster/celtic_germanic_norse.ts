@@ -1,4 +1,4 @@
-import type { RosterRow } from '../roster.ts';
+import { markCited, type RosterRow } from '../roster.ts';
 
 const row = (
   id: string,
@@ -102,4 +102,26 @@ export const ROWS: RosterRow[] = [
   kingdom('denmark', 'Denmark'),
   kingdom('sweden', 'Sweden'),
   kingdom('norway', 'Norway'),
+  markCited(
+    row(
+      'corded_ware',
+      'Corded Ware',
+      -2900,
+      -2350,
+      'culture',
+      'Widely cited Corded Ware span is c. 2900–2350 BCE. Not an Appendix B line. Pages were not opened.',
+      'approximate',
+    ),
+  ),
+  markCited(
+    row(
+      'bell_beaker',
+      'Bell Beaker',
+      -2800,
+      -1800,
+      'culture',
+      'Widely cited Bell Beaker span is c. 2800–1800 BCE. Not an Appendix B line. Pages were not opened.',
+      'approximate',
+    ),
+  ),
 ];

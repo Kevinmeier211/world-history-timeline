@@ -1,17 +1,5 @@
 [
   {
-    "id": "abut_umayyad_abbasid",
-    "from": ["umayyad"],
-    "to": ["abbasid"],
-    "year": 750,
-    "type": "succession",
-    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
-    "sourceIds": ["unesco_gha", "cambridge_histories"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
-  },
-  {
     "id": "abut_ussr_russia",
     "from": ["ussr"],
     "to": ["russia"],
@@ -130,6 +118,18 @@
     "confidence": "debated",
     "verification": "unverified",
     "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
+  },
+  {
+    "id": "disputed_akkadian_empire",
+    "from": ["early_dynastic_mesopotamia", "sumerian_city_states"],
+    "to": ["akkadian_empire"],
+    "year": -2334,
+    "type": "disputed",
+    "note": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened.",
+    "sourceIds": ["cdli", "isac"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened."
   },
   {
     "id": "disputed_austria",

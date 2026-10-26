@@ -1,5 +1,27 @@
 [
   {
+    "id": "split_rio_de_la_plata_argentina_bolivia_chile_colombia_ecuador_paraguay_peru_republic_uruguay_venezuela",
+    "from": ["rio_de_la_plata"],
+    "to": [
+      "argentina",
+      "bolivia",
+      "chile",
+      "colombia",
+      "ecuador",
+      "paraguay",
+      "peru_republic",
+      "uruguay",
+      "venezuela"
+    ],
+    "year": 1810,
+    "type": "split",
+    "note": "Several same-family polities start on this handoff. Pages were not opened.",
+    "sourceIds": ["museo_larco", "field_museum"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Several same-family polities start on this handoff. Pages were not opened."
+  },
+  {
     "id": "split_shang_dynasty_western_zhou_zhou_dynasty",
     "from": ["shang_dynasty"],
     "to": ["western_zhou", "zhou_dynasty"],
@@ -130,17 +152,5 @@
     "confidence": "debated",
     "verification": "unverified",
     "evidence": "Same Appendix B span, 1250–1517, stored in two families. Not a checked conquest."
-  },
-  {
-    "id": "twin_seljuk_seljuk_iran",
-    "from": ["seljuk"],
-    "to": ["seljuk_iran"],
-    "year": 1037,
-    "type": "cultural_continuity",
-    "note": "Same Appendix B span, 1037–1194, stored in two families. Not a checked conquest.",
-    "sourceIds": ["isac", "louvre"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Same Appendix B span, 1037–1194, stored in two families. Not a checked conquest."
   }
 ]

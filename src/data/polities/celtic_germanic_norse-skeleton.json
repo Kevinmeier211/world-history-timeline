@@ -251,5 +251,28 @@
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "corded_ware",
+    "name": "Corded Ware",
+    "family": "celtic_germanic_norse",
+    "start": -2900,
+    "end": -2350,
+    "confidence": "approximate",
+    "dateNote": "Widely cited Corded Ware span is c. 2900–2350 BCE. Not an Appendix B line. Pages were not opened.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "culture",
+    "anchor": [
+      {
+        "year": -2900,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Corded Ware is a widely cited early span. Dates are not re-verified.",
+    "keyFacts": ["Widely cited span. Pages were not opened."],
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Widely cited span. The cited pages were not opened for this row."
   }
 ]

@@ -1,4 +1,4 @@
-import type { RosterRow } from '../roster.ts';
+import { markCited, type RosterRow } from '../roster.ts';
 
 const row = (
   id: string,
@@ -194,4 +194,26 @@ export const ROWS: RosterRow[] = [
   row('qing', 'Qing', 1644, 1912, 'empire', 'Appendix B: Qing 1644–1912.'),
   open('roc', 'Republic of China', 1912, 'Appendix B: ROC 1912–.'),
   open('prc', "People's Republic of China", 1949, 'Appendix B: PRC 1949–.'),
+  markCited(
+    row(
+      'majiayao',
+      'Majiayao',
+      -3300,
+      -2000,
+      'culture',
+      'Widely cited Majiayao span is c. 3300–2000 BCE. Not an Appendix B line. Pages were not opened.',
+      'approximate',
+    ),
+  ),
+  markCited(
+    row(
+      'longshan',
+      'Longshan',
+      -3000,
+      -1900,
+      'culture',
+      'Widely cited Longshan span is c. 3000–1900 BCE. This is not the Liangzhu checklist date. Pages were not opened.',
+      'approximate',
+    ),
+  ),
 ];

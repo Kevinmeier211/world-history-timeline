@@ -1,4 +1,4 @@
-import type { RosterRow } from '../roster.ts';
+import { markCited, type RosterRow } from '../roster.ts';
 
 const row = (
   id: string,
@@ -97,5 +97,16 @@ export const ROWS: RosterRow[] = [
     2000,
     'state',
     'Appendix B: Islamic Republic 1979–. Skeleton ends at 2000.',
+  ),
+  markCited(
+    row(
+      'kura_araxes',
+      'Kura-Araxes',
+      -3400,
+      -2000,
+      'culture',
+      'Widely cited Kura-Araxes span is c. 3400–2000 BCE. Not an Appendix B line. Pages were not opened.',
+      'approximate',
+    ),
   ),
 ];

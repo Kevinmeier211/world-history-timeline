@@ -1,17 +1,5 @@
 [
   {
-    "id": "abut_egypt_middle_kingdom_second_intermediate_egypt",
-    "from": ["egypt_middle_kingdom"],
-    "to": ["second_intermediate_egypt"],
-    "year": -1650,
-    "type": "succession",
-    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
-    "sourceIds": ["louvre", "unesco_gha"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
-  },
-  {
     "id": "abut_empire_of_alexander_ptolemaic_seleucid",
     "from": ["empire_of_alexander"],
     "to": ["ptolemaic_seleucid"],
@@ -139,6 +127,18 @@
     "type": "succession",
     "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
     "sourceIds": ["cambridge_histories", "british_library"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
+  },
+  {
+    "id": "abut_goryeo_joseon",
+    "from": ["goryeo"],
+    "to": ["joseon"],
+    "year": 1392,
+    "type": "succession",
+    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
+    "sourceIds": ["korea_national", "tokyo_national"],
     "confidence": "debated",
     "verification": "unverified",
     "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."

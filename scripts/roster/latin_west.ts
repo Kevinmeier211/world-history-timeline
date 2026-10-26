@@ -1,4 +1,4 @@
-import type { RosterRow } from '../roster.ts';
+import { markCited, type RosterRow } from '../roster.ts';
 
 type Kind = RosterRow['kind'];
 type Conf = RosterRow['confidence'];
@@ -321,5 +321,16 @@ export const ROWS: RosterRow[] = [
     'confederation',
     'Section 15 groups micro-states. Appendix B does not name or date them. Skeleton uses 1800–2000.',
     'debated',
+  ),
+  markCited(
+    row(
+      'los_millares',
+      'Los Millares',
+      -3200,
+      -2200,
+      'culture',
+      'Widely cited Los Millares span is c. 3200–2200 BCE. Not an Appendix B line. Pages were not opened.',
+      'approximate',
+    ),
   ),
 ];

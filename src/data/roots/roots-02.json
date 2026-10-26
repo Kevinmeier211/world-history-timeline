@@ -1,5 +1,9 @@
 [
   {
+    "id": "carthage",
+    "reason": "gemini-v1 names no parent; nearest same-family end is ebla at a gap of 786 continuous years, outside a shared-boundary handoff."
+  },
+  {
     "id": "chalukya",
     "reason": "gemini-v1 names no parent; nearest same-family end is kushan at a gap of 125 continuous years, outside a shared-boundary handoff."
   },
@@ -18,6 +22,10 @@
   {
     "id": "congo_kinshasa",
     "reason": "gemini-v1 names no parent; nearest same-family end is south_africa_union at a gap of 2 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "corded_ware",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
   },
   {
     "id": "crusader_states",
@@ -48,6 +56,10 @@
     "reason": "gemini-v1 names no parent; nearest same-family end is timurid at a gap of 127 continuous years, outside a shared-boundary handoff."
   },
   {
+    "id": "early_cycladic",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
     "id": "early_dynastic_egypt",
     "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
   },
@@ -56,12 +68,16 @@
     "reason": "gemini-v1 names no parent; nearest same-family end is funan at a gap of 450 continuous years, outside a shared-boundary handoff."
   },
   {
+    "id": "ebla",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
     "id": "egypt_old_kingdom",
     "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
   },
   {
     "id": "elam",
-    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+    "reason": "gemini-v1 names no parent; nearest same-family end is jemdet_nasr at a gap of 200 continuous years, outside a shared-boundary handoff."
   },
   {
     "id": "ethiopia_solomonic",
@@ -69,7 +85,7 @@
   },
   {
     "id": "etruscans",
-    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+    "reason": "gemini-v1 names no parent; nearest same-family end is los_millares at a gap of 1300 continuous years, outside a shared-boundary handoff."
   },
   {
     "id": "european_partition_africa",
@@ -78,21 +94,5 @@
   {
     "id": "fatimid",
     "reason": "gemini-v1 names no parent; nearest same-family end is umayyad at a gap of 159 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "first_bulgarian_empire",
-    "reason": "gemini-v1 names no parent; nearest same-family end is ptolemaic_seleucid at a gap of 710 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "french_revolution",
-    "reason": "gemini-v1 names no parent; nearest same-family end is habsburg_spain at a gap of 89 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "funan",
-    "reason": "gemini-v1 names no parent; nearest same-family end is lapita at a gap of 567 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "german_empire",
-    "reason": "gemini-v1 names no parent; nearest same-family end is papal_states at a gap of 1 continuous year, while other polities in the family are still current."
   }
 ]

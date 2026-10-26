@@ -1,4 +1,4 @@
-import type { RosterRow } from '../roster.ts';
+import { markCited, type RosterRow } from '../roster.ts';
 
 const row = (
   id: string,
@@ -111,5 +111,16 @@ export const ROWS: RosterRow[] = [
     1795,
     'state',
     'Appendix B: Poland–Lithuania 1569–1795.',
+  ),
+  markCited(
+    row(
+      'yamnaya',
+      'Yamnaya',
+      -3300,
+      -2600,
+      'culture',
+      'Widely cited Yamnaya span is c. 3300–2600 BCE. Not an Appendix B line. Pages were not opened.',
+      'approximate',
+    ),
   ),
 ];

@@ -8,8 +8,8 @@ A row is unverified when `verification` is `unverified`, or when a tour stop omi
 
 | kind | unverified | cross-checked | primary-checked | total |
 | --- | --- | --- | --- | --- |
-| polities | 392 | 0 | 0 | 392 |
-| relations | 179 | 0 | 0 | 179 |
+| polities | 404 | 0 | 0 | 404 |
+| relations | 180 | 0 | 0 | 180 |
 | callouts | 58 | 0 | 0 | 58 |
 | bands | 11 | 0 | 0 | 11 |
 | routes | 6 | 0 | 0 | 6 |
@@ -23,7 +23,7 @@ Counts are unverified / cross-checked / primary-checked.
 | kind | importance | unverified | cross-checked | primary-checked |
 | --- | --- | --- | --- | --- |
 | polities | 1 | 0 | 0 | 0 |
-| polities | 2 | 323 | 0 | 0 |
+| polities | 2 | 335 | 0 | 0 |
 | polities | 3 | 69 | 0 | 0 |
 | polities | 4 | 0 | 0 | 0 |
 | polities | 5 | 0 | 0 | 0 |
@@ -98,8 +98,8 @@ Unverified counts only.
 
 | era | polities | callouts | relations | bands | routes | tour stops |
 | --- | --- | --- | --- | --- | --- | --- |
-| 3300_2000bce | 26 | 9 | 9 | 1 | 3 | 0 |
-| 2000_1000bce | 42 | 11 | 13 | 2 | 3 | 3 |
+| 3300_2000bce | 38 | 9 | 10 | 1 | 3 | 0 |
+| 2000_1000bce | 48 | 11 | 13 | 2 | 3 | 3 |
 | 1000_1bce | 84 | 13 | 30 | 3 | 2 | 6 |
 | 1_500ce | 65 | 5 | 17 | 0 | 3 | 2 |
 | 500_1000ce | 103 | 4 | 28 | 2 | 3 | 0 |
@@ -119,18 +119,18 @@ Unverified callouts with no family: 0.
 | mesoamerican | 19 | 3 |
 | north_american | 14 | 5 |
 | sub_saharan | 35 | 4 |
-| nile_egyptian | 19 | 3 |
-| mesopotamian | 18 | 5 |
-| persian_iranian | 15 | 1 |
-| levantine_semitic | 14 | 1 |
-| greek_byzantine | 18 | 8 |
-| latin_west | 47 | 3 |
-| celtic_germanic_norse | 13 | 3 |
-| slavic_steppe | 14 | 0 |
+| nile_egyptian | 20 | 3 |
+| mesopotamian | 20 | 5 |
+| persian_iranian | 16 | 1 |
+| levantine_semitic | 15 | 1 |
+| greek_byzantine | 19 | 8 |
+| latin_west | 48 | 3 |
+| celtic_germanic_norse | 15 | 3 |
+| slavic_steppe | 15 | 0 |
 | islamic_arab | 12 | 1 |
 | turkic_mongol | 14 | 1 |
 | indian | 28 | 6 |
-| chinese | 33 | 9 |
+| chinese | 35 | 9 |
 | korean_japanese | 28 | 3 |
 | southeast_oceanian | 28 | 1 |
 

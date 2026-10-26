@@ -59,6 +59,19 @@ export interface RosterRow {
   importance?: Importance;
   dateNote?: string;
   endpoints?: { label: string; year: number; note?: string }[];
+  summary?: string;
+  keyFacts?: string[];
+  evidence?: string;
+}
+
+/** A widely cited span that is not an Appendix B line. */
+export function markCited(row: RosterRow): RosterRow {
+  return {
+    ...row,
+    summary: `${row.name} is a widely cited early span. Dates are not re-verified.`,
+    keyFacts: ['Widely cited span. Pages were not opened.'],
+    evidence: 'Widely cited span. The cited pages were not opened for this row.',
+  };
 }
 
 export function skeletonSummary(name: string): string {
@@ -66,7 +79,7 @@ export function skeletonSummary(name: string): string {
 }
 
 export function skeletonPolity(row: RosterRow): Polity {
-  const summary = skeletonSummary(row.name);
+  const summary = row.summary ?? skeletonSummary(row.name);
   if (wordCount(summary) > 30) throw new Error(`${row.id} summary exceeds 30 words`);
   if (row.start >= row.end) throw new Error(`${row.id} has an empty span`);
   const sources = FAMILY_SOURCES[row.family];
@@ -84,10 +97,12 @@ export function skeletonPolity(row: RosterRow): Polity {
     kind: row.kind,
     anchor: [{ year: row.start, xKey: FAMILY_XKEY[row.family] }],
     summary,
-    keyFacts: ['Checklist skeleton.'],
+    keyFacts: row.keyFacts ?? ['Checklist skeleton.'],
     sourceIds: [...sources],
     verification: 'unverified',
-    evidence: 'Appendix B checklist. The cited pages were not opened for this row.',
+    evidence:
+      row.evidence ??
+      'Appendix B checklist. The cited pages were not opened for this row.',
   };
   if (row.altNames) polity.altNames = row.altNames;
   if (row.endpoints) polity.endpoints = row.endpoints;

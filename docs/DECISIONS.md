@@ -171,3 +171,13 @@ Alternatives: Treat v1 `mapCenter` pixels as longitude. Leave `xKey` anchors unp
 Why: The roster's anchors are column keys. The knots expect longitude. A named default keeps the projection monotone and testable.
 
 Reversible? y
+
+## 2026-10-26 — Twelve widely cited cultures close the early bin
+
+Decision: Majiayao, Longshan, Jemdet Nasr, Early Dynastic Mesopotamia, Early Cycladic, Corded Ware, Bell Beaker, Naqada III, Yamnaya, Kura-Araxes, Los Millares, and Ebla are roster rows. Each uses a widely cited span, `confidence: approximate`, `verification: unverified`, and source ids already on that family. `v2-p1-done` stays untagged. See Q-07.
+
+Alternatives: Leave the bin at 26. Lower `ERA_FLOORS` to 26. Copy Liangzhu's years onto Longshan.
+
+Why: Kevin said Appendix B is a checklist, not a ceiling, and the 3300–2000 BCE floor of 35 has to be met before that phase is tagged. These spans are the standard archaeological ranges, and the notes say the pages were not opened.
+
+Reversible? y

@@ -1,5 +1,17 @@
 [
   {
+    "id": "twin_seljuk_seljuk_iran",
+    "from": ["seljuk"],
+    "to": ["seljuk_iran"],
+    "year": 1037,
+    "type": "cultural_continuity",
+    "note": "Same Appendix B span, 1037–1194, stored in two families. Not a checked conquest.",
+    "sourceIds": ["isac", "louvre"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Same Appendix B span, 1037–1194, stored in two families. Not a checked conquest."
+  },
+  {
     "id": "twin_timurid_timurid_iran",
     "from": ["timurid"],
     "to": ["timurid_iran"],
@@ -127,18 +139,6 @@
     "type": "cultural_continuity",
     "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
     "sourceIds": ["louvre", "cambridge_histories"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."
-  },
-  {
-    "id": "v1_egypt_new_kingdom_phoenicia_israel",
-    "from": ["egypt_new_kingdom"],
-    "to": ["phoenicia_israel"],
-    "year": -1200,
-    "type": "cultural_continuity",
-    "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
-    "sourceIds": ["louvre", "british_library"],
     "confidence": "debated",
     "verification": "unverified",
     "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."

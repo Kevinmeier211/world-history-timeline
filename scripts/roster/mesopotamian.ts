@@ -1,4 +1,4 @@
-import type { RosterRow } from '../roster.ts';
+import { markCited, type RosterRow } from '../roster.ts';
 
 const row = (
   id: string,
@@ -101,4 +101,26 @@ export const ROWS: RosterRow[] = [
   row('medes', 'Medes', -678, -550, 'state', 'Appendix B: Medes c.678–550 BCE.'),
   row('lydia', 'Lydia', -680, -546, 'state', 'Appendix B: Lydia c.680–546 BCE.'),
   row('urartu', 'Urartu', -860, -590, 'state', 'Appendix B: Urartu c.860–590 BCE.'),
+  markCited(
+    row(
+      'jemdet_nasr',
+      'Jemdet Nasr',
+      -3100,
+      -2900,
+      'period',
+      'Widely cited Jemdet Nasr span is c. 3100–2900 BCE. Not an Appendix B line. Pages were not opened.',
+      'approximate',
+    ),
+  ),
+  markCited(
+    row(
+      'early_dynastic_mesopotamia',
+      'Early Dynastic Mesopotamia',
+      -2900,
+      -2334,
+      'period',
+      'Widely cited Early Dynastic span is c. 2900–2334 BCE, beside the Sumerian city-states row. Pages were not opened.',
+      'approximate',
+    ),
+  ),
 ];

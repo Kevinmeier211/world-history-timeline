@@ -1,15 +1,16 @@
 import { describe, expect, it } from 'vitest';
 
-import { eraShortfalls, validateDataset } from '../src/data/validate.ts';
+import { ERA_FLOORS, eraShortfalls, validateDataset } from '../src/data/validate.ts';
 import { loadDataset, loadRoots } from './load-dataset.ts';
 
 describe('era floors on the roster', () => {
-  it('leaves only 3300–2000 BCE under the §7 floor of 35', () => {
+  it('meets every §7 floor, including 35 polities in 3300–2000 BCE', () => {
     const { coverage } = validateDataset(loadDataset(), loadRoots());
-    const short = eraShortfalls(coverage?.byEra ?? {});
-    expect(short.map((gap) => gap.id)).toEqual(['3300_2000bce']);
-    // Dated Appendix B spans plus bounded unnamed intervals. Raise the count
-    // when another such row is added. The floor stays 35.
-    expect(short[0]).toEqual({ id: '3300_2000bce', count: 26, floor: 35 });
+    const byEra = coverage?.byEra ?? {};
+    expect(eraShortfalls(byEra)).toEqual([]);
+    expect(ERA_FLOORS['3300_2000bce']).toBe(35);
+    // Appendix B, bounded intervals, and twelve widely cited cultures.
+    // Raise the count when another dated row is added. The floor stays 35.
+    expect(byEra['3300_2000bce']).toBe(38);
   });
 });

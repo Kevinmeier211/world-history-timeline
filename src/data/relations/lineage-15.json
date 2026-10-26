@@ -1,5 +1,17 @@
 [
   {
+    "id": "v1_ptolemaic_seleucid_roman_empire",
+    "from": ["ptolemaic_seleucid"],
+    "to": ["roman_empire"],
+    "year": -27,
+    "type": "cultural_continuity",
+    "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."
+  },
+  {
     "id": "v1_roman_empire_byzantine_empire",
     "from": ["roman_empire"],
     "to": ["byzantine_empire"],

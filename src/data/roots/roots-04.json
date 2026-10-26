@@ -1,5 +1,25 @@
 [
   {
+    "id": "israel_judah",
+    "reason": "gemini-v1 names no parent; nearest same-family end is ebla at a gap of 600 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "italy",
+    "reason": "gemini-v1 names no parent; nearest same-family end is first_french_empire at a gap of 47 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "japan_timeline",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "jemdet_nasr",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "jin_266",
+    "reason": "gemini-v1 names no parent; nearest same-family end is eastern_han, han_dynasty at a gap of 46 continuous years, outside a shared-boundary handoff."
+  },
+  {
     "id": "jomon",
     "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
   },
@@ -60,6 +80,10 @@
     "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
   },
   {
+    "id": "kura_araxes",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
     "id": "kush_napatan",
     "reason": "gemini-v1 names no parent; nearest same-family end is kerma at a gap of 500 continuous years, outside a shared-boundary handoff."
   },
@@ -70,29 +94,5 @@
   {
     "id": "kushan",
     "reason": "gemini-v1 names no parent; nearest same-family end is mahajanapadas, nanda at a gap of 351 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "la_tene",
-    "reason": "gemini-v1 names no parent; nearest same-family end is hallstatt at a gap of 50 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "lapita",
-    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
-  },
-  {
-    "id": "latin_empire",
-    "reason": "gemini-v1 names no parent; nearest same-family end is first_bulgarian_empire at a gap of 186 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "lebanon",
-    "reason": "gemini-v1 names no parent; nearest same-family end is ottoman_levant at a gap of 12 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "levant_mandates",
-    "reason": "gemini-v1 names no parent; nearest same-family end is ottoman_levant at a gap of 2 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "liangzhu",
-    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
   }
 ]

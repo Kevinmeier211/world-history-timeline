@@ -1,17 +1,5 @@
 [
   {
-    "id": "abut_goryeo_joseon",
-    "from": ["goryeo"],
-    "to": ["joseon"],
-    "year": 1392,
-    "type": "succession",
-    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
-    "sourceIds": ["korea_national", "tokyo_national"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
-  },
-  {
     "id": "abut_great_britain_united_kingdom",
     "from": ["great_britain"],
     "to": ["united_kingdom"],
@@ -79,6 +67,18 @@
     "type": "succession",
     "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
     "sourceIds": ["cambridge_histories", "british_library"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
+  },
+  {
+    "id": "abut_jemdet_nasr_early_dynastic_mesopotamia",
+    "from": ["jemdet_nasr"],
+    "to": ["early_dynastic_mesopotamia"],
+    "year": -2900,
+    "type": "succession",
+    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
+    "sourceIds": ["cdli", "isac"],
     "confidence": "debated",
     "verification": "unverified",
     "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."

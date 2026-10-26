@@ -1,5 +1,45 @@
 [
   {
+    "id": "mississippian_culture",
+    "reason": "gemini-v1 parents hopewell_tradition have no year inside both lifetimes ± 50; nearest same-family end is hopewell_tradition at a gap of 300 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "mughal",
+    "reason": "gemini-v1 names no parent; nearest same-family end is timurid at a gap of 19 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "muromachi",
+    "reason": "gemini-v1 names no parent; nearest same-family end is kamakura at a gap of 3 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "mycenaean",
+    "reason": "gemini-v1 names no parent; nearest same-family end is early_cycladic at a gap of 400 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "nabataean",
+    "reason": "gemini-v1 names no parent; nearest same-family end is phoenicia_israel, phoenician_city_states at a gap of 227 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "nanda",
+    "reason": "gemini-v1 names no parent; nearest same-family end is vedic_period at a gap of 255 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "naqada_iii",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "nazca",
+    "reason": "gemini-v1 names no parent; nearest same-family end is chavin_culture at a gap of 100 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "nazca_moche",
+    "reason": "gemini-v1 parents chavin_culture have no year inside both lifetimes ± 50; nearest same-family end is chavin_culture at a gap of 100 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "neo_babylonian",
+    "reason": "gemini-v1 names no parent; nearest same-family end is babylon_assyria at a gap of 285 continuous years, outside a shared-boundary handoff."
+  },
+  {
     "id": "neolithic_erlitou_china",
     "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
   },
@@ -54,45 +94,5 @@
   {
     "id": "pacific_microstates",
     "reason": "gemini-v1 names no parent; nearest same-family end is voc at a gap of 1 continuous year, while other polities in the family are still current."
-  },
-  {
-    "id": "pagan",
-    "reason": "gemini-v1 names no parent; nearest same-family end is funan at a gap of 299 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "pala",
-    "reason": "gemini-v1 names no parent; nearest same-family end is harsha at a gap of 103 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "pallava",
-    "reason": "gemini-v1 names no parent; nearest same-family end is kushan at a gap of 125 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "papal_states",
-    "reason": "gemini-v1 names no parent; nearest same-family end is merovingian_franks at a gap of 5 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "paracas",
-    "reason": "gemini-v1 names no parent; nearest same-family end is norte_chico at a gap of 1000 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "parthian",
-    "reason": "gemini-v1 names no parent; nearest same-family end is achaemenid_empire at a gap of 83 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "phoenician_city_states",
-    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
-  },
-  {
-    "id": "poland_lithuania",
-    "reason": "gemini-v1 names no parent; nearest same-family end is rus_1502 at a gap of 22 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "portugal",
-    "reason": "gemini-v1 names no parent; nearest same-family end is west_francia at a gap of 152 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "poverty_point",
-    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
   }
 ]

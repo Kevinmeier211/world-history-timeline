@@ -1,5 +1,17 @@
 [
   {
+    "id": "disputed_erlitou",
+    "from": ["china_2300", "longshan"],
+    "to": ["erlitou"],
+    "year": -1900,
+    "type": "disputed",
+    "note": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened.",
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened."
+  },
+  {
     "id": "disputed_first_intermediate_egypt",
     "from": ["egypt_old_kingdom", "old_kingdom_egypt"],
     "to": ["first_intermediate_egypt"],
@@ -127,18 +139,6 @@
     "type": "disputed",
     "note": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened.",
     "sourceIds": ["cdli", "isac"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened."
-  },
-  {
-    "id": "disputed_qin",
-    "from": ["warring_states", "zhou_dynasty"],
-    "to": ["qin"],
-    "year": -221,
-    "type": "disputed",
-    "note": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened.",
-    "sourceIds": ["chgis", "cambridge_histories"],
     "confidence": "debated",
     "verification": "unverified",
     "evidence": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened."

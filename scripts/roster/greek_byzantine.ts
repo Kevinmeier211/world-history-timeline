@@ -1,4 +1,4 @@
-import type { RosterRow } from '../roster.ts';
+import { markCited, type RosterRow } from '../roster.ts';
 
 const row = (
   id: string,
@@ -126,5 +126,16 @@ export const ROWS: RosterRow[] = [
         note: 'Appendix B lists 1821/1832 and does not say which year starts the state.',
       },
     ],
+  ),
+  markCited(
+    row(
+      'early_cycladic',
+      'Early Cycladic',
+      -3200,
+      -2000,
+      'culture',
+      'Widely cited Early Cycladic span is c. 3200–2000 BCE. Not an Appendix B line. Pages were not opened.',
+      'approximate',
+    ),
   ),
 ];

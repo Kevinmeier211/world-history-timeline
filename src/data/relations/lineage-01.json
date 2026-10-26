@@ -72,18 +72,6 @@
     "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
   },
   {
-    "id": "abut_china_2300_erlitou",
-    "from": ["china_2300"],
-    "to": ["erlitou"],
-    "year": -1900,
-    "type": "succession",
-    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
-    "sourceIds": ["chgis", "cambridge_histories"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
-  },
-  {
     "id": "abut_dong_son_khmer_majapahit_sea",
     "from": ["dong_son"],
     "to": ["khmer_majapahit_sea"],
@@ -136,6 +124,18 @@
     "from": ["egypt_late_to_ptolemaic"],
     "to": ["ptolemaic_egypt"],
     "year": -305,
+    "type": "succession",
+    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
+    "sourceIds": ["louvre", "unesco_gha"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
+  },
+  {
+    "id": "abut_egypt_middle_kingdom_second_intermediate_egypt",
+    "from": ["egypt_middle_kingdom"],
+    "to": ["second_intermediate_egypt"],
+    "year": -1650,
     "type": "succession",
     "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
     "sourceIds": ["louvre", "unesco_gha"],

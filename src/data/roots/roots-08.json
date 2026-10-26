@@ -1,5 +1,45 @@
 [
   {
+    "id": "scythians",
+    "reason": "gemini-v1 names no parent; nearest same-family end is yamnaya at a gap of 1700 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "second_bulgarian_empire",
+    "reason": "gemini-v1 names no parent; nearest same-family end is first_bulgarian_empire at a gap of 167 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "second_temple",
+    "reason": "gemini-v1 names no parent; nearest same-family end is phoenicia_israel, phoenician_city_states at a gap of 23 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "seleucid",
+    "reason": "gemini-v1 names no parent; nearest same-family end is achaemenid_empire at a gap of 18 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "seljuk",
+    "reason": "gemini-v1 names no parent; nearest same-family end is steppe_840 at a gap of 121 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "senegal",
+    "reason": "gemini-v1 names no parent; nearest same-family end is south_africa_union at a gap of 2 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "sikh_empire",
+    "reason": "gemini-v1 names no parent; nearest same-family end is mughal_empire at a gap of 42 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "silla",
+    "reason": "gemini-v1 names no parent; nearest same-family end is jomon at a gap of 243 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "sokoto",
+    "reason": "gemini-v1 names no parent; nearest same-family end is mali_empire at a gap of 204 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "songhai_empire",
+    "reason": "gemini-v1 names no parent; nearest same-family end is great_zimbabwe at a gap of 14 continuous years, outside a shared-boundary handoff."
+  },
+  {
     "id": "south_africa_union",
     "reason": "gemini-v1 names no parent; nearest same-family end is sokoto at a gap of 7 continuous years, outside a shared-boundary handoff."
   },
@@ -54,45 +94,5 @@
   {
     "id": "tarascan",
     "reason": "gemini-v1 names no parent; nearest same-family end is toltecs at a gap of 132 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "teotihuacan",
-    "reason": "gemini-v1 names no parent; nearest same-family end is olmecs at a gap of 300 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "thailand",
-    "reason": "gemini-v1 names no parent; nearest same-family end is voc at a gap of 1 continuous year, while other polities in the family are still current."
-  },
-  {
-    "id": "third_intermediate_egypt",
-    "reason": "gemini-v1 names no parent; nearest same-family end is egypt_new_kingdom at a gap of 8 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "thirteen_colonies",
-    "reason": "gemini-v1 names no parent; nearest same-family end is mississippian_culture at a gap of 67 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "tibetan_empire",
-    "reason": "gemini-v1 names no parent; nearest same-family end is gupta at a gap of 68 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "timurid",
-    "reason": "gemini-v1 names no parent; nearest same-family end is mongol_empire, yuan at a gap of 2 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "tiwanaku",
-    "reason": "gemini-v1 names no parent; nearest same-family end is paracas at a gap of 400 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "tonga",
-    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
-  },
-  {
-    "id": "tulunid_egypt",
-    "reason": "gemini-v1 names no parent; nearest same-family end is roman_egypt at a gap of 227 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "united_provinces_central_america",
-    "reason": "gemini-v1 names no parent; nearest same-family end is maya_postclassic at a gap of 124 continuous years, outside a shared-boundary handoff."
   }
 ]

@@ -1,5 +1,17 @@
 [
   {
+    "id": "v1_megalithic_celts_roman_empire",
+    "from": ["megalithic_celts"],
+    "to": ["roman_empire"],
+    "year": -27,
+    "type": "cultural_continuity",
+    "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."
+  },
+  {
     "id": "v1_mississippian_culture_iroquois_indigenous_nations",
     "from": ["mississippian_culture"],
     "to": ["iroquois_indigenous_nations"],
@@ -127,18 +139,6 @@
     "type": "cultural_continuity",
     "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
     "sourceIds": ["isac", "louvre"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."
-  },
-  {
-    "id": "v1_ptolemaic_seleucid_roman_empire",
-    "from": ["ptolemaic_seleucid"],
-    "to": ["roman_empire"],
-    "year": -27,
-    "type": "cultural_continuity",
-    "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
-    "sourceIds": ["cambridge_histories", "british_library"],
     "confidence": "debated",
     "verification": "unverified",
     "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."

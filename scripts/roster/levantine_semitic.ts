@@ -1,4 +1,4 @@
-import type { RosterRow } from '../roster.ts';
+import { markCited, type RosterRow } from '../roster.ts';
 
 const row = (
   id: string,
@@ -111,4 +111,15 @@ export const ROWS: RosterRow[] = [
   arabState('lebanon', 'Lebanon'),
   arabState('jordan', 'Jordan'),
   arabState('iraq', 'Iraq'),
+  markCited(
+    row(
+      'ebla',
+      'Ebla',
+      -3000,
+      -1600,
+      'state',
+      'Widely cited Ebla span is c. 3000–1600 BCE. The royal-archive kingdom is often placed in the third millennium. Pages were not opened.',
+      'approximate',
+    ),
+  ),
 ];

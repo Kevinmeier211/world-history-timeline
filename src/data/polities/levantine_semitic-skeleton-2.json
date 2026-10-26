@@ -21,5 +21,28 @@
     "sourceIds": ["louvre", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "ebla",
+    "name": "Ebla",
+    "family": "levantine_semitic",
+    "start": -3000,
+    "end": -1600,
+    "confidence": "approximate",
+    "dateNote": "Widely cited Ebla span is c. 3000–1600 BCE. The royal-archive kingdom is often placed in the third millennium. Pages were not opened.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -3000,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Ebla is a widely cited early span. Dates are not re-verified.",
+    "keyFacts": ["Widely cited span. Pages were not opened."],
+    "sourceIds": ["louvre", "british_library"],
+    "verification": "unverified",
+    "evidence": "Widely cited span. The cited pages were not opened for this row."
   }
 ]

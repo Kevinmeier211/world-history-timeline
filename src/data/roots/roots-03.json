@@ -1,5 +1,21 @@
 [
   {
+    "id": "first_bulgarian_empire",
+    "reason": "gemini-v1 names no parent; nearest same-family end is ptolemaic_seleucid at a gap of 710 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "french_revolution",
+    "reason": "gemini-v1 names no parent; nearest same-family end is habsburg_spain at a gap of 89 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "funan",
+    "reason": "gemini-v1 names no parent; nearest same-family end is lapita at a gap of 567 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "german_empire",
+    "reason": "gemini-v1 names no parent; nearest same-family end is papal_states at a gap of 1 continuous year, while other polities in the family are still current."
+  },
+  {
     "id": "ghana_mali_songhai",
     "reason": "gemini-v1 parents nok_culture have no year inside both lifetimes ± 50; nearest same-family end is kerma_kush, meroitic_kush at a gap of 50 continuous years, outside a shared-boundary handoff."
   },
@@ -41,7 +57,7 @@
   },
   {
     "id": "hallstatt",
-    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+    "reason": "gemini-v1 names no parent; nearest same-family end is bell_beaker at a gap of 600 continuous years, outside a shared-boundary handoff."
   },
   {
     "id": "harsha",
@@ -78,21 +94,5 @@
   {
     "id": "iraq",
     "reason": "gemini-v1 names no parent; nearest same-family end is ottoman_levant at a gap of 12 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "israel_judah",
-    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
-  },
-  {
-    "id": "italy",
-    "reason": "gemini-v1 names no parent; nearest same-family end is first_french_empire at a gap of 47 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "japan_timeline",
-    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
-  },
-  {
-    "id": "jin_266",
-    "reason": "gemini-v1 names no parent; nearest same-family end is eastern_han, han_dynasty at a gap of 46 continuous years, outside a shared-boundary handoff."
   }
 ]
