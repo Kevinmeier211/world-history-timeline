@@ -951,3 +951,13 @@ Alternatives: Leave Sweden on the 1800 placeholder only. Make Sweden the only su
 Why: T6.02 names Sweden and Songhai→Moroccan. Appendix B dates the Kalmar end and the Songhai end, and it does not date these three rows. A Sweden-only handoff would hide Denmark and Norway. A pashalik end is not one year this pass will freeze.
 
 Reversible? y
+
+## 2026-10-26 — Reformation, Scientific Revolution, and Little Ice Age stay undated
+
+Decision: T6.02 adds no band for the Reformation, the Scientific Revolution, or the Little Ice Age. Appendix B names those three and gives them no years. The Age of Discovery stays the existing band from 1492 to 1650. The Enlightenment stays inside the existing band from 1700 to 1900. Pages were not opened. `verification` on those bands stays unverified.
+
+Alternatives: Invent 1517–1648, 1543–1687, or 1300–1850. Copy the discovery band under a second title.
+
+Why: A new band has to use a span the dataset already dates. The two existing bands already cover the dated frames this pass can stand on.
+
+Reversible? y
