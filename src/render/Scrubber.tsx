@@ -6,8 +6,10 @@ import { formatYear } from '../lib/years.ts';
 import {
   designYFromClient,
   FAMILY_MACRO,
+  LAPSE_MS,
   lineOffset,
   MACRO_REGIONS,
+  nextLapseYear,
   yearAtDesignY,
   worldAtYear,
   type RegionSnapshot,
@@ -16,17 +18,25 @@ import {
 export function ScrubberView({
   year,
   locked,
+  playing,
+  reduced,
   regions,
   onLock,
   onUnlock,
+  onPlay,
+  onPause,
   onPick,
   lineRef,
 }: {
   year: number;
   locked: boolean;
+  playing: boolean;
+  reduced: boolean;
   regions: readonly RegionSnapshot[];
   onLock: () => void;
   onUnlock: () => void;
+  onPlay: () => void;
+  onPause: () => void;
   onPick: (id: string) => void;
   lineRef?: Ref<HTMLDivElement>;
 }) {
@@ -55,6 +65,28 @@ export function ScrubberView({
             }}
           >
             Lock year
+          </button>
+        )}
+        {playing ? (
+          <button
+            type="button"
+            onClick={(event) => {
+              event.stopPropagation();
+              onPause();
+            }}
+          >
+            Pause
+          </button>
+        ) : (
+          <button
+            type="button"
+            disabled={reduced}
+            onClick={(event) => {
+              event.stopPropagation();
+              onPlay();
+            }}
+          >
+            Play
           </button>
         )}
       </div>
@@ -90,21 +122,31 @@ export function ScrubberView({
   );
 }
 
+function prefersReducedMotion(): boolean {
+  if (typeof window.matchMedia !== 'function') return true;
+  return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+}
+
 export function Scrubber({
   scale,
   scrollTop,
   onPick,
+  onYear,
 }: {
   scale: number;
   scrollTop: number;
   onPick: (id: string) => void;
+  onYear?: (year: number) => void;
 }) {
   const anchor = useRef<HTMLDivElement>(null);
   const line = useRef<HTMLDivElement>(null);
   const yearRef = useRef<number | null>(null);
   const lockedRef = useRef(false);
+  const onYearRef = useRef(onYear);
   const [year, setYear] = useState<number | null>(null);
   const [locked, setLocked] = useState(false);
+  const [playing, setPlaying] = useState(false);
+  const [reduced, setReduced] = useState(prefersReducedMotion);
   const regions = useMemo(
     () =>
       year == null || !locked
@@ -112,6 +154,38 @@ export function Scrubber({
         : worldAtYear(year, clientDataset().polities, MACRO_REGIONS, FAMILY_MACRO),
     [locked, year],
   );
+
+  useEffect(() => {
+    onYearRef.current = onYear;
+  }, [onYear]);
+
+  useEffect(() => {
+    if (typeof window.matchMedia !== 'function') return;
+    const query = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const onChange = () => {
+      setReduced(query.matches);
+      if (query.matches) setPlaying(false);
+    };
+    query.addEventListener('change', onChange);
+    return () => query.removeEventListener('change', onChange);
+  }, []);
+
+  useEffect(() => {
+    if (!playing || reduced) return;
+    const id = window.setInterval(() => {
+      const current = yearRef.current;
+      if (current == null) return;
+      const next = nextLapseYear(current);
+      if (next == null) {
+        setPlaying(false);
+        return;
+      }
+      yearRef.current = next;
+      setYear(next);
+      onYearRef.current?.(next);
+    }, LAPSE_MS);
+    return () => window.clearInterval(id);
+  }, [playing, reduced]);
 
   useEffect(() => {
     const host = anchor.current?.closest('.stage-host');
@@ -170,9 +244,19 @@ export function Scrubber({
             lockedRef.current = true;
             setLocked(true);
           }}
+          playing={playing}
+          reduced={reduced}
+          onPlay={() => {
+            if (reduced || yearRef.current == null) return;
+            lockedRef.current = true;
+            setLocked(true);
+            setPlaying(true);
+          }}
+          onPause={() => setPlaying(false)}
           onUnlock={() => {
             lockedRef.current = false;
             setLocked(false);
+            setPlaying(false);
           }}
           onPick={onPick}
         />

@@ -12,6 +12,7 @@ import {
   FAMILY_MACRO,
   lineOffset,
   MACRO_REGIONS,
+  nextLapseYear,
   yearAtDesignY,
   worldAtYear,
   type SnapshotPolity,
@@ -75,6 +76,11 @@ describe('year scrubber', () => {
     expect([-1, 1]).toContain(year);
     expect(designYFromClient(10, 0, 2, 0)).toBe(5);
     expect(lineOffset(100, 50, 2, 20, 0)).toBe(230);
+    expect(nextLapseYear(-30)).toBe(-5);
+    expect(nextLapseYear(-10)).toBe(16);
+    expect(nextLapseYear(1980)).toBe(2000);
+    expect(nextLapseYear(2000)).toBeNull();
+    expect(nextLapseYear(0)).toBeNull();
   });
 
   it('lists importance 3 states per macro-region, including a span', () => {
@@ -141,6 +147,10 @@ describe('year scrubber', () => {
         year: -221,
         locked,
         regions: worldAtYear(-221, polities, regions, familyMacro),
+        playing: false,
+        reduced: false,
+        onPlay: () => {},
+        onPause: () => {},
         onLock: () => setLocked(true),
         onUnlock: () => setLocked(false),
         onPick,
@@ -157,5 +167,28 @@ describe('year scrubber', () => {
     expect(onPick).toHaveBeenCalledWith('rome');
     await user.click(screen.getByRole('button', { name: 'Unlock' }));
     expect(screen.queryByRole('region', { name: 'World in 221 BCE' })).toBeNull();
+  });
+
+  it('disables time-lapse when motion is reduced', async () => {
+    const user = userEvent.setup();
+    const onPlay = vi.fn();
+    render(
+      createElement(ScrubberView, {
+        year: -221,
+        locked: true,
+        playing: false,
+        reduced: true,
+        regions: [],
+        onLock: () => {},
+        onUnlock: () => {},
+        onPick: () => {},
+        onPlay,
+        onPause: () => {},
+      }),
+    );
+    const play = screen.getByRole('button', { name: 'Play' });
+    expect(play).toBeDisabled();
+    await user.click(play);
+    expect(onPlay).not.toHaveBeenCalled();
   });
 });

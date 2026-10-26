@@ -47,6 +47,7 @@ describe('poster shell', () => {
     ).toBeInTheDocument();
     expect(screen.queryByRole('dialog')).toBeNull();
     expect(screen.queryByRole('button', { name: 'Lock year' })).toBeNull();
+    expect(screen.queryByRole('button', { name: 'Play' })).toBeNull();
     expect(screen.queryByRole('region', { name: /World in/ })).toBeNull();
     await user.click(screen.getByRole('button', { name: 'How to read this' }));
     const key = screen.getByRole('dialog', { name: 'How to read this' });

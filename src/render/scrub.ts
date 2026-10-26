@@ -30,6 +30,21 @@ export const MACRO_REGIONS = (
   geography as { macroRegions: readonly { id: MacroRegion; name: string }[] }
 ).macroRegions;
 
+/** Years advanced by one time-lapse tick. Continuous time, so year 0 is skipped. */
+export const LAPSE_STEP = 25;
+export const LAPSE_MS = 400;
+
+/** The next lapse year, or null when `year` is already at the end. */
+export function nextLapseYear(
+  year: number,
+  end = AXIS_END,
+  step = LAPSE_STEP,
+): number | null {
+  if (year === 0 || !(step > 0) || year >= end) return null;
+  const next = fromT(Math.min(toT(end), toT(year) + step));
+  return next === year ? null : next;
+}
+
 /** Historical year under a design-space y. Year 0 is never returned. */
 export function yearAtDesignY(y: number, zoomY = 1): number | null {
   if (!Number.isFinite(y) || !(zoomY > 0)) return null;

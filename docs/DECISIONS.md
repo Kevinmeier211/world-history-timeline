@@ -551,3 +551,13 @@ Alternatives: Keep an 11-card strip on screen. Open the snapshot on hover. Inclu
 Why: T5.05 replaces the permanent strip with a locked popover of the states that matter in each region. Chrome at rest stays the top bar.
 
 Reversible? y
+
+## 2026-10-26 — Time-lapse steps the locked year, and reduced motion disables it
+
+Decision: Play sits on the crosshair. It locks the year, then advances 25 years at a time, skipping year 0, and stops at 2000. The chart scrolls to keep that year in view, and the snapshot follows. Pause and Unlock stop the run. When `prefers-reduced-motion` matches, or when `matchMedia` is missing, Play is disabled and no timer starts.
+
+Alternatives: Animate every year. Leave Play enabled and jump instantly under reduced motion. Run the lapse without locking the snapshot.
+
+Why: T5.06 asks for an optional time-lapse that reduced motion disables. A 25-year step is readable. The missing-`matchMedia` case matches the fly, so tests do not animate.
+
+Reversible? y

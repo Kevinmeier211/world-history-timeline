@@ -260,6 +260,16 @@ export function ChartViewport({
           useView.getState().setLink({ ...current, sel: id }, 'replace');
           onOpen?.(id);
         }}
+        onYear={(next) => {
+          const scroller = scrollerOf(host.current);
+          if (!scroller) return;
+          scroller.scrollTop = scrollTopForYear(
+            next,
+            scale,
+            scroller.clientHeight,
+            world.height * scale,
+          );
+        }}
       />
       {metrics && overlay ? (
         <div

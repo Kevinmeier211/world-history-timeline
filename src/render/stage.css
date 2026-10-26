@@ -315,6 +315,11 @@
   cursor: pointer;
 }
 
+.scrub-readout button:disabled {
+  color: var(--ink-muted);
+  cursor: default;
+}
+
 .scrub-card button {
   display: block;
   width: 100%;
