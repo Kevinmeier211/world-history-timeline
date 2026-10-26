@@ -1241,3 +1241,33 @@ Alternatives: Hold the tag until a contract proof. Fail the gate on the letter s
 Why: The phase exit is a selectable 24×36 PDF, embedded fonts, the poster stroke floor, and reference pages from one command. Those were run. Images were optional for this phase.
 
 Reversible? y
+
+## 2026-10-26 — The license audit reads installed package.json fields
+
+Decision: `docs/LICENSES.md` lists the `license` field of every direct dependency at the version in `node_modules`. A walk of those fields, including scoped folders and nested `node_modules` two levels down, flags GPL, AGPL, LGPL, MPL, SSPL, EUPL, OSL, and CDDL. The hits are `axe-core` and `@axe-core/playwright` (MPL-2.0, used by `npm run axe`) and the sharp libvips packages (`LGPL-3.0-or-later`, pulled in by devDependency `sharp`). `src/` does not import them. `license-checker` is not installed. The world-atlas package field is ISC. Its README describes `land-110m.json` as Natural Earth land at 1:110m, version 4.1.0. This audit does not state a Natural Earth license. Arimo-Bold is not an npm package. The system file's name table says SIL OFL 1.1.
+
+Alternatives: Add `license-checker`. Treat a missing field as MIT. State a Natural Earth license from memory.
+
+Why: T9.02 asks for the installed tree and a copyleft flag.
+
+Reversible? y
+
+## 2026-10-26 — The closeout cites the committed metrics and leaves T9.03 unrun
+
+Decision: `README.md`, `docs/LICENSES.md`, `docs/HANDOFF.md`, and `docs/CONTEXT.md` are written on `v2/p7-print` after tag `v2-p7-done`. That tag stays on merge `a9f3a4e`. The closeout commits are not merged. `docs/reviews/M4.md` stays the P5 score of 5/11. `docs/reviews/layout-pass.md` stays 9/10 with item 2 partial. Layout, perf, shots, axe, and `bundle:check` were not re-run. The handoff cites `docs/reports/layout-latest.json` (warm 177 ms, `pass` false on `runtimeMs`), the M3 perf line (p95 16.80 ms), the axe note of 24 passed, and the on-disk JavaScript gzip of 280,930 bytes. Pushes made: 0. CI runs triggered: 0. P8 stays closed.
+
+Alternatives: Re-run T9.03 and overwrite `docs/reviews/M4.md`. Merge the closeout and move the tag. Start P8.
+
+Why: The requested closeout is those four documents. T9.03 is a separate checkpoint, and the filename it would use already holds an earlier review.
+
+Reversible? y
+
+## 2026-10-26 — The closeout merges, and the print tag stays
+
+Decision: The closeout commits on `v2/p7-print` merge `--no-ff` into `v2/main`. Tag `v2-p7-done` stays on `a9f3a4e`. `docs/reviews/closeout.md` points at the older 5/11 score in `docs/reviews/M4.md`, the 9/10 layout pass, the handoff counts, gated images, 40 unverified importance-4 callouts, and warm layout 177 ms. That note is not an M4 run. Nothing is pushed. P8 stays closed.
+
+Alternatives: Move the tag onto the closeout merge. Re-run M4 and overwrite `docs/reviews/M4.md`. Leave the closeout only on `v2/p7-print`.
+
+Why: Kevin asked for the merge and for the review note, and asked for the tag to stay.
+
+Reversible? y
