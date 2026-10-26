@@ -71,6 +71,12 @@
 }
 
 .ribbon-body,
+.ribbon-uncertain,
+.ribbon-fade {
+  pointer-events: none;
+}
+
+.ribbon-body,
 .ribbon-uncertain {
   stroke-width: 1;
   vector-effect: non-scaling-stroke;
@@ -98,8 +104,52 @@
   vector-effect: non-scaling-stroke;
 }
 
+.ribbon {
+  transition: opacity 200ms ease-out;
+}
+
 .ribbon-dim {
   opacity: 0.25;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ribbon {
+    transition: none;
+  }
+}
+
+.ribbon-tip {
+  position: fixed;
+  z-index: 4;
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  padding: 6px 8px;
+  border: 1px solid var(--rule);
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 13px;
+  pointer-events: none;
+}
+
+.ribbon-tip-name {
+  font-weight: 600;
+}
+
+.verify-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--ink-muted);
+}
+
+.verify-cross {
+  background: var(--ink);
+}
+
+.verify-primary {
+  background: var(--focus);
 }
 
 .connectors {

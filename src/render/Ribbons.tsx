@@ -1,3 +1,7 @@
+import type { PointerEvent } from 'react';
+
+import { useFocus } from '../state/focus.ts';
+import { ribbonDimmed } from '../state/focusTip.ts';
 import { Ribbon } from './Ribbon.tsx';
 import { RibbonLabel } from './RibbonLabel.tsx';
 import type { LabelPaint, RibbonPaint } from './ribbonInk.ts';
@@ -11,7 +15,15 @@ export function Ribbons({
   labels: readonly LabelPaint[];
   onSelect?: (id: string) => void;
 }) {
+  const focusFamily = useFocus((state) => (state.active ? state.familyId : null));
+  const show = useFocus((state) => state.show);
+  const hide = useFocus((state) => state.hide);
   const faded = ribbons.filter((ribbon) => ribbon.fadePx > 0);
+  const leave = (event: PointerEvent<SVGPathElement>) => {
+    const next = event.relatedTarget;
+    if (next instanceof Element && next.closest('.ribbon-hit')) return;
+    hide();
+  };
   return (
     <g className="ribbons">
       <defs>
@@ -35,7 +47,25 @@ export function Ribbons({
         ))}
       </defs>
       {ribbons.map((ribbon) => (
-        <Ribbon key={ribbon.id} ribbon={ribbon} onSelect={onSelect} />
+        <Ribbon
+          key={ribbon.id}
+          ribbon={ribbon}
+          dimmed={ribbonDimmed(ribbon.familyId, focusFamily)}
+          onSelect={onSelect}
+          onHover={(item, x, y) =>
+            show({
+              polityId: item.id,
+              familyId: item.familyId,
+              name: item.name,
+              dates: item.dates,
+              confidence: item.confidence,
+              verification: item.verification,
+              x,
+              y,
+            })
+          }
+          onLeave={leave}
+        />
       ))}
       {labels.map((label) => (
         <RibbonLabel key={label.polityId} label={label} />

@@ -1,4 +1,4 @@
-import type { Confidence } from '../data/schema/primitives.ts';
+import type { Confidence, Verification } from '../data/schema/primitives.ts';
 import type { Dataset, Polity } from '../data/schema/index.ts';
 import { uncertaintyGeometry } from '../layout/uncertainty.ts';
 import type { LayoutLabel, LayoutResult, LayoutRibbon } from '../layout/types.ts';
@@ -13,6 +13,11 @@ const CAP_LIMIT = 10;
 
 export interface RibbonPaint {
   id: string;
+  familyId: string;
+  name: string;
+  dates: string;
+  confidence: Confidence;
+  verification: Verification;
   d: string;
   fill: string;
   edge: string;
@@ -124,6 +129,11 @@ function paintOne(
   const ys = ribbon.keyframes.map((point) => point.y);
   return {
     id: ribbon.polityId,
+    familyId: ribbon.familyId,
+    name: polity.name,
+    dates: formatRange(polity.start, polity.end, polity.confidence),
+    confidence: polity.confidence,
+    verification: polity.verification,
     d: ribbon.d,
     fill,
     edge: darkenHex(fill),

@@ -3,6 +3,7 @@ import { useLayoutEffect, useRef, useState } from 'react';
 import { posterWorld } from '../camera/camera.ts';
 import { posterModel } from './posterModel.ts';
 import { Stage } from './Stage.tsx';
+import { Tooltip } from './Tooltip.tsx';
 import { cameraFromScroll, stageScale } from './visible.ts';
 
 export interface SheetSize {
@@ -86,6 +87,7 @@ export function ChartViewport({ onSheet }: { onSheet: (sheet: SheetSize) => void
           bands={paint.bands}
         />
       ) : null}
+      <Tooltip />
     </div>
   );
 }

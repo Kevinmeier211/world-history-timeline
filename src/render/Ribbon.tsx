@@ -1,4 +1,4 @@
-import { memo, type KeyboardEvent } from 'react';
+import { memo, type KeyboardEvent, type PointerEvent } from 'react';
 
 import { DESIGN_WIDTH } from '../layout/constants.ts';
 import type { RibbonPaint } from './ribbonInk.ts';
@@ -17,10 +17,14 @@ function RibbonView({
   ribbon,
   dimmed = false,
   onSelect,
+  onHover,
+  onLeave,
 }: {
   ribbon: RibbonPaint;
   dimmed?: boolean;
   onSelect?: (id: string) => void;
+  onHover?: (ribbon: RibbonPaint, x: number, y: number) => void;
+  onLeave?: (event: PointerEvent<SVGPathElement>) => void;
 }) {
   return (
     <g className={dimmed ? 'ribbon ribbon-dim' : 'ribbon'} data-polity={ribbon.id}>
@@ -58,6 +62,9 @@ function RibbonView({
         aria-label={ribbon.ariaLabel}
         onClick={() => onSelect?.(ribbon.id)}
         onKeyDown={(event) => onKey(event, ribbon.id, onSelect)}
+        onPointerEnter={(event) => onHover?.(ribbon, event.clientX, event.clientY)}
+        onPointerMove={(event) => onHover?.(ribbon, event.clientX, event.clientY)}
+        onPointerLeave={(event) => onLeave?.(event)}
       />
     </g>
   );

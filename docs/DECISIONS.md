@@ -401,3 +401,13 @@ Alternatives: Paint the bands under the opaque era fills. Color each type with a
 Why: Section 4.8 puts these bands above the grid and below the connectors. A new swatch would leave the token set. The gutter keeps the title off the ribbons.
 
 Reversible? y
+
+## 2026-10-26 — Hover focuses a lineage
+
+Decision: A pointer on a ribbon writes a small zustand focus: that family stays solid and every other ribbon eases to 25% over 200 ms. Reduced motion drops the ease. The tooltip shows the name, `formatRange` (so approximate dates keep "c."), a confidence glyph, and a verification dot. Ribbon fills do not take the pointer; the hit path does. The hash URL is still T5.01.
+
+Alternatives: Dim only the hovered ribbon's siblings by id. Put the tooltip inside the SVG.
+
+Why: Section 4.11 is a lineage focus, not a single-ribbon highlight. An HTML tooltip stays at 13 px when the sheet is scaled down.
+
+Reversible? y

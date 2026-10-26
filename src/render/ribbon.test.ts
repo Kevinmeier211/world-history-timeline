@@ -13,6 +13,11 @@ import type { LabelPaint, RibbonPaint } from './ribbonInk.ts';
 
 const ribbon: RibbonPaint = {
   id: 'rome',
+  familyId: 'latin_west',
+  name: 'Roman Empire',
+  dates: '27 BCE – 476 CE',
+  confidence: 'secure',
+  verification: 'unverified',
   d: 'M10 80 L30 80 L30 200 L10 200 Z',
   fill: '#652399',
   edge: '#531d7d',
