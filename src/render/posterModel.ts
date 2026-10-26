@@ -12,7 +12,9 @@ import {
 import { layout } from '../layout/index.ts';
 import type { LayoutInput, LayoutResult } from '../layout/types.ts';
 import { connectorPaints, type ConnectorPaint } from './connectorInk.ts';
+import { calloutModels, seatedCallouts } from './calloutInk.ts';
 import { posterPaint, type LabelPaint, type RibbonPaint } from './ribbonInk.ts';
+import type { CalloutViewModel } from './calloutView.ts';
 
 export function posterLayoutInput(
   dataset: Dataset,
@@ -37,6 +39,7 @@ export interface PosterPaint {
   labels: LabelPaint[];
   connectors: ConnectorPaint[];
   bands: BandPaint[];
+  callouts: CalloutViewModel[];
   result: LayoutResult;
 }
 
@@ -63,10 +66,22 @@ export function posterFor(
     ...posterLayoutInput(dataset, geography, clientOverrides()),
     visibleFamilies: familiesForLayout(visible, families.length),
   });
+  const painted = posterPaint(dataset, result);
+  const callouts = seatedCallouts(
+    calloutModels(dataset.callouts, result.callouts, result.plates),
+    painted.labels.map((label) => ({
+      id: label.polityId,
+      x: label.x,
+      y: label.y,
+      width: label.width,
+      height: label.height,
+    })),
+  );
   const paint: PosterPaint = {
-    ...posterPaint(dataset, result),
+    ...painted,
     connectors: connectorPaints(dataset, result.connectors),
     bands: bandPaints(dataset, result.bands, geography),
+    callouts,
     result,
   };
   paintCache.set(key, paint);

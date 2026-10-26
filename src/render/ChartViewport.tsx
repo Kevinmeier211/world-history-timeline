@@ -278,6 +278,7 @@ export function ChartViewport({
           labels={paint.labels}
           connectors={paint.connectors}
           bands={paint.bands}
+          callouts={paint.callouts}
           selectedId={selectedId}
           milestones={milestones.marks}
           lens={lens}

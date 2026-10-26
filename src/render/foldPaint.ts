@@ -44,5 +44,5 @@ export function paintFrame(from: PosterPaint, to: PosterPaint, t: number): Poste
       frameRibbon(base, ribbon.d, Math.min(...ys), Math.max(...ys), ribbon.opacity),
     ];
   });
-  return { ...to, ribbons, labels: [], connectors: [] };
+  return { ...to, ribbons, labels: [], connectors: [], callouts: [] };
 }
