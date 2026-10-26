@@ -851,3 +851,13 @@ Alternatives: Hotlink the Cleveland object pages. Leave the plate markup inline 
 Why: Derivatives are not shipped while downloads are off, and a remote address would be a hotlink.
 
 Reversible? y
+
+## 2026-10-26 — Credits list only shipped files, and `#/credits` is not a view
+
+Decision: The credits page and `docs/print/colophon.txt` are generated from `media.generated.json` joined to `media-src.json`. An id with no derivative is omitted. With an empty derivative list, both say that no image files are shipped. `#/credits` is ignored by `readHash` and `publishView`, so opening the page does not clear `y`, `z`, `sel`, `lens`, `fold`, or `pin`.
+
+Alternatives: List the 84 candidate rows as if their files were on the poster. Parse `#/credits` as a chart hash.
+
+Why: A credit for a file that was not downloaded would be false, and the chart link has to survive the page.
+
+Reversible? y

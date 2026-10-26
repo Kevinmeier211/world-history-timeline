@@ -1,0 +1,4 @@
+Chronos Atlas
+No image files are shipped.
+Fetch is queued-gated while downloads are off.
+Pictograms stand in for plates.

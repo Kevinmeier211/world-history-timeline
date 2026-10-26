@@ -1,6 +1,11 @@
 import { create } from 'zustand';
 
-import { publishView, readLocationView, type ViewLink } from './hashUrl.ts';
+import {
+  isCreditsHash,
+  publishView,
+  readLocationView,
+  type ViewLink,
+} from './hashUrl.ts';
 
 interface ViewState {
   link: ViewLink;
@@ -16,7 +21,10 @@ export const useView = create<ViewState>((set) => ({
     set({ link });
     publishView(link, mode);
   },
-  readHash: () => set({ link: readLocationView() }),
+  readHash: () => {
+    if (typeof window !== 'undefined' && isCreditsHash(window.location.hash)) return;
+    set({ link: readLocationView() });
+  },
 }));
 
 export function resetView(): void {
