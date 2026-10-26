@@ -7,6 +7,7 @@ import { chromium, type Browser, type Page } from 'playwright';
 import { logBlocked } from './pdf/blocked.ts';
 import {
   boxNear,
+  DIST_PRINT,
   paperInches,
   printPath,
   selectJobs,
@@ -23,7 +24,6 @@ import {
 } from './pdf/parse.ts';
 import { runTool } from './pdf/run.ts';
 
-export const DIST_PRINT = 'dist-print';
 const TASK = 'T7.02';
 const PORT = Number(process.env.PRINT_PORT ?? '4183');
 

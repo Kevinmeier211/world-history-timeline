@@ -1191,3 +1191,13 @@ Alternatives: Bleed every sheet. Draw the marks across the trim. Trust the DOM t
 Why: §4.13 names 0.125 in of bleed for 24×36. The trim PDFs stay the T7.02 page size.
 
 Reversible? y
+
+## 2026-10-26 — The 0.25 pt stroke floor is enforced on the 24×36 PDFs
+
+Decision: `scripts/check-pdf.ts` checks the four chart PDFs with `pdfinfo`, `pdffonts`, `pdfimages -list`, and a content-stream stroke walk. A missing tool, `emb=no`, an image under 300 ppi, a page size off by more than 1 pt, or zero strokes is a failure. The 0.25 pt floor applies when the job is the poster, trim or bleed. On 2026-10-26 the checker printed letter 616 strokes, minimum 0.181 pt, floor not applied; tabloid 616 strokes, minimum 0.304 pt, floor not applied; poster 616 strokes, minimum 0.562 pt, floor 0.25 pt; bleed poster 624 strokes, minimum 0.500 pt, floor 0.25 pt. Each file had 6 fonts and 0 images. Exit 0. Letter strokes are that same drawing reduced onto 8.5 by 11, so a 0.56 pt poster hairline is about 0.18 pt there. Those letter strokes were not thickened. Tabloid clears 0.25 pt on this export, and the checker still does not apply the floor there. `npm run check` does not run this script. `npm run check:pdf` does.
+
+Alternatives: Fail letter at 0.181 pt. Apply the floor to tabloid as well. Thicken letter strokes with non-scaling-stroke. Treat a missing `pdfimages` as a pass.
+
+Why: §4.13 and the phase exit name 0.25 pt for the 24×36 sheet. Letter is a reduction of that drawing. A missing tool is not evidence the page passed.
+
+Reversible? y

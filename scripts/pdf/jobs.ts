@@ -1,5 +1,8 @@
 import { paperSizeIn, PRINT_SHEETS, type PrintSheetId } from '../../src/print/sheet.ts';
 
+/** Chart and reference PDFs. Gitignored. */
+export const DIST_PRINT = 'dist-print';
+
 /** CSS pixels per inch. Playwright viewports use this so `in` maps 1:1. */
 export const CSS_PX_PER_IN = 96;
 export const PT_PER_IN = 72;
