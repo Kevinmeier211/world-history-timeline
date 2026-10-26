@@ -19,6 +19,8 @@ export interface CenterSample {
   y: number;
   x: number;
   width: number;
+  /** First sample of a later run. The cull gap already broke the path. */
+  fresh?: boolean;
 }
 
 interface Lane {
@@ -303,11 +305,40 @@ function place(lanes: Lane[]): void {
   trimEdges(lanes);
 }
 
+function drawnWidth(lane: Lane): number {
+  return lane.held === undefined ? lane.base : Math.min(lane.held, lane.base);
+}
+
+function releaseReturns(lanes: Lane[]): void {
+  const slack = MIN_RIBBON_W + MIN_GAP;
+  for (const lane of lanes) {
+    if (lane.sample.fresh !== true || lane.flexible) continue;
+    const width = drawnWidth(lane);
+    let overflow = 0;
+    for (const other of lanes) {
+      if (other.id === lane.id || other.flexible) continue;
+      const need = (width + drawnWidth(other)) / 2 + MIN_GAP;
+      const gap = Math.abs(other.seed - lane.seed);
+      if (gap >= need - 1e-3) continue;
+      const room =
+        other.seed < lane.seed ? other.seed - other.lo : other.hi - other.seed;
+      overflow = Math.max(overflow, need - gap - Math.max(0, room));
+    }
+    if (overflow < MIN_GAP) continue;
+    lane.flexible = true;
+    lane.lo = lane.seed - slack;
+    lane.hi = lane.seed + slack;
+  }
+}
+
 function dedupe(row: readonly CenterSample[]): CenterSample[] {
   const byId = new Map<string, CenterSample>();
   for (const sample of row) {
     const prior = byId.get(sample.id);
-    if (!prior || sample.width > prior.width) byId.set(sample.id, sample);
+    if (!prior || sample.width > prior.width) {
+      if (prior?.fresh) sample.fresh = true;
+      byId.set(sample.id, sample);
+    } else if (sample.fresh) prior.fresh = true;
   }
   return [...byId.values()];
 }
@@ -347,12 +378,13 @@ export function easeCenterlines(samples: readonly CenterSample[]): void {
         hi,
         x: seed,
         base: sample.width,
-        held: flexible ? undefined : carriedWidth.get(sample.id),
+        held: prior === undefined ? undefined : carriedWidth.get(sample.id),
         width: sample.width,
         flexible,
         sample,
       };
     });
+    releaseReturns(lanes);
     lanes.sort(
       (left, right) => left.seed - right.seed || left.id.localeCompare(right.id),
     );

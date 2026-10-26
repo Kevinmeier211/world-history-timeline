@@ -252,11 +252,20 @@ export function separateRuns(runs: ReadonlyMap<string, DatedPoint[][]>): void {
       }
     }
   }
-  const samples: { id: string; y: number; x: number; width: number }[] = [];
+  const samples: {
+    id: string;
+    y: number;
+    x: number;
+    width: number;
+    fresh?: boolean;
+  }[] = [];
   const mirrors = new Map<string, DatedPoint[]>();
   for (const [id, ribbon] of runs) {
-    for (const run of ribbon) {
-      for (const point of run) {
+    for (let runIndex = 0; runIndex < ribbon.length; runIndex += 1) {
+      const run = ribbon[runIndex] ?? [];
+      for (let pointIndex = 0; pointIndex < run.length; pointIndex += 1) {
+        const point = run[pointIndex];
+        if (!point) continue;
         const key = `${id}\0${point.y}`;
         const list = mirrors.get(key);
         if (list) {
@@ -264,7 +273,13 @@ export function separateRuns(runs: ReadonlyMap<string, DatedPoint[][]>): void {
           continue;
         }
         mirrors.set(key, [point]);
-        samples.push({ id, y: point.y, x: point.x, width: point.width });
+        samples.push({
+          id,
+          y: point.y,
+          x: point.x,
+          width: point.width,
+          ...(runIndex > 0 && pointIndex === 0 ? { fresh: true } : {}),
+        });
       }
     }
   }

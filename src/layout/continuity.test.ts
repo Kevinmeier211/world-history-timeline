@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 
-import { LEFT_GUTTER, MIN_GAP, PLOT_WIDTH } from './constants.ts';
+import { LEFT_GUTTER, MAX_DRIFT, MIN_GAP, PLOT_WIDTH } from './constants.ts';
 import { easeCenterlines, type CenterSample } from './continuity.ts';
 
 function sample(id: string, y: number, x: number, width = 40): CenterSample {
@@ -135,5 +135,30 @@ describe('eased centerlines', () => {
     if (!kept || !added) return;
     expect(Math.abs(kept.x - 400)).toBeLessThan(1);
     expect(Math.abs(added.x - kept.x)).toBeGreaterThanOrEqual(40 + MIN_GAP - 0.1);
+  });
+
+  it('seats a returning run without shoving the ribbon that kept its lane', () => {
+    const samples: CenterSample[] = [
+      sample('abbasid', 0, 798, 12),
+      sample('umayyad', 0, 834, 12),
+      sample('andalus', 0, 852, 12),
+      sample('abbasid', 69, 813, 12),
+      sample('umayyad', 69, 858, 12),
+      sample('abbasid', 72.1, 814.5, 12),
+      sample('umayyad', 72.1, 880, 12),
+      { ...sample('andalus', 72.1, 853, 12), fresh: true },
+    ];
+    easeCenterlines(samples);
+    const before = samples.find((item) => item.id === 'umayyad' && item.y === 69);
+    const after = samples.find((item) => item.id === 'umayyad' && item.y === 72.1);
+    expect(before).toBeDefined();
+    expect(after).toBeDefined();
+    if (!before || !after) return;
+    expect(Math.abs(after.x - before.x) / (72.1 - 69)).toBeLessThanOrEqual(
+      MAX_DRIFT + 0.02,
+    );
+    expect(
+      minEdgeGap(samples.filter((item) => item.y === 72.1)),
+    ).toBeGreaterThanOrEqual(MIN_GAP - 0.05);
   });
 });

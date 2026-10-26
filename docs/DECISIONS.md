@@ -751,3 +751,13 @@ Alternatives: Count the Roman split as a pass while its west ribbon has no paint
 Why: The three layout commits changed the chart, and the rescore has to say what the shots show. The phase gate can be tagged when its commands are green. The poster merge waits for 8 of the 10 scored items.
 
 Reversible? y
+
+## 2026-10-26 — The west Rome name is painted, and the Umayyad step is eased
+
+Decision: A ribbon whose inside box cannot hold its own name takes that full name beside the ribbon, sized to the measurer. A short ribbon under 40px still uses the 72px outside box, so fixture H stays ellipsized. "Western Roman Empire" and "Eastern Roman Empire" both paint in full. A later run moves only when its drift window is parked on a neighbor and that neighbor cannot open the gap. The move is at most one minimum ribbon plus the minimum gap, and only when the overflow is at least that gap. Al-Andalus returns into the open space instead of shoving `umayyad_abbasid`. That step was 13px across 3.1px of y (slope 4.193). The steepest Umayyad step is now 0.22px across 0.62px (slope 0.35). The Mongol override sits outside so the full name is not rotated into an ellipsis. The roster report is overlaps 0, label hits 0, importance 3 fit 74/74, warm 140ms. `maxRibbonDrift` is 3.211 on `japan_timeline` (1.99px across 0.62px), which was already that step before this change. West stays left of east. `merge_aragon_castile_spain_union` still routes. The Egypt step stays 0.22px across 0.62px.
+
+Alternatives: Cap every centerline at `MAX_DRIFT`. That left 246 overlaps forward and 257 backward. Open every returning run. That moved Safavid onto the Mughal label. Leave the west ribbon with no painted name.
+
+Why: The Roman split needs the west name on the sheet, and the Umayyad river should not step 13px in 3px of y. The overlap push stays for rows the window cannot separate, so the overlap count stays 0.
+
+Reversible? y

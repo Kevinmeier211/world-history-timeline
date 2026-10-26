@@ -111,11 +111,12 @@ function outsideLabel(
   ribbon: ShortRibbon,
   measure: TextMeasurer,
   plotRight: number,
+  boxW = OUTSIDE_LABEL_W,
 ): PlacedRibbonLabel {
   const fitted = labelFit(
     ribbon.name,
-    ribbon.shortName,
-    { w: OUTSIDE_LABEL_W, h: OUTSIDE_LABEL_H },
+    boxW === OUTSIDE_LABEL_W ? ribbon.shortName : undefined,
+    { w: boxW, h: OUTSIDE_LABEL_H },
     measure,
   );
   if (!fitted) return hoverOnly(ribbon, 'outside');
@@ -198,10 +199,31 @@ export function placeRibbonLabel(
   plotRight = LEFT_GUTTER + PLOT_WIDTH,
   force?: 'along' | 'horizontal' | 'outside',
 ): PlacedRibbonLabel {
-  if (force === 'outside' || (force === undefined && ribbon.height < SHORT_RIBBON_PX)) {
+  if (force === 'outside') {
+    const advance = measure.measure(ribbon.name, 10);
+    const wide = outsideLabel(
+      ribbon,
+      measure,
+      plotRight,
+      Math.max(OUTSIDE_LABEL_W, advance + 8),
+    );
+    if (wide.fitted && wide.text === ribbon.name) return wide;
+    return outsideLabel(ribbon, measure, plotRight);
+  }
+  if (force === undefined && ribbon.height < SHORT_RIBBON_PX) {
     return outsideLabel(ribbon, measure, plotRight);
   }
   if (force === 'along') return insideLabel(ribbon, measure, 'rotated');
   if (force === 'horizontal') return insideLabel(ribbon, measure, 'horizontal');
-  return insideLabel(ribbon, measure);
+  const inside = insideLabel(ribbon, measure);
+  if (inside.fitted && inside.text === ribbon.name) return inside;
+  const advance = measure.measure(ribbon.name, 10);
+  const wide = outsideLabel(
+    ribbon,
+    measure,
+    plotRight,
+    Math.max(OUTSIDE_LABEL_W, advance + 8),
+  );
+  if (wide.fitted && wide.text === ribbon.name) return wide;
+  return inside;
 }

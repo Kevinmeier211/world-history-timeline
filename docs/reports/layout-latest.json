@@ -6,9 +6,9 @@
   "minGap": 6,
   "labelFit": {
     "2": {
-      "fitted": 141,
+      "fitted": 146,
       "total": 148,
-      "rate": 0.9527027027027027
+      "rate": 0.9864864864864865
     },
     "3": {
       "fitted": 74,
@@ -30,10 +30,10 @@
     "unroutableIds": []
   },
   "labelHits": 0,
-  "maxDrift": 4.193,
+  "maxDrift": 3.211,
   "runtimeMs": {
-    "cold": 225,
-    "warm": 149
+    "cold": 238,
+    "warm": 140
   },
   "gates": {
     "overlaps": true,

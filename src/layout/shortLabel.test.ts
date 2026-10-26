@@ -93,6 +93,24 @@ describe('short ribbon labels', () => {
     expect(placed.leader).toBeUndefined();
   });
 
+  it('paints the full western name when the ribbon is too narrow to hold it', () => {
+    const placed = placeRibbonLabel(
+      {
+        id: 'western_roman_empire',
+        name: 'Western Roman Empire',
+        x: 418,
+        y: 2410,
+        width: 56,
+        height: 50,
+      },
+      measure,
+    );
+    expect(placed.fitted).toBe(true);
+    expect(placed.text).toBe('Western Roman Empire');
+    expect(placed.orientation).toBe('outside');
+    expect(placed.leader).toBeDefined();
+  });
+
   it('forces a tall ribbon outside or along when an override says so', () => {
     const ribbon: ShortRibbon = {
       id: 'rome',
