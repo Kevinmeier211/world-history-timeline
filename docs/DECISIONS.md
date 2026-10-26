@@ -231,3 +231,13 @@ Alternatives: Invent a taller card. Treat a leader crossing as a hard collision.
 Why: Appendix G sets the width, the offsets, and the score, and it does not set the height. 48 px holds a title and a year. The 4 px gap is the label clearance in §4.7. Greedy order is descending importance.
 
 Reversible? y
+
+## 2026-10-26 — Overview hides importance below a zoom floor
+
+Decision: `importanceThreshold` is 1 at zoom 2, 2 at 1.25, 3 at 0.85, 4 at 0.5, and 5 below that. Grouped polities collapse below zoom 0.85. The crossfade is 0.08 zoom units on either side. A collapsed ribbon spans the members' earliest start to their latest end.
+
+Alternatives: Hide by count instead of importance. Collapse only the Chinese group. Fade over a fixed pixel band.
+
+Why: §6.4 names a zoom threshold and a group collapse, and it does not give the numbers. These bands keep an overview readable and still show an importance-5 polity beside its collapsed neighbors.
+
+Reversible? y
