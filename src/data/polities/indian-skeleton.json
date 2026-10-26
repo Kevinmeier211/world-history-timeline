@@ -16,8 +16,12 @@
         "xKey": "indus_india"
       }
     ],
-    "summary": "Mature Harappan is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the mature Harappan from about 2600 BCE to 1900 BCE, inside the Indus span. This row uses that span. The migrated Indus bundle stays. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 2600 BCE to 1900 BCE.",
+      "It sits inside the Indus span. The migrated bundle stays.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

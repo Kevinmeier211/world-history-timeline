@@ -108,8 +108,12 @@
         "xKey": "mesopotamia_persia"
       }
     ],
-    "summary": "Mesopotamia in 2004–1894 BCE is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B ends Ur III in 2004 BCE and starts Old Babylonian in 1894 BCE. It does not name the interval. This row uses those bounds. The cited pages were not opened.",
+    "keyFacts": [
+      "Ur III ends in 2004 BCE and Old Babylonian starts in 1894 BCE.",
+      "The checklist does not name the interval.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cdli", "isac"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -131,8 +135,11 @@
         "xKey": "mesopotamia_persia"
       }
     ],
-    "summary": "Old Babylonian is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Old Babylonian from about 1894 BCE to 1595 BCE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 1894 BCE to 1595 BCE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cdli", "isac"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -154,8 +161,11 @@
         "xKey": "mesopotamia_persia"
       }
     ],
-    "summary": "Kassite Babylon is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Kassite Babylon from about 1595 BCE to 1155 BCE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 1595 BCE to 1155 BCE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cdli", "isac"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -203,8 +213,11 @@
         "xKey": "mesopotamia_persia"
       }
     ],
-    "summary": "Middle Assyrian is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Middle Assyrian period from about 1365 BCE to 1050 BCE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 1365 BCE to 1050 BCE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cdli", "isac"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -226,8 +239,12 @@
         "xKey": "mesopotamia_persia"
       }
     ],
-    "summary": "Neo-Assyrian Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Neo-Assyrian Empire from 911 BCE to 609 BCE. This row uses that span and is distinct from the migrated Neo-Assyria–Babylon bundle. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 911 BCE to 609 BCE.",
+      "This row is distinct from the migrated Neo-Assyria–Babylon bundle.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cdli", "isac"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

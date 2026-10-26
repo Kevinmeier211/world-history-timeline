@@ -16,8 +16,12 @@
         "xKey": "eastern_med_europe"
       }
     ],
-    "summary": "Minoan is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Minoans from about 2700 BCE to 1450 BCE. This row uses that span. The migrated Minoan–Mycenaean bundle stays. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 2700 BCE to 1450 BCE.",
+      "The migrated Minoan–Mycenaean bundle stays.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -39,8 +43,11 @@
         "xKey": "eastern_med_europe"
       }
     ],
-    "summary": "Mycenaean is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Mycenaeans from about 1600 BCE to 1100 BCE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 1600 BCE to 1100 BCE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -62,8 +69,11 @@
         "xKey": "eastern_med_europe"
       }
     ],
-    "summary": "Greek Dark Ages is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Greek Dark Ages from about 1100 BCE to 800 BCE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 1100 BCE to 800 BCE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

@@ -85,8 +85,11 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Second Intermediate Period is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Second Intermediate Period from 1650 BCE to 1550 BCE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1650 BCE to 1550 BCE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "unesco_gha"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -108,8 +111,11 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Third Intermediate Period is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Third Intermediate Period from 1069 BCE to 664 BCE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1069 BCE to 664 BCE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "unesco_gha"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
