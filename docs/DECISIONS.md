@@ -1061,3 +1061,13 @@ Alternatives: Invent a different aridification span. Split the band so each coll
 Why: The dataset already dates that band. This pass can stand on that span.
 
 Reversible? y
+
+## 2026-10-26 — Early-bronze importance stays at the rows already set
+
+Decision: No 3300–2000 BCE row was raised to importance 3 or 4 in this pass. Weights were not changed. `npm run layout:report` after the callouts: 238 ribbons drawn, 436 polities, 0 overlaps, minimum gap 6, importance-3 labels 82/82, 0 unroutable relations, 82 omitted, max drift 3.211. Cold runtime 253 ms, warm 165 ms, over the 150 ms gate. Callouts dropped 222, with 13 markers and 88 placed. The layout engine was not changed.
+
+Alternatives: Raise Ur III, the Akkadian Empire, the Old Kingdom, and Liangzhu to importance 3. Raise any of them to importance 4 without an opened page.
+
+Why: The Louvre homepage describes the museum’s hours and current exhibitions. It does not state a row year. Importance 4 still waits on an opened page that states the claim. The runtime miss is the roster, not a new solver.
+
+Reversible? y
