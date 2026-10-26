@@ -331,3 +331,13 @@ Alternatives: Leave v1 on `/` until the stage exists. Store the theme in this ta
 Why: The old map, dossier, and snapshot bar are off the default path. The baseline command still has to reach the v1 tree. Persistence belongs to T3.12.
 
 Reversible? y
+
+## 2026-10-26 — Camera scale is uniform unless Shift is held
+
+Decision: Wheel and pinch use the d3-zoom wheel factor and pointer anchor. Scale stays in 0.2–6. Fit-to-width uses Appendix G's 0.8–1.6 clamp. Overview may go below 0.8 so the whole sheet fits. Shift-wheel changes only the vertical scale. `flyTo` eases for at most 600 ms, and reduced motion jumps.
+
+Alternatives: One scale at every gesture. Clamp overview to 0.8. Let a fly last longer than 600 ms.
+
+Why: The default poster is one scale, and time can be stretched on purpose. A 5300-year sheet does not fit a short window at 0.8. The motion rule caps the flight.
+
+Reversible? y
