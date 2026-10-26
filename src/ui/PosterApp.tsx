@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from 'react';
 
 import { ChartViewport, type SheetSize } from '../render/ChartViewport.tsx';
+import { Legend, legendFamilies } from './Legend.tsx';
 import { PosterFrame } from './PosterFrame.tsx';
 import { TopBar } from './TopBar.tsx';
 import {
@@ -29,6 +30,8 @@ export function PosterApp() {
   const [theme, setTheme] = useState<ThemeChoice>(() =>
     readStoredTheme(browserStorage()),
   );
+  const [reading, setReading] = useState(false);
+  const closeReading = useCallback(() => setReading(false), []);
   const [sheet, setSheet] = useState<SheetSize>({ height: 0, minWidth: 0 });
   const onSheet = useCallback((next: SheetSize) => {
     setSheet((prev) =>
@@ -62,6 +65,8 @@ export function PosterApp() {
         lens={lens}
         sheetHeight={view === 'chart' ? sheet.height : undefined}
         sheetMinWidth={view === 'chart' ? sheet.minWidth : 0}
+        readingOpen={reading}
+        onReading={() => setReading(true)}
       >
         {view === 'table' ? (
           <p className="chart-note">
@@ -71,6 +76,7 @@ export function PosterApp() {
           <ChartViewport onSheet={onSheet} />
         )}
       </PosterFrame>
+      {reading ? <Legend families={legendFamilies()} onClose={closeReading} /> : null}
     </div>
   );
 }

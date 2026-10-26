@@ -41,6 +41,13 @@ describe('poster shell', () => {
     expect(
       screen.getByRole('heading', { name: 'States and peoples' }),
     ).toBeInTheDocument();
+    expect(screen.queryByRole('dialog')).toBeNull();
+    await user.click(screen.getByRole('button', { name: 'How to read this' }));
+    const key = screen.getByRole('dialog', { name: 'How to read this' });
+    expect(key).toHaveTextContent('Peoples outlast states');
+    expect(key).toHaveTextContent('Andean');
+    await user.click(screen.getByRole('button', { name: /^Close$/ }));
+    expect(screen.queryByRole('dialog')).toBeNull();
     expect(screen.getByText(posterSpan())).toBeInTheDocument();
     expect(screen.getAllByText('Early Bronze')).toHaveLength(2);
     expect(screen.getAllByText('Classical Antiquity')).toHaveLength(2);

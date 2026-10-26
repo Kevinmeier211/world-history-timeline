@@ -431,3 +431,13 @@ Alternatives: Keep the choice for the session only. Share v1's `color-scheme` ke
 Why: A reload should open the atlas the reader left. v1's key belongs to the old shell. The night tokens are the ones in §4.2.
 
 Reversible? y
+
+## 2026-10-26 — The reading key uses our words
+
+Decision: "How to read this" is a button on the title band. The panel is closed at rest. It explains width as prominence, color as lineage, faded tops, dashed links, c., and that peoples outlast states, then lists the 18 family swatches from `families.json`. Chart shortcuts do nothing while the dialog is open. None of the poster product's wording is copied.
+
+Alternatives: Leave the key in the top bar. Draw the swatches by hand.
+
+Why: Section 4.14 asks for the key one click away, and the bar is already the slim chrome. The family colors already live in data.
+
+Reversible? y

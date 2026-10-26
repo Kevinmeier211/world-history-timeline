@@ -121,6 +121,7 @@ export function ChartViewport({ onSheet }: { onSheet: (sheet: SheetSize) => void
 
   useEffect(() => {
     const onKey = (event: KeyboardEvent) => {
+      if (document.querySelector('[role="dialog"]')) return;
       const command = chartCommand(event.key, isTypingTarget(event.target));
       if (!command) return;
       const scroller = scrollerOf(host.current);

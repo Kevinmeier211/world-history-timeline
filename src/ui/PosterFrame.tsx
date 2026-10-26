@@ -7,11 +7,15 @@ export function PosterFrame({
   children,
   sheetHeight,
   sheetMinWidth,
+  readingOpen = false,
+  onReading,
 }: {
   lens: LensId;
   children?: ReactNode;
   sheetHeight?: number;
   sheetMinWidth?: number;
+  readingOpen?: boolean;
+  onReading?: () => void;
 }) {
   const bodyStyle: CSSProperties = {};
   if (sheetHeight && sheetHeight > 0) bodyStyle.height = sheetHeight;
@@ -22,6 +26,15 @@ export function PosterFrame({
         <p className="title-kicker">{POSTER_KICKER}</p>
         <h1>{POSTER_TITLE}</h1>
         <p className="title-span">{posterSpan()}</p>
+        <button
+          type="button"
+          className="reading-open"
+          aria-expanded={readingOpen}
+          aria-controls="reading-key"
+          onClick={onReading}
+        >
+          How to read this
+        </button>
       </header>
       <div className="poster-scroll">
         <div
