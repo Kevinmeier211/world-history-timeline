@@ -24,5 +24,8 @@ describe('dossier model', () => {
     expect(model?.sources.some((source) => source.id === 'chgis')).toBe(true);
     expect(model?.verification).toBe('Not yet cross-checked');
     expect(model?.mediaNote).toBe('No image is attached.');
+    expect(dossierFor('roman_republic', clientDataset())?.wikipediaTitle).toBe(
+      'Roman_Republic',
+    );
   });
 });

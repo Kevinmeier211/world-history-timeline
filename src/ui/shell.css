@@ -326,6 +326,7 @@
 }
 
 .dossier-head button,
+.dossier section button,
 .dossier a {
   color: var(--ink);
   font-family: var(--font-body);

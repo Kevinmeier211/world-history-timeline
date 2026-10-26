@@ -531,3 +531,13 @@ Alternatives: Open the dossier from search. Draw a placeholder picture. Fetch a 
 Why: T5.03 asks for the panel and for it to be closed by default. An invented image would break the media rule.
 
 Reversible? y
+
+## 2026-10-26 — The Wikipedia extract is optional and labeled
+
+Decision: A polity with `wikipediaTitle` shows a button labeled "From Wikipedia". The extract loads only after that click, from the English Wikipedia summary endpoint. A successful extract is cached. A failed or empty response is not cached, and the panel says "Wikipedia did not respond." Closing the dossier aborts the request. The loaded text sits under the heading "From Wikipedia". No image is fetched.
+
+Alternatives: Fetch the extract as soon as the dossier opens. Cache failures. Download a thumbnail.
+
+Why: T5.04 asks for an optional, abortable extract with a failure state and that label. Media downloads stay off.
+
+Reversible? y

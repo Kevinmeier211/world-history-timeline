@@ -25,6 +25,7 @@ export interface DossierModel {
   sources: readonly DossierSourceLink[];
   verification: string;
   mediaNote: string;
+  wikipediaTitle?: string;
 }
 
 interface DossierSource {
@@ -39,6 +40,7 @@ interface DossierSource {
     rulers?: readonly { name: string; reign: string; title?: string }[];
     sourceIds: readonly string[];
     verification: Verification;
+    wikipediaTitle?: string;
   }[];
   relations: readonly {
     id: string;
@@ -106,6 +108,7 @@ export function dossierFor(id: string, dataset: DossierSource): DossierModel | n
     }),
     verification: VERIFICATION[polity.verification],
     mediaNote: 'No image is attached.',
+    wikipediaTitle: polity.wikipediaTitle,
   };
 }
 

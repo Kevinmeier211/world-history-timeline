@@ -1,6 +1,48 @@
-import { useEffect } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 import type { DossierModel } from './dossier.ts';
+import { loadWikiExtract } from './wiki.ts';
+
+function WikiBlurb({ title }: { title: string }) {
+  const [phase, setPhase] = useState<'idle' | 'loading' | 'error' | 'ready'>('idle');
+  const [extract, setExtract] = useState('');
+  const abortRef = useRef<AbortController | null>(null);
+
+  useEffect(() => () => abortRef.current?.abort(), []);
+
+  const onLoad = () => {
+    abortRef.current?.abort();
+    const controller = new AbortController();
+    abortRef.current = controller;
+    setPhase('loading');
+    loadWikiExtract(title, globalThis.fetch.bind(globalThis), controller.signal).then(
+      (result) => {
+        if (controller.signal.aborted) return;
+        setExtract(result.extract);
+        setPhase('ready');
+      },
+      (error: unknown) => {
+        if (controller.signal.aborted) return;
+        if (error instanceof DOMException && error.name === 'AbortError') return;
+        setPhase('error');
+      },
+    );
+  };
+
+  return (
+    <section aria-label="From Wikipedia">
+      {phase === 'ready' ? <h3>From Wikipedia</h3> : null}
+      {phase === 'idle' ? (
+        <button type="button" onClick={onLoad}>
+          From Wikipedia
+        </button>
+      ) : null}
+      {phase === 'loading' ? <p>Loading the Wikipedia extract.</p> : null}
+      {phase === 'error' ? <p>Wikipedia did not respond.</p> : null}
+      {phase === 'ready' ? <p>{extract}</p> : null}
+    </section>
+  );
+}
 
 export function Dossier({
   model,
@@ -92,6 +134,7 @@ export function Dossier({
           </ul>
         </section>
       ) : null}
+      {model.wikipediaTitle ? <WikiBlurb title={model.wikipediaTitle} /> : null}
     </aside>
   );
 }

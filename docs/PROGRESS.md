@@ -90,7 +90,8 @@
 | T3.99 | done | 67d63e2 | `npm run shots` 3 passed; `layout:report` gates pass (warm 114 ms); `npm run perf` p95 16.70 ms, worst 83.40 ms | 25 | Tag `v2-p3-done` is merge `09a5f75`. P4 stays closed. See DECISIONS. |
 | T5.01 | done | d8725de | hash tests round-trip `#y=-221&z=1.4&sel=han&lens=trade&fold=chinese`; shell test pushes the lens and back/forward restores it | 25 | `y`, `z`, `sel`, and `fold` parse. The chart does not fly yet. Theme stays in localStorage. See DECISIONS. |
 | T5.02 | done | 94d3d57 | search tests match names, alternate names, people, and `44 BCE`; shell test opens on `/`, chooses Han, and writes `#y=-221&sel=han_dynasty` | 35 | Recents stay in memory. Scroll does not push. See DECISIONS. |
-| T5.03 | done | (this commit) | dossier model for Han includes dates, rulers, disputed lineage, notes, and sources; shell test stays closed until a ribbon click | 30 | The figure says no image is attached. Escape and a click on empty paper close it. See DECISIONS. |
+| T5.03 | done | 508ae5c | dossier model for Han includes dates, rulers, disputed lineage, notes, and sources; shell test stays closed until a ribbon click | 30 | The figure says no image is attached. Escape and a click on empty paper close it. See DECISIONS. |
+| T5.04 | done | (this commit) | wiki tests cache a trimmed extract, drop a 404, show "From Wikipedia", and abort on close | 25 | The extract loads only after a click. A failure says Wikipedia did not respond. See DECISIONS. |
 
 ## Blocked
 
