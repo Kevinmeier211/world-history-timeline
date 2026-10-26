@@ -86,7 +86,8 @@
 | T3.15 | done | fdb48f7 | `npm run perf` p95 16.70 ms over 149 frames with 300 ribbons mounted; worst frame 50 ms | 25 | `?bench=300` clones real ribbon paints. The public chart is unchanged. See DECISIONS. |
 | T3.16 | done | 9321c02 | shell test: poster mounts, v1 canvas files absent, `docs/shots/v1/` remains | 20 | `?v1=1` no longer switches apps. Polity tables stay. See DECISIONS. |
 | T3.17 | done | de79809 | `docs/reviews/M1.md`: 5 pass, 3 partial, 3 fail (45%) | 30 | Poster image missing (Q-01). P4 does not start. See DECISIONS. |
-| T3.18 | done | (this commit) | roster override test: fitted label overlaps 23 → 15; importance-3 fit stays 1; ribbon overlaps 0 | 40 | Eight labels move aside. The modern fan-out crossings remain. See DECISIONS. |
+| T3.18 | done | 060a5ae | roster override test: fitted label overlaps 23 → 15; importance-3 fit stays 1; ribbon overlaps 0 | 40 | Eight labels move aside. The modern fan-out crossings remain. See DECISIONS. |
+| T3.99 | done | (this commit) | `npm run shots` 3 passed; `layout:report` gates pass (warm 114 ms); `npm run perf` p95 16.70 ms, worst 83.40 ms | 25 | Tag `v2-p3-done` is the `--no-ff` merge into `v2/main`. P4 stays closed. See DECISIONS. |
 
 ## Blocked
 

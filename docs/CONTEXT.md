@@ -1,6 +1,6 @@
 # Context
 
-Resume here. Branch `v2/p3-poster`, cut from `v2/main` after the P2 merge. Last done task is in `docs/PROGRESS.md`. The poster is the only chart. `src/layout` is the pure layout engine. Do not start P8.
+Resume here. After the P3 merge, work continues on `v2/p5-interactions`, cut from `v2/main`. Last done task is in `docs/PROGRESS.md`. The poster is the only chart. `src/layout` is the pure layout engine. Do not start P8. Do not start P4.
 
 ## Architecture
 
@@ -20,4 +20,4 @@ Poster and both Gemini PDFs are missing (Q-01). Gemini bibliography [1]–[37] w
 
 ## Next
 
-T3.99 is the P3 gate on branch `v2/p3-poster`: Playwright shots, layout-report, and perf, then tag `v2-p3-done` and merge `--no-ff` into `v2/main` only if that gate passes. M1 is 5/11 passes (45%) in `docs/reviews/M1.md`. Do not start P4. Do not start P8. The early bin is 38/35. Tag `v2-p2-done` is the merge `390baa7`.
+T5.01 add the hash URL on branch `v2/p5-interactions`, cut from `v2/main` after the P3 merge. M1 is 5/11 passes (45%) in `docs/reviews/M1.md`. Do not start P4. Do not start P8. The early bin is 38/35. Tag `v2-p2-done` is the merge `390baa7`. Tag `v2-p3-done` is the P3 merge.

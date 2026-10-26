@@ -491,3 +491,13 @@ Alternatives: Ellipsize the long names. Pin x anyway and accept a swapped collis
 Why: T3.18 asks for a recorded reason on a real flaw. Hiding the name is a different flaw. The lane solver treats a pin as a new desired x and snaps to the next open slot.
 
 Reversible? y
+
+## 2026-10-26 — The P3 gate passes and P4 stays closed
+
+Decision: `npm run shots` passed on desktop, wide, and mobile. `layout:report` passed: 0 overlaps, 0 unroutable, importance-3 labels 69/69, warm 114 ms. `npm run perf` mounted 300 ribbons, p95 16.70 ms, worst frame 83.40 ms. Merge `v2/p3-poster` into `v2/main` with `--no-ff` and point `v2-p3-done` at that merge. Do not start P4. The next task is the hash URL.
+
+Alternatives: Hold the merge until Appendix D reaches 70%. Open P4 on the pictogram path anyway.
+
+Why: The phase gate is shots, the layout report, and the frame budget. M1 is a separate bar, and it blocks P4 only. P5 does not require P4.
+
+Reversible? y
