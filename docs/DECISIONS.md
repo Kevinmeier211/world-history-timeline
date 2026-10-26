@@ -161,3 +161,13 @@ Alternatives: Store pins only on each polity's `xOverride`. Leave the file untyp
 Why: The plan's escape hatch is a separate file, so a layout pass can record a reason without rewriting the roster. There is nothing to pin yet.
 
 Reversible? y
+
+## 2026-10-26 — Column keys enter projectX through a heartland longitude
+
+Decision: `projectX` maps longitude through the geography knots, adds family bias, and clamps to [0, 1]. An `xOverride` span replaces that x between its pins, interpolated with `toT` so the missing year 0 is one year. An anchor that only has `xKey` uses a fixed heartland longitude: Andes −72, Mesoamerica −99, North America −90, Sub-Saharan Africa 10, Western Europe 2, Eastern Mediterranean 23, Egypt and the Levant 31, Mesopotamia and Persia 44, India 77, China 114, Japan and the Pacific 135. Those are layout defaults, not site coordinates.
+
+Alternatives: Treat v1 `mapCenter` pixels as longitude. Leave `xKey` anchors unplaced until every polity has a geo anchor.
+
+Why: The roster's anchors are column keys. The knots expect longitude. A named default keeps the projection monotone and testable.
+
+Reversible? y
