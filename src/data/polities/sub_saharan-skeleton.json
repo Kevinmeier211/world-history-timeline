@@ -246,8 +246,11 @@
         "xKey": "sub_saharan_africa"
       }
     ],
-    "summary": "Kanem–Bornu is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Kanem–Bornu from about 700 to 1900. This row starts at 700 and ends at 1900. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist says about 700 to 1900.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["unesco_gha", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -269,8 +272,11 @@
         "xKey": "sub_saharan_africa"
       }
     ],
-    "summary": "Benin is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Benin from about 1180 to 1897. This row starts at 1180 and ends at 1897. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist says about 1180 to 1897.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["unesco_gha", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
