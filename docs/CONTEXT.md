@@ -1,10 +1,10 @@
 # Context
 
-Resume here. Branch `v2/p1-data`. Last done task is in `docs/PROGRESS.md`. v1 still renders. Layout and the v2 renderer are not started. Do not start P8.
+Resume here. Branch `v2/p2-layout`, cut from `v2/p1-data` because P1 was not merged. Last done task is in `docs/PROGRESS.md`. v1 still renders. `src/layout` holds pure types only. Do not start P8.
 
 ## Architecture
 
-Vite 6 + React 19 + TypeScript, strict and `noUncheckedIndexedAccess`. v1 chart: `src/App.tsx`, `src/components/`, `src/data/*.ts`, `src/utils/timeLayout.ts`, `src/styles/app.css`. v2 schemas live in `src/data/schema` (zod is the source of truth). `src/data/index.ts` loads the v2 catalog and re-exports the v1 barrel from `legacy.ts`. Still to come: `src/layout` (pure), `src/render`, `src/camera`, `src/state`, `src/ui`. Plan: `docs/CURSOR_PLAN.md`. Queue: Appendix E. Switches: `docs/RUN_CONFIG.md` (all off, `MAX_PHASE=7`).
+Vite 6 + React 19 + TypeScript, strict and `noUncheckedIndexedAccess`. v1 chart: `src/App.tsx`, `src/components/`, `src/data/*.ts`, `src/utils/timeLayout.ts`, `src/styles/app.css`. v2 schemas live in `src/data/schema` (zod is the source of truth). `src/data/index.ts` loads the v2 catalog and re-exports the v1 barrel from `legacy.ts`. `src/layout/types.ts` is the serializable input and result. Still to come: the solver, `src/render`, `src/camera`, `src/state`, `src/ui`. Plan: `docs/CURSOR_PLAN.md`. Queue: Appendix E. Switches: `docs/RUN_CONFIG.md` (all off, `MAX_PHASE=7`).
 
 ## Commands
 
@@ -20,4 +20,4 @@ Poster and both Gemini PDFs are missing (Q-01). Gemini bibliography [1]–[37] w
 
 ## Next
 
-T2.01 layout types, on a new branch `v2/p2-layout` cut from `v2/p1-data`. T1.99 is blocked: 3300–2000 BCE is 26/35, so `v2/main` was not updated and `v2-p1-done` was not tagged (Q-07). Do not start P8.
+T2.02 `projectX`, on branch `v2/p2-layout`. Layout types are in `src/layout/types.ts`. T1.99 stays blocked: 3300–2000 BCE is 26/35, so `v2/main` was not updated and `v2-p1-done` was not tagged (Q-07). Do not start P8.
