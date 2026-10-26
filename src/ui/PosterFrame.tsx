@@ -29,11 +29,15 @@ function EraGutter({ hidden }: { hidden?: boolean }) {
 export function PosterFrame({
   lens,
   children,
+  sheetHeight,
 }: {
   lens: LensId;
   children?: ReactNode;
+  sheetHeight?: number;
 }) {
   const style = { '--gutter': `${gutterPx()}px` } as CSSProperties;
+  const bodyStyle: CSSProperties | undefined =
+    sheetHeight && sheetHeight > 0 ? { height: sheetHeight } : undefined;
   return (
     <div className="poster-frame" data-lens={lens} style={style}>
       <header className="title-band">
@@ -41,12 +45,14 @@ export function PosterFrame({
         <h1>{POSTER_TITLE}</h1>
         <p className="title-span">{posterSpan()}</p>
       </header>
-      <div className="poster-body">
-        <EraGutter />
-        <div className="chart-well" role="region" aria-label="Chart">
-          {children}
+      <div className="poster-scroll">
+        <div className="poster-body" style={bodyStyle}>
+          <EraGutter />
+          <div className="chart-well" role="region" aria-label="Chart">
+            {children}
+          </div>
+          <EraGutter hidden />
         </div>
-        <EraGutter hidden />
       </div>
     </div>
   );

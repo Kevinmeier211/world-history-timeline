@@ -341,3 +341,13 @@ Alternatives: One scale at every gesture. Clamp overview to 0.8. Let a fly last 
 Why: The default poster is one scale, and time can be stretched on purpose. A 5300-year sheet does not fit a short window at 0.8. The motion rule caps the flight.
 
 Reversible? y
+
+## 2026-10-26 — The stage scrolls in design pixels
+
+Decision: The chart SVG uses a viewBox in Appendix G units. Its scale is the column width divided by the design width, capped at 1.6. A narrower column may go below 0.8 so the sheet does not scroll sideways. Vertical scroll of the frame is the camera's y. Geometry more than one viewport outside that window is not mounted.
+
+Alternatives: Keep the 0.8 floor and scroll horizontally on a phone. Draw every ribbon and clip with overflow.
+
+Why: The default reading is vertical. A 390 px screen cannot show 1,500 design px at 0.8 without a sideways scrollbar. The pad keeps a fast flick from popping empty bands.
+
+Reversible? y

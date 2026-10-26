@@ -1,0 +1,14 @@
+.stage {
+  display: block;
+}
+
+.stage-sheet {
+  fill: var(--paper);
+  stroke: var(--rule);
+  stroke-width: 1;
+  vector-effect: non-scaling-stroke;
+}
+
+.stage-host {
+  height: 100%;
+}
