@@ -761,3 +761,13 @@ Alternatives: Cap every centerline at `MAX_DRIFT`. That left 246 overlaps forwar
 Why: The Roman split needs the west name on the sheet, and the Umayyad river should not step 13px in 3px of y. The overlap push stays for rows the window cannot separate, so the overlap count stays 0.
 
 Reversible? y
+
+## 2026-10-26 — Modern slices seat six more states, and a broken ribbon labels its longer piece
+
+Decision: An importance-3 lane may give up half its solved width, and no more, so a modern slice can open a gap. Each slice seats at most six extras, and it stops at the smallest shrink that reaches that count. India, Pakistan, North Korea, and South Korea are seated ahead of other importance-2 extras. A ribbon that is missing from a middle slice keeps its name on the longer drawn piece, not in the gap. Ghana was sitting between Costa Rica and El Salvador; the name now sits on the lower piece and the hit is gone. Polities that meet 1900–2000 have 63 fitted labels, 48 of them the full name. India, Pakistan, North Korea, and South Korea are still the full names. The roster report is overlaps 0, label hits 0, importance 3 fit 74/74, warm 142ms. `maxRibbonDrift` stays 3.211 on `japan_timeline`.
+
+Alternatives: Shrink importance 3 all the way to the label floor. That seated more names and raised `peru_republic` to slope 6.82. Skip `ghana_republic` by id. Add eight pixels of clearance around every extra. That dropped the fitted count to 43.
+
+Why: The modern edge needs 60 painted states, and the four named states have to stay complete. Half a wide lane is enough spare width. A name in a gap is not a painted name.
+
+Reversible? y

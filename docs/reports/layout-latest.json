@@ -1,14 +1,14 @@
 {
   "zoomY": 1,
-  "ribbons": 222,
+  "ribbons": 231,
   "polities": 408,
   "overlaps": 0,
   "minGap": 6,
   "labelFit": {
     "2": {
-      "fitted": 146,
-      "total": 148,
-      "rate": 0.9864864864864865
+      "fitted": 154,
+      "total": 157,
+      "rate": 0.9808917197452229
     },
     "3": {
       "fitted": 74,
@@ -19,21 +19,21 @@
   "importance3Fit": 1,
   "callouts": {
     "dropped": 8,
-    "markers": 10,
-    "placed": 40
+    "markers": 11,
+    "placed": 39
   },
   "relations": {
     "total": 181,
-    "routed": 99,
+    "routed": 105,
     "unroutable": 0,
-    "omitted": 82,
+    "omitted": 76,
     "unroutableIds": []
   },
   "labelHits": 0,
   "maxDrift": 3.211,
   "runtimeMs": {
-    "cold": 238,
-    "warm": 140
+    "cold": 225,
+    "warm": 142
   },
   "gates": {
     "overlaps": true,

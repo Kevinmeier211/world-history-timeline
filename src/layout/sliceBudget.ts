@@ -14,6 +14,9 @@ import { SHORT_RIBBON_PX } from './shortLabel.ts';
  */
 export const MODERN_FANOUT_YEAR = 1900;
 
+/** These states keep a seat ahead of other importance-2 extras. */
+const PREFERRED_MODERN = new Set(['india', 'pakistan', 'north_korea', 'south_korea']);
+
 /** Thickness that still holds the 10px label floor (`floor(0.62 * w) >= 10`). */
 export const READABLE_W = 10 / 0.62 + 1e-4;
 
@@ -87,10 +90,13 @@ function shrunk(lanes: readonly SeatLane[], keep: number): Placed[] {
   });
 }
 
+/** Extra ribbons one slice may add. More than this crowds the modern labels. */
+const ADDED_CAP = 6;
+
 /**
  * Keep each lane on its center and spend only its spare width.
  * Extras sit in the gaps that open. A lane never moves in x.
- * One tight pack: shrink only when the open row cannot hold the extras.
+ * Shrink stops once the slice has seated `ADDED_CAP` extras.
  */
 export function seatFanout(
   lanes: readonly SeatLane[],
@@ -99,6 +105,7 @@ export function seatFanout(
   if (extras.length === 0) {
     return lanes.map((lane) => ({ id: lane.id, x: lane.x, width: lane.width }));
   }
+  const cap = Math.min(extras.length, ADDED_CAP);
   let best = shrunk(lanes, 1);
   let bestCount = 0;
   for (let step = 0; step <= 8; step += 1) {
@@ -108,7 +115,7 @@ export function seatFanout(
       bestCount = added;
       best = seated;
     }
-    if (added === extras.length) return seated;
+    if (added >= cap) return seated;
   }
   return best;
 }
@@ -148,10 +155,23 @@ export function buildFanSpec(
       id: ribbon.id,
       desiredX: ribbon.desiredX,
       width,
-      importance: ribbon.importance + (protect.has(ribbon.id) ? 10 : 0),
+      importance:
+        ribbon.importance +
+        (protect.has(ribbon.id) ? 10 : 0) +
+        (PREFERRED_MODERN.has(ribbon.id) ? 5 : 0),
     });
   }
   return { waiting, floor, importance };
+}
+
+function minWidthFor(
+  lane: { id: string; width: number },
+  spec: FanSpec | undefined,
+): number {
+  const floor = spec?.floor.get(lane.id) ?? lane.width;
+  if ((spec?.importance.get(lane.id) ?? 0) >= 3)
+    return Math.max(floor, lane.width * 0.5);
+  return Math.min(lane.width, floor);
 }
 
 function asSeats(
@@ -162,10 +182,7 @@ function asSeats(
     id: lane.id,
     x: lane.x,
     width: lane.width,
-    minWidth:
-      spec === undefined || (spec.importance.get(lane.id) ?? 0) >= 3
-        ? lane.width
-        : (spec.floor.get(lane.id) ?? READABLE_W),
+    minWidth: minWidthFor(lane, spec),
   }));
 }
 

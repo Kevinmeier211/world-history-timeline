@@ -89,6 +89,41 @@ describe('modern fan-out seating', () => {
     expect(gapsOk(seated)).toBe(true);
   });
 
+  it('spends at most half an importance-3 lane to seat another state', () => {
+    const width = 663;
+    const leftX = LEFT_GUTTER + width / 2;
+    const rightX = LEFT_GUTTER + PLOT_WIDTH - width / 2;
+    const spec: FanSpec = {
+      waiting: [extra('denmark', 750, 16, 2)],
+      floor: new Map([
+        ['left', 16],
+        ['right', 16],
+      ]),
+      importance: new Map([
+        ['left', 3],
+        ['right', 3],
+      ]),
+    };
+    const rows = fanLayout([
+      {
+        lanes: [
+          { id: 'left', x: leftX, width },
+          { id: 'right', x: rightX, width },
+        ],
+        spec,
+      },
+    ]);
+    const seated = rows[0] ?? [];
+    expect(seated.map((row) => row.id)).toContain('denmark');
+    expect(seated.find((row) => row.id === 'left')).toMatchObject({ x: leftX });
+    expect(seated.find((row) => row.id === 'right')?.x).toBe(rightX);
+    expect(seated.find((row) => row.id === 'left')?.width).toBeGreaterThanOrEqual(
+      width / 2,
+    );
+    expect(seated.find((row) => row.id === 'left')?.width).toBeLessThan(width);
+    expect(gapsOk(seated)).toBe(true);
+  });
+
   it('shrinks a packed slice even when a busier slice needs no shrink', () => {
     const width = 663;
     const leftX = LEFT_GUTTER + width / 2;

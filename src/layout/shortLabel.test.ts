@@ -4,7 +4,7 @@ import { describe, expect, it } from 'vitest';
 
 import { LEFT_GUTTER, MIN_GAP, PLOT_WIDTH } from './constants.ts';
 import { type TextMeasurer } from './labelFit.ts';
-import { placeRibbonLabel, type ShortRibbon } from './shortLabel.ts';
+import { placeRibbonLabel, placeRibbonLabels, type ShortRibbon } from './shortLabel.ts';
 
 function fakeMeasure(): TextMeasurer {
   return {
@@ -109,6 +109,48 @@ describe('short ribbon labels', () => {
     expect(placed.text).toBe('Western Roman Empire');
     expect(placed.orientation).toBe('outside');
     expect(placed.leader).toBeDefined();
+  });
+
+  it('anchors a broken ribbon on the longer piece', () => {
+    const placed = placeRibbonLabels(
+      [{ id: 'ghana_republic', name: 'Ghana' }],
+      new Map([
+        [
+          'ghana_republic',
+          [
+            { x: 131, y: 3374, width: 12 },
+            { x: 131, y: 3376, width: 12 },
+            { x: 129, y: 3399, width: 12, breakBefore: true },
+            { x: 130, y: 3405, width: 12 },
+          ],
+        ],
+      ]),
+      measure,
+    );
+    const label = placed[0];
+    expect(label?.text).toBe('Ghana');
+    expect(label?.fitted).toBe(true);
+    expect(label?.orientation).toBe('outside');
+    expect(label && label.y + label.height / 2).toBeCloseTo(3402);
+  });
+
+  it('keeps one run centered on the whole ribbon', () => {
+    const placed = placeRibbonLabels(
+      [{ id: 'western_roman_empire', name: 'Western Roman Empire' }],
+      new Map([
+        [
+          'western_roman_empire',
+          [
+            { x: 418, y: 2410, width: 56 },
+            { x: 418, y: 2460, width: 56 },
+          ],
+        ],
+      ]),
+      measure,
+    );
+    const label = placed[0];
+    expect(label?.text).toBe('Western Roman Empire');
+    expect(label && label.y + label.height / 2).toBeCloseTo(2435);
   });
 
   it('forces a tall ribbon outside or along when an override says so', () => {

@@ -274,9 +274,10 @@ function computeLayout(input: LayoutInput): LayoutResult {
       },
     ];
   });
+  const tracks = new Map(ribbons.map((ribbon) => [ribbon.polityId, ribbon.keyframes]));
   const labels = parkRotatedLabels(
-    placeRibbonLabels(polities, frames, measure, overrides.labels),
-    new Map(ribbons.map((ribbon) => [ribbon.polityId, ribbon.keyframes])),
+    placeRibbonLabels(polities, tracks, measure, overrides.labels),
+    tracks,
   );
   const connectors = relations.flatMap((relation) => {
     const built = connect(relation, byId, frames, zoomY);

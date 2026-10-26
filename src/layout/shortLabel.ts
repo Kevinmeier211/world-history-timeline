@@ -162,18 +162,51 @@ function outsideLabel(
  * The right side is preferred until the label would leave the plot.
  * `along` is the rotated ribbon label.
  */
+interface AnchorPoint {
+  x: number;
+  y: number;
+  width: number;
+  breakBefore?: boolean;
+}
+
+/** The longest drawn piece. A gap between runs is not part of the ribbon. */
+function longestRun(points: readonly AnchorPoint[]): AnchorPoint[] {
+  const runs: AnchorPoint[][] = [];
+  let current: AnchorPoint[] = [];
+  for (const point of points) {
+    if (point.breakBefore && current.length > 0) {
+      runs.push(current);
+      current = [];
+    }
+    current.push(point);
+  }
+  if (current.length > 0) runs.push(current);
+  let best = runs[0] ?? [];
+  let bestSpan = -1;
+  for (const run of runs) {
+    const first = run[0];
+    const last = run.at(-1);
+    const span = first && last ? last.y - first.y : -1;
+    if (span > bestSpan) {
+      bestSpan = span;
+      best = run;
+    }
+  }
+  return best;
+}
+
 /** One label per drawn ribbon. A missing frame is skipped. */
 export function placeRibbonLabels(
   polities: readonly { id: string; name: string; shortName?: string }[],
-  frames: ReadonlyMap<string, readonly { x: number; y: number; width: number }[]>,
+  frames: ReadonlyMap<string, readonly AnchorPoint[]>,
   measure: TextMeasurer,
   forces: ReadonlyMap<string, LabelForce> = new Map(),
 ): PlacedRibbonLabel[] {
   return polities.flatMap((polity) => {
-    const points = frames.get(polity.id);
-    const first = points?.[0];
-    const last = points?.at(-1);
-    if (!points || !first || !last) return [];
+    const run = longestRun(frames.get(polity.id) ?? []);
+    const first = run[0];
+    const last = run.at(-1);
+    if (!first || !last) return [];
     return [
       placeRibbonLabel(
         {
