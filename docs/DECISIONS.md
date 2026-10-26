@@ -441,3 +441,13 @@ Alternatives: Leave the key in the top bar. Draw the swatches by hand.
 Why: Section 4.14 asks for the key one click away, and the bar is already the slim chrome. The family colors already live in data.
 
 Reversible? y
+
+## 2026-10-26 — Poster shots do not replace the v1 baselines
+
+Decision: `npm run shots` runs `tests/e2e/p3-poster.spec.ts` and writes 21 frames to `docs/shots/p3/` (desktop, wide, and mobile × overview, ancient, classical, medieval, modern, focus, dark). The v1 spec and `docs/shots/v1/` stay as they are. A height-fit overview is centered in the frame. A sheet wider than the column stays west-aligned so sideways scroll starts at the left. On a short screen the era frames zoom until 2500 BCE, 100 CE, 1000 CE, and 1800 CE land at least 120 px apart.
+
+Alternatives: Point `npm run shots` at both specs and regenerate v1. Leave the overview thumbnail in the left corner.
+
+Why: T0.11 already accepted the v1 frames. Re-running that spec would replace them. A phone-height fit shows the whole axis in one window, so the era scenes have to zoom in or three of them are the same picture.
+
+Reversible? y

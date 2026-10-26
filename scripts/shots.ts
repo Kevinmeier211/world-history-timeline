@@ -2,7 +2,7 @@ import { spawnSync } from 'node:child_process';
 
 const result = spawnSync(
   'playwright',
-  ['test', 'tests/e2e/v1-baseline.spec.ts', '--reporter=line'],
+  ['test', 'tests/e2e/p3-poster.spec.ts', '--reporter=line'],
   { stdio: 'inherit' },
 );
 

@@ -80,7 +80,8 @@
 | T3.11 | done   | bc24898 | navigate tests: zoom keeps the center, shortcuts ignore a field, minimap jump; controls stay on screen at 1440 and 390           | 30      | Fit width is the column scale. +/− zoom about the center. The overview map is 56 px. See DECISIONS.                                                   |
 | T3.12 | done   | 70c0fcb | theme tests: stored dark restores, blocked storage stays system, ink contrast ≥ 4.5 on both themes; reload keeps dark            | 20      | `chronos-theme` is try/catch. System follows the OS. See DECISIONS.                                                                                   |
 
-| T3.13 | done | (this commit) | reading tests: six ideas in our words, 18 swatches, closed until asked; escape and Close hide it | 25 | The key sits one click from the title band. See DECISIONS. |
+| T3.13 | done | 57cc758 | reading tests: six ideas in our words, 18 swatches, closed until asked; escape and Close hide it | 25 | The key sits one click from the title band. See DECISIONS. |
+| T3.14 | done | (this commit) | `npm run shots` → 21 PNGs in `docs/shots/p3/`; v1 baselines unchanged; phone era frames are separate windows | 30 | Overview is centered. `npm run shots` no longer rewrites `docs/shots/v1/`. See DECISIONS. |
 
 ## Blocked
 

@@ -213,13 +213,13 @@
 
 .poster-body {
   display: flex;
+  justify-content: safe center;
   min-height: 100%;
 }
 
 .chart-well {
-  flex: 1;
+  flex: 0 0 auto;
   min-width: 0;
-  overflow: hidden;
 }
 
 .chart-note {
