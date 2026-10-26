@@ -1,0 +1,15 @@
+[
+  {
+    "id": "band_decolonization",
+    "title": "DECOLONIZATION WAVES",
+    "start": 1950,
+    "end": 1975,
+    "scope": ["africa"],
+    "type": "epoch",
+    "importance": 2,
+    "description": "Appendix B dates independence to the 1950s and the 1970s and does not name each state. This band uses 1950 to 1975, the years already on the African independence row. The cited pages were not opened.",
+    "sourceIds": ["unesco_gha", "british_library"],
+    "verification": "unverified",
+    "evidence": "Years are the african_independence span already in this dataset. The cited pages were not opened."
+  }
+]

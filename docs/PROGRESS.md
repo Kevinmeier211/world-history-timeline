@@ -149,6 +149,6 @@ Partials: item 1, overview labels about 2px (`docs/shots/p3/desktop-overview.png
 
 ## P6
 
-| Task  | Status | Commit  | Evidence                                                                                     | Minutes | Notes                                                                                                                    |
-| ----- | ------ | ------- | -------------------------------------------------------------------------------------------- | ------- | ------------------------------------------------------------------------------------------------------------------------ |
-| T6.01 | doing  | 8ce465a | fan-out callout test: 36 blurbs ≤ 14 words, unverified, no mediaId, year on the attached row | 100     | Relations are 8ce465a. Callouts restate checklist years already on the row. Pages were not opened. No image is attached. |
+| Task  | Status | Commit  | Evidence                                                                                          | Minutes | Notes                                                                                                                              |
+| ----- | ------ | ------- | ------------------------------------------------------------------------------------------------- | ------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| T6.01 | doing  | 33d9668 | decolonization band is 1950–1975; world-war band stays 1914–1991; industrial band stays 1700–1900 | 110     | Callouts are 33d9668. The new band uses the African independence row. Separate war years were not invented. Pages were not opened. |

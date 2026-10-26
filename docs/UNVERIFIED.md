@@ -11,7 +11,7 @@ A row is unverified when `verification` is `unverified`, or when a tour stop omi
 | polities | 408 | 0 | 0 | 408 |
 | relations | 181 | 0 | 0 | 181 |
 | callouts | 94 | 0 | 0 | 94 |
-| bands | 12 | 0 | 0 | 12 |
+| bands | 13 | 0 | 0 | 13 |
 | routes | 6 | 0 | 0 | 6 |
 | tour stops | 11 | 0 | 0 | 11 |
 | climate | 1 | 0 | 0 | 1 |
@@ -33,7 +33,7 @@ Counts are unverified / cross-checked / primary-checked.
 | callouts | 4 | 40 | 0 | 0 |
 | callouts | 5 | 0 | 0 | 0 |
 | bands | 1 | 0 | 0 | 0 |
-| bands | 2 | 0 | 0 | 0 |
+| bands | 2 | 1 | 0 | 0 |
 | bands | 3 | 12 | 0 | 0 |
 | bands | 4 | 0 | 0 | 0 |
 | bands | 5 | 0 | 0 | 0 |
@@ -105,7 +105,7 @@ Unverified counts only.
 | 500_1000ce | 103 | 4 | 28 | 2 | 3 | 0 |
 | 1000_1500ce | 113 | 11 | 26 | 4 | 4 | 0 |
 | 1500_1800ce | 103 | 4 | 23 | 2 | 2 | 0 |
-| 1800_2000ce | 144 | 37 | 37 | 2 | 1 | 0 |
+| 1800_2000ce | 144 | 37 | 37 | 3 | 1 | 0 |
 
 ## By family
 

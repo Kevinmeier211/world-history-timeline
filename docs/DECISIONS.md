@@ -901,3 +901,13 @@ Alternatives: Keep the Río de la Plata split because the years touch. Leave `sh
 Why: The 1810 start is the edge of a band, not a dated handoff. Even shares match the layout default and do not claim a measured division.
 
 Reversible? y
+
+## 2026-10-26 — Decolonization uses the independence row, and the war band stays bundled
+
+Decision: `band_decolonization` runs 1950–1975, the years already on `african_independence`, and its scope is Africa. Appendix B says the 1950s to the 1970s and does not name each state. The Industrial Revolution stays inside `band_enlightenment_industrial` (1700–1900). World War I, World War II, and the Cold War stay inside `band_world_wars` (1914–1991). Those rows do not give separate endpoints. Pages were not opened. `verification` stays unverified.
+
+Alternatives: Invent 1914–1918, 1939–1945, and 1947–1991. Copy the 1700–1900 band under a second title.
+
+Why: A new band has to use a span the dataset already dates. Splitting the bundled rows would add years they do not contain.
+
+Reversible? y
