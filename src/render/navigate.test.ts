@@ -5,14 +5,17 @@ import userEvent from '@testing-library/user-event';
 import { describe, expect, it, vi } from 'vitest';
 
 import { SCALE_MAX, SCALE_MIN } from '../camera/camera.ts';
+import { yOfYear } from '../layout/drift.ts';
 import { ZoomBar } from './ZoomBar.tsx';
 import {
+  approachScroll,
   anchoredScroll,
   chartCommand,
   minimapHeight,
   overlayOffsets,
   panScroll,
   scrollFromMinimap,
+  scrollTopForYear,
   sheetMinWidth,
   steppedScale,
   viewportRect,
@@ -71,6 +74,12 @@ describe('chart navigation', () => {
     expect(minimapHeight(1500, 3000)).toBeCloseTo(112);
     expect(viewportRect(0, 100, 1, 1000, 100)).toEqual({ y: 0, height: 10 });
     expect(scrollFromMinimap(0.5, 1000, 100, 2)).toBeCloseTo(950);
+    expect(scrollTopForYear(-221, 1, 200, 5000)).toBeCloseTo(yOfYear(-221) - 100);
+    expect(scrollTopForYear(0, 1, 200, 5000)).toBe(0);
+    expect(approachScroll(0, 100, 0, false)).toBe(0);
+    expect(approachScroll(0, 100, 600, false)).toBe(100);
+    expect(approachScroll(0, 100, 10, true)).toBe(100);
+    expect(approachScroll(0, 100, 300, false)).toBeGreaterThan(50);
     expect(sheetMinWidth(1412, 1412)).toBe(0);
     expect(sheetMinWidth(400, 1412)).toBe(0);
     expect(sheetMinWidth(1694, 1412)).toBe(1694);

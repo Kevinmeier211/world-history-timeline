@@ -9,10 +9,12 @@ import type { LabelPaint, RibbonPaint } from './ribbonInk.ts';
 export function Ribbons({
   ribbons,
   labels,
+  selectedId,
   onSelect,
 }: {
   ribbons: readonly RibbonPaint[];
   labels: readonly LabelPaint[];
+  selectedId?: string;
   onSelect?: (id: string) => void;
 }) {
   const focusFamily = useFocus((state) => (state.active ? state.familyId : null));
@@ -51,6 +53,7 @@ export function Ribbons({
           key={ribbon.id}
           ribbon={ribbon}
           dimmed={ribbonDimmed(ribbon.familyId, focusFamily)}
+          selected={ribbon.id === selectedId}
           onSelect={onSelect}
           onHover={(item, x, y) =>
             show({

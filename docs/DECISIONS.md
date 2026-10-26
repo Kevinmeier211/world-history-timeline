@@ -511,3 +511,13 @@ Alternatives: Fly the camera from `y` and `z` in this same commit. Push a histor
 Why: T5.01 is the serializer and back/forward. A scroll entry would flood the session history. Camera, selection, and fold belong to the tasks that use them.
 
 Reversible? y
+
+## 2026-10-26 — Search is an in-memory index, and only a choice moves the chart
+
+Decision: Search is a small scorer over polity names, alternate names, rulers, callout titles, and band titles. It does not add MiniSearch. A year such as `44 BCE` returns what is active then and scrolls to that year. A name scrolls to the polity's start and selects it. `/` and Ctrl/Cmd-K open the dialog. The choice pushes `y` and `sel`. Recents stay in component state, not localStorage. A ribbon click replaces `sel` and does not scroll. Scrolling never pushes history. `z` still does not zoom.
+
+Alternatives: Add MiniSearch. Store recents in localStorage. Push a history entry on every scroll.
+
+Why: The task allows a custom index. The plan stores only the theme and custom milestones in localStorage. A scroll entry would flood the session history.
+
+Reversible? y

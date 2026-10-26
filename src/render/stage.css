@@ -150,6 +150,10 @@
   outline-offset: 2px;
 }
 
+.ribbon[data-selected='true'] .ribbon-body {
+  stroke-width: 3px;
+}
+
 .ribbon-label {
   font-family: var(--font-label);
   font-weight: 600;

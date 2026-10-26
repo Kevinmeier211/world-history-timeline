@@ -22,6 +22,7 @@ export function Stage({
   connectors = [],
   bands = [],
   padScreens = VISIBLE_PAD,
+  selectedId,
   onSelect,
 }: {
   camera: Camera;
@@ -34,6 +35,7 @@ export function Stage({
   connectors?: readonly ConnectorPaint[];
   bands?: readonly BandPaint[];
   padScreens?: number;
+  selectedId?: string;
   onSelect?: (id: string) => void;
 }) {
   const windows: YSpan[] = [
@@ -73,7 +75,12 @@ export function Stage({
       <Watermark />
       <Bands bands={drawnBands} />
       <Connectors connectors={drawnConnectors} />
-      <Ribbons ribbons={drawnRibbons} labels={drawnLabels} onSelect={onSelect} />
+      <Ribbons
+        ribbons={drawnRibbons}
+        labels={drawnLabels}
+        selectedId={selectedId}
+        onSelect={onSelect}
+      />
       {shown
         .filter((span) => extraIds.has(span.id))
         .map((span) => (

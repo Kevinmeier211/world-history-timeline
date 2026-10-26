@@ -1,6 +1,7 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 
 import { posterWorld, SCALE_MAX, SCALE_MIN } from '../camera/camera.ts';
+import { useView } from '../state/view.ts';
 import { benchRibbonCount, padRibbons } from './bench.ts';
 import { Minimap } from './Minimap.tsx';
 import { posterModel } from './posterModel.ts';
@@ -10,12 +11,14 @@ import { ZoomBar } from './ZoomBar.tsx';
 import { cameraFromScroll, stageScale } from './visible.ts';
 import {
   anchoredScroll,
+  approachScroll,
   chartCommand,
   clampScroll,
   isTypingTarget,
   overlayOffsets,
   panScroll,
   scrollFromMinimap,
+  scrollTopForYear,
   sheetMinWidth,
   steppedScale,
   type OverlayOffsets,
@@ -43,6 +46,9 @@ export function ChartViewport({ onSheet }: { onSheet: (sheet: SheetSize) => void
   const [metrics, setMetrics] = useState<Metrics | null>(null);
   const [overlay, setOverlay] = useState<OverlayOffsets | null>(null);
   const [zoom, setZoom] = useState(1);
+  const selectedId = useView((state) => state.link.sel);
+  const flyYear = useView((state) => state.link.y);
+  const flown = useRef<string | null>(null);
   const world = posterWorld();
   const paint = posterModel();
   const bench = benchRibbonCount(
@@ -109,6 +115,55 @@ export function ChartViewport({ onSheet }: { onSheet: (sheet: SheetSize) => void
 
   const fit = metrics ? stageScale(metrics.width, world.width) : 1;
   const scale = Math.min(SCALE_MAX, Math.max(SCALE_MIN, fit * zoom));
+  const laidOut = metrics !== null;
+
+  useEffect(() => {
+    if (!laidOut || flyYear === undefined) return;
+    const key = `${flyYear}:${selectedId ?? ''}`;
+    if (flown.current === key) return;
+    const scroller = scrollerOf(host.current);
+    if (!scroller) return;
+    const target = scrollTopForYear(
+      flyYear,
+      scale,
+      scroller.clientHeight,
+      world.height * scale,
+    );
+    let frame = 0;
+    let cancelled = false;
+    const done = () => {
+      if (!cancelled) flown.current = key;
+    };
+    const reduced =
+      typeof window.matchMedia !== 'function' ||
+      window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduced) {
+      scroller.scrollTop = target;
+      done();
+      return () => {
+        cancelled = true;
+      };
+    }
+    const from = scroller.scrollTop;
+    const start = performance.now();
+    const step = (now: number) => {
+      if (cancelled) return;
+      const next = approachScroll(from, target, now - start, false);
+      scroller.scrollTop = next;
+      if (next === target) done();
+      else frame = requestAnimationFrame(step);
+    };
+    frame = requestAnimationFrame(step);
+    const stop = () => {
+      cancelled = true;
+      cancelAnimationFrame(frame);
+    };
+    scroller.addEventListener('wheel', stop, { once: true, passive: true });
+    return () => {
+      stop();
+      scroller.removeEventListener('wheel', stop);
+    };
+  }, [flyYear, laidOut, scale, selectedId, world.height]);
   const camera = cameraFromScroll(
     metrics?.scrollLeft ?? 0,
     metrics?.scrollTop ?? 0,
@@ -172,6 +227,11 @@ export function ChartViewport({ onSheet }: { onSheet: (sheet: SheetSize) => void
           labels={paint.labels}
           connectors={paint.connectors}
           bands={paint.bands}
+          selectedId={selectedId}
+          onSelect={(id) => {
+            const current = useView.getState().link;
+            useView.getState().setLink({ ...current, sel: id }, 'replace');
+          }}
         />
       ) : null}
       <Tooltip />

@@ -127,6 +127,25 @@ describe('poster shell', () => {
     });
   });
 
+  it('opens search from slash and flies to the chosen state', async () => {
+    vi.stubGlobal('ResizeObserver', FakeResizeObserver);
+    const user = userEvent.setup();
+    render(createElement(PosterApp));
+    await user.keyboard('/');
+    expect(screen.getByRole('dialog', { name: 'Search' })).toHaveTextContent('44 BCE');
+    expect(screen.getByRole('searchbox', { name: 'Search' })).toHaveFocus();
+    await user.keyboard('Han');
+    const option = await screen.findByRole('option', { name: /Qin & Han Dynasties/ });
+    await user.click(option);
+    await waitFor(() => {
+      expect(window.location.hash).toBe('#y=-221&sel=han_dynasty');
+    });
+    expect(screen.queryByRole('dialog', { name: 'Search' })).toBeNull();
+    expect(screen.getByRole('searchbox', { name: 'Search' })).toHaveValue('');
+    await user.keyboard('/');
+    expect(screen.getByRole('option', { name: 'Han' })).toBeInTheDocument();
+  });
+
   it('mounts the poster and leaves the v1 canvas deleted', () => {
     const main = readFileSync('src/main.tsx', 'utf8');
     expect(main).toContain('PosterApp');

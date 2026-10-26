@@ -1,4 +1,5 @@
 import { SCALE_MAX, SCALE_MIN } from '../camera/camera.ts';
+import { yOfYear } from '../layout/drift.ts';
 
 const ZOOM_STEP = 1.2;
 const PAN_FRACTION = 0.2;
@@ -133,6 +134,32 @@ export function overlayOffsets(
     right: Math.max(margin, view.width - port.right + margin),
     bottom: Math.max(margin, view.height - port.bottom + margin),
   };
+}
+
+const FLY_SCROLL_MS = 600;
+
+/** Scroll so `year` sits at the vertical center of the port. */
+export function scrollTopForYear(
+  year: number,
+  scale: number,
+  portHeight: number,
+  sheetHeight: number,
+): number {
+  if (!Number.isInteger(year) || year === 0 || scale <= 0) return 0;
+  return clampScroll(yOfYear(year) * scale - portHeight / 2, sheetHeight, portHeight);
+}
+
+/** Ease toward a scroll offset. Reduced motion arrives immediately. */
+export function approachScroll(
+  from: number,
+  to: number,
+  elapsedMs: number,
+  reducedMotion: boolean,
+): number {
+  if (reducedMotion || elapsedMs >= FLY_SCROLL_MS || from === to) return to;
+  const t = Math.max(0, elapsedMs) / FLY_SCROLL_MS;
+  const eased = 1 - (1 - t) ** 3;
+  return from + (to - from) * eased;
 }
 
 /** `fraction` is 0 at the top of the minimap and 1 at the bottom. */

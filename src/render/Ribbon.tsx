@@ -16,18 +16,24 @@ function onKey(
 function RibbonView({
   ribbon,
   dimmed = false,
+  selected = false,
   onSelect,
   onHover,
   onLeave,
 }: {
   ribbon: RibbonPaint;
   dimmed?: boolean;
+  selected?: boolean;
   onSelect?: (id: string) => void;
   onHover?: (ribbon: RibbonPaint, x: number, y: number) => void;
   onLeave?: (event: PointerEvent<SVGPathElement>) => void;
 }) {
   return (
-    <g className={dimmed ? 'ribbon ribbon-dim' : 'ribbon'} data-polity={ribbon.id}>
+    <g
+      className={dimmed ? 'ribbon ribbon-dim' : 'ribbon'}
+      data-polity={ribbon.id}
+      data-selected={selected ? 'true' : undefined}
+    >
       <path
         className="ribbon-body"
         d={ribbon.d}
@@ -59,6 +65,7 @@ function RibbonView({
         d={ribbon.d}
         tabIndex={0}
         role="button"
+        aria-current={selected ? 'true' : undefined}
         aria-label={ribbon.ariaLabel}
         onClick={() => onSelect?.(ribbon.id)}
         onKeyDown={(event) => onKey(event, ribbon.id, onSelect)}
