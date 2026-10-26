@@ -121,7 +121,7 @@ describe('golden fixtures', () => {
     ]);
     expect(ribbonOverlap(result.ribbons).overlaps).toBe(0);
     expect(digest(result)).toMatchInlineSnapshot(
-      `"1c6a2df102e75fc6066d62f71457e13fc038272e1c3766efcc63e1d68c9d9f86"`,
+      `"945a536e4c9c5ad2e7f11bff4e93741a0837da4724961e4ac85656a01557ba03"`,
     );
   });
 
@@ -219,7 +219,7 @@ describe('golden fixtures', () => {
     const drawn = result.labels.filter((label) => label.fitted || label.leader).length;
     expect(drawn / result.labels.length).toBeGreaterThanOrEqual(0.85);
     expect(digest(result)).toMatchInlineSnapshot(
-      `"28a916d5b8fc2a2d930df01843a28f6494550ed89bd66fa9b98018b53b3dea38"`,
+      `"23be75d0ceae449010d387264ef05df20dfb68592370309af9dc805b41045ee9"`,
     );
   });
 

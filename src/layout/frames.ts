@@ -1,9 +1,9 @@
 import type { Polity } from '../data/schema/index.ts';
 import type { Geography } from '../data/schema/geography.ts';
 import { fromT, toT } from '../lib/years.ts';
+import { easeCenterlines } from './continuity.ts';
 import { LEFT_GUTTER, PLOT_WIDTH, ribbonWidth } from './constants.ts';
 import { yOfYear } from './drift.ts';
-import { packLaneCenters } from './laneSolver.ts';
 import { withWidthProfile, type RibbonPoint } from './ribbonGeometry.ts';
 import { wideRibbon, type ZoneSpan } from './spanRibbon.ts';
 
@@ -187,22 +187,10 @@ export function sampleAt(
   return last;
 }
 
-function meanX(runs: readonly (readonly DatedPoint[])[]): number {
-  let sum = 0;
-  let count = 0;
-  for (const run of runs) {
-    for (const point of run) {
-      sum += point.x;
-      count += 1;
-    }
-  }
-  return count === 0 ? 0 : sum / count;
-}
-
 /**
- * Drift can land two ribbons on the same column. Pack every keyframe y
- * again, in a stable left-to-right order, and sample every ribbon there
- * so the segment between keyframes stays clear.
+ * Drift can land two ribbons on the same column. Sample every ribbon at
+ * every keyframe y, then ease the centers so a membership change does not
+ * rebuild the row from the gutter.
  */
 function snapRuns(runs: ReadonlyMap<string, DatedPoint[][]>): void {
   for (const ribbon of runs.values()) {
@@ -264,37 +252,29 @@ export function separateRuns(runs: ReadonlyMap<string, DatedPoint[][]>): void {
       }
     }
   }
-  const means = new Map([...runs].map(([id, ribbon]) => [id, meanX(ribbon)]));
-  const order = [...runs.keys()].sort(
-    (left, right) =>
-      (means.get(left) ?? 0) - (means.get(right) ?? 0) || left.localeCompare(right),
-  );
-  const atY = new Map<number, Map<string, DatedPoint[]>>();
+  const samples: { id: string; y: number; x: number; width: number }[] = [];
+  const mirrors = new Map<string, DatedPoint[]>();
   for (const [id, ribbon] of runs) {
     for (const run of ribbon) {
       for (const point of run) {
-        let bucket = atY.get(point.y);
-        if (!bucket) {
-          bucket = new Map();
-          atY.set(point.y, bucket);
+        const key = `${id}\0${point.y}`;
+        const list = mirrors.get(key);
+        if (list) {
+          list.push(point);
+          continue;
         }
-        const list = bucket.get(id) ?? [];
-        list.push(point);
-        bucket.set(id, list);
+        mirrors.set(key, [point]);
+        samples.push({ id, y: point.y, x: point.x, width: point.width });
       }
     }
   }
-  for (const hits of atY.values()) {
-    const lanes = order.flatMap((id) => {
-      const point = hits.get(id)?.[0];
-      return point ? [{ id, width: point.width }] : [];
-    });
-    const x = new Map(lanes.map((lane) => [lane.id, hits.get(lane.id)?.[0]?.x ?? 0]));
-    packLaneCenters(lanes, x);
-    for (const [id, points] of hits) {
-      const next = x.get(id);
-      if (next === undefined) continue;
-      for (const point of points) point.x = next;
+  easeCenterlines(samples);
+  for (const sample of samples) {
+    const list = mirrors.get(`${sample.id}\0${sample.y}`);
+    if (!list) continue;
+    for (const point of list) {
+      point.x = sample.x;
+      point.width = sample.width;
     }
   }
   snapRuns(runs);

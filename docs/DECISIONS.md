@@ -711,3 +711,13 @@ Alternatives: Protect every endpoint with no swap, and let the slice overflow. H
 Why: Item 2 asks for the Frankish fork. The children already exist and were culled. A higher-importance ribbon is not dropped to make room.
 
 Reversible? y
+
+## 2026-10-26 — A membership change does not rebuild the row from the gutter
+
+Decision: `easeCenterlines` carries each ribbon's center and width down the chart. A continuing ribbon may follow its sample by at most `MAX_DRIFT` per px of y. A new ribbon is seated in a gap. When the tight chain can hold a 10px name, width stays at least `10 / 0.62` instead of falling to the 12px minimum. The old gutter reset is what moved `egypt_late_to_ptolemaic` 184px across 0.62px of y. That step is now 0.22px (slope 0.35). A clamp of every packed step to `MAX_DRIFT` is still not shipped: it left 246 overlaps forward and 257 backward. Rows that cannot separate inside the drift window still use the rightward overlap push, so `japan_timeline` still moves 6.6px across 0.62px (slope 10.66). Fixture C's fan-out keeps a fitted label on every drawn ribbon. The roster report is overlaps 0, label hits 0, importance 3 fit 69/69, importance 2 fit 120/125, warm 129ms.
+
+Alternatives: Clamp centerlines after packing. Delete the 0.62px sample so the metric ignores the kink. Shorten the fan-out names.
+
+Why: Item 2 needs a river that does not kink when neighbors appear or leave, and the sixty-state fixture still has to draw its names. Spending width, not a global slope cap, is what keeps the gaps.
+
+Reversible? y

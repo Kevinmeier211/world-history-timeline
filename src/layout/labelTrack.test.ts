@@ -293,6 +293,41 @@ describe('parkRotatedLabels', () => {
     expect(parked[0]?.y).toBe(0);
   });
 
+  it('moves an outside name to the free side of its ribbon', () => {
+    const parked = parkRotatedLabels(
+      [
+        {
+          polityId: 'short',
+          text: 'Short',
+          x: 226,
+          y: 4,
+          width: 40,
+          height: 12,
+          fontSize: 12,
+          orientation: 'outside' as const,
+          fitted: true,
+        },
+        {
+          polityId: 'other',
+          text: 'Other',
+          x: 230,
+          y: 4,
+          width: 40,
+          height: 12,
+          fontSize: 12,
+          orientation: 'horizontal' as const,
+          fitted: true,
+        },
+      ],
+      new Map([['short', straight(200, 20)]]),
+    );
+    const short = parked.find((label) => label.polityId === 'short');
+    expect(short?.text).toBe('Short');
+    expect(short?.fitted).toBe(true);
+    expect(short?.x).toBeLessThan(200);
+    expect(labelHitPairs(parked)).toEqual([]);
+  });
+
   it('does not seat a hover-only label', () => {
     const parked = parkRotatedLabels(
       [

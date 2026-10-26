@@ -1,4 +1,5 @@
 import type { TextMeasurer } from './labelFit.ts';
+import { clearOutside } from './outsideClear.ts';
 import type { LayoutGlyph } from './types.ts';
 
 /**
@@ -343,7 +344,8 @@ function slideClear<T extends Seatable>(
 /**
  * Pin fitted names to their ribbons. A rotated name stays one straight
  * column. A horizontal name stays one line. A name that still crosses
- * another fitted label slides along its ribbon. Text, size, and fit stay put.
+ * another fitted label slides along its ribbon. An outside name can slide
+ * sideways to a clear gap. Text, size, and fit stay put.
  */
 export function parkRotatedLabels<T extends Seatable>(
   labels: readonly T[],
@@ -356,12 +358,22 @@ export function parkRotatedLabels<T extends Seatable>(
     let moved = false;
     const order = seated
       .map((label, index) => ({ label, index }))
-      .filter((item) => colliding.has(item.label.polityId) && canPin(item.label))
+      .filter(
+        (item) =>
+          colliding.has(item.label.polityId) &&
+          (canPin(item.label) || item.label.orientation === 'outside'),
+      )
       .sort((left, right) => left.label.polityId.localeCompare(right.label.polityId));
     for (const item of order) {
       const current = seated[item.index];
       if (!current) continue;
-      const next = slideClear(current, indexRects(seated), tracks);
+      const buckets = indexRects(seated);
+      const next =
+        current.orientation === 'outside'
+          ? clearOutside(current, tracks.get(current.polityId) ?? [], (candidate) =>
+              hitsFor(candidate.polityId, columnInk(candidate), buckets),
+            )
+          : slideClear(current, buckets, tracks);
       if (next.y === current.y && next.x === current.x) continue;
       seated = seated.map((label, index) => (index === item.index ? next : label));
       moved = true;
