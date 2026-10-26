@@ -170,7 +170,7 @@ describe('migrated annotation files', () => {
         expect.objectContaining({ id: 'band_decolonization' }),
       ]),
     );
-    expect(data.routes).toHaveLength(6);
+    expect(data.routes).toHaveLength(15);
     expect(data.tours).toHaveLength(15);
     expect(data.tours).toEqual(
       expect.arrayContaining([

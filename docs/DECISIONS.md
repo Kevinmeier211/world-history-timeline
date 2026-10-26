@@ -1141,3 +1141,13 @@ Alternatives: Leave the count at 13. Move the older bundled bands onto the narro
 Why: The floor is 35. Earlier passes left these titles off when the plan gave them no years.
 
 Reversible? y
+
+## 2026-10-26 — Nine arcs join rows already on the sheet
+
+Decision: Nine cultural routes bring the count from 6 to 15. Each arc uses two polity names already stored, a year inside both stored spans, and a poster x from that row’s anchors. The description names those rows and says the cited page was not opened. No commodity list is added. The six migrated routes stay as they are. `npm run layout:report`: 238 ribbons, 0 overlaps, 0 unroutable, markers 13, placed 88, warm runtime 173 ms, over the 150 ms gate. The layout engine was not changed.
+
+Alternatives: Copy cargo lists onto the new arcs. Reuse the Silk Road waypoints under a new id. Download nothing, and leave the count at 6.
+
+Why: The floor is 15. Tag `gemini-v1` has six routes. These nine use rows that are already on the sheet.
+
+Reversible? y

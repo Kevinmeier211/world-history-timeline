@@ -1,0 +1,165 @@
+[
+  {
+    "id": "route_vikings_byzantium",
+    "name": "Vikings and Byzantium",
+    "type": "cultural",
+    "start": 793,
+    "end": 1066,
+    "waypoints": [
+      { "year": 793, "x": 0.252, "label": "Vikings" },
+      { "year": 1066, "x": 0.432, "label": "Byzantine Empire (Eastern Rome)" }
+    ],
+    "description": "Appendix B dates the Vikings from about 793 to 1066. The Byzantine row is current in those years. The cited page was not opened.",
+    "importance": 2,
+    "sourceIds": ["british_library", "cambridge_histories", "louvre"],
+    "confidence": "approximate",
+    "verification": "unverified",
+    "evidence": "Waypoint years sit inside the Vikings row and the Byzantine row. The cited pages were not opened."
+  },
+  {
+    "id": "route_swahili_chola",
+    "name": "Swahili coast and Chola",
+    "type": "cultural",
+    "start": 850,
+    "end": 1279,
+    "waypoints": [
+      { "year": 850, "x": 0.34, "label": "Swahili city-states" },
+      { "year": 1279, "x": 0.698, "label": "Chola" }
+    ],
+    "description": "The Swahili row and the Chola row are both current from 850 to 1279. The cited page was not opened.",
+    "importance": 2,
+    "sourceIds": ["unesco_gha", "british_library", "cambridge_histories"],
+    "confidence": "approximate",
+    "verification": "unverified",
+    "evidence": "Waypoint years sit inside the Swahili row and the Chola row. The cited pages were not opened."
+  },
+  {
+    "id": "route_srivijaya_chola",
+    "name": "Srivijaya and Chola",
+    "type": "cultural",
+    "start": 850,
+    "end": 1279,
+    "waypoints": [
+      { "year": 850, "x": 0.968, "label": "Srivijaya" },
+      { "year": 1279, "x": 0.698, "label": "Chola" }
+    ],
+    "description": "The Srivijaya row and the Chola row are both current from 850 to 1279. The cited page was not opened.",
+    "importance": 2,
+    "sourceIds": [
+      "field_museum",
+      "unesco_mow",
+      "british_library",
+      "cambridge_histories"
+    ],
+    "confidence": "approximate",
+    "verification": "unverified",
+    "evidence": "Waypoint years sit inside the Srivijaya row and the Chola row. The cited pages were not opened."
+  },
+  {
+    "id": "route_huns_western_rome",
+    "name": "Huns and Western Rome",
+    "type": "cultural",
+    "start": 395,
+    "end": 469,
+    "waypoints": [
+      { "year": 395, "x": 0.452, "label": "Huns" },
+      { "year": 469, "x": 0.272, "label": "Western Roman Empire" }
+    ],
+    "description": "The Huns row and the Western Roman Empire row are both current from 395 to 469. The cited page was not opened.",
+    "importance": 2,
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "confidence": "approximate",
+    "verification": "unverified",
+    "evidence": "Waypoint years sit inside the Huns row and the Western Roman Empire row. The cited pages were not opened."
+  },
+  {
+    "id": "route_xiongnu_western_han",
+    "name": "Xiongnu and Western Han",
+    "type": "cultural",
+    "start": -206,
+    "end": 9,
+    "waypoints": [
+      { "year": -206, "x": 0.893, "label": "Xiongnu" },
+      { "year": 9, "x": 0.853, "label": "Western Han" }
+    ],
+    "description": "The Xiongnu row runs from 209 BCE to 93 CE. The Western Han row runs from 206 BCE to 9 CE. This arc uses the years both rows share. The cited page was not opened.",
+    "importance": 2,
+    "sourceIds": ["cambridge_histories", "unesco_mow", "chgis"],
+    "confidence": "approximate",
+    "verification": "unverified",
+    "evidence": "Waypoint years sit inside the Xiongnu row and the Western Han row. The cited pages were not opened."
+  },
+  {
+    "id": "route_aksum_sasanian",
+    "name": "Aksum and the Sasanians",
+    "type": "cultural",
+    "start": 224,
+    "end": 651,
+    "waypoints": [
+      { "year": 224, "x": 0.34, "label": "Aksum" },
+      { "year": 651, "x": 0.563, "label": "Sasanian Empire" }
+    ],
+    "description": "The Aksum row and the Sasanian row are both current from 224 to 651. The cited page was not opened.",
+    "importance": 2,
+    "sourceIds": ["unesco_gha", "british_library", "isac", "louvre"],
+    "confidence": "approximate",
+    "verification": "unverified",
+    "evidence": "Waypoint years sit inside the Aksum row and the Sasanian row. The cited pages were not opened."
+  },
+  {
+    "id": "route_funan_gupta",
+    "name": "Funan and the Guptas",
+    "type": "cultural",
+    "start": 320,
+    "end": 550,
+    "waypoints": [
+      { "year": 320, "x": 0.968, "label": "Funan" },
+      { "year": 550, "x": 0.698, "label": "Gupta" }
+    ],
+    "description": "The Funan row and the Gupta row are both current from 320 to 550. The cited page was not opened.",
+    "importance": 2,
+    "sourceIds": [
+      "field_museum",
+      "unesco_mow",
+      "british_library",
+      "cambridge_histories"
+    ],
+    "confidence": "approximate",
+    "verification": "unverified",
+    "evidence": "Waypoint years sit inside the Funan row and the Gupta row. The cited pages were not opened."
+  },
+  {
+    "id": "route_venice_mamluk",
+    "name": "Venice and the Mamluk Sultanate",
+    "type": "cultural",
+    "start": 1250,
+    "end": 1517,
+    "waypoints": [
+      { "year": 1250, "x": 0.272, "label": "Venice" },
+      { "year": 1517, "x": 0.457, "label": "Mamluk Sultanate" }
+    ],
+    "description": "The Venice row and the Mamluk Sultanate row are both current from 1250 to 1517. The cited page was not opened.",
+    "importance": 2,
+    "sourceIds": ["cambridge_histories", "british_library", "unesco_gha"],
+    "confidence": "approximate",
+    "verification": "unverified",
+    "evidence": "Waypoint years sit inside the Venice row and the Mamluk Sultanate row. The cited pages were not opened."
+  },
+  {
+    "id": "route_umayyad_tang",
+    "name": "Umayyads and Tang",
+    "type": "cultural",
+    "start": 661,
+    "end": 750,
+    "waypoints": [
+      { "year": 661, "x": 0.457, "label": "Umayyad Caliphate" },
+      { "year": 750, "x": 0.853, "label": "Sui, Tang & Song Dynasties" }
+    ],
+    "description": "The Umayyad row and the Sui, Tang, and Song row are both current from 661 to 750. The cited page was not opened.",
+    "importance": 2,
+    "sourceIds": ["unesco_gha", "cambridge_histories", "chgis"],
+    "confidence": "approximate",
+    "verification": "unverified",
+    "evidence": "Waypoint years sit inside the Umayyad row and the Sui, Tang, and Song row. The cited pages were not opened."
+  }
+]
