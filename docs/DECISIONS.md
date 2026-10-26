@@ -1251,3 +1251,13 @@ Alternatives: Add `license-checker`. Treat a missing field as MIT. State a Natur
 Why: T9.02 asks for the installed tree and a copyleft flag.
 
 Reversible? y
+
+## 2026-10-26 — The closeout cites the committed metrics and leaves T9.03 unrun
+
+Decision: `README.md`, `docs/LICENSES.md`, `docs/HANDOFF.md`, and `docs/CONTEXT.md` are written on `v2/p7-print` after tag `v2-p7-done`. That tag stays on merge `a9f3a4e`. The closeout commits are not merged. `docs/reviews/M4.md` stays the P5 score of 5/11. `docs/reviews/layout-pass.md` stays 9/10 with item 2 partial. Layout, perf, shots, axe, and `bundle:check` were not re-run. The handoff cites `docs/reports/layout-latest.json` (warm 177 ms, `pass` false on `runtimeMs`), the M3 perf line (p95 16.80 ms), the axe note of 24 passed, and the on-disk JavaScript gzip of 280,930 bytes. Pushes made: 0. CI runs triggered: 0. P8 stays closed.
+
+Alternatives: Re-run T9.03 and overwrite `docs/reviews/M4.md`. Merge the closeout and move the tag. Start P8.
+
+Why: The requested closeout is those four documents. T9.03 is a separate checkpoint, and the filename it would use already holds an earlier review.
+
+Reversible? y
