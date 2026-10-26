@@ -20,4 +20,4 @@ Poster and both Gemini PDFs are missing (Q-01). Gemini bibliography [1]–[37] w
 
 ## Next
 
-T1.99 phase gate. It cannot be tagged: 3300–2000 BCE is 26/35 (Q-07). `layoutOverrides.json` is an empty pin-and-nudge file. Do not start P8.
+T2.01 layout types, on a new branch `v2/p2-layout` cut from `v2/p1-data`. T1.99 is blocked: 3300–2000 BCE is 26/35, so `v2/main` was not updated and `v2-p1-done` was not tagged (Q-07). Do not start P8.
