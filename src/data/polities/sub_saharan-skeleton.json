@@ -286,5 +286,36 @@
     "sourceIds": ["unesco_gha", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "saadi_morocco",
+    "name": "Saadi Morocco",
+    "altNames": ["Saadian dynasty"],
+    "family": "sub_saharan",
+    "start": 1549,
+    "end": 1659,
+    "confidence": "debated",
+    "dateNote": "Appendix B does not date Morocco. 1549 and 1659 are widely cited for the Saadi dynasty. Songhai's checklist end is 1591, when a Saadi army took the Niger bend. 1659 is not that occupation’s only cited end. Pages were not opened.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [{ "year": 1549, "xKey": "sub_saharan_africa" }],
+    "summary": "Appendix B does not date Morocco. This row uses 1549 and 1659, widely cited for the Saadi dynasty. Songhai's checklist end, 1591, is the year a Saadi army took the Niger bend. The cited pages were not opened.",
+    "keyFacts": [
+      "1549 and 1659 are widely cited for the Saadi dynasty.",
+      "1591 is Songhai's checklist end.",
+      "1659 is not the occupation’s only cited end."
+    ],
+    "sourceIds": ["unesco_gha", "british_library"],
+    "rulers": [{ "name": "Ahmad al-Mansur", "reign": "1578–1603", "title": "Sultan" }],
+    "endpoints": [
+      {
+        "label": "Songhai checklist end",
+        "year": 1591,
+        "note": "Appendix B ends Songhai in 1591. The bridge uses this year."
+      }
+    ],
+    "verification": "unverified",
+    "evidence": "Widely cited political dates. The cited pages were not opened for this row."
   }
 ]

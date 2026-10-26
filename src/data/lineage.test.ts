@@ -96,6 +96,20 @@ describe('buildLineage', () => {
     expect(
       result.relations.some((item) => item.id === 'bridge_mughal_india_1857'),
     ).toBe(true);
+    const songhai = buildLineage(
+      [
+        polity('songhai_empire', 'sub_saharan', 1464, 1591),
+        polity('saadi_morocco', 'sub_saharan', 1549, 1659),
+      ],
+      [],
+      [],
+    );
+    expect(
+      songhai.relations.some(
+        (item) =>
+          item.id === 'bridge_songhai_empire_saadi_morocco' && item.year === 1591,
+      ),
+    ).toBe(true);
     expect(result.roots.find((root) => root.id === 'argentina')?.reason).toContain(
       'no single year',
     );

@@ -1,5 +1,29 @@
 [
   {
+    "id": "v1_achaemenid_empire_empire_of_alexander",
+    "from": ["achaemenid_empire"],
+    "to": ["empire_of_alexander"],
+    "year": -336,
+    "type": "cultural_continuity",
+    "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
+    "sourceIds": ["louvre", "cambridge_histories"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."
+  },
+  {
+    "id": "v1_aksumite_empire_modern_africa",
+    "from": ["aksumite_empire"],
+    "to": ["modern_africa"],
+    "year": 1957,
+    "type": "cultural_continuity",
+    "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
+    "sourceIds": ["unesco_gha", "british_library"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."
+  },
+  {
     "id": "v1_british_empire_modern_india",
     "from": ["british_empire"],
     "to": ["modern_india"],
@@ -115,30 +139,6 @@
     "type": "cultural_continuity",
     "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
     "sourceIds": ["field_museum", "dpla"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."
-  },
-  {
-    "id": "v1_franks_charlemagne_france_kingdom",
-    "from": ["franks_charlemagne"],
-    "to": ["france_kingdom"],
-    "year": 843,
-    "type": "cultural_continuity",
-    "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
-    "sourceIds": ["cambridge_histories", "british_library"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."
-  },
-  {
-    "id": "v1_franks_charlemagne_holy_roman_empire",
-    "from": ["franks_charlemagne"],
-    "to": ["holy_roman_empire"],
-    "year": 843,
-    "type": "cultural_continuity",
-    "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
-    "sourceIds": ["cambridge_histories", "british_library"],
     "confidence": "debated",
     "verification": "unverified",
     "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."

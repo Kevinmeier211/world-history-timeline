@@ -1,5 +1,18 @@
 [
   {
+    "id": "split_archaic_greece_athens_classical_period_sparta_thebes",
+    "from": ["archaic_greece"],
+    "to": ["athens", "classical_period", "sparta", "thebes"],
+    "year": -480,
+    "type": "split",
+    "share": [0.25, 0.25, 0.25, 0.25],
+    "note": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened.",
+    "sourceIds": ["louvre", "cambridge_histories"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened."
+  },
+  {
     "id": "split_babylon_assyria_neo_assyria_babylon_neo_assyrian",
     "from": ["babylon_assyria"],
     "to": ["neo_assyria_babylon", "neo_assyrian"],
@@ -65,6 +78,19 @@
     "evidence": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened."
   },
   {
+    "id": "split_kalmar_union_denmark_norway_sweden_1523",
+    "from": ["kalmar_union"],
+    "to": ["denmark_norway", "sweden_1523"],
+    "year": 1523,
+    "type": "split",
+    "share": [0.5, 0.5],
+    "note": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened.",
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened."
+  },
+  {
     "id": "split_korea_1945_north_korea_south_korea",
     "from": ["korea_1945"],
     "to": ["north_korea", "south_korea"],
@@ -125,32 +151,6 @@
     "share": [0.5, 0.5],
     "note": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened.",
     "sourceIds": ["field_museum", "dpla"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened."
-  },
-  {
-    "id": "split_tokugawa_empire_of_japan_meiji",
-    "from": ["tokugawa"],
-    "to": ["empire_of_japan", "meiji"],
-    "year": 1868,
-    "type": "split",
-    "share": [0.5, 0.5],
-    "note": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened.",
-    "sourceIds": ["korea_national", "tokyo_national"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened."
-  },
-  {
-    "id": "split_united_provinces_central_america_costa_rica_el_salvador_guatemala_honduras_nicaragua",
-    "from": ["united_provinces_central_america"],
-    "to": ["costa_rica", "el_salvador", "guatemala", "honduras", "nicaragua"],
-    "year": 1838,
-    "type": "split",
-    "share": [0.2, 0.2, 0.2, 0.2, 0.2],
-    "note": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened.",
-    "sourceIds": ["inah", "field_museum"],
     "confidence": "debated",
     "verification": "unverified",
     "evidence": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened."

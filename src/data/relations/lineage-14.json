@@ -1,5 +1,29 @@
 [
   {
+    "id": "v1_franks_charlemagne_france_kingdom",
+    "from": ["franks_charlemagne"],
+    "to": ["france_kingdom"],
+    "year": 843,
+    "type": "cultural_continuity",
+    "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."
+  },
+  {
+    "id": "v1_franks_charlemagne_holy_roman_empire",
+    "from": ["franks_charlemagne"],
+    "to": ["holy_roman_empire"],
+    "year": 843,
+    "type": "cultural_continuity",
+    "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."
+  },
+  {
     "id": "v1_gupta_chola_mughal_empire",
     "from": ["gupta_chola"],
     "to": ["mughal_empire"],
@@ -115,30 +139,6 @@
     "type": "cultural_continuity",
     "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
     "sourceIds": ["chgis", "cambridge_histories"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."
-  },
-  {
-    "id": "v1_mongol_empire_russia_soviet",
-    "from": ["mongol_empire"],
-    "to": ["russia_soviet"],
-    "year": 1368,
-    "type": "cultural_continuity",
-    "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
-    "sourceIds": ["cambridge_histories", "british_library"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."
-  },
-  {
-    "id": "v1_mongol_empire_safavid_iran",
-    "from": ["mongol_empire"],
-    "to": ["safavid_iran"],
-    "year": 1368,
-    "type": "cultural_continuity",
-    "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
-    "sourceIds": ["isac", "louvre"],
     "confidence": "debated",
     "verification": "unverified",
     "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."

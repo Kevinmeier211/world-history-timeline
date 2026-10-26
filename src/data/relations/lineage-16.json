@@ -1,5 +1,29 @@
 [
   {
+    "id": "v1_spain_portugal_new_spain_mexico",
+    "from": ["spain_portugal"],
+    "to": ["new_spain_mexico"],
+    "year": 1521,
+    "type": "cultural_continuity",
+    "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
+    "sourceIds": ["inah", "field_museum"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."
+  },
+  {
+    "id": "v1_spain_portugal_viceroyalty_peru",
+    "from": ["spain_portugal"],
+    "to": ["viceroyalty_peru"],
+    "year": 1533,
+    "type": "cultural_continuity",
+    "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
+    "sourceIds": ["museo_larco", "field_museum"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."
+  },
+  {
     "id": "v1_sumer_akkad_babylon_assyria",
     "from": ["sumer_akkad"],
     "to": ["babylon_assyria"],

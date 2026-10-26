@@ -48,6 +48,18 @@
     "evidence": "Appendix B ends the Mughal line at 1857 and does not name the interval. Pages were not opened."
   },
   {
+    "id": "bridge_songhai_empire_saadi_morocco",
+    "from": ["songhai_empire"],
+    "to": ["saadi_morocco"],
+    "year": 1591,
+    "type": "succession",
+    "note": "Appendix B ends Songhai in 1591 and does not date Morocco. 1591 is the widely cited year a Saadi army took the Niger bend. Pages were not opened.",
+    "sourceIds": ["unesco_gha", "british_library"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Appendix B ends Songhai in 1591 and does not date Morocco. 1591 is the widely cited year a Saadi army took the Niger bend. Pages were not opened."
+  },
+  {
     "id": "disputed_akkadian_empire",
     "from": ["early_dynastic_mesopotamia", "sumerian_city_states"],
     "to": ["akkadian_empire"],
@@ -127,18 +139,6 @@
     "type": "disputed",
     "note": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened.",
     "sourceIds": ["louvre", "cambridge_histories"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened."
-  },
-  {
-    "id": "disputed_han_dynasty",
-    "from": ["warring_states", "zhou_dynasty"],
-    "to": ["han_dynasty"],
-    "year": -221,
-    "type": "disputed",
-    "note": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened.",
-    "sourceIds": ["chgis", "cambridge_histories"],
     "confidence": "debated",
     "verification": "unverified",
     "evidence": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened."

@@ -52,7 +52,7 @@ export interface ChecklistBridge {
   note: string;
 }
 
-/** Cross-family sequence already written in a checklist date note. */
+/** A year already inside both lifetimes that abutment does not emit. */
 export const CHECKLIST_BRIDGES: readonly ChecklistBridge[] = [
   {
     id: 'bridge_mughal_india_1857',
@@ -60,6 +60,13 @@ export const CHECKLIST_BRIDGES: readonly ChecklistBridge[] = [
     to: 'india_1857',
     year: 1857,
     note: 'Appendix B ends the Mughal line at 1857 and does not name the interval. Pages were not opened.',
+  },
+  {
+    id: 'bridge_songhai_empire_saadi_morocco',
+    from: 'songhai_empire',
+    to: 'saadi_morocco',
+    year: 1591,
+    note: 'Appendix B ends Songhai in 1591 and does not date Morocco. 1591 is the widely cited year a Saadi army took the Niger bend. Pages were not opened.',
   },
 ];
 

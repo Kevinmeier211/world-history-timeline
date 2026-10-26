@@ -941,3 +941,13 @@ Alternatives: Leave every row at importance 2 and weight 0.35. Raise the spine t
 Why: Width and importance should show the states a reader looks for, and the two clusters are not one empire. Importance 4 still waits on an opened page. The runtime miss is the larger roster, not a new solver.
 
 Reversible? y
+
+## 2026-10-26 — Sweden, Denmark–Norway, and Saadi Morocco are dated beside the checklist
+
+Decision: `sweden_1523` runs 1523–1800 at weight 0.35 and `denmark_norway` runs 1523–1814 at weight 0.22. Both are debated and unverified. 1523 is the checklist end of the Kalmar Union, so the generated edge is an even split, not a handoff to Sweden alone. The share stays even. The narrower union keeps the Thirteen Colonies label off the Peru label. 1721 and 1536 stay endpoint notes. 1814 is the widely cited Treaty of Kiel. The modern Denmark, Sweden, and Norway rows still start in 1800. Their date notes now say the checklist gives no single year, so they are not successors of `sweden_1523`. `saadi_morocco` runs 1549–1659 in the sub-Saharan family. A bridge at 1591 links Songhai’s checklist end to that row. Pages were not opened.
+
+Alternatives: Leave Sweden on the 1800 placeholder only. Make Sweden the only successor of the Kalmar Union. End Saadi Morocco in 1591 or invent one end for the Timbuktu pashalik.
+
+Why: T6.02 names Sweden and Songhai→Moroccan. Appendix B dates the Kalmar end and the Songhai end, and it does not date these three rows. A Sweden-only handoff would hide Denmark and Norway. A pashalik end is not one year this pass will freeze.
+
+Reversible? y

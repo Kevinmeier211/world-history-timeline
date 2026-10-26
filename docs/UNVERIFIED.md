@@ -8,8 +8,8 @@ A row is unverified when `verification` is `unverified`, or when a tour stop omi
 
 | kind | unverified | cross-checked | primary-checked | total |
 | --- | --- | --- | --- | --- |
-| polities | 433 | 0 | 0 | 433 |
-| relations | 186 | 0 | 0 | 186 |
+| polities | 436 | 0 | 0 | 436 |
+| relations | 188 | 0 | 0 | 188 |
 | callouts | 119 | 0 | 0 | 119 |
 | bands | 13 | 0 | 0 | 13 |
 | routes | 6 | 0 | 0 | 6 |
@@ -23,7 +23,7 @@ Counts are unverified / cross-checked / primary-checked.
 | kind | importance | unverified | cross-checked | primary-checked |
 | --- | --- | --- | --- | --- |
 | polities | 1 | 0 | 0 | 0 |
-| polities | 2 | 351 | 0 | 0 |
+| polities | 2 | 354 | 0 | 0 |
 | polities | 3 | 82 | 0 | 0 |
 | polities | 4 | 0 | 0 | 0 |
 | polities | 5 | 0 | 0 | 0 |
@@ -104,8 +104,8 @@ Unverified counts only.
 | 1_500ce | 67 | 5 | 17 | 0 | 3 | 2 |
 | 500_1000ce | 103 | 4 | 28 | 2 | 3 | 0 |
 | 1000_1500ce | 113 | 11 | 26 | 4 | 4 | 0 |
-| 1500_1800ce | 105 | 6 | 23 | 2 | 2 | 0 |
-| 1800_2000ce | 169 | 60 | 42 | 3 | 1 | 8 |
+| 1500_1800ce | 108 | 6 | 25 | 2 | 2 | 0 |
+| 1800_2000ce | 171 | 60 | 42 | 3 | 1 | 8 |
 
 ## By family
 
@@ -118,14 +118,14 @@ Unverified callouts with no family: 0.
 | andean | 25 | 3 |
 | mesoamerican | 21 | 7 |
 | north_american | 14 | 6 |
-| sub_saharan | 35 | 7 |
+| sub_saharan | 36 | 7 |
 | nile_egyptian | 20 | 4 |
 | mesopotamian | 20 | 5 |
 | persian_iranian | 17 | 3 |
 | levantine_semitic | 15 | 2 |
 | greek_byzantine | 20 | 9 |
 | latin_west | 51 | 12 |
-| celtic_germanic_norse | 15 | 4 |
+| celtic_germanic_norse | 17 | 4 |
 | slavic_steppe | 23 | 10 |
 | islamic_arab | 14 | 5 |
 | turkic_mongol | 16 | 3 |

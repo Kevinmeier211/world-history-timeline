@@ -1,5 +1,29 @@
 [
   {
+    "id": "v1_mongol_empire_russia_soviet",
+    "from": ["mongol_empire"],
+    "to": ["russia_soviet"],
+    "year": 1368,
+    "type": "cultural_continuity",
+    "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."
+  },
+  {
+    "id": "v1_mongol_empire_safavid_iran",
+    "from": ["mongol_empire"],
+    "to": ["safavid_iran"],
+    "year": 1368,
+    "type": "cultural_continuity",
+    "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
+    "sourceIds": ["isac", "louvre"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."
+  },
+  {
     "id": "v1_nazca_moche_wari_tiwanaku",
     "from": ["nazca_moche"],
     "to": ["wari_tiwanaku"],
@@ -115,30 +139,6 @@
     "type": "cultural_continuity",
     "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
     "sourceIds": ["british_library", "cambridge_histories"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."
-  },
-  {
-    "id": "v1_spain_portugal_new_spain_mexico",
-    "from": ["spain_portugal"],
-    "to": ["new_spain_mexico"],
-    "year": 1521,
-    "type": "cultural_continuity",
-    "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
-    "sourceIds": ["inah", "field_museum"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."
-  },
-  {
-    "id": "v1_spain_portugal_viceroyalty_peru",
-    "from": ["spain_portugal"],
-    "to": ["viceroyalty_peru"],
-    "year": 1533,
-    "type": "cultural_continuity",
-    "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
-    "sourceIds": ["museo_larco", "field_museum"],
     "confidence": "debated",
     "verification": "unverified",
     "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."

@@ -37,6 +37,9 @@ const EARLY_MODERN = [
   'dzungar',
   'golden_horde_turkic',
   'timurid',
+  'sweden_1523',
+  'denmark_norway',
+  'saadi_morocco',
 ] as const;
 
 interface Row {
@@ -74,6 +77,9 @@ describe('1500–1800 skeleton prose', () => {
       expect(row?.summary, id).toMatch(/Appendix B/);
       expect(row?.verification, id).toBe('unverified');
       expect(row?.evidence, id).toContain('not opened');
+      if (id === 'sweden_1523' || id === 'denmark_norway' || id === 'saadi_morocco') {
+        expect(['approximate', 'debated'], id).toContain(row?.confidence);
+      }
       expect(row?.dateNote ?? '', id).not.toContain('gives no single year');
     }
   });

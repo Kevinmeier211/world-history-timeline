@@ -1,5 +1,17 @@
 [
   {
+    "id": "disputed_han_dynasty",
+    "from": ["warring_states", "zhou_dynasty"],
+    "to": ["han_dynasty"],
+    "year": -221,
+    "type": "disputed",
+    "note": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened.",
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened."
+  },
+  {
     "id": "disputed_hellenistic_kingdoms",
     "from": ["athens", "classical_period", "sparta", "thebes"],
     "to": ["hellenistic_kingdoms"],
@@ -130,18 +142,5 @@
     "confidence": "debated",
     "verification": "unverified",
     "evidence": "Checklist date for the union of the crowns, 1469. Pages were not opened."
-  },
-  {
-    "id": "split_archaic_greece_athens_classical_period_sparta_thebes",
-    "from": ["archaic_greece"],
-    "to": ["athens", "classical_period", "sparta", "thebes"],
-    "year": -480,
-    "type": "split",
-    "share": [0.25, 0.25, 0.25, 0.25],
-    "note": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened.",
-    "sourceIds": ["louvre", "cambridge_histories"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened."
   }
 ]

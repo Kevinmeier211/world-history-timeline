@@ -37,7 +37,7 @@
   },
   {
     "id": "sokoto",
-    "reason": "gemini-v1 names no parent; nearest same-family end is mali_empire at a gap of 204 continuous years, outside a shared-boundary handoff."
+    "reason": "gemini-v1 names no parent; nearest same-family end is saadi_morocco at a gap of 145 continuous years, outside a shared-boundary handoff."
   },
   {
     "id": "songhai_empire",
@@ -77,7 +77,7 @@
   },
   {
     "id": "sweden",
-    "reason": "gemini-v1 names no parent; nearest same-family end is kingdom_of_england at a gap of 93 continuous years, outside a shared-boundary handoff."
+    "reason": "Appendix B gives no single year for this start, so this row is not a shared-boundary handoff. Pages were not opened."
   },
   {
     "id": "switzerland",

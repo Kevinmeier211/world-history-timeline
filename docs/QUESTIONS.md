@@ -36,6 +36,8 @@ Affects tasks: T1.11–T1.27.
 
 T6.01 later added states Appendix B does not date, because that pass names them and the checklist is not a ceiling. The rows are Haiti, Cuba, the Empire of Brazil and the republic, Poland after 1795, Yugoslavia, Czechoslovakia, Turkey after 1922, a Gulf cluster, Afghanistan, the Central Asian republics, Sri Lanka, Nepal, Taiwan, Mongolia, Laos, Cambodia, Malaysia, and Burma after the Konbaung. Years are widely cited, `confidence` is approximate or debated, and `verification` is unverified. Pages were not opened. Mixtec, Thule, and the other undated names in the list above stay omitted.
 
+T6.02 adds three more undated spans the pass names: Sweden 1523–1800, Denmark–Norway 1523–1814, and Saadi Morocco 1549–1659. The modern Scandinavian rows stay 1800–2000 placeholders. Pages were not opened.
+
 ## Q-05 — The Latin West checklist is shorter than the family minimum
 
 Why it matters: T1.19 requires at least 45 `latin_west` polities. Appendix B's dated Latin West lines, plus the six migrated bundles, do not reach 45. Inventing foundation years for Aragon, Castile, or Habsburg Austria would be a new claim.
