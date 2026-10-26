@@ -10,7 +10,7 @@ A row is unverified when `verification` is `unverified`, or when a tour stop omi
 | --- | --- | --- | --- | --- |
 | polities | 408 | 0 | 0 | 408 |
 | relations | 181 | 0 | 0 | 181 |
-| callouts | 58 | 0 | 0 | 58 |
+| callouts | 94 | 0 | 0 | 94 |
 | bands | 12 | 0 | 0 | 12 |
 | routes | 6 | 0 | 0 | 6 |
 | tour stops | 11 | 0 | 0 | 11 |
@@ -28,7 +28,7 @@ Counts are unverified / cross-checked / primary-checked.
 | polities | 4 | 0 | 0 | 0 |
 | polities | 5 | 0 | 0 | 0 |
 | callouts | 1 | 0 | 0 | 0 |
-| callouts | 2 | 0 | 0 | 0 |
+| callouts | 2 | 36 | 0 | 0 |
 | callouts | 3 | 18 | 0 | 0 |
 | callouts | 4 | 40 | 0 | 0 |
 | callouts | 5 | 0 | 0 | 0 |
@@ -104,8 +104,8 @@ Unverified counts only.
 | 1_500ce | 67 | 5 | 17 | 0 | 3 | 2 |
 | 500_1000ce | 103 | 4 | 28 | 2 | 3 | 0 |
 | 1000_1500ce | 113 | 11 | 26 | 4 | 4 | 0 |
-| 1500_1800ce | 103 | 3 | 23 | 2 | 2 | 0 |
-| 1800_2000ce | 144 | 2 | 37 | 2 | 1 | 0 |
+| 1500_1800ce | 103 | 4 | 23 | 2 | 2 | 0 |
+| 1800_2000ce | 144 | 37 | 37 | 2 | 1 | 0 |
 
 ## By family
 
@@ -116,22 +116,22 @@ Unverified callouts with no family: 0.
 | family | unverified polities | unverified callouts |
 | --- | --- | --- |
 | andean | 23 | 1 |
-| mesoamerican | 19 | 3 |
-| north_american | 14 | 5 |
-| sub_saharan | 35 | 4 |
-| nile_egyptian | 20 | 3 |
+| mesoamerican | 19 | 5 |
+| north_american | 14 | 6 |
+| sub_saharan | 35 | 7 |
+| nile_egyptian | 20 | 4 |
 | mesopotamian | 20 | 5 |
-| persian_iranian | 16 | 1 |
-| levantine_semitic | 15 | 1 |
-| greek_byzantine | 20 | 8 |
-| latin_west | 51 | 3 |
-| celtic_germanic_norse | 15 | 3 |
-| slavic_steppe | 15 | 0 |
-| islamic_arab | 12 | 1 |
+| persian_iranian | 16 | 2 |
+| levantine_semitic | 15 | 2 |
+| greek_byzantine | 20 | 9 |
+| latin_west | 51 | 12 |
+| celtic_germanic_norse | 15 | 4 |
+| slavic_steppe | 15 | 2 |
+| islamic_arab | 12 | 3 |
 | turkic_mongol | 14 | 1 |
-| indian | 28 | 6 |
-| chinese | 35 | 9 |
-| korean_japanese | 28 | 3 |
-| southeast_oceanian | 28 | 1 |
+| indian | 28 | 9 |
+| chinese | 35 | 11 |
+| korean_japanese | 28 | 6 |
+| southeast_oceanian | 28 | 5 |
 
 Notes, presets, media, and sources have no `verification` field, so they are not counted.

@@ -153,7 +153,12 @@ describe('migrated annotation files', () => {
       tours: unknown[];
       presets: unknown[];
     };
-    expect(data.callouts).toHaveLength(58);
+    const callouts = data.callouts as { evidence?: string }[];
+    expect(
+      callouts.filter((callout) =>
+        callout.evidence?.includes('Migrated from gemini-v1'),
+      ),
+    ).toHaveLength(58);
     const migrated = JSON.parse(
       readFileSync('src/data/bands/migrated-01.json', 'utf8'),
     ) as unknown[];

@@ -149,6 +149,6 @@ Partials: item 1, overview labels about 2px (`docs/shots/p3/desktop-overview.png
 
 ## P6
 
-| Task  | Status | Commit  | Evidence                                                                                                                          | Minutes | Notes                                                                                                                                                                    |
-| ----- | ------ | ------- | --------------------------------------------------------------------------------------------------------------------------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| T6.01 | doing  | b9dc3d9 | fan-out prose on every existing 1800–2000 checklist row; lineage test: no Río de la Plata split, even split shares, Mughal bridge | 90      | Prose is b9dc3d9. The 1810 cluster is not a handoff. Split shares are even layout flow. The Mughal interval is linked at 1857. Pages were not opened. Callouts are next. |
+| Task  | Status | Commit  | Evidence                                                                                     | Minutes | Notes                                                                                                                    |
+| ----- | ------ | ------- | -------------------------------------------------------------------------------------------- | ------- | ------------------------------------------------------------------------------------------------------------------------ |
+| T6.01 | doing  | 8ce465a | fan-out callout test: 36 blurbs ≤ 14 words, unverified, no mediaId, year on the attached row | 100     | Relations are 8ce465a. Callouts restate checklist years already on the row. Pages were not opened. No image is attached. |
