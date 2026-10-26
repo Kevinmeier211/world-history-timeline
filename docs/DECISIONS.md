@@ -1161,3 +1161,13 @@ Alternatives: Add new cards inside 3300–1800 BCE. Demote the importance 4 rows
 Why: The floor is 100. Years after 1500 BCE sit below the ancient frame, which runs from about 3300 BCE to about 1800 BCE.
 
 Reversible? y
+
+## 2026-10-26 — Print is a query on the same poster
+
+Decision: `?print=1` renders the chart at a fixed physical size and leaves off the top bar, search, zoom, skip links, and title actions. The default sheet is 24 by 36 inches. `size=letter` is 8.5 by 11. `size=tabloid` is 11 by 17. An unknown size stays on the poster. The chart fits inside a 0.5 in margin, under a 1.2 in title band. Print type uses the 24×36 floor. On that sheet, 10 design px is already at least 6 pt, so the boost stays 1 and the layout sizes stay. Letter and tabloid keep that same type, reduced to the sheet. Era, axis, band, and milestone labels follow `--sheet-boost`. Milestone labels stay at the axis size, above the 5 pt tertiary floor. The screen label floor, the layout solver, and the 150 ms gate stay as they are. `v2/main` is the P6 merge `533cafd`, tagged `v2-p6-done`.
+
+Alternatives: Shrink the screen floor to 6 pt. Raise letter and tabloid type until 10 px equals 6 pt on those sheets. Add a second router. Export the PDF in this same task.
+
+Why: §4.5 sets the print floor at 24×36, and the screen floor already clears it there. Raising type to 6 pt on letter covered the ribbons. Bleed and the PDF script stay on later tasks.
+
+Reversible? y

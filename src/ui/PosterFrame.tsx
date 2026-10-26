@@ -15,6 +15,7 @@ export function PosterFrame({
   onStories,
   eraOpen = false,
   onEra,
+  chrome = true,
 }: {
   lens: LensId;
   children?: ReactNode;
@@ -28,6 +29,8 @@ export function PosterFrame({
   onStories?: () => void;
   eraOpen?: boolean;
   onEra?: () => void;
+  /** Title actions are screen chrome. Print leaves them off. */
+  chrome?: boolean;
 }) {
   const bodyStyle: CSSProperties = {};
   if (sheetHeight && sheetHeight > 0) bodyStyle.height = sheetHeight;
@@ -38,53 +41,55 @@ export function PosterFrame({
         <p className="title-kicker">{POSTER_KICKER}</p>
         <h1>{POSTER_TITLE}</h1>
         <p className="title-span">{posterSpan()}</p>
-        <div className="title-actions">
-          <button
-            type="button"
-            className="reading-open"
-            aria-expanded={readingOpen}
-            aria-controls="reading-key"
-            onClick={onReading}
-          >
-            How to read this
-          </button>
-          {onColumns ? (
+        {chrome ? (
+          <div className="title-actions">
             <button
               type="button"
               className="reading-open"
-              aria-expanded={columnsOpen}
-              aria-controls="columns-panel"
-              onClick={onColumns}
+              aria-expanded={readingOpen}
+              aria-controls="reading-key"
+              onClick={onReading}
             >
-              Columns
+              How to read this
             </button>
-          ) : null}
-          {onStories ? (
-            <button
-              type="button"
-              className="reading-open"
-              aria-expanded={storiesOpen}
-              aria-controls="story-panel"
-              onClick={onStories}
-            >
-              Stories
-            </button>
-          ) : null}
-          {onEra ? (
-            <button
-              type="button"
-              className="reading-open"
-              aria-expanded={eraOpen}
-              aria-controls="era-panel"
-              onClick={onEra}
-            >
-              Era reading
-            </button>
-          ) : null}
-          <a className="reading-open" href="#/credits">
-            Credits
-          </a>
-        </div>
+            {onColumns ? (
+              <button
+                type="button"
+                className="reading-open"
+                aria-expanded={columnsOpen}
+                aria-controls="columns-panel"
+                onClick={onColumns}
+              >
+                Columns
+              </button>
+            ) : null}
+            {onStories ? (
+              <button
+                type="button"
+                className="reading-open"
+                aria-expanded={storiesOpen}
+                aria-controls="story-panel"
+                onClick={onStories}
+              >
+                Stories
+              </button>
+            ) : null}
+            {onEra ? (
+              <button
+                type="button"
+                className="reading-open"
+                aria-expanded={eraOpen}
+                aria-controls="era-panel"
+                onClick={onEra}
+              >
+                Era reading
+              </button>
+            ) : null}
+            <a className="reading-open" href="#/credits">
+              Credits
+            </a>
+          </div>
+        ) : null}
       </header>
       <div className="poster-scroll">
         <div

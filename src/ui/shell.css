@@ -704,3 +704,35 @@
   font-family: var(--font-body);
   font-size: 13px;
 }
+
+.poster-print {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.poster-print-sheet {
+  box-sizing: border-box;
+  height: 100%;
+  overflow: hidden;
+  background: var(--paper);
+}
+
+.poster-print .poster-frame {
+  flex: none;
+  min-height: auto;
+  margin: 0;
+}
+
+.poster-print .poster-scroll {
+  flex: none;
+  min-height: auto;
+  overflow: visible;
+}
+
+.poster-print .poster-body {
+  min-height: auto;
+}
+
+.poster-print .stage {
+  margin: 0 auto;
+}

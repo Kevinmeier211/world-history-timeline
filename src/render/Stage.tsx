@@ -38,6 +38,7 @@ export function Stage({
   onClear,
   lens = 'all',
   milestones = [],
+  print,
 }: {
   camera: Camera;
   viewport: Size;
@@ -55,6 +56,8 @@ export function Stage({
   onClear?: () => void;
   lens?: LensId;
   milestones?: readonly Milestone[];
+  /** Fixed paper size. Boost raises type to the print floor and leaves the screen scale alone. */
+  print?: { boost: number; widthIn: number; heightIn: number };
 }) {
   const windows: YSpan[] = [
     ...spans,
@@ -78,26 +81,35 @@ export function Stage({
   const shownIds = new Set(shown.map((span) => span.id));
   const extraIds = new Set(spans.map((span) => span.id));
   const drawnRibbons = ribbons.filter((ribbon) => shownIds.has(ribbon.id));
+  const typeBoost = print?.boost ?? 1;
   const drawnLabels = labelsAtScale(
     labels.filter((label) => shownIds.has(label.polityId)),
-    scale,
+    typeBoost > 1 ? 1 / typeBoost : scale,
     selectedId,
   );
   const drawnConnectors = connectors.filter((connector) => shownIds.has(connector.id));
   const drawnBands = bands.filter((band) => shownIds.has(band.id));
   const drawnCallouts =
-    sheetBoost(scale) >= 2
-      ? []
-      : callouts.filter((callout) => shownIds.has(callout.id));
+    print || sheetBoost(scale) < 2
+      ? callouts.filter((callout) => shownIds.has(callout.id))
+      : [];
+  const style = {
+    '--sheet-boost': String(typeBoost > 1 ? typeBoost : sheetBoost(scale)),
+  } as CSSProperties;
+  if (print) {
+    style.width = `${print.widthIn}in`;
+    style.height = `${print.heightIn}in`;
+  }
   return (
     <svg
-      className="stage"
+      className={print ? 'stage stage-print' : 'stage'}
       viewBox={`${world.x} ${world.y} ${world.width} ${world.height}`}
-      width={world.width * scale}
-      height={world.height * scale}
+      width={print ? undefined : world.width * scale}
+      height={print ? undefined : world.height * scale}
       role="group"
       aria-label="States and peoples chart"
-      style={{ '--sheet-boost': String(sheetBoost(scale)) } as CSSProperties}
+      data-print-boost={print ? String(typeBoost) : undefined}
+      style={style}
     >
       <rect
         className="stage-sheet"

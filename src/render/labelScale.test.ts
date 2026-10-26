@@ -95,4 +95,25 @@ describe('overview label scale', () => {
     expect(texts.map((node) => node.textContent)).toEqual(['high']);
     expect(texts[0]?.getAttribute('font-size')).toBe('50');
   });
+
+  it('uses the print boost for type and the sheet size in inches', () => {
+    const { container } = render(
+      createElement(Stage, {
+        camera: cameraFromScroll(0, 0, 1),
+        viewport: { width: 1500, height: 4000 },
+        scale: 1,
+        world: posterWorld(),
+        ribbons: [ribbon('high', 100, 200)],
+        labels: [paint('high', 100, 3)],
+        print: { boost: 2, widthIn: 4, heightIn: 8 },
+      }),
+    );
+    const svg = container.querySelector('svg');
+    expect(svg?.style.width).toBe('4in');
+    expect(svg?.style.height).toBe('8in');
+    expect(svg?.style.getPropertyValue('--sheet-boost')).toBe('2');
+    expect(container.querySelector('.ribbon-label')?.getAttribute('font-size')).toBe(
+      '20',
+    );
+  });
 });
