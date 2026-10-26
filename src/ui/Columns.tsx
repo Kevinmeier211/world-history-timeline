@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 
 import { columnChoices } from '../layout/columns.ts';
 import type { CompareSet } from '../state/compares.ts';
+import { useRestoreFocus } from './restoreFocus.ts';
 
 export function Columns({
   open,
@@ -28,6 +29,7 @@ export function Columns({
   onSave: (name: string) => void;
   onClose: () => void;
 }) {
+  const panel = useRestoreFocus<HTMLDivElement>(open);
   useEffect(() => {
     if (!open) return;
     const onKey = (event: KeyboardEvent) => {
@@ -43,7 +45,13 @@ export function Columns({
   const regions = rows.filter((row) => row.kind === 'region');
   const families = rows.filter((row) => row.kind === 'family');
   return (
-    <div className="columns-pop" id="columns-panel" role="region" aria-label="Columns">
+    <div
+      className="columns-pop"
+      id="columns-panel"
+      role="region"
+      aria-label="Columns"
+      ref={panel}
+    >
       <div className="legend-head">
         <h2>Columns</h2>
         <button type="button" onClick={onClose}>

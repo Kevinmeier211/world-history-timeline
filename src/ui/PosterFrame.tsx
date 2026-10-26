@@ -73,7 +73,13 @@ export function PosterFrame({
           className="poster-body"
           style={Object.keys(bodyStyle).length > 0 ? bodyStyle : undefined}
         >
-          <div className="chart-well" role="region" aria-label="Chart">
+          <div
+            className="chart-well"
+            id="chart"
+            role="region"
+            aria-label="Chart"
+            tabIndex={-1}
+          >
             {children}
           </div>
         </div>

@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 
 import type { DossierModel } from './dossier.ts';
+import { useRestoreFocus } from './restoreFocus.ts';
 import { loadWikiExtract } from './wiki.ts';
 
 function WikiBlurb({ title }: { title: string }) {
@@ -51,6 +52,7 @@ export function Dossier({
   model: DossierModel;
   onClose: () => void;
 }) {
+  const panel = useRestoreFocus<HTMLElement>(true);
   useEffect(() => {
     const onKey = (event: KeyboardEvent) => {
       if (event.key === 'Escape') onClose();
@@ -60,7 +62,13 @@ export function Dossier({
   }, [onClose]);
 
   return (
-    <aside className="dossier" role="dialog" aria-label="Dossier" aria-modal="false">
+    <aside
+      className="dossier"
+      role="dialog"
+      aria-label="Dossier"
+      aria-modal="false"
+      ref={panel}
+    >
       <div className="dossier-head">
         <h2>{model.name}</h2>
         <button type="button" onClick={onClose}>

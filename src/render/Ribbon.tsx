@@ -35,6 +35,8 @@ function RibbonView({
     <g
       className={className.join(' ')}
       data-polity={ribbon.id}
+      data-y={ribbon.y0}
+      data-x={ribbon.x}
       data-selected={selected ? 'true' : undefined}
       opacity={ribbon.opacity}
     >

@@ -207,10 +207,16 @@ export function PosterApp() {
 
   useEffect(() => {
     if (!searchOpen) return;
+    const previous = document.activeElement;
     const field = document.getElementById('poster-search');
-    if (!(field instanceof HTMLInputElement)) return;
-    field.focus();
-    field.select();
+    if (field instanceof HTMLInputElement) {
+      field.focus();
+      field.select();
+    }
+    return () => {
+      if (previous instanceof HTMLElement && document.contains(previous))
+        previous.focus();
+    };
   }, [searchOpen]);
 
   useEffect(() => {
@@ -256,6 +262,23 @@ export function PosterApp() {
 
   return (
     <div className="poster-app">
+      <button
+        type="button"
+        className="skip-link"
+        onClick={() => document.getElementById('chart')?.focus()}
+      >
+        Skip to chart
+      </button>
+      <button
+        type="button"
+        className="skip-link"
+        onClick={() => {
+          const field = document.getElementById('poster-search');
+          if (field instanceof HTMLInputElement) field.focus();
+        }}
+      >
+        Skip to search
+      </button>
       <TopBar
         query={query}
         onQuery={(value) => {

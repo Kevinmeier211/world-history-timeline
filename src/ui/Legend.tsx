@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 
 import families from '../data/families.json';
 import { READING_KEY } from './reading.ts';
+import { useRestoreFocus } from './restoreFocus.ts';
 
 export interface LegendFamily {
   id: string;
@@ -24,6 +25,7 @@ export function Legend({
   families: readonly LegendFamily[];
   onClose: () => void;
 }) {
+  const panel = useRestoreFocus<HTMLDivElement>(true);
   useEffect(() => {
     const onKey = (event: KeyboardEvent) => {
       if (event.key === 'Escape') onClose();
@@ -43,6 +45,7 @@ export function Legend({
       <div
         className="legend-pop"
         id="reading-key"
+        ref={panel}
         role="dialog"
         aria-modal="true"
         aria-labelledby="reading-title"

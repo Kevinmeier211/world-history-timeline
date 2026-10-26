@@ -3,6 +3,7 @@ import type { PointerEvent } from 'react';
 import { useFocus } from '../state/focus.ts';
 import { ribbonDimmed } from '../state/focusTip.ts';
 import { Ribbon } from './Ribbon.tsx';
+import { tabOrder } from './tabOrder.ts';
 import { RibbonLabel } from './RibbonLabel.tsx';
 import type { LabelPaint, RibbonPaint } from './ribbonInk.ts';
 
@@ -50,7 +51,7 @@ export function Ribbons({
           </g>
         ))}
       </defs>
-      {ribbons.map((ribbon) => (
+      {tabOrder(ribbons).map((ribbon) => (
         <Ribbon
           key={ribbon.id}
           ribbon={ribbon}

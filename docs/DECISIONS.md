@@ -621,3 +621,13 @@ Alternatives: Render all 400 rows at once. Give the table its own family list ap
 Why: T5.12 asks for a virtualized, sortable, filtered table with ARIA table semantics, using the same roster as the chart.
 
 Reversible? y
+
+## 2026-10-26 — Tab order follows the poster, and panels return focus
+
+Decision: Ribbons are focused from top to bottom, and left to right when they start on the same line. Two skip controls sit first: one focuses the chart, the other focuses search. They do not write the address hash. Opening search, the dossier, the reading key, the columns panel, or a story moves focus to the first control inside it. Closing returns focus to whatever had it. A focus ring uses the focus token, 2px with a 2px offset. Under reduced motion, transitions and animations on the poster drop to zero duration. The ribbon fade already did this; the rule now covers the rest of the shell.
+
+Alternatives: Give every ribbon a positive tabindex. Leave focus on the control that opened a panel. Keep the 200ms fade when reduced motion is requested.
+
+Why: T5.13 asks for tab order by time then x, focus management, skip links, and reduced motion everywhere.
+
+Reversible? y

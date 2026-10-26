@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 
+import { useRestoreFocus } from './restoreFocus.ts';
 import type { StorySource } from './story.ts';
 
 export interface StoryCard {
@@ -30,6 +31,7 @@ export function Story({
   onList: () => void;
   onClose: () => void;
 }) {
+  const panel = useRestoreFocus<HTMLDivElement>(open);
   useEffect(() => {
     if (!open) return;
     const onKey = (event: KeyboardEvent) => {
@@ -46,6 +48,7 @@ export function Story({
       id="story-panel"
       role="region"
       aria-label="Stories"
+      ref={panel}
     >
       <div className="legend-head">
         <h2>Stories</h2>

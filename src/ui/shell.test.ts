@@ -47,6 +47,16 @@ describe('poster shell', () => {
     expect(
       screen.getByRole('heading', { name: 'States and peoples' }),
     ).toBeInTheDocument();
+    const skip = screen.getByRole('button', { name: 'Skip to chart' });
+    skip.focus();
+    await user.click(skip);
+    expect(document.getElementById('chart')).toHaveFocus();
+    const years = [...document.querySelectorAll('.ribbon')].map((node) =>
+      Number(node.getAttribute('data-y')),
+    );
+    expect(years.length).toBeGreaterThan(1);
+    const ordered = [...years].sort((left, right) => left - right);
+    expect(years).toEqual(ordered);
     expect(screen.queryByRole('dialog')).toBeNull();
     expect(screen.queryByRole('button', { name: 'Lock year' })).toBeNull();
     expect(screen.queryByRole('button', { name: 'Play' })).toBeNull();

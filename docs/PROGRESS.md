@@ -99,7 +99,8 @@
 | T5.09 | done | 1c0e43a | column tests hide a folded family, keep a pinned family inside a folded region, and lerp a keyframe halfway in 300 ms | 35 | Reduced motion jumps. The columns panel is not a dialog. See DECISIONS. |
 | T5.10 | done | 481bb78 | preset tests apply the five migrated rows and cap saved compares at 8; shell test restores `My Americas` from localStorage | 25 | All regions clears the pin. A preset year of 0 is dropped. See DECISIONS. |
 | T5.11 | done | b8c8239 | story tests keep 3 tours at ≤ 70 words; a stop sets year, scale, lens, and highlight; Fit width clears `z` | 35 | Art maps to the ideas lens. Politics and technology stay on All. See DECISIONS. |
-| T5.12 | done | (this commit) | table tests sort years across the missing year 0, follow fold and pin, and window rows; a row opens the dossier | 35 | Callouts stay with the polity they attach to. See DECISIONS. |
+| T5.12 | done | e41dea0 | table tests sort years across the missing year 0, follow fold and pin, and window rows; a row opens the dossier | 35 | Callouts stay with the polity they attach to. See DECISIONS. |
+| T5.13 | done | (this commit) | tab-order test reads y then x; shell test focuses the chart from Skip to chart and keeps ribbon y sorted | 25 | Panels take focus and hand it back. Reduced motion clears transition time. See DECISIONS. |
 
 ## Blocked
 

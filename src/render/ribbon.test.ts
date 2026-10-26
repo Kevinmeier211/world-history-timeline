@@ -24,6 +24,7 @@ const ribbon: RibbonPaint = {
   ariaLabel: 'Roman Empire, 27 BCE – 476 CE, Latin West',
   y0: 80,
   y1: 200,
+  x: 12,
   fadePx: 24,
   dashPath: 'M10 80 L10 104',
   dashArray: '1.5 2.5',

@@ -24,6 +24,8 @@ export interface RibbonPaint {
   ariaLabel: string;
   y0: number;
   y1: number;
+  /** Design x at the top of the ribbon. Tab order uses it after y. */
+  x: number;
   fadePx: number;
   dashPath: string;
   dashArray: string;
@@ -129,6 +131,9 @@ function paintOne(
     years,
   );
   const ys = ribbon.keyframes.map((point) => point.y);
+  const top = ribbon.keyframes.reduce((best, point) =>
+    point.y < best.y ? point : best,
+  );
   return {
     id: ribbon.polityId,
     familyId: ribbon.familyId,
@@ -148,6 +153,7 @@ function paintOne(
     ),
     y0: Math.min(...ys),
     y1: Math.max(...ys),
+    x: top.x,
     fadePx: cap.fadePx,
     dashPath: cap.dashPath,
     dashArray: cap.dashArray,
