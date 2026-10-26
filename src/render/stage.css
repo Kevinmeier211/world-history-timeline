@@ -120,3 +120,32 @@
   stroke: var(--ink);
   stroke-width: 0.75;
 }
+
+.cross-bands {
+  pointer-events: none;
+}
+
+.band-wash {
+  fill: var(--ink);
+  opacity: 0.06;
+}
+
+.band-hatch {
+  opacity: 0.4;
+}
+
+.band-hatch-line {
+  stroke: var(--ink);
+  stroke-width: 0.6;
+}
+
+.band-dot {
+  fill: var(--ink);
+}
+
+.band-label {
+  fill: var(--ink);
+  font-family: var(--font-label);
+  font-size: 11px;
+  font-weight: 700;
+}

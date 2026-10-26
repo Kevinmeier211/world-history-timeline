@@ -1,4 +1,5 @@
 import { bundledGeography } from '../data/catalog.ts';
+import { bandPaints, type BandPaint } from './bandInk.ts';
 import { clientDataset, clientOverrides } from '../data/clientDataset.ts';
 import type { Dataset } from '../data/schema/index.ts';
 import type { Geography } from '../data/schema/geography.ts';
@@ -30,6 +31,7 @@ export interface PosterPaint {
   ribbons: RibbonPaint[];
   labels: LabelPaint[];
   connectors: ConnectorPaint[];
+  bands: BandPaint[];
   result: LayoutResult;
 }
 
@@ -39,12 +41,12 @@ let paintCache: PosterPaint | null = null;
 export function posterModel(): PosterPaint {
   if (paintCache) return paintCache;
   const dataset = clientDataset();
-  const result = layout(
-    posterLayoutInput(dataset, bundledGeography(), clientOverrides()),
-  );
+  const geography = bundledGeography();
+  const result = layout(posterLayoutInput(dataset, geography, clientOverrides()));
   paintCache = {
     ...posterPaint(dataset, result),
     connectors: connectorPaints(dataset, result.connectors),
+    bands: bandPaints(dataset, result.bands, geography),
     result,
   };
   return paintCache;

@@ -391,3 +391,13 @@ Alternatives: Stroke every flow. Color a connector by its target.
 Why: Section 4.4 asks for the same hue at 55% and a dash where the link is not a succession. The hatch is the non-color cue for conquest.
 
 Reversible? y
+
+## 2026-10-26 — Cross-cutting bands sit under the ribbons
+
+Decision: Epoch, climate, pandemic, collapse, golden-age, and war bands paint after the watermark and before the connectors. A global band spans the plot. A regional band spans the union of its geography zones. Climate is a horizontal hatch, pandemic a dot hatch, collapse and war opposing diagonals. Epoch and golden age are a 6% ink wash. The six poster eras stay in the gutter guides. The title sits in the right gutter, rotated when the band is at least 48 px tall.
+
+Alternatives: Paint the bands under the opaque era fills. Color each type with a new swatch.
+
+Why: Section 4.8 puts these bands above the grid and below the connectors. A new swatch would leave the token set. The gutter keeps the title off the ribbons.
+
+Reversible? y

@@ -1,8 +1,10 @@
 import type { Camera, Size, WorldBox } from '../camera/camera.ts';
+import { Bands } from './Bands.tsx';
 import { Connectors } from './Connectors.tsx';
 import { Guides } from './Guides.tsx';
 import { Ribbons } from './Ribbons.tsx';
 import { Watermark } from './Watermark.tsx';
+import type { BandPaint } from './bandInk.ts';
 import type { ConnectorPaint } from './connectorInk.ts';
 import type { LabelPaint, RibbonPaint } from './ribbonInk.ts';
 import { useVisibleSpans } from './useVisibleSpans.ts';
@@ -18,6 +20,7 @@ export function Stage({
   ribbons = [],
   labels = [],
   connectors = [],
+  bands = [],
   padScreens = VISIBLE_PAD,
   onSelect,
 }: {
@@ -29,6 +32,7 @@ export function Stage({
   ribbons?: readonly RibbonPaint[];
   labels?: readonly LabelPaint[];
   connectors?: readonly ConnectorPaint[];
+  bands?: readonly BandPaint[];
   padScreens?: number;
   onSelect?: (id: string) => void;
 }) {
@@ -40,6 +44,7 @@ export function Stage({
       y0: connector.y0,
       y1: connector.y1,
     })),
+    ...bands.map((band) => ({ id: band.id, y0: band.y, y1: band.y + band.height })),
   ];
   const shown = useVisibleSpans(camera, viewport, windows, padScreens);
   const shownIds = new Set(shown.map((span) => span.id));
@@ -47,6 +52,7 @@ export function Stage({
   const drawnRibbons = ribbons.filter((ribbon) => shownIds.has(ribbon.id));
   const drawnLabels = labels.filter((label) => shownIds.has(label.polityId));
   const drawnConnectors = connectors.filter((connector) => shownIds.has(connector.id));
+  const drawnBands = bands.filter((band) => shownIds.has(band.id));
   return (
     <svg
       className="stage"
@@ -65,6 +71,7 @@ export function Stage({
       />
       <Guides scale={scale} />
       <Watermark />
+      <Bands bands={drawnBands} />
       <Connectors connectors={drawnConnectors} />
       <Ribbons ribbons={drawnRibbons} labels={drawnLabels} onSelect={onSelect} />
       {shown
