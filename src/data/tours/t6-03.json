@@ -1,0 +1,96 @@
+[
+  {
+    "id": "tour_islamic",
+    "title": "Islamic Golden Age",
+    "subtitle": "The 750–1258 band and the caliphate rows",
+    "waypoints": [
+      {
+        "title": "Abbasid, 750",
+        "year": 750,
+        "zoom": 1.6,
+        "lens": "religion",
+        "polityId": "abbasid",
+        "narrative": "The Islamic Golden Age band runs from 750 to 1258. This stop sits on the Abbasid row, which the checklist starts in 750. The cited page was not opened.",
+        "sourceIds": ["unesco_gha", "cambridge_histories"],
+        "verification": "unverified"
+      },
+      {
+        "title": "Al-Andalus, 750",
+        "year": 750,
+        "zoom": 1.6,
+        "lens": "religion",
+        "polityId": "al_andalus",
+        "narrative": "Al-Andalus is already current in 750, the start of the Islamic Golden Age band. The checklist row itself starts in 711. The cited page was not opened.",
+        "sourceIds": ["unesco_gha", "cambridge_histories"],
+        "verification": "unverified"
+      },
+      {
+        "title": "Fatimid, 909",
+        "year": 909,
+        "zoom": 1.6,
+        "lens": "religion",
+        "polityId": "fatimid",
+        "narrative": "The Fatimid checklist row starts in 909, inside the same band, and also lists 969. This stop uses 909. The cited page was not opened.",
+        "sourceIds": ["unesco_gha", "cambridge_histories"],
+        "verification": "unverified"
+      },
+      {
+        "title": "Band end, 1258",
+        "year": 1258,
+        "zoom": 1.4,
+        "lens": "religion",
+        "polityId": "ilkhanate",
+        "narrative": "The band ends in 1258. The Ilkhanate checklist row, started in 1256, is still current. The stop uses the band’s end and does not add a list of sciences. The cited page was not opened.",
+        "sourceIds": ["cambridge_histories", "unesco_mow"],
+        "verification": "unverified"
+      }
+    ]
+  },
+  {
+    "id": "tour_mongol",
+    "title": "Mongol connection",
+    "subtitle": "The 1206–1368 band and the khanate rows",
+    "waypoints": [
+      {
+        "title": "Mongol Empire, 1206",
+        "year": 1206,
+        "zoom": 1.5,
+        "lens": "politics",
+        "polityId": "mongol_empire",
+        "narrative": "The Mongol conquests band uses the Mongol Empire row, 1206 to 1368. This stop uses 1206. The cited page was not opened.",
+        "sourceIds": ["cambridge_histories", "unesco_mow"],
+        "verification": "unverified"
+      },
+      {
+        "title": "Golden Horde, 1242",
+        "year": 1242,
+        "zoom": 1.6,
+        "lens": "politics",
+        "polityId": "golden_horde",
+        "narrative": "The Golden Horde checklist row starts in 1242, inside that band. This stop uses that year. The cited page was not opened.",
+        "sourceIds": ["cambridge_histories", "british_library"],
+        "verification": "unverified"
+      },
+      {
+        "title": "Ilkhanate, 1256",
+        "year": 1256,
+        "zoom": 1.6,
+        "lens": "politics",
+        "polityId": "ilkhanate",
+        "narrative": "The Ilkhanate checklist row starts in 1256. This stop uses that year. The cited page was not opened.",
+        "sourceIds": ["cambridge_histories", "unesco_mow"],
+        "verification": "unverified"
+      },
+      {
+        "title": "Yuan, 1271",
+        "year": 1271,
+        "zoom": 1.6,
+        "lens": "politics",
+        "polityId": "yuan",
+        "narrative": "The Yuan checklist row starts in 1271, still inside the band. This stop uses that year. It does not add a conquest list. The cited page was not opened.",
+        "sourceIds": ["cambridge_histories", "unesco_mow"],
+        "verification": "unverified"
+      }
+    ]
+  }
+]

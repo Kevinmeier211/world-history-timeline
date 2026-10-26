@@ -39,6 +39,8 @@ describe('story stops', () => {
       'tour_decolonization',
       'tour_columbian',
       'tour_atlantic',
+      'tour_islamic',
+      'tour_mongol',
     ]);
     for (const tour of tours) {
       expect(tour.waypoints.length).toBeGreaterThan(0);
