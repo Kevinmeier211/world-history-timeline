@@ -103,7 +103,8 @@
 | T5.13 | done | 7801bb9 | tab-order test reads y then x; shell test focuses the chart from Skip to chart and keeps ribbon y sorted | 25 | Panels take focus and hand it back. Reduced motion clears transition time. See DECISIONS. |
 | T5.14 | done | 85f7eab | era tests list Bronze polities in year order; shell test opens Egyptian New Kingdom from the era sheet; a pinch triples the scale | 30 | On a phone the dossier and era list are bottom sheets. Lens and View words collapse. See DECISIONS. |
 | T5.15 | done | 20001f3 | milestone tests drop year 0 and a blocked store; a locked year can add and remove a mark; the mark is a dashed outline | 25 | Marks stay out of the catalog. Twelve is the cap. See DECISIONS. |
-| T5.16 | done | (this commit) | `npm run axe` is clean for serious and critical on chart, dossier, dark theme, table, search, reading key, stories, columns, and era reading | 30 | The Overview control says Overview. Dossier buttons use paper and ink. See DECISIONS. |
+| T5.16 | done | 30841d0 | `npm run axe` is clean for serious and critical on chart, dossier, dark theme, table, search, reading key, stories, columns, and era reading | 30 | The Overview control says Overview. Dossier buttons use paper and ink. See DECISIONS. |
+| T5.17 | done | (this commit) | `docs/reviews/M2.md` scores Appendix D at 5/11; perf p95 16.70 ms; axe serious/critical stay 0 | 20 | A partial is not a pass. P6 stays closed. See DECISIONS. |
 
 ## Blocked
 

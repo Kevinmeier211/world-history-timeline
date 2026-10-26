@@ -661,3 +661,13 @@ Alternatives: Hide the Overview mismatch with an aria-label that drops the visib
 Why: T5.16 asks for scripted axe checks across scenes and zero serious or critical violations.
 
 Reversible? y
+
+## 2026-10-26 — M2 is 5 of 11
+
+Decision: `docs/reviews/M2.md` scores Appendix D again on `v2/p5-interactions`. Five items pass, three are partial, three fail. That is 45%. M1 stays 5/11. Interactions did not change the resting layout score. P6 stays closed until a later honest score is at least 8/11. The next work is layout tuning and overrides on the rows that already exist. Images and painted callouts stay P4. No band or country is invented to raise the score.
+
+Alternatives: Count a partial as a pass. Open P6 at 45%. Treat the phone sheet as a layout improvement.
+
+Why: T5.17 is the M2 checkpoint. The plan says not to open content depth while the poster is still under 70%.
+
+Reversible? y
