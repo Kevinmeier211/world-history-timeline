@@ -811,3 +811,13 @@ Alternatives: Draw another layout pass on the Japan step before any plate. Keep 
 Why: The layout score cleared 8 of 10. Images still have to be license-clean, and none are downloaded while the switch is off.
 
 Reversible? y
+
+## 2026-10-26 — A search hit is kept only when the payload says CC0
+
+Decision: `media:plan` queries the Cleveland Open Access API and the Met collection API and writes `docs/media-curation.md`. It does not download image files. A Cleveland row is kept when `share_license_status` is `CC0` and a creator description is present. Its `licenseUrl` is the Creative Commons CC0 deed for that string. A Met row with `isPublicDomain` and no license URL is listed and not copied into `media-src.json`. Search relevance is not a decision that the object depicts the callout.
+
+Alternatives: Invent license URLs for the Met rows. Treat every keyword hit as a plate.
+
+Why: The payload has to name the license. A keyword match is not a source.
+
+Reversible? y
