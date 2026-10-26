@@ -18,9 +18,9 @@
   },
   "importance3Fit": 1,
   "callouts": {
-    "dropped": 222,
+    "dropped": 220,
     "markers": 13,
-    "placed": 88
+    "placed": 90
   },
   "relations": {
     "total": 450,
@@ -32,8 +32,8 @@
   "labelHits": 0,
   "maxDrift": 3.211,
   "runtimeMs": {
-    "cold": 253,
-    "warm": 173
+    "cold": 257,
+    "warm": 177
   },
   "gates": {
     "overlaps": true,

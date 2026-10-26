@@ -213,7 +213,7 @@
     "year": 266,
     "kind": "event",
     "attachTo": "jin_266",
-    "importance": 2,
+    "importance": 3,
     "blurb": "Appendix B dates Jin from 266.",
     "sourceIds": ["chgis", "cambridge_histories"],
     "confidence": "conventional",

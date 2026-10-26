@@ -1151,3 +1151,13 @@ Alternatives: Copy cargo lists onto the new arcs. Reuse the Silk Road waypoints 
 Why: The floor is 15. Tag `gemini-v1` has six routes. These nine use rows that are already on the sheet.
 
 Reversible? y
+
+## 2026-10-26 — Forty-two later callouts rise to importance 3
+
+Decision: Forty-two callouts whose year is after 1500 BCE rise from importance 2 to 3. Their blurbs already restate a checklist year in 14 words or fewer. They stay unverified. The cited pages were not opened. Callouts in `fanout-01`, `fanout-02`, and `fanout-03` stay at importance 2. The 40 migrated callouts stay at importance 4 and unverified. The count at importance 3 or higher is 100. `npm run layout:report`: overlaps 0, unroutable 0, markers 13, placed 90, dropped 220, warm runtime 177 ms, over the 150 ms gate. The ancient frame still shows the same 13 markers. The layout engine was not changed.
+
+Alternatives: Add new cards inside 3300–1800 BCE. Demote the importance 4 rows so the unverified report reads 0.
+
+Why: The floor is 100. Years after 1500 BCE sit below the ancient frame, which runs from about 3300 BCE to about 1800 BCE.
+
+Reversible? y
