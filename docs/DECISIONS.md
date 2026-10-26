@@ -1231,3 +1231,13 @@ Alternatives: Call every label checked. Treat the screen render as a press proof
 Why: T7.07 asks for the checklist from what was actually opened.
 
 Reversible? y
+
+## 2026-10-26 — The print gate passes with images still gated
+
+Decision: P7 is done. `npm run check` is green. `npm run export:all` wrote the five PDFs and the manifest at `2026-10-26T21:43:38.334Z`, and `check:pdf` exited 0 on that set. The 0.25 pt floor is enforced on the 24×36 trim and bleed PDFs. Letter’s 0.181 pt minimum is recorded and not failed. Images stay 0 and queued-gated. The branch merges `--no-ff` into `v2/main` and the annotated tag is `v2-p7-done`. P8 stays closed. Nothing is pushed.
+
+Alternatives: Hold the tag until a contract proof. Fail the gate on the letter stroke. Start P8.
+
+Why: The phase exit is a selectable 24×36 PDF, embedded fonts, the poster stroke floor, and reference pages from one command. Those were run. Images were optional for this phase.
+
+Reversible? y
