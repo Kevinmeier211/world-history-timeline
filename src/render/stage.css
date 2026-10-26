@@ -9,6 +9,52 @@
   vector-effect: non-scaling-stroke;
 }
 
+.era-band {
+  fill: var(--paper-shade);
+}
+
+.era-band-quiet {
+  fill: var(--paper);
+}
+
+.grid-major,
+.grid-minor {
+  stroke: var(--rule);
+  vector-effect: non-scaling-stroke;
+}
+
+.grid-major {
+  stroke-width: 1;
+}
+
+.grid-minor {
+  stroke-width: 1;
+  opacity: 0.45;
+}
+
+.era-name {
+  fill: var(--ink-muted);
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-anchor: middle;
+  dominant-baseline: middle;
+  text-transform: uppercase;
+}
+
+.axis-label {
+  fill: var(--ink);
+  stroke: var(--paper);
+  stroke-width: 4px;
+  paint-order: stroke fill;
+  font-family: var(--font-label);
+  font-size: 12px;
+  font-weight: 600;
+  text-anchor: start;
+  dominant-baseline: auto;
+}
+
 .stage-host {
   height: 100%;
 }

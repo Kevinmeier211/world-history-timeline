@@ -121,37 +121,6 @@
   min-height: 100%;
 }
 
-.era-gutter {
-  display: flex;
-  flex-direction: column;
-  width: var(--gutter);
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  background: var(--paper-shade);
-}
-
-.era-gutter li {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  margin: 0;
-  padding: 4px 0;
-  color: var(--ink-muted);
-  font-family: var(--font-display);
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
-}
-
-.era-gutter li + li {
-  border-top: 1px solid var(--rule);
-}
-
 .chart-well {
   flex: 1;
   min-width: 0;
@@ -177,10 +146,6 @@
 }
 
 @media (max-width: 480px) {
-  .era-gutter {
-    width: 28px;
-  }
-
   .top-bar-title {
     position: absolute;
     width: 1px;

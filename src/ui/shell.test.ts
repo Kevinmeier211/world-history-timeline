@@ -3,18 +3,37 @@ import { readFileSync } from 'node:fs';
 import { createElement } from 'react';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { afterEach, describe, expect, it } from 'vitest';
+import { afterEach, describe, expect, it, vi } from 'vitest';
 
-import { LEFT_GUTTER } from '../layout/constants.ts';
 import { PosterApp } from './PosterApp.tsx';
 import { applyTheme, posterSpan } from './frame.ts';
+
+class FakeResizeObserver {
+  private readonly callback: ResizeObserverCallback;
+
+  constructor(callback: ResizeObserverCallback) {
+    this.callback = callback;
+  }
+
+  observe(target: Element): void {
+    Object.defineProperty(target, 'clientWidth', { configurable: true, value: 900 });
+    Object.defineProperty(target, 'clientHeight', { configurable: true, value: 600 });
+    this.callback([], this as unknown as ResizeObserver);
+  }
+
+  unobserve(): void {}
+
+  disconnect(): void {}
+}
 
 describe('poster shell', () => {
   afterEach(() => {
     applyTheme('system', document.documentElement);
+    vi.unstubAllGlobals();
   });
 
   it('renders the frame, both era gutters, and the slim bar', async () => {
+    vi.stubGlobal('ResizeObserver', FakeResizeObserver);
     const user = userEvent.setup();
     render(createElement(PosterApp));
 
@@ -25,10 +44,11 @@ describe('poster shell', () => {
     expect(screen.getAllByText('Early Bronze')).toHaveLength(2);
     expect(screen.getAllByText('Classical Antiquity')).toHaveLength(2);
     expect(screen.getAllByText('Modern')).toHaveLength(2);
+    expect(screen.getByText('1500 CE')).toBeInTheDocument();
     expect(document.querySelector('.chronos-app-shell')).toBeNull();
-    expect(document.querySelector('.poster-frame')).toHaveStyle({
-      '--gutter': `${LEFT_GUTTER}px`,
-    });
+    expect(document.querySelector('svg.stage')?.getAttribute('viewBox')).toContain(
+      '0 0 1500',
+    );
 
     const search = screen.getByRole('searchbox', { name: 'Search' });
     await user.type(search, 'Rome');

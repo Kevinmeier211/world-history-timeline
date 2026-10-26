@@ -351,3 +351,13 @@ Alternatives: Keep the 0.8 floor and scroll horizontally on a phone. Draw every 
 Why: The default reading is vertical. A 390 px screen cannot show 1,500 design px at 0.8 without a sideways scrollbar. The pad keeps a fast flick from popping empty bands.
 
 Reversible? y
+
+## 2026-10-26 — Era names sit in the design gutters
+
+Decision: Era bands, gridlines, and year labels are drawn in the chart SVG. The names are rotated in the left and right design gutters. Tick spacing follows the sheet scale: 50/100 when large, 100/500 in the middle, 500 when small. The poster starts and ends are always labeled. There is no year 0.
+
+Alternatives: Keep the HTML gutter columns and draw the bands only in the plot. Label every century at every scale.
+
+Why: The HTML columns did not share the top pad, so the names missed the years. A phone-height sheet cannot hold a label every century.
+
+Reversible? y

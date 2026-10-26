@@ -1,4 +1,5 @@
 import type { Camera, Size, WorldBox } from '../camera/camera.ts';
+import { Guides } from './Guides.tsx';
 import { useVisibleSpans } from './useVisibleSpans.ts';
 import { VISIBLE_PAD, type YSpan } from './visible.ts';
 import './stage.css';
@@ -25,7 +26,8 @@ export function Stage({
       viewBox={`${world.x} ${world.y} ${world.width} ${world.height}`}
       width={world.width * scale}
       height={world.height * scale}
-      aria-hidden="true"
+      role="img"
+      aria-label="States and peoples chart"
     >
       <rect
         className="stage-sheet"
@@ -34,6 +36,7 @@ export function Stage({
         width={world.width}
         height={world.height}
       />
+      <Guides scale={scale} />
       {shown.map((span) => (
         <rect
           key={span.id}
