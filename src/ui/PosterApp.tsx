@@ -20,6 +20,8 @@ import { useView } from '../state/view.ts';
 import type { ViewLink } from '../state/hashUrl.ts';
 import { Columns } from './Columns.tsx';
 import { Dossier } from './Dossier.tsx';
+import { Story } from './Story.tsx';
+import { applyStop, matchStop, storySources, tourStops } from './story.ts';
 import { dossierFor } from './dossier.ts';
 import { Legend, legendFamilies } from './Legend.tsx';
 import { PosterFrame } from './PosterFrame.tsx';
@@ -75,6 +77,36 @@ export function PosterApp() {
   );
   const [reading, setReading] = useState(false);
   const [columnsOpen, setColumnsOpen] = useState(false);
+  const [storyOpen, setStoryOpen] = useState(false);
+  const [storyTourId, setStoryTourId] = useState<string | null>(null);
+  const [storyIndex, setStoryIndex] = useState(0);
+  const attachTo = useMemo(() => {
+    const map = new Map<string, string>();
+    for (const callout of clientDataset().callouts) {
+      if (callout.attachTo) map.set(callout.id, callout.attachTo);
+    }
+    return map;
+  }, []);
+  const storyTour =
+    clientDataset().tours.find((tour) => tour.id === storyTourId) ?? null;
+  const stops = useMemo(
+    () => (storyTour ? tourStops(storyTour, attachTo) : []),
+    [attachTo, storyTour],
+  );
+  const matched = matchStop(stops, link);
+  const shownIndex = matched >= 0 ? matched : storyIndex;
+  const shownStop = stops[shownIndex];
+  const storyCard =
+    storyTour && shownStop
+      ? {
+          tourTitle: storyTour.title,
+          index: shownIndex,
+          count: stops.length,
+          title: shownStop.title,
+          narrative: shownStop.narrative,
+          sources: storySources(shownStop.sourceIds, clientDataset().sources),
+        }
+      : null;
   const [compares, setCompares] = useState<readonly CompareSet[]>(() =>
     readCompares(browserStorage()),
   );
@@ -114,6 +146,27 @@ export function PosterApp() {
       applyColumns({ fold: [...row.fold], pin: [...row.pin] });
     },
     [applyColumns, compares],
+  );
+  const chooseStory = useCallback(
+    (id: string) => {
+      const tour = clientDataset().tours.find((item) => item.id === id);
+      const stop = tour ? tourStops(tour, attachTo)[0] : undefined;
+      if (!tour || !stop) return;
+      setStoryTourId(id);
+      setStoryIndex(0);
+      setLink(applyStop(useView.getState().link, stop));
+    },
+    [attachTo, setLink],
+  );
+  const stepStory = useCallback(
+    (delta: number) => {
+      const nextIndex = Math.min(stops.length - 1, Math.max(0, shownIndex + delta));
+      const stop = stops[nextIndex];
+      if (!stop || nextIndex === shownIndex) return;
+      setStoryIndex(nextIndex);
+      setLink(applyStop(useView.getState().link, stop));
+    },
+    [setLink, shownIndex, stops],
   );
   const saveCurrent = useCallback(
     (name: string) => {
@@ -224,10 +277,18 @@ export function PosterApp() {
         onReading={() => {
           setReading(true);
           setColumnsOpen(false);
+          setStoryOpen(false);
         }}
         columnsOpen={columnsOpen}
         onColumns={() => {
           setColumnsOpen((open) => !open);
+          setReading(false);
+          setStoryOpen(false);
+        }}
+        storiesOpen={storyOpen}
+        onStories={() => {
+          setStoryOpen((open) => !open);
+          setColumnsOpen(false);
           setReading(false);
         }}
       >
@@ -252,6 +313,19 @@ export function PosterApp() {
         onPreset={applyPresetId}
         onCompare={applyCompare}
         onSave={saveCurrent}
+      />
+      <Story
+        open={storyOpen}
+        tours={clientDataset().tours}
+        card={storyCard}
+        onChoose={chooseStory}
+        onPrevious={() => stepStory(-1)}
+        onNext={() => stepStory(1)}
+        onList={() => setStoryTourId(null)}
+        onClose={() => {
+          setStoryOpen(false);
+          setStoryTourId(null);
+        }}
       />
       {dossier ? <Dossier model={dossier} onClose={() => setDossierId(null)} /> : null}
     </div>

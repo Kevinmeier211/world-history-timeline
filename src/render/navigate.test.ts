@@ -10,6 +10,7 @@ import { ZoomBar } from './ZoomBar.tsx';
 import {
   approachScroll,
   anchoredScroll,
+  cameraScale,
   chartCommand,
   minimapHeight,
   overlayOffsets,
@@ -27,6 +28,10 @@ describe('chart navigation', () => {
     expect(steppedScale(1, -1)).toBeCloseTo(1 / 1.2);
     expect(steppedScale(SCALE_MAX, 1)).toBe(SCALE_MAX);
     expect(steppedScale(SCALE_MIN, -1)).toBe(SCALE_MIN);
+    expect(cameraScale(0.6, 1, 1.5)).toBe(1.5);
+    expect(cameraScale(0.6, 2)).toBeCloseTo(1.2);
+    expect(cameraScale(1, 1, 99)).toBe(SCALE_MAX);
+    expect(cameraScale(Number.NaN, Number.NaN)).toBe(SCALE_MIN);
     expect(anchoredScroll(100, 200, 1, 2)).toBeCloseTo(300);
     expect(chartCommand('+', false)).toBe('in');
     expect(chartCommand('=', false)).toBe('in');

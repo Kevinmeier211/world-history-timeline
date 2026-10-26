@@ -13,6 +13,7 @@ import { cameraFromScroll, stageScale } from './visible.ts';
 import {
   anchoredScroll,
   approachScroll,
+  cameraScale,
   chartCommand,
   clampScroll,
   isTypingTarget,
@@ -124,7 +125,8 @@ export function ChartViewport({
   }, []);
 
   const fit = metrics ? stageScale(metrics.width, world.width) : 1;
-  const scale = Math.min(SCALE_MAX, Math.max(SCALE_MIN, fit * zoom));
+  const hashZoom = useView((state) => state.link.z);
+  const scale = cameraScale(fit, zoom, hashZoom);
   const laidOut = metrics !== null;
 
   useEffect(() => {
@@ -190,6 +192,18 @@ export function ChartViewport({
       );
     }
     setZoom(fit > 0 ? next / fit : 1);
+    const current = useView.getState().link;
+    if (current.z !== undefined) {
+      useView.getState().setLink({ ...current, z: cameraScale(1, next) }, 'replace');
+    }
+  };
+
+  const clearHashZoom = () => {
+    const current = useView.getState().link;
+    if (current.z === undefined) return;
+    const next = { ...current };
+    delete next.z;
+    useView.getState().setLink(next, 'replace');
   };
 
   useEffect(() => {
@@ -299,7 +313,26 @@ export function ChartViewport({
           <ZoomBar
             onIn={() => applyScale(steppedScale(scale, 1))}
             onOut={() => applyScale(steppedScale(scale, -1))}
-            onFit={() => setZoom(1)}
+            onFit={() => {
+              const current = useView.getState().link;
+              if (current.z !== undefined) {
+                const scroller = scrollerOf(host.current);
+                if (scroller) {
+                  scroller.scrollTop = clampScroll(
+                    anchoredScroll(
+                      scroller.scrollTop,
+                      scroller.clientHeight,
+                      scale,
+                      fit,
+                    ),
+                    world.height * fit,
+                    scroller.clientHeight,
+                  );
+                }
+                clearHashZoom();
+              }
+              setZoom(1);
+            }}
             onOverview={() => {
               const scroller = scrollerOf(host.current);
               const port =
@@ -309,6 +342,7 @@ export function ChartViewport({
                 Math.max(SCALE_MIN, port / world.height),
               );
               setZoom(fit > 0 ? next / fit : 1);
+              clearHashZoom();
               if (scroller) {
                 scroller.scrollTop = 0;
                 scroller.scrollLeft = 0;

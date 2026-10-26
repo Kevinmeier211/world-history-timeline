@@ -14,6 +14,14 @@ export function steppedScale(scale: number, direction: 1 | -1): number {
   return Math.min(SCALE_MAX, Math.max(SCALE_MIN, next));
 }
 
+/** Hash zoom is the camera scale. Otherwise the local multiplier rides on fit. */
+export function cameraScale(fit: number, localZoom: number, hashZoom?: number): number {
+  const raw =
+    hashZoom !== undefined && Number.isFinite(hashZoom) ? hashZoom : fit * localZoom;
+  if (!Number.isFinite(raw)) return SCALE_MIN;
+  return Math.min(SCALE_MAX, Math.max(SCALE_MIN, raw));
+}
+
 /** Keep the same world point under the middle of the viewport. */
 export function anchoredScroll(
   scroll: number,

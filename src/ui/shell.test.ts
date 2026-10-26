@@ -246,6 +246,39 @@ describe('poster shell', () => {
     expect(window.location.hash).toBe('#pin=americas');
   });
 
+  it('plays a migrated tour and leaves the other stories uninvented', async () => {
+    vi.stubGlobal('ResizeObserver', FakeResizeObserver);
+    const user = userEvent.setup();
+    render(createElement(PosterApp));
+    await user.click(screen.getByRole('button', { name: 'Stories' }));
+    const panel = screen.getByRole('region', { name: 'Stories' });
+    expect(panel).toBeInTheDocument();
+    expect(screen.queryByRole('dialog', { name: 'Stories' })).toBeNull();
+    expect(screen.queryByRole('button', { name: 'Silk Roads' })).toBeNull();
+    await user.click(
+      screen.getByRole('button', { name: '1177 BCE: The Late Bronze Age Collapse' }),
+    );
+    expect(window.location.hash).toBe(
+      '#y=-1350&z=1.5&sel=egypt_new_kingdom&lens=trade',
+    );
+    expect(panel).toHaveTextContent('Amarna Letters');
+    expect(screen.getByRole('link', { name: 'Cambridge Histories' })).toHaveAttribute(
+      'href',
+      'https://www.cambridge.org/core/publications/collections/cambridge-histories',
+    );
+    expect(screen.queryByRole('dialog', { name: 'Dossier' })).toBeNull();
+    await user.click(screen.getByRole('button', { name: 'Next stop' }));
+    expect(window.location.hash).toBe('#y=-1274&z=1.8&sel=hittites');
+    expect(panel).toHaveTextContent('Kadesh');
+    await user.click(screen.getByRole('button', { name: 'Fit width' }));
+    expect(window.location.hash).toBe('#y=-1274&sel=hittites');
+    await user.keyboard('/');
+    expect(screen.getByRole('dialog', { name: 'Search' })).toBeInTheDocument();
+    await user.click(screen.getByRole('button', { name: 'Close search' }));
+    await user.keyboard('{Escape}');
+    expect(screen.queryByRole('region', { name: 'Stories' })).toBeNull();
+  });
+
   it('mounts the poster and leaves the v1 canvas deleted', () => {
     const main = readFileSync('src/main.tsx', 'utf8');
     expect(main).toContain('PosterApp');

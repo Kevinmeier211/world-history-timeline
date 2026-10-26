@@ -11,6 +11,8 @@ export function PosterFrame({
   onReading,
   columnsOpen = false,
   onColumns,
+  storiesOpen = false,
+  onStories,
 }: {
   lens: LensId;
   children?: ReactNode;
@@ -20,6 +22,8 @@ export function PosterFrame({
   onReading?: () => void;
   columnsOpen?: boolean;
   onColumns?: () => void;
+  storiesOpen?: boolean;
+  onStories?: () => void;
 }) {
   const bodyStyle: CSSProperties = {};
   if (sheetHeight && sheetHeight > 0) bodyStyle.height = sheetHeight;
@@ -49,6 +53,17 @@ export function PosterFrame({
               onClick={onColumns}
             >
               Columns
+            </button>
+          ) : null}
+          {onStories ? (
+            <button
+              type="button"
+              className="reading-open"
+              aria-expanded={storiesOpen}
+              aria-controls="story-panel"
+              onClick={onStories}
+            >
+              Stories
             </button>
           ) : null}
         </div>

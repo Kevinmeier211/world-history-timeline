@@ -601,3 +601,13 @@ Alternatives: Invent the eleven presets named in the plan but missing from the t
 Why: T5.10 asks for the migrated presets and user-defined compare sets. Q-03 keeps the count at five. The year stays out of a compare so a saved column filter can be reused at another date.
 
 Reversible? y
+
+## 2026-10-26 — A story stop moves the camera and names its sources
+
+Decision: The title band opens the three migrated tours and no others. Each stop sets the year, writes `z` as the camera scale, selects the polity, and shows the narrative with the catalog source titles. A callout stop highlights the polity that callout is attached to. Trade and climate use those chart lenses. Art uses the ideas lens. Politics and technology leave the lens on All, because the chart has no lens by those names. The card is a region, so search still opens. The dossier stays closed. Fit width and Overview clear `z` and return to the local scale. Narratives stay at or under 70 words.
+
+Alternatives: Invent the seven tours named in the plan but missing from the tag. Add a politics lens. Open the dossier on every stop.
+
+Why: T5.11 asks for a waypoint that sets the camera, the lens, the highlight, and a sourced narrative. Q-03 keeps the tour count at three.
+
+Reversible? y

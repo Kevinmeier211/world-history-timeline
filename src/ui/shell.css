@@ -234,7 +234,8 @@
   margin: 6px 0;
 }
 
-.columns-list button {
+.columns-list button,
+.columns-save button {
   border: 1px solid var(--rule);
   background: var(--paper);
   color: var(--ink);
@@ -252,6 +253,32 @@
   display: flex;
   gap: 6px;
   margin-top: 8px;
+}
+
+.story-step {
+  margin: 8px 0 0;
+  color: var(--ink-muted);
+  font-size: 13px;
+}
+
+.story-narrative {
+  margin: 12px 0 0;
+  font-size: 16px;
+}
+
+.story-sources {
+  margin: 8px 0 0;
+  padding-left: 18px;
+}
+
+.story-sources a {
+  color: var(--ink);
+}
+
+.columns-list button:disabled,
+.columns-save button:disabled {
+  color: var(--ink-muted);
+  cursor: default;
 }
 
 .columns-save input {
