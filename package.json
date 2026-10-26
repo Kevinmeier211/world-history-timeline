@@ -26,6 +26,7 @@
     "media:budget": "tsx scripts/media/budget.ts",
     "media:credits": "tsx scripts/media/credits.ts",
     "export:pdf": "tsx scripts/export-pdf.ts",
+    "export:reference": "tsx scripts/export-reference.ts",
     "check:pdf": "tsx scripts/check-pdf.ts",
     "export:all": "tsx scripts/export-all.ts",
     "check": "npm run typecheck && npm run lint && npm run design:lint && npm run palette:check && npm run test && npm run validate:data"

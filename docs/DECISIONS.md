@@ -1201,3 +1201,13 @@ Alternatives: Fail letter at 0.181 pt. Apply the floor to tabloid as well. Thick
 Why: §4.13 and the phase exit name 0.25 pt for the 24×36 sheet. Letter is a reduction of that drawing. A missing tool is not evidence the page passed.
 
 Reversible? y
+
+## 2026-10-26 — Reference pages are an export of the stored notes
+
+Decision: `scripts/export-reference.ts` writes Letter HTML and `dist-print/chronos-reference.pdf` from `loadDataset()`. The six note ids are labeled 3300–2000 BCE, 2000–600 BCE, 600 BCE–500 CE, 500–1500 CE, 1500–1800 CE, and 1800–2000 CE. Any other era id is printed as stored. Region names come from `geography.json`. A region id that is not in that list is printed as stored. Each note prints its entries, `whyItMatters`, and the connections that are stored. The reading key is `READING_KEY`. The colophon is `colophonFor` of `media.generated.json` and `media-src.json`. Sources list id, title, publisher, url, accessed date, and kind. On 2026-10-26 `pdfinfo` reported 14 pages, 612 by 792 pt. `pdffonts` listed emb=yes on every row: BarlowCondensed-ExtraBold, BarlowCondensed-Bold, SourceSans3ExtraLight-Regular, SourceSans3ExtraLight-SemiBold, and SourceSerif4-SemiBold. Those ExtraLight PostScript names are the weight-400 and weight-600 Source Sans 3 woff2 files. Their OS/2 weight classes are 400 and 600. The Source Serif 4 woff2 weight class is 600. `pdftotext` reads Chronos, Peoples outlast states, stored why-it-matters sentences, source titles, and No image files are shipped. `npm run check` does not run this export. `npm run export:reference` does.
+
+Alternatives: Hand-maintain a reference PDF. Add a connection so every note has three. Number the sources 1 through 37.
+
+Why: T7.05 asks for the expanded reference as an export of this dataset. Q-02 still leaves the Gemini bibliography out.
+
+Reversible? y
