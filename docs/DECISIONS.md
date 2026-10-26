@@ -821,3 +821,13 @@ Alternatives: Invent license URLs for the Met rows. Treat every keyword hit as a
 Why: The payload has to name the license. A keyword match is not a source.
 
 Reversible? y
+
+## 2026-10-26 — Fetch stays queued while the download switch is off
+
+Decision: `scripts/media/fetch.ts` hashes bytes and can cache them under `media-cache/` after a successful HEAD. With `ALLOW_MEDIA_DOWNLOAD=false` the command reports `queued-gated` for every source row, exits 0, and does not call HEAD or GET. Tests pass buffers and a mock HEAD. No image file is downloaded. The source list is not rewritten here.
+
+Alternatives: Turn the switch on to fetch the Cleveland files. Leave the script as a stub that cannot hash.
+
+Why: The pipeline has to exist, and the switch still forbids downloading files.
+
+Reversible? y
