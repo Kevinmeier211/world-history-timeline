@@ -1,9 +1,13 @@
+import { readFileSync } from 'node:fs';
+
 import { describe, expect, it } from 'vitest';
 
 import {
   buildConnector,
+  connectorStyle,
   type ConnectorEndpoint,
   type ConnectorFlow,
+  type ConnectorRelation,
 } from './connectors.ts';
 
 function ends(rows: readonly ConnectorEndpoint[]): Map<string, ConnectorEndpoint> {
@@ -117,5 +121,38 @@ describe('connectors', () => {
       known,
     );
     expect(missing.d).toBe('');
+  });
+
+  it('paints succession solid, conquest hatched, and continuity dashed', () => {
+    expect(connectorStyle('succession')).toEqual({ dasharray: '', hatch: false });
+    expect(connectorStyle('split')).toEqual({ dasharray: '', hatch: false });
+    expect(connectorStyle('merge')).toEqual({ dasharray: '', hatch: false });
+    expect(connectorStyle('conquest')).toEqual({ dasharray: '', hatch: true });
+    expect(connectorStyle('vassalage')).toEqual({ dasharray: '', hatch: true });
+    expect(connectorStyle('cultural_continuity')).toEqual({
+      dasharray: '4 3',
+      hatch: false,
+    });
+    expect(connectorStyle('disputed')).toEqual({ dasharray: '4 3', hatch: false });
+    expect(connectorStyle('migration')).toEqual({ dasharray: '1 2.5', hatch: false });
+    expect(connectorStyle('other')).toEqual({ dasharray: '', hatch: false });
+  });
+
+  it('fixture G attaches a hatched conquest to the continuing ribbon side', () => {
+    const fixture = JSON.parse(
+      readFileSync('src/layout/__fixtures__/conquest-babylon.json', 'utf8'),
+    ) as {
+      name: string;
+      relation: ConnectorRelation;
+      endpoints: ConnectorEndpoint[];
+    };
+    const result = buildConnector(fixture.relation, ends(fixture.endpoints));
+    expect(fixture.name).toBe('G');
+    expect(result.type).toBe('conquest');
+    expect(result.style).toEqual({ dasharray: '', hatch: true });
+    expect(result.sideAttach).toBe(true);
+    expect(result.flows[0]?.width).toBe(28);
+    expect(result.flows[0]?.width).toBeLessThan(70);
+    expect(result.d).toContain('655.00');
   });
 });

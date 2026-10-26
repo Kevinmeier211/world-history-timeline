@@ -201,3 +201,13 @@ Alternatives: Merge `b4f3bea` into `v2/main`. Tag the current layout tip. Leave 
 Why: `b4f3bea` descends from T2.01 and T2.02. A merge would put those unfinished layout commits on `v2/main`. The tag records the roster that meets every §7 floor. `v2/main` stays at the P0 merge.
 
 Reversible? y
+
+## 2026-10-26 — Migration connectors are dotted
+
+Decision: Succession, split, and merge are solid. Conquest and vassalage are hatched. Cultural continuity and disputed use dash `4 3`. Migration uses dash `1 2.5` and is not hatched.
+
+Alternatives: Draw migration as the continuity dash. Draw it solid. Omit a stroke until a later task.
+
+Why: §6.4 names solid, hatched, and dashed groups and does not name migration. A dotted stroke keeps a migration from looking like succession or like a disputed claim. The uncertainty edge stays `1.5 2.5`.
+
+Reversible? y

@@ -1,0 +1,14 @@
+{
+  "name": "G",
+  "note": "Achaemenid takes Babylon in 539 BCE. Neo-Babylonian continues thinner, so the leg meets the conqueror's side.",
+  "relation": {
+    "id": "achaemenid-babylon",
+    "type": "conquest",
+    "from": ["achaemenid"],
+    "to": ["neo_babylonian"]
+  },
+  "endpoints": [
+    { "id": "achaemenid", "x": 620, "y": 400, "width": 70 },
+    { "id": "neo_babylonian", "x": 640, "y": 360, "width": 28 }
+  ]
+}

@@ -32,12 +32,42 @@ export interface ConnectorFlow {
   sourceWidth: number;
 }
 
+/** Stroke for a relation type. An empty dash is solid. Hatch is a second overlay. */
+export interface ConnectorStyle {
+  dasharray: string;
+  hatch: boolean;
+}
+
+const SOLID: ConnectorStyle = { dasharray: '', hatch: false };
+const HATCHED: ConnectorStyle = { dasharray: '', hatch: true };
+/** Cultural continuity and disputed claims. Distinct from the uncertainty dash. */
+export const CONTINUITY_DASH = '4 3';
+/** Migration is dotted so it is not read as succession or as a disputed claim. */
+export const MIGRATION_DASH = '1 2.5';
+
+const STYLES: Record<string, ConnectorStyle> = {
+  succession: SOLID,
+  split: SOLID,
+  merge: SOLID,
+  conquest: HATCHED,
+  vassalage: HATCHED,
+  cultural_continuity: { dasharray: CONTINUITY_DASH, hatch: false },
+  disputed: { dasharray: CONTINUITY_DASH, hatch: false },
+  migration: { dasharray: MIGRATION_DASH, hatch: false },
+};
+
+/** Stroke for a relation. An unknown type stays solid and unhatched. */
+export function connectorStyle(type: string): ConnectorStyle {
+  return STYLES[type] ?? SOLID;
+}
+
 /** A relation curve. `sideAttach` is true when any leg meets a side instead of an end. */
 export interface ConnectorResult {
   relationId: string;
   type: string;
   d: string;
   sideAttach: boolean;
+  style: ConnectorStyle;
   flows: readonly ConnectorFlow[];
 }
 
@@ -189,6 +219,7 @@ export function buildConnector(
     type: relation.type,
     d: flows.map((flow) => legPath(flow)).join(' '),
     sideAttach: flows.some((flow) => flow.sideAttach),
+    style: connectorStyle(relation.type),
     flows,
   };
 }
