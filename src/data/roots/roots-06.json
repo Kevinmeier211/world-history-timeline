@@ -1,0 +1,98 @@
+[
+  {
+    "id": "neo_babylonian",
+    "reason": "gemini-v1 names no parent; nearest same-family end is babylon_assyria at a gap of 285 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "neolithic_erlitou_china",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "new_france",
+    "reason": "gemini-v1 names no parent; nearest same-family end is cahokia at a gap of 184 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "new_zealand",
+    "reason": "gemini-v1 names no parent; nearest same-family end is champa at a gap of 8 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "nguyen",
+    "reason": "gemini-v1 names no parent; nearest same-family end is voc at a gap of 3 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "nigeria",
+    "reason": "gemini-v1 names no parent; nearest same-family end is south_africa_union at a gap of 2 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "nok_culture",
+    "reason": "gemini-v1 names no parent; nearest same-family end is kerma at a gap of 500 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "norte_chico",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "norway",
+    "reason": "gemini-v1 names no parent; nearest same-family end is kingdom_of_england at a gap of 93 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "nsw_colony",
+    "reason": "gemini-v1 names no parent; nearest same-family end is ayutthaya at a gap of 21 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "old_babylonian",
+    "reason": "gemini-v1 names no parent; nearest same-family end is sumer_akkad, ur_iii at a gap of 110 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "olmecs",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "ottoman",
+    "reason": "gemini-v1 names no parent; nearest same-family end is almohad at a gap of 30 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "ottoman_levant",
+    "reason": "gemini-v1 names no parent; nearest same-family end is crusader_states at a gap of 225 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "oyo",
+    "reason": "gemini-v1 names no parent; nearest same-family end is ghana_wagadu at a gap of 200 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "pacific_microstates",
+    "reason": "gemini-v1 names no parent; nearest same-family end is voc at a gap of 1 continuous year, while other polities in the family are still current."
+  },
+  {
+    "id": "pagan",
+    "reason": "gemini-v1 names no parent; nearest same-family end is funan at a gap of 299 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "pala",
+    "reason": "gemini-v1 names no parent; nearest same-family end is harsha at a gap of 103 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "pallava",
+    "reason": "gemini-v1 names no parent; nearest same-family end is kushan at a gap of 125 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "papal_states",
+    "reason": "gemini-v1 names no parent; nearest same-family end is merovingian_franks at a gap of 5 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "paracas",
+    "reason": "gemini-v1 names no parent; nearest same-family end is norte_chico at a gap of 1000 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "parthian",
+    "reason": "gemini-v1 names no parent; nearest same-family end is achaemenid_empire at a gap of 83 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "phoenician_city_states",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "poland_lithuania",
+    "reason": "gemini-v1 names no parent; nearest same-family end is rus_1502 at a gap of 22 continuous years, outside a shared-boundary handoff."
+  }
+]

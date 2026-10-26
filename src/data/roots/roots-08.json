@@ -1,0 +1,98 @@
+[
+  {
+    "id": "sokoto",
+    "reason": "gemini-v1 names no parent; nearest same-family end is mali_empire at a gap of 204 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "songhai_empire",
+    "reason": "gemini-v1 names no parent; nearest same-family end is great_zimbabwe at a gap of 14 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "south_africa_union",
+    "reason": "gemini-v1 names no parent; nearest same-family end is sokoto at a gap of 7 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "spain_union",
+    "reason": "gemini-v1 names no parent; nearest same-family end is west_francia at a gap of 482 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "spanish_philippines",
+    "reason": "gemini-v1 names no parent; nearest same-family end is majapahit at a gap of 38 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "srivijaya",
+    "reason": "gemini-v1 names no parent; nearest same-family end is funan at a gap of 100 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "sui",
+    "reason": "gemini-v1 names no parent; nearest same-family end is jin_266 at a gap of 161 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "sumer_akkad",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "sumerian_city_states",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "swahili_coast",
+    "reason": "gemini-v1 names no parent; nearest same-family end is kerma_kush, meroitic_kush at a gap of 450 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "sweden",
+    "reason": "gemini-v1 names no parent; nearest same-family end is kingdom_of_england at a gap of 93 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "switzerland",
+    "reason": "gemini-v1 names no parent; nearest same-family end is venice at a gap of 3 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "syria",
+    "reason": "gemini-v1 names no parent; nearest same-family end is ottoman_levant at a gap of 12 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "tang_song_dynasty",
+    "reason": "gemini-v1 parents han_dynasty have no year inside both lifetimes ± 50; nearest same-family end is jin_266 at a gap of 161 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "tanzania",
+    "reason": "gemini-v1 names no parent; nearest same-family end is south_africa_union at a gap of 2 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "tarascan",
+    "reason": "gemini-v1 names no parent; nearest same-family end is toltecs at a gap of 132 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "teotihuacan",
+    "reason": "gemini-v1 names no parent; nearest same-family end is olmecs at a gap of 300 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "thailand",
+    "reason": "gemini-v1 names no parent; nearest same-family end is voc at a gap of 1 continuous year, while other polities in the family are still current."
+  },
+  {
+    "id": "third_intermediate_egypt",
+    "reason": "gemini-v1 names no parent; nearest same-family end is egypt_new_kingdom at a gap of 8 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "thirteen_colonies",
+    "reason": "gemini-v1 names no parent; nearest same-family end is mississippian_culture at a gap of 67 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "tibetan_empire",
+    "reason": "gemini-v1 names no parent; nearest same-family end is gupta at a gap of 68 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "timurid",
+    "reason": "gemini-v1 names no parent; nearest same-family end is mongol_empire, yuan at a gap of 2 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "tiwanaku",
+    "reason": "gemini-v1 names no parent; nearest same-family end is paracas at a gap of 400 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "tonga",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  }
+]

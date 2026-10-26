@@ -8,7 +8,7 @@ Vite 6 + React 19 + TypeScript, strict and `noUncheckedIndexedAccess`. v1 chart:
 
 ## Commands
 
-`npm run check` = typecheck + lint + design:lint + palette:check + vitest + validate:data. `npm run shots` writes Playwright PNGs. `npm run dev` / `build` / `preview`. `validate:data` is real and warns on polities with no inbound relation until T1.28. Layout, perf, media, and export commands are still stubs. `media:fetch` refuses to download while `ALLOW_MEDIA_DOWNLOAD=false`. Checklist rows are applied with `npx tsx scripts/apply-roster.ts <family>`.
+`npm run check` = typecheck + lint + design:lint + palette:check + vitest + validate:data. `npm run shots` writes Playwright PNGs. `npm run dev` / `build` / `preview`. `validate:data` loads relations and roots. An orphan warning means a polity is neither a target nor a reasoned root. Layout, perf, media, and export commands are still stubs. `media:fetch` refuses to download while `ALLOW_MEDIA_DOWNLOAD=false`. Checklist rows are applied with `npx tsx scripts/apply-roster.ts <family>`. Relations are regenerated with `npx tsx scripts/write-lineage.ts`.
 
 ## Conventions
 
@@ -16,8 +16,8 @@ One task, one commit, message `T0.01: …`. Green `npm run check` before every c
 
 ## Gotchas
 
-Poster and both Gemini PDFs are missing (Q-01). Gemini bibliography [1]–[37] was not reconstructed (Q-02). Tag `gemini-v1` has 6 routes and 5 presets, not 9 and 16 (Q-03). Undated checklist names are omitted (Q-04). ESLint, Prettier, and design-lint ignore v1 until T3.16; design-lint also ignores `index.html` until T3.01. The allowlist is asserted in `src/lint/designRules.test.ts`. Vitest includes only `src/**/*.test.ts` and `scripts/**/*.test.ts`. `src/data/sources.json` and `LICENSES/SOURCES.md` are prettier-ignored. v1 map centers are schematic pixels, so migrated anchors use `xKey`. Skeleton files are `src/data/polities/<family>-skeleton.json` and may split as `-2`, `-3` to stay under 400 lines. Orphan warnings are expected until T1.28. Zod 4 is the installed major.
+Poster and both Gemini PDFs are missing (Q-01). Gemini bibliography [1]–[37] was not reconstructed (Q-02). Tag `gemini-v1` has 6 routes and 5 presets, not 9 and 16 (Q-03). Undated checklist names are omitted (Q-04). ESLint, Prettier, and design-lint ignore v1 until T3.16; design-lint also ignores `index.html` until T3.01. The allowlist is asserted in `src/lint/designRules.test.ts`. Vitest includes only `src/**/*.test.ts` and `scripts/**/*.test.ts`. `src/data/sources.json` and `LICENSES/SOURCES.md` are prettier-ignored. v1 map centers are schematic pixels, so migrated anchors use `xKey`. Skeleton files are `src/data/polities/<family>-skeleton.json` and may split as `-2`, `-3` to stay under 400 lines. Relation and root JSON must match `src/data/lineage.ts` (`scripts/lineage-data.test.ts`). A one-year gap is a handoff only when no checklist row in that family is still current. v1 bundles are overlays and do not block that gap. Zod 4 is the installed major.
 
 ## Next
 
-T1.28 cross-family relations so orphan warnings reach 0 or a reasoned whitelist. Then T1.29 era minimums, T1.30 unverified report, T1.31 overrides, T1.99 phase gate. Do not start P8.
+T1.29 era minimums. Only 3300–2000 BCE is short of its skeleton floor. Then T1.30 unverified report, T1.31 overrides, T1.99 phase gate. Do not start P8.

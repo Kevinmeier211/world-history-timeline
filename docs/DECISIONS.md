@@ -131,3 +131,13 @@ Alternatives: Lower the family minimum. Invent a foundation year. Stop the famil
 Why: The minimum is a machine-checked gate. The era edge is a plan boundary, and the note stops it from being read as a historical start.
 
 Reversible? y
+
+## 2026-10-25 — Relations come from abutments, v1 parents, and named twins
+
+Decision: `src/data/lineage.ts` is the generator. `scripts/write-lineage.ts` writes `src/data/relations/lineage-*.json` and `src/data/roots/roots-*.json`. A root reason must be at least 20 characters. A root that also has an inbound relation is an error. `scripts/lineage-data.test.ts` requires the JSON to match the generator. See Q-06.
+
+Alternatives: Nearest-neighbor succession inside a family. Whitelist every polity. Place a v1 parent on a year that sits in neither span.
+
+Why: Belgium is three years after Venice. A one-year gap while other rows are current would make Prussia succeed Habsburg Spain. The generator refuses both. Russian America and Canada share 1867, so that debated succession stays until a source is opened.
+
+Reversible? y

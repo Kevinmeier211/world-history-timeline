@@ -41,3 +41,11 @@ Why it matters: T1.19 requires at least 45 `latin_west` polities. Appendix B's d
 Default applied: Add every dated Appendix B line the v1 ids do not already occupy, and add a debated row only where two checklist dates leave an unnamed interval (West and East Francia, Spain after 1700, the Netherlands after 1795, Austria and Hungary after 1918, Germany in 1918–19, 1945–49, and after 1990, Italy in 476–493, the French Revolution and First Republic). Section 15 says to include modern UN members and to cluster micro-states. Belgium, Switzerland, and one micro-state cluster use 1800–2000 with `confidence: debated`. The note says 1800 is the plan's modern-era edge, not a founding year. Aragon, Castile, and Habsburg Austria stay omitted (Q-04).
 
 Affects tasks: T1.19.
+
+## Q-06 — Conquest, vassalage, and migration are not assigned yet
+
+Why it matters: T1.28 asks for a cross-family pass that includes those types. v1 only stored untyped `parentIds`. A shared year is not a checked succession: Russian America ends in 1867 and Canada begins in 1867. Inventing conquest, vassalage, or migration would be a new claim.
+
+Default applied: Same-family succession or split only when the predecessor ends on the successor's start year, or one continuous year later while no checklist row in that family is still current. That keeps the Zhou handoffs of 771/770 and 476/475, and it does not make Prussia a successor of Habsburg Spain or Thailand a successor of the VOC. Several meeting ends become one `disputed` relation instead of a guess, so a same-year neighbor can appear on that edge until a later pass removes it. gemini-v1 `parentIds` are copied as `cultural_continuity` only when the child's start or the parent's end lies inside the other lifetime ± 50. A year that sits in neither span is not invented. Nine equal Appendix B spans that were stored in two families are `cultural_continuity`. Mughal is not one of them: the v1 bundle starts in 1206 and the checklist row in 1526. Polities with no inbound relation get a reason that names the nearest rejected end. Nineteen v1 parent edges have no such year and are not copied.
+
+Affects tasks: T1.28, T6 relation passes.

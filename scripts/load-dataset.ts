@@ -34,6 +34,10 @@ function readFileArray(file: string): unknown[] {
   return parsed;
 }
 
+export function loadRoots(): unknown[] {
+  return readCollection('roots');
+}
+
 export function loadDataset(): unknown {
   const base = bundledDataset();
   return {

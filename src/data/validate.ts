@@ -1,6 +1,8 @@
+import { z } from 'zod';
+
 import { toT } from '../lib/years.ts';
 import { ERA_BINS } from './catalog.ts';
-import { macroRegionSchema, wordCount } from './schema/primitives.ts';
+import { idSchema, macroRegionSchema, wordCount } from './schema/primitives.ts';
 import {
   datasetSchema,
   type Dataset,
@@ -147,7 +149,23 @@ function warnWikipediaOnly(
   }
 }
 
-export function validateDataset(input: unknown): {
+const rootSchema = z.object({
+  id: idSchema,
+  reason: z.string(),
+});
+
+function rootEntry(root: unknown): { id: string; reason: string } | string {
+  const parsed = rootSchema.safeParse(root);
+  if (!parsed.success) return 'root entry needs an id and a reason';
+  const reason = parsed.data.reason.trim();
+  if (reason.length < 20) return `root ${parsed.data.id} reason is too short`;
+  return { id: parsed.data.id, reason };
+}
+
+export function validateDataset(
+  input: unknown,
+  roots: readonly unknown[] = [],
+): {
   issues: ValidationIssue[];
   dataset: Dataset | null;
   coverage: CoverageReport | null;
@@ -265,8 +283,29 @@ export function validateDataset(input: unknown): {
   }
 
   const inbound = new Set(dataset.relations.flatMap((relation) => relation.to));
+  const rootReason = new Map<string, string>();
+  for (const root of roots) {
+    const entry = rootEntry(root);
+    if (typeof entry === 'string') {
+      push(issues, 'error', entry);
+      continue;
+    }
+    if (rootReason.has(entry.id)) {
+      push(issues, 'error', `duplicate root ${entry.id}`);
+      continue;
+    }
+    if (!polities.has(entry.id)) {
+      push(issues, 'error', `root ${entry.id} is not a polity`);
+      continue;
+    }
+    if (inbound.has(entry.id)) {
+      push(issues, 'error', `root ${entry.id} already has an inbound relation`);
+      continue;
+    }
+    rootReason.set(entry.id, entry.reason);
+  }
   for (const polity of dataset.polities) {
-    if (!inbound.has(polity.id))
+    if (!inbound.has(polity.id) && !rootReason.has(polity.id))
       push(issues, 'warning', `${polity.id} has no inbound relation`);
   }
   return { issues, dataset, coverage: coverageOf(dataset) };

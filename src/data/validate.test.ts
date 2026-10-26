@@ -105,6 +105,71 @@ describe('validateDataset', () => {
     );
   });
 
+  it('suppresses an orphan warning only for a reasoned root', () => {
+    const data = base();
+    expect(
+      validateDataset(data).issues.some((issue) =>
+        issue.message.includes('akkad has no inbound relation'),
+      ),
+    ).toBe(true);
+    const rooted = validateDataset(data, [
+      {
+        id: 'akkad',
+        reason: 'No earlier polity in this fixture and no parent edge was supplied.',
+      },
+    ]);
+    expect(rooted.issues.filter((issue) => issue.level === 'error')).toEqual([]);
+    expect(
+      rooted.issues.some((issue) => issue.message.includes('no inbound relation')),
+    ).toBe(false);
+  });
+
+  it('rejects a root that is inbound, unknown, duplicated, or unexplained', () => {
+    const data = base();
+    data.polities.push({ ...data.polities[0]!, id: 'ur', start: -2112, end: -2004 });
+    data.relations.push({
+      id: 'akkad_ur',
+      from: ['akkad'],
+      to: ['ur'],
+      year: -2112,
+      type: 'succession',
+      sourceIds: ['met_essay'],
+      confidence: 'debated',
+      verification: 'unverified',
+    });
+    const messages = validateDataset(data, [
+      { id: 'ur', reason: 'This reason is long enough but Ur already has a parent.' },
+      { id: 'akkad', reason: 'short' },
+      {
+        id: 'akkad',
+        reason: 'No earlier polity in this fixture and no parent edge was supplied.',
+      },
+      {
+        id: 'akkad',
+        reason: 'A second long reason should be reported as a duplicate root.',
+      },
+      {
+        id: 'missing',
+        reason: 'This reason is long enough for a polity that is absent.',
+      },
+    ]).issues.map((issue) => issue.message);
+    expect(messages.some((message) => message.includes('root ur already has'))).toBe(
+      true,
+    );
+    expect(
+      messages.some((message) => message.includes('root akkad reason is too short')),
+    ).toBe(true);
+    expect(
+      messages.some((message) => message.includes('root missing is not a polity')),
+    ).toBe(true);
+    expect(messages.some((message) => message.includes('duplicate root akkad'))).toBe(
+      true,
+    );
+    expect(
+      messages.some((message) => message.includes('akkad has no inbound relation')),
+    ).toBe(false);
+  });
+
   it('counts the home macro-region and flags adjacent color repetition over 25%', () => {
     const result = validateDataset(base());
     expect(result.coverage?.byMacroRegion.west_central_asia).toBe(1);

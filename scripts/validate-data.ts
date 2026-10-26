@@ -1,10 +1,14 @@
-import { loadDataset } from './load-dataset.ts';
+import { loadDataset, loadRoots } from './load-dataset.ts';
 import { validateDataset } from '../src/data/validate.ts';
 
 const loaded = loadDataset();
-const { issues, coverage, dataset } = validateDataset(loaded);
+const roots = loadRoots();
+const { issues, coverage, dataset } = validateDataset(loaded, roots);
 const errors = issues.filter((issue) => issue.level === 'error');
 const warnings = issues.filter((issue) => issue.level === 'warning');
+const orphans = warnings.filter((issue) =>
+  issue.message.includes('no inbound relation'),
+);
 
 if (coverage) {
   console.log('coverage by era', coverage.byEra);
@@ -26,5 +30,5 @@ if (errors.length > 0) {
 }
 
 console.log(
-  `validate:data ok (${dataset?.polities.length ?? 0} polities, ${warnings.length} warnings)`,
+  `validate:data ok (${dataset?.polities.length ?? 0} polities, ${roots.length} roots, ${orphans.length} orphan warnings, ${warnings.length} warnings)`,
 );
