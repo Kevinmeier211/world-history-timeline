@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from 'react';
 
 import { ChartViewport, type SheetSize } from '../render/ChartViewport.tsx';
+import { useView } from '../state/view.ts';
 import { Legend, legendFamilies } from './Legend.tsx';
 import { PosterFrame } from './PosterFrame.tsx';
 import { TopBar } from './TopBar.tsx';
@@ -25,7 +26,9 @@ function browserStorage(): Storage | null {
 
 export function PosterApp() {
   const [query, setQuery] = useState('');
-  const [lens, setLens] = useState<LensId>('all');
+  const link = useView((state) => state.link);
+  const setLink = useView((state) => state.setLink);
+  const lens: LensId = link.lens ?? 'all';
   const [view, setView] = useState<ViewId>('chart');
   const [theme, setTheme] = useState<ThemeChoice>(() =>
     readStoredTheme(browserStorage()),
@@ -47,13 +50,24 @@ export function PosterApp() {
     writeStoredTheme(theme, browserStorage());
   }, [theme]);
 
+  useEffect(() => {
+    useView.getState().readHash();
+    const onHash = () => useView.getState().readHash();
+    window.addEventListener('hashchange', onHash);
+    window.addEventListener('popstate', onHash);
+    return () => {
+      window.removeEventListener('hashchange', onHash);
+      window.removeEventListener('popstate', onHash);
+    };
+  }, []);
+
   return (
     <div className="poster-app">
       <TopBar
         query={query}
         onQuery={setQuery}
         lens={lens}
-        onLens={setLens}
+        onLens={(next) => setLink({ ...link, lens: next === 'all' ? undefined : next })}
         view={view}
         onView={setView}
         theme={theme}

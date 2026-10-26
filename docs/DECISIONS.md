@@ -501,3 +501,13 @@ Alternatives: Hold the merge until Appendix D reaches 70%. Open P4 on the pictog
 Why: The phase gate is shots, the layout report, and the frame budget. M1 is a separate bar, and it blocks P4 only. P5 does not require P4.
 
 Reversible? y
+
+## 2026-10-26 — The hash stores the lens; the chart does not fly yet
+
+Decision: `#y=-221&z=1.4&sel=han&lens=trade&fold=chinese` round-trips. The lens control writes that hash and keeps `y`, `z`, `sel`, and `fold`. Back and forward restore the lens. Those four fields do not move the camera, select a ribbon, or fold a family yet. Theme stays in `chronos-theme`, not the hash. Scrolling does not push a history entry.
+
+Alternatives: Fly the camera from `y` and `z` in this same commit. Push a history entry on every scroll.
+
+Why: T5.01 is the serializer and back/forward. A scroll entry would flood the session history. Camera, selection, and fold belong to the tasks that use them.
+
+Reversible? y

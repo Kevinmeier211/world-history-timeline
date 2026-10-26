@@ -1,10 +1,11 @@
 import { existsSync, readFileSync } from 'node:fs';
 
 import { createElement } from 'react';
-import { render, screen } from '@testing-library/react';
+import { cleanup, render, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { afterEach, describe, expect, it, vi } from 'vitest';
 
+import { resetView } from '../state/view.ts';
 import { PosterApp } from './PosterApp.tsx';
 import { applyTheme, posterSpan, THEME_STORAGE_KEY } from './frame.ts';
 
@@ -28,8 +29,11 @@ class FakeResizeObserver {
 
 describe('poster shell', () => {
   afterEach(() => {
+    cleanup();
     applyTheme('system', document.documentElement);
     localStorage.removeItem(THEME_STORAGE_KEY);
+    resetView();
+    window.history.replaceState(null, '', '/');
     vi.unstubAllGlobals();
   });
 
@@ -91,6 +95,36 @@ describe('poster shell', () => {
     await user.click(screen.getByRole('button', { name: 'Theme: dark' }));
     expect(localStorage.getItem(THEME_STORAGE_KEY)).toBe('system');
     expect(document.documentElement.hasAttribute('data-theme')).toBe(false);
+  });
+
+  it('writes the lens into the hash and reads it back', async () => {
+    const trade = '#y=-221&z=1.4&sel=han&lens=trade&fold=chinese';
+    const ideas = '#y=-221&z=1.4&sel=han&lens=ideas&fold=chinese';
+    window.history.replaceState(null, '', `/${trade}`);
+    vi.stubGlobal('ResizeObserver', FakeResizeObserver);
+    const user = userEvent.setup();
+    render(createElement(PosterApp));
+    const lens = screen.getByRole('combobox', { name: 'Lens' });
+    expect(lens).toHaveValue('trade');
+    expect(document.querySelector('.poster-frame')).toHaveAttribute(
+      'data-lens',
+      'trade',
+    );
+    await user.selectOptions(lens, 'ideas');
+    expect(window.location.hash).toBe(ideas);
+    window.history.back();
+    await waitFor(() => {
+      expect(window.location.hash).toBe(trade);
+      expect(screen.getByRole('combobox', { name: 'Lens' })).toHaveValue('trade');
+    });
+    window.history.forward();
+    await waitFor(() => {
+      expect(screen.getByRole('combobox', { name: 'Lens' })).toHaveValue('ideas');
+    });
+    window.location.hash = '#lens=climate';
+    await waitFor(() => {
+      expect(screen.getByRole('combobox', { name: 'Lens' })).toHaveValue('climate');
+    });
   });
 
   it('mounts the poster and leaves the v1 canvas deleted', () => {

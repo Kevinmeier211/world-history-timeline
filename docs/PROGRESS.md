@@ -87,7 +87,8 @@
 | T3.16 | done | 9321c02 | shell test: poster mounts, v1 canvas files absent, `docs/shots/v1/` remains | 20 | `?v1=1` no longer switches apps. Polity tables stay. See DECISIONS. |
 | T3.17 | done | de79809 | `docs/reviews/M1.md`: 5 pass, 3 partial, 3 fail (45%) | 30 | Poster image missing (Q-01). P4 does not start. See DECISIONS. |
 | T3.18 | done | 060a5ae | roster override test: fitted label overlaps 23 → 15; importance-3 fit stays 1; ribbon overlaps 0 | 40 | Eight labels move aside. The modern fan-out crossings remain. See DECISIONS. |
-| T3.99 | done | (this commit) | `npm run shots` 3 passed; `layout:report` gates pass (warm 114 ms); `npm run perf` p95 16.70 ms, worst 83.40 ms | 25 | Tag `v2-p3-done` is the `--no-ff` merge into `v2/main`. P4 stays closed. See DECISIONS. |
+| T3.99 | done | 67d63e2 | `npm run shots` 3 passed; `layout:report` gates pass (warm 114 ms); `npm run perf` p95 16.70 ms, worst 83.40 ms | 25 | Tag `v2-p3-done` is merge `09a5f75`. P4 stays closed. See DECISIONS. |
+| T5.01 | done | (this commit) | hash tests round-trip `#y=-221&z=1.4&sel=han&lens=trade&fold=chinese`; shell test pushes the lens and back/forward restores it | 25 | `y`, `z`, `sel`, and `fold` parse. The chart does not fly yet. Theme stays in localStorage. See DECISIONS. |
 
 ## Blocked
 
