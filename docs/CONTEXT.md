@@ -20,4 +20,4 @@ Poster and both Gemini PDFs are missing (Q-01). Gemini bibliography [1]–[37] w
 
 ## Next
 
-T2.19 apply `layoutOverrides.json`, on branch `v2/p2-layout`. The file is empty and already in the layout hash. The early bin is 38/35. Tag `v2-p1-done` is `b4f3bea` only; `v2/main` was not moved. Merge this branch at the P2 gate. Do not start P8.
+T2.20 golden fixtures A–H and a determinism hash, on branch `v2/p2-layout`. Fixtures A, B, D, F, G, and H already have unit tests. C and E are still missing. The early bin is 38/35. Tag `v2-p1-done` is `b4f3bea` only; `v2/main` was not moved. Merge this branch at the P2 gate. Do not start P8.

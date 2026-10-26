@@ -24,6 +24,11 @@ describe('labelFit', () => {
     });
   });
 
+  it('keeps a forced horizontal label horizontal on a tall box', () => {
+    const fitted = labelFit('Ab', undefined, { w: 20, h: 100 }, measure, 'horizontal');
+    expect(fitted).toMatchObject({ text: 'Ab', orient: 'horizontal', size: 12 });
+  });
+
   it('rotates when the ribbon is much taller than it is wide', () => {
     const fitted = labelFit('Roman Empire', 'Rome', { w: 20, h: 100 }, measure);
     expect(fitted?.orient).toBe('rotated');

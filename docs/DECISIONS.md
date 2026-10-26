@@ -291,3 +291,13 @@ Alternatives: Gate the cold pass. Count culled relations as unroutable.
 Why: The cold pass pays for JIT and is not the steady layout. Culled ribbons are not on the poster, so their relations are not failed routes. The warmed roster pass is the §6.4 runtime bar.
 
 Reversible? y
+
+## 2026-10-26 — Layout overrides replace the pin and nudge the card
+
+Decision: A ribbon row's `x` replaces that polity's `xOverride` for the whole layout. `along` forces a rotated label, `horizontal` forces a horizontal one, and `outside` forces a leader even on a tall ribbon. A callout `dx`/`dy` moves a placed card, its plate, and the leader's card end. The leader start stays on the ribbon. A dropped card is not moved.
+
+Alternatives: Add the nudge before the collision search. Treat `along` as a second horizontal. Ignore a pin when the polity already has `xOverride`.
+
+Why: The file is the hand-tuning hatch. A pin has to reach the solver, or the lane stays on the geographic x. A nudge after placement is what a person asked for; searching again would undo it.
+
+Reversible? y

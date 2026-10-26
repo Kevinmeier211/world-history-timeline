@@ -3,7 +3,7 @@ import { z } from 'zod';
 import { idSchema } from './primitives.ts';
 import { xOverrideSchema } from './polity.ts';
 
-/** How labelFit may be forced. T2.19 applies the value; this task only stores it. */
+/** How a ribbon label may be forced. `along` is drawn rotated. */
 export const labelOrientationSchema = z.enum(['along', 'horizontal', 'outside']);
 
 const reasonSchema = z.string().trim().min(8);

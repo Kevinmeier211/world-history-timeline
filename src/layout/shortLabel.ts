@@ -1,5 +1,6 @@
 import { LEFT_GUTTER, MIN_GAP, PLOT_WIDTH } from './constants.ts';
 import { labelFit, type TextMeasurer } from './labelFit.ts';
+import type { LabelForce } from './overrides.ts';
 
 /**
  * A ribbon shorter than this, in design px, gets an outside label.
@@ -62,16 +63,22 @@ function hoverOnly(
   };
 }
 
-function insideLabel(ribbon: ShortRibbon, measure: TextMeasurer): PlacedRibbonLabel {
+function insideLabel(
+  ribbon: ShortRibbon,
+  measure: TextMeasurer,
+  orient?: 'rotated' | 'horizontal',
+): PlacedRibbonLabel {
   const fitted = labelFit(
     ribbon.name,
     ribbon.shortName,
     { w: ribbon.width, h: ribbon.height },
     measure,
+    orient,
   );
   if (!fitted) {
-    const orient = ribbon.height >= 1.4 * ribbon.width ? 'rotated' : 'horizontal';
-    return hoverOnly(ribbon, orient);
+    const fallback =
+      orient ?? (ribbon.height >= 1.4 * ribbon.width ? 'rotated' : 'horizontal');
+    return hoverOnly(ribbon, fallback);
   }
   const advance = measure.measure(fitted.text, fitted.size);
   if (fitted.orient === 'rotated') {
@@ -100,16 +107,11 @@ function insideLabel(ribbon: ShortRibbon, measure: TextMeasurer): PlacedRibbonLa
   };
 }
 
-/**
- * Place a ribbon label. Short ribbons sit beside the ribbon with a leader.
- * The right side is preferred until the label would leave the plot.
- */
-export function placeRibbonLabel(
+function outsideLabel(
   ribbon: ShortRibbon,
   measure: TextMeasurer,
-  plotRight = LEFT_GUTTER + PLOT_WIDTH,
+  plotRight: number,
 ): PlacedRibbonLabel {
-  if (ribbon.height >= SHORT_RIBBON_PX) return insideLabel(ribbon, measure);
   const fitted = labelFit(
     ribbon.name,
     ribbon.shortName,
@@ -152,4 +154,54 @@ export function placeRibbonLabel(
     fitted: true,
     leader: { x1: leftEdge, y1: midY, x2, y2: midY },
   };
+}
+
+/**
+ * Place a ribbon label. Short ribbons sit beside the ribbon with a leader.
+ * The right side is preferred until the label would leave the plot.
+ * `along` is the rotated ribbon label.
+ */
+/** One label per drawn ribbon. A missing frame is skipped. */
+export function placeRibbonLabels(
+  polities: readonly { id: string; name: string; shortName?: string }[],
+  frames: ReadonlyMap<string, readonly { x: number; y: number; width: number }[]>,
+  measure: TextMeasurer,
+  forces: ReadonlyMap<string, LabelForce> = new Map(),
+): PlacedRibbonLabel[] {
+  return polities.flatMap((polity) => {
+    const points = frames.get(polity.id);
+    const first = points?.[0];
+    const last = points?.at(-1);
+    if (!points || !first || !last) return [];
+    return [
+      placeRibbonLabel(
+        {
+          id: polity.id,
+          name: polity.name,
+          shortName: polity.shortName,
+          x: first.x,
+          y: first.y,
+          width: first.width,
+          height: Math.max(0, last.y - first.y),
+        },
+        measure,
+        undefined,
+        forces.get(polity.id),
+      ),
+    ];
+  });
+}
+
+export function placeRibbonLabel(
+  ribbon: ShortRibbon,
+  measure: TextMeasurer,
+  plotRight = LEFT_GUTTER + PLOT_WIDTH,
+  force?: 'along' | 'horizontal' | 'outside',
+): PlacedRibbonLabel {
+  if (force === 'outside' || (force === undefined && ribbon.height < SHORT_RIBBON_PX)) {
+    return outsideLabel(ribbon, measure, plotRight);
+  }
+  if (force === 'along') return insideLabel(ribbon, measure, 'rotated');
+  if (force === 'horizontal') return insideLabel(ribbon, measure, 'horizontal');
+  return insideLabel(ribbon, measure);
 }

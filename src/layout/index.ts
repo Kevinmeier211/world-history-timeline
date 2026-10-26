@@ -21,17 +21,12 @@ import { stableHash } from './hash.ts';
 import { canvasTextMeasurer } from './labelFit.ts';
 import { solveLanes, type LaneSliceInput } from './laneSolver.ts';
 import { selectLod, type LodItem } from './lod.ts';
+import { indexOverrides, nudgeCallout, type OverrideIndex } from './overrides.ts';
 import { projectX } from './projectX.ts';
 import { ribbonPath } from './ribbonGeometry.ts';
-import { placeRibbonLabel } from './shortLabel.ts';
+import { placeRibbonLabels } from './shortLabel.ts';
 import { buildSlices } from './slices.ts';
-import type {
-  LayoutInput,
-  LayoutLabel,
-  LayoutResult,
-  LayoutRibbon,
-  LayoutTick,
-} from './types.ts';
+import type { LayoutInput, LayoutResult, LayoutRibbon, LayoutTick } from './types.ts';
 
 const FAMILY_MACRO = new Map(
   (families as readonly { id: string; macroRegion: MacroRegion }[]).map((family) => [
@@ -122,7 +117,12 @@ function midYear(start: number, end: number): number {
   return fromT(Math.round((toT(start) + toT(end)) / 2));
 }
 
-function desiredX(polity: Polity, year: number, geography: Geography): number {
+function desiredX(
+  polity: Polity,
+  year: number,
+  geography: Geography,
+  pins: OverrideIndex['pins'],
+): number {
   return (
     LEFT_GUTTER +
     projectX({
@@ -130,7 +130,7 @@ function desiredX(polity: Polity, year: number, geography: Geography): number {
       anchors: polity.anchor,
       year,
       familyBias: geography.familyBias[polity.family] ?? 0,
-      xOverride: polity.xOverride,
+      xOverride: pins.get(polity.id) ?? polity.xOverride,
     }) *
       PLOT_WIDTH
   );
@@ -166,6 +166,7 @@ function endpoint(
 
 function computeLayout(input: LayoutInput): LayoutResult {
   const zoomY = input.viewport.zoomY;
+  const overrides = indexOverrides(input.overrides);
   const shown = shownPolities(input);
   const polities = shown.map((item) => item.polity);
   const opacityById = new Map(shown.map((item) => [item.polity.id, item.opacity]));
@@ -194,6 +195,7 @@ function computeLayout(input: LayoutInput): LayoutResult {
               polity,
               midYear(slice.start, slice.end),
               input.geography,
+              overrides.pins,
             ),
           },
         ];
@@ -240,7 +242,7 @@ function computeLayout(input: LayoutInput): LayoutResult {
       },
     ];
   });
-  const labels = labelPlacements(polities, frames);
+  const labels = placeRibbonLabels(polities, frames, measure, overrides.labels);
   const connectors = relations.flatMap((relation) => {
     const built = connect(relation, byId, frames, zoomY);
     return built ? [built] : [];
@@ -263,7 +265,10 @@ function computeLayout(input: LayoutInput): LayoutResult {
         height: label.height,
       })),
   );
-  const cards = callouts.map((card) => ({
+  const nudged = callouts.map((card) =>
+    nudgeCallout(card, overrides.nudges.get(card.calloutId)),
+  );
+  const cards = nudged.map((card) => ({
     calloutId: card.calloutId,
     x: card.x,
     y: card.y,
@@ -273,7 +278,7 @@ function computeLayout(input: LayoutInput): LayoutResult {
     marker: card.marker,
     leader: card.leader,
   }));
-  const plates = callouts.flatMap((card) =>
+  const plates = nudged.flatMap((card) =>
     card.plate ? [{ ...card.plate, calloutId: card.calloutId }] : [],
   );
   const lanes = solved.flatMap((slice) =>
@@ -307,44 +312,6 @@ function computeLayout(input: LayoutInput): LayoutResult {
       importance: new Map(polities.map((polity) => [polity.id, polity.importance])),
     }),
   };
-}
-
-function labelPlacements(
-  polities: readonly Polity[],
-  frames: ReadonlyMap<string, DatedPoint[]>,
-): LayoutLabel[] {
-  return polities.flatMap((polity) => {
-    const points = frames.get(polity.id);
-    const first = points?.[0];
-    const last = points?.at(-1);
-    if (!points || !first || !last) return [];
-    const placed = placeRibbonLabel(
-      {
-        id: polity.id,
-        name: polity.name,
-        shortName: polity.shortName,
-        x: first.x,
-        y: first.y,
-        width: first.width,
-        height: Math.max(0, last.y - first.y),
-      },
-      measure,
-    );
-    return [
-      {
-        polityId: placed.polityId,
-        text: placed.text,
-        x: placed.x,
-        y: placed.y,
-        width: placed.width,
-        height: placed.height,
-        fontSize: placed.fontSize,
-        orientation: placed.orientation,
-        fitted: placed.fitted,
-        leader: placed.leader,
-      },
-    ];
-  });
 }
 
 function connect(

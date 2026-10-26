@@ -92,4 +92,21 @@ describe('short ribbon labels', () => {
     expect(placed.text).toBe('Antidisestablishmentarianism');
     expect(placed.leader).toBeUndefined();
   });
+
+  it('forces a tall ribbon outside or along when an override says so', () => {
+    const ribbon: ShortRibbon = {
+      id: 'rome',
+      name: 'Rome',
+      x: 200,
+      y: 100,
+      width: 40,
+      height: 200,
+    };
+    const outside = placeRibbonLabel(ribbon, measure, undefined, 'outside');
+    expect(outside.orientation).toBe('outside');
+    expect(outside.leader).toBeDefined();
+    const along = placeRibbonLabel(ribbon, measure, undefined, 'along');
+    expect(along.orientation).toBe('rotated');
+    expect(along.leader).toBeUndefined();
+  });
 });

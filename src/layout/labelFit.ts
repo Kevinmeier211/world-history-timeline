@@ -67,10 +67,12 @@ export function labelFit(
   shortName: string | undefined,
   box: LabelBox,
   measure: TextMeasurer,
+  orient?: 'rotated' | 'horizontal',
 ): FittedLabel | null {
-  const orient: FittedLabel['orient'] = box.h >= 1.4 * box.w ? 'rotated' : 'horizontal';
-  const thickness = orient === 'rotated' ? box.w : box.h;
-  const length = orient === 'rotated' ? box.h : box.w;
+  const chosen: FittedLabel['orient'] =
+    orient ?? (box.h >= 1.4 * box.w ? 'rotated' : 'horizontal');
+  const thickness = chosen === 'rotated' ? box.w : box.h;
+  const length = chosen === 'rotated' ? box.h : box.w;
   const limit = length - PAD;
   if (limit <= 0) return null;
   const texts = candidates(name, shortName);
@@ -78,13 +80,14 @@ export function labelFit(
   for (const text of texts) {
     for (const size of sizes) {
       if (measure.measure(text, size) <= limit) {
-        return { text, size, orient, truncated: false };
+        return { text, size, orient: chosen, truncated: false };
       }
     }
   }
   for (const text of texts) {
     const truncated = ellipsize(text, limit, measure);
-    if (truncated) return { text: truncated, size: MIN_SIZE, orient, truncated: true };
+    if (truncated)
+      return { text: truncated, size: MIN_SIZE, orient: chosen, truncated: true };
   }
   return null;
 }

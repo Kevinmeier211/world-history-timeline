@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 
 import { bundledGeography } from '../data/catalog.ts';
-import type { Polity, Relation } from '../data/schema/index.ts';
+import type { Callout, Polity, Relation } from '../data/schema/index.ts';
 import type { LayoutInput } from './types.ts';
 import { ribbonWidth } from './constants.ts';
 import { clearLayoutCache, layout } from './index.ts';
@@ -148,6 +148,75 @@ describe('layout orchestrator', () => {
     const result = layout(input([mongol]));
     const widths = result.ribbons[0]?.keyframes.map((frame) => frame.width) ?? [];
     expect(Math.max(...widths)).toBeLessThanOrEqual(ribbonWidth(0.5) + 1e-6);
+  });
+
+  it('applies an x pin, a label force, and a callout nudge', () => {
+    clearLayoutCache();
+    const note: Callout = {
+      id: 'note',
+      title: 'Note',
+      year: -100,
+      kind: 'event',
+      attachTo: 'rome',
+      importance: 3,
+      blurb: 'A short note.',
+      sourceIds: ['note'],
+      confidence: 'approximate',
+      verification: 'unverified',
+    };
+    const rome = polity('rome', -509, 476, 12);
+    const ribbons = [
+      {
+        polityId: 'rome',
+        x: [
+          { year: -509, x: 0 },
+          { year: 476, x: 0 },
+        ],
+        label: 'outside' as const,
+        reason: 'pin the column',
+      },
+    ];
+    const plain = layout(
+      input([rome], { callouts: [note], overrides: { ribbons, callouts: [] } }),
+    );
+    const pinned = layout(
+      input([rome], {
+        callouts: [note],
+        overrides: {
+          ribbons,
+          callouts: [{ calloutId: 'note', dx: 40, dy: -15, reason: 'nudge the card' }],
+        },
+      }),
+    );
+    const right = layout(
+      input([rome], {
+        overrides: {
+          ribbons: [
+            {
+              polityId: 'rome',
+              x: [
+                { year: -509, x: 1 },
+                { year: 476, x: 1 },
+              ],
+              reason: 'pin the column',
+            },
+          ],
+          callouts: [],
+        },
+      }),
+    );
+    expect(pinned.ribbons[0]?.keyframes[0]?.x).toBeLessThan(
+      right.ribbons[0]?.keyframes[0]?.x ?? 0,
+    );
+    expect(pinned.labels[0]?.orientation).toBe('outside');
+    expect(pinned.labels[0]?.leader).toBeDefined();
+    const card = pinned.callouts[0];
+    const before = plain.callouts[0];
+    expect(card?.placed).toBe(true);
+    expect(card?.x).toBeCloseTo((before?.x ?? 0) + 40);
+    expect(card?.y).toBeCloseTo((before?.y ?? 0) - 15);
+    expect(card?.leader?.x1).toBeCloseTo(before?.leader?.x1 ?? 0);
+    expect(card?.leader?.x2).toBeCloseTo((before?.leader?.x2 ?? 0) + 40);
   });
 
   it('hides a family that the viewport filtered out', () => {
