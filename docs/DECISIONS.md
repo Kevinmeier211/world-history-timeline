@@ -471,3 +471,13 @@ Alternatives: Keep `?v1=1` as a second app. Format the v1 data tables in this sa
 Why: T3.16 removes the old canvas. Formatting those tables would mix a data cleanup into the deletion. The screenshots remain the T0.11 record.
 
 Reversible? y
+
+## 2026-10-26 — M1 is 5 of 11, so P4 stays closed
+
+Decision: `docs/reviews/M1.md` scores Appendix D as 5 pass, 3 partial, 3 fail. Partials do not count. 45% is under 70%, so P4 does not start. The poster image was not available (Q-01). The misses are the overview's unreadably small labels, an incomplete fork story, 33 labeled polities at the 1900–2000 edge instead of 60, 11 cross-cutting bands instead of 12, no images, and 23 overlapping labels with callouts unpainted.
+
+Alternatives: Count a partial as a pass and open P4. Treat the missing poster as a reason to skip the review.
+
+Why: The checkpoint says to score honestly and to withhold P4 until at least 70% pass. Inventing the missing band, the missing states, or the missing images would fake the score.
+
+Reversible? y
