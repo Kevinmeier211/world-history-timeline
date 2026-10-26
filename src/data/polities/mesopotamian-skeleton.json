@@ -16,8 +16,12 @@
         "xKey": "mesopotamia_persia"
       }
     ],
-    "summary": "Sumerian city-states is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Sumerian city-states from about 3500 BCE to 2334 BCE. This row uses that span. The migrated Sumer–Akkad bundle stays. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 3500 BCE to 2334 BCE.",
+      "The migrated Sumer–Akkad bundle stays.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cdli", "isac"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -39,8 +43,11 @@
         "xKey": "mesopotamia_persia"
       }
     ],
-    "summary": "Akkadian Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Akkadian Empire from about 2334 BCE to 2154 BCE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 2334 BCE to 2154 BCE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cdli", "isac"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -62,8 +69,12 @@
         "xKey": "mesopotamia_persia"
       }
     ],
-    "summary": "Mesopotamia in 2154–2112 BCE is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B ends the Akkadian line in 2154 BCE and starts Ur III in 2112 BCE. It does not name the interval. This row uses those bounds. The cited pages were not opened.",
+    "keyFacts": [
+      "The Akkadian line ends in 2154 BCE and Ur III starts in 2112 BCE.",
+      "The checklist does not name the interval.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cdli", "isac"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -85,8 +96,11 @@
         "xKey": "mesopotamia_persia"
       }
     ],
-    "summary": "Ur III is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Ur III from about 2112 BCE to 2004 BCE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 2112 BCE to 2004 BCE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cdli", "isac"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

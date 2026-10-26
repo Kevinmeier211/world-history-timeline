@@ -16,8 +16,12 @@
         "xKey": "china_east_asia"
       }
     ],
-    "summary": "Liangzhu is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Liangzhu from about 3300 BCE to 2300 BCE. This row uses that span. The migrated Neolithic bundle stays. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 3300 BCE to 2300 BCE.",
+      "The migrated Neolithic bundle stays.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["chgis", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
