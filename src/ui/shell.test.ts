@@ -314,7 +314,10 @@ describe('poster shell', () => {
     const panel = screen.getByRole('region', { name: 'Stories' });
     expect(panel).toBeInTheDocument();
     expect(screen.queryByRole('dialog', { name: 'Stories' })).toBeNull();
-    expect(screen.queryByRole('button', { name: 'Silk Roads' })).toBeNull();
+    expect(screen.getByRole('button', { name: 'Silk Roads' })).toBeInTheDocument();
+    expect(
+      screen.queryByRole('button', { name: 'Writing independently invented' }),
+    ).toBeNull();
     await user.click(
       screen.getByRole('button', { name: '1177 BCE: The Late Bronze Age Collapse' }),
     );
