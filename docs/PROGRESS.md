@@ -113,6 +113,18 @@
 
 2026-10-26 — Fork endpoints can replace an equal-importance ribbon. The Carolingian split routes. `npm run layout:report` label hits 0, warm 123 ms, max drift 296.774, gates pass. `docs/reviews/M4.md` is 5/11. A `MAX_DRIFT` clamp on packed steps left 246 overlaps and was not kept. P4 and P6 stay closed.
 
+2026-10-26 — `easeCenterlines` carries center and width. `egypt_late_to_ptolemaic` moves 0.22px across 0.62px of y (`07cb451`). `npm run layout:report` gates pass.
+
+2026-10-26 — Rome ends in 395 and splits into western and eastern ribbons. Aragon and Castile merge into `spain_union` (`4ba3029`). `npm run layout:report` overlaps 0, label hits 0, importance 3 fit 74/74, warm 136 ms, max drift 4.193. Gates pass.
+
+2026-10-26 — Modern slices spend spare width in place (`fd85844`). India, Pakistan, North Korea, and South Korea keep their full names. Half-em modern fits rise from 31 to 53. `npm run layout:report` overlaps 0, label hits 0, importance 3 fit 74/74, warm 149 ms, max drift 4.193. Gates pass.
+
 ## Blocked
 
-None.
+2026-10-26 — Layout pass. `docs/reviews/layout-pass.md` scores Appendix D after `fd85844`. Item 7 (shipped images) is deferred to P4 and is out of the denominator. Painted callout plates are deferred to P4 and do not fail item 8 by themselves. Ten items remain. The bar is 8 passes. The score is 5 pass, 3 partial, 2 fail.
+
+Fails: item 3, modern edge, 53 half-em fits and 52 painted names, both under 60 (`docs/shots/p3/desktop-modern.png`, `docs/reports/layout-latest.json`). Item 8, labels, 33 painted ellipses and 11 drawn ribbons with no painted name, including `western_roman_empire` (`docs/shots/p3/desktop-classical.png`).
+
+Partials: item 1, overview labels about 2px (`docs/shots/p3/desktop-overview.png`). Item 2, both Roman ribbons and the Castile–Aragon merge are drawn, and the Egypt step is 0.22px, while the west ribbon has no painted name and `maxRibbonDrift` is 4.193 on `umayyad_abbasid` (13px across 3.1px of y). Item 6, six era bands and 11 cross-cutting bands.
+
+`npm run check` green. `npm run shots` 3 passed. `npm run perf` p95 16.80 ms, worst 66.70 ms. `npm run axe` 24 passed, no serious or critical violation. Tag `v2-p5-done` is on `v2/p5-interactions`. `v2/main` was not merged. P4 and P6 stay closed.

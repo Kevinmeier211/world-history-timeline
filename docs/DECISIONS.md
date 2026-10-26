@@ -741,3 +741,13 @@ Alternatives: Solve the modern slices with compressed weights. That seated more 
 Why: Item 3 asks for about 60 readable states on the modern edge, including India, Pakistan, and both Koreas. The names have to stay full, and the rivers have to stay where the solver put them.
 
 Reversible? y
+
+## 2026-10-26 — The layout pass is 5 of 10
+
+Decision: `docs/reviews/layout-pass.md` scores Appendix D on `fd85844`. Shipped images are deferred to P4 and leave the denominator. Painted callout plates are deferred to P4 and do not fail the label row by themselves. Ten items remain. Five pass, three are partial, two fail. The bar is 8. `v2/p5-interactions` is not merged into `v2/main`. The interaction gate still runs: `npm run check`, `npm run shots` (3 passed), `npm run perf` (p95 16.80 ms), and `npm run axe` (24 passed, no serious or critical violation). Tag `v2-p5-done` records that gate on this branch. P4 and P6 stay closed.
+
+Alternatives: Count the Roman split as a pass while its west ribbon has no painted name. Count 53 modern fits as the required 60. Open P6 at 5/10.
+
+Why: The three layout commits changed the chart, and the rescore has to say what the shots show. The phase gate can be tagged when its commands are green. The poster merge waits for 8 of the 10 scored items.
+
+Reversible? y
