@@ -27,6 +27,8 @@ const FILES = [
   'src/data/callouts/fanout-01.json',
   'src/data/callouts/fanout-02.json',
   'src/data/callouts/fanout-03.json',
+  'src/data/callouts/fanout-04.json',
+  'src/data/callouts/fanout-05.json',
 ];
 
 function callouts(): Callout[] {
