@@ -611,3 +611,13 @@ Alternatives: Invent the seven tours named in the plan but missing from the tag.
 Why: T5.11 asks for a waypoint that sets the camera, the lens, the highlight, and a sourced narrative. Q-03 keeps the tour count at three.
 
 Reversible? y
+
+## 2026-10-26 — The table lists the same rows the chart is showing
+
+Decision: Table view is a grid with row, columnheader, and cell roles. It lists every polity the current fold and pin still show, plus callouts attached to those polities. A callout with no polity stays only when every family is visible. Columns sort by name, start, end, family, and importance. Years use the same continuous index as the chart, so there is no year 0. A search box filters the name, the family, and the kind. Only the rows inside the scrollport are painted, with a short fallback when the port has not been measured. Choosing a polity sets the year and opens the dossier. Choosing a callout sets the year and selects the polity it is attached to.
+
+Alternatives: Render all 400 rows at once. Give the table its own family list apart from fold and pin. Leave the placeholder sentence and ship no rows.
+
+Why: T5.12 asks for a virtualized, sortable, filtered table with ARIA table semantics, using the same roster as the chart.
+
+Reversible? y

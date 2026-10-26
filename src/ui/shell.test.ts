@@ -246,6 +246,36 @@ describe('poster shell', () => {
     expect(window.location.hash).toBe('#pin=americas');
   });
 
+  it('filters and sorts the table, then opens the dossier from a row', async () => {
+    vi.stubGlobal('ResizeObserver', FakeResizeObserver);
+    const user = userEvent.setup();
+    render(createElement(PosterApp));
+    await user.selectOptions(screen.getByRole('combobox', { name: 'View' }), 'table');
+    const table = screen.getByRole('table', { name: 'Polities and callouts' });
+    expect(table).toBeInTheDocument();
+    expect(screen.getByRole('columnheader', { name: 'Starts' })).toHaveAttribute(
+      'aria-sort',
+      'ascending',
+    );
+    await user.click(screen.getByRole('button', { name: 'Starts' }));
+    expect(screen.getByRole('columnheader', { name: 'Starts' })).toHaveAttribute(
+      'aria-sort',
+      'descending',
+    );
+    await user.type(
+      screen.getByRole('searchbox', { name: 'Filter table' }),
+      'Qin & Han',
+    );
+    const han = screen.getByRole('button', { name: 'Qin & Han Dynasties' });
+    expect(han).toBeInTheDocument();
+    expect(screen.queryByRole('button', { name: 'Invented polity' })).toBeNull();
+    await user.click(han);
+    expect(window.location.hash).toContain('sel=han_dynasty');
+    expect(screen.getByRole('dialog', { name: 'Dossier' })).toHaveTextContent(
+      'Qin & Han Dynasties',
+    );
+  });
+
   it('plays a migrated tour and leaves the other stories uninvented', async () => {
     vi.stubGlobal('ResizeObserver', FakeResizeObserver);
     const user = userEvent.setup();

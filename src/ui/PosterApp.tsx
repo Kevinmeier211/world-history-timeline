@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 
 import { columnChoices, withFold, withPin } from '../layout/columns.ts';
 import { clientDataset } from '../data/clientDataset.ts';
+import families from '../data/families.json';
 import { ChartViewport, type SheetSize } from '../render/ChartViewport.tsx';
 import {
   pushRecent,
@@ -22,6 +23,8 @@ import { Columns } from './Columns.tsx';
 import { Dossier } from './Dossier.tsx';
 import { Story } from './Story.tsx';
 import { applyStop, matchStop, storySources, tourStops } from './story.ts';
+import { buildTableRows } from './table.ts';
+import { TableView } from './TableView.tsx';
 import { dossierFor } from './dossier.ts';
 import { Legend, legendFamilies } from './Legend.tsx';
 import { PosterFrame } from './PosterFrame.tsx';
@@ -96,6 +99,17 @@ export function PosterApp() {
   const matched = matchStop(stops, link);
   const shownIndex = matched >= 0 ? matched : storyIndex;
   const shownStop = stops[shownIndex];
+  const tableRows = useMemo(
+    () =>
+      buildTableRows(
+        clientDataset().polities,
+        clientDataset().callouts,
+        families,
+        link.fold,
+        link.pin ?? [],
+      ),
+    [link.fold, link.pin],
+  );
   const storyCard =
     storyTour && shownStop
       ? {
@@ -293,9 +307,17 @@ export function PosterApp() {
         }}
       >
         {view === 'table' ? (
-          <p className="chart-note">
-            Table view lists the same polities, one row each.
-          </p>
+          <TableView
+            rows={tableRows}
+            onOpen={(row) => {
+              const current = useView.getState().link;
+              const next: ViewLink = { ...current, y: row.start };
+              const selected = row.kind === 'polity' ? row.id : row.attachTo;
+              if (selected) next.sel = selected;
+              setLink(next);
+              if (row.kind === 'polity') setDossierId(row.id);
+            }}
+          />
         ) : (
           <ChartViewport onSheet={onSheet} onOpen={setDossierId} />
         )}
