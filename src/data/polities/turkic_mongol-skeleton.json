@@ -223,8 +223,12 @@
         "xKey": "china_east_asia"
       }
     ],
-    "summary": "Golden Horde is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Golden Horde from 1242 to 1502 under Slavic and steppe. This Turkic copy is distinct from that row. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1242 to 1502.",
+      "The Slavic copy uses another id.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "unesco_mow"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -246,8 +250,12 @@
         "xKey": "china_east_asia"
       }
     ],
-    "summary": "Timurid is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Timurid span from 1370 to 1507. This row is distinct from the Persian copy. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1370 to 1507.",
+      "The Persian copy uses another id.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "unesco_mow"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

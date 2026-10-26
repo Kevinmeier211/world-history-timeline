@@ -269,8 +269,12 @@
         "xKey": "china_east_asia"
       }
     ],
-    "summary": "Ming is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Ming from 1368 to 1644. This row uses that span and is distinct from the migrated Ming–Qing bundle. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1368 to 1644.",
+      "A separate migrated row bundles Ming and Qing.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["chgis", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

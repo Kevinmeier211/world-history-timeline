@@ -154,8 +154,12 @@
         "xKey": "mesopotamia_persia"
       }
     ],
-    "summary": "Timurid is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Timurid span from 1370 to 1507 under Persia and Iran. A Turkic-family row uses another id. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1370 to 1507.",
+      "The Turkic copy uses another id.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["isac", "louvre"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -177,8 +181,13 @@
         "xKey": "mesopotamia_persia"
       }
     ],
-    "summary": "Safavid is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Safavid dynasty from 1501 to 1722 or 1736. This row ends in 1736, the later listed year. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist start is 1501.",
+      "1722 is the listed alternate end.",
+      "The span ends in 1736.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["isac", "louvre"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row.",
@@ -207,8 +216,11 @@
         "xKey": "mesopotamia_persia"
       }
     ],
-    "summary": "Afsharid is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Afsharid dynasty from 1736 to 1796. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1736 to 1796.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["isac", "louvre"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

@@ -108,8 +108,12 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "England is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Norman England from 1066 and keeps England until Great Britain in 1707. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1066 to 1707.",
+      "1707 is the checklist start of Great Britain.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -183,8 +187,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Kalmar Union is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Kalmar Union from 1397 to 1523. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1397 to 1523.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

@@ -68,8 +68,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Venice is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Venice from 697 to 1797. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 697 to 1797.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -91,8 +94,12 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Spain at the union of the crowns is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates a union of the crowns in 1469 and Habsburg Spain in 1516. It does not name the interval, and this row uses those two years. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist years are 1469 and 1516.",
+      "The checklist does not name this interval.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -114,8 +121,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Habsburg Spain is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Habsburg Spain from 1516 to 1700. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1516 to 1700.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -189,8 +199,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Dutch Republic is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Dutch Republic from 1581 to 1795. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1581 to 1795.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

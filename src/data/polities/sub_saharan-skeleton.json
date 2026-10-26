@@ -200,8 +200,11 @@
         "xKey": "sub_saharan_africa"
       }
     ],
-    "summary": "Mali is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Mali from about 1235 to 1600. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 1235 to 1600.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["unesco_gha", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -223,8 +226,11 @@
         "xKey": "sub_saharan_africa"
       }
     ],
-    "summary": "Songhai is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Songhai from about 1464 to 1591. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 1464 to 1591.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["unesco_gha", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

@@ -183,8 +183,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "Majapahit is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Majapahit from 1293 to 1527. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1293 to 1527.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["field_museum", "unesco_mow"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -206,8 +209,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "Ayutthaya is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Ayutthaya from 1351 to 1767. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1351 to 1767.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["field_museum", "unesco_mow"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

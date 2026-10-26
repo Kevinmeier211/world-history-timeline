@@ -131,8 +131,11 @@
         "xKey": "eastern_med_europe"
       }
     ],
-    "summary": "Golden Horde is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Golden Horde from 1242 to 1502. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1242 to 1502.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -154,8 +157,12 @@
         "xKey": "eastern_med_europe"
       }
     ],
-    "summary": "Steppe between Golden Horde and the Tsardom is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B ends the Golden Horde in 1502 and starts the Tsardom in 1547. It does not name the interval, and this row uses those two years. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist years are 1502 and 1547.",
+      "The checklist does not name this interval.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -177,8 +184,11 @@
         "xKey": "eastern_med_europe"
       }
     ],
-    "summary": "Tsardom of Russia is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Tsardom of Russia from 1547 to 1721. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1547 to 1721.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

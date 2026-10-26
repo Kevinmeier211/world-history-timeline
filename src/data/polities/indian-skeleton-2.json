@@ -16,8 +16,11 @@
         "xKey": "indus_india"
       }
     ],
-    "summary": "Vijayanagara is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Vijayanagara from 1336 to 1646. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1336 to 1646.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
