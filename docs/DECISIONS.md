@@ -321,3 +321,13 @@ Alternatives: Keep the Google link until T3.16. Add fontsource packages for the 
 Why: The poster type is self-hosted. A network font request fails the T3.01 check. Replacing every v1 face is T3.16, when that CSS is deleted.
 
 Reversible? y
+
+## 2026-10-26 — The poster shell is the default view
+
+Decision: `main.tsx` renders `PosterApp`. The v1 stylesheet and `App` load only when the URL has `?v1=1`, which is where the baseline screenshots open. The masthead is "Chronos Atlas / States and peoples / 3300 BCE – 2000 CE". The theme control sets `data-theme` and does not write storage.
+
+Alternatives: Leave v1 on `/` until the stage exists. Store the theme in this task.
+
+Why: The old map, dossier, and snapshot bar are off the default path. The baseline command still has to reach the v1 tree. Persistence belongs to T3.12.
+
+Reversible? y

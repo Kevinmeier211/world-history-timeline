@@ -11,7 +11,7 @@ const scenes = [
 
 test('v1 baseline scenes', async ({ page }, testInfo) => {
   test.setTimeout(90_000);
-  await page.goto('/', { waitUntil: 'domcontentloaded' });
+  await page.goto('/?v1=1', { waitUntil: 'domcontentloaded' });
   const viewport = page.locator('.timeline-scroll-viewport');
   await expect(viewport).toBeAttached();
   await Promise.race([
