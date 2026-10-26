@@ -1,0 +1,48 @@
+[
+  {
+    "id": "poland_lithuania",
+    "name": "Poland-Lithuania",
+    "family": "slavic_steppe",
+    "start": 1569,
+    "end": 1795,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Poland–Lithuania 1569–1795.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1569,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "Poland-Lithuania is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "yamnaya",
+    "name": "Yamnaya",
+    "family": "slavic_steppe",
+    "start": -3300,
+    "end": -2600,
+    "confidence": "approximate",
+    "dateNote": "Widely cited Yamnaya span is c. 3300–2600 BCE. Not an Appendix B line. Pages were not opened.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "culture",
+    "anchor": [
+      {
+        "year": -3300,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "Yamnaya is a widely cited early span. Dates are not re-verified.",
+    "keyFacts": ["Widely cited span. Pages were not opened."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Widely cited span. The cited pages were not opened for this row."
+  }
+]

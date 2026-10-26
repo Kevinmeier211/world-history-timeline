@@ -1,0 +1,278 @@
+[
+  {
+    "id": "xiongnu",
+    "name": "Xiongnu",
+    "family": "turkic_mongol",
+    "start": -209,
+    "end": 93,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Xiongnu c.209 BCE–93 CE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "confederation",
+    "anchor": [
+      {
+        "year": -209,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Xiongnu is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "gokturk",
+    "name": "Göktürk",
+    "family": "turkic_mongol",
+    "start": 552,
+    "end": 744,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Göktürk 552–744.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 552,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Göktürk is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "uyghur_khaganate",
+    "name": "Uyghur Khaganate",
+    "family": "turkic_mongol",
+    "start": 744,
+    "end": 840,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Uyghur Khaganate 744–840.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 744,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Uyghur Khaganate is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "steppe_840",
+    "name": "Steppe between Uyghur and Khitan Liao",
+    "family": "turkic_mongol",
+    "start": 840,
+    "end": 916,
+    "confidence": "debated",
+    "dateNote": "Appendix B ends the Uyghur Khaganate at 840 and starts Khitan Liao at 916. It does not name the interval.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": 840,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Steppe between Uyghur and Khitan Liao is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "seljuk",
+    "name": "Seljuk",
+    "family": "turkic_mongol",
+    "start": 1037,
+    "end": 1194,
+    "confidence": "conventional",
+    "dateNote": "Appendix B names Seljuk here and dates it 1037–1194 under Persia/Iran. Distinct from seljuk_iran.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1037,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Seljuk is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "khitan_liao",
+    "name": "Khitan Liao",
+    "family": "turkic_mongol",
+    "start": 916,
+    "end": 1125,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Khitan Liao 916–1125.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 916,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Khitan Liao is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "jurchen_jin",
+    "name": "Jurchen Jin",
+    "family": "turkic_mongol",
+    "start": 1115,
+    "end": 1234,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Jurchen Jin 1115–1234.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1115,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Jurchen Jin is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "yuan",
+    "name": "Yuan",
+    "family": "turkic_mongol",
+    "start": 1271,
+    "end": 1368,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Yuan 1271–1368, inside the Mongol Empire line. The migrated mongol_empire bundle stays.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1271,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Yuan is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "ilkhanate",
+    "name": "Ilkhanate",
+    "family": "turkic_mongol",
+    "start": 1256,
+    "end": 1335,
+    "confidence": "conventional",
+    "dateNote": "Appendix B names the Ilkhanate here and dates it 1256–1335 under Persia/Iran. Distinct from ilkhanate_iran.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1256,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Ilkhanate is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "golden_horde_turkic",
+    "name": "Golden Horde",
+    "family": "turkic_mongol",
+    "start": 1242,
+    "end": 1502,
+    "confidence": "conventional",
+    "dateNote": "Appendix B names the Golden Horde here and dates it 1242–1502 under Slavic/Steppe. Distinct from golden_horde.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1242,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Golden Horde is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "timurid",
+    "name": "Timurid",
+    "family": "turkic_mongol",
+    "start": 1370,
+    "end": 1507,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Timurid 1370–1507. Distinct from timurid_iran.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1370,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Timurid is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "mughal",
+    "name": "Mughal",
+    "family": "turkic_mongol",
+    "start": 1526,
+    "end": 1857,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Mughal 1526–1857.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 1526,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Mughal is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  }
+]

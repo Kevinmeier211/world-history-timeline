@@ -1,0 +1,108 @@
+[
+  {
+    "id": "korea_dynasties",
+    "name": "Gojoseon, Three Kingdoms, Goryeo & Joseon Korea",
+    "family": "korean_japanese",
+    "start": -1000,
+    "end": 2025,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.4,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -1000,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Maintained remarkable political and cultural continuity on the Korean Peninsula. Goryeo invented the world’s first metal movable-type printing press (Jikji, 1377—decades before Gutenberg) and celadon ceramics, while King Sejong of Joseon personally commissioned the scientific Hangul alphabet in 1443 to bring universal literacy to commoners.",
+    "keyFacts": [
+      "World’s earliest extant metal movable-type book (Jikji, 1377) & Tripitaka Koreana (81,258 woodblocks)",
+      "Hangul featural alphabet (1443) & Cheomseongdae (oldest surviving astronomical observatory in Asia)"
+    ],
+    "sourceIds": ["korea_national", "tokyo_national"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Silla, Goryeo, Joseon & Modern Korea"],
+    "startUncertainty": 100,
+    "rulers": [
+      {
+        "name": "Queen Seondeok of Silla",
+        "reign": "632–647",
+        "title": "Builder of Cheomseongdae Observatory"
+      },
+      {
+        "name": "King Sejong the Great",
+        "reign": "1418–1450",
+        "title": "Creator of Hangul Alphabet (1443)"
+      },
+      {
+        "name": "Admiral Yi Sun-sin",
+        "reign": "1545–1598",
+        "title": "Commander of Geobukseon (Turtle Ships)"
+      }
+    ],
+    "wikipediaTitle": "History_of_Korea",
+    "spans": [
+      {
+        "macroRegion": "se_asia_oceania",
+        "start": -1000,
+        "end": 2025
+      }
+    ]
+  },
+  {
+    "id": "japan_timeline",
+    "name": "Yayoi, Heian, Shogunates & Modern Japan",
+    "family": "korean_japanese",
+    "start": -400,
+    "end": 2025,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.4,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": -400,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "From Jōmon cord-marked pottery and Kofun keyhole mounds to the refined Heian court (where Murasaki Shikibu wrote The Tale of Genji, the world’s first psychological novel, c. 1008), followed by samurai shogunates, 250 years of Edo urban peace, the Meiji industrial transformation (1868), and post-WWII technological leadership.",
+    "keyFacts": [
+      "Murasaki Shikibu’s The Tale of Genji (c. 1008 CE) & Hōryū-ji (world’s oldest wooden buildings)",
+      "Edo-period ukiyo-e woodblock prints (Hokusai, Hiroshige) and near-universal urban literacy",
+      "Meiji Restoration & Shinkansen / high-tech industrial miracle"
+    ],
+    "sourceIds": ["korea_national", "tokyo_national"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Yamato, Heian, Kamakura, Tokugawa & Modern Japan"],
+    "rulers": [
+      {
+        "name": "Prince Shōtoku & Murasaki Shikibu",
+        "reign": "604 / 1008 CE",
+        "title": "Asuka & Heian Court"
+      },
+      {
+        "name": "Tokugawa Ieyasu",
+        "reign": "1603–1616",
+        "title": "Founder of Edo Shogunate (250-yr Peace)"
+      },
+      {
+        "name": "Emperor Meiji",
+        "reign": "1867–1912",
+        "title": "Meiji Restoration & Rapid Industrialization"
+      }
+    ],
+    "wikipediaTitle": "History_of_Japan",
+    "spans": [
+      {
+        "macroRegion": "se_asia_oceania",
+        "start": -400,
+        "end": 2025
+      }
+    ]
+  }
+]

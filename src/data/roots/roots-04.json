@@ -1,0 +1,98 @@
+[
+  {
+    "id": "israel_judah",
+    "reason": "gemini-v1 names no parent; nearest same-family end is ebla at a gap of 600 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "italy",
+    "reason": "gemini-v1 names no parent; nearest same-family end is first_french_empire at a gap of 47 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "japan_timeline",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "jemdet_nasr",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "jin_266",
+    "reason": "gemini-v1 names no parent; nearest same-family end is eastern_han, han_dynasty at a gap of 46 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "jomon",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "jordan",
+    "reason": "gemini-v1 names no parent; nearest same-family end is ottoman_levant at a gap of 12 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "jurchen_jin",
+    "reason": "gemini-v1 names no parent; nearest same-family end is steppe_840 at a gap of 199 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "kalmar_union",
+    "reason": "gemini-v1 names no parent; nearest same-family end is anglo_saxons, vikings at a gap of 331 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "kanem_bornu",
+    "reason": "gemini-v1 names no parent; nearest same-family end is kerma_kush, meroitic_kush at a gap of 350 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "kenya",
+    "reason": "gemini-v1 names no parent; nearest same-family end is south_africa_union at a gap of 2 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "kerma",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "kerma_kush",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "khazars",
+    "reason": "gemini-v1 names no parent; nearest same-family end is huns at a gap of 181 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "khmer_angkor",
+    "reason": "gemini-v1 names no parent; nearest same-family end is funan at a gap of 252 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "kievan_rus",
+    "reason": "gemini-v1 names no parent; nearest same-family end is avars at a gap of 60 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "kofun",
+    "reason": "gemini-v1 names no parent; nearest same-family end is jomon at a gap of 549 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "konbaung",
+    "reason": "gemini-v1 names no parent; nearest same-family end is majapahit at a gap of 225 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "kongo",
+    "reason": "gemini-v1 names no parent; nearest same-family end is ghana_wagadu at a gap of 190 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "korea_dynasties",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "kura_araxes",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "kush_napatan",
+    "reason": "gemini-v1 names no parent; nearest same-family end is kerma at a gap of 500 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "kush_twenty_fifth",
+    "reason": "gemini-v1 names no parent; nearest same-family end is kerma at a gap of 756 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "kushan",
+    "reason": "gemini-v1 names no parent; nearest same-family end is mahajanapadas, nanda at a gap of 351 continuous years, outside a shared-boundary handoff."
+  }
+]

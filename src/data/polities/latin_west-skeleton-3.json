@@ -1,0 +1,278 @@
+[
+  {
+    "id": "prussia",
+    "name": "Prussia",
+    "family": "latin_west",
+    "start": 1701,
+    "end": 1947,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Prussia 1701–1947.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1701,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Prussia is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "german_empire",
+    "name": "German Empire",
+    "family": "latin_west",
+    "start": 1871,
+    "end": 1918,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: German Empire 1871–1918.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 1871,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "German Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "germany_1918",
+    "name": "Germany in 1918–1919",
+    "family": "latin_west",
+    "start": 1918,
+    "end": 1919,
+    "confidence": "debated",
+    "dateNote": "Appendix B ends the German Empire at 1918 and starts Weimar at 1919. It does not name the interval.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": 1918,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Germany in 1918–1919 is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "weimar",
+    "name": "Weimar Republic",
+    "family": "latin_west",
+    "start": 1919,
+    "end": 1933,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Weimar 1919–33.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1919,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Weimar Republic is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "nazi_germany",
+    "name": "Nazi Germany",
+    "family": "latin_west",
+    "start": 1933,
+    "end": 1945,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Nazi Germany 1933–45.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1933,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Nazi Germany is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "germany_1945",
+    "name": "Germany in 1945–1949",
+    "family": "latin_west",
+    "start": 1945,
+    "end": 1949,
+    "confidence": "debated",
+    "dateNote": "Appendix B ends Nazi Germany at 1945 and starts East and West Germany at 1949. It does not name the interval.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": 1945,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Germany in 1945–1949 is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "east_germany",
+    "name": "East Germany",
+    "family": "latin_west",
+    "start": 1949,
+    "end": 1990,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: East Germany 1949–90.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1949,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "East Germany is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "west_germany",
+    "name": "West Germany",
+    "family": "latin_west",
+    "start": 1949,
+    "end": 1990,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: West Germany 1949–90.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1949,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "West Germany is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "germany",
+    "name": "Germany",
+    "family": "latin_west",
+    "start": 1990,
+    "end": 2000,
+    "confidence": "debated",
+    "dateNote": "Appendix B ends East and West Germany at 1990 and does not name the later state. Skeleton uses 1990–2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1990,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Germany is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "italy_476",
+    "name": "Italy in 476–493",
+    "family": "latin_west",
+    "start": 476,
+    "end": 493,
+    "confidence": "debated",
+    "dateNote": "Appendix B ends the western Roman Empire at 476 and starts the Ostrogoths at 493. It does not name the interval.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": 476,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Italy in 476–493 is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "italy",
+    "name": "Italy",
+    "family": "latin_west",
+    "start": 1861,
+    "end": 2000,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Italy 1861–. Skeleton ends at 2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1861,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Italy is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "french_revolution",
+    "name": "French Revolution",
+    "family": "latin_west",
+    "start": 1789,
+    "end": 1792,
+    "confidence": "debated",
+    "dateNote": "Appendix B dates the Revolution at 1789 and the First Republic at 1792 and does not give the Revolution an end.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": 1789,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "French Revolution is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  }
+]

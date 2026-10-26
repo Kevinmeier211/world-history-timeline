@@ -13,6 +13,7 @@ dist-print/
 media-cache/
 test-results/
 playwright-report/
+coverage/
 *.tsbuildinfo
 
 # Logs

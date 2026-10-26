@@ -1,0 +1,300 @@
+import {
+  laneMass,
+  LEFT_GUTTER,
+  MIN_GAP,
+  PLOT_WIDTH,
+  ribbonWidth,
+} from './constants.ts';
+import {
+  convergeParents,
+  lineageSeedMap,
+  type LineageRelation,
+} from './lineageSeed.ts';
+
+/** One ribbon in one time slice. `desiredX` is a design-px centerline. */
+export interface LaneRibbon {
+  id: string;
+  familyId: string;
+  weight: number;
+  importance: number;
+  desiredX: number;
+}
+
+/** Ribbons alive between two event years. */
+export interface LaneSliceInput {
+  start: number;
+  end: number;
+  ribbons: readonly LaneRibbon[];
+}
+
+/** Settled centerline for one ribbon. */
+export interface SolvedLane {
+  id: string;
+  x: number;
+  width: number;
+}
+
+/** One slice after ordering and relaxation. `lanes` is left to right. */
+export interface SolvedSlice {
+  start: number;
+  end: number;
+  lanes: readonly SolvedLane[];
+}
+
+const ITERATIONS = 40;
+const OVERLAP_LIMIT = 0.5;
+const GEO_PULL = 0.15;
+
+function centerMin(width: number): number {
+  return LEFT_GUTTER + width / 2;
+}
+
+function centerMax(width: number): number {
+  return LEFT_GUTTER + PLOT_WIDTH - width / 2;
+}
+
+function clampCenter(x: number, width: number): number {
+  const min = centerMin(width);
+  const max = centerMax(width);
+  if (min >= max) return (min + max) / 2;
+  return Math.min(max, Math.max(min, x));
+}
+
+function compareRibbon(left: LaneRibbon, right: LaneRibbon): number {
+  return (
+    left.desiredX - right.desiredX ||
+    left.familyId.localeCompare(right.familyId) ||
+    left.id.localeCompare(right.id)
+  );
+}
+
+/**
+ * Keep the previous order of ribbons that are still alive. Insert each
+ * newcomer where its desired x fits. Equal desired x breaks ties by family, then id.
+ */
+export function stableLaneOrder(
+  previous: readonly string[],
+  ribbons: readonly LaneRibbon[],
+): string[] {
+  const byId = new Map(ribbons.map((ribbon) => [ribbon.id, ribbon]));
+  const kept = previous.filter((id) => byId.has(id));
+  const seen = new Set(kept);
+  const newcomers = ribbons
+    .filter((ribbon) => !seen.has(ribbon.id))
+    .sort(compareRibbon);
+  const order = [...kept];
+  for (const ribbon of newcomers) {
+    let at = order.length;
+    for (let index = 0; index < order.length; index += 1) {
+      const other = byId.get(order[index] ?? '');
+      if (other && compareRibbon(ribbon, other) < 0) {
+        at = index;
+        break;
+      }
+    }
+    order.splice(at, 0, ribbon.id);
+  }
+  return order;
+}
+
+function maxOverlap(
+  order: readonly string[],
+  x: ReadonlyMap<string, number>,
+  byId: ReadonlyMap<string, LaneRibbon>,
+): number {
+  let worst = 0;
+  for (let index = 0; index < order.length - 1; index += 1) {
+    const leftId = order[index];
+    const rightId = order[index + 1];
+    if (leftId === undefined || rightId === undefined) continue;
+    const left = byId.get(leftId);
+    const right = byId.get(rightId);
+    if (!left || !right) continue;
+    const need = (ribbonWidth(left.weight) + ribbonWidth(right.weight)) / 2 + MIN_GAP;
+    const overlap = need - ((x.get(rightId) ?? 0) - (x.get(leftId) ?? 0));
+    if (overlap > worst) worst = overlap;
+  }
+  return worst;
+}
+
+function separate(
+  order: readonly string[],
+  x: Map<string, number>,
+  byId: ReadonlyMap<string, LaneRibbon>,
+): void {
+  for (let index = 0; index < order.length - 1; index += 1) {
+    const leftId = order[index];
+    const rightId = order[index + 1];
+    if (leftId === undefined || rightId === undefined) continue;
+    const left = byId.get(leftId);
+    const right = byId.get(rightId);
+    if (!left || !right) continue;
+    const need = (ribbonWidth(left.weight) + ribbonWidth(right.weight)) / 2 + MIN_GAP;
+    const overlap = need - ((x.get(rightId) ?? 0) - (x.get(leftId) ?? 0));
+    if (overlap <= 0) continue;
+    const leftMass = laneMass(left.weight, left.importance);
+    const rightMass = laneMass(right.weight, right.importance);
+    const total = leftMass + rightMass;
+    x.set(leftId, (x.get(leftId) ?? 0) - overlap * (rightMass / total));
+    x.set(rightId, (x.get(rightId) ?? 0) + overlap * (leftMass / total));
+  }
+}
+
+function pullTowardDesired(
+  order: readonly string[],
+  x: Map<string, number>,
+  byId: ReadonlyMap<string, LaneRibbon>,
+): void {
+  for (const id of order) {
+    const ribbon = byId.get(id);
+    if (!ribbon) continue;
+    const mass = laneMass(ribbon.weight, ribbon.importance);
+    const current = x.get(id) ?? ribbon.desiredX;
+    x.set(id, current + (GEO_PULL * (ribbon.desiredX - current)) / mass);
+  }
+}
+
+function clampAll(
+  order: readonly string[],
+  x: Map<string, number>,
+  byId: ReadonlyMap<string, LaneRibbon>,
+): void {
+  for (const id of order) {
+    const ribbon = byId.get(id);
+    if (!ribbon) continue;
+    x.set(id, clampCenter(x.get(id) ?? ribbon.desiredX, ribbonWidth(ribbon.weight)));
+  }
+}
+
+/** Pull passes before the hard pack. Appendix G allows up to `ITERATIONS`. */
+const PULL_PASSES = Math.min(8, ITERATIONS);
+
+function shiftAll(
+  lanes: readonly { id: string }[],
+  x: Map<string, number>,
+  delta: number,
+): void {
+  if (delta === 0) return;
+  for (const lane of lanes) x.set(lane.id, (x.get(lane.id) ?? 0) + delta);
+}
+
+function chainEdges(
+  lanes: readonly { id: string; width: number }[],
+  x: ReadonlyMap<string, number>,
+): { left: number; right: number } {
+  const first = lanes[0];
+  const last = lanes.at(-1);
+  if (!first || !last) return { left: LEFT_GUTTER, right: LEFT_GUTTER };
+  return {
+    left: (x.get(first.id) ?? 0) - first.width / 2,
+    right: (x.get(last.id) ?? 0) + last.width / 2,
+  };
+}
+
+/**
+ * Enforce the gap, then keep the chain inside the plot.
+ * A spread wider than the plot is packed tight from the left edge.
+ */
+export function packLaneCenters(
+  lanes: readonly { id: string; width: number }[],
+  x: Map<string, number>,
+): void {
+  for (let index = 0; index < lanes.length - 1; index += 1) {
+    const left = lanes[index];
+    const right = lanes[index + 1];
+    if (!left || !right) continue;
+    const need = (left.width + right.width) / 2 + MIN_GAP;
+    const leftX = x.get(left.id) ?? 0;
+    if ((x.get(right.id) ?? 0) - leftX < need) x.set(right.id, leftX + need);
+  }
+  const plotRight = LEFT_GUTTER + PLOT_WIDTH;
+  let edges = chainEdges(lanes, x);
+  if (edges.right > plotRight) shiftAll(lanes, x, plotRight - edges.right);
+  edges = chainEdges(lanes, x);
+  if (edges.left < LEFT_GUTTER) shiftAll(lanes, x, LEFT_GUTTER - edges.left);
+  edges = chainEdges(lanes, x);
+  if (edges.left >= LEFT_GUTTER - 1e-6 && edges.right <= plotRight + 1e-6) return;
+  let cursor = LEFT_GUTTER;
+  for (const lane of lanes) {
+    x.set(lane.id, cursor + lane.width / 2);
+    cursor += lane.width + MIN_GAP;
+  }
+}
+
+/**
+ * Enforce the gap in one sweep, then slide the chain back inside the plot.
+ * Used when geographic pull keeps reopening a gap the slice can still hold.
+ */
+function forcePack(
+  order: readonly string[],
+  x: Map<string, number>,
+  byId: ReadonlyMap<string, LaneRibbon>,
+): void {
+  const lanes = order.flatMap((id) => {
+    const ribbon = byId.get(id);
+    return ribbon ? [{ id, width: ribbonWidth(ribbon.weight) }] : [];
+  });
+  packLaneCenters(lanes, x);
+}
+
+function relax(
+  order: readonly string[],
+  x: Map<string, number>,
+  byId: ReadonlyMap<string, LaneRibbon>,
+): void {
+  for (let iteration = 0; iteration < PULL_PASSES; iteration += 1) {
+    separate(order, x, byId);
+    pullTowardDesired(order, x, byId);
+    clampAll(order, x, byId);
+    if (maxOverlap(order, x, byId) < OVERLAP_LIMIT) return;
+  }
+  forcePack(order, x, byId);
+}
+
+/** Order each slice, then relax centers. A continuing ribbon seeds from its previous x. */
+export function solveLanes(
+  slices: readonly LaneSliceInput[],
+  relations: readonly LineageRelation[] = [],
+): SolvedSlice[] {
+  let previousOrder: string[] = [];
+  const previousX = new Map<string, number>();
+  const solved: SolvedSlice[] = [];
+  for (let index = 0; index < slices.length; index += 1) {
+    const slice = slices[index];
+    if (!slice) continue;
+    const needsParents = relations.some(
+      (relation) => relation.type === 'merge' && relation.year === slice.end,
+    );
+    const upcoming = needsParents
+      ? slices.slice(index + 1).flatMap((item) => item.ribbons)
+      : [];
+    const ribbons = convergeParents(slice.ribbons, relations, slice.end, upcoming);
+    const byId = new Map(ribbons.map((ribbon) => [ribbon.id, ribbon]));
+    const seeds = lineageSeedMap(ribbons, relations, slice.start, previousX);
+    const order = stableLaneOrder(previousOrder, slice.ribbons);
+    const x = new Map<string, number>();
+    for (const id of order) {
+      const ribbon = byId.get(id);
+      if (!ribbon) continue;
+      const seeded = previousX.get(id) ?? seeds.get(id) ?? ribbon.desiredX;
+      x.set(id, clampCenter(seeded, ribbonWidth(ribbon.weight)));
+    }
+    relax(order, x, byId);
+    previousOrder = order;
+    previousX.clear();
+    for (const id of order) {
+      const settled = x.get(id);
+      if (settled !== undefined) previousX.set(id, settled);
+    }
+    solved.push({
+      start: slice.start,
+      end: slice.end,
+      lanes: order.map((id) => ({
+        id,
+        x: x.get(id) ?? 0,
+        width: ribbonWidth(byId.get(id)?.weight ?? 0),
+      })),
+    });
+  }
+  return solved;
+}

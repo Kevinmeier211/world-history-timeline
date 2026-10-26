@@ -1,0 +1,278 @@
+[
+  {
+    "id": "minoan",
+    "name": "Minoan",
+    "family": "greek_byzantine",
+    "start": -2700,
+    "end": -1450,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Minoan c.2700–1450 BCE. The migrated minoans_mycenaeans bundle stays.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "culture",
+    "anchor": [
+      {
+        "year": -2700,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "Minoan is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "mycenaean",
+    "name": "Mycenaean",
+    "family": "greek_byzantine",
+    "start": -1600,
+    "end": -1100,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Mycenaean c.1600–1100 BCE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "culture",
+    "anchor": [
+      {
+        "year": -1600,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "Mycenaean is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "greek_dark_ages",
+    "name": "Greek Dark Ages",
+    "family": "greek_byzantine",
+    "start": -1100,
+    "end": -800,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Greek Dark Ages c.1100–800 BCE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": -1100,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "Greek Dark Ages is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "archaic_greece",
+    "name": "Archaic Greece",
+    "family": "greek_byzantine",
+    "start": -800,
+    "end": -480,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Archaic 800–480 BCE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": -800,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "Archaic Greece is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "classical_period",
+    "name": "Classical Greece",
+    "family": "greek_byzantine",
+    "start": -480,
+    "end": -323,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Classical 480–323 BCE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": -480,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "Classical Greece is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "athens",
+    "name": "Athens",
+    "family": "greek_byzantine",
+    "start": -480,
+    "end": -323,
+    "confidence": "debated",
+    "dateNote": "Appendix B names Athens, Sparta, and Thebes inside Classical 480–323 BCE and does not give each city its own years.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -480,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "Athens is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "sparta",
+    "name": "Sparta",
+    "family": "greek_byzantine",
+    "start": -480,
+    "end": -323,
+    "confidence": "debated",
+    "dateNote": "Appendix B names Athens, Sparta, and Thebes inside Classical 480–323 BCE and does not give each city its own years.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -480,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "Sparta is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "thebes",
+    "name": "Thebes",
+    "family": "greek_byzantine",
+    "start": -480,
+    "end": -323,
+    "confidence": "debated",
+    "dateNote": "Appendix B names Athens, Sparta, and Thebes inside Classical 480–323 BCE and does not give each city its own years.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -480,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "Thebes is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "hellenistic_kingdoms",
+    "name": "Hellenistic kingdoms",
+    "family": "greek_byzantine",
+    "start": -323,
+    "end": -31,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Hellenistic kingdoms 323–31 BCE. It names Antigonid, Seleucid, Ptolemaic, and Greco-Bactrian without separate years.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": -323,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "Hellenistic kingdoms is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "first_bulgarian_empire",
+    "name": "First Bulgarian Empire",
+    "family": "greek_byzantine",
+    "start": 681,
+    "end": 1018,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: First Bulgarian 681–1018.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 681,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "First Bulgarian Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "second_bulgarian_empire",
+    "name": "Second Bulgarian Empire",
+    "family": "greek_byzantine",
+    "start": 1185,
+    "end": 1396,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Second Bulgarian 1185–1396.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 1185,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "Second Bulgarian Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "latin_empire",
+    "name": "Latin Empire",
+    "family": "greek_byzantine",
+    "start": 1204,
+    "end": 1261,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Latin Empire 1204–1261.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 1204,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "Latin Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  }
+]

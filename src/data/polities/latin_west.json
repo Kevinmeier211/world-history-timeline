@@ -1,0 +1,282 @@
+[
+  {
+    "id": "roman_republic",
+    "name": "Roman Kingdom & Republic",
+    "family": "latin_west",
+    "start": -753,
+    "end": -27,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.55,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -753,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Evolving from a Tiber River city-state after overthrowing its monarchy in 509 BCE, the Roman Republic unified Italy, defeated Carthage in the Punic Wars, and conquered Greece, Gaul, and the Levant.",
+    "keyFacts": [
+      "Twelve Tables & Roman Republican legal/constitutional framework",
+      "Appian Way, Roman concrete (opus caementicium), and aqueduct engineering"
+    ],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Senatus Populusque Romanus (SPQR)"],
+    "rulers": [
+      {
+        "name": "Scipio Africanus",
+        "reign": "202 BCE",
+        "title": "Victor over Hannibal at Zama"
+      },
+      {
+        "name": "Julius Caesar",
+        "reign": "49–44 BCE",
+        "title": "Dictator Perpetuo"
+      }
+    ],
+    "wikipediaTitle": "Roman_Republic",
+    "spans": [
+      {
+        "macroRegion": "africa",
+        "start": -63,
+        "end": -27
+      }
+    ]
+  },
+  {
+    "id": "roman_empire",
+    "name": "Roman Empire",
+    "family": "latin_west",
+    "start": -27,
+    "end": 476,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.92,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": -27,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Uniting the entire Mediterranean (\"Mare Nostrum\") from Scotland to the Tigris, the Roman Empire diffused Latin, civil law, monumental architecture, paved highways, and—after the Edict of Milan (313 CE)—Christianity across Europe.",
+    "keyFacts": [
+      "200-year Pax Romana & 80,000 km of paved stone highways",
+      "Colosseum, Pantheon (unreinforced concrete dome), and Pont du Gard",
+      "Roman jurisprudence forming the basis of modern civil law"
+    ],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Imperium Romanum (Pax Romana)"],
+    "rulers": [
+      {
+        "name": "Augustus (Octavian)",
+        "reign": "27 BCE – 14 CE",
+        "title": "First Roman Emperor"
+      },
+      {
+        "name": "Trajan & Hadrian",
+        "reign": "98–138 CE",
+        "title": "Adoptive Emperors at Territorial Peak"
+      },
+      {
+        "name": "Marcus Aurelius",
+        "reign": "161–180 CE",
+        "title": "Stoic Philosopher-Emperor"
+      },
+      {
+        "name": "Constantine the Great",
+        "reign": "306–337 CE",
+        "title": "Founder of Constantinople"
+      }
+    ],
+    "wikipediaTitle": "Roman_Empire",
+    "spans": [
+      {
+        "macroRegion": "africa",
+        "start": -27,
+        "end": 395
+      }
+    ]
+  },
+  {
+    "id": "franks_charlemagne",
+    "name": "Frankish & Carolingian Empire",
+    "family": "latin_west",
+    "start": 481,
+    "end": 888,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.72,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 481,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Out of the Germanic kingdoms succeeding Western Rome, the Franks united Western and Central Europe under Charlemagne, sparking the Carolingian Renaissance before splitting in the Treaty of Verdun (843) into the precursors of France and Germany.",
+    "keyFacts": [
+      "Carolingian minuscule script (basis of modern lowercase alphabet)",
+      "Coronation of Charlemagne in 800 CE reviving the Western imperial title"
+    ],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Empire of Charlemagne"],
+    "rulers": [
+      {
+        "name": "Clovis I",
+        "reign": "481–511",
+        "title": "First King of the Franks"
+      },
+      {
+        "name": "Charles Martel",
+        "reign": "718–741",
+        "title": "Victor at Tours (732)"
+      },
+      {
+        "name": "Charlemagne",
+        "reign": "768–814",
+        "title": "Crowned Emperor of the Romans (800)"
+      }
+    ],
+    "wikipediaTitle": "Carolingian_Empire"
+  },
+  {
+    "id": "spain_portugal",
+    "name": "Iberia: Al-Andalus, Spain & Portugal",
+    "family": "latin_west",
+    "start": 711,
+    "end": 2025,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.4,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 711,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "From the cosmopolitan libraries of Umayyad Córdoba and Toledo’s translators to the Iberian Age of Discovery: Vasco da Gama’s route to India (1498), Columbus’s 1492 voyage, and Magellan-Elcano’s first circumnavigation of Earth (1519–1522).",
+    "keyFacts": [
+      "Great Mosque of Córdoba, Alhambra, and Toledo School of Translators",
+      "First global maritime empires & first circumnavigation of the globe (1522)"
+    ],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Córdoba, Portuguese & Spanish Empires"],
+    "rulers": [
+      {
+        "name": "Abd al-Rahman III",
+        "reign": "912–961",
+        "title": "Caliph of Córdoba"
+      },
+      {
+        "name": "Isabella I & Ferdinand II",
+        "reign": "1474–1516",
+        "title": "Catholic Monarchs"
+      }
+    ],
+    "wikipediaTitle": "Spanish_Empire"
+  },
+  {
+    "id": "france_kingdom",
+    "name": "Kingdom of France → French Republic",
+    "family": "latin_west",
+    "start": 843,
+    "end": 2025,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.4,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 843,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Epicenter of Gothic architecture, the Scholastic University of Paris, the 18th-century Enlightenment, the French Revolution of 1789 (Declaration of the Rights of Man), and the Napoleonic Civil Code.",
+    "keyFacts": [
+      "Gothic cathedrals (Chartres, Notre-Dame) & Enlightenment Encyclopédie",
+      "French Revolution (1789), Metric System, and Napoleonic Code (1804)"
+    ],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Capetian France, Napoleonic Empire & Republic"],
+    "rulers": [
+      {
+        "name": "Louis IX & Joan of Arc",
+        "reign": "13th–15th c.",
+        "title": "Medieval France"
+      },
+      {
+        "name": "Louis XIV",
+        "reign": "1643–1715",
+        "title": "The Sun King"
+      },
+      {
+        "name": "Napoleon Bonaparte",
+        "reign": "1799–1815",
+        "title": "Emperor of the French"
+      }
+    ],
+    "wikipediaTitle": "History_of_France"
+  },
+  {
+    "id": "holy_roman_empire",
+    "name": "Holy Roman Empire → Germany",
+    "family": "latin_west",
+    "start": 843,
+    "end": 2025,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.4,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 843,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Central European federation spanning a millennium (962–1806), birthplace of Gutenberg’s printing press and the Protestant Reformation, later unified as Germany in 1871 and reunited democratically in 1990.",
+    "keyFacts": [
+      "Johannes Gutenberg’s movable-type printing press in Mainz (c. 1450)",
+      "Martin Luther’s 95 Theses (1517) & Peace of Westphalia (1648)"
+    ],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Sacrum Imperium Romanum → Deutsches Reich / FRG"],
+    "rulers": [
+      {
+        "name": "Otto I the Great",
+        "reign": "936–973",
+        "title": "Holy Roman Emperor"
+      },
+      {
+        "name": "Frederick II Hohenstaufen",
+        "reign": "1220–1250",
+        "title": "Stupor Mundi"
+      },
+      {
+        "name": "Charles V",
+        "reign": "1519–1556",
+        "title": "Habsburg Emperor"
+      }
+    ],
+    "wikipediaTitle": "Holy_Roman_Empire"
+  }
+]

@@ -1,0 +1,278 @@
+[
+  {
+    "id": "phoenician_city_states",
+    "name": "Phoenician city-states",
+    "family": "levantine_semitic",
+    "start": -1500,
+    "end": -539,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Phoenician city-states c.1500–539 BCE. The migrated phoenicia_israel bundle stays.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "confederation",
+    "anchor": [
+      {
+        "year": -1500,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Phoenician city-states is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "israel_judah",
+    "name": "Israel and Judah",
+    "family": "levantine_semitic",
+    "start": -1000,
+    "end": -586,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Israel/Judah c.1000–586 BCE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -1000,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Israel and Judah is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "second_temple",
+    "name": "Second Temple period",
+    "family": "levantine_semitic",
+    "start": -516,
+    "end": 70,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Second Temple period 516 BCE–70 CE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": -516,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Second Temple period is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "carthage",
+    "name": "Carthage",
+    "family": "levantine_semitic",
+    "start": -814,
+    "end": -146,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Carthage c.814–146 BCE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -814,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Carthage is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "nabataean",
+    "name": "Nabataean",
+    "family": "levantine_semitic",
+    "start": -312,
+    "end": 106,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Nabataean c.312 BCE–106 CE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -312,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Nabataean is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "crusader_states",
+    "name": "Crusader states",
+    "family": "levantine_semitic",
+    "start": 1098,
+    "end": 1291,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Crusader states 1098–1291.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "confederation",
+    "anchor": [
+      {
+        "year": 1098,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Crusader states is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "ottoman_levant",
+    "name": "Ottoman Levant",
+    "family": "levantine_semitic",
+    "start": 1516,
+    "end": 1918,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Ottoman Levant 1516–1918.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1516,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Ottoman Levant is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "levant_mandates",
+    "name": "Levant mandates",
+    "family": "levantine_semitic",
+    "start": 1920,
+    "end": 1948,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Mandates 1920–48.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": 1920,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Levant mandates is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "israel",
+    "name": "Israel",
+    "family": "levantine_semitic",
+    "start": 1948,
+    "end": 2000,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Israel 1948–. Skeleton ends at 2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1948,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Israel is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "syria",
+    "name": "Syria",
+    "family": "levantine_semitic",
+    "start": 1930,
+    "end": 2000,
+    "confidence": "debated",
+    "dateNote": "Appendix B says modern Arab states in the 1930s–70s and does not name each state. Skeleton uses 1930–2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1930,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Syria is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "lebanon",
+    "name": "Lebanon",
+    "family": "levantine_semitic",
+    "start": 1930,
+    "end": 2000,
+    "confidence": "debated",
+    "dateNote": "Appendix B says modern Arab states in the 1930s–70s and does not name each state. Skeleton uses 1930–2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1930,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Lebanon is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "jordan",
+    "name": "Jordan",
+    "family": "levantine_semitic",
+    "start": 1930,
+    "end": 2000,
+    "confidence": "debated",
+    "dateNote": "Appendix B says modern Arab states in the 1930s–70s and does not name each state. Skeleton uses 1930–2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1930,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Jordan is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  }
+]

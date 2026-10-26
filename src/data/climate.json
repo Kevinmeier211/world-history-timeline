@@ -1,0 +1,87 @@
+{
+  "baseline": "Degrees Celsius relative to 1900, as recorded on gemini-v1.",
+  "verification": "unverified",
+  "evidence": "Curve copied from gemini-v1 PALEOCLIMATE_CURVE. Temperatures were not re-checked.",
+  "points": [
+    {
+      "year": -3300,
+      "tempDeltaC": 0.45,
+      "label": "Holocene Climatic Optimum"
+    },
+    {
+      "year": -2800,
+      "tempDeltaC": 0.35
+    },
+    {
+      "year": -2200,
+      "tempDeltaC": -0.45,
+      "label": "4.2 ka Megadrought & Cooling"
+    },
+    {
+      "year": -2000,
+      "tempDeltaC": 0.15
+    },
+    {
+      "year": -1500,
+      "tempDeltaC": 0.25
+    },
+    {
+      "year": -1200,
+      "tempDeltaC": -0.35,
+      "label": "Late Bronze Age Arid Pulse"
+    },
+    {
+      "year": -800,
+      "tempDeltaC": -0.15
+    },
+    {
+      "year": -200,
+      "tempDeltaC": 0.35,
+      "label": "Roman / Han Warm Period"
+    },
+    {
+      "year": 150,
+      "tempDeltaC": 0.3
+    },
+    {
+      "year": 536,
+      "tempDeltaC": -0.65,
+      "label": "536 CE Volcanic Winter / Late Antique Little Ice Age"
+    },
+    {
+      "year": 750,
+      "tempDeltaC": -0.1
+    },
+    {
+      "year": 1000,
+      "tempDeltaC": 0.3,
+      "label": "Medieval Warm Period"
+    },
+    {
+      "year": 1250,
+      "tempDeltaC": 0.15
+    },
+    {
+      "year": 1450,
+      "tempDeltaC": -0.35
+    },
+    {
+      "year": 1650,
+      "tempDeltaC": -0.55,
+      "label": "Little Ice Age Minimum (Maunder)"
+    },
+    {
+      "year": 1850,
+      "tempDeltaC": -0.15
+    },
+    {
+      "year": 1950,
+      "tempDeltaC": 0.2
+    },
+    {
+      "year": 2025,
+      "tempDeltaC": 1.25,
+      "label": "Anthropocene Rapid Warming (+1.25°C)"
+    }
+  ]
+}

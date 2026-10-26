@@ -1,0 +1,246 @@
+[
+  {
+    "id": "route_bronze_trade",
+    "name": "Bronze Age Tin & Lapis Trade Network",
+    "type": "trade",
+    "start": -3000,
+    "end": -1200,
+    "waypoints": [
+      {
+        "year": -2600,
+        "x": 0.42,
+        "label": "Aegean Copper/Silver"
+      },
+      {
+        "year": -2700,
+        "x": 0.38,
+        "label": "Byblos Cedar & Gold"
+      },
+      {
+        "year": -2800,
+        "x": 0.52,
+        "label": "Sumer & Elam"
+      },
+      {
+        "year": -2500,
+        "x": 0.69,
+        "label": "Meluhha (Harappa) Carnelian & Lapis"
+      }
+    ],
+    "description": "Maritime Persian Gulf and overland Zagros trade linking Sumer, Dilmun (Bahrain), Magan (Oman copper), Meluhha (Indus Valley), and Badakhshan lapis lazuli mines.",
+    "commodities": ["Tin", "Copper", "Lapis Lazuli", "Carnelian Beads", "Cedar Wood"],
+    "importance": 3,
+    "sourceIds": ["cambridge_histories"],
+    "confidence": "approximate",
+    "verification": "unverified",
+    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
+  },
+  {
+    "id": "route_indo_european",
+    "name": "Indo-European Steppe Migrations",
+    "type": "migration",
+    "start": -2500,
+    "end": -1400,
+    "waypoints": [
+      {
+        "year": -2400,
+        "x": 0.42,
+        "label": "Pontic Steppe / Yamnaya-Andronovo"
+      },
+      {
+        "year": -2200,
+        "x": 0.28,
+        "label": "Bell Beaker & Italic/Celtic"
+      },
+      {
+        "year": -1700,
+        "x": 0.52,
+        "label": "Iranian Plateau & Mitanni"
+      },
+      {
+        "year": -1500,
+        "x": 0.69,
+        "label": "Indo-Aryan Vedic Migration"
+      }
+    ],
+    "description": "Pastoralists mastering horse domestication and spoked-wheel chariots radiated from the Pontic-Caspian and Sintashta steppes into Europe, Anatolia (Hittites), Iran, and northern India.",
+    "commodities": [
+      "Spoked Chariots",
+      "Horse Domestication",
+      "Indo-European Languages",
+      "Bronze Weapons"
+    ],
+    "importance": 3,
+    "sourceIds": ["cambridge_histories"],
+    "confidence": "approximate",
+    "verification": "unverified",
+    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
+  },
+  {
+    "id": "route_austronesian",
+    "name": "Austronesian Maritime Expansion",
+    "type": "migration",
+    "start": -3000,
+    "end": 1200,
+    "waypoints": [
+      {
+        "year": -3000,
+        "x": 0.83,
+        "label": "Taiwan Outrigger Origins"
+      },
+      {
+        "year": -1500,
+        "x": 0.93,
+        "label": "Philippines, Indonesia & Lapita"
+      },
+      {
+        "year": 500,
+        "x": 0.27,
+        "label": "Settlement of Madagascar"
+      },
+      {
+        "year": 1000,
+        "x": 0.08,
+        "label": "Polynesian Sweet Potato Contact"
+      }
+    ],
+    "description": "Using double-hulled outrigger canoes and star navigation, Austronesian peoples settled half the globe—from Taiwan through Island SE Asia to Polynesia, New Zealand, Hawaii, Rapa Nui, and Madagascar.",
+    "commodities": [
+      "Outrigger Canoes",
+      "Taro & Breadfruit",
+      "Celestial Navigation",
+      "Lapita Pottery"
+    ],
+    "importance": 3,
+    "sourceIds": ["cambridge_histories"],
+    "confidence": "approximate",
+    "verification": "unverified",
+    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
+  },
+  {
+    "id": "route_silk_road",
+    "name": "The Silk Road & Indian Ocean Network",
+    "type": "trade",
+    "start": -130,
+    "end": 1453,
+    "waypoints": [
+      {
+        "year": -115,
+        "x": 0.83,
+        "label": "Chang'an (Han Envoy Zhang Qian)"
+      },
+      {
+        "year": 50,
+        "x": 0.69,
+        "label": "Kushan & Buddhism Transmission"
+      },
+      {
+        "year": 100,
+        "x": 0.52,
+        "label": "Parthian & Sogdian Caravans"
+      },
+      {
+        "year": 120,
+        "x": 0.38,
+        "label": "Antioch, Palmyra & Alexandria"
+      },
+      {
+        "year": 150,
+        "x": 0.28,
+        "label": "Imperial Rome"
+      }
+    ],
+    "description": "Formally connected when Han Emperor Wu dispatched Zhang Qian west in 130 BCE, linking Chang’an, Samarkand, India, Persia, and the Roman Mediterranean via oasis caravans and monsoon sea lanes.",
+    "commodities": [
+      "Silk",
+      "Roman Glassware",
+      "Ferghana Horses",
+      "Buddhism",
+      "Paper-making",
+      "Spices"
+    ],
+    "importance": 3,
+    "sourceIds": ["cambridge_histories"],
+    "confidence": "approximate",
+    "verification": "unverified",
+    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
+  },
+  {
+    "id": "route_trans_saharan",
+    "name": "Trans-Saharan Camel Caravan Network",
+    "type": "trade",
+    "start": 400,
+    "end": 1591,
+    "waypoints": [
+      {
+        "year": 750,
+        "x": 0.27,
+        "label": "Ghana, Mali & Timbuktu Goldfields"
+      },
+      {
+        "year": 900,
+        "x": 0.38,
+        "label": "Cairo & Maghreb Caravans"
+      },
+      {
+        "year": 1100,
+        "x": 0.28,
+        "label": "Al-Andalus & Mediterranean Minting"
+      }
+    ],
+    "description": "Camel caravans linked West African goldfields (Bambuk, Bure, Akan) and Saharan salt mines (Taghaza) to North Africa, Cairo, and European gold coinage.",
+    "commodities": ["Gold", "Rock Salt", "Manuscripts", "Ivory", "Kola Nuts"],
+    "importance": 3,
+    "sourceIds": ["cambridge_histories"],
+    "confidence": "approximate",
+    "verification": "unverified",
+    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
+  },
+  {
+    "id": "route_columbian_exchange",
+    "name": "Trans-Atlantic & Manila Galleon Global Circuit",
+    "type": "trade",
+    "start": 1492,
+    "end": 1800,
+    "waypoints": [
+      {
+        "year": 1492,
+        "x": 0.28,
+        "label": "Seville, Lisbon, Amsterdam & London"
+      },
+      {
+        "year": 1521,
+        "x": 0.11,
+        "label": "Veracruz & Acapulco"
+      },
+      {
+        "year": 1545,
+        "x": 0.08,
+        "label": "Potosí Silver Mountain"
+      },
+      {
+        "year": 1565,
+        "x": 0.93,
+        "label": "Manila Galleon Hub"
+      },
+      {
+        "year": 1575,
+        "x": 0.83,
+        "label": "Ming Single-Whip Silver Economy"
+      }
+    ],
+    "description": "Spanish, Portuguese, Dutch, and British oceanic fleets linked American silver mines and plantation crops with European ports, West Africa, and Ming/Qing China.",
+    "commodities": [
+      "Silver Bullion",
+      "Maize & Potatoes",
+      "Porcelain",
+      "Sugar & Cacao",
+      "Tea & Spices"
+    ],
+    "importance": 3,
+    "sourceIds": ["cambridge_histories"],
+    "confidence": "approximate",
+    "verification": "unverified",
+    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
+  }
+]

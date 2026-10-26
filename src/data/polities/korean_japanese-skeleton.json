@@ -1,0 +1,278 @@
+[
+  {
+    "id": "goguryeo",
+    "name": "Goguryeo",
+    "family": "korean_japanese",
+    "start": -37,
+    "end": 668,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Goguryeo 37 BCE–668.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -37,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Goguryeo is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["korea_national", "tokyo_national"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "baekje",
+    "name": "Baekje",
+    "family": "korean_japanese",
+    "start": -18,
+    "end": 660,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Baekje 18 BCE–660.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -18,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Baekje is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["korea_national", "tokyo_national"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "silla",
+    "name": "Silla",
+    "family": "korean_japanese",
+    "start": -57,
+    "end": 935,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Silla 57 BCE–935.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -57,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Silla is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["korea_national", "tokyo_national"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "unified_silla",
+    "name": "Unified Silla",
+    "family": "korean_japanese",
+    "start": 668,
+    "end": 935,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Unified Silla 668–935.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 668,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Unified Silla is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["korea_national", "tokyo_national"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "balhae",
+    "name": "Balhae",
+    "family": "korean_japanese",
+    "start": 698,
+    "end": 926,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Balhae 698–926.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 698,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Balhae is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["korea_national", "tokyo_national"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "goryeo",
+    "name": "Goryeo",
+    "family": "korean_japanese",
+    "start": 918,
+    "end": 1392,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Goryeo 918–1392.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 918,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Goryeo is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["korea_national", "tokyo_national"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "joseon",
+    "name": "Joseon",
+    "family": "korean_japanese",
+    "start": 1392,
+    "end": 1897,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Joseon 1392–1897.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1392,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Joseon is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["korea_national", "tokyo_national"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "korean_empire",
+    "name": "Korean Empire",
+    "family": "korean_japanese",
+    "start": 1897,
+    "end": 1910,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Korean Empire 1897–1910.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 1897,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Korean Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["korea_national", "tokyo_national"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "korea_under_japan",
+    "name": "Korea under Japan",
+    "family": "korean_japanese",
+    "start": 1910,
+    "end": 1945,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Korea under Japan 1910–45.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1910,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Korea under Japan is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["korea_national", "tokyo_national"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "korea_1945",
+    "name": "Korea in 1945–1948",
+    "family": "korean_japanese",
+    "start": 1945,
+    "end": 1948,
+    "confidence": "debated",
+    "dateNote": "Appendix B ends Korea under Japan at 1945 and starts North and South Korea at 1948. It does not name the interval.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": 1945,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "Korea in 1945–1948 is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["korea_national", "tokyo_national"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "north_korea",
+    "name": "North Korea",
+    "family": "korean_japanese",
+    "start": 1948,
+    "end": 2000,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: N/S Korea 1948–. Skeleton ends at 2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1948,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "North Korea is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["korea_national", "tokyo_national"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "south_korea",
+    "name": "South Korea",
+    "family": "korean_japanese",
+    "start": 1948,
+    "end": 2000,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: N/S Korea 1948–. Skeleton ends at 2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1948,
+        "xKey": "austronesia_japan_sea"
+      }
+    ],
+    "summary": "South Korea is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["korea_national", "tokyo_national"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  }
+]

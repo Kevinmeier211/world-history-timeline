@@ -1,21 +1,21 @@
-import { POLITIES_WEST } from './politiesWest';
-import { POLITIES_EAST } from './politiesEast';
-import { Polity } from '../types/history';
+export {
+  ALL_POLITIES,
+  COMPARISON_PRESETS,
+  CROSS_CUTTING_BANDS,
+  HISTORICAL_ERAS,
+  HISTORICAL_NODES,
+  PALEOCLIMATE_CURVE,
+  POLITY_BY_ID,
+  REGIONS,
+  STORY_TOURS,
+  TRADE_AND_MIGRATION_ROUTES,
+} from './legacy.ts';
 
 export {
-  REGIONS,
-  HISTORICAL_ERAS,
-  CROSS_CUTTING_BANDS,
-  TRADE_AND_MIGRATION_ROUTES,
-  COMPARISON_PRESETS,
-  STORY_TOURS,
-  PALEOCLIMATE_CURVE,
-} from './regionsAndEras';
-
-export { HISTORICAL_NODES } from './historicalNodes';
-
-export const ALL_POLITIES: Polity[] = [...POLITIES_WEST, ...POLITIES_EAST];
-
-export const POLITY_BY_ID: Record<string, Polity> = Object.fromEntries(
-  ALL_POLITIES.map((p) => [p.id, p])
-);
+  buildCatalog,
+  bundledDataset,
+  bundledGeography,
+  ERA_BINS,
+  getBundledCatalog,
+} from './catalog.ts';
+export type { Catalog } from './catalog.ts';

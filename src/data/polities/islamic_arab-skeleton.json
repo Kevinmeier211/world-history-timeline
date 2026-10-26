@@ -1,0 +1,239 @@
+[
+  {
+    "id": "rashidun",
+    "name": "Rashidun Caliphate",
+    "family": "islamic_arab",
+    "start": 632,
+    "end": 661,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Rashidun 632–661. The migrated umayyad_abbasid bundle stays.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 632,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Rashidun Caliphate is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "umayyad",
+    "name": "Umayyad Caliphate",
+    "family": "islamic_arab",
+    "start": 661,
+    "end": 750,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Umayyad 661–750.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 661,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Umayyad Caliphate is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "abbasid",
+    "name": "Abbasid Caliphate",
+    "family": "islamic_arab",
+    "start": 750,
+    "end": 1258,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Abbasid 750–1258.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 750,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Abbasid Caliphate is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "al_andalus",
+    "name": "Al-Andalus",
+    "family": "islamic_arab",
+    "start": 711,
+    "end": 1492,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Al-Andalus 711–1492.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 711,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Al-Andalus is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "almoravid",
+    "name": "Almoravid",
+    "family": "islamic_arab",
+    "start": 1040,
+    "end": 1147,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Almoravid 1040–1147.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1040,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Almoravid is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "almohad",
+    "name": "Almohad",
+    "family": "islamic_arab",
+    "start": 1121,
+    "end": 1269,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Almohad 1121–1269.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1121,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Almohad is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "fatimid",
+    "name": "Fatimid Caliphate",
+    "family": "islamic_arab",
+    "start": 909,
+    "end": 1171,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Fatimid 909/969–1171. The earlier listed year is the span start. Distinct from fatimid_egypt.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 909,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Fatimid Caliphate is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row.",
+    "endpoints": [
+      {
+        "label": "Appendix B alternate start",
+        "year": 969,
+        "note": "Appendix B lists 909/969 and does not say which year starts the caliphate."
+      }
+    ]
+  },
+  {
+    "id": "mamluk_sultanate",
+    "name": "Mamluk Sultanate",
+    "family": "islamic_arab",
+    "start": 1250,
+    "end": 1517,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Mamluk 1250–1517. Distinct from mamluk_egypt.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1250,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Mamluk Sultanate is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "ottoman",
+    "name": "Ottoman Empire",
+    "family": "islamic_arab",
+    "start": 1299,
+    "end": 1922,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Ottoman c.1299–1922. Distinct from the migrated ottoman_empire bundle, which runs past 1922.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 1299,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Ottoman Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "saudi_arabia",
+    "name": "Saudi Arabia",
+    "family": "islamic_arab",
+    "start": 1932,
+    "end": 2000,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Saudi Arabia 1932–. Skeleton ends at 2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1932,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Saudi Arabia is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["unesco_gha", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  }
+]

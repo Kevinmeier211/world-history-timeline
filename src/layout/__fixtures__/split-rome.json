@@ -1,0 +1,55 @@
+{
+  "name": "A",
+  "note": "Republic to Empire at 27 BCE, then West and East at 395. West stays left of East.",
+  "relations": [
+    { "type": "split", "year": 395, "from": ["empire"], "to": ["west", "east"] }
+  ],
+  "slices": [
+    {
+      "start": -509,
+      "end": -27,
+      "ribbons": [
+        {
+          "id": "republic",
+          "familyId": "latin_west",
+          "weight": 0.4,
+          "importance": 3,
+          "desiredX": 500
+        }
+      ]
+    },
+    {
+      "start": -27,
+      "end": 395,
+      "ribbons": [
+        {
+          "id": "empire",
+          "familyId": "latin_west",
+          "weight": 0.5,
+          "importance": 4,
+          "desiredX": 510
+        }
+      ]
+    },
+    {
+      "start": 395,
+      "end": 476,
+      "ribbons": [
+        {
+          "id": "west",
+          "familyId": "latin_west",
+          "weight": 0.3,
+          "importance": 3,
+          "desiredX": 430
+        },
+        {
+          "id": "east",
+          "familyId": "latin_west",
+          "weight": 0.3,
+          "importance": 4,
+          "desiredX": 640
+        }
+      ]
+    }
+  ]
+}

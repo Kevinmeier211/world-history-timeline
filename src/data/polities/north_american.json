@@ -1,0 +1,194 @@
+[
+  {
+    "id": "poverty_point",
+    "name": "Poverty Point Culture",
+    "family": "north_american",
+    "start": -1700,
+    "end": -1100,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.45,
+    "kind": "culture",
+    "anchor": [
+      {
+        "year": -1700,
+        "xKey": "north_america"
+      }
+    ],
+    "summary": "Constructed massive concentric C-shaped earthen ridges and Bird Mound in Louisiana without agriculture, sourcing copper from the Great Lakes and flint from the Ohio Valley.",
+    "keyFacts": [
+      "Concentric earthen ridges 1.2 km across and 22-meter Bird Mound",
+      "Continent-spanning Archaic stone and copper trade network"
+    ],
+    "sourceIds": ["field_museum", "dpla"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Archaic Mound Builders"],
+    "startUncertainty": 100,
+    "wikipediaTitle": "Poverty_Point"
+  },
+  {
+    "id": "hopewell_tradition",
+    "name": "Adena & Hopewell Tradition",
+    "family": "north_american",
+    "start": -500,
+    "end": 500,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.52,
+    "kind": "culture",
+    "anchor": [
+      {
+        "year": -500,
+        "xKey": "north_america"
+      }
+    ],
+    "summary": "Built geometrically precise earthworks aligned to the 18.6-year lunar standstill cycle across the Ohio and Mississippi valleys, trading Yellowstone obsidian, Gulf shells, and Lake Superior copper.",
+    "keyFacts": [
+      "Newark Earthworks lunar observatory",
+      "Hopewell Interaction Sphere spanning two-thirds of North America"
+    ],
+    "sourceIds": ["field_museum", "dpla"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Woodland Period Mound Builders"],
+    "wikipediaTitle": "Hopewell_tradition"
+  },
+  {
+    "id": "ancestral_puebloans",
+    "name": "Ancestral Puebloans & Hohokam",
+    "family": "north_american",
+    "start": 750,
+    "end": 1300,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.4,
+    "kind": "confederation",
+    "anchor": [
+      {
+        "year": 750,
+        "xKey": "north_america"
+      }
+    ],
+    "summary": "Built multi-story sandstone \"Great Houses\" (Pueblo Bonito had 650 rooms), astronomical sun-daggers, cliff dwellings at Mesa Verde, and hundreds of miles of irrigation canals in the Sonoran Desert.",
+    "keyFacts": [
+      "Pueblo Bonito & Chacoan straight road system",
+      "Cliff Palace at Mesa Verde and Hohokam canal networks"
+    ],
+    "sourceIds": ["field_museum", "dpla"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Chaco Canyon & Mesa Verde"],
+    "wikipediaTitle": "Ancestral_Puebloans"
+  },
+  {
+    "id": "mississippian_culture",
+    "name": "Mississippian Culture (Cahokia)",
+    "family": "north_american",
+    "start": 800,
+    "end": 1540,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.45,
+    "kind": "culture",
+    "anchor": [
+      {
+        "year": 800,
+        "xKey": "north_america"
+      }
+    ],
+    "summary": "Maize-based urban civilization centered on Cahokia, featuring Monks Mound (whose base exceeds the Great Pyramid of Giza), Woodhenge solar calendars, and the Southeastern Ceremonial Complex.",
+    "keyFacts": [
+      "Monks Mound (30m high earthen pyramid covering 14 acres)",
+      "Woodhenge solar solstice observatory"
+    ],
+    "sourceIds": ["field_museum", "dpla"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Moundville, Spiro & Cahokia"],
+    "wikipediaTitle": "Mississippian_culture"
+  },
+  {
+    "id": "iroquois_indigenous_nations",
+    "name": "Haudenosaunee & First Nations",
+    "family": "north_american",
+    "start": 1450,
+    "end": 1783,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.55,
+    "kind": "confederation",
+    "anchor": [
+      {
+        "year": 1450,
+        "xKey": "north_america"
+      }
+    ],
+    "summary": "The Haudenosaunee (Five, later Six Nations) united under the Great Law of Peace (Gayanashagowa), one of the world’s oldest participatory democracies, balancing power across the Great Lakes and Atlantic northeast.",
+    "keyFacts": [
+      "Great Law of Peace (Gayanashagowa) federal constitution with checks and balances"
+    ],
+    "sourceIds": ["field_museum", "dpla"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Iroquois Confederacy & Plains Nations"],
+    "rulers": [
+      {
+        "name": "Hiawatha, Dekanawidah & Jigonhsasee",
+        "reign": "c. 1450",
+        "title": "Founders of Confederacy"
+      }
+    ],
+    "wikipediaTitle": "Iroquois"
+  },
+  {
+    "id": "united_states_canada",
+    "name": "United States & Canada",
+    "family": "north_american",
+    "start": 1776,
+    "end": 2025,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.92,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1776,
+        "xKey": "north_america"
+      }
+    ],
+    "summary": "Born from the American Revolution (1776) and Canadian Confederation (1867), expanding across the continent and emerging in the 20th century as the world’s foremost industrial, scientific, and geopolitical superpower.",
+    "keyFacts": [
+      "U.S. Constitution (1787) & Bill of Rights",
+      "Second Industrial Revolution, electrification, aviation, transistor, Internet, and Apollo 11 Moon Landing (1969)"
+    ],
+    "sourceIds": ["field_museum", "dpla"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["North American Federal Democracies"],
+    "rulers": [
+      {
+        "name": "George Washington",
+        "reign": "1789–1797",
+        "title": "1st U.S. President"
+      },
+      {
+        "name": "Abraham Lincoln",
+        "reign": "1861–1865",
+        "title": "16th U.S. President"
+      },
+      {
+        "name": "Franklin D. Roosevelt",
+        "reign": "1933–1945",
+        "title": "32nd U.S. President"
+      }
+    ],
+    "wikipediaTitle": "History_of_the_United_States"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "name": "C",
+  "note": "Eight parents hand off to sixty states. The slice is crowded on purpose.",
+  "parents": 8,
+  "children": 60,
+  "parentStart": 1700,
+  "handoff": 1800,
+  "end": 2000
+}

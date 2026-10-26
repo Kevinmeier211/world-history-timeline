@@ -1,0 +1,278 @@
+[
+  {
+    "id": "sumerian_city_states",
+    "name": "Sumerian city-states",
+    "family": "mesopotamian",
+    "start": -3500,
+    "end": -2334,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: c.3500–2334 BCE. The migrated sumer_akkad bundle still covers this span.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "confederation",
+    "anchor": [
+      {
+        "year": -3500,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "Sumerian city-states is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cdli", "isac"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "akkadian_empire",
+    "name": "Akkadian Empire",
+    "family": "mesopotamian",
+    "start": -2334,
+    "end": -2154,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Akkadian c.2334–2154 BCE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": -2334,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "Akkadian Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cdli", "isac"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "mesopotamia_2154",
+    "name": "Mesopotamia in 2154–2112 BCE",
+    "family": "mesopotamian",
+    "start": -2154,
+    "end": -2112,
+    "confidence": "debated",
+    "dateNote": "Appendix B ends the Akkadian line at 2154 BCE and starts Ur III at 2112 BCE. It does not name the interval.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": -2154,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "Mesopotamia in 2154–2112 BCE is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cdli", "isac"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "ur_iii",
+    "name": "Ur III",
+    "family": "mesopotamian",
+    "start": -2112,
+    "end": -2004,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Ur III c.2112–2004 BCE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -2112,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "Ur III is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cdli", "isac"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "mesopotamia_2004",
+    "name": "Mesopotamia in 2004–1894 BCE",
+    "family": "mesopotamian",
+    "start": -2004,
+    "end": -1894,
+    "confidence": "debated",
+    "dateNote": "Appendix B ends Ur III at 2004 BCE and starts Old Babylonian at 1894 BCE. It does not name the interval.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": -2004,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "Mesopotamia in 2004–1894 BCE is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cdli", "isac"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "old_babylonian",
+    "name": "Old Babylonian",
+    "family": "mesopotamian",
+    "start": -1894,
+    "end": -1595,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Old Babylonian c.1894–1595 BCE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -1894,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "Old Babylonian is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cdli", "isac"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "kassite_babylon",
+    "name": "Kassite Babylon",
+    "family": "mesopotamian",
+    "start": -1595,
+    "end": -1155,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Kassite c.1595–1155 BCE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -1595,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "Kassite Babylon is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cdli", "isac"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "elam",
+    "name": "Elam",
+    "family": "mesopotamian",
+    "start": -2700,
+    "end": -539,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Elam c.2700–539 BCE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -2700,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "Elam is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cdli", "isac"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "middle_assyrian",
+    "name": "Middle Assyrian",
+    "family": "mesopotamian",
+    "start": -1365,
+    "end": -1050,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Middle Assyrian c.1365–1050 BCE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -1365,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "Middle Assyrian is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cdli", "isac"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "neo_assyrian",
+    "name": "Neo-Assyrian Empire",
+    "family": "mesopotamian",
+    "start": -911,
+    "end": -609,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Neo-Assyrian 911–609 BCE. Distinct from the migrated neo_assyria_babylon bundle.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": -911,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "Neo-Assyrian Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cdli", "isac"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "neo_babylonian",
+    "name": "Neo-Babylonian Empire",
+    "family": "mesopotamian",
+    "start": -626,
+    "end": -539,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Neo-Babylonian 626–539 BCE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": -626,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "Neo-Babylonian Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cdli", "isac"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "medes",
+    "name": "Medes",
+    "family": "mesopotamian",
+    "start": -678,
+    "end": -550,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Medes c.678–550 BCE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -678,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "Medes is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cdli", "isac"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  }
+]

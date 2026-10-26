@@ -1,0 +1,249 @@
+[
+  {
+    "id": "kerma_kush",
+    "name": "Kingdom of Kerma & Kush",
+    "family": "sub_saharan",
+    "start": -2500,
+    "end": 350,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.55,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -2500,
+        "xKey": "sub_saharan_africa"
+      }
+    ],
+    "summary": "First urbanized civilization in Sub-Saharan Africa along the Upper Nile. Conquered and ruled all of Egypt as the 25th \"Black Pharaoh\" Dynasty, later shifting south to Meroë—an iron-smelting powerhouse with more pyramids than Egypt and its own Meroitic script.",
+    "keyFacts": [
+      "Over 200 steep-sided Nubian pyramids at El-Kurru, Nuri, and Meroë",
+      "25th Dynasty reunification of the Nile Valley under Piye and Taharqa",
+      "Meroitic alphabetic script and massive iron-smelting furnaces"
+    ],
+    "sourceIds": ["unesco_gha", "british_library"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Kerma, Napata & Meroë (Nubia)"],
+    "rulers": [
+      {
+        "name": "Piye",
+        "reign": "744–714 BCE",
+        "title": "Kushite Conqueror of Egypt"
+      },
+      {
+        "name": "Taharqa",
+        "reign": "690–664 BCE",
+        "title": "Pharaoh of Egypt & Kush"
+      },
+      {
+        "name": "Amanirenas",
+        "reign": "c. 40–10 BCE",
+        "title": "Kandake (Queen) who fought Rome"
+      }
+    ],
+    "wikipediaTitle": "Kingdom_of_Kush"
+  },
+  {
+    "id": "nok_culture",
+    "name": "Nok Culture",
+    "family": "sub_saharan",
+    "start": -1000,
+    "end": 300,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.4,
+    "kind": "culture",
+    "anchor": [
+      {
+        "year": -1000,
+        "xKey": "sub_saharan_africa"
+      }
+    ],
+    "summary": "Centered in modern Nigeria, the Nok independently developed iron smelting in West Africa by ~900–550 BCE and created the oldest monumental terracotta sculptures in Sub-Saharan Africa.",
+    "keyFacts": [
+      "Independent West African iron smelting furnaces",
+      "Expressive life-sized Nok terracotta portrait sculptures"
+    ],
+    "sourceIds": ["unesco_gha", "british_library"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["West African Iron & Terracotta Culture"],
+    "startUncertainty": 100,
+    "wikipediaTitle": "Nok_culture"
+  },
+  {
+    "id": "aksumite_empire",
+    "name": "Aksumite → Ethiopian Empire",
+    "family": "sub_saharan",
+    "start": 100,
+    "end": 1974,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.45,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 100,
+        "xKey": "sub_saharan_africa"
+      }
+    ],
+    "summary": "Ranked by the Persian prophet Mani alongside Rome, Persia, and China as one of the four great powers of the 3rd century CE. Adopted Christianity in 330 CE, carved the monolithic churches of Lalibela, and defeated Italian colonization at Adwa in 1896.",
+    "keyFacts": [
+      "Ge’ez script, towering Aksumite stelae, and Red Sea gold coinage",
+      "11 rock-hewn monolithic churches of Lalibela",
+      "Victory at Battle of Adwa (1896) preserving Ethiopian sovereignty"
+    ],
+    "sourceIds": ["unesco_gha", "british_library"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Aksum, Zagwe (Lalibela) & Solomonic Ethiopia"],
+    "rulers": [
+      {
+        "name": "Ezana of Aksum",
+        "reign": "c. 320–360 CE",
+        "title": "First Christian Monarch of Aksum"
+      },
+      {
+        "name": "Gebre Mesqel Lalibela",
+        "reign": "1181–1221",
+        "title": "Zagwe Emperor"
+      },
+      {
+        "name": "Menelik II",
+        "reign": "1889–1913",
+        "title": "Victor at Battle of Adwa (1896)"
+      }
+    ],
+    "wikipediaTitle": "Kingdom_of_Aksum"
+  },
+  {
+    "id": "ghana_mali_songhai",
+    "name": "Ghana, Mali & Songhai Empires",
+    "family": "sub_saharan",
+    "start": 400,
+    "end": 1591,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.48,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": 400,
+        "xKey": "sub_saharan_africa"
+      }
+    ],
+    "summary": "Successive Sahelian empires controlling the world’s richest goldfields. Under Sundiata Keita and Mansa Musa, Mali proclaimed the Kurukan Fuga charter of rights and turned Timbuktu’s Sankore University into a beacon of Islamic scholarship.",
+    "keyFacts": [
+      "Kurukan Fuga oral constitution (1235 CE)",
+      "Sankore Madrasah & hundreds of thousands of Timbuktu manuscripts",
+      "Mansa Musa’s 1324 Hajj distributing so much gold it reshaped Mediterranean economies"
+    ],
+    "sourceIds": ["unesco_gha", "british_library"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Wagadou, Manden Kurufaba & Songhai"],
+    "rulers": [
+      {
+        "name": "Sundiata Keita",
+        "reign": "1235–1255",
+        "title": "Founder of Mali & Kurukan Fuga"
+      },
+      {
+        "name": "Mansa Musa I",
+        "reign": "1312–1337",
+        "title": "Mansa of Mali"
+      },
+      {
+        "name": "Askia Mohammad I",
+        "reign": "1493–1528",
+        "title": "Emperor of Songhai"
+      }
+    ],
+    "wikipediaTitle": "Mali_Empire"
+  },
+  {
+    "id": "great_zimbabwe_swahili",
+    "name": "Great Zimbabwe, Kongo & Swahili Coast",
+    "family": "sub_saharan",
+    "start": 1000,
+    "end": 1885,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.4,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1000,
+        "xKey": "sub_saharan_africa"
+      }
+    ],
+    "summary": "Encompasses the mortarless granite enclosures of Great Zimbabwe linked via Kilwa to Indian Ocean monsoon trade, along with the Kingdom of Benin (famous for its lost-wax Benin Bronzes and massive earthworks) and the Zulu Kingdom.",
+    "keyFacts": [
+      "Great Enclosure of Great Zimbabwe (largest ancient stone structure south of the Sahara)",
+      "Benin Bronzes brass plaques and Walls of Benin"
+    ],
+    "sourceIds": ["unesco_gha", "british_library"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Kilwa, Mutapa, Benin & Kongo"],
+    "rulers": [
+      {
+        "name": "Ewuare the Great",
+        "reign": "1440–1473",
+        "title": "Oba of Benin"
+      },
+      {
+        "name": "Shaka kaSenzangakhona",
+        "reign": "1816–1828",
+        "title": "King of the Zulu Nation"
+      }
+    ],
+    "wikipediaTitle": "Great_Zimbabwe"
+  },
+  {
+    "id": "modern_africa",
+    "name": "Post-Colonial African Nations",
+    "family": "sub_saharan",
+    "start": 1957,
+    "end": 2025,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.85,
+    "kind": "people",
+    "anchor": [
+      {
+        "year": 1957,
+        "xKey": "sub_saharan_africa"
+      }
+    ],
+    "summary": "Beginning with Ghana in 1957 and the \"Year of Africa\" (1960), Sub-Saharan nations dismantled European colonial rule, culminating in the end of Apartheid in 1994 and rapid 21st-century demographic and technological growth.",
+    "keyFacts": [
+      "Decolonization wave (1957–1975) & founding of the African Union",
+      "Dismantling of Apartheid and Truth & Reconciliation Commission (1994)"
+    ],
+    "sourceIds": ["unesco_gha", "british_library"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["African Union & 54 Sovereign States"],
+    "rulers": [
+      {
+        "name": "Kwame Nkrumah",
+        "reign": "1957–1966",
+        "title": "1st President of Independent Ghana"
+      },
+      {
+        "name": "Nelson Mandela",
+        "reign": "1994–1999",
+        "title": "1st Post-Apartheid President of South Africa"
+      }
+    ],
+    "wikipediaTitle": "Decolonisation_of_Africa"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "adena",
+    "reason": "gemini-v1 names no parent; nearest same-family end is poverty_point at a gap of 100 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "african_independence",
+    "reason": "gemini-v1 names no parent; nearest same-family end is south_africa_union at a gap of 2 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "aksum",
+    "reason": "gemini-v1 names no parent; nearest same-family end is kush_napatan at a gap of 399 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "al_andalus",
+    "reason": "gemini-v1 names no parent; nearest same-family end is rashidun at a gap of 50 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "almohad",
+    "reason": "gemini-v1 names no parent; nearest same-family end is umayyad at a gap of 371 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "almoravid",
+    "reason": "gemini-v1 names no parent; nearest same-family end is umayyad at a gap of 290 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "ancestral_puebloans",
+    "reason": "gemini-v1 parents hopewell_tradition have no year inside both lifetimes ± 50; nearest same-family end is hopewell_tradition at a gap of 250 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "anglo_saxons",
+    "reason": "gemini-v1 names no parent; nearest same-family end is la_tene, megalithic_celts at a gap of 459 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "angola",
+    "reason": "gemini-v1 names no parent; nearest same-family end is south_africa_union at a gap of 2 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "aotearoa",
+    "reason": "gemini-v1 names no parent; nearest same-family end is funan at a gap of 700 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "ashanti",
+    "reason": "gemini-v1 names no parent; nearest same-family end is mali_empire at a gap of 101 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "austria_hungary",
+    "reason": "gemini-v1 names no parent; nearest same-family end is first_french_empire at a gap of 53 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "avars",
+    "reason": "gemini-v1 names no parent; nearest same-family end is huns at a gap of 98 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "ayutthaya",
+    "reason": "gemini-v1 names no parent; nearest same-family end is aotearoa, east_polynesia, samoa, tonga at a gap of 51 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "aztec_empire",
+    "reason": "gemini-v1 parents toltecs have no year inside both lifetimes ± 50; nearest same-family end is toltecs at a gap of 260 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "baekje",
+    "reason": "gemini-v1 names no parent; nearest same-family end is jomon at a gap of 282 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "balhae",
+    "reason": "gemini-v1 names no parent; nearest same-family end is goguryeo at a gap of 30 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "bangladesh",
+    "reason": "gemini-v1 names no parent; nearest same-family end is british_raj at a gap of 24 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "belgium",
+    "reason": "gemini-v1 names no parent; nearest same-family end is venice at a gap of 3 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "bell_beaker",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "benin_kingdom",
+    "reason": "gemini-v1 names no parent; nearest same-family end is aksum at a gap of 240 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "british_empire",
+    "reason": "gemini-v1 parents roman_empire have no year inside both lifetimes ± 50; nearest same-family end is la_tene, megalithic_celts at a gap of 920 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "buyid",
+    "reason": "gemini-v1 names no parent; nearest same-family end is parthian_sassanid, sasanian at a gap of 283 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "cahokia",
+    "reason": "gemini-v1 names no parent; nearest same-family end is hopewell_tradition at a gap of 550 continuous years, outside a shared-boundary handoff."
+  }
+]

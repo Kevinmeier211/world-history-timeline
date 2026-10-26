@@ -1,0 +1,42 @@
+{
+  "name": "F",
+  "note": "1479 is the dynastic union. The ribbon joins at 1516.",
+  "relations": [
+    { "type": "merge", "year": 1516, "from": ["castile", "aragon"], "to": ["spain"] }
+  ],
+  "slices": [
+    {
+      "start": 1230,
+      "end": 1516,
+      "ribbons": [
+        {
+          "id": "castile",
+          "familyId": "latin_west",
+          "weight": 0.35,
+          "importance": 3,
+          "desiredX": 420
+        },
+        {
+          "id": "aragon",
+          "familyId": "latin_west",
+          "weight": 0.35,
+          "importance": 3,
+          "desiredX": 760
+        }
+      ]
+    },
+    {
+      "start": 1516,
+      "end": 1700,
+      "ribbons": [
+        {
+          "id": "spain",
+          "familyId": "latin_west",
+          "weight": 0.45,
+          "importance": 4,
+          "desiredX": 560
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+[
+  {
+    "id": "phoenicia_israel",
+    "name": "Phoenicia, Israel, Judah & Carthage",
+    "family": "levantine_semitic",
+    "start": -1200,
+    "end": -539,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.45,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -1200,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "While Phoenician sailors from Tyre and Byblos spread the 22-letter phonetic alphabet, purple dye, and founded Carthage in the western Mediterranean, the kingdoms of Israel and Judah composed the core texts of the Hebrew Bible (Tanakh).",
+    "keyFacts": [
+      "Phoenician 22-consonant alphabet—ancestor of Greek, Latin, Cyrillic, Arabic, and Hebrew scripts",
+      "Compilation of the Hebrew Bible (Torah & Prophets)—foundation of Abrahamic monotheism",
+      "Circumnavigation of Africa under Phoenician mariners (~600 BCE)"
+    ],
+    "sourceIds": ["louvre", "british_library"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Canaanite Maritime & Levantine Kingdoms"],
+    "rulers": [
+      {
+        "name": "David & Solomon",
+        "reign": "c. 1000–930 BCE",
+        "title": "Kings of United Monarchy of Israel"
+      },
+      {
+        "name": "Hiram I of Tyre",
+        "reign": "c. 980–947 BCE",
+        "title": "Phoenician King"
+      },
+      {
+        "name": "Hannibal Barca",
+        "reign": "247–183 BCE",
+        "title": "Carthaginian General"
+      }
+    ],
+    "wikipediaTitle": "Phoenicia",
+    "spans": [
+      {
+        "macroRegion": "africa",
+        "start": -1200,
+        "end": -539
+      },
+      {
+        "macroRegion": "europe",
+        "start": -814,
+        "end": -146
+      }
+    ]
+  }
+]

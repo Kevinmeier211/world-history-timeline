@@ -1,0 +1,283 @@
+[
+  {
+    "id": "indus_valley",
+    "name": "Indus Valley Civilization (Harappan)",
+    "family": "indian",
+    "start": -3300,
+    "end": -1300,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.72,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": -3300,
+        "xKey": "indus_india"
+      }
+    ],
+    "summary": "Spanning over 1,000 cities and towns across the Indus and Ghaggar-Hakra basins, Harappan cities featured rectilinear grid planning, indoor flush toilets, covered brick sewage drains, standardized binary-decimal weights, the Great Bath, and the world’s earliest tidal dockyard at Lothal.",
+    "keyFacts": [
+      "World’s earliest municipal sanitation, covered sewers, and household bathrooms",
+      "Uniform fired-brick ratios (4:2:1) and ultra-accurate chert weight standards across 1,000+ km",
+      "Tidal dockyard at Lothal & undeciphered Indus script steatite seals"
+    ],
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Harappa, Mohenjo-daro, Dholavira & Rakhigarhi"],
+    "wikipediaTitle": "Indus_Valley_Civilisation"
+  },
+  {
+    "id": "vedic_period",
+    "name": "Vedic Period & Kuru-Panchala",
+    "family": "indian",
+    "start": -1500,
+    "end": -600,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.58,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -1500,
+        "xKey": "indus_india"
+      }
+    ],
+    "summary": "Period of the composition of the four Vedas (Rigveda, Samaveda, Yajurveda, Atharvaveda), Brahmanas, and early Upanishads in Vedic Sanskrit, alongside iron-plow expansion across the fertile Gangetic plains.",
+    "keyFacts": [
+      "Composition & oral preservation of the Rigveda and Upanishadic philosophy",
+      "Shulba Sutras geometry & Panini’s Ashtadhyayi (formal generative grammar of Sanskrit)"
+    ],
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Early & Later Vedic Synthesis"],
+    "rulers": [
+      {
+        "name": "Parikshit & Janaka",
+        "reign": "c. 1100–700 BCE",
+        "title": "Vedic Philosopher-Kings"
+      }
+    ],
+    "wikipediaTitle": "Vedic_period"
+  },
+  {
+    "id": "mahajanapadas",
+    "name": "Sixteen Mahajanapadas & Magadha",
+    "family": "indian",
+    "start": -600,
+    "end": -322,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.65,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -600,
+        "xKey": "indus_india"
+      }
+    ],
+    "summary": "Second urbanization of India featuring 16 great states (including the Vajji/Licchavi republic at Vaishali), punch-marked silver coinage, Wootz crucible steel, and the birth of Buddhism and Jainism.",
+    "keyFacts": [
+      "Birth of Buddhism (Siddhartha Gautama) and Jainism (Mahavira)",
+      "Gana-Sangha parliamentary assemblies at Vaishali & Wootz steel metallurgy"
+    ],
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Age of Buddha & Mahavira"],
+    "rulers": [
+      {
+        "name": "Bimbisara & Ajatashatru",
+        "reign": "544–460 BCE",
+        "title": "Kings of Magadha"
+      },
+      {
+        "name": "Siddhartha Gautama (Buddha) & Mahavira",
+        "reign": "6th–5th c. BCE",
+        "title": "Spiritual Founders"
+      }
+    ],
+    "wikipediaTitle": "Mahajanapadas"
+  },
+  {
+    "id": "maurya_empire",
+    "name": "Maurya Empire → Kushan & Satavahana",
+    "family": "indian",
+    "start": -322,
+    "end": 300,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.82,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": -322,
+        "xKey": "indus_india"
+      }
+    ],
+    "summary": "Founded by Chandragupta Maurya and unified from Afghanistan to southern India under Ashoka the Great. Shocked by the carnage of the Kalinga War (261 BCE), Ashoka renounced conquest, erected rock and pillar edicts promoting religious tolerance, wildlife hospitals, and social welfare, and sent Buddhist missions across Eurasia.",
+    "keyFacts": [
+      "Edicts of Ashoka on polished sandstone pillars (Lion Capital of Ashoka is India’s national emblem)",
+      "Kautilya’s Arthashastra treatise on statecraft and economics",
+      "Grand Trunk Road (Uttarapatha) & Gandharan-Mathura Buddhist art under the Kushans"
+    ],
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["First Pan-Indian Empire (Ashoka the Great)"],
+    "rulers": [
+      {
+        "name": "Chandragupta Maurya & Chanakya",
+        "reign": "322–297 BCE",
+        "title": "Founder & Strategist"
+      },
+      {
+        "name": "Ashoka the Great",
+        "reign": "268–232 BCE",
+        "title": "Chakravartin Emperor of Dhamma"
+      },
+      {
+        "name": "Kanishka the Great",
+        "reign": "127–150 CE",
+        "title": "Kushan Emperor"
+      }
+    ],
+    "wikipediaTitle": "Maurya_Empire"
+  },
+  {
+    "id": "gupta_chola",
+    "name": "Gupta Empire & Chola Dynasty",
+    "family": "indian",
+    "start": 319,
+    "end": 1279,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.78,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 319,
+        "xKey": "indus_india"
+      }
+    ],
+    "summary": "The Gupta Golden Age formalized the base-10 decimal place-value system with zero (0–9, modern \"Hindu-Arabic\" numerals), Aryabhata’s trigonometry and Earth-rotation astronomy, Nalanda University, Kalidasa’s Sanskrit drama, and the rust-proof Iron Pillar of Delhi, while the southern Chola Dynasty built Brihadisvara Temple and projected naval power across Southeast Asia.",
+    "keyFacts": [
+      "Decimal place-value numeral system (1–9 and 0), trigonometry (sine/cosine), and Aryabhata’s astronomy",
+      "Nalanda Mahavihara residential university (10,000 students & 9-story library)",
+      "Ajanta Caves, rust-resistant Iron Pillar of Delhi, and Chola bronzes/Brihadisvara Temple"
+    ],
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Golden Age of Classical India & Maritime Cholas"],
+    "rulers": [
+      {
+        "name": "Samudragupta & Chandragupta II",
+        "reign": "335–415 CE",
+        "title": "Gupta Golden Age Emperors"
+      },
+      {
+        "name": "Harsha of Kannauj",
+        "reign": "606–647 CE",
+        "title": "North Indian Emperor"
+      },
+      {
+        "name": "Raja Raja Chola I & Rajendra Chola I",
+        "reign": "985–1044 CE",
+        "title": "Chola Maritime Emperors"
+      }
+    ],
+    "wikipediaTitle": "Gupta_Empire"
+  },
+  {
+    "id": "mughal_empire",
+    "name": "Delhi Sultanate, Vijayanagara & Mughal Empire",
+    "family": "indian",
+    "start": 1206,
+    "end": 1757,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.8,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 1206,
+        "xKey": "indus_india"
+      }
+    ],
+    "summary": "Synthesizing Indo-Persian and indigenous traditions, the Mughal Empire under Akbar practiced universal religious tolerance (Sulh-i-Kul), built the Taj Mahal and Red Fort, and generated roughly a quarter of the world’s manufacturing output (cotton textiles, steel, spices) by 1700.",
+    "keyFacts": [
+      "Taj Mahal, Fatehpur Sikri, Humayun’s Tomb, and Vijayanagara’s stone chariot at Hampi",
+      "Akbar’s Ibadat Khana interfaith dialogues & Todar Mal’s land revenue survey"
+    ],
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Sultanate of Delhi, Hampi & Gurkani Mughal Empire"],
+    "rulers": [
+      {
+        "name": "Razia Sultana & Alauddin Khalji",
+        "reign": "1236–1316",
+        "title": "Delhi Rulers"
+      },
+      {
+        "name": "Krishnadevaraya of Vijayanagara",
+        "reign": "1509–1529",
+        "title": "Emperor of Karnata"
+      },
+      {
+        "name": "Akbar the Great & Shah Jahan",
+        "reign": "1556–1658",
+        "title": "Mughal Padishahs"
+      }
+    ],
+    "wikipediaTitle": "Mughal_Empire"
+  },
+  {
+    "id": "modern_india",
+    "name": "Republic of India & South Asia",
+    "family": "indian",
+    "start": 1947,
+    "end": 2025,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.9,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1947,
+        "xKey": "indus_india"
+      }
+    ],
+    "summary": "Achieved independence in 1947 following Mahatma Gandhi’s non-violent Satyagraha campaign, adopting a secular democratic constitution with universal adult suffrage and growing into a major spacefaring (ISRO Chandrayaan-3 / Mangalyaan), digital, and economic power.",
+    "keyFacts": [
+      "Non-violent independence movement inspiring global civil rights",
+      "World’s largest democratic elections, Green Revolution, and ISRO lunar/Martian missions"
+    ],
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Bharat (World’s Largest Democracy)"],
+    "rulers": [
+      {
+        "name": "Mahatma Gandhi",
+        "reign": "1915–1948",
+        "title": "Leader of Non-Violent Independence Movement"
+      },
+      {
+        "name": "Jawaharlal Nehru & B.R. Ambedkar",
+        "reign": "1947–1964",
+        "title": "1st PM & Chief Architect of Constitution"
+      }
+    ],
+    "wikipediaTitle": "History_of_India_(1947–present)"
+  }
+]

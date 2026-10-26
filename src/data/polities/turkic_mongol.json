@@ -1,0 +1,59 @@
+[
+  {
+    "id": "mongol_empire",
+    "name": "Mongol Empire & Yuan Dynasty",
+    "family": "turkic_mongol",
+    "start": 1206,
+    "end": 1368,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.92,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 1206,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Uniting the nomadic tribes of the Mongolian steppe in 1206, Genghis Khan and his descendants forged the largest contiguous land empire in human history from Korea and China to Persia, Russia, and Hungary—creating the \"Pax Mongolica\" postal relay (Yam) traveled by Marco Polo and Ibn Battuta.",
+    "keyFacts": [
+      "Yam transcontinental pony-express relay & diplomatic passport (Paiza)",
+      "Unprecedented Eurasian exchange of astronomy, cartography, printing, and porcelain"
+    ],
+    "sourceIds": ["cambridge_histories", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Yeke Mongghol Ulus (Pax Mongolica)"],
+    "rulers": [
+      {
+        "name": "Genghis Khan (Temüjin)",
+        "reign": "1206–1227",
+        "title": "Founder & Great Khan"
+      },
+      {
+        "name": "Ögedei & Möngke Khan",
+        "reign": "1229–1259",
+        "title": "Great Khans"
+      },
+      {
+        "name": "Kublai Khan",
+        "reign": "1260–1294",
+        "title": "Founder of Yuan Dynasty"
+      }
+    ],
+    "wikipediaTitle": "Mongol_Empire",
+    "spans": [
+      {
+        "macroRegion": "europe",
+        "start": 1237,
+        "end": 1368
+      },
+      {
+        "macroRegion": "east_asia",
+        "start": 1206,
+        "end": 1368
+      }
+    ]
+  }
+]

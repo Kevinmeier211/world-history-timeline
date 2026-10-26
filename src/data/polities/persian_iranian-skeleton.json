@@ -1,0 +1,285 @@
+[
+  {
+    "id": "seleucid",
+    "name": "Seleucid Empire",
+    "family": "persian_iranian",
+    "start": -312,
+    "end": -63,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Seleucid 312–63 BCE, listed under Persia/Iran. The migrated ptolemaic_seleucid bundle stays on greek_byzantine.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": -312,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "Seleucid Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["isac", "louvre"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "parthian",
+    "name": "Parthian Empire",
+    "family": "persian_iranian",
+    "start": -247,
+    "end": 224,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Parthian 247 BCE–224 CE. Distinct from the migrated parthian_sassanid bundle.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": -247,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "Parthian Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["isac", "louvre"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "sasanian",
+    "name": "Sasanian Empire",
+    "family": "persian_iranian",
+    "start": 224,
+    "end": 651,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Sasanian 224–651.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 224,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "Sasanian Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["isac", "louvre"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "buyid",
+    "name": "Buyid",
+    "family": "persian_iranian",
+    "start": 934,
+    "end": 1062,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Buyid 934–1062.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 934,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "Buyid is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["isac", "louvre"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "seljuk_iran",
+    "name": "Seljuk",
+    "family": "persian_iranian",
+    "start": 1037,
+    "end": 1194,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Seljuk 1037–1194, listed under Persia/Iran. A Turkic-family row can use another id.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1037,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "Seljuk is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["isac", "louvre"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "ilkhanate_iran",
+    "name": "Ilkhanate",
+    "family": "persian_iranian",
+    "start": 1256,
+    "end": 1335,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Ilkhanate 1256–1335, listed under Persia/Iran.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1256,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "Ilkhanate is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["isac", "louvre"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "timurid_iran",
+    "name": "Timurid",
+    "family": "persian_iranian",
+    "start": 1370,
+    "end": 1507,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Timurid 1370–1507, listed under Persia/Iran. A Turkic-family row can use another id.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1370,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "Timurid is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["isac", "louvre"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "safavid_dynasty",
+    "name": "Safavid",
+    "family": "persian_iranian",
+    "start": 1501,
+    "end": 1736,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Safavid 1501–1722/1736. The later listed year is the span end.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1501,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "Safavid is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["isac", "louvre"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row.",
+    "endpoints": [
+      {
+        "label": "Appendix B alternate end",
+        "year": 1722,
+        "note": "Appendix B lists 1722/1736 and does not say which year ends the dynasty."
+      }
+    ]
+  },
+  {
+    "id": "afsharid",
+    "name": "Afsharid",
+    "family": "persian_iranian",
+    "start": 1736,
+    "end": 1796,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Afsharid 1736–1796.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1736,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "Afsharid is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["isac", "louvre"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "qajar",
+    "name": "Qajar",
+    "family": "persian_iranian",
+    "start": 1789,
+    "end": 1925,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Qajar 1789–1925.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1789,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "Qajar is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["isac", "louvre"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "pahlavi",
+    "name": "Pahlavi",
+    "family": "persian_iranian",
+    "start": 1925,
+    "end": 1979,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Pahlavi 1925–1979.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1925,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "Pahlavi is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["isac", "louvre"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "islamic_republic_iran",
+    "name": "Islamic Republic of Iran",
+    "family": "persian_iranian",
+    "start": 1979,
+    "end": 2000,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Islamic Republic 1979–. Skeleton ends at 2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1979,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "Islamic Republic of Iran is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["isac", "louvre"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  }
+]

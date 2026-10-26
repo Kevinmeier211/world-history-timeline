@@ -1,0 +1,122 @@
+[
+  {
+    "id": "umayyad_abbasid",
+    "name": "Rashidun, Umayyad & Abbasid Caliphates",
+    "family": "islamic_arab",
+    "start": 632,
+    "end": 1258,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.85,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 632,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Following the Prophet Muhammad (570–632 CE), the Caliphates united the region from Iberia and Morocco to the Indus and Central Asia, establishing Arabic as a transcontinental language of science, commerce, and philosophy.",
+    "keyFacts": [
+      "House of Wisdom (Bayt al-Hikma) in Baghdad; Al-Khwarizmi’s Algebra & Algorithm",
+      "Ibn al-Haytham’s Book of Optics & Ibn Sina’s Canon of Medicine",
+      "Dome of the Rock, Great Mosque of Damascus, and Al-Azhar University (970 CE)"
+    ],
+    "sourceIds": ["unesco_gha", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Classical Islamic Caliphates"],
+    "rulers": [
+      {
+        "name": "Umar ibn al-Khattab",
+        "reign": "634–644",
+        "title": "2nd Rashidun Caliph"
+      },
+      {
+        "name": "Harun al-Rashid & Al-Ma’mun",
+        "reign": "786–833",
+        "title": "Abbasid Caliphs of Baghdad"
+      },
+      {
+        "name": "Saladin (Salah al-Din)",
+        "reign": "1174–1193",
+        "title": "Founder of Ayyubid Dynasty"
+      }
+    ],
+    "wikipediaTitle": "Abbasid_Caliphate",
+    "spans": [
+      {
+        "macroRegion": "africa",
+        "start": 632,
+        "end": 1258
+      },
+      {
+        "macroRegion": "europe",
+        "start": 711,
+        "end": 1031
+      }
+    ]
+  },
+  {
+    "id": "ottoman_empire",
+    "name": "Mamluk Sultanate & Ottoman Empire",
+    "family": "islamic_arab",
+    "start": 1299,
+    "end": 2025,
+    "confidence": "approximate",
+    "dateNote": "Migrated from gemini-v1; not re-verified.",
+    "importance": 3,
+    "weight": 0.8,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 1299,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "After the Mamluks halted the Mongols at Ain Jalut (1260), the Ottoman Empire captured Constantinople in 1453 and united Southeast Europe, Anatolia, the Levant, Egypt, and Hejaz for six centuries before transitioning into modern Turkey and Arab states.",
+    "keyFacts": [
+      "Architectural masterpieces of Mimar Sinan (Süleymaniye & Selimiye Mosques)",
+      "Millet system of multi-confessional governance & Kanun legal codes"
+    ],
+    "sourceIds": ["unesco_gha", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row.",
+    "altNames": ["Devlet-i Aliyye-i Osmâniyye → Turkey & Modern Middle East"],
+    "rulers": [
+      {
+        "name": "Baybars & Qaitbay",
+        "reign": "1260–1496",
+        "title": "Mamluk Sultans (Victors at Ain Jalut)"
+      },
+      {
+        "name": "Mehmed II the Conqueror",
+        "reign": "1451–1481",
+        "title": "Conqueror of Constantinople (1453)"
+      },
+      {
+        "name": "Suleiman the Magnificent",
+        "reign": "1520–1566",
+        "title": "Kanuni (\"The Lawgiver\")"
+      },
+      {
+        "name": "Mustafa Kemal Atatürk",
+        "reign": "1923–1938",
+        "title": "Founder of Republic of Turkey"
+      }
+    ],
+    "wikipediaTitle": "Ottoman_Empire",
+    "spans": [
+      {
+        "macroRegion": "europe",
+        "start": 1362,
+        "end": 1912
+      },
+      {
+        "macroRegion": "africa",
+        "start": 1250,
+        "end": 2025
+      }
+    ]
+  }
+]

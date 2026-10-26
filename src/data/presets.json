@@ -1,0 +1,55 @@
+[
+  {
+    "id": "all_regions",
+    "name": "All 11 World Regions",
+    "description": "Full UsefulCharts global vista from the Andes to Japan (3300 BCE – Present)",
+    "macroRegions": [
+      "americas",
+      "europe",
+      "africa",
+      "west_central_asia",
+      "south_asia",
+      "east_asia",
+      "se_asia_oceania"
+    ],
+    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
+  },
+  {
+    "id": "rome_vs_han",
+    "name": "Rome vs. Han China",
+    "description": "Pin Western Europe, Mediterranean, Persia & China side-by-side during Classical Antiquity",
+    "macroRegions": ["europe", "west_central_asia", "east_asia"],
+    "year": 100,
+    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
+  },
+  {
+    "id": "bronze_cradles",
+    "name": "Cradles of Civilization",
+    "description": "Compare Norte Chico, Egypt, Mesopotamia, Indus Valley, and Early China (3300–1200 BCE)",
+    "macroRegions": [
+      "americas",
+      "africa",
+      "west_central_asia",
+      "south_asia",
+      "east_asia"
+    ],
+    "year": -2500,
+    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
+  },
+  {
+    "id": "americas_focus",
+    "name": "Pre-Columbian Americas",
+    "description": "Focus exclusively on Andean, Mesoamerican, and North American Indigenous civilizations",
+    "macroRegions": ["americas"],
+    "year": 600,
+    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
+  },
+  {
+    "id": "afro_eurasian_medieval",
+    "name": "Medieval Silk & Gold",
+    "description": "Sub-Saharan Africa, Islamic Near East, India, and Tang/Song/Mongol East Asia",
+    "macroRegions": ["africa", "west_central_asia", "south_asia", "east_asia"],
+    "year": 1250,
+    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
+  }
+]

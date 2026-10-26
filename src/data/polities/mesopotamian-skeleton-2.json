@@ -1,0 +1,94 @@
+[
+  {
+    "id": "lydia",
+    "name": "Lydia",
+    "family": "mesopotamian",
+    "start": -680,
+    "end": -546,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Lydia c.680–546 BCE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -680,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "Lydia is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cdli", "isac"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "urartu",
+    "name": "Urartu",
+    "family": "mesopotamian",
+    "start": -860,
+    "end": -590,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Urartu c.860–590 BCE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -860,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "Urartu is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cdli", "isac"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "jemdet_nasr",
+    "name": "Jemdet Nasr",
+    "family": "mesopotamian",
+    "start": -3100,
+    "end": -2900,
+    "confidence": "approximate",
+    "dateNote": "Widely cited Jemdet Nasr span is c. 3100–2900 BCE. Not an Appendix B line. Pages were not opened.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": -3100,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "Jemdet Nasr is a widely cited early span. Dates are not re-verified.",
+    "keyFacts": ["Widely cited span. Pages were not opened."],
+    "sourceIds": ["cdli", "isac"],
+    "verification": "unverified",
+    "evidence": "Widely cited span. The cited pages were not opened for this row."
+  },
+  {
+    "id": "early_dynastic_mesopotamia",
+    "name": "Early Dynastic Mesopotamia",
+    "family": "mesopotamian",
+    "start": -2900,
+    "end": -2334,
+    "confidence": "approximate",
+    "dateNote": "Widely cited Early Dynastic span is c. 2900–2334 BCE, beside the Sumerian city-states row. Pages were not opened.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": -2900,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "Early Dynastic Mesopotamia is a widely cited early span. Dates are not re-verified.",
+    "keyFacts": ["Widely cited span. Pages were not opened."],
+    "sourceIds": ["cdli", "isac"],
+    "verification": "unverified",
+    "evidence": "Widely cited span. The cited pages were not opened for this row."
+  }
+]

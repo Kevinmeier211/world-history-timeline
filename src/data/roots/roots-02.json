@@ -1,0 +1,98 @@
+[
+  {
+    "id": "carthage",
+    "reason": "gemini-v1 names no parent; nearest same-family end is ebla at a gap of 786 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "chalukya",
+    "reason": "gemini-v1 names no parent; nearest same-family end is kushan at a gap of 125 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "champa",
+    "reason": "gemini-v1 names no parent; nearest same-family end is dong_son at a gap of 92 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "chavin_culture",
+    "reason": "gemini-v1 parents norte_chico have no year inside both lifetimes ± 50; nearest same-family end is norte_chico at a gap of 900 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "chola",
+    "reason": "gemini-v1 names no parent; nearest same-family end is tibetan_empire at a gap of 8 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "congo_kinshasa",
+    "reason": "gemini-v1 names no parent; nearest same-family end is south_africa_union at a gap of 2 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "corded_ware",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "crusader_states",
+    "reason": "gemini-v1 names no parent; nearest same-family end is nabataean at a gap of 992 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "dai_viet",
+    "reason": "gemini-v1 names no parent; nearest same-family end is funan at a gap of 418 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "delhi_sultanate",
+    "reason": "gemini-v1 names no parent; nearest same-family end is pala at a gap of 45 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "denmark",
+    "reason": "gemini-v1 names no parent; nearest same-family end is kingdom_of_england at a gap of 93 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "dong_son",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "dutch_republic",
+    "reason": "gemini-v1 names no parent; nearest same-family end is spain_union at a gap of 65 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "dzungar",
+    "reason": "gemini-v1 names no parent; nearest same-family end is timurid at a gap of 127 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "early_cycladic",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "early_dynastic_egypt",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "east_polynesia",
+    "reason": "gemini-v1 names no parent; nearest same-family end is funan at a gap of 450 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "ebla",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "egypt_old_kingdom",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "elam",
+    "reason": "gemini-v1 names no parent; nearest same-family end is jemdet_nasr at a gap of 200 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "ethiopia_solomonic",
+    "reason": "gemini-v1 names no parent; nearest same-family end is ghana_wagadu at a gap of 70 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "etruscans",
+    "reason": "gemini-v1 names no parent; nearest same-family end is los_millares at a gap of 1300 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "european_partition_africa",
+    "reason": "gemini-v1 names no parent; nearest same-family end is oyo at a gap of 45 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "fatimid",
+    "reason": "gemini-v1 names no parent; nearest same-family end is umayyad at a gap of 159 continuous years, outside a shared-boundary handoff."
+  }
+]

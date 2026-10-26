@@ -1,0 +1,278 @@
+[
+  {
+    "id": "hre",
+    "name": "Holy Roman Empire",
+    "family": "latin_west",
+    "start": 962,
+    "end": 1806,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Holy Roman Empire 962–1806. Distinct from the migrated holy_roman_empire bundle.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 962,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Holy Roman Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "papal_states",
+    "name": "Papal States",
+    "family": "latin_west",
+    "start": 756,
+    "end": 1870,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Papal States 756–1870.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 756,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Papal States is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "venice",
+    "name": "Venice",
+    "family": "latin_west",
+    "start": 697,
+    "end": 1797,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Venice 697–1797.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 697,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Venice is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "spain_union",
+    "name": "Spain at the union of the crowns",
+    "family": "latin_west",
+    "start": 1469,
+    "end": 1516,
+    "confidence": "debated",
+    "dateNote": "Appendix B dates a union at 1469 and Habsburg Spain at 1516. It does not name this interval.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1469,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Spain at the union of the crowns is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "habsburg_spain",
+    "name": "Habsburg Spain",
+    "family": "latin_west",
+    "start": 1516,
+    "end": 1700,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Habsburg Spain 1516–1700.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1516,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Habsburg Spain is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "spain_after_habsburg",
+    "name": "Spain after Habsburg rule",
+    "family": "latin_west",
+    "start": 1700,
+    "end": 2000,
+    "confidence": "debated",
+    "dateNote": "Appendix B ends Habsburg Spain at 1700 and does not name the later state. Skeleton uses 1700–2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1700,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Spain after Habsburg rule is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "portugal",
+    "name": "Portugal",
+    "family": "latin_west",
+    "start": 1139,
+    "end": 2000,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Portugal 1139–. Skeleton ends at 2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1139,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Portugal is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "dutch_republic",
+    "name": "Dutch Republic",
+    "family": "latin_west",
+    "start": 1581,
+    "end": 1795,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Dutch Republic 1581–1795.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1581,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Dutch Republic is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "netherlands",
+    "name": "Netherlands",
+    "family": "latin_west",
+    "start": 1795,
+    "end": 2000,
+    "confidence": "debated",
+    "dateNote": "Appendix B ends the Dutch Republic at 1795 and does not name the later state. Skeleton uses 1795–2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1795,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Netherlands is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "austria_hungary",
+    "name": "Austria-Hungary",
+    "family": "latin_west",
+    "start": 1867,
+    "end": 1918,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Austria-Hungary 1867–1918.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1867,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Austria-Hungary is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "austria",
+    "name": "Austria",
+    "family": "latin_west",
+    "start": 1918,
+    "end": 2000,
+    "confidence": "debated",
+    "dateNote": "Appendix B ends Austria-Hungary at 1918 and does not name the later states. Skeleton uses 1918–2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1918,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Austria is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "hungary",
+    "name": "Hungary",
+    "family": "latin_west",
+    "start": 1918,
+    "end": 2000,
+    "confidence": "debated",
+    "dateNote": "Appendix B ends Austria-Hungary at 1918 and does not name the later states. Skeleton uses 1918–2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1918,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Hungary is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  }
+]

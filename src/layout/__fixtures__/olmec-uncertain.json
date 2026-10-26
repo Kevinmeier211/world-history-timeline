@@ -1,0 +1,9 @@
+{
+  "name": "D",
+  "id": "olmec",
+  "uncertaintyYears": 150,
+  "points": [
+    { "y": 200, "x": 280, "width": 28 },
+    { "y": 500, "x": 280, "width": 28 }
+  ]
+}

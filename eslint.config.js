@@ -15,7 +15,7 @@ const v1Ignores = [
   'src/data/politiesEast.ts',
   'src/data/historicalNodes.ts',
   'src/data/regionsAndEras.ts',
-  'src/data/index.ts',
+  'src/data/legacy.ts',
 ];
 
 export default tseslint.config(

@@ -1,0 +1,55 @@
+[
+  {
+    "id": "greece",
+    "name": "Greece",
+    "family": "greek_byzantine",
+    "start": 1821,
+    "end": 2000,
+    "confidence": "debated",
+    "dateNote": "Appendix B: Greece 1821/1832–. The earlier listed year is the span start. Skeleton ends at 2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1821,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "Greece is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row.",
+    "endpoints": [
+      {
+        "label": "Appendix B alternate start",
+        "year": 1832,
+        "note": "Appendix B lists 1821/1832 and does not say which year starts the state."
+      }
+    ]
+  },
+  {
+    "id": "early_cycladic",
+    "name": "Early Cycladic",
+    "family": "greek_byzantine",
+    "start": -3200,
+    "end": -2000,
+    "confidence": "approximate",
+    "dateNote": "Widely cited Early Cycladic span is c. 3200–2000 BCE. Not an Appendix B line. Pages were not opened.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "culture",
+    "anchor": [
+      {
+        "year": -3200,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "Early Cycladic is a widely cited early span. Dates are not re-verified.",
+    "keyFacts": ["Widely cited span. Pages were not opened."],
+    "sourceIds": ["louvre", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Widely cited span. The cited pages were not opened for this row."
+  }
+]

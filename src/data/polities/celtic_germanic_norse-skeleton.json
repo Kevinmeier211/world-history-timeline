@@ -1,0 +1,278 @@
+[
+  {
+    "id": "hallstatt",
+    "name": "Hallstatt",
+    "family": "celtic_germanic_norse",
+    "start": -1200,
+    "end": -500,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Hallstatt c.1200–500 BCE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "culture",
+    "anchor": [
+      {
+        "year": -1200,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Hallstatt is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "la_tene",
+    "name": "La Tène",
+    "family": "celtic_germanic_norse",
+    "start": -450,
+    "end": -50,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: La Tène c.450–50 BCE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "culture",
+    "anchor": [
+      {
+        "year": -450,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "La Tène is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "anglo_saxons",
+    "name": "Anglo-Saxons",
+    "family": "celtic_germanic_norse",
+    "start": 410,
+    "end": 1066,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Anglo-Saxons c.410–1066.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "people",
+    "anchor": [
+      {
+        "year": 410,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Anglo-Saxons is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "vikings",
+    "name": "Vikings",
+    "family": "celtic_germanic_norse",
+    "start": 793,
+    "end": 1066,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Vikings c.793–1066.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "people",
+    "anchor": [
+      {
+        "year": 793,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Vikings is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "kingdom_of_england",
+    "name": "England",
+    "family": "celtic_germanic_norse",
+    "start": 1066,
+    "end": 1707,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Norman England 1066, then England until Great Britain in 1707.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1066,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "England is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "great_britain",
+    "name": "Great Britain",
+    "family": "celtic_germanic_norse",
+    "start": 1707,
+    "end": 1801,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Great Britain 1707, then the UK in 1801.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1707,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Great Britain is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "united_kingdom",
+    "name": "United Kingdom",
+    "family": "celtic_germanic_norse",
+    "start": 1801,
+    "end": 2000,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: UK 1801–. Skeleton ends at 2000. The migrated british_empire bundle stays.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1801,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "United Kingdom is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "kalmar_union",
+    "name": "Kalmar Union",
+    "family": "celtic_germanic_norse",
+    "start": 1397,
+    "end": 1523,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Kalmar Union 1397–1523.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "confederation",
+    "anchor": [
+      {
+        "year": 1397,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Kalmar Union is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "denmark",
+    "name": "Denmark",
+    "family": "celtic_germanic_norse",
+    "start": 1800,
+    "end": 2000,
+    "confidence": "debated",
+    "dateNote": "Appendix B names Denmark among the Scandinavian kingdoms and does not give it a year. Skeleton uses 1800–2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1800,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Denmark is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "sweden",
+    "name": "Sweden",
+    "family": "celtic_germanic_norse",
+    "start": 1800,
+    "end": 2000,
+    "confidence": "debated",
+    "dateNote": "Appendix B names Sweden among the Scandinavian kingdoms and does not give it a year. Skeleton uses 1800–2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1800,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Sweden is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "norway",
+    "name": "Norway",
+    "family": "celtic_germanic_norse",
+    "start": 1800,
+    "end": 2000,
+    "confidence": "debated",
+    "dateNote": "Appendix B names Norway among the Scandinavian kingdoms and does not give it a year. Skeleton uses 1800–2000.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1800,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Norway is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "corded_ware",
+    "name": "Corded Ware",
+    "family": "celtic_germanic_norse",
+    "start": -2900,
+    "end": -2350,
+    "confidence": "approximate",
+    "dateNote": "Widely cited Corded Ware span is c. 2900–2350 BCE. Not an Appendix B line. Pages were not opened.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "culture",
+    "anchor": [
+      {
+        "year": -2900,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "Corded Ware is a widely cited early span. Dates are not re-verified.",
+    "keyFacts": ["Widely cited span. Pages were not opened."],
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Widely cited span. The cited pages were not opened for this row."
+  }
+]
