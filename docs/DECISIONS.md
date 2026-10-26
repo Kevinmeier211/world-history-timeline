@@ -1181,3 +1181,13 @@ Alternatives: Rasterize the sheet. Rename the woff2. Replace the arrows in the r
 Why: T7.02 asks for those three PDFs and a `pdffonts` check. The names above are the ones the tool printed.
 
 Reversible? y
+
+## 2026-10-26 — The 24×36 sheet can add 0.125 in of bleed
+
+Decision: `?print=1&bleed=1` grows only the poster, by 0.125 in on every side. The trim box stays 24 by 36 inches, with the same 0.5 in margin and 1.2 in title. Eight crop marks sit in that bleed, stop 0.02 in short of the trim, and use a 0.5 pt stroke. Letter and tabloid ignore `bleed`. Plain `?print=1` stays 24 by 36 with no marks. `export:pdf poster-bleed` writes `dist-print/chronos-poster-bleed.pdf`. On 2026-10-26, `pdfinfo` reported 1746 by 2610 pt, one page. A 144 dpi crop of the top-left corner shows the two marks and a gap at the corner.
+
+Alternatives: Bleed every sheet. Draw the marks across the trim. Trust the DOM test and skip the PDF.
+
+Why: §4.13 names 0.125 in of bleed for 24×36. The trim PDFs stay the T7.02 page size.
+
+Reversible? y

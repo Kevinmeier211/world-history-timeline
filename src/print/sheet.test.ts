@@ -3,12 +3,14 @@ import { describe, expect, it } from 'vitest';
 import { posterWorld } from '../camera/camera.ts';
 import { DESIGN_WIDTH } from '../layout/constants.ts';
 import {
+  PRINT_BLEED_IN,
   PRINT_PRIMARY_PT,
   PRINT_SHEETS,
   PRINT_TERTIARY_PT,
   PRINT_TITLE_IN,
   fitPrint,
   forcePrintFont,
+  paperSizeIn,
   posterTypeBoost,
   readPrintRequest,
 } from './sheet.ts';
@@ -25,6 +27,17 @@ describe('print sheets', () => {
     expect(readPrintRequest('?print=1&size=tabloid')?.sheet.id).toBe('tabloid');
     expect(readPrintRequest('?print=1&size=poster')?.sheet.id).toBe('poster');
     expect(readPrintRequest('?print=1&size=a0')?.sheet.id).toBe('poster');
+    expect(readPrintRequest('?print=1')?.bleed).toBe(false);
+    expect(readPrintRequest('?print=1&bleed=1')?.bleed).toBe(true);
+    expect(readPrintRequest('?print=1&size=letter&bleed=1')?.bleed).toBe(false);
+    expect(paperSizeIn(PRINT_SHEETS.poster, false)).toEqual({
+      widthIn: 24,
+      heightIn: 36,
+    });
+    expect(paperSizeIn(PRINT_SHEETS.poster, true)).toEqual({
+      widthIn: 24 + 2 * PRINT_BLEED_IN,
+      heightIn: 36 + 2 * PRINT_BLEED_IN,
+    });
     expect(PRINT_SHEETS.letter).toMatchObject({ widthIn: 8.5, heightIn: 11 });
     expect(PRINT_SHEETS.tabloid).toMatchObject({ widthIn: 11, heightIn: 17 });
     expect(PRINT_SHEETS.poster).toMatchObject({ widthIn: 24, heightIn: 36 });

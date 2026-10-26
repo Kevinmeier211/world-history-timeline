@@ -82,4 +82,16 @@ describe('print route', () => {
     expect(fonts.length).toBeGreaterThan(0);
     for (const size of fonts) expect(size).toBeGreaterThanOrEqual(10);
   });
+
+  it('adds 0.125 in of bleed and eight crop marks on the poster', () => {
+    render(createElement(AtlasRoot, { search: '?print=1&bleed=1' }));
+    const sheet = document.querySelector('.poster-print');
+    expect(sheet?.getAttribute('data-bleed')).toBe('1');
+    expect(sheet?.getAttribute('style')).toContain('24.25in');
+    expect(sheet?.getAttribute('style')).toContain('36.25in');
+    expect(document.querySelectorAll('.crop-marks line')).toHaveLength(8);
+    expect(
+      document.querySelector('.poster-print-sheet')?.getAttribute('style'),
+    ).toContain('24in');
+  });
 });

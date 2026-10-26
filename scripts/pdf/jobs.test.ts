@@ -21,6 +21,13 @@ describe('pdf jobs', () => {
     expect(paperInches('tabloid')).toEqual({ widthIn: 11, heightIn: 17 });
     expect(paperInches('poster')).toEqual({ widthIn: 24, heightIn: 36 });
     expect(printPath('poster')).toBe('/?print=1&size=poster');
+    expect(printPath('poster', true)).toBe('/?print=1&size=poster&bleed=1');
+    expect(paperInches('poster', true)).toEqual({ widthIn: 24.25, heightIn: 36.25 });
+    expect(viewportPx(24.25, 36.25)).toEqual({ width: 2328, height: 3480 });
+    expect(expectedPoints(24.25, 36.25)).toEqual({ widthPt: 1746, heightPt: 2610 });
+    expect(selectJobs(['poster-bleed']).map((job) => job.file)).toEqual([
+      'chronos-poster-bleed.pdf',
+    ]);
     expect(viewportPx(8.5, 11)).toEqual({ width: 816, height: 1056 });
     expect(viewportPx(24, 36)).toEqual({ width: 2304, height: 3456 });
     expect(expectedPoints(8.5, 11)).toEqual({ widthPt: 612, heightPt: 792 });

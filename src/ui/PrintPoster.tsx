@@ -1,9 +1,12 @@
 import { useMemo } from 'react';
 
 import { identityCamera, posterWorld } from '../camera/camera.ts';
+import { CropMarks } from '../print/CropMarks.tsx';
 import {
   fitPrint,
+  paperSizeIn,
   posterTypeBoost,
+  PRINT_BLEED_IN,
   PRINT_MARGIN_IN,
   type PrintRequest,
 } from '../print/sheet.ts';
@@ -27,13 +30,30 @@ export function PrintPoster({ request }: { request: PrintRequest }) {
   const paint = useMemo(() => posterFor(), []);
   const camera = useMemo(() => identityCamera(), []);
   const sheet = request.sheet;
+  const bleed = request.bleed;
+  const paper = paperSizeIn(sheet, bleed);
   return (
     <div
       className="poster-print"
       data-print={sheet.id}
-      style={{ width: `${sheet.widthIn}in`, height: `${sheet.heightIn}in` }}
+      data-bleed={bleed ? '1' : '0'}
+      style={{ width: `${paper.widthIn}in`, height: `${paper.heightIn}in` }}
     >
-      <div className="poster-print-sheet" style={{ padding: `${PRINT_MARGIN_IN}in` }}>
+      <div
+        className="poster-print-sheet"
+        style={
+          bleed
+            ? {
+                position: 'absolute',
+                left: `${PRINT_BLEED_IN}in`,
+                top: `${PRINT_BLEED_IN}in`,
+                width: `${sheet.widthIn}in`,
+                height: `${sheet.heightIn}in`,
+                padding: `${PRINT_MARGIN_IN}in`,
+              }
+            : { padding: `${PRINT_MARGIN_IN}in` }
+        }
+      >
         <PosterFrame lens="all" chrome={false}>
           <PrintBoostProvider boost={boost}>
             <Stage
@@ -55,6 +75,14 @@ export function PrintPoster({ request }: { request: PrintRequest }) {
           </PrintBoostProvider>
         </PosterFrame>
       </div>
+      {bleed ? (
+        <CropMarks
+          paperWidthIn={paper.widthIn}
+          paperHeightIn={paper.heightIn}
+          trimWidthIn={sheet.widthIn}
+          trimHeightIn={sheet.heightIn}
+        />
+      ) : null}
     </div>
   );
 }

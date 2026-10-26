@@ -4,6 +4,8 @@
  */
 
 export const PRINT_MARGIN_IN = 0.5;
+/** §4.13 bleed for the 24×36 sheet. Letter and tabloid stay on the trim. */
+export const PRINT_BLEED_IN = 0.125;
 /** Room kept above the chart for the title band, inside the safe margin. */
 export const PRINT_TITLE_IN = 1.2;
 export const PRINT_PRIMARY_PT = 6;
@@ -27,6 +29,8 @@ export const PRINT_SHEETS: Record<PrintSheetId, PrintSheet> = {
 
 export interface PrintRequest {
   sheet: PrintSheet;
+  /** 0.125 in bleed and crop marks. Only the 24×36 sheet honors this. */
+  bleed: boolean;
 }
 
 export interface PrintFit {
@@ -61,7 +65,20 @@ export function readPrintRequest(search: string): PrintRequest | null {
   if (params.get('print') !== '1') return null;
   const size = params.get('size');
   const sheet = isSheetId(size) ? PRINT_SHEETS[size] : PRINT_SHEETS.poster;
-  return { sheet };
+  const bleed = sheet.id === 'poster' && params.get('bleed') === '1';
+  return { sheet, bleed };
+}
+
+/** Paper size. Bleed grows the 24×36 sheet by 0.125 in on every side. */
+export function paperSizeIn(
+  sheet: PrintSheet,
+  bleed: boolean,
+): { widthIn: number; heightIn: number } {
+  if (!bleed) return { widthIn: sheet.widthIn, heightIn: sheet.heightIn };
+  return {
+    widthIn: sheet.widthIn + 2 * PRINT_BLEED_IN,
+    heightIn: sheet.heightIn + 2 * PRINT_BLEED_IN,
+  };
 }
 
 /** Fit the design chart on the sheet, inside the margin and under the title. */

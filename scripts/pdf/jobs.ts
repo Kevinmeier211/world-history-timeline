@@ -1,4 +1,4 @@
-import { PRINT_SHEETS, type PrintSheetId } from '../../src/print/sheet.ts';
+import { paperSizeIn, PRINT_SHEETS, type PrintSheetId } from '../../src/print/sheet.ts';
 
 /** CSS pixels per inch. Playwright viewports use this so `in` maps 1:1. */
 export const CSS_PX_PER_IN = 96;
@@ -7,33 +7,51 @@ export const PT_PER_IN = 72;
 export const PAGE_SIZE_TOLERANCE_PT = 1;
 
 export interface PdfJob {
+  key: string;
   id: PrintSheetId;
   file: string;
+  bleed: boolean;
 }
 
-/** Trim sheets. Bleed is a later job, not one of these three. */
+/** Trim sheets. An empty export still prints these three. */
 export const PDF_JOBS: readonly PdfJob[] = [
-  { id: 'letter', file: 'chronos-letter.pdf' },
-  { id: 'tabloid', file: 'chronos-tabloid.pdf' },
-  { id: 'poster', file: 'chronos-poster.pdf' },
+  { key: 'letter', id: 'letter', file: 'chronos-letter.pdf', bleed: false },
+  { key: 'tabloid', id: 'tabloid', file: 'chronos-tabloid.pdf', bleed: false },
+  { key: 'poster', id: 'poster', file: 'chronos-poster.pdf', bleed: false },
 ];
+
+/** 24×36 plus 0.125 in on every side. Crop marks are drawn by the print route. */
+export const POSTER_BLEED_JOB: PdfJob = {
+  key: 'poster-bleed',
+  id: 'poster',
+  file: 'chronos-poster-bleed.pdf',
+  bleed: true,
+};
+
+const JOBS = new Map<string, PdfJob>(
+  [...PDF_JOBS, POSTER_BLEED_JOB].map((job) => [job.key, job]),
+);
 
 export function selectJobs(names: readonly string[]): readonly PdfJob[] {
   if (names.length === 0) return PDF_JOBS;
   return names.map((name) => {
-    const job = PDF_JOBS.find((item) => item.id === name);
+    const job = JOBS.get(name);
     if (!job) throw new Error(`unknown pdf job ${name}`);
     return job;
   });
 }
 
-export function printPath(id: PrintSheetId): string {
-  return `/?print=1&size=${id}`;
+export function printPath(id: PrintSheetId, bleed = false): string {
+  const params = new URLSearchParams({ print: '1', size: id });
+  if (bleed) params.set('bleed', '1');
+  return `/?${params.toString()}`;
 }
 
-export function paperInches(id: PrintSheetId): { widthIn: number; heightIn: number } {
-  const sheet = PRINT_SHEETS[id];
-  return { widthIn: sheet.widthIn, heightIn: sheet.heightIn };
+export function paperInches(
+  id: PrintSheetId,
+  bleed = false,
+): { widthIn: number; heightIn: number } {
+  return paperSizeIn(PRINT_SHEETS[id], bleed);
 }
 
 export function viewportPx(

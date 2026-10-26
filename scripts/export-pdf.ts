@@ -104,7 +104,7 @@ async function openSheet(
 }
 
 function inspectFile(file: string, job: PdfJob): PdfExportResult {
-  const paper = paperInches(job.id);
+  const paper = paperInches(job.id, job.bleed);
   const result: PdfExportResult = {
     file,
     bytes: statSync(file).size,
@@ -163,7 +163,7 @@ async function writePdf(
   baseUrl: string,
   job: PdfJob,
 ): Promise<PdfExportResult> {
-  const paper = paperInches(job.id);
+  const paper = paperInches(job.id, job.bleed);
   const viewport = viewportPx(paper.widthIn, paper.heightIn);
   const file = path.join(DIST_PRINT, job.file);
   const page = await browser.newPage({
@@ -173,7 +173,7 @@ async function writePdf(
   });
   try {
     await page.emulateMedia({ media: 'print' });
-    const box = await openSheet(page, `${baseUrl}${printPath(job.id)}`);
+    const box = await openSheet(page, `${baseUrl}${printPath(job.id, job.bleed)}`);
     console.log(
       `${job.id} css box ${box.width.toFixed(1)} x ${box.height.toFixed(1)} px`,
     );

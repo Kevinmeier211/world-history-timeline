@@ -26,4 +26,4 @@ The four non-image floors stay met: relations 450, bands 35, routes 15, callouts
 
 The layout pass remains `docs/reviews/layout-pass.md`, 9/10, with item 2 partial. Tag `v2-p6-done` is merge `533cafd`. Tag `v2-p5-done` stays at `b5f7501`. Tag `v2-p4-done` is merge `7aa3c39`. Tag `v2-p2-done` is merge `390baa7`. Tag `v2-p3-done` is merge `09a5f75`.
 
-T7.02 wrote `dist-print/chronos-letter.pdf`, `chronos-tabloid.pdf`, and `chronos-poster.pdf`. `pdfinfo` page sizes were 612×792, 792×1224, and 1728×2592 pt. `pdffonts` emb was yes for every listed face, including Arimo-Bold for the right arrow and SourceSans3ExtraLight-Regular for the weight-400 body face. Next task is T7.03: 0.125 in bleed and crop marks on the 24×36 sheet.
+T7.02 wrote the three trim PDFs. T7.03 adds `?print=1&bleed=1` for the poster only: paper 24.25 by 36.25 in, trim still 24 by 36, eight crop marks in the bleed. `pdfinfo` on `chronos-poster-bleed.pdf` was 1746×2610 pt. Next task is T7.04, `scripts/check-pdf.ts`: minimum stroke, embedded fonts, image dpi, and page size.
