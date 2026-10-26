@@ -185,4 +185,4 @@ Partials: item 1, overview labels about 2px (`docs/shots/p3/desktop-overview.png
 | Task  | Status | Commit  | Evidence              | Minutes | Notes                                                                                                                                  |
 | ----- | ------ | ------- | --------------------- | ------- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | T9.01 | done   | 748f785 | `npm run check` green |         | README covers the chart, the commands, the print export, the data protocol, and the credits. T9.03 stays unrun. P8 stays closed.       |
-| T9.02 | done   | pending | `npm run check` green |         | License fields of the installed direct dependencies. Copyleft hits are MPL axe and LGPL sharp libvips, both dev-only. P8 stays closed. |
+| T9.02 | done   | 55e5523 | `npm run check` green |         | License fields of the installed direct dependencies. Copyleft hits are MPL axe and LGPL sharp libvips, both dev-only. P8 stays closed. |
