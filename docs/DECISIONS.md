@@ -571,3 +571,13 @@ Alternatives: Filter the roster down to the lens. Re-run the lane solver with ne
 Why: T5.07 asks for re-weighting and an arcs layer. The plan says a lens never hides the chart. Layout stays on the full roster so the lanes do not jump.
 
 Reversible? y
+
+## 2026-10-26 — Route arcs are static hairlines and thicken on hover
+
+Decision: A trade arc is a 1.5px dash of 6 4. A migration arc is a finer 1.25px dash of 2 3. Hover removes the dash, sets the stroke to the focus color, and thickens it to 2.5px. There is no transition. A wider transparent stroke is the hit target along the whole route, including the gaps of the dash. Ribbons beside that stroke still receive the pointer.
+
+Alternatives: Animate the dash. Use the same stroke for trade and migration. Make the whole bounding box capture the pointer.
+
+Why: T5.08 asks for static hairlines, a hover highlight, and emphasis for the active kind. Motion stays off unless the user points at a route.
+
+Reversible? y

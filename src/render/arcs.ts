@@ -11,6 +11,22 @@ function num(value: number): string {
   return String(Math.round(value * 100) / 100);
 }
 
+export interface ArcStyle {
+  width: number;
+  dash: string;
+}
+
+/** Static hairline. Hover drops the dash and thickens the stroke. */
+export function arcStyle(
+  type: 'trade' | 'migration' | 'cultural',
+  hot: boolean,
+): ArcStyle {
+  if (hot) return { width: 2.5, dash: '' };
+  if (type === 'migration') return { width: 1.25, dash: '2 3' };
+  if (type === 'cultural') return { width: 1.5, dash: '1 2.5' };
+  return { width: 1.5, dash: '6 4' };
+}
+
 /** A hairline through waypoints, ordered down the poster. Fewer than two points draw nothing. */
 export function arcPath(waypoints: readonly ArcWaypoint[]): string {
   const ordered = waypoints

@@ -242,14 +242,20 @@
   pointer-events: none;
 }
 
-.arcs {
-  pointer-events: none;
+.arc-hit {
+  fill: none;
+  stroke: transparent;
+  pointer-events: stroke;
 }
 
 .arc {
   fill: none;
   stroke: var(--ink);
-  stroke-width: 1.5;
+  pointer-events: none;
+}
+
+.arc-hot {
+  stroke: var(--focus);
 }
 
 .band-wash {
