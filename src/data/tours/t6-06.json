@@ -1,0 +1,59 @@
+[
+  {
+    "id": "tour_writing",
+    "title": "Writing independently invented",
+    "subtitle": "Checklist rows only. No script is added.",
+    "waypoints": [
+      {
+        "title": "Sumerian cities, 3500 BCE",
+        "year": -3500,
+        "zoom": 1.5,
+        "lens": "technology",
+        "polityId": "sumerian_city_states",
+        "narrative": "The Sumerian city-states checklist row runs from about 3500 BCE to 2334 BCE. This stop uses 3500 BCE. It does not add a script or an inventor. The cited page was not opened.",
+        "sourceIds": ["cdli", "isac"],
+        "verification": "unverified"
+      },
+      {
+        "title": "Early Dynastic Egypt, 3100 BCE",
+        "year": -3100,
+        "zoom": 1.5,
+        "lens": "technology",
+        "polityId": "early_dynastic_egypt",
+        "narrative": "The Early Dynastic Egypt checklist row runs from about 3100 BCE to 2686 BCE. This stop uses 3100 BCE. It does not add a script or an inventor. The cited page was not opened.",
+        "sourceIds": ["louvre", "unesco_gha"],
+        "verification": "unverified"
+      },
+      {
+        "title": "Liangzhu, 3300 BCE",
+        "year": -3300,
+        "zoom": 1.5,
+        "lens": "technology",
+        "polityId": "liangzhu",
+        "narrative": "The Liangzhu checklist row runs from about 3300 BCE to 2300 BCE. This stop uses 3300 BCE. It does not add a script or an inventor. The cited page was not opened.",
+        "sourceIds": ["chgis", "cambridge_histories"],
+        "verification": "unverified"
+      },
+      {
+        "title": "Mature Harappan, 2600 BCE",
+        "year": -2600,
+        "zoom": 1.6,
+        "lens": "technology",
+        "polityId": "mature_harappan",
+        "narrative": "The mature Harappan checklist row runs from about 2600 BCE to 1900 BCE, inside the Indus span. This stop uses 2600 BCE. It does not read a script. The cited page was not opened.",
+        "sourceIds": ["british_library", "cambridge_histories"],
+        "verification": "unverified"
+      },
+      {
+        "title": "Olmecs, 1500 BCE",
+        "year": -1500,
+        "zoom": 1.5,
+        "lens": "technology",
+        "polityId": "olmecs",
+        "narrative": "The Olmec row on this sheet runs from about 1500 BCE to 400 BCE. This stop uses 1500 BCE. It does not add a script or an inventor. The cited page was not opened.",
+        "sourceIds": ["inah", "museo_larco"],
+        "verification": "unverified"
+      }
+    ]
+  }
+]
