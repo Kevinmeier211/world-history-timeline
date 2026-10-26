@@ -4,7 +4,7 @@ Resume here. Branch `v2/p2-layout`, cut from `v2/p1-data` because P1 was not mer
 
 ## Architecture
 
-Vite 6 + React 19 + TypeScript, strict and `noUncheckedIndexedAccess`. v1 chart: `src/App.tsx`, `src/components/`, `src/data/*.ts`, `src/utils/timeLayout.ts`, `src/styles/app.css`. v2 schemas live in `src/data/schema` (zod is the source of truth). `src/data/index.ts` loads the v2 catalog and re-exports the v1 barrel from `legacy.ts`. `src/layout` has serializable types, `projectX`, time slices, the lane solver, drift limiting, split/merge seeding, multi-zone ribbons, ribbon paths, uncertainty caps, flow-conserving connectors, connector strokes, label fitting, short-ribbon labels, callout placement, level of detail, the memoized orchestrator in `src/layout/index.ts`, the layout metrics, and a debug payload of lanes, boxes, and violations. `npm run layout:report` writes `docs/reports/layout-latest.json`. Still to come: `src/render`, `src/camera`, `src/state`, `src/ui`. Plan: `docs/CURSOR_PLAN.md`. Queue: Appendix E. Switches: `docs/RUN_CONFIG.md` (all off, `MAX_PHASE=7`).
+Vite 6 + React 19 + TypeScript, strict and `noUncheckedIndexedAccess`. v1 chart: `src/App.tsx`, `src/components/`, `src/data/*.ts`, `src/utils/timeLayout.ts`, `src/styles/app.css`. v2 schemas live in `src/data/schema` (zod is the source of truth). `src/data/index.ts` loads the v2 catalog and re-exports the v1 barrel from `legacy.ts`. `src/layout` has serializable types, `projectX`, time slices, the lane solver, drift limiting, split/merge seeding, multi-zone ribbons, ribbon paths, uncertainty caps, flow-conserving connectors, connector strokes, label fitting, short-ribbon labels, callout placement, level of detail, the memoized orchestrator in `src/layout/index.ts`, the layout metrics, a debug payload of lanes, boxes, and violations, and golden fixtures A–H. `npm run layout:report` writes `docs/reports/layout-latest.json`. Still to come: `src/render`, `src/camera`, `src/state`, `src/ui`. Plan: `docs/CURSOR_PLAN.md`. Queue: Appendix E. Switches: `docs/RUN_CONFIG.md` (all off, `MAX_PHASE=7`).
 
 ## Commands
 
@@ -20,4 +20,4 @@ Poster and both Gemini PDFs are missing (Q-01). Gemini bibliography [1]–[37] w
 
 ## Next
 
-T2.20 golden fixtures A–H and a determinism hash, on branch `v2/p2-layout`. Fixtures A, B, D, F, G, and H already have unit tests. C and E are still missing. The early bin is 38/35. Tag `v2-p1-done` is `b4f3bea` only; `v2/main` was not moved. Merge this branch at the P2 gate. Do not start P8.
+T2.99 layout coverage ≥ 85%, `layout:report` gates, tag `v2-p2-done`, and merge `v2/p2-layout` into `v2/main` with `--no-ff`. The early bin is 38/35. Tag `v2-p1-done` is `b4f3bea` only. Do not start P8.

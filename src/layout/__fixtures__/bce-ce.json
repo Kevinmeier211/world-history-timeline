@@ -1,0 +1,7 @@
+{
+  "name": "E",
+  "note": "A polity from -5 to 5 crosses the missing year 0. The span is nine continuous years.",
+  "id": "boundary",
+  "start": -5,
+  "end": 5
+}
