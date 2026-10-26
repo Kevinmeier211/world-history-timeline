@@ -992,6 +992,16 @@ Why: The CHGIS page describes a placename database and does not state a row year
 
 Reversible? y
 
+## 2026-10-26 — The Roman Climate Optimum stays undated
+
+Decision: T6.04 adds no band for the Roman Climate Optimum. Appendix B names it and gives it no years. The Axial Age stays the existing band from 650 BCE to 250 BCE. Hellenism stays 323 BCE to 31 BCE, the checklist span of the Hellenistic kingdoms. The 535–536 weather and the Plague of Justinian stay the existing band from 535 to 560. Pages were not opened. `verification` on those bands stays unverified.
+
+Alternatives: Invent a Roman Climate Optimum span. Move the Axial Age band from 650–250 BCE to the seed’s about 800–200 BCE. Split 535–536 from the plague.
+
+Why: A new band has to use a span the dataset already dates. The three existing bands already cover the dated frames this pass can stand on. The Axial Age row was not edited to chase the seed’s other pair of years.
+
+Reversible? y
+
 ## 2026-10-26 — Early-modern importance stays at the rows already set
 
 Decision: No 1500–1800 row was raised to importance 3 or 4 in this pass. `denmark_norway` stays weight 0.22. `sweden_1523` stays weight 0.35. `npm run layout:report` after the new rows and callouts: 238 ribbons drawn, 436 polities, 0 overlaps, minimum gap 6, importance-3 labels 82/82, 0 unroutable relations, 82 omitted, max drift 3.211. Cold runtime 259 ms, warm 156 ms, over the 150 ms gate. Callouts dropped 100, with 13 markers and 46 placed. The layout engine was not changed.
