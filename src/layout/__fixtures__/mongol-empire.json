@@ -1,0 +1,11 @@
+{
+  "name": "B",
+  "note": "One wide ribbon. Four successors are named for the later connector pass.",
+  "children": ["yuan", "ilkhanate", "chagatai", "golden_horde"],
+  "zones": [
+    { "id": "east_asia", "start": 1206, "end": 1368, "x": 1100, "weight": 0.5 },
+    { "id": "central_asia", "start": 1218, "end": 1368, "x": 860, "weight": 0.35 },
+    { "id": "persia", "start": 1256, "end": 1335, "x": 620, "weight": 0.35 },
+    { "id": "rus", "start": 1240, "end": 1300, "x": 420, "weight": 0.3 }
+  ]
+}
