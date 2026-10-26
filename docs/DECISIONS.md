@@ -141,3 +141,13 @@ Alternatives: Nearest-neighbor succession inside a family. Whitelist every polit
 Why: Belgium is three years after Venice. A one-year gap while other rows are current would make Prussia succeed Habsburg Spain. The generator refuses both. Russian America and Canada share 1867, so that debated succession stays until a source is opened.
 
 Reversible? y
+
+## 2026-10-26 — The 3300–2000 BCE floor stays 35
+
+Decision: T1.29 adds only the dated Appendix B span that was still missing (Old Kingdom 2686–2181 BCE) and three unnamed intervals the checklist bounds on both sides. `eraShortfalls` reports a short bin and does not fail `npm run check`. The §7 number 35 stays in `ERA_FLOORS`. The phase tag `v2-p1-done` waits until that bin meets 35. See Q-07.
+
+Alternatives: Lower the floor to 26. Treat Yangshao and Longshan as sharing Liangzhu's years. Add cultures whose dates are not in Appendix B. Make the shortfall an error and stop the run.
+
+Why: A red tree would block every later task. Inventing nine early spans would be a new historical claim. The report stays visible, and the test locks both the floor and the current count.
+
+Reversible? y

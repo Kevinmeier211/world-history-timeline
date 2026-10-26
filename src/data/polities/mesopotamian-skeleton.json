@@ -46,6 +46,29 @@
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
   },
   {
+    "id": "mesopotamia_2154",
+    "name": "Mesopotamia in 2154–2112 BCE",
+    "family": "mesopotamian",
+    "start": -2154,
+    "end": -2112,
+    "confidence": "debated",
+    "dateNote": "Appendix B ends the Akkadian line at 2154 BCE and starts Ur III at 2112 BCE. It does not name the interval.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": -2154,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "Mesopotamia in 2154–2112 BCE is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cdli", "isac"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
     "id": "ur_iii",
     "name": "Ur III",
     "family": "mesopotamian",
@@ -63,6 +86,29 @@
       }
     ],
     "summary": "Ur III is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cdli", "isac"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "mesopotamia_2004",
+    "name": "Mesopotamia in 2004–1894 BCE",
+    "family": "mesopotamian",
+    "start": -2004,
+    "end": -1894,
+    "confidence": "debated",
+    "dateNote": "Appendix B ends Ur III at 2004 BCE and starts Old Babylonian at 1894 BCE. It does not name the interval.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": -2004,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "Mesopotamia in 2004–1894 BCE is an Appendix B checklist skeleton. Dates are not re-verified.",
     "keyFacts": ["Checklist skeleton."],
     "sourceIds": ["cdli", "isac"],
     "verification": "unverified",
@@ -224,52 +270,6 @@
       }
     ],
     "summary": "Medes is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
-    "sourceIds": ["cdli", "isac"],
-    "verification": "unverified",
-    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
-  },
-  {
-    "id": "lydia",
-    "name": "Lydia",
-    "family": "mesopotamian",
-    "start": -680,
-    "end": -546,
-    "confidence": "approximate",
-    "dateNote": "Appendix B: Lydia c.680–546 BCE.",
-    "importance": 2,
-    "weight": 0.35,
-    "kind": "state",
-    "anchor": [
-      {
-        "year": -680,
-        "xKey": "mesopotamia_persia"
-      }
-    ],
-    "summary": "Lydia is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
-    "sourceIds": ["cdli", "isac"],
-    "verification": "unverified",
-    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
-  },
-  {
-    "id": "urartu",
-    "name": "Urartu",
-    "family": "mesopotamian",
-    "start": -860,
-    "end": -590,
-    "confidence": "approximate",
-    "dateNote": "Appendix B: Urartu c.860–590 BCE.",
-    "importance": 2,
-    "weight": 0.35,
-    "kind": "state",
-    "anchor": [
-      {
-        "year": -860,
-        "xKey": "mesopotamia_persia"
-      }
-    ],
-    "summary": "Urartu is an Appendix B checklist skeleton. Dates are not re-verified.",
     "keyFacts": ["Checklist skeleton."],
     "sourceIds": ["cdli", "isac"],
     "verification": "unverified",

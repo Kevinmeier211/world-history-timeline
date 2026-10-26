@@ -1,9 +1,5 @@
 [
   {
-    "id": "neo_babylonian",
-    "reason": "gemini-v1 names no parent; nearest same-family end is babylon_assyria at a gap of 285 continuous years, outside a shared-boundary handoff."
-  },
-  {
     "id": "neolithic_erlitou_china",
     "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
   },
@@ -38,10 +34,6 @@
   {
     "id": "nsw_colony",
     "reason": "gemini-v1 names no parent; nearest same-family end is ayutthaya at a gap of 21 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "old_babylonian",
-    "reason": "gemini-v1 names no parent; nearest same-family end is sumer_akkad, ur_iii at a gap of 110 continuous years, outside a shared-boundary handoff."
   },
   {
     "id": "olmecs",
@@ -94,5 +86,13 @@
   {
     "id": "poland_lithuania",
     "reason": "gemini-v1 names no parent; nearest same-family end is rus_1502 at a gap of 22 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "portugal",
+    "reason": "gemini-v1 names no parent; nearest same-family end is west_francia at a gap of 152 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "poverty_point",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
   }
 ]

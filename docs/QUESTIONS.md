@@ -49,3 +49,11 @@ Why it matters: T1.28 asks for a cross-family pass that includes those types. v1
 Default applied: Same-family succession or split only when the predecessor ends on the successor's start year, or one continuous year later while no checklist row in that family is still current. That keeps the Zhou handoffs of 771/770 and 476/475, and it does not make Prussia a successor of Habsburg Spain or Thailand a successor of the VOC. Several meeting ends become one `disputed` relation instead of a guess, so a same-year neighbor can appear on that edge until a later pass removes it. gemini-v1 `parentIds` are copied as `cultural_continuity` only when the child's start or the parent's end lies inside the other lifetime ± 50. A year that sits in neither span is not invented. Nine equal Appendix B spans that were stored in two families are `cultural_continuity`. Mughal is not one of them: the v1 bundle starts in 1206 and the checklist row in 1526. Polities with no inbound relation get a reason that names the nearest rejected end. Nineteen v1 parent edges have no such year and are not copied.
 
 Affects tasks: T1.28, T6 relation passes.
+
+## Q-07 — 3300–2000 BCE stays under the §7 floor of 35
+
+Why it matters: T1.29 and the P1 exit need every era bin to meet its §7 floor. After T1.28 that bin held 22 polities. The other seven bins already met their floors.
+
+Default applied: Added Old Kingdom 2686–2181 BCE as its own row. The migrated `egypt_old_kingdom` bundle stays the wider Early Dynastic plus Old Kingdom ribbon. Added three intervals Appendix B bounds and does not name: Mesopotamia 2154–2112 BCE, Mesopotamia 2004–1894 BCE, and China 2300–1900 BCE. Each is `confidence: debated` and `verification: unverified`. The early bin is now 26, and 2000–1000 BCE moved from 40 to 42. Yangshao and Longshan stay omitted (Q-04). Uruk c.3300–3200, Giza c.2600–2500, and the 4.2 ka event stay a callout seed and a band seed. `eraShortfalls` prints `3300_2000bce 26/35` and does not change the process exit code, so later tasks can keep a green tree. `ERA_FLOORS` stays 35. `scripts/era-floor.test.ts` locks the count at 26 until another dated row is added. T1.99 will not be tagged while this bin is short.
+
+Affects tasks: T1.29, T1.99, T6.06.

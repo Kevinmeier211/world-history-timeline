@@ -1,9 +1,5 @@
 [
   {
-    "id": "german_empire",
-    "reason": "gemini-v1 names no parent; nearest same-family end is papal_states at a gap of 1 continuous year, while other polities in the family are still current."
-  },
-  {
     "id": "ghana_mali_songhai",
     "reason": "gemini-v1 parents nok_culture have no year inside both lifetimes ± 50; nearest same-family end is kerma_kush, meroitic_kush at a gap of 50 continuous years, outside a shared-boundary handoff."
   },
@@ -57,7 +53,7 @@
   },
   {
     "id": "hittites",
-    "reason": "gemini-v1 names no parent; nearest same-family end is sumer_akkad, ur_iii at a gap of 354 continuous years, outside a shared-boundary handoff."
+    "reason": "gemini-v1 names no parent; nearest same-family end is mesopotamia_2004 at a gap of 244 continuous years, outside a shared-boundary handoff."
   },
   {
     "id": "hopewell_tradition",
@@ -94,5 +90,9 @@
   {
     "id": "japan_timeline",
     "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "jin_266",
+    "reason": "gemini-v1 names no parent; nearest same-family end is eastern_han, han_dynasty at a gap of 46 continuous years, outside a shared-boundary handoff."
   }
 ]

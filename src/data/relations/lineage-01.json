@@ -1,5 +1,17 @@
 [
   {
+    "id": "abut_akkadian_empire_mesopotamia_2154",
+    "from": ["akkadian_empire"],
+    "to": ["mesopotamia_2154"],
+    "year": -2154,
+    "type": "succession",
+    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
+    "sourceIds": ["cdli", "isac"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
+  },
+  {
     "id": "abut_asuka_nara",
     "from": ["asuka"],
     "to": ["nara"],
@@ -60,6 +72,18 @@
     "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
   },
   {
+    "id": "abut_china_2300_erlitou",
+    "from": ["china_2300"],
+    "to": ["erlitou"],
+    "year": -1900,
+    "type": "succession",
+    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
+  },
+  {
     "id": "abut_dong_son_khmer_majapahit_sea",
     "from": ["dong_son"],
     "to": ["khmer_majapahit_sea"],
@@ -84,6 +108,18 @@
     "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
   },
   {
+    "id": "abut_early_dynastic_egypt_old_kingdom_egypt",
+    "from": ["early_dynastic_egypt"],
+    "to": ["old_kingdom_egypt"],
+    "year": -2686,
+    "type": "succession",
+    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
+    "sourceIds": ["louvre", "unesco_gha"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
+  },
+  {
     "id": "abut_east_francia_hre",
     "from": ["east_francia"],
     "to": ["hre"],
@@ -103,42 +139,6 @@
     "type": "succession",
     "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
     "sourceIds": ["louvre", "unesco_gha"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
-  },
-  {
-    "id": "abut_egypt_middle_kingdom_second_intermediate_egypt",
-    "from": ["egypt_middle_kingdom"],
-    "to": ["second_intermediate_egypt"],
-    "year": -1650,
-    "type": "succession",
-    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
-    "sourceIds": ["louvre", "unesco_gha"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
-  },
-  {
-    "id": "abut_egypt_old_kingdom_first_intermediate_egypt",
-    "from": ["egypt_old_kingdom"],
-    "to": ["first_intermediate_egypt"],
-    "year": -2181,
-    "type": "succession",
-    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
-    "sourceIds": ["louvre", "unesco_gha"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
-  },
-  {
-    "id": "abut_empire_of_alexander_ptolemaic_seleucid",
-    "from": ["empire_of_alexander"],
-    "to": ["ptolemaic_seleucid"],
-    "year": -312,
-    "type": "succession",
-    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
-    "sourceIds": ["louvre", "cambridge_histories"],
     "confidence": "debated",
     "verification": "unverified",
     "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."

@@ -1,17 +1,5 @@
 [
   {
-    "id": "tulunid_egypt",
-    "reason": "gemini-v1 names no parent; nearest same-family end is roman_egypt at a gap of 227 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "united_provinces_central_america",
-    "reason": "gemini-v1 names no parent; nearest same-family end is maya_postclassic at a gap of 124 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "ur_iii",
-    "reason": "gemini-v1 names no parent; nearest same-family end is akkadian_empire at a gap of 42 continuous years, outside a shared-boundary handoff."
-  },
-  {
     "id": "urartu",
     "reason": "gemini-v1 names no parent; nearest same-family end is babylon_assyria at a gap of 51 continuous years, outside a shared-boundary handoff."
   },

@@ -1,5 +1,29 @@
 [
   {
+    "id": "abut_goryeo_joseon",
+    "from": ["goryeo"],
+    "to": ["joseon"],
+    "year": 1392,
+    "type": "succession",
+    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
+    "sourceIds": ["korea_national", "tokyo_national"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
+  },
+  {
+    "id": "abut_great_britain_united_kingdom",
+    "from": ["great_britain"],
+    "to": ["united_kingdom"],
+    "year": 1801,
+    "type": "succession",
+    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
+  },
+  {
     "id": "abut_habsburg_spain_spain_after_habsburg",
     "from": ["habsburg_spain"],
     "to": ["spain_after_habsburg"],
@@ -112,30 +136,6 @@
     "from": ["kofun"],
     "to": ["asuka"],
     "year": 538,
-    "type": "succession",
-    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
-    "sourceIds": ["korea_national", "tokyo_national"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
-  },
-  {
-    "id": "abut_korea_under_japan_korea_1945",
-    "from": ["korea_under_japan"],
-    "to": ["korea_1945"],
-    "year": 1945,
-    "type": "succession",
-    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
-    "sourceIds": ["korea_national", "tokyo_national"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
-  },
-  {
-    "id": "abut_korean_empire_korea_under_japan",
-    "from": ["korean_empire"],
-    "to": ["korea_under_japan"],
-    "year": 1910,
     "type": "succession",
     "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
     "sourceIds": ["korea_national", "tokyo_national"],

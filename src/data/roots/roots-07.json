@@ -1,13 +1,5 @@
 [
   {
-    "id": "portugal",
-    "reason": "gemini-v1 names no parent; nearest same-family end is west_francia at a gap of 152 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "poverty_point",
-    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
-  },
-  {
     "id": "prc",
     "reason": "gemini-v1 names no parent; nearest same-family end is qing at a gap of 37 continuous years, outside a shared-boundary handoff."
   },
@@ -94,5 +86,13 @@
   {
     "id": "silla",
     "reason": "gemini-v1 names no parent; nearest same-family end is jomon at a gap of 243 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "sokoto",
+    "reason": "gemini-v1 names no parent; nearest same-family end is mali_empire at a gap of 204 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "songhai_empire",
+    "reason": "gemini-v1 names no parent; nearest same-family end is great_zimbabwe at a gap of 14 continuous years, outside a shared-boundary handoff."
   }
 ]

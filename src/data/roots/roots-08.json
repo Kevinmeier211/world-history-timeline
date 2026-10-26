@@ -1,13 +1,5 @@
 [
   {
-    "id": "sokoto",
-    "reason": "gemini-v1 names no parent; nearest same-family end is mali_empire at a gap of 204 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "songhai_empire",
-    "reason": "gemini-v1 names no parent; nearest same-family end is great_zimbabwe at a gap of 14 continuous years, outside a shared-boundary handoff."
-  },
-  {
     "id": "south_africa_union",
     "reason": "gemini-v1 names no parent; nearest same-family end is sokoto at a gap of 7 continuous years, outside a shared-boundary handoff."
   },
@@ -94,5 +86,13 @@
   {
     "id": "tonga",
     "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "tulunid_egypt",
+    "reason": "gemini-v1 names no parent; nearest same-family end is roman_egypt at a gap of 227 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "united_provinces_central_america",
+    "reason": "gemini-v1 names no parent; nearest same-family end is maya_postclassic at a gap of 124 continuous years, outside a shared-boundary handoff."
   }
 ]

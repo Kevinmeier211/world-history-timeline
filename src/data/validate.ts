@@ -101,6 +101,34 @@ export function coverageOf(dataset: Dataset): CoverageReport {
   return { byEra, byFamily, byMacroRegion, byImportance };
 }
 
+/** §7 era floors. Shortfalls are reported; these numbers are not lowered. */
+export const ERA_FLOORS = {
+  '3300_2000bce': 35,
+  '2000_1000bce': 40,
+  '1000_1bce': 55,
+  '1_500ce': 40,
+  '500_1000ce': 45,
+  '1000_1500ce': 55,
+  '1500_1800ce': 55,
+  '1800_2000ce': 70,
+} as const satisfies Record<(typeof ERA_BINS)[number]['id'], number>;
+
+export interface EraFloorGap {
+  id: (typeof ERA_BINS)[number]['id'];
+  count: number;
+  floor: number;
+}
+
+export function eraShortfalls(byEra: Readonly<Record<string, number>>): EraFloorGap[] {
+  const short: EraFloorGap[] = [];
+  for (const era of ERA_BINS) {
+    const count = byEra[era.id] ?? 0;
+    const floor = ERA_FLOORS[era.id];
+    if (count < floor) short.push({ id: era.id, count, floor });
+  }
+  return short;
+}
+
 /** Adjacent-lane color rule from §6.3. Layout supplies the pairs (T2). */
 export function adjacentLaneColorWarnings(
   pairs: readonly LaneColorPair[],

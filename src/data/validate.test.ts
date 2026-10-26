@@ -2,7 +2,12 @@ import { describe, expect, it } from 'vitest';
 
 import { bundledDataset } from './catalog.ts';
 import type { Dataset } from './schema/index.ts';
-import { adjacentLaneColorWarnings, validateDataset } from './validate.ts';
+import {
+  adjacentLaneColorWarnings,
+  ERA_FLOORS,
+  eraShortfalls,
+  validateDataset,
+} from './validate.ts';
 
 function base(): Dataset {
   const data = bundledDataset();
@@ -190,5 +195,18 @@ describe('validateDataset', () => {
       ]).some((issue) => issue.message.includes('>25%')),
     ).toBe(true);
     expect(adjacentLaneColorWarnings([])).toEqual([]);
+  });
+
+  it('reports bins under the §7 floors and leaves an exact floor alone', () => {
+    expect(ERA_FLOORS['3300_2000bce']).toBe(35);
+    expect(ERA_FLOORS['1800_2000ce']).toBe(70);
+    const met: Record<string, number> = {};
+    for (const [id, floor] of Object.entries(ERA_FLOORS)) met[id] = floor;
+    expect(eraShortfalls(met)).toEqual([]);
+    met['3300_2000bce'] = 34;
+    expect(eraShortfalls(met)).toEqual([{ id: '3300_2000bce', count: 34, floor: 35 }]);
+    const empty = eraShortfalls({});
+    expect(empty).toHaveLength(8);
+    expect(empty[0]).toEqual({ id: '3300_2000bce', count: 0, floor: 35 });
   });
 });

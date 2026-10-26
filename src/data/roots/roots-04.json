@@ -1,9 +1,5 @@
 [
   {
-    "id": "jin_266",
-    "reason": "gemini-v1 names no parent; nearest same-family end is eastern_han, han_dynasty at a gap of 46 continuous years, outside a shared-boundary handoff."
-  },
-  {
     "id": "jomon",
     "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
   },
@@ -94,5 +90,9 @@
   {
     "id": "levant_mandates",
     "reason": "gemini-v1 names no parent; nearest same-family end is ottoman_levant at a gap of 2 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "liangzhu",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
   }
 ]

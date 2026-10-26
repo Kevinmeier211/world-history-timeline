@@ -1,5 +1,29 @@
 [
   {
+    "id": "abut_korea_under_japan_korea_1945",
+    "from": ["korea_under_japan"],
+    "to": ["korea_1945"],
+    "year": 1945,
+    "type": "succession",
+    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
+    "sourceIds": ["korea_national", "tokyo_national"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
+  },
+  {
+    "id": "abut_korean_empire_korea_under_japan",
+    "from": ["korean_empire"],
+    "to": ["korea_under_japan"],
+    "year": 1910,
+    "type": "succession",
+    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
+    "sourceIds": ["korea_national", "tokyo_national"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
+  },
+  {
     "id": "abut_kush_napatan_meroitic_kush",
     "from": ["kush_napatan"],
     "to": ["meroitic_kush"],
@@ -31,6 +55,18 @@
     "type": "succession",
     "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
     "sourceIds": ["louvre", "british_library"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
+  },
+  {
+    "id": "abut_liangzhu_china_2300",
+    "from": ["liangzhu"],
+    "to": ["china_2300"],
+    "year": -2300,
+    "type": "succession",
+    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
+    "sourceIds": ["chgis", "cambridge_histories"],
     "confidence": "debated",
     "verification": "unverified",
     "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
@@ -72,70 +108,34 @@
     "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
   },
   {
+    "id": "abut_mesopotamia_2004_old_babylonian",
+    "from": ["mesopotamia_2004"],
+    "to": ["old_babylonian"],
+    "year": -1894,
+    "type": "succession",
+    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
+    "sourceIds": ["cdli", "isac"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
+  },
+  {
+    "id": "abut_mesopotamia_2154_ur_iii",
+    "from": ["mesopotamia_2154"],
+    "to": ["ur_iii"],
+    "year": -2112,
+    "type": "succession",
+    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
+    "sourceIds": ["cdli", "isac"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
+  },
+  {
     "id": "abut_ming_qing",
     "from": ["ming"],
     "to": ["qing"],
     "year": 1644,
-    "type": "succession",
-    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
-    "sourceIds": ["chgis", "cambridge_histories"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
-  },
-  {
-    "id": "abut_muhammad_ali_egypt_egypt_republic",
-    "from": ["muhammad_ali_egypt"],
-    "to": ["egypt_republic"],
-    "year": 1953,
-    "type": "succession",
-    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
-    "sourceIds": ["louvre", "unesco_gha"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
-  },
-  {
-    "id": "abut_muromachi_azuchi_momoyama",
-    "from": ["muromachi"],
-    "to": ["azuchi_momoyama"],
-    "year": 1573,
-    "type": "succession",
-    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
-    "sourceIds": ["korea_national", "tokyo_national"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
-  },
-  {
-    "id": "abut_nara_heian",
-    "from": ["nara"],
-    "to": ["heian"],
-    "year": 794,
-    "type": "succession",
-    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
-    "sourceIds": ["korea_national", "tokyo_national"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
-  },
-  {
-    "id": "abut_nazi_germany_germany_1945",
-    "from": ["nazi_germany"],
-    "to": ["germany_1945"],
-    "year": 1945,
-    "type": "succession",
-    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
-    "sourceIds": ["cambridge_histories", "british_library"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
-  },
-  {
-    "id": "abut_neolithic_erlitou_china_shang_dynasty",
-    "from": ["neolithic_erlitou_china"],
-    "to": ["shang_dynasty"],
-    "year": -1600,
     "type": "succession",
     "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
     "sourceIds": ["chgis", "cambridge_histories"],

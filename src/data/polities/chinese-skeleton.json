@@ -23,6 +23,29 @@
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
   },
   {
+    "id": "china_2300",
+    "name": "China in 2300–1900 BCE",
+    "family": "chinese",
+    "start": -2300,
+    "end": -1900,
+    "confidence": "debated",
+    "dateNote": "Appendix B ends Liangzhu at 2300 BCE and starts Erlitou at 1900 BCE. It does not name the interval.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "period",
+    "anchor": [
+      {
+        "year": -2300,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "China in 2300–1900 BCE is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
     "id": "erlitou",
     "name": "Erlitou",
     "family": "chinese",
@@ -247,29 +270,6 @@
       }
     ],
     "summary": "Three Kingdoms is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
-    "sourceIds": ["chgis", "cambridge_histories"],
-    "verification": "unverified",
-    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
-  },
-  {
-    "id": "jin_266",
-    "name": "Jin",
-    "family": "chinese",
-    "start": 266,
-    "end": 420,
-    "confidence": "conventional",
-    "dateNote": "Appendix B: Jin 266–420.",
-    "importance": 2,
-    "weight": 0.35,
-    "kind": "state",
-    "anchor": [
-      {
-        "year": 266,
-        "xKey": "china_east_asia"
-      }
-    ],
-    "summary": "Jin is an Appendix B checklist skeleton. Dates are not re-verified.",
     "keyFacts": ["Checklist skeleton."],
     "sourceIds": ["chgis", "cambridge_histories"],
     "verification": "unverified",

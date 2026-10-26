@@ -1,5 +1,28 @@
 [
   {
+    "id": "mamluk_egypt",
+    "name": "Mamluk Egypt",
+    "family": "nile_egyptian",
+    "start": 1250,
+    "end": 1517,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Mamluk 1250–1517. Nile copy so a later Islamic row can keep its own id.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1250,
+        "xKey": "egypt_levant"
+      }
+    ],
+    "summary": "Mamluk Egypt is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["louvre", "unesco_gha"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
     "id": "ottoman_egypt",
     "name": "Ottoman Egypt",
     "family": "nile_egyptian",

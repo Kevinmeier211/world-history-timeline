@@ -1,9 +1,5 @@
 [
   {
-    "id": "liangzhu",
-    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
-  },
-  {
     "id": "lombards",
     "reason": "gemini-v1 names no parent; nearest same-family end is ostrogoths at a gap of 15 continuous years, outside a shared-boundary handoff."
   },
@@ -94,5 +90,9 @@
   {
     "id": "nazca_moche",
     "reason": "gemini-v1 parents chavin_culture have no year inside both lifetimes ± 50; nearest same-family end is chavin_culture at a gap of 100 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "neo_babylonian",
+    "reason": "gemini-v1 names no parent; nearest same-family end is babylon_assyria at a gap of 285 continuous years, outside a shared-boundary handoff."
   }
 ]

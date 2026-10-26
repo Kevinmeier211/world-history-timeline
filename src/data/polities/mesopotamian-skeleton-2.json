@@ -1,0 +1,48 @@
+[
+  {
+    "id": "lydia",
+    "name": "Lydia",
+    "family": "mesopotamian",
+    "start": -680,
+    "end": -546,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Lydia c.680–546 BCE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -680,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "Lydia is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cdli", "isac"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
+    "id": "urartu",
+    "name": "Urartu",
+    "family": "mesopotamian",
+    "start": -860,
+    "end": -590,
+    "confidence": "approximate",
+    "dateNote": "Appendix B: Urartu c.860–590 BCE.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": -860,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "Urartu is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["cdli", "isac"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  }
+]

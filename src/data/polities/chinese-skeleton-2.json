@@ -1,5 +1,28 @@
 [
   {
+    "id": "jin_266",
+    "name": "Jin",
+    "family": "chinese",
+    "start": 266,
+    "end": 420,
+    "confidence": "conventional",
+    "dateNote": "Appendix B: Jin 266–420.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 266,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Jin is an Appendix B checklist skeleton. Dates are not re-verified.",
+    "keyFacts": ["Checklist skeleton."],
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
+  },
+  {
     "id": "northern_southern",
     "name": "Northern and Southern dynasties",
     "family": "chinese",
@@ -247,29 +270,6 @@
       }
     ],
     "summary": "Ming is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
-    "sourceIds": ["chgis", "cambridge_histories"],
-    "verification": "unverified",
-    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
-  },
-  {
-    "id": "qing",
-    "name": "Qing",
-    "family": "chinese",
-    "start": 1644,
-    "end": 1912,
-    "confidence": "conventional",
-    "dateNote": "Appendix B: Qing 1644–1912.",
-    "importance": 2,
-    "weight": 0.35,
-    "kind": "empire",
-    "anchor": [
-      {
-        "year": 1644,
-        "xKey": "china_east_asia"
-      }
-    ],
-    "summary": "Qing is an Appendix B checklist skeleton. Dates are not re-verified.",
     "keyFacts": ["Checklist skeleton."],
     "sourceIds": ["chgis", "cambridge_histories"],
     "verification": "unverified",

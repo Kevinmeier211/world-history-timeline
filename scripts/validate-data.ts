@@ -1,5 +1,5 @@
 import { loadDataset, loadRoots } from './load-dataset.ts';
-import { validateDataset } from '../src/data/validate.ts';
+import { eraShortfalls, validateDataset } from '../src/data/validate.ts';
 
 const loaded = loadDataset();
 const roots = loadRoots();
@@ -15,6 +15,13 @@ if (coverage) {
   console.log('coverage by family', coverage.byFamily);
   console.log('coverage by macro-region', coverage.byMacroRegion);
   console.log('coverage by importance', coverage.byImportance);
+  const short = eraShortfalls(coverage.byEra);
+  if (short.length === 0) console.log('era floors: all §7 minimums met');
+  else {
+    for (const gap of short) {
+      console.log(`era floor short: ${gap.id} ${gap.count}/${gap.floor}`);
+    }
+  }
 }
 console.log(
   'adjacent-lane color check: not run (lane pairs arrive with the layout report)',

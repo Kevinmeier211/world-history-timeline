@@ -33,6 +33,15 @@ export const ROWS: RosterRow[] = [
     'approximate',
   ),
   row(
+    'china_2300',
+    'China in 2300–1900 BCE',
+    -2300,
+    -1900,
+    'period',
+    'Appendix B ends Liangzhu at 2300 BCE and starts Erlitou at 1900 BCE. It does not name the interval.',
+    'debated',
+  ),
+  row(
     'erlitou',
     'Erlitou',
     -1900,

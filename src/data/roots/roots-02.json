@@ -64,10 +64,6 @@
     "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
   },
   {
-    "id": "erlitou",
-    "reason": "gemini-v1 names no parent; nearest same-family end is liangzhu at a gap of 400 continuous years, outside a shared-boundary handoff."
-  },
-  {
     "id": "ethiopia_solomonic",
     "reason": "gemini-v1 names no parent; nearest same-family end is ghana_wagadu at a gap of 70 continuous years, outside a shared-boundary handoff."
   },
@@ -94,5 +90,9 @@
   {
     "id": "funan",
     "reason": "gemini-v1 names no parent; nearest same-family end is lapita at a gap of 567 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "german_empire",
+    "reason": "gemini-v1 names no parent; nearest same-family end is papal_states at a gap of 1 continuous year, while other polities in the family are still current."
   }
 ]

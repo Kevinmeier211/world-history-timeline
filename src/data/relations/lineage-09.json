@@ -1,5 +1,77 @@
 [
   {
+    "id": "disputed_first_intermediate_egypt",
+    "from": ["egypt_old_kingdom", "old_kingdom_egypt"],
+    "to": ["first_intermediate_egypt"],
+    "year": -2181,
+    "type": "disputed",
+    "note": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened.",
+    "sourceIds": ["louvre", "unesco_gha"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened."
+  },
+  {
+    "id": "disputed_germany",
+    "from": ["east_germany", "west_germany"],
+    "to": ["germany"],
+    "year": 1990,
+    "type": "disputed",
+    "note": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened.",
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened."
+  },
+  {
+    "id": "disputed_germany_1918",
+    "from": ["austria_hungary", "german_empire"],
+    "to": ["germany_1918"],
+    "year": 1918,
+    "type": "disputed",
+    "note": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened.",
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened."
+  },
+  {
+    "id": "disputed_greek_dark_ages",
+    "from": ["minoans_mycenaeans", "mycenaean"],
+    "to": ["greek_dark_ages"],
+    "year": -1100,
+    "type": "disputed",
+    "note": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened.",
+    "sourceIds": ["louvre", "cambridge_histories"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened."
+  },
+  {
+    "id": "disputed_han_dynasty",
+    "from": ["warring_states", "zhou_dynasty"],
+    "to": ["han_dynasty"],
+    "year": -221,
+    "type": "disputed",
+    "note": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened.",
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened."
+  },
+  {
+    "id": "disputed_hellenistic_kingdoms",
+    "from": ["athens", "classical_period", "sparta", "thebes"],
+    "to": ["hellenistic_kingdoms"],
+    "year": -323,
+    "type": "disputed",
+    "note": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened.",
+    "sourceIds": ["louvre", "cambridge_histories"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened."
+  },
+  {
     "id": "disputed_hungary",
     "from": ["austria_hungary", "german_empire"],
     "to": ["hungary"],
@@ -48,6 +120,18 @@
     "evidence": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened."
   },
   {
+    "id": "disputed_mesopotamia_2004",
+    "from": ["sumer_akkad", "ur_iii"],
+    "to": ["mesopotamia_2004"],
+    "year": -2004,
+    "type": "disputed",
+    "note": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened.",
+    "sourceIds": ["cdli", "isac"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened."
+  },
+  {
     "id": "disputed_qin",
     "from": ["warring_states", "zhou_dynasty"],
     "to": ["qin"],
@@ -58,89 +142,5 @@
     "confidence": "debated",
     "verification": "unverified",
     "evidence": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened."
-  },
-  {
-    "id": "disputed_roman_empire",
-    "from": ["republic_of_rome", "roman_republic"],
-    "to": ["roman_empire"],
-    "year": -27,
-    "type": "disputed",
-    "note": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened.",
-    "sourceIds": ["cambridge_histories", "british_library"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened."
-  },
-  {
-    "id": "disputed_three_kingdoms",
-    "from": ["eastern_han", "han_dynasty"],
-    "to": ["three_kingdoms"],
-    "year": 220,
-    "type": "disputed",
-    "note": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened.",
-    "sourceIds": ["chgis", "cambridge_histories"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened."
-  },
-  {
-    "id": "disputed_vietnam",
-    "from": ["dutch_east_indies", "nguyen"],
-    "to": ["vietnam"],
-    "year": 1945,
-    "type": "disputed",
-    "note": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened.",
-    "sourceIds": ["field_museum", "unesco_mow"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened."
-  },
-  {
-    "id": "split_archaic_greece_athens_classical_period_sparta_thebes",
-    "from": ["archaic_greece"],
-    "to": ["athens", "classical_period", "sparta", "thebes"],
-    "year": -480,
-    "type": "split",
-    "note": "Several same-family polities start on this handoff. Pages were not opened.",
-    "sourceIds": ["louvre", "cambridge_histories"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Several same-family polities start on this handoff. Pages were not opened."
-  },
-  {
-    "id": "split_babylon_assyria_neo_assyria_babylon_neo_assyrian",
-    "from": ["babylon_assyria"],
-    "to": ["neo_assyria_babylon", "neo_assyrian"],
-    "year": -911,
-    "type": "split",
-    "note": "Several same-family polities start on this handoff. Pages were not opened.",
-    "sourceIds": ["cdli", "isac"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Several same-family polities start on this handoff. Pages were not opened."
-  },
-  {
-    "id": "split_british_raj_india_modern_india_pakistan",
-    "from": ["british_raj"],
-    "to": ["india", "modern_india", "pakistan"],
-    "year": 1947,
-    "type": "split",
-    "note": "Several same-family polities start on this handoff. Pages were not opened.",
-    "sourceIds": ["british_library", "cambridge_histories"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Several same-family polities start on this handoff. Pages were not opened."
-  },
-  {
-    "id": "split_carolingian_east_francia_france_kingdom_holy_roman_empire_west_francia",
-    "from": ["carolingian"],
-    "to": ["east_francia", "france_kingdom", "holy_roman_empire", "west_francia"],
-    "year": 843,
-    "type": "split",
-    "note": "Several same-family polities start on this handoff. Pages were not opened.",
-    "sourceIds": ["cambridge_histories", "british_library"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Several same-family polities start on this handoff. Pages were not opened."
   }
 ]

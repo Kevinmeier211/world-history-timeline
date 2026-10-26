@@ -30,6 +30,14 @@ export const ROWS: RosterRow[] = [
     'approximate',
   ),
   row(
+    'old_kingdom_egypt',
+    'Old Kingdom',
+    -2686,
+    -2181,
+    'period',
+    'Appendix B: Old Kingdom 2686–2181 BCE. The migrated egypt_old_kingdom bundle is the wider Early Dynastic plus Old Kingdom ribbon.',
+  ),
+  row(
     'first_intermediate_egypt',
     'First Intermediate Period',
     -2181,
