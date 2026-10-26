@@ -1241,3 +1241,13 @@ Alternatives: Hold the tag until a contract proof. Fail the gate on the letter s
 Why: The phase exit is a selectable 24×36 PDF, embedded fonts, the poster stroke floor, and reference pages from one command. Those were run. Images were optional for this phase.
 
 Reversible? y
+
+## 2026-10-26 — The license audit reads installed package.json fields
+
+Decision: `docs/LICENSES.md` lists the `license` field of every direct dependency at the version in `node_modules`. A walk of those fields, including scoped folders and nested `node_modules` two levels down, flags GPL, AGPL, LGPL, MPL, SSPL, EUPL, OSL, and CDDL. The hits are `axe-core` and `@axe-core/playwright` (MPL-2.0, used by `npm run axe`) and the sharp libvips packages (`LGPL-3.0-or-later`, pulled in by devDependency `sharp`). `src/` does not import them. `license-checker` is not installed. The world-atlas package field is ISC. Its README describes `land-110m.json` as Natural Earth land at 1:110m, version 4.1.0. This audit does not state a Natural Earth license. Arimo-Bold is not an npm package. The system file's name table says SIL OFL 1.1.
+
+Alternatives: Add `license-checker`. Treat a missing field as MIT. State a Natural Earth license from memory.
+
+Why: T9.02 asks for the installed tree and a copyleft flag.
+
+Reversible? y
