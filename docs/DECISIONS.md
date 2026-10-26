@@ -311,3 +311,13 @@ Alternatives: Count lines only. Leave the threshold off and print the number. Me
 Why: The P2 gate asks for layout coverage of at least 85%. Branches were the short measure, at 79% before the extra cases. The rest of the app is still v1 and is not part of this gate.
 
 Reversible? y
+
+## 2026-10-26 — index.html is on the design lint
+
+Decision: `index.html` leaves the design-lint allowlist. The Google Fonts stylesheet is gone. Barlow Condensed, Source Sans 3, and Source Serif 4 load from `@fontsource`. v1 CSS still names Inter, Cinzel, and JetBrains Mono; those faces are not fetched.
+
+Alternatives: Keep the Google link until T3.16. Add fontsource packages for the v1 faces too.
+
+Why: The poster type is self-hosted. A network font request fails the T3.01 check. Replacing every v1 face is T3.16, when that CSS is deleted.
+
+Reversible? y

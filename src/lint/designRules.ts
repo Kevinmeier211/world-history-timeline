@@ -10,9 +10,8 @@ export interface DesignViolation {
   message: string;
 }
 
-/** Removed in T3.01 (index.html) and T3.16 (v1 sources). Rules themselves do not change. */
+/** Removed in T3.16. Rules themselves do not change. */
 export const LEGACY_DESIGN_LINT_ALLOWLIST = [
-  'index.html',
   'src/App.tsx',
   'src/main.tsx',
   'src/components/',

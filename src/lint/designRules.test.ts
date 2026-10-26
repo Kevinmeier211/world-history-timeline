@@ -109,9 +109,8 @@ describe('remote fonts', () => {
 });
 
 describe('legacy allowlist', () => {
-  it('stays limited to v1 paths and the current index.html', () => {
+  it('stays limited to v1 paths', () => {
     expect([...LEGACY_DESIGN_LINT_ALLOWLIST]).toEqual([
-      'index.html',
       'src/App.tsx',
       'src/main.tsx',
       'src/components/',
