@@ -55,7 +55,12 @@ export function labelsAtScale(
   pinnedId?: string,
 ): LabelPaint[] {
   const boost = sheetBoost(scale);
-  if (boost === 1) return [...labels];
+  const sized = labels.map((label) =>
+    boost === 1 ? label : { ...label, fontSize: label.fontSize * boost },
+  );
+  // A mild fit still needs the larger type. Culling starts once the type
+  // has doubled, which is the overview, not the fit-width sheet.
+  if (boost < 2) return sized;
   const ranked = [...labels].sort((left, right) => {
     if (left.polityId === pinnedId) return -1;
     if (right.polityId === pinnedId) return 1;

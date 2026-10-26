@@ -73,6 +73,9 @@ describe('overview label scale', () => {
     );
     expect(pinned.map((label) => label.polityId)).toEqual(['low']);
     expect(labelsAtScale([paint('a', 0, 2), paint('b', 0, 3)], 1)).toHaveLength(2);
+    const fitted = labelsAtScale([paint('low', 100, 2), paint('high', 120, 3)], 0.9);
+    expect(fitted).toHaveLength(2);
+    expect(fitted[0]?.fontSize).toBeCloseTo(10 / 0.9);
   });
 
   it('paints the grown font on the stage at overview scale', () => {
