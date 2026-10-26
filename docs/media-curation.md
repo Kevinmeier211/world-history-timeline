@@ -1,0 +1,189 @@
+# Media curation
+
+Dry run. No image file was downloaded. A row is kept only when the payload names CC0 and a creator. The Met public-domain flag has no license URL in the payload, so those rows stay out of `media-src.json`. `licenseUrl` on a kept row is the Creative Commons CC0 deed for the license string the payload already used.
+
+Kept: 84. Seen: 178.
+
+## Kept
+
+- Flower Pyramid (c. 1690). Adrianus Kocx (Dutch, active 1686–1701). Netherlands, Holland, Delft. Cleveland Museum of Art, 2024.27. CC0. https://clevelandart.org/art/2024.27
+- Base for a Flower Pyramid (c. 1690). Adrianus Kocx (Dutch, active 1686–1701). Netherlands, Holland, Delft. Cleveland Museum of Art, 2024.27.a. CC0. https://clevelandart.org/art/2024.27.a
+- Sixth Tier for a Flower Pyramid (c. 1690). Adrianus Kocx (Dutch, active 1686–1701). Netherlands, Holland, Delft. Cleveland Museum of Art, 2024.27.g. CC0. https://clevelandart.org/art/2024.27.g
+- Third Tier for a Flower Pyramid (c. 1690). Adrianus Kocx (Dutch, active 1686–1701). Netherlands, Holland, Delft. Cleveland Museum of Art, 2024.27.d. CC0. https://clevelandart.org/art/2024.27.d
+- The Pyramid of Cestius, Rome (c. 1650–80). Michiel van Overbeek (Dutch, active 1663–1709). Netherlands. Cleveland Museum of Art, 2021.144. CC0. https://clevelandart.org/art/2021.144
+- First Tier for a Flower Pyramid (c. 1690). Adrianus Kocx (Dutch, active 1686–1701). Netherlands, Holland, Delft. Cleveland Museum of Art, 2024.27.b. CC0. https://clevelandart.org/art/2024.27.b
+- Fourth Tier for a Flower Pyramid (c. 1690). Adrianus Kocx (Dutch, active 1686–1701). Netherlands, Holland, Delft. Cleveland Museum of Art, 2024.27.e. CC0. https://clevelandart.org/art/2024.27.e
+- Second Tier for a Flower Pyramid (c. 1690). Adrianus Kocx (Dutch, active 1686–1701). Netherlands, Holland, Delft. Cleveland Museum of Art, 2024.27.c. CC0. https://clevelandart.org/art/2024.27.c
+- Fifth Tier for a Flower Pyramid (c. 1690). Adrianus Kocx (Dutch, active 1686–1701). Netherlands, Holland, Delft. Cleveland Museum of Art, 2024.27.f. CC0. https://clevelandart.org/art/2024.27.f
+- Egyptian Family (Sketch for "The Battle of the Pyramids") (c. 1835). Antoine-Jean Gros (French, 1771–1835). France, 19th century. Cleveland Museum of Art, 1972.17.2. CC0. https://clevelandart.org/art/1972.17.2
+- General Jean-Baptiste Kléber and Egyptian Family (Sketches for "The Battle of the Pyramids") (c. 1835). Antoine-Jean Gros (French, 1771–1835). France, 19th century. Cleveland Museum of Art, 1972.17. CC0. https://clevelandart.org/art/1972.17
+- Pyramid of Five Men (c. 1540). Juste de Juste (French, 1505–1559). France. Cleveland Museum of Art, 2007.167. CC0. https://clevelandart.org/art/2007.167
+- General Jean-Baptiste Kléber (Sketch for "The Battle of the Pyramids") (c. 1835). Antoine-Jean Gros (French, 1771–1835). France, 19th century. Cleveland Museum of Art, 1972.17.1. CC0. https://clevelandart.org/art/1972.17.1
+- Mosaique: The Imperial Court of Napoleon III (c. 1866). André Adolphe-Eugène Disdéri (French, 1819–1889). France, 19th century. Cleveland Museum of Art, 2019.69. CC0. https://clevelandart.org/art/2019.69
+- Egypt & Nubia, Volume III, No. 8: Mosque of Sultan Hassan, Cairo (1842–49). Louis Haghe (British, 1806–1885). England. Cleveland Museum of Art, 2012.184. CC0. https://clevelandart.org/art/2012.184
+- Egypt and Nubia, Volume II: Pyramids of Geezeh (1848). Louis Haghe (British, 1806–1885). England, 19th century. Cleveland Museum of Art, 2012.155. CC0. https://clevelandart.org/art/2012.155
+- Flight into Egypt: The Holy Family Passing near a Pyramid (1750–53). Giovanni Domenico Tiepolo (Italian, 1727–1804). Italy. Cleveland Museum of Art, 1924.862. CC0. https://clevelandart.org/art/1924.862
+- Egypt & Nubia, Volume III, No. 8: Mosque of Sultan Hassan, Cairo (1842–49). Louis Haghe (British, 1806–1885). England. Cleveland Museum of Art, 1953.532. CC0. https://clevelandart.org/art/1953.532
+- Bust at the Bottom of a Pyramid (1665). Johann Heinrich Roos (German, 1631–1685). Germany. Cleveland Museum of Art, 1924.822.3. CC0. https://clevelandart.org/art/1924.822.3
+- The Pyramids of Saqqara, from the Northeast (1858). Francis Frith (British, 1822–1898). England, 19th century. Cleveland Museum of Art, 1996.19. CC0. https://clevelandart.org/art/1996.19
+- Karnak, Les Pylônes d'Horus (1860s). Henri Béchard (French). France. Cleveland Museum of Art, 2018.252. CC0. https://clevelandart.org/art/2018.252
+- Egypt and Nubia, Volume I: The Great Sphinx, Pyramids of Gezeeh (1846). Louis Haghe (British, 1806–1885). England, 19th century. Cleveland Museum of Art, 2012.181. CC0. https://clevelandart.org/art/2012.181
+- Egypt and Nubia: Volume I - No. 3, Pyramids of Gizeh (1838). Louis Haghe (British, 1806–1885). England, 19th century. Cleveland Museum of Art, 1953.526. CC0. https://clevelandart.org/art/1953.526
+- Egypt and Nubia, Volume I: The Great Sphinx, Pyramids of Gezeeh (1846). Louis Haghe (British, 1806–1885). England, 19th century. Cleveland Museum of Art, 2012.233. CC0. https://clevelandart.org/art/2012.233
+- Black-Figure Trefoil Oinochoe (Wine Jug): Europa on Bull (c. 530 BCE). Class of Vatican 440 (Greek, Attic). Greek, Attic. Cleveland Museum of Art, 1929.978. CC0. https://clevelandart.org/art/1929.978
+- The Parthenon (c. 1907–20). Frédéric Boissonnas (Swiss, 1858–1944). France. Cleveland Museum of Art, 2021.56. CC0. https://clevelandart.org/art/2021.56
+- View of the Parthenon (c. 1880s). Adolphe Braun & Co. (French, 1845–1894). France. Cleveland Museum of Art, 2021.61. CC0. https://clevelandart.org/art/2021.61
+- Western Portico of the Parthenon (1882). William James Stillman (American, 1828–1901). America. Cleveland Museum of Art, 1993.34. CC0. https://clevelandart.org/art/1993.34
+- The Call (1902). Paul Gauguin (French, 1848–1903). France, late 19th–early 20th century. Cleveland Museum of Art, 1943.392. CC0. https://clevelandart.org/art/1943.392
+- Parthenon (1852). Eugène Piot (French, 1812–1891). France, 19th century. Cleveland Museum of Art, 2006.158. CC0. https://clevelandart.org/art/2006.158
+- Sculptures from the Parthenon, British Museum (c. 1870s). Adolphe Braun (French, 1812–1877). France, 19th century. Cleveland Museum of Art, 1998.161. CC0. https://clevelandart.org/art/1998.161
+- A View of the Ruins of the Baths of Caracalla (1779–81). Giovanni Battista Lusieri (Italian, 1750–1825). culture not in payload. Cleveland Museum of Art, 2022.93. CC0. https://clevelandart.org/art/2022.93
+- The Wine Press (c. 1517–20). Marcantonio Raimondi (Italian, 1470/82–1527/34). Italy. Cleveland Museum of Art, 1922.479. CC0. https://clevelandart.org/art/1922.479
+- Sculptura in Aes, The Workshop of an Engraver (c. 1591). Jan van der Straet, called Johannes Stradanus (Netherlandish, active Italy, 1523–1605). Flanders. Cleveland Museum of Art, 2019.33. CC0. https://clevelandart.org/art/2019.33
+- Art of the Lithograph: Printing Press (1819). Alois Senefelder (German, 1771–1834). Germany, 19th century. Cleveland Museum of Art, 2006.194.16. CC0. https://clevelandart.org/art/2006.194.16
+- Dr. Gachet (1890). Vincent van Gogh (Dutch, 1853–1890). Netherlands. Cleveland Museum of Art, 1948.303. CC0. https://clevelandart.org/art/1948.303
+- The Holdup, first state (1921). George Bellows (American, 1882–1925). America. Cleveland Museum of Art, 1936.548. CC0. https://clevelandart.org/art/1936.548
+- Head of a Woman (Mme. Deshayes?) (c. 1771). Louis-Marin Bonnet (French, 1736–1793). France. Cleveland Museum of Art, 1996.6. CC0. https://clevelandart.org/art/1996.6
+- The Queen of the Fishes: Plate 3 (1894). Lucien Pissarro (British, 1863–1944). England, 19th century. Cleveland Museum of Art, 1970.50.c. CC0. https://clevelandart.org/art/1970.50.c
+- The Queen of the Fishes: Plate 1 (1894). Lucien Pissarro (British, 1863–1944). England, 19th century. Cleveland Museum of Art, 1970.50.a. CC0. https://clevelandart.org/art/1970.50.a
+- The Queen of the Fishes: Plate 5 (1894). Lucien Pissarro (British, 1863–1944). England, 19th century. Cleveland Museum of Art, 1970.50.e. CC0. https://clevelandart.org/art/1970.50.e
+- The Risen Christ Between Saints Andrew and Longinus (early 1470s). Andrea Mantegna (Italian, about 1431–1506). Italy. Cleveland Museum of Art, 1986.103. CC0. https://clevelandart.org/art/1986.103
+- The Queen of the Fishes: Plate 7 (1894). Lucien Pissarro (British, 1863–1944). England, 19th century. Cleveland Museum of Art, 1970.50.g. CC0. https://clevelandart.org/art/1970.50.g
+- The Queen of the Fishes: Plate 4 (1894). Lucien Pissarro (British, 1863–1944). England, 19th century. Cleveland Museum of Art, 1970.50.d. CC0. https://clevelandart.org/art/1970.50.d
+- Elles: The Seated Clown, Mlle Cha-u-Ka-o (1896). Henri de Toulouse-Lautrec (French, 1864-1901). France, 19th century. Cleveland Museum of Art, 1925.1204.2. CC0. https://clevelandart.org/art/1925.1204.2
+- The Queen of the Fishes: Plate 9 (1894). Lucien Pissarro (British, 1863–1944). England, 19th century. Cleveland Museum of Art, 1970.50.i. CC0. https://clevelandart.org/art/1970.50.i
+- The Queen of the Fishes: Plate 8 (1894). Lucien Pissarro (British, 1863–1944). England, 19th century. Cleveland Museum of Art, 1970.50.h. CC0. https://clevelandart.org/art/1970.50.h
+- The Queen of the Fishes: Plate 11 (1894). Lucien Pissarro (British, 1863–1944). England, 19th century. Cleveland Museum of Art, 1970.50.k. CC0. https://clevelandart.org/art/1970.50.k
+- The Queen of the Fishes: Plate 13 (colophon) (1894). Lucien Pissarro (British, 1863–1944). England, 19th century. Cleveland Museum of Art, 1970.50.m. CC0. https://clevelandart.org/art/1970.50.m
+- The Queen of the Fishes (1894). Lucien Pissarro (British, 1863–1944). England, 19th century. Cleveland Museum of Art, 1970.50. CC0. https://clevelandart.org/art/1970.50
+- The Queen of the Fishes: Plate 2 (1894). Lucien Pissarro (British, 1863–1944). England, 19th century. Cleveland Museum of Art, 1970.50.b. CC0. https://clevelandart.org/art/1970.50.b
+- Holy Family with St. Elizabeth and the Infant St. John the Baptist (c. 1500). Giovanni Antonio da Brescia (Italian, about 1460–about 1520). Italy, late 15th-early 16th Century. Cleveland Museum of Art, 1924.218. CC0. https://clevelandart.org/art/1924.218
+- The Queen of the Fishes: Plate 6 (1894). Lucien Pissarro (British, 1863–1944). England, 19th century. Cleveland Museum of Art, 1970.50.f. CC0. https://clevelandart.org/art/1970.50.f
+- Madonna Enthroned with Eight Angels (1467). Master ES (German, active 1450–67). Germany. Cleveland Museum of Art, 1948.170. CC0. https://clevelandart.org/art/1948.170
+- View from the Lawn, Dennicanniby (1870s). Vernon Heath (British, 1819–1895). England, 19th century. Cleveland Museum of Art, 2000.85. CC0. https://clevelandart.org/art/2000.85
+- Risen Christ Between Saints Andrew and Longinus (c. 1500–1504). Giovanni Antonio da Brescia (Italian, about 1460–about 1520). Italy. Cleveland Museum of Art, 1924.220. CC0. https://clevelandart.org/art/1924.220
+- The Queen of the Fishes: Plate 12 (1894). Lucien Pissarro (British, 1863–1944). England, 19th century. Cleveland Museum of Art, 1970.50.l. CC0. https://clevelandart.org/art/1970.50.l
+- The Queen of the Fishes: Plate 10 (1894). Lucien Pissarro (British, 1863–1944). England, 19th century. Cleveland Museum of Art, 1970.50.j. CC0. https://clevelandart.org/art/1970.50.j
+- Elles: Woman Sleeping (1896). Henri de Toulouse-Lautrec (French, 1864–1901). France, 19th century. Cleveland Museum of Art, 1925.1204.4. CC0. https://clevelandart.org/art/1925.1204.4
+- Elles: Woman in Bed (1896). Henri de Toulouse-Lautrec (French, 1864–1901). France, 19th century. Cleveland Museum of Art, 1925.1204.9. CC0. https://clevelandart.org/art/1925.1204.9
+- Tulip (1875). William Morris (British, 1834–1896). England, 19th century. Cleveland Museum of Art, 1937.579. CC0. https://clevelandart.org/art/1937.579
+- Elles: Woman at the Tub (1896). Henri de Toulouse-Lautrec (French, 1864–1901). France, 19th century. Cleveland Museum of Art, 1925.1204.5. CC0. https://clevelandart.org/art/1925.1204.5
+- Elles: The Toilet (1896). Henri de Toulouse-Lautrec (French, 1864–1901). France, 19th century. Cleveland Museum of Art, 1925.1204.6. CC0. https://clevelandart.org/art/1925.1204.6
+- Psyche Throwing Herself into the River (1865–68). William Morris (British, 1834–1896). England, 19th century. Cleveland Museum of Art, 1981.90. CC0. https://clevelandart.org/art/1981.90
+- Clio (c. 1930). Kálmán Kubinyi (American, 1906–1973). America, Ohio, Cleveland. Cleveland Museum of Art, 1930.169. CC0. https://clevelandart.org/art/1930.169
+- Elles: Woman Lying on Her Back (1896). Henri de Toulouse-Lautrec (French, 1864–1901). France, 19th century. Cleveland Museum of Art, 1925.1204.11. CC0. https://clevelandart.org/art/1925.1204.11
+- The Flight of Cupid (1901). Charles de Sousy Ricketts (British, 1866–1931). England, early 20th Century. Cleveland Museum of Art, 1947.445. CC0. https://clevelandart.org/art/1947.445
+- Marigolds, single Anemone, Jasmine. . . . (c. 1680–95). Jean-Baptiste I Monnoyer (French, c. 1636–1699). France. Cleveland Museum of Art, 1939.278. CC0. https://clevelandart.org/art/1939.278
+- Courtesan and Sleeping Attendant (late 1760s). Suzuki Harunobu (Japanese, 1724–1770). Japan, Edo period (1615–1868). Cleveland Museum of Art, 1985.309. CC0. https://clevelandart.org/art/1985.309
+- Hercules and the Nemean Lion (c. 1898). Henri-Arthur Lefort des Ylouses (French, 1846–1912). France, 19th century. Cleveland Museum of Art, 2009.526. CC0. https://clevelandart.org/art/2009.526
+- Elles (1896). Henri de Toulouse-Lautrec (French, 1864–1901). France, 19th century. Cleveland Museum of Art, 1925.1204. CC0. https://clevelandart.org/art/1925.1204
+- Leaf from an Antiphonary: Coronation of the Virgin (1400s). Master of the Beffi Triptych (Italian, active 1390–1425). Italy, Tuscany. Cleveland Museum of Art, 1953.24. CC0. https://clevelandart.org/art/1953.24
+- Single Miniature Excised from Boccaccio's Des Cleres et nobles femmes: Queen Medusa and Her Court (c. 1470). Maître François (French). France. Cleveland Museum of Art, 1924.1015. CC0. https://clevelandart.org/art/1924.1015
+- Hours of Queen Isabella the Catholic, Queen of Spain (c. 1500). Master of the First Prayerbook of Maximillian (Flemish, c. 1444–1519). Flanders, Bruges and Ghent. Cleveland Museum of Art, 1963.256. CC0. https://clevelandart.org/art/1963.256
+- Sleeping Youth (verso), Illustration from a Single Page Manuscript (early 1600s). Riza-yi Abbasi (Iranian). Iran, Isfahan, Safavid period (1501-1722). Cleveland Museum of Art, 1944.494.b. CC0. https://clevelandart.org/art/1944.494.b
+- The Ascension: Leaf from a Book of Hours (4 of 6 Excised Leaves) (c. 1420–30). Henri d'Orquevaulx (French). France, Metz. Cleveland Museum of Art, 2001.76. CC0. https://clevelandart.org/art/2001.76
+- Leaf from the Wettinger Gradual: Historiated Initial (I) with Scenes from the Life of St. Augustine (c. 1330). Second Master of the Wettinger Gradual (German). Germany, Lower Rhine (Cologne?), 14th century. Cleveland Museum of Art, 1949.203. CC0. https://clevelandart.org/art/1949.203
+- The Annunciation (Matins, Office of the Virgin): Leaf from a Book of Hours (1 of 3 Excised Leaves) (c. 1530–35). Noël Bellemare (French, d. 1546). France, Paris. Cleveland Museum of Art, 2001.80. CC0. https://clevelandart.org/art/2001.80
+- Christ before Pilate: Leaf from a Book of Hours (2 of 6 Excised Leaves) (c. 1420–30). Henri d'Orquevaulx (French). France, Metz. Cleveland Museum of Art, 1999.129. CC0. https://clevelandart.org/art/1999.129
+- Illumination Excised from a Choir Book: Two Female Angels (c. 1332). Niccolo di ser Sozzo Tegliacci (Italian, Siena, active 1334–63). Italy, Siena. Cleveland Museum of Art, 1924.430. CC0. https://clevelandart.org/art/1924.430
+- The Nativity: Leaf from a Book of Hours (3 of 6 Excised Leaves) (c. 1420–30). Henri d'Orquevaulx (French). France, Metz. Cleveland Museum of Art, 2001.75. CC0. https://clevelandart.org/art/2001.75
+- Frontispiece Miniature from the Manuscript of a Poem by Guillaume Crétin: Debate Between Two Women (c. 1537–1540). Master of Francis I (French). France, Paris. Cleveland Museum of Art, 1991.157. CC0. https://clevelandart.org/art/1991.157
+- Annunciation to the Shepherds: Leaf from a Book of Hours (1 of 6 Excised Leaves) (c. 1420–30). Henri d'Orquevaulx (French). France, Metz. Cleveland Museum of Art, 1999.128. CC0. https://clevelandart.org/art/1999.128
+- Single Leaf from a Book of Hours: Pieta (c. 1475–85). Francesco dai Libri (Italian, 1452–1506). Italy, Verona(?), 15th century. Cleveland Museum of Art, 1951.394. CC0. https://clevelandart.org/art/1951.394
+
+## Not copied
+
+- Metropolitan Museum of Art, New York, NY: Cuneiform tablet. public-domain flag is set, no creator, and no license URL.
+- Metropolitan Museum of Art, New York, NY: Cuneiform tablet: Gula incantation. public-domain flag is set, no creator, and no license URL.
+- Cleveland Museum of Art: Statue of Amenemhat III. no creator in the payload.
+- Cleveland Museum of Art: Amorous Couple (Mithuna). no creator in the payload.
+- Cleveland Museum of Art: Head of King Userkaf. no creator in the payload.
+- Cleveland Museum of Art: Spearing Fish. no creator in the payload.
+- Cleveland Museum of Art: Offering Group: Plaque with Frontal and Profile Faces. no creator in the payload.
+- Cleveland Museum of Art: Striding Statue of Minnefer. no creator in the payload.
+- Cleveland Museum of Art: Chasse. no creator in the payload.
+- Cleveland Museum of Art: Offering Group. no creator in the payload.
+- Cleveland Museum of Art: Offering Group: Vessel. no creator in the payload.
+- Cleveland Museum of Art: Chasse. no creator in the payload.
+- Cleveland Museum of Art: Chasse (lid). no creator in the payload.
+- Cleveland Museum of Art: Offering Table. no creator in the payload.
+- Cleveland Museum of Art: Cosmetic Vessel. no creator in the payload.
+- Cleveland Museum of Art: Squat Dummy Jar with Lug Handles. no creator in the payload.
+- Cleveland Museum of Art: Tall Jar with Rope Patterns. no creator in the payload.
+- Cleveland Museum of Art: Squat Dummy Jar with Lug Handles. no creator in the payload.
+- Metropolitan Museum of Art, New York, NY: Oracle bone. public-domain flag is set, no creator, and no license URL.
+- Metropolitan Museum of Art, New York, NY: Oracle bone. public-domain flag is set, no creator, and no license URL.
+- Cleveland Museum of Art: Kneeling Figure. no creator in the payload.
+- Cleveland Museum of Art: Seated Figure. no creator in the payload.
+- Cleveland Museum of Art: Elongated Mask Ornament. no creator in the payload.
+- Cleveland Museum of Art: Head Fragment. no creator in the payload.
+- Cleveland Museum of Art: Celt with Deity. no creator in the payload.
+- Cleveland Museum of Art: Standing Figure. no creator in the payload.
+- Cleveland Museum of Art: Vessel with Deity Mask. no creator in the payload.
+- Cleveland Museum of Art: Carved Bowl. no creator in the payload.
+- Cleveland Museum of Art: Small Mask Ornament. no creator in the payload.
+- Cleveland Museum of Art: Carved Bowl. no creator in the payload.
+- Cleveland Museum of Art: Miniature Mask. no creator in the payload.
+- Cleveland Museum of Art: Figure Fragment. no creator in the payload.
+- Cleveland Museum of Art: Head. no creator in the payload.
+- Cleveland Museum of Art: Miniature Mask. no creator in the payload.
+- Cleveland Museum of Art: Mask Attachment(?). no creator in the payload.
+- Cleveland Museum of Art: Crouching Figure. no creator in the payload.
+- Cleveland Museum of Art: Figurine. no creator in the payload.
+- Cleveland Museum of Art: Seated Figure. no creator in the payload.
+- Cleveland Museum of Art: Standing Figurine. no creator in the payload.
+- Cleveland Museum of Art: Mask Ornament. no creator in the payload.
+- Cleveland Museum of Art: Head with Animal Headdress. no creator in the payload.
+- Cleveland Museum of Art: Mask. no creator in the payload.
+- Metropolitan Museum of Art, New York, NY: Celt (votive axe). public-domain flag is set, and the payload has no license URL.
+- Metropolitan Museum of Art, New York, NY: Duck head vessel. public-domain flag is set, and the payload has no license URL.
+- Cleveland Museum of Art: Decorative Plaque: Cow Nursing Its Calf. no creator in the payload.
+- Cleveland Museum of Art: Decorative Plaque: Man; and Griffin in Combat. no creator in the payload.
+- Cleveland Museum of Art: Decorative Plaque: Winged Sphinx. no creator in the payload.
+- Cleveland Museum of Art: Decorative Plaque: Ram-Headed Sphinxes Flanking a Sacred Tree. no creator in the payload.
+- Cleveland Museum of Art: Decorative Plaque: Browsing Stag. no creator in the payload.
+- Cleveland Museum of Art: Dish with Tambourine Players. no creator in the payload.
+- Metropolitan Museum of Art, New York, NY: Phoenician Coast. isPublicDomain is not true.
+- Metropolitan Museum of Art, New York, NY: Terracotta amphora with Phoenician inscription. public-domain flag is set, no creator, and no license URL.
+- Metropolitan Museum of Art, New York, NY: Saint Michael the Archangel. public-domain flag is set, and the payload has no license URL.
+- Metropolitan Museum of Art, New York, NY: Spouted jar. public-domain flag is set, no creator, and no license URL.
+- Metropolitan Museum of Art, New York, NY: The Parthenon. public-domain flag is set, and the payload has no license URL.
+- Metropolitan Museum of Art, New York, NY: The Parthenon. public-domain flag is set, and the payload has no license URL.
+- Metropolitan Museum of Art, New York, NY: Astrolabe. public-domain flag is set, and the payload has no license URL.
+- Metropolitan Museum of Art, New York, NY: Planispheric Astrolabe. public-domain flag is set, and the payload has no license URL.
+- Cleveland Museum of Art: Baptism of Christ. no creator in the payload.
+- Metropolitan Museum of Art, New York, NY: The Arts (Las Artes): a printing press, a sculptor, a hand holding brushes. isPublicDomain is not true.
+- Metropolitan Museum of Art, New York, NY: Meret Oppenheim at the Printing Wheel. isPublicDomain is not true.
+- Metropolitan Museum of Art, New York, NY: [10 Views of Steam Engine (locally known as a Willipus Wallapus) in a Field, Keysburg, Kentucky]. isPublicDomain is not true.
+- Metropolitan Museum of Art, New York, NY: Novelty Iron works, Foot of 12th St. E.R. New York. Stillman, Allen & Co., Iron Founders, Steam Engine and General Machinery Manufacturers. public-domain flag is set, and the payload has no license URL.
+- Metropolitan Museum of Art, New York, NY: Capital with a Pattern of Grape Leaves and Vines. public-domain flag is set, no creator, and no license URL.
+- Metropolitan Museum of Art, New York, NY: Capital with a Pattern of Leaves and Vines. public-domain flag is set, no creator, and no license URL.
+- Cleveland Museum of Art: Seven Leaves from a Manuscript of the Gandavyuha-sutra (Scripture of the Supreme Array). no creator in the payload.
+- Cleveland Museum of Art: Miniatures from a Manuscript of the Apocalypse. no creator in the payload.
+- Cleveland Museum of Art: Buddhist Manuscript. no creator in the payload.
+- Cleveland Museum of Art: Leaf Excised from an Antiphonary: Initial Q with Saints Peter and Paul. no creator in the payload.
+- Cleveland Museum of Art: Leaf Excised from a Psalter: The Annunciation. no creator in the payload.
+- Cleveland Museum of Art: Leaf from a Cocharelli Treatise on the Vices: Acedia and Her Court. no creator in the payload.
+- Cleveland Museum of Art: Leaf from a Psalter and Prayerbook: Putto Picking Strawberries (verso). no creator in the payload.
+- Cleveland Museum of Art: Single Leaf from a Gospel Book with a Portrait of Saint Luke. no creator in the payload.
+- Cleveland Museum of Art: Initial I: Entwined Beast and Serpent: Leaf from a Bible (2 of 2 Excised Leaves). no creator in the payload.
+- Cleveland Museum of Art: Miniature from a Manuscript of the Apocalypse: The War in Heaven. no creator in the payload.
+- Cleveland Museum of Art: Qur'an Manuscript Folio. no creator in the payload.
+- Cleveland Museum of Art: Qur'an Manuscript Folio (recto). no creator in the payload.
+- Cleveland Museum of Art: Miniature from a Manuscript of the Apocalypse: The Woman upon the Scarlet Beast. no creator in the payload.
+- Cleveland Museum of Art: Initial E from a Municipal Law Book: The Last Judgment. no creator in the payload.
+- Cleveland Museum of Art: Title Page of Abbot Berno's "Tonarius:" Initial D[omino]. no creator in the payload.
+- Cleveland Museum of Art: Miniature from a Manuscript of the Apocalypse: The Woman Clothed with the Sun and The War in Heaven. no creator in the payload.
+- Cleveland Museum of Art: Peter of Poitiers's "Compendium Historiae in Genealogia Christi" (pair). no creator in the payload.
+- Cleveland Museum of Art: Bifolium from a Bible: Initial E[t factum est] with Ezekiel. no creator in the payload.
+- Cleveland Museum of Art: Royal Reception in a Landscape, right folio from a double-page frontispiece of a Shahnama (Book of Kings) of Firdausi (940–1019 or 1025). no creator in the payload.
+- Cleveland Museum of Art: Qur'an Manuscript Folio (recto); left side of bifolio. no creator in the payload.
+- Cleveland Museum of Art: Royal Reception in a Landscape, left folio from the double frontispiece of a Shahnama (Book of Kings) of Firdausi (Persian, about 940–1019 or 1025). no creator in the payload.
+- Cleveland Museum of Art: Peter of Poitiers's "Compendium Historiae in Genealogia Christi". no creator in the payload.
+- Cleveland Museum of Art: Royal Reception in a Landscape, left folio from the double frontispiece of a Shahnama (Book of Kings) of Firdausi (Persian, about 940–1019 or 1025). no creator in the payload.
+- Cleveland Museum of Art: Qur'an Manuscript Folio. no creator in the payload.
+- Cleveland Museum of Art: Kalpa-sutra manuscript with 24 illuminations. no creator in the payload.
+- Cleveland Museum of Art: Miniature from a Manuscript of the Apocalypse: The Woman Clothed with the Sun. no creator in the payload.
+- Cleveland Museum of Art: Peter of Poitiers's "Compendium Historiae in Genealogia Christi". no creator in the payload.
+- Metropolitan Museum of Art, New York, NY: Manuscript. public-domain flag is set, no creator, and no license URL.
+- Metropolitan Museum of Art, New York, NY: Manuscript. isPublicDomain is not true.

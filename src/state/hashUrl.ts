@@ -103,9 +103,15 @@ function sameHash(current: string, hash: string): boolean {
   return current === hash || (hash === '' && (current === '' || current === '#'));
 }
 
-/** Write the link into the address bar. `pushState` does not fire `hashchange`. */
-export function publishView(view: ViewLink, mode: 'push' | 'replace' = 'push'): void {
+/** `#/credits` is a page, not a chart view. */
+export function isCreditsHash(hash: string): boolean {
+  const body = (hash.startsWith('#') ? hash.slice(1) : hash).split('?')[0] ?? '';
+  return body === '/credits';
+}
+
+function writeHash(view: ViewLink, mode: 'push' | 'replace', force: boolean): void {
   if (typeof window === 'undefined') return;
+  if (!force && isCreditsHash(window.location.hash)) return;
   const hash = serializeView(view);
   if (sameHash(window.location.hash, hash)) return;
   const url = `${window.location.pathname}${window.location.search}${hash}`;
@@ -113,7 +119,18 @@ export function publishView(view: ViewLink, mode: 'push' | 'replace' = 'push'): 
   else window.history.pushState(null, '', url);
 }
 
+/** Write the link into the address bar. `pushState` does not fire `hashchange`. */
+export function publishView(view: ViewLink, mode: 'push' | 'replace' = 'push'): void {
+  writeHash(view, mode, false);
+}
+
+/** Leave `#/credits` and put the chart link back. */
+export function restoreChartHash(view: ViewLink): void {
+  writeHash(view, 'replace', true);
+}
+
 export function readLocationView(): ViewLink {
   if (typeof window === 'undefined') return { fold: [] };
+  if (isCreditsHash(window.location.hash)) return { fold: [] };
   return parseView(window.location.hash);
 }

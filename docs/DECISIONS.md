@@ -801,3 +801,93 @@ Alternatives: Cull at every scale below 1. That removed 26 names from the 1440px
 Why: The readable floor applies at the default zoom. The default zoom is fit width, and those names have to stay on the sheet.
 
 Reversible? y
+
+## 2026-10-26 — The 9/10 score opens P4, and plates start as pictograms
+
+Decision: `v2/p5-interactions` is merged into `v2/main` with `--no-ff`. Tag `v2-p5-done` stays at `b5f7501`. Item 2 stays partial on `japan_timeline` (slope 3.211) and is not tuned again before the media work. The plate mark is an in-house line icon: 24px grid, 1.5px stroke, no fill. Callout kinds use seal, crown, wheel, temple, scroll, leaf, and ship. A real photograph replaces the icon only after a reviewed file exists. `ALLOW_MEDIA_DOWNLOAD` stays false.
+
+Alternatives: Draw another layout pass on the Japan step before any plate. Keep a Lucide badge. Invent a license so a photograph can ship.
+
+Why: The layout score cleared 8 of 10. Images still have to be license-clean, and none are downloaded while the switch is off.
+
+Reversible? y
+
+## 2026-10-26 — A search hit is kept only when the payload says CC0
+
+Decision: `media:plan` queries the Cleveland Open Access API and the Met collection API and writes `docs/media-curation.md`. It does not download image files. A Cleveland row is kept when `share_license_status` is `CC0` and a creator description is present. Its `licenseUrl` is the Creative Commons CC0 deed for that string. A Met row with `isPublicDomain` and no license URL is listed and not copied into `media-src.json`. Search relevance is not a decision that the object depicts the callout.
+
+Alternatives: Invent license URLs for the Met rows. Treat every keyword hit as a plate.
+
+Why: The payload has to name the license. A keyword match is not a source.
+
+Reversible? y
+
+## 2026-10-26 — Fetch stays queued while the download switch is off
+
+Decision: `scripts/media/fetch.ts` hashes bytes and can cache them under `media-cache/` after a successful HEAD. With `ALLOW_MEDIA_DOWNLOAD=false` the command reports `queued-gated` for every source row, exits 0, and does not call HEAD or GET. Tests pass buffers and a mock HEAD. No image file is downloaded. The source list is not rewritten here.
+
+Alternatives: Turn the switch on to fetch the Cleveland files. Leave the script as a stub that cannot hash.
+
+Why: The pipeline has to exist, and the switch still forbids downloading files.
+
+Reversible? y
+
+## 2026-10-26 — Plate treatment is tested on a painted rectangle
+
+Decision: `scripts/media/process.ts` crops around a stored focal point, reduces saturation to 0.85, blends 20% toward warm `(255, 214, 170)`, multiplies a light grain, and paints a 1px frame in light-theme ink `(42, 36, 28)`. Outputs are AVIF and WebP at 128, 320, and 960. The only image exercised is `src/__fixtures__/plate-synthetic.png`, an 80×40 blue/red rectangle. `media:process` writes `src/data/media.generated.json` with an empty image list when `media-cache/` has no files. It does not download.
+
+Alternatives: Download a Cleveland file to test sharp. Commit a derivative of a real object before the page is opened.
+
+Why: The treatment has to be real, and no reviewed image file exists yet.
+
+Reversible? y
+
+## 2026-10-26 — A plate draws a pictogram until a local file exists
+
+Decision: The chart plate reserves its box and paints the in-house pictogram. A dossier figure shows caption and credit only when its `src` is a local path. An `http` or `https` address is not written into the SVG or the figure. No callout is given a `mediaId`.
+
+Alternatives: Hotlink the Cleveland object pages. Leave the plate markup inline in `Callout` with no reserved-image path.
+
+Why: Derivatives are not shipped while downloads are off, and a remote address would be a hotlink.
+
+Reversible? y
+
+## 2026-10-26 — Credits list only shipped files, and `#/credits` is not a view
+
+Decision: The credits page and `docs/print/colophon.txt` are generated from `media.generated.json` joined to `media-src.json`. An id with no derivative is omitted. With an empty derivative list, both say that no image files are shipped. `#/credits` is ignored by `readHash` and `publishView`, so opening the page does not clear `y`, `z`, `sel`, `lens`, `fold`, or `pin`.
+
+Alternatives: List the 84 candidate rows as if their files were on the poster. Parse `#/credits` as a chart hash.
+
+Why: A credit for a file that was not downloaded would be false, and the chart link has to survive the page.
+
+Reversible? y
+
+## 2026-10-26 — The thumbnail budget counts 128px files only
+
+Decision: `media:budget` fails when 128px AVIF or WebP files total more than 1.2 MB or any one is over 10 KB. 320px and 960px derivatives are not thumbnails. Zero files is a pass, and the command says the set is gated, because no image file is shipped.
+
+Alternatives: Count every derivative against the 10 KB cap. Fail the build because the directory is empty.
+
+Why: The cap is the chart thumbnail payload. An empty directory is the honest result of the download switch.
+
+Reversible? y
+
+## 2026-10-26 — The first 60 source rows are queued, not placed
+
+Decision: The first 60 rows already in `src/data/media-src.json` have `status: queued-gated`. The remaining 24 stay `candidate`. `docs/media-queue.md` repeats those ids, accessions, and URLs. No callout gained a `mediaId`. Chart plates stay pictograms. Fetch stays queued-gated.
+
+Alternatives: Invent URLs to reach 60 images. Attach the Cleveland rows to callouts before the object pages are opened.
+
+Why: The download switch is off, and a plate needs a local file. The queue is the real list, not a new one.
+
+Reversible? y
+
+## 2026-10-26 — The P4 gate passes with no shipped image files
+
+Decision: Desktop callout geometry passed. `media:budget` passed with 0 thumbnails and reported the set as gated. That meets the phase gate. `v2/p4-media` merges into `v2/main` with `--no-ff`. Tag `v2-p4-done` points at that merge. Tag `v2-p5-done` stays at `b5f7501`.
+
+Alternatives: Hold the gate until 120 real images are downloaded. Count the empty thumbnail directory as a budget failure.
+
+Why: The switch forbids downloads, the geometry is green, and the budget is honestly gated.
+
+Reversible? y

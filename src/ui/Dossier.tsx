@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 
 import type { DossierModel } from './dossier.ts';
+import { MediaFigure } from './MediaFigure.tsx';
 import { useRestoreFocus } from './restoreFocus.ts';
 import { loadWikiExtract } from './wiki.ts';
 
@@ -81,9 +82,7 @@ export function Dossier({
         <span className="dossier-chip">{model.verification}</span>
       </p>
       <p>{model.summary}</p>
-      <figure className="dossier-figure">
-        <figcaption>{model.mediaNote}</figcaption>
-      </figure>
+      <MediaFigure note={model.mediaNote} />
       {model.keyFacts.length > 0 ? (
         <section>
           <h3>Key facts</h3>

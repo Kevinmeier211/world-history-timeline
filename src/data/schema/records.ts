@@ -61,6 +61,8 @@ export const calloutKindSchema = z.enum([
   'trade',
 ]);
 
+export type CalloutKind = z.infer<typeof calloutKindSchema>;
+
 export const calloutSchema = z
   .object({
     id: idSchema,

@@ -10,6 +10,8 @@ import { Connectors } from './Connectors.tsx';
 import { Guides } from './Guides.tsx';
 import { Ribbons } from './Ribbons.tsx';
 import { Watermark } from './Watermark.tsx';
+import { Callouts } from './Callouts.tsx';
+import type { CalloutViewModel } from './calloutView.ts';
 import { labelsAtScale, sheetBoost } from './labelScale.ts';
 import { lensOpacity } from './lensWeight.ts';
 import type { BandPaint } from './bandInk.ts';
@@ -29,6 +31,7 @@ export function Stage({
   labels = [],
   connectors = [],
   bands = [],
+  callouts = [],
   padScreens = VISIBLE_PAD,
   selectedId,
   onSelect,
@@ -45,6 +48,7 @@ export function Stage({
   labels?: readonly LabelPaint[];
   connectors?: readonly ConnectorPaint[];
   bands?: readonly BandPaint[];
+  callouts?: readonly CalloutViewModel[];
   padScreens?: number;
   selectedId?: string;
   onSelect?: (id: string) => void;
@@ -61,6 +65,14 @@ export function Stage({
       y1: connector.y1,
     })),
     ...bands.map((band) => ({ id: band.id, y0: band.y, y1: band.y + band.height })),
+    ...callouts.map((callout) => {
+      const top = Math.min(callout.y, callout.plate?.y ?? callout.y);
+      const bottom = Math.max(
+        callout.y + callout.height,
+        callout.plate ? callout.plate.y + callout.plate.height : 0,
+      );
+      return { id: callout.id, y0: top, y1: bottom };
+    }),
   ];
   const shown = useVisibleSpans(camera, viewport, windows, padScreens);
   const shownIds = new Set(shown.map((span) => span.id));
@@ -73,6 +85,10 @@ export function Stage({
   );
   const drawnConnectors = connectors.filter((connector) => shownIds.has(connector.id));
   const drawnBands = bands.filter((band) => shownIds.has(band.id));
+  const drawnCallouts =
+    sheetBoost(scale) >= 2
+      ? []
+      : callouts.filter((callout) => shownIds.has(callout.id));
   return (
     <svg
       className="stage"
@@ -102,6 +118,7 @@ export function Stage({
         onSelect={onSelect}
         opacity={lensOpacity(lens, 'polity')}
       />
+      <Callouts callouts={drawnCallouts} />
       <Arcs lens={lens} />
       <MilestoneMarks marks={milestones} />
       {shown

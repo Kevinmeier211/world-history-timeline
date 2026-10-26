@@ -20,6 +20,7 @@ import {
 } from '../state/compares.ts';
 import { useView } from '../state/view.ts';
 import type { ViewLink } from '../state/hashUrl.ts';
+import { CreditsGate } from './Credits.tsx';
 import { Columns } from './Columns.tsx';
 import { EraReading } from './EraReading.tsx';
 import { Dossier } from './Dossier.tsx';
@@ -383,6 +384,7 @@ export function PosterApp() {
         }}
         onClose={() => setEraOpen(false)}
       />
+      <CreditsGate />
       {dossier ? <Dossier model={dossier} onClose={() => setDossierId(null)} /> : null}
     </div>
   );

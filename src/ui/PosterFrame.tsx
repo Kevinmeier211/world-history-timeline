@@ -81,6 +81,9 @@ export function PosterFrame({
               Era reading
             </button>
           ) : null}
+          <a className="reading-open" href="#/credits">
+            Credits
+          </a>
         </div>
       </header>
       <div className="poster-scroll">
