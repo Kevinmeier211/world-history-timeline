@@ -242,6 +242,16 @@
   pointer-events: none;
 }
 
+.arcs {
+  pointer-events: none;
+}
+
+.arc {
+  fill: none;
+  stroke: var(--ink);
+  stroke-width: 1.5;
+}
+
 .band-wash {
   fill: var(--ink);
   opacity: 0.06;

@@ -1,9 +1,12 @@
 import type { Camera, Size, WorldBox } from '../camera/camera.ts';
+import type { LensId } from '../ui/frame.ts';
+import { Arcs } from './Arcs.tsx';
 import { Bands } from './Bands.tsx';
 import { Connectors } from './Connectors.tsx';
 import { Guides } from './Guides.tsx';
 import { Ribbons } from './Ribbons.tsx';
 import { Watermark } from './Watermark.tsx';
+import { lensOpacity } from './lensWeight.ts';
 import type { BandPaint } from './bandInk.ts';
 import type { ConnectorPaint } from './connectorInk.ts';
 import type { LabelPaint, RibbonPaint } from './ribbonInk.ts';
@@ -25,6 +28,7 @@ export function Stage({
   selectedId,
   onSelect,
   onClear,
+  lens = 'all',
 }: {
   camera: Camera;
   viewport: Size;
@@ -39,6 +43,7 @@ export function Stage({
   selectedId?: string;
   onSelect?: (id: string) => void;
   onClear?: () => void;
+  lens?: LensId;
 }) {
   const windows: YSpan[] = [
     ...spans,
@@ -76,14 +81,16 @@ export function Stage({
       />
       <Guides scale={scale} />
       <Watermark />
-      <Bands bands={drawnBands} />
-      <Connectors connectors={drawnConnectors} />
+      <Bands bands={drawnBands} lens={lens} />
+      <Connectors connectors={drawnConnectors} opacity={lensOpacity(lens, 'polity')} />
       <Ribbons
         ribbons={drawnRibbons}
         labels={drawnLabels}
         selectedId={selectedId}
         onSelect={onSelect}
+        opacity={lensOpacity(lens, 'polity')}
       />
+      <Arcs lens={lens} />
       {shown
         .filter((span) => extraIds.has(span.id))
         .map((span) => (

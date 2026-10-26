@@ -11,11 +11,13 @@ export function Ribbons({
   labels,
   selectedId,
   onSelect,
+  opacity = 1,
 }: {
   ribbons: readonly RibbonPaint[];
   labels: readonly LabelPaint[];
   selectedId?: string;
   onSelect?: (id: string) => void;
+  opacity?: number;
 }) {
   const focusFamily = useFocus((state) => (state.active ? state.familyId : null));
   const show = useFocus((state) => state.show);
@@ -27,7 +29,7 @@ export function Ribbons({
     hide();
   };
   return (
-    <g className="ribbons">
+    <g className="ribbons" opacity={opacity}>
       <defs>
         {faded.map((ribbon) => (
           <g key={ribbon.gradientId}>

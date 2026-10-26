@@ -64,6 +64,8 @@ describe('poster shell', () => {
     expect(document.querySelector('svg.stage')?.getAttribute('viewBox')).toContain(
       '0 0 1500',
     );
+    expect(document.querySelector('.ribbons')).toHaveAttribute('opacity', '1');
+    expect(document.querySelector('.arc')).toBeNull();
 
     const search = screen.getByRole('searchbox', { name: 'Search' });
     await user.type(search, 'Rome');
@@ -73,6 +75,12 @@ describe('poster shell', () => {
     expect(document.querySelector('.poster-frame')).toHaveAttribute(
       'data-lens',
       'trade',
+    );
+    expect(document.querySelector('.ribbons')).toHaveAttribute('opacity', '0.55');
+    expect(document.querySelector('.arc-trade')).toBeTruthy();
+    expect(document.querySelector('.cross-band-climate')).toHaveAttribute(
+      'opacity',
+      '0.4',
     );
 
     await user.selectOptions(screen.getByRole('combobox', { name: 'View' }), 'table');

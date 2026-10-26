@@ -561,3 +561,13 @@ Alternatives: Animate every year. Leave Play enabled and jump instantly under re
 Why: T5.06 asks for an optional time-lapse that reduced motion disables. A 25-year step is readable. The missing-`matchMedia` case matches the fly, so tests do not animate.
 
 Reversible? y
+
+## 2026-10-26 — A lens re-weights the chart and reveals its arcs
+
+Decision: All leaves every layer at full opacity and draws no arcs. Trade emphasizes trade and migration routes and reveals those arcs. Climate emphasizes climate, pandemic, and collapse bands. Ideas emphasizes golden-age bands and cultural routes. Everything else, including the ribbons, stays at least at 0.4 opacity, and ribbons stay at 0.55, so the chart is never hidden. Arc waypoints are ordered by year. Hover emphasis is still T5.08.
+
+Alternatives: Filter the roster down to the lens. Re-run the lane solver with new importance. Draw every route on the default view.
+
+Why: T5.07 asks for re-weighting and an arcs layer. The plan says a lens never hides the chart. Layout stays on the full roster so the lanes do not jump.
+
+Reversible? y

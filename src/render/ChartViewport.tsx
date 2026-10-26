@@ -54,6 +54,7 @@ export function ChartViewport({
   const [overlay, setOverlay] = useState<OverlayOffsets | null>(null);
   const [zoom, setZoom] = useState(1);
   const selectedId = useView((state) => state.link.sel);
+  const lens = useView((state) => state.link.lens ?? 'all');
   const flyYear = useView((state) => state.link.y);
   const flown = useRef<string | null>(null);
   const world = posterWorld();
@@ -235,6 +236,7 @@ export function ChartViewport({
           connectors={paint.connectors}
           bands={paint.bands}
           selectedId={selectedId}
+          lens={lens}
           onSelect={(id) => {
             const current = useView.getState().link;
             useView.getState().setLink({ ...current, sel: id }, 'replace');
