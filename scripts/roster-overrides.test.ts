@@ -54,6 +54,17 @@ describe('roster label overrides', () => {
     expect(bareHits).toBe(0);
     expect(tunedHits).toBeLessThanOrEqual(bareHits);
     expect(ribbonOverlap(tuned.ribbons).overlaps).toBe(0);
+    expect(tuned.ribbons.some((ribbon) => ribbon.polityId === 'east_francia')).toBe(
+      true,
+    );
+    expect(tuned.ribbons.some((ribbon) => ribbon.polityId === 'west_francia')).toBe(
+      true,
+    );
+    expect(
+      tuned.connectors.some((connector) =>
+        connector.relationId.startsWith('split_carolingian_'),
+      ),
+    ).toBe(true);
     const importance = new Map(
       dataset.polities.map((polity) => [polity.id, polity.importance]),
     );

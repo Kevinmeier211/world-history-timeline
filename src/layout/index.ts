@@ -178,6 +178,12 @@ function computeLayout(input: LayoutInput): LayoutResult {
       relation.from.every((id) => drawn.has(id)) &&
       relation.to.every((id) => drawn.has(id)),
   );
+  const guarded = new Set<string>();
+  for (const relation of relations) {
+    if (relation.type !== 'split' && relation.type !== 'merge') continue;
+    for (const id of relation.from) guarded.add(id);
+    for (const id of relation.to) guarded.add(id);
+  }
   const slices = buildSlices(polities, relations);
   const laneSlices: LaneSliceInput[] = slices
     .map((slice) => ({
@@ -202,7 +208,7 @@ function computeLayout(input: LayoutInput): LayoutResult {
         ];
       }),
     }))
-    .map((slice) => ({ ...slice, ribbons: cullToFit(slice.ribbons) }));
+    .map((slice) => ({ ...slice, ribbons: cullToFit(slice.ribbons, guarded) }));
   const solved = solveLanes(laneSlices, relations);
   const drifted = applyDrift(
     solved.map((slice, index) => ({

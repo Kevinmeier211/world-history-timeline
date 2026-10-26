@@ -701,3 +701,13 @@ Alternatives: Draw one glyph per letter along the bend. Force `outside` or an el
 Why: Item 8 needs the full name readable. Following the bend removed the 15 overlaps and made the names unreadable. A straight column on the river removes the overlaps and leaves the string intact.
 
 Reversible? y
+
+## 2026-10-26 — Fork endpoints can take a peer's slot
+
+Decision: `cullToFit` keeps its importance order. A split or merge endpoint that did not fit then replaces the lowest unprotected ribbon of no higher importance, when the widths allow it. East Francia and West Francia are drawn under their full names, and the Carolingian split routes. Sparta, Thebes, Maya postclassic, the Thirteen Colonies, the United States, Yuan, and Ming are drawn as well. Ribbon overlaps stay 0 and fitted label hits stay 0. `maxRibbonDrift` rises from 154.839 to 296.774 because packing still jumps when the slice membership changes. A clamp of those packed steps to `MAX_DRIFT` left 246 overlaps on a forward pass and 257 on a backward pass, so it was not kept. M4 in `docs/reviews/M4.md` is 5/11.
+
+Alternatives: Protect every endpoint with no swap, and let the slice overflow. Hard-code only the two Francia ids. Ship the slope clamp and accept the overlaps.
+
+Why: Item 2 asks for the Frankish fork. The children already exist and were culled. A higher-importance ribbon is not dropped to make room.
+
+Reversible? y

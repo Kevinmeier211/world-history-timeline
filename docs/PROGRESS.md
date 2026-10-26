@@ -109,7 +109,9 @@
 
 ## Layout tuning
 
-2026-10-26 — Rotated and horizontal names are pinned to a straight column or line on the ribbon. `npm run layout:report` label hits 0, warm 126 ms, gates pass. `docs/reviews/M3.md` is 5/11. Per-letter bend seating was not kept. P4 and P6 stay closed.
+2026-10-26 — Rotated and horizontal names are pinned to a straight column or line on the ribbon (`71f4ea2`). `npm run layout:report` label hits 0, warm 126 ms, gates pass. `docs/reviews/M3.md` is 5/11. Per-letter bend seating was not kept.
+
+2026-10-26 — Fork endpoints can replace an equal-importance ribbon. The Carolingian split routes. `npm run layout:report` label hits 0, warm 123 ms, max drift 296.774, gates pass. `docs/reviews/M4.md` is 5/11. A `MAX_DRIFT` clamp on packed steps left 246 overlaps and was not kept. P4 and P6 stay closed.
 
 ## Blocked
 
