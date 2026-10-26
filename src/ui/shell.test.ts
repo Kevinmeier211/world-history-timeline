@@ -46,6 +46,8 @@ describe('poster shell', () => {
       screen.getByRole('heading', { name: 'States and peoples' }),
     ).toBeInTheDocument();
     expect(screen.queryByRole('dialog')).toBeNull();
+    expect(screen.queryByRole('button', { name: 'Lock year' })).toBeNull();
+    expect(screen.queryByRole('region', { name: /World in/ })).toBeNull();
     await user.click(screen.getByRole('button', { name: 'How to read this' }));
     const key = screen.getByRole('dialog', { name: 'How to read this' });
     expect(key).toHaveTextContent('Peoples outlast states');

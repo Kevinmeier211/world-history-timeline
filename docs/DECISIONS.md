@@ -541,3 +541,13 @@ Alternatives: Fetch the extract as soon as the dossier opens. Cache failures. Do
 Why: T5.04 asks for an optional, abortable extract with a failure state and that label. Media downloads stay off.
 
 Reversible? y
+
+## 2026-10-26 — The year snapshot opens only when the crosshair is locked
+
+Decision: A horizontal line follows the pointer and names the year under it. The snapshot stays closed until Lock year. It lists every macro-region and, in each, the importance ≥ 3 polities active that year: the family's region, plus any span that covers the year. Importance below 3 is omitted. Choosing a name selects that ribbon and opens the dossier. Unlock closes the snapshot and leaves the line. There is no permanent bottom strip. The line is not a dialog, so search still opens with `/`.
+
+Alternatives: Keep an 11-card strip on screen. Open the snapshot on hover. Include every polity, including importance 2.
+
+Why: T5.05 replaces the permanent strip with a locked popover of the states that matter in each region. Chrome at rest stays the top bar.
+
+Reversible? y

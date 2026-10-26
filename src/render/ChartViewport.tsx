@@ -5,6 +5,7 @@ import { useView } from '../state/view.ts';
 import { benchRibbonCount, padRibbons } from './bench.ts';
 import { Minimap } from './Minimap.tsx';
 import { posterModel } from './posterModel.ts';
+import { Scrubber } from './Scrubber.tsx';
 import { Stage } from './Stage.tsx';
 import { Tooltip } from './Tooltip.tsx';
 import { ZoomBar } from './ZoomBar.tsx';
@@ -251,6 +252,15 @@ export function ChartViewport({
         />
       ) : null}
       <Tooltip />
+      <Scrubber
+        scale={scale}
+        scrollTop={metrics?.scrollTop ?? 0}
+        onPick={(id) => {
+          const current = useView.getState().link;
+          useView.getState().setLink({ ...current, sel: id }, 'replace');
+          onOpen?.(id);
+        }}
+      />
       {metrics && overlay ? (
         <div
           className="chart-chrome"

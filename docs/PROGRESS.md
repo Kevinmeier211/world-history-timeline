@@ -91,7 +91,8 @@
 | T5.01 | done | d8725de | hash tests round-trip `#y=-221&z=1.4&sel=han&lens=trade&fold=chinese`; shell test pushes the lens and back/forward restores it | 25 | `y`, `z`, `sel`, and `fold` parse. The chart does not fly yet. Theme stays in localStorage. See DECISIONS. |
 | T5.02 | done | 94d3d57 | search tests match names, alternate names, people, and `44 BCE`; shell test opens on `/`, chooses Han, and writes `#y=-221&sel=han_dynasty` | 35 | Recents stay in memory. Scroll does not push. See DECISIONS. |
 | T5.03 | done | 508ae5c | dossier model for Han includes dates, rulers, disputed lineage, notes, and sources; shell test stays closed until a ribbon click | 30 | The figure says no image is attached. Escape and a click on empty paper close it. See DECISIONS. |
-| T5.04 | done | (this commit) | wiki tests cache a trimmed extract, drop a 404, show "From Wikipedia", and abort on close | 25 | The extract loads only after a click. A failure says Wikipedia did not respond. See DECISIONS. |
+| T5.04 | done | 577eac8 | wiki tests cache a trimmed extract, drop a 404, show "From Wikipedia", and abort on close | 25 | The extract loads only after a click. A failure says Wikipedia did not respond. See DECISIONS. |
+| T5.05 | done | (this commit) | scrub tests map y to a year, list importance ≥ 3 per macro-region, and keep the snapshot closed until Lock year | 30 | No bottom strip. A polity in the snapshot selects that ribbon. See DECISIONS. |
 
 ## Blocked
 
