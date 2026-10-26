@@ -1,0 +1,64 @@
+/* Parchment cartographic light is the default. Night atlas is the secondary theme. */
+
+:root {
+  color-scheme: light;
+  --paper: #f1e8d2;
+  --paper-shade: #e6dbc0;
+  --ink: #2a241c;
+  --ink-muted: #6b6154;
+  --rule: #cdbf9f;
+  --frame: #4a4234;
+  --focus: #b4531f;
+  --font-display: 'Barlow Condensed', sans-serif;
+  --font-label: 'Barlow Condensed', sans-serif;
+  --font-body: 'Source Sans 3', sans-serif;
+  --font-serif: 'Source Serif 4', serif;
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --paper: #14161b;
+  --paper-shade: #1b1e25;
+  --ink: #e9e3d3;
+  --ink-muted: #a59f90;
+  --rule: #2a2e37;
+  --frame: #0b0c10;
+  --focus: #f2a65a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    color-scheme: dark;
+    --paper: #14161b;
+    --paper-shade: #1b1e25;
+    --ink: #e9e3d3;
+    --ink-muted: #a59f90;
+    --rule: #2a2e37;
+    --frame: #0b0c10;
+    --focus: #f2a65a;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}

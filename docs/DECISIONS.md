@@ -311,3 +311,193 @@ Alternatives: Count lines only. Leave the threshold off and print the number. Me
 Why: The P2 gate asks for layout coverage of at least 85%. Branches were the short measure, at 79% before the extra cases. The rest of the app is still v1 and is not part of this gate.
 
 Reversible? y
+
+## 2026-10-26 — index.html is on the design lint
+
+Decision: `index.html` leaves the design-lint allowlist. The Google Fonts stylesheet is gone. Barlow Condensed, Source Sans 3, and Source Serif 4 load from `@fontsource`. v1 CSS still names Inter, Cinzel, and JetBrains Mono; those faces are not fetched.
+
+Alternatives: Keep the Google link until T3.16. Add fontsource packages for the v1 faces too.
+
+Why: The poster type is self-hosted. A network font request fails the T3.01 check. Replacing every v1 face is T3.16, when that CSS is deleted.
+
+Reversible? y
+
+## 2026-10-26 — The poster shell is the default view
+
+Decision: `main.tsx` renders `PosterApp`. The v1 stylesheet and `App` load only when the URL has `?v1=1`, which is where the baseline screenshots open. The masthead is "Chronos Atlas / States and peoples / 3300 BCE – 2000 CE". The theme control sets `data-theme` and does not write storage.
+
+Alternatives: Leave v1 on `/` until the stage exists. Store the theme in this task.
+
+Why: The old map, dossier, and snapshot bar are off the default path. The baseline command still has to reach the v1 tree. Persistence belongs to T3.12.
+
+Reversible? y
+
+## 2026-10-26 — Camera scale is uniform unless Shift is held
+
+Decision: Wheel and pinch use the d3-zoom wheel factor and pointer anchor. Scale stays in 0.2–6. Fit-to-width uses Appendix G's 0.8–1.6 clamp. Overview may go below 0.8 so the whole sheet fits. Shift-wheel changes only the vertical scale. `flyTo` eases for at most 600 ms, and reduced motion jumps.
+
+Alternatives: One scale at every gesture. Clamp overview to 0.8. Let a fly last longer than 600 ms.
+
+Why: The default poster is one scale, and time can be stretched on purpose. A 5300-year sheet does not fit a short window at 0.8. The motion rule caps the flight.
+
+Reversible? y
+
+## 2026-10-26 — The stage scrolls in design pixels
+
+Decision: The chart SVG uses a viewBox in Appendix G units. Its scale is the column width divided by the design width, capped at 1.6. A narrower column may go below 0.8 so the sheet does not scroll sideways. Vertical scroll of the frame is the camera's y. Geometry more than one viewport outside that window is not mounted.
+
+Alternatives: Keep the 0.8 floor and scroll horizontally on a phone. Draw every ribbon and clip with overflow.
+
+Why: The default reading is vertical. A 390 px screen cannot show 1,500 design px at 0.8 without a sideways scrollbar. The pad keeps a fast flick from popping empty bands.
+
+Reversible? y
+
+## 2026-10-26 — Era names sit in the design gutters
+
+Decision: Era bands, gridlines, and year labels are drawn in the chart SVG. The names are rotated in the left and right design gutters. Tick spacing follows the sheet scale: 50/100 when large, 100/500 in the middle, 500 when small. The poster starts and ends are always labeled. There is no year 0.
+
+Alternatives: Keep the HTML gutter columns and draw the bands only in the plot. Label every century at every scale.
+
+Why: The HTML columns did not share the top pad, so the names missed the years. A phone-height sheet cannot hold a label every century.
+
+Reversible? y
+
+## 2026-10-26 — The watermark is one centered map
+
+Decision: Natural Earth 110m land becomes one SVG path, centered in the plot, with longitude mapped through the poster knots. Land south of 58°S is dropped. The path is 4% ink, multiply in light and screen in dark, painted after the opaque era bands.
+
+Alternatives: Stretch the map down the full sheet. Paint it under the bands.
+
+Why: A full-height stretch smears the continents. Opaque era fills would hide a 4% map placed under them. `world-atlas` and `topojson-client` are dev dependencies; the path is generated, not fetched at runtime.
+
+Reversible? y
+
+## 2026-10-26 — Ribbon labels use the parchment ink pair
+
+Decision: Each ribbon is a focusable button whose name is `formatRange` plus the family. The edge is the family fill darkened 18%. An uncertain start fades toward `--paper` and draws the dashed edge from the layout. Label fill is parchment ink or paper, whichever contrasts with the family color, because the family fill does not change in the night theme. The chart SVG is a group so those buttons stay in the tree. Off-window ribbons are not mounted.
+
+Alternatives: Always use `--ink`. Keep `role="img"` on the chart.
+
+Why: A dark ribbon needs light type in both themes. `role="img"` would hide the buttons from the accessibility tree.
+
+Reversible? y
+
+## 2026-10-26 — Connectors use the source family at 55 percent
+
+Decision: Routed relations paint between the watermark and the ribbons. Succession, split, and merge are a solid fill at 55% of the source family color, with no stroke. Continuity, disputed, and migration are unfilled dashes (`4 3` or `1 2.5`). Conquest and vassalage add a diagonal hatch. The roster currently has succession, split, continuity, and disputed only.
+
+Alternatives: Stroke every flow. Color a connector by its target.
+
+Why: Section 4.4 asks for the same hue at 55% and a dash where the link is not a succession. The hatch is the non-color cue for conquest.
+
+Reversible? y
+
+## 2026-10-26 — Cross-cutting bands sit under the ribbons
+
+Decision: Epoch, climate, pandemic, collapse, golden-age, and war bands paint after the watermark and before the connectors. A global band spans the plot. A regional band spans the union of its geography zones. Climate is a horizontal hatch, pandemic a dot hatch, collapse and war opposing diagonals. Epoch and golden age are a 6% ink wash. The six poster eras stay in the gutter guides. The title sits in the right gutter, rotated when the band is at least 48 px tall.
+
+Alternatives: Paint the bands under the opaque era fills. Color each type with a new swatch.
+
+Why: Section 4.8 puts these bands above the grid and below the connectors. A new swatch would leave the token set. The gutter keeps the title off the ribbons.
+
+Reversible? y
+
+## 2026-10-26 — Hover focuses a lineage
+
+Decision: A pointer on a ribbon writes a small zustand focus: that family stays solid and every other ribbon eases to 25% over 200 ms. Reduced motion drops the ease. The tooltip shows the name, `formatRange` (so approximate dates keep "c."), a confidence glyph, and a verification dot. Ribbon fills do not take the pointer; the hit path does. The hash URL is still T5.01.
+
+Alternatives: Dim only the hovered ribbon's siblings by id. Put the tooltip inside the SVG.
+
+Why: Section 4.11 is a lineage focus, not a single-ribbon highlight. An HTML tooltip stays at 13 px when the sheet is scaled down.
+
+Reversible? y
+
+## 2026-10-26 — Zoom stays on the scrollport
+
+Decision: The sheet opens at the column fit (multiplier 1). +/− and the zoom buttons scale around the viewport center, clamped to 0.2–6. Arrows, Home, and End pan the scroller. Past the column width the sheet grows so that overflow can be panned; Fit drops the extra width. The overview map is a 56 px copy of the ribbons with a focus-colored viewport rect, pinned to the scrollport with the buttons. A focused field ignores the shortcuts.
+
+Alternatives: Leave the buttons at the bottom of the sheet. Zoom only the time axis. Take the wheel away from vertical scroll.
+
+Why: A control at the end of a 3,500 px sheet is off-screen. Uniform zoom wider than the column clips the gutters unless the frame can scroll sideways. The wheel already moves through the years.
+
+Reversible? y
+
+## 2026-10-26 — The theme is stored on this browser
+
+Decision: The theme control cycles system, light, and dark. The choice is written to `localStorage` under `chronos-theme`, inside try/catch. A missing, garbage, or blocked store stays on system. System removes `data-theme` so the OS preference applies. Ink and muted ink stay at least 4.5:1 on paper in both token sets. Family contrast stays on `palette:check`.
+
+Alternatives: Keep the choice for the session only. Share v1's `color-scheme` key.
+
+Why: A reload should open the atlas the reader left. v1's key belongs to the old shell. The night tokens are the ones in §4.2.
+
+Reversible? y
+
+## 2026-10-26 — The reading key uses our words
+
+Decision: "How to read this" is a button on the title band. The panel is closed at rest. It explains width as prominence, color as lineage, faded tops, dashed links, c., and that peoples outlast states, then lists the 18 family swatches from `families.json`. Chart shortcuts do nothing while the dialog is open. None of the poster product's wording is copied.
+
+Alternatives: Leave the key in the top bar. Draw the swatches by hand.
+
+Why: Section 4.14 asks for the key one click away, and the bar is already the slim chrome. The family colors already live in data.
+
+Reversible? y
+
+## 2026-10-26 — Poster shots do not replace the v1 baselines
+
+Decision: `npm run shots` runs `tests/e2e/p3-poster.spec.ts` and writes 21 frames to `docs/shots/p3/` (desktop, wide, and mobile × overview, ancient, classical, medieval, modern, focus, dark). The v1 spec and `docs/shots/v1/` stay as they are. A height-fit overview is centered in the frame. A sheet wider than the column stays west-aligned so sideways scroll starts at the left. On a short screen the era frames zoom until 2500 BCE, 100 CE, 1000 CE, and 1800 CE land at least 120 px apart.
+
+Alternatives: Point `npm run shots` at both specs and regenerate v1. Leave the overview thumbnail in the left corner.
+
+Why: T0.11 already accepted the v1 frames. Re-running that spec would replace them. A phone-height fit shows the whole axis in one window, so the era scenes have to zoom in or three of them are the same picture.
+
+Reversible? y
+
+## 2026-10-26 — Frame time is measured on a 300-ribbon bench
+
+Decision: `npm run perf` opens `/?bench=300`, clones real ribbon paints until 300 are mounted, then pans and clicks zoom for about 150 frames. The score is the 95th percentile gap between animation frames. The budget is 20 ms. The public chart does not read `bench`. A run on this machine mounted 300 ribbons, p95 16.70 ms, worst frame 50 ms.
+
+Alternatives: Time the 194-ribbon roster and call it enough. Ignore the worst frame by raising the percentile.
+
+Why: The task asks for 300 ribbons. The roster has 194. Copying paints stresses the stage without inventing polities. p95 is the gate; the 50 ms frame stays in the log.
+
+Reversible? y
+
+## 2026-10-26 — The v1 canvas is gone
+
+Decision: `src/App.tsx`, `src/components/`, `src/utils/timeLayout.ts`, `src/styles/app.css`, and `tests/e2e/v1-baseline.spec.ts` are deleted. `src/main.tsx` always mounts the poster. `?v1=1` no longer switches apps. The design-lint allowlist is empty. ESLint and Prettier still skip the v1 polity tables and `src/types`, which the lineage scripts and the catalog re-export still read. Baseline PNGs stay in `docs/shots/v1/`.
+
+Alternatives: Keep `?v1=1` as a second app. Format the v1 data tables in this same commit.
+
+Why: T3.16 removes the old canvas. Formatting those tables would mix a data cleanup into the deletion. The screenshots remain the T0.11 record.
+
+Reversible? y
+
+## 2026-10-26 — M1 is 5 of 11, so P4 stays closed
+
+Decision: `docs/reviews/M1.md` scores Appendix D as 5 pass, 3 partial, 3 fail. Partials do not count. 45% is under 70%, so P4 does not start. The poster image was not available (Q-01). The misses are the overview's unreadably small labels, an incomplete fork story, 33 labeled polities at the 1900–2000 edge instead of 60, 11 cross-cutting bands instead of 12, no images, and 23 overlapping labels with callouts unpainted.
+
+Alternatives: Count a partial as a pass and open P4. Treat the missing poster as a reason to skip the review.
+
+Why: The checkpoint says to score honestly and to withhold P4 until at least 70% pass. Inventing the missing band, the missing states, or the missing images would fake the score.
+
+Reversible? y
+
+## 2026-10-26 — Dense-window labels move aside only when the name survives
+
+Decision: `layoutOverrides.json` forces eight labels. Chalukya, Champa, the Etruscans, Goguryeo, Kofun, Kura-Araxes, and Nok sit beside the ribbon. The Mongol name runs along the ribbon. Fitted overlaps fall from 23 to 15. Every moved name is at least as long as before, importance-3 fit stays 69/69, and ribbon overlaps stay 0. The 1750–2000 crossings stay. Turning those labels horizontal replaces “England → British Empire & UK” with “England →…”. An Argentina x pin clears the United States label and lands on Bolivia instead.
+
+Alternatives: Ellipsize the long names. Pin x anyway and accept a swapped collision. Leave the file empty.
+
+Why: T3.18 asks for a recorded reason on a real flaw. Hiding the name is a different flaw. The lane solver treats a pin as a new desired x and snaps to the next open slot.
+
+Reversible? y
+
+## 2026-10-26 — The P3 gate passes and P4 stays closed
+
+Decision: `npm run shots` passed on desktop, wide, and mobile. `layout:report` passed: 0 overlaps, 0 unroutable, importance-3 labels 69/69, warm 114 ms. `npm run perf` mounted 300 ribbons, p95 16.70 ms, worst frame 83.40 ms. Merge `v2/p3-poster` into `v2/main` with `--no-ff` and point `v2-p3-done` at that merge. Do not start P4. The next task is the hash URL.
+
+Alternatives: Hold the merge until Appendix D reaches 70%. Open P4 on the pictogram path anyway.
+
+Why: The phase gate is shots, the layout report, and the frame budget. M1 is a separate bar, and it blocks P4 only. P5 does not require P4.
+
+Reversible? y

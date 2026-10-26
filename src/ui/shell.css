@@ -1,0 +1,259 @@
+.poster-app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 16px;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 40px;
+  padding: 0 12px;
+  border-bottom: 1px solid var(--rule);
+  background: var(--paper);
+  font-size: 13px;
+}
+
+.top-bar-title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.bar-search {
+  flex: 1;
+  min-width: 0;
+}
+
+.bar-search input,
+.bar-field select,
+.top-bar button {
+  height: 28px;
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 13px;
+}
+
+.bar-search input {
+  width: 100%;
+  padding: 0 8px;
+}
+
+.bar-field {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--ink-muted);
+  font-size: 13px;
+}
+
+.bar-field select {
+  padding: 0 4px;
+}
+
+.top-bar button {
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.poster-frame {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 0;
+  margin: 12px;
+  border: 2px solid var(--frame);
+  background: var(--paper);
+}
+
+.title-band {
+  padding: 16px 20px 12px;
+  border-bottom: 1px solid var(--rule);
+  text-align: center;
+}
+
+.title-kicker,
+.title-span {
+  margin: 0;
+  color: var(--ink-muted);
+  font-family: var(--font-label);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.title-band h1 {
+  margin: 4px 0 0;
+  font-family: var(--font-display);
+  font-size: 34px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.title-span {
+  margin-top: 6px;
+  font-weight: 600;
+}
+
+.reading-open,
+.legend-head button {
+  border: 1px solid var(--rule);
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.reading-open {
+  margin-top: 10px;
+  padding: 4px 12px;
+}
+
+.legend-layer {
+  position: fixed;
+  inset: 0;
+  z-index: 6;
+}
+
+.legend-backdrop {
+  position: absolute;
+  inset: 0;
+  border: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.legend-pop {
+  position: absolute;
+  top: 56px;
+  right: 16px;
+  width: min(360px, calc(100vw - 24px));
+  max-height: calc(100vh - 72px);
+  overflow: auto;
+  padding: 16px;
+  border: 2px solid var(--frame);
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 16px;
+}
+
+.legend-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.legend-pop h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.legend-pop h3 {
+  margin: 16px 0 8px;
+  font-family: var(--font-display);
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.legend-points,
+.legend-families {
+  margin: 12px 0 0;
+  padding-left: 18px;
+}
+
+.legend-points li,
+.legend-families li {
+  margin: 6px 0;
+}
+
+.legend-families {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 0;
+  list-style: none;
+}
+
+.legend-swatch {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-right: 8px;
+  border: 1px solid var(--rule);
+  vertical-align: -2px;
+}
+
+.poster-scroll {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+}
+
+.poster-body {
+  display: flex;
+  justify-content: safe center;
+  min-height: 100%;
+}
+
+.chart-well {
+  flex: 0 0 auto;
+  min-width: 0;
+}
+
+.chart-note {
+  margin: 24px;
+  color: var(--ink-muted);
+  font-size: 16px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (max-width: 480px) {
+  .top-bar-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  .poster-frame {
+    margin: 8px;
+  }
+}

@@ -3,13 +3,8 @@ import jsxA11y from 'eslint-plugin-jsx-a11y';
 import reactHooks from 'eslint-plugin-react-hooks';
 import tseslint from 'typescript-eslint';
 
-// v1 folders stay ignored until T3.16 deletes them. Do not add new files here.
+// v1 polity tables stay ignored. The canvas and shell were deleted in T3.16.
 const v1Ignores = [
-  'src/components/**',
-  'src/utils/**',
-  'src/styles/**',
-  'src/App.tsx',
-  'src/main.tsx',
   'src/types/**',
   'src/data/politiesWest.ts',
   'src/data/politiesEast.ts',

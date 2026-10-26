@@ -31,8 +31,8 @@
   },
   "maxDrift": 154.839,
   "runtimeMs": {
-    "cold": 188,
-    "warm": 116
+    "cold": 185,
+    "warm": 114
   },
   "gates": {
     "overlaps": true,

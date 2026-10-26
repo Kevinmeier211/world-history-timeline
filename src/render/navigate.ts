@@ -1,0 +1,147 @@
+import { SCALE_MAX, SCALE_MIN } from '../camera/camera.ts';
+
+const ZOOM_STEP = 1.2;
+const PAN_FRACTION = 0.2;
+
+export const MINIMAP_WIDTH = 56;
+
+export type ChartCommand =
+  'in' | 'out' | 'up' | 'down' | 'left' | 'right' | 'home' | 'end';
+
+export function steppedScale(scale: number, direction: 1 | -1): number {
+  const next = scale * (direction > 0 ? ZOOM_STEP : 1 / ZOOM_STEP);
+  return Math.min(SCALE_MAX, Math.max(SCALE_MIN, next));
+}
+
+/** Keep the same world point under the middle of the viewport. */
+export function anchoredScroll(
+  scroll: number,
+  port: number,
+  fromScale: number,
+  toScale: number,
+): number {
+  if (fromScale <= 0) return 0;
+  const center = (scroll + port / 2) / fromScale;
+  return center * toScale - port / 2;
+}
+
+export function clampScroll(value: number, sheet: number, port: number): number {
+  const max = Math.max(0, sheet - port);
+  return Math.min(max, Math.max(0, value));
+}
+
+export function chartCommand(key: string, typing: boolean): ChartCommand | null {
+  if (typing) return null;
+  if (key === '+' || key === '=' || key === 'Add') return 'in';
+  if (key === '-' || key === '_' || key === 'Subtract') return 'out';
+  if (key === 'ArrowUp') return 'up';
+  if (key === 'ArrowDown') return 'down';
+  if (key === 'ArrowLeft') return 'left';
+  if (key === 'ArrowRight') return 'right';
+  if (key === 'Home') return 'home';
+  if (key === 'End') return 'end';
+  return null;
+}
+
+export function isTypingTarget(target: EventTarget | null): boolean {
+  if (!(target instanceof HTMLElement)) return false;
+  const tag = target.tagName;
+  return (
+    tag === 'INPUT' ||
+    tag === 'TEXTAREA' ||
+    tag === 'SELECT' ||
+    target.isContentEditable
+  );
+}
+
+export function panScroll(
+  command: ChartCommand,
+  scroll: { top: number; left: number },
+  port: { width: number; height: number },
+  sheet: { width: number; height: number },
+): { top: number; left: number } {
+  const stepY = port.height * PAN_FRACTION;
+  const stepX = port.width * PAN_FRACTION;
+  if (command === 'home') return { top: 0, left: scroll.left };
+  if (command === 'end')
+    return {
+      top: clampScroll(sheet.height, sheet.height, port.height),
+      left: scroll.left,
+    };
+  if (command === 'up')
+    return {
+      top: clampScroll(scroll.top - stepY, sheet.height, port.height),
+      left: scroll.left,
+    };
+  if (command === 'down')
+    return {
+      top: clampScroll(scroll.top + stepY, sheet.height, port.height),
+      left: scroll.left,
+    };
+  if (command === 'left')
+    return {
+      top: scroll.top,
+      left: clampScroll(scroll.left - stepX, sheet.width, port.width),
+    };
+  if (command === 'right')
+    return {
+      top: scroll.top,
+      left: clampScroll(scroll.left + stepX, sheet.width, port.width),
+    };
+  return scroll;
+}
+
+export function minimapHeight(worldWidth: number, worldHeight: number): number {
+  if (worldWidth <= 0) return MINIMAP_WIDTH;
+  return MINIMAP_WIDTH * (worldHeight / worldWidth);
+}
+
+export function viewportRect(
+  scrollTop: number,
+  portHeight: number,
+  scale: number,
+  worldHeight: number,
+  mapHeight: number,
+): { y: number; height: number } {
+  if (scale <= 0 || worldHeight <= 0 || mapHeight <= 0)
+    return { y: 0, height: mapHeight };
+  const y0 = (scrollTop / scale / worldHeight) * mapHeight;
+  const span = (portHeight / scale / worldHeight) * mapHeight;
+  return { y: y0, height: Math.max(2, span) };
+}
+
+/** Extra sheet width only when the painted chart is wider than the column. */
+export function sheetMinWidth(sheetWidth: number, columnWidth: number): number {
+  if (sheetWidth <= columnWidth + 1) return 0;
+  return sheetWidth;
+}
+
+export interface OverlayOffsets {
+  top: number;
+  right: number;
+  bottom: number;
+}
+
+/** Pin chart chrome to the scrollport. `right` and `bottom` are viewport insets. */
+export function overlayOffsets(
+  port: { top: number; right: number; bottom: number },
+  view: { width: number; height: number },
+  margin = 8,
+): OverlayOffsets {
+  return {
+    top: port.top + margin,
+    right: Math.max(margin, view.width - port.right + margin),
+    bottom: Math.max(margin, view.height - port.bottom + margin),
+  };
+}
+
+/** `fraction` is 0 at the top of the minimap and 1 at the bottom. */
+export function scrollFromMinimap(
+  fraction: number,
+  worldHeight: number,
+  portHeight: number,
+  scale: number,
+): number {
+  const worldY = Math.min(1, Math.max(0, fraction)) * worldHeight;
+  return worldY * scale - portHeight / 2;
+}

@@ -1,0 +1,259 @@
+.stage {
+  display: block;
+}
+
+.stage-sheet {
+  fill: var(--paper);
+  stroke: var(--rule);
+  stroke-width: 1;
+  vector-effect: non-scaling-stroke;
+}
+
+.era-band {
+  fill: var(--paper-shade);
+}
+
+.era-band-quiet {
+  fill: var(--paper);
+}
+
+.grid-major,
+.grid-minor {
+  stroke: var(--rule);
+  vector-effect: non-scaling-stroke;
+}
+
+.grid-major {
+  stroke-width: 1;
+}
+
+.grid-minor {
+  stroke-width: 1;
+  opacity: 0.45;
+}
+
+.era-name {
+  fill: var(--ink-muted);
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-anchor: middle;
+  dominant-baseline: middle;
+  text-transform: uppercase;
+}
+
+.axis-label {
+  fill: var(--ink);
+  stroke: var(--paper);
+  stroke-width: 4px;
+  paint-order: stroke fill;
+  font-family: var(--font-label);
+  font-size: 12px;
+  font-weight: 600;
+  text-anchor: start;
+  dominant-baseline: auto;
+}
+
+.stage-host {
+  position: relative;
+  height: 100%;
+}
+
+.chart-chrome {
+  position: fixed;
+  z-index: 4;
+  width: 0;
+  pointer-events: none;
+}
+
+.zoom-bar {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  pointer-events: auto;
+}
+
+.zoom-bar button {
+  min-width: 36px;
+  min-height: 32px;
+  padding: 0 6px;
+  border: 1px solid var(--rule);
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.minimap {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3;
+  border: 1px solid var(--frame);
+  background: var(--paper);
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.minimap-sheet {
+  fill: var(--paper-shade);
+}
+
+.minimap-ribbon {
+  pointer-events: none;
+}
+
+.minimap-view {
+  fill: transparent;
+  stroke: var(--focus);
+  stroke-width: 2px;
+  vector-effect: non-scaling-stroke;
+  pointer-events: none;
+}
+
+.watermark {
+  fill: var(--ink);
+  opacity: 0.04;
+  mix-blend-mode: multiply;
+  pointer-events: none;
+}
+
+:root[data-theme='dark'] .watermark {
+  mix-blend-mode: screen;
+}
+
+.ribbon-body,
+.ribbon-uncertain,
+.ribbon-fade {
+  pointer-events: none;
+}
+
+.ribbon-body,
+.ribbon-uncertain {
+  stroke-width: 1;
+  vector-effect: non-scaling-stroke;
+}
+
+.ribbon-hit {
+  fill: transparent;
+  cursor: pointer;
+}
+
+.ribbon-hit:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.ribbon-label {
+  font-family: var(--font-label);
+  font-weight: 600;
+  pointer-events: none;
+}
+
+.ribbon-leader {
+  stroke: var(--ink-muted);
+  stroke-width: 0.75;
+  vector-effect: non-scaling-stroke;
+}
+
+.ribbon {
+  transition: opacity 200ms ease-out;
+}
+
+.ribbon-dim {
+  opacity: 0.25;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ribbon {
+    transition: none;
+  }
+}
+
+.ribbon-tip {
+  position: fixed;
+  z-index: 4;
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  padding: 6px 8px;
+  border: 1px solid var(--rule);
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 13px;
+  pointer-events: none;
+}
+
+.ribbon-tip-name {
+  font-weight: 600;
+}
+
+.verify-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--ink-muted);
+}
+
+.verify-cross {
+  background: var(--ink);
+}
+
+.verify-primary {
+  background: var(--focus);
+}
+
+.connectors {
+  pointer-events: none;
+}
+
+.connector-flow {
+  fill-opacity: 0.55;
+  stroke-width: 1.5;
+  vector-effect: non-scaling-stroke;
+}
+
+.connector-hatch {
+  opacity: 0.55;
+}
+
+.connector-hatch-line {
+  stroke: var(--ink);
+  stroke-width: 0.75;
+}
+
+.cross-bands {
+  pointer-events: none;
+}
+
+.band-wash {
+  fill: var(--ink);
+  opacity: 0.06;
+}
+
+.band-hatch {
+  opacity: 0.4;
+}
+
+.band-hatch-line {
+  stroke: var(--ink);
+  stroke-width: 0.6;
+}
+
+.band-dot {
+  fill: var(--ink);
+}
+
+.band-label {
+  fill: var(--ink);
+  font-family: var(--font-label);
+  font-size: 11px;
+  font-weight: 700;
+}

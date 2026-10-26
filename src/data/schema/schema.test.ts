@@ -190,10 +190,16 @@ describe('source, media, and tour schemas', () => {
 describe('layout overrides', () => {
   const reason = 'Keep the ribbon readable.';
 
-  it('accepts the empty seed and a dated pin, and rejects a bad one', () => {
-    const seeded = JSON.parse(readFileSync('src/data/layoutOverrides.json', 'utf8'));
-    const empty = layoutOverridesSchema.parse(seeded);
-    expect(empty).toEqual({ ribbons: [], callouts: [] });
+  it('accepts the committed file and a dated pin, and rejects a bad one', () => {
+    const seeded = layoutOverridesSchema.parse(
+      JSON.parse(readFileSync('src/data/layoutOverrides.json', 'utf8')),
+    );
+    expect(seeded.callouts).toEqual([]);
+    expect(seeded.ribbons.length).toBeGreaterThanOrEqual(8);
+    for (const row of seeded.ribbons) {
+      expect(row.reason.trim().length).toBeGreaterThanOrEqual(8);
+    }
+    const empty = layoutOverridesSchema.parse({ ribbons: [], callouts: [] });
     expect(
       layoutOverridesSchema.safeParse({
         ribbons: [
