@@ -20,10 +20,12 @@ Poster and both Gemini PDFs are missing (Q-01). Gemini bibliography [1]–[37] w
 
 ## Next
 
-T6.01 through T6.06 are on this branch through shots. T6.07 added four tours that restate years already on rows (`b69726c`). T6.08 left the climate curve and the pandemic bands unverified (`5f81a9d`). T6.09 lowered 40 migrated callouts from importance 4 to 3 (`6250019`); shots are `f2a236c`. T6.99 is `docs/reviews/M3.md` (`b151b47`). Tag `v2-p6-done` is unapplied.
+T6.01 through T6.06 are on this branch through shots. T6.07 added four tours that restate years already on rows (`b69726c`). T6.08 left the climate curve and the pandemic bands unverified (`5f81a9d`). T6.09 lowered 40 migrated callouts (`6250019`); that change is reversed. The 40 are importance 4 again and unverified. T6.99 is `docs/reviews/M3.md` (`b151b47`). Tag `v2-p6-done` is unapplied.
 
-Era floors are met: 38, 48, 83, 67, 103, 113, 108, and 171. Polities 436, callouts 323, tours 15. Short of §7: relations 188, bands 13, routes 6, images 0, callouts at importance 3 or higher 58. Cross-checked rows are 0. `docs/UNVERIFIED.md` lists importance 4 and 5 unverified as 0 of 0.
+Era floors are met: 38, 48, 83, 67, 103, 113, 108, and 171. Polities 436, callouts 323, tours 15. `docs/UNVERIFIED.md` lists importance 4 and 5 unverified as 40 of 40. Cross-checked rows are 0.
 
-Layout report: overlaps 0, markers 0, placed 88, warm runtime 186 ms, over the 150 ms gate. The layout engine stays as it is. Item 2 stays partial on `japan_timeline`. `npm run perf` p95 was 16.80 ms. `ALLOW_MEDIA_DOWNLOAD` stays false. Do not start P8. Do not invent relations, bands, routes, or images to close the §7 gaps. Pushes: 0.
+Short of §7: relations 188, bands 13, routes 6, images 0, callouts at importance 3 or higher 58. Next task: typed relations toward 450, plan-named bands toward 35, routes toward 15, and original callouts at importance 3 or higher toward 100. New rows stay unverified unless a listed page was opened and the evidence records what it said. Images stay 0 and queued-gated.
+
+Layout report before the restore: overlaps 0, markers 0, placed 88, warm runtime 186 ms, over the 150 ms gate. The layout engine stays as it is. Do not weaken the gate. Item 2 stays partial on `japan_timeline`. `npm run perf` p95 was 16.80 ms. `ALLOW_MEDIA_DOWNLOAD` stays false. Do not start P8. Do not demote a row to make the unverified count 0. Pushes: 0.
 
 The layout pass remains `docs/reviews/layout-pass.md`, 9/10, with item 2 partial. Tag `v2-p4-done` is merge `7aa3c39`. Tag `v2-p5-done` stays at `b5f7501`. Tag `v2-p2-done` is merge `390baa7`. Tag `v2-p3-done` is merge `09a5f75`.

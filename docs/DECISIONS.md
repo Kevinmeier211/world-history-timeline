@@ -1111,3 +1111,13 @@ Alternatives: Tag the branch because the task list reached T6.99. Add relations,
 Why: A tag named done would say the content gate passed. The short counts are real, and closing them here would invent rows or download images. `ALLOW_MEDIA_DOWNLOAD` stays false. `v2-p5-done` stays at `b5f7501`.
 
 Reversible? y
+
+## 2026-10-26 — The forty callouts stay importance 4
+
+Decision: The 40 migrated callouts return to importance 4. They stay `verification: unverified`. Evidence returns to the bibliography sentence. `docs/UNVERIFIED.md` lists those 40 again. The dossier chip is the honest state. No row is demoted so that report reads 0.
+
+Alternatives: Leave them at importance 3. Mark them cross-checked from pages that do not state the claims.
+
+Why: T6.09 lowered them so the unverified report would read 0 of 0. That hid the claims. Importance 4 still waits on an opened page, and the chip says they are not yet cross-checked.
+
+Reversible? y

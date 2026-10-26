@@ -5,12 +5,12 @@
     "year": -1200,
     "kind": "invention",
     "attachTo": "shang_dynasty",
-    "importance": 3,
+    "importance": 4,
     "blurb": "Earliest corpus of Chinese writing and East Asian historical records.",
     "sourceIds": ["chgis"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
+    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
   },
   {
     "id": "node_kadesh_treaty",
@@ -31,12 +31,12 @@
     "year": -1177,
     "kind": "event",
     "attachTo": "minoans_mycenaeans",
-    "importance": 3,
+    "importance": 4,
     "blurb": "Ended the Bronze Age palace system and triggered the transition to the Iron Age.",
     "sourceIds": ["louvre"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
+    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
   },
   {
     "id": "node_phoenician_alphabet",
@@ -44,12 +44,12 @@
     "year": -1050,
     "kind": "invention",
     "attachTo": "phoenicia_israel",
-    "importance": 3,
+    "importance": 4,
     "blurb": "Mother script of Hebrew, Aramaic, Arabic, Greek, Latin, Cyrillic, and Brahmi.",
     "sourceIds": ["louvre"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
+    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
   },
   {
     "id": "node_mandate_of_heaven",
@@ -70,12 +70,12 @@
     "year": -850,
     "kind": "invention",
     "attachTo": "nok_culture",
-    "importance": 3,
+    "importance": 4,
     "blurb": "Proved independent technological mastery of iron metallurgy in Sub-Saharan Africa.",
     "sourceIds": ["unesco_gha"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
+    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
   },
   {
     "id": "node_olympics_homer",
@@ -122,12 +122,12 @@
     "year": -539,
     "kind": "monument",
     "attachTo": "achaemenid_empire",
-    "importance": 3,
+    "importance": 4,
     "blurb": "Established the multi-ethnic Achaemenid governance model across Western Asia.",
     "sourceIds": ["isac"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
+    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
   },
   {
     "id": "node_buddha_confucius",
@@ -135,12 +135,12 @@
     "year": -500,
     "kind": "text",
     "attachTo": "mahajanapadas",
-    "importance": 3,
+    "importance": 4,
     "blurb": "Shaped the ethical, philosophical, and spiritual life of billions across Asia.",
     "sourceIds": ["british_library"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
+    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
   },
   {
     "id": "node_pericles_athens",
@@ -148,12 +148,12 @@
     "year": -447,
     "kind": "monument",
     "attachTo": "classical_greece",
-    "importance": 3,
+    "importance": 4,
     "blurb": "Crucible of Classical Greek democracy, philosophy, and architecture.",
     "sourceIds": ["louvre"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
+    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
   },
   {
     "id": "node_alexander_conquests",
@@ -161,12 +161,12 @@
     "year": -331,
     "kind": "event",
     "attachTo": "empire_of_alexander",
-    "importance": 3,
+    "importance": 4,
     "blurb": "Created a shared Greco-Asian scientific and artistic sphere from Alexandria to Bactria.",
     "sourceIds": ["louvre"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
+    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
   },
   {
     "id": "node_ashoka_edicts",
@@ -174,12 +174,12 @@
     "year": -260,
     "kind": "text",
     "attachTo": "maurya_empire",
-    "importance": 3,
+    "importance": 4,
     "blurb": "Transformed Buddhism from a regional movement into a world religion.",
     "sourceIds": ["british_library"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
+    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
   },
   {
     "id": "node_qin_unification",
@@ -187,11 +187,11 @@
     "year": -221,
     "kind": "monument",
     "attachTo": "han_dynasty",
-    "importance": 3,
+    "importance": 4,
     "blurb": "Created the enduring institutional template of unified imperial China.",
     "sourceIds": ["chgis"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
+    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
   }
 ]

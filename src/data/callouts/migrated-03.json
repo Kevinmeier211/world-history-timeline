@@ -18,12 +18,12 @@
     "year": -130,
     "kind": "trade",
     "attachTo": "han_dynasty",
-    "importance": 3,
+    "importance": 4,
     "blurb": "First trans-Eurasian arterial highway for goods, technologies, and religions.",
     "sourceIds": ["chgis"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
+    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
   },
   {
     "id": "node_caesar_augustus",
@@ -31,12 +31,12 @@
     "year": -27,
     "kind": "person",
     "attachTo": "roman_empire",
-    "importance": 3,
+    "importance": 4,
     "blurb": "Transitioned Rome from a crisis-torn republic into a Mediterranean-wide empire.",
     "sourceIds": ["cambridge_histories"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
+    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
   },
   {
     "id": "node_hopewell_earthworks",
@@ -57,12 +57,12 @@
     "year": 105,
     "kind": "invention",
     "attachTo": "han_dynasty",
-    "importance": 3,
+    "importance": 4,
     "blurb": "Revolutionized global literacy, administration, and knowledge preservation.",
     "sourceIds": ["chgis"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
+    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
   },
   {
     "id": "node_teotihuacan_pyramids",
@@ -70,12 +70,12 @@
     "year": 200,
     "kind": "monument",
     "attachTo": "zapotec_teotihuacan",
-    "importance": 3,
+    "importance": 4,
     "blurb": "Largest city in the Western Hemisphere during Classical Antiquity.",
     "sourceIds": ["inah"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
+    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
   },
   {
     "id": "node_constantine_nicaea",
@@ -96,12 +96,12 @@
     "year": 499,
     "kind": "invention",
     "attachTo": "gupta_chola",
-    "importance": 3,
+    "importance": 4,
     "blurb": "Foundation of modern decimal arithmetic and trigonometry.",
     "sourceIds": ["british_library"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
+    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
   },
   {
     "id": "node_justinian_hagia_sophia",
@@ -109,12 +109,12 @@
     "year": 537,
     "kind": "monument",
     "attachTo": "byzantine_empire",
-    "importance": 3,
+    "importance": 4,
     "blurb": "Preserved Roman law for modern Europe and defined Byzantine architecture.",
     "sourceIds": ["louvre"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
+    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
   },
   {
     "id": "node_tikal_palenque",
@@ -122,12 +122,12 @@
     "year": 683,
     "kind": "monument",
     "attachTo": "maya_civilization",
-    "importance": 3,
+    "importance": 4,
     "blurb": "Apex of Classic Maya epigraphy, astronomy, and monumental art.",
     "sourceIds": ["inah"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
+    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
   },
   {
     "id": "node_house_of_wisdom",
@@ -135,12 +135,12 @@
     "year": 820,
     "kind": "invention",
     "attachTo": "umayyad_abbasid",
-    "importance": 3,
+    "importance": 4,
     "blurb": "Gave the world both \"Algebra\" (from Al-Jabr) and \"Algorithm\" (from Al-Khwarizmi).",
     "sourceIds": ["isac"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
+    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
   },
   {
     "id": "node_tang_woodblock_diamond",
@@ -148,12 +148,12 @@
     "year": 868,
     "kind": "invention",
     "attachTo": "tang_song_dynasty",
-    "importance": 3,
+    "importance": 4,
     "blurb": "World’s earliest complete dated printed book.",
     "sourceIds": ["chgis"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
+    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
   },
   {
     "id": "node_genji_heian",
@@ -174,12 +174,12 @@
     "year": 1040,
     "kind": "invention",
     "attachTo": "tang_song_dynasty",
-    "importance": 3,
+    "importance": 4,
     "blurb": "Technological triad that later catalyzed global navigation and modern printing.",
     "sourceIds": ["chgis"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
+    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
   },
   {
     "id": "node_cahokia_monks_mound",
@@ -187,11 +187,11 @@
     "year": 1100,
     "kind": "monument",
     "attachTo": "mississippian_culture",
-    "importance": 3,
+    "importance": 4,
     "blurb": "Largest pre-Columbian urban center north of Mexico.",
     "sourceIds": ["field_museum"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
+    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
   }
 ]
