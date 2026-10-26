@@ -871,3 +871,13 @@ Alternatives: Count every derivative against the 10 KB cap. Fail the build becau
 Why: The cap is the chart thumbnail payload. An empty directory is the honest result of the download switch.
 
 Reversible? y
+
+## 2026-10-26 — The first 60 source rows are queued, not placed
+
+Decision: The first 60 rows already in `src/data/media-src.json` have `status: queued-gated`. The remaining 24 stay `candidate`. `docs/media-queue.md` repeats those ids, accessions, and URLs. No callout gained a `mediaId`. Chart plates stay pictograms. Fetch stays queued-gated.
+
+Alternatives: Invent URLs to reach 60 images. Attach the Cleveland rows to callouts before the object pages are opened.
+
+Why: The download switch is off, and a plate needs a local file. The queue is the real list, not a new one.
+
+Reversible? y
