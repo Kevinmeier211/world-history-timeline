@@ -149,6 +149,6 @@ Partials: item 1, overview labels about 2px (`docs/shots/p3/desktop-overview.png
 
 ## P6
 
-| Task  | Status | Commit  | Evidence                                                                                          | Minutes | Notes                                                                                                                              |
-| ----- | ------ | ------- | ------------------------------------------------------------------------------------------------- | ------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| T6.01 | doing  | 33d9668 | decolonization band is 1950–1975; world-war band stays 1914–1991; industrial band stays 1700–1900 | 110     | Callouts are 33d9668. The new band uses the African independence row. Separate war years were not invented. Pages were not opened. |
+| Task  | Status | Commit  | Evidence                                                                  | Minutes | Notes                                                                                                                     |
+| ----- | ------ | ------- | ------------------------------------------------------------------------- | ------- | ------------------------------------------------------------------------------------------------------------------------- |
+| T6.01 | doing  | 3158fae | fan-out callouts stay at importance 2; checklist weights were not changed | 115     | The decolonization band is 3158fae. No listed page was opened, so importance was not raised. Layout report was not rerun. |

@@ -911,3 +911,13 @@ Alternatives: Invent 1914–1918, 1939–1945, and 1947–1991. Copy the 1700–
 Why: A new band has to use a span the dataset already dates. Splitting the bundled rows would add years they do not contain.
 
 Reversible? y
+
+## 2026-10-26 — Fan-out importance stays at the skeleton values
+
+Decision: The 1800–2000 checklist rows keep the importance and weight already on them. The 36 new callouts stay at importance 2. No weight was changed, so `layout:report` was not rerun. No listed source page was opened.
+
+Alternatives: Raise India, the United States, and the USSR to importance 4 from the checklist names alone. Rerun the layout report with no weight change.
+
+Why: Importance 4 and 5 are reserved for a cross-check against an opened source. A layout report of unchanged weights would only repeat the last sheet.
+
+Reversible? y
