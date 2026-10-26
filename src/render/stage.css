@@ -421,3 +421,39 @@
   display: block;
   color: var(--ink);
 }
+
+.callouts {
+  pointer-events: none;
+}
+
+.callout-card {
+  fill: var(--paper);
+  stroke: var(--frame);
+}
+
+.callout-leader {
+  stroke: var(--ink-muted);
+  stroke-width: 1;
+  vector-effect: non-scaling-stroke;
+}
+
+.callout-year,
+.callout-title {
+  fill: var(--ink);
+  font-family: var(--font-label);
+  font-weight: 600;
+}
+
+.callout-blurb {
+  fill: var(--ink-muted);
+  font-family: var(--font-body);
+}
+
+.callout-plate {
+  fill: var(--paper-shade);
+  stroke: var(--rule);
+}
+
+.callout-marker {
+  fill: var(--ink);
+}

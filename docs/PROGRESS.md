@@ -131,6 +131,7 @@ Partials: item 1, overview labels about 2px (`docs/shots/p3/desktop-overview.png
 
 ## P4
 
-| Task  | Status | Commit  | Evidence                                                             | Minutes | Notes                                                                                       |
-| ----- | ------ | ------- | -------------------------------------------------------------------- | ------- | ------------------------------------------------------------------------------------------- |
-| T4.01 | done   | pending | pictogram test: 26 icons, stroke 1.5, every callout kind maps to one | 20      | Lucide is already gone. The set is the plate mark until a real image exists. See DECISIONS. |
+| Task  | Status | Commit  | Evidence                                                                               | Minutes | Notes                                                                                       |
+| ----- | ------ | ------- | -------------------------------------------------------------------------------------- | ------- | ------------------------------------------------------------------------------------------- |
+| T4.01 | done   | 1f9ccb0 | pictogram test: 26 icons, stroke 1.5, every callout kind maps to one                   | 20      | Lucide is already gone. The set is the plate mark until a real image exists. See DECISIONS. |
+| T4.02 | done   | pending | callout test paints year, 10-word blurb, pictogram, and leader; a 15-word blurb throws | 25      | Importance 5 titles are 13px. Importance 2 titles stay 11px. A plate keeps the pictogram.   |
