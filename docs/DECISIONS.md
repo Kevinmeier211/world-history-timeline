@@ -181,3 +181,13 @@ Alternatives: Leave the bin at 26. Lower `ERA_FLOORS` to 26. Copy Liangzhu's yea
 Why: Kevin said Appendix B is a checklist, not a ceiling, and the 3300–2000 BCE floor of 35 has to be met before that phase is tagged. These spans are the standard archaeological ranges, and the notes say the pages were not opened.
 
 Reversible? y
+
+## 2026-10-26 — Drift hysteresis returns a quarter of each move
+
+Decision: After the lane solver, `applyDrift` moves a continuing ribbon 75% of the way from its previous centerline toward the solved x, then caps the slant at `MAX_DRIFT` (0.35). A move that still does not fit inserts a keyframe `MIN_TRANSITION` (60) px down the slice. Appendix G's drift numbers are unchanged.
+
+Alternatives: Use the solved x with only the drift cap. Spring inside every relaxation iteration.
+
+Why: The plan asks for hysteresis so a small geographic change does not jitter the ribbon, and it does not give a coefficient. A quarter is enough to calm that noise and still lets a real move through. The cap stays the hard limit.
+
+Reversible? y
