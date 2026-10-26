@@ -108,6 +108,47 @@ const WEST_ASIA = [
   'islamic_republic_iran',
 ] as const;
 
+const ASIA_PACIFIC = [
+  'viceroyalty_new_granada',
+  'rio_de_la_plata',
+  'qing',
+  'roc',
+  'prc',
+  'india_1857',
+  'maratha',
+  'sikh_empire',
+  'british_raj',
+  'india',
+  'pakistan',
+  'bangladesh',
+  'mughal',
+  'tokugawa',
+  'meiji',
+  'empire_of_japan',
+  'japan',
+  'ryukyu',
+  'joseon',
+  'korean_empire',
+  'korea_under_japan',
+  'korea_1945',
+  'north_korea',
+  'south_korea',
+  'philippines',
+  'dutch_east_indies',
+  'indonesia',
+  'thailand',
+  'vietnam',
+  'nsw_colony',
+  'new_zealand',
+  'australia',
+  'pacific_microstates',
+  'champa',
+  'dai_viet',
+  'konbaung',
+  'nguyen',
+  'spanish_philippines',
+] as const;
+
 const SOURCES: Record<string, readonly string[]> = {
   ...Object.fromEntries(
     EUROPE.map((id) => [id, ['cambridge_histories', 'british_library']]),
@@ -164,6 +205,60 @@ const SOURCES: Record<string, readonly string[]> = {
     ['qajar', 'pahlavi', 'islamic_republic_iran'].map((id) => [id, ['isac', 'louvre']]),
   ),
   ...Object.fromEntries(
+    ['viceroyalty_new_granada', 'rio_de_la_plata'].map((id) => [
+      id,
+      ['museo_larco', 'field_museum'],
+    ]),
+  ),
+  ...Object.fromEntries(
+    ['qing', 'roc', 'prc'].map((id) => [id, ['chgis', 'cambridge_histories']]),
+  ),
+  ...Object.fromEntries(
+    [
+      'india_1857',
+      'maratha',
+      'sikh_empire',
+      'british_raj',
+      'india',
+      'pakistan',
+      'bangladesh',
+    ].map((id) => [id, ['british_library', 'cambridge_histories']]),
+  ),
+  mughal: ['cambridge_histories', 'unesco_mow'],
+  ...Object.fromEntries(
+    [
+      'tokugawa',
+      'meiji',
+      'empire_of_japan',
+      'japan',
+      'ryukyu',
+      'joseon',
+      'korean_empire',
+      'korea_under_japan',
+      'korea_1945',
+      'north_korea',
+      'south_korea',
+    ].map((id) => [id, ['korea_national', 'tokyo_national']]),
+  ),
+  ...Object.fromEntries(
+    [
+      'philippines',
+      'dutch_east_indies',
+      'indonesia',
+      'thailand',
+      'vietnam',
+      'nsw_colony',
+      'new_zealand',
+      'australia',
+      'pacific_microstates',
+      'champa',
+      'dai_viet',
+      'konbaung',
+      'nguyen',
+      'spanish_philippines',
+    ].map((id) => [id, ['field_museum', 'unesco_mow']]),
+  ),
+  ...Object.fromEntries(
     ['haudenosaunee', 'united_states', 'canada', 'russian_america'].map((id) => [
       id,
       ['field_museum', 'dpla'],
@@ -212,6 +307,7 @@ function rows(): Row[] {
     'src/data/polities/north_american-skeleton.json',
     'src/data/polities/mesoamerican-skeleton.json',
     'src/data/polities/andean-skeleton.json',
+    'src/data/polities/andean-skeleton-2.json',
     'src/data/polities/celtic_germanic_norse-skeleton.json',
     'src/data/polities/latin_west-skeleton.json',
     'src/data/polities/greek_byzantine-skeleton-2.json',
@@ -224,6 +320,15 @@ function rows(): Row[] {
     'src/data/polities/levantine_semitic-skeleton.json',
     'src/data/polities/levantine_semitic-skeleton-2.json',
     'src/data/polities/persian_iranian-skeleton.json',
+    'src/data/polities/chinese-skeleton-3.json',
+    'src/data/polities/indian-skeleton-2.json',
+    'src/data/polities/turkic_mongol-skeleton.json',
+    'src/data/polities/korean_japanese-skeleton.json',
+    'src/data/polities/korean_japanese-skeleton-2.json',
+    'src/data/polities/korean_japanese-skeleton-3.json',
+    'src/data/polities/southeast_oceanian-skeleton.json',
+    'src/data/polities/southeast_oceanian-skeleton-2.json',
+    'src/data/polities/southeast_oceanian-skeleton-3.json',
   ];
   return files.flatMap((file) => JSON.parse(readFileSync(file, 'utf8')) as Row[]);
 }
@@ -237,6 +342,7 @@ describe('1800 fan-out prose', () => {
       ...EUROPE_MORE,
       ...AFRICA,
       ...WEST_ASIA,
+      ...ASIA_PACIFIC,
     ]) {
       const row = byId.get(id);
       expect(row, id).toBeTruthy();

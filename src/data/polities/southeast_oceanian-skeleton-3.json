@@ -16,8 +16,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "New Zealand is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Treaty of Waitangi at 1840 and does not name a later end. This row uses 1840 to 2000. 2000 is the chart end. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist dates the Treaty of Waitangi at 1840.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["field_museum", "unesco_mow"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -39,8 +42,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "Australia is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Australian federation from 1901 with no end. This row stops at 2000, the chart end. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist start is 1901.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["field_museum", "unesco_mow"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -62,8 +68,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "Pacific micro-states is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Section 15 groups micro-states. Appendix B does not name the later Pacific states. This row uses 1800 to 2000 as a placeholder. The cited pages were not opened.",
+    "keyFacts": [
+      "Appendix B does not name these states.",
+      "1800 and 2000 are placeholders, not founding years."
+    ],
     "sourceIds": ["field_museum", "unesco_mow"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

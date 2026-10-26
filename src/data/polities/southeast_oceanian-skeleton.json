@@ -62,8 +62,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "Champa is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Champa from 192 to 1832. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 192 to 1832.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["field_museum", "unesco_mow"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -154,8 +157,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "Dai Viet is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Dai Viet from 968 with no end. This row stops at 2000, the chart end. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist start is 968.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["field_museum", "unesco_mow"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -223,8 +229,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "Konbaung is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Konbaung from 1752 to 1885. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1752 to 1885.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["field_museum", "unesco_mow"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -246,8 +255,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "Nguyen is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Nguyen from 1802 to 1945. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1802 to 1945.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["field_museum", "unesco_mow"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -269,8 +281,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "Spanish Philippines is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Spanish Philippines from 1565 to 1898. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1565 to 1898.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["field_museum", "unesco_mow"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

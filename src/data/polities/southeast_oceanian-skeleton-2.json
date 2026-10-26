@@ -16,8 +16,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "Philippines is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B ends the Spanish Philippines at 1898 and does not name the later state. This row uses 1898 to 2000 as a placeholder. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist does not name the state after 1898.",
+      "2000 is the chart end, not a founding claim."
+    ],
     "sourceIds": ["field_museum", "unesco_mow"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -62,8 +65,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "Dutch East Indies is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B places the Dutch East Indies between the VOC end in 1799 and Indonesia in 1945 and does not give it years. This row uses 1799 to 1945. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist gives this row no years of its own.",
+      "The row uses 1799 and 1945, the years already beside it."
+    ],
     "sourceIds": ["field_museum", "unesco_mow"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -85,8 +91,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "Indonesia is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Indonesia at 1945 and 1949. This row starts at 1945, the earlier listed year, and stops at 2000, the chart end. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist years are 1945 and 1949.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["field_museum", "unesco_mow"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row.",
@@ -115,8 +124,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "Thailand is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B names Thailand and Siam and does not give a year. This row uses 1800 to 2000 as a placeholder. 1800 is not a founding year. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist names Thailand and Siam and gives no year.",
+      "1800 is a placeholder, not a founding year."
+    ],
     "sourceIds": ["field_museum", "unesco_mow"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -138,8 +150,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "Vietnam is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Vietnam at 1945 and 1976. This row starts at 1945, the earlier listed year, and stops at 2000, the chart end. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist years are 1945 and 1976.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["field_museum", "unesco_mow"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row.",
@@ -283,8 +298,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "NSW colony is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the NSW colony at 1788 and Australian federation at 1901 and does not give the colony an end. This row uses 1788 to 1901. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist years are 1788 and 1901.",
+      "The checklist does not give the colony its own end."
+    ],
     "sourceIds": ["field_museum", "unesco_mow"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

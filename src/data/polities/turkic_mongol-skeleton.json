@@ -269,8 +269,11 @@
         "xKey": "china_east_asia"
       }
     ],
-    "summary": "Mughal is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Mughal Empire from 1526 to 1857. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1526 to 1857.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "unesco_mow"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

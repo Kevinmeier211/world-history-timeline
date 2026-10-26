@@ -223,8 +223,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "Tokugawa is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Tokugawa from 1603 to 1868. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1603 to 1868.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["korea_national", "tokyo_national"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -246,8 +249,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "Meiji is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Meiji from 1868 to 1912. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1868 to 1912.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["korea_national", "tokyo_national"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -269,8 +275,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "Empire of Japan is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Empire of Japan from 1868 to 1947. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1868 to 1947.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["korea_national", "tokyo_national"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

@@ -115,52 +115,6 @@
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
   },
   {
-    "id": "viceroyalty_new_granada",
-    "name": "Viceroyalty of New Granada",
-    "family": "andean",
-    "start": 1717,
-    "end": 1819,
-    "confidence": "conventional",
-    "dateNote": "Appendix B: 1717–1819.",
-    "importance": 2,
-    "weight": 0.35,
-    "kind": "state",
-    "anchor": [
-      {
-        "year": 1717,
-        "xKey": "andean"
-      }
-    ],
-    "summary": "Viceroyalty of New Granada is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
-    "sourceIds": ["museo_larco", "field_museum"],
-    "verification": "unverified",
-    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
-  },
-  {
-    "id": "rio_de_la_plata",
-    "name": "Viceroyalty of the Río de la Plata",
-    "family": "andean",
-    "start": 1776,
-    "end": 1810,
-    "confidence": "conventional",
-    "dateNote": "Appendix B: 1776–1810.",
-    "importance": 2,
-    "weight": 0.35,
-    "kind": "state",
-    "anchor": [
-      {
-        "year": 1776,
-        "xKey": "andean"
-      }
-    ],
-    "summary": "Viceroyalty of the Río de la Plata is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
-    "sourceIds": ["museo_larco", "field_museum"],
-    "verification": "unverified",
-    "evidence": "Appendix B checklist. The cited pages were not opened for this row."
-  },
-  {
     "id": "argentina",
     "name": "Argentina",
     "family": "andean",

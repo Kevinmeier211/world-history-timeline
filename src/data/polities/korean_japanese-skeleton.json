@@ -154,8 +154,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "Joseon is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Joseon from 1392 to 1897. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1392 to 1897.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["korea_national", "tokyo_national"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -177,8 +180,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "Korean Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Korean Empire from 1897 to 1910. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1897 to 1910.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["korea_national", "tokyo_national"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -200,8 +206,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "Korea under Japan is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Korea under Japan from 1910 to 1945. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1910 to 1945.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["korea_national", "tokyo_national"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -223,8 +232,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "Korea in 1945–1948 is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B ends Korea under Japan at 1945 and starts North and South Korea at 1948. It does not name this interval. This row uses those two years. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist years are 1945 and 1948.",
+      "The checklist does not name this interval."
+    ],
     "sourceIds": ["korea_national", "tokyo_national"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -246,8 +258,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "North Korea is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates North and South Korea from 1948 with no end. This row is North Korea and stops at 2000, the chart end. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist start is 1948.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["korea_national", "tokyo_national"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -269,8 +284,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "South Korea is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates North and South Korea from 1948 with no end. This row is South Korea and stops at 2000, the chart end. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist start is 1948.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["korea_national", "tokyo_national"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
