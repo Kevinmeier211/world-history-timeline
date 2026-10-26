@@ -246,8 +246,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Capetian France is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Capetian France from 987 with no end. This row stops at 2000, the chart end. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist start is 987.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

@@ -16,8 +16,11 @@
         "xKey": "eastern_med_europe"
       }
     ],
-    "summary": "Greece is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Greece at 1821 and 1832 and gives no end. This row starts at 1821, the earlier listed year, and stops at 2000, the chart end. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist years are 1821 and 1832.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["louvre", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row.",

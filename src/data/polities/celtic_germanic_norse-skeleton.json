@@ -131,8 +131,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Great Britain is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Great Britain from 1707, then the United Kingdom in 1801. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist years are 1707 and 1801.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -154,8 +157,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "United Kingdom is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the United Kingdom from 1801 with no end. This row stops at 2000, the chart end. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist start is 1801.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -200,8 +206,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Denmark is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Denmark is named among the Scandinavian kingdoms, and Appendix B gives it no year. This row uses 1800 to 2000 as a placeholder. 1800 is not a founding year. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist names this kingdom and gives no year.",
+      "1800 is a placeholder, not a founding year."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -223,8 +232,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Sweden is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Sweden is named among the Scandinavian kingdoms, and Appendix B gives it no year. This row uses 1800 to 2000 as a placeholder. 1800 is not a founding year. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist names this kingdom and gives no year.",
+      "1800 is a placeholder, not a founding year."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -246,8 +258,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Norway is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Norway is named among the Scandinavian kingdoms, and Appendix B gives it no year. This row uses 1800 to 2000 as a placeholder. 1800 is not a founding year. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist names this kingdom and gives no year.",
+      "1800 is a placeholder, not a founding year."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

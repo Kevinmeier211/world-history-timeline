@@ -50,10 +50,48 @@ const AMERICAS = [
   'uruguay',
 ] as const;
 
+const EUROPE_MORE = [
+  'great_britain',
+  'united_kingdom',
+  'denmark',
+  'sweden',
+  'norway',
+  'hre',
+  'papal_states',
+  'spain_after_habsburg',
+  'portugal',
+  'capetian_france',
+  'greece',
+  'russian_empire',
+  'russia_1917',
+  'ussr',
+  'russia',
+] as const;
+
 const SOURCES: Record<string, readonly string[]> = {
   ...Object.fromEntries(
     EUROPE.map((id) => [id, ['cambridge_histories', 'british_library']]),
   ),
+  ...Object.fromEntries(
+    ['great_britain', 'united_kingdom', 'denmark', 'sweden', 'norway'].map((id) => [
+      id,
+      ['british_library', 'cambridge_histories'],
+    ]),
+  ),
+  ...Object.fromEntries(
+    [
+      'hre',
+      'papal_states',
+      'spain_after_habsburg',
+      'portugal',
+      'capetian_france',
+      'russian_empire',
+      'russia_1917',
+      'ussr',
+      'russia',
+    ].map((id) => [id, ['cambridge_histories', 'british_library']]),
+  ),
+  greece: ['louvre', 'cambridge_histories'],
   ...Object.fromEntries(
     ['haudenosaunee', 'united_states', 'canada', 'russian_america'].map((id) => [
       id,
@@ -103,6 +141,10 @@ function rows(): Row[] {
     'src/data/polities/north_american-skeleton.json',
     'src/data/polities/mesoamerican-skeleton.json',
     'src/data/polities/andean-skeleton.json',
+    'src/data/polities/celtic_germanic_norse-skeleton.json',
+    'src/data/polities/latin_west-skeleton.json',
+    'src/data/polities/greek_byzantine-skeleton-2.json',
+    'src/data/polities/slavic_steppe-skeleton.json',
   ];
   return files.flatMap((file) => JSON.parse(readFileSync(file, 'utf8')) as Row[]);
 }
@@ -110,7 +152,7 @@ function rows(): Row[] {
 describe('1800 fan-out prose', () => {
   it('keeps the written rows unverified and inside 60 words', () => {
     const byId = new Map(rows().map((row) => [row.id, row]));
-    for (const id of [...EUROPE, ...AMERICAS]) {
+    for (const id of [...EUROPE, ...AMERICAS, ...EUROPE_MORE]) {
       const row = byId.get(id);
       expect(row, id).toBeTruthy();
       expect(wordCount(row?.summary ?? ''), id).toBeLessThanOrEqual(60);

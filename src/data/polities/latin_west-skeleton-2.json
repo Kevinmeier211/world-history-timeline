@@ -16,8 +16,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Holy Roman Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Holy Roman Empire from 962 to 1806. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 962 to 1806.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -39,8 +42,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Papal States is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Papal States from 756 to 1870. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 756 to 1870.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -131,8 +137,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Spain after Habsburg rule is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B ends Habsburg Spain at 1700 and does not name the later state. This row uses 1700 to 2000 as a placeholder. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist does not name the state after 1700.",
+      "2000 is the chart end, not a founding claim."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -154,8 +163,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Portugal is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Portugal from 1139 with no end. This row stops at 2000, the chart end. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist start is 1139.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

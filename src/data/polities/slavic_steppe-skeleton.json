@@ -200,8 +200,11 @@
         "xKey": "eastern_med_europe"
       }
     ],
-    "summary": "Russian Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Russian Empire from 1721 to 1917. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1721 to 1917.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -223,8 +226,11 @@
         "xKey": "eastern_med_europe"
       }
     ],
-    "summary": "Russia in 1917–1922 is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B ends the Russian Empire at 1917 and starts the USSR at 1922. It does not name this interval. This row uses those two years. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist years are 1917 and 1922.",
+      "The checklist does not name this interval."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -246,8 +252,11 @@
         "xKey": "eastern_med_europe"
       }
     ],
-    "summary": "USSR is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the USSR from 1922 to 1991. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1922 to 1991.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -269,8 +278,11 @@
         "xKey": "eastern_med_europe"
       }
     ],
-    "summary": "Russia is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Russia from 1991 with no end. This row stops at 2000, the chart end. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist start is 1991.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
