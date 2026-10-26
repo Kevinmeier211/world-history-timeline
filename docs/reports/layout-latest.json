@@ -6,9 +6,9 @@
   "minGap": 6,
   "labelFit": {
     "2": {
-      "fitted": 154,
+      "fitted": 157,
       "total": 157,
-      "rate": 0.9808917197452229
+      "rate": 1
     },
     "3": {
       "fitted": 74,
@@ -18,9 +18,9 @@
   },
   "importance3Fit": 1,
   "callouts": {
-    "dropped": 8,
-    "markers": 11,
-    "placed": 39
+    "dropped": 9,
+    "markers": 12,
+    "placed": 37
   },
   "relations": {
     "total": 181,
@@ -32,8 +32,8 @@
   "labelHits": 0,
   "maxDrift": 3.211,
   "runtimeMs": {
-    "cold": 225,
-    "warm": 142
+    "cold": 227,
+    "warm": 144
   },
   "gates": {
     "overlaps": true,

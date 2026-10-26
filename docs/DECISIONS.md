@@ -771,3 +771,13 @@ Alternatives: Shrink importance 3 all the way to the label floor. That seated mo
 Why: The modern edge needs 60 painted states, and the four named states have to stay complete. Half a wide lane is enough spare width. A name in a gap is not a painted name.
 
 Reversible? y
+
+## 2026-10-26 — A drawn ribbon paints its full name
+
+Decision: An unforced label is the polity's own name, or it is not drawn. A short ribbon uses the same measurer-sized box as a name that spills out of a tall ribbon. The 72px box no longer ellipsizes fixture H: "Nāṣer the Great" paints in full. Forced `along` and `horizontal` are unchanged. On the roster, 231 of 231 drawn ribbons carry that full name, including the 65 modern states that are drawn. Label hits stay 0. One more callout is crowded out (dropped 9, markers 12) because the wider names are larger obstacles. The report is overlaps 0, importance 3 fit 74/74, warm 144ms. `maxRibbonDrift` stays 3.211 on `japan_timeline`.
+
+Alternatives: Keep the word-boundary ellipsis on short ribbons. Drop every ribbon whose name is longer than 72px. Leave hover-only ribbons on the sheet.
+
+Why: A painted ellipsis, or a ribbon with no name, does not pass the label rule. The full string fits beside the ribbon, so nothing had to be removed.
+
+Reversible? y

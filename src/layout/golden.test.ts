@@ -321,7 +321,7 @@ describe('golden fixtures', () => {
     );
   });
 
-  it('fixture H puts a diacritic ellipsis outside a short ribbon', () => {
+  it('fixture H paints the full diacritic name outside a short ribbon', () => {
     const fixture = load('short-labels');
     expect(fixture.name).toBe('H');
     const ribbons = fixture.ribbons as { name: string }[];
@@ -330,10 +330,10 @@ describe('golden fixtures', () => {
     const label = result.labels[0];
     expect(label?.orientation).toBe('outside');
     expect(label?.leader).toBeDefined();
+    expect(label?.text).toBe(name);
     expect(label?.text).toContain('ā');
-    expect(label?.text.endsWith('…')).toBe(true);
     expect(digest(result)).toMatchInlineSnapshot(
-      `"7ddc57ad4830d91baab011372e2fda53811d9d40598223bd5aef2da64b66b02b"`,
+      `"24ee0405420ba66f9d63f7977f1e8e46203f7d67be5050a5abbc64d8b9fbdcf2"`,
     );
   });
 });

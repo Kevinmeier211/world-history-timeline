@@ -23,7 +23,7 @@ function load(): { name: string; ribbons: ShortRibbon[] } {
 describe('short ribbon labels', () => {
   const measure = fakeMeasure();
 
-  it('fixture H puts an ellipsized diacritic label outside a short ribbon', () => {
+  it('fixture H paints the full diacritic name outside a short ribbon', () => {
     const fixture = load();
     const ribbon = fixture.ribbons[0];
     expect(fixture.name).toBe('H');
@@ -32,7 +32,7 @@ describe('short ribbon labels', () => {
     const placed = placeRibbonLabel(ribbon, measure);
     expect(placed.orientation).toBe('outside');
     expect(placed.fitted).toBe(true);
-    expect(placed.text).toBe('Nāṣer the…');
+    expect(placed.text).toBe('Nāṣer the Great');
     expect(placed.text).toContain('ā');
     expect(placed.fontSize).toBe(10);
     expect(placed.leader).toBeDefined();
@@ -75,7 +75,7 @@ describe('short ribbon labels', () => {
     expect(placed.leader?.x2).toBeCloseTo(placed.x + placed.width);
   });
 
-  it('keeps a name that cannot be drawn as a hover-only label', () => {
+  it('paints a long single-word name in full beside a short ribbon', () => {
     const placed = placeRibbonLabel(
       {
         id: 'long',
@@ -87,10 +87,10 @@ describe('short ribbon labels', () => {
       },
       measure,
     );
-    expect(placed.fitted).toBe(false);
+    expect(placed.fitted).toBe(true);
     expect(placed.orientation).toBe('outside');
     expect(placed.text).toBe('Antidisestablishmentarianism');
-    expect(placed.leader).toBeUndefined();
+    expect(placed.leader).toBeDefined();
   });
 
   it('paints the full western name when the ribbon is too narrow to hold it', () => {

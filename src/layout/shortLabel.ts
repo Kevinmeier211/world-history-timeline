@@ -226,30 +226,12 @@ export function placeRibbonLabels(
   });
 }
 
-export function placeRibbonLabel(
+/** Full name beside the ribbon, or undefined when that string does not fit. */
+function fullOutside(
   ribbon: ShortRibbon,
   measure: TextMeasurer,
-  plotRight = LEFT_GUTTER + PLOT_WIDTH,
-  force?: 'along' | 'horizontal' | 'outside',
-): PlacedRibbonLabel {
-  if (force === 'outside') {
-    const advance = measure.measure(ribbon.name, 10);
-    const wide = outsideLabel(
-      ribbon,
-      measure,
-      plotRight,
-      Math.max(OUTSIDE_LABEL_W, advance + 8),
-    );
-    if (wide.fitted && wide.text === ribbon.name) return wide;
-    return outsideLabel(ribbon, measure, plotRight);
-  }
-  if (force === undefined && ribbon.height < SHORT_RIBBON_PX) {
-    return outsideLabel(ribbon, measure, plotRight);
-  }
-  if (force === 'along') return insideLabel(ribbon, measure, 'rotated');
-  if (force === 'horizontal') return insideLabel(ribbon, measure, 'horizontal');
-  const inside = insideLabel(ribbon, measure);
-  if (inside.fitted && inside.text === ribbon.name) return inside;
+  plotRight: number,
+): PlacedRibbonLabel | undefined {
   const advance = measure.measure(ribbon.name, 10);
   const wide = outsideLabel(
     ribbon,
@@ -258,5 +240,25 @@ export function placeRibbonLabel(
     Math.max(OUTSIDE_LABEL_W, advance + 8),
   );
   if (wide.fitted && wide.text === ribbon.name) return wide;
-  return inside;
+  return undefined;
+}
+
+export function placeRibbonLabel(
+  ribbon: ShortRibbon,
+  measure: TextMeasurer,
+  plotRight = LEFT_GUTTER + PLOT_WIDTH,
+  force?: 'along' | 'horizontal' | 'outside',
+): PlacedRibbonLabel {
+  if (force === 'outside')
+    return fullOutside(ribbon, measure, plotRight) ?? hoverOnly(ribbon, 'outside');
+  if (force === 'along') return insideLabel(ribbon, measure, 'rotated');
+  if (force === 'horizontal') return insideLabel(ribbon, measure, 'horizontal');
+  if (force === undefined && ribbon.height < SHORT_RIBBON_PX) {
+    return fullOutside(ribbon, measure, plotRight) ?? hoverOnly(ribbon, 'outside');
+  }
+  const inside = insideLabel(ribbon, measure);
+  if (inside.fitted && inside.text === ribbon.name) return inside;
+  return (
+    fullOutside(ribbon, measure, plotRight) ?? hoverOnly(ribbon, inside.orientation)
+  );
 }

@@ -1,6 +1,6 @@
 {
   "name": "H",
-  "note": "A ribbon under 40 px takes an outside label and a leader. The ellipsis keeps the diacritics.",
+  "note": "A ribbon under 40 px takes an outside label and a leader. The full name is painted.",
   "ribbons": [
     {
       "id": "naser",
