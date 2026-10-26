@@ -1,5 +1,6 @@
 import type { Camera, Size, WorldBox } from '../camera/camera.ts';
 import { Guides } from './Guides.tsx';
+import { Watermark } from './Watermark.tsx';
 import { useVisibleSpans } from './useVisibleSpans.ts';
 import { VISIBLE_PAD, type YSpan } from './visible.ts';
 import './stage.css';
@@ -37,6 +38,7 @@ export function Stage({
         height={world.height}
       />
       <Guides scale={scale} />
+      <Watermark />
       {shown.map((span) => (
         <rect
           key={span.id}

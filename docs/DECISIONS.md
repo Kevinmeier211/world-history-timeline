@@ -361,3 +361,13 @@ Alternatives: Keep the HTML gutter columns and draw the bands only in the plot. 
 Why: The HTML columns did not share the top pad, so the names missed the years. A phone-height sheet cannot hold a label every century.
 
 Reversible? y
+
+## 2026-10-26 — The watermark is one centered map
+
+Decision: Natural Earth 110m land becomes one SVG path, centered in the plot, with longitude mapped through the poster knots. Land south of 58°S is dropped. The path is 4% ink, multiply in light and screen in dark, painted after the opaque era bands.
+
+Alternatives: Stretch the map down the full sheet. Paint it under the bands.
+
+Why: A full-height stretch smears the continents. Opaque era fills would hide a 4% map placed under them. `world-atlas` and `topojson-client` are dev dependencies; the path is generated, not fetched at runtime.
+
+Reversible? y

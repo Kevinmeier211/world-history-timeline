@@ -58,3 +58,14 @@
 .stage-host {
   height: 100%;
 }
+
+.watermark {
+  fill: var(--ink);
+  opacity: 0.04;
+  mix-blend-mode: multiply;
+  pointer-events: none;
+}
+
+:root[data-theme='dark'] .watermark {
+  mix-blend-mode: screen;
+}
