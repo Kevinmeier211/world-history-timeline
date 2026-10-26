@@ -44,6 +44,8 @@ T6.04 does not add Chagatai, Gaul, the Germanic tribes, Gojoseon, Xianbei, or a 
 
 T6.05 does not add a Sea Peoples row or a year for the Iron Age transition. Those names stay undated. The Middle Kingdom, the New Kingdom, the Hittites, the Shang, the Vedic period, the Mahajanapadas, the Olmecs, Chavín, Poverty Point, and Nok were already on the sheet. Pages were not opened.
 
+T6.06 does not add a separate Yangshao row, a separate Xia row, or a year for Austronesian origins. Those names stay undated. Norte Chico, Longshan, the Indus bundle, and the megalithic bundle were already on the sheet. Pages were not opened.
+
 ## Q-05 — The Latin West checklist is shorter than the family minimum
 
 Why it matters: T1.19 requires at least 45 `latin_west` polities. Appendix B's dated Latin West lines, plus the six migrated bundles, do not reach 45. Inventing foundation years for Aragon, Castile, or Habsburg Austria would be a new claim.
