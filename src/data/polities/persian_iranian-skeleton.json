@@ -16,8 +16,12 @@
         "xKey": "mesopotamia_persia"
       }
     ],
-    "summary": "Seleucid Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Seleucid kingdom from 312 BCE to 63 BCE and lists it under Persia and Iran. The migrated Ptolemaic–Seleucid bundle stays. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 312 BCE to 63 BCE.",
+      "A migrated row bundles Ptolemaic and Seleucid.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["isac", "louvre"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -39,8 +43,12 @@
         "xKey": "mesopotamia_persia"
       }
     ],
-    "summary": "Parthian Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Parthian Empire from 247 BCE to 224 CE. This row uses that span and is distinct from the migrated Parthian–Sasanian bundle. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 247 BCE to 224 CE.",
+      "A migrated row bundles Parthian and Sasanian.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["isac", "louvre"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

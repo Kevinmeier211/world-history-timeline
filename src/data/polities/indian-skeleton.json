@@ -39,8 +39,11 @@
         "xKey": "indus_india"
       }
     ],
-    "summary": "Nanda is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Nanda from 345 BCE to 322 BCE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 345 BCE to 322 BCE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -62,8 +65,11 @@
         "xKey": "indus_india"
       }
     ],
-    "summary": "Satavahana is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Satavahana from about 230 BCE to 220 CE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 230 BCE to 220 CE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -85,8 +91,11 @@
         "xKey": "indus_india"
       }
     ],
-    "summary": "Kushan is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Kushan from about 30 to 375. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 30 to 375.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

@@ -108,8 +108,11 @@
         "xKey": "china_east_asia"
       }
     ],
-    "summary": "Spring and Autumn is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Spring and Autumn from 770 BCE to 476 BCE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 770 BCE to 476 BCE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["chgis", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -131,8 +134,11 @@
         "xKey": "china_east_asia"
       }
     ],
-    "summary": "Warring States is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Warring States from 475 BCE to 221 BCE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 475 BCE to 221 BCE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["chgis", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -154,8 +160,11 @@
         "xKey": "china_east_asia"
       }
     ],
-    "summary": "Qin is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Qin from 221 BCE to 206 BCE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 221 BCE to 206 BCE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["chgis", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -177,8 +186,12 @@
         "xKey": "china_east_asia"
       }
     ],
-    "summary": "Western Han is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Western Han from 206 BCE to 9 CE. This row uses that span. The migrated Han bundle stays. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 206 BCE to 9 CE.",
+      "A migrated row still carries the Han span.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["chgis", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -200,8 +213,11 @@
         "xKey": "china_east_asia"
       }
     ],
-    "summary": "Xin is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Xin from 9 to 23. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 9 to 23.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["chgis", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -223,8 +239,12 @@
         "xKey": "china_east_asia"
       }
     ],
-    "summary": "China in 23–25 is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B ends Xin in 23 and starts Eastern Han in 25. It does not name the interval. This row uses those bounds. The cited pages were not opened.",
+    "keyFacts": [
+      "The bounding years are 23 and 25.",
+      "The checklist does not name the interval.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["chgis", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -246,8 +266,11 @@
         "xKey": "china_east_asia"
       }
     ],
-    "summary": "Eastern Han is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Eastern Han from 25 to 220. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 25 to 220.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["chgis", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -269,8 +292,11 @@
         "xKey": "china_east_asia"
       }
     ],
-    "summary": "Three Kingdoms is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Three Kingdoms from 220 to 280. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 220 to 280.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["chgis", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

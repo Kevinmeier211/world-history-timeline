@@ -186,8 +186,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "Lapita is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Lapita from about 1600 BCE to 500 BCE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 1600 BCE to 500 BCE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["field_museum", "unesco_mow"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

@@ -16,8 +16,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Hallstatt is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Hallstatt from about 1200 BCE to 500 BCE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 1200 BCE to 500 BCE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -39,8 +42,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "La Tène is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates La Tène from about 450 BCE to 50 BCE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 450 BCE to 50 BCE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

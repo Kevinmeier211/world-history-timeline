@@ -16,8 +16,11 @@
         "xKey": "mesopotamia_persia"
       }
     ],
-    "summary": "Lydia is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Lydia from about 680 BCE to 546 BCE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 680 BCE to 546 BCE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cdli", "isac"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -39,8 +42,11 @@
         "xKey": "mesopotamia_persia"
       }
     ],
-    "summary": "Urartu is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Urartu from about 860 BCE to 590 BCE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 860 BCE to 590 BCE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cdli", "isac"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

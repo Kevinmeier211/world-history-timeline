@@ -250,8 +250,12 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Italy in 476–493 is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B ends the western Roman Empire in 476 and starts the Ostrogoths in 493. It does not name the interval. This row uses those bounds. The cited pages were not opened.",
+    "keyFacts": [
+      "The bounding years are 476 and 493.",
+      "The checklist does not name the interval.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

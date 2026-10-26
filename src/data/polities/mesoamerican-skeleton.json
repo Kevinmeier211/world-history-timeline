@@ -68,8 +68,11 @@
         "xKey": "mesoamerica"
       }
     ],
-    "summary": "Maya Preclassic is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Maya Preclassic from about 2000 BCE to 250 CE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 2000 BCE to 250 CE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["inah", "field_museum"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

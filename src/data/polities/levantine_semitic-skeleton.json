@@ -16,8 +16,12 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Phoenician city-states is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Phoenician city-states from about 1500 BCE to 539 BCE. This row uses that span. The migrated Phoenicia–Israel bundle stays. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 1500 BCE to 539 BCE.",
+      "A migrated row bundles Phoenicia and Israel.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -39,8 +43,11 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Israel and Judah is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Israel and Judah from about 1000 BCE to 586 BCE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 1000 BCE to 586 BCE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -62,8 +69,11 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Second Temple period is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Second Temple period from 516 BCE to 70 CE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 516 BCE to 70 CE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -85,8 +95,11 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Carthage is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Carthage from about 814 BCE to 146 BCE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 814 BCE to 146 BCE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -108,8 +121,11 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Nabataean is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Nabataean from about 312 BCE to 106 CE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 312 BCE to 106 CE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
