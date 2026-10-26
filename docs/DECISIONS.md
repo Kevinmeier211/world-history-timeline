@@ -962,6 +962,16 @@ Why: A new band has to use a span the dataset already dates. The two existing ba
 
 Reversible? y
 
+## 2026-10-26 — The Visigoth row uses 418 CE
+
+Decision: `visigoths` starts in 418 and ends in 711. Appendix B says c.418–711 beside the other successor kingdoms, and the note does not say BCE. The stored start had been −418. The anchor year is 418. Confidence stays approximate. The generated handoff to `spain_portugal` in 711 is unchanged. The row stays a root. The nearest same-family end is now `roman_empire` at a gap of 23 years, not `roman_kingdom`. Pages were not opened.
+
+Alternatives: Leave the ribbon running from 418 BCE. Treat 418 as debated and drop the row.
+
+Why: A negative year is BCE in this dataset. 418 BCE is not the checklist span.
+
+Reversible? y
+
 ## 2026-10-26 — Early-modern importance stays at the rows already set
 
 Decision: No 1500–1800 row was raised to importance 3 or 4 in this pass. `denmark_norway` stays weight 0.22. `sweden_1523` stays weight 0.35. `npm run layout:report` after the new rows and callouts: 238 ribbons drawn, 436 polities, 0 overlaps, minimum gap 6, importance-3 labels 82/82, 0 unroutable relations, 82 omitted, max drift 3.211. Cold runtime 259 ms, warm 156 ms, over the 150 ms gate. Callouts dropped 100, with 13 markers and 46 placed. The layout engine was not changed.

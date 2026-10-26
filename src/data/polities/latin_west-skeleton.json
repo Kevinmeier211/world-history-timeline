@@ -95,16 +95,16 @@
     "id": "visigoths",
     "name": "Visigoths",
     "family": "latin_west",
-    "start": -418,
+    "start": 418,
     "end": 711,
     "confidence": "approximate",
-    "dateNote": "Appendix B: Visigoths c.418–711.",
+    "dateNote": "Appendix B: Visigoths c.418–711. The year is 418 CE, beside the other successor kingdoms. It is not 418 BCE.",
     "importance": 2,
     "weight": 0.35,
     "kind": "state",
     "anchor": [
       {
-        "year": -418,
+        "year": 418,
         "xKey": "western_europe"
       }
     ],
