@@ -831,3 +831,13 @@ Alternatives: Turn the switch on to fetch the Cleveland files. Leave the script 
 Why: The pipeline has to exist, and the switch still forbids downloading files.
 
 Reversible? y
+
+## 2026-10-26 — Plate treatment is tested on a painted rectangle
+
+Decision: `scripts/media/process.ts` crops around a stored focal point, reduces saturation to 0.85, blends 20% toward warm `(255, 214, 170)`, multiplies a light grain, and paints a 1px frame in light-theme ink `(42, 36, 28)`. Outputs are AVIF and WebP at 128, 320, and 960. The only image exercised is `src/__fixtures__/plate-synthetic.png`, an 80×40 blue/red rectangle. `media:process` writes `src/data/media.generated.json` with an empty image list when `media-cache/` has no files. It does not download.
+
+Alternatives: Download a Cleveland file to test sharp. Commit a derivative of a real object before the page is opened.
+
+Why: The treatment has to be real, and no reviewed image file exists yet.
+
+Reversible? y
