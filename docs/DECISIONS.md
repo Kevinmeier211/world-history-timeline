@@ -371,3 +371,13 @@ Alternatives: Stretch the map down the full sheet. Paint it under the bands.
 Why: A full-height stretch smears the continents. Opaque era fills would hide a 4% map placed under them. `world-atlas` and `topojson-client` are dev dependencies; the path is generated, not fetched at runtime.
 
 Reversible? y
+
+## 2026-10-26 — Ribbon labels use the parchment ink pair
+
+Decision: Each ribbon is a focusable button whose name is `formatRange` plus the family. The edge is the family fill darkened 18%. An uncertain start fades toward `--paper` and draws the dashed edge from the layout. Label fill is parchment ink or paper, whichever contrasts with the family color, because the family fill does not change in the night theme. The chart SVG is a group so those buttons stay in the tree. Off-window ribbons are not mounted.
+
+Alternatives: Always use `--ink`. Keep `role="img"` on the chart.
+
+Why: A dark ribbon needs light type in both themes. `role="img"` would hide the buttons from the accessibility tree.
+
+Reversible? y

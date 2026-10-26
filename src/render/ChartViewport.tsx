@@ -1,6 +1,7 @@
 import { useLayoutEffect, useRef, useState } from 'react';
 
 import { posterWorld } from '../camera/camera.ts';
+import { posterModel } from './posterModel.ts';
 import { Stage } from './Stage.tsx';
 import { cameraFromScroll, stageScale } from './visible.ts';
 
@@ -20,6 +21,7 @@ export function ChartViewport({ onSheet }: { onSheet: (sheet: SheetSize) => void
   const host = useRef<HTMLDivElement>(null);
   const [metrics, setMetrics] = useState<Metrics | null>(null);
   const world = posterWorld();
+  const paint = posterModel();
 
   useLayoutEffect(() => {
     const el = host.current;
@@ -78,6 +80,8 @@ export function ChartViewport({ onSheet }: { onSheet: (sheet: SheetSize) => void
           viewport={{ width: metrics.width, height: Math.max(metrics.portHeight, 1) }}
           scale={scale}
           world={world}
+          ribbons={paint.ribbons}
+          labels={paint.labels}
         />
       ) : null}
     </div>

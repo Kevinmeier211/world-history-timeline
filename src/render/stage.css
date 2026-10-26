@@ -69,3 +69,35 @@
 :root[data-theme='dark'] .watermark {
   mix-blend-mode: screen;
 }
+
+.ribbon-body,
+.ribbon-uncertain {
+  stroke-width: 1;
+  vector-effect: non-scaling-stroke;
+}
+
+.ribbon-hit {
+  fill: transparent;
+  cursor: pointer;
+}
+
+.ribbon-hit:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.ribbon-label {
+  font-family: var(--font-label);
+  font-weight: 600;
+  pointer-events: none;
+}
+
+.ribbon-leader {
+  stroke: var(--ink-muted);
+  stroke-width: 0.75;
+  vector-effect: non-scaling-stroke;
+}
+
+.ribbon-dim {
+  opacity: 0.25;
+}
