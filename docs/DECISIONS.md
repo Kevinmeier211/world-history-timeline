@@ -1211,3 +1211,13 @@ Alternatives: Hand-maintain a reference PDF. Add a connection so every note has 
 Why: T7.05 asks for the expanded reference as an export of this dataset. Q-02 still leaves the Gemini bibliography out.
 
 Reversible? y
+
+## 2026-10-26 — export:all writes the print set and a manifest
+
+Decision: `npm run export:all` builds the app, writes the three trim PDFs, the bleed poster, and the reference PDF, then runs the chart check on those four files. It writes `dist-print/manifest.json` with path, bytes, page inches, page count, and `generatedAt` taken from the clock at the write. On 2026-10-26 that stamp was `2026-10-26T21:43:38.334Z`. The files were letter 1006458 bytes, 8.5 by 11 in, 1 page; tabloid 1130105 bytes, 11 by 17 in, 1 page; poster 1576949 bytes, 24 by 36 in, 1 page; bleed poster 1588516 bytes, 24.25 by 36.25 in, 1 page; reference 103297 bytes, 8.5 by 11 in, 14 pages. The chart check then exited 0. A file that was not written is left out of the manifest. `npm run check` does not run this command. `dist-print/` stays gitignored.
+
+Alternatives: Commit the PDFs. Put a fixed timestamp in the manifest. Run the export inside `npm run check`.
+
+Why: T7.06 asks for one command that fills `dist-print/` and a manifest.
+
+Reversible? y
