@@ -1221,3 +1221,13 @@ Alternatives: Commit the PDFs. Put a fixed timestamp in the manifest. Run the ex
 Why: T7.06 asks for one command that fills `dist-print/` and a manifest.
 
 Reversible? y
+
+## 2026-10-26 — Print QA records the export that was opened
+
+Decision: `docs/PRINT_QA.md` records the `export:all` set stamped `2026-10-26T21:43:38.334Z`. A 288 dpi crop (4 × 72 dpi) of one poster field showed the callout “Sumerian city-states” and the ribbon names “Sumerian City-States & Akkadian”, “Early Dynastic Mesopotamia”, “Kura-Araxes”, and “Elam” as readable. The bleed corner shows two marks and a gap. `pdfimages -list` had no image rows. Letter’s 0.181 pt minimum is stated, and the 0.25 pt floor stays off that sheet. No contract proof was printed. Parchment `#f1e8d2` on uncoated stock still needs one before a press run.
+
+Alternatives: Call every label checked. Treat the screen render as a press proof. Fail the letter PDF for the reduced strokes.
+
+Why: T7.07 asks for the checklist from what was actually opened.
+
+Reversible? y
