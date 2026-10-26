@@ -861,3 +861,13 @@ Alternatives: List the 84 candidate rows as if their files were on the poster. P
 Why: A credit for a file that was not downloaded would be false, and the chart link has to survive the page.
 
 Reversible? y
+
+## 2026-10-26 — The thumbnail budget counts 128px files only
+
+Decision: `media:budget` fails when 128px AVIF or WebP files total more than 1.2 MB or any one is over 10 KB. 320px and 960px derivatives are not thumbnails. Zero files is a pass, and the command says the set is gated, because no image file is shipped.
+
+Alternatives: Count every derivative against the 10 KB cap. Fail the build because the directory is empty.
+
+Why: The cap is the chart thumbnail payload. An empty directory is the honest result of the download switch.
+
+Reversible? y
