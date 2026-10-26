@@ -1041,3 +1041,13 @@ Alternatives: Raise the Middle Kingdom, the New Kingdom, the Hittites, and the S
 Why: The CDLI homepage describes a cuneiform library and does not state a row year. Importance 4 still waits on an opened page that states the claim. The runtime miss is the roster, not a new solver.
 
 Reversible? y
+
+## 2026-10-26 — The Bronze Age Collapse tour stays the migrated one
+
+Decision: T6.05 does not add a second Bronze Age Collapse tour. `tour_bronze_collapse` is already on the sheet, with the title “1177 BCE: The Late Bronze Age Collapse.” Its stops were not rewritten, and no new goods, battles, or letters were added.
+
+Alternatives: Copy the migrated tour under a new id. Replace its narratives with checklist years only.
+
+Why: The pass asks for that tour, and the migrated one already occupies the title. A second copy would invent a parallel story.
+
+Reversible? y
