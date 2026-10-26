@@ -4,6 +4,10 @@
     "reason": "gemini-v1 names no parent; nearest same-family end is poverty_point at a gap of 100 continuous years, outside a shared-boundary handoff."
   },
   {
+    "id": "afghanistan",
+    "reason": "gemini-v1 names no parent; nearest same-family end is safavid_dynasty at a gap of 11 continuous years, outside a shared-boundary handoff."
+  },
+  {
     "id": "african_independence",
     "reason": "gemini-v1 names no parent; nearest same-family end is south_africa_union at a gap of 2 continuous years, outside a shared-boundary handoff."
   },
@@ -90,9 +94,5 @@
   {
     "id": "benin_kingdom",
     "reason": "gemini-v1 names no parent; nearest same-family end is aksum at a gap of 240 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "bolivia",
-    "reason": "Appendix B gives no single year for this start, so this row is not a shared-boundary handoff. Pages were not opened."
   }
 ]

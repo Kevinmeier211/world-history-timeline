@@ -8,9 +8,9 @@ A row is unverified when `verification` is `unverified`, or when a tour stop omi
 
 | kind | unverified | cross-checked | primary-checked | total |
 | --- | --- | --- | --- | --- |
-| polities | 408 | 0 | 0 | 408 |
-| relations | 181 | 0 | 0 | 181 |
-| callouts | 94 | 0 | 0 | 94 |
+| polities | 433 | 0 | 0 | 433 |
+| relations | 186 | 0 | 0 | 186 |
+| callouts | 119 | 0 | 0 | 119 |
 | bands | 13 | 0 | 0 | 13 |
 | routes | 6 | 0 | 0 | 6 |
 | tour stops | 11 | 0 | 0 | 11 |
@@ -23,12 +23,12 @@ Counts are unverified / cross-checked / primary-checked.
 | kind | importance | unverified | cross-checked | primary-checked |
 | --- | --- | --- | --- | --- |
 | polities | 1 | 0 | 0 | 0 |
-| polities | 2 | 334 | 0 | 0 |
+| polities | 2 | 359 | 0 | 0 |
 | polities | 3 | 74 | 0 | 0 |
 | polities | 4 | 0 | 0 | 0 |
 | polities | 5 | 0 | 0 | 0 |
 | callouts | 1 | 0 | 0 | 0 |
-| callouts | 2 | 36 | 0 | 0 |
+| callouts | 2 | 61 | 0 | 0 |
 | callouts | 3 | 18 | 0 | 0 |
 | callouts | 4 | 40 | 0 | 0 |
 | callouts | 5 | 0 | 0 | 0 |
@@ -104,8 +104,8 @@ Unverified counts only.
 | 1_500ce | 67 | 5 | 17 | 0 | 3 | 2 |
 | 500_1000ce | 103 | 4 | 28 | 2 | 3 | 0 |
 | 1000_1500ce | 113 | 11 | 26 | 4 | 4 | 0 |
-| 1500_1800ce | 103 | 4 | 23 | 2 | 2 | 0 |
-| 1800_2000ce | 144 | 37 | 37 | 3 | 1 | 0 |
+| 1500_1800ce | 105 | 6 | 23 | 2 | 2 | 0 |
+| 1800_2000ce | 169 | 60 | 42 | 3 | 1 | 0 |
 
 ## By family
 
@@ -115,23 +115,23 @@ Unverified callouts with no family: 0.
 
 | family | unverified polities | unverified callouts |
 | --- | --- | --- |
-| andean | 23 | 1 |
-| mesoamerican | 19 | 5 |
+| andean | 25 | 3 |
+| mesoamerican | 21 | 7 |
 | north_american | 14 | 6 |
 | sub_saharan | 35 | 7 |
 | nile_egyptian | 20 | 4 |
 | mesopotamian | 20 | 5 |
-| persian_iranian | 16 | 2 |
+| persian_iranian | 17 | 3 |
 | levantine_semitic | 15 | 2 |
 | greek_byzantine | 20 | 9 |
 | latin_west | 51 | 12 |
 | celtic_germanic_norse | 15 | 4 |
-| slavic_steppe | 15 | 2 |
-| islamic_arab | 12 | 3 |
-| turkic_mongol | 14 | 1 |
-| indian | 28 | 9 |
-| chinese | 35 | 11 |
+| slavic_steppe | 23 | 10 |
+| islamic_arab | 14 | 5 |
+| turkic_mongol | 16 | 3 |
+| indian | 30 | 11 |
+| chinese | 36 | 12 |
 | korean_japanese | 28 | 6 |
-| southeast_oceanian | 28 | 5 |
+| southeast_oceanian | 33 | 10 |
 
 Notes, presets, media, and sources have no `verification` field, so they are not counted.

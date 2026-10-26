@@ -1,0 +1,63 @@
+[
+  {
+    "id": "mongolia",
+    "name": "Mongolia",
+    "family": "turkic_mongol",
+    "start": 1911,
+    "end": 2000,
+    "confidence": "approximate",
+    "dateNote": "1911 is widely cited for autonomy from the Qing. 1921 and 1924 are also widely cited. This row starts in 1911. 2000 is the chart end. Appendix B does not date Mongolia. Pages were not opened.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1911,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "Autonomy from the Qing is widely dated to 1911. 1921 and 1924 are also widely cited and are not the start used here. This row runs to 2000, the chart end. Appendix B does not date it. The cited pages were not opened.",
+    "keyFacts": [
+      "1911 is widely cited for autonomy from the Qing.",
+      "1921 and 1924 are also widely cited.",
+      "2000 is the chart end."
+    ],
+    "sourceIds": ["cambridge_histories", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Widely cited political dates. The cited pages were not opened for this row."
+  },
+  {
+    "id": "central_asian_republics",
+    "name": "Central Asian republics",
+    "altNames": [
+      "Kazakhstan",
+      "Kyrgyzstan",
+      "Tajikistan",
+      "Turkmenistan",
+      "Uzbekistan"
+    ],
+    "family": "turkic_mongol",
+    "start": 1991,
+    "end": 2000,
+    "confidence": "debated",
+    "dateNote": "1991 is widely cited for Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, and Uzbekistan. Appendix B does not name each one. This row is a cluster. 2000 is the chart end. Pages were not opened.",
+    "importance": 2,
+    "weight": 0.22,
+    "kind": "confederation",
+    "anchor": [
+      {
+        "year": 1991,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "1991 is widely cited for Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, and Uzbekistan. This cluster runs to 2000, the chart end. Appendix B does not name each state. The cited pages were not opened.",
+    "keyFacts": [
+      "1991 is widely cited for the five republics.",
+      "Appendix B does not name each state.",
+      "2000 is the chart end."
+    ],
+    "sourceIds": ["cambridge_histories", "unesco_mow"],
+    "verification": "unverified",
+    "evidence": "Widely cited political dates. The cited pages were not opened for this row."
+  }
+]

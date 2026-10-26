@@ -1,0 +1,57 @@
+[
+  {
+    "id": "nepal",
+    "name": "Nepal",
+    "family": "indian",
+    "start": 1768,
+    "end": 2000,
+    "confidence": "approximate",
+    "dateNote": "1768 is widely cited for the Shah unification. 2000 is the chart end. Appendix B does not date Nepal. Pages were not opened.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1768,
+        "xKey": "indus_india"
+      }
+    ],
+    "summary": "Shah unification is widely dated to 1768. Appendix B does not date Nepal. This row runs to 2000, the chart end. The cited pages were not opened.",
+    "keyFacts": [
+      "1768 is widely cited for the Shah unification.",
+      "Appendix B does not date Nepal.",
+      "2000 is the chart end."
+    ],
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Widely cited political dates. The cited pages were not opened for this row."
+  },
+  {
+    "id": "sri_lanka",
+    "name": "Sri Lanka",
+    "altNames": ["Ceylon"],
+    "family": "indian",
+    "start": 1948,
+    "end": 2000,
+    "confidence": "approximate",
+    "dateNote": "1948 is widely cited for independence as Ceylon. 1972 is widely cited for the republic and the name Sri Lanka. This row starts in 1948. 2000 is the chart end. Appendix B does not date it. Pages were not opened.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1948,
+        "xKey": "indus_india"
+      }
+    ],
+    "summary": "Independence as Ceylon is widely dated to 1948. The republic and the name Sri Lanka are widely dated to 1972. This row starts in 1948 and runs to 2000, the chart end. Appendix B does not date it. The cited pages were not opened.",
+    "keyFacts": [
+      "1948 is widely cited for independence as Ceylon.",
+      "1972 is widely cited for the republic and the name.",
+      "2000 is the chart end."
+    ],
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Widely cited political dates. The cited pages were not opened for this row."
+  }
+]

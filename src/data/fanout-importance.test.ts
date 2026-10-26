@@ -19,4 +19,12 @@ describe('1800 fan-out importance', () => {
     expect(rows.length).toBe(36);
     for (const row of rows) expect(row.importance, row.id).toBe(2);
   });
+
+  it('leaves the added-state callouts at importance 2', () => {
+    const rows = JSON.parse(
+      readFileSync('src/data/callouts/fanout-03.json', 'utf8'),
+    ) as Callout[];
+    expect(rows.length).toBe(25);
+    for (const row of rows) expect(row.importance, row.id).toBe(2);
+  });
 });

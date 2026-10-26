@@ -1,5 +1,70 @@
 [
   {
+    "id": "split_babylon_assyria_neo_assyria_babylon_neo_assyrian",
+    "from": ["babylon_assyria"],
+    "to": ["neo_assyria_babylon", "neo_assyrian"],
+    "year": -911,
+    "type": "split",
+    "share": [0.5, 0.5],
+    "note": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened.",
+    "sourceIds": ["cdli", "isac"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened."
+  },
+  {
+    "id": "split_british_raj_india_modern_india_pakistan",
+    "from": ["british_raj"],
+    "to": ["india", "modern_india", "pakistan"],
+    "year": 1947,
+    "type": "split",
+    "share": [0.333333, 0.333333, 0.333334],
+    "note": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened.",
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened."
+  },
+  {
+    "id": "split_carolingian_east_francia_france_kingdom_holy_roman_empire_west_francia",
+    "from": ["carolingian"],
+    "to": ["east_francia", "france_kingdom", "holy_roman_empire", "west_francia"],
+    "year": 843,
+    "type": "split",
+    "share": [0.25, 0.25, 0.25, 0.25],
+    "note": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened.",
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened."
+  },
+  {
+    "id": "split_germany_1945_east_germany_west_germany",
+    "from": ["germany_1945"],
+    "to": ["east_germany", "west_germany"],
+    "year": 1949,
+    "type": "split",
+    "share": [0.5, 0.5],
+    "note": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened.",
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened."
+  },
+  {
+    "id": "split_greek_dark_ages_archaic_greece_classical_greece",
+    "from": ["greek_dark_ages"],
+    "to": ["archaic_greece", "classical_greece"],
+    "year": -800,
+    "type": "split",
+    "share": [0.5, 0.5],
+    "note": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened.",
+    "sourceIds": ["louvre", "cambridge_histories"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened."
+  },
+  {
     "id": "split_korea_1945_north_korea_south_korea",
     "from": ["korea_1945"],
     "to": ["north_korea", "south_korea"],
@@ -89,66 +154,5 @@
     "confidence": "debated",
     "verification": "unverified",
     "evidence": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened."
-  },
-  {
-    "id": "split_yuan_china_ming_ming_qing_china",
-    "from": ["yuan_china"],
-    "to": ["ming", "ming_qing_china"],
-    "year": 1368,
-    "type": "split",
-    "share": [0.5, 0.5],
-    "note": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened.",
-    "sourceIds": ["chgis", "cambridge_histories"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened."
-  },
-  {
-    "id": "twin_fatimid_fatimid_egypt",
-    "from": ["fatimid"],
-    "to": ["fatimid_egypt"],
-    "year": 969,
-    "type": "cultural_continuity",
-    "note": "Appendix B lists the Fatimid span as 909/969–1171. The Nile row starts at the recorded 969 endpoint. Not a checked conquest.",
-    "sourceIds": ["louvre", "unesco_gha"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Appendix B lists the Fatimid span as 909/969–1171. The Nile row starts at the recorded 969 endpoint. Not a checked conquest."
-  },
-  {
-    "id": "twin_golden_horde_golden_horde_turkic",
-    "from": ["golden_horde"],
-    "to": ["golden_horde_turkic"],
-    "year": 1242,
-    "type": "cultural_continuity",
-    "note": "Same Appendix B span, 1242–1502, stored in two families. Not a checked conquest.",
-    "sourceIds": ["cambridge_histories", "unesco_mow"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Same Appendix B span, 1242–1502, stored in two families. Not a checked conquest."
-  },
-  {
-    "id": "twin_ilkhanate_ilkhanate_iran",
-    "from": ["ilkhanate"],
-    "to": ["ilkhanate_iran"],
-    "year": 1256,
-    "type": "cultural_continuity",
-    "note": "Same Appendix B span, 1256–1335, stored in two families. Not a checked conquest.",
-    "sourceIds": ["isac", "louvre"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Same Appendix B span, 1256–1335, stored in two families. Not a checked conquest."
-  },
-  {
-    "id": "twin_jurchen_jin_jin_1115",
-    "from": ["jurchen_jin"],
-    "to": ["jin_1115"],
-    "year": 1115,
-    "type": "cultural_continuity",
-    "note": "Same Appendix B span, 1115–1234, stored in two families. Not a checked conquest.",
-    "sourceIds": ["chgis", "cambridge_histories"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Same Appendix B span, 1115–1234, stored in two families. Not a checked conquest."
   }
 ]

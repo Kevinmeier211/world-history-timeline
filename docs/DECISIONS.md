@@ -921,3 +921,13 @@ Alternatives: Raise India, the United States, and the USSR to importance 4 from 
 Why: Importance 4 and 5 are reserved for a cross-check against an opened source. A layout report of unchanged weights would only repeat the last sheet.
 
 Reversible? y
+
+## 2026-10-26 — T6.01 names states Appendix B does not date
+
+Decision: Haiti, Cuba, the Empire of Brazil and the republic, Poland after 1795, Yugoslavia, Czechoslovakia, Turkey after 1922, a Gulf cluster, Afghanistan, the Central Asian republics, Sri Lanka, Nepal, Taiwan, Mongolia, Laos, Cambodia, Malaysia, and Burma after the Konbaung are on the chart. The years are widely cited political dates. `confidence` is approximate or debated. `verification` is unverified. Each date note says Appendix B does not date the row. `sourceIds` are ids already in `sources.json`. The Gulf row and the Central Asian republics are clusters at weight 0.22. Other new rows stay at weight 0.35 and importance 2. Pages were not opened.
+
+Alternatives: Leave the names off, as the skeleton pass did under Q-04. Invent a source page or a quotation.
+
+Why: T6.01 names these states, and Appendix B is a checklist, not a ceiling. A cluster does not paint as wide as one empire. Other undated checklist names stay omitted.
+
+Reversible? y

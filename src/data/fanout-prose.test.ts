@@ -149,6 +149,34 @@ const ASIA_PACIFIC = [
   'spanish_philippines',
 ] as const;
 
+const ADDED = [
+  'haiti',
+  'cuba',
+  'brazil_empire',
+  'brazil',
+  'duchy_of_warsaw',
+  'congress_poland',
+  'poland',
+  'poland_1945',
+  'yugoslavia_kingdom',
+  'yugoslavia',
+  'czechoslovakia',
+  'czechoslovakia_1945',
+  'turkey',
+  'gulf_states',
+  'afghanistan',
+  'mongolia',
+  'central_asian_republics',
+  'nepal',
+  'sri_lanka',
+  'taiwan',
+  'british_burma',
+  'burma',
+  'laos',
+  'cambodia',
+  'malaysia',
+] as const;
+
 const SOURCES: Record<string, readonly string[]> = {
   ...Object.fromEntries(
     EUROPE.map((id) => [id, ['cambridge_histories', 'british_library']]),
@@ -258,6 +286,45 @@ const SOURCES: Record<string, readonly string[]> = {
       'spanish_philippines',
     ].map((id) => [id, ['field_museum', 'unesco_mow']]),
   ),
+  ...Object.fromEntries(['haiti', 'cuba'].map((id) => [id, ['inah', 'field_museum']])),
+  ...Object.fromEntries(
+    ['brazil_empire', 'brazil'].map((id) => [id, ['museo_larco', 'field_museum']]),
+  ),
+  ...Object.fromEntries(
+    [
+      'duchy_of_warsaw',
+      'congress_poland',
+      'poland',
+      'poland_1945',
+      'yugoslavia_kingdom',
+      'yugoslavia',
+      'czechoslovakia',
+      'czechoslovakia_1945',
+    ].map((id) => [id, ['cambridge_histories', 'british_library']]),
+  ),
+  ...Object.fromEntries(
+    ['turkey', 'gulf_states'].map((id) => [id, ['unesco_gha', 'cambridge_histories']]),
+  ),
+  afghanistan: ['isac', 'louvre'],
+  ...Object.fromEntries(
+    ['mongolia', 'central_asian_republics'].map((id) => [
+      id,
+      ['cambridge_histories', 'unesco_mow'],
+    ]),
+  ),
+  ...Object.fromEntries(
+    ['nepal', 'sri_lanka'].map((id) => [
+      id,
+      ['british_library', 'cambridge_histories'],
+    ]),
+  ),
+  taiwan: ['chgis', 'cambridge_histories'],
+  ...Object.fromEntries(
+    ['british_burma', 'burma', 'laos', 'cambodia', 'malaysia'].map((id) => [
+      id,
+      ['field_museum', 'unesco_mow'],
+    ]),
+  ),
   ...Object.fromEntries(
     ['haudenosaunee', 'united_states', 'canada', 'russian_america'].map((id) => [
       id,
@@ -297,6 +364,8 @@ interface Row {
   verification: string;
   evidence: string;
   sourceIds: string[];
+  confidence: string;
+  dateNote?: string;
 }
 
 function rows(): Row[] {
@@ -329,6 +398,15 @@ function rows(): Row[] {
     'src/data/polities/southeast_oceanian-skeleton.json',
     'src/data/polities/southeast_oceanian-skeleton-2.json',
     'src/data/polities/southeast_oceanian-skeleton-3.json',
+    'src/data/polities/mesoamerican-skeleton-2.json',
+    'src/data/polities/andean-skeleton-3.json',
+    'src/data/polities/slavic_steppe-skeleton-3.json',
+    'src/data/polities/islamic_arab-skeleton-2.json',
+    'src/data/polities/persian_iranian-skeleton-3.json',
+    'src/data/polities/turkic_mongol-skeleton-3.json',
+    'src/data/polities/indian-skeleton-3.json',
+    'src/data/polities/chinese-skeleton-4.json',
+    'src/data/polities/southeast_oceanian-skeleton-4.json',
   ];
   return files.flatMap((file) => JSON.parse(readFileSync(file, 'utf8')) as Row[]);
 }
@@ -343,6 +421,7 @@ describe('1800 fan-out prose', () => {
       ...AFRICA,
       ...WEST_ASIA,
       ...ASIA_PACIFIC,
+      ...ADDED,
     ]) {
       const row = byId.get(id);
       expect(row, id).toBeTruthy();
@@ -354,6 +433,10 @@ describe('1800 fan-out prose', () => {
       expect(row?.verification, id).toBe('unverified');
       expect(row?.evidence, id).toContain('not opened');
       expect(row?.sourceIds, id).toEqual(SOURCES[id]);
+      if ((ADDED as readonly string[]).includes(id)) {
+        expect(['approximate', 'debated'], id).toContain(row?.confidence);
+        expect(row?.dateNote ?? '', id).not.toContain('gives no single year');
+      }
     }
   });
 });

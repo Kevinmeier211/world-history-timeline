@@ -1,0 +1,34 @@
+[
+  {
+    "id": "western_xia",
+    "reason": "gemini-v1 names no parent; nearest same-family end is five_dynasties at a gap of 78 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "xiongnu",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "yamnaya",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "yuan",
+    "reason": "gemini-v1 names no parent; nearest same-family end is jurchen_jin at a gap of 37 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "yugoslavia",
+    "reason": "gemini-v1 names no parent; nearest same-family end is yugoslavia_kingdom at a gap of 4 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "yugoslavia_kingdom",
+    "reason": "gemini-v1 names no parent; nearest same-family end is russian_empire at a gap of 1 continuous year, while other polities in the family are still current."
+  },
+  {
+    "id": "zapotec_monte_alban",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "zulu",
+    "reason": "gemini-v1 names no parent; nearest same-family end is mali_empire at a gap of 216 continuous years, outside a shared-boundary handoff."
+  }
+]

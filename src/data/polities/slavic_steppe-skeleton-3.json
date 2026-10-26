@@ -1,0 +1,255 @@
+[
+  {
+    "id": "duchy_of_warsaw",
+    "name": "Duchy of Warsaw",
+    "family": "slavic_steppe",
+    "start": 1807,
+    "end": 1815,
+    "confidence": "approximate",
+    "dateNote": "1807 and 1815 are widely cited for the Duchy of Warsaw. Appendix B does not date it. Pages were not opened.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1807,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "The duchy is widely dated from 1807 to 1815. Appendix B does not date it. The cited pages were not opened.",
+    "keyFacts": [
+      "1807 is widely cited for the duchy.",
+      "1815 is widely cited for its end.",
+      "Appendix B does not date it."
+    ],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "rulers": [
+      {
+        "name": "Frederick Augustus I",
+        "reign": "1807–1815",
+        "title": "Duke"
+      }
+    ],
+    "verification": "unverified",
+    "evidence": "Widely cited political dates. The cited pages were not opened for this row."
+  },
+  {
+    "id": "congress_poland",
+    "name": "Congress Poland",
+    "family": "slavic_steppe",
+    "start": 1815,
+    "end": 1867,
+    "confidence": "debated",
+    "dateNote": "1815 is the Congress of Vienna. Separate institutions are widely dated as ending in 1831, 1867, or 1915. This row uses 1867. Appendix B does not date it. Pages were not opened.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1815,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "The kingdom is widely dated from 1815. Separate institutions are dated to 1831, 1867, or 1915. This row ends in 1867. Appendix B does not date it. The cited pages were not opened.",
+    "keyFacts": [
+      "1815 is widely cited for the kingdom.",
+      "1831, 1867, and 1915 are widely cited ends.",
+      "This row uses 1867."
+    ],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Widely cited political dates. The cited pages were not opened for this row.",
+    "endpoints": [
+      {
+        "label": "Widely cited earlier end",
+        "year": 1831,
+        "note": "November Uprising aftermath. Pages were not opened."
+      },
+      {
+        "label": "Widely cited later end",
+        "year": 1915,
+        "note": "Wartime occupation. Pages were not opened."
+      }
+    ]
+  },
+  {
+    "id": "poland",
+    "name": "Poland",
+    "altNames": ["Second Polish Republic"],
+    "family": "slavic_steppe",
+    "start": 1918,
+    "end": 1939,
+    "confidence": "approximate",
+    "dateNote": "1918 is widely cited for restored independence. 1939 is widely cited for the occupation. The government in exile is not a separate row. Appendix B does not date it. Pages were not opened.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1918,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "Restored independence is widely dated to 1918, and the occupation to 1939. Appendix B does not date this republic. The government in exile is not a separate row. The cited pages were not opened.",
+    "keyFacts": [
+      "1918 is widely cited for restored independence.",
+      "1939 is widely cited for the occupation.",
+      "The government in exile is not a separate row."
+    ],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Widely cited political dates. The cited pages were not opened for this row."
+  },
+  {
+    "id": "poland_1945",
+    "name": "Poland",
+    "altNames": ["Polish People's Republic"],
+    "family": "slavic_steppe",
+    "start": 1945,
+    "end": 2000,
+    "confidence": "approximate",
+    "dateNote": "1945 is widely cited for the postwar state. 1952 and 1989 are widely cited internal dates and are not separate rows. 2000 is the chart end. Appendix B does not date it. Pages were not opened.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1945,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "The postwar state is widely dated to 1945. 1952 and 1989 are widely cited and are not separate rows. This row runs to 2000, the chart end. Appendix B does not date it. The cited pages were not opened.",
+    "keyFacts": [
+      "1945 is widely cited for the postwar state.",
+      "1952 and 1989 are not separate rows.",
+      "2000 is the chart end."
+    ],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Widely cited political dates. The cited pages were not opened for this row."
+  },
+  {
+    "id": "yugoslavia_kingdom",
+    "name": "Kingdom of Yugoslavia",
+    "altNames": ["Kingdom of Serbs, Croats and Slovenes", "Yugoslavia"],
+    "family": "slavic_steppe",
+    "start": 1918,
+    "end": 1941,
+    "confidence": "approximate",
+    "dateNote": "1918 is widely cited for the Kingdom of Serbs, Croats and Slovenes. The name Yugoslavia is widely dated to 1929. 1941 is the widely cited occupation. Appendix B does not date it. Pages were not opened.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1918,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "The kingdom is widely dated to 1918, the name Yugoslavia to 1929, and the occupation to 1941. Appendix B does not date it. The cited pages were not opened.",
+    "keyFacts": [
+      "1918 is widely cited for the kingdom.",
+      "1929 is widely cited for the name Yugoslavia.",
+      "1941 is widely cited for the occupation."
+    ],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Widely cited political dates. The cited pages were not opened for this row."
+  },
+  {
+    "id": "yugoslavia",
+    "name": "Socialist Yugoslavia",
+    "altNames": ["Yugoslavia"],
+    "family": "slavic_steppe",
+    "start": 1945,
+    "end": 1992,
+    "confidence": "debated",
+    "dateNote": "1945 is widely cited for the postwar republic. 1991 and 1992 are both widely cited for the breakup. This row ends in 1992. The later federation is not a separate row. Appendix B does not date it. Pages were not opened.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1945,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "The postwar republic is widely dated to 1945. The breakup is widely dated to 1991 or 1992. This row ends in 1992. A later federation is not drawn. Appendix B does not date it. The cited pages were not opened.",
+    "keyFacts": [
+      "1945 is widely cited for the postwar republic.",
+      "1991 and 1992 are both widely cited for the breakup.",
+      "This row ends in 1992."
+    ],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Widely cited political dates. The cited pages were not opened for this row.",
+    "endpoints": [
+      {
+        "label": "Widely cited earlier breakup",
+        "year": 1991,
+        "note": "Several republics left in 1991. Pages were not opened."
+      }
+    ]
+  },
+  {
+    "id": "czechoslovakia",
+    "name": "Czechoslovakia",
+    "family": "slavic_steppe",
+    "start": 1918,
+    "end": 1939,
+    "confidence": "debated",
+    "dateNote": "1918 is widely cited for independence. 1938 and 1939 are both widely cited for the breakup. This row ends in 1939. Appendix B does not date it. Pages were not opened.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1918,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "Independence is widely dated to 1918. The breakup is widely dated to 1938 or 1939. This row ends in 1939. Appendix B does not date it. The cited pages were not opened.",
+    "keyFacts": [
+      "1918 is widely cited for independence.",
+      "1938 and 1939 are both widely cited for the breakup.",
+      "This row ends in 1939."
+    ],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Widely cited political dates. The cited pages were not opened for this row.",
+    "endpoints": [
+      {
+        "label": "Widely cited earlier breakup",
+        "year": 1938,
+        "note": "Munich and the Slovak break are widely cited for 1938. Pages were not opened."
+      }
+    ]
+  },
+  {
+    "id": "czechoslovakia_1945",
+    "name": "Czechoslovakia",
+    "family": "slavic_steppe",
+    "start": 1945,
+    "end": 1992,
+    "confidence": "approximate",
+    "dateNote": "1945 is widely cited for the restored republic. The state ends at the close of 1992. Czech and Slovak republics from 1993 are not separate rows. Appendix B does not date it. Pages were not opened.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1945,
+        "xKey": "eastern_med_europe"
+      }
+    ],
+    "summary": "The restored republic is widely dated to 1945 and ends at the close of 1992. The 1993 republics are not separate rows. Appendix B does not date it. The cited pages were not opened.",
+    "keyFacts": [
+      "1945 is widely cited for the restored republic.",
+      "The state ends at the close of 1992.",
+      "The 1993 republics are not separate rows."
+    ],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Widely cited political dates. The cited pages were not opened for this row."
+  }
+]

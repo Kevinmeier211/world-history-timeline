@@ -1,5 +1,13 @@
 [
   {
+    "id": "bolivia",
+    "reason": "Appendix B gives no single year for this start, so this row is not a shared-boundary handoff. Pages were not opened."
+  },
+  {
+    "id": "brazil_empire",
+    "reason": "gemini-v1 names no parent; nearest same-family end is viceroyalty_new_granada at a gap of 3 continuous years, outside a shared-boundary handoff."
+  },
+  {
     "id": "british_empire",
     "reason": "gemini-v1 parents roman_empire have no year inside both lifetimes ± 50; nearest same-family end is la_tene, megalithic_celts at a gap of 920 continuous years, outside a shared-boundary handoff."
   },
@@ -12,12 +20,20 @@
     "reason": "gemini-v1 names no parent; nearest same-family end is hopewell_tradition at a gap of 550 continuous years, outside a shared-boundary handoff."
   },
   {
+    "id": "cambodia",
+    "reason": "gemini-v1 names no parent; nearest same-family end is british_burma at a gap of 5 continuous years, outside a shared-boundary handoff."
+  },
+  {
     "id": "carthage",
     "reason": "gemini-v1 names no parent; nearest same-family end is ebla at a gap of 786 continuous years, outside a shared-boundary handoff."
   },
   {
     "id": "castile",
     "reason": "gemini-v1 names no parent; nearest same-family end is west_francia at a gap of 243 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "central_asian_republics",
+    "reason": "gemini-v1 names no parent; nearest same-family end is mughal at a gap of 134 continuous years, outside a shared-boundary handoff."
   },
   {
     "id": "chalukya",
@@ -56,6 +72,18 @@
     "reason": "gemini-v1 names no parent; nearest same-family end is nabataean at a gap of 992 continuous years, outside a shared-boundary handoff."
   },
   {
+    "id": "cuba",
+    "reason": "gemini-v1 names no parent; nearest same-family end is united_provinces_central_america at a gap of 64 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "czechoslovakia",
+    "reason": "gemini-v1 names no parent; nearest same-family end is russian_empire at a gap of 1 continuous year, while other polities in the family are still current."
+  },
+  {
+    "id": "czechoslovakia_1945",
+    "reason": "gemini-v1 names no parent; nearest same-family end is yugoslavia_kingdom at a gap of 4 continuous years, outside a shared-boundary handoff."
+  },
+  {
     "id": "dai_viet",
     "reason": "gemini-v1 names no parent; nearest same-family end is funan at a gap of 418 continuous years, outside a shared-boundary handoff."
   },
@@ -66,33 +94,5 @@
   {
     "id": "denmark",
     "reason": "gemini-v1 names no parent; nearest same-family end is kingdom_of_england at a gap of 93 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "dong_son",
-    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
-  },
-  {
-    "id": "dutch_republic",
-    "reason": "gemini-v1 names no parent; nearest same-family end is spain_union at a gap of 65 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "dzungar",
-    "reason": "gemini-v1 names no parent; nearest same-family end is timurid at a gap of 127 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "early_cycladic",
-    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
-  },
-  {
-    "id": "early_dynastic_egypt",
-    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
-  },
-  {
-    "id": "east_polynesia",
-    "reason": "gemini-v1 names no parent; nearest same-family end is funan at a gap of 450 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "ebla",
-    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
   }
 ]

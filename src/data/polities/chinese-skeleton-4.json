@@ -1,0 +1,30 @@
+[
+  {
+    "id": "taiwan",
+    "name": "Taiwan",
+    "altNames": ["Republic of China on Taiwan"],
+    "family": "chinese",
+    "start": 1949,
+    "end": 2000,
+    "confidence": "debated",
+    "dateNote": "1949 is widely cited for the Republic of China government on Taiwan. The checklist ROC row already runs from 1912 to 2000. This row is the island government beside that row. 2000 is the chart end. Appendix B does not date a separate Taiwan line. Pages were not opened.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1949,
+        "xKey": "china_east_asia"
+      }
+    ],
+    "summary": "1949 is widely cited for the Republic of China government on Taiwan. The checklist ROC row already runs from 1912 to 2000. This row sits beside it through the chart end. Appendix B does not date a separate Taiwan line. The cited pages were not opened.",
+    "keyFacts": [
+      "1949 is widely cited for the government on Taiwan.",
+      "The checklist ROC row already runs from 1912 to 2000.",
+      "2000 is the chart end."
+    ],
+    "sourceIds": ["chgis", "cambridge_histories"],
+    "verification": "unverified",
+    "evidence": "Widely cited political dates. The cited pages were not opened for this row."
+  }
+]

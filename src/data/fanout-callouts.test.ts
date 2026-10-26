@@ -23,7 +23,11 @@ interface Polity {
   sourceIds: string[];
 }
 
-const FILES = ['src/data/callouts/fanout-01.json', 'src/data/callouts/fanout-02.json'];
+const FILES = [
+  'src/data/callouts/fanout-01.json',
+  'src/data/callouts/fanout-02.json',
+  'src/data/callouts/fanout-03.json',
+];
 
 function callouts(): Callout[] {
   return FILES.flatMap((file) => JSON.parse(readFileSync(file, 'utf8')) as Callout[]);
@@ -43,7 +47,7 @@ describe('1800 fan-out callouts', () => {
   it('restates a checklist year and stays unverified', () => {
     const byId = polities();
     const rows = callouts();
-    expect(rows.length).toBeGreaterThanOrEqual(30);
+    expect(rows.length).toBeGreaterThanOrEqual(55);
     for (const row of rows) {
       const polity = byId.get(row.attachTo ?? '');
       expect(polity, row.id).toBeTruthy();

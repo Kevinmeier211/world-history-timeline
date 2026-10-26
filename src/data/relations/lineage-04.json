@@ -1,5 +1,53 @@
 [
   {
+    "id": "abut_joseon_korean_empire",
+    "from": ["joseon"],
+    "to": ["korean_empire"],
+    "year": 1897,
+    "type": "succession",
+    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
+    "sourceIds": ["korea_national", "tokyo_national"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
+  },
+  {
+    "id": "abut_kingdom_of_england_great_britain",
+    "from": ["kingdom_of_england"],
+    "to": ["great_britain"],
+    "year": 1707,
+    "type": "succession",
+    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
+  },
+  {
+    "id": "abut_kofun_asuka",
+    "from": ["kofun"],
+    "to": ["asuka"],
+    "year": 538,
+    "type": "succession",
+    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
+    "sourceIds": ["korea_national", "tokyo_national"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
+  },
+  {
+    "id": "abut_konbaung_british_burma",
+    "from": ["konbaung"],
+    "to": ["british_burma"],
+    "year": 1885,
+    "type": "succession",
+    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
+    "sourceIds": ["field_museum", "unesco_mow"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
+  },
+  {
     "id": "abut_korea_under_japan_korea_1945",
     "from": ["korea_under_japan"],
     "to": ["korea_1945"],
@@ -91,54 +139,6 @@
     "type": "succession",
     "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
     "sourceIds": ["inah", "field_museum"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
-  },
-  {
-    "id": "abut_merovingian_franks_carolingian",
-    "from": ["merovingian_franks"],
-    "to": ["carolingian"],
-    "year": 751,
-    "type": "succession",
-    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
-    "sourceIds": ["cambridge_histories", "british_library"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
-  },
-  {
-    "id": "abut_mesopotamia_2004_old_babylonian",
-    "from": ["mesopotamia_2004"],
-    "to": ["old_babylonian"],
-    "year": -1894,
-    "type": "succession",
-    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
-    "sourceIds": ["cdli", "isac"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
-  },
-  {
-    "id": "abut_mesopotamia_2154_ur_iii",
-    "from": ["mesopotamia_2154"],
-    "to": ["ur_iii"],
-    "year": -2112,
-    "type": "succession",
-    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
-    "sourceIds": ["cdli", "isac"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
-  },
-  {
-    "id": "abut_ming_qing",
-    "from": ["ming"],
-    "to": ["qing"],
-    "year": 1644,
-    "type": "succession",
-    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
-    "sourceIds": ["chgis", "cambridge_histories"],
     "confidence": "debated",
     "verification": "unverified",
     "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."

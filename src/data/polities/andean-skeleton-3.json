@@ -1,0 +1,69 @@
+[
+  {
+    "id": "brazil_empire",
+    "name": "Empire of Brazil",
+    "altNames": ["Brazil"],
+    "family": "andean",
+    "start": 1822,
+    "end": 1889,
+    "confidence": "approximate",
+    "dateNote": "1822 is widely cited for independence. 1889 is widely cited for the republic. Appendix B does not date the empire. Pages were not opened.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "empire",
+    "anchor": [
+      {
+        "year": 1822,
+        "xKey": "andean"
+      }
+    ],
+    "summary": "Independence is widely dated to 1822, and the republic to 1889. Appendix B does not date the empire. The cited pages were not opened.",
+    "keyFacts": [
+      "1822 is widely cited for independence.",
+      "1889 is widely cited for the republic.",
+      "Appendix B does not date the empire."
+    ],
+    "sourceIds": ["museo_larco", "field_museum"],
+    "rulers": [
+      {
+        "name": "Pedro I",
+        "reign": "1822–1831",
+        "title": "Emperor"
+      },
+      {
+        "name": "Pedro II",
+        "reign": "1831–1889",
+        "title": "Emperor"
+      }
+    ],
+    "verification": "unverified",
+    "evidence": "Widely cited political dates. The cited pages were not opened for this row."
+  },
+  {
+    "id": "brazil",
+    "name": "Brazil",
+    "family": "andean",
+    "start": 1889,
+    "end": 2000,
+    "confidence": "approximate",
+    "dateNote": "1889 is widely cited for the republic. 2000 is the chart end. Appendix B does not date this row. Pages were not opened.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1889,
+        "xKey": "andean"
+      }
+    ],
+    "summary": "The republic is widely dated to 1889. Appendix B does not date it. This row runs to 2000, the chart end. The cited pages were not opened.",
+    "keyFacts": [
+      "1889 is widely cited for the republic.",
+      "Appendix B does not date this row.",
+      "2000 is the chart end."
+    ],
+    "sourceIds": ["museo_larco", "field_museum"],
+    "verification": "unverified",
+    "evidence": "Widely cited political dates. The cited pages were not opened for this row."
+  }
+]

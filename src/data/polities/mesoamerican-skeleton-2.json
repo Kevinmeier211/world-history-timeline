@@ -1,0 +1,63 @@
+[
+  {
+    "id": "haiti",
+    "name": "Haiti",
+    "family": "mesoamerican",
+    "start": 1804,
+    "end": 2000,
+    "confidence": "approximate",
+    "dateNote": "1804 is widely cited for independence. Appendix B does not date Haiti. 2000 is the chart end. Pages were not opened.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1804,
+        "xKey": "mesoamerica"
+      }
+    ],
+    "summary": "Independence is widely dated to 1804. Appendix B does not date Haiti. This row runs to 2000, the chart end. The cited pages were not opened.",
+    "keyFacts": [
+      "1804 is a widely cited independence year.",
+      "Appendix B does not date Haiti.",
+      "2000 is the chart end."
+    ],
+    "sourceIds": ["inah", "field_museum"],
+    "rulers": [
+      {
+        "name": "Jean-Jacques Dessalines",
+        "reign": "1804–1806",
+        "title": "Emperor"
+      }
+    ],
+    "verification": "unverified",
+    "evidence": "Widely cited political dates. The cited pages were not opened for this row."
+  },
+  {
+    "id": "cuba",
+    "name": "Cuba",
+    "family": "mesoamerican",
+    "start": 1902,
+    "end": 2000,
+    "confidence": "approximate",
+    "dateNote": "1898 is widely cited for the end of Spanish rule. 1902 is widely cited for the republic. This row starts in 1902. 2000 is the chart end. Appendix B does not date Cuba. Pages were not opened.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1902,
+        "xKey": "mesoamerica"
+      }
+    ],
+    "summary": "Spanish rule is widely dated as ending in 1898, and the republic in 1902. Appendix B does not date Cuba. This row starts in 1902 and runs to 2000, the chart end. The cited pages were not opened.",
+    "keyFacts": [
+      "1898 is widely cited for the end of Spanish rule.",
+      "1902 is widely cited for the republic.",
+      "2000 is the chart end."
+    ],
+    "sourceIds": ["inah", "field_museum"],
+    "verification": "unverified",
+    "evidence": "Widely cited political dates. The cited pages were not opened for this row."
+  }
+]

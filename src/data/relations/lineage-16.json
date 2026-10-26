@@ -1,5 +1,65 @@
 [
   {
+    "id": "v1_sumer_akkad_babylon_assyria",
+    "from": ["sumer_akkad"],
+    "to": ["babylon_assyria"],
+    "year": -2000,
+    "type": "cultural_continuity",
+    "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
+    "sourceIds": ["cdli", "isac"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."
+  },
+  {
+    "id": "v1_tang_song_dynasty_mongol_empire",
+    "from": ["tang_song_dynasty"],
+    "to": ["mongol_empire"],
+    "year": 1206,
+    "type": "cultural_continuity",
+    "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
+    "sourceIds": ["cambridge_histories", "unesco_mow"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."
+  },
+  {
+    "id": "v1_umayyad_abbasid_ottoman_empire",
+    "from": ["umayyad_abbasid"],
+    "to": ["ottoman_empire"],
+    "year": 1299,
+    "type": "cultural_continuity",
+    "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
+    "sourceIds": ["unesco_gha", "cambridge_histories"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."
+  },
+  {
+    "id": "v1_umayyad_abbasid_safavid_iran",
+    "from": ["umayyad_abbasid"],
+    "to": ["safavid_iran"],
+    "year": 1037,
+    "type": "cultural_continuity",
+    "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
+    "sourceIds": ["isac", "louvre"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."
+  },
+  {
+    "id": "v1_umayyad_abbasid_spain_portugal",
+    "from": ["umayyad_abbasid"],
+    "to": ["spain_portugal"],
+    "year": 711,
+    "type": "cultural_continuity",
+    "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."
+  },
+  {
     "id": "v1_wari_tiwanaku_chimor_kingdom",
     "from": ["wari_tiwanaku"],
     "to": ["chimor_kingdom"],

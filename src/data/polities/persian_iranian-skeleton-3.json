@@ -1,0 +1,30 @@
+[
+  {
+    "id": "afghanistan",
+    "name": "Afghanistan",
+    "altNames": ["Durrani Empire"],
+    "family": "persian_iranian",
+    "start": 1747,
+    "end": 2000,
+    "confidence": "approximate",
+    "dateNote": "1747 is widely cited for the Durrani state. 1919, 1973, and 1978 are also widely cited political breaks and are not separate rows. 2000 is the chart end. Appendix B does not date Afghanistan. Pages were not opened.",
+    "importance": 2,
+    "weight": 0.35,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1747,
+        "xKey": "mesopotamia_persia"
+      }
+    ],
+    "summary": "The Durrani state is widely dated to 1747. Later breaks in 1919, 1973, and 1978 are not separate rows. This row runs to 2000, the chart end. Appendix B does not date it. The cited pages were not opened.",
+    "keyFacts": [
+      "1747 is widely cited for the Durrani state.",
+      "1919, 1973, and 1978 are not separate rows.",
+      "2000 is the chart end."
+    ],
+    "sourceIds": ["isac", "louvre"],
+    "verification": "unverified",
+    "evidence": "Widely cited political dates. The cited pages were not opened for this row."
+  }
+]
