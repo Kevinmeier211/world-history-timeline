@@ -207,8 +207,11 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Ottoman Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Ottoman Empire from about 1299 to 1922. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist says about 1299 to 1922.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["unesco_gha", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -230,8 +233,11 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Saudi Arabia is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Saudi Arabia from 1932 with no end. This row stops at 2000, the chart end. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist start is 1932.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["unesco_gha", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

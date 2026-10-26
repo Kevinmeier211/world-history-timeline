@@ -154,8 +154,11 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Ottoman Levant is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Ottoman Levant from 1516 to 1918. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1516 to 1918.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -177,8 +180,11 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Levant mandates is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Levant mandates from 1920 to 1948. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1920 to 1948.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -200,8 +206,11 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Israel is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Israel from 1948 with no end. This row stops at 2000, the chart end. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist start is 1948.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["louvre", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -223,8 +232,11 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Syria is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B places modern Arab states in the 1930s to the 1970s and does not name this state. This row uses 1930 to 2000 as a placeholder. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist does not name this state.",
+      "1930 and 2000 are placeholders, not a founding claim."
+    ],
     "sourceIds": ["louvre", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -246,8 +258,11 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Lebanon is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B places modern Arab states in the 1930s to the 1970s and does not name this state. This row uses 1930 to 2000 as a placeholder. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist does not name this state.",
+      "1930 and 2000 are placeholders, not a founding claim."
+    ],
     "sourceIds": ["louvre", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -269,8 +284,11 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Jordan is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B places modern Arab states in the 1930s to the 1970s and does not name this state. This row uses 1930 to 2000 as a placeholder. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist does not name this state.",
+      "1930 and 2000 are placeholders, not a founding claim."
+    ],
     "sourceIds": ["louvre", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

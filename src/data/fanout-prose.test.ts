@@ -93,6 +93,21 @@ const AFRICA = [
   'egypt_republic',
 ] as const;
 
+const WEST_ASIA = [
+  'ottoman',
+  'saudi_arabia',
+  'ottoman_levant',
+  'levant_mandates',
+  'israel',
+  'syria',
+  'lebanon',
+  'jordan',
+  'iraq',
+  'qajar',
+  'pahlavi',
+  'islamic_republic_iran',
+] as const;
+
 const SOURCES: Record<string, readonly string[]> = {
   ...Object.fromEntries(
     EUROPE.map((id) => [id, ['cambridge_histories', 'british_library']]),
@@ -127,6 +142,26 @@ const SOURCES: Record<string, readonly string[]> = {
       id,
       ['louvre', 'unesco_gha'],
     ]),
+  ),
+  ...Object.fromEntries(
+    ['ottoman', 'saudi_arabia'].map((id) => [
+      id,
+      ['unesco_gha', 'cambridge_histories'],
+    ]),
+  ),
+  ...Object.fromEntries(
+    [
+      'ottoman_levant',
+      'levant_mandates',
+      'israel',
+      'syria',
+      'lebanon',
+      'jordan',
+      'iraq',
+    ].map((id) => [id, ['louvre', 'british_library']]),
+  ),
+  ...Object.fromEntries(
+    ['qajar', 'pahlavi', 'islamic_republic_iran'].map((id) => [id, ['isac', 'louvre']]),
   ),
   ...Object.fromEntries(
     ['haudenosaunee', 'united_states', 'canada', 'russian_america'].map((id) => [
@@ -185,6 +220,10 @@ function rows(): Row[] {
     'src/data/polities/sub_saharan-skeleton-2.json',
     'src/data/polities/sub_saharan-skeleton-3.json',
     'src/data/polities/nile_egyptian-skeleton-2.json',
+    'src/data/polities/islamic_arab-skeleton.json',
+    'src/data/polities/levantine_semitic-skeleton.json',
+    'src/data/polities/levantine_semitic-skeleton-2.json',
+    'src/data/polities/persian_iranian-skeleton.json',
   ];
   return files.flatMap((file) => JSON.parse(readFileSync(file, 'utf8')) as Row[]);
 }
@@ -192,7 +231,13 @@ function rows(): Row[] {
 describe('1800 fan-out prose', () => {
   it('keeps the written rows unverified and inside 60 words', () => {
     const byId = new Map(rows().map((row) => [row.id, row]));
-    for (const id of [...EUROPE, ...AMERICAS, ...EUROPE_MORE, ...AFRICA]) {
+    for (const id of [
+      ...EUROPE,
+      ...AMERICAS,
+      ...EUROPE_MORE,
+      ...AFRICA,
+      ...WEST_ASIA,
+    ]) {
       const row = byId.get(id);
       expect(row, id).toBeTruthy();
       expect(wordCount(row?.summary ?? ''), id).toBeLessThanOrEqual(60);
