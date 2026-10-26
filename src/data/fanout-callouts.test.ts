@@ -29,6 +29,11 @@ const FILES = [
   'src/data/callouts/fanout-03.json',
   'src/data/callouts/fanout-04.json',
   'src/data/callouts/fanout-05.json',
+  'src/data/callouts/fanout-06.json',
+  'src/data/callouts/fanout-07.json',
+  'src/data/callouts/fanout-08.json',
+  'src/data/callouts/fanout-09.json',
+  'src/data/callouts/fanout-10.json',
 ];
 
 function callouts(): Callout[] {
@@ -45,7 +50,7 @@ function polities(): Map<string, Polity> {
   return new Map(rows.map((row) => [row.id, row]));
 }
 
-describe('1800 fan-out callouts', () => {
+describe('fan-out callouts', () => {
   it('restates a checklist year and stays unverified', () => {
     const byId = polities();
     const rows = callouts();
