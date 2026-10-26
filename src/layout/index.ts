@@ -14,6 +14,7 @@ import {
   PLOT_WIDTH,
 } from './constants.ts';
 import { cullToFit } from './cull.ts';
+import { layoutDebug } from './debug.ts';
 import { applyDrift, yOfYear } from './drift.ts';
 import { ribbonRuns, sampleAt, separateRuns, type DatedPoint } from './frames.ts';
 import { stableHash } from './hash.ts';
@@ -262,41 +263,49 @@ function computeLayout(input: LayoutInput): LayoutResult {
         height: label.height,
       })),
   );
+  const cards = callouts.map((card) => ({
+    calloutId: card.calloutId,
+    x: card.x,
+    y: card.y,
+    width: card.width,
+    height: card.height,
+    placed: card.placed,
+    marker: card.marker,
+    leader: card.leader,
+  }));
+  const plates = callouts.flatMap((card) =>
+    card.plate ? [{ ...card.plate, calloutId: card.calloutId }] : [],
+  );
+  const lanes = solved.flatMap((slice) =>
+    slice.lanes.map((lane) => ({
+      polityId: lane.id,
+      x: lane.x,
+      y0: yOfYear(slice.start, zoomY),
+      y1: yOfYear(slice.end, zoomY),
+    })),
+  );
   return {
     ribbons,
     connectors,
     labels,
-    callouts: callouts.map((card) => ({
-      calloutId: card.calloutId,
-      x: card.x,
-      y: card.y,
-      width: card.width,
-      height: card.height,
-      placed: card.placed,
-      marker: card.marker,
-      leader: card.leader,
-    })),
-    plates: callouts.flatMap((card) =>
-      card.plate ? [{ ...card.plate, calloutId: card.calloutId }] : [],
-    ),
+    callouts: cards,
+    plates,
     bands: input.bands.map((band) => ({
       bandId: band.id,
       y0: yOfYear(band.start, zoomY),
       y1: yOfYear(band.end, zoomY),
     })),
     axis: { ticks: axisTicks(zoomY) },
-    debug: {
-      lanes: solved.flatMap((slice) =>
-        slice.lanes.map((lane) => ({
-          polityId: lane.id,
-          x: lane.x,
-          y0: yOfYear(slice.start, zoomY),
-          y1: yOfYear(slice.end, zoomY),
-        })),
-      ),
-      boxes: [],
-      violations: [],
-    },
+    debug: layoutDebug({
+      lanes,
+      ribbons,
+      labels,
+      callouts: cards,
+      plates,
+      relations: input.relations,
+      connectors,
+      importance: new Map(polities.map((polity) => [polity.id, polity.importance])),
+    }),
   };
 }
 

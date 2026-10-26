@@ -47,7 +47,7 @@ const fit = labelFitByImportance(result.labels, importance);
 const tier3 = fit.get(3) ?? { fitted: 0, total: 0, rate: 1 };
 const routing = relationRouting(dataset.relations, result.ribbons, result.connectors);
 const callouts = droppedCallouts(result.callouts);
-const drift = maxRibbonDrift(result.ribbons);
+const drift = maxRibbonDrift(result.ribbons).slope;
 const failures = gateFailures({
   overlaps: overlap.overlaps,
   unroutable: routing.unroutable,

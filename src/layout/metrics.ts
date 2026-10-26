@@ -13,6 +13,8 @@ export interface RibbonOverlap {
   overlaps: number;
   /** Smallest adjacent edge gap. Null when nothing sits beside anything. */
   minGap: number | null;
+  /** Polity ids in each overlapping pair, sorted. */
+  pairs: readonly (readonly [string, string])[];
 }
 
 interface Segment {
@@ -53,7 +55,7 @@ export function ribbonOverlap(ribbons: readonly LayoutRibbon[]): RibbonOverlap {
   const marks = [...new Set(pieces.flatMap((piece) => [piece.y0, piece.y1]))].sort(
     (left, right) => left - right,
   );
-  const pairs = new Set<string>();
+  const pairs = new Map<string, [string, string]>();
   let minGap: number | null = null;
   for (const y of marks) {
     const present = new Map<string, { x: number; width: number }>();
@@ -75,10 +77,14 @@ export function ribbonOverlap(ribbons: readonly LayoutRibbon[]): RibbonOverlap {
       if (!left || !right) continue;
       const gap = right[1].x - right[1].width / 2 - (left[1].x + left[1].width / 2);
       if (minGap === null || gap < minGap) minGap = gap;
-      if (gap < -OVERLAP_SLACK) pairs.add([left[0], right[0]].sort().join('|'));
+      if (gap < -OVERLAP_SLACK) {
+        const key = [left[0], right[0]].sort();
+        const [first, second] = key;
+        if (first && second) pairs.set(`${first}|${second}`, [first, second]);
+      }
     }
   }
-  return { overlaps: pairs.size, minGap };
+  return { overlaps: pairs.size, minGap, pairs: [...pairs.values()] };
 }
 
 export interface FitTier {
@@ -110,6 +116,8 @@ export interface RoutingCounts {
   unroutable: number;
   /** Relations with an endpoint that was not drawn. */
   omitted: number;
+  /** Relation ids that were drawn but not routed. */
+  unroutableIds: readonly string[];
 }
 
 export function relationRouting(
@@ -121,7 +129,7 @@ export function relationRouting(
   const curves = new Map(
     connectors.map((connector) => [connector.relationId, connector]),
   );
-  let unroutable = 0;
+  const unroutableIds: string[] = [];
   let omitted = 0;
   for (const relation of relations) {
     const ends = [...relation.from, ...relation.to];
@@ -130,14 +138,18 @@ export function relationRouting(
       continue;
     }
     const curve = curves.get(relation.id);
-    if (!curve || curve.d.length === 0) unroutable += 1;
+    if (!curve || curve.d.length === 0) unroutableIds.push(relation.id);
   }
-  return { unroutable, omitted };
+  return { unroutable: unroutableIds.length, omitted, unroutableIds };
 }
 
 /** Steepest drawn centerline, in px of x per px of y. */
-export function maxRibbonDrift(ribbons: readonly LayoutRibbon[]): number {
-  let worst = 0;
+export function maxRibbonDrift(ribbons: readonly LayoutRibbon[]): {
+  slope: number;
+  polityId: string | null;
+} {
+  let slope = 0;
+  let polityId: string | null = null;
   for (const ribbon of ribbons) {
     const frames = ribbon.keyframes;
     for (let index = 0; index < frames.length - 1; index += 1) {
@@ -146,10 +158,14 @@ export function maxRibbonDrift(ribbons: readonly LayoutRibbon[]): number {
       if (!left || !right || right.breakBefore) continue;
       const dy = right.y - left.y;
       if (dy <= 0) continue;
-      worst = Math.max(worst, Math.abs(right.x - left.x) / dy);
+      const next = Math.abs(right.x - left.x) / dy;
+      if (next > slope) {
+        slope = next;
+        polityId = ribbon.polityId;
+      }
     }
   }
-  return worst;
+  return { slope, polityId };
 }
 
 export function droppedCallouts(callouts: readonly LayoutCallout[]): {

@@ -224,13 +224,13 @@ export interface LayoutLane {
   y1: number;
 }
 
-/** Debug payload. T2.18 fills it; an empty payload is valid. */
+/** Debug payload for `?debug=layout`. */
 export interface LayoutDebug {
   /** Lane centerlines. */
   lanes: readonly LayoutLane[];
   /** Collision boxes. */
   boxes: readonly LayoutBox[];
-  /** Gate failures. Empty when the layout passes. */
+  /** Overlaps, unroutable curves, unfit labels, drops, and a steep slant. */
   violations: readonly LayoutViolation[];
 }
 

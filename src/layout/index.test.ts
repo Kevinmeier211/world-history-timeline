@@ -53,6 +53,9 @@ describe('layout orchestrator', () => {
     expect(result.ribbons).toHaveLength(1);
     expect(result.ribbons[0]?.d.startsWith('M ')).toBe(true);
     expect(result.labels[0]?.fitted).toBe(true);
+    expect(result.debug.lanes.length).toBeGreaterThan(0);
+    expect(result.debug.boxes.some((item) => item.id === 'ribbon:rome')).toBe(true);
+    expect(result.debug.boxes.some((item) => item.id === 'label:rome')).toBe(true);
     expect(result.axis.ticks.some((tick) => tick.year === 0)).toBe(false);
     expect(
       result.axis.ticks.some((tick) => tick.major && tick.label.endsWith('BCE')),

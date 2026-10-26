@@ -76,7 +76,7 @@ describe('layout metrics', () => {
         { relationId: 'blank', type: 'succession', d: '', sideAttach: false },
       ],
     );
-    expect(counts).toEqual({ unroutable: 1, omitted: 1 });
+    expect(counts).toEqual({ unroutable: 1, omitted: 1, unroutableIds: ['blank'] });
   });
 
   it('reads the steepest slant and skips a break', () => {
@@ -88,7 +88,8 @@ describe('layout metrics', () => {
         { y: 20, x: 100, width: 10 },
       ]),
     ]);
-    expect(drift).toBeCloseTo(0.4);
+    expect(drift.slope).toBeCloseTo(0.4);
+    expect(drift.polityId).toBe('a');
   });
 
   it('fails a gate only on the §6.4 bars', () => {
