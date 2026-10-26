@@ -221,3 +221,13 @@ Alternatives: Switch at 44. Always label inside. Always put the label on the lef
 Why: Fixture H says a ribbon under 40 px takes an outside label. An 18 px box is the smallest height that still reaches the 10 px font under the 0.62 thickness rule. A 72 px width forces a long name onto a word-boundary ellipsis.
 
 Reversible? y
+
+## 2026-10-26 — Callout cards are 132 by 48
+
+Decision: A callout card is 132 by 48 design px, 4 px off the ribbon edge. Candidates and the score are Appendix G. Cards and ribbon labels stay 4 px apart. A thumbnail is 56 px on the outer side. When every slot collides, importance of 4 or 5 becomes a marker dot and a lower importance is dropped.
+
+Alternatives: Invent a taller card. Treat a leader crossing as a hard collision. Place low importance before high.
+
+Why: Appendix G sets the width, the offsets, and the score, and it does not set the height. 48 px holds a title and a year. The 4 px gap is the label clearance in §4.7. Greedy order is descending importance.
+
+Reversible? y
