@@ -16,8 +16,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "Goguryeo is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Goguryeo from 37 BCE to 668 CE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 37 BCE to 668 CE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["korea_national", "tokyo_national"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -39,8 +42,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "Baekje is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Baekje from 18 BCE to 660 CE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 18 BCE to 660 CE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["korea_national", "tokyo_national"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -62,8 +68,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "Silla is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Silla from 57 BCE to 935 CE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 57 BCE to 935 CE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["korea_national", "tokyo_national"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -85,8 +94,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "Unified Silla is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Unified Silla from 668 to 935. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 668 to 935.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["korea_national", "tokyo_national"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -108,8 +120,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "Balhae is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Balhae from 698 to 926. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 698 to 926.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["korea_national", "tokyo_national"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -131,8 +146,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "Goryeo is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Goryeo from 918 to 1392. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 918 to 1392.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["korea_national", "tokyo_national"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

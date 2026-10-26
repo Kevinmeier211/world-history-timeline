@@ -62,8 +62,11 @@
         "xKey": "mesopotamia_persia"
       }
     ],
-    "summary": "Sasanian Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Sasanian Empire from 224 to 651. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 224 to 651.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["isac", "louvre"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -85,8 +88,11 @@
         "xKey": "mesopotamia_persia"
       }
     ],
-    "summary": "Buyid is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Buyid from 934 to 1062. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 934 to 1062.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["isac", "louvre"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -108,8 +114,12 @@
         "xKey": "mesopotamia_persia"
       }
     ],
-    "summary": "Seljuk is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Seljuk from 1037 to 1194 and lists it under Persia and Iran. A Turkic-family row uses another id. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1037 to 1194.",
+      "This is the Persia and Iran copy.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["isac", "louvre"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -131,8 +141,12 @@
         "xKey": "mesopotamia_persia"
       }
     ],
-    "summary": "Ilkhanate is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Ilkhanate from 1256 to 1335 and lists it under Persia and Iran. This row is that Persian copy. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1256 to 1335.",
+      "This is the Persia and Iran copy.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["isac", "louvre"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

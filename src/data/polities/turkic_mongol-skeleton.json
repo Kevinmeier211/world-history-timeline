@@ -39,8 +39,11 @@
         "xKey": "china_east_asia"
       }
     ],
-    "summary": "Göktürk is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Göktürk from 552 to 744. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 552 to 744.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "unesco_mow"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -62,8 +65,11 @@
         "xKey": "china_east_asia"
       }
     ],
-    "summary": "Uyghur Khaganate is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Uyghur Khaganate from 744 to 840. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 744 to 840.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "unesco_mow"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -85,8 +91,12 @@
         "xKey": "china_east_asia"
       }
     ],
-    "summary": "Steppe between Uyghur and Khitan Liao is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B ends the Uyghur Khaganate in 840 and starts Khitan Liao in 916. It does not name the interval. This row uses those bounds. The cited pages were not opened.",
+    "keyFacts": [
+      "The bounding years are 840 and 916.",
+      "The checklist does not name the interval.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "unesco_mow"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -108,8 +118,12 @@
         "xKey": "china_east_asia"
       }
     ],
-    "summary": "Seljuk is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Seljuk from 1037 to 1194 under Persia and Iran. This row is distinct from the Persian copy. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1037 to 1194.",
+      "The Persian copy uses another id.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "unesco_mow"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -131,8 +145,11 @@
         "xKey": "china_east_asia"
       }
     ],
-    "summary": "Khitan Liao is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Khitan Liao from 916 to 1125. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 916 to 1125.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "unesco_mow"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -154,8 +171,11 @@
         "xKey": "china_east_asia"
       }
     ],
-    "summary": "Jurchen Jin is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Jurchen Jin from 1115 to 1234. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1115 to 1234.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "unesco_mow"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -177,8 +197,12 @@
         "xKey": "china_east_asia"
       }
     ],
-    "summary": "Yuan is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Yuan from 1271 to 1368 inside the Mongol Empire line. The migrated Mongol bundle stays. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1271 to 1368.",
+      "A migrated row still carries the Mongol Empire.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "unesco_mow"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -200,8 +224,12 @@
         "xKey": "china_east_asia"
       }
     ],
-    "summary": "Ilkhanate is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Ilkhanate from 1256 to 1335 under Persia and Iran. This row is distinct from the Persian copy. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1256 to 1335.",
+      "The Persian copy uses another id.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "unesco_mow"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

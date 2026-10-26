@@ -62,8 +62,11 @@
         "xKey": "eastern_med_europe"
       }
     ],
-    "summary": "Avars is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Avars from 567 to 822. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 567 to 822.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -85,8 +88,11 @@
         "xKey": "eastern_med_europe"
       }
     ],
-    "summary": "Khazars is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Khazars from about 650 to 1000. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 650 to 1000.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -108,8 +114,12 @@
         "xKey": "eastern_med_europe"
       }
     ],
-    "summary": "Kievan Rus is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Kievan Rus from about 882 to 1240. This row uses that span. The migrated Russia bundle stays. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 882 to 1240.",
+      "A migrated row still carries the longer Russia span.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

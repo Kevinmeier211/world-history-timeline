@@ -39,8 +39,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "Funan is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Funan from about 68 to 550. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 68 to 550.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["field_museum", "unesco_mow"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -88,8 +91,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "Srivijaya is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Srivijaya from about 650 to 1377. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 650 to 1377.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["field_museum", "unesco_mow"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -111,8 +117,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "Pagan is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Pagan from 849 to 1297. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 849 to 1297.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["field_museum", "unesco_mow"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -134,8 +143,12 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "Khmer Angkor is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Khmer Angkor from 802 to 1431. This row uses that span. The migrated Khmer–Majapahit bundle stays. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 802 to 1431.",
+      "A migrated row bundles Khmer and Majapahit.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["field_museum", "unesco_mow"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

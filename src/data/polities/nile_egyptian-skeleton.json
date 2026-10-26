@@ -200,8 +200,11 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Roman Egypt is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Roman Egypt from 30 BCE to 641 CE. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 30 BCE to 641 CE.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "unesco_gha"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -223,8 +226,11 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Tulunid Egypt is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Tulunid Egypt from 868 to 905. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 868 to 905.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "unesco_gha"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -246,8 +252,12 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Fatimid Egypt is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Fatimid Egypt from 969 to 1171. This Nile copy keeps that span so an Islamic-family row can use another id. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 969 to 1171.",
+      "This is the Nile copy of the Fatimid span.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "unesco_gha"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -269,8 +279,11 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Ayyubid Egypt is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Ayyubid Egypt from 1171 to 1250. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1171 to 1250.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "unesco_gha"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

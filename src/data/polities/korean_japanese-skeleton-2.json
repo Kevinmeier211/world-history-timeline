@@ -62,8 +62,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "Kofun is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Kofun from about 250 to 538. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 250 to 538.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["korea_national", "tokyo_national"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -85,8 +88,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "Asuka is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Asuka from 538 to 710. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 538 to 710.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["korea_national", "tokyo_national"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -108,8 +114,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "Nara is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Nara from 710 to 794. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 710 to 794.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["korea_national", "tokyo_national"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -131,8 +140,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "Heian is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Heian from 794 to 1185. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 794 to 1185.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["korea_national", "tokyo_national"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -154,8 +166,11 @@
         "xKey": "austronesia_japan_sea"
       }
     ],
-    "summary": "Kamakura is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Kamakura from 1185 to 1333. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1185 to 1333.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["korea_national", "tokyo_national"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

@@ -39,8 +39,11 @@
         "xKey": "north_america"
       }
     ],
-    "summary": "Cahokia is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Cahokia from about 1050 to 1350. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 1050 to 1350.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["field_museum", "dpla"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

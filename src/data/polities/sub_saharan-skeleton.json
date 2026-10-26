@@ -108,8 +108,11 @@
         "xKey": "sub_saharan_africa"
       }
     ],
-    "summary": "Aksum is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Aksum from about 100 to 940. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 100 to 940.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["unesco_gha", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -131,8 +134,11 @@
         "xKey": "sub_saharan_africa"
       }
     ],
-    "summary": "Ghana / Wagadu is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Ghana / Wagadu from about 300 to 1200. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 300 to 1200.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["unesco_gha", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -154,8 +160,11 @@
         "xKey": "sub_saharan_africa"
       }
     ],
-    "summary": "Great Zimbabwe is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Great Zimbabwe from about 1100 to 1450. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 1100 to 1450.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["unesco_gha", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -177,8 +186,12 @@
         "xKey": "sub_saharan_africa"
       }
     ],
-    "summary": "Swahili city-states is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Swahili city-states from about 800 and past 1500. This row ends at 1500. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist starts at about 800 and continues past 1500.",
+      "This row ends at 1500.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["unesco_gha", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -299,7 +312,12 @@
     "importance": 2,
     "weight": 0.35,
     "kind": "state",
-    "anchor": [{ "year": 1549, "xKey": "sub_saharan_africa" }],
+    "anchor": [
+      {
+        "year": 1549,
+        "xKey": "sub_saharan_africa"
+      }
+    ],
     "summary": "Appendix B does not date Morocco. This row uses 1549 and 1659, widely cited for the Saadi dynasty. Songhai's checklist end, 1591, is the year a Saadi army took the Niger bend. The cited pages were not opened.",
     "keyFacts": [
       "1549 and 1659 are widely cited for the Saadi dynasty.",
@@ -307,7 +325,13 @@
       "1659 is not the occupation’s only cited end."
     ],
     "sourceIds": ["unesco_gha", "british_library"],
-    "rulers": [{ "name": "Ahmad al-Mansur", "reign": "1578–1603", "title": "Sultan" }],
+    "rulers": [
+      {
+        "name": "Ahmad al-Mansur",
+        "reign": "1578–1603",
+        "title": "Sultan"
+      }
+    ],
     "endpoints": [
       {
         "label": "Songhai checklist end",

@@ -223,8 +223,11 @@
         "xKey": "eastern_med_europe"
       }
     ],
-    "summary": "First Bulgarian Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates First Bulgarian Empire from 681 to 1018. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 681 to 1018.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -246,8 +249,11 @@
         "xKey": "eastern_med_europe"
       }
     ],
-    "summary": "Second Bulgarian Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Second Bulgarian Empire from 1185 to 1396. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1185 to 1396.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -269,8 +275,11 @@
         "xKey": "eastern_med_europe"
       }
     ],
-    "summary": "Latin Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Latin Empire from 1204 to 1261. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1204 to 1261.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

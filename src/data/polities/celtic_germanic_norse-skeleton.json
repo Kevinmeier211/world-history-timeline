@@ -62,8 +62,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Anglo-Saxons is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Anglo-Saxons from about 410 to 1066. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 410 to 1066.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -85,8 +88,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Vikings is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Vikings from about 793 to 1066. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is about 793 to 1066.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["british_library", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -286,7 +292,12 @@
     "importance": 2,
     "weight": 0.35,
     "kind": "state",
-    "anchor": [{ "year": 1523, "xKey": "western_europe" }],
+    "anchor": [
+      {
+        "year": 1523,
+        "xKey": "western_europe"
+      }
+    ],
     "summary": "Appendix B does not date Sweden before the modern row. This span runs from 1523, the checklist end of the Kalmar Union, to 1800, where that undated row begins. 1721 is a widely cited treaty year and is not this end. The cited pages were not opened.",
     "keyFacts": [
       "1523 is the checklist end of the Kalmar Union.",
@@ -294,7 +305,13 @@
       "The undated Sweden row still begins in 1800."
     ],
     "sourceIds": ["british_library", "cambridge_histories"],
-    "rulers": [{ "name": "Gustav Vasa", "reign": "1523–1560", "title": "King" }],
+    "rulers": [
+      {
+        "name": "Gustav Vasa",
+        "reign": "1523–1560",
+        "title": "King"
+      }
+    ],
     "endpoints": [
       {
         "label": "Treaty of Nystad",
@@ -316,7 +333,12 @@
     "importance": 2,
     "weight": 0.22,
     "kind": "state",
-    "anchor": [{ "year": 1523, "xKey": "western_europe" }],
+    "anchor": [
+      {
+        "year": 1523,
+        "xKey": "western_europe"
+      }
+    ],
     "summary": "Appendix B does not date Denmark–Norway. This row uses 1523, the checklist end of the Kalmar Union, and 1814, widely cited for the Treaty of Kiel. 1536 is also cited and is not the start. The cited pages were not opened.",
     "keyFacts": [
       "1523 is the checklist end of the Kalmar Union.",

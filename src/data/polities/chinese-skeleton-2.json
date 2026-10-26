@@ -39,8 +39,11 @@
         "xKey": "china_east_asia"
       }
     ],
-    "summary": "Northern and Southern dynasties is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Northern and Southern dynasties from 420 to 589. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 420 to 589.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["chgis", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -62,8 +65,11 @@
         "xKey": "china_east_asia"
       }
     ],
-    "summary": "Sui is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Sui from 581 to 618. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 581 to 618.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["chgis", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -85,8 +91,12 @@
         "xKey": "china_east_asia"
       }
     ],
-    "summary": "Tang is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Tang from 618 to 907. This row uses that span and is distinct from the migrated Tang–Song bundle. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 618 to 907.",
+      "A migrated row bundles Tang and Song.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["chgis", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -108,8 +118,11 @@
         "xKey": "china_east_asia"
       }
     ],
-    "summary": "Five Dynasties is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Five Dynasties from 907 to 960. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 907 to 960.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["chgis", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -131,8 +144,12 @@
         "xKey": "china_east_asia"
       }
     ],
-    "summary": "Liao is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Liao from 916 to 1125. This row uses that span and is distinct from the Khitan Liao copy. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 916 to 1125.",
+      "The Khitan Liao copy uses another id.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["chgis", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -154,8 +171,11 @@
         "xKey": "china_east_asia"
       }
     ],
-    "summary": "Northern Song is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Northern Song from 960 to 1127. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 960 to 1127.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["chgis", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -177,8 +197,11 @@
         "xKey": "china_east_asia"
       }
     ],
-    "summary": "Southern Song is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Southern Song from 1127 to 1279. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1127 to 1279.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["chgis", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -200,8 +223,11 @@
         "xKey": "china_east_asia"
       }
     ],
-    "summary": "Western Xia is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Western Xia from 1038 to 1227. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1038 to 1227.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["chgis", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -223,8 +249,12 @@
         "xKey": "china_east_asia"
       }
     ],
-    "summary": "Jin is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Jin from 1115 to 1234. This row uses that span and is distinct from the Jurchen Jin copy. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1115 to 1234.",
+      "The Jurchen Jin copy uses another id.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["chgis", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -246,8 +276,12 @@
         "xKey": "china_east_asia"
       }
     ],
-    "summary": "Yuan is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Yuan from 1271 to 1368. This row uses that span and is distinct from the Turkic Yuan row. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1271 to 1368.",
+      "The Turkic Yuan row uses another id.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["chgis", "cambridge_histories"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

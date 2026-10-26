@@ -131,8 +131,11 @@
         "xKey": "egypt_levant"
       }
     ],
-    "summary": "Crusader states is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Crusader states from 1098 to 1291. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1098 to 1291.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["louvre", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
