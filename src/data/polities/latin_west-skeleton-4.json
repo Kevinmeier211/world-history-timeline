@@ -16,8 +16,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "First French Republic is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates a First French Republic at 1792 and the Empire at 1804. This row ends in 1804 because the checklist gives the republic no separate end. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist year for the republic is 1792.",
+      "The row ends at the checklist start of the Empire."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -39,8 +42,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "First French Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the First French Empire from 1804 to 1814. This row uses that span and does not add a later restoration. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1804 to 1814.",
+      "No restoration is dated on this row."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -62,8 +68,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Belgium is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Belgium is drawn from 1800 to 2000 because Appendix B does not date it. The start is a placeholder, not a founding year. The cited pages were not opened.",
+    "keyFacts": [
+      "Appendix B does not date Belgium.",
+      "1800 is a placeholder, not a founding claim."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -85,8 +94,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Switzerland is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Switzerland is drawn from 1800 to 2000 because Appendix B does not date it. The start is a placeholder, not a founding year. The cited pages were not opened.",
+    "keyFacts": [
+      "Appendix B does not date Switzerland.",
+      "1800 is a placeholder, not a founding claim."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -108,8 +120,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Western European micro-states is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Western European micro-states are drawn from 1800 to 2000 because Appendix B does not name or date them. The span is a placeholder. The cited pages were not opened.",
+    "keyFacts": [
+      "Appendix B does not name these states.",
+      "1800 is a placeholder, not a founding claim."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

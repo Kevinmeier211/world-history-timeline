@@ -200,8 +200,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Netherlands is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B ends the Dutch Republic in 1795 and does not name the later state. This row uses 1795 to 2000 as a placeholder. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist does not name the state after 1795.",
+      "2000 is the chart end, not a founding claim."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -223,8 +226,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Austria-Hungary is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Austria-Hungary from 1867 to 1918. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1867 to 1918.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -246,8 +252,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Austria is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B ends Austria-Hungary in 1918 and does not name the later states. This row uses 1918 to 2000 for Austria as a placeholder. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist does not name Austria after 1918.",
+      "2000 is the chart end, not a founding claim."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -269,8 +278,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Hungary is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B ends Austria-Hungary in 1918 and does not name the later states. This row uses 1918 to 2000 for Hungary as a placeholder. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist does not name Hungary after 1918.",
+      "2000 is the chart end, not a founding claim."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

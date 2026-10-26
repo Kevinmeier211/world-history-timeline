@@ -145,4 +145,10 @@ Partials: item 1, overview labels about 2px (`docs/shots/p3/desktop-overview.png
 | T4.10 | done   | 8c6b9d2 | credits test: empty colophon, `#/credits` keeps the year, remote rows are not credited   | 25      | No shipped image, so the page and the print colophon name none.                             |
 | T4.11 | done   | aa5ac47 | budget test: empty set passes; a thumbnail over 10 KB or a total over 1.2 MB fails       | 15      | `public/media` has no files. The command says gated. 320 and 960 are not thumbnails.        |
 | T4.12 | done   | eaaed40 | queue test: first 60 rows queued-gated; desktop geometry passed; no callout mediaId      | 25      | Plates stay pictograms. The other 24 rows stay candidates. No file was downloaded.          |
-| T4.99 | done   | pending | desktop geometry passed; `media:budget` 0 thumbnails, gated; `npm run check` green       | 15      | Merge into `v2/main` and tag `v2-p4-done`. Tag `v2-p5-done` stays at `b5f7501`.             |
+| T4.99 | done   | 51ac16b | desktop geometry passed; `media:budget` 0 thumbnails, gated; `npm run check` green       | 15      | Tag `v2-p4-done` is merge `7aa3c39`. Tag `v2-p5-done` stays at `b5f7501`.                   |
+
+## P6
+
+| Task  | Status | Commit  | Evidence                                                                              | Minutes | Notes                                                                                      |
+| ----- | ------ | ------- | ------------------------------------------------------------------------------------- | ------- | ------------------------------------------------------------------------------------------ |
+| T6.01 | doing  | pending | fan-out prose test: 20 Latin West rows, summaries ≤ 60 words, verification unverified | 30      | Prose restates checklist years. Pages were not opened. Other families are still skeletons. |

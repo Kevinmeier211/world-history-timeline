@@ -16,8 +16,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Prussia is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Prussia from 1701 to 1947. This row uses that span and adds no other end. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1701 to 1947.",
+      "No other end is dated on this row."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -39,8 +42,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "German Empire is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the German Empire from 1871 to 1918. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1871 to 1918.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -62,8 +68,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Germany in 1918–1919 is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B ends the German Empire in 1918 and starts Weimar in 1919. This row is the unnamed interval between those years. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist does not name this interval.",
+      "The years are the empire end and the Weimar start."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -85,8 +94,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Weimar Republic is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the Weimar Republic from 1919 to 1933. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1919 to 1933.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -108,8 +120,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Nazi Germany is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Nazi Germany from 1933 to 1945. This row uses that span and adds no further claim. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1933 to 1945.",
+      "No further claim is dated on this row."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -131,8 +146,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Germany in 1945–1949 is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B ends Nazi Germany in 1945 and starts East and West Germany in 1949. This row is the unnamed interval. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist does not name this interval.",
+      "The years are 1945 and 1949 on the neighboring rows."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -154,8 +172,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "East Germany is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates East Germany from 1949 to 1990. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1949 to 1990.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -177,8 +198,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "West Germany is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates West Germany from 1949 to 1990. This row uses that span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist span is 1949 to 1990.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -200,8 +224,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Germany is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B ends East and West Germany in 1990 and does not name the later state. This row uses 1990 to 2000 as a placeholder. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist does not name the state after 1990.",
+      "2000 is the chart end, not a new founding claim."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -246,8 +273,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "Italy is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Italy from 1861 with no end. This row stops at 2000, the chart end. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist start is 1861.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -269,8 +299,11 @@
         "xKey": "western_europe"
       }
     ],
-    "summary": "French Revolution is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates the French Revolution at 1789 and the First Republic at 1792. This row ends in 1792 because the checklist gives the Revolution no separate end. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist year for the Revolution is 1789.",
+      "The row ends at the checklist year of the First Republic."
+    ],
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
