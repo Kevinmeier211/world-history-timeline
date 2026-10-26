@@ -24,6 +24,7 @@ export function Stage({
   padScreens = VISIBLE_PAD,
   selectedId,
   onSelect,
+  onClear,
 }: {
   camera: Camera;
   viewport: Size;
@@ -37,6 +38,7 @@ export function Stage({
   padScreens?: number;
   selectedId?: string;
   onSelect?: (id: string) => void;
+  onClear?: () => void;
 }) {
   const windows: YSpan[] = [
     ...spans,
@@ -70,6 +72,7 @@ export function Stage({
         y={world.y}
         width={world.width}
         height={world.height}
+        onClick={onClear}
       />
       <Guides scale={scale} />
       <Watermark />

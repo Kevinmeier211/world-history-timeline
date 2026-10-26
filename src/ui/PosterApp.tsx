@@ -10,6 +10,8 @@ import {
 } from '../search/query.ts';
 import { useView } from '../state/view.ts';
 import type { ViewLink } from '../state/hashUrl.ts';
+import { Dossier } from './Dossier.tsx';
+import { dossierFor } from './dossier.ts';
 import { Legend, legendFamilies } from './Legend.tsx';
 import { PosterFrame } from './PosterFrame.tsx';
 import { SearchDialog } from './SearchDialog.tsx';
@@ -47,11 +49,16 @@ function typingTarget(target: EventTarget | null): boolean {
 export function PosterApp() {
   const [query, setQuery] = useState('');
   const [searchOpen, setSearchOpen] = useState(false);
+  const [dossierId, setDossierId] = useState<string | null>(null);
   const [recents, setRecents] = useState<readonly string[]>([]);
   const link = useView((state) => state.link);
   const setLink = useView((state) => state.setLink);
   const catalog = useMemo(() => recordsFromDataset(clientDataset()), []);
   const hits = useMemo(() => searchRecords(catalog, query), [catalog, query]);
+  const dossier = useMemo(
+    () => (dossierId ? dossierFor(dossierId, clientDataset()) : null),
+    [dossierId],
+  );
   const lens: LensId = link.lens ?? 'all';
   const [view, setView] = useState<ViewId>('chart');
   const [theme, setTheme] = useState<ThemeChoice>(() =>
@@ -164,10 +171,11 @@ export function PosterApp() {
             Table view lists the same polities, one row each.
           </p>
         ) : (
-          <ChartViewport onSheet={onSheet} />
+          <ChartViewport onSheet={onSheet} onOpen={setDossierId} />
         )}
       </PosterFrame>
       {reading ? <Legend families={legendFamilies()} onClose={closeReading} /> : null}
+      {dossier ? <Dossier model={dossier} onClose={() => setDossierId(null)} /> : null}
     </div>
   );
 }

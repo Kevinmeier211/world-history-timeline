@@ -9,6 +9,11 @@
   vector-effect: non-scaling-stroke;
 }
 
+.guides,
+.era-band {
+  pointer-events: none;
+}
+
 .era-band {
   fill: var(--paper-shade);
 }

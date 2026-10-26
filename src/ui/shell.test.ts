@@ -146,6 +146,27 @@ describe('poster shell', () => {
     expect(screen.getByRole('option', { name: 'Han' })).toBeInTheDocument();
   });
 
+  it('keeps the dossier closed until a ribbon is chosen', async () => {
+    vi.stubGlobal('ResizeObserver', FakeResizeObserver);
+    const user = userEvent.setup();
+    render(createElement(PosterApp));
+    expect(screen.queryByRole('dialog', { name: 'Dossier' })).toBeNull();
+    const ribbon = screen.getAllByRole('button').find((button) => {
+      const label = button.getAttribute('aria-label') ?? '';
+      return label.includes('BCE') || label.includes('CE');
+    });
+    expect(ribbon).toBeTruthy();
+    const name = (ribbon?.getAttribute('aria-label') ?? '').split(',')[0] ?? '';
+    if (!ribbon) return;
+    await user.click(ribbon);
+    const dossier = screen.getByRole('dialog', { name: 'Dossier' });
+    expect(dossier).toHaveTextContent(name);
+    expect(dossier).toHaveTextContent('No image is attached');
+    expect(dossier).toHaveTextContent(/Not yet cross-checked|Cross-checked/);
+    await user.keyboard('{Escape}');
+    expect(screen.queryByRole('dialog', { name: 'Dossier' })).toBeNull();
+  });
+
   it('mounts the poster and leaves the v1 canvas deleted', () => {
     const main = readFileSync('src/main.tsx', 'utf8');
     expect(main).toContain('PosterApp');

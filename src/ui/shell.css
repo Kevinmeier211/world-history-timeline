@@ -285,6 +285,83 @@
   background: var(--paper-shade);
 }
 
+.dossier {
+  position: fixed;
+  z-index: 5;
+  top: 48px;
+  right: 8px;
+  bottom: 8px;
+  width: min(320px, calc(100% - 16px));
+  overflow: auto;
+  padding: 12px;
+  border: 1px solid var(--rule);
+  background: var(--paper);
+  color: var(--ink);
+  font-size: 13px;
+}
+
+.dossier h2 {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.dossier h3 {
+  margin: 14px 0 4px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.dossier p,
+.dossier ul {
+  margin: 8px 0;
+}
+
+.dossier-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.dossier-head button,
+.dossier a {
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 13px;
+}
+
+.dossier-dates {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.dossier-chip {
+  display: inline-block;
+  margin: 0 6px 6px 0;
+  padding: 2px 6px;
+  border: 1px solid var(--rule);
+  font-size: 13px;
+}
+
+.dossier-chips {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style: none;
+}
+
+.dossier-figure {
+  margin: 8px 0;
+  padding: 12px;
+  border: 1px dashed var(--rule);
+  color: var(--ink-muted);
+  font-size: 13px;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;

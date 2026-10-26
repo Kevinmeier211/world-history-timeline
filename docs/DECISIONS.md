@@ -521,3 +521,13 @@ Alternatives: Add MiniSearch. Store recents in localStorage. Push a history entr
 Why: The task allows a custom index. The plan stores only the theme and custom milestones in localStorage. A scroll entry would flood the session history.
 
 Reversible? y
+
+## 2026-10-26 — The dossier opens from a ribbon and shows no invented image
+
+Decision: The dossier stays closed until a ribbon click. It shows the summary, dates, confidence, key facts, rulers, typed lineage, related notes, sources, and a verification chip. The figure says "No image is attached." No media row is on a polity, and downloads stay off. Escape closes the panel and leaves the selection. A click on empty paper clears the selection and closes the panel. Search does not open it. On a phone the panel is still a side sheet; the bottom sheet is T5.14.
+
+Alternatives: Open the dossier from search. Draw a placeholder picture. Fetch a thumbnail.
+
+Why: T5.03 asks for the panel and for it to be closed by default. An invented image would break the media rule.
+
+Reversible? y

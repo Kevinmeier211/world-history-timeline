@@ -41,7 +41,13 @@ function scrollerOf(host: HTMLElement | null): HTMLElement | null {
   return port instanceof HTMLElement ? port : null;
 }
 
-export function ChartViewport({ onSheet }: { onSheet: (sheet: SheetSize) => void }) {
+export function ChartViewport({
+  onSheet,
+  onOpen,
+}: {
+  onSheet: (sheet: SheetSize) => void;
+  onOpen?: (id: string | null) => void;
+}) {
   const host = useRef<HTMLDivElement>(null);
   const [metrics, setMetrics] = useState<Metrics | null>(null);
   const [overlay, setOverlay] = useState<OverlayOffsets | null>(null);
@@ -231,6 +237,16 @@ export function ChartViewport({ onSheet }: { onSheet: (sheet: SheetSize) => void
           onSelect={(id) => {
             const current = useView.getState().link;
             useView.getState().setLink({ ...current, sel: id }, 'replace');
+            onOpen?.(id);
+          }}
+          onClear={() => {
+            const current = useView.getState().link;
+            if (current.sel !== undefined) {
+              const next = { ...current };
+              delete next.sel;
+              useView.getState().setLink(next, 'replace');
+            }
+            onOpen?.(null);
           }}
         />
       ) : null}
