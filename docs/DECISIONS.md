@@ -1051,3 +1051,13 @@ Alternatives: Copy the migrated tour under a new id. Replace its narratives with
 Why: The pass asks for that tour, and the migrated one already occupies the title. A second copy would invent a parallel story.
 
 Reversible? y
+
+## 2026-10-26 — The 4.2 kiloyear band stays on its stored span
+
+Decision: T6.06 does not add a second 4.2 kiloyear band and does not move the existing one. It stays 2200–2100 BCE. Pages were not opened. `verification` on that band stays unverified.
+
+Alternatives: Invent a different aridification span. Split the band so each collapsed state has its own years.
+
+Why: The dataset already dates that band. This pass can stand on that span.
+
+Reversible? y
