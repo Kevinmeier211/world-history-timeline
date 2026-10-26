@@ -4,7 +4,7 @@ Resume here. Branch `v2/p2-layout`, cut from `v2/p1-data` because P1 was not mer
 
 ## Architecture
 
-Vite 6 + React 19 + TypeScript, strict and `noUncheckedIndexedAccess`. v1 chart: `src/App.tsx`, `src/components/`, `src/data/*.ts`, `src/utils/timeLayout.ts`, `src/styles/app.css`. v2 schemas live in `src/data/schema` (zod is the source of truth). `src/data/index.ts` loads the v2 catalog and re-exports the v1 barrel from `legacy.ts`. `src/layout` has serializable types, `projectX`, time slices, the lane solver, and drift limiting. Still to come: split and merge seeding, `src/render`, `src/camera`, `src/state`, `src/ui`. Plan: `docs/CURSOR_PLAN.md`. Queue: Appendix E. Switches: `docs/RUN_CONFIG.md` (all off, `MAX_PHASE=7`).
+Vite 6 + React 19 + TypeScript, strict and `noUncheckedIndexedAccess`. v1 chart: `src/App.tsx`, `src/components/`, `src/data/*.ts`, `src/utils/timeLayout.ts`, `src/styles/app.css`. v2 schemas live in `src/data/schema` (zod is the source of truth). `src/data/index.ts` loads the v2 catalog and re-exports the v1 barrel from `legacy.ts`. `src/layout` has serializable types, `projectX`, time slices, the lane solver, drift limiting, and split/merge seeding. Still to come: multi-zone ribbons, `src/render`, `src/camera`, `src/state`, `src/ui`. Plan: `docs/CURSOR_PLAN.md`. Queue: Appendix E. Switches: `docs/RUN_CONFIG.md` (all off, `MAX_PHASE=7`).
 
 ## Commands
 
@@ -20,4 +20,4 @@ Poster and both Gemini PDFs are missing (Q-01). Gemini bibliography [1]–[37] w
 
 ## Next
 
-T2.06 split and merge seeding, on branch `v2/p2-layout`. Drift limiting is in `src/layout/drift.ts`. The early bin is 38/35. T1.99 stays untagged: do not merge this layout branch into `v2/main` or create `v2-p1-done` mid-phase. Do not start P8.
+T2.07 multi-zone ribbons, on branch `v2/p2-layout`. Split and merge seeding is in `src/layout/lineageSeed.ts`. The early bin is 38/35. T1.99 stays untagged: do not merge this layout branch into `v2/main` or create `v2-p1-done` mid-phase. Do not start P8.

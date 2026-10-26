@@ -5,6 +5,11 @@ import {
   PLOT_WIDTH,
   ribbonWidth,
 } from './constants.ts';
+import {
+  convergeParents,
+  lineageSeedMap,
+  type LineageRelation,
+} from './lineageSeed.ts';
 
 /** One ribbon in one time slice. `desiredX` is a design-px centerline. */
 export interface LaneRibbon {
@@ -180,19 +185,27 @@ function relax(
   }
 }
 
-/** Order each slice, then relax centers. A ribbon that continues seeds from its previous x. */
-export function solveLanes(slices: readonly LaneSliceInput[]): SolvedSlice[] {
+/** Order each slice, then relax centers. A continuing ribbon seeds from its previous x. */
+export function solveLanes(
+  slices: readonly LaneSliceInput[],
+  relations: readonly LineageRelation[] = [],
+): SolvedSlice[] {
   let previousOrder: string[] = [];
   const previousX = new Map<string, number>();
   const solved: SolvedSlice[] = [];
-  for (const slice of slices) {
-    const byId = new Map(slice.ribbons.map((ribbon) => [ribbon.id, ribbon]));
-    const order = stableLaneOrder(previousOrder, [...byId.values()]);
+  for (let index = 0; index < slices.length; index += 1) {
+    const slice = slices[index];
+    if (!slice) continue;
+    const upcoming = slices.slice(index + 1).flatMap((item) => item.ribbons);
+    const ribbons = convergeParents(slice.ribbons, relations, slice.end, upcoming);
+    const byId = new Map(ribbons.map((ribbon) => [ribbon.id, ribbon]));
+    const seeds = lineageSeedMap(ribbons, relations, slice.start, previousX);
+    const order = stableLaneOrder(previousOrder, slice.ribbons);
     const x = new Map<string, number>();
     for (const id of order) {
       const ribbon = byId.get(id);
       if (!ribbon) continue;
-      const seeded = previousX.get(id) ?? ribbon.desiredX;
+      const seeded = previousX.get(id) ?? seeds.get(id) ?? ribbon.desiredX;
       x.set(id, clampCenter(seeded, ribbonWidth(ribbon.weight)));
     }
     relax(order, x, byId);
