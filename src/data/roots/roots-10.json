@@ -1,5 +1,37 @@
 [
   {
+    "id": "vijayanagara",
+    "reason": "gemini-v1 names no parent; nearest same-family end is chola, gupta_chola at a gap of 57 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "vikings",
+    "reason": "gemini-v1 names no parent; nearest same-family end is la_tene, megalithic_celts at a gap of 842 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "visigoths",
+    "reason": "gemini-v1 names no parent; nearest same-family end is roman_kingdom at a gap of 91 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "voc",
+    "reason": "gemini-v1 names no parent; nearest same-family end is majapahit at a gap of 75 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "wari",
+    "reason": "gemini-v1 names no parent; nearest same-family end is paracas at a gap of 500 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "western_european_microstates",
+    "reason": "gemini-v1 names no parent; nearest same-family end is venice at a gap of 3 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "western_xia",
+    "reason": "gemini-v1 names no parent; nearest same-family end is five_dynasties at a gap of 78 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "xiongnu",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
     "id": "yamnaya",
     "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
   },

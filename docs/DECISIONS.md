@@ -891,3 +891,13 @@ Alternatives: Hold the gate until 120 real images are downloaded. Count the empt
 Why: The switch forbids downloads, the geometry is green, and the budget is honestly gated.
 
 Reversible? y
+
+## 2026-10-26 — A cluster with no single year is not a split, and split shares are even
+
+Decision: A row whose date note says Appendix B gives no single year is not an abutment successor. The Andean republics do not split from the Viceroyalty of the Río de la Plata in 1810. A generated split stores an even `share`. That share is layout flow. The checklist gives no proportion. The Mughal line's checklist end in 1857 links to the unnamed 1857–1858 interval. Pages were not opened. `verification` stays unverified.
+
+Alternatives: Keep the Río de la Plata split because the years touch. Leave `share` unset. Invent a proportion.
+
+Why: The 1810 start is the edge of a band, not a dated handoff. Even shares match the layout default and do not claim a measured division.
+
+Reversible? y

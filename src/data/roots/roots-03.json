@@ -1,5 +1,25 @@
 [
   {
+    "id": "ecuador",
+    "reason": "Appendix B gives no single year for this start, so this row is not a shared-boundary handoff. Pages were not opened."
+  },
+  {
+    "id": "egypt_old_kingdom",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "elam",
+    "reason": "gemini-v1 names no parent; nearest same-family end is jemdet_nasr at a gap of 200 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "ethiopia_solomonic",
+    "reason": "gemini-v1 names no parent; nearest same-family end is ghana_wagadu at a gap of 70 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "etruscans",
+    "reason": "gemini-v1 names no parent; nearest same-family end is los_millares at a gap of 1300 continuous years, outside a shared-boundary handoff."
+  },
+  {
     "id": "european_partition_africa",
     "reason": "gemini-v1 names no parent; nearest same-family end is oyo at a gap of 45 continuous years, outside a shared-boundary handoff."
   },
@@ -74,25 +94,5 @@
   {
     "id": "harsha",
     "reason": "gemini-v1 names no parent; nearest same-family end is gupta at a gap of 56 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "haudenosaunee",
-    "reason": "gemini-v1 names no parent; nearest same-family end is cahokia at a gap of 50 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "hittites",
-    "reason": "gemini-v1 names no parent; nearest same-family end is mesopotamia_2004 at a gap of 244 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "hopewell_tradition",
-    "reason": "gemini-v1 parents poverty_point have no year inside both lifetimes ± 50; nearest same-family end is poverty_point at a gap of 600 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "huns",
-    "reason": "gemini-v1 names no parent; nearest same-family end is scythians at a gap of 569 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "ilkhanate",
-    "reason": "gemini-v1 names no parent; nearest same-family end is jurchen_jin at a gap of 22 continuous years, outside a shared-boundary handoff."
   }
 ]

@@ -70,9 +70,36 @@ describe('buildLineage', () => {
     const disputed = result.relations.find((item) => item.type === 'disputed');
     expect(split?.from).toEqual(['mid']);
     expect(split?.to).toEqual(['east', 'west']);
+    expect(split?.share).toEqual([0.5, 0.5]);
     expect(disputed?.from).toEqual(['pred_a', 'pred_b']);
     expect(disputed?.to).toEqual(['child']);
     expect(result.roots.map((root) => root.id)).toEqual(['mid', 'pred_a', 'pred_b']);
+  });
+
+  it('does not hand a no-single-year cluster to the polity that ends on that edge', () => {
+    const cluster = (id: string): LineagePolity => ({
+      ...polity(id, 'andean', 1810, 2000),
+      clusterStart: true,
+    });
+    const result = buildLineage(
+      [
+        polity('rio', 'andean', 1776, 1810),
+        cluster('argentina'),
+        cluster('chile'),
+        polity('mughal', 'turkic', 1526, 1857),
+        polity('india_1857', 'indian', 1857, 1858),
+      ],
+      [],
+      [],
+    );
+    expect(result.relations.some((item) => item.to.includes('argentina'))).toBe(false);
+    expect(
+      result.relations.some((item) => item.id === 'bridge_mughal_india_1857'),
+    ).toBe(true);
+    expect(result.roots.find((root) => root.id === 'argentina')?.reason).toContain(
+      'no single year',
+    );
+    expect(result.roots.some((root) => root.id === 'india_1857')).toBe(false);
   });
 
   it('copies a v1 parent only when one year sits inside both lifetimes', () => {
@@ -209,6 +236,7 @@ describe('buildLineage', () => {
       from: ['roman_empire'],
       to: ['eastern_roman_empire', 'western_roman_empire'],
       year: 395,
+      share: [0.5, 0.5],
     });
     expect(merge).toMatchObject({
       from: ['aragon', 'castile'],

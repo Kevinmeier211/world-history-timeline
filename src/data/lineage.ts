@@ -1,5 +1,10 @@
 import type { Relation, RelationType } from './schema/index.ts';
-import { forkRelations, forkReplaces } from './lineage-forks.ts';
+import {
+  bridgeRelations,
+  evenShare,
+  forkRelations,
+  forkReplaces,
+} from './lineage-forks.ts';
 import { CHECKLIST_TWINS } from './lineage-twins.ts';
 import { RELATION_YEAR_TOLERANCE } from './validate.ts';
 import { toT } from '../lib/years.ts';
@@ -17,6 +22,8 @@ export interface LineagePolity {
   sourceIds: readonly string[];
   /** v1 bundle kept beside the checklist. It does not block a one-year handoff. */
   overlay?: boolean;
+  /** Checklist names a band and no single start year. Not an abutment successor. */
+  clusterStart?: boolean;
 }
 
 export interface ParentLink {
@@ -50,7 +57,7 @@ export interface LineageResult {
 const SUCCESSION_NOTE =
   'Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.';
 const SPLIT_NOTE =
-  'Several same-family polities start on this handoff. Pages were not opened.';
+  'Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened.';
 const DISPUTED_NOTE =
   'More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened.';
 const V1_NOTE =
@@ -94,6 +101,7 @@ function relation(input: {
   type: RelationType;
   note: string;
   sourceIds: readonly string[];
+  share?: number[];
 }): Relation {
   if (input.sourceIds.length === 0) throw new Error(`${input.id} has no sources`);
   return {
@@ -102,6 +110,7 @@ function relation(input: {
     to: input.to,
     year: input.year,
     type: input.type,
+    ...(input.share ? { share: input.share } : {}),
     note: input.note,
     sourceIds: [...input.sourceIds],
     confidence: 'debated',
@@ -149,6 +158,7 @@ function abutmentRelations(polities: readonly LineagePolity[]): Relation[] {
   const singles: { from: LineagePolity; to: LineagePolity }[] = [];
   for (const rows of byFamily.values()) {
     for (const succ of rows) {
+      if (succ.clusterStart) continue;
       const preds = abutmentPreds(rows, succ);
       const first = preds[0];
       if (!first) continue;
@@ -204,6 +214,7 @@ function abutmentRelations(polities: readonly LineagePolity[]): Relation[] {
           to: targets.map((polity) => polity.id),
           year: shared,
           type: 'split',
+          share: evenShare(targets.length),
           note: SPLIT_NOTE,
           sourceIds: first.sourceIds,
         }),
@@ -244,6 +255,9 @@ function rootReason(
   rows: readonly LineagePolity[],
   parentIds: readonly string[],
 ): string {
+  if (polity.clusterStart) {
+    return 'Appendix B gives no single year for this start, so this row is not a shared-boundary handoff. Pages were not opened.';
+  }
   const named =
     parentIds.length > 0
       ? `gemini-v1 parents ${[...parentIds].sort().join(', ')} have no year inside both lifetimes ± ${RELATION_YEAR_TOLERANCE}`
@@ -344,6 +358,14 @@ export function buildLineage(
       }),
     );
     seen.add(`${twin.from}>${twin.to}`);
+  }
+
+  for (const bridge of bridgeRelations(polities)) {
+    const source = bridge.from[0];
+    const target = bridge.to[0];
+    if (!source || !target || seen.has(`${source}>${target}`)) continue;
+    relations.push(bridge);
+    seen.add(`${source}>${target}`);
   }
 
   const forks = forkRelations(polities);

@@ -1,7 +1,23 @@
 [
   {
-    "id": "india_1857",
-    "reason": "gemini-v1 names no parent; nearest same-family end is sikh_empire at a gap of 8 continuous years, outside a shared-boundary handoff."
+    "id": "haudenosaunee",
+    "reason": "gemini-v1 names no parent; nearest same-family end is cahokia at a gap of 50 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "hittites",
+    "reason": "gemini-v1 names no parent; nearest same-family end is mesopotamia_2004 at a gap of 244 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "hopewell_tradition",
+    "reason": "gemini-v1 parents poverty_point have no year inside both lifetimes ± 50; nearest same-family end is poverty_point at a gap of 600 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "huns",
+    "reason": "gemini-v1 names no parent; nearest same-family end is scythians at a gap of 569 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "ilkhanate",
+    "reason": "gemini-v1 names no parent; nearest same-family end is jurchen_jin at a gap of 22 continuous years, outside a shared-boundary handoff."
   },
   {
     "id": "indus_valley",
@@ -78,21 +94,5 @@
   {
     "id": "kofun",
     "reason": "gemini-v1 names no parent; nearest same-family end is jomon at a gap of 549 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "konbaung",
-    "reason": "gemini-v1 names no parent; nearest same-family end is majapahit at a gap of 225 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "kongo",
-    "reason": "gemini-v1 names no parent; nearest same-family end is ghana_wagadu at a gap of 190 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "korea_dynasties",
-    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
-  },
-  {
-    "id": "kura_araxes",
-    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
   }
 ]

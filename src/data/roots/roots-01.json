@@ -44,6 +44,10 @@
     "reason": "gemini-v1 names no parent; nearest same-family end is west_francia at a gap of 150 continuous years, outside a shared-boundary handoff."
   },
   {
+    "id": "argentina",
+    "reason": "Appendix B gives no single year for this start, so this row is not a shared-boundary handoff. Pages were not opened."
+  },
+  {
     "id": "ashanti",
     "reason": "gemini-v1 names no parent; nearest same-family end is mali_empire at a gap of 101 continuous years, outside a shared-boundary handoff."
   },
@@ -88,11 +92,7 @@
     "reason": "gemini-v1 names no parent; nearest same-family end is aksum at a gap of 240 continuous years, outside a shared-boundary handoff."
   },
   {
-    "id": "british_empire",
-    "reason": "gemini-v1 parents roman_empire have no year inside both lifetimes ± 50; nearest same-family end is la_tene, megalithic_celts at a gap of 920 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "buyid",
-    "reason": "gemini-v1 names no parent; nearest same-family end is parthian_sassanid, sasanian at a gap of 283 continuous years, outside a shared-boundary handoff."
+    "id": "bolivia",
+    "reason": "Appendix B gives no single year for this start, so this row is not a shared-boundary handoff. Pages were not opened."
   }
 ]

@@ -1,5 +1,21 @@
 [
   {
+    "id": "medes",
+    "reason": "gemini-v1 names no parent; nearest same-family end is babylon_assyria at a gap of 233 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "megalithic_celts",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "merovingian_franks",
+    "reason": "gemini-v1 names no parent; nearest same-family end is western_roman_empire at a gap of 5 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "mexico",
+    "reason": "gemini-v1 names no parent; nearest same-family end is maya_postclassic at a gap of 124 continuous years, outside a shared-boundary handoff."
+  },
+  {
     "id": "middle_assyrian",
     "reason": "gemini-v1 names no parent; nearest same-family end is old_babylonian at a gap of 230 continuous years, outside a shared-boundary handoff."
   },
@@ -78,21 +94,5 @@
   {
     "id": "norte_chico",
     "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
-  },
-  {
-    "id": "norway",
-    "reason": "gemini-v1 names no parent; nearest same-family end is kingdom_of_england at a gap of 93 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "nsw_colony",
-    "reason": "gemini-v1 names no parent; nearest same-family end is ayutthaya at a gap of 21 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "olmecs",
-    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
-  },
-  {
-    "id": "ottoman",
-    "reason": "gemini-v1 names no parent; nearest same-family end is almohad at a gap of 30 continuous years, outside a shared-boundary handoff."
   }
 ]

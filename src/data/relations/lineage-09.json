@@ -1,5 +1,17 @@
 [
   {
+    "id": "disputed_austria",
+    "from": ["austria_hungary", "german_empire"],
+    "to": ["austria"],
+    "year": 1918,
+    "type": "disputed",
+    "note": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened.",
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened."
+  },
+  {
     "id": "disputed_erlitou",
     "from": ["china_2300", "longshan"],
     "to": ["erlitou"],
@@ -127,18 +139,6 @@
     "type": "disputed",
     "note": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened.",
     "sourceIds": ["british_library", "cambridge_histories"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened."
-  },
-  {
-    "id": "disputed_mesopotamia_2004",
-    "from": ["sumer_akkad", "ur_iii"],
-    "to": ["mesopotamia_2004"],
-    "year": -2004,
-    "type": "disputed",
-    "note": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened.",
-    "sourceIds": ["cdli", "isac"],
     "confidence": "debated",
     "verification": "unverified",
     "evidence": "More than one same-family polity meets this start. No single predecessor was chosen. Pages were not opened."

@@ -1,5 +1,21 @@
 [
   {
+    "id": "konbaung",
+    "reason": "gemini-v1 names no parent; nearest same-family end is majapahit at a gap of 225 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "kongo",
+    "reason": "gemini-v1 names no parent; nearest same-family end is ghana_wagadu at a gap of 190 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "korea_dynasties",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
+    "id": "kura_araxes",
+    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
+  },
+  {
     "id": "kush_napatan",
     "reason": "gemini-v1 names no parent; nearest same-family end is kerma at a gap of 500 continuous years, outside a shared-boundary handoff."
   },
@@ -78,21 +94,5 @@
   {
     "id": "maya_preclassic",
     "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
-  },
-  {
-    "id": "medes",
-    "reason": "gemini-v1 names no parent; nearest same-family end is babylon_assyria at a gap of 233 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "megalithic_celts",
-    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
-  },
-  {
-    "id": "merovingian_franks",
-    "reason": "gemini-v1 names no parent; nearest same-family end is western_roman_empire at a gap of 5 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "mexico",
-    "reason": "gemini-v1 names no parent; nearest same-family end is maya_postclassic at a gap of 124 continuous years, outside a shared-boundary handoff."
   }
 ]

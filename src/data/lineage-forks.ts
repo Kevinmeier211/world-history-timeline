@@ -34,6 +34,67 @@ export const EXPLICIT_FORKS: readonly ExplicitFork[] = [
   },
 ];
 
+/** Even layout flow. The checklist gives no proportion. */
+export function evenShare(count: number): number[] {
+  const part = Math.round((1 / count) * 1e6) / 1e6;
+  const shares = Array.from({ length: count }, () => part);
+  const head = shares.slice(0, -1).reduce((total, value) => total + value, 0);
+  const last = shares.length - 1;
+  if (last >= 0) shares[last] = Math.round((1 - head) * 1e6) / 1e6;
+  return shares;
+}
+
+export interface ChecklistBridge {
+  id: string;
+  from: string;
+  to: string;
+  year: number;
+  note: string;
+}
+
+/** Cross-family sequence already written in a checklist date note. */
+export const CHECKLIST_BRIDGES: readonly ChecklistBridge[] = [
+  {
+    id: 'bridge_mughal_india_1857',
+    from: 'mughal',
+    to: 'india_1857',
+    year: 1857,
+    note: 'Appendix B ends the Mughal line at 1857 and does not name the interval. Pages were not opened.',
+  },
+];
+
+export function bridgeRelations(
+  polities: readonly {
+    id: string;
+    start: number;
+    end: number;
+    sourceIds: readonly string[];
+  }[],
+): Relation[] {
+  const byId = new Map(polities.map((polity) => [polity.id, polity]));
+  const built: Relation[] = [];
+  for (const bridge of CHECKLIST_BRIDGES) {
+    const from = byId.get(bridge.from);
+    const to = byId.get(bridge.to);
+    if (!from || !to || to.sourceIds.length === 0) continue;
+    if (bridge.year < from.start || bridge.year > from.end) continue;
+    if (bridge.year < to.start || bridge.year > to.end) continue;
+    built.push({
+      id: bridge.id,
+      from: [bridge.from],
+      to: [bridge.to],
+      year: bridge.year,
+      type: 'succession',
+      note: bridge.note,
+      sourceIds: [...to.sourceIds],
+      confidence: 'debated',
+      verification: 'unverified',
+      evidence: bridge.note,
+    });
+  }
+  return built;
+}
+
 function sameIds(left: readonly string[], right: readonly string[]): boolean {
   if (left.length !== right.length) return false;
   const a = [...left].sort();
@@ -57,6 +118,7 @@ export function forkRelations(
       to: [...fork.to],
       year: fork.year,
       type: fork.type,
+      ...(fork.type === 'split' ? { share: evenShare(fork.to.length) } : {}),
       note: fork.note,
       sourceIds: [...source.sourceIds],
       confidence: 'debated',

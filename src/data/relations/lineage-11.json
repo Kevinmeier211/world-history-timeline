@@ -1,37 +1,29 @@
 [
   {
+    "id": "split_korea_1945_north_korea_south_korea",
+    "from": ["korea_1945"],
+    "to": ["north_korea", "south_korea"],
+    "year": 1948,
+    "type": "split",
+    "share": [0.5, 0.5],
+    "note": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened.",
+    "sourceIds": ["korea_national", "tokyo_national"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened."
+  },
+  {
     "id": "split_maya_classic_maya_postclassic_toltecs",
     "from": ["maya_classic"],
     "to": ["maya_postclassic", "toltecs"],
     "year": 900,
     "type": "split",
-    "note": "Several same-family polities start on this handoff. Pages were not opened.",
+    "share": [0.5, 0.5],
+    "note": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened.",
     "sourceIds": ["inah", "field_museum"],
     "confidence": "debated",
     "verification": "unverified",
-    "evidence": "Several same-family polities start on this handoff. Pages were not opened."
-  },
-  {
-    "id": "split_rio_de_la_plata_argentina_bolivia_chile_colombia_ecuador_paraguay_peru_republic_uruguay_venezuela",
-    "from": ["rio_de_la_plata"],
-    "to": [
-      "argentina",
-      "bolivia",
-      "chile",
-      "colombia",
-      "ecuador",
-      "paraguay",
-      "peru_republic",
-      "uruguay",
-      "venezuela"
-    ],
-    "year": 1810,
-    "type": "split",
-    "note": "Several same-family polities start on this handoff. Pages were not opened.",
-    "sourceIds": ["museo_larco", "field_museum"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Several same-family polities start on this handoff. Pages were not opened."
+    "evidence": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened."
   },
   {
     "id": "split_roman_empire_eastern_roman_empire_western_roman_empire",
@@ -39,6 +31,7 @@
     "to": ["eastern_roman_empire", "western_roman_empire"],
     "year": 395,
     "type": "split",
+    "share": [0.5, 0.5],
     "note": "Conventional division in 395. The western ribbon runs to 476. The eastern ribbon stops at 476 so it does not lie on the Byzantine ribbon through 1453. Pages were not opened.",
     "sourceIds": ["cambridge_histories", "louvre"],
     "confidence": "debated",
@@ -51,11 +44,12 @@
     "to": ["western_zhou", "zhou_dynasty"],
     "year": -1046,
     "type": "split",
-    "note": "Several same-family polities start on this handoff. Pages were not opened.",
+    "share": [0.5, 0.5],
+    "note": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened.",
     "sourceIds": ["chgis", "cambridge_histories"],
     "confidence": "debated",
     "verification": "unverified",
-    "evidence": "Several same-family polities start on this handoff. Pages were not opened."
+    "evidence": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened."
   },
   {
     "id": "split_thirteen_colonies_united_states_united_states_canada",
@@ -63,11 +57,12 @@
     "to": ["united_states", "united_states_canada"],
     "year": 1776,
     "type": "split",
-    "note": "Several same-family polities start on this handoff. Pages were not opened.",
+    "share": [0.5, 0.5],
+    "note": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened.",
     "sourceIds": ["field_museum", "dpla"],
     "confidence": "debated",
     "verification": "unverified",
-    "evidence": "Several same-family polities start on this handoff. Pages were not opened."
+    "evidence": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened."
   },
   {
     "id": "split_tokugawa_empire_of_japan_meiji",
@@ -75,11 +70,12 @@
     "to": ["empire_of_japan", "meiji"],
     "year": 1868,
     "type": "split",
-    "note": "Several same-family polities start on this handoff. Pages were not opened.",
+    "share": [0.5, 0.5],
+    "note": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened.",
     "sourceIds": ["korea_national", "tokyo_national"],
     "confidence": "debated",
     "verification": "unverified",
-    "evidence": "Several same-family polities start on this handoff. Pages were not opened."
+    "evidence": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened."
   },
   {
     "id": "split_united_provinces_central_america_costa_rica_el_salvador_guatemala_honduras_nicaragua",
@@ -87,11 +83,12 @@
     "to": ["costa_rica", "el_salvador", "guatemala", "honduras", "nicaragua"],
     "year": 1838,
     "type": "split",
-    "note": "Several same-family polities start on this handoff. Pages were not opened.",
+    "share": [0.2, 0.2, 0.2, 0.2, 0.2],
+    "note": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened.",
     "sourceIds": ["inah", "field_museum"],
     "confidence": "debated",
     "verification": "unverified",
-    "evidence": "Several same-family polities start on this handoff. Pages were not opened."
+    "evidence": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened."
   },
   {
     "id": "split_yuan_china_ming_ming_qing_china",
@@ -99,11 +96,12 @@
     "to": ["ming", "ming_qing_china"],
     "year": 1368,
     "type": "split",
-    "note": "Several same-family polities start on this handoff. Pages were not opened.",
+    "share": [0.5, 0.5],
+    "note": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened.",
     "sourceIds": ["chgis", "cambridge_histories"],
     "confidence": "debated",
     "verification": "unverified",
-    "evidence": "Several same-family polities start on this handoff. Pages were not opened."
+    "evidence": "Several same-family polities start on this handoff. The share is even because the checklist gives no proportion. Pages were not opened."
   },
   {
     "id": "twin_fatimid_fatimid_egypt",
