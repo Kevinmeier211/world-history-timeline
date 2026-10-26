@@ -1,0 +1,96 @@
+[
+  {
+    "id": "tour_columbian",
+    "title": "Columbian Exchange",
+    "subtitle": "The 1492–1650 band and the Atlantic rows",
+    "waypoints": [
+      {
+        "title": "Union of the crowns, 1492",
+        "year": 1492,
+        "zoom": 1.6,
+        "lens": "trade",
+        "polityId": "spain_union",
+        "narrative": "The Age of Discovery band runs from 1492 to 1650. This stop sits on the union-of-the-crowns row, which the checklist runs from 1469 to 1516. The cited page was not opened.",
+        "sourceIds": ["cambridge_histories", "british_library"],
+        "verification": "unverified"
+      },
+      {
+        "title": "New France, 1534",
+        "year": 1534,
+        "zoom": 1.6,
+        "lens": "trade",
+        "polityId": "new_france",
+        "narrative": "New France’s checklist row starts in 1534, inside the same band. The stop uses that year. It does not add a list of crops or diseases. The cited page was not opened.",
+        "sourceIds": ["field_museum", "dpla"],
+        "verification": "unverified"
+      },
+      {
+        "title": "Thirteen Colonies, 1607",
+        "year": 1607,
+        "zoom": 1.6,
+        "lens": "trade",
+        "polityId": "thirteen_colonies",
+        "narrative": "The Thirteen Colonies checklist row starts in 1607, still inside the 1492–1650 band. The stop uses that year. The cited page was not opened.",
+        "sourceIds": ["field_museum", "dpla"],
+        "verification": "unverified"
+      },
+      {
+        "title": "Band end, 1650",
+        "year": 1650,
+        "zoom": 1.4,
+        "lens": "trade",
+        "polityId": "voc",
+        "narrative": "The discovery band ends in 1650. The VOC checklist row, started in 1602, is still current. The stop uses the band’s end and does not add a voyage. The cited page was not opened.",
+        "sourceIds": ["field_museum", "unesco_mow"],
+        "verification": "unverified"
+      }
+    ]
+  },
+  {
+    "id": "tour_atlantic",
+    "title": "Atlantic slavery and abolition",
+    "subtitle": "Checklist rows in the Atlantic centuries",
+    "waypoints": [
+      {
+        "title": "Songhai, 1591",
+        "year": 1591,
+        "zoom": 1.6,
+        "lens": "trade",
+        "polityId": "songhai_empire",
+        "narrative": "Songhai’s checklist row ends in 1591. That is the year the Saadi bridge uses. The stop does not add a count of captives. The cited page was not opened.",
+        "sourceIds": ["unesco_gha", "british_library"],
+        "verification": "unverified"
+      },
+      {
+        "title": "Discovery band end, 1650",
+        "year": 1650,
+        "zoom": 1.5,
+        "lens": "trade",
+        "polityId": "kongo",
+        "narrative": "The discovery band ends in 1650. Kongo’s checklist row is still current. This stop uses that band end. It does not add a count of captives. The cited page was not opened.",
+        "sourceIds": ["unesco_gha", "british_library"],
+        "verification": "unverified"
+      },
+      {
+        "title": "Ashanti, 1701",
+        "year": 1701,
+        "zoom": 1.6,
+        "lens": "trade",
+        "polityId": "ashanti",
+        "narrative": "Ashanti’s checklist row starts in 1701. The stop uses that year. It does not date an abolition. The cited page was not opened.",
+        "sourceIds": ["unesco_gha", "british_library"],
+        "verification": "unverified"
+      },
+      {
+        "title": "Haiti, 1804",
+        "year": 1804,
+        "zoom": 1.6,
+        "lens": "politics",
+        "polityId": "haiti",
+        "narrative": "Haiti’s row uses 1804. The stop sits on that independence year. It does not add a separate abolition date. The cited page was not opened.",
+        "sourceIds": ["inah", "field_museum"],
+        "verification": "unverified"
+      }
+    ]
+  }
+]

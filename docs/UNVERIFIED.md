@@ -13,7 +13,7 @@ A row is unverified when `verification` is `unverified`, or when a tour stop omi
 | callouts | 159 | 0 | 0 | 159 |
 | bands | 13 | 0 | 0 | 13 |
 | routes | 6 | 0 | 0 | 6 |
-| tour stops | 19 | 0 | 0 | 19 |
+| tour stops | 27 | 0 | 0 | 27 |
 | climate | 1 | 0 | 0 | 1 |
 
 ## By importance
@@ -103,9 +103,9 @@ Unverified counts only.
 | 1000_1bce | 84 | 13 | 30 | 3 | 2 | 6 |
 | 1_500ce | 67 | 5 | 17 | 0 | 3 | 2 |
 | 500_1000ce | 103 | 7 | 28 | 2 | 3 | 0 |
-| 1000_1500ce | 113 | 31 | 26 | 4 | 4 | 0 |
-| 1500_1800ce | 108 | 23 | 25 | 2 | 2 | 0 |
-| 1800_2000ce | 171 | 60 | 42 | 3 | 1 | 8 |
+| 1000_1500ce | 113 | 31 | 26 | 4 | 4 | 1 |
+| 1500_1800ce | 108 | 23 | 25 | 2 | 2 | 6 |
+| 1800_2000ce | 171 | 60 | 42 | 3 | 1 | 9 |
 
 ## By family
 

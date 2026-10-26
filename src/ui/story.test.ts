@@ -29,7 +29,7 @@ function waypoint(
 }
 
 describe('story stops', () => {
-  it('keeps the migrated tours and the 1800 tours inside the word limit', () => {
+  it('keeps the migrated tours and the era tours inside the word limit', () => {
     const tours = clientDataset().tours;
     expect(tours.map((tour) => tour.id)).toEqual([
       'tour_bronze_collapse',
@@ -37,6 +37,8 @@ describe('story stops', () => {
       'tour_rome_han',
       'tour_industrial',
       'tour_decolonization',
+      'tour_columbian',
+      'tour_atlantic',
     ]);
     for (const tour of tours) {
       expect(tour.waypoints.length).toBeGreaterThan(0);
