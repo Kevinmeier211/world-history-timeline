@@ -15,7 +15,7 @@ import {
 } from './constants.ts';
 import { cullToFit } from './cull.ts';
 import { applyDrift, yOfYear } from './drift.ts';
-import { ribbonRuns, sampleAt, type DatedPoint } from './frames.ts';
+import { ribbonRuns, sampleAt, separateRuns, type DatedPoint } from './frames.ts';
 import { stableHash } from './hash.ts';
 import { canvasTextMeasurer } from './labelFit.ts';
 import { solveLanes, type LaneSliceInput } from './laneSolver.ts';
@@ -209,11 +209,17 @@ function computeLayout(input: LayoutInput): LayoutResult {
     })),
     zoomY,
   );
+  const runOf = new Map<string, DatedPoint[][]>();
+  for (const polity of polities) {
+    const runs = ribbonRuns(polity, slices, drifted, input.geography, zoomY);
+    if (runs.flat().length > 0) runOf.set(polity.id, runs);
+  }
+  separateRuns(runOf);
   const frames = new Map<string, DatedPoint[]>();
   const ribbons: LayoutRibbon[] = polities.flatMap((polity) => {
-    const runs = ribbonRuns(polity, slices, drifted, input.geography, zoomY);
-    const points = runs.flat();
-    if (points.length === 0) return [];
+    const runs = runOf.get(polity.id);
+    const points = runs?.flat() ?? [];
+    if (!runs || points.length === 0) return [];
     frames.set(polity.id, points);
     const opacity = opacityById.get(polity.id) ?? 1;
     return [

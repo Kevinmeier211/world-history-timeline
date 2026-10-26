@@ -3,6 +3,7 @@ import type { Geography } from '../data/schema/geography.ts';
 import { fromT, toT } from '../lib/years.ts';
 import { LEFT_GUTTER, PLOT_WIDTH, ribbonWidth } from './constants.ts';
 import { yOfYear } from './drift.ts';
+import { packLaneCenters } from './laneSolver.ts';
 import { withWidthProfile, type RibbonPoint } from './ribbonGeometry.ts';
 import { wideRibbon, type ZoneSpan } from './spanRibbon.ts';
 
@@ -65,6 +66,34 @@ function simplify(points: readonly DatedPoint[]): DatedPoint[] {
   return kept;
 }
 
+/** A span may be wider than the lane. The drawn width stays inside the lane. */
+export function clipToLaneWidth(
+  lane: readonly { y: number; width: number }[],
+  points: readonly RibbonPoint[],
+): RibbonPoint[] {
+  return points.map((point) => ({
+    ...point,
+    width: Math.min(point.width, widthAt(lane, point.y)),
+  }));
+}
+
+function widthAt(lane: readonly { y: number; width: number }[], y: number): number {
+  const first = lane[0];
+  const last = lane.at(-1);
+  if (!first || !last) return Number.POSITIVE_INFINITY;
+  if (y <= first.y) return first.width;
+  if (y >= last.y) return last.width;
+  for (let index = 0; index < lane.length - 1; index += 1) {
+    const left = lane[index];
+    const right = lane[index + 1];
+    if (!left || !right || y > right.y) continue;
+    const span = right.y - left.y;
+    const t = span === 0 ? 0 : (y - left.y) / span;
+    return left.width + (right.width - left.width) * t;
+  }
+  return last.width;
+}
+
 function finishRun(
   polity: Polity,
   dated: DatedPoint[],
@@ -79,7 +108,7 @@ function finishRun(
     })),
     ...wide.map((sample) => ({ y: yOfYear(sample.year, zoomY), width: sample.width })),
   ];
-  const shaped = withWidthProfile(dated, profile);
+  const shaped = clipToLaneWidth(dated, withWidthProfile(dated, profile));
   let cursor = 0;
   const datedShape = shaped.map((point) => {
     while (
@@ -156,4 +185,117 @@ export function sampleAt(
     };
   }
   return last;
+}
+
+function meanX(runs: readonly (readonly DatedPoint[])[]): number {
+  let sum = 0;
+  let count = 0;
+  for (const run of runs) {
+    for (const point of run) {
+      sum += point.x;
+      count += 1;
+    }
+  }
+  return count === 0 ? 0 : sum / count;
+}
+
+/**
+ * Drift can land two ribbons on the same column. Pack every keyframe y
+ * again, in a stable left-to-right order, and sample every ribbon there
+ * so the segment between keyframes stays clear.
+ */
+function snapRuns(runs: ReadonlyMap<string, DatedPoint[][]>): void {
+  for (const ribbon of runs.values()) {
+    for (const run of ribbon) {
+      for (const point of run) point.y = Math.round(point.y * 100) / 100;
+      const collapsed: DatedPoint[] = [];
+      for (const point of run) {
+        const previous = collapsed.at(-1);
+        if (previous && previous.y === point.y) {
+          previous.width = Math.max(previous.width, point.width);
+          continue;
+        }
+        collapsed.push(point);
+      }
+      run.length = 0;
+      run.push(...collapsed);
+    }
+  }
+}
+
+export function separateRuns(runs: ReadonlyMap<string, DatedPoint[][]>): void {
+  snapRuns(runs);
+  const seenY = new Set<number>();
+  const marks: number[] = [];
+  for (const ribbon of runs.values()) {
+    for (const run of ribbon) {
+      for (const point of run) {
+        if (seenY.has(point.y)) continue;
+        seenY.add(point.y);
+        marks.push(point.y);
+      }
+    }
+  }
+  marks.sort((left, right) => left - right);
+  for (const ribbon of runs.values()) {
+    for (const run of ribbon) {
+      const extra: DatedPoint[] = [];
+      let cursor = 0;
+      for (let index = 0; index < run.length - 1; index += 1) {
+        const left = run[index];
+        const right = run[index + 1];
+        if (!left || !right || right.y <= left.y) continue;
+        while (cursor < marks.length && (marks[cursor] ?? 0) <= left.y) cursor += 1;
+        for (let look = cursor; look < marks.length; look += 1) {
+          const y = marks[look] ?? 0;
+          if (y >= right.y) break;
+          const t = (y - left.y) / (right.y - left.y);
+          extra.push({
+            y,
+            x: left.x + (right.x - left.x) * t,
+            width: left.width + (right.width - left.width) * t,
+            year: t < 0.5 ? left.year : right.year,
+          });
+        }
+      }
+      if (extra.length > 0) {
+        run.push(...extra);
+        run.sort((left, right) => left.y - right.y);
+      }
+    }
+  }
+  const means = new Map([...runs].map(([id, ribbon]) => [id, meanX(ribbon)]));
+  const order = [...runs.keys()].sort(
+    (left, right) =>
+      (means.get(left) ?? 0) - (means.get(right) ?? 0) || left.localeCompare(right),
+  );
+  const atY = new Map<number, Map<string, DatedPoint[]>>();
+  for (const [id, ribbon] of runs) {
+    for (const run of ribbon) {
+      for (const point of run) {
+        let bucket = atY.get(point.y);
+        if (!bucket) {
+          bucket = new Map();
+          atY.set(point.y, bucket);
+        }
+        const list = bucket.get(id) ?? [];
+        list.push(point);
+        bucket.set(id, list);
+      }
+    }
+  }
+  for (const hits of atY.values()) {
+    const lanes = order.flatMap((id) => {
+      const point = hits.get(id)?.[0];
+      return point ? [{ id, width: point.width }] : [];
+    });
+    const x = new Map(lanes.map((lane) => [lane.id, hits.get(lane.id)?.[0]?.x ?? 0]));
+    packLaneCenters(lanes, x);
+    for (const [id, points] of hits) {
+      const next = x.get(id);
+      if (next === undefined) continue;
+      for (const point of points) point.x = next;
+    }
+  }
+  snapRuns(runs);
 }

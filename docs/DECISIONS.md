@@ -251,3 +251,43 @@ Alternatives: Draw every ribbon and allow overlaps. Shrink below the 12 px minim
 Why: The busiest slice holds 87 ribbons, and even the minimum width does not fit in 1332 px. Appendix G stops at 40 passes or when the overlap is under 0.5 px. The hard pack meets that bound when the slice fits. Eight pull passes still leave a heavier ribbon closer to its desired x.
 
 Reversible? y
+
+## 2026-10-26 — A spread chain that does not fit is tightened
+
+Decision: After the minimum gaps are enforced, the chain is shifted into the plot. If the gaps are still too wide for the plot, the ribbons are packed tight from the left edge.
+
+Alternatives: Leave the overflow past the right gutter. Shrink ribbon width below the 12 px floor.
+
+Why: A loose chain can satisfy every adjacent gap and still stick out of the plot. Sliding it back in then pushes the other end out again. Tightening is the pack that fits when the minimum footprint fits.
+
+Reversible? y
+
+## 2026-10-26 — Drawn spans stay inside the reserved lane
+
+Decision: A multi-zone span is drawn no wider than the lane width reserved for that ribbon. `wideRibbon` still reports the geographic outer width for its own tests.
+
+Alternatives: Reserve the geographic width in the solver. Draw the wide span and allow it to cover the neighbors.
+
+Why: A span from Europe to East Asia is hundreds of px. The drift cap cannot open that corridor before the neighbors are covered. The overlap gate measures the drawn edges.
+
+Reversible? y
+
+## 2026-10-26 — Drift is packed again before the path is drawn
+
+Decision: After drift, every keyframe y is packed in a stable left-to-right order. A ribbon that crosses that y is sampled there, so the segment between samples stays clear. Keyframe y is snapped to 0.01 px. The slant may exceed 0.35 on a short slice when that is what holds the gap.
+
+Alternatives: Draw each slice as a vertical bar and break on every move. Drop the slant cap entirely. Leave the overlaps drift creates.
+
+Why: Solved lanes do not overlap, and the slant cap then walks neighbors into the same column. The §6.4 gate counts drawn overlaps. Separation wins over the slant cap when both cannot be met.
+
+Reversible? y
+
+## 2026-10-26 — The layout report gates the warmed pass
+
+Decision: `layout:report` prints the cold pass and the second pass. The runtime gate is the second pass, under 150 ms. A relation whose polity was not drawn is omitted, not unroutable. Unroutable means every endpoint is drawn and the curve is missing or empty.
+
+Alternatives: Gate the cold pass. Count culled relations as unroutable.
+
+Why: The cold pass pays for JIT and is not the steady layout. Culled ribbons are not on the poster, so their relations are not failed routes. The warmed roster pass is the §6.4 runtime bar.
+
+Reversible? y

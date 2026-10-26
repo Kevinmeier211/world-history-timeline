@@ -3,6 +3,7 @@ import { describe, expect, it } from 'vitest';
 import { bundledGeography } from '../data/catalog.ts';
 import type { Polity, Relation } from '../data/schema/index.ts';
 import type { LayoutInput } from './types.ts';
+import { ribbonWidth } from './constants.ts';
 import { clearLayoutCache, layout } from './index.ts';
 
 function polity(
@@ -129,6 +130,21 @@ describe('layout orchestrator', () => {
     expect(
       mid.ribbons.find((ribbon) => ribbon.polityId === 'group:imperial_china')?.opacity,
     ).toBeCloseTo(0.5);
+  });
+
+  it('clips a multi-zone span to the lane width', () => {
+    clearLayoutCache();
+    const mongol = {
+      ...polity('mongol', 1200, 1400, 110, 'turkic_mongol'),
+      weight: 0.5,
+      spans: [
+        { macroRegion: 'europe' as const, start: 1200, end: 1400 },
+        { macroRegion: 'east_asia' as const, start: 1200, end: 1400 },
+      ],
+    };
+    const result = layout(input([mongol]));
+    const widths = result.ribbons[0]?.keyframes.map((frame) => frame.width) ?? [];
+    expect(Math.max(...widths)).toBeLessThanOrEqual(ribbonWidth(0.5) + 1e-6);
   });
 
   it('hides a family that the viewport filtered out', () => {

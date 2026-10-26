@@ -9,7 +9,12 @@ import {
   laneMass,
   ribbonWidth,
 } from './constants.ts';
-import { solveLanes, type LaneRibbon, type SolvedSlice } from './laneSolver.ts';
+import {
+  packLaneCenters,
+  solveLanes,
+  type LaneRibbon,
+  type SolvedSlice,
+} from './laneSolver.ts';
 
 function ribbon(
   id: string,
@@ -107,6 +112,30 @@ describe('lane solver', () => {
     expect(light).toBeDefined();
     if (!heavy || !light) return;
     expect(Math.abs(heavy.x - 700)).toBeLessThan(Math.abs(light.x - 700));
+  });
+
+  it('tightens a spread chain that no longer fits in the plot', () => {
+    const lanes = [
+      { id: 'a', width: 40 },
+      { id: 'b', width: 40 },
+      { id: 'c', width: 40 },
+    ];
+    const x = new Map([
+      ['a', 100],
+      ['b', 700],
+      ['c', 2000],
+    ]);
+    packLaneCenters(lanes, x);
+    const slice: SolvedSlice = {
+      start: 1,
+      end: 2,
+      lanes: lanes.map((lane) => ({
+        id: lane.id,
+        x: x.get(lane.id) ?? 0,
+        width: lane.width,
+      })),
+    };
+    assertPacked(slice);
   });
 
   it('clamps a center into the plot', () => {

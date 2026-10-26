@@ -1,14 +1,14 @@
 # Context
 
-Resume here. Branch `v2/p2-layout`, cut from `v2/p1-data` because P1 was not merged. Last done task is in `docs/PROGRESS.md`. v1 still renders. `src/layout` holds pure types only. Do not start P8.
+Resume here. Branch `v2/p2-layout`, cut from `v2/p1-data` because P1 was not merged. Last done task is in `docs/PROGRESS.md`. v1 still renders. `src/layout` is the pure layout engine. Do not start P8.
 
 ## Architecture
 
-Vite 6 + React 19 + TypeScript, strict and `noUncheckedIndexedAccess`. v1 chart: `src/App.tsx`, `src/components/`, `src/data/*.ts`, `src/utils/timeLayout.ts`, `src/styles/app.css`. v2 schemas live in `src/data/schema` (zod is the source of truth). `src/data/index.ts` loads the v2 catalog and re-exports the v1 barrel from `legacy.ts`. `src/layout` has serializable types, `projectX`, time slices, the lane solver, drift limiting, split/merge seeding, multi-zone ribbons, ribbon paths, uncertainty caps, flow-conserving connectors, connector strokes, label fitting, short-ribbon labels, callout placement, level of detail, and the memoized orchestrator in `src/layout/index.ts`. Still to come: the layout report, `src/render`, `src/camera`, `src/state`, `src/ui`. Plan: `docs/CURSOR_PLAN.md`. Queue: Appendix E. Switches: `docs/RUN_CONFIG.md` (all off, `MAX_PHASE=7`).
+Vite 6 + React 19 + TypeScript, strict and `noUncheckedIndexedAccess`. v1 chart: `src/App.tsx`, `src/components/`, `src/data/*.ts`, `src/utils/timeLayout.ts`, `src/styles/app.css`. v2 schemas live in `src/data/schema` (zod is the source of truth). `src/data/index.ts` loads the v2 catalog and re-exports the v1 barrel from `legacy.ts`. `src/layout` has serializable types, `projectX`, time slices, the lane solver, drift limiting, split/merge seeding, multi-zone ribbons, ribbon paths, uncertainty caps, flow-conserving connectors, connector strokes, label fitting, short-ribbon labels, callout placement, level of detail, the memoized orchestrator in `src/layout/index.ts`, and the layout metrics. `npm run layout:report` writes `docs/reports/layout-latest.json`. Still to come: `src/render`, `src/camera`, `src/state`, `src/ui`. Plan: `docs/CURSOR_PLAN.md`. Queue: Appendix E. Switches: `docs/RUN_CONFIG.md` (all off, `MAX_PHASE=7`).
 
 ## Commands
 
-`npm run check` = typecheck + lint + design:lint + palette:check + vitest + validate:data. `npm run shots` writes Playwright PNGs. `npm run dev` / `build` / `preview`. `validate:data` loads relations and roots. An orphan warning means a polity is neither a target nor a reasoned root. Layout, perf, media, and export commands are still stubs. `media:fetch` refuses to download while `ALLOW_MEDIA_DOWNLOAD=false`. Checklist rows are applied with `npx tsx scripts/apply-roster.ts <family>`. Relations are regenerated with `npx tsx scripts/write-lineage.ts`.
+`npm run check` = typecheck + lint + design:lint + palette:check + vitest + validate:data. `npm run shots` writes Playwright PNGs. `npm run dev` / `build` / `preview`. `validate:data` loads relations and roots. An orphan warning means a polity is neither a target nor a reasoned root. Perf, media, and export commands are still stubs. `npm run layout:report` runs the real roster. `media:fetch` refuses to download while `ALLOW_MEDIA_DOWNLOAD=false`. Checklist rows are applied with `npx tsx scripts/apply-roster.ts <family>`. Relations are regenerated with `npx tsx scripts/write-lineage.ts`.
 
 ## Conventions
 
@@ -20,4 +20,4 @@ Poster and both Gemini PDFs are missing (Q-01). Gemini bibliography [1]–[37] w
 
 ## Next
 
-T2.17 layout report, on branch `v2/p2-layout`. The orchestrator is `layout()` in `src/layout/index.ts`. The early bin is 38/35. Tag `v2-p1-done` is `b4f3bea` only; `v2/main` was not moved. Merge this branch at the P2 gate. Do not start P8.
+T2.18 debug boxes and violations, on branch `v2/p2-layout`. Lanes are already on `LayoutResult.debug`. The early bin is 38/35. Tag `v2-p1-done` is `b4f3bea` only; `v2/main` was not moved. Merge this branch at the P2 gate. Do not start P8.

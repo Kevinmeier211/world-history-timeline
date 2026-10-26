@@ -169,6 +169,58 @@ function clampAll(
 /** Pull passes before the hard pack. Appendix G allows up to `ITERATIONS`. */
 const PULL_PASSES = Math.min(8, ITERATIONS);
 
+function shiftAll(
+  lanes: readonly { id: string }[],
+  x: Map<string, number>,
+  delta: number,
+): void {
+  if (delta === 0) return;
+  for (const lane of lanes) x.set(lane.id, (x.get(lane.id) ?? 0) + delta);
+}
+
+function chainEdges(
+  lanes: readonly { id: string; width: number }[],
+  x: ReadonlyMap<string, number>,
+): { left: number; right: number } {
+  const first = lanes[0];
+  const last = lanes.at(-1);
+  if (!first || !last) return { left: LEFT_GUTTER, right: LEFT_GUTTER };
+  return {
+    left: (x.get(first.id) ?? 0) - first.width / 2,
+    right: (x.get(last.id) ?? 0) + last.width / 2,
+  };
+}
+
+/**
+ * Enforce the gap, then keep the chain inside the plot.
+ * A spread wider than the plot is packed tight from the left edge.
+ */
+export function packLaneCenters(
+  lanes: readonly { id: string; width: number }[],
+  x: Map<string, number>,
+): void {
+  for (let index = 0; index < lanes.length - 1; index += 1) {
+    const left = lanes[index];
+    const right = lanes[index + 1];
+    if (!left || !right) continue;
+    const need = (left.width + right.width) / 2 + MIN_GAP;
+    const leftX = x.get(left.id) ?? 0;
+    if ((x.get(right.id) ?? 0) - leftX < need) x.set(right.id, leftX + need);
+  }
+  const plotRight = LEFT_GUTTER + PLOT_WIDTH;
+  let edges = chainEdges(lanes, x);
+  if (edges.right > plotRight) shiftAll(lanes, x, plotRight - edges.right);
+  edges = chainEdges(lanes, x);
+  if (edges.left < LEFT_GUTTER) shiftAll(lanes, x, LEFT_GUTTER - edges.left);
+  edges = chainEdges(lanes, x);
+  if (edges.left >= LEFT_GUTTER - 1e-6 && edges.right <= plotRight + 1e-6) return;
+  let cursor = LEFT_GUTTER;
+  for (const lane of lanes) {
+    x.set(lane.id, cursor + lane.width / 2);
+    cursor += lane.width + MIN_GAP;
+  }
+}
+
 /**
  * Enforce the gap in one sweep, then slide the chain back inside the plot.
  * Used when geographic pull keeps reopening a gap the slice can still hold.
@@ -178,33 +230,11 @@ function forcePack(
   x: Map<string, number>,
   byId: ReadonlyMap<string, LaneRibbon>,
 ): void {
-  for (let index = 0; index < order.length - 1; index += 1) {
-    const leftId = order[index];
-    const rightId = order[index + 1];
-    if (!leftId || !rightId) continue;
-    const left = byId.get(leftId);
-    const right = byId.get(rightId);
-    if (!left || !right) continue;
-    const need = (ribbonWidth(left.weight) + ribbonWidth(right.weight)) / 2 + MIN_GAP;
-    const leftX = x.get(leftId) ?? left.desiredX;
-    if ((x.get(rightId) ?? right.desiredX) - leftX < need) x.set(rightId, leftX + need);
-  }
-  const lastId = order.at(-1);
-  const last = lastId ? byId.get(lastId) : undefined;
-  if (lastId && last) {
-    const overflow = (x.get(lastId) ?? 0) - centerMax(ribbonWidth(last.weight));
-    if (overflow > 0) {
-      for (const id of order) x.set(id, (x.get(id) ?? 0) - overflow);
-    }
-  }
-  const firstId = order[0];
-  const first = firstId ? byId.get(firstId) : undefined;
-  if (firstId && first) {
-    const deficit = centerMin(ribbonWidth(first.weight)) - (x.get(firstId) ?? 0);
-    if (deficit > 0) {
-      for (const id of order) x.set(id, (x.get(id) ?? 0) + deficit);
-    }
-  }
+  const lanes = order.flatMap((id) => {
+    const ribbon = byId.get(id);
+    return ribbon ? [{ id, width: ribbonWidth(ribbon.weight) }] : [];
+  });
+  packLaneCenters(lanes, x);
 }
 
 function relax(

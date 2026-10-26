@@ -55,13 +55,26 @@ export function applyDrift(
     const y1 = y0 + height;
     const next = new Map<string, number>();
     const frames: DriftKeyframe[] = [];
-    for (const lane of slice.lanes) {
+    const proposed = slice.lanes.map((lane) => {
       const prior = previous.get(lane.id);
+      if (prior === undefined)
+        return { lane, prior, endX: lane.x, capped: false, delta: 0 };
+      const target = blend(prior, lane.x);
+      const limit = MAX_DRIFT * height;
+      const delta = target - prior;
+      const capped = height > 0 && Math.abs(delta) > limit;
+      const endX = capped ? prior + Math.sign(delta) * limit : target;
+      return { lane, prior, endX, capped, delta };
+    });
+    for (const item of proposed) next.set(item.lane.id, item.endX);
+    for (const item of proposed) {
+      const { lane, prior, capped, delta } = item;
+      const endX = next.get(lane.id) ?? item.endX;
       if (prior === undefined) {
         frames.push({
           id: lane.id,
           y: y0,
-          x: lane.x,
+          x: endX,
           width: lane.width,
           intermediate: false,
         });
@@ -69,19 +82,13 @@ export function applyDrift(
           frames.push({
             id: lane.id,
             y: y1,
-            x: lane.x,
+            x: endX,
             width: lane.width,
             intermediate: false,
           });
         }
-        next.set(lane.id, lane.x);
         continue;
       }
-      const target = blend(prior, lane.x);
-      const limit = MAX_DRIFT * height;
-      const delta = target - prior;
-      const capped = height > 0 && Math.abs(delta) > limit;
-      const endX = capped ? prior + Math.sign(delta) * limit : target;
       frames.push({
         id: lane.id,
         y: y0,
@@ -108,7 +115,6 @@ export function applyDrift(
           intermediate: false,
         });
       }
-      next.set(lane.id, endX);
     }
     previous.clear();
     for (const [id, x] of next) previous.set(id, x);
