@@ -1101,3 +1101,13 @@ Alternatives: Leave the 40 at importance 4. Mark them cross-checked from homepag
 Why: Importance 4 waits on an opened page that states the claim. The pages opened in this phase describe institutions, volume centuries, or a war from 1337 to 1453. They do not state these callout claims. Importance 3 still draws when the card fits. A collision drops it instead of forcing a marker.
 
 Reversible? y
+
+## 2026-10-26 — The P6 tag stays unapplied
+
+Decision: T6.99 writes `docs/reviews/M3.md` and does not create `v2-p6-done`. The era floors, the polity count, the callout count, and the tour count meet §7. Relations are 188, bands 13, routes 6, images 0, and callouts at importance 3 or higher are 58. Those five are short of 450, 35, 15, 120, and 100. The accuracy sample is the first tenth of each era bin, sorted by id, and it found no internal year mismatch. Nothing in it is cross-checked.
+
+Alternatives: Tag the branch because the task list reached T6.99. Add relations, bands, and routes until the counts clear. Turn on media download.
+
+Why: A tag named done would say the content gate passed. The short counts are real, and closing them here would invent rows or download images. `ALLOW_MEDIA_DOWNLOAD` stays false. `v2-p5-done` stays at `b5f7501`.
+
+Reversible? y
