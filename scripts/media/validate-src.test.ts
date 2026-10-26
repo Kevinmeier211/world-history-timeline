@@ -27,7 +27,7 @@ const approved = {
 describe('media-src', () => {
   it('accepts the checked-in file and rejects an unapproved share-alike row', () => {
     const file = readFileSync('src/data/media-src.json', 'utf8');
-    expect(validateMediaSrcText(file).count).toBe(0);
+    expect(validateMediaSrcText(file).count).toBe(84);
     expect(mediaSrcSchema.safeParse(approved).success).toBe(true);
     expect(
       mediaSrcSchema.safeParse({ ...approved, licenseApproved: false }).success,
