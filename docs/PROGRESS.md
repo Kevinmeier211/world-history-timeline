@@ -102,7 +102,8 @@
 | T5.12 | done | e41dea0 | table tests sort years across the missing year 0, follow fold and pin, and window rows; a row opens the dossier | 35 | Callouts stay with the polity they attach to. See DECISIONS. |
 | T5.13 | done | 7801bb9 | tab-order test reads y then x; shell test focuses the chart from Skip to chart and keeps ribbon y sorted | 25 | Panels take focus and hand it back. Reduced motion clears transition time. See DECISIONS. |
 | T5.14 | done | 85f7eab | era tests list Bronze polities in year order; shell test opens Egyptian New Kingdom from the era sheet; a pinch triples the scale | 30 | On a phone the dossier and era list are bottom sheets. Lens and View words collapse. See DECISIONS. |
-| T5.15 | done | (this commit) | milestone tests drop year 0 and a blocked store; a locked year can add and remove a mark; the mark is a dashed outline | 25 | Marks stay out of the catalog. Twelve is the cap. See DECISIONS. |
+| T5.15 | done | 20001f3 | milestone tests drop year 0 and a blocked store; a locked year can add and remove a mark; the mark is a dashed outline | 25 | Marks stay out of the catalog. Twelve is the cap. See DECISIONS. |
+| T5.16 | done | (this commit) | `npm run axe` is clean for serious and critical on chart, dossier, dark theme, table, search, reading key, stories, columns, and era reading | 30 | The Overview control says Overview. Dossier buttons use paper and ink. See DECISIONS. |
 
 ## Blocked
 

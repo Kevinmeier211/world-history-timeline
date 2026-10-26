@@ -651,3 +651,13 @@ Alternatives: Write marks into the polity JSON. Style them as solid catalog call
 Why: T5.15 asks for the custom-milestone store, dashed-outline styling, and try/catch around storage. The catalog stays sourced.
 
 Reversible? y
+
+## 2026-10-26 — Axe scenes report no serious or critical issues
+
+Decision: `npm run axe` runs `@axe-core/playwright` on the chart, an open dossier, the dark theme, table view, search, the reading key, stories, columns, and era reading. It runs at 1440×900, 1920×1080, and 390×844. The run fails if any violation is serious or critical. The Overview control’s visible word is Overview, matching its accessible name. Dossier buttons paint paper behind ink, so the dark theme stays above 4.5:1. Moderate landmark notes remain: the top bar and the title band are both banners, and the page has no main landmark.
+
+Alternatives: Hide the Overview mismatch with an aria-label that drops the visible word. Exclude the chart from the panel scenes. Treat moderate landmarks as failures in this pass.
+
+Why: T5.16 asks for scripted axe checks across scenes and zero serious or critical violations.
+
+Reversible? y

@@ -542,7 +542,14 @@
 }
 
 .dossier-head button,
-.dossier section button,
+.dossier section button {
+  border: 1px solid var(--rule);
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 13px;
+}
+
 .dossier a {
   color: var(--ink);
   font-family: var(--font-body);

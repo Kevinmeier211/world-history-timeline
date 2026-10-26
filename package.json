@@ -17,6 +17,7 @@
     "watermark": "tsx scripts/make-watermark.ts",
     "report:unverified": "tsx scripts/report-unverified.ts",
     "shots": "tsx scripts/shots.ts",
+    "axe": "playwright test tests/e2e/axe.spec.ts --reporter=line",
     "perf": "tsx scripts/perf.ts",
     "media:plan": "tsx scripts/media/plan.ts",
     "media:fetch": "tsx scripts/media/fetch.ts",
