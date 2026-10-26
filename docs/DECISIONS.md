@@ -681,3 +681,13 @@ Alternatives: Ship the ellipsis. Drop the label to hover-only and call the pair 
 Why: Item 8 asks for labels that are not clipped. Shortening a name to delete an overlap does not pass it.
 
 Reversible? y
+
+## 2026-10-26 — The poster JavaScript stays under 400 KB gzipped
+
+Decision: `lucide-react` is not imported, so it is removed. `npm run bundle:check` builds the poster and fails when the gzipped JavaScript in `dist/assets` is missing or over 400 KB. This build is 233.77 KB gzipped. The check is not part of `npm run check`.
+
+Alternatives: Leave the unused dependency. Split the bundle in this pass.
+
+Why: T5.20 asks to remove `lucide-react` when nothing uses it, and to check the gzipped JavaScript against 400 KB.
+
+Reversible? y
