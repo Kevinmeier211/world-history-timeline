@@ -961,3 +961,13 @@ Alternatives: Invent 1517–1648, 1543–1687, or 1300–1850. Copy the discover
 Why: A new band has to use a span the dataset already dates. The two existing bands already cover the dated frames this pass can stand on.
 
 Reversible? y
+
+## 2026-10-26 — Early-modern importance stays at the rows already set
+
+Decision: No 1500–1800 row was raised to importance 3 or 4 in this pass. `denmark_norway` stays weight 0.22. `sweden_1523` stays weight 0.35. `npm run layout:report` after the new rows and callouts: 238 ribbons drawn, 436 polities, 0 overlaps, minimum gap 6, importance-3 labels 82/82, 0 unroutable relations, 82 omitted, max drift 3.211. Cold runtime 259 ms, warm 156 ms, over the 150 ms gate. Callouts dropped 100, with 13 markers and 46 placed. The layout engine was not changed.
+
+Alternatives: Raise Ming, the Mughals, Habsburg Spain, and the Safavids to importance 3. Raise any of them to importance 4 from the UNESCO volume list.
+
+Why: Importance 4 still waits on an opened page that states the claim. The warm runtime is already over the gate, and another wider spine is not required to keep overlaps at 0.
+
+Reversible? y
