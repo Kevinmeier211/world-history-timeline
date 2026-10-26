@@ -1,0 +1,96 @@
+[
+  {
+    "id": "tour_industrial",
+    "title": "Industrial transformation",
+    "subtitle": "The 1700–1900 band and the states inside it",
+    "waypoints": [
+      {
+        "title": "United Kingdom, 1801",
+        "year": 1801,
+        "zoom": 1.6,
+        "lens": "technology",
+        "polityId": "united_kingdom",
+        "narrative": "This stop sits on the United Kingdom row, which the checklist starts in 1801. The industrial band on the poster runs from 1700 to 1900 and is the frame for steam, factories, and rail. The cited page was not opened.",
+        "sourceIds": ["cambridge_histories", "british_library"],
+        "verification": "unverified"
+      },
+      {
+        "title": "Empire of Japan, 1868",
+        "year": 1868,
+        "zoom": 1.6,
+        "lens": "technology",
+        "polityId": "empire_of_japan",
+        "narrative": "The Empire of Japan checklist row starts in 1868, inside the same 1700–1900 band. The stop uses that year. It does not add a separate date for factories or railways. The cited page was not opened.",
+        "sourceIds": ["cambridge_histories", "british_library"],
+        "verification": "unverified"
+      },
+      {
+        "title": "German Empire, 1871",
+        "year": 1871,
+        "zoom": 1.6,
+        "lens": "technology",
+        "polityId": "german_empire",
+        "narrative": "The German Empire checklist row starts in 1871, still inside the industrial band. The stop uses that checklist year and does not add a separate founding story. The cited page was not opened.",
+        "sourceIds": ["cambridge_histories", "british_library"],
+        "verification": "unverified"
+      },
+      {
+        "title": "Band end, 1900",
+        "year": 1900,
+        "zoom": 1.4,
+        "lens": "technology",
+        "polityId": "united_states",
+        "narrative": "The industrial band ends in 1900. The United States row, started by the checklist in 1776, is still current. The world-wars band on this poster begins in 1914. The cited page was not opened.",
+        "sourceIds": ["cambridge_histories", "british_library"],
+        "verification": "unverified"
+      }
+    ]
+  },
+  {
+    "id": "tour_decolonization",
+    "title": "Decolonization",
+    "subtitle": "Independence dates and the 1950–1975 band",
+    "waypoints": [
+      {
+        "title": "India, 1947",
+        "year": 1947,
+        "zoom": 1.6,
+        "lens": "politics",
+        "polityId": "india",
+        "narrative": "India and Pakistan share the checklist year 1947. This stop sits on India. Bangladesh is a later checklist row, from 1971. The cited page was not opened.",
+        "sourceIds": ["cambridge_histories", "british_library"],
+        "verification": "unverified"
+      },
+      {
+        "title": "Indonesia, 1945",
+        "year": 1945,
+        "zoom": 1.6,
+        "lens": "politics",
+        "polityId": "indonesia",
+        "narrative": "Indonesia’s checklist row starts in 1945. Burma’s independence is widely dated to 1948, and Laos and Cambodia to 1953. Those years are on the rows. The cited page was not opened.",
+        "sourceIds": ["cambridge_histories", "british_library"],
+        "verification": "unverified"
+      },
+      {
+        "title": "African independence, 1950",
+        "year": 1950,
+        "zoom": 1.5,
+        "lens": "politics",
+        "polityId": "african_independence",
+        "narrative": "The African independence row runs from 1950 to 1975. The checklist gives that band and does not name each state. This stop uses 1950. The cited page was not opened.",
+        "sourceIds": ["unesco_gha", "british_library"],
+        "verification": "unverified"
+      },
+      {
+        "title": "Band end, 1975",
+        "year": 1975,
+        "zoom": 1.5,
+        "lens": "politics",
+        "polityId": "african_independence",
+        "narrative": "The same African row ends in 1975, which is also the end of the decolonization band. The Central Asian republics on this chart use 1991, outside that band. The cited page was not opened.",
+        "sourceIds": ["unesco_gha", "british_library"],
+        "verification": "unverified"
+      }
+    ]
+  }
+]

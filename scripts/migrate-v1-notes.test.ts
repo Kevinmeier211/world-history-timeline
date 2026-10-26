@@ -171,7 +171,16 @@ describe('migrated annotation files', () => {
       ]),
     );
     expect(data.routes).toHaveLength(6);
-    expect(data.tours).toHaveLength(3);
+    expect(data.tours).toHaveLength(5);
+    expect(data.tours).toEqual(
+      expect.arrayContaining([
+        expect.objectContaining({ id: 'tour_bronze_collapse' }),
+        expect.objectContaining({ id: 'tour_axial_age' }),
+        expect.objectContaining({ id: 'tour_rome_han' }),
+        expect.objectContaining({ id: 'tour_industrial' }),
+        expect.objectContaining({ id: 'tour_decolonization' }),
+      ]),
+    );
     expect(data.presets).toHaveLength(5);
   });
 });

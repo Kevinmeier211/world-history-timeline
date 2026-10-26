@@ -1,0 +1,95 @@
+[
+  {
+    "eraId": "era_1800_2000",
+    "macroRegion": "americas",
+    "entries": [
+      {
+        "range": "1804–2000",
+        "text": "Haiti’s independence is widely dated to 1804, the Empire of Brazil to 1822, and the republic to 1889. Cuba’s republic is widely dated to 1902. The checklist already dates the United States, Canada, Mexico, and the Andean republics. The cited pages were not opened.",
+        "sourceIds": ["cambridge_histories", "british_library"]
+      }
+    ],
+    "whyItMatters": "The modern Americas here are independence dates and republics, including states the checklist does not date.",
+    "connections": ["Europe’s rows leave the Americas on the same sheet."]
+  },
+  {
+    "eraId": "era_1800_2000",
+    "macroRegion": "europe",
+    "entries": [
+      {
+        "range": "1795–2000",
+        "text": "Poland-Lithuania ends in 1795 on the checklist. Later Polish rows use 1807, 1815, 1918, and 1945. Yugoslavia and Czechoslovakia also use 1918. France, Britain, Germany, and Russia stay on their checklist years. The cited pages were not opened.",
+        "sourceIds": ["cambridge_histories", "british_library"]
+      }
+    ],
+    "whyItMatters": "The restored states of 1918 sit beside the checklist empires that end in the same years.",
+    "connections": ["The Ottoman checklist end in 1922 meets Turkey in West Asia."]
+  },
+  {
+    "eraId": "era_1800_2000",
+    "macroRegion": "africa",
+    "entries": [
+      {
+        "range": "1950–1975",
+        "text": "The checklist dates Egypt, Solomonic Ethiopia, and South Africa, and an independence band from 1950 to 1975. That band still does not name each state. The cited pages were not opened.",
+        "sourceIds": ["unesco_gha", "british_library"]
+      }
+    ],
+    "whyItMatters": "The independence band is a dated wave, not a list of every new African state.",
+    "connections": ["The decolonization tour stops on that 1950–1975 row."]
+  },
+  {
+    "eraId": "era_1800_2000",
+    "macroRegion": "west_central_asia",
+    "entries": [
+      {
+        "range": "1747–2000",
+        "text": "Turkey’s republic is widely dated to 1923, a year after the checklist Ottoman end. The Gulf cluster uses 1971 for Bahrain, Qatar, and the UAE. Afghanistan uses 1747. The Central Asian republics use 1991. The cited pages were not opened.",
+        "sourceIds": ["cambridge_histories", "unesco_gha"]
+      }
+    ],
+    "whyItMatters": "These rows fill states the checklist names only by an end year, or does not date at all.",
+    "connections": ["Iran stays on the Qajar, Pahlavi, and 1979 checklist rows."]
+  },
+  {
+    "eraId": "era_1800_2000",
+    "macroRegion": "south_asia",
+    "entries": [
+      {
+        "range": "1768–2000",
+        "text": "Nepal’s unification is widely dated to 1768. Sri Lanka’s independence is widely dated to 1948, with the republic name in 1972. The checklist dates the Raj through 1947 and India and Pakistan from that year. The cited pages were not opened.",
+        "sourceIds": ["cambridge_histories", "british_library"]
+      }
+    ],
+    "whyItMatters": "Sri Lanka and Nepal are on the chart beside the Raj succession, not inside it.",
+    "connections": [
+      "India and Pakistan are already current in 1948, so Sri Lanka is not their successor."
+    ]
+  },
+  {
+    "eraId": "era_1800_2000",
+    "macroRegion": "east_asia",
+    "entries": [
+      {
+        "range": "1911–2000",
+        "text": "Mongolia’s autonomy is widely dated to 1911. Taiwan uses 1949 for the government on the island, beside the checklist Republic of China row that already runs from 1912. The checklist dates the People’s Republic at 1949 and the two Koreas at 1948. The cited pages were not opened.",
+        "sourceIds": ["chgis", "cambridge_histories"]
+      }
+    ],
+    "whyItMatters": "Taiwan is a debated island row beside the Republic of China, not a second founding of that republic.",
+    "connections": ["The Qing checklist row ends in 1912."]
+  },
+  {
+    "eraId": "era_1800_2000",
+    "macroRegion": "se_asia_oceania",
+    "entries": [
+      {
+        "range": "1885–2000",
+        "text": "British Burma uses 1885, the checklist end of the Konbaung, through independence in 1948. Laos and Cambodia use 1953. Malaysia uses 1957, with 1963 noted and not used as the start. The checklist already dates Indonesia, Vietnam, Thailand, Australia, and New Zealand. The cited pages were not opened.",
+        "sourceIds": ["field_museum", "unesco_mow"]
+      }
+    ],
+    "whyItMatters": "Mainland Southeast Asia after the Konbaung and Nguyen years is no longer an empty gap.",
+    "connections": ["The Nguyen checklist row ends in 1945."]
+  }
+]
