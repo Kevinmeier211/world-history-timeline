@@ -166,23 +166,59 @@ function clampAll(
   }
 }
 
+/** Pull passes before the hard pack. Appendix G allows up to `ITERATIONS`. */
+const PULL_PASSES = Math.min(8, ITERATIONS);
+
+/**
+ * Enforce the gap in one sweep, then slide the chain back inside the plot.
+ * Used when geographic pull keeps reopening a gap the slice can still hold.
+ */
+function forcePack(
+  order: readonly string[],
+  x: Map<string, number>,
+  byId: ReadonlyMap<string, LaneRibbon>,
+): void {
+  for (let index = 0; index < order.length - 1; index += 1) {
+    const leftId = order[index];
+    const rightId = order[index + 1];
+    if (!leftId || !rightId) continue;
+    const left = byId.get(leftId);
+    const right = byId.get(rightId);
+    if (!left || !right) continue;
+    const need = (ribbonWidth(left.weight) + ribbonWidth(right.weight)) / 2 + MIN_GAP;
+    const leftX = x.get(leftId) ?? left.desiredX;
+    if ((x.get(rightId) ?? right.desiredX) - leftX < need) x.set(rightId, leftX + need);
+  }
+  const lastId = order.at(-1);
+  const last = lastId ? byId.get(lastId) : undefined;
+  if (lastId && last) {
+    const overflow = (x.get(lastId) ?? 0) - centerMax(ribbonWidth(last.weight));
+    if (overflow > 0) {
+      for (const id of order) x.set(id, (x.get(id) ?? 0) - overflow);
+    }
+  }
+  const firstId = order[0];
+  const first = firstId ? byId.get(firstId) : undefined;
+  if (firstId && first) {
+    const deficit = centerMin(ribbonWidth(first.weight)) - (x.get(firstId) ?? 0);
+    if (deficit > 0) {
+      for (const id of order) x.set(id, (x.get(id) ?? 0) + deficit);
+    }
+  }
+}
+
 function relax(
   order: readonly string[],
   x: Map<string, number>,
   byId: ReadonlyMap<string, LaneRibbon>,
 ): void {
-  for (let iteration = 0; iteration < ITERATIONS; iteration += 1) {
+  for (let iteration = 0; iteration < PULL_PASSES; iteration += 1) {
     separate(order, x, byId);
     pullTowardDesired(order, x, byId);
     clampAll(order, x, byId);
     if (maxOverlap(order, x, byId) < OVERLAP_LIMIT) return;
   }
-  // The geographic pull is soft. A last separation pass restores the hard gap.
-  for (let iteration = 0; iteration < ITERATIONS; iteration += 1) {
-    if (maxOverlap(order, x, byId) < OVERLAP_LIMIT) return;
-    separate(order, x, byId);
-    clampAll(order, x, byId);
-  }
+  forcePack(order, x, byId);
 }
 
 /** Order each slice, then relax centers. A continuing ribbon seeds from its previous x. */
@@ -196,7 +232,12 @@ export function solveLanes(
   for (let index = 0; index < slices.length; index += 1) {
     const slice = slices[index];
     if (!slice) continue;
-    const upcoming = slices.slice(index + 1).flatMap((item) => item.ribbons);
+    const needsParents = relations.some(
+      (relation) => relation.type === 'merge' && relation.year === slice.end,
+    );
+    const upcoming = needsParents
+      ? slices.slice(index + 1).flatMap((item) => item.ribbons)
+      : [];
     const ribbons = convergeParents(slice.ribbons, relations, slice.end, upcoming);
     const byId = new Map(ribbons.map((ribbon) => [ribbon.id, ribbon]));
     const seeds = lineageSeedMap(ribbons, relations, slice.start, previousX);

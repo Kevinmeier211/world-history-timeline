@@ -234,10 +234,20 @@ Reversible? y
 
 ## 2026-10-26 — Overview hides importance below a zoom floor
 
-Decision: `importanceThreshold` is 1 at zoom 2, 2 at 1.25, 3 at 0.85, 4 at 0.5, and 5 below that. Grouped polities collapse below zoom 0.85. The crossfade is 0.08 zoom units on either side. A collapsed ribbon spans the members' earliest start to their latest end.
+Decision: `importanceThreshold` is 1 at zoom 1.6, 2 at 0.8, 3 at 0.45, 4 at 0.25, and 5 below that. Zoom 1 therefore keeps importance 2. Grouped polities collapse below zoom 0.85. The crossfade is 0.08 zoom units on either side. A collapsed ribbon spans the members' earliest start to their latest end.
 
 Alternatives: Hide by count instead of importance. Collapse only the Chinese group. Fade over a fixed pixel band.
 
-Why: §6.4 names a zoom threshold and a group collapse, and it does not give the numbers. These bands keep an overview readable and still show an importance-5 polity beside its collapsed neighbors.
+Why: §6.4 names a zoom threshold and a group collapse, and it does not give the numbers. Zoom 1 is the poster default, and almost every roster row is importance 2, so that zoom has to keep them. Lower zoom still drops to the important rows and the collapsed groups.
+
+Reversible? y
+
+## 2026-10-26 — Crowded slices drop the least important ribbons
+
+Decision: A slice whose minimum widths do not fit the plot drops the lowest importance until they do. An importance tie keeps the earlier id. The solver makes 8 geographic passes, then a hard pack restores the gap. A centerline sample within 1 px of the chord is dropped.
+
+Alternatives: Draw every ribbon and allow overlaps. Shrink below the 12 px minimum. Run all 40 pull passes on every slice.
+
+Why: The busiest slice holds 87 ribbons, and even the minimum width does not fit in 1332 px. Appendix G stops at 40 passes or when the overlap is under 0.5 px. The hard pack meets that bound when the slice fits. Eight pull passes still leave a heavier ribbon closer to its desired x.
 
 Reversible? y

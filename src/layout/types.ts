@@ -55,6 +55,8 @@ export interface LayoutKeyframe {
   x: number;
   /** Full ribbon width in design px at this y. */
   width: number;
+  /** True when this sample starts a new piece after the ribbon was culled. */
+  breakBefore?: boolean;
 }
 
 /** One polity ribbon after geometry. */
@@ -67,6 +69,8 @@ export interface LayoutRibbon {
   d: string;
   /** Centerline samples from the lane solver. */
   keyframes: readonly LayoutKeyframe[];
+  /** Crossfade opacity. Omitted means fully visible. */
+  opacity?: number;
 }
 
 /** One relation curve. */
@@ -104,6 +108,8 @@ export interface LayoutLabel {
   orientation: LayoutLabelOrientation;
   /** False when the label is hover-only because it did not fit. */
   fitted: boolean;
+  /** Leader for a label that sits outside a short ribbon. */
+  leader?: LayoutLeader;
 }
 
 /** Leader from a ribbon edge to a callout card. */

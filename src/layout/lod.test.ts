@@ -10,10 +10,11 @@ const dynasties: LodPolity[] = [
 
 describe('level of detail', () => {
   it('raises the importance floor as the zoom falls', () => {
-    expect(importanceThreshold(2)).toBe(1);
-    expect(importanceThreshold(1.25)).toBe(2);
-    expect(importanceThreshold(0.85)).toBe(3);
-    expect(importanceThreshold(0.5)).toBe(4);
+    expect(importanceThreshold(1.6)).toBe(1);
+    expect(importanceThreshold(1)).toBe(2);
+    expect(importanceThreshold(0.8)).toBe(2);
+    expect(importanceThreshold(0.45)).toBe(3);
+    expect(importanceThreshold(0.25)).toBe(4);
     expect(importanceThreshold(0.2)).toBe(5);
     expect(importanceThreshold(0)).toBe(5);
     expect(importanceThreshold(Number.NaN)).toBe(5);

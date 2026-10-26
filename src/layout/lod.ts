@@ -34,13 +34,16 @@ export const COLLAPSE_ZOOM = 0.85;
 /** Half-width of the crossfade, in zoom units. */
 export const CROSSFADE_BAND = 0.08;
 
-/** Lowest importance still drawn at `zoom`. 1 shows everything. */
+/**
+ * Lowest importance still drawn at `zoom`. 1 shows everything.
+ * Zoom 1 is the poster default, so it keeps importance 2.
+ */
 export function importanceThreshold(zoom: number): number {
   if (!Number.isFinite(zoom) || zoom <= 0) return 5;
-  if (zoom >= 2) return 1;
-  if (zoom >= 1.25) return 2;
-  if (zoom >= 0.85) return 3;
-  if (zoom >= 0.5) return 4;
+  if (zoom >= 1.6) return 1;
+  if (zoom >= 0.8) return 2;
+  if (zoom >= 0.45) return 3;
+  if (zoom >= 0.25) return 4;
   return 5;
 }
 

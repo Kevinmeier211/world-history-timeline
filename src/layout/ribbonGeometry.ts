@@ -170,18 +170,12 @@ export function sampleCenterline(
   return samples;
 }
 
-function segmentCubics(points: readonly RibbonPoint[], side: -1 | 1): Cubic[] {
-  const curve = monotonePoints(points);
-  if (curve.length < 2) return [];
-  const t = curve.map((point) => point.y);
-  const xs = monotoneTangents(
-    t,
-    curve.map((point) => point.x),
-  );
-  const widths = monotoneTangents(
-    t,
-    curve.map((point) => point.width),
-  );
+function segmentCubics(
+  curve: readonly RibbonPoint[],
+  side: -1 | 1,
+  xs: readonly number[],
+  widths: readonly number[],
+): Cubic[] {
   const cubics: Cubic[] = [];
   for (let index = 0; index < curve.length - 1; index += 1) {
     const left = curve[index];
@@ -260,8 +254,17 @@ export function ribbonPath(points: readonly RibbonPoint[]): string {
   const first = curve[0];
   const last = curve.at(-1);
   if (!first || !last || curve.length < 2) return '';
-  const down = segmentCubics(curve, -1);
-  const up = segmentCubics(curve, 1).reverse().map(reverseCubic);
+  const t = curve.map((point) => point.y);
+  const xs = monotoneTangents(
+    t,
+    curve.map((point) => point.x),
+  );
+  const widths = monotoneTangents(
+    t,
+    curve.map((point) => point.width),
+  );
+  const down = segmentCubics(curve, -1, xs, widths);
+  const up = segmentCubics(curve, 1, xs, widths).reverse().map(reverseCubic);
   const endCap = capCubics(last.x, last.y, last.width / 2, 1);
   const startCap = capCubics(first.x, first.y, first.width / 2, -1)
     .reverse()

@@ -13,6 +13,13 @@ export const MIN_GAP = 6;
 /** Centerline drift limit, design px of x per design px of y. */
 export const MAX_DRIFT = 0.35;
 export const MIN_TRANSITION = 60;
+/** Major tick spacing, in years. */
+export const GRID_MAJOR = 500;
+/** Minor tick spacing, in years. */
+export const GRID_MINOR = 100;
+/** First and last years of the poster axis. */
+export const AXIS_START = -3300;
+export const AXIS_END = 2000;
 
 /** Ribbon width from Appendix G. Weight is clamped to [0.05, 1]. */
 export function ribbonWidth(weight: number): number {
