@@ -641,3 +641,13 @@ Alternatives: Keep the side dossier on a phone. Add a separate mobile route. Tre
 Why: T5.14 asks for a bottom-sheet dossier, a collapsed toolbar, pinch zoom, and era reading mode.
 
 Reversible? y
+
+## 2026-10-26 — Custom milestones stay out of the catalog
+
+Decision: A mark is a year plus a short label, at most 12, stored in localStorage under `chronos-milestones`. Reading and writing are wrapped in try/catch. Bad JSON, year 0, a year outside 3300 BCE–2000 CE, and a blocked store do not throw. A blocked store keeps the list in memory for the session. The same label at the same year replaces itself. Marks draw as dashed outlines on the chart and can be added or removed from the locked year card. They are not catalog callouts, they have no source, and they do not appear in the table.
+
+Alternatives: Write marks into the polity JSON. Style them as solid catalog callouts. Drop the list when storage throws.
+
+Why: T5.15 asks for the custom-milestone store, dashed-outline styling, and try/catch around storage. The catalog stays sourced.
+
+Reversible? y

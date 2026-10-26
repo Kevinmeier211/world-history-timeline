@@ -4,6 +4,7 @@ import userEvent from '@testing-library/user-event';
 import { afterEach, describe, expect, it, vi } from 'vitest';
 
 import { clientDataset } from '../data/clientDataset.ts';
+import { addMilestone, removeMilestone, type Milestone } from '../state/milestones.ts';
 import type { MacroRegion } from '../data/schema/primitives.ts';
 import { yOfYear } from '../layout/drift.ts';
 import { ScrubberView } from './Scrubber.tsx';
@@ -167,6 +168,41 @@ describe('year scrubber', () => {
     expect(onPick).toHaveBeenCalledWith('rome');
     await user.click(screen.getByRole('button', { name: 'Unlock' }));
     expect(screen.queryByRole('region', { name: 'World in 221 BCE' })).toBeNull();
+  });
+
+  it('adds and removes a mark on the locked year', async () => {
+    const user = userEvent.setup();
+    function Harness() {
+      const [marks, setMarks] = useState<Milestone[]>([]);
+      return createElement(ScrubberView, {
+        year: -221,
+        locked: true,
+        playing: false,
+        reduced: false,
+        regions: [],
+        milestones: marks,
+        onAddMilestone: (year: number, label: string) => {
+          setMarks((rows) => addMilestone(rows, year, label));
+        },
+        onRemoveMilestone: (id: string) => {
+          setMarks((rows) => removeMilestone(rows, id));
+        },
+        onLock: () => {},
+        onUnlock: () => {},
+        onPick: () => {},
+        onPlay: () => {},
+        onPause: () => {},
+      });
+    }
+    render(createElement(Harness));
+    await user.type(
+      screen.getByRole('textbox', { name: 'Mark this year' }),
+      'Family note',
+    );
+    await user.click(screen.getByRole('button', { name: 'Add mark' }));
+    expect(screen.getByText('Family note')).toBeTruthy();
+    await user.click(screen.getByRole('button', { name: 'Remove Family note' }));
+    expect(screen.queryByText('Family note')).toBeNull();
   });
 
   it('disables time-lapse when motion is reduced', async () => {

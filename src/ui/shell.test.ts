@@ -6,6 +6,7 @@ import userEvent from '@testing-library/user-event';
 import { afterEach, describe, expect, it, vi } from 'vitest';
 
 import { COMPARE_STORAGE_KEY } from '../state/compares.ts';
+import { MILESTONE_STORAGE_KEY } from '../state/milestones.ts';
 import { resetView } from '../state/view.ts';
 import { PosterApp } from './PosterApp.tsx';
 import { applyTheme, posterSpan, THEME_STORAGE_KEY } from './frame.ts';
@@ -34,6 +35,7 @@ describe('poster shell', () => {
     applyTheme('system', document.documentElement);
     localStorage.removeItem(THEME_STORAGE_KEY);
     localStorage.removeItem(COMPARE_STORAGE_KEY);
+    localStorage.removeItem(MILESTONE_STORAGE_KEY);
     resetView();
     window.history.replaceState(null, '', '/');
     vi.unstubAllGlobals();

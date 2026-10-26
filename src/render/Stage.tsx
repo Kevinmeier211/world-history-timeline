@@ -1,6 +1,8 @@
 import type { Camera, Size, WorldBox } from '../camera/camera.ts';
+import type { Milestone } from '../state/milestones.ts';
 import type { LensId } from '../ui/frame.ts';
 import { Arcs } from './Arcs.tsx';
+import { MilestoneMarks } from './MilestoneMarks.tsx';
 import { Bands } from './Bands.tsx';
 import { Connectors } from './Connectors.tsx';
 import { Guides } from './Guides.tsx';
@@ -29,6 +31,7 @@ export function Stage({
   onSelect,
   onClear,
   lens = 'all',
+  milestones = [],
 }: {
   camera: Camera;
   viewport: Size;
@@ -44,6 +47,7 @@ export function Stage({
   onSelect?: (id: string) => void;
   onClear?: () => void;
   lens?: LensId;
+  milestones?: readonly Milestone[];
 }) {
   const windows: YSpan[] = [
     ...spans,
@@ -91,6 +95,7 @@ export function Stage({
         opacity={lensOpacity(lens, 'polity')}
       />
       <Arcs lens={lens} />
+      <MilestoneMarks marks={milestones} />
       {shown
         .filter((span) => extraIds.has(span.id))
         .map((span) => (

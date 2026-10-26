@@ -8,6 +8,7 @@ import { useFoldedPaint } from './useFoldedPaint.ts';
 import { Scrubber } from './Scrubber.tsx';
 import { bindPinch } from './pinch.ts';
 import { Stage } from './Stage.tsx';
+import { useMilestones } from './useMilestones.ts';
 import { Tooltip } from './Tooltip.tsx';
 import { ZoomBar } from './ZoomBar.tsx';
 import { cameraFromScroll, stageScale } from './visible.ts';
@@ -52,6 +53,7 @@ export function ChartViewport({
   onOpen?: (id: string | null) => void;
 }) {
   const host = useRef<HTMLDivElement>(null);
+  const milestones = useMilestones();
   const [metrics, setMetrics] = useState<Metrics | null>(null);
   const [overlay, setOverlay] = useState<OverlayOffsets | null>(null);
   const [zoom, setZoom] = useState(1);
@@ -277,6 +279,7 @@ export function ChartViewport({
           connectors={paint.connectors}
           bands={paint.bands}
           selectedId={selectedId}
+          milestones={milestones.marks}
           lens={lens}
           onSelect={(id) => {
             const current = useView.getState().link;
@@ -303,6 +306,9 @@ export function ChartViewport({
           useView.getState().setLink({ ...current, sel: id }, 'replace');
           onOpen?.(id);
         }}
+        milestones={milestones.marks}
+        onAddMilestone={milestones.add}
+        onRemoveMilestone={milestones.remove}
         onYear={(next) => {
           const scroller = scrollerOf(host.current);
           if (!scroller) return;

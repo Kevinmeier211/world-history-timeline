@@ -3,6 +3,7 @@ import { useEffect, useLayoutEffect, useMemo, useRef, useState, type Ref } from 
 import { clientDataset } from '../data/clientDataset.ts';
 import { yOfYear } from '../layout/drift.ts';
 import { formatYear } from '../lib/years.ts';
+import { type Milestone } from '../state/milestones.ts';
 import {
   designYFromClient,
   FAMILY_MACRO,
@@ -14,6 +15,49 @@ import {
   worldAtYear,
   type RegionSnapshot,
 } from './scrub.ts';
+
+function MilestoneForm({
+  year,
+  marks,
+  onAdd,
+  onRemove,
+}: {
+  year: number;
+  marks: readonly Milestone[];
+  onAdd: (year: number, label: string) => void;
+  onRemove: (id: string) => void;
+}) {
+  const here = marks.filter((mark) => mark.year === year);
+  return (
+    <form
+      className="milestone-form"
+      onSubmit={(event) => {
+        event.preventDefault();
+        const data = new FormData(event.currentTarget);
+        onAdd(year, String(data.get('label') ?? ''));
+        event.currentTarget.reset();
+      }}
+    >
+      <label>
+        Mark this year
+        <input name="label" maxLength={48} />
+      </label>
+      <button type="submit">Add mark</button>
+      {here.length > 0 ? (
+        <ul>
+          {here.map((mark) => (
+            <li key={mark.id}>
+              <span>{mark.label}</span>
+              <button type="button" onClick={() => onRemove(mark.id)}>
+                {`Remove ${mark.label}`}
+              </button>
+            </li>
+          ))}
+        </ul>
+      ) : null}
+    </form>
+  );
+}
 
 export function ScrubberView({
   year,
@@ -27,6 +71,9 @@ export function ScrubberView({
   onPause,
   onPick,
   lineRef,
+  milestones = [],
+  onAddMilestone,
+  onRemoveMilestone,
 }: {
   year: number;
   locked: boolean;
@@ -39,6 +86,9 @@ export function ScrubberView({
   onPause: () => void;
   onPick: (id: string) => void;
   lineRef?: Ref<HTMLDivElement>;
+  milestones?: readonly Milestone[];
+  onAddMilestone?: (year: number, label: string) => void;
+  onRemoveMilestone?: (id: string) => void;
 }) {
   const label = formatYear(year);
   return (
@@ -93,6 +143,14 @@ export function ScrubberView({
       {locked ? (
         <section className="scrub-card" aria-label={`World in ${label}`}>
           <h3>World in {label}</h3>
+          {onAddMilestone && onRemoveMilestone ? (
+            <MilestoneForm
+              year={year}
+              marks={milestones}
+              onAdd={onAddMilestone}
+              onRemove={onRemoveMilestone}
+            />
+          ) : null}
           <ul>
             {regions.map((region) => (
               <li key={region.id}>
@@ -132,11 +190,17 @@ export function Scrubber({
   scrollTop,
   onPick,
   onYear,
+  milestones,
+  onAddMilestone,
+  onRemoveMilestone,
 }: {
   scale: number;
   scrollTop: number;
   onPick: (id: string) => void;
   onYear?: (year: number) => void;
+  milestones: readonly Milestone[];
+  onAddMilestone: (year: number, label: string) => void;
+  onRemoveMilestone: (id: string) => void;
 }) {
   const anchor = useRef<HTMLDivElement>(null);
   const line = useRef<HTMLDivElement>(null);
@@ -259,6 +323,9 @@ export function Scrubber({
             setPlaying(false);
           }}
           onPick={onPick}
+          milestones={milestones}
+          onAddMilestone={onAddMilestone}
+          onRemoveMilestone={onRemoveMilestone}
         />
       ) : null}
     </div>
