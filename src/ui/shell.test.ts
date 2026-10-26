@@ -358,7 +358,8 @@ describe('poster shell', () => {
 
   it('mounts the poster and leaves the v1 canvas deleted', () => {
     const main = readFileSync('src/main.tsx', 'utf8');
-    expect(main).toContain('PosterApp');
+    expect(main).toContain('AtlasRoot');
+    expect(readFileSync('src/ui/root.tsx', 'utf8')).toContain('PosterApp');
     expect(main).not.toContain('app.css');
     expect(main).not.toContain("has('v1')");
     expect(existsSync('src/App.tsx')).toBe(false);

@@ -1,5 +1,6 @@
 import { Plate } from './Plate.tsx';
 import { Pictogram } from './Pictogram.tsx';
+import { usePrintBoost } from './printBoost.tsx';
 import {
   calloutBlurb,
   calloutType,
@@ -40,8 +41,15 @@ function FittedText({
 
 /** Year tag, title, blurb, and a pictogram or a reserved plate, with a leader. */
 export function Callout({ model }: { model: CalloutViewModel }) {
+  const boost = usePrintBoost();
   const blurb = calloutBlurb(model.blurb);
-  const type = calloutType(model.importance);
+  const base = calloutType(model.importance);
+  const type = {
+    title: base.title * boost,
+    body: base.body * boost,
+    rule: base.rule,
+    icon: base.icon,
+  };
   const label = `${model.title}, ${model.yearLabel}. ${blurb}`;
   if (model.marker) {
     return (

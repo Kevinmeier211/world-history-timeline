@@ -1161,3 +1161,83 @@ Alternatives: Add new cards inside 3300–1800 BCE. Demote the importance 4 rows
 Why: The floor is 100. Years after 1500 BCE sit below the ancient frame, which runs from about 3300 BCE to about 1800 BCE.
 
 Reversible? y
+
+## 2026-10-26 — Print is a query on the same poster
+
+Decision: `?print=1` renders the chart at a fixed physical size and leaves off the top bar, search, zoom, skip links, and title actions. The default sheet is 24 by 36 inches. `size=letter` is 8.5 by 11. `size=tabloid` is 11 by 17. An unknown size stays on the poster. The chart fits inside a 0.5 in margin, under a 1.2 in title band. Print type uses the 24×36 floor. On that sheet, 10 design px is already at least 6 pt, so the boost stays 1 and the layout sizes stay. Letter and tabloid keep that same type, reduced to the sheet. Era, axis, band, and milestone labels follow `--sheet-boost`. Milestone labels stay at the axis size, above the 5 pt tertiary floor. The screen label floor, the layout solver, and the 150 ms gate stay as they are. `v2/main` is the P6 merge `533cafd`, tagged `v2-p6-done`.
+
+Alternatives: Shrink the screen floor to 6 pt. Raise letter and tabloid type until 10 px equals 6 pt on those sheets. Add a second router. Export the PDF in this same task.
+
+Why: §4.5 sets the print floor at 24×36, and the screen floor already clears it there. Raising type to 6 pt on letter covered the ribbons. Bleed and the PDF script stay on later tasks.
+
+Reversible? y
+
+## 2026-10-26 — Trim PDFs come from the print route
+
+Decision: `scripts/export-pdf.ts` builds the app and prints `?print=1` with Playwright `page.pdf` to `dist-print/`. Letter is 8.5 by 11, tabloid is 11 by 17, and the poster is 24 by 36. `npm run check` does not run that export. On 2026-10-26, `pdfinfo` reported 612 by 792 pt, 792 by 1224 pt, and 1728 by 2592 pt, one page each. `pdffonts` listed every face with emb=yes: BarlowCondensed-Bold, BarlowCondensed-ExtraBold, BarlowCondensed-SemiBold as CID TrueType, that same SemiBold name as Type 3, Arimo-Bold, and SourceSans3ExtraLight-Regular. `pdftotext` reads CHRONOS from the masthead. The weight-400 Source Sans 3 woff2 name table says SourceSans3ExtraLight-Regular. Its OS/2 weight class is 400, and the glyph advance for n matches the woff named SourceSans3-Regular. Arimo-Bold is Chromium’s fallback for U+2192, which sits outside the Barlow unicode-range, on ribbon names that use that arrow. The Type 3 face is the stroked axis text. This task writes no PNG.
+
+Alternatives: Rasterize the sheet. Rename the woff2. Replace the arrows in the roster. Run the export inside `npm run check`.
+
+Why: T7.02 asks for those three PDFs and a `pdffonts` check. The names above are the ones the tool printed.
+
+Reversible? y
+
+## 2026-10-26 — The 24×36 sheet can add 0.125 in of bleed
+
+Decision: `?print=1&bleed=1` grows only the poster, by 0.125 in on every side. The trim box stays 24 by 36 inches, with the same 0.5 in margin and 1.2 in title. Eight crop marks sit in that bleed, stop 0.02 in short of the trim, and use a 0.5 pt stroke. Letter and tabloid ignore `bleed`. Plain `?print=1` stays 24 by 36 with no marks. `export:pdf poster-bleed` writes `dist-print/chronos-poster-bleed.pdf`. On 2026-10-26, `pdfinfo` reported 1746 by 2610 pt, one page. A 144 dpi crop of the top-left corner shows the two marks and a gap at the corner.
+
+Alternatives: Bleed every sheet. Draw the marks across the trim. Trust the DOM test and skip the PDF.
+
+Why: §4.13 names 0.125 in of bleed for 24×36. The trim PDFs stay the T7.02 page size.
+
+Reversible? y
+
+## 2026-10-26 — The 0.25 pt stroke floor is enforced on the 24×36 PDFs
+
+Decision: `scripts/check-pdf.ts` checks the four chart PDFs with `pdfinfo`, `pdffonts`, `pdfimages -list`, and a content-stream stroke walk. A missing tool, `emb=no`, an image under 300 ppi, a page size off by more than 1 pt, or zero strokes is a failure. The 0.25 pt floor applies when the job is the poster, trim or bleed. On 2026-10-26 the checker printed letter 616 strokes, minimum 0.181 pt, floor not applied; tabloid 616 strokes, minimum 0.304 pt, floor not applied; poster 616 strokes, minimum 0.562 pt, floor 0.25 pt; bleed poster 624 strokes, minimum 0.500 pt, floor 0.25 pt. Each file had 6 fonts and 0 images. Exit 0. Letter strokes are that same drawing reduced onto 8.5 by 11, so a 0.56 pt poster hairline is about 0.18 pt there. Those letter strokes were not thickened. Tabloid clears 0.25 pt on this export, and the checker still does not apply the floor there. `npm run check` does not run this script. `npm run check:pdf` does.
+
+Alternatives: Fail letter at 0.181 pt. Apply the floor to tabloid as well. Thicken letter strokes with non-scaling-stroke. Treat a missing `pdfimages` as a pass.
+
+Why: §4.13 and the phase exit name 0.25 pt for the 24×36 sheet. Letter is a reduction of that drawing. A missing tool is not evidence the page passed.
+
+Reversible? y
+
+## 2026-10-26 — Reference pages are an export of the stored notes
+
+Decision: `scripts/export-reference.ts` writes Letter HTML and `dist-print/chronos-reference.pdf` from `loadDataset()`. The six note ids are labeled 3300–2000 BCE, 2000–600 BCE, 600 BCE–500 CE, 500–1500 CE, 1500–1800 CE, and 1800–2000 CE. Any other era id is printed as stored. Region names come from `geography.json`. A region id that is not in that list is printed as stored. Each note prints its entries, `whyItMatters`, and the connections that are stored. The reading key is `READING_KEY`. The colophon is `colophonFor` of `media.generated.json` and `media-src.json`. Sources list id, title, publisher, url, accessed date, and kind. On 2026-10-26 `pdfinfo` reported 14 pages, 612 by 792 pt. `pdffonts` listed emb=yes on every row: BarlowCondensed-ExtraBold, BarlowCondensed-Bold, SourceSans3ExtraLight-Regular, SourceSans3ExtraLight-SemiBold, and SourceSerif4-SemiBold. Those ExtraLight PostScript names are the weight-400 and weight-600 Source Sans 3 woff2 files. Their OS/2 weight classes are 400 and 600. The Source Serif 4 woff2 weight class is 600. `pdftotext` reads Chronos, Peoples outlast states, stored why-it-matters sentences, source titles, and No image files are shipped. `npm run check` does not run this export. `npm run export:reference` does.
+
+Alternatives: Hand-maintain a reference PDF. Add a connection so every note has three. Number the sources 1 through 37.
+
+Why: T7.05 asks for the expanded reference as an export of this dataset. Q-02 still leaves the Gemini bibliography out.
+
+Reversible? y
+
+## 2026-10-26 — export:all writes the print set and a manifest
+
+Decision: `npm run export:all` builds the app, writes the three trim PDFs, the bleed poster, and the reference PDF, then runs the chart check on those four files. It writes `dist-print/manifest.json` with path, bytes, page inches, page count, and `generatedAt` taken from the clock at the write. On 2026-10-26 that stamp was `2026-10-26T21:43:38.334Z`. The files were letter 1006458 bytes, 8.5 by 11 in, 1 page; tabloid 1130105 bytes, 11 by 17 in, 1 page; poster 1576949 bytes, 24 by 36 in, 1 page; bleed poster 1588516 bytes, 24.25 by 36.25 in, 1 page; reference 103297 bytes, 8.5 by 11 in, 14 pages. The chart check then exited 0. A file that was not written is left out of the manifest. `npm run check` does not run this command. `dist-print/` stays gitignored.
+
+Alternatives: Commit the PDFs. Put a fixed timestamp in the manifest. Run the export inside `npm run check`.
+
+Why: T7.06 asks for one command that fills `dist-print/` and a manifest.
+
+Reversible? y
+
+## 2026-10-26 — Print QA records the export that was opened
+
+Decision: `docs/PRINT_QA.md` records the `export:all` set stamped `2026-10-26T21:43:38.334Z`. A 288 dpi crop (4 × 72 dpi) of one poster field showed the callout “Sumerian city-states” and the ribbon names “Sumerian City-States & Akkadian”, “Early Dynastic Mesopotamia”, “Kura-Araxes”, and “Elam” as readable. The bleed corner shows two marks and a gap. `pdfimages -list` had no image rows. Letter’s 0.181 pt minimum is stated, and the 0.25 pt floor stays off that sheet. No contract proof was printed. Parchment `#f1e8d2` on uncoated stock still needs one before a press run.
+
+Alternatives: Call every label checked. Treat the screen render as a press proof. Fail the letter PDF for the reduced strokes.
+
+Why: T7.07 asks for the checklist from what was actually opened.
+
+Reversible? y
+
+## 2026-10-26 — The print gate passes with images still gated
+
+Decision: P7 is done. `npm run check` is green. `npm run export:all` wrote the five PDFs and the manifest at `2026-10-26T21:43:38.334Z`, and `check:pdf` exited 0 on that set. The 0.25 pt floor is enforced on the 24×36 trim and bleed PDFs. Letter’s 0.181 pt minimum is recorded and not failed. Images stay 0 and queued-gated. The branch merges `--no-ff` into `v2/main` and the annotated tag is `v2-p7-done`. P8 stays closed. Nothing is pushed.
+
+Alternatives: Hold the tag until a contract proof. Fail the gate on the letter stroke. Start P8.
+
+Why: The phase exit is a selectable 24×36 PDF, embedded fonts, the poster stroke floor, and reference pages from one command. Those were run. Images were optional for this phase.
+
+Reversible? y
