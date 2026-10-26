@@ -94,5 +94,53 @@ export function clearOutside<T extends SideLabel>(
       bestDist = dist;
     }
   }
+  return bestHits === 0 ? best : stackOne(best, hits, bestHits);
+}
+
+interface Leader {
+  x1: number;
+  y1: number;
+  x2: number;
+  y2: number;
+}
+
+function leaderOf(label: SideLabel): Leader | undefined {
+  if (!('leader' in label)) return undefined;
+  const leader = (label as { leader?: Leader }).leader;
+  return leader;
+}
+
+function moveTo<T extends SideLabel>(label: T, y: number): T {
+  const leader = leaderOf(label);
+  if (!leader) return { ...label, y };
+  return {
+    ...label,
+    y,
+    leader: { ...leader, y2: y + label.height / 2 },
+  };
+}
+
+/**
+ * Try rows above and below an outside name when a sideways slide still hits.
+ * The string and the fit stay put.
+ */
+function stackOne<T extends SideLabel>(
+  label: T,
+  hits: (label: T) => number,
+  bestHits: number,
+): T {
+  const pitch = label.height + 2;
+  let best = label;
+  for (let lane = 1; lane <= 12; lane += 1) {
+    for (const sign of [1, -1]) {
+      const next = moveTo(label, label.y + sign * lane * pitch);
+      const count = hits(next);
+      if (count < bestHits) {
+        best = next;
+        bestHits = count;
+        if (count === 0) return best;
+      }
+    }
+  }
   return best;
 }

@@ -274,7 +274,7 @@ function readableWidth(lane: Lane): number {
 function place(lanes: Lane[]): void {
   for (const lane of lanes) {
     lane.x = lane.seed;
-    lane.width = lane.held ?? lane.base;
+    lane.width = lane.held === undefined ? lane.base : Math.min(lane.held, lane.base);
   }
   if (lanes.every((lane) => lane.flexible)) {
     packFlexible(lanes);

@@ -14,6 +14,7 @@ import {
   PLOT_WIDTH,
 } from './constants.ts';
 import { cullToFit } from './cull.ts';
+import { buildFanSpec, fanLayout, type FanSpec } from './sliceBudget.ts';
 import { layoutDebug } from './debug.ts';
 import { applyDrift, yOfYear } from './drift.ts';
 import { ribbonRuns, sampleAt, separateRuns, type DatedPoint } from './frames.ts';
@@ -185,33 +186,57 @@ function computeLayout(input: LayoutInput): LayoutResult {
     for (const id of relation.to) guarded.add(id);
   }
   const slices = buildSlices(polities, relations);
-  const laneSlices: LaneSliceInput[] = slices
-    .map((slice) => ({
-      start: slice.start,
-      end: slice.end,
-      ribbons: slice.activeIds.flatMap((id) => {
-        const polity = byId.get(id);
-        if (!polity) return [];
-        return [
-          {
-            id,
-            familyId: polity.family,
-            weight: polity.weight,
-            importance: polity.importance,
-            desiredX: desiredX(
-              polity,
-              midYear(slice.start, slice.end),
-              input.geography,
-              overrides.pins,
-            ),
-          },
-        ];
-      }),
-    }))
-    .map((slice) => ({ ...slice, ribbons: cullToFit(slice.ribbons, guarded) }));
+  const spans = new Map(
+    polities.map((polity) => [polity.id, { start: polity.start, end: polity.end }]),
+  );
+  const prepared = slices.map((slice) => {
+    const ribbons = slice.activeIds.flatMap((id) => {
+      const polity = byId.get(id);
+      if (!polity) return [];
+      return [
+        {
+          id,
+          familyId: polity.family,
+          weight: polity.weight,
+          importance: polity.importance,
+          desiredX: desiredX(
+            polity,
+            midYear(slice.start, slice.end),
+            input.geography,
+            overrides.pins,
+          ),
+        },
+      ];
+    });
+    const core = cullToFit(ribbons, guarded);
+    const fan: FanSpec | undefined = buildFanSpec(
+      slice.start,
+      slice.end,
+      ribbons,
+      new Set(core.map((ribbon) => ribbon.id)),
+      spans,
+      guarded,
+    );
+    return { start: slice.start, end: slice.end, ribbons: core, fan };
+  });
+  const laneSlices: LaneSliceInput[] = prepared.map((slice) => ({
+    start: slice.start,
+    end: slice.end,
+    ribbons: slice.ribbons,
+  }));
   const solved = solveLanes(laneSlices, relations);
-  const drifted = applyDrift(
+  const fannedLanes = fanLayout(
     solved.map((slice, index) => ({
+      lanes: slice.lanes,
+      spec: prepared[index]?.fan,
+    })),
+  );
+  const fanned = solved.map((slice, index) => ({
+    ...slice,
+    lanes: fannedLanes[index] ?? slice.lanes,
+  }));
+  const drifted = applyDrift(
+    fanned.map((slice, index) => ({
       start: slice.start,
       end: slice.end,
       span: slices[index]?.span ?? 0,

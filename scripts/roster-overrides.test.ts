@@ -102,6 +102,11 @@ describe('roster label overrides', () => {
       expect(after?.text.endsWith('…') && !before?.text.endsWith('…')).toBe(false);
     }
     const byId = new Map(dataset.polities.map((polity) => [polity.id, polity]));
+    for (const id of ['india', 'pakistan', 'north_korea', 'south_korea']) {
+      const label = tuned.labels.find((row) => row.polityId === id);
+      expect(label?.fitted).toBe(true);
+      expect(label?.text).toBe(byId.get(id)?.name);
+    }
     const covers = (start: number, end: number) =>
       tunedFile.ribbons.some((row) => {
         const polity = byId.get(row.polityId);

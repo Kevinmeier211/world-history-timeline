@@ -731,3 +731,13 @@ Alternatives: Draw the fork as a hand-built path. Keep one Roman ribbon. Invent 
 Why: Item 2 asks for the Rome east/west split and a merge the relation data already supports. The geometry has to come from the solver.
 
 Reversible? y
+
+## 2026-10-26 — Modern slices spend spare width in place
+
+Decision: After the native lane solve, a slice that reaches 1900 may shrink only the spare width of an importance-2 lane and seat culled states into the gaps that open. Centers do not move. Importance 3 keeps its solved width, so `modern_india` and `modern_africa` stay fitted. Each slice picks its own shrink: a keep copied from the busiest year left Pakistan and South Korea unseated. A ribbon under 40px may take an outside name, and a name that still hits slides to another row. The string is not shortened to clear a hit. `easeCenterlines` adopts a narrower sample without leaving its center. India, Pakistan, North Korea, and South Korea draw their full names. Fitted labels on polities that meet 1900–2000 rise from 31 to 53 of 119. The roster report is overlaps 0, label hits 0, importance 3 fit 74/74, warm 149ms. `maxRibbonDrift` stays 4.193 on `umayyad_abbasid` (13px across 3.1px of y). The Egypt step stays 0.22px. West stays left of east, and `merge_aragon_castile_spain_union` still routes. 53 is not 60.
+
+Alternatives: Solve the modern slices with compressed weights. That seated more names and moved `british_empire` 115px across 2.48px, dropped two importance-3 labels to hover, and warmed at about 240ms. Share one shrink across every modern slice. Shorten the four names.
+
+Why: Item 3 asks for about 60 readable states on the modern edge, including India, Pakistan, and both Koreas. The names have to stay full, and the rivers have to stay where the solver put them.
+
+Reversible? y

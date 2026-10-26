@@ -76,6 +76,22 @@ describe('eased centerlines', () => {
     expect(Math.abs(mid.x - right.x)).toBeGreaterThan(1);
   });
 
+  it('takes a narrower sample without leaving its center', () => {
+    const samples = [
+      sample('a', 0, 200, 40),
+      sample('b', 0, 280, 40),
+      sample('a', 10, 200, 20),
+      sample('b', 10, 280, 20),
+    ];
+    easeCenterlines(samples);
+    const next = samples.find((item) => item.id === 'a' && item.y === 10);
+    expect(next?.width).toBeCloseTo(20);
+    expect(Math.abs((next?.x ?? 0) - 200)).toBeLessThan(1);
+    expect(minEdgeGap(samples.filter((item) => item.y === 10))).toBeGreaterThanOrEqual(
+      MIN_GAP - 0.05,
+    );
+  });
+
   it('keeps a crowded fan-out wide enough for a 10px name', () => {
     const parents = 8;
     const children = 39;

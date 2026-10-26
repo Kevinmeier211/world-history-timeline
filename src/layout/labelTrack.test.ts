@@ -328,6 +328,36 @@ describe('parkRotatedLabels', () => {
     expect(labelHitPairs(parked)).toEqual([]);
   });
 
+  it('stacks outside names on extra rows instead of shortening them', () => {
+    const labels = [
+      { id: 'india', x: 500 },
+      { id: 'pakistan', x: 520 },
+      { id: 'north', x: 540 },
+    ].map((row) => ({
+      polityId: row.id,
+      text: row.id === 'north' ? 'North Korea' : row.id,
+      x: row.x,
+      y: 8,
+      width: 70,
+      height: 12,
+      fontSize: 12,
+      orientation: 'outside' as const,
+      fitted: true,
+    }));
+    const tracks = new Map<string, TrackPoint[]>(
+      labels.map((label) => [label.polityId, straight(label.x + 8, 36)]),
+    );
+    const parked = parkRotatedLabels(labels, tracks);
+    expect(parked.map((label) => label.text)).toEqual([
+      'india',
+      'pakistan',
+      'North Korea',
+    ]);
+    expect(parked.every((label) => label.fitted)).toBe(true);
+    expect(labelHitPairs(parked)).toEqual([]);
+    expect(new Set(parked.map((label) => label.y)).size).toBeGreaterThan(1);
+  });
+
   it('does not seat a hover-only label', () => {
     const parked = parkRotatedLabels(
       [
