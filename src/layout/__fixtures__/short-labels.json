@@ -1,0 +1,23 @@
+{
+  "name": "H",
+  "note": "A ribbon under 40 px takes an outside label and a leader. The ellipsis keeps the diacritics.",
+  "ribbons": [
+    {
+      "id": "naser",
+      "name": "Nāṣer the Great",
+      "x": 400,
+      "y": 200,
+      "width": 24,
+      "height": 30
+    },
+    {
+      "id": "rome",
+      "name": "Roman Empire",
+      "shortName": "Rome",
+      "x": 700,
+      "y": 200,
+      "width": 40,
+      "height": 80
+    }
+  ]
+}

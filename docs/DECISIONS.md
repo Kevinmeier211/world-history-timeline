@@ -211,3 +211,13 @@ Alternatives: Draw migration as the continuity dash. Draw it solid. Omit a strok
 Why: §6.4 names solid, hatched, and dashed groups and does not name migration. A dotted stroke keeps a migration from looking like succession or like a disputed claim. The uncertainty edge stays `1.5 2.5`.
 
 Reversible? y
+
+## 2026-10-26 — Short ribbons label outside below 40 px
+
+Decision: A ribbon shorter than 40 design px gets a horizontal label beside it and a hairline leader. The outside box is 72 by 18. The right side is used until the label would pass the plot edge. Appendix G `LABEL_MIN_H` stays 44 and is not this switch.
+
+Alternatives: Switch at 44. Always label inside. Always put the label on the left.
+
+Why: Fixture H says a ribbon under 40 px takes an outside label. An 18 px box is the smallest height that still reaches the 10 px font under the 0.62 thickness rule. A 72 px width forces a long name onto a word-boundary ellipsis.
+
+Reversible? y
