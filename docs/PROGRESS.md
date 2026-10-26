@@ -128,3 +128,9 @@ Fails: item 3, modern edge, 53 half-em fits and 52 painted names, both under 60 
 Partials: item 1, overview labels about 2px (`docs/shots/p3/desktop-overview.png`). Item 2, both Roman ribbons and the Castile–Aragon merge are drawn, and the Egypt step is 0.22px, while the west ribbon has no painted name and `maxRibbonDrift` is 4.193 on `umayyad_abbasid` (13px across 3.1px of y). Item 6, six era bands and 11 cross-cutting bands.
 
 `npm run check` green. `npm run shots` 3 passed. `npm run perf` p95 16.80 ms, worst 66.70 ms. `npm run axe` 24 passed, no serious or critical violation. Tag `v2-p5-done` is on `v2/p5-interactions`. `v2/main` was not merged. P4 and P6 stay closed.
+
+## P4
+
+| Task  | Status | Commit  | Evidence                                                             | Minutes | Notes                                                                                       |
+| ----- | ------ | ------- | -------------------------------------------------------------------- | ------- | ------------------------------------------------------------------------------------------- |
+| T4.01 | done   | pending | pictogram test: 26 icons, stroke 1.5, every callout kind maps to one | 20      | Lucide is already gone. The set is the plate mark until a real image exists. See DECISIONS. |

@@ -801,3 +801,13 @@ Alternatives: Cull at every scale below 1. That removed 26 names from the 1440px
 Why: The readable floor applies at the default zoom. The default zoom is fit width, and those names have to stay on the sheet.
 
 Reversible? y
+
+## 2026-10-26 — The 9/10 score opens P4, and plates start as pictograms
+
+Decision: `v2/p5-interactions` is merged into `v2/main` with `--no-ff`. Tag `v2-p5-done` stays at `b5f7501`. Item 2 stays partial on `japan_timeline` (slope 3.211) and is not tuned again before the media work. The plate mark is an in-house line icon: 24px grid, 1.5px stroke, no fill. Callout kinds use seal, crown, wheel, temple, scroll, leaf, and ship. A real photograph replaces the icon only after a reviewed file exists. `ALLOW_MEDIA_DOWNLOAD` stays false.
+
+Alternatives: Draw another layout pass on the Japan step before any plate. Keep a Lucide badge. Invent a license so a photograph can ship.
+
+Why: The layout score cleared 8 of 10. Images still have to be license-clean, and none are downloaded while the switch is off.
+
+Reversible? y
