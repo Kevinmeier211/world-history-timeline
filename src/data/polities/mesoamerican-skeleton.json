@@ -154,8 +154,11 @@
         "xKey": "mesoamerica"
       }
     ],
-    "summary": "Mexico is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Mexico from 1821 with no end. This row stops at 2000, the chart end. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist start is 1821.",
+      "2000 is the chart end, not a checklist end."
+    ],
     "sourceIds": ["inah", "field_museum"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -177,8 +180,11 @@
         "xKey": "mesoamerica"
       }
     ],
-    "summary": "United Provinces of Central America is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Central American states at 1821 and 1838. This row uses those two years and adds no other span. The cited pages were not opened.",
+    "keyFacts": [
+      "Checklist years are 1821 and 1838.",
+      "The pages cited on this row were not opened."
+    ],
     "sourceIds": ["inah", "field_museum"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row.",
@@ -210,8 +216,11 @@
         "xKey": "mesoamerica"
       }
     ],
-    "summary": "Guatemala is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Central American states at 1821 and 1838 and does not name this republic. This row uses 1838 to 2000 as a placeholder. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist does not name this republic.",
+      "2000 is the chart end, not a founding claim."
+    ],
     "sourceIds": ["inah", "field_museum"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -233,8 +242,11 @@
         "xKey": "mesoamerica"
       }
     ],
-    "summary": "El Salvador is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Central American states at 1821 and 1838 and does not name this republic. This row uses 1838 to 2000 as a placeholder. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist does not name this republic.",
+      "2000 is the chart end, not a founding claim."
+    ],
     "sourceIds": ["inah", "field_museum"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -256,8 +268,11 @@
         "xKey": "mesoamerica"
       }
     ],
-    "summary": "Honduras is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Central American states at 1821 and 1838 and does not name this republic. This row uses 1838 to 2000 as a placeholder. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist does not name this republic.",
+      "2000 is the chart end, not a founding claim."
+    ],
     "sourceIds": ["inah", "field_museum"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -279,8 +294,11 @@
         "xKey": "mesoamerica"
       }
     ],
-    "summary": "Nicaragua is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Central American states at 1821 and 1838 and does not name this republic. This row uses 1838 to 2000 as a placeholder. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist does not name this republic.",
+      "2000 is the chart end, not a founding claim."
+    ],
     "sourceIds": ["inah", "field_museum"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."
@@ -302,8 +320,11 @@
         "xKey": "mesoamerica"
       }
     ],
-    "summary": "Costa Rica is an Appendix B checklist skeleton. Dates are not re-verified.",
-    "keyFacts": ["Checklist skeleton."],
+    "summary": "Appendix B dates Central American states at 1821 and 1838 and does not name this republic. This row uses 1838 to 2000 as a placeholder. The cited pages were not opened.",
+    "keyFacts": [
+      "The checklist does not name this republic.",
+      "2000 is the chart end, not a founding claim."
+    ],
     "sourceIds": ["inah", "field_museum"],
     "verification": "unverified",
     "evidence": "Appendix B checklist. The cited pages were not opened for this row."

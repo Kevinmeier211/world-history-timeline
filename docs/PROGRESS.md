@@ -149,6 +149,6 @@ Partials: item 1, overview labels about 2px (`docs/shots/p3/desktop-overview.png
 
 ## P6
 
-| Task  | Status | Commit  | Evidence                                                                              | Minutes | Notes                                                                                      |
-| ----- | ------ | ------- | ------------------------------------------------------------------------------------- | ------- | ------------------------------------------------------------------------------------------ |
-| T6.01 | doing  | pending | fan-out prose test: 20 Latin West rows, summaries ≤ 60 words, verification unverified | 30      | Prose restates checklist years. Pages were not opened. Other families are still skeletons. |
+| Task  | Status | Commit  | Evidence                                                                            | Minutes | Notes                                                                                                                                                                                              |
+| ----- | ------ | ------- | ----------------------------------------------------------------------------------- | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| T6.01 | doing  | a75ea42 | fan-out prose test: Latin West 20 and Americas 20, summaries ≤ 60 words, unverified | 40      | Latin West prose is a75ea42. Americas prose restates checklist years. Haiti, Cuba, and Brazil are not in Appendix B and were not added. Other families are still skeletons. Pages were not opened. |
