@@ -184,4 +184,4 @@ Partials: item 1, overview labels about 2px (`docs/shots/p3/desktop-overview.png
 
 | Task  | Status | Commit  | Evidence              | Minutes | Notes                                                                                                                            |
 | ----- | ------ | ------- | --------------------- | ------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| T9.01 | done   | pending | `npm run check` green |         | README covers the chart, the commands, the print export, the data protocol, and the credits. T9.03 stays unrun. P8 stays closed. |
+| T9.01 | done   | 748f785 | `npm run check` green |         | README covers the chart, the commands, the print export, the data protocol, and the credits. T9.03 stays unrun. P8 stays closed. |
