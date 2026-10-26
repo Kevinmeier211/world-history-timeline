@@ -5,12 +5,12 @@
     "year": -3200,
     "kind": "invention",
     "attachTo": "sumer_akkad",
-    "importance": 4,
+    "importance": 3,
     "blurb": "Marks the traditional boundary between Prehistory and Recorded History.",
     "sourceIds": ["isac"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
+    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
   },
   {
     "id": "node_narmer_palette",
@@ -18,12 +18,12 @@
     "year": -3150,
     "kind": "monument",
     "attachTo": "egypt_old_kingdom",
-    "importance": 4,
+    "importance": 3,
     "blurb": "Established the pharaonic iconography that lasted for 3,000 years.",
     "sourceIds": ["louvre"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
+    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
   },
   {
     "id": "node_caral_pyramids",
@@ -31,12 +31,12 @@
     "year": -2800,
     "kind": "monument",
     "attachTo": "norte_chico",
-    "importance": 4,
+    "importance": 3,
     "blurb": "Demonstrated independent urban emergence in the Western Hemisphere.",
     "sourceIds": ["museo_larco"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
+    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
   },
   {
     "id": "node_great_pyramids_giza",
@@ -44,12 +44,12 @@
     "year": -2560,
     "kind": "monument",
     "attachTo": "egypt_old_kingdom",
-    "importance": 4,
+    "importance": 3,
     "blurb": "Only surviving wonder of the Seven Wonders of the Ancient World.",
     "sourceIds": ["louvre"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
+    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
   },
   {
     "id": "node_stonehenge",
@@ -57,12 +57,12 @@
     "year": -2500,
     "kind": "monument",
     "attachTo": "megalithic_celts",
-    "importance": 4,
+    "importance": 3,
     "blurb": "Masterpiece of prehistoric European megalithic engineering and astronomy.",
     "sourceIds": ["cambridge_histories"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
+    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
   },
   {
     "id": "node_mohenjo_daro",
@@ -70,12 +70,12 @@
     "year": -2500,
     "kind": "monument",
     "attachTo": "indus_valley",
-    "importance": 4,
+    "importance": 3,
     "blurb": "Unmatched urban sanitation and standardization in the ancient world.",
     "sourceIds": ["british_library"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
+    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
   },
   {
     "id": "node_sargon_akkad",
@@ -122,12 +122,12 @@
     "year": -1750,
     "kind": "text",
     "attachTo": "babylon_assyria",
-    "importance": 4,
+    "importance": 3,
     "blurb": "Monumental milestone in constitutional and statutory law.",
     "sourceIds": ["isac"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
+    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
   },
   {
     "id": "node_knossos_thera",
@@ -135,12 +135,12 @@
     "year": -1620,
     "kind": "climate",
     "attachTo": "minoans_mycenaeans",
-    "importance": 4,
+    "importance": 3,
     "blurb": "Preserved Bronze Age frescoes at Akrotiri and likely inspired Plato’s Atlantis.",
     "sourceIds": ["louvre"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
+    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
   },
   {
     "id": "node_nebra_sky_disk",
@@ -161,12 +161,12 @@
     "year": -1550,
     "kind": "monument",
     "attachTo": "poverty_point",
-    "importance": 4,
+    "importance": 3,
     "blurb": "Largest Archaic earthwork complex in North America.",
     "sourceIds": ["field_museum"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
+    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
   },
   {
     "id": "node_rigveda",
@@ -174,12 +174,12 @@
     "year": -1400,
     "kind": "text",
     "attachTo": "vedic_period",
-    "importance": 4,
+    "importance": 3,
     "blurb": "Oldest sacred text of Hinduism and one of the oldest extant Indo-European texts.",
     "sourceIds": ["british_library"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
+    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
   },
   {
     "id": "node_olmec_heads",
@@ -187,11 +187,11 @@
     "year": -1200,
     "kind": "monument",
     "attachTo": "olmecs",
-    "importance": 4,
+    "importance": 3,
     "blurb": "Hallmark of Mesoamerica’s foundational civilization.",
     "sourceIds": ["inah"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
+    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
   }
 ]

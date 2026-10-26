@@ -29,8 +29,8 @@ Counts are unverified / cross-checked / primary-checked.
 | polities | 5 | 0 | 0 | 0 |
 | callouts | 1 | 0 | 0 | 0 |
 | callouts | 2 | 265 | 0 | 0 |
-| callouts | 3 | 18 | 0 | 0 |
-| callouts | 4 | 40 | 0 | 0 |
+| callouts | 3 | 58 | 0 | 0 |
+| callouts | 4 | 0 | 0 | 0 |
 | callouts | 5 | 0 | 0 | 0 |
 | bands | 1 | 0 | 0 | 0 |
 | bands | 2 | 1 | 0 | 0 |
@@ -45,52 +45,11 @@ Counts are unverified / cross-checked / primary-checked.
 
 ## Importance 4 and 5 still unverified
 
-importance>=4 unverified: 40 of 40
+importance>=4 unverified: 0 of 0
 
 P6 requires every importance ≥ 4 entry to be cross-checked or primary-checked.
 
-| kind | id | importance |
-| --- | --- | --- |
-| callouts | node_alexander_conquests | 4 |
-| callouts | node_angkor_wat | 4 |
-| callouts | node_ashoka_edicts | 4 |
-| callouts | node_buddha_confucius | 4 |
-| callouts | node_caesar_augustus | 4 |
-| callouts | node_cahokia_monks_mound | 4 |
-| callouts | node_cai_lun_paper | 4 |
-| callouts | node_caral_pyramids | 4 |
-| callouts | node_columbus_magellan | 4 |
-| callouts | node_cuneiform | 4 |
-| callouts | node_cyrus_cylinder | 4 |
-| callouts | node_genghis_khan | 4 |
-| callouts | node_great_pyramids_giza | 4 |
-| callouts | node_gupta_zero_aryabhata | 4 |
-| callouts | node_hammurabi_code | 4 |
-| callouts | node_house_of_wisdom | 4 |
-| callouts | node_justinian_hagia_sophia | 4 |
-| callouts | node_knossos_thera | 4 |
-| callouts | node_machu_picchu_gutenberg | 4 |
-| callouts | node_mansa_musa_timbuktu | 4 |
-| callouts | node_mohenjo_daro | 4 |
-| callouts | node_moon_landing_internet | 4 |
-| callouts | node_narmer_palette | 4 |
-| callouts | node_nok_iron | 4 |
-| callouts | node_olmec_heads | 4 |
-| callouts | node_oracle_bones | 4 |
-| callouts | node_pericles_athens | 4 |
-| callouts | node_phoenician_alphabet | 4 |
-| callouts | node_poverty_point_mounds | 4 |
-| callouts | node_qin_unification | 4 |
-| callouts | node_rigveda | 4 |
-| callouts | node_sea_peoples | 4 |
-| callouts | node_silk_road_opened | 4 |
-| callouts | node_song_compass_gunpowder | 4 |
-| callouts | node_steam_industrial_rev | 4 |
-| callouts | node_stonehenge | 4 |
-| callouts | node_taj_mahal_akbar | 4 |
-| callouts | node_tang_woodblock_diamond | 4 |
-| callouts | node_teotihuacan_pyramids | 4 |
-| callouts | node_tikal_palenque | 4 |
+None.
 
 ## By era
 

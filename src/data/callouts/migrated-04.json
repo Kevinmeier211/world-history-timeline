@@ -5,12 +5,12 @@
     "year": 1150,
     "kind": "monument",
     "attachTo": "khmer_majapahit_sea",
-    "importance": 4,
+    "importance": 3,
     "blurb": "Masterpieces of Southeast Asian hydraulic urbanism and Polynesian stone carving.",
     "sourceIds": ["field_museum"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
+    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
   },
   {
     "id": "node_lalibela_churches",
@@ -31,12 +31,12 @@
     "year": 1206,
     "kind": "person",
     "attachTo": "mongol_empire",
-    "importance": 4,
+    "importance": 3,
     "blurb": "Launched the largest contiguous land empire in world history.",
     "sourceIds": ["chgis"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
+    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
   },
   {
     "id": "node_mansa_musa_timbuktu",
@@ -44,12 +44,12 @@
     "year": 1324,
     "kind": "person",
     "attachTo": "ghana_mali_songhai",
-    "importance": 4,
+    "importance": 3,
     "blurb": "Put West Africa at the center of the 1375 Catalan Atlas and global scholarship.",
     "sourceIds": ["unesco_gha"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
+    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
   },
   {
     "id": "node_zheng_he_voyages",
@@ -83,12 +83,12 @@
     "year": 1450,
     "kind": "invention",
     "attachTo": "holy_roman_empire",
-    "importance": 4,
+    "importance": 3,
     "blurb": "Pivotal hinge between the Medieval and Early Modern worlds.",
     "sourceIds": ["cambridge_histories"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
+    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
   },
   {
     "id": "node_columbus_magellan",
@@ -96,12 +96,12 @@
     "year": 1492,
     "kind": "trade",
     "attachTo": "spain_portugal",
-    "importance": 4,
+    "importance": 3,
     "blurb": "Initiated the Columbian Exchange and global oceanic trade.",
     "sourceIds": ["cambridge_histories"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
+    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
   },
   {
     "id": "node_taj_mahal_akbar",
@@ -109,12 +109,12 @@
     "year": 1632,
     "kind": "monument",
     "attachTo": "mughal_empire",
-    "importance": 4,
+    "importance": 3,
     "blurb": "Crown jewel of Indo-Islamic architecture.",
     "sourceIds": ["british_library"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
+    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
   },
   {
     "id": "node_newton_principia",
@@ -135,12 +135,12 @@
     "year": 1776,
     "kind": "invention",
     "attachTo": "united_states_canada",
-    "importance": 4,
+    "importance": 3,
     "blurb": "Launched both modern constitutional democracy and the fossil-fuel Industrial Age.",
     "sourceIds": ["field_museum"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
+    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
   },
   {
     "id": "node_meiji_restoration",
@@ -161,11 +161,11 @@
     "year": 1969,
     "kind": "invention",
     "attachTo": "united_states_canada",
-    "importance": 4,
+    "importance": 3,
     "blurb": "Humanity becomes an interplanetary and globally networked species.",
     "sourceIds": ["field_museum"],
     "confidence": "approximate",
     "verification": "unverified",
-    "evidence": "Migrated from gemini-v1. Bibliography pointer only; the page was not opened for this row."
+    "evidence": "Migrated from gemini-v1. Importance is 3 because no opened page stated this claim."
   }
 ]

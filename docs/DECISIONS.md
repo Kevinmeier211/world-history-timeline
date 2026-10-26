@@ -1091,3 +1091,13 @@ Alternatives: Treat a UNESCO century volume as confirmation of 536 or 1346. Trea
 Why: `max_planck_history` loaded and described the Max Planck Institute for the History of Science, founded in 1994. `worldhistory_org` loaded and featured the Hundred Years’ War from 1337 to 1453. `unesco_gha` loaded and listed General History of Africa volumes by century, including the 12th to the 16th. None of those pages stated a curve temperature, 535, 536, 560, 1346, or 1355. `cambridge_histories` was not opened.
 
 Reversible? y
+
+## 2026-10-26 — Unverified importance 4 callouts drop to 3
+
+Decision: T6.09 lowers the 40 migrated callouts from importance 4 to 3. They stay unverified. No row is marked cross-checked. `npm run report:unverified` then lists 0 unverified entries at importance 4 or 5. `npm run layout:report`: 238 ribbons, 0 overlaps, importance-3 labels 82/82, 0 unroutable relations, callouts dropped 235, markers 0, placed 88, max drift 3.211. Cold runtime 264 ms, warm 186 ms, over the 150 ms gate. The layout engine was not changed.
+
+Alternatives: Leave the 40 at importance 4. Mark them cross-checked from homepages that do not state the claims. Delete the callouts.
+
+Why: Importance 4 waits on an opened page that states the claim. The pages opened in this phase describe institutions, volume centuries, or a war from 1337 to 1453. They do not state these callout claims. Importance 3 still draws when the card fits. A collision drops it instead of forcing a marker.
+
+Reversible? y
