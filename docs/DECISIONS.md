@@ -1081,3 +1081,13 @@ Alternatives: Leave the four titles off because the count was already past 10. C
 Why: The plan names those four titles. The count floor was already met, and the titles were still absent. Restating stored years fills them without a new claim.
 
 Reversible? y
+
+## 2026-10-26 — Climate curve and pandemic bands stay unverified
+
+Decision: T6.08 does not mark the climate curve or the pandemic bands cross-checked. The curve keeps the stored temperatures. The 535–560 band and the 1346–1355 band keep those years. The 4.2 kiloyear band stays 2200–2100 BCE. Evidence on the curve and on those three bands records the pages that loaded. No temperature, plague year, or new pandemic band was added.
+
+Alternatives: Treat a UNESCO century volume as confirmation of 536 or 1346. Treat the Hundred Years’ War dates as the Black Death. Add a 1918 band without an opened page.
+
+Why: `max_planck_history` loaded and described the Max Planck Institute for the History of Science, founded in 1994. `worldhistory_org` loaded and featured the Hundred Years’ War from 1337 to 1453. `unesco_gha` loaded and listed General History of Africa volumes by century, including the 12th to the 16th. None of those pages stated a curve temperature, 535, 536, 560, 1346, or 1355. `cambridge_histories` was not opened.
+
+Reversible? y
