@@ -8,7 +8,7 @@ Vite 6 + React 19 + TypeScript, strict and `noUncheckedIndexedAccess`. v1 chart:
 
 ## Commands
 
-`npm run check` = typecheck + lint + design:lint + palette:check + vitest + validate:data. `npm run shots` writes Playwright PNGs. `npm run dev` / `build` / `preview`. `validate:data` loads relations and roots. An orphan warning means a polity is neither a target nor a reasoned root. Perf, media, and export commands are still stubs. `npm run layout:report` runs the real roster. `media:fetch` refuses to download while `ALLOW_MEDIA_DOWNLOAD=false`. Checklist rows are applied with `npx tsx scripts/apply-roster.ts <family>`. Relations are regenerated with `npx tsx scripts/write-lineage.ts`.
+`npm run check` = typecheck + lint + design:lint + palette:check + vitest (layout coverage ≥ 85%) + validate:data. `npm run shots` writes Playwright PNGs. `npm run dev` / `build` / `preview`. `validate:data` loads relations and roots. An orphan warning means a polity is neither a target nor a reasoned root. Perf, media, and export commands are still stubs. `npm run layout:report` runs the real roster. `media:fetch` refuses to download while `ALLOW_MEDIA_DOWNLOAD=false`. Checklist rows are applied with `npx tsx scripts/apply-roster.ts <family>`. Relations are regenerated with `npx tsx scripts/write-lineage.ts`.
 
 ## Conventions
 
@@ -20,4 +20,4 @@ Poster and both Gemini PDFs are missing (Q-01). Gemini bibliography [1]–[37] w
 
 ## Next
 
-T2.99 layout coverage ≥ 85%, `layout:report` gates, tag `v2-p2-done`, and merge `v2/p2-layout` into `v2/main` with `--no-ff`. The early bin is 38/35. Tag `v2-p1-done` is `b4f3bea` only. Do not start P8.
+T3.01 tokens and local fonts, on branch `v2/p3-poster`, cut from `v2/main` after the P2 merge. Remove the Google Fonts link. The early bin is 38/35. Tag `v2-p1-done` is `b4f3bea` only. Do not start P8. Do not start P4 until M1 scores at least 70%.

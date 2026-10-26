@@ -301,3 +301,13 @@ Alternatives: Add the nudge before the collision search. Treat `along` as a seco
 Why: The file is the hand-tuning hatch. A pin has to reach the solver, or the lane stays on the geographic x. A nudge after placement is what a person asked for; searching again would undo it.
 
 Reversible? y
+
+## 2026-10-26 — Layout coverage is enforced at 85 percent
+
+Decision: `npm run test` runs Vitest with coverage. The threshold is 85% statements, branches, functions, and lines, and it includes only `src/layout`. A miss fails `npm run check`.
+
+Alternatives: Count lines only. Leave the threshold off and print the number. Measure the whole `src` tree.
+
+Why: The P2 gate asks for layout coverage of at least 85%. Branches were the short measure, at 79% before the extra cases. The rest of the app is still v1 and is not part of this gate.
+
+Reversible? y

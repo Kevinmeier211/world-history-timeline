@@ -10,7 +10,7 @@
     "typecheck": "tsc -b --pretty false --noEmit",
     "lint": "eslint . && prettier --check .",
     "design:lint": "tsx scripts/design-lint.ts",
-    "test": "vitest run",
+    "test": "vitest run --coverage",
     "validate:data": "tsx scripts/validate-data.ts",
     "palette:check": "tsx scripts/palette-check.ts",
     "layout:report": "tsx scripts/layout-report.ts",

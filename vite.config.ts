@@ -23,8 +23,15 @@ export default defineConfig({
     setupFiles: ['./src/test/setup.ts'],
     coverage: {
       provider: 'v8',
-      // Thresholds stay off until the layout engine (P2) has something to measure.
-      thresholds: {},
+      reporter: ['text-summary'],
+      include: ['src/layout/**/*.ts'],
+      exclude: ['src/layout/**/*.test.ts'],
+      thresholds: {
+        statements: 85,
+        branches: 85,
+        functions: 85,
+        lines: 85,
+      },
     },
   },
 });
