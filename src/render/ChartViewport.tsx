@@ -6,6 +6,7 @@ import { benchRibbonCount, padRibbons } from './bench.ts';
 import { Minimap } from './Minimap.tsx';
 import { useFoldedPaint } from './useFoldedPaint.ts';
 import { Scrubber } from './Scrubber.tsx';
+import { bindPinch } from './pinch.ts';
 import { Stage } from './Stage.tsx';
 import { Tooltip } from './Tooltip.tsx';
 import { ZoomBar } from './ZoomBar.tsx';
@@ -198,6 +199,25 @@ export function ChartViewport({
     }
   };
 
+  const scaleNow = useRef(scale);
+  const applyNow = useRef(applyScale);
+  useEffect(() => {
+    scaleNow.current = scale;
+    applyNow.current = applyScale;
+  });
+
+  useEffect(() => {
+    const el = host.current;
+    if (!el) return;
+    return bindPinch(
+      el,
+      () => scaleNow.current,
+      (next) => {
+        applyNow.current(next);
+      },
+    );
+  }, []);
+
   const clearHashZoom = () => {
     const current = useView.getState().link;
     if (current.z === undefined) return;
@@ -240,7 +260,12 @@ export function ChartViewport({
   }, [metrics, onSheet, scale, world.height, world.width]);
 
   return (
-    <div className="stage-host" ref={host} data-ribbon-count={ribbons.length}>
+    <div
+      className="stage-host"
+      ref={host}
+      data-ribbon-count={ribbons.length}
+      data-scale={scale}
+    >
       {metrics ? (
         <Stage
           camera={camera}

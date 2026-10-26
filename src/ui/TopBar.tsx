@@ -60,7 +60,7 @@ export function TopBar({
         />
       </form>
       <label className="bar-field">
-        Lens
+        <span className="bar-label">Lens</span>
         <select
           value={lens}
           onChange={(event) => {
@@ -75,7 +75,7 @@ export function TopBar({
         </select>
       </label>
       <label className="bar-field">
-        View
+        <span className="bar-label">View</span>
         <select
           value={view}
           onChange={(event) => {

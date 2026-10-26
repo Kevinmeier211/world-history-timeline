@@ -15,6 +15,8 @@ import {
   minimapHeight,
   overlayOffsets,
   panScroll,
+  pinchScale,
+  pointerDistance,
   scrollFromMinimap,
   scrollTopForYear,
   sheetMinWidth,
@@ -32,6 +34,10 @@ describe('chart navigation', () => {
     expect(cameraScale(0.6, 2)).toBeCloseTo(1.2);
     expect(cameraScale(1, 1, 99)).toBe(SCALE_MAX);
     expect(cameraScale(Number.NaN, Number.NaN)).toBe(SCALE_MIN);
+    expect(pointerDistance({ x: 0, y: 0 }, { x: 3, y: 4 })).toBe(5);
+    expect(pinchScale(1, 100, 200)).toBe(2);
+    expect(pinchScale(1, 0, 40)).toBe(1);
+    expect(pinchScale(2, 10, 1000)).toBe(SCALE_MAX);
     expect(anchoredScroll(100, 200, 1, 2)).toBeCloseTo(300);
     expect(chartCommand('+', false)).toBe('in');
     expect(chartCommand('=', false)).toBe('in');

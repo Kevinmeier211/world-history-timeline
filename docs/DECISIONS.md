@@ -631,3 +631,13 @@ Alternatives: Give every ribbon a positive tabindex. Leave focus on the control 
 Why: T5.13 asks for tab order by time then x, focus management, skip links, and reduced motion everywhere.
 
 Reversible? y
+
+## 2026-10-26 — A phone uses a bottom sheet and a two-finger pinch
+
+Decision: At 480px and below, the dossier and the era list sit on the bottom of the screen, at most 70vh and 560px. Lens and View keep their controls and hide the words. Era reading lists every polity whose span meets the poster era that contains the current year, earliest first. Choosing one sets the year, selects the ribbon, and opens the dossier. A two-finger pinch changes the camera scale by the change in distance between the pointers. A mouse pointer does not. The scale stays inside the existing 0.2–6 clamp.
+
+Alternatives: Keep the side dossier on a phone. Add a separate mobile route. Treat a mouse drag as a pinch.
+
+Why: T5.14 asks for a bottom-sheet dossier, a collapsed toolbar, pinch zoom, and era reading mode.
+
+Reversible? y

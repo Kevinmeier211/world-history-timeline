@@ -100,7 +100,8 @@
 | T5.10 | done | 481bb78 | preset tests apply the five migrated rows and cap saved compares at 8; shell test restores `My Americas` from localStorage | 25 | All regions clears the pin. A preset year of 0 is dropped. See DECISIONS. |
 | T5.11 | done | b8c8239 | story tests keep 3 tours at ≤ 70 words; a stop sets year, scale, lens, and highlight; Fit width clears `z` | 35 | Art maps to the ideas lens. Politics and technology stay on All. See DECISIONS. |
 | T5.12 | done | e41dea0 | table tests sort years across the missing year 0, follow fold and pin, and window rows; a row opens the dossier | 35 | Callouts stay with the polity they attach to. See DECISIONS. |
-| T5.13 | done | (this commit) | tab-order test reads y then x; shell test focuses the chart from Skip to chart and keeps ribbon y sorted | 25 | Panels take focus and hand it back. Reduced motion clears transition time. See DECISIONS. |
+| T5.13 | done | 7801bb9 | tab-order test reads y then x; shell test focuses the chart from Skip to chart and keeps ribbon y sorted | 25 | Panels take focus and hand it back. Reduced motion clears transition time. See DECISIONS. |
+| T5.14 | done | (this commit) | era tests list Bronze polities in year order; shell test opens Egyptian New Kingdom from the era sheet; a pinch triples the scale | 30 | On a phone the dossier and era list are bottom sheets. Lens and View words collapse. See DECISIONS. |
 
 ## Blocked
 

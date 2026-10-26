@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 
+import { AXIS_START } from '../layout/constants.ts';
 import { columnChoices, withFold, withPin } from '../layout/columns.ts';
 import { clientDataset } from '../data/clientDataset.ts';
 import families from '../data/families.json';
@@ -20,6 +21,7 @@ import {
 import { useView } from '../state/view.ts';
 import type { ViewLink } from '../state/hashUrl.ts';
 import { Columns } from './Columns.tsx';
+import { EraReading } from './EraReading.tsx';
 import { Dossier } from './Dossier.tsx';
 import { Story } from './Story.tsx';
 import { applyStop, matchStop, storySources, tourStops } from './story.ts';
@@ -81,6 +83,7 @@ export function PosterApp() {
   const [reading, setReading] = useState(false);
   const [columnsOpen, setColumnsOpen] = useState(false);
   const [storyOpen, setStoryOpen] = useState(false);
+  const [eraOpen, setEraOpen] = useState(false);
   const [storyTourId, setStoryTourId] = useState<string | null>(null);
   const [storyIndex, setStoryIndex] = useState(0);
   const attachTo = useMemo(() => {
@@ -260,6 +263,13 @@ export function PosterApp() {
     };
   }, []);
 
+  const openPanel = (panel: 'reading' | 'columns' | 'stories' | 'era') => {
+    setReading(panel === 'reading');
+    setColumnsOpen(panel === 'columns' ? !columnsOpen : false);
+    setStoryOpen(panel === 'stories' ? !storyOpen : false);
+    setEraOpen(panel === 'era' ? !eraOpen : false);
+  };
+
   return (
     <div className="poster-app">
       <button
@@ -311,23 +321,13 @@ export function PosterApp() {
         sheetHeight={view === 'chart' ? sheet.height : undefined}
         sheetMinWidth={view === 'chart' ? sheet.minWidth : 0}
         readingOpen={reading}
-        onReading={() => {
-          setReading(true);
-          setColumnsOpen(false);
-          setStoryOpen(false);
-        }}
+        onReading={() => openPanel('reading')}
         columnsOpen={columnsOpen}
-        onColumns={() => {
-          setColumnsOpen((open) => !open);
-          setReading(false);
-          setStoryOpen(false);
-        }}
+        onColumns={() => openPanel('columns')}
         storiesOpen={storyOpen}
-        onStories={() => {
-          setStoryOpen((open) => !open);
-          setColumnsOpen(false);
-          setReading(false);
-        }}
+        onStories={() => openPanel('stories')}
+        eraOpen={eraOpen}
+        onEra={() => openPanel('era')}
       >
         {view === 'table' ? (
           <TableView
@@ -371,6 +371,17 @@ export function PosterApp() {
           setStoryOpen(false);
           setStoryTourId(null);
         }}
+      />
+      <EraReading
+        open={eraOpen}
+        year={link.y ?? AXIS_START}
+        onOpen={(id, start) => {
+          const current = useView.getState().link;
+          setLink({ ...current, y: start, sel: id });
+          setDossierId(id);
+          setEraOpen(false);
+        }}
+        onClose={() => setEraOpen(false)}
       />
       {dossier ? <Dossier model={dossier} onClose={() => setDossierId(null)} /> : null}
     </div>

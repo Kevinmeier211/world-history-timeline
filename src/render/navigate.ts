@@ -14,6 +14,26 @@ export function steppedScale(scale: number, direction: 1 | -1): number {
   return Math.min(SCALE_MAX, Math.max(SCALE_MIN, next));
 }
 
+export function pointerDistance(
+  a: { x: number; y: number },
+  b: { x: number; y: number },
+): number {
+  return Math.hypot(a.x - b.x, a.y - b.y);
+}
+
+/** Scale after a two-finger pinch. A zero distance leaves the scale alone. */
+export function pinchScale(
+  startScale: number,
+  startDistance: number,
+  distance: number,
+): number {
+  if (!(startScale > 0) || !(startDistance > 0) || !(distance > 0)) return startScale;
+  return Math.min(
+    SCALE_MAX,
+    Math.max(SCALE_MIN, startScale * (distance / startDistance)),
+  );
+}
+
 /** Hash zoom is the camera scale. Otherwise the local multiplier rides on fit. */
 export function cameraScale(fit: number, localZoom: number, hashZoom?: number): number {
   const raw =

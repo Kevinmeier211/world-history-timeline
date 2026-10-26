@@ -1,7 +1,7 @@
 import { existsSync, readFileSync } from 'node:fs';
 
 import { createElement } from 'react';
-import { cleanup, render, screen, waitFor } from '@testing-library/react';
+import { cleanup, render, screen, waitFor, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { afterEach, describe, expect, it, vi } from 'vitest';
 
@@ -283,6 +283,24 @@ describe('poster shell', () => {
     expect(window.location.hash).toContain('sel=han_dynasty');
     expect(screen.getByRole('dialog', { name: 'Dossier' })).toHaveTextContent(
       'Qin & Han Dynasties',
+    );
+  });
+
+  it('reads the era that contains the year', async () => {
+    vi.stubGlobal('ResizeObserver', FakeResizeObserver);
+    window.history.replaceState(null, '', '/#y=-1350');
+    const user = userEvent.setup();
+    render(createElement(PosterApp));
+    await user.click(screen.getByRole('button', { name: 'Era reading' }));
+    const panel = await screen.findByRole('region', { name: 'Era reading' });
+    expect(panel).toHaveTextContent('Bronze');
+    expect(screen.queryByRole('dialog', { name: 'Era reading' })).toBeNull();
+    await user.click(
+      within(panel).getByRole('button', { name: 'Egyptian New Kingdom' }),
+    );
+    expect(window.location.hash).toContain('sel=egypt_new_kingdom');
+    expect(screen.getByRole('dialog', { name: 'Dossier' })).toHaveTextContent(
+      'Egyptian New Kingdom',
     );
   });
 

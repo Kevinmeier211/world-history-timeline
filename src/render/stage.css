@@ -63,6 +63,7 @@
 .stage-host {
   position: relative;
   height: 100%;
+  touch-action: pan-y;
 }
 
 .chart-chrome {
