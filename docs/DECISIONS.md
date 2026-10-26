@@ -1002,6 +1002,16 @@ Why: A new band has to use a span the dataset already dates. The three existing 
 
 Reversible? y
 
+## 2026-10-26 — Classical importance stays at the rows already set
+
+Decision: No 600 BCE–500 CE row was raised to importance 3 or 4 in this pass. Weights were not changed. `npm run layout:report` after the callouts: 238 ribbons drawn, 436 polities, 0 overlaps, minimum gap 6, importance-3 labels 82/82, 0 unroutable relations, 82 omitted, max drift 3.211. Cold runtime 252 ms, warm 169 ms, over the 150 ms gate. Callouts dropped 214, with 13 markers and 72 placed. The layout engine was not changed.
+
+Alternatives: Raise Rome, Han, the Achaemenids, and the Mauryas to importance 3. Raise any of them to importance 4 without an opened page.
+
+Why: Importance 4 still waits on an opened page that states the claim. The runtime miss is the roster, not a new solver.
+
+Reversible? y
+
 ## 2026-10-26 — Early-modern importance stays at the rows already set
 
 Decision: No 1500–1800 row was raised to importance 3 or 4 in this pass. `denmark_norway` stays weight 0.22. `sweden_1523` stays weight 0.35. `npm run layout:report` after the new rows and callouts: 238 ribbons drawn, 436 polities, 0 overlaps, minimum gap 6, importance-3 labels 82/82, 0 unroutable relations, 82 omitted, max drift 3.211. Cold runtime 259 ms, warm 156 ms, over the 150 ms gate. Callouts dropped 100, with 13 markers and 46 placed. The layout engine was not changed.
