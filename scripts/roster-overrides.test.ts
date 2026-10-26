@@ -65,6 +65,26 @@ describe('roster label overrides', () => {
         connector.relationId.startsWith('split_carolingian_'),
       ),
     ).toBe(true);
+    expect(
+      tuned.ribbons.some((ribbon) => ribbon.polityId === 'western_roman_empire'),
+    ).toBe(true);
+    expect(
+      tuned.ribbons.some((ribbon) => ribbon.polityId === 'eastern_roman_empire'),
+    ).toBe(true);
+    expect(
+      tuned.connectors.some(
+        (connector) => connector.relationId === 'merge_aragon_castile_spain_union',
+      ),
+    ).toBe(true);
+    const west = tuned.ribbons.find(
+      (ribbon) => ribbon.polityId === 'western_roman_empire',
+    );
+    const east = tuned.ribbons.find(
+      (ribbon) => ribbon.polityId === 'eastern_roman_empire',
+    );
+    const westX = west?.keyframes[0]?.x ?? 0;
+    const eastX = east?.keyframes[0]?.x ?? 0;
+    expect(westX).toBeLessThan(eastX);
     const importance = new Map(
       dataset.polities.map((polity) => [polity.id, polity.importance]),
     );

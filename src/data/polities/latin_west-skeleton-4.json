@@ -136,5 +136,51 @@
     "sourceIds": ["cambridge_histories", "british_library"],
     "verification": "unverified",
     "evidence": "Widely cited span. The cited pages were not opened for this row."
+  },
+  {
+    "id": "aragon",
+    "name": "Crown of Aragon",
+    "family": "latin_west",
+    "start": 1137,
+    "end": 1469,
+    "confidence": "debated",
+    "dateNote": "A conventional start for the Crown of Aragon is 1137. The checklist union is 1469. Pages were not opened.",
+    "importance": 3,
+    "weight": 0.4,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1137,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "The Crown of Aragon from a conventional start in 1137 until the checklist union of the crowns in 1469. Dates were not re-verified.",
+    "keyFacts": ["Parent of the 1469 union."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row."
+  },
+  {
+    "id": "castile",
+    "name": "Crown of Castile",
+    "family": "latin_west",
+    "start": 1230,
+    "end": 1469,
+    "confidence": "debated",
+    "dateNote": "A conventional start for the Crown of Castile is 1230. The checklist union is 1469. Pages were not opened.",
+    "importance": 3,
+    "weight": 0.4,
+    "kind": "state",
+    "anchor": [
+      {
+        "year": 1230,
+        "xKey": "western_europe"
+      }
+    ],
+    "summary": "The Crown of Castile from a conventional start in 1230 until the checklist union of the crowns in 1469. Dates were not re-verified.",
+    "keyFacts": ["Parent of the 1469 union."],
+    "sourceIds": ["cambridge_histories", "british_library"],
+    "verification": "unverified",
+    "evidence": "Bibliography pointers only. The cited pages were not opened for this row."
   }
 ]

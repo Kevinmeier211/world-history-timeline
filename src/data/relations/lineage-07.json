@@ -1,17 +1,5 @@
 [
   {
-    "id": "abut_safavid_dynasty_afsharid",
-    "from": ["safavid_dynasty"],
-    "to": ["afsharid"],
-    "year": 1736,
-    "type": "succession",
-    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
-    "sourceIds": ["isac", "louvre"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
-  },
-  {
     "id": "abut_second_intermediate_egypt_egypt_new_kingdom",
     "from": ["second_intermediate_egypt"],
     "to": ["egypt_new_kingdom"],
@@ -139,6 +127,18 @@
     "type": "succession",
     "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
     "sourceIds": ["unesco_gha", "cambridge_histories"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."
+  },
+  {
+    "id": "abut_ussr_russia",
+    "from": ["ussr"],
+    "to": ["russia"],
+    "year": 1991,
+    "type": "succession",
+    "note": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened.",
+    "sourceIds": ["cambridge_histories", "british_library"],
     "confidence": "debated",
     "verification": "unverified",
     "evidence": "Unique same-family handoff on a shared year, or across one empty year. Pages were not opened."

@@ -1,5 +1,17 @@
 [
   {
+    "id": "ottoman_levant",
+    "reason": "gemini-v1 names no parent; nearest same-family end is crusader_states at a gap of 225 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "oyo",
+    "reason": "gemini-v1 names no parent; nearest same-family end is ghana_wagadu at a gap of 200 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "pacific_microstates",
+    "reason": "gemini-v1 names no parent; nearest same-family end is voc at a gap of 1 continuous year, while other polities in the family are still current."
+  },
+  {
     "id": "pagan",
     "reason": "gemini-v1 names no parent; nearest same-family end is funan at a gap of 299 continuous years, outside a shared-boundary handoff."
   },
@@ -82,17 +94,5 @@
   {
     "id": "safavid_dynasty",
     "reason": "gemini-v1 names no parent; nearest same-family end is ilkhanate_iran at a gap of 166 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "samoa",
-    "reason": "gemini-v1 names no parent; no earlier same-family polity ends on or before this start."
-  },
-  {
-    "id": "satavahana",
-    "reason": "gemini-v1 names no parent; nearest same-family end is mahajanapadas, nanda at a gap of 92 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "saudi_arabia",
-    "reason": "gemini-v1 names no parent; nearest same-family end is ottoman at a gap of 10 continuous years, outside a shared-boundary handoff."
   }
 ]

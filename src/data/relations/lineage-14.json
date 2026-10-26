@@ -1,5 +1,29 @@
 [
   {
+    "id": "v1_maurya_empire_gupta_chola",
+    "from": ["maurya_empire"],
+    "to": ["gupta_chola"],
+    "year": 319,
+    "type": "cultural_continuity",
+    "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
+    "sourceIds": ["british_library", "cambridge_histories"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."
+  },
+  {
+    "id": "v1_maya_civilization_new_spain_mexico",
+    "from": ["maya_civilization"],
+    "to": ["new_spain_mexico"],
+    "year": 1521,
+    "type": "cultural_continuity",
+    "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
+    "sourceIds": ["inah", "field_museum"],
+    "confidence": "debated",
+    "verification": "unverified",
+    "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."
+  },
+  {
     "id": "v1_megalithic_celts_roman_empire",
     "from": ["megalithic_celts"],
     "to": ["roman_empire"],
@@ -115,30 +139,6 @@
     "type": "cultural_continuity",
     "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
     "sourceIds": ["unesco_gha", "cambridge_histories"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."
-  },
-  {
-    "id": "v1_phoenicia_israel_achaemenid_empire",
-    "from": ["phoenicia_israel"],
-    "to": ["achaemenid_empire"],
-    "year": -550,
-    "type": "cultural_continuity",
-    "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
-    "sourceIds": ["isac", "louvre"],
-    "confidence": "debated",
-    "verification": "unverified",
-    "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."
-  },
-  {
-    "id": "v1_ptolemaic_seleucid_parthian_sassanid",
-    "from": ["ptolemaic_seleucid"],
-    "to": ["parthian_sassanid"],
-    "year": -247,
-    "type": "cultural_continuity",
-    "note": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened.",
-    "sourceIds": ["isac", "louvre"],
     "confidence": "debated",
     "verification": "unverified",
     "evidence": "Copied from gemini-v1 parentIds. Typed cultural continuity because v1 did not classify the edge. Pages were not opened."

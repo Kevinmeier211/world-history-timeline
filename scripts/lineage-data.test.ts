@@ -55,7 +55,9 @@ describe('generated lineage files', () => {
     ).toBe(true);
     expect(
       built.relations.every((item) =>
-        ['succession', 'split', 'disputed', 'cultural_continuity'].includes(item.type),
+        ['succession', 'split', 'merge', 'disputed', 'cultural_continuity'].includes(
+          item.type,
+        ),
       ),
     ).toBe(true);
     for (const twin of CHECKLIST_TWINS) {
@@ -105,6 +107,7 @@ describe('generated lineage files', () => {
       'minoans_mycenaeans>classical_greece',
       'egypt_old_kingdom>egypt_middle_kingdom',
       'egypt_middle_kingdom>egypt_new_kingdom',
+      'roman_empire>franks_charlemagne',
       'nok_culture>ghana_mali_songhai',
       'poverty_point>hopewell_tradition',
       'wari_tiwanaku>inca_empire',

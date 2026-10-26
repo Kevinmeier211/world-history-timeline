@@ -721,3 +721,13 @@ Alternatives: Clamp centerlines after packing. Delete the 0.62px sample so the m
 Why: Item 2 needs a river that does not kink when neighbors appear or leave, and the sixty-state fixture still has to draw its names. Spending width, not a global slope cap, is what keeps the gaps.
 
 Reversible? y
+
+## 2026-10-26 — Rome splits, and Castile joins Aragon, in the data
+
+Decision: `roman_empire` now ends at the conventional year 395. `western_roman_empire` (395–476, western Europe) and `eastern_roman_empire` (395–476, eastern Mediterranean) are checklist ribbons. The eastern ribbon stops at 476 so it does not lie on the Byzantine ribbon through 1453. `aragon` (1137–1469) and `castile` (1230–1469) meet `spain_union`, whose importance is 3 so the child stays in a full slice. `buildLineage` emits the split and the merge from `EXPLICIT_FORKS`. Abutment stays inside one family, and two predecessors would otherwise become `disputed`, so those edges are named rather than inferred. The cited pages were not opened. The lane solver places the ribbons: west at x 418, east at x 757, and the merge connector is routed. A same-family handoff still runs from the western ribbon to Italy in 476. The v1 cultural-continuity edge from Rome to the Franks drops, because 481 is outside the new end, and that pair is a skipped parent. The roster report is overlaps 0, label hits 0, importance 3 fit 74/74, warm 136ms. `maxRibbonDrift` is 4.193 on `umayyad_abbasid` (13px across 3.1px of y). The Egypt step stays 0.22px across 0.62px.
+
+Alternatives: Draw the fork as a hand-built path. Keep one Roman ribbon. Invent a merge that has no polities behind it.
+
+Why: Item 2 asks for the Rome east/west split and a merge the relation data already supports. The geometry has to come from the solver.
+
+Reversible? y

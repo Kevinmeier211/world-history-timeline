@@ -1,7 +1,15 @@
 [
   {
+    "id": "cahokia",
+    "reason": "gemini-v1 names no parent; nearest same-family end is hopewell_tradition at a gap of 550 continuous years, outside a shared-boundary handoff."
+  },
+  {
     "id": "carthage",
     "reason": "gemini-v1 names no parent; nearest same-family end is ebla at a gap of 786 continuous years, outside a shared-boundary handoff."
+  },
+  {
+    "id": "castile",
+    "reason": "gemini-v1 names no parent; nearest same-family end is west_francia at a gap of 243 continuous years, outside a shared-boundary handoff."
   },
   {
     "id": "chalukya",
@@ -86,13 +94,5 @@
   {
     "id": "etruscans",
     "reason": "gemini-v1 names no parent; nearest same-family end is los_millares at a gap of 1300 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "european_partition_africa",
-    "reason": "gemini-v1 names no parent; nearest same-family end is oyo at a gap of 45 continuous years, outside a shared-boundary handoff."
-  },
-  {
-    "id": "fatimid",
-    "reason": "gemini-v1 names no parent; nearest same-family end is umayyad at a gap of 159 continuous years, outside a shared-boundary handoff."
   }
 ]
