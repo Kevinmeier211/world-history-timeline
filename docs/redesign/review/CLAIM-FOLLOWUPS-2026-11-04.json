@@ -1,0 +1,129 @@
+{
+  "date": "2026-11-04",
+  "scope": "Twelve unresolved outcomes from the 114 named-claim pass. This is not the full dossier defect register.",
+  "items": [
+    {
+      "subject": "hattusha-change",
+      "claim": "hittite-proxy",
+      "status": "fresh_access_unavailable",
+      "finding": "PMC returned a browser challenge; Nature HTML/PDF redirected to inaccessible identity handling; PubMed extraction returned no abstract. Search excerpts identify 1198–1196 ±3 BCE but do not constitute a fresh full-paper appraisal of the causal limit. Keep this named claim unresolved in this audit.",
+      "sourceURLs": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9946833/",
+        "https://www.nature.com/articles/s41586-022-05693-y",
+        "https://www.nature.com/articles/s41586-022-05693-y.pdf",
+        "https://pubmed.ncbi.nlm.nih.gov/36755095/"
+      ],
+      "endpoint": "Consult the exact supporting source passage and record its locator. If it cannot support the complete claim, qualify or repair the claim and dependent narrative/activity/print outputs, then revalidate affected delivery. Do not treat access failure as historical disproof.",
+      "owner": "Codex source/editorial work; specialist judgment if interpretation remains disputed"
+    },
+    {
+      "subject": "angkor",
+      "claim": "angkor-expanded-reading",
+      "status": "partially_supported",
+      "finding": "UNESCO confirms an inhabited landscape, but the selected water-network paper returned a browser challenge and the second paper’s DOI was inaccessible. The two studies’ methods and occupation findings have not been freshly rechecked; the combined claim remains partially reviewed.",
+      "sourceURLs": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6192684/",
+        "https://doi.org/10.1073/pnas.1821879116",
+        "https://whc.unesco.org/en/list/668/"
+      ],
+      "endpoint": "Consult the exact supporting source passage and record its locator. If it cannot support the complete claim, qualify or repair the claim and dependent narrative/activity/print outputs, then revalidate affected delivery. Do not treat access failure as historical disproof.",
+      "owner": "Codex source/editorial work; specialist judgment if interpretation remains disputed"
+    },
+    {
+      "subject": "polynesian-voyaging",
+      "claim": "polynesian-voyaging-checked",
+      "status": "partially_supported",
+      "finding": "The cited Te Ara settlement page supports arrival around 1250–1300 CE. It does not, in the consulted passage, substantiate the appended navigation-signs clause. Verify the appropriate navigation source and its locator before closing the combined claim.",
+      "sourceURLs": ["https://teara.govt.nz/en/when-was-new-zealand-first-settled"],
+      "endpoint": "Consult the exact supporting source passage and record its locator. If it cannot support the complete claim, qualify or repair the claim and dependent narrative/activity/print outputs, then revalidate affected delivery. Do not treat access failure as historical disproof.",
+      "owner": "Codex source/editorial work; specialist judgment if interpretation remains disputed"
+    },
+    {
+      "subject": "factory-reform",
+      "claim": "factory-reform-checked",
+      "status": "fresh_access_unavailable",
+      "finding": "The exact National Archives teaching page returned 403. The 1833 law/1836 inspector pairing was not freshly consulted.",
+      "sourceURLs": [
+        "https://www.nationalarchives.gov.uk/education/resources/1833-factory-act/"
+      ],
+      "endpoint": "Consult the exact supporting source passage and record its locator. If it cannot support the complete claim, qualify or repair the claim and dependent narrative/activity/print outputs, then revalidate affected delivery. Do not treat access failure as historical disproof.",
+      "owner": "Codex source/editorial work; specialist judgment if interpretation remains disputed"
+    },
+    {
+      "subject": "hine-labor",
+      "claim": "hine-labor-checked",
+      "status": "fresh_access_unavailable",
+      "finding": "LOC catalogue 2018674890 returned 403. The exact 3 December 1908 date and NCLC caption-card attribution were not freshly read.",
+      "sourceURLs": ["https://www.loc.gov/item/2018674890/"],
+      "endpoint": "Consult the exact supporting source passage and record its locator. If it cannot support the complete claim, qualify or repair the claim and dependent narrative/activity/print outputs, then revalidate affected delivery. Do not treat access failure as historical disproof.",
+      "owner": "Codex source/editorial work; specialist judgment if interpretation remains disputed"
+    },
+    {
+      "subject": "haitian-revolution",
+      "claim": "haitian-revolution-checked",
+      "status": "fresh_access_unavailable",
+      "finding": "Columbia catalogue redirects to an access-denied page. Retain prior scoped consultation without claiming a fresh verification; date-spacing copy repair does not establish historical support.",
+      "sourceURLs": ["https://pegasus.law.columbia.edu/record/127673"],
+      "endpoint": "Consult the exact supporting source passage and record its locator. If it cannot support the complete claim, qualify or repair the claim and dependent narrative/activity/print outputs, then revalidate affected delivery. Do not treat access failure as historical disproof.",
+      "owner": "Codex source/editorial work; specialist judgment if interpretation remains disputed"
+    },
+    {
+      "subject": "world-war-one",
+      "claim": "world-war-one-checked",
+      "status": "fresh_access_unavailable",
+      "finding": "The selected IWM key-facts page returned 403. The named geographical claim was not freshly checked against that source.",
+      "sourceURLs": ["https://www.iwm.org.uk/history/first-world-war/key-facts"],
+      "endpoint": "Consult the exact supporting source passage and record its locator. If it cannot support the complete claim, qualify or repair the claim and dependent narrative/activity/print outputs, then revalidate affected delivery. Do not treat access failure as historical disproof.",
+      "owner": "Codex source/editorial work; specialist judgment if interpretation remains disputed"
+    },
+    {
+      "subject": "inuinnait-sewing",
+      "claim": "inuinnait-sewing-checked",
+      "status": "partially_supported",
+      "finding": "Internet Archive metadata confirms 1922 publication and the 1913–16 Southern Party, but the frontispiece caption was not accessible in this recheck. The named people, dress identification and photographic dating limitation remain unverified here.",
+      "sourceURLs": ["https://archive.org/details/lifeofcoppereski00jenn"],
+      "endpoint": "Consult the exact supporting source passage and record its locator. If it cannot support the complete claim, qualify or repair the claim and dependent narrative/activity/print outputs, then revalidate affected delivery. Do not treat access failure as historical disproof.",
+      "owner": "Codex source/editorial work; specialist judgment if interpretation remains disputed"
+    },
+    {
+      "subject": "ozette-makah",
+      "claim": "ozette-makah-checked",
+      "status": "fresh_access_unavailable",
+      "finding": "The SAH Archipedia record returned 403. Its differing burial estimates were not freshly consulted.",
+      "sourceURLs": ["https://sah-archipedia.org/buildings/WA-01-009-0042"],
+      "endpoint": "Consult the exact supporting source passage and record its locator. If it cannot support the complete claim, qualify or repair the claim and dependent narrative/activity/print outputs, then revalidate affected delivery. Do not treat access failure as historical disproof.",
+      "owner": "Codex source/editorial work; specialist judgment if interpretation remains disputed"
+    },
+    {
+      "subject": "ocmulgee-council",
+      "claim": "ocmulgee-council-checked",
+      "status": "fresh_access_unavailable",
+      "finding": "The exact article DOI was inaccessible and a targeted publisher search did not return the article. The new roof-wood findings were not freshly read; no conclusion that the claim is historically false follows.",
+      "sourceURLs": ["https://doi.org/10.1017/aaq.2025.10106"],
+      "endpoint": "Consult the exact supporting source passage and record its locator. If it cannot support the complete claim, qualify or repair the claim and dependent narrative/activity/print outputs, then revalidate affected delivery. Do not treat access failure as historical disproof.",
+      "owner": "Codex source/editorial work; specialist judgment if interpretation remains disputed"
+    },
+    {
+      "subject": "cherokee-print",
+      "claim": "cherokee-print-checked",
+      "status": "partially_supported",
+      "finding": "Cherokee Nation’s history page was accessible, but both LOC catalogue/issue pages returned 403. The exact February publication start and selected April issue were not freshly verified; the combined claim remains open.",
+      "sourceURLs": [
+        "https://www.loc.gov/item/sn83020866",
+        "https://www.loc.gov/item/97512373/",
+        "https://www.cherokee.gov/about-the-nation/history/"
+      ],
+      "endpoint": "Consult the exact supporting source passage and record its locator. If it cannot support the complete claim, qualify or repair the claim and dependent narrative/activity/print outputs, then revalidate affected delivery. Do not treat access failure as historical disproof.",
+      "owner": "Codex source/editorial work; specialist judgment if interpretation remains disputed"
+    },
+    {
+      "subject": "ojibwe-manoomin",
+      "claim": "ojibwe-manoomin-checked",
+      "status": "fresh_access_unavailable",
+      "finding": "The LOC catalogue returned 403. Its bracketed date, probable location and subject description were not freshly read.",
+      "sourceURLs": ["https://www.loc.gov/pictures/collection/cph/item/2020637524/"],
+      "endpoint": "Consult the exact supporting source passage and record its locator. If it cannot support the complete claim, qualify or repair the claim and dependent narrative/activity/print outputs, then revalidate affected delivery. Do not treat access failure as historical disproof.",
+      "owner": "Codex source/editorial work; specialist judgment if interpretation remains disputed"
+    }
+  ]
+}

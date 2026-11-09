@@ -1,0 +1,192 @@
+[
+  {
+    "id": "FA01",
+    "track": "adult self-directed",
+    "chapters": ["C1", "C8"],
+    "taskIds": ["RT01", "RT02", "RT03", "RT04", "RT05", "RT06"],
+    "status": "not_recruited",
+    "participant": null,
+    "newToPrototype": null,
+    "candidateIdentity": null,
+    "deviceBrowserInput": null,
+    "agreementRecorded": null,
+    "observations": null,
+    "followup": {
+      "targetDays": [7, 14],
+      "status": "not_scheduled",
+      "taskId": "RT07",
+      "observations": null
+    }
+  },
+  {
+    "id": "FA02",
+    "track": "adult self-directed",
+    "chapters": ["C2", "C7"],
+    "taskIds": ["RT01", "RT02", "RT03", "RT04", "RT05", "RT06"],
+    "status": "not_recruited",
+    "participant": null,
+    "newToPrototype": null,
+    "candidateIdentity": null,
+    "deviceBrowserInput": null,
+    "agreementRecorded": null,
+    "observations": null,
+    "followup": {
+      "targetDays": [7, 14],
+      "status": "not_scheduled",
+      "taskId": "RT07",
+      "observations": null
+    }
+  },
+  {
+    "id": "FA03",
+    "track": "adult self-directed",
+    "chapters": ["C3", "C8"],
+    "taskIds": ["RT01", "RT02", "RT03", "RT04", "RT05", "RT06"],
+    "status": "not_recruited",
+    "participant": null,
+    "newToPrototype": null,
+    "candidateIdentity": null,
+    "deviceBrowserInput": null,
+    "agreementRecorded": null,
+    "observations": null,
+    "followup": {
+      "targetDays": [7, 14],
+      "status": "not_scheduled",
+      "taskId": "RT07",
+      "observations": null
+    }
+  },
+  {
+    "id": "FA04",
+    "track": "adult self-directed",
+    "chapters": ["C4", "C6"],
+    "taskIds": ["RT01", "RT02", "RT03", "RT04", "RT05", "RT06"],
+    "status": "not_recruited",
+    "participant": null,
+    "newToPrototype": null,
+    "candidateIdentity": null,
+    "deviceBrowserInput": null,
+    "agreementRecorded": null,
+    "observations": null,
+    "followup": {
+      "targetDays": [7, 14],
+      "status": "not_scheduled",
+      "taskId": "RT07",
+      "observations": null
+    }
+  },
+  {
+    "id": "FA05",
+    "track": "adult self-directed",
+    "chapters": ["C5", "C7"],
+    "taskIds": ["RT01", "RT02", "RT03", "RT04", "RT05", "RT06"],
+    "status": "not_recruited",
+    "participant": null,
+    "newToPrototype": null,
+    "candidateIdentity": null,
+    "deviceBrowserInput": null,
+    "agreementRecorded": null,
+    "observations": null,
+    "followup": {
+      "targetDays": [7, 14],
+      "status": "not_scheduled",
+      "taskId": "RT07",
+      "observations": null
+    }
+  },
+  {
+    "id": "FP01",
+    "track": "adult-child ages 10-14",
+    "chapters": ["C1", "C8"],
+    "taskIds": ["RT01", "RT02", "RT03", "RT04", "RT05", "RT06"],
+    "status": "not_recruited",
+    "participant": null,
+    "newToPrototype": null,
+    "candidateIdentity": null,
+    "deviceBrowserInput": null,
+    "agreementRecorded": null,
+    "observations": null,
+    "followup": {
+      "targetDays": [7, 14],
+      "status": "not_scheduled",
+      "taskId": "RT07",
+      "observations": null
+    }
+  },
+  {
+    "id": "FP02",
+    "track": "adult-child ages 10-14",
+    "chapters": ["C2", "C7"],
+    "taskIds": ["RT01", "RT02", "RT03", "RT04", "RT05", "RT06"],
+    "status": "not_recruited",
+    "participant": null,
+    "newToPrototype": null,
+    "candidateIdentity": null,
+    "deviceBrowserInput": null,
+    "agreementRecorded": null,
+    "observations": null,
+    "followup": {
+      "targetDays": [7, 14],
+      "status": "not_scheduled",
+      "taskId": "RT07",
+      "observations": null
+    }
+  },
+  {
+    "id": "FP03",
+    "track": "adult-child ages 10-14",
+    "chapters": ["C3", "C8"],
+    "taskIds": ["RT01", "RT02", "RT03", "RT04", "RT05", "RT06"],
+    "status": "not_recruited",
+    "participant": null,
+    "newToPrototype": null,
+    "candidateIdentity": null,
+    "deviceBrowserInput": null,
+    "agreementRecorded": null,
+    "observations": null,
+    "followup": {
+      "targetDays": [7, 14],
+      "status": "not_scheduled",
+      "taskId": "RT07",
+      "observations": null
+    }
+  },
+  {
+    "id": "FP04",
+    "track": "adult-child ages 10-14",
+    "chapters": ["C4", "C6"],
+    "taskIds": ["RT01", "RT02", "RT03", "RT04", "RT05", "RT06"],
+    "status": "not_recruited",
+    "participant": null,
+    "newToPrototype": null,
+    "candidateIdentity": null,
+    "deviceBrowserInput": null,
+    "agreementRecorded": null,
+    "observations": null,
+    "followup": {
+      "targetDays": [7, 14],
+      "status": "not_scheduled",
+      "taskId": "RT07",
+      "observations": null
+    }
+  },
+  {
+    "id": "FP05",
+    "track": "adult-child ages 10-14",
+    "chapters": ["C5", "C7"],
+    "taskIds": ["RT01", "RT02", "RT03", "RT04", "RT05", "RT06"],
+    "status": "not_recruited",
+    "participant": null,
+    "newToPrototype": null,
+    "candidateIdentity": null,
+    "deviceBrowserInput": null,
+    "agreementRecorded": null,
+    "observations": null,
+    "followup": {
+      "targetDays": [7, 14],
+      "status": "not_scheduled",
+      "taskId": "RT07",
+      "observations": null
+    }
+  }
+]

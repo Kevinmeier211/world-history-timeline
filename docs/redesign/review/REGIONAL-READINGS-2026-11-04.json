@@ -1,0 +1,4727 @@
+{
+  "date": "2026-11-04",
+  "status": "local_editorial_review_candidate",
+  "corpusSHA256": "ab07b81d6150eb754552346cc4ce8655af5ab600ffeff8107bbd6b6ec3c82900",
+  "authoredOrientations": 56,
+  "requiredOrientations": 56,
+  "authoredSnapshots": 84,
+  "requiredSnapshots": 84,
+  "chapters": ["C1", "C2", "C3", "C4", "C5", "C6", "C7", "C8"],
+  "newStandaloneDossiers": 0,
+  "reviewScope": "Codex authorship and source consultation, not independent historian acceptance. New passages use freshly consulted sources or preserved, specifically scoped dossier/reference evidence; not every old full source has been reconsulted. Each row retains locators and limits.",
+  "preservation": {
+    "subjects": true,
+    "contexts": true,
+    "media": true,
+    "journeys": true,
+    "comparisons": true,
+    "glossary": true,
+    "packs": true,
+    "relations": true
+  },
+  "addedSources": [
+    "orientation-an-son",
+    "orientation-mohenjodaro",
+    "orientation-bhagwanpura",
+    "orientation-meroe",
+    "orientation-achaemenid",
+    "orientation-hellenistic",
+    "orientation-warring-states",
+    "orientation-post-han",
+    "orientation-oc-eo",
+    "orientation-djenne-urbanism",
+    "orientation-djenne-heritage",
+    "orientation-aachen",
+    "orientation-paharpur",
+    "orientation-nara",
+    "orientation-gyeongju",
+    "orientation-korea",
+    "orientation-kilwa",
+    "orientation-zimbabwe",
+    "orientation-provins",
+    "orientation-fontenay",
+    "orientation-karakorum",
+    "orientation-mongol-transition",
+    "orientation-qutb",
+    "orientation-chola",
+    "orientation-andean-textiles",
+    "orientation-plantin",
+    "orientation-royal-society",
+    "orientation-momoyama",
+    "orientation-mendez",
+    "orientation-sweatt",
+    "orientation-brown",
+    "orientation-mexico",
+    "orientation-asante",
+    "orientation-benin-raid",
+    "orientation-early-factories",
+    "orientation-factory-dates",
+    "orientation-marshall",
+    "orientation-schuman",
+    "orientation-euro",
+    "orientation-qajar",
+    "orientation-turkiye",
+    "orientation-turkiye-election",
+    "orientation-truman",
+    "orientation-tenge",
+    "orientation-company",
+    "orientation-india-394",
+    "orientation-jharkhand",
+    "orientation-qing",
+    "orientation-japan-constitution",
+    "orientation-korea-resolution",
+    "orientation-korea-summit",
+    "orientation-nz-contact",
+    "orientation-nz-vote",
+    "orientation-samoa",
+    "orientation-timor"
+  ],
+  "expandedConsultationScopes": [
+    "parthia",
+    "ming",
+    "mughal",
+    "banda-archive",
+    "byzantium",
+    "tang",
+    "abbasid",
+    "borobudur",
+    "nalanda",
+    "angkor",
+    "song-phases",
+    "haiti",
+    "sa-transition",
+    "chaco-bonito",
+    "indonesia-war",
+    "ghana-country-study",
+    "lapita-tonga-ceramic-change",
+    "chavin-center-met-chronology",
+    "manila-tamal-huye-project",
+    "banda-pala-1621",
+    "middle-niger-urbanism-1981",
+    "voyaging-chronology-2022"
+  ],
+  "freshlyConsultedSourceIds": [
+    "orientation-an-son",
+    "orientation-mohenjodaro",
+    "orkney-neolithic",
+    "giza-settlement",
+    "kerma-city-project",
+    "liangzhu",
+    "dholavira",
+    "uruk",
+    "completion-kuk-sequence",
+    "completion-kuk-ditches",
+    "caral-starch-2023",
+    "orientation-bhagwanpura",
+    "kerma",
+    "shang-yinxu",
+    "orientation-meroe",
+    "orientation-achaemenid",
+    "orientation-hellenistic",
+    "orientation-warring-states",
+    "chavin-center-unesco",
+    "chavin-center-met-chronology",
+    "ashoka",
+    "qin",
+    "orientation-post-han",
+    "parthia",
+    "orientation-oc-eo",
+    "lapita-tonga-ceramic-change",
+    "ming",
+    "mughal",
+    "banda-archive",
+    "byzantium",
+    "tang",
+    "abbasid",
+    "borobudur",
+    "nalanda",
+    "angkor",
+    "song-phases",
+    "haiti",
+    "sa-transition",
+    "chaco-bonito",
+    "indonesia-war",
+    "ghana-country-study",
+    "manila-tamal-huye-project",
+    "banda-pala-1621",
+    "middle-niger-urbanism-1981",
+    "voyaging-chronology-2022",
+    "orientation-djenne-urbanism",
+    "orientation-djenne-heritage",
+    "orientation-aachen",
+    "orientation-paharpur",
+    "orientation-nara",
+    "orientation-gyeongju",
+    "orientation-korea",
+    "orientation-kilwa",
+    "orientation-zimbabwe",
+    "orientation-provins",
+    "orientation-fontenay",
+    "orientation-karakorum",
+    "orientation-mongol-transition",
+    "orientation-qutb",
+    "orientation-chola",
+    "orientation-andean-textiles",
+    "orientation-plantin",
+    "orientation-royal-society",
+    "orientation-momoyama",
+    "orientation-mendez",
+    "orientation-sweatt",
+    "orientation-brown",
+    "orientation-mexico",
+    "orientation-asante",
+    "orientation-benin-raid",
+    "orientation-early-factories",
+    "orientation-factory-dates",
+    "orientation-marshall",
+    "orientation-schuman",
+    "orientation-euro",
+    "orientation-qajar",
+    "orientation-turkiye",
+    "orientation-turkiye-election",
+    "orientation-truman",
+    "orientation-tenge",
+    "orientation-company",
+    "orientation-india-394",
+    "orientation-jharkhand",
+    "orientation-qing",
+    "orientation-japan-constitution",
+    "orientation-korea-resolution",
+    "orientation-korea-summit",
+    "orientation-nz-contact",
+    "orientation-nz-vote",
+    "orientation-samoa",
+    "orientation-timor"
+  ],
+  "accessLimits": [
+    "Original Bhagwanpura excavation PDF exceeded the web fetch limit; local download timed out and is preserved with .partial suffix. The orientation cites the accessible Kenoyer scholarly chapter, printed p43, not the unread original excavation.",
+    "Kenoyer PDF text was read through web extraction; direct local download returned 403. No local pixel review or full-volume review is claimed.",
+    "UNESCO Chavin Description and Brief synthesis conflict. Both remain explicit; separately consulted Paracas c300 BCE evidence supplies the snapshot setting.",
+    "Museum China chronology contains inaccurate Qin event heading and Sima Jian/Wu wording in its later volume. Those claims are explicitly excluded from the added source scopes.",
+    "Tongan site continuity is explicitly discussed in Methods; it is not an exact 200 CE deposit date or a demonstrated connection with Vietnam."
+  ],
+  "delivery": {
+    "lazyProse": "public/atlas/orientations.json",
+    "initialPayload": "Chapter IDs only; full prose deferred until expansion and snapshots until Meanwhile elsewhere opens",
+    "lazySnapshots": "public/atlas/regional-snapshots.json",
+    "print": "Separate regional companion per authored chapter; full locators, source scopes and response criteria retained."
+  },
+  "verification": {
+    "browser": {
+      "status": "pass",
+      "corpusSHA256": "ab07b81d6150eb754552346cc4ce8655af5ab600ffeff8107bbd6b6ec3c82900",
+      "engine": "156.0.8078.4",
+      "applicationAssets": [
+        {
+          "name": "JourneyLibrary-BwH1U1dK.js",
+          "sha256": "3b79418c611d3fa745b3ee69b3b45bcf509c5f55ae4e680a0f887c02fe2bc51a"
+        },
+        {
+          "name": "PrintAtlas-C9pja5A4.css",
+          "sha256": "c147ebf3ed3e0d34928b703c72a57940c213e42df1ac029cb3a523ed1974fa58"
+        },
+        {
+          "name": "PrintAtlas-CHCJMlz3.js",
+          "sha256": "223cd7332e9f6b7d56b0dd93645278c317edf734e3c24c2be8a8ea6883ae8bab"
+        },
+        {
+          "name": "index-B0hEnzbJ.css",
+          "sha256": "c3905bc0a0dadb852715d1e87e7bc1eee47fe0b2ebc2d9b20d7ce06c4db32252"
+        },
+        {
+          "name": "index-C5O6oCgU.js",
+          "sha256": "913a69541790ad6cc6f8cd753090e46c8c972090fa84dc14e0127f3b9edfbf4f"
+        }
+      ],
+      "snapshotRetry": "pass",
+      "results": [
+        {
+          "id": "C1-R1",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C1-R2",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C1-R3",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C1-R4",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C1-R5",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C1-R6",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C1-R7",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C2-R1",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C2-R2",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C2-R3",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C2-R4",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C2-R5",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C2-R6",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C2-R7",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C3-R1",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C3-R2",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C3-R3",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C3-R4",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C3-R5",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C3-R6",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C3-R7",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C4-R1",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C4-R2",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C4-R3",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C4-R4",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C4-R5",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C4-R6",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C4-R7",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C5-R1",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C5-R2",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C5-R3",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C5-R4",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C5-R5",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C5-R6",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C5-R7",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C6-R1",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C6-R2",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C6-R3",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C6-R4",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C6-R5",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C6-R6",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C6-R7",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C7-R1",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C7-R2",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C7-R3",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C7-R4",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C7-R5",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C7-R6",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C7-R7",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C8-R1",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C8-R2",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C8-R3",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C8-R4",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C8-R5",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C8-R6",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C8-R7",
+          "width": 320,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C1-R1",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C1-R2",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C1-R3",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C1-R4",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C1-R5",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C1-R6",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C1-R7",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C2-R1",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C2-R2",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C2-R3",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C2-R4",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C2-R5",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C2-R6",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C2-R7",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C3-R1",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C3-R2",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C3-R3",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C3-R4",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C3-R5",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C3-R6",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C3-R7",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C4-R1",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C4-R2",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C4-R3",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C4-R4",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C4-R5",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C4-R6",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C4-R7",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C5-R1",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C5-R2",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C5-R3",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C5-R4",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C5-R5",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C5-R6",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C5-R7",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C6-R1",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C6-R2",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C6-R3",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C6-R4",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C6-R5",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C6-R6",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C6-R7",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C7-R1",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C7-R2",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C7-R3",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C7-R4",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C7-R5",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C7-R6",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C7-R7",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C8-R1",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C8-R2",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C8-R3",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C8-R4",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C8-R5",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C8-R6",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C8-R7",
+          "width": 390,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C1-R1",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C1-R2",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C1-R3",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C1-R4",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C1-R5",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C1-R6",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C1-R7",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C2-R1",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C2-R2",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C2-R3",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C2-R4",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C2-R5",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C2-R6",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C2-R7",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C3-R1",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C3-R2",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C3-R3",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C3-R4",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C3-R5",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C3-R6",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C3-R7",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C4-R1",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C4-R2",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C4-R3",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C4-R4",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C4-R5",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C4-R6",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C4-R7",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C5-R1",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C5-R2",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C5-R3",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C5-R4",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C5-R5",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C5-R6",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C5-R7",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C6-R1",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C6-R2",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C6-R3",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C6-R4",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C6-R5",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C6-R6",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C6-R7",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C7-R1",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C7-R2",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C7-R3",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C7-R4",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C7-R5",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C7-R6",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C7-R7",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C8-R1",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C8-R2",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C8-R3",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C8-R4",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C8-R5",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C8-R6",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        },
+        {
+          "id": "C8-R7",
+          "width": 1440,
+          "prose": "pass",
+          "response": "pass",
+          "overflow": "pass",
+          "axe": "pass"
+        }
+      ],
+      "snapshotChecks": [
+        {
+          "id": "C1-R1",
+          "region": "Americas",
+          "year": -2400
+        },
+        {
+          "id": "C1-R2",
+          "region": "Africa",
+          "year": -2400
+        },
+        {
+          "id": "C1-R3",
+          "region": "Europe",
+          "year": -2400
+        },
+        {
+          "id": "C1-R4",
+          "region": "West/Central Asia",
+          "year": -2400
+        },
+        {
+          "id": "C1-R5",
+          "region": "South Asia",
+          "year": -2400
+        },
+        {
+          "id": "C1-R6",
+          "region": "East Asia",
+          "year": -2400
+        },
+        {
+          "id": "C1-R7",
+          "region": "Southeast Asia/Oceania",
+          "year": -2400
+        },
+        {
+          "id": "C2-R1",
+          "region": "Americas",
+          "year": -1200
+        },
+        {
+          "id": "C2-R2",
+          "region": "Africa",
+          "year": -1200
+        },
+        {
+          "id": "C2-R3",
+          "region": "Europe",
+          "year": -1200
+        },
+        {
+          "id": "C2-R4",
+          "region": "West/Central Asia",
+          "year": -1200
+        },
+        {
+          "id": "C2-R5",
+          "region": "South Asia",
+          "year": -1200
+        },
+        {
+          "id": "C2-R6",
+          "region": "East Asia",
+          "year": -1200
+        },
+        {
+          "id": "C2-R7",
+          "region": "Southeast Asia/Oceania",
+          "year": -1200
+        },
+        {
+          "id": "C3-R1",
+          "region": "Americas",
+          "year": -300
+        },
+        {
+          "id": "C3-R2",
+          "region": "Africa",
+          "year": -300
+        },
+        {
+          "id": "C3-R3",
+          "region": "Europe",
+          "year": -300
+        },
+        {
+          "id": "C3-R4",
+          "region": "West/Central Asia",
+          "year": -300
+        },
+        {
+          "id": "C3-R5",
+          "region": "South Asia",
+          "year": -300
+        },
+        {
+          "id": "C3-R6",
+          "region": "East Asia",
+          "year": -300
+        },
+        {
+          "id": "C3-R7",
+          "region": "Southeast Asia/Oceania",
+          "year": -300
+        },
+        {
+          "id": "C4-R1",
+          "region": "Americas",
+          "year": 200
+        },
+        {
+          "id": "C4-R2",
+          "region": "Africa",
+          "year": 200
+        },
+        {
+          "id": "C4-R3",
+          "region": "Europe",
+          "year": 200
+        },
+        {
+          "id": "C4-R4",
+          "region": "West/Central Asia",
+          "year": 200
+        },
+        {
+          "id": "C4-R5",
+          "region": "South Asia",
+          "year": 200
+        },
+        {
+          "id": "C4-R6",
+          "region": "East Asia",
+          "year": 200
+        },
+        {
+          "id": "C4-R7",
+          "region": "Southeast Asia/Oceania",
+          "year": 200
+        },
+        {
+          "id": "C5-R1",
+          "region": "Americas",
+          "year": 850
+        },
+        {
+          "id": "C5-R2",
+          "region": "Africa",
+          "year": 850
+        },
+        {
+          "id": "C5-R3",
+          "region": "Europe",
+          "year": 850
+        },
+        {
+          "id": "C5-R4",
+          "region": "West/Central Asia",
+          "year": 850
+        },
+        {
+          "id": "C5-R5",
+          "region": "South Asia",
+          "year": 850
+        },
+        {
+          "id": "C5-R6",
+          "region": "East Asia",
+          "year": 850
+        },
+        {
+          "id": "C5-R7",
+          "region": "Southeast Asia/Oceania",
+          "year": 850
+        },
+        {
+          "id": "C6-R1",
+          "region": "Americas",
+          "year": 1250
+        },
+        {
+          "id": "C6-R2",
+          "region": "Africa",
+          "year": 1250
+        },
+        {
+          "id": "C6-R3",
+          "region": "Europe",
+          "year": 1250
+        },
+        {
+          "id": "C6-R4",
+          "region": "West/Central Asia",
+          "year": 1250
+        },
+        {
+          "id": "C6-R5",
+          "region": "South Asia",
+          "year": 1250
+        },
+        {
+          "id": "C6-R6",
+          "region": "East Asia",
+          "year": 1250
+        },
+        {
+          "id": "C6-R7",
+          "region": "Southeast Asia/Oceania",
+          "year": 1250
+        },
+        {
+          "id": "C7-R1",
+          "region": "Americas",
+          "year": 1600
+        },
+        {
+          "id": "C7-R2",
+          "region": "Africa",
+          "year": 1600
+        },
+        {
+          "id": "C7-R3",
+          "region": "Europe",
+          "year": 1600
+        },
+        {
+          "id": "C7-R4",
+          "region": "West/Central Asia",
+          "year": 1600
+        },
+        {
+          "id": "C7-R5",
+          "region": "South Asia",
+          "year": 1600
+        },
+        {
+          "id": "C7-R6",
+          "region": "East Asia",
+          "year": 1600
+        },
+        {
+          "id": "C7-R7",
+          "region": "Southeast Asia/Oceania",
+          "year": 1600
+        },
+        {
+          "id": "C8-R1",
+          "region": "Americas",
+          "year": 1800
+        },
+        {
+          "id": "C8-R1",
+          "region": "Americas",
+          "year": 1900
+        },
+        {
+          "id": "C8-R1",
+          "region": "Americas",
+          "year": 1947
+        },
+        {
+          "id": "C8-R1",
+          "region": "Americas",
+          "year": 1950
+        },
+        {
+          "id": "C8-R1",
+          "region": "Americas",
+          "year": 2000
+        },
+        {
+          "id": "C8-R2",
+          "region": "Africa",
+          "year": 1800
+        },
+        {
+          "id": "C8-R2",
+          "region": "Africa",
+          "year": 1900
+        },
+        {
+          "id": "C8-R2",
+          "region": "Africa",
+          "year": 1947
+        },
+        {
+          "id": "C8-R2",
+          "region": "Africa",
+          "year": 1950
+        },
+        {
+          "id": "C8-R2",
+          "region": "Africa",
+          "year": 2000
+        },
+        {
+          "id": "C8-R3",
+          "region": "Europe",
+          "year": 1800
+        },
+        {
+          "id": "C8-R3",
+          "region": "Europe",
+          "year": 1900
+        },
+        {
+          "id": "C8-R3",
+          "region": "Europe",
+          "year": 1947
+        },
+        {
+          "id": "C8-R3",
+          "region": "Europe",
+          "year": 1950
+        },
+        {
+          "id": "C8-R3",
+          "region": "Europe",
+          "year": 2000
+        },
+        {
+          "id": "C8-R4",
+          "region": "West/Central Asia",
+          "year": 1800
+        },
+        {
+          "id": "C8-R4",
+          "region": "West/Central Asia",
+          "year": 1900
+        },
+        {
+          "id": "C8-R4",
+          "region": "West/Central Asia",
+          "year": 1947
+        },
+        {
+          "id": "C8-R4",
+          "region": "West/Central Asia",
+          "year": 1950
+        },
+        {
+          "id": "C8-R4",
+          "region": "West/Central Asia",
+          "year": 2000
+        },
+        {
+          "id": "C8-R5",
+          "region": "South Asia",
+          "year": 1800
+        },
+        {
+          "id": "C8-R5",
+          "region": "South Asia",
+          "year": 1900
+        },
+        {
+          "id": "C8-R5",
+          "region": "South Asia",
+          "year": 1947
+        },
+        {
+          "id": "C8-R5",
+          "region": "South Asia",
+          "year": 1950
+        },
+        {
+          "id": "C8-R5",
+          "region": "South Asia",
+          "year": 2000
+        },
+        {
+          "id": "C8-R6",
+          "region": "East Asia",
+          "year": 1800
+        },
+        {
+          "id": "C8-R6",
+          "region": "East Asia",
+          "year": 1900
+        },
+        {
+          "id": "C8-R6",
+          "region": "East Asia",
+          "year": 1947
+        },
+        {
+          "id": "C8-R6",
+          "region": "East Asia",
+          "year": 1950
+        },
+        {
+          "id": "C8-R6",
+          "region": "East Asia",
+          "year": 2000
+        },
+        {
+          "id": "C8-R7",
+          "region": "Southeast Asia/Oceania",
+          "year": 1800
+        },
+        {
+          "id": "C8-R7",
+          "region": "Southeast Asia/Oceania",
+          "year": 1900
+        },
+        {
+          "id": "C8-R7",
+          "region": "Southeast Asia/Oceania",
+          "year": 1947
+        },
+        {
+          "id": "C8-R7",
+          "region": "Southeast Asia/Oceania",
+          "year": 1950
+        },
+        {
+          "id": "C8-R7",
+          "region": "Southeast Asia/Oceania",
+          "year": 2000
+        }
+      ],
+      "snapshots": 84,
+      "lazyRetry": "pass",
+      "keyboardSelect": "pass",
+      "runtimeErrors": []
+    },
+    "print": "output/completion-2026-11-04/regional-delivery-print/receipt.json",
+    "portable": "output/completion-2026-11-04/portable/chronos-review-1e16d28756eb-receipt.json",
+    "performance": "output/completion-2026-11-04/regional-browser/performance/performance.json",
+    "cleanBuild": "output/completion-2026-11-04/regional-reproducibility-final/receipt.json"
+  },
+  "units": [
+    {
+      "id": "C1-R1",
+      "chapter": "C1",
+      "region": "Americas",
+      "status": "ready_for_review",
+      "snapshotYears": [-2400],
+      "citations": [
+        {
+          "source": "caral",
+          "locator": "Brief synthesis: platforms and recessed circular courts"
+        },
+        {
+          "source": "caral-starch-2023",
+          "locator": "Abstract: Áspero and Caral samples"
+        },
+        {
+          "source": "caral-starch-2023",
+          "locator": "Abstract; Discussion: exchange and limits of starch ubiquity"
+        },
+        {
+          "source": "caral",
+          "locator": "Brief synthesis, criterion (ii), Integrity and Authenticity"
+        },
+        {
+          "source": "caral",
+          "locator": "Integrity and Authenticity: 3000–1800 BCE; criterion (ii)"
+        }
+      ],
+      "scope": "A coastal–inland comparison within the Supe Valley, not an account of every American community. Burial samples and building phases have their own dates within the wider site frame.",
+      "perspectives": "Builders and food producers left material traces, not a complete set of personal accounts. A small sample of human remains cannot speak for all valley residents.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C1-R2",
+      "chapter": "C1",
+      "region": "Africa",
+      "status": "ready_for_review",
+      "snapshotYears": [-2400],
+      "citations": [
+        {
+          "source": "giza-settlement",
+          "locator": "Fourth Dynasty settlement and support staff"
+        },
+        {
+          "source": "met-543914",
+          "locator": "Description and Geography"
+        },
+        {
+          "source": "kerma-city-project",
+          "locator": "City of Kerma: foundation"
+        },
+        {
+          "source": "giza-settlement",
+          "locator": "Settlement account: support staff, materials and grain silos"
+        },
+        {
+          "source": "met-543914",
+          "locator": "Artwork Details: Date"
+        },
+        {
+          "source": "old-kingdom",
+          "locator": "Dynasties 4–5"
+        },
+        {
+          "source": "kerma-city-project",
+          "locator": "City of Kerma: foundation and uncertain continuity"
+        },
+        {
+          "source": "met-543914",
+          "locator": "Date: c2465–2389 BCE"
+        },
+        {
+          "source": "kerma-city-project",
+          "locator": "City of Kerma: c2500 BCE foundation"
+        }
+      ],
+      "scope": "Selected Egyptian and Nubian settings in the later third millennium BCE. Kerma’s later urban layout and the beaker’s second-millennium date are not projected back to 2400 BCE.",
+      "perspectives": "Excavated work spaces and an elite tomb image answer different questions. The surviving records do not give equal access to administrators, cooks, craftspeople and their families.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C1-R3",
+      "chapter": "C1",
+      "region": "Europe",
+      "status": "ready_for_review",
+      "snapshotYears": [-2400],
+      "citations": [
+        {
+          "source": "skara-houses",
+          "locator": "Village houses and furniture"
+        },
+        {
+          "source": "orkney-neolithic",
+          "locator": "Description and Brief synthesis"
+        },
+        {
+          "source": "orkney-neolithic",
+          "locator": "Brief synthesis: monument types"
+        },
+        {
+          "source": "orkney-neolithic",
+          "locator": "Criterion (iii); Authenticity"
+        },
+        {
+          "source": "orkney-neolithic",
+          "locator": "Criterion (iii): cultural tradition c3000–2000 BCE"
+        },
+        {
+          "source": "skara-significance-2024",
+          "locator": "Printed p17: modeled village ending 2545–2440 cal BCE"
+        }
+      ],
+      "scope": "Orkney is a justified local focus: unusually varied surviving domestic and monumental evidence makes comparison possible. It does not represent every European farming community.",
+      "perspectives": "Architecture reveals possible activities more readily than people’s names or beliefs. A ceremonial interpretation is not a recovered script for the event.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C1-R4",
+      "chapter": "C1",
+      "region": "West/Central Asia",
+      "status": "ready_for_review",
+      "snapshotYears": [-2400],
+      "citations": [
+        {
+          "source": "uruk",
+          "locator": "Opening urban account and pictographs"
+        },
+        {
+          "source": "writing",
+          "locator": "Settlement expansion and institutional accounting"
+        },
+        {
+          "source": "writing",
+          "locator": "Accounting; signs for rations and interpretive limits"
+        },
+        {
+          "source": "uruk",
+          "locator": "Early Dynastic paragraph"
+        },
+        {
+          "source": "met-327384",
+          "locator": "Artwork Details: Date"
+        },
+        {
+          "source": "uruk",
+          "locator": "Early Dynastic period, 2900–2350 BCE"
+        },
+        {
+          "source": "met-327384",
+          "locator": "Date"
+        }
+      ],
+      "scope": "A local urban–hinterland focus explains accounting through related settlement and institutional evidence. It is not a claim that writing arose once, or that all West and Central Asia followed Uruk’s sequence.",
+      "perspectives": "Administrative records privilege what institutions counted. They are thinner evidence for unrecorded household labor and for people’s own explanations of their lives.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C1-R5",
+      "chapter": "C1",
+      "region": "South Asia",
+      "status": "ready_for_review",
+      "snapshotYears": [-2400],
+      "citations": [
+        {
+          "source": "dholavira",
+          "locator": "Description: seasonal streams and water management"
+        },
+        {
+          "source": "orientation-mohenjodaro",
+          "locator": "Brief synthesis: location, wells and drainage"
+        },
+        {
+          "source": "dholavira",
+          "locator": "Description and Brief synthesis"
+        },
+        {
+          "source": "orientation-mohenjodaro",
+          "locator": "Brief synthesis: sanitation and drainage"
+        },
+        {
+          "source": "dholavira",
+          "locator": "Description: c3000–1500 BCE"
+        },
+        {
+          "source": "met-324062",
+          "locator": "Date and Geography"
+        },
+        {
+          "source": "orientation-mohenjodaro",
+          "locator": "Brief synthesis: second-century CE Buddhist stupa"
+        },
+        {
+          "source": "dholavira",
+          "locator": "Description and site chronology"
+        },
+        {
+          "source": "orientation-mohenjodaro",
+          "locator": "Brief synthesis: third-millennium settlement and urban systems"
+        }
+      ],
+      "scope": "Two named settlements in different parts of the Indus world. Modern composite plans are not photographs of one simultaneous city layout, and regional object dates are not local construction dates.",
+      "perspectives": "Buildings and workshop remains expose practical activities. Without a fully deciphered script, they do not supply every resident’s account of authority, rights or maintenance duties.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C1-R6",
+      "chapter": "C1",
+      "region": "East Asia",
+      "status": "ready_for_review",
+      "snapshotYears": [-2400],
+      "citations": [
+        {
+          "source": "liangzhu",
+          "locator": "Description; Brief synthesis: four component areas"
+        },
+        {
+          "source": "liangzhu",
+          "locator": "Brief synthesis and criteria (iii)–(iv)"
+        },
+        {
+          "source": "met-72376",
+          "locator": "Description; Date and Period"
+        },
+        {
+          "source": "liangzhu",
+          "locator": "Authenticity: city-site range"
+        },
+        {
+          "source": "liangzhu",
+          "locator": "Authenticity: c3300–2300 BCE"
+        },
+        {
+          "source": "met-72376",
+          "locator": "Date and catalogue attribution"
+        }
+      ],
+      "scope": "A justified local focus compares city, waterworks and burial evidence within one documented landscape. Other East Asian settings require their own histories; this is not a universal sequence from farming to statehood.",
+      "perspectives": "Elaborate objects and differentiated graves make some social distinctions visible. They do not provide equal testimony from farmers, waterworks laborers and those buried with fewer goods.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C1-R7",
+      "chapter": "C1",
+      "region": "Southeast Asia/Oceania",
+      "status": "ready_for_review",
+      "snapshotYears": [-2400],
+      "citations": [
+        {
+          "source": "completion-kuk-ditches",
+          "locator": "Summary of palaeochannels and ditch articulation; drainage for cultivation"
+        },
+        {
+          "source": "lapita",
+          "locator": "Chronology and geographic setting"
+        },
+        {
+          "source": "orientation-an-son",
+          "locator": "Introduction: 1997 floors and house interpretation; Chronology: initial and later occupation"
+        },
+        {
+          "source": "completion-kuk-ditches",
+          "locator": "Earliest ditch networks; Summary; early network 353"
+        },
+        {
+          "source": "completion-kuk-sequence",
+          "locator": "Calibration convention and Table 1.2"
+        },
+        {
+          "source": "completion-kuk-ditches",
+          "locator": "Subphases: spatial variation and insufficient archaeological precision"
+        },
+        {
+          "source": "completion-kuk-sequence",
+          "locator": "Table 1.2: 4350–3980 cal BP; 1950 baseline"
+        },
+        {
+          "source": "orientation-an-son",
+          "locator": "Chronology: initial occupation 2500–2200 cal BCE"
+        }
+      ],
+      "scope": "Two separate settings: the New Guinea highlands and a southern Vietnamese mound. Their overlapping broad dates are not a route or shared political history. Lapita is a later reading destination, not evidence of a 2400 BCE island migration.",
+      "perspectives": "Earthworks preserve traces of planning and repeated work. They do not name the cultivators or establish their land rights. Modern communities are not represented by archaeological interpretation alone.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C2-R1",
+      "chapter": "C2",
+      "region": "Americas",
+      "status": "ready_for_review",
+      "snapshotYears": [-1200],
+      "citations": [
+        {
+          "source": "caral",
+          "locator": "Integrity: development range"
+        },
+        {
+          "source": "olmec",
+          "locator": "San Lorenzo earth building"
+        },
+        {
+          "source": "pp-nps",
+          "locator": "Earthworks, food and main-site dates"
+        },
+        {
+          "source": "pp-nps",
+          "locator": "Food resources and materials"
+        },
+        {
+          "source": "olmec",
+          "locator": "San Lorenzo: pottery and monumental landscape"
+        },
+        {
+          "source": "caral",
+          "locator": "Integrity and Authenticity"
+        },
+        {
+          "source": "pp-nps",
+          "locator": "1700–1100 BCE frame"
+        },
+        {
+          "source": "olmec",
+          "locator": "After about 900 B.C.; later production at other centres"
+        },
+        {
+          "source": "pp-nps",
+          "locator": "1700–1100 BCE main-site frame"
+        },
+        {
+          "source": "olmec-regional-inah",
+          "locator": "Introductoria: San Lorenzo 1200–900 BCE convention"
+        },
+        {
+          "source": "caral",
+          "locator": "Integrity: development endpoint"
+        }
+      ],
+      "scope": "Three selected settings, not a uniform American sequence. The old Caral record is a comparison across time, not a settlement extended into the 1200 BCE snapshot.",
+      "perspectives": "Earthmoving and food remains bring builders and provisioners into view, but most individual arrangements of work are unrecovered. Museum labels describe evidence categories, not a single American people.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C2-R2",
+      "chapter": "C2",
+      "region": "Africa",
+      "status": "ready_for_review",
+      "snapshotYears": [-1200],
+      "citations": [
+        {
+          "source": "kerma",
+          "locator": "Key Events: c2050–1500 BCE"
+        },
+        {
+          "source": "met-545772",
+          "locator": "Object description and date"
+        },
+        {
+          "source": "kerma-history-project",
+          "locator": "Chronology: Middle and Classic Kerma"
+        },
+        {
+          "source": "kerma",
+          "locator": "Key Events: imports and local burial equipment"
+        },
+        {
+          "source": "kerma",
+          "locator": "Upper Nubia timeline; Key Events c1550–1070 BCE"
+        },
+        {
+          "source": "met-545772",
+          "locator": "Date: c1802–1640 BCE"
+        },
+        {
+          "source": "kerma",
+          "locator": "Upper Nubia: c1500–1070 BCE; Key Events c1550–1070 BCE"
+        }
+      ],
+      "scope": "Selected Nile and Nubian settings, not all African communities. Differing project and museum Kerma endpoints remain in the linked dossier; no exact universal conquest year is imposed.",
+      "perspectives": "Tombs privilege selected elites; temples and administrative labels privilege institutions. Potters and other workers are visible through objects, without a complete record of their own accounts.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C2-R3",
+      "chapter": "C2",
+      "region": "Europe",
+      "status": "ready_for_review",
+      "snapshotYears": [-1200],
+      "citations": [
+        {
+          "source": "completion-minoan-crete",
+          "locator": "Around 1900 B.C.; With the palaces"
+        },
+        {
+          "source": "completion-mycenaean",
+          "locator": "Centres and workshops"
+        },
+        {
+          "source": "completion-british-bronze",
+          "locator": "Settlements and fields"
+        },
+        {
+          "source": "completion-minoan-crete",
+          "locator": "Scripts and palace functions"
+        },
+        {
+          "source": "completion-mycenaean",
+          "locator": "Linear B and workshop production"
+        },
+        {
+          "source": "completion-british-bronze",
+          "locator": "Farms, houses and land divisions"
+        },
+        {
+          "source": "completion-minoan-crete",
+          "locator": "From 1500 B.C."
+        },
+        {
+          "source": "completion-mycenaean",
+          "locator": "Final paragraph"
+        },
+        {
+          "source": "completion-british-bronze",
+          "locator": "Period heading"
+        },
+        {
+          "source": "uluburun",
+          "locator": "Cargo and date"
+        },
+        {
+          "source": "completion-mycenaean",
+          "locator": "Final paragraph: late thirteenth-century destructions"
+        },
+        {
+          "source": "completion-british-bronze",
+          "locator": "Bronze Age chronology and settlement"
+        }
+      ],
+      "scope": "Selected contrasting settings, not one European government or a common collapse. Uluburun is a cross-regional reading destination; no European origin or destination is assigned to its voyage.",
+      "perspectives": "Institutional accounts favour the categories their record keepers needed. Farms and workshops expose other practical tasks, without supplying every worker’s voice or status.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C2-R4",
+      "chapter": "C2",
+      "region": "West/Central Asia",
+      "status": "ready_for_review",
+      "snapshotYears": [-1200],
+      "citations": [
+        {
+          "source": "hattusha-dai",
+          "locator": "Project overview: capital and cult centre"
+        },
+        {
+          "source": "uluburun",
+          "locator": "Site and cargo overview"
+        },
+        {
+          "source": "uluburun",
+          "locator": "Cargo assemblage and geographic setting"
+        },
+        {
+          "source": "hattusha-research",
+          "locator": "Abstract: chronological urban development"
+        },
+        {
+          "source": "hattusha-dai",
+          "locator": "Capital frame and later occupation"
+        },
+        {
+          "source": "hattusha-research",
+          "locator": "Abstract"
+        },
+        {
+          "source": "hattusha-dai",
+          "locator": "Capital frame c1650–1180 BCE"
+        },
+        {
+          "source": "uluburun",
+          "locator": "Late Bronze Age wreck date"
+        }
+      ],
+      "scope": "Anatolian and maritime settings, not all West or Central Asia. The disputed drought/collapse causal claim is not used to fill this orientation; cargo origins and routes retain the dossier’s qualifications.",
+      "perspectives": "Palace records favour institutional concerns, while a wreck records a loss. Neither gives an ordinary household census or a full account from the people who moved the goods.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C2-R5",
+      "chapter": "C2",
+      "region": "South Asia",
+      "status": "ready_for_review",
+      "snapshotYears": [-1200],
+      "citations": [
+        {
+          "source": "dholavira",
+          "locator": "Description and criterion (iii)"
+        },
+        {
+          "source": "orientation-bhagwanpura",
+          "locator": "Printed p43: Bhagwanpura sequence"
+        },
+        {
+          "source": "orientation-bhagwanpura",
+          "locator": "Printed p43: chronology and mixed layers"
+        },
+        {
+          "source": "orientation-bhagwanpura",
+          "locator": "Printed p43: houses and limits of linguistic/religious identification"
+        },
+        {
+          "source": "dholavira",
+          "locator": "Water management and site range"
+        },
+        {
+          "source": "orientation-bhagwanpura",
+          "locator": "Printed p43: site-specific phase chronology"
+        },
+        {
+          "source": "dholavira",
+          "locator": "Description: occupation range"
+        }
+      ],
+      "scope": "Two separately dated settings. Bhagwanpura’s dates follow the cited scholarly synthesis of the excavation; the entire excavation report has not been reviewed. Textual epic identification and racial interpretations are not adopted.",
+      "perspectives": "Settlement remains expose household activities without supplying individual testimony. Archaeological classifications are not direct statements of how inhabitants named themselves.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C2-R6",
+      "chapter": "C2",
+      "region": "East Asia",
+      "status": "ready_for_review",
+      "snapshotYears": [-1200],
+      "citations": [
+        {
+          "source": "shang-yinxu",
+          "locator": "Description and Brief synthesis"
+        },
+        {
+          "source": "shang-divination",
+          "locator": "Oracle bone and Shang divination"
+        },
+        {
+          "source": "met-44781",
+          "locator": "Description, Date and Culture"
+        },
+        {
+          "source": "met-42045",
+          "locator": "Description and catalogue attribution"
+        },
+        {
+          "source": "shang-yinxu",
+          "locator": "Description: late-capital dates"
+        },
+        {
+          "source": "shang-zhou",
+          "locator": "Shang and Zhou chronology"
+        },
+        {
+          "source": "shang-yinxu",
+          "locator": "Description: c1300–1046 BCE"
+        },
+        {
+          "source": "shang-zhou",
+          "locator": "Shang–Zhou chronology"
+        }
+      ],
+      "scope": "A justified local focus: shrine, burial and craft contexts at one late capital let us compare evidence types closely. This does not claim continuous coverage of every East Asian region or dynasty.",
+      "perspectives": "Royal tombs and divination records favour court priorities. The labour of makers is visible through production, while ordinary residents’ own narratives remain much harder to recover.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C2-R7",
+      "chapter": "C2",
+      "region": "Southeast Asia/Oceania",
+      "status": "ready_for_review",
+      "snapshotYears": [-1200],
+      "citations": [
+        {
+          "source": "completion-kuk-sequence",
+          "locator": "Table 1.2"
+        },
+        {
+          "source": "orientation-an-son",
+          "locator": "Chronology"
+        },
+        {
+          "source": "lapita-voyaging",
+          "locator": "Regional sequence"
+        },
+        {
+          "source": "completion-kuk-ditches",
+          "locator": "Summary"
+        },
+        {
+          "source": "orientation-an-son",
+          "locator": "Chronology: occupation and burial phases"
+        },
+        {
+          "source": "lapita",
+          "locator": "Pottery and geographic distribution"
+        },
+        {
+          "source": "lapita-voyaging",
+          "locator": "Opening; Lapita in Remote Oceania"
+        },
+        {
+          "source": "lapita-tonga-dating",
+          "locator": "Bayesian Overlap Model and Discussion"
+        },
+        {
+          "source": "lapita-voyaging",
+          "locator": "Bismarck emergence and Remote Oceania 1100–800 BCE"
+        },
+        {
+          "source": "orientation-an-son",
+          "locator": "Chronology: burials approximately 1500–1200 cal BCE"
+        }
+      ],
+      "scope": "Selected highland, mainland and island histories. Overlapping intervals are not an established route linking Kuk, An Sơn and every Lapita settlement.",
+      "perspectives": "Archaeological evidence records actions through deposits and objects. It does not recover the identities of every cultivator, potter or voyager, and modern descendant communities are not interchangeable.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C3-R1",
+      "chapter": "C3",
+      "region": "Americas",
+      "status": "ready_for_review",
+      "snapshotYears": [-300],
+      "citations": [
+        {
+          "source": "chavin-center-unesco",
+          "locator": "Brief synthesis: galleries, plazas and imagery"
+        },
+        {
+          "source": "olmec",
+          "locator": "San Lorenzo and La Venta"
+        },
+        {
+          "source": "met-315784",
+          "locator": "Artwork Details and attribution"
+        },
+        {
+          "source": "met-314609",
+          "locator": "Artwork Details: geography and date"
+        },
+        {
+          "source": "chavin-center-met-chronology",
+          "locator": "Key Events c300 BCE: funerary bundles"
+        },
+        {
+          "source": "chavin-center-unesco",
+          "locator": "Description versus Brief synthesis"
+        },
+        {
+          "source": "olmec",
+          "locator": "La Venta and subsequent production"
+        },
+        {
+          "source": "chavin-center-unesco",
+          "locator": "Description and Brief synthesis"
+        },
+        {
+          "source": "met-317600",
+          "locator": "Date and catalogue attribution"
+        }
+      ],
+      "scope": "Two named regional settings, with later Colima as a separate reading destination. The Chavín date conflict is unresolved; a broad cultural label cannot settle the chronology of every building.",
+      "perspectives": "Ceremonial architecture and collected objects favour durable, selected remains. The people who made textiles, carried materials or maintained spaces are not represented by a complete set of personal accounts.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C3-R2",
+      "chapter": "C3",
+      "region": "Africa",
+      "status": "ready_for_review",
+      "snapshotYears": [-300],
+      "citations": [
+        {
+          "source": "kawa-work-2024",
+          "locator": "Printed pp132–133: Kawa work crews"
+        },
+        {
+          "source": "orientation-meroe",
+          "locator": "Brief synthesis: three components"
+        },
+        {
+          "source": "kawa-work-2024",
+          "locator": "Printed pp132–133: royal construction account"
+        },
+        {
+          "source": "orientation-meroe",
+          "locator": "Brief synthesis: production and reservoirs"
+        },
+        {
+          "source": "orientation-meroe",
+          "locator": "Brief synthesis: third-century BCE burials"
+        },
+        {
+          "source": "met-544883",
+          "locator": "Taharqo reign and shabti date"
+        },
+        {
+          "source": "orientation-meroe",
+          "locator": "Brief synthesis: royal-burial chronology"
+        },
+        {
+          "source": "met-544883",
+          "locator": "Date"
+        }
+      ],
+      "scope": "Selected Nile and Kushite centres. No claim that all surviving Meroe-region monuments already existed in 300 BCE; the earlier shabti retains its own date and probable provenance.",
+      "perspectives": "Monuments and royal inscriptions foreground rulers. Workshops and water systems make other work visible, while leaving individual obligations and experiences incompletely recorded.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C3-R3",
+      "chapter": "C3",
+      "region": "Europe",
+      "status": "ready_for_review",
+      "snapshotYears": [-300],
+      "citations": [
+        {
+          "source": "agora-women",
+          "locator": "Printed pp7–11"
+        },
+        {
+          "source": "athens-constitution",
+          "locator": "Parts42–43"
+        },
+        {
+          "source": "orientation-hellenistic",
+          "locator": "Successor kingdoms and Greek alliances"
+        },
+        {
+          "source": "met-247244",
+          "locator": "Description and date"
+        },
+        {
+          "source": "athens-constitution",
+          "locator": "Part42"
+        },
+        {
+          "source": "orientation-hellenistic",
+          "locator": "Opening chronology; patronage; first-century BCE Rome"
+        },
+        {
+          "source": "orientation-hellenistic",
+          "locator": "323 BCE and successor kingdoms"
+        },
+        {
+          "source": "met-247244",
+          "locator": "Date: c510–500 BCE"
+        }
+      ],
+      "scope": "Athens is the close local inquiry; Hellenistic kingdoms and later Rome are dated comparisons. The sixth-century BCE jar is not a direct view of public life in 300 BCE.",
+      "perspectives": "The evidence separates people doing essential work from the narrower categories represented in political institutions. Images and official descriptions do not recover every excluded person’s experience.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C3-R4",
+      "chapter": "C3",
+      "region": "West/Central Asia",
+      "status": "ready_for_review",
+      "snapshotYears": [-300],
+      "citations": [
+        {
+          "source": "nimrud",
+          "locator": "Northwest Palace"
+        },
+        {
+          "source": "orientation-achaemenid",
+          "locator": "Darius: roads, satraps and building projects"
+        },
+        {
+          "source": "orientation-achaemenid",
+          "locator": "Persepolis reliefs and the impression of harmony"
+        },
+        {
+          "source": "orientation-achaemenid",
+          "locator": "Darius III and Alexander"
+        },
+        {
+          "source": "orientation-hellenistic",
+          "locator": "Opening: division and Seleucids"
+        },
+        {
+          "source": "orientation-hellenistic",
+          "locator": "Opening: successors and Seleucids"
+        },
+        {
+          "source": "orientation-achaemenid",
+          "locator": "End of Achaemenid rule"
+        }
+      ],
+      "scope": "Selected royal centres and a successor-era orientation, not a complete West/Central Asian history. Similar palace imagery does not prove identical institutions or unbroken dynastic continuity.",
+      "perspectives": "Royal monuments privilege the court’s desired image. Labour, tribute and administration involved people whose perspectives are only partly recoverable through those monuments.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C3-R5",
+      "chapter": "C3",
+      "region": "South Asia",
+      "status": "ready_for_review",
+      "snapshotYears": [-300],
+      "citations": [
+        {
+          "source": "ashoka",
+          "locator": "Opening dynastic history; languages and inscriptions"
+        },
+        {
+          "source": "ashoka",
+          "locator": "Prakrit, Greek and Aramaic messages"
+        },
+        {
+          "source": "ashoka-edicts-1925",
+          "locator": "Girnar II, printed pp3–4; Dhauli Separate I, pp95–97"
+        },
+        {
+          "source": "ashoka",
+          "locator": "Candragupta–Bindusara succession; Ashoka chronology"
+        },
+        {
+          "source": "ashoka",
+          "locator": "Opening paragraphs: succession c297–298 BCE; Ashoka c268–232 BCE"
+        }
+      ],
+      "scope": "A justified institutional focus connecting a capital and differently addressed borderland messages. Not all South Asian communities were governed or addressed in the same way; later religious traditions remain distinct from contemporary inscriptions.",
+      "perspectives": "Royal proclamations preserve the ruler’s chosen presentation. Recipients, officials and communities could have different experiences that the inscription itself does not settle.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C3-R6",
+      "chapter": "C3",
+      "region": "East Asia",
+      "status": "ready_for_review",
+      "snapshotYears": [-300],
+      "citations": [
+        {
+          "source": "orientation-warring-states",
+          "locator": "Timeline; 770 BCE and c400–200 BCE entries"
+        },
+        {
+          "source": "qin-measure",
+          "locator": "Description and decree date"
+        },
+        {
+          "source": "qin-practice",
+          "locator": "Printed pp147–153 and169–170"
+        },
+        {
+          "source": "orientation-warring-states",
+          "locator": "Timeline; Western Han entry"
+        },
+        {
+          "source": "qin",
+          "locator": "Dynastic title and administration"
+        },
+        {
+          "source": "orientation-warring-states",
+          "locator": "Timeline:475–221 BCE; Chu entry"
+        },
+        {
+          "source": "qin-practice",
+          "locator": "Liye document dates, printed pp147–153"
+        }
+      ],
+      "scope": "Selected Chinese state and administrative settings, not all East Asia. The museum chronology’s inconsistent Qin Key Events heading is not adopted; its timeline and separate Qin essay establish the imperial dates.",
+      "perspectives": "Administrative documents preserve tasks and categories useful to officials. Craft and material choices reveal other work, while leaving many workers’ own accounts unrecorded.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C3-R7",
+      "chapter": "C3",
+      "region": "Southeast Asia/Oceania",
+      "status": "ready_for_review",
+      "snapshotYears": [-300],
+      "citations": [
+        {
+          "source": "dongson-vnmh-2014",
+          "locator": "Regional cultural overview"
+        },
+        {
+          "source": "lapita-tonga-ceramic-change",
+          "locator": "Abstract; Discussion"
+        },
+        {
+          "source": "dongson-co-loa-2021",
+          "locator": "Find context"
+        },
+        {
+          "source": "dongson-phu-chanh-2008",
+          "locator": "Printed pp67,69–70,72"
+        },
+        {
+          "source": "met-39209",
+          "locator": "Description and catalogue attribution"
+        },
+        {
+          "source": "lapita-tonga-ceramic-change",
+          "locator": "Abstract; Discussion: latest phase boundary"
+        },
+        {
+          "source": "dongson-vnmh-2014",
+          "locator": "Cultural chronology"
+        },
+        {
+          "source": "lapita-tonga-ceramic-change",
+          "locator": "Abstract and Discussion: manufacture ceased by c400 BCE"
+        }
+      ],
+      "scope": "Separate mainland and island comparisons, with no contact inferred between them. Later Phú Chánh and Luy Lâu evidence is not moved into the 300 BCE snapshot; it remains available in the dossier with its own dates.",
+      "perspectives": "Objects preserve selected activities and deposits. Neither a museum classification nor the absence of later pottery gives a full account of how people identified themselves.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C4-R1",
+      "chapter": "C4",
+      "region": "Americas",
+      "status": "ready_for_review",
+      "snapshotYears": [200],
+      "citations": [
+        {
+          "source": "teotihuacan",
+          "locator": "Residential Architecture"
+        },
+        {
+          "source": "hopewell-moundcity",
+          "locator": "Ceremonial Gatherings"
+        },
+        {
+          "source": "moche",
+          "locator": "Opening geography and production"
+        },
+        {
+          "source": "hopewell-moundcity",
+          "locator": "Careful Construction"
+        },
+        {
+          "source": "moche-households-2009",
+          "locator": "Printed pp183–190"
+        },
+        {
+          "source": "teotihuacan",
+          "locator": "Urban chronology"
+        },
+        {
+          "source": "hopewell-moundcity",
+          "locator": "Construction sequence"
+        },
+        {
+          "source": "met-717577",
+          "locator": "Artwork Details: date"
+        },
+        {
+          "source": "hopewell-newark-center",
+          "locator": "FAQ: archaeological chronology"
+        },
+        {
+          "source": "moche",
+          "locator": "Chronology and regional setting"
+        }
+      ],
+      "scope": "Three selected settings, with later Bering evidence kept separate. Local building episodes and sampled deposits retain their own dates.",
+      "perspectives": "Household and production remains make ordinary tasks visible without recovering each worker’s status or testimony.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C4-R2",
+      "chapter": "C4",
+      "region": "Africa",
+      "status": "ready_for_review",
+      "snapshotYears": [200],
+      "citations": [
+        {
+          "source": "aksum-world",
+          "locator": "Excerpt pp5–7: Adulis and inland connection"
+        },
+        {
+          "source": "orientation-meroe",
+          "locator": "Brief synthesis: three components"
+        },
+        {
+          "source": "aksum-world",
+          "locator": "Excerpt pp5–7"
+        },
+        {
+          "source": "orientation-meroe",
+          "locator": "Brief synthesis: production and reservoirs"
+        },
+        {
+          "source": "beta-samati",
+          "locator": "Printed pp1540–1543; Figure4 and upper-deposit chronology"
+        },
+        {
+          "source": "aksum",
+          "locator": "Aksumite architectural chronology"
+        },
+        {
+          "source": "orientation-meroe",
+          "locator": "Brief synthesis: Kushite frame"
+        },
+        {
+          "source": "beta-samati",
+          "locator": "Chronology and upper deposits"
+        }
+      ],
+      "scope": "Separate Horn/Red Sea and Nile settings. The first-century account and later inland deposits are dated comparisons around a broad regional frame, not a census of Africa in 200 CE.",
+      "perspectives": "Merchant and royal records favour particular interests. Food preparation and production debris expose additional work while leaving many individual voices absent.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C4-R3",
+      "chapter": "C4",
+      "region": "Europe",
+      "status": "ready_for_review",
+      "snapshotYears": [200],
+      "citations": [
+        {
+          "source": "rome-severans",
+          "locator": "Dynastic origins and provincial officers"
+        },
+        {
+          "source": "rome-educators",
+          "locator": "Printed p130: Occupations"
+        },
+        {
+          "source": "rome-severans",
+          "locator": "Caracalla and citizenship"
+        },
+        {
+          "source": "byzantium",
+          "locator": "Constantine and period divisions"
+        },
+        {
+          "source": "met-464428",
+          "locator": "Artwork Details: date"
+        },
+        {
+          "source": "rome-severans",
+          "locator": "Severan chronology; citizenship in212 CE"
+        },
+        {
+          "source": "met-251870",
+          "locator": "Date"
+        }
+      ],
+      "scope": "A Roman imperial focus connecting Rome with provincial settings; later Constantinople is a dated comparison. It does not represent every European community.",
+      "perspectives": "Elite portraits favour ruling families; work and legal categories help recover other positions without making everyone’s experience equivalent.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C4-R4",
+      "chapter": "C4",
+      "region": "West/Central Asia",
+      "status": "ready_for_review",
+      "snapshotYears": [200],
+      "citations": [
+        {
+          "source": "palmyra-getty",
+          "locator": "Trade; Roman and Later Periods"
+        },
+        {
+          "source": "parthia",
+          "locator": "History: Ctesiphon"
+        },
+        {
+          "source": "palmyra-tax",
+          "locator": "Opening extract and pp173–175"
+        },
+        {
+          "source": "parthia",
+          "locator": "Parthian Art: patronage and preservation"
+        },
+        {
+          "source": "parthia",
+          "locator": "Title dates and History ending"
+        },
+        {
+          "source": "palmyra-getty",
+          "locator": "Roman and Later Periods"
+        },
+        {
+          "source": "palmyra-tax",
+          "locator": "Civic tax setting"
+        },
+        {
+          "source": "parthia",
+          "locator": "247 BCE–224 CE chronology"
+        }
+      ],
+      "scope": "Selected Syrian and Mesopotamian settings. No continuous caravan itinerary or uniform political history is inferred from objects or regional overlap.",
+      "perspectives": "Family memorials and civic rules preserve different priorities from royal accounts. Traders, carriers and workers remain unevenly represented.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C4-R5",
+      "chapter": "C4",
+      "region": "South Asia",
+      "status": "ready_for_review",
+      "snapshotYears": [200],
+      "citations": [
+        {
+          "source": "kushan-inscriptions",
+          "locator": "Printed pp76–79: Rabatak and SK4"
+        },
+        {
+          "source": "kushan-inscriptions",
+          "locator": "Printed pp78–79: SK4 and version M"
+        },
+        {
+          "source": "kushan-inscriptions",
+          "locator": "Printed pp76–78: dating discussion"
+        },
+        {
+          "source": "met-39385",
+          "locator": "Date and description"
+        },
+        {
+          "source": "kushan",
+          "locator": "Chronological frame"
+        },
+        {
+          "source": "kushan-inscriptions",
+          "locator": "Printed pp76–79"
+        }
+      ],
+      "scope": "A justified institutional focus across two sanctuaries in present-day Afghanistan and a separately catalogued coin. It does not cover all South Asia or resolve every debated Kanishka-era convention.",
+      "perspectives": "Inscriptions name some officials and a writer but do not preserve every builder’s or worshipper’s account.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C4-R6",
+      "chapter": "C4",
+      "region": "East Asia",
+      "status": "ready_for_review",
+      "snapshotYears": [200],
+      "citations": [
+        {
+          "source": "han",
+          "locator": "Western Han and Eastern Han paragraphs"
+        },
+        {
+          "source": "models",
+          "locator": "Han agricultural structures"
+        },
+        {
+          "source": "met-52010",
+          "locator": "Description"
+        },
+        {
+          "source": "met-52527",
+          "locator": "Description"
+        },
+        {
+          "source": "met-49519",
+          "locator": "Description and date"
+        },
+        {
+          "source": "orientation-post-han",
+          "locator": "Timeline; Key Events c220–589 CE"
+        },
+        {
+          "source": "han-agriculture",
+          "locator": "Introduction; translated memorial pp3–5"
+        },
+        {
+          "source": "han",
+          "locator": "Eastern Han chronology"
+        },
+        {
+          "source": "met-49519",
+          "locator": "Date"
+        },
+        {
+          "source": "han-agriculture",
+          "locator": "Introduction:178 BCE"
+        }
+      ],
+      "scope": "A focused Chinese imperial and household inquiry with distinct capitals and evidence types. It does not stand for every East Asian community or turn funerary objects into literal buildings.",
+      "perspectives": "Models express selected expectations of provision and standing; policy prose foregrounds an adviser’s concerns. Farm workers’ own testimony is less visible.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C4-R7",
+      "chapter": "C4",
+      "region": "Southeast Asia/Oceania",
+      "status": "ready_for_review",
+      "snapshotYears": [200],
+      "citations": [
+        {
+          "source": "orientation-oc-eo",
+          "locator": "Main account: geography and chronology"
+        },
+        {
+          "source": "dongson-luy-lau-2024",
+          "locator": "Workshop and phase paragraphs"
+        },
+        {
+          "source": "orientation-oc-eo",
+          "locator": "Main account: exchange and port"
+        },
+        {
+          "source": "dongson-luy-lau-2024",
+          "locator": "Moulds, crucibles and workshop discard"
+        },
+        {
+          "source": "lapita-tonga-ceramic-change",
+          "locator": "Methods: site continuity and three exceptions"
+        },
+        {
+          "source": "orientation-oc-eo",
+          "locator": "Artifact captions: coins, rings, wooden statue"
+        },
+        {
+          "source": "dongson-luy-lau-2024",
+          "locator": "Phase interpretation"
+        },
+        {
+          "source": "orientation-oc-eo",
+          "locator": "Main chronology versus artifact captions"
+        },
+        {
+          "source": "dongson-luy-lau-2024",
+          "locator": "Phase paragraphs"
+        },
+        {
+          "source": "lapita-tonga-ceramic-change",
+          "locator": "Methods: settlement continuity"
+        }
+      ],
+      "scope": "Separate mainland and Tongan settings. The study describes settlement continuity into later aceramic periods, not a precisely dated 200 CE floor or evidence of contact with Vietnam. The Óc Eo overview does not establish exact borders or a first port.",
+      "perspectives": "Museum overviews and archaeological finds expose different scales of work, but neither records all inhabitants’ experiences.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C5-R1",
+      "chapter": "C5",
+      "region": "Americas",
+      "status": "ready_for_review",
+      "snapshotYears": [850],
+      "citations": [
+        {
+          "source": "met-316711",
+          "locator": "Description: ownership and imagery"
+        },
+        {
+          "source": "maya-ceren-households-2000",
+          "locator": "Publisher abstract: provisioning and specialties"
+        },
+        {
+          "source": "chaco-bonito",
+          "locator": "Construction paragraph: 850–1150 CE"
+        },
+        {
+          "source": "met-316711",
+          "locator": "Date"
+        },
+        {
+          "source": "chaco-cacao",
+          "locator": "Sample selection and stylistic dates"
+        },
+        {
+          "source": "chaco-bonito",
+          "locator": "Construction paragraph"
+        },
+        {
+          "source": "chaco-cacao",
+          "locator": "Sample dates"
+        }
+      ],
+      "scope": "A comparison of Maya court/village evidence and an Ancestral Puebloan building sequence. Neither is a summary of all American communities; the objects and deposits do not share one date.",
+      "perspectives": "Courtly writing names an owner. Household archaeology and building remains reveal other tasks, while often leaving individual workers unnamed.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C5-R2",
+      "chapter": "C5",
+      "region": "Africa",
+      "status": "ready_for_review",
+      "snapshotYears": [850],
+      "citations": [
+        {
+          "source": "middle-niger-urbanism-1981",
+          "locator": "Extract: growth and hinterland survey"
+        },
+        {
+          "source": "orientation-djenne-urbanism",
+          "locator": "Summary: varied urban forms"
+        },
+        {
+          "source": "middle-niger-urbanism-1981",
+          "locator": "Extract: staples, imported materials and interpretation"
+        },
+        {
+          "source": "beta-samati",
+          "locator": "Area A; chronology and Discussion"
+        },
+        {
+          "source": "orientation-djenne-heritage",
+          "locator": "Brief synthesis: component sites and later town"
+        },
+        {
+          "source": "middle-niger-urbanism-1981",
+          "locator": "Extract: 750–1100 chronology"
+        },
+        {
+          "source": "orientation-djenne-heritage",
+          "locator": "Brief synthesis: distinct components"
+        }
+      ],
+      "scope": "A Middle Niger focus with an explicitly earlier Horn comparison. The 1981 excavation report is consulted through its published extract, not a new analysis of all underlying finds. No continent-wide political model is inferred.",
+      "perspectives": "Household remains and regional survey broaden the account beyond rulers. They do not recover every resident’s voice or prove that social differences were absent.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C5-R3",
+      "chapter": "C5",
+      "region": "Europe",
+      "status": "ready_for_review",
+      "snapshotYears": [850],
+      "citations": [
+        {
+          "source": "orientation-aachen",
+          "locator": "Brief synthesis: palace and chapel"
+        },
+        {
+          "source": "byzantium",
+          "locator": "Early and Middle Byzantium"
+        },
+        {
+          "source": "orientation-aachen",
+          "locator": "Brief synthesis: form and fittings"
+        },
+        {
+          "source": "byzantium-yenikapi-2015",
+          "locator": "Printed pp53–55: YK14"
+        },
+        {
+          "source": "byzantium-ivory-work-2007",
+          "locator": "Production and material discussion"
+        },
+        {
+          "source": "orientation-aachen",
+          "locator": "Brief synthesis: additions and mosaic"
+        },
+        {
+          "source": "byzantium",
+          "locator": "Iconoclasm and Middle Byzantium"
+        },
+        {
+          "source": "met-464428",
+          "locator": "Date"
+        },
+        {
+          "source": "orientation-aachen",
+          "locator": "Brief synthesis: 793–813 construction and 1880–1881 mosaic"
+        },
+        {
+          "source": "byzantium",
+          "locator": "Middle Byzantium: 843"
+        }
+      ],
+      "scope": "Two selected court and religious settings, not all of Europe. Aachen’s source offers overlapping early construction formulations; neither supplies a day-by-day schedule. No claim of a uniform European revival is adopted.",
+      "perspectives": "Royal patronage and surviving religious objects are prominent; shipbuilding and material work expose additional activities without documenting all households.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C5-R4",
+      "chapter": "C5",
+      "region": "West/Central Asia",
+      "status": "ready_for_review",
+      "snapshotYears": [850],
+      "citations": [
+        {
+          "source": "abbasid",
+          "locator": "Opening capital chronology and survival paragraphs"
+        },
+        {
+          "source": "abbasid-workshops",
+          "locator": "Investment, production and centres"
+        },
+        {
+          "source": "met-452833",
+          "locator": "Medium and attribution"
+        },
+        {
+          "source": "abbasid",
+          "locator": "Tenth-century political changes and later book production"
+        },
+        {
+          "source": "abbasid",
+          "locator": "Opening capital chronology"
+        },
+        {
+          "source": "met-452833",
+          "locator": "Date"
+        }
+      ],
+      "scope": "A justified focus on two Iraqi capitals and their production questions. No universal Islamic culture, precise trade itinerary or single birthplace of a technique is inferred.",
+      "perspectives": "Court commissions and museum collections preserve selected products. Kiln work and costly failures draw attention to makers, whose own accounts remain scarce.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C5-R5",
+      "chapter": "C5",
+      "region": "South Asia",
+      "status": "ready_for_review",
+      "snapshotYears": [850],
+      "citations": [
+        {
+          "source": "nalanda",
+          "locator": "Brief synthesis: institutional chronology"
+        },
+        {
+          "source": "orientation-paharpur",
+          "locator": "Brief synthesis: foundation and building phases"
+        },
+        {
+          "source": "yijing-1896",
+          "locator": "Printed pp65, 154–155 and 176–177"
+        },
+        {
+          "source": "orientation-paharpur",
+          "locator": "Brief synthesis: ancillary buildings"
+        },
+        {
+          "source": "nalanda",
+          "locator": "Integrity and Authenticity"
+        },
+        {
+          "source": "orientation-paharpur",
+          "locator": "Brief synthesis: cells in the last building phases"
+        },
+        {
+          "source": "nalanda",
+          "locator": "Brief synthesis"
+        },
+        {
+          "source": "orientation-paharpur",
+          "locator": "Foundation and final building phases"
+        },
+        {
+          "source": "yijing-1896",
+          "locator": "Title chronology: 671–695"
+        }
+      ],
+      "scope": "Two eastern monastic institutions, not all South Asian education or agriculture. Support from outside institutions is considered without inventing village routes, universal access or the experiences of every cultivator.",
+      "perspectives": "Institutional and monastic accounts foreground learned residents and patrons. Food workers, cultivators and people excluded from residence are less directly represented.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C5-R6",
+      "chapter": "C5",
+      "region": "East Asia",
+      "status": "ready_for_review",
+      "snapshotYears": [850],
+      "citations": [
+        {
+          "source": "tang",
+          "locator": "Chang’an and visiting communities"
+        },
+        {
+          "source": "orientation-nara",
+          "locator": "Criterion ii; component parts"
+        },
+        {
+          "source": "orientation-gyeongju",
+          "locator": "Brief synthesis: Wolseong and temple belts"
+        },
+        {
+          "source": "tang-wards",
+          "locator": "Wards and curfew"
+        },
+        {
+          "source": "tang-changan",
+          "locator": "Xuanzang and translation"
+        },
+        {
+          "source": "orientation-nara",
+          "locator": "Brief synthesis: palace functions"
+        },
+        {
+          "source": "orientation-nara",
+          "locator": "Description: 710–784; Authenticity: 841"
+        },
+        {
+          "source": "orientation-korea",
+          "locator": "Timeline: Silla, Barhae and later regimes"
+        },
+        {
+          "source": "tang",
+          "locator": "Title chronology"
+        },
+        {
+          "source": "tang",
+          "locator": "618–907 chronology"
+        },
+        {
+          "source": "orientation-korea",
+          "locator": "Timeline: Silla 676–935 and Barhae 698–926"
+        },
+        {
+          "source": "orientation-nara",
+          "locator": "Description and Authenticity"
+        },
+        {
+          "source": "met-44800",
+          "locator": "Date"
+        }
+      ],
+      "scope": "Selected Chinese, Korean and Japanese urban/religious settings. The label Unified Silla does not erase contemporary Barhae or establish one unchanging border; neither chronology supplies all East Asian experience.",
+      "perspectives": "Elite tombs and monumental compounds dominate surviving displays. Administrative functions identify work without preserving every servant, artisan or visitor’s story.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C5-R7",
+      "chapter": "C5",
+      "region": "Southeast Asia/Oceania",
+      "status": "ready_for_review",
+      "snapshotYears": [850],
+      "citations": [
+        {
+          "source": "borobudur",
+          "locator": "Brief synthesis: construction and three monuments"
+        },
+        {
+          "source": "angkor",
+          "locator": "Brief synthesis: successive plans and water structures"
+        },
+        {
+          "source": "borobudur-drainage-2018",
+          "locator": "Borobudur-specific paragraphs"
+        },
+        {
+          "source": "borobudur-inscription-context-2018",
+          "locator": "Tri Tepusan upkeep interpretation"
+        },
+        {
+          "source": "borobudur",
+          "locator": "Authenticity: restorations"
+        },
+        {
+          "source": "lapita-tonga-ceramic-change",
+          "locator": "Methods: continuity into aceramic periods"
+        },
+        {
+          "source": "angkor",
+          "locator": "Description: ninth–fifteenth-century frame; Angkor Wat"
+        },
+        {
+          "source": "borobudur",
+          "locator": "Brief synthesis: construction range"
+        },
+        {
+          "source": "borobudur",
+          "locator": "Brief synthesis: eighth–ninth centuries"
+        },
+        {
+          "source": "angkor",
+          "locator": "Description: regional and temple dates"
+        },
+        {
+          "source": "lapita-tonga-ceramic-change",
+          "locator": "Methods: settlement continuity"
+        }
+      ],
+      "scope": "Separate Javanese, Cambodian and Tongan histories. No mainland–Pacific voyage is inferred; the Oceanian evidence is settlement continuity at sampled sites rather than a dated event in the snapshot year.",
+      "perspectives": "Monumental evidence favours religious patrons and skilled stone work. Tongan settlement evidence brings a different material record into view but does not recover every resident’s experience.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C6-R1",
+      "chapter": "C6",
+      "region": "Americas",
+      "status": "ready_for_review",
+      "snapshotYears": [1250],
+      "citations": [
+        {
+          "source": "cahokia-neighborhoods-2019",
+          "locator": "Published abstract and neighbourhood interpretation"
+        },
+        {
+          "source": "chaco-pueblo-period",
+          "locator": "Architecture; Environment and Subsistence"
+        },
+        {
+          "source": "cahokia-copper-2011",
+          "locator": "Production sequence and workshop evidence"
+        },
+        {
+          "source": "chaco-history",
+          "locator": "Great-house construction"
+        },
+        {
+          "source": "chaco-history",
+          "locator": "Changes in the 1100s and 1200s; associated peoples"
+        },
+        {
+          "source": "cahokia-soils-2021",
+          "locator": "Results and limits"
+        },
+        {
+          "source": "cahokia-peoria-visit-2022",
+          "locator": "Attributed community visit account"
+        },
+        {
+          "source": "cahokia-soils-2021",
+          "locator": "Urban investigation frame"
+        },
+        {
+          "source": "chaco-bonito",
+          "locator": "Construction chronology"
+        },
+        {
+          "source": "chaco-history",
+          "locator": "Twelfth–thirteenth-century change"
+        }
+      ],
+      "scope": "Two North American urban/regional settings, not a complete account of the Americas. The later Inka reading broadens comparison elsewhere in the chapter but does not establish Inka imperial institutions in 1250.",
+      "perspectives": "Households and makers appear beside monumental architecture. Attributed living-community accounts have their own dates and do not imply universal agreement or approval of this atlas.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C6-R2",
+      "chapter": "C6",
+      "region": "Africa",
+      "status": "ready_for_review",
+      "snapshotYears": [1250],
+      "citations": [
+        {
+          "source": "met-314362",
+          "locator": "Date and attribution"
+        },
+        {
+          "source": "orientation-kilwa",
+          "locator": "Brief synthesis: occupation and exchange"
+        },
+        {
+          "source": "orientation-zimbabwe",
+          "locator": "Brief synthesis: Hill Ruins and Great Enclosure"
+        },
+        {
+          "source": "middle-niger-recent-excavations",
+          "locator": "Selected domestic and artisanal sequences"
+        },
+        {
+          "source": "orientation-kilwa",
+          "locator": "Brief synthesis: materials and urban complex"
+        },
+        {
+          "source": "orientation-zimbabwe",
+          "locator": "Brief synthesis: masonry and excavated imports"
+        },
+        {
+          "source": "orientation-kilwa",
+          "locator": "Brief synthesis: Husuni Kubwa c1310–1333"
+        },
+        {
+          "source": "orientation-zimbabwe",
+          "locator": "Brief synthesis: Great Enclosure chronology"
+        },
+        {
+          "source": "orientation-kilwa",
+          "locator": "Occupation versus palace dates"
+        },
+        {
+          "source": "orientation-zimbabwe",
+          "locator": "Hill and enclosure dates"
+        },
+        {
+          "source": "met-314362",
+          "locator": "Date and provenance"
+        }
+      ],
+      "scope": "Three selected regions, not a single African political system. The exact provenance of the museum figure is limited; imports are not proof that outsiders founded these settlements. Disputed or unsupported single-cause abandonment claims are excluded.",
+      "perspectives": "Ordinary vessels, workspaces and construction materials broaden the view beyond rulers and imported luxuries. Surviving evidence does not provide every worker’s account.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C6-R3",
+      "chapter": "C6",
+      "region": "Europe",
+      "status": "ready_for_review",
+      "snapshotYears": [1250],
+      "citations": [
+        {
+          "source": "orientation-provins",
+          "locator": "Brief synthesis: fairs and urban functions"
+        },
+        {
+          "source": "orientation-fontenay",
+          "locator": "Brief synthesis: communal and working buildings"
+        },
+        {
+          "source": "orientation-provins",
+          "locator": "Brief synthesis: storage and productive activities"
+        },
+        {
+          "source": "orientation-fontenay",
+          "locator": "Brief synthesis and Integrity"
+        },
+        {
+          "source": "byzantium",
+          "locator": "Period of the Latin Occupation"
+        },
+        {
+          "source": "orientation-fontenay",
+          "locator": "Authenticity: later transformations"
+        },
+        {
+          "source": "orientation-provins",
+          "locator": "Integrity and Authenticity"
+        },
+        {
+          "source": "orientation-provins",
+          "locator": "Brief synthesis: eleventh-century fairs"
+        },
+        {
+          "source": "orientation-fontenay",
+          "locator": "Church 1139–1147 and late-twelfth-century ironworks"
+        },
+        {
+          "source": "byzantium",
+          "locator": "Latin Occupation 1204–1261"
+        }
+      ],
+      "scope": "A French fair town, a Burgundian monastery and an eastern political comparison. The sources explain selected institutional forms; they are not a complete account of rural labour obligations or every resident’s rights.",
+      "perspectives": "Merchant spaces and monastic buildings preserve institutional priorities. They reveal tasks without fully recording dependent workers, women or people excluded from these institutions.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C6-R4",
+      "chapter": "C6",
+      "region": "West/Central Asia",
+      "status": "ready_for_review",
+      "snapshotYears": [1250],
+      "citations": [
+        {
+          "source": "orientation-karakorum",
+          "locator": "Historical introduction: camp and 1235 construction"
+        },
+        {
+          "source": "abbasid",
+          "locator": "Capital chronology and 1258 conquest"
+        },
+        {
+          "source": "orientation-karakorum",
+          "locator": "Excavations: roads, buildings and workshop evidence"
+        },
+        {
+          "source": "orientation-karakorum",
+          "locator": "Rubruck and Guillaume Boucher paragraph"
+        },
+        {
+          "source": "orientation-mongol-transition",
+          "locator": "Hülegü and Baghdad paragraph"
+        },
+        {
+          "source": "orientation-karakorum",
+          "locator": "1235 construction and 1254 visit"
+        },
+        {
+          "source": "orientation-mongol-transition",
+          "locator": "Baghdad conquered in 1258"
+        }
+      ],
+      "scope": "A cross-regional steppe/West Asian comparison; Karakorum is located in present-day Mongolia, not relabelled as a West Asian city. No uniform Mongol culture, exact imperial boundary or harmless universal exchange is inferred.",
+      "perspectives": "A named captive artisan makes coercion visible alongside skill. Excavation and a mediated traveller account preserve different evidence and leave many residents unnamed.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C6-R5",
+      "chapter": "C6",
+      "region": "South Asia",
+      "status": "ready_for_review",
+      "snapshotYears": [1250],
+      "citations": [
+        {
+          "source": "orientation-qutb",
+          "locator": "Description and Brief synthesis"
+        },
+        {
+          "source": "orientation-chola",
+          "locator": "Description: three temple projects"
+        },
+        {
+          "source": "orientation-qutb",
+          "locator": "Brief synthesis: carved pillars and cladding"
+        },
+        {
+          "source": "orientation-chola",
+          "locator": "Brief synthesis: living temples and ritual"
+        },
+        {
+          "source": "nalanda",
+          "locator": "Integrity and Authenticity"
+        },
+        {
+          "source": "orientation-qutb",
+          "locator": "Description: Alai Darwaza 1311"
+        },
+        {
+          "source": "orientation-chola",
+          "locator": "Description: eleventh–twelfth-century projects"
+        },
+        {
+          "source": "orientation-qutb",
+          "locator": "Early thirteenth-century frame versus 1311 gateway"
+        },
+        {
+          "source": "orientation-chola",
+          "locator": "Description: temple dates"
+        }
+      ],
+      "scope": "Selected Delhi and Tamil-region monuments, not all South Asian institutions or Indian Ocean exchange. No precise political border, universally shared religious experience or contemporary legal claim is made.",
+      "perspectives": "Royal commissions and religious buildings are prominent. Carving and repair reveal skilled work while the accounts of many labourers, cultivators and affected worshippers remain absent.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C6-R6",
+      "chapter": "C6",
+      "region": "East Asia",
+      "status": "ready_for_review",
+      "snapshotYears": [1250],
+      "citations": [
+        {
+          "source": "song-phases",
+          "locator": "Timeline; 1125–1234 and 1127–1279 entries"
+        },
+        {
+          "source": "song-markets",
+          "locator": "Selected market account"
+        },
+        {
+          "source": "song-crop-loans",
+          "locator": "Translated proposal"
+        },
+        {
+          "source": "song-governance",
+          "locator": "Administrative aims"
+        },
+        {
+          "source": "song-phases",
+          "locator": "1260–1368 political sequence"
+        },
+        {
+          "source": "ming",
+          "locator": "Opening dynastic chronology"
+        },
+        {
+          "source": "song-phases",
+          "locator": "Timeline and entries: 1206, 1260 and 1368"
+        }
+      ],
+      "scope": "A focused Chinese political and production inquiry; it does not cover all East Asia. The source chronology’s erroneous Huizong/Mongol attribution is excluded, and broad period labels do not date every workshop.",
+      "perspectives": "Official proposals and elite collected objects preserve selected perspectives. Market and production evidence help recover wider work without establishing universal access or prosperity.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C6-R7",
+      "chapter": "C6",
+      "region": "Southeast Asia/Oceania",
+      "status": "ready_for_review",
+      "snapshotYears": [1250],
+      "citations": [
+        {
+          "source": "angkor",
+          "locator": "Brief synthesis: settlement and hydraulic structures"
+        },
+        {
+          "source": "voyaging-chronology-2022",
+          "locator": "Abstract and Timing of Polynesian Arrival"
+        },
+        {
+          "source": "angkor-lidar",
+          "locator": "Mapping and landscape interpretation"
+        },
+        {
+          "source": "voyaging-tuaupiki-2022",
+          "locator": "Attributed narrative and environmental-knowledge research"
+        },
+        {
+          "source": "voyaging-pvs-modern",
+          "locator": "Modern methods and teaching history"
+        },
+        {
+          "source": "voyaging-chronology-2022",
+          "locator": "Abstract; model intervals and probability convention"
+        },
+        {
+          "source": "voyaging-rat-seeds-2008",
+          "locator": "Results and Conclusions"
+        },
+        {
+          "source": "angkor",
+          "locator": "Description: regional chronology"
+        }
+      ],
+      "scope": "Separate Cambodian and Aotearoa settings. The model interval does not establish human presence at every year inside it, and no exact canoe route or first arrival date is drawn.",
+      "perspectives": "Landscape archaeology and attributed living navigational knowledge answer different questions. Neither represents every community’s account, and modern practice is not silently backdated.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C7-R1",
+      "chapter": "C7",
+      "region": "Americas",
+      "status": "ready_for_review",
+      "snapshotYears": [1600],
+      "citations": [
+        {
+          "source": "orientation-andean-textiles",
+          "locator": "Colonial continuation and commissions"
+        },
+        {
+          "source": "manila-tamal-huye-project",
+          "locator": "Project introduction; 1595 wreck"
+        },
+        {
+          "source": "orientation-andean-textiles",
+          "locator": "Final colonial-period paragraphs"
+        },
+        {
+          "source": "met-313152",
+          "locator": "Date and construction"
+        },
+        {
+          "source": "manila-tamal-huye-project",
+          "locator": "Village archaeology and alternative-use models"
+        },
+        {
+          "source": "manila-shipbuilding-1618-1619",
+          "locator": "Fajardo and Pineda reports"
+        },
+        {
+          "source": "manila-tamal-huye-project",
+          "locator": "Voyage chronology"
+        },
+        {
+          "source": "manila-tamal-huye-project",
+          "locator": "1595 chronology"
+        },
+        {
+          "source": "orientation-andean-textiles",
+          "locator": "Colonial continuation"
+        },
+        {
+          "source": "met-313152",
+          "locator": "Date"
+        }
+      ],
+      "scope": "Selected Andean and northern Californian/Pacific settings. No common colonial experience, exact route for every object or unchanged Inka state in 1600 is inferred.",
+      "perspectives": "Makers and Indigenous uses of imported material complicate elite and colonial narratives. The ship’s written record remains a mediated colonial perspective, supplemented by village archaeology.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C7-R2",
+      "chapter": "C7",
+      "region": "Africa",
+      "status": "ready_for_review",
+      "snapshotYears": [1600],
+      "citations": [
+        {
+          "source": "benin-court-guilds",
+          "locator": "Royal craft guilds"
+        },
+        {
+          "source": "kongo-christianity",
+          "locator": "Education, translation and uneven practice"
+        },
+        {
+          "source": "met-309900",
+          "locator": "Attribution"
+        },
+        {
+          "source": "met-318323",
+          "locator": "Description"
+        },
+        {
+          "source": "met-309900",
+          "locator": "Description"
+        },
+        {
+          "source": "kongo-christianity",
+          "locator": "Translation and interpretation"
+        },
+        {
+          "source": "kongo-interview",
+          "locator": "Reading of accession 1999.295.7"
+        },
+        {
+          "source": "benin-court-guilds",
+          "locator": "Court control and exchange"
+        },
+        {
+          "source": "afonso-letters-1526",
+          "locator": "6 July and 18 October 1526: kidnapping, captives and proposed inspection"
+        },
+        {
+          "source": "kongo-christianity",
+          "locator": "1491 and 1624 chronology"
+        },
+        {
+          "source": "met-318323",
+          "locator": "Date"
+        },
+        {
+          "source": "met-309900",
+          "locator": "Date"
+        },
+        {
+          "source": "kongo-christianity",
+          "locator": "1624 catechism"
+        }
+      ],
+      "scope": "Benin and Kongo are separate selected settings, not a single African court culture or a complete account of Atlantic slavery. Broad object dates do not establish a particular transaction in 1600.",
+      "perspectives": "African makers, translators and patrons appear as participants with their own institutions. Elite objects still underrepresent many households and people subjected to coercion.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C7-R3",
+      "chapter": "C7",
+      "region": "Europe",
+      "status": "ready_for_review",
+      "snapshotYears": [1600],
+      "citations": [
+        {
+          "source": "orientation-plantin",
+          "locator": "Description: workshop, collections and printing centres"
+        },
+        {
+          "source": "orientation-plantin",
+          "locator": "Description: equipment and archives"
+        },
+        {
+          "source": "gama-journal-1898",
+          "locator": "Edition and translated voyage account"
+        },
+        {
+          "source": "orientation-royal-society",
+          "locator": "Early days: 1660 meeting, methods and membership"
+        },
+        {
+          "source": "orientation-plantin",
+          "locator": "Plantin dates and firm continuation to 1867"
+        },
+        {
+          "source": "orientation-royal-society",
+          "locator": "First meeting: 28 November 1660"
+        }
+      ],
+      "scope": "A printing-house focus with a separately dated London comparison and an earlier travel-record destination. This is not a complete history of the Reformation, European science or all book readers.",
+      "perspectives": "Workshop evidence makes production visible, while the Society’s own account identifies exclusions. Neither prominent founders nor surviving collections represent every contributor.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C7-R4",
+      "chapter": "C7",
+      "region": "West/Central Asia",
+      "status": "ready_for_review",
+      "snapshotYears": [1600],
+      "citations": [
+        {
+          "source": "ottoman-before",
+          "locator": "Production centres and foundations"
+        },
+        {
+          "source": "bukhara-monuments",
+          "locator": "Madrasas and urban institutions"
+        },
+        {
+          "source": "isfahan-capital",
+          "locator": "Isfahan as the Safavid Capital"
+        },
+        {
+          "source": "met-449533",
+          "locator": "Description"
+        },
+        {
+          "source": "bukhara-irrigation-economy",
+          "locator": "Water supply"
+        },
+        {
+          "source": "bukhara-juybari-endowments",
+          "locator": "Monuments and public works"
+        },
+        {
+          "source": "safavid-silk",
+          "locator": "Production and weaving"
+        },
+        {
+          "source": "julfa-forced",
+          "locator": "Origin, settlement and population"
+        },
+        {
+          "source": "isfahan-capital",
+          "locator": "Capital transfer"
+        },
+        {
+          "source": "julfa-forced",
+          "locator": "Origin and settlement"
+        },
+        {
+          "source": "bukhara-irrigation-economy",
+          "locator": "Shaibanid and Janid periods"
+        }
+      ],
+      "scope": "Selected Ottoman, Central Asian and Safavid urban histories. No uniform workshop, seamless trade route or exact political border is inferred; later Zand evidence belongs to another phase.",
+      "perspectives": "Documents and commissions foreground patrons; water systems, material tasks and displacement add other relationships. Many workers’ names and experiences remain unrecorded.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C7-R5",
+      "chapter": "C7",
+      "region": "South Asia",
+      "status": "ready_for_review",
+      "snapshotYears": [1600],
+      "citations": [
+        {
+          "source": "mughal",
+          "locator": "Akbar, Gujarat and royal atelier paragraphs"
+        },
+        {
+          "source": "mughal-workshops-va",
+          "locator": "House of Books; Harivamsa"
+        },
+        {
+          "source": "mughal-razmnama-copy",
+          "locator": "Title and Scope & Content"
+        },
+        {
+          "source": "met-448183",
+          "locator": "Description"
+        },
+        {
+          "source": "mughal",
+          "locator": "Fatehpur Sikri 1571–1585 and Lahore"
+        },
+        {
+          "source": "met-448183",
+          "locator": "Date"
+        },
+        {
+          "source": "mughal",
+          "locator": "Akbar reign and workshop sequence"
+        }
+      ],
+      "scope": "A justified focus on court book production across named residences, with Gujarat as a commercial context. It does not establish an agrarian census, universal literacy or the experience of every South Asian community.",
+      "perspectives": "Named contributors help reveal collaboration beside royal patronage. Sources remain strongest for elite commissions and weaker for most producers and readers outside the court.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C7-R6",
+      "chapter": "C7",
+      "region": "East Asia",
+      "status": "ready_for_review",
+      "snapshotYears": [1600],
+      "citations": [
+        {
+          "source": "ming",
+          "locator": "Bureau of Design"
+        },
+        {
+          "source": "ming-npm-production",
+          "locator": "Official production and supervision"
+        },
+        {
+          "source": "orientation-momoyama",
+          "locator": "Political setting and decorated fortresses"
+        },
+        {
+          "source": "met-42549",
+          "locator": "Medium and supplied image"
+        },
+        {
+          "source": "ming-workshop-texts-2013",
+          "locator": "Printed p 12: preparation"
+        },
+        {
+          "source": "orientation-momoyama",
+          "locator": "Decoration, furnishings and garments"
+        },
+        {
+          "source": "orientation-momoyama",
+          "locator": "Final paragraph: invasions and overseas contacts"
+        },
+        {
+          "source": "ming",
+          "locator": "1368–1644 frame"
+        },
+        {
+          "source": "ming",
+          "locator": "1368–1644 chronology"
+        },
+        {
+          "source": "orientation-momoyama",
+          "locator": "1573–1615 frame and political setting"
+        },
+        {
+          "source": "met-42549",
+          "locator": "Date"
+        }
+      ],
+      "scope": "Selected Chinese and Japanese production/patronage settings. The museum’s art-period convention 1573–1615 does not define every political transition; no total-isolation claim or uniformly beneficial exchange is adopted.",
+      "perspectives": "Court and elite collections favour commissioned objects. The account keeps destructive war visible and does not infer ordinary experience from luxury surfaces.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C7-R7",
+      "chapter": "C7",
+      "region": "Southeast Asia/Oceania",
+      "status": "ready_for_review",
+      "snapshotYears": [1600],
+      "citations": [
+        {
+          "source": "banda-archive",
+          "locator": "Handel; Samenleving"
+        },
+        {
+          "source": "galleon",
+          "locator": "Trade and cargo account"
+        },
+        {
+          "source": "banda-pala-1621",
+          "locator": "Opening 1599 visit; 1602 alliance and later escalation"
+        },
+        {
+          "source": "banda-archive",
+          "locator": "Handel; Genocide"
+        },
+        {
+          "source": "manila-shipbuilding-1618-1619",
+          "locator": "Fajardo and Pineda labour accounts"
+        },
+        {
+          "source": "manila-tamal-huye-project",
+          "locator": "1595 wreck and village evidence"
+        },
+        {
+          "source": "banda-pala-1621",
+          "locator": "1599 visit before VOC foundation"
+        },
+        {
+          "source": "manila-tamal-huye-project",
+          "locator": "1595 chronology"
+        }
+      ],
+      "scope": "Banda and the Philippine–American Pacific system, with no invented continuous route between them. The reading does not claim coverage of every Oceanian society or backdate VOC conquest to 1600.",
+      "perspectives": "Colonial records dominate the archive and are read for their perspective. Bandanese communities and Philippine workers appear through different, uneven records rather than as anonymous cargo-route endpoints.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C8-R1",
+      "chapter": "C8",
+      "region": "Americas",
+      "status": "ready_for_review",
+      "snapshotYears": [1800, 1900, 1947, 1950, 2000],
+      "citations": [
+        {
+          "source": "haiti-abolition-1794",
+          "locator": "Convention debate and decree"
+        },
+        {
+          "source": "haiti",
+          "locator": "Revolution and independence"
+        },
+        {
+          "source": "orientation-mendez",
+          "locator": "Orange County family action and Ninth Circuit"
+        },
+        {
+          "source": "orientation-sweatt",
+          "locator": "Opinion: application and educational opportunity"
+        },
+        {
+          "source": "orientation-mexico",
+          "locator": "Alternancia en el poder: election and subsequent disagreements"
+        },
+        {
+          "source": "hine",
+          "locator": "Photograph LC-DIG-nclc-01451 and caption card no. 358"
+        },
+        {
+          "source": "rice-goodberry",
+          "locator": "Attributed harvesting and processing knowledge"
+        },
+        {
+          "source": "rice-glifwc",
+          "locator": "Harvest and stewardship account"
+        },
+        {
+          "source": "haiti-abolition-1794",
+          "locator": "4 February 1794 decree"
+        },
+        {
+          "source": "haiti",
+          "locator": "1802 expedition and 1804 independence"
+        },
+        {
+          "source": "orientation-brown",
+          "locator": "Historical introduction and opinion on Plessy"
+        },
+        {
+          "source": "orientation-mendez",
+          "locator": "Federal court and 1947 appeal"
+        },
+        {
+          "source": "orientation-sweatt",
+          "locator": "Decision, reasoning and conclusion"
+        },
+        {
+          "source": "orientation-brown",
+          "locator": "17 May 1954 decision"
+        },
+        {
+          "source": "orientation-mexico",
+          "locator": "Election of Vicente Fox and limits of change"
+        }
+      ],
+      "scope": "Selected Caribbean, United States and Mexican settings. The legal examples are historical and differ in jurisdiction; no ruling or election is treated as continent-wide change.",
+      "perspectives": "Formerly enslaved people, families bringing cases and voters appear as actors. Courts and governments record decisions more directly than the daily experience of everyone affected.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C8-R2",
+      "chapter": "C8",
+      "region": "Africa",
+      "status": "ready_for_review",
+      "snapshotYears": [1800, 1900, 1947, 1950, 2000],
+      "citations": [
+        {
+          "source": "orientation-asante",
+          "locator": "Gold, tribute, artisans and court regulation"
+        },
+        {
+          "source": "orientation-benin-raid",
+          "locator": "Attack, looting and subsequent sales"
+        },
+        {
+          "source": "ghana-country-study",
+          "locator": "Table A; Historical Setting: UGCC and Positive Action"
+        },
+        {
+          "source": "ghana-stamp-image",
+          "locator": "1957 overprint"
+        },
+        {
+          "source": "sa-transition",
+          "locator": "1994, 1996, 1997 and 2000 milestones"
+        },
+        {
+          "source": "sa-rights",
+          "locator": "Chapter 2: selected rights and enforcement"
+        },
+        {
+          "source": "orientation-asante",
+          "locator": "Court regulation and eighteenth–nineteenth-century object dates"
+        },
+        {
+          "source": "ghana-country-study",
+          "locator": "Table A:1874 colony and 1957 independence"
+        },
+        {
+          "source": "ghana-country-study",
+          "locator": "Historical Setting:1900 Asante resistance"
+        },
+        {
+          "source": "orientation-benin-raid",
+          "locator": "1897–1903 museum acquisitions"
+        },
+        {
+          "source": "ghana-country-study",
+          "locator": "Table A:1947–1957; Historical Setting"
+        },
+        {
+          "source": "ghana-country-study",
+          "locator": "Historical Setting: Positive Action and 1951 election"
+        },
+        {
+          "source": "sa-transition",
+          "locator": "2000: coat of arms on Freedom Day; constitutional milestones"
+        }
+      ],
+      "scope": "Asante/Gold Coast, Benin City and South Africa are distinct settings. The history of a particular museum acquisition is not the provenance of every Benin object.",
+      "perspectives": "Court makers, organizers and voters broaden a story often told through rulers. Museum and government records still privilege particular institutions; a public emblem is not everyone’s testimony.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C8-R3",
+      "chapter": "C8",
+      "region": "Europe",
+      "status": "ready_for_review",
+      "snapshotYears": [1800, 1900, 1947, 1950, 2000],
+      "citations": [
+        {
+          "source": "orientation-early-factories",
+          "locator": "Apprentices in 1800 and 1802 Act"
+        },
+        {
+          "source": "factory-act-1833-primary",
+          "locator": "Act: limits and inspectors"
+        },
+        {
+          "source": "factory-inspection-1836",
+          "locator": "Inspection report"
+        },
+        {
+          "source": "orientation-marshall",
+          "locator": "1947 speech and 1948 Act"
+        },
+        {
+          "source": "orientation-schuman",
+          "locator": "9 May 1950 declaration and original text"
+        },
+        {
+          "source": "orientation-euro",
+          "locator": "Introduction and country dates"
+        },
+        {
+          "source": "orientation-early-factories",
+          "locator": "Apprentice employment and 1802 legislation"
+        },
+        {
+          "source": "factory-act-1833-primary",
+          "locator": "Inspector provisions"
+        },
+        {
+          "source": "orientation-factory-dates",
+          "locator": "1867 Factory Acts (Extension) Act"
+        },
+        {
+          "source": "factory-inspection-1836",
+          "locator": "Report date and observations"
+        },
+        {
+          "source": "orientation-marshall",
+          "locator": "5 June speech, December message and 3 April 1948 Act"
+        },
+        {
+          "source": "orientation-schuman",
+          "locator": "Opening account and declaration: common High Authority"
+        },
+        {
+          "source": "orientation-euro",
+          "locator": "Introduction; France and Germany entries"
+        }
+      ],
+      "scope": "British industrial, French/German and selected participating European settings. These institutional changes did not encompass every European country or erase the uneven losses and displacement of war.",
+      "perspectives": "Workers and households often appear indirectly in regulations, recovery proposals and monetary records. Their experiences require inspection reports, testimony and local evidence alongside the institutional dates.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C8-R4",
+      "chapter": "C8",
+      "region": "West/Central Asia",
+      "status": "ready_for_review",
+      "snapshotYears": [1800, 1900, 1947, 1950, 2000],
+      "citations": [
+        {
+          "source": "orientation-qajar",
+          "locator": "Exhibition account: period, arrival of cameras and court missions"
+        },
+        {
+          "source": "orientation-turkiye",
+          "locator": "New Parliament and Proclamation of the Republic"
+        },
+        {
+          "source": "orientation-truman",
+          "locator": "12 March 1947 message and request"
+        },
+        {
+          "source": "orientation-tenge",
+          "locator": "Timeline:1991, 1993 and 1995"
+        },
+        {
+          "source": "sputnik",
+          "locator": "Mission chronology"
+        },
+        {
+          "source": "orientation-qajar",
+          "locator": "1785–1925 frame; cameras in early 1840s"
+        },
+        {
+          "source": "orientation-qajar",
+          "locator": "1893 caption and exhibition account"
+        },
+        {
+          "source": "orientation-truman",
+          "locator": "Message to Congress,12 March 1947"
+        },
+        {
+          "source": "orientation-turkiye",
+          "locator": "Proclamation of the Republic"
+        },
+        {
+          "source": "orientation-turkiye-election",
+          "locator": "1950 general election row"
+        },
+        {
+          "source": "sputnik",
+          "locator": "Launch chronology"
+        },
+        {
+          "source": "orientation-tenge",
+          "locator": "1991 independence, 1993 circulation and 1995 factory"
+        }
+      ],
+      "scope": "A Qajar court, selected Turkish institutions and Kazakhstan provide three local histories; neither an imperial label nor a modern border defines the whole region across two centuries.",
+      "perspectives": "Court photographs, assemblies and a central bank speak from institutional positions. They document acts and objects more readily than regional differences, opposition voices or household purchasing power.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C8-R5",
+      "chapter": "C8",
+      "region": "South Asia",
+      "status": "ready_for_review",
+      "snapshotYears": [1800, 1900, 1947, 1950, 2000],
+      "citations": [
+        {
+          "source": "orientation-company",
+          "locator": "Charters, Wellesley and Hastings; 1858 transfer"
+        },
+        {
+          "source": "partition",
+          "locator": "Teaching sources and official correspondence"
+        },
+        {
+          "source": "partition-map",
+          "locator": "Annotated boundary evidence"
+        },
+        {
+          "source": "partition-oral",
+          "locator": "Personal testimony"
+        },
+        {
+          "source": "orientation-india-394",
+          "locator": "Article 394: commencement"
+        },
+        {
+          "source": "orientation-jharkhand",
+          "locator": "Introduction: Bihar reorganization and 15 November 2000"
+        },
+        {
+          "source": "orientation-company",
+          "locator": "1798–1805 Wellesley; 1858 transfer"
+        },
+        {
+          "source": "orientation-company",
+          "locator": "Government of India Act 1858"
+        },
+        {
+          "source": "partition",
+          "locator": "1947 boundary and independence"
+        },
+        {
+          "source": "partition",
+          "locator": "Independence and Partition background; selected telegrams"
+        },
+        {
+          "source": "partition-oral",
+          "locator": "Personal accounts"
+        },
+        {
+          "source": "orientation-india-394",
+          "locator": "Article 394 text and debate note"
+        },
+        {
+          "source": "orientation-jharkhand",
+          "locator": "Introduction: formation of the state"
+        }
+      ],
+      "scope": "Selected British Indian, Punjab/Bengal and post-independence Indian settings. The Indian commencement date is not a constitutional date for Pakistan or every South Asian state; internal reorganization is not another international partition.",
+      "perspectives": "Official maps and laws are strong evidence of formal decisions. Compare them with personal records when asking about displacement, safety, language, work or the ability to return home.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C8-R6",
+      "chapter": "C8",
+      "region": "East Asia",
+      "status": "ready_for_review",
+      "snapshotYears": [1800, 1900, 1947, 1950, 2000],
+      "citations": [
+        {
+          "source": "orientation-qing",
+          "locator": "Emperors: Qing period convention"
+        },
+        {
+          "source": "tomioka",
+          "locator": "Brief synthesis: opening and integrated production"
+        },
+        {
+          "source": "orientation-japan-constitution",
+          "locator": "Enactment and first session of the Diet"
+        },
+        {
+          "source": "orientation-korea-resolution",
+          "locator": "S/RES/82: action date and withdrawal"
+        },
+        {
+          "source": "orientation-korea-summit",
+          "locator": "South–North Joint Declaration, June 2000"
+        },
+        {
+          "source": "orientation-qing",
+          "locator": "Qing dynasty chronology"
+        },
+        {
+          "source": "tomioka",
+          "locator": "Nineteenth-century opening"
+        },
+        {
+          "source": "orientation-qing",
+          "locator": "1644–1911 convention"
+        },
+        {
+          "source": "tomioka",
+          "locator": "1872 opening and technical setting"
+        },
+        {
+          "source": "orientation-japan-constitution",
+          "locator": "Enactment and first session: April–May 1947"
+        },
+        {
+          "source": "orientation-korea-resolution",
+          "locator": "Action note 25 June 1950; resolution title and operative demands"
+        },
+        {
+          "source": "orientation-korea-summit",
+          "locator": "Opening and clauses 3–4 of the joint declaration"
+        }
+      ],
+      "scope": "Chinese imperial, Japanese industrial and constitutional, and Korean conflict/diplomatic settings. These national and international records do not describe a single East Asian political trajectory.",
+      "perspectives": "Workers, families and those affected by war are unevenly visible in collections made by governments and international institutions. A leader’s statement does not establish every resident’s view.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    },
+    {
+      "id": "C8-R7",
+      "chapter": "C8",
+      "region": "Southeast Asia/Oceania",
+      "status": "ready_for_review",
+      "snapshotYears": [1800, 1900, 1947, 1950, 2000],
+      "citations": [
+        {
+          "source": "orientation-nz-contact",
+          "locator": "Sealers and whalers:1791–2 and early trade"
+        },
+        {
+          "source": "tiriti-tepapa-texts",
+          "locator": "Treaty texts and translation"
+        },
+        {
+          "source": "treaty-signing",
+          "locator": "Signing and circulation"
+        },
+        {
+          "source": "indonesia-proclamation-archive",
+          "locator": "Proclamation"
+        },
+        {
+          "source": "indonesia-war",
+          "locator": "July 1947 and 1950 timeline entries"
+        },
+        {
+          "source": "indonesia-transfer",
+          "locator": "December 1949 settlement"
+        },
+        {
+          "source": "orientation-samoa",
+          "locator": "Administration, Mau, Western Samoa Act and commencement"
+        },
+        {
+          "source": "orientation-nz-contact",
+          "locator": "Early arrivals and port links"
+        },
+        {
+          "source": "treaty-signing",
+          "locator": "1840 signing"
+        },
+        {
+          "source": "orientation-nz-vote",
+          "locator": "1893 law and petitions"
+        },
+        {
+          "source": "tiriti-te-raki-2022",
+          "locator": "Subsequent Crown actions and authority"
+        },
+        {
+          "source": "indonesia-war",
+          "locator": "21 July 1947 operation"
+        },
+        {
+          "source": "indonesia-transfer",
+          "locator": "December 1949 transfer"
+        },
+        {
+          "source": "indonesia-war",
+          "locator": "1950 end of federal structure"
+        },
+        {
+          "source": "orientation-samoa",
+          "locator": "Postwar administration and 1962 independence"
+        },
+        {
+          "source": "orientation-timor",
+          "locator": "UNTAET:1999–2002, February 2000 and independence in May 2002"
+        }
+      ],
+      "scope": "Three selected settings. Western Samoa’s dates do not apply to American Samoa; Indonesian sovereignty and later East Timorese self-determination are separate processes. No general Pacific independence date is inferred.",
+      "perspectives": "Treaty texts, colonial military accounts and legislatures document institutional acts. Rangatira, Samoan organizers and Indonesian civilians had distinct experiences that official records only partly preserve.",
+      "acceptance": "Author/source review and local implementation ready; independent acceptance not performed."
+    }
+  ],
+  "remainingAutonomousScope": "Complete narrative, comparison, journey, media, place and glossary audits; remaining engineering, print and release preparation. Human gates separately recorded; H01/H02 remain removed by owner.",
+  "release": "Verified local review ZIP chronos-review-1e16d28756eb.zip. No push or deployment."
+}

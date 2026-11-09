@@ -1,0 +1,33 @@
+{
+  "subject": "old-kingdom",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "met-543914",
+      "caption": "An elite chapel wall showing offerings, music and senet, c. 2465–2389 BCE. The present arrangement includes a displaced element.",
+      "notice": [
+        "How do the sizes of figures differ?",
+        "Can you find activities beyond the large portraits?"
+      ],
+      "creator": "Maker not recorded",
+      "place": "Saqqara, cemetery north of Djoser complex, tomb QS915, documented excavations",
+      "material": "Limestone, paint",
+      "relevance": "Daily-life representation in a selective funerary setting; recarving and museum arrangement.",
+      "additionalImages": []
+    },
+    {
+      "id": "giza-provisioning-diagram",
+      "caption": "Modern functional guide. Grain storage, preparation and meals connect different tasks. Symbols show no quantities; arrows are relationships rather than a recipe, measured flow or surveyed site plan.",
+      "notice": [
+        "Name work needed between storing grain and providing a meal.",
+        "Which quantities or individual workers cannot be recovered from this guide?"
+      ],
+      "creator": "Chronos / Codex; source-based editorial diagram",
+      "place": "Modern functional guide; no surveyed plan or exact historical dimensions",
+      "material": "Original SVG diagram",
+      "representedDate": "Fourth Dynasty Giza provisioning; archaeological evidence and modern bakery experiments described by AERA.",
+      "relevance": "Makes practical tasks and relationships visible without inventing a measured ancient plan, individual worker or complete social arrangement.",
+      "printWidthMm": 145
+    }
+  ]
+}

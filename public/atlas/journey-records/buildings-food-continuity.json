@@ -1,0 +1,39 @@
+{
+  "journey": "buildings-food-continuity",
+  "revision": "0d4ed5236fc6e50128ff0d57e8b37cbcc2f6ad8f637f6c15d0bd6dd48d053fe0",
+  "stops": [
+    {
+      "index": 0,
+      "narrative": "Look for room marks and an open space in the 1850 record of Pueblo Bonito’s ruins. The plan’s publication is much later than the selected case. Archaeological accounts add masonry, smaller habitation and storage spaces, while the earlier food study tests particular vessel samples. None identifies every occupant or turns all constructed alignments into a recovered journey. Attributed Pueblo statements establish continuing significance."
+    },
+    {
+      "index": 1,
+      "narrative": "Keep the 1907 print separate from archaeological evidence of neighborhoods, making and local environmental change. Ask which observations support a proposed explanation and which people or tasks remain unknown. Changing settlement patterns do not establish the disappearance of a people; attributed contemporary perspectives supply their own contexts."
+    },
+    {
+      "index": 2,
+      "narrative": "Use the published feature drawing to distinguish surviving floor features, fallen roof material and a later reconstructed shelter. The roof-wood constraint after about 1160 does not supply a completion day. A separately modeled maize sample concerns the Middle Plateau rather than use of this room. The disputed case retains its unknown endpoints, while current Muscogee statements explain continuing relationships."
+    }
+  ],
+  "conclusion": "Buildings, food and materials reveal work at different scales. Explain a particular observation through its site, sample, date and source. Then ask how the explanation changes when another record or an attributed community account enters the inquiry. Neither a single building nor a display interval supplies the whole history of a people.",
+  "evidence": {
+    "prompt": "Which explanation uses the supplied Pueblo Bonito plan carefully?",
+    "options": [
+      {
+        "text": "Its drawn room groupings can be compared with archaeological descriptions of building and habitation; the later sheet does not identify every ancient occupant.",
+        "supported": true,
+        "feedback": "The 1850 plan records visible ruins through a particular observer. Separate archaeological evidence can help explain work and use without treating the sheet as a complete occupied phase."
+      },
+      {
+        "text": "Every room shown was built and occupied at the same time in 1850.",
+        "supported": false,
+        "feedback": "Publication in 1850 dates the record. The plan does not establish one simultaneous ancient construction or occupation event."
+      },
+      {
+        "text": "A similar circular feature elsewhere proves that the same governing institution organized both sites.",
+        "supported": false,
+        "feedback": "A resemblance invites a question. A particular institutional connection needs separately dated and associated evidence."
+      }
+    ]
+  }
+}

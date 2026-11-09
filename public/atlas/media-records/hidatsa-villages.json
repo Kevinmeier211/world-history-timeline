@@ -1,0 +1,36 @@
+{
+  "subject": "hidatsa-villages",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "knife-earthlodge",
+      "caption": "This standing lodge is a modern reconstruction used to explain building knowledge. NPS describes women’s construction, ownership and maintenance through clan cooperation. The 650-pixel source has limited detail; it is not enlarged beyond its original resolution.",
+      "notice": [
+        "How might the timber and earth support one another?",
+        "What would a photograph fail to tell us about ownership and knowledge?"
+      ],
+      "creator": "National Park Service; individual photographer not supplied",
+      "place": "Knife River Indian Villages National Historic Site, North Dakota",
+      "material": "Digital photograph of a reconstructed timber-and-earth building",
+      "representedDate": "Modern reconstruction explaining Hidatsa earthlodge construction",
+      "relevance": "Makes reconstruction visible while linking architecture with women’s labor and authority.",
+      "datingNote": "A photograph of an interpretive reconstruction, not an original 1600–1845 house. No exposure date is given.",
+      "additionalImages": []
+    },
+    {
+      "id": "knife-garden-tools",
+      "caption": "The institutional image illustrates tools rather than presenting accessioned ancient implements. Read it with the community-authored description of preparing fields and growing crops. The illustration cannot establish the maker, date or condition of a particular historical hoe.",
+      "notice": [
+        "Which part comes from an animal and which from a plant?",
+        "What further evidence would identify one actual historical tool?"
+      ],
+      "creator": "National Park Service; illustrator not individually identified",
+      "place": "Knife River teaching context; no excavated findspot",
+      "material": "Digital reproduction of an explanatory tool illustration",
+      "representedDate": "Tools explained in a community-authored account of Hidatsa gardening",
+      "relevance": "Connects bison materials with agriculture and distinguishes explanatory imagery from artifact evidence.",
+      "datingNote": "The institutional text describes tools made with wood and a bison scapula. This is not a dated excavated object photograph.",
+      "additionalImages": []
+    }
+  ]
+}

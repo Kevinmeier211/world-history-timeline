@@ -1,0 +1,411 @@
+{
+  "media": [
+    {
+      "id": "pp-cooking-objects",
+      "subject": "poverty-point",
+      "source": "pp-gibson",
+      "title": "Baked-earth heating objects",
+      "accession": "Gibson, Anthropological Study 7, Figure 10",
+      "creator": "Makers not recorded; photograph credited to Brian Cockerham",
+      "date": {
+        "start": null,
+        "end": null,
+        "label": "Individual objects undated",
+        "precision": "unknown",
+        "note": "The 1985 publication identifies these as Poverty Point heating objects but supplies no individual accession or production date. They are contextual examples, not objects securely assigned to one year of the main site."
+      },
+      "representedDate": "Regional Poverty Point tradition; photograph published in the corrected 1985 printing",
+      "place": "Lower Mississippi Valley; individual findspots not supplied in Figure 10",
+      "material": "Baked earth; archaeological heating objects",
+      "image": "/atlas/media/pp-cooking-objects-0.webp",
+      "width": 1200,
+      "height": 721,
+      "thumbnail": "/atlas/media/pp-cooking-objects-thumb.webp",
+      "additionalImages": [],
+      "alt": "Six differently shaped baked-earth objects, including grooved cylinders and pointed oval forms, shown in an archaeological publication.",
+      "caption": "These varied heating objects make food preparation part of the history of monumental earthworks. The publication does not give an individual date or findspot for each example. Modern experiments support a cooking interpretation; the photograph alone cannot show the contents of a meal.",
+      "printCaption": "Heating objects illustrated in the corrected 1985 publication. Individual dates and findspots are not given. Experiments support a cooking interpretation, not a specific ancient meal.",
+      "printCredit": "Photo: Brian Cockerham. Gibson 1985, fig.10; Louisiana Archaeological Survey and Antiquities Commission / Project Gutenberg 62948.",
+      "notice": [
+        "Which shapes and grooves can you distinguish?",
+        "What further evidence would show how they were used?"
+      ],
+      "relevance": "Connects domestic work and experimental archaeology to Poverty Point’s monumental landscape.",
+      "rights": "Public domain in the USA according to Project Gutenberg ebook 62948; photograph credit retained",
+      "credit": "Brian Cockerham, Figure 10 in Jon L. Gibson, Poverty Point: A Culture of the Lower Mississippi Valley, corrected printing 1985. Louisiana Archaeological Survey and Antiquities Commission; digital edition Project Gutenberg, public domain in the USA.",
+      "sourceImage": "https://www.gutenberg.org/cache/epub/62948/images/p06a.jpg",
+      "depiction": "object photograph",
+      "datingNote": "The 1985 publication identifies these as Poverty Point heating objects but supplies no individual accession or production date. They are contextual examples, not objects securely assigned to one year of the main site."
+    },
+    {
+      "id": "hopewell-restored-mound",
+      "subject": "hopewell-earthworks",
+      "source": "hopewell-nps-photo",
+      "title": "Mound City Group in winter",
+      "accession": "NPS asset d829d8d4-bdb5-458d-bb2b-f849817b20a0",
+      "creator": "National Park Service",
+      "date": {
+        "start": 2013,
+        "end": 2013,
+        "label": "11 January 2013 photograph",
+        "precision": "exact",
+        "note": "NPS gallery ImageCreateDate identifies 11 January 2013. Visible earthworks are modern restorations of an ancient ceremonial complex."
+      },
+      "representedDate": "Mound City ceremonial complex, 1–400 CE; visible earthworks restored in modern times",
+      "place": "Mound City Group, Ohio, United States",
+      "material": "Digital photograph of an archaeological landscape",
+      "image": "/atlas/media/hopewell-restored-mound-0.webp",
+      "width": 1600,
+      "height": 1200,
+      "thumbnail": "/atlas/media/hopewell-restored-mound-thumb.webp",
+      "additionalImages": [],
+      "alt": "Winter view across Mound City Group, with trees and an earthen embankment in the foreground and restored mounds beyond.",
+      "caption": "This is a modern photograph of a restored mound. NPS explains that the visible walls and mounds at Mound City were reconstructed using surviving bases, documents and field research. A present-day view therefore contains both ancient evidence and modern interpretation.",
+      "printCaption": "A 2013 NPS view of restored earthworks. The present landscape combines ancient base layers, modern research and restoration.",
+      "printCredit": "National Park Service; gallery asset d829d8d4-bdb5-458d-bb2b-f849817b20a0, Public domain / Full rights.",
+      "notice": [
+        "What can a photograph show about the mound’s shape?",
+        "How would restoration affect what you can infer from its surface?"
+      ],
+      "relevance": "Makes reconstruction and archaeological inference visible rather than presenting a restored landscape as untouched.",
+      "rights": "U.S. Government work; public domain in the United States (NPS credit and ownership policy)",
+      "credit": "National Park Service, gallery asset d829d8d4-bdb5-458d-bb2b-f849817b20a0. Metadata: Public domain; GrantingRights Full; ImageCreateDate 11 January 2013. No protection claimed in original U.S. Government works.",
+      "sourceImage": "https://www.nps.gov/npgallery/GetAsset/d829d8d4-bdb5-458d-bb2b-f849817b20a0",
+      "depiction": "later depiction",
+      "datingNote": "NPS gallery ImageCreateDate identifies 11 January 2013. Visible earthworks are modern restorations of an ancient ceremonial complex."
+    },
+    {
+      "id": "hopewell-survey-1848",
+      "subject": "hopewell-earthworks",
+      "source": "hopewell-moundgroup",
+      "title": "Hopewell Mound Group in the Squier and Davis survey",
+      "accession": "Squier and Davis, 1848; NPS reproduction HMG-SD-500.jpg",
+      "creator": "Ephraim George Squier and Edwin Hamilton Davis",
+      "date": {
+        "start": 1848,
+        "end": 1848,
+        "label": "Published 1848",
+        "precision": "exact",
+        "note": "Publication date of a later archaeological survey, not the date of earthwork construction."
+      },
+      "representedDate": "Ancient Ohio earthworks documented in the nineteenth century",
+      "place": "Hopewell Mound Group, Ohio, United States",
+      "material": "Reproduction of a printed survey plan",
+      "image": "/atlas/media/hopewell-survey-1848-0.webp",
+      "width": 500,
+      "height": 342,
+      "thumbnail": "/atlas/media/hopewell-survey-1848-thumb.webp",
+      "additionalImages": [],
+      "alt": "Nineteenth-century survey plan showing a large enclosure, a smaller square, circular features and mounds at Hopewell Mound Group.",
+      "caption": "A survey is evidence of what observers recorded, using their methods and assumptions. It is not a photograph of the ancient gathering place. The name Hopewell came from a later landowner, not a surviving name for all its builders. This institutional reproduction has limited resolution.",
+      "notice": [
+        "Which shapes are connected?",
+        "What information about people is absent from a plan?"
+      ],
+      "relevance": "Supports comparison of archaeological documentation with a restored landscape.",
+      "rights": "Public domain; original survey published in the United States in 1848",
+      "credit": "E. G. Squier and E. H. Davis, Ancient Monuments of the Mississippi Valley (1848), reproduced by the National Park Service. Original publication is public domain.",
+      "sourceImage": "https://www.nps.gov/hocu/learn/historyculture/images/HMG-SD-500.jpg",
+      "depiction": "later depiction",
+      "datingNote": "Publication date of a later archaeological survey, not the date of earthwork construction."
+    },
+    {
+      "id": "chaco-corner-door",
+      "subject": "chaco-communities",
+      "source": "chaco-nps-photo",
+      "title": "Masonry and a corner doorway at Pueblo Bonito",
+      "accession": "NPS Pueblo-Bonito_1.jpg",
+      "creator": "National Park Service; individual photographer not supplied",
+      "date": {
+        "start": null,
+        "end": null,
+        "label": "Modern photograph; exposure date not supplied",
+        "precision": "unknown",
+        "note": "No photographic date is given. NPS dates the selected construction context to about 850–1150 CE; this is a view of surviving masonry, not a reconstruction of an occupied building."
+      },
+      "representedDate": "Pueblo Bonito construction, approximately 850–1150 CE",
+      "place": "Chaco Canyon, New Mexico, United States",
+      "material": "Digital photograph of surviving stone architecture",
+      "image": "/atlas/media/chaco-corner-door-0.webp",
+      "width": 1600,
+      "height": 1200,
+      "thumbnail": "/atlas/media/chaco-corner-door-thumb.webp",
+      "additionalImages": [],
+      "alt": "Surviving layered stone walls and a corner doorway at Pueblo Bonito, with exposed wooden beams.",
+      "caption": "The photograph draws attention to masonry and access between rooms. It does not show the building as it looked when occupied, or tell us every room’s use. The larger landscape still carries significance for Pueblo peoples and other traditionally associated communities.",
+      "notice": [
+        "How do builders arrange stones of different sizes?",
+        "Which materials survive better than others?"
+      ],
+      "relevance": "Opens questions about construction work, preservation and the limits of a visitor’s view.",
+      "rights": "U.S. Government work; public domain in the United States (NPS Photo credit and ownership policy)",
+      "credit": "National Park Service, Places To Go, Chaco Culture National Historical Park. Caption identifies a corner doorway at Pueblo Bonito. No protection claimed in original U.S. Government works.",
+      "sourceImage": "https://www.nps.gov/chcu/planyourvisit/images/Pueblo-Bonito_1.jpg",
+      "depiction": "later depiction",
+      "datingNote": "No photographic date is given. NPS dates the selected construction context to about 850–1150 CE; this is a view of surviving masonry, not a reconstruction of an occupied building."
+    },
+    {
+      "id": "cahokia-view-1907",
+      "subject": "cahokia-city",
+      "source": "cahokia-loc-1907",
+      "title": "Illinois, Cahokia Mound, October 16, 1907",
+      "accession": "Library of Congress 97505973; LC-USZ62-118522",
+      "creator": "National Photographic Library, copyright credit on the original",
+      "date": {
+        "start": 1907,
+        "end": 1907,
+        "label": "1907 photomechanical print",
+        "precision": "exact",
+        "note": "The catalogue dates the print c1907 and its title names 16 October 1907. This is later documentation, not a picture of the occupied medieval city."
+      },
+      "representedDate": "Surviving Cahokia earthwork photographed in 1907",
+      "place": "Cahokia Mounds, Illinois, United States",
+      "material": "Photomechanical print, rotogravure; digital reproduction",
+      "image": "/atlas/media/cahokia-view-1907-0.webp",
+      "width": 1024,
+      "height": 820,
+      "thumbnail": "/atlas/media/cahokia-view-1907-thumb.webp",
+      "additionalImages": [],
+      "alt": "Historic black-and-white view of the large Cahokia mound in a much later open landscape.",
+      "caption": "A 1907 print documents a surviving mound centuries after Cahokia’s urban era. It cannot show the vanished houses, working spaces or full urban population. Compare its narrow field of view with archaeological evidence for the larger settlement.",
+      "printCaption": "A 1907 view of a surviving mound, not a picture of the inhabited city. Houses, workplaces and the wider settlement require other evidence.",
+      "printCredit": "Library of Congress, LOT 3889; LC-USZ62-118522. National Photographic Library, c1907.",
+      "notice": [
+        "What occupies most of this photograph?",
+        "Which parts of city life would leave little trace in this view?"
+      ],
+      "relevance": "Distinguishes later documentation from evidence of an occupied city.",
+      "rights": "Public domain in the United States: U.S. photomechanical print published/copyrighted in 1907; original copyright has expired",
+      "credit": "Library of Congress, Prints and Photographs Division, LOT 3889; LC-USZ62-118522. Original credited to National Photographic Library, c1907.",
+      "sourceImage": "https://tile.loc.gov/storage-services/service/pnp/cph/3c10000/3c18000/3c18500/3c18522v.jpg",
+      "depiction": "later depiction",
+      "datingNote": "The catalogue dates the print c1907 and its title names 16 October 1907. This is later documentation, not a picture of the occupied medieval city."
+    },
+    {
+      "id": "met-451490",
+      "subject": "ottoman-workshops",
+      "source": "met-451490",
+      "title": "Dish Depicting Two Birds among Flowering Plants",
+      "accession": "59.69.1",
+      "creator": "Maker not recorded",
+      "date": {
+        "start": 1575,
+        "end": 1590,
+        "label": "ca. 1575–90",
+        "precision": "range",
+        "note": "Visible catalogue wording used instead of the API’s wider search envelope. Approximate production range, not exact manufacture dates."
+      },
+      "place": "Iznik, present-day Türkiye",
+      "material": "Stonepaste; polychrome painted under transparent glaze",
+      "image": "/atlas/media/met-451490-0.webp",
+      "width": 1600,
+      "height": 1600,
+      "thumbnail": "/atlas/media/met-451490-thumb.webp",
+      "additionalImages": ["/atlas/media/met-451490-1.webp"],
+      "alt": "Round Iznik dish with two small birds among blue, red and green flowering stems.",
+      "additionalImageAlts": [
+        "Another overhead view of the dish, showing both birds, the flower stems and the blue border around the rim."
+      ],
+      "caption": "The catalogue dates this Iznik dish around 1575–90. Its painted stonepaste is a local material and design tradition, not Chinese porcelain. The precise buyer and original occasion of use are not identified by this object record.",
+      "printCaption": "Iznik stonepaste dish, c1575–90. The catalogue does not identify its particular buyer or original occasion of use.",
+      "notice": [
+        "Find the two birds among the stems.",
+        "How does the design fit a round surface?"
+      ],
+      "relevance": "Connects skilled ceramic work with both courtly tastes and wider markets.",
+      "rights": "Public domain; The Met Open Access (CC0)",
+      "credit": "The Metropolitan Museum of Art. Gift of James J. Rorimer in appreciation of Maurice S. Dimand's curatorship, 1933–1959, 1959. 59.69.1.",
+      "sourceImage": "https://images.metmuseum.org/CRDImages/is/original/DP131621.jpg",
+      "depiction": "object photograph",
+      "datingNote": "Museum API envelopes are wider; the visible catalogue dates are retained."
+    },
+    {
+      "id": "met-449533",
+      "subject": "ottoman-workshops",
+      "source": "met-449533",
+      "title": "Tughra (Insignia) of Sultan Süleiman the Magnificent (r. 1520–66)",
+      "accession": "38.149.1",
+      "creator": "Maker not recorded",
+      "date": {
+        "start": 1555,
+        "end": 1560,
+        "label": "ca. 1555–60",
+        "precision": "range",
+        "note": "Visible catalogue wording used instead of the API’s wider search envelope. Approximate production range, not exact manufacture dates."
+      },
+      "place": "Ottoman court; present-day Türkiye",
+      "material": "Ink, opaque watercolor, and gold on paper",
+      "image": "/atlas/media/met-449533-0.webp",
+      "width": 1600,
+      "height": 1291,
+      "thumbnail": "/atlas/media/met-449533-thumb.webp",
+      "additionalImages": [],
+      "alt": "Gold and blue calligraphic tughra with three tall shafts and looping lines filled with floral ornament.",
+      "caption": "A tughra made authority visible on documents. The catalogue distinguishes the specialist who drew its standard form from the illuminator who decorated it. This surviving emblem does not establish how every recipient understood a decree.",
+      "notice": [
+        "Where does writing become a repeated shape?",
+        "What work might be needed to make many official documents?"
+      ],
+      "relevance": "Makes administration, specialist labor and representation of sovereignty comparable.",
+      "rights": "Public domain; The Met Open Access (CC0)",
+      "credit": "The Metropolitan Museum of Art. Rogers Fund, 1938. 38.149.1.",
+      "sourceImage": "https://images.metmuseum.org/CRDImages/is/original/DP251197.jpg",
+      "depiction": "object photograph",
+      "datingNote": "Museum API envelopes are wider; the visible catalogue dates are retained."
+    },
+    {
+      "id": "met-451028",
+      "subject": "isfahan-silk",
+      "source": "met-451028",
+      "title": "The \"Doria\" Carpet",
+      "accession": "50.190.5",
+      "creator": "Maker not recorded",
+      "date": {
+        "start": 1601,
+        "end": 1700,
+        "label": "17th century",
+        "precision": "range",
+        "note": "Numeric bounds expand the visible catalogue’s seventeenth-century label (1601–1700); no particular production year is established."
+      },
+      "place": "Attributed to Iran; this type was woven in Isfahan, Yazd and Kashan",
+      "material": "Silk (warp, weft, and pile), metal wrapped thread; asymmetrically knotted pile, brocaded",
+      "image": "/atlas/media/met-451028-0.webp",
+      "width": 757,
+      "height": 1600,
+      "thumbnail": "/atlas/media/met-451028-thumb.webp",
+      "additionalImages": [],
+      "alt": "Long silk carpet with repeating curving floral forms and pale metallic areas on a colored field.",
+      "caption": "The Doria carpet belongs to a group once wrongly attributed to Poland and later identified with Iranian workshops. The catalogue names several production centers for the type; it does not securely assign this individual carpet to Isfahan or identify all its weavers.",
+      "printCaption": "The Iranian carpet type was once wrongly attributed to Poland. This individual carpet is not securely assigned to one of the named Iranian centers.",
+      "notice": [
+        "Follow a repeated form from one end to the other.",
+        "Why might a later collecting name mislead us about where something was made?"
+      ],
+      "relevance": "Links craft, export markets and the need to check inherited attribution.",
+      "rights": "Public domain; The Met Open Access (CC0)",
+      "credit": "The Metropolitan Museum of Art. Gift of John D. Rockefeller Jr., 1950. 50.190.5.",
+      "sourceImage": "https://images.metmuseum.org/CRDImages/is/original/DP168414.jpg",
+      "depiction": "object photograph",
+      "datingNote": "Numeric bounds expand the visible catalogue’s seventeenth-century label (1601–1700); no particular production year is established."
+    },
+    {
+      "id": "met-452671",
+      "subject": "bukhara-books",
+      "source": "met-452671",
+      "title": "\"Interior Reception\", Folio 36r from a Bustan of Sa`di",
+      "accession": "1974.294.3",
+      "creator": "Shaikh Zada",
+      "date": {
+        "start": 1525,
+        "end": 1535,
+        "label": "ca. 1525–35",
+        "precision": "range",
+        "note": "Visible catalogue wording used instead of the API’s wider search envelope. Approximate production range, not exact manufacture dates."
+      },
+      "place": "Attributed to present-day Uzbekistan, probably Bukhara; text likely copied in Herat",
+      "material": "Ink, opaque watercolor, and gold on paper",
+      "image": "/atlas/media/met-452671-0.webp",
+      "width": 1066,
+      "height": 1600,
+      "thumbnail": "/atlas/media/met-452671-thumb.webp",
+      "additionalImages": [],
+      "alt": "Painted interior reception with seated and standing figures among richly patterned textiles and architecture.",
+      "caption": "The Met describes a manuscript likely copied in Herat and illustrated later for an Uzbek patron, probably in Bukhara in the 1530s. Copying, painting and the older poem have different dates. This literary scene is not a census of everyday households.",
+      "printCaption": "Text likely copied in Herat; illustration probably made in Bukhara later. The poem, copying and painting have different dates.",
+      "notice": [
+        "Which surfaces are patterned?",
+        "What tasks would be needed to make both the book and the things it depicts?"
+      ],
+      "relevance": "Makes staged book production and qualified geographic attribution visible.",
+      "rights": "Public domain; The Met Open Access (CC0)",
+      "credit": "The Metropolitan Museum of Art. Purchase, Louis V. Bell Fund and The Vincent Astor Foundation Gift, 1974. 1974.294.3.",
+      "sourceImage": "https://images.metmuseum.org/CRDImages/is/original/DT4824.jpg",
+      "depiction": "object photograph",
+      "datingNote": "Museum API envelopes are wider; the visible catalogue dates are retained."
+    },
+    {
+      "id": "met-681122",
+      "subject": "zand-iran",
+      "source": "met-681122",
+      "title": "Instrument Case",
+      "accession": "2015.252a–c",
+      "creator": "Muhammad Baqir",
+      "date": {
+        "start": 1789,
+        "end": 1789,
+        "label": "dated 1204 AH/1789 CE",
+        "precision": "range",
+        "note": "Catalogue production range; not the date when every represented event occurred."
+      },
+      "place": "Iran; city of manufacture not identified",
+      "material": "Papier-maché and pasteboard; painted and lacquered",
+      "image": "/atlas/media/met-681122-0.webp",
+      "width": 1600,
+      "height": 1280,
+      "thumbnail": "/atlas/media/met-681122-thumb.webp",
+      "additionalImages": [
+        "/atlas/media/met-681122-1.webp",
+        "/atlas/media/met-681122-2.webp"
+      ],
+      "alt": "Decorated lacquer case with floral and bird paintings and a lid that opens to reveal a courtly gathering.",
+      "caption": "Muhammad Baqir’s case is dated 1204 AH/1789 CE. Its compartments served a dressing set, while painted surfaces show flowers, birds and a courtly scene. The catalogue identifies Iran, not a secure Shiraz workshop or an actual event represented in the painting.",
+      "printCaption": "Dated 1789, after Karim Khan’s death. A practical dressing case with an idealized courtly scene; maker attribution does not identify a secure Shiraz workshop.",
+      "notice": [
+        "What does the case hold, and what does it picture?",
+        "How do its outside and inside surfaces differ?"
+      ],
+      "relevance": "Carries material and artistic history into the later eighteenth century without extending a dynasty or inventing a maker’s itinerary.",
+      "rights": "Public domain; The Met Open Access (CC0)",
+      "credit": "The Metropolitan Museum of Art. Purchase, Goldman Sachs Gift, 2015. 2015.252a–c.",
+      "sourceImage": "https://images.metmuseum.org/CRDImages/is/original/DP358260.jpg",
+      "depiction": "object photograph"
+    }
+  ],
+  "sources": [
+    {
+      "id": "met-451490",
+      "title": "Dish Depicting Two Birds among Flowering Plants",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/451490",
+      "type": "catalogue",
+      "accessed": "2026-10-27",
+      "scope": "Accession 59.69.1; description, Artwork Details, attribution and Public Domain image statement consulted."
+    },
+    {
+      "id": "met-449533",
+      "title": "Tughra (Insignia) of Sultan Süleiman the Magnificent (r. 1520–66)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/449533",
+      "type": "catalogue",
+      "accessed": "2026-10-27",
+      "scope": "Accession 38.149.1; description, Artwork Details, attribution and Public Domain image statement consulted."
+    },
+    {
+      "id": "met-451028",
+      "title": "The \"Doria\" Carpet",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/451028",
+      "type": "catalogue",
+      "accessed": "2026-10-27",
+      "scope": "Accession 50.190.5; description, Artwork Details, attribution and Public Domain image statement consulted."
+    },
+    {
+      "id": "met-452671",
+      "title": "\"Interior Reception\", Folio 36r from a Bustan of Sa`di",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/452671",
+      "type": "catalogue",
+      "accessed": "2026-10-27",
+      "scope": "Accession 1974.294.3; description, Artwork Details, attribution and Public Domain image statement consulted."
+    },
+    {
+      "id": "met-681122",
+      "title": "Instrument Case",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/681122",
+      "type": "catalogue",
+      "accessed": "2026-10-27",
+      "scope": "Accession 2015.252a–c; description, Artwork Details, attribution and Public Domain image statement consulted."
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "originalRegister": "CLAIM-FOLLOWUPS-2026-11-04.json",
+  "corpusSHA256": "ab07b81d6150eb754552346cc4ce8655af5ab600ffeff8107bbd6b6ec3c82900",
+  "scope": "Supplement to the earlier frozen 114-claim pass; no historical source record was silently replaced. 102 previously supported/repaired, 8 exceptions now supported, 4 citation/access issues remain.",
+  "items": [
+    {
+      "subject": "hattusha-change",
+      "claim": "hittite-proxy",
+      "previous": "fresh_access_unavailable",
+      "disposition": "supported",
+      "finding": "Manning et al., Discussion (Sec2) and Methods, Proxy climate data (Sec4): consecutive unusually dry years around 1198–1196 BCE. Climate proxies cannot by themselves assign political causation. The authors retain chronological and causal uncertainty.",
+      "evidence": [
+        {
+          "path": "output/completion-2026-11-04/source-recheck/PMC9946833.xml",
+          "sha256": "b6becb9625486ed57914f1bcd1a82430b0996090421d9f6cc8a73af865f0c199"
+        }
+      ]
+    },
+    {
+      "subject": "angkor",
+      "claim": "angkor-expanded-reading",
+      "previous": "partially_supported",
+      "disposition": "supported",
+      "finding": "Network study: Results, Fig. 2, Methods/Model (sec10), modeled susceptibility of the mapped hydraulic network; not a direct population measurement. Occupation paper: Fifteenth Century Angkor and Beyond, Timing and Tempo of Collapse, Analysis and Discussion (s3/s5/s7), differentiated patterns of use, reduced activity and reoccupation; no claim of uninterrupted residence on every mound. UNESCO living-community component confirmed in initial review.",
+      "evidence": [
+        {
+          "path": "output/completion-2026-11-04/source-recheck/PMC6192684.xml",
+          "sha256": "c5e6ed43104d68105f826a1907fd7d122bab140792027584a03bdd800bdccfc6"
+        },
+        {
+          "path": "output/completion-2026-11-04/source-recheck/PMC6589680.xml",
+          "sha256": "1250bf2e5cf28b7c11c659a3e410c630b435d2f87892bc81feca1b39079ac6cf"
+        }
+      ]
+    },
+    {
+      "subject": "polynesian-voyaging",
+      "claim": "polynesian-voyaging-checked",
+      "previous": "partially_supported",
+      "disposition": "citation_repair_open",
+      "finding": "Te Ara settlement story summary verifies its 1250–1300 range. Te Ara Canoe Navigation, Navigation at sea, distinguishes learned stellar and swell cues. Both propositions are supported separately, but the live named claim cites only the settlement story. Endpoint: add the navigation citation and verify affected downloads.",
+      "evidence": [
+        {
+          "url": "https://teara.govt.nz/en/when-was-new-zealand-first-settled"
+        },
+        {
+          "url": "https://teara.govt.nz/en/canoe-navigation/print"
+        }
+      ]
+    },
+    {
+      "subject": "factory-reform",
+      "claim": "factory-reform-checked",
+      "previous": "fresh_access_unavailable",
+      "disposition": "supported",
+      "finding": "National Archives authored lesson PDF, printed p. 3, Teacher’s Notes and Source 1 identification: the 1833 law is explicitly paired with a report from 1836 to test effectiveness. The old lesson URL returned 410. This confirms the named historical claim only; original link maintenance remains.",
+      "evidence": [
+        {
+          "url": "https://cdn.nationalarchives.gov.uk/documents/education/factory-actdoc.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "hine-labor",
+      "claim": "hine-labor-checked",
+      "previous": "fresh_access_unavailable",
+      "disposition": "supported",
+      "finding": "Direct LOC item 2018674890: created_published_date gives 3 December 1908, notes attribute the title to the NCLC caption card, and identify Hine no. 358. The title transcribes a reported conversation; it is not a direct statement from the child.",
+      "evidence": [
+        {
+          "path": "output/completion-2026-11-04/source-recheck/hine-catalog.txt",
+          "sha256": "aaa9a6db80679bf18971390926302a2a0667ea5045e39bbf5794fd4804309387"
+        }
+      ]
+    },
+    {
+      "subject": "haitian-revolution",
+      "claim": "haitian-revolution-checked",
+      "previous": "fresh_access_unavailable",
+      "disposition": "locator_access_open",
+      "finding": "A transcription of the official printed copies verifies the place and date. Indexed Berkeley and Columbia catalogue records assign that statement to p. 7; the direct Columbia record is inaccessible. Exact pamphlet pagination has not been independently inspected.",
+      "evidence": [
+        {
+          "url": "https://haitidoi.com/doi/"
+        },
+        {
+          "url": "https://lawcat.berkeley.edu/record/187590"
+        }
+      ]
+    },
+    {
+      "subject": "world-war-one",
+      "claim": "world-war-one-checked",
+      "previous": "fresh_access_unavailable",
+      "disposition": "citation_repair_open",
+      "finding": "The IWM-hosted Subterranean Sepoys teaching pack identifies Mesopotamia and East Africa among the campaigns, supporting the geographical claim. The cited Key Facts endpoint remains inaccessible. Endpoint: replace or supplement that exact source record and verify delivery.",
+      "evidence": [
+        {
+          "url": "https://www.iwm.org.uk/sites/default/files/fwwc/2021-02/Tara%20Arts%27%20Education%20Resource%20Pack%20Subterranean%20Sepoys%281%29.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "inuinnait-sewing",
+      "claim": "inuinnait-sewing-checked",
+      "previous": "partially_supported",
+      "disposition": "supported",
+      "finding": "Digitized 1922 volume OCR, frontispiece Plate I and matching table of plates name the two people and clothing. Southern Party, 1913–16 and 1922 imprint are on the title page; neither gives the exposure date. This recheck covers text, not photographic reproduction or community identification beyond the printed attribution.",
+      "evidence": [
+        {
+          "path": "output/completion-2026-11-04/source-recheck/jenness-pages.txt",
+          "sha256": "55a9eb29fee531d07a3021e38219af6d8bde8cb27c1d3a95ac5e9aa36ba111e9"
+        }
+      ]
+    },
+    {
+      "subject": "ozette-makah",
+      "claim": "ozette-makah-checked",
+      "previous": "fresh_access_unavailable",
+      "disposition": "direct_access_open",
+      "finding": "The indexed SAH text explicitly proposes 1560 or 1700 for the burial event and separately describes longer settlement. Direct access to the article still returned 403. No new excavation record or absolute event date is claimed.",
+      "evidence": [
+        {
+          "url": "https://sah-archipedia.org/buildings/WA-01-009-0042"
+        }
+      ]
+    },
+    {
+      "subject": "ocmulgee-council",
+      "claim": "ocmulgee-council-checked",
+      "previous": "fresh_access_unavailable",
+      "disposition": "supported",
+      "finding": "Publisher text, Abstract and Discussion: The Earthlodge and Public Buildings. The earlier 1015 assignment differs from the constraint on roof-wood felling after about 1160. The authors treat a possible earlier structure as a hypothesis. Neither is a precise construction year.",
+      "evidence": [
+        {
+          "path": "output/completion-2026-11-04/source-recheck/earthlodge.txt",
+          "sha256": "0d6098c0ee5fde99f5179bf4de0392e7b8285cdf7d5aa8f1dfe28c96ff42970e"
+        }
+      ]
+    },
+    {
+      "subject": "cherokee-print",
+      "claim": "cherokee-print-checked",
+      "previous": "partially_supported",
+      "disposition": "supported",
+      "finding": "LOC serial description identifies the 21 February 1828 first issue and its English/Cherokee publication. The separate LOC print identifies the title page dated 10 April 1828. Cherokee Nation History independently describes later treaty/removal history. These are distinct records and events.",
+      "evidence": [
+        {
+          "path": "output/completion-2026-11-04/source-recheck/phoenix-catalog.txt",
+          "sha256": "7db456e2011acd443d25f8d34617bc3c355ed7feccfcefe45e3ddbbfa729393f"
+        },
+        {
+          "path": "output/completion-2026-11-04/source-recheck/phoenix-photo.txt",
+          "sha256": "8428aa8cf7fc86b68a742e6e180c17707e9cebce46ec2a4ec6eb5e2f6bcc79ad"
+        },
+        {
+          "url": "https://www.cherokee.gov/about-the-nation/history/"
+        }
+      ]
+    },
+    {
+      "subject": "ojibwe-manoomin",
+      "claim": "ojibwe-manoomin-checked",
+      "previous": "fresh_access_unavailable",
+      "disposition": "supported",
+      "finding": "LOC item 2020637524: created_published gives bracketed 1913; summary uses the catalogue’s Chippewa attribution and makes Ontario probable. It gives no personal name or full sequence of rice processing. Neither a community nor gender should be assumed from this description.",
+      "evidence": [
+        {
+          "path": "output/completion-2026-11-04/source-recheck/rice-catalog.txt",
+          "sha256": "f6418ee512886db797d8b2bf53a5f3e93b638d35d901a1b9942ca0301572d359"
+        }
+      ]
+    }
+  ]
+}

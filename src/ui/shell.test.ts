@@ -356,9 +356,10 @@ describe('poster shell', () => {
     expect(screen.queryByRole('region', { name: 'Stories' })).toBeNull();
   });
 
-  it('mounts the poster and leaves the v1 canvas deleted', () => {
+  it('mounts the redesigned atlas and leaves the v1 canvas deleted', () => {
     const main = readFileSync('src/main.tsx', 'utf8');
-    expect(main).toContain('AtlasRoot');
+    expect(main).toContain("from './atlas/App'");
+    expect(main).not.toContain('AtlasRoot');
     expect(readFileSync('src/ui/root.tsx', 'utf8')).toContain('PosterApp');
     expect(main).not.toContain('app.css');
     expect(main).not.toContain("has('v1')");

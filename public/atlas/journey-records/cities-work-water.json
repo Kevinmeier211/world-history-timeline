@@ -1,0 +1,39 @@
+{
+  "journey": "cities-work-water",
+  "revision": "fd282469837d120eb115622a7ad32bb599e8e7617c8e703ce38cfea12b4bb638",
+  "stops": [
+    {
+      "index": 0,
+      "narrative": "Look at the tablet, then the diagram. Separate an incised sign, a numerical impression and the proposed grain-account reading. List one task an institution might track and one kind of work the record leaves out."
+    },
+    {
+      "index": 1,
+      "narrative": "Find the well, East/South reservoirs and dashed research area. Explain why excavated structures and radar interpretations use different conventions. Ask what evidence would connect a household to access to water."
+    },
+    {
+      "index": 2,
+      "narrative": "Use the landscape diagram and cong photograph to distinguish construction, food production and burial evidence. Then read the reservoir correction. Decide which conclusions concern practical work and which require social interpretation."
+    }
+  ],
+  "conclusion": "Each case connects material work with larger institutions through a different surviving record. Write one supported explanation and one question requiring new evidence. Shared needs do not establish one origin, equal access or a direct connection between these places.",
+  "evidence": {
+    "prompt": "Which explanation best fits the supplied evidence?",
+    "options": [
+      {
+        "text": "The records and works show different kinds of coordination, while household obligations and access need further evidence.",
+        "supported": true,
+        "feedback": "Yes. Match the grain account, excavated reservoirs and water/production landscape to the claims each supports. None supplies a full household census or recruitment record."
+      },
+      {
+        "text": "All the Dholavira features in the radar interpretation can be treated as excavated reservoirs.",
+        "supported": false,
+        "feedback": "The proposed structures require excavation. The diagram’s dashed research area must not become a confirmed ancient plan."
+      },
+      {
+        "text": "The shared need to organize work proves that writing and cities spread from Uruk to the other two sites.",
+        "supported": false,
+        "feedback": "Functional comparison is not transmission evidence. This route adds no historical contact or causal relationship."
+      }
+    ]
+  }
+}

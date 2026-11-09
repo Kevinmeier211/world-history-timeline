@@ -1,0 +1,20 @@
+{
+  "subject": "caral",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "caral-renewal-diagram",
+      "caption": "Modern conceptual guide. Subdivision, filling and renewal explain how earlier space can enter later construction. Shapes and bag symbols are not a surveyed room, measured volume or sequence applying to every building.",
+      "notice": [
+        "Find the earlier space, subdivision and construction fill.",
+        "Explain which tasks are needed before building over filled space."
+      ],
+      "creator": "Chronos / Codex; source-based editorial diagram",
+      "place": "Modern functional guide; no surveyed plan or exact historical dimensions",
+      "material": "Original SVG diagram",
+      "representedDate": "Selected Caral-Supe construction and renewal described in the 2005 project booklet; no one room or universal sequence reconstructed.",
+      "relevance": "Makes practical tasks and relationships visible without inventing a measured ancient plan, individual worker or complete social arrangement.",
+      "printWidthMm": 145
+    }
+  ]
+}

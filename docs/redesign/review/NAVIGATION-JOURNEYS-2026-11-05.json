@@ -1,0 +1,70 @@
+{
+  "reviewed": "2026-11-05",
+  "scope": "U02 time-control semantics and L04 journey selection, continuation and URL history",
+  "requirements": [
+    {
+      "id": "U02",
+      "result": "pass",
+      "decision": "Moving the shared slider previews a year locally. Explore commits that year to navigation history. The preview status identifies the draft and its commit action in both timeline and world views.",
+      "checks": [
+        "At 390 by 844, keyboard slider movement from 200 CE to 201 CE updates the draft and regional heading while retaining the committed URL.",
+        "Explore commits 201 CE. Browser Back restores 200 CE and Forward restores 201 CE, including the slider value.",
+        "One expansion exposes direct year entry. Entering year zero produces an error and preserves the chosen year.",
+        "Direct entry reaches 1 BCE. Next year reaches 1 CE and Previous year returns to 1 BCE.",
+        "Full history is visible outside the collapsed refinement control and opens the proportional 3300 BCE to 2000 CE slider with one activation.",
+        "The root navigation implementation exposes the selected region and preserves focus and history separately; its additional receipts document those checks."
+      ],
+      "evidence": [
+        "src/atlas/TimeExplorer.tsx",
+        "src/atlas/exploration.test.ts",
+        "scripts/completion/navigation-journey-browser.mjs",
+        "output/navigation-accessibility-2026-11-05/journeys-time/result.json"
+      ]
+    },
+    {
+      "id": "L04",
+      "result": "pass",
+      "decisions": [
+        "Filters use compact, validated optional URL parameters and retain established default URLs. Search edits replace the current history entry; dropdown changes and clearing filters create navigable entries.",
+        "The period selector shows each chapter's actual start and end years. Region matching uses any route stop, and duration matching uses the upper end of the stated estimate.",
+        "Family eligibility derives from authored family evidence tasks or existing chapter activities. All 33 current journeys have family evidence tasks, so both tracks currently offer 33 routes. Synthetic adult-only and unknown-duration cases exercise exclusion behavior.",
+        "Family-track cards link the 33 existing family source activity PDFs. This classification describes available material; observed-reader age testing was removed from project scope by the user.",
+        "Continuation retains the active library filters and returns to that library scope. Theme links retain the same scope and support browser Back.",
+        "Reading reset removes the local reading position and preserves notebook entries."
+      ],
+      "checks": [
+        "Three introductory activities appear initially; the existing expansion offers all eight.",
+        "Actual combined search, C1 period, South Asia region, up-to-40-minute duration and family track results match the underlying route records.",
+        "Reload restores every selected filter. Opening a route, moving to stop two, returning to the library and continuing restores the same journey, stop, subject and year.",
+        "Clear filters returns all 33 routes. Back restores the previous filter choices and Forward clears them again.",
+        "THEME01 returns its three authored routes; opening its first subject and returning preserves the theme filter.",
+        "Reset removes the resume key and the continuation controls. A zero-result search has an explicit message and Clear filters restores results.",
+        "A 527-pixel intrinsic period selector initially overflowed the 390-pixel page. A minimum-width correction fixes the control; the final full-page overflow assertion passes."
+      ],
+      "evidence": [
+        "src/atlas/journey-filters.ts",
+        "src/atlas/journey-filters.test.ts",
+        "src/atlas/navigation.ts",
+        "src/atlas/JourneyLibrary.tsx",
+        "src/atlas/exploration.css",
+        "scripts/redesign/bootstrap-journeys.ts",
+        "scripts/completion/navigation-journey-browser.mjs",
+        "output/navigation-accessibility-2026-11-05/journeys-time/result.json",
+        "output/navigation-accessibility-2026-11-05/journeys-time/library-phone.png"
+      ]
+    }
+  ],
+  "verification": {
+    "focusedSuites": [
+      "src/atlas/journey-filters.test.ts",
+      "src/atlas/bootstrap-journeys.test.ts",
+      "src/atlas/exploration.test.ts",
+      "src/atlas/journey-ui.test.ts"
+    ],
+    "focusedTestsPassed": 30,
+    "browser": "Playwright-managed Chromium 156.0.8078.4",
+    "viewport": { "width": 390, "height": 844 },
+    "ownedBrowserCleanup": "Context and browser closed in finally.",
+    "additionalMatrix": "Other browser engines, viewport sizes and true-zoom checks are documented by the separate accessibility review."
+  }
+}

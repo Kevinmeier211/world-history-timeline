@@ -1,5 +1,5 @@
 import { spawnSync } from 'node:child_process';
-import { mkdtempSync, readFileSync } from 'node:fs';
+import { mkdtempSync, readFileSync, mkdirSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import path from 'node:path';
 
@@ -68,11 +68,22 @@ describe('media fetch', () => {
     expect(mismatch[0]?.cachePath).toBeUndefined();
   });
 
-  it('exits queued-gated from the command while the switch is off', () => {
+  it('exits queued-gated from the command using an explicit off fixture', () => {
+    const fixture = mkdtempSync(path.join(tmpdir(), 'media-off-'));
+    mkdirSync(path.join(fixture, 'docs'));
+    mkdirSync(path.join(fixture, 'src/data'), { recursive: true });
+    writeFileSync(
+      path.join(fixture, 'docs/RUN_CONFIG.md'),
+      'ALLOW_MEDIA_DOWNLOAD=false',
+    );
+    writeFileSync(
+      path.join(fixture, 'src/data/media-src.json'),
+      readFileSync('src/data/media-src.json'),
+    );
     const result = spawnSync(
       path.resolve('node_modules/.bin/tsx'),
-      ['scripts/media/fetch.ts'],
-      { encoding: 'utf8' },
+      [path.resolve('scripts/media/fetch.ts')],
+      { encoding: 'utf8', cwd: fixture, timeout: 15000 },
     );
     expect(result.status).toBe(0);
     expect(result.stdout).toContain('queued-gated');

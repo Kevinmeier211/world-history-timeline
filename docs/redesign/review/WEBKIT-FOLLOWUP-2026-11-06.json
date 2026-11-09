@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-06",
+  "status": "investigation_complete_engine_diagnostic_open",
+  "applicationChanged": false,
+  "applicationParity": "output/webkit-followup-2026-11-06/application-parity.json",
+  "applicationProbe": {
+    "cases": 36,
+    "completeReferenceRestored": 36,
+    "pageErrors": 11,
+    "contextsErrors": 2,
+    "indexErrors": 9,
+    "exactContextsCases": ["0.3-reload-3", "1-reload-3"],
+    "receipt": "output/webkit-followup-2026-11-06/pending-navigation.json"
+  },
+  "engineControl": {
+    "cases": 9,
+    "validControls": 3,
+    "webkitReplacementDiagnostics": 2,
+    "chromiumAndFirefoxPageErrors": 0,
+    "receipt": "output/webkit-followup-2026-11-06/engine-control.json",
+    "interpretation": "Same-origin fetch rejection and native access-control diagnostic reproduced without application code in both automation-driven and location-driven document replacement. Consistent with the upstream WebKit cancellation-classification issue; no exact binary/source mapping or engine fix claimed."
+  },
+  "upstream": "https://github.com/microsoft/playwright/issues/43120",
+  "navigation": {
+    "chromium": {
+      "version": "156.0.8078.4",
+      "checks": 11,
+      "pageErrors": 0,
+      "receipt": "output/webkit-followup-2026-11-06/navigation/chromium.json"
+    },
+    "firefox": {
+      "version": "157.0",
+      "checks": 11,
+      "pageErrors": 0,
+      "receipt": "output/webkit-followup-2026-11-06/navigation/firefox.json"
+    },
+    "webkit": {
+      "version": "27.2",
+      "checks": 11,
+      "pageErrors": 0,
+      "receipt": "output/webkit-followup-2026-11-06/navigation/webkit.json"
+    }
+  },
+  "runnerRepair": {
+    "file": "scripts/completion/navigation-browser.mjs",
+    "behavior": "Persist bounded diagnostics on both success and failure; retain strict page-error failure and all original assertions. Close owned contexts/browser before receipt write.",
+    "positiveErrorControl": "output/webkit-followup-2026-11-06/failure-control/verification.json",
+    "injectedNavigationControl": "output/webkit-followup-2026-11-06/injected-navigation/chromium.json",
+    "browserCleanupMarker": "output/webkit-followup-2026-11-06/cleanup-marker.txt"
+  },
+  "searchTracker": {
+    "readyForReview": 40,
+    "positiveSubjectAndSourceExcerpt": 26,
+    "validDates": 7,
+    "invalidZeroCE": 1,
+    "intentionalEmptyResults": 6,
+    "humanAcceptance": false
+  },
+  "timingLimitsChanged": false,
+  "deploymentPerformed": false,
+  "humanTestingPerformed": false,
+  "retainedDiagnostics": [
+    "engine-control-initial-failed.log: first control blocked on Chromium pending evaluation and failed before receipt; superseded by bounded observation with immediate navigation rejection handling.",
+    "A local-server permission failure produced no browser observations."
+  ],
+  "fullReferenceConfirmation": {
+    "cases": 36,
+    "phaseCounts": [5, 6],
+    "pageErrors": 11,
+    "contextsErrors": 2,
+    "indexErrors": 9,
+    "allTitlesAndParagraphsMatchSource": true,
+    "receipt": "output/webkit-followup-2026-11-06/full-reference-confirmation.json"
+  },
+  "playwrightVersion": "1.64.1"
+}

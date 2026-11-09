@@ -1,0 +1,2170 @@
+{
+  "relations": [
+    {
+      "id": "pacific-exchange",
+      "notBefore": 1565,
+      "from": "ming-workshops",
+      "to": "manila-network",
+      "type": "trade",
+      "date": "From 1565; selected later material through 1700",
+      "explanation": "Chinese wares moved through Manila to Acapulco in a network exchanging Asian goods and American silver. The selected Ming jar is contextual evidence for production, not identified cargo of a particular voyage.",
+      "citations": [
+        {
+          "source": "galleon",
+          "locator": "Main route paragraph"
+        },
+        {
+          "source": "point-reyes",
+          "locator": "Cargo and wreck discussion"
+        }
+      ],
+      "status": "published",
+      "route": [
+        [117.2, 29.3],
+        [120.98, 14.6],
+        [150, 30],
+        [180, 38],
+        [-150, 38],
+        [-120, 34],
+        [-99.88, 16.85]
+      ]
+    }
+  ],
+  "journeys": [
+    {
+      "id": "networks-disruption",
+      "title": "Connected worlds, different disruptions",
+      "question": "What changed around 1200 BCE—and what did not?",
+      "duration": "25–40 minutes",
+      "introduction": "Begin before the eastern Mediterranean disruptions, then compare evidence from other regions. This is a regional historical investigation inside a wider world, not one global collapse story.",
+      "stops": [
+        {
+          "subject": "uluburun",
+          "year": -1320,
+          "title": "One shipment with many materials",
+          "narrative": "Distinguish objects found together in a wreck from a fully reconstructed route."
+        },
+        {
+          "subject": "hattusha-change",
+          "year": -1200,
+          "title": "A dated stress is not a whole explanation",
+          "narrative": "Separate a tree-ring drought finding, political transformation and the changing occupation of a capital.",
+          "compare": "uluburun"
+        },
+        {
+          "subject": "kerma-potters",
+          "year": -1700,
+          "title": "Material can travel without settling identity",
+          "narrative": "Inspect a Kerma vessel excavated in Egypt. Keep the pot’s context separate from the proposed origin of a person.",
+          "object": "met-545772"
+        },
+        {
+          "subject": "shang-ritual",
+          "year": -1200,
+          "title": "A different set of recorded concerns",
+          "narrative": "Explore ritual writing and skilled casting without imposing Anatolia’s chronology on China.",
+          "object": "met-42045"
+        },
+        {
+          "subject": "olmec",
+          "year": -1100,
+          "title": "Look beyond the same network",
+          "narrative": "Inspect a small ceramic figure and think about how its scale differs from communal monuments.",
+          "object": "met-314609"
+        },
+        {
+          "subject": "lapita",
+          "year": -1100,
+          "title": "Connections across an island world",
+          "narrative": "Ask how dated patterns, settlements and food remains can support different accounts of voyaging."
+        }
+      ],
+      "conclusion": "A network can be demonstrated without knowing every route. A political center can change without all its people vanishing. A dated drought can matter without explaining everything. Elsewhere, other communities faced their own histories and choices.",
+      "evidence": {
+        "prompt": "What can the Hittite drought study support?",
+        "options": [
+          {
+            "text": "A severe environmental stress occurred near the political transformation; direct causation remains unproved.",
+            "supported": true,
+            "feedback": "The authors explicitly preserve that distinction. Other political, social and regional evidence still matters."
+          },
+          {
+            "text": "Exactly the same disaster ended every society in the world in 1200 BCE.",
+            "supported": false,
+            "feedback": "The evidence is regional, and other societies had different chronologies. A shared date on an atlas creates no shared cause."
+          },
+          {
+            "text": "Every place at Hattusha was occupied and destroyed simultaneously.",
+            "supported": false,
+            "feedback": "The archaeological abstract emphasizes changing areas of occupation and warns against treating the combined plan as one moment."
+          }
+        ],
+        "citations": [
+          {
+            "source": "hittite-drought",
+            "locator": "Discussion and causation limit"
+          },
+          {
+            "source": "hattusha-research",
+            "locator": "Abstract"
+          }
+        ]
+      },
+      "returnPrompt": "Explain one connection we can demonstrate, one proposed cause we must qualify, and one distant history that should not be folded into the same story.",
+      "printSourcesPerPage": 3,
+      "familyEvidence": {
+        "claimPrompt": "Explain what was measured and what remains unproved about political decisions.",
+        "returnPrompt": "Name another source that could test a connection between drought and political decisions.",
+        "feedback": "The study supports severe environmental stress near a political transformation. It does not directly measure why leaders acted or prove a single cause.",
+        "title": "Read a study summary",
+        "object": null,
+        "text": "Researchers studied tree rings and carbon isotopes in juniper timbers from Gordion. They identified severe drought around 1198–1196 BCE, with ±3-year dating uncertainty. These measurements concern environmental conditions, rather than decisions made at Hattusha.",
+        "citations": [
+          {
+            "source": "hittite-drought",
+            "locator": "Printed pp. 719–722: Gordion, dating and causation"
+          }
+        ],
+        "notice": [
+          "Name what was measured and where.",
+          "What further evidence would help connect environmental stress with political decisions?"
+        ]
+      }
+    },
+    {
+      "id": "world-200",
+      "title": "The world around 200 CE",
+      "question": "At the same time—but connected how?",
+      "duration": "25–40 minutes, or one stop at a time",
+      "introduction": "Begin with a building small enough to hold, then travel through families, ports and distant communities. The date is an orientation point: objects retain their actual ranges. We will distinguish a shared moment from evidence of contact.",
+      "stops": [
+        {
+          "subject": "eastern-han",
+          "year": 200,
+          "title": "A building for another life",
+          "narrative": "Look closely before reading. Name one feature you can see and one idea you are inferring. Then investigate why a model might enter a tomb.",
+          "object": "met-49519"
+        },
+        {
+          "subject": "roman-world",
+          "year": 200,
+          "title": "A face of power",
+          "narrative": "A gem carries the portrait of a woman from Syria in Rome’s ruling family. Compare the scale of an object with the reach of its political message.",
+          "object": "met-251870"
+        },
+        {
+          "subject": "palmyra",
+          "year": 200,
+          "title": "People between distant centers",
+          "narrative": "Read the names on a family memorial. Follow a sourced network through intermediate cities, and keep the family’s choices separate from the history of every traveler.",
+          "object": "met-322375",
+          "relation": "palmyra-network"
+        },
+        {
+          "subject": "kushan-contexts",
+          "year": 200,
+          "title": "A coin and its limits",
+          "narrative": "Inspect both sides of the Kanishka coin. Its catalogue date is earlier than our anchor. What does a royal image communicate, and what find evidence would establish circulation?",
+          "object": "met-39385"
+        },
+        {
+          "subject": "aksum",
+          "year": 200,
+          "title": "Highland city, coastal port",
+          "narrative": "Locate Aksum and the Red Sea. Distinguish a Roman bottle used as a type comparison from an object actually excavated at Aksum. Notice how later monuments complicate a single-year snapshot."
+        },
+        {
+          "subject": "moche",
+          "year": 200,
+          "title": "Life beyond the same network",
+          "narrative": "Cross to the north coast of Peru. Investigate irrigation and pottery without drawing a contact line from Eurasia. Then look at Teotihuacan’s different urban setting.",
+          "object": "met-316721"
+        },
+        {
+          "subject": "dongson",
+          "year": 200,
+          "title": "Traditions beyond a royal ribbon",
+          "narrative": "Count the frogs, consider bronze manufacture and examine the catalogue’s competing explanations. A broad distribution does not establish a single use.",
+          "object": "met-39209"
+        },
+        {
+          "subject": "colima",
+          "year": 200,
+          "title": "Two small buildings, different questions",
+          "narrative": "Compare with the Han tower. Separate visible form, proposed function and confidence. Choose a supported claim, then save a question to revisit.",
+          "object": "met-317600",
+          "compare": "eastern-han"
+        }
+      ],
+      "conclusion": "Our shared timeline placed distant societies in view without turning them into one connected world. Specific routes and objects supported some connections; comparison helped us ask questions elsewhere. A historical claim becomes stronger when it states its limits.",
+      "evidence": {
+        "prompt": "Which claim follows from comparing the Han tower and Colima model?",
+        "options": [
+          {
+            "text": "Everyone in Eastern Han China lived in a tower.",
+            "supported": false,
+            "feedback": "An elite burial model cannot represent every household. We would need settlement and household evidence."
+          },
+          {
+            "text": "The models help investigate buildings, social meanings and possible ritual uses.",
+            "supported": true,
+            "feedback": "This is appropriately limited. The catalogues and curatorial account support these questions while preserving uncertainty."
+          },
+          {
+            "text": "Their resemblance proves trade between China and Mexico.",
+            "supported": false,
+            "feedback": "Similarity and overlapping dates establish neither contact nor a route. Evidence for an actual mechanism is missing."
+          }
+        ],
+        "citations": [
+          {
+            "source": "met-49519",
+            "locator": "Description"
+          },
+          {
+            "source": "met-317600",
+            "locator": "Description"
+          },
+          {
+            "source": "models",
+            "locator": "Comparison of architectural effigies"
+          }
+        ]
+      },
+      "returnPrompt": "What changed in your picture of the world around 200 CE? Name one supported connection and one comparison that does not imply contact.",
+      "printSourcesPerPage": 3,
+      "familyEvidence": {
+        "title": "One model, a wider inquiry",
+        "object": "met-49519",
+        "text": "The museum dates this pottery tower to the first–early third century and identifies a burial context. It is a model of architecture, not a surviving occupied home. Its range does not date it precisely to 200 CE.",
+        "citations": [
+          {
+            "source": "met-49519",
+            "locator": "Description; Period, Date and Medium"
+          }
+        ],
+        "notice": [
+          "Point to a feature that resembles a building.",
+          "Find the date range in the caption."
+        ],
+        "claimPrompt": "Describe a building feature. Explain why this model cannot show what every household’s home looked like.",
+        "returnPrompt": "Find another dated model before making a comparison.",
+        "feedback": "A burial model raises questions about buildings and representation. Another place needs its own evidence; similar dates or shapes do not establish contact."
+      }
+    },
+    {
+      "id": "institutions-images",
+      "title": "Institutions, images and the work of continuity",
+      "question": "What continues when political power changes?",
+      "duration": "30–45 minutes",
+      "introduction": "Move among capitals, a cup, a temple and a learning community. Look for changes within long historical labels.",
+      "stops": [
+        {
+          "subject": "byzantium",
+          "year": 950,
+          "title": "Roman identity beyond 476",
+          "narrative": "Read the long frame and its interruptions. Inspect a much later devotional object.",
+          "object": "met-464428"
+        },
+        {
+          "subject": "abbasid-craft",
+          "year": 950,
+          "title": "Craft across changing authority",
+          "narrative": "Distinguish a dynasty, a capital phase and the date of a bowl.",
+          "object": "met-452833"
+        },
+        {
+          "subject": "tang-city",
+          "year": 750,
+          "title": "A selective image of society",
+          "narrative": "Explore a capital’s contacts while questioning what an elite burial represents.",
+          "object": "met-44800"
+        },
+        {
+          "subject": "maya-vessel",
+          "year": 750,
+          "title": "A name without a named polity",
+          "narrative": "Read the difference between ownership, interpretation and a secure findspot.",
+          "object": "met-316711"
+        },
+        {
+          "subject": "borobudur",
+          "year": 850,
+          "title": "Ideas built into a landscape",
+          "narrative": "Investigate movement and cosmology, then distinguish construction from restoration."
+        },
+        {
+          "subject": "nalanda",
+          "year": 850,
+          "title": "Learning needs a place to live",
+          "narrative": "Compare two religious built environments and their surviving construction layers.",
+          "compare": "borobudur"
+        }
+      ],
+      "conclusion": "Institutions can survive political transitions, but survival does not mean sameness. Buildings, objects and texts preserve different scales of change.",
+      "evidence": {
+        "prompt": "Why should Nalanda’s early remains and institutional dates be separated?",
+        "options": [
+          {
+            "text": "A site can contain earlier activity than the particular institution being investigated.",
+            "supported": true,
+            "feedback": "The detailed synthesis distinguishes the fifth–thirteenth-century institution from earlier remains."
+          },
+          {
+            "text": "Any ancient object proves a modern-style university operated from the earliest date.",
+            "supported": false,
+            "feedback": "The kind of institution and the meaning of the earliest archaeological remains need separate evidence."
+          }
+        ],
+        "citations": [
+          {
+            "source": "nalanda",
+            "locator": "Description and Brief synthesis"
+          }
+        ]
+      },
+      "returnPrompt": "Choose a long historical label and explain one important change inside it.",
+      "familyEvidence": {
+        "claimPrompt": "Use the summary to explain why the photograph and the institution need different dates.",
+        "returnPrompt": "Find another example where a photograph’s date differs from the history it helps investigate.",
+        "feedback": "Earlier archaeology and the dated institution concern different things. A 2023 photograph does not turn conserved remains into one complete ancient moment.",
+        "title": "Two dates for different things",
+        "object": "nalanda-brick-photo",
+        "text": "UNESCO distinguishes earlier remains at Nalanda from the fifth–thirteenth-century monastic and scholastic institution. This photograph records conserved brick remains in 2023; it does not show every building at one ancient moment.",
+        "citations": [
+          {
+            "source": "nalanda",
+            "locator": "Brief synthesis; Authenticity"
+          }
+        ],
+        "notice": [
+          "Find walls and openings in the photograph.",
+          "Which date belongs to a photograph, and which range describes an institution?"
+        ]
+      }
+    },
+    {
+      "id": "knowledge-networks",
+      "title": "Cities, craft and knowledge in motion",
+      "question": "What kinds of connection can we demonstrate?",
+      "duration": "30–45 minutes",
+      "introduction": "Investigate a pilgrimage, a modeled figure, water infrastructure, art, cloth and ocean knowledge. Keep different evidence for connection distinct.",
+      "stops": [
+        {
+          "subject": "mali-networks",
+          "year": 1324,
+          "title": "A journey beyond a wealth story",
+          "narrative": "Compare oral history, foreign imagery and material evidence."
+        },
+        {
+          "subject": "middle-niger",
+          "year": 1250,
+          "title": "A city need not fit one political model",
+          "narrative": "Inspect the figure’s posture before naming an emotion or a ruler.",
+          "object": "met-314362"
+        },
+        {
+          "subject": "angkor",
+          "year": 1200,
+          "title": "Build beyond the temple",
+          "narrative": "Put water, roads and farming into the urban landscape."
+        },
+        {
+          "subject": "song-art",
+          "year": 1100,
+          "title": "Ideas can compete within one label",
+          "narrative": "Explore court and scholarly purposes beside a glazed bowl.",
+          "object": "met-42455"
+        },
+        {
+          "subject": "inca-weaving",
+          "year": 1475,
+          "title": "Read technique as evidence",
+          "narrative": "Compare a regional production argument with the uncertainty of an object’s precise itinerary.",
+          "object": "met-313152"
+        },
+        {
+          "subject": "polynesian-voyaging",
+          "year": 1280,
+          "title": "Learn a route through practice",
+          "narrative": "Separate settlement dating from the broader history of knowledge."
+        }
+      ],
+      "conclusion": "Journeys, techniques, memories and infrastructures connect communities in different ways. Each needs its own evidence. A line on a map can summarize a supported connection; it cannot create one.",
+      "evidence": {
+        "prompt": "Which connection is described at the right level of certainty?",
+        "options": [
+          {
+            "text": "The tunic’s technical features support regional comparison, while its exact individual route remains unknown.",
+            "supported": true,
+            "feedback": "The catalogue makes a technical and regional argument. It does not provide a complete object itinerary."
+          },
+          {
+            "text": "One long date range proves an object was made both before and after a conquest.",
+            "supported": false,
+            "feedback": "A date range expresses uncertainty about when it was made, not repeated production of the same object."
+          },
+          {
+            "text": "A navigation tradition requires a surviving written map to count as knowledge.",
+            "supported": false,
+            "feedback": "Taonui describes memorized and practiced ways of reading stars, swells and landmarks."
+          }
+        ],
+        "citations": [
+          {
+            "source": "met-313152",
+            "locator": "Description"
+          },
+          {
+            "source": "navigation",
+            "locator": "Ocean voyaging"
+          }
+        ]
+      },
+      "returnPrompt": "Explain one demonstrated connection and one connection that remains a question.",
+      "familyEvidence": {
+        "claimPrompt": "Describe a visible pattern. Explain why regional comparisons do not establish this garment’s individual route.",
+        "returnPrompt": "Name one record that could help establish the tunic’s individual journey.",
+        "feedback": "Technical comparison supports connections among traditions. An individual route still needs provenance or other dated records.",
+        "title": "Compare features without inventing a route",
+        "object": "met-313152",
+        "text": "The museum compares this tunic’s materials, construction and patterns with highland and coastal traditions. Its broad 1450–1550 date and regional comparisons do not name a weaver or reconstruct this garment’s individual journey.",
+        "citations": [
+          {
+            "source": "met-313152",
+            "locator": "Description and artwork details"
+          }
+        ],
+        "notice": [
+          "Point to a pattern you can see.",
+          "What would you need to establish this particular garment’s route?"
+        ]
+      }
+    },
+    {
+      "id": "ocean-connections",
+      "title": "Ocean connections, 1450–1650",
+      "question": "Who gained, who made, and who paid for ocean connections?",
+      "duration": "30–45 minutes, or one encounter at a time",
+      "introduction": "Follow a route into an ocean that already had merchants and communities. Inspect African ivory, a Mughal manuscript and Chinese porcelain, then ask how patronage, translation, colonial force and resistance produced different kinds of connection.",
+      "stops": [
+        {
+          "subject": "portuguese-voyage",
+          "year": 1498,
+          "title": "A new route for whom?",
+          "narrative": "Locate Portugal and Calicut. Explain what changed for European access while preserving the existing lives and commerce of Indian Ocean ports."
+        },
+        {
+          "subject": "benin-ivory",
+          "year": 1550,
+          "title": "African artists picture their visitors",
+          "narrative": "Look closely at rank, dress and pose. The commission links makers and patrons; do not assume the artist simply copied a European world.",
+          "object": "met-309900"
+        },
+        {
+          "subject": "kongo-translation",
+          "year": 1600,
+          "title": "Translation makes new meanings",
+          "narrative": "Study a crucifix and the history of interpreters. Separate a ruler’s baptism, local practices and the long life of a religious tradition.",
+          "object": "met-318323"
+        },
+        {
+          "subject": "mughal-books",
+          "year": 1595,
+          "title": "A story becomes a courtly book",
+          "narrative": "Observe Krishna sheltering the villagers. Distinguish the production of this painting from the sacred story it represents.",
+          "object": "met-448183"
+        },
+        {
+          "subject": "ming-workshops",
+          "year": 1550,
+          "title": "Court design and skilled work",
+          "narrative": "Inspect the jar’s fish and plants. Compare production and intended audiences with Benin ivory; a material resemblance cannot provide a shipping history.",
+          "object": "met-42549",
+          "compare": "benin-ivory"
+        },
+        {
+          "subject": "manila-network",
+          "year": 1600,
+          "title": "An ocean network and its later echoes",
+          "narrative": "Trace China, Manila and Acapulco. The Mexican jar shown in the dossier is later, around 1680–1700. Use archaeological wreck evidence for the earlier network; keep the chronology visible.",
+          "relation": "pacific-exchange"
+        },
+        {
+          "subject": "banda-1621",
+          "year": 1621,
+          "title": "Read a company letter against its grain",
+          "narrative": "The VOC’s surviving account describes policy and resistance. Consider the author’s purpose and the people whose voices are not preserved in this letter. Connections could be coercive, and people contested them."
+        }
+      ],
+      "conclusion": "Ocean connections were made through skilled work, interpretation and political decisions. They also involved conquest, enslavement and resistance. A specific commission, a translation, a wreck and an official letter support different claims. No single arrow can explain all of them.",
+      "evidence": {
+        "prompt": "What is a defensible use of Coen’s 1621 letter?",
+        "options": [
+          {
+            "text": "Treat it as a neutral account of every Bandanese person’s experience.",
+            "supported": false,
+            "feedback": "The author was a company official writing to superiors. His purposes and omissions matter."
+          },
+          {
+            "text": "Use it to investigate company policy and resistance, while seeking other perspectives.",
+            "supported": true,
+            "feedback": "The letter supports a limited analysis of decisions and reported resistance; it cannot replace the experiences of those attacked."
+          },
+          {
+            "text": "Assume that profitable exchange benefited everyone equally.",
+            "supported": false,
+            "feedback": "The documented killing, enslavement and displacement directly challenge that assumption."
+          }
+        ],
+        "citations": [
+          {
+            "source": "banda-archive",
+            "locator": "Coen letter and contextual discussion"
+          }
+        ]
+      },
+      "returnPrompt": "Choose two ocean connections. How did their mechanisms, power relationships and surviving evidence differ?",
+      "familyEvidence": {
+        "claimPrompt": "Explain whose decisions this report describes and whose perspective you would seek next.",
+        "returnPrompt": "Name another perspective you would seek before retelling the event.",
+        "feedback": "The letter can reveal company policy and resistance. Its official’s perspective does not replace the experiences of people attacked.",
+        "title": "Read a company official’s report",
+        "object": null,
+        "text": "Coen wrote to the Dutch East India Company’s directors on 6 May 1621. The archive’s transcription describes resistance, food and company manpower, including the use of hunger against opponents. An official reported his own decisions to superiors.",
+        "citations": [
+          {
+            "source": "banda-archive",
+            "locator": "Coen letter; VOC 1.04.02, inventory 1073"
+          }
+        ],
+        "notice": [
+          "Who wrote the report, and for whom?",
+          "Whose account would you add before telling the whole history?"
+        ]
+      }
+    },
+    {
+      "id": "machines-work",
+      "title": "Machines, work and who can choose",
+      "question": "Who shaped the conditions of work?",
+      "duration": "25–35 minutes",
+      "introduction": "Compare resistance to coerced plantation labor, regulation, adaptation of machinery and a reform photograph. These are related questions with distinct legal and historical contexts.",
+      "stops": [
+        {
+          "subject": "haitian-revolution",
+          "year": 1804,
+          "title": "Freedom required struggle",
+          "narrative": "Distinguish emancipation, its threatened reversal and independence."
+        },
+        {
+          "subject": "factory-reform",
+          "year": 1836,
+          "title": "Look after the law was passed",
+          "narrative": "Use inspection to test implementation."
+        },
+        {
+          "subject": "tomioka",
+          "year": 1872,
+          "title": "Importing a machine is only a beginning",
+          "narrative": "Find the local skills and wider supply system."
+        },
+        {
+          "subject": "hine-labor",
+          "year": 1908,
+          "title": "Separate photograph and caption",
+          "narrative": "Describe what is visible, then consider the competing accounts.",
+          "object": "loc-hine",
+          "compare": "factory-reform"
+        }
+      ],
+      "conclusion": "Work changed through resistance, law, institutions, skilled adaptation and campaigning. Mechanization alone does not explain who had freedom, protection or control.",
+      "evidence": {
+        "prompt": "What can the Hine image and caption establish most directly?",
+        "options": [
+          {
+            "text": "A particular photographed setting and Hine’s recorded account of an overseer’s response.",
+            "supported": true,
+            "feedback": "The photograph and caption have different evidentiary roles. Hours, age and prevalence need further records."
+          },
+          {
+            "text": "Every child in every factory worked exactly the same hours.",
+            "supported": false,
+            "feedback": "One image cannot establish a universal quantity or experience."
+          }
+        ],
+        "citations": [
+          {
+            "source": "hine",
+            "locator": "Photograph and caption"
+          }
+        ]
+      },
+      "returnPrompt": "Name one change in production and one separate question about power over work.",
+      "familyEvidence": {
+        "title": "A photograph and a caption",
+        "object": "loc-hine",
+        "text": "Lewis Hine made this photograph on 3 December 1908. His caption supplies information and reports an overseer’s denial. The image and written report have different evidentiary roles; age, hours and pay cannot all be read from the photograph.",
+        "citations": [
+          {
+            "source": "hine",
+            "locator": "Photograph LC-DIG-nclc-01451; caption card, Hine 358"
+          }
+        ],
+        "notice": [
+          "Describe the person’s position beside the machinery.",
+          "Name something the caption adds."
+        ],
+        "claimPrompt": "Separate one visible observation from one question about age, hours or pay that needs another record.",
+        "returnPrompt": "Name a record that could help answer your question.",
+        "feedback": "The photograph records a scene; Hine’s caption reports more. Neither one scene nor its caption measures conditions for every worker."
+      }
+    },
+    {
+      "id": "north-american-communities",
+      "title": "Earth, food and gathering in Indigenous North America",
+      "question": "How can we investigate community life without making every monument into the same kind of state?",
+      "duration": "25–40 minutes",
+      "introduction": "Travel across different centuries and landscapes north of Mesoamerica. These are comparisons among distinct communities, not stages in one people’s development or a route connecting all four sites. Notice food, work, gathering and the limits of the surviving record.",
+      "stops": [
+        {
+          "subject": "poverty-point",
+          "year": -1500,
+          "title": "Start with a meal and a mound",
+          "narrative": "Inspect heating objects and ask how food preparation belonged to a monumental landscape built by hunter-fisher-gatherers. Individual objects in the later publication are not precisely dated.",
+          "object": "pp-cooking-objects"
+        },
+        {
+          "subject": "hopewell-earthworks",
+          "year": 200,
+          "title": "Gather without living inside the walls",
+          "narrative": "Distinguish a ceremonial enclosure from a permanent town. Compare a modern restoration with an 1848 survey; both need interpretation.",
+          "object": "hopewell-restored-mound"
+        },
+        {
+          "subject": "chaco-communities",
+          "year": 1100,
+          "title": "Test a connection through a trace ingredient",
+          "narrative": "Read the cacao analysis as evidence of movement, then separate that result from an exact route or a claim about every household.",
+          "object": "chaco-corner-door"
+        },
+        {
+          "subject": "cahokia-city",
+          "year": 1150,
+          "title": "Look beyond one monumental view",
+          "narrative": "Investigate neighborhoods and work, then consider the debate about population after the urban center changed. Compare Cahokia with Chaco without assuming contact or identical government.",
+          "object": "cahokia-view-1907",
+          "compare": "chaco-communities"
+        }
+      ],
+      "conclusion": "Food, skilled work, exchange and gathering took different forms across North America. Monumental building does not require one universal governing system. Changes in a center’s role do not establish the disappearance of a people, and later photographs must be read alongside archaeology and community accounts.",
+      "evidence": {
+        "prompt": "Which statement stays within the Chaco cacao study’s evidence?",
+        "options": [
+          {
+            "text": "Residues in selected Pueblo Bonito vessel fragments support cacao use and ingredient movement, while access and exact routes remain uncertain.",
+            "supported": true,
+            "feedback": "The study selected five samples and detected theobromine in three probable cylinder-jar fragments. Its evidence does not map every intermediary or describe every household."
+          },
+          {
+            "text": "The result proves that all Chaco residents drank cacao daily and that we know the precise road it followed.",
+            "supported": false,
+            "feedback": "A small vessel-fragment sample cannot establish universal daily consumption or an exact itinerary."
+          },
+          {
+            "text": "Because a city or ceremonial center changed, all related Indigenous peoples must have disappeared.",
+            "supported": false,
+            "feedback": "A building phase, a regional population interpretation and a people’s continuing history are distinct. Pueblo community statements and the Cahokia debate help keep them separate."
+          }
+        ],
+        "citations": [
+          {
+            "source": "chaco-cacao",
+            "locator": "Sample selection and results, pp. 2110–2112"
+          },
+          {
+            "source": "chaco-pueblo-council",
+            "locator": "Page 1, continuing significance"
+          },
+          {
+            "source": "cahokia-critique",
+            "locator": "Abstract"
+          }
+        ]
+      },
+      "returnPrompt": "Choose one object or landscape. State an observation, a supported explanation and one thing it cannot tell you.",
+      "familyEvidence": {
+        "claimPrompt": "Name one study finding and explain why it cannot show what every household drank.",
+        "returnPrompt": "What additional samples or records could help investigate who had access to cacao?",
+        "feedback": "Selected fragments support cacao use and ingredient movement. They do not establish universal access, an exact route or the purpose of every room.",
+        "title": "A building photograph and a separate study",
+        "object": "chaco-corner-door",
+        "text": "A 2009 study tested fragments representing five Pueblo Bonito vessels. Three probable cylinder-jar samples yielded theobromine, interpreted as cacao evidence. This is a selected sample. The architecture photograph is not a picture of the tested fragments or the chemical analysis.",
+        "citations": [
+          {
+            "source": "chaco-cacao",
+            "locator": "Sample selection and results, pp. 2110–2112"
+          }
+        ],
+        "notice": [
+          "Separate what the photograph shows from what the study measured.",
+          "Could these samples establish what every household drank?"
+        ]
+      }
+    },
+    {
+      "id": "northern-knowledge",
+      "printBreakAfter": [3],
+      "title": "Arctic, coast and Plains: work, knowledge and belonging",
+      "question": "How do different communities sustain life and pass on knowledge?",
+      "duration": "35–50 minutes",
+      "introduction": "Travel across six selected contexts, from a Bering Sea carving to gardens, clothing and community-directed collections. The stops span different centuries and distinct peoples. This is an investigation of shared questions, not an ancient itinerary or a ladder from one way of life to another.",
+      "stops": [
+        {
+          "subject": "bering-sea-carvers",
+          "year": 400,
+          "title": "Start with one tool, not a whole people",
+          "narrative": "Inspect the counterweight. Separate its visible form, the museum’s functional interpretation and the unresolved relationship between object dating and regional chronology.",
+          "object": "met-717577"
+        },
+        {
+          "subject": "ozette-makah",
+          "year": 1700,
+          "title": "Ask what mud preserved",
+          "narrative": "Read Makah accounts of cedar work, oral history and custody. The displayed photograph is later community documentation; the house-burial date remains disputed.",
+          "object": "makah-loc-1910"
+        },
+        {
+          "subject": "blackfoot-bison",
+          "year": 1750,
+          "title": "Move beyond the moment at the cliff",
+          "narrative": "Find the work of coordinating a hunt and processing food. Keep a later landscape photograph and a limited cooking experiment distinct from an ancient event.",
+          "object": "hsi-cliff-2005"
+        },
+        {
+          "subject": "hidatsa-villages",
+          "year": 1780,
+          "title": "Put gardens and women’s work in the picture",
+          "narrative": "Investigate growing, storing and exchanging food beside hunting. Compare the village with Ozette: similar needs do not make the communities identical.",
+          "object": "knife-earthlodge",
+          "compare": "ozette-makah"
+        },
+        {
+          "subject": "inuinnait-sewing",
+          "year": 1915,
+          "title": "Read clothing with its makers’ knowledge",
+          "narrative": "Begin with named people in a photograph, then read the community-led study of patterns, materials and language. Changing clothes need not mean an ended culture.",
+          "object": "inuinnait-plate-1922"
+        },
+        {
+          "subject": "kwakwakawakw-potlatch",
+          "year": 1980,
+          "title": "Ask who keeps and interprets belongings",
+          "narrative": "Separate a ban from the practice it targeted, and publication from community authority. Learn why 1980 is an institutional milestone, not the end of a people or of return efforts.",
+          "object": "hunt-title-1921",
+          "compare": "inuinnait-sewing"
+        }
+      ],
+      "conclusion": "Hunting, gardening, woodworking, sewing and witnessing drew on distinct systems of skill and responsibility. Material traces establish some facts; community accounts and careful source reading establish others. Similar needs never make these peoples interchangeable, and neither a relocation nor a legal prohibition proves that a culture ended.",
+      "evidence": {
+        "prompt": "Which comparison best respects both the material evidence and the community accounts?",
+        "options": [
+          {
+            "text": "Hidatsa gardens and Makah cedar work sustained different communities; material traces and community accounts answer complementary questions.",
+            "supported": true,
+            "feedback": "The community-authored subsistence guide documents Hidatsa garden/storage work. Makah sources explain cedar techniques and custody. These specific histories support comparison without proving identical institutions or direct contact."
+          },
+          {
+            "text": "A photograph of one Arctic outfit or one bison jump can describe how all northern peoples lived.",
+            "supported": false,
+            "feedback": "The photograph names particular people in dancing costume. Plains evidence includes village agriculture as well as communal hunting. Neither image supplies a universal regional identity."
+          },
+          {
+            "text": "Once a village moved or potlatching was banned, the people and their knowledge ceased to exist.",
+            "supported": false,
+            "feedback": "The MHA history traces relocation and continuity. U’mista documents potlatching during prohibition and community efforts to recover belongings. Administrative dates are not the lifespan of a people."
+          }
+        ],
+        "citations": [
+          {
+            "source": "knife-subsistence",
+            "locator": "Women’s Influence and Food Storage"
+          },
+          {
+            "source": "makah-canoes",
+            "locator": "Makah Canoe Construction"
+          },
+          {
+            "source": "umista-history",
+            "locator": "Continued practice and return efforts"
+          }
+        ]
+      },
+      "returnPrompt": "Choose one northern object or landscape. Keep one observation, one supported explanation and one question that requires another kind of evidence.",
+      "familyEvidence": {
+        "claimPrompt": "Name one task from each community. What can the photograph alone leave unknown?",
+        "returnPrompt": "Seek a community-authored source about one chosen task.",
+        "feedback": "Makah cedar work and Hidatsa gardens concern distinct communities. A later photograph cannot alone establish all their practices or prove contact.",
+        "title": "Keep community accounts distinct",
+        "object": "makah-loc-1910",
+        "text": "A community-authored Hidatsa guide describes women’s gardening and storage. Makah accounts explain cedar work and canoe construction. This later photograph cannot show all those tasks or make the communities one people.",
+        "citations": [
+          {
+            "source": "knife-subsistence",
+            "locator": "Women’s Influence; Food Storage"
+          },
+          {
+            "source": "makah-canoes",
+            "locator": "Makah Canoe Construction"
+          }
+        ],
+        "notice": [
+          "Name the different communities in the source summary.",
+          "Which tasks need evidence beyond this photograph?"
+        ]
+      }
+    },
+    {
+      "id": "eastern-woodlands",
+      "printSourcesPerPage": 3,
+      "title": "Eastern Woodlands: communities, knowledge and power",
+      "question": "How do places, food and records help people sustain a community?",
+      "duration": "35–50 minutes",
+      "printBreakAfter": [3],
+      "introduction": "Begin with an ancestral council place, look back to a separate Ohio earthwork network, then investigate a Wendat village, Haudenosaunee diplomacy, Cherokee printing and Ojibwe rice work. These selected histories cross centuries. Eastern Woodlands is a broad geographic frame, not one people, government or path of development.",
+      "stops": [
+        {
+          "subject": "ocmulgee-council",
+          "year": 1200,
+          "title": "Separate old clay from a new roof",
+          "narrative": "Inspect the surviving clay and reconstructed shelter, then investigate the revised dating. The reading year is a context, not a settled construction date.",
+          "object": "ocmulgee-floor"
+        },
+        {
+          "subject": "hopewell-earthworks",
+          "year": 200,
+          "title": "Look back to a different gathering landscape",
+          "narrative": "Return to an earlier Ohio network. Compare forms of gathering without making Hopewell the founder of every later woodland society."
+        },
+        {
+          "subject": "wendat-laine",
+          "year": 1600,
+          "title": "Let new evidence move a date",
+          "narrative": "Put village work beside the calibration problem. Two possible date clusters do not mean a village existed continuously between them.",
+          "object": "laine-radiocarbon-2022",
+          "compare": "ocmulgee-council"
+        },
+        {
+          "subject": "haudenosaunee-canandaigua",
+          "year": 1794,
+          "title": "Ask what a promise establishes",
+          "narrative": "Separate negotiation, the treaty clauses, U.S. ratification and Onondaga explanations of wampum. Identify the further evidence needed to test a promise.",
+          "object": "canandaigua-ratification"
+        },
+        {
+          "subject": "cherokee-print",
+          "year": 1828,
+          "title": "Read political voice and exclusions together",
+          "narrative": "Compare printed assertions with the treaty. A national newspaper can document agency, disagreement and unequal rights, while later removal tests the limits of written promises.",
+          "object": "phoenix-april-1828",
+          "compare": "haudenosaunee-canandaigua"
+        },
+        {
+          "subject": "ojibwe-manoomin",
+          "year": 1913,
+          "title": "Find the work beyond the camera",
+          "narrative": "Use Ojibwe accounts to investigate harvesting, finishing and care for rice waters. Keep the archive’s unnamed person and probable location explicit.",
+          "object": "rice-linde-1913"
+        }
+      ],
+      "conclusion": "Council spaces, village fields, spoken agreements, printed pages and rice waters connected practical work with responsibilities and authority. The evidence is uneven, and the histories are distinct. Neither a revised archaeological date, a printed promise nor forced movement establishes the disappearance of a people. Carry one specific question back to its sources.",
+      "evidence": {
+        "prompt": "Which explanation respects both the records and the people whose histories they concern?",
+        "options": [
+          {
+            "text": "Treaties and newspapers record particular commitments and arguments; investigating their effects requires further evidence.",
+            "supported": true,
+            "feedback": "Canandaigua’s clauses state promises. The Cherokee constitution records both national assertions and exclusions. Neither text proves equal rights, complete consent or successful enforcement for everyone."
+          },
+          {
+            "text": "A reconstructed building and an exact-looking date let us recover every ancient decision with certainty.",
+            "supported": false,
+            "feedback": "Ocmulgee distinguishes surviving clay from reconstructed walls and roof. The newer study revises the older date and leaves questions open. A dating model does not recover the words spoken in a council."
+          },
+          {
+            "text": "A photograph of rice canoes tells us the full work of every Eastern Woodlands community.",
+            "supported": false,
+            "feedback": "The archive qualifies person and place. Ojibwe accounts explain several harvesting and finishing operations, but one image cannot represent every community, century or food system."
+          }
+        ],
+        "citations": [
+          {
+            "source": "canandaigua-onondaga",
+            "locator": "Articles I–III and VII"
+          },
+          {
+            "source": "phoenix-constitution",
+            "locator": "Articles I–III, especially III §§4 and 7"
+          },
+          {
+            "source": "ocmu-chronology",
+            "locator": "Earthlodge results and discussion"
+          },
+          {
+            "source": "rice-goodberry",
+            "locator": "Harvesting and Processing, PDF pp.5–6"
+          }
+        ]
+      },
+      "returnPrompt": "Keep an observation, a supported explanation and a question. Revisit this place or record with another type of source.",
+      "familyEvidence": {
+        "claimPrompt": "Distinguish the signing date, ratification date and evidence needed to test a promise.",
+        "returnPrompt": "Find a later record that could test one promise.",
+        "feedback": "Treaty clauses state commitments; later evidence is needed to test performance. Ratification alone establishes neither complete consent nor successful enforcement.",
+        "title": "A written commitment needs an outcome inquiry",
+        "object": "canandaigua-ratification",
+        "text": "Canandaigua’s clauses state peace and land commitments. The treaty was signed in November 1794; this U.S. ratification instrument is dated January 1795. Recording and ratifying promises did not by themselves establish how every later official acted.",
+        "citations": [
+          {
+            "source": "canandaigua-archive",
+            "locator": "NAID 12013172: contents and recto"
+          },
+          {
+            "source": "canandaigua-onondaga",
+            "locator": "Articles I–III and VII"
+          }
+        ],
+        "notice": ["Name what each date records.", "What would help test one promise?"]
+      }
+    },
+    {
+      "id": "work-obligation-voices",
+      "leadObject": "song-loan-diagram",
+      "title": "Work, obligation and historical voices",
+      "question": "Who supplied the work, and who gets to describe its benefits?",
+      "duration": "About 20–30 minutes",
+      "printSourcesPerPage": 3,
+      "introduction": "Compare a Song fiscal proposal, Mali’s royal image and household production, and Inca textile work and provisioning. The selected dates are a thematic inquiry, not a route, a single causal sequence or evidence of contact among these objects.",
+      "stops": [
+        {
+          "subject": "song-art",
+          "object": "song-loan-diagram",
+          "year": 1069,
+          "title": "Follow the proposed timing",
+          "narrative": "Trace resources before harvest and repayment later. What would you ask a household before accepting the policy’s promised benefit?"
+        },
+        {
+          "subject": "mali-networks",
+          "object": "catalan-musa-detail",
+          "year": 1375,
+          "title": "Look below the royal image",
+          "narrative": "Describe visible royal signs, then use the account of common pottery to identify work the image omits.",
+          "compare": "song-art"
+        },
+        {
+          "subject": "inca-weaving",
+          "object": "met-313152",
+          "year": 1500,
+          "title": "Separate skill from choice",
+          "narrative": "Find construction features in the garment. Distinguish them from evidence about rotating service, resettlement and provisioning.",
+          "compare": "mali-networks"
+        }
+      ],
+      "conclusion": "Proposals, royal images and finished objects can conceal different parts of work. Add household evidence and distinct voices before judging benefits or choices.",
+      "evidence": {
+        "prompt": "Which evidence would best test whether the proposed Song loan helped a particular household?",
+        "options": [
+          {
+            "text": "The official memorial says the policy would benefit people.",
+            "supported": false,
+            "feedback": "That explains the authors’ justification, not the household’s actual experience."
+          },
+          {
+            "text": "Dated local borrowing and repayment records, read alongside that household’s circumstances.",
+            "supported": true,
+            "feedback": "These could test timing, terms, harvest conditions and collection against the promise. Surviving records still need interpretation."
+          },
+          {
+            "text": "The Mali map depicts a ruler holding gold.",
+            "supported": false,
+            "feedback": "A foreign royal image cannot establish the outcome of a particular Song loan."
+          }
+        ],
+        "citations": [
+          {
+            "source": "song-crop-loans",
+            "locator": "Longer selection"
+          },
+          {
+            "source": "catalan-block",
+            "locator": "Object 26"
+          }
+        ]
+      },
+      "returnPrompt": "Choose one case. Explain a practical task, name the voice describing it, and identify evidence needed before saying the arrangement benefited its workers.",
+      "familyEvidence": {
+        "title": "Read a proposal before claiming a result",
+        "object": "song-loan-diagram",
+        "text": "The modern guide follows the 1069 crop-loan proposal: resources before harvest and repayment later. A policy argument describes an intended arrangement. The arrows do not measure a particular household’s harvest, debt or freedom to participate.",
+        "citations": [
+          {
+            "source": "song-crop-loans",
+            "locator": "Longer selection: provision and repayment"
+          }
+        ],
+        "notice": [
+          "Find when resources arrive and repayment follows.",
+          "Keep the proposal separate from a measured result."
+        ],
+        "claimPrompt": "Name a household record that could test whether this timing and repayment helped.",
+        "returnPrompt": "Explain what your chosen record could reveal and still leave unknown.",
+        "feedback": "Loan terms, collection records and household accounts could test a proposal against experience. They still need dates, context and interpretation."
+      }
+    },
+    {
+      "id": "makers-interpreters-encounters",
+      "leadObject": "voyage-mediation-diagram",
+      "title": "Makers, interpreters and unequal encounters",
+      "question": "Whose knowledge made an encounter possible, and who could choose?",
+      "duration": "About 20–30 minutes",
+      "printSourcesPerPage": 3,
+      "introduction": "Compare an ocean account, an Edo carving and Kongo religious making and royal letters. The selected dates organize a thematic inquiry, not a single causal route or evidence that these particular objects and voyagers met.",
+      "stops": [
+        {
+          "subject": "portuguese-voyage",
+          "object": "voyage-mediation-diagram",
+          "year": 1498,
+          "title": "Name the necessary work",
+          "narrative": "Identify a pilot, interpreter and court official. Find the account’s evidence that assistance and coercion could coexist."
+        },
+        {
+          "subject": "benin-ivory",
+          "object": "met-309900",
+          "year": 1550,
+          "title": "Follow a maker’s choices",
+          "narrative": "Point to carved details and distinguish a patron’s likely audience from unknown instructions or a named maker.",
+          "compare": "portuguese-voyage"
+        },
+        {
+          "subject": "kongo-translation",
+          "object": "met-318323",
+          "year": 1624,
+          "title": "Separate meaning from enforcement",
+          "narrative": "Compare the crucifix interpretation with Afonso’s earlier proposed inspection rule. Neither proves what everyone believed or what officials enforced.",
+          "compare": "portuguese-voyage"
+        }
+      ],
+      "conclusion": "Objects and accounts show active makers and intermediaries. Their creativity does not erase coercion, and a ruler’s request does not supply every person’s voice.",
+      "evidence": {
+        "prompt": "Which work does this guide identify beyond sailing?",
+        "options": [
+          {
+            "text": "Pilotage and interpretation helped an arrival become possible.",
+            "supported": true,
+            "feedback": "The guide identifies supplies and a pilot at Malindi, then interpreters and a court audience at Calicut. Useful assistance does not prove that everyone could choose freely."
+          },
+          {
+            "text": "Everyone involved could choose freely.",
+            "supported": false,
+            "feedback": "The guide explicitly leaves free choice unproven. The journal also records detention."
+          },
+          {
+            "text": "The arrow records the exact ship track.",
+            "supported": false,
+            "feedback": "The arrow follows the narrative sequence. It is not a reconstructed sailing course."
+          }
+        ],
+        "citations": [
+          {
+            "source": "gama-journal-1898",
+            "locator": "Printed pp. 39–57"
+          }
+        ]
+      },
+      "returnPrompt": "Choose a task, identify the source that reveals it, and explain what further evidence would help establish the worker’s choices.",
+      "familyEvidence": {
+        "title": "Read the tasks in a narrative",
+        "object": "voyage-mediation-diagram",
+        "text": "The guide follows the journal’s account: supplies and a pilot at Malindi, then interpreters and a court audience at Calicut. The account also describes detention. A narrative sequence is not an exact sailing route; assistance alone does not establish free choice.",
+        "citations": [
+          {
+            "source": "gama-journal-1898",
+            "locator": "Selected English edition, printed pp. 39–57"
+          }
+        ],
+        "notice": [
+          "Name a task beyond sailing.",
+          "Find the place assigned to that task."
+        ],
+        "claimPrompt": "Explain why the assistance described here does not establish everyone’s freedom to choose.",
+        "returnPrompt": "Name evidence that could help establish one worker’s choices.",
+        "feedback": "The account identifies useful work and also describes detention. Assistance and coercion need attention together; one narrator does not supply every participant’s experience."
+      }
+    },
+    {
+      "id": "makers-supplies-royal-claims",
+      "title": "Makers, supplies and royal claims",
+      "question": "Who made and supplied things for powerful places?",
+      "duration": "20–30 minutes",
+      "introduction": "Compare a carefully finished vessel, a palace environment and royal funerary objects. Each place depended on materials, skills and provision, but the evidence gives different views of work and authority. This thematic inquiry crosses separate centuries and institutions; it is not a journey, a single tradition of kingship or proof of contact between these particular cases.",
+      "stops": [
+        {
+          "subject": "kerma-potters",
+          "year": -1800,
+          "title": "Making a surface required skill",
+          "object": "kerma-making-guide",
+          "narrative": "Inspect the beaker and the original modern guide. Explain shaping, polishing and controlled firing, then distinguish the Kerma capital from this vessel’s recorded Abydos grave. A findspot alone does not identify its potter, owner’s origin or route."
+        },
+        {
+          "subject": "nimrud-palace",
+          "year": -870,
+          "title": "A palace joined images, rooms and resources",
+          "object": "institution-evidence-guide",
+          "narrative": "Use the separate relief, composite source plan and royal inscription to ask how a palace represented power. Then read the much later archive letter about provisions for captives. Its editorial date is around 732 BCE, not the 883–859 BCE relief interval; an instruction does not prove fulfilment."
+        },
+        {
+          "subject": "taharqo",
+          "year": -675,
+          "title": "Royal claims and excavated making answer different questions",
+          "object": "met-544883",
+          "narrative": "Read the granite shabti within the selected reign, then compare Kawa’s workforce claims and the separately dated Sanam workshop. A matching faience mould and uninscribed fragment support making; they do not identify where the granite figure was manufactured."
+        }
+      ],
+      "conclusion": "Institutions could gather resources, organise skilled work and claim authority over people. Excavated objects and spaces, royal inscriptions and administrative orders reveal different parts of those practices. Explain a concrete task first, then ask whose account survives and what would establish its result.",
+      "evidence": {
+        "prompt": "How could you investigate whether an official provision order was carried out?",
+        "options": [
+          {
+            "text": "Count protective figures on an earlier palace wall as proof that every captive received food.",
+            "feedback": "Protective imagery explains a represented environment; it is not a record of provisions received.",
+            "supported": false
+          },
+          {
+            "text": "Date every palace letter to the reign shown by the oldest relief.",
+            "feedback": "A long-used building preserves records from different reigns. The later letter retains its own editorial date.",
+            "supported": false
+          },
+          {
+            "text": "Compare the dated order with independent delivery or recipient evidence, if available.",
+            "feedback": "The order establishes what was instructed. Further dated evidence could investigate fulfilment while retaining gaps and the voices represented by each record.",
+            "supported": true
+          },
+          {
+            "text": "Treat the number of storerooms as the quantity delivered to each person.",
+            "feedback": "A plan can explain space and access. It cannot by itself supply an individual delivery record.",
+            "supported": false
+          }
+        ],
+        "citations": [
+          {
+            "source": "nimrud-captives-letter",
+            "locator": "Online translation: commands to provide for captives and warning against neglect; editorial date (732)"
+          },
+          {
+            "source": "nimrud-standard-inscription",
+            "locator": "Translation lines 15b–17a: conquest and settlement claims"
+          }
+        ]
+      },
+      "returnPrompt": "Choose one making task and one claim about its organisation. Name the supporting evidence, whose voice it preserves and a further source that could improve the explanation.",
+      "leadObject": "institution-evidence-guide",
+      "printSourcesPerPage": 2,
+      "familyEvidence": {
+        "title": "An order needs checking",
+        "text": "A letter from Nimrud’s palace archive orders provisions for captives and warns against neglect. Its proposed date, around 732 BCE, is later than the selected 883–859 BCE relief. It preserves an official order, not a recipient’s report that food arrived. The modern guide distinguishes claim, order and outcome.",
+        "object": "institution-evidence-guide",
+        "citations": [
+          {
+            "source": "nimrud-captives-letter",
+            "locator": "Online translation: commands to provide for captives and warning against neglect; editorial date (732)"
+          }
+        ],
+        "notice": [
+          "Find the three labels in the modern guide.",
+          "Describe the difference between being told to provide something and showing that it was received."
+        ],
+        "claimPrompt": "What evidence would help you check whether people received the ordered supplies?",
+        "returnPrompt": "Return with another possible source. Explain which part of the question it could answer.",
+        "feedback": "A separate delivery record or recipient account could help investigate fulfilment. The instruction alone does not show that provisions reached people; unavailable evidence should remain a gap."
+      }
+    },
+    {
+      "id": "images-spaces-work",
+      "title": "Images, spaces and work",
+      "question": "How can objects and excavated spaces explain people’s work?",
+      "duration": "20–30 minutes",
+      "introduction": "Compare Chavín textile making, Teotihuacan household production and distinct Moche object and excavation histories. This inquiry crosses places and centuries; its thematic order does not establish contact, a route or a continuous political tradition.",
+      "stops": [
+        {
+          "subject": "chavin-textile",
+          "year": -300,
+          "object": "met-315784",
+          "title": "Observe a surface before extending its story",
+          "narrative": "Use the four modern numbered notes on the unchanged photograph. Separate crossing threads, painted forms and broken edges from the catalogue’s material identification and motif interpretation. The reported southern-coastal origin does not locate manufacture or prove a journey from the highland centre."
+        },
+        {
+          "subject": "teotihuacan",
+          "year": 400,
+          "object": "teotihuacan-household-guide",
+          "title": "Connect making with household and shared space",
+          "narrative": "At Tlajinga, cores and production debris support blade making; courtyards and drains show how homes connected to shared facilities. The guide explains relationships rather than measured architecture. Different buildings and samples retain their own dates; these remains do not supply a recovered city constitution."
+        },
+        {
+          "subject": "moche",
+          "year": 400,
+          "object": "moche-evidence-guide",
+          "title": "Compare an object with excavated production evidence",
+          "narrative": "Inspect the two vessels as well as the guide. Workshop and domestic evidence from named archaeological settings adds labor and exchange questions, while the museum objects retain their unknown precise findspots. Northern and southern interpretations do not become one uniform Moche kingdom."
+        }
+      ],
+      "conclusion": "Useful explanations connect a specific activity with material evidence: making a fabric, producing cutting tools, preparing food or working clay. Context helps explain organization, while an object’s appearance, an excavated workshop and a regional model answer different questions. Keep those sources connected without giving one object the provenance or certainty of another.",
+      "evidence": {
+        "prompt": "What would most directly strengthen a claim that a particular vessel was made in a particular workshop?",
+        "options": [
+          {
+            "text": "A similar motif appears on a distant textile.",
+            "supported": false,
+            "feedback": "Shared imagery invites comparison, but does not locate this vessel’s manufacture."
+          },
+          {
+            "text": "The vessel and workshop share the same broad cultural label.",
+            "supported": false,
+            "feedback": "A regional label can span different places, phases and production arrangements."
+          },
+          {
+            "text": "A documented archaeological context and production analysis that match the particular vessel.",
+            "supported": true,
+            "feedback": "Object-specific contextual and production evidence could test that attribution. Neither selected Met vessel currently has that demonstrated workshop link in this inquiry."
+          },
+          {
+            "text": "A modern line joins the panels in our teaching guide.",
+            "supported": false,
+            "feedback": "The line organizes a comparison. It is not excavated evidence or a historical route."
+          }
+        ],
+        "citations": [
+          {
+            "source": "moche-production-2009",
+            "locator": "Archaeological workshop evidence; Cerámica utilitaria; Cerámica fina o ritual"
+          },
+          {
+            "source": "met-316721",
+            "locator": "Artwork Details and Description: broad attribution, no excavated workshop"
+          }
+        ]
+      },
+      "returnPrompt": "Choose one activity, show the evidence that supports it, and name one additional source that could explain who organized or performed the work.",
+      "leadObject": "met-315784",
+      "printSourcesPerPage": 2,
+      "familyEvidence": {
+        "title": "What can you show in this photograph?",
+        "object": "met-315784",
+        "text": "The photograph shows a fragment of painted cloth. Crossing threads, red forms and incomplete edges are visible. The museum identifies cotton and painting, interprets related figures, and says the cloth is reported to come from Peru’s southern coast. The modern numbered notes point to surviving details; they leave missing cloth blank.",
+        "citations": [
+          {
+            "source": "met-315784",
+            "locator": "Description paragraphs 1–5; Artwork Details; existing photograph"
+          }
+        ],
+        "notice": [
+          "Find the pale fabric and a red painted form.",
+          "Point to an incomplete edge; leave the missing part blank."
+        ],
+        "claimPrompt": "Name one thing you can show in the photograph and one thing you would need another source to establish.",
+        "returnPrompt": "Return with a new question about making, using or moving the cloth. Say which source might help.",
+        "feedback": "Visible threads, forms and edges support observations. A maker’s name, the original complete design, chemical ingredients and a travel route require additional evidence; the catalogue supplies qualified interpretations rather than those missing records."
+      }
+    },
+    {
+      "id": "objects-places-associations",
+      "title": "Objects, places and associations",
+      "question": "How does a documented place change what an object can tell us?",
+      "duration": "20–30 minutes",
+      "introduction": "Compare a miniature drum, an architectural model and Ohio earthworks. Visible form, recorded deposits and later surveys answer different questions. Their thematic order establishes no contact, route or common political history.",
+      "stops": [
+        {
+          "subject": "dongson",
+          "object": "met-39209",
+          "year": -200,
+          "title": "Keep an object separate from another find",
+          "narrative": "Inspect the miniature’s scale and visible forms. Then use the selected Vietnam map to compare a drum containing other bronze objects, a presumed burial association and later production evidence. Each record has its own place and date; none establishes this miniature’s workshop or purpose."
+        },
+        {
+          "subject": "colima",
+          "object": "met-317600",
+          "year": 1,
+          "title": "Distinguish visible architecture from proposed use",
+          "narrative": "Find the roof, opening and raised platform using the modern notes. The catalogue proposes an incense-burner lid. Regional offerings and the excavated Huitzilapa tomb supply comparisons, while this model retains an unknown precise findspot and two published date ranges."
+        },
+        {
+          "subject": "hopewell-earthworks",
+          "object": "hopewell-moundcity-1848",
+          "year": 300,
+          "title": "Read the place and the date of a record",
+          "narrative": "Compare the Mound City survey with its separately dated restored-site photograph. The existing North Fork Works plan represents Hopewell Mound Group, a different site. Construction evidence at Hopeton and named contemporary Miami voices add distinct kinds of knowledge without making the surveys ancient eyewitness views."
+        }
+      ],
+      "conclusion": "A useful explanation connects a particular claim with the evidence that can test it. A visible roof supports observation; a documented deposit supplies an association; a survey records a landscape at a later time. Keep an object’s unknown history open, and identify the people and methods behind later interpretation and care.",
+      "evidence": {
+        "prompt": "Which claim is best supported by the supplied Colima evidence?",
+        "options": [
+          {
+            "text": "The photographed model has a roof and platform; the catalogue proposes that it may have been an incense-burner lid.",
+            "supported": true,
+            "feedback": "This distinguishes visible features from a qualified catalogue interpretation. Neither step supplies an exact tomb or an associated burner body."
+          },
+          {
+            "text": "Because another shaft tomb was excavated at Huitzilapa, this model came from that tomb.",
+            "supported": false,
+            "feedback": "A documented regional comparison does not transfer its findspot to a different object."
+          },
+          {
+            "text": "Similar model buildings demonstrate one government across western Mexico.",
+            "supported": false,
+            "feedback": "Shared forms can coexist with regional and political differences. A style is not a recovered constitution or boundary."
+          }
+        ],
+        "citations": [
+          {
+            "source": "met-317600",
+            "locator": "Description; existing photograph"
+          },
+          {
+            "source": "colima-huitzilapa-1996",
+            "locator": "Publisher abstract"
+          },
+          {
+            "source": "colima-western-polities-2026",
+            "locator": "Political organization paragraphs"
+          }
+        ]
+      },
+      "returnPrompt": "Choose one claim, identify its supporting object or place record, and ask for one additional source that could test it.",
+      "leadObject": "met-317600",
+      "printSourcesPerPage": 2,
+      "familyEvidence": {
+        "title": "See a roof. Test a use.",
+        "object": "met-317600",
+        "text": "The photograph shows a ceramic roof, opening and platform. The Met suggests a possible incense-burner lid. The consulted catalogue supplies no precise excavation findspot, associated burner body or residue result.",
+        "citations": [
+          {
+            "source": "met-317600",
+            "locator": "Description; existing photograph"
+          }
+        ],
+        "notice": [
+          "Find the roof, opening and platform in the photograph.",
+          "Separate what is visible from the proposed lid interpretation."
+        ],
+        "claimPrompt": "Make one claim you can show or support with the capsule. Name a further discovery that could test the proposed use.",
+        "returnPrompt": "Return to another object or place and ask which part of its history is observed, recorded or still unknown.",
+        "feedback": "The roof is visible. Lid use is a qualified interpretation. An associated burner body or securely documented use context could help test it; an exact tomb and common regional government are not supplied."
+      }
+    },
+    {
+      "id": "places-patrons-work",
+      "title": "Places, patrons and work",
+      "question": "What links making and upkeep to people and institutions?",
+      "duration": "20–30 minutes",
+      "introduction": "Compare a Maya cup, Borobudur and selected work in Constantinople. Ownership, support and practical tasks need different evidence. These stops organize a comparison across regions; they do not establish contact, a travel route or one shared institution.",
+      "stops": [
+        {
+          "subject": "maya-vessel",
+          "object": "met-316711",
+          "year": 750,
+          "title": "An owner’s name does not identify every maker",
+          "narrative": "Find the inscribed forms, figure and rim using the modern observation notes. The catalogue’s uncertain name reading and possible geographic comparisons remain qualified. Courtly cups and the separate Cerén household account reveal different kinds of making, food and exchange; neither supplies this cup’s excavated findspot."
+        },
+        {
+          "subject": "borobudur",
+          "object": "borobudur-schematic-plan",
+          "year": 800,
+          "title": "Connect built forms with support and maintenance",
+          "narrative": "Compare square and circular forms in the modern schematic with the conserved monument photograph. Relief studies, an attributed land-and-upkeep interpretation and drainage research add work and institutions. The diagram has no north arrow or scale, and does not recover an ancient visitor’s itinerary."
+        },
+        {
+          "subject": "byzantium",
+          "object": "met-464428",
+          "year": 950,
+          "title": "Keep a portable image separate from a working harbour",
+          "narrative": "Observe the ivory’s frame, raised body and lower letters. Probable private devotion and alternative figure interpretations remain attributed scholarship. Separately excavated ship planks, caulking and repairs explain practical urban work, while timber and pottery-layer dates remain distinct. No ship is said to have carried this ivory."
+        }
+      ],
+      "conclusion": "People shaped materials, maintained places and supplied resources through different relationships. A named owner is not necessarily a maker; an image is not a complete household history; a schematic is not a measured plan. Test an explanation by identifying the particular work, people and source association it requires.",
+      "evidence": {
+        "prompt": "Which explanation best fits the supplied Borobudur schematic?",
+        "options": [
+          {
+            "text": "It helps locate square and circular forms; a required ancient walking route needs further dated evidence.",
+            "supported": true,
+            "feedback": "Visible relationships support observation. A modern diagram without north or scale cannot by itself establish what every ancient visitor did."
+          },
+          {
+            "text": "Its colours show the monument’s original paint scheme.",
+            "supported": false,
+            "feedback": "The creator’s modern colours have no supplied ancient-paint legend or analysis."
+          },
+          {
+            "text": "A similar image elsewhere proves that the same patron organized both places.",
+            "supported": false,
+            "feedback": "Resemblance invites comparison; a particular patron or institutional connection needs its own evidence."
+          }
+        ],
+        "citations": [
+          {
+            "source": "borobudur-plan-image",
+            "locator": "Source diagram and file record"
+          },
+          {
+            "source": "borobudur",
+            "locator": "Brief synthesis: built form and interpretation"
+          }
+        ]
+      },
+      "returnPrompt": "Name one kind of work, identify its supporting evidence, and ask which person or institution remains to be explained.",
+      "leadObject": "borobudur-schematic-plan",
+      "printSourcesPerPage": 2,
+      "familyEvidence": {
+        "title": "Shapes we can see; routes we need to test",
+        "object": "borobudur-schematic-plan",
+        "text": "This modern schematic shows stepped square forms, circular upper forms and stair-like projections on four sides. It has no north arrow, scale or colour legend. It does not by itself establish an ancient route or paint scheme.",
+        "citations": [
+          {
+            "source": "borobudur-plan-image",
+            "locator": "Inspected diagram and file record"
+          }
+        ],
+        "notice": [
+          "Point to one square form and one circular form.",
+          "Find a stair-like projection; keep its compass direction unknown."
+        ],
+        "claimPrompt": "Describe a visible relationship. Name another source you would need to explain how people actually moved through the monument.",
+        "returnPrompt": "Return with a new question about building, maintaining or supporting a place.",
+        "feedback": "Shapes and projections can be shown. A required ancient route, compass direction, scale and original paint colours need evidence beyond this unlabelled modern schematic."
+      }
+    },
+    {
+      "id": "buildings-food-continuity",
+      "title": "Buildings, food and continuing connections",
+      "question": "How can buildings and food help explain communities through change?",
+      "duration": "20–30 minutes",
+      "introduction": "Compare building, food and material work at Chaco, Cahokia and Ocmulgee. A later plan, a 1907 print and an excavation record answer different questions. Present-day community statements have named speakers and contexts. This order organizes an inquiry; it does not establish contact, a travel route or one shared institution.",
+      "stops": [
+        {
+          "subject": "chaco-communities",
+          "object": "chaco-plan-1850",
+          "year": 1000,
+          "title": "Connect building and provisioning through different evidence",
+          "narrative": "Look for room marks and an open space in the 1850 record of Pueblo Bonito’s ruins. The plan’s publication is much later than the selected case. Archaeological accounts add masonry, smaller habitation and storage spaces, while the earlier food study tests particular vessel samples. None identifies every occupant or turns all constructed alignments into a recovered journey. Attributed Pueblo statements establish continuing significance."
+        },
+        {
+          "subject": "cahokia-city",
+          "object": "cahokia-view-1907",
+          "year": 1100,
+          "title": "Build a neighborhood explanation from particular records",
+          "narrative": "Keep the 1907 print separate from archaeological evidence of neighborhoods, making and local environmental change. Ask which observations support a proposed explanation and which people or tasks remain unknown. Changing settlement patterns do not establish the disappearance of a people; attributed contemporary perspectives supply their own contexts."
+        },
+        {
+          "subject": "ocmulgee-council",
+          "object": "ocmulgee-earthlodge-feature-plan",
+          "year": 1200,
+          "title": "Date materials and keep building histories distinct",
+          "narrative": "Use the published feature drawing to distinguish surviving floor features, fallen roof material and a later reconstructed shelter. The roof-wood constraint after about 1160 does not supply a completion day. A separately modeled maize sample concerns the Middle Plateau rather than use of this room. The disputed case retains its unknown endpoints, while current Muscogee statements explain continuing relationships."
+        }
+      ],
+      "conclusion": "Buildings, food and materials reveal work at different scales. Explain a particular observation through its site, sample, date and source. Then ask how the explanation changes when another record or an attributed community account enters the inquiry. Neither a single building nor a display interval supplies the whole history of a people.",
+      "evidence": {
+        "prompt": "Which explanation uses the supplied Pueblo Bonito plan carefully?",
+        "options": [
+          {
+            "text": "Its drawn room groupings can be compared with archaeological descriptions of building and habitation; the later sheet does not identify every ancient occupant.",
+            "supported": true,
+            "feedback": "The 1850 plan records visible ruins through a particular observer. Separate archaeological evidence can help explain work and use without treating the sheet as a complete occupied phase."
+          },
+          {
+            "text": "Every room shown was built and occupied at the same time in 1850.",
+            "supported": false,
+            "feedback": "Publication in 1850 dates the record. The plan does not establish one simultaneous ancient construction or occupation event."
+          },
+          {
+            "text": "A similar circular feature elsewhere proves that the same governing institution organized both sites.",
+            "supported": false,
+            "feedback": "A resemblance invites a question. A particular institutional connection needs separately dated and associated evidence."
+          }
+        ],
+        "citations": [
+          {
+            "source": "chaco-plan-1850",
+            "locator": "Inspected Plate 37 / No. 6 and file record"
+          },
+          {
+            "source": "chaco-pueblo-period",
+            "locator": "Architecture: great houses and smaller habitation sites"
+          }
+        ]
+      },
+      "returnPrompt": "Name one kind of work, identify its supporting record and ask whose experience or which date remains to be explained.",
+      "leadObject": "chaco-plan-1850",
+      "printSourcesPerPage": 2,
+      "familyEvidence": {
+        "title": "A later drawing, a question about work",
+        "object": "chaco-plan-1850",
+        "text": "This plan was published in 1850 as a record of ruins at Pueblo Bonito. Rows of room marks surround an open space, with broken areas on one side. Its small labels are the recorder’s words. It does not show every room occupied at one ancient moment.",
+        "citations": [
+          {
+            "source": "chaco-plan-1850",
+            "locator": "Inspected source plan and file record"
+          }
+        ],
+        "notice": [
+          "Find an open space and a row of room marks.",
+          "Point to an area the drawing shows as broken or ruined."
+        ],
+        "claimPrompt": "Describe a visible relationship. What other evidence would help explain building, storing food or living in these spaces?",
+        "returnPrompt": "Return with a new question about how people built, provisioned or maintained a place.",
+        "feedback": "The drawing supports observations about its room marks, open space and recorded ruins. Explaining particular workers, food stores, room uses and ancient dates requires additional evidence."
+      }
+    },
+    {
+      "id": "makers-patrons-markets",
+      "title": "Makers, patrons and markets",
+      "question": "How did makers, patrons and markets organize work?",
+      "duration": "20–30 minutes",
+      "introduction": "Compare a Ming jar, a Süleiman tughra and a Mughal manuscript folio. Shaping, decoration, writing and translation involved different working relationships. Catalogue identifications, institutional accounts and technical studies supply different evidence. These stops organize a comparison; they do not establish a shared workshop, patron or route.",
+      "stops": [
+        {
+          "subject": "ming-workshops",
+          "object": "met-42549",
+          "year": 1550,
+          "title": "Separate a pictured object from an order for similar work",
+          "narrative": "Observe the jar’s fish, plants and repeated decoration. The catalogue supplies its technical identification. Wider accounts distinguish official models, supervision, private production and markets. The 1542 record concerns similar jars; it does not identify this accession’s batch, every worker, a fulfilled order or a particular voyage."
+        },
+        {
+          "subject": "ottoman-workshops",
+          "object": "met-449533",
+          "year": 1560,
+          "title": "Distinguish specialist writing, ceramic work and buying",
+          "narrative": "Keep the decorated tughra separate from the ceramic dish and the separately catalogued 1549 signed lamp. A named decorator identifies one relationship, not every maker. Excavation and technical abstracts add limited material evidence; the mediated 1670s market account concerns another time and source. None supplies one universal recipe or the complete experience of an Ottoman workshop."
+        },
+        {
+          "subject": "mughal-books",
+          "object": "met-448183",
+          "year": 1592,
+          "title": "Connect translation and painting through particular projects",
+          "narrative": "The selected folio is catalogued around 1590–95. Compare its representation with accounts of translation, writing, painting and the House of Books. Project names, teams, copies and attributed preface arguments have distinct dates and evidentiary limits. Courtly sponsorship does not prove equal power among participants, a universal audience or every worker’s identity."
+        }
+      ],
+      "conclusion": "Explain a particular task and the relationship that supported it. Then distinguish what an object shows, what a catalogue identifies and what another record says about commissioning, buying or translation. A named patron, decorator or project does not recover every working life.",
+      "evidence": {
+        "prompt": "Which explanation best fits the supplied photograph of the Ming jar and its source account?",
+        "options": [
+          {
+            "text": "The arrangement is visible; its material identification and connection to wider production require the catalogue and other records.",
+            "supported": true,
+            "feedback": "Looking and technical identification answer different questions. A broader account of orders and markets does not name this jar’s individual maker or buyer."
+          },
+          {
+            "text": "The record of similar jars in 1542 proves this accession came from that exact batch.",
+            "supported": false,
+            "feedback": "The supplied record concerns similar work. Identifying a particular batch needs an additional documented association."
+          },
+          {
+            "text": "Repeated decorative forms prove that one patron and workshop organized all three cases.",
+            "supported": false,
+            "feedback": "Resemblance supports comparison. A shared patron or workshop requires its own evidence, with particular dates and people."
+          }
+        ],
+        "citations": [
+          {
+            "source": "met-42549",
+            "locator": "Catalogue: material, date and record for similar jars"
+          },
+          {
+            "source": "ming-palace-production-2016",
+            "locator": "Design, inspection and distribution"
+          }
+        ]
+      },
+      "returnPrompt": "Name one task, identify its supporting source and ask which worker, audience or working relationship remains to be explained.",
+      "leadObject": "met-42549",
+      "printSourcesPerPage": 2,
+      "familyEvidence": {
+        "title": "A visible pattern, a question about work",
+        "object": "met-42549",
+        "text": "The Met identifies a mid-sixteenth-century Jingdezhen porcelain jar with cobalt under the glaze and coloured enamels above it. Fish, plants and repeated borders can be observed in the photograph. The technical identification uses catalogue research; the image does not name every maker or buyer.",
+        "citations": [
+          {
+            "source": "met-42549",
+            "locator": "Catalogue: date, material and supplied photograph"
+          }
+        ],
+        "notice": [
+          "Find a fish, a plant and a repeated border.",
+          "Point to an arrangement a decorator could have worked on; keep the unseen side unknown."
+        ],
+        "claimPrompt": "Describe a visible pattern. Which other source would help explain who shaped, decorated, ordered or bought the jar?",
+        "returnPrompt": "Return with a new question about one task or working relationship.",
+        "feedback": "The picture shows arrangement. The catalogue identifies materials. Naming workers, buyers or a particular order needs more evidence; a record for similar jars does not identify this batch."
+      }
+    }
+  ],
+  "glossary": [
+    {
+      "id": "genocide",
+      "name": "genocide",
+      "definition": "Under the Genocide Convention, genocide involves specified acts committed with the intent to destroy all or part of a national, ethnic, racial or religious group because it is that group. The acts include killing members, seriously harming them, and forcibly transferring children of the group to another group."
+    },
+    {
+      "id": "primary-source",
+      "name": "primary source",
+      "definition": "Original evidence directly connected to the historical question, such as an object, record or first-hand account. A memoir or oral history recorded later can also be a primary source. Its date, purpose, memory and mediation still need examination."
+    },
+    {
+      "id": "patronage",
+      "name": "patronage",
+      "definition": "Support or commissioning of work by a person or institution, shaping what makers could produce."
+    },
+    {
+      "id": "tomb",
+      "name": "tomb",
+      "definition": "A place prepared for the dead. Its objects may reflect the beliefs and resources of those arranging the burial."
+    },
+    {
+      "id": "estate",
+      "name": "estate",
+      "definition": "A substantial property and the land, buildings and labor that sustain it."
+    },
+    {
+      "id": "afterlife",
+      "name": "afterlife",
+      "definition": "Beliefs about an existence after death. Historians study how people represented and practiced these beliefs."
+    },
+    {
+      "id": "evidence",
+      "name": "evidence",
+      "definition": "Information used to support or challenge an account of the past. Objects, written records and spoken testimony can all provide evidence. Each needs to be understood in context."
+    },
+    {
+      "id": "inference",
+      "name": "inference",
+      "definition": "An explanation drawn from evidence rather than something directly observed."
+    },
+    {
+      "id": "chronology",
+      "name": "chronology",
+      "definition": "The ordering and dating of events. Dates can be approximate, disputed or revised."
+    },
+    {
+      "id": "ritual",
+      "name": "ritual",
+      "definition": "An action or sequence given particular shared significance, often repeated in a religious or social setting."
+    },
+    {
+      "id": "dynasty",
+      "name": "dynasty",
+      "definition": "A sequence of rulers associated with one family; it is not the same thing as a whole society."
+    },
+    {
+      "id": "empire",
+      "name": "empire",
+      "definition": "A political formation ruling over diverse territories and peoples, often through conquest and unequal power."
+    },
+    {
+      "id": "freedman",
+      "name": "freedman",
+      "definition": "A formerly enslaved man. The label identifies a past legal status, not the full experience of a person."
+    },
+    {
+      "id": "caravan",
+      "name": "caravan",
+      "definition": "People and pack animals traveling together, often carrying goods."
+    },
+    {
+      "id": "inscription",
+      "name": "inscription",
+      "definition": "Words deliberately written or cut on a surface. The author’s purposes and audience matter."
+    },
+    {
+      "id": "coinage",
+      "name": "coinage",
+      "definition": "Coins and the practices through which authorities issue and people use them."
+    },
+    {
+      "id": "provenance",
+      "name": "provenance",
+      "definition": "The documented history of an object, including its origins, past ownership and previous locations. Archaeologists distinguish this from provenience: the recorded location where an object was found. A find context also includes surroundings and associations. Knowing one part of this history does not fill gaps in another."
+    },
+    {
+      "id": "port",
+      "name": "port",
+      "definition": "A place where vessels land and goods or people enter a wider network."
+    },
+    {
+      "id": "stele",
+      "name": "stele",
+      "definition": "An upright stone monument, often carved or inscribed."
+    },
+    {
+      "id": "archaeology",
+      "name": "archaeology",
+      "definition": "Study of the past through material remains and their contexts."
+    },
+    {
+      "id": "irrigation",
+      "name": "irrigation",
+      "definition": "Directing water to fields. The channels and their maintenance involve both environments and people."
+    },
+    {
+      "id": "tribute",
+      "name": "tribute",
+      "definition": "Goods or labor demanded by a political authority. Its precise form varies by setting."
+    },
+    {
+      "id": "iconography",
+      "name": "iconography",
+      "definition": "The study of imagery and its meanings in a particular context."
+    },
+    {
+      "id": "regalia",
+      "name": "regalia",
+      "definition": "Objects that represent office, rank or authority."
+    },
+    {
+      "id": "material culture",
+      "name": "material culture",
+      "definition": "Things people make and use, studied as part of social life."
+    },
+    {
+      "id": "enslavement",
+      "name": "enslavement",
+      "definition": "The coercive treatment of people as property, denying freedom and exploiting their work."
+    },
+    {
+      "id": "colonialism",
+      "name": "colonialism",
+      "definition": "Control of people and territories by an outside power, involving unequal political and economic relationships."
+    },
+    {
+      "id": "decolonization",
+      "name": "decolonization",
+      "definition": "Processes of ending colonial rule; political independence did not automatically end every inequality."
+    },
+    {
+      "id": "archive",
+      "name": "archive",
+      "definition": "A collection of records, shaped by decisions about what was created, kept, lost and made accessible."
+    },
+    {
+      "id": "industrialization",
+      "name": "industrialization",
+      "definition": "Changes in production involving machines, energy, workplaces and labor organization; timing and effects differ by region."
+    },
+    {
+      "id": "earthwork",
+      "name": "earthwork",
+      "definition": "A deliberately shaped construction of earth, such as a mound or enclosure. Its form alone does not establish its purpose or governing system."
+    },
+    {
+      "id": "terminus-post-quem",
+      "name": "terminus post quem",
+      "definition": "The earliest possible date for an event, given the evidence. A timber could only have been used in a wall in or after the year its last surviving ring grew. The wood may have been stored or reused."
+    },
+    {
+      "id": "calibration",
+      "name": "calibration",
+      "definition": "Converting a radiocarbon determination into possible calendar dates using an independently established reference curve. One determination can have more than one plausible calendar placement."
+    },
+    {
+      "id": "syllabary",
+      "name": "syllabary",
+      "definition": "A writing system whose signs represent syllables. The Cherokee syllabary is a system for writing Cherokee, not an ornamental version of English."
+    },
+    {
+      "id": "wampum",
+      "name": "wampum",
+      "definition": "Worked shell beads used in particular Indigenous contexts. The Onondaga account here explains agreements, speakers, memory and responsibilities; a pattern does not interpret itself."
+    },
+    {
+      "id": "ratification",
+      "name": "ratification",
+      "definition": "A formal act of confirming an agreement through a government’s procedures. It can occur after negotiation and signing, and does not by itself prove that commitments were fulfilled."
+    },
+    {
+      "id": "manoomin",
+      "name": "manoomin",
+      "definition": "The Ojibwe name for wild rice, explained in the community sources as food with physical, cultural and spiritual significance. Related practices differ among communities."
+    },
+    {
+      "id": "winnowing",
+      "name": "winnowing",
+      "definition": "Separating grain from lighter chaff, often with the help of moving air. It is one stage of finishing rice, distinct from harvesting, drying, parching and hulling."
+    },
+    {
+      "id": "marine-reservoir-effect",
+      "name": "marine reservoir effect",
+      "definition": "Marine carbon can give a sample a different radiocarbon age from a contemporary land-based sample. Appropriate calibration and reservoir corrections matter; a regional revision does not automatically redetermine every catalogued object."
+    },
+    {
+      "id": "reconstruction",
+      "name": "reconstruction",
+      "definition": "A modern interpretation made from evidence about an earlier object, building or practice. It can help investigate how something worked, while remaining distinct from the surviving original."
+    },
+    {
+      "id": "radiocarbon",
+      "name": "radiocarbon",
+      "definition": "A method that estimates the age of once-living material from radioactive carbon. Samples, calibration and environmental effects matter; an uncalibrated age in years BP is not automatically a calendar year."
+    },
+    {
+      "id": "waterlogged-preservation",
+      "name": "waterlogged preservation",
+      "definition": "Survival of material in persistently wet conditions that slow some forms of decay. The preserved material is still a selective record, not a complete picture of a household."
+    },
+    {
+      "id": "seasonal-round",
+      "name": "seasonal round",
+      "definition": "An organized pattern of activities and movement through the year. Mobility can depend on detailed knowledge, planning and social institutions."
+    },
+    {
+      "id": "cache-pit",
+      "name": "cache pit",
+      "definition": "A prepared underground storage space. Its construction, contents and use require evidence; an explanatory model is not an excavated original."
+    },
+    {
+      "id": "repatriation",
+      "name": "repatriation",
+      "definition": "Return of belongings or ancestral remains to the peoples or communities to whom they belong. The atlas follows the particular community account rather than assuming one process for every collection."
+    },
+    {
+      "id": "potlatch",
+      "name": "potlatch",
+      "definition": "A ceremony with specific forms and responsibilities in different Northwest Coast communities. In the Kwakwaka’wakw account here, invited people witness consequential events and gifts acknowledge their role."
+    },
+    {
+      "id": "experimental-archaeology",
+      "name": "experimental archaeology",
+      "definition": "Testing an interpretation by reproducing a material, technique or activity under stated conditions. An experiment supports a possibility; it is not a recovered ancient event."
+    },
+    {
+      "id": "archaeological-tradition",
+      "name": "archaeological tradition",
+      "definition": "A research label for related material practices across places or times. It is not automatically the name of one people, language or state."
+    },
+    {
+      "id": "biomarker",
+      "name": "biomarker",
+      "definition": "A detectable chemical or biological trace used as evidence of a substance or process. Its interpretation depends on the method, sample and alternative explanations."
+    },
+    {
+      "id": "kiva",
+      "name": "kiva",
+      "definition": "A Pueblo ceremonial space with varied forms and histories. Archaeological identification and living community knowledge both matter; not every circular room has an identical meaning."
+    },
+    {
+      "id": "proxy",
+      "name": "proxy",
+      "definition": "An indirect measurement used to investigate something not directly counted or observed. A lake-sediment signal, for example, requires interpretation before it becomes a population claim."
+    },
+    {
+      "id": "chiefdom",
+      "name": "chiefdom",
+      "definition": "An analytical term for a society with ranked authority and leadership above a local community. Its use for an archaeological case is an interpretation, not a surviving official name."
+    },
+    {
+      "id": "stonepaste",
+      "name": "stonepaste",
+      "definition": "A ceramic body containing abundant crushed quartz with clay and glassy material. It differs from porcelain even when makers adapt similar designs."
+    },
+    {
+      "id": "tughra",
+      "name": "tughra",
+      "definition": "A calligraphic emblem of an Ottoman sultan’s authority used on official documents and other media. Drawing and ornament could involve specialized makers."
+    },
+    {
+      "id": "forced-relocation",
+      "name": "forced relocation",
+      "definition": "Movement imposed on people by authorities or armed power. Later achievements or privileges do not make the original movement voluntary."
+    },
+    {
+      "id": "caravansary",
+      "name": "caravansary",
+      "definition": "An establishment offering space and facilities for traveling merchants and their goods, often linked to urban markets or overland travel."
+    },
+    {
+      "id": "madrasa",
+      "name": "madrasa",
+      "definition": "An institution of learning in Islamic societies, with varied subjects, forms and patronage across time and place. A building does not by itself reveal every student’s experience."
+    },
+    {
+      "id": "lacquer",
+      "name": "lacquer",
+      "definition": "A protective, often glossy surface finish applied over painted or decorated material. The Iranian case here uses painted papier-mâché and pasteboard."
+    },
+    {
+      "id": "sovereignty",
+      "name": "sovereignty",
+      "definition": "A claim to supreme political authority, including independence from another state. A declaration, recognition by other states and effective control can have different dates and histories."
+    },
+    {
+      "id": "federation",
+      "name": "federation",
+      "definition": "A political arrangement in which powers are divided between a central government and constituent governments. Its actual distribution of authority must be read in the particular constitution or agreement."
+    },
+    {
+      "id": "standardization",
+      "name": "Standardization",
+      "definition": "An attempt to establish common units, forms or procedures. An announced standard and the way people use it are separate historical questions."
+    },
+    {
+      "id": "dhamma",
+      "name": "Dhamma",
+      "definition": "In Ashoka’s messages, a moral and administrative program concerning conduct and government. Its uses need context and are not identical with a complete statement of Buddhist doctrine."
+    },
+    {
+      "id": "deme",
+      "name": "Deme",
+      "definition": "A local civic community in ancient Attica. The late-fourth-century Athenian account describes scrutiny and enrollment of eligible young men among its members."
+    },
+    {
+      "id": "stratigraphy",
+      "name": "Stratigraphy",
+      "definition": "The sequence and relationships of archaeological layers and features. An object’s manufacture date and the date or history of the deposit containing it are different questions."
+    },
+    {
+      "id": "endowment",
+      "name": "Endowment",
+      "definition": "A grant of land, property or resources intended to support an institution over time. Its terms and the work supplying that support need their own evidence."
+    },
+    {
+      "id": "mita",
+      "name": "Mit’a",
+      "definition": "Rotating labor service required by Inca authorities. It differs from permanent or semi-permanent resettlement; provisioning does not by itself establish equal choice or returns."
+    },
+    {
+      "id": "jeli",
+      "name": "Jeli / jeliw",
+      "definition": "A Mande specialist in oral traditions and performance, with roles including genealogy, praise and diplomacy. Jeliw is plural; particular performances have their own dates, audiences and purposes."
+    },
+    {
+      "id": "provisioning",
+      "name": "Provisioning",
+      "definition": "Organizing and supplying the food and other materials needed by people or institutions. Storage, preparation and delivery involve different tasks."
+    },
+    {
+      "id": "shicra",
+      "name": "Shicra",
+      "definition": "A woven plant-fiber bag. Stone-filled examples occur in Caral’s construction deposits; their presence alone does not establish how every worker was recruited or required to contribute."
+    },
+    {
+      "id": "midden",
+      "name": "Midden",
+      "definition": "An accumulation of discarded material and occupation deposits. Its contents and layers can help investigate activities, but need their own context and chronology."
+    },
+    {
+      "id": "temper",
+      "name": "Temper",
+      "definition": "Non-clay material, such as sand or plant fibers, mixed with clay to change how pottery behaves. Its composition can help investigate material sources, without identifying a particular carrier or voyage."
+    },
+    {
+      "id": "type-site",
+      "name": "Type-site",
+      "definition": "A place whose name supplies the label for an archaeological category. Similar finds elsewhere still need their own dates and contexts; the name alone does not prove that practices spread outward from that place."
+    },
+    {
+      "id": "lidar",
+      "name": "LiDAR",
+      "definition": "Light detection and ranging: measurements of light pulses used to model elevation. A ground-surface model can reveal forms, while excavation and dating help investigate their histories."
+    },
+    {
+      "id": "faience",
+      "name": "Faience",
+      "definition": "A manufactured, usually quartz-rich material with a glazed surface. Ancient Egyptian and Kushite faience is distinct from a granite carving or ordinary clay pottery; a mould and production debris can help investigate its making."
+    },
+    {
+      "id": "shabti",
+      "name": "Shabti",
+      "definition": "A funerary figure intended to substitute for work required of the deceased in the afterlife. Its name, material, inscription and find context need their own evidence; a royal example does not represent every household’s beliefs."
+    },
+    {
+      "id": "plain-weave",
+      "name": "Plain weave",
+      "definition": "A way of making cloth. The crosswise thread (weft) passes over one lengthwise thread (warp) and under the next. On the return row, the pattern reverses. A diagram shows the method. Identifying the weave of a particular cloth requires examining its threads."
+    },
+    {
+      "id": "residential-compound",
+      "name": "Residential compound",
+      "definition": "A connected group of rooms and open spaces used for living and other activities. An archaeological compound may include production, storage and gathering; its walls do not by themselves identify one nuclear family or its legal status."
+    },
+    {
+      "id": "find-context",
+      "name": "Find context",
+      "definition": "The recorded place and associations in which something was found, including its position, surrounding material and relationship to other features. A regional style or present museum location does not supply a precise archaeological find context."
+    },
+    {
+      "id": "relief",
+      "name": "Relief",
+      "definition": "An image carved or modelled so that forms project from a background surface. A relief can organize a story on that surface; its interpretation and use require further evidence."
+    },
+    {
+      "id": "iconoclasm",
+      "name": "Iconoclasm",
+      "definition": "Opposition to or destruction of images, especially in religious settings. Byzantine disputes involved particular periods and policies; the term does not describe every Christian view about images."
+    },
+    {
+      "id": "masonry",
+      "name": "Masonry",
+      "definition": "Building with stone, brick or similar units. Facing stones and a rubble core can perform different tasks within one wall; its materials alone do not identify every builder or the institution organizing the work."
+    },
+    {
+      "id": "workshop",
+      "name": "Workshop",
+      "definition": "A setting or group in which people produce or prepare work. Size, training, ownership and the division of tasks vary; a catalogue’s workshop attribution does not identify every maker."
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "ming-workshops--ottoman-workshops",
+      "subjects": ["ming-workshops", "ottoman-workshops"],
+      "question": "What distinguishes evidence of court demand from evidence of making and buying?"
+    },
+    {
+      "id": "chaco-communities--ocmulgee-council",
+      "subjects": ["chaco-communities", "ocmulgee-council"],
+      "question": "How can building records and particular samples explain work without dating a whole people?"
+    },
+    {
+      "id": "byzantium--borobudur",
+      "subjects": ["byzantium", "borobudur"],
+      "question": "How can evidence for making, supporting and maintaining a place reveal different institutions?"
+    },
+    {
+      "id": "byzantium--maya-vessel",
+      "subjects": ["byzantium", "maya-vessel"],
+      "question": "How do a portable image, an owner’s name and separate work contexts support different explanations?"
+    },
+    {
+      "id": "dongson--hopewell-earthworks",
+      "subjects": ["dongson", "hopewell-earthworks"],
+      "question": "How do documented deposits and later place records change an explanation of shared material forms?"
+    },
+    {
+      "id": "colima--hopewell-earthworks",
+      "subjects": ["colima", "hopewell-earthworks"],
+      "question": "What can visible form, an excavated association and a later reconstruction each establish about a place?"
+    },
+    {
+      "id": "chavin-textile--moche",
+      "subjects": ["chavin-textile", "moche"],
+      "question": "Which observations support a making technique, and which further evidence could locate its makers?"
+    },
+    {
+      "id": "eastern-han--colima",
+      "subjects": ["eastern-han", "colima"],
+      "question": "What does a model building preserve about the world of its makers?"
+    },
+    {
+      "id": "aksum--portuguese-voyage",
+      "subjects": ["aksum", "portuguese-voyage"],
+      "question": "How does a port connect inland power to maritime exchange?"
+    },
+    {
+      "id": "teotihuacan--moche",
+      "subjects": ["teotihuacan", "moche"],
+      "question": "What kinds of work become visible through surviving material?"
+    },
+    {
+      "id": "dongson--shang-ritual",
+      "subjects": ["dongson", "shang-ritual"],
+      "question": "How can bronze communicate ideas as well as display skilled work?"
+    },
+    {
+      "id": "benin-ivory--ming-workshops",
+      "subjects": ["benin-ivory", "ming-workshops"],
+      "question": "How do makers respond to patrons and distant audiences?"
+    },
+    {
+      "id": "kongo-translation--mughal-books",
+      "subjects": ["kongo-translation", "mughal-books"],
+      "question": "How are religious ideas remade through local languages and materials?"
+    },
+    {
+      "id": "manila-network--ming-workshops",
+      "subjects": ["manila-network", "ming-workshops"],
+      "question": "What changes when crafted objects circulate across an ocean?"
+    },
+    {
+      "id": "kerma-potters--olmec",
+      "subjects": ["kerma-potters", "olmec"],
+      "question": "How do material choices reveal skills and connections?"
+    },
+    {
+      "id": "lapita--polynesian-voyaging",
+      "subjects": ["lapita", "polynesian-voyaging"],
+      "question": "What evidence supports an account of movement across water?"
+    },
+    {
+      "id": "taharqo--maya-vessel",
+      "subjects": ["taharqo", "maya-vessel"],
+      "question": "How can an object express rank and religious authority?"
+    },
+    {
+      "id": "chavin-textile--inca-weaving",
+      "subjects": ["chavin-textile", "inca-weaving"],
+      "question": "How do textiles join skilled work to social meaning?"
+    },
+    {
+      "id": "byzantium--tang-city",
+      "subjects": ["byzantium", "tang-city"],
+      "question": "How do capitals and institutions change within long political histories?"
+    },
+    {
+      "id": "song-art--inca-weaving",
+      "subjects": ["song-art", "inca-weaving"],
+      "question": "How can we test a claim that an obligation benefited the people doing the work?"
+    },
+    {
+      "id": "portuguese-voyage--benin-ivory",
+      "subjects": ["portuguese-voyage", "benin-ivory"],
+      "question": "How did makers and intermediaries shape an encounter beyond a patron’s or captain’s instructions?"
+    },
+    {
+      "id": "angkor--dholavira",
+      "subjects": ["angkor", "dholavira"],
+      "question": "How does water shape a city’s work and organization?"
+    },
+    {
+      "id": "poverty-point--hopewell-earthworks",
+      "subjects": ["poverty-point", "hopewell-earthworks"],
+      "question": "What does coordinated earthmoving show, and what remains uncertain?"
+    },
+    {
+      "id": "chaco-communities--cahokia-city",
+      "subjects": ["chaco-communities", "cahokia-city"],
+      "question": "How can archaeology test explanations of gathering and change?"
+    },
+    {
+      "id": "bering-sea-carvers--inuinnait-sewing",
+      "subjects": ["bering-sea-carvers", "inuinnait-sewing"],
+      "question": "How do tools and clothing carry skilled knowledge?"
+    },
+    {
+      "id": "ozette-makah--kwakwakawakw-potlatch",
+      "subjects": ["ozette-makah", "kwakwakawakw-potlatch"],
+      "question": "How do surviving belongings relate to community knowledge and authority?"
+    },
+    {
+      "id": "ocmulgee-council--wendat-laine",
+      "subjects": ["ocmulgee-council", "wendat-laine"],
+      "question": "What can a public building and a village reveal about collective life?"
+    },
+    {
+      "id": "haudenosaunee-canandaigua--cherokee-print",
+      "subjects": ["haudenosaunee-canandaigua", "cherokee-print"],
+      "question": "How do words and records carry political responsibilities?"
+    },
+    {
+      "id": "kerma-potters--taharqo",
+      "subjects": ["kerma-potters", "taharqo"],
+      "question": "What can different materials and find contexts tell us about skilled work and institutions?"
+    }
+  ]
+}

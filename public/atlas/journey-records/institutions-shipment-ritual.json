@@ -1,0 +1,39 @@
+{
+  "journey": "institutions-shipment-ritual",
+  "revision": "8a7058aba180db331da8d91bd960c2605a0b85afd64c0f4637ca7a3f775a53e3",
+  "stops": [
+    {
+      "index": 0,
+      "narrative": "Use the evidence diagram to identify recovered association, laboratory inference and unresolved itinerary. Explain why none is a substitute for the others."
+    },
+    {
+      "index": 1,
+      "narrative": "Keep the capital’s phases separate from Gordion’s environmental proxy. Ask what would connect a crop stress with a dated institutional decision."
+    },
+    {
+      "index": 2,
+      "narrative": "Compare bone and gong, and follow the casting/divination guide. Distinguish visible features, a catalogue attribution and a claim that needs a known findspot or translation."
+    }
+  ],
+  "conclusion": "A secure association does not settle origins; a dated stress does not decide causation; a ritual object does not preserve every participant’s experience. State one supported mechanism and identify the evidence still needed to connect it with particular people.",
+  "evidence": {
+    "prompt": "Which claim respects the different records?",
+    "options": [
+      {
+        "text": "The wreck, proxy and ritual objects support different arguments; each needs contextual evidence to identify particular people, decisions or routes.",
+        "supported": true,
+        "feedback": "Yes. A recovered association, moisture proxy and museum attribution are different kinds of knowledge. Match the inference to the source and preserve its limits."
+      },
+      {
+        "text": "The measured drought proves the Uluburun ship sank and Shang society ended in the same worldwide event.",
+        "supported": false,
+        "feedback": "The wreck is earlier, Shang’s conventional endpoint is later, and the drought source cannot establish direct causation even for the Hittite transformation."
+      },
+      {
+        "text": "A possible Anyang attribution and a suggested tin source can both be treated as documented excavation findspots.",
+        "supported": false,
+        "feedback": "The documented wreck location is different from an inferred material origin or a qualified museum place attribution. Keep those labels separate."
+      }
+    ]
+  }
+}

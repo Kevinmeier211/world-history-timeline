@@ -1,0 +1,188 @@
+[
+  {
+    "id": "teotihuacan",
+    "name": "Teotihuacan",
+    "interval": {
+      "start": -100,
+      "end": 800,
+      "label": "c. 100 BCE–800 CE",
+      "note": "Broad city chronology in Barnes’s essay; buildings and population changed within it.",
+      "precision": "approximate"
+    },
+    "coordinates": [-98.84, 19.69],
+    "geographicPrecision": "Archaeological city locator.",
+    "aliases": [],
+    "packs": ["C3", "C4", "C5"],
+    "claims": [
+      {
+        "id": "teo-dates",
+        "text": "The city’s broad chronology is approximately 100 BCE–800 CE.",
+        "citations": [
+          {
+            "source": "teotihuacan",
+            "locator": "Introduction"
+          }
+        ],
+        "status": "published",
+        "checkedBy": "Codex source consultation and self-review; not independent historian approval",
+        "checkedOn": "2026-10-26"
+      },
+      {
+        "id": "teo-mask",
+        "text": "The mask probably was not worn by living people.",
+        "citations": [
+          {
+            "source": "met-312736",
+            "locator": "Description: weight, perforations, closed eyes and mouth"
+          }
+        ],
+        "uncertainty": "Its proposed attachment and religious meanings remain interpretations.",
+        "status": "published",
+        "checkedBy": "Codex source consultation and self-review; not independent historian approval",
+        "checkedOn": "2026-10-26"
+      }
+    ],
+    "objectIds": ["met-312736"],
+    "dimensions": {
+      "production": {
+        "text": "Monuments and later apartment compounds required organized building; their dates distinguish phases of urban life.",
+        "citations": [
+          {
+            "source": "teotihuacan",
+            "locator": "Introduction"
+          }
+        ]
+      },
+      "evidence": {
+        "text": "Urban planning and objects survive more clearly than a sequence of named rulers.",
+        "citations": [
+          {
+            "source": "teotihuacan",
+            "locator": "City layout and political discussion"
+          }
+        ]
+      }
+    },
+    "question": "What can a city plan reveal about collective life?",
+    "returnPrompt": "Why should we separate a city’s history into changing phases?"
+  },
+  {
+    "id": "moche",
+    "name": "Moche communities",
+    "interval": {
+      "start": 1,
+      "end": 800,
+      "label": "1st–8th centuries CE",
+      "note": "Broad cultural flourishing; not a claim of one unchanging centralized state.",
+      "precision": "approximate"
+    },
+    "coordinates": [-79, -8.15],
+    "geographicPrecision": "Regional locator near the Moche valley; not the origin of every vessel.",
+    "aliases": ["Mochica"],
+    "packs": ["C4", "C5"],
+    "claims": [
+      {
+        "id": "moche-range",
+        "text": "Moche society flourished on the northern Peruvian coast during the first–eighth centuries CE.",
+        "citations": [
+          {
+            "source": "moche",
+            "locator": "Opening paragraph"
+          }
+        ],
+        "status": "published",
+        "checkedBy": "Codex source consultation and self-review; not independent historian approval",
+        "checkedOn": "2026-10-26"
+      },
+      {
+        "id": "moche-snake",
+        "text": "The meaning of snakes on the selected bottle is uncertain.",
+        "citations": [
+          {
+            "source": "met-316721",
+            "locator": "Final descriptive paragraph"
+          }
+        ],
+        "status": "published",
+        "checkedBy": "Codex source consultation and self-review; not independent historian approval",
+        "checkedOn": "2026-10-26"
+      }
+    ],
+    "objectIds": ["met-316721", "met-307474"],
+    "dimensions": {
+      "production": {
+        "text": "Irrigation supported coastal communities; specialized potters used modeled and painted imagery.",
+        "citations": [
+          {
+            "source": "moche",
+            "locator": "Opening and production paragraphs"
+          }
+        ]
+      },
+      "evidence": {
+        "text": "Vessels preserve technical and imaginative choices, often with contexts of use or burial rather than a full account of all households.",
+        "citations": [
+          {
+            "source": "moche",
+            "locator": "Uses of ceramics"
+          }
+        ]
+      }
+    },
+    "question": "What can a pot show about life—and imagination?",
+    "returnPrompt": "How would you test whether a painted scene shows an everyday activity or a ritual?"
+  },
+  {
+    "id": "chavin-textile",
+    "name": "A Chavín textile: traveling images?",
+    "interval": {
+      "start": -400,
+      "end": -200,
+      "label": "Fourth–third centuries BCE",
+      "note": "Current object catalogue dating, reflecting research cited in 2023; not the lifespan of a Chavín state.",
+      "precision": "approximate"
+    },
+    "coordinates": [-75.2, -14.5],
+    "geographicPrecision": "Broad reported regional origin, not an excavated site coordinate.",
+    "aliases": ["Chavin", "Andean textiles"],
+    "packs": ["C3"],
+    "claims": [
+      {
+        "id": "chavin-provenance",
+        "text": "The southern coastal origin is reported rather than a secure excavation context.",
+        "citations": [
+          {
+            "source": "met-315784",
+            "locator": "Geography and description"
+          }
+        ],
+        "status": "published",
+        "checkedBy": "Codex source consultation and self-review; not independent historian approval",
+        "checkedOn": "2026-10-26"
+      }
+    ],
+    "objectIds": ["met-315784"],
+    "dimensions": {
+      "evidence": {
+        "text": "A portable textile with a reported regional origin supports iconographic comparison more securely than a precise travel route.",
+        "citations": [
+          {
+            "source": "met-315784",
+            "locator": "Description and provenance"
+          }
+        ]
+      },
+      "production": {
+        "text": "Cotton and painted mineral pigments combined textile making with image making.",
+        "citations": [
+          {
+            "source": "met-315784",
+            "locator": "Medium and description"
+          }
+        ]
+      }
+    },
+    "question": "How might a portable image connect places?",
+    "returnPrompt": "What could turn a proposed movement of imagery into a demonstrated connection?"
+  }
+]

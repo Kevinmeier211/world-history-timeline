@@ -1,0 +1,43 @@
+{
+  "journey": "west-central-workshops",
+  "revision": "3714da0706bcf48f6e278563465236fd9ce8bb73d1c68f221aff746f92aa1f38",
+  "stops": [
+    {
+      "index": 0,
+      "narrative": "Separate Sa‘di’s poem, copying likely in Herat and painting probably in Bukhara. Keep the catalogue’s uncertainty visible."
+    },
+    {
+      "index": 1,
+      "narrative": "Inspect the birds on the Iznik dish, then choose the tughra. Compare material, use and specialized work rather than treating every object as a palace commission."
+    },
+    {
+      "index": 2,
+      "narrative": "Read the carpet as costly craft within a wider silk economy. Bring New Julfa’s 1604 forced relocation into the account, and compare state patronage with the Ottoman case."
+    },
+    {
+      "index": 3,
+      "narrative": "Open the lacquer case and its additional views. Its date falls after Karim Khan’s death. A practical object and an idealized courtly image do not establish the same facts."
+    }
+  ],
+  "conclusion": "Courts could commission beautiful work while makers also worked for markets and urban institutions. Silk connected farming, skilled production and commerce with coercion and unequal power. A literary painting, official emblem and practical case reveal different things; none can stand alone for everyone’s experience.",
+  "evidence": {
+    "prompt": "Which account best respects both the silk evidence and the history of New Julfa?",
+    "options": [
+      {
+        "text": "Luxury production involved several forms of work, and New Julfa’s later commercial importance does not make the 1604 deportation voluntary.",
+        "supported": true,
+        "feedback": "The workshop account identifies multiple producers and skills. Ghougassian separately documents forced relocation, later settlement and unequal privileges."
+      },
+      {
+        "text": "A beautiful carpet proves everyone involved was prosperous and free to move.",
+        "supported": false,
+        "feedback": "An object’s quality does not establish its makers’ freedom or the conditions of every worker. The documented deportation directly challenges that inference."
+      },
+      {
+        "text": "The name Polonaise proves the carpet was woven in Poland.",
+        "supported": false,
+        "feedback": "The catalogue explains the older misattribution and identifies Iranian production centers, while leaving this individual carpet’s precise workshop unresolved."
+      }
+    ]
+  }
+}

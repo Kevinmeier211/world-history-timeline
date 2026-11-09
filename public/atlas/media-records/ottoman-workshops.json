@@ -1,0 +1,37 @@
+{
+  "subject": "ottoman-workshops",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "met-451490",
+      "caption": "The catalogue dates this Iznik dish around 1575–90. Its painted stonepaste is a local material and design tradition, not Chinese porcelain. The precise buyer and original occasion of use are not identified by this object record.",
+      "notice": [
+        "Find the two birds among the stems.",
+        "How does the design fit a round surface?"
+      ],
+      "creator": "Maker not recorded",
+      "place": "Iznik, present-day Türkiye",
+      "material": "Stonepaste; polychrome painted under transparent glaze",
+      "relevance": "Connects skilled ceramic work with both courtly tastes and wider markets.",
+      "datingNote": "Museum API envelopes are wider; the visible catalogue dates are retained.",
+      "additionalImages": ["/atlas/media/met-451490-1.webp"],
+      "additionalImageAlts": [
+        "Another overhead view of the dish, showing both birds, the flower stems and the blue border around the rim."
+      ]
+    },
+    {
+      "id": "met-449533",
+      "caption": "A tughra made authority visible on documents. The catalogue distinguishes the specialist who drew its standard form from the illuminator who decorated it. This surviving emblem does not establish how every recipient understood a decree.",
+      "notice": [
+        "Where does writing become a repeated shape?",
+        "What work might be needed to make many official documents?"
+      ],
+      "creator": "Maker not recorded",
+      "place": "Ottoman court; present-day Türkiye",
+      "material": "Ink, opaque watercolor, and gold on paper",
+      "relevance": "Makes administration, specialist labor and representation of sovereignty comparable.",
+      "datingNote": "Museum API envelopes are wider; the visible catalogue dates are retained.",
+      "additionalImages": []
+    }
+  ]
+}

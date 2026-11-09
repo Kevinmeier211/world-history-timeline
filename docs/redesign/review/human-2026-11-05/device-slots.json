@@ -1,0 +1,66 @@
+[
+  {
+    "id": "A03-IPHONE",
+    "setup": "Physical iPhone with Safari",
+    "checks": ["orientation", "touch targets", "zoom/reflow", "RT01", "RT05", "RT06"],
+    "status": "not_started",
+    "evaluator": null,
+    "candidateIdentity": null,
+    "observations": null
+  },
+  {
+    "id": "A03-ANDROID",
+    "setup": "Physical Android with Chrome",
+    "checks": ["orientation", "touch targets", "zoom/reflow", "RT01", "RT05", "RT06"],
+    "status": "not_started",
+    "evaluator": null,
+    "candidateIdentity": null,
+    "observations": null
+  },
+  {
+    "id": "A03-TABLET",
+    "setup": "Physical tablet; record OS and browser",
+    "checks": ["portrait/landscape", "text scaling", "RT02", "RT04", "RT06"],
+    "status": "not_started",
+    "evaluator": null,
+    "candidateIdentity": null,
+    "observations": null
+  },
+  {
+    "id": "A03-SR",
+    "setup": "Experienced screen-reader evaluator on their configured system",
+    "checks": [
+      "spoken headings/landmarks",
+      "reading order",
+      "dialog isolation",
+      "status/errors",
+      "RT01",
+      "RT02",
+      "RT03",
+      "RT04",
+      "RT05",
+      "RT06"
+    ],
+    "status": "not_started",
+    "evaluator": null,
+    "candidateIdentity": null,
+    "observations": null
+  },
+  {
+    "id": "A03-KEYBOARD",
+    "setup": "Keyboard/zoom evaluator on their configured system",
+    "checks": [
+      "visible/unobscured focus",
+      "no traps",
+      "actual 200/400 percent zoom",
+      "RT01",
+      "RT03",
+      "RT05",
+      "RT06"
+    ],
+    "status": "not_started",
+    "evaluator": null,
+    "candidateIdentity": null,
+    "observations": null
+  }
+]

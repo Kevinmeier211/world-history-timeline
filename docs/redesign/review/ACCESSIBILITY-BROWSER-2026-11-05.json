@@ -1,0 +1,501 @@
+{
+  "reviewed": "2026-11-05",
+  "scope": "A02 automated browser and accessibility matrix; human accessibility evaluation remains pending",
+  "result": "automated checks passed within the recorded scope",
+  "fullMatrix": {
+    "build": {
+      "/assets/index-BQgrLiJ4.js": "1fa98f7868a61f4f28d73cfbf38d8407982e434c40c4c28c7bd2ccb12794f1a1",
+      "/assets/index-BBL9d_T6.css": "d8ab142c01fa3fa2842ae54a049328a2f093a7d2e058d863bc5993ce4220aa68",
+      "/atlas/corpus.json": "e1a55385b2e242dbb9dcf865d94a0527fa4ed14396a2df0908d427bb5866cddd",
+      "/atlas/index.json": "872d0c6f440babdb2bb4ed73db565c4fa42afa41d724e5b6a78f100bd34cb670"
+    },
+    "hashesStable": true,
+    "suites": [
+      {
+        "engine": "chromium",
+        "script": "notebook-browser.mjs",
+        "status": 0,
+        "signal": null
+      },
+      {
+        "engine": "chromium",
+        "script": "learning-browser.mjs",
+        "status": 0,
+        "signal": null
+      },
+      {
+        "engine": "chromium",
+        "script": "accessibility-browser.mjs",
+        "status": 0,
+        "signal": null
+      },
+      {
+        "engine": "firefox",
+        "script": "notebook-browser.mjs",
+        "status": 0,
+        "signal": null
+      },
+      {
+        "engine": "firefox",
+        "script": "learning-browser.mjs",
+        "status": 0,
+        "signal": null
+      },
+      {
+        "engine": "firefox",
+        "script": "accessibility-browser.mjs",
+        "status": 0,
+        "signal": null
+      },
+      {
+        "engine": "webkit",
+        "script": "notebook-browser.mjs",
+        "status": 0,
+        "signal": null
+      },
+      {
+        "engine": "webkit",
+        "script": "learning-browser.mjs",
+        "status": 0,
+        "signal": null
+      },
+      {
+        "engine": "webkit",
+        "script": "accessibility-browser.mjs",
+        "status": 0,
+        "signal": null
+      },
+      {
+        "engine": "chromium",
+        "script": "browser-zoom.mjs",
+        "status": 0,
+        "signal": null
+      }
+    ],
+    "engines": [
+      {
+        "engine": "chromium",
+        "version": "156.0.8078.4",
+        "cases": 16,
+        "failures": 0,
+        "axeViolations": 0,
+        "keyboardTraversal": "Tab",
+        "recovery": {
+          "dossierLoadingAnnounced": true,
+          "dossierFailureAnnounced": "The researched dossier could not load. Try again.\n\nRetry dossier reading",
+          "dossierKeyboardRetry": true,
+          "dossierHeadingFocusPreserved": true,
+          "mediaRequests": 2,
+          "mediaKeyboardRetry": true
+        },
+        "receipt": "output/accessibility-2026-11-05/matrix-chromium.json"
+      },
+      {
+        "engine": "firefox",
+        "version": "157.0",
+        "cases": 16,
+        "failures": 0,
+        "axeViolations": 0,
+        "keyboardTraversal": "Tab",
+        "recovery": {
+          "dossierLoadingAnnounced": true,
+          "dossierFailureAnnounced": "The researched dossier could not load. Try again.\n\nRetry dossier reading",
+          "dossierKeyboardRetry": true,
+          "dossierHeadingFocusPreserved": true,
+          "mediaRequests": 2,
+          "mediaKeyboardRetry": true
+        },
+        "receipt": "output/accessibility-2026-11-05/matrix-firefox.json"
+      },
+      {
+        "engine": "webkit",
+        "version": "27.2",
+        "cases": 16,
+        "failures": 0,
+        "axeViolations": 0,
+        "keyboardTraversal": "Option+Tab (WebKit on macOS)",
+        "recovery": {
+          "dossierLoadingAnnounced": true,
+          "dossierFailureAnnounced": "The researched dossier could not load. Try again.\n\nRetry dossier reading",
+          "dossierKeyboardRetry": true,
+          "dossierHeadingFocusPreserved": true,
+          "mediaRequests": 2,
+          "mediaKeyboardRetry": true
+        },
+        "receipt": "output/accessibility-2026-11-05/matrix-webkit.json"
+      }
+    ],
+    "viewports": [
+      [320, 700],
+      [390, 844],
+      [768, 1024],
+      [1440, 900]
+    ],
+    "themes": ["light", "dark"],
+    "motion": ["no-preference", "reduce"],
+    "cases": 48,
+    "axeScope": "48 reading cases plus six 390px light/reduced search/save dialog cases; selected WCAG 2 A/AA, 2.1 AA and 2.2 AA rules",
+    "learningPerEngine": {
+      "activities": 8,
+      "savedResponses": 8,
+      "frozenSearchQueries": 40,
+      "activityPDFResponsesVerified": 8
+    },
+    "notebookRecovery": "Concurrent saves/revisions; drafts; damaged local storage preservation/export/backup; import preview and exact-field restoration after reload"
+  },
+  "realZoom": {
+    "engine": "chromium",
+    "version": "156.0.8078.4",
+    "method": "chrome.tabs.setZoom and getZoom in a task-owned persistent managed Chromium profile; fixed 1280 \u00d7 900 outer viewport, no pinch or viewport-scale emulation.",
+    "captureMethod": "CDP Page.captureScreenshot without a CSS clip; verified at native zoom and nonzero scroll against layout metrics.",
+    "factors": [1, 2, 4],
+    "fixedOuterViewport": [1280, 900],
+    "cssViewports": [
+      [1280, 900],
+      [640, 450],
+      [320, 225]
+    ],
+    "routeMeasurements": 24,
+    "dialogBoundsAndActions": 24,
+    "failures": [],
+    "receipt": "output/accessibility-2026-11-05/recheck-rHbF6DFC/browser-zoom.json",
+    "testedBuild": "index-rHbF6DFC.js; not repeated on the lazy-world successor"
+  },
+  "selectedVisualInspection": [
+    {
+      "file": "output/accessibility-2026-11-05/reader-chromium-390-light.png",
+      "finding": "Heading, reading question, loaded object and inspect control wrap within phone width."
+    },
+    {
+      "file": "output/accessibility-2026-11-05/reader-webkit-390-light.png",
+      "finding": "Loaded image and reading structure remain inside the narrow viewport."
+    },
+    {
+      "file": "output/accessibility-2026-11-05/recheck-rHbF6DFC/webkit320/reader-webkit-320-light.png",
+      "finding": "320px heading and question wrap without horizontal clipping; image paints after explicit decode."
+    },
+    {
+      "file": "output/accessibility-2026-11-05/zoom-reading-light-4x.png",
+      "finding": "Real 400% enlarges the reading and wraps the title; ordinary vertical scrolling is required."
+    },
+    {
+      "file": "output/accessibility-2026-11-05/recheck-rHbF6DFC/zoom-search-feedback-dark-4x.png",
+      "finding": "The year-zero correction is readable after internal vertical scrolling; no horizontal overflow. This is a screenshot review, not a human-user observation."
+    },
+    {
+      "file": "output/accessibility-2026-11-05/recheck-DWl9J7iV/world-recovered-webkit.png",
+      "finding": "390px recovered world heading, time control and regional reading fit without horizontal overflow."
+    },
+    {
+      "file": "output/accessibility-2026-11-05/recheck-DWl9J7iV/initial-image-stories-chromium.png",
+      "finding": "Gallery entrance and decoded first historical image render within the phone viewport."
+    }
+  ],
+  "harnessCorrections": [
+    "Wait for complete images with positive natural dimensions before decode; await decode before reader screenshot.",
+    "Use native Option+Tab for WebKit keyboard traversal on this host.",
+    "Capture native zoom through CDP compositor output because the Playwright CSS clip yielded blank images at 400% with nonzero scroll.",
+    "Await deferred search loading and capture feedback after scrolling it into view.",
+    "A fresh no-subject world document intentionally starts with native BODY focus. The first successor probe incorrectly required automatic heading focus after reload; corrected to verify visible world recovery, exact notebook bytes, native document focus and focused heading after subsequent in-app keyboard return. No product edit resulted."
+  ],
+  "limits": [
+    "No physical iPhone, Android or tablet sessions; managed WebKit is not a physical Safari device.",
+    "No spoken screen-reader test, experienced assistive-technology evaluation, physical keyboard-user observation or WCAG conformance claim.",
+    "Native zoom was measured only in managed Chromium; Firefox/WebKit viewport cases do not establish native browser zoom.",
+    "Responsive text-spacing checks measure horizontal overflow; meaningful reading order, unobscured focus across all content and usability require human judgment.",
+    "No hosted provider sign-in, deployment verification or physical print review.",
+    "Full 48-case matrix: BQgrLiJ4. Notebook async-lock regression and real zoom: rHbF6DFC. Latest DWl9J7iV: focused world loading/failure/recovery/paint plus 390px accessibility in all three engines. CSS/corpus/index hashes identical; intermediate receipts retained."
+  ],
+  "cleanup": {
+    "ownedBrowsersClosed": true,
+    "ownedLoopbackServerStopped": true,
+    "guard": "agent-heavy-run; one foreground process at a time for each matrix runner; shared two-slot limit respected"
+  },
+  "intermediateFocusedBuild": {
+    "build": {
+      "/assets/index-BICLXUZh.js": "310611bbcefd0388d6df609bd191e5d380b260d75b1b00be60b6fbe21a848800",
+      "/assets/index-BBL9d_T6.css": "d8ab142c01fa3fa2842ae54a049328a2f093a7d2e058d863bc5993ce4220aa68",
+      "/atlas/corpus.json": "e1a55385b2e242dbb9dcf865d94a0527fa4ed14396a2df0908d427bb5866cddd",
+      "/atlas/index.json": "872d0c6f440babdb2bb4ed73db565c4fa42afa41d724e5b6a78f100bd34cb670"
+    },
+    "hashesStable": true,
+    "changesSinceFullMatrix": "Navigation owner clears stale pointer origin when later focus moves elsewhere. Dedicated root navigation tests cover this change. CSS, corpus and index hashes remained identical.",
+    "focusedSuites": [
+      {
+        "engine": "chromium",
+        "suite": "accessibility-smoke",
+        "status": 0
+      },
+      {
+        "engine": "firefox",
+        "suite": "accessibility-smoke",
+        "status": 0
+      },
+      {
+        "engine": "webkit",
+        "suite": "accessibility-smoke",
+        "status": 0
+      },
+      {
+        "engine": "webkit",
+        "suite": "320px-paint-recheck",
+        "status": 0
+      },
+      {
+        "engine": "chromium",
+        "suite": "true-zoom",
+        "status": 0
+      }
+    ],
+    "receipt": "output/accessibility-2026-11-05/final-recheck/receipt.json"
+  },
+  "currentScriptHashes": {
+    "scripts/completion/cross-engine.mjs": "1d625a97432a0e154915c21f707e11860935bdd5e8bf5dee686eb3ca8a480554",
+    "scripts/completion/accessibility-browser.mjs": "b0361fecd59ba9c29df178c6fe21e9ccde7548a3270433950015297d12cf6624",
+    "scripts/completion/browser-zoom.mjs": "f21f1641662147c58d6d5762f36178a7841b6b252e48648aa87eecc750b53c4e",
+    "scripts/completion/learning-browser.mjs": "8487750eabe6c3d05dc6eefc368b693d5ec4c56e6527e3db2ce93ea91bc1c983",
+    "scripts/completion/notebook-browser.mjs": "2a9751e86e25cf31dd6d54c5a65ab49fd9f2c97c405e6682e1930c798005e980",
+    "scripts/completion/world-loading-browser.mjs": "f9426634c0b9ac46c35907d0cd5b86a5881e9871cc8715b5d9c5d3436b5aa005"
+  },
+  "previousFocusedBuild": {
+    "build": {
+      "/assets/index-rHbF6DFC.js": "c2d363341250a34530083dffaaf52263e343aa97da74a0453e66375fbb96346e",
+      "/assets/index-BBL9d_T6.css": "d8ab142c01fa3fa2842ae54a049328a2f093a7d2e058d863bc5993ce4220aa68",
+      "/atlas/corpus.json": "e1a55385b2e242dbb9dcf865d94a0527fa4ed14396a2df0908d427bb5866cddd",
+      "/atlas/index.json": "872d0c6f440babdb2bb4ed73db565c4fa42afa41d724e5b6a78f100bd34cb670"
+    },
+    "hashesStable": true,
+    "changesSinceFullMatrix": "Pointer-origin arbitration preserves WebKit ancestor-focus activation but respects subsequent focus elsewhere; stale async question-save completion cannot close a newer draft; submitted question fields are disabled during save; browser document titles reflect route. Dedicated root navigation tests cover pointer/focus/title changes. CSS, corpus and index hashes remained identical.",
+    "focusedSuites": [
+      {
+        "engine": "chromium",
+        "suite": "notebook-recovery",
+        "status": 0
+      },
+      {
+        "engine": "chromium",
+        "suite": "accessibility-smoke",
+        "status": 0
+      },
+      {
+        "engine": "firefox",
+        "suite": "notebook-recovery",
+        "status": 0
+      },
+      {
+        "engine": "firefox",
+        "suite": "accessibility-smoke",
+        "status": 0
+      },
+      {
+        "engine": "webkit",
+        "suite": "notebook-recovery",
+        "status": 0
+      },
+      {
+        "engine": "webkit",
+        "suite": "accessibility-smoke",
+        "status": 0
+      },
+      {
+        "engine": "webkit",
+        "suite": "320px-paint-recheck",
+        "status": 0
+      },
+      {
+        "engine": "chromium",
+        "suite": "true-zoom",
+        "status": 0
+      }
+    ],
+    "receipt": "output/accessibility-2026-11-05/recheck-rHbF6DFC/receipt.json",
+    "runner": "output/accessibility-2026-11-05/recheck-rHbF6DFC/runner.mjs",
+    "notebookRace": {
+      "engines": ["chromium", "firefox", "webkit"],
+      "result": "pass",
+      "method": "A second real tab holds chronos-notebook-write. The first tab submits a question and the browser lock query confirms the queued request. Submitted fields are disabled. Cancel and a newly edited draft occur before releasing the lock. The old note persists, the new dialog/question/answer/session draft survive, and no stale success message appears."
+    }
+  },
+  "latestVerifiedBuild": {
+    "build": {
+      "/assets/index-DWl9J7iV.js": "82eccad04d72696ad5906d8e62dd075599efebc5c52271bbb9386cce5012d596",
+      "/assets/index-BBL9d_T6.css": "d8ab142c01fa3fa2842ae54a049328a2f093a7d2e058d863bc5993ce4220aa68",
+      "/assets/WorldContext-R2PlYSqu.js": "9494036c4a6cb331fa12e51752fca90d925371e233b473ca4a97aafe248920b2",
+      "/atlas/corpus.json": "e1a55385b2e242dbb9dcf865d94a0527fa4ed14396a2df0908d427bb5866cddd",
+      "/atlas/index.json": "872d0c6f440babdb2bb4ed73db565c4fa42afa41d724e5b6a78f100bd34cb670"
+    },
+    "hashesStable": true,
+    "delta": "Explicit fetch priority on already-eager images; WorldContext/AtlasMap module loaded only on world entry. CSS, corpus and index hashes unchanged.",
+    "suites": [
+      {
+        "engine": "chromium",
+        "script": "world-loading-browser.mjs",
+        "status": 0
+      },
+      {
+        "engine": "chromium",
+        "script": "accessibility-browser.mjs",
+        "status": 0
+      },
+      {
+        "engine": "firefox",
+        "script": "world-loading-browser.mjs",
+        "status": 0
+      },
+      {
+        "engine": "firefox",
+        "script": "accessibility-browser.mjs",
+        "status": 0
+      },
+      {
+        "engine": "webkit",
+        "script": "world-loading-browser.mjs",
+        "status": 0
+      },
+      {
+        "engine": "webkit",
+        "script": "accessibility-browser.mjs",
+        "status": 0
+      }
+    ],
+    "receipt": "output/accessibility-2026-11-05/recheck-DWl9J7iV/receipt.json",
+    "runner": "output/accessibility-2026-11-05/recheck-DWl9J7iV/runner.mjs",
+    "engines": [
+      {
+        "engine": "chromium",
+        "version": "156.0.8078.4",
+        "checks": [
+          {
+            "flow": "deferred-world-code",
+            "requestsBeforeEntry": 0
+          },
+          {
+            "flow": "world-loading-recovery",
+            "loading": true,
+            "failureHeadingFocus": true,
+            "timelineFallback": true,
+            "reloadRecovered": true,
+            "reloadFocus": {
+              "tag": "BODY",
+              "nativeDocumentFocus": true,
+              "connected": true
+            },
+            "inAppReturnHeadingFocus": true,
+            "notebookBytesPreserved": true,
+            "chunkRequests": 3,
+            "bounds": {
+              "width": 390,
+              "scrollWidth": 390
+            },
+            "title": "Meanwhile elsewhere \u00b7 200 CE \u00b7 Chronos Atlas"
+          },
+          {
+            "flow": "initial-image",
+            "route": "timeline",
+            "loaded": true,
+            "fetchPriority": "high",
+            "source": "/atlas/media/49519-thumb.webp"
+          },
+          {
+            "flow": "initial-image",
+            "route": "stories",
+            "loaded": true,
+            "fetchPriority": "high",
+            "source": "/atlas/media/317600-thumb.webp"
+          }
+        ],
+        "failures": []
+      },
+      {
+        "engine": "firefox",
+        "version": "157.0",
+        "checks": [
+          {
+            "flow": "deferred-world-code",
+            "requestsBeforeEntry": 0
+          },
+          {
+            "flow": "world-loading-recovery",
+            "loading": true,
+            "failureHeadingFocus": true,
+            "timelineFallback": true,
+            "reloadRecovered": true,
+            "reloadFocus": {
+              "tag": "BODY",
+              "nativeDocumentFocus": true,
+              "connected": true
+            },
+            "inAppReturnHeadingFocus": true,
+            "notebookBytesPreserved": true,
+            "chunkRequests": 3,
+            "bounds": {
+              "width": 390,
+              "scrollWidth": 390
+            },
+            "title": "Meanwhile elsewhere \u00b7 200 CE \u00b7 Chronos Atlas"
+          },
+          {
+            "flow": "initial-image",
+            "route": "timeline",
+            "loaded": true,
+            "fetchPriority": "high",
+            "source": "/atlas/media/49519-thumb.webp"
+          },
+          {
+            "flow": "initial-image",
+            "route": "stories",
+            "loaded": true,
+            "fetchPriority": "high",
+            "source": "/atlas/media/317600-thumb.webp"
+          }
+        ],
+        "failures": []
+      },
+      {
+        "engine": "webkit",
+        "version": "27.2",
+        "checks": [
+          {
+            "flow": "deferred-world-code",
+            "requestsBeforeEntry": 0
+          },
+          {
+            "flow": "world-loading-recovery",
+            "loading": true,
+            "failureHeadingFocus": true,
+            "timelineFallback": true,
+            "reloadRecovered": true,
+            "reloadFocus": {
+              "tag": "BODY",
+              "nativeDocumentFocus": true,
+              "connected": true
+            },
+            "inAppReturnHeadingFocus": true,
+            "notebookBytesPreserved": true,
+            "chunkRequests": 3,
+            "bounds": {
+              "width": 390,
+              "scrollWidth": 390
+            },
+            "title": "Meanwhile elsewhere \u00b7 200 CE \u00b7 Chronos Atlas"
+          },
+          {
+            "flow": "initial-image",
+            "route": "timeline",
+            "loaded": true,
+            "fetchPriority": "high",
+            "source": "/atlas/media/49519-thumb.webp"
+          },
+          {
+            "flow": "initial-image",
+            "route": "stories",
+            "loaded": true,
+            "fetchPriority": "high",
+            "source": "/atlas/media/317600-thumb.webp"
+          }
+        ],
+        "failures": []
+      }
+    ]
+  }
+}

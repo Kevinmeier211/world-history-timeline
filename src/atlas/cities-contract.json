@@ -1,0 +1,62 @@
+{
+  "finalized": true,
+  "purpose": "Exact reviewed local cities scope, pinned before candidate validation; all validation remains required.",
+  "selectedSubjects": ["isfahan-silk", "bukhara-books", "zand-iran"],
+  "newSourceIDs": [
+    "bukhara-book-material-tasks",
+    "bukhara-irrigation-economy",
+    "bukhara-juybari-endowments",
+    "bukhara-manuscript-work-2023",
+    "iran-lacquer-supports",
+    "isfahan-bridges",
+    "isfahan-square-unesco",
+    "isfahan-vank-tentative",
+    "julfa-anna-letter-1747",
+    "julfa-merchant-correspondence-2026"
+  ],
+  "renewedSourceIDs": [
+    "bukhara-monuments",
+    "isfahan-capital",
+    "julfa-forced",
+    "met-451028",
+    "met-452671",
+    "met-681122",
+    "safavid-silk",
+    "zand-history",
+    "zand-karim"
+  ],
+  "newIDsByCollection": {
+    "contexts": [
+      "isfahan-julfa-households-context",
+      "bukhara-learning-water-work-context",
+      "zand-political-context"
+    ],
+    "comparisons": ["isfahan-silk--bukhara-books", "isfahan-silk--zand-iran"],
+    "journeys": ["households-books-city-work"],
+    "glossary": [],
+    "relations": []
+  },
+  "mediaChanges": {
+    "met-681122": {
+      "alt": "Bird-and-flower decorated case shown with its mirror exposed and a fitted drawer partly extended.",
+      "caption": "Muhammad Baqir’s Iranian case is dated 1204 AH/1789 CE. These views show outer birds and flowers, a mirror and fitted dressing storage. The catalogue also describes an inner-lid courtly gathering, which these photographs do not show. No secure Shiraz workshop, purchaser or actual depicted event is established.",
+      "printCaption": "Dated 1789, after Karim Khan’s death. These views show birds, flowers, a mirror and fitted storage. The catalogue’s inner-lid gathering is absent here; a secure Shiraz workshop remains unknown.",
+      "additionalImageAlts": [
+        "Birds among flowers and foliage on the bordered rectangular case lid.",
+        "Empty fitted drawer with shaped recesses for dressing implements and painted borders."
+      ]
+    }
+  },
+  "isfahanPoints": {
+    "isfahan-square-reference": [51.67777777777778, 32.65745],
+    "new-julfa-vank-reference": [51.655833333333334, 32.635]
+  },
+  "requiredFutureStartingStateFields": [
+    "startingCommit",
+    "startingCorpusSHA256",
+    "priorSourceStateSHA256",
+    "priorPortableResultSHA256"
+  ],
+  "optionalFutureStartingStateField": "priorReceiptPath; defaults to output/c7-workshops-2026-10-29",
+  "metadataReview": "Root directly inspected all three unchanged supplied native photographs and consulted the Met record; view-specific descriptions preserve the attributed unpictured catalogue gathering. No identity/date/rights/pixel change."
+}

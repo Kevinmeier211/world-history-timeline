@@ -1,0 +1,21 @@
+{
+  "subject": "nalanda",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "nalanda-brick-photo",
+      "caption": "Brick walls and doorways photographed in 2023. Ancient fabric and later conservation require documentation; this view does not identify Yijing’s room or show the monastery occupied.",
+      "notice": [
+        "Find a doorway, brick courses and open sky.",
+        "Distinguish a visible feature from an account of an ancient activity.",
+        "The modern photograph does not date every brick or reconstruct the missing roof."
+      ],
+      "creator": "Sumit Surai / Sumitsurai",
+      "place": "Nalanda, Bihar, India; Commons category identifies Monastery 1, without identifying a particular teaching room",
+      "material": "Digital photograph of conserved brick remains",
+      "representedDate": "Conserved archaeological remains with multiple construction and repair phases; individual bricks are not dated from appearance.",
+      "relevance": "Provides a directly inspectable modern view of architectural remains, alongside explicitly different dated textual evidence.",
+      "printWidthMm": 155
+    }
+  ]
+}

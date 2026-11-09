@@ -1,0 +1,1113 @@
+{
+  "date": "2026-11-04",
+  "inputCorpusSHA256": "ab07b81d6150eb754552346cc4ce8655af5ab600ffeff8107bbd6b6ec3c82900",
+  "scope": "Individual author-side editorial reads, with targeted verification of consequential claims and the recorded consultation scopes for other passages. Coverage of eight rubric fields does not certify every source, image right, or historical interpretation.",
+  "cases": [
+    {
+      "id": "benin-ivory",
+      "chapter": "C7",
+      "rubric": {
+        "orientation": "Benin City and an Edo saltcellar give the opening question a specific setting.",
+        "explanation": "The supports and European dress connect carving choices to the court’s patronage and an export audience.",
+        "evidence": "The museum describes specialist guilds under palace control, ceremonial uses and royal patronage. The saltcellar itself has a qualified court attribution.",
+        "chronology_geography": "The catalogue range c.1525–1600, 1897 invasion and 1972 accession are three different pieces of history.",
+        "perspective": "The reading leaves the unnamed maker, buyer and intermediaries open.",
+        "reading": "The master-name explanation makes attribution intelligible. The provenance paragraph correctly requires evidence specific to this object.",
+        "activity": "Seeing some figures and reading the total in a catalogue supplies two distinguishable evidence cards.",
+        "connections": "The Benin court context explains authority behind the object. Compare how patrons and makers shaped a commission."
+      },
+      "evidence": [
+        {
+          "id": "benin-court-guilds",
+          "url": "https://www.nms.ac.uk/discover-catalogue/the-court-arts-and-history-of-the-kingdom-of-benin",
+          "locator": "National Museums Scotland, Benin’s royal craft guilds, first two paragraphs",
+          "finding": "The museum describes specialist guilds under palace control, ceremonial uses and royal patronage. The saltcellar itself has a qualified court attribution."
+        }
+      ],
+      "reviewedSections": [
+        "Look at the work supporting the bowl",
+        "A court sustained specialized production",
+        "A customer’s request still needed a maker’s decisions",
+        "Exchange changed the court’s material possibilities"
+      ],
+      "reviewedDeeperReading": [
+        "Follow an attribution without turning it into a person",
+        "Distinguish an export object from a later collection event",
+        "Bring missing work into the question"
+      ],
+      "familyActivity": "Make three kinds of evidence cards",
+      "chapterContext": ["benin-court-context"],
+      "defaultComparison": "benin-ivory--ming-workshops",
+      "followups": [],
+      "fixes": [],
+      "comparisonQuestion": "How do makers respond to patrons and distant audiences?"
+    },
+    {
+      "id": "manila-network",
+      "chapter": "C7",
+      "rubric": {
+        "orientation": "The Acapulco locator and silver/porcelain question introduce a multistage network.",
+        "explanation": "Shipyards, provisioning and the 1595 wreck make transport depend on actual labor and vessels.",
+        "evidence": "Fajardo attributes damage to removal of people from cultivation. Pineda’s separate report concerns skills, yards and wages. Both are colonial administrators’ accounts.",
+        "chronology_geography": "The 1595 wreck, later Mexican jar and 1726 register stay separate. Schematic port links do not reconstruct individual voyages.",
+        "perspective": "The Coast Miwok archaeological context supports locally situated questions. Proposed uses of fragments retain their status as interpretations.",
+        "reading": "The account explains the gap between a named consignment and a complete cargo total.",
+        "activity": "The later earthenware jar and wreck porcelain give a child a concrete reason to separate observation from cargo identification.",
+        "connections": "The Pacific context supports comparison of trading systems. Each object still needs its own acquisition and movement evidence."
+      },
+      "evidence": [
+        {
+          "id": "manila-shipbuilding-1618-1619",
+          "url": "https://www.gutenberg.org/files/15564/15564-h/15564-h.htm",
+          "locator": "Fajardo letter, paragraph on withdrawal from fields. Pineda, Philippine ships and shipbuilding, opening occupational list",
+          "finding": "Fajardo attributes damage to removal of people from cultivation. Pineda’s separate report concerns skills, yards and wages. Both are colonial administrators’ accounts."
+        }
+      ],
+      "reviewedSections": [
+        "Moving goods required several kinds of work",
+        "Royal construction placed burdens on communities",
+        "Follow one interrupted voyage",
+        "A later jar is another episode",
+        "A registered consignment gives a narrower connection"
+      ],
+      "reviewedDeeperReading": [
+        "An official’s criticism has a purpose",
+        "A fragment has more than one possible explanation",
+        "A shipping record has its own omissions"
+      ],
+      "familyActivity": "One jar, two dates and a question about work",
+      "chapterContext": ["manila-ships-people-context"],
+      "defaultComparison": "manila-network--ming-workshops",
+      "followups": [],
+      "fixes": [],
+      "comparisonQuestion": "What changes when crafted objects circulate across an ocean?"
+    },
+    {
+      "id": "mughal-books",
+      "chapter": "C7",
+      "rubric": {
+        "orientation": "A painted Harivamsa leaf introduces Akbar’s court through a story a reader can first describe visually.",
+        "explanation": "The House of Books brings translation, calligraphy, binding and painting together.",
+        "evidence": "The V&A identifies Iranian directors, Hindustani artists, calligraphers, binders and illuminators. This supports the institutional account. It supplies no complete team for the selected leaf.",
+        "chronology_geography": "The leaf’s c.1590–95 date is separate from the sacred narrative and the history of later Razmnama copies.",
+        "perspective": "An elite preface and stylistic attributions leave much of the workshop’s labor and reception unknown.",
+        "reading": "Marginal attributions in a different manuscript give the adult reader a bounded way to explore specialization.",
+        "activity": "The raised arm, mountain and sheltered figures support the visual prompt. The explanatory capsule supplies names and dates.",
+        "connections": "The workshop context makes collaboration comparable across court books while keeping manuscript identities distinct."
+      },
+      "evidence": [
+        {
+          "id": "mughal-workshops-va",
+          "url": "https://www.vam.ac.uk/articles/the-arts-of-the-mughal-empire",
+          "locator": "V&A, The arts of the Mughal Empire, Akbar and the royal House of Books",
+          "finding": "The V&A identifies Iranian directors, Hindustani artists, calligraphers, binders and illuminators. This supports the institutional account. It supplies no complete team for the selected leaf."
+        }
+      ],
+      "reviewedSections": [
+        "A composition makes the story visible",
+        "Different skills made a book possible",
+        "Language and patronage shaped an audience",
+        "Teams and patrons changed"
+      ],
+      "reviewedDeeperReading": [
+        "A named role is not a recovered working day",
+        "A preface has a speaker and a purpose",
+        "Copies reach us through different histories"
+      ],
+      "familyActivity": "How does a picture make shelter visible?",
+      "chapterContext": ["mughal-books-workshop-context"],
+      "defaultComparison": "mughal-books--ottoman-workshops",
+      "followups": [],
+      "fixes": [],
+      "comparisonQuestion": "How do writing and decoration connect specialized work with patrons and audiences?"
+    },
+    {
+      "id": "banda-1621",
+      "chapter": "C7",
+      "rubric": {
+        "orientation": "Banda Besar, Neira and Rhun anchor the opening question about monopoly and coercion.",
+        "explanation": "Control over food, land and nutmeg cultivation links exclusive trade demands to displacement.",
+        "evidence": "The museum dates the visit to 1599, describes port dues and an existing Bandanese trading community, and places it before the founding of the VOC.",
+        "chronology_geography": "1621 is the campaign under investigation. The 2021 statement and the modern island locators have their own dates.",
+        "perspective": "The attributed Wandan protest and Farid’s position are separate contemporary voices. The dossier respects explicitly restricted ritual material.",
+        "reading": "The colonial-source and contemporary-remembrance sections explain why these records answer different questions.",
+        "activity": "The two cards supply speaker, date and decision. The activity avoids asking children to reenact violence or speak for survivors.",
+        "connections": "The food-and-displacement context supplies an intelligible comparison with other colonial trade cases."
+      },
+      "evidence": [
+        {
+          "id": "banda-pala-1621",
+          "url": "https://pala.westfriesmuseum.nl/1621-2/1621-article/?lang=en",
+          "locator": "Westfries Museum, 1621 article, opening paragraphs on first Dutch visit",
+          "finding": "The museum dates the visit to 1599, describes port dues and an existing Bandanese trading community, and places it before the founding of the VOC."
+        }
+      ],
+      "reviewedSections": [
+        "Spice commerce supported a society",
+        "A monopoly claim became control over food and place",
+        "Plantation production depended on people’s knowledge",
+        "Living people continue to interpret the past"
+      ],
+      "reviewedDeeperReading": [
+        "Different records make different kinds of claims",
+        "Continuity does not give unrestricted access"
+      ],
+      "familyActivity": "Two dates, two purposes and a careful conclusion",
+      "chapterContext": ["banda-food-displacement-context"],
+      "defaultComparison": "banda-1621--manila-network",
+      "followups": [],
+      "fixes": [],
+      "comparisonQuestion": "Whose work is visible in these commercial and colonial records, and whose experience needs other evidence?"
+    },
+    {
+      "id": "factory-reform",
+      "chapter": "C8",
+      "rubric": {
+        "orientation": "The 1833 law and an 1836 inspection put the question about implementation into a specific industrial setting.",
+        "explanation": "Certificates, school vouchers and investigation explain how mill rules could operate.",
+        "evidence": "The debate records conflicting interpretations of enforcement, anticipated employment effects and calls for visits. Speeches supply arguments from participants rather than a national outcome.",
+        "chronology_geography": "Quarry Bank gives local background. The selected inspector account concerns a different workplace. The later museum machine illustrates spinning technique.",
+        "perspective": "The boys’ evidence reaches the reader through an inspector. Villiers’ argument cannot represent all parents.",
+        "reading": "The deeper text distinguishes the marginal and body hour figures and explains what an inspector did and did not report.",
+        "activity": "Sorting rule, action and outcome is answerable from the capsule. A refusal to infer a conviction is a valid response.",
+        "connections": "Comparison with workers in other mills is strongest on training and enforcement, with separate legal jurisdictions."
+      },
+      "evidence": [
+        {
+          "id": "factory-hansard-1836",
+          "url": "https://api.parliament.uk/historic-hansard/commons/1836/may/09/factories-regulations-bill",
+          "locator": "House of Commons, 9 May 1836, Factories Regulations Bill, exchange on inspectors’ reports",
+          "finding": "The debate records conflicting interpretations of enforcement, anticipated employment effects and calls for visits. Speeches supply arguments from participants rather than a national outcome."
+        }
+      ],
+      "reviewedSections": [
+        "Threads and machines still required people",
+        "Work and household arrangements were connected",
+        "The Act created a system of obligations",
+        "An inspector had to investigate what happened",
+        "Results needed comparison"
+      ],
+      "reviewedDeeperReading": [
+        "Read a provision before making a headline",
+        "Follow the chain from testimony to outcome",
+        "Parliament selected evidence for an argument"
+      ],
+      "familyActivity": "A rule is the start of a test",
+      "chapterContext": ["factory-work-inspection-context"],
+      "defaultComparison": "factory-reform--tomioka",
+      "followups": [],
+      "fixes": [],
+      "comparisonQuestion": "How can learning a production skill differ from putting worker protection into practice?"
+    },
+    {
+      "id": "tomioka",
+      "chapter": "C8",
+      "rubric": {
+        "orientation": "The October 1872 opening and a question about moving technology locate a specific model mill.",
+        "explanation": "Training reelers, raising silkworms, and storing egg cards explain the production system beyond the building.",
+        "evidence": "The Archives dates promulgation to March 1911 and enforcement to September 1916. It specifies a threshold of fifteen regularly employed workers. The law provides no direct measurement of Tomioka conditions.",
+        "chronology_geography": "The 1884 school, 1905 storage units and 1917 Okaya recollection retain their separate places and dates.",
+        "perspective": "Wada’s memoir, a later edited publication and a separate worker’s recollection keep their different origins.",
+        "reading": "The reader can follow practiced hands from the print into technical or labor-history material without first mastering the legal discussion.",
+        "activity": "The 1872/1884/1905 matching cards constrain the answer. The print cannot establish whether every worker could leave.",
+        "connections": "Compare training with factory protection using the specific occupations and dates of each case."
+      },
+      "evidence": [
+        {
+          "id": "tomioka-factory-act-archives",
+          "url": "https://www.archives.go.jp/ayumi/kobetsu/m44_1911_02.html",
+          "locator": "National Archives of Japan, 工場法が成立する, explanatory paragraph below the cabinet document",
+          "finding": "The Archives dates promulgation to March 1911 and enforcement to September 1916. It specifies a threshold of fifteen regularly employed workers. The law provides no direct measurement of Tomioka conditions."
+        }
+      ],
+      "reviewedSections": [
+        "A machine still needs practiced hands",
+        "Workers carried knowledge elsewhere",
+        "The crop has its own timetable",
+        "Training and protection are different questions"
+      ],
+      "reviewedDeeperReading": [
+        "A recollection has more than one date",
+        "Implementation is not a completed outcome"
+      ],
+      "familyActivity": "What would a machine still need?",
+      "chapterContext": ["tomioka-skill-work-context"],
+      "defaultComparison": "tomioka--hine-labor",
+      "followups": [],
+      "fixes": [],
+      "comparisonQuestion": "How do factory systems organize skill and labor?"
+    },
+    {
+      "id": "haitian-revolution",
+      "chapter": "C7",
+      "rubric": {
+        "orientation": "Resistance, emancipation and independence organize the Caribbean opening and the Gonaïves locator.",
+        "explanation": "The 1801 constitution joins abolition with rules governing cultivation and residence, making a concrete distinction between freedom and control of work.",
+        "evidence": "The Assembly identifies the Convention session of 4 February 1794. The account keeps the prior provincial actions and the later independence act distinct.",
+        "chronology_geography": "The 1797 letter, 1801 constitution and 1804 printed act record political changes over time. Gonaïves is the declaration setting.",
+        "perspective": "Louverture and assembled generals speak from specific positions. A promised share of revenues cannot show what cultivators received.",
+        "reading": "The deeper section distinguishing scribe, signature and printed name prevents conflation of material forms.",
+        "activity": "The legal status, work rule and political decision cards have answers in the supplied capsule. The missing household perspective remains a question.",
+        "connections": "The emancipation context is usable for comparison of proclaimed rights and institutions governing work."
+      },
+      "evidence": [
+        {
+          "id": "haiti-abolition-1794",
+          "url": "https://www2.assemblee-nationale.fr/15/evenements/2021/abolition-de-l-esclavage-1794-et-1848/1794-la-premiere-abolition",
+          "locator": "Assemblée nationale, 1794 La première abolition, debate and session of 16 pluviôse an II",
+          "finding": "The Assembly identifies the Convention session of 4 February 1794. The account keeps the prior provincial actions and the later independence act distinct."
+        }
+      ],
+      "reviewedSections": [
+        "Resistance grew through different local struggles",
+        "Emancipation had to be defended and interpreted",
+        "Ending slavery did not settle control of work",
+        "Independence created another political settlement"
+      ],
+      "reviewedDeeperReading": [
+        "A signature, a scribe and a printed name do different work",
+        "A constitution supplies a project, not a complete outcome",
+        "Read political changes forward through time"
+      ],
+      "familyActivity": "Separate a right, a work rule and a political decision",
+      "chapterContext": ["haiti-emancipation-authority-context"],
+      "defaultComparison": "banda-1621--haitian-revolution",
+      "followups": [
+        "The separate named-claim pamphlet locator is handled in the central citation repair."
+      ],
+      "fixes": ["Inserted missing spaces in the historical interval display label."],
+      "comparisonQuestion": "How do sources reveal coercion and struggles over freedom?"
+    },
+    {
+      "id": "tiriti",
+      "chapter": "C8",
+      "rubric": {
+        "orientation": "The Waitangi signing and circulation of sheets introduce a practical authority question.",
+        "explanation": "Drafting, translation, debate, signatures and the subsequent Crown proclamation explain how different acts acquired different meanings.",
+        "evidence": "Te Papa reproduces the 21 May 1840 proclamation and records subsequent signing activity. Its declaration cannot demonstrate consent from people who declined or had yet to sign.",
+        "chronology_geography": "The first signing, subsequent regional decisions, later translation and 2014 northern Tribunal findings are distinguished.",
+        "perspective": "Rangatira differ in their decisions. The southern Ōnuku account and the northern inquiry speak from distinct places.",
+        "reading": "The deeper reading keeps the original English, Māori text and scholarly rendering identifiable even where the vocabulary is difficult.",
+        "activity": "Three supplied capsules let readers classify original text, translation and a subsequent action.",
+        "connections": "The agreement/assertion context supports examining promises and implementation while respecting the specific meanings of tino rangatiratanga."
+      },
+      "evidence": [
+        {
+          "id": "tiriti-proclamation",
+          "url": "https://www.tepapa.govt.nz/digital-museum/explore-digital-museum/treaty-waitangi/treaty-close/treaty-waitangi-trail",
+          "locator": "Te Papa, Treaty trail, proclamation dateline and continuing signing itinerary",
+          "finding": "Te Papa reproduces the 21 May 1840 proclamation and records subsequent signing activity. Its declaration cannot demonstrate consent from people who declined or had yet to sign."
+        }
+      ],
+      "reviewedSections": [
+        "An agreement took work",
+        "Keep three kinds of text distinct",
+        "Sheets record different decisions",
+        "A claim of power is not its fulfilment"
+      ],
+      "reviewedDeeperReading": [
+        "Translation remains an attributed interpretation",
+        "Place and speaker change the question"
+      ],
+      "familyActivity": "Label the kind of evidence",
+      "chapterContext": ["tiriti-agreement-assertion-enforcement"],
+      "defaultComparison": "tiriti--partition-1947",
+      "followups": [],
+      "fixes": ["Inserted missing spaces in the historical interval display label."],
+      "comparisonQuestion": "What separates an official document from people’s experience of political change?"
+    },
+    {
+      "id": "partition-1947",
+      "chapter": "C8",
+      "rubric": {
+        "orientation": "A Punjab map and an independence question foreground both political change and home.",
+        "explanation": "The June announcement, August ceremonies and later boundary announcement explain how displacement could outlast the handover.",
+        "evidence": "The museum’s written account dates her family’s migration from East Bengal to 1950. The video link title mentions 1947. The dossier correctly attributes the specific later date to the summary.",
+        "chronology_geography": "A Punjab map cannot supply a map of Bengal. The telegram and later oral histories are separately dated.",
+        "perspective": "Both an official report and named people remembering assistance appear. The reader has no basis to infer frequencies from either.",
+        "reading": "The section on the map legend explains why a demand line and an awarded boundary should be read differently.",
+        "activity": "The two lines and one account of help supply an answer without requiring a family to reenact loss.",
+        "connections": "The transition context allows comparison of official decisions and practical citizenship; Bengal’s aftermath prevents a one-month chronology."
+      },
+      "evidence": [
+        {
+          "id": "partition-oral",
+          "url": "https://www.partitionmuseum.org/oral-history",
+          "locator": "Partition Museum, oral-history entry for Ila Banerjee",
+          "finding": "The museum’s written account dates her family’s migration from East Bengal to 1950. The video link title mentions 1947. The dossier correctly attributes the specific later date to the summary."
+        }
+      ],
+      "reviewedSections": [
+        "Several decisions, not one instant",
+        "Why Punjab and Bengal need separate attention",
+        "What an official report can reveal",
+        "The work of rebuilding a life",
+        "Neighbors cannot be reduced to categories"
+      ],
+      "reviewedDeeperReading": [
+        "Read the map as an argument",
+        "Authority, responsibility and hindsight",
+        "After August: different clocks"
+      ],
+      "familyActivity": "A border and a home",
+      "chapterContext": ["partition-transition"],
+      "defaultComparison": "tiriti--partition-1947",
+      "followups": [],
+      "fixes": [],
+      "comparisonQuestion": "What separates an official document from people’s experience of political change?"
+    },
+    {
+      "id": "south-africa-rights",
+      "chapter": "C8",
+      "rubric": {
+        "orientation": "One voting photograph opens a question about making dignity and equality enforceable.",
+        "explanation": "The 1994 election, constitutional court certification and commencement distinguish representation from legal enforcement.",
+        "evidence": "Section 7(2) specifies state duties and section 38 provides access to competent courts for alleged infringements. These establish commitments and remedies, not a measure of realized equality. The Justice copy timed out on this read.",
+        "chronology_geography": "The election photograph, the 1996 adoption/certification sequence and 1997 commencement serve different purposes.",
+        "perspective": "The famous voter does not stand for all voters. Institutional records leave household-level implementation unresolved.",
+        "reading": "The distinction between an enforceable duty and material outcomes gives the adult a clear continuation from a simple photograph.",
+        "activity": "The learner first describes the ballot scene, then identifies what further evidence could show practical access to equality or education.",
+        "connections": "Comparison with political promises elsewhere is bounded by the particular constitutional text and institutions."
+      },
+      "evidence": [
+        {
+          "id": "sa-rights",
+          "url": "https://www.justice.gov.za/legislation/constitution/chp02.html",
+          "locator": "Republic of South Africa, Constitution, chapter 2, §§7–8 and 38. Government parallel edition at https://www.gov.za/documents/constitution/chapter-2-bill-rights",
+          "finding": "Section 7(2) specifies state duties and section 38 provides access to competent courts for alleged infringements. These establish commitments and remedies, not a measure of realized equality. The Justice copy timed out on this read."
+        }
+      ],
+      "reviewedSections": [
+        "The system being challenged",
+        "Negotiation and an election",
+        "A majority needed constitutional limits",
+        "Adoption, review, signing and commencement",
+        "Read the rights carefully",
+        "A commitment creates questions to investigate"
+      ],
+      "reviewedDeeperReading": [
+        "An invitation with a defined purpose",
+        "The practical conditions of participation",
+        "Read a famous photograph without making it carry everything"
+      ],
+      "familyActivity": "A right, a rule and a real result",
+      "chapterContext": ["south-africa-democracy-context"],
+      "defaultComparison": "ghana-independence--south-africa-rights",
+      "followups": [],
+      "fixes": ["Inserted missing spaces in the historical interval display label."],
+      "comparisonQuestion": "How does a change in government differ from a guarantee of political rights?"
+    },
+    {
+      "id": "world-war-one",
+      "chapter": "C8",
+      "rubric": {
+        "orientation": "The starting question connects a European political crisis to people working and fighting across regions.",
+        "explanation": "Debate, colonial recruitment, letters, censorship and factories supply distinct mechanisms and records.",
+        "evidence": "Grey explicitly discusses Belgian neutrality and the history of the 1839 treaty. The speech records his argument before British entry, without making one speech the sole cause of war.",
+        "chronology_geography": "The 1914 debate, 1916 censored letter, 1917 poster and 1919 cemetery-care request remain distinct.",
+        "perspective": "A clerk and factory managers wrote from different positions. Indian mail arrives through censorship and translation.",
+        "reading": "The deeper reading names the limits of a single translated letter and a management archive.",
+        "activity": "The poster’s audience and intended response can be identified without assuming recruitment succeeded.",
+        "connections": "The decisions-and-work context supports comparing public messaging and practical mobilization."
+      },
+      "evidence": [
+        {
+          "id": "ww1-grey-debate-1914",
+          "url": "https://api.parliament.uk/historic-hansard/commons/1914/aug/03/statement-by-sir-edward-grey",
+          "locator": "Hansard, statement by Sir Edward Grey, Commons, 3 August 1914, discussion of Belgian neutrality",
+          "finding": "Grey explicitly discusses Belgian neutrality and the history of the 1839 treaty. The speech records his argument before British entry, without making one speech the sole cause of war."
+        }
+      ],
+      "reviewedSections": [
+        "Decisions were argued, not automatic",
+        "Empires connected campaigns to labour and households",
+        "A factory or letter reveals another practical setting",
+        "A public appeal does not measure its own success"
+      ],
+      "reviewedDeeperReading": [
+        "A record can participate in the power it describes",
+        "Each record has a purpose and a limit"
+      ],
+      "familyActivity": "Read an appeal with an adult",
+      "chapterContext": ["ww1-decisions-work-context"],
+      "defaultComparison": "world-war-one--world-war-two",
+      "followups": [
+        "The central named claim handles the separate citation for fighting outside Europe."
+      ],
+      "fixes": ["Inserted missing spaces in the historical interval display label."],
+      "comparisonQuestion": "How do institutions and choices turn conflict into mass violence?"
+    },
+    {
+      "id": "world-war-two",
+      "chapter": "C8",
+      "rubric": {
+        "orientation": "The opening names the Holocaust and distinguishes Asian conflict chronology before turning to specific institutions.",
+        "explanation": "Refuge planning, ration paperwork and the burial of testimony explain different actions that were possible under occupation.",
+        "evidence": "Graber, Grzywacz and Lichtensztajn took part in burying the first archive section. The institute identifies where the documents and testaments were placed. The account preserves their individual roles.",
+        "chronology_geography": "Persecution from 1933, war in China from 1937 and the September 1939 invasion of Poland appear as distinct chronological frames.",
+        "perspective": "The text names people, roles and documentary mediation, including excerpts in translation. It avoids asking readers to imagine victims’ private words.",
+        "reading": "Replaced internal authoring and planned-source-work instructions in the deeper reading with three concrete questions about shelter, provisions and archive making.",
+        "activity": "The guided capsule task gives specific dates and asks for evidence and uncertainty. It allows an older reader to work with an adult.",
+        "connections": "The war/occupation context permits institutional comparison without implying a route connecting the three cities."
+      },
+      "evidence": [
+        {
+          "id": "warsaw-testaments-2019",
+          "url": "https://www.jhi.pl/en/articles/monday-august-3-4-pm-well-be-burying-the-last-part-in-a-moment,6184",
+          "locator": "Jewish Historical Institute, Monday, August 3, 4 PM, introductory account and translated testaments",
+          "finding": "Graber, Grzywacz and Lichtensztajn took part in burying the first archive section. The institute identifies where the documents and testaments were placed. The account preserves their individual roles."
+        }
+      ],
+      "reviewedSections": [
+        "Distinguish connected chronologies",
+        "Name the crime accurately",
+        "People were more than their persecution",
+        "Ginling’s workers prepared rooms and disagreed about safety",
+        "A card, a passbook and a recollection answer different questions",
+        "A named writer asked that his family be remembered"
+      ],
+      "reviewedDeeperReading": [
+        "Keep the speaker, the date and the version apart",
+        "The regional cases remain unfinished"
+      ],
+      "familyActivity": "Read the source capsules with an adult",
+      "chapterContext": ["war-occupation-persecution-context"],
+      "defaultComparison": "world-war-one--world-war-two",
+      "followups": [
+        "The preceding deeper section retains limits on selected translations and the published Singapore interview excerpt."
+      ],
+      "fixes": [
+        "Inserted missing spaces in the historical interval display label.",
+        "Replaced the second deeper-reading section with “What each record lets us ask,” retaining its three original source links."
+      ],
+      "comparisonQuestion": "How do institutions and choices turn conflict into mass violence?"
+    },
+    {
+      "id": "sputnik",
+      "chapter": "C8",
+      "rubric": {
+        "orientation": "The audible signal and 4 October 1957 launch introduce separate technical and political questions.",
+        "explanation": "Simplification of Object D into the PS-1 project still required batteries, transmitters, tracking and institutional coordination.",
+        "evidence": "The Prime Minister discusses British observation of both satellite and rocket. He separately identifies the carrier rocket’s strategic implications. A claim about British observations is specifically attributed to this debate.",
+        "chronology_geography": "The January request and its proposed launch months precede the October flight and subsequent parliamentary debate.",
+        "perspective": "Soviet planning and British reactions are distinguishable from the later historian’s reconstruction. The proposal’s intelligence claims remain attributed.",
+        "reading": "The deeper section explaining ground observations gives a concrete way to separate a satellite from its carrier rocket.",
+        "activity": "Sorting proposal, event and response can be completed using three dated items and one example of coordinated work.",
+        "connections": "The work-and-observation context lends itself to comparing state priorities with the labor required to implement them."
+      },
+      "evidence": [
+        {
+          "id": "sputnik-commons-1957",
+          "url": "https://api.parliament.uk/historic-hansard//commons/1957/oct/29/earth-satellites",
+          "locator": "Commons, Earth Satellites, 29 October 1957, questions 49–50 and follow-ups",
+          "finding": "The Prime Minister discusses British observation of both satellite and rocket. He separately identifies the carrier rocket’s strategic implications. A claim about British observations is specifically attributed to this debate."
+        }
+      ],
+      "reviewedSections": [
+        "A signal depended on work on Earth",
+        "Simplifying the spacecraft changed the organization",
+        "The Soviet proposal made a request, not a result",
+        "Observers argued about what the achievement meant"
+      ],
+      "reviewedDeeperReading": [
+        "Follow the work beyond the visible object",
+        "Read each source at its own date and for its purpose"
+      ],
+      "familyActivity": "Sort a plan, an event and an interpretation",
+      "chapterContext": ["sputnik-work-observation-context"],
+      "defaultComparison": "sputnik--tomioka",
+      "followups": [],
+      "fixes": ["Inserted missing spaces in the historical interval display label."],
+      "comparisonQuestion": "How does technical change depend on organized work?"
+    },
+    {
+      "id": "ottoman-workshops",
+      "chapter": "C7",
+      "rubric": {
+        "orientation": "A tughra and dish open a question about work for the court and for buyers.",
+        "explanation": "Distinguishing surface decoration, preparation and firing explains how a specialist’s work becomes observable.",
+        "evidence": "The museum identifies two small birds among floral motifs and attributes the dish to Iznik. The object provides no identification of its decorator or its particular kiln.",
+        "chronology_geography": "The 1549 lamp and c.1575–90 dish are separate objects; the 1670s traveler and later excavations have different dates again.",
+        "perspective": "Musli is named on a separate lamp. Covel reaches readers through a course excerpt and the court-payment explanation comes from a later synthesis.",
+        "reading": "The material-study passage carefully limits laboratory conclusions to the sampled objects.",
+        "activity": "Drawing within a circle lets readers test a design decision; the capsule checks whether Musli’s name can transfer between objects.",
+        "connections": "The contrast with the tughra supports questions about specialization, with a separate question about unknown users."
+      },
+      "evidence": [
+        {
+          "id": "met-451490",
+          "url": "https://www.metmuseum.org/art/collection/search/451490",
+          "locator": "Met catalogue 451490, description and Geography, Iznik",
+          "finding": "The museum identifies two small birds among floral motifs and attributes the dish to Iznik. The object provides no identification of its decorator or its particular kiln."
+        }
+      ],
+      "reviewedSections": [
+        "Writing through shared tasks",
+        "Making a ceramic surface",
+        "Names and production remains",
+        "Work for patrons and buyers"
+      ],
+      "reviewedDeeperReading": [
+        "A material study is not a workshop recipe book",
+        "A market account has a speaker",
+        "Dates belong to different records"
+      ],
+      "familyActivity": "What can a pattern tell us about work?",
+      "chapterContext": ["ottoman-makers-markets-context"],
+      "defaultComparison": "ottoman-workshops--isfahan-silk",
+      "followups": [],
+      "fixes": [],
+      "comparisonQuestion": "How do patrons, markets and unequal power shape craft?"
+    },
+    {
+      "id": "isfahan-silk",
+      "chapter": "C7",
+      "rubric": {
+        "orientation": "A carpet anchors a question about building a capital, labor and forced movement.",
+        "explanation": "Relocation, silk materials, trade and household dependencies explain how decisions by a ruler affected different people.",
+        "evidence": "The published account identifies Anna in New Julfa and a letter addressed to her husband in Madras or wherever he might be. Capture and preservation of the papers are evidence of an interrupted voyage. They do not establish delivery.",
+        "chronology_geography": "New Julfa lies south of the river; 1747 follows the 1722 endpoint of the selected capital phase. Neither supplies an itinerary for the carpet.",
+        "perspective": "The later family letter gives a different vantage from merchant correspondence, while coerced workers and household dependents are not interchangeable.",
+        "reading": "The later-date heading makes the change of source explicit and introduces a family voice without attributing her experience to all relocated families.",
+        "activity": "Separating what a carpet shows from what texts establish about work and relocation makes the prompt usable without guessing its weaver.",
+        "connections": "The capital and commercial context supports comparison of materials and mobility with an explicit question about coercion."
+      },
+      "evidence": [
+        {
+          "id": "julfa-anna-letter-1747",
+          "url": "https://modernarmenianhistory.history.ucla.edu/2020/01/31/blog-6/",
+          "locator": "Sebouh Aslanian, UCLA, account of Anna’s 1747 letter, addressee and capture",
+          "finding": "The published account identifies Anna in New Julfa and a letter addressed to her husband in Madras or wherever he might be. Capture and preservation of the papers are evidence of an interrupted voyage. They do not establish delivery."
+        }
+      ],
+      "reviewedSections": [
+        "A new centre within an older city",
+        "Silk connected several kinds of making",
+        "A prosperous quarter followed forced movement",
+        "Commerce required relationships and information"
+      ],
+      "reviewedDeeperReading": [
+        "A household could contain unequal dependencies",
+        "A later family voice changes the question"
+      ],
+      "familyActivity": "What can a carpet show—and what needs another record?",
+      "chapterContext": ["isfahan-julfa-households-context"],
+      "defaultComparison": "isfahan-silk--bukhara-books",
+      "followups": [],
+      "fixes": [],
+      "comparisonQuestion": "Which records explain the work supporting city life, and whose experience remains unknown?"
+    },
+    {
+      "id": "bukhara-books",
+      "chapter": "C7",
+      "rubric": {
+        "orientation": "A copied and later painted manuscript introduces separate questions about learning and urban services.",
+        "explanation": "Endowment income, paid institutional work and water maintenance show how a school could continue operating.",
+        "evidence": "The specialist describes both captured and invited Herat artists working in Bukhara. This is evidence about a group and period, without identifying a particular selected leaf’s maker or route.",
+        "chronology_geography": "The poem’s composition, copying and attributed painting have separate dates. Vakhsh labor evidence concerns another place.",
+        "perspective": "Artists moved under different conditions. The account of requisitioned workers qualifies assumptions about collective labor.",
+        "reading": "The deeper foundation section explains how records make obligations and maintenance visible beyond a building.",
+        "activity": "Visible writing and patterns belong in one column, endowed income and water maintenance in another; both can be answered from the supplied materials.",
+        "connections": "The return to a three-part manuscript chronology prevents the water/learning comparison from treating institutions and pages as the same evidence."
+      },
+      "evidence": [
+        {
+          "id": "bukhara-manuscript-work-2023",
+          "url": "https://www.iias.asia/the-newsletter/article/lording-over-centre-asia-manuscript-arts-abul-khayrid-uzbek-khans",
+          "locator": "IIAS, manuscript arts, 1530s–1550s discussion adjoining figure 2",
+          "finding": "The specialist describes both captured and invited Herat artists working in Bukhara. This is evidence about a group and period, without identifying a particular selected leaf’s maker or route."
+        }
+      ],
+      "reviewedSections": [
+        "A book made through several acts",
+        "Skills moved, and workshops organized work",
+        "Teaching used rooms that needed care",
+        "Water and income sustained institutions"
+      ],
+      "reviewedDeeperReading": [
+        "A foundation had records as well as walls",
+        "Maintenance also raises a question about power"
+      ],
+      "familyActivity": "Seen on the page, learned from another source",
+      "chapterContext": ["bukhara-learning-water-work-context"],
+      "defaultComparison": "isfahan-silk--bukhara-books",
+      "followups": [],
+      "fixes": [],
+      "comparisonQuestion": "Which records explain the work supporting city life, and whose experience remains unknown?"
+    },
+    {
+      "id": "zand-iran",
+      "chapter": "C7",
+      "rubric": {
+        "orientation": "An Iranian painted container introduces the question of what one possession reveals about a reign.",
+        "explanation": "Construction, painted decoration, lacquer protection and intended storage give four concrete uses of material evidence.",
+        "evidence": "The museum describes a removable mirror lid, drawer and compartments for dressing implements. Its material entry identifies papier-maché and pasteboard. Intended use supplies no inventory of surviving tools.",
+        "chronology_geography": "The 1789 case postdates Karim Khan’s death in 1779; the catalogue identifies Iran while Shiraz supplies political context.",
+        "perspective": "A court observer’s later recollection is distinguished from the lives of servants, artisans and traders, whose working conditions remain open.",
+        "reading": "The deeper reading separates observations of empty recesses from intended contents and generalizes cautiously from a later lacquered bookbinding.",
+        "activity": "The alternative-view capsule allows completion even if only the main image is available. Two different dates test an ownership inference.",
+        "connections": "Its context connects city building to commercial work while preserving the uncertainty of the object’s place of manufacture."
+      },
+      "evidence": [
+        {
+          "id": "met-681122",
+          "url": "https://www.metmuseum.org/art/collection/search/681122",
+          "locator": "Met catalogue 681122, opening description, date, artist, medium and Geography",
+          "finding": "The museum describes a removable mirror lid, drawer and compartments for dressing implements. Its material entry identifies papier-maché and pasteboard. Intended use supplies no inventory of surviving tools."
+        }
+      ],
+      "reviewedSections": [
+        "Making a useful container",
+        "Paint, support and protection",
+        "Building and working in Shiraz",
+        "One object, several kinds of evidence"
+      ],
+      "reviewedDeeperReading": [
+        "An intended use is not a surviving inventory",
+        "Urban work and a courtly recollection"
+      ],
+      "familyActivity": "What can the case itself show?",
+      "chapterContext": ["zand-political-context"],
+      "defaultComparison": "isfahan-silk--zand-iran",
+      "followups": [],
+      "fixes": [],
+      "comparisonQuestion": "How can an object’s attribution be kept separate from a city’s households and political history?"
+    },
+    {
+      "id": "inuinnait-sewing",
+      "chapter": "C8",
+      "rubric": {
+        "orientation": "Contrasting hoods on a plate of two people in dance clothing foreground clothing as skilled work.",
+        "explanation": "Skin preparation, tools and changes in cloth explain choices beyond the visible finished garment.",
+        "evidence": "The community guide describes dance clothes sewn from late-summer caribou and distinguishes historical material from continuing drum dancing. It cannot identify the hide or maker of either garment in the selected plate.",
+        "chronology_geography": "The 1913–16 expedition, the 1922 publication and the 2017–19 reconstruction workshops have separate dates.",
+        "perspective": "Elders-led workshops bring maker knowledge to a photograph with an external publication history. Variation across families matters.",
+        "reading": "Reading about reconstructed garments explains how an object can be both recently made and deliberately historical.",
+        "activity": "The capsule asks learners to distinguish a represented decade from publication and workshop dates, using observable bands and hoods.",
+        "connections": "Comparing visual observation with experienced knowledge keeps clothing connected with living practice."
+      },
+      "evidence": [
+        {
+          "id": "inuinnait-dance-clothing-guide",
+          "url": "https://www.kitikmeotheritage.ca/_files/ugd/56a2ca_df65f075fc104be3bb52a1f5b302d9a8.pdf",
+          "locator": "Kitikmeot Heritage Society, introduction, PDF pp. 4–5, discussion of dance costumes and seasonal hides",
+          "finding": "The community guide describes dance clothes sewn from late-summer caribou and distinguishes historical material from continuing drum dancing. It cannot identify the hide or maker of either garment in the selected plate."
+        }
+      ],
+      "reviewedSections": [
+        "Work begins before a seam",
+        "Clothes suited to an activity",
+        "New supplies changed the choices",
+        "Makers research and teach"
+      ],
+      "reviewedDeeperReading": [
+        "Keep the dates attached to the right evidence",
+        "Read makers through the source that offers their knowledge"
+      ],
+      "familyActivity": "Follow a material and check its clock",
+      "chapterContext": ["inuinnait-clothing-community-history"],
+      "defaultComparison": "bering-sea-carvers--inuinnait-sewing",
+      "followups": [],
+      "fixes": [],
+      "comparisonQuestion": "How do tools and clothing carry skilled knowledge?"
+    },
+    {
+      "id": "ozette-makah",
+      "chapter": "C7",
+      "rubric": {
+        "orientation": "A later canoe photograph opens a question about wooden remains and the Makah authority to interpret them.",
+        "explanation": "Hollowing, steaming, flaring and replacing edge strips explain the difference between initial construction and maintenance.",
+        "evidence": "The Tribe explicitly links hardwood gunwales to canoe sides recovered at Ozette. The workflow for shaping red cedar is a general account. The lack of sails in deposits gives no secure date of first use.",
+        "chronology_geography": "The burial alternatives, the long history of the village and a later photograph represent different clocks.",
+        "perspective": "The Tribe and museum explain construction, stewardship and public interpretation. The later photographer does not identify the ancient makers.",
+        "reading": "The deeper material sequence is bounded to published knowledge. Requested a reader-facing replacement for internal source-renewal language in the custody passage.",
+        "activity": "Three ordered cards allow an explanation of repair and of what the later photograph cannot establish.",
+        "connections": "The return prompt compares preservation and photography without implying that both depict the same boat."
+      },
+      "evidence": [
+        {
+          "id": "makah-canoes",
+          "url": "https://makah.com/makah-tribal-info/canoeing/",
+          "locator": "Makah Tribe, Canoe Construction, paragraphs on steaming and protective gunwales",
+          "finding": "The Tribe explicitly links hardwood gunwales to canoe sides recovered at Ozette. The workflow for shaping red cedar is a general account. The lack of sails in deposits gives no secure date of first use."
+        }
+      ],
+      "reviewedSections": [
+        "Preservation changes what history can see",
+        "A canoe joins craft and environmental knowledge",
+        "Do not give the slide a false birthday",
+        "Belongings stayed in the community",
+        "A sequence of material decisions"
+      ],
+      "reviewedDeeperReading": [
+        "A material sequence is not a newly recovered scene",
+        "Custody and permission are part of interpretation"
+      ],
+      "familyActivity": "A part that can be renewed",
+      "chapterContext": ["ozette-research-community-custody"],
+      "defaultComparison": "ozette-makah--kwakwakawakw-potlatch",
+      "followups": [
+        "Named burial-date citation repair and related cleanup are coordinated centrally."
+      ],
+      "fixes": [],
+      "comparisonQuestion": "How do surviving belongings relate to community knowledge and authority?"
+    },
+    {
+      "id": "blackfoot-bison",
+      "chapter": "C7",
+      "rubric": {
+        "orientation": "The cliff photograph leads to a question about coordination before and after the visible landscape feature.",
+        "explanation": "Drive lanes, processing, drying, storage and hide preparation show how a communal hunt supplied more than a single meal.",
+        "evidence": "The teaching account describes low piles of rocks arranged in lines approaching the jump and attributes knowledge of earlier hunting to the speakers. A photograph of grassland cannot establish the age or builders of a particular feature.",
+        "chronology_geography": "The c.1700–1850 inquiry is one selected period within a much longer history. Modern paths and later photos have their own clocks.",
+        "perspective": "The collaborative teaching account, archaeology and Hazel Big Smoke’s participation in an experiment retain separate authorship and evidence.",
+        "reading": "Replaced editorial implementation language at the end of the experiment passage with a question about what three actual sources contribute.",
+        "activity": "An observable landscape feature and a documented processing task give the family separate contributions to identify without staging a hunt.",
+        "connections": "The return prompt brings labor and storage into comparison with village work without equating a site with a contemporary nation."
+      },
+      "evidence": [
+        {
+          "id": "blackfoot-collaborative-hunt",
+          "url": "https://www.glenbow.org/blackfoot/EN/html/buffalo_hunters_and_the_pisskan.htm",
+          "locator": "Glenbow Blackfoot teaching project, Buffalo Hunters and the Pisskan, Drive Lanes",
+          "finding": "The teaching account describes low piles of rocks arranged in lines approaching the jump and attributes knowledge of earlier hunting to the speakers. A photograph of grassland cannot establish the age or builders of a particular feature."
+        }
+      ],
+      "reviewedSections": [
+        "Preparation connected people, animals and a place",
+        "Coordination mattered before the animals reached the edge",
+        "Processing changed the pace and kinds of work",
+        "Seasonal work and respectful relations connected households"
+      ],
+      "reviewedDeeperReading": [
+        "Ask who made the teaching voice",
+        "Let different evidence change the question"
+      ],
+      "familyActivity": "Put the work beyond the cliff into the explanation",
+      "chapterContext": ["blackfoot-work-interpretation-context"],
+      "defaultComparison": "blackfoot-bison--hidatsa-villages",
+      "followups": [],
+      "fixes": [
+        "Replaced the closing project-process sentence with a question about three complementary kinds of evidence."
+      ],
+      "comparisonQuestion": "How do communities coordinate food, work and seasonal knowledge?"
+    },
+    {
+      "id": "hidatsa-villages",
+      "chapter": "C7",
+      "rubric": {
+        "orientation": "Women’s houses and gardens introduce a village as a working landscape.",
+        "explanation": "Fields, drying, storage, gathering, trade and lodge work explain how residents organized food and shelter.",
+        "evidence": "The NPS describes clan women gathering materials and building together under an experienced older woman, as well as women’s maintenance and ownership. The source offers general practice and does not identify each resident at Big Hidatsa.",
+        "chronology_geography": "The village occupation ending around 1845, a subsequent account, a modern reconstruction and dam-related displacement occupy different periods.",
+        "perspective": "Maxidiwiac’s named knowledge reaches readers through an interpreter and editor; the text also distinguishes three contemporary Nations.",
+        "reading": "The deeper passages give the reader practical examples of what a tool drawing and a named recollection can each support.",
+        "activity": "The capsule allows a family to identify the tool’s materials, connect it with soil preparation and suggest evidence needed for a particular household.",
+        "connections": "The explicit return to communal hunting asks for a shared need, a difference and a limit in the evidence."
+      },
+      "evidence": [
+        {
+          "id": "knife-women",
+          "url": "https://www.nps.gov/articles/knri-hidatsa-women-earthlodges-cultural-landscape.htm",
+          "locator": "National Park Service, Hidatsa Women & Earthlodges, paragraphs on construction, ownership and knowledge",
+          "finding": "The NPS describes clan women gathering materials and building together under an experienced older woman, as well as women’s maintenance and ownership. The source offers general practice and does not identify each resident at Big Hidatsa."
+        }
+      ],
+      "reviewedSections": [
+        "Gardens produced food and possibilities for exchange",
+        "An earthlodge joined construction with household authority",
+        "The river brought visitors and changing pressures",
+        "Later voices explain continuity through changed settings"
+      ],
+      "reviewedDeeperReading": [
+        "A named account still has an interpreter and editor",
+        "Field knowledge includes boundaries and limits of memory"
+      ],
+      "familyActivity": "Explain a tool with a source",
+      "chapterContext": ["hidatsa-gardens-relocation-context"],
+      "defaultComparison": "blackfoot-bison--hidatsa-villages",
+      "followups": [],
+      "fixes": [],
+      "comparisonQuestion": "How do communities coordinate food, work and seasonal knowledge?"
+    },
+    {
+      "id": "kwakwakawakw-potlatch",
+      "chapter": "C8",
+      "rubric": {
+        "orientation": "The opening asks how ceremonial authority could continue under a government ban.",
+        "explanation": "Prosecution, compelled surrender, collection dispersal and construction of cultural centers connect a law with institutional decisions.",
+        "evidence": "The center connects suspended sentences to surrender of belongings, documents the dispersal of objects and describes a return conditional on facilities for their care. One shipment cannot account for every object.",
+        "chronology_geography": "1884 legislation, the 1921 gathering, 1951 revision and subsequent returns are separate moments. The report period is distinguished from publication.",
+        "perspective": "Community recollections are attributed; the title-page credits for Hunt and Boas answer a different question from community testimony.",
+        "reading": "The section on care after return puts storage and decision-making in the foreground, without assigning a full custody history to unidentified belongings.",
+        "activity": "Readers can compare title-page credits and dates, then bring a community account to a separate question without performing a ceremony.",
+        "connections": "Contrasting prohibition, continuation and community-directed care makes the case comparable while keeping authority attached to particular people."
+      },
+      "evidence": [
+        {
+          "id": "umista-history",
+          "url": "https://www.umista.ca/pages/collection-history",
+          "locator": "U’mista Cultural Centre, Collection History, Village Island prosecutions and conditions for return",
+          "finding": "The center connects suspended sentences to surrender of belongings, documents the dispersal of objects and describes a return conditional on facilities for their care. One shipment cannot account for every object."
+        }
+      ],
+      "reviewedSections": [
+        "Preparation supports people who witness",
+        "Prohibition changed the risks of participation",
+        "Return required organization and family decisions",
+        "A returned belonging has a particular history"
+      ],
+      "reviewedDeeperReading": [
+        "A publication credit and a community account answer different questions",
+        "Care after return is more than a change of address"
+      ],
+      "familyActivity": "Read the page and separate the claim",
+      "chapterContext": ["kwakwakawakw-witnesses-return-context"],
+      "defaultComparison": "ozette-makah--kwakwakawakw-potlatch",
+      "followups": [],
+      "fixes": [],
+      "comparisonQuestion": "How do surviving belongings relate to community knowledge and authority?"
+    },
+    {
+      "id": "wendat-laine",
+      "chapter": "C7",
+      "rubric": {
+        "orientation": "The opening asks what changes when a village is placed roughly a century later.",
+        "explanation": "Alternative placements of short-lived samples and additional wood-charcoal constraints explain why two peaks can appear for one occupation.",
+        "evidence": "The abstract describes ca.1595–1626 with 95.4% probability while the Discussion calls 1595–1626 the extremes of 68.3% ranges. The audit checked both passages. The display correctly avoids assigning one probability to an exact foundation date.",
+        "chronology_geography": "The two calendar possibilities near 1500 and 1600 are distinct from continuous occupation between them or a date for other villages.",
+        "perspective": "The recovered Wendat name and community account help interpret family life, which the dating graph cannot show.",
+        "reading": "Reworded the editorial instruction about retaining uncertainty as an explanation of why the year the first house was built remains unknown.",
+        "activity": "Corrected the panel (b) label spacing. The task directs attention to its separated groups and asks what an additional kind of evidence contributes.",
+        "connections": "Comparison with a differently dated site would require its own samples; a shared calendar is not evidence of a meeting."
+      },
+      "evidence": [
+        {
+          "id": "laine-chronology",
+          "url": "https://doi.org/10.1017/RDC.2022.23",
+          "locator": "Original Radiocarbon paper, abstract and final Discussion; retained full-text copy, lines 34 and 1019–20; figure 2, panel (b), for the separate short-lived-sample alternatives",
+          "finding": "The abstract describes ca.1595–1626 with 95.4% probability while the Discussion calls 1595–1626 the extremes of 68.3% ranges. The audit checked both passages. The display correctly avoids assigning one probability to an exact foundation date."
+        }
+      ],
+      "reviewedSections": [
+        "A village joined households, fields and relationships",
+        "A reclaimed name identifies whose heritage is discussed",
+        "Two date clusters do not make a century-long village",
+        "A changed calendar changes the historical question"
+      ],
+      "reviewedDeeperReading": [
+        "Household knowledge is more than a point on an axis",
+        "Keep the uncertainty attached to the number"
+      ],
+      "familyActivity": "Two possibilities, one question",
+      "chapterContext": [],
+      "defaultComparison": "ocmulgee-council--wendat-laine",
+      "followups": [],
+      "fixes": [
+        "Explained why the model cannot give the foundation year and spaced panel labels in both the activity and the figure description."
+      ],
+      "comparisonQuestion": "What can a public building and a village reveal about collective life?",
+      "connectionsLimit": "This case has no separate context record. Its authored comparison to Ocmulgee is usable independently; the dating evidence for each site remains separate."
+    },
+    {
+      "id": "haudenosaunee-canandaigua",
+      "chapter": "C7",
+      "rubric": {
+        "orientation": "An identifiable treaty and its ratification introduce a question about what would show implementation.",
+        "explanation": "An allowance, promised skilled work and reports of cloth distribution illustrate how a commitment can be investigated.",
+        "evidence": "Powless attributes concrete preparation to participants, including setting a table, bringing benches and chairs, and preparing food. His account describes custody and participation; it is insufficient to establish implementation of every treaty promise.",
+        "chronology_geography": "Signing in November 1794, ratification in January 1795 and the 1989 return belong to separate events.",
+        "perspective": "The Nation’s description of the Washington Belt and the later participant’s account are credited separately from the United States ratification.",
+        "reading": "Changed a note about the author’s research process into a specific question about tracing the custody of a belt through an inventory and agreement.",
+        "activity": "The document labels and cloth example allow a family to name an additional receipt or witness account for one promised action.",
+        "connections": "The final question can be applied to comparable treaties while retaining the Nation-specific account and written obligations."
+      },
+      "evidence": [
+        {
+          "id": "onondaga-powless-return-1989",
+          "url": "https://www.onondaganation.org/culture/the-day-that-12-wampum-belts-returned-to-onondaga/",
+          "locator": "Onondaga Nation, Chief Irving Powless Jr., The Day That 12 Wampum Belts Returned to Onondaga, preparation of the longhouse",
+          "finding": "Powless attributes concrete preparation to participants, including setting a table, bringing benches and chairs, and preparing food. His account describes custody and participation; it is insufficient to establish implementation of every treaty promise."
+        }
+      ],
+      "reviewedSections": [
+        "A household’s food supply could become a military target",
+        "Peace involved goods, tools and skilled work",
+        "Bead-making and speaking carried political knowledge",
+        "The manuscript records more than one dated action",
+        "A continuing relationship requires particular evidence"
+      ],
+      "reviewedDeeperReading": [
+        "A return can be described by a participant",
+        "Material evidence has a defined scope"
+      ],
+      "familyActivity": "What would show that a promise was carried out?",
+      "chapterContext": ["canandaigua-recovery-negotiation-context"],
+      "defaultComparison": "haudenosaunee-canandaigua--cherokee-print",
+      "followups": [],
+      "fixes": [
+        "Replaced a report of author consultation with a question about evidence needed to trace a particular belt."
+      ],
+      "comparisonQuestion": "How do words and records carry political responsibilities?"
+    },
+    {
+      "id": "cherokee-print",
+      "chapter": "C8",
+      "rubric": {
+        "orientation": "The bilingual newspaper opens a question about public voice, political security and unequal participation.",
+        "explanation": "Making and financing a paper, printing disputes and the consequences of removal explain both the capacities and limits of print.",
+        "evidence": "Boudinot identifies S. Foreman and describes his service and the Council’s lack of provision for a replacement. The letter is marked by its own signature and date on a page also containing editorial material and other correspondence. It is not a payroll or the consensus of readers.",
+        "chronology_geography": "The constitution, February first issue, April supplied page and 1832 exchange have separate dates; a later rebuilding period also belongs to the inquiry.",
+        "perspective": "The account distinguishes correspondents from editors, and the history of enslavement and Freedmen from general claims of national liberty.",
+        "reading": "Deeper reading explains how to identify changes of speaker when one page contains more than one kind of text.",
+        "activity": "The masthead can be inspected at its available resolution. The supplied constitutional capsule provides evidence for the separate question about political participation.",
+        "connections": "The return to the newspaper distinguishes an observable feature, a promise and an experience that would require another record."
+      },
+      "evidence": [
+        {
+          "id": "phoenix-boudinot-letter-1832",
+          "url": "https://www.wcu.edu/library/DigitalCollections/CherokeePhoenix/Vol5/no04/cherokee-phoenix-page-2-column-1b-5b.html",
+          "locator": "Western Carolina University transcription, To the Editor of the Cherokee Phoenix, signed Elias Boudinot, New Echota, 10 September 1832",
+          "finding": "Boudinot identifies S. Foreman and describes his service and the Council’s lack of provision for a replacement. The letter is marked by its own signature and date on a page also containing editorial material and other correspondence. It is not a payroll or the consensus of readers."
+        }
+      ],
+      "reviewedSections": [
+        "A writing system became practical print work",
+        "Maintaining a newspaper required people and provision",
+        "Readers debated access to political arguments",
+        "Political defense coexisted with enslavement and exclusion",
+        "Removal did not end nationhood or publication"
+      ],
+      "reviewedDeeperReading": [
+        "A page can contain several layers of authorship",
+        "Rebuilding has more than one history"
+      ],
+      "familyActivity": "A visible page and a separate passage",
+      "chapterContext": ["cherokee-print-government-context"],
+      "defaultComparison": "haudenosaunee-canandaigua--cherokee-print",
+      "followups": [],
+      "fixes": [],
+      "comparisonQuestion": "How do words and records carry political responsibilities?"
+    },
+    {
+      "id": "ojibwe-manoomin",
+      "chapter": "C8",
+      "rubric": {
+        "orientation": "A single canoe scene opens a question about the labor and knowledge outside the frame.",
+        "explanation": "Drying, parching, hulling and winnowing explain why gathered rice requires further processing.",
+        "evidence": "The Commission lists four finishing stages, in the order used in the activity, and reports mechanization of some finishing. It does not assign these exact methods to the photographed person or establish the condition of that lake.",
+        "chronology_geography": "The probable Canadian setting and bracketed photograph date are distinct from U.S. treaty geography. Corrected missing word spacing before the 1837 treaty date in the authored text.",
+        "perspective": "Ojibwe and intertribal explanations supply work, care and stewardship knowledge beyond the photographer’s framing.",
+        "reading": "The deeper passage on treaty geography helps an adult explain why the legal record cannot identify an individual in Canada.",
+        "activity": "The family can sort the four processing stages, explain their purposes and ask a question about the water or the person.",
+        "connections": "The return prompt separates observation, an attributed account and a question remaining after comparison."
+      },
+      "evidence": [
+        {
+          "id": "rice-glifwc",
+          "url": "https://glifwc.org/stewardship/ganawenindiwag-manoomin-anishinaabeg",
+          "locator": "GLIFWC, Ganawenindiwag Manoomin Anishinaabeg, paragraph on harvest and finishing",
+          "finding": "The Commission lists four finishing stages, in the order used in the activity, and reports mechanization of some finishing. It does not assign these exact methods to the photographed person or establish the condition of that lake."
+        }
+      ],
+      "reviewedSections": [
+        "Begin with the place the photograph does not identify",
+        "Gathering joined boat movement with careful handling",
+        "Harvested grain still needed several kinds of work",
+        "Care for rice waters requires observation",
+        "Rights and institutions belong to particular settings"
+      ],
+      "reviewedDeeperReading": [
+        "A photograph and a treaty have different geographies",
+        "Care is a relationship and a continuing inquiry"
+      ],
+      "familyActivity": "The work beyond the canoe",
+      "chapterContext": ["ojibwe-rice-rights-care-context"],
+      "defaultComparison": "ojibwe-manoomin--inuinnait-sewing",
+      "followups": [],
+      "fixes": ["Separated the article from 1837 in the treaty passage."],
+      "comparisonQuestion": "How do material work and knowledge connect across generations?"
+    },
+    {
+      "id": "indonesia-independence",
+      "chapter": "C8",
+      "rubric": {
+        "orientation": "A signed proclamation introduces the question of what remained to be done after independence was asserted.",
+        "explanation": "Resistance, negotiations and a contested federal settlement explain why 1945, 1949 and 1950 denote different changes.",
+        "evidence": "The Dutch archive states that western New Guinea initially remained under Dutch administration. Present national boundaries would misrepresent the scope of the 1949 transfer. This is an archive’s retrospective account rather than an account from Papuan communities.",
+        "chronology_geography": "The Jakarta proclamation and The Hague settlement have distinct locators; neither is a point for every conflict in the archipelago.",
+        "perspective": "The Dutch military label for its offensives is attributed and interrogated beside the Indonesian proclamation; neither institution speaks for every resident.",
+        "reading": "The three verbs used in deeper reading give a way to remember different institutional actions.",
+        "activity": "Sorting three event cards and locating the two signatures can be completed from the supplied illustration and text.",
+        "connections": "Ghana provides a comparison of movements and changes in government, with different colonial institutions, struggles and territorial outcomes."
+      },
+      "evidence": [
+        {
+          "id": "indonesia-newguinea",
+          "url": "https://www.nationaalarchief.nl/beleven/nieuws/70-jaar-soevereiniteitsoverdracht-aan-indonesie",
+          "locator": "Nationaal Archief, 70 jaar soevereiniteitsoverdracht aan Indonesië, discussion of the federal aftermath and western New Guinea",
+          "finding": "The Dutch archive states that western New Guinea initially remained under Dutch administration. Present national boundaries would misrepresent the scope of the 1949 transfer. This is an archive’s retrospective account rather than an account from Papuan communities."
+        }
+      ],
+      "reviewedSections": [
+        "A document that acted",
+        "A republic had to survive",
+        "Negotiating the shape of the state",
+        "Two limits to a neat ending",
+        "Power also needed resources and institutions"
+      ],
+      "reviewedDeeperReading": [
+        "Three meanings of a date",
+        "Read the archive’s point of view",
+        "Compare institutions, not a universal timetable"
+      ],
+      "familyActivity": "Put the verbs on the timeline",
+      "chapterContext": ["indonesia-revolution-context"],
+      "defaultComparison": "indonesia-independence--ghana-independence",
+      "followups": [],
+      "fixes": [],
+      "comparisonQuestion": "Which powers changed at independence, and what remained contested?"
+    },
+    {
+      "id": "ghana-independence",
+      "chapter": "C8",
+      "rubric": {
+        "orientation": "A Ghana overprint on a Gold Coast stamp makes a constitutional puzzle visible.",
+        "explanation": "Organizing, elections, ministerial power, independence and the later republic explain how different powers changed at different moments.",
+        "evidence": "The study describes the 1958 law as empowering the prime minister to detain certain persons without trial. This retrospective account supports the distinction between independence and political freedom. The parliamentary PDF host separately returned HTTP 403 during this review.",
+        "chronology_geography": "1957 independence and the 1960 republic help explain a royal portrait on the stamp. The deeper account explicitly reaches 1964 to discuss later restrictions.",
+        "perspective": "Nkrumah’s program, regional opponents and the country study retain separate vantage points. This selection still relies on indirect accounts of market women and British Togoland/Ewe experiences.",
+        "reading": "A learner can read the stamp first, then use the two differently dated accounts to ask who benefited from cocoa income.",
+        "activity": "The two-column task asks for visible words, portrait and work scene first, then a separately supported explanation of the monarchy.",
+        "connections": "The regional comparison distinguishes transferred powers and obligations from lived benefits. The present selection does not resolve local disagreements about the Togoland plebiscite."
+      },
+      "evidence": [
+        {
+          "id": "ghana-country-study",
+          "url": "https://tile.loc.gov/storage-services/master/frd/frdcstdy/gh/ghanacountrystud00berr_0/ghanacountrystud00berr_0.pdf",
+          "locator": "Library of Congress, Ghana: A Country Study, Historical Setting, printed pp. 32–33; checked retained PDF text, first full paragraph on the Preventive Detention Act",
+          "finding": "The study describes the 1958 law as empowering the prime minister to detain certain persons without trial. This retrospective account supports the distinction between independence and political freedom. The parliamentary PDF host separately returned HTTP 403 during this review."
+        }
+      ],
+      "reviewedSections": [
+        "Grievances became organized politics",
+        "A party needed people and communication",
+        "Winning office was not yet independence",
+        "Independence did not mean one opinion",
+        "What should political freedom provide?",
+        "Follow the promise into the institutions"
+      ],
+      "reviewedDeeperReading": [
+        "A stamp is a small public surface",
+        "A primary voice and a later account",
+        "Where this account needs widening"
+      ],
+      "familyActivity": "Find the new words and the older picture",
+      "chapterContext": ["ghana-independence-context"],
+      "defaultComparison": "indonesia-independence--ghana-independence",
+      "followups": [],
+      "fixes": [],
+      "comparisonQuestion": "Which powers changed at independence, and what remained contested?"
+    }
+  ]
+}

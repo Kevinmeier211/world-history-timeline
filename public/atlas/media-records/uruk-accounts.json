@@ -1,0 +1,36 @@
+{
+  "subject": "uruk-accounts",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "met-327384",
+      "caption": "A probable grain account, c. 3100–2900 BCE. Missing verbs limit precise interpretation.",
+      "notice": [
+        "Which marks repeat?",
+        "Which claims need interpretation beyond what you can see?"
+      ],
+      "creator": "Maker not recorded",
+      "place": "Mesopotamia; probably Uruk, modern Warka",
+      "material": "Clay",
+      "relevance": "Economic recordkeeping, work and the limits of early textual interpretation.",
+      "additionalImages": ["/atlas/media/327384-1.webp"],
+      "additionalImageAlts": [
+        "Other face of the clay tablet, with groups of wedge-shaped and circular impressions separated by lines."
+      ]
+    },
+    {
+      "id": "uruk-accounting-diagram",
+      "caption": "Modern concept guide to categories, quantities and durable records. No ancient signs, numerical values or complete translation are supplied.",
+      "notice": [
+        "Read the convention note before following the diagram.",
+        "Separate a component or task from an inferred social relationship."
+      ],
+      "creator": "Chronos / Codex; source-based editorial diagram",
+      "place": "Modern editorial schematic; no surveyed coordinates",
+      "material": "Original SVG diagram",
+      "representedDate": "Selected tablet c. 3100–2900 BCE; administrative mechanism is schematic.",
+      "relevance": "Makes a mechanism or evidence distinction inspectable without presenting an imagined ancient scene as evidence.",
+      "printWidthMm": 145
+    }
+  ]
+}

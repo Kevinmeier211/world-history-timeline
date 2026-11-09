@@ -34,18 +34,20 @@ export function formatRange(
   return `${prefix}${formatYear(start)} – ${formatYear(end)}`;
 }
 
-/** Parse a search box year. Returns null when the text is not a single year. */
-export function parseYearQuery(query: string): number | null {
+/** Parse a single numeric year expression, including zero for input validation. */
+export function parseYearNumber(query: string): number | null {
   const trimmed = query.trim().replace(/^c\.?\s*/i, '');
   const bce = trimmed.match(/^(\d{1,5})\s*(BCE|BC)$/i);
-  if (bce?.[1]) {
-    const year = -Number(bce[1]);
-    return year === 0 ? null : year;
-  }
+  if (bce?.[1]) return -Number(bce[1]);
   const ce = trimmed.match(/^(?:(?:AD|CE)\s+)?(\d{1,5})(?:\s*(?:CE|AD))?$/i);
   const text = ce?.[1];
   if (!text) return null;
   if (!/^\d/.test(trimmed) && !/^(?:AD|CE)\b/i.test(trimmed)) return null;
-  const year = Number(text);
+  return Number(text);
+}
+
+/** Return a navigable historical year. The BCE/CE calendar has no year zero. */
+export function parseYearQuery(query: string): number | null {
+  const year = parseYearNumber(query);
   return year === 0 ? null : year;
 }

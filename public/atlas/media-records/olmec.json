@@ -1,0 +1,34 @@
+{
+  "subject": "olmec",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "met-314609",
+      "caption": "A ceramic female figure, 1200–900 BCE. Adornment and modeled features invite questions about social identification.",
+      "notice": [
+        "Which features are modeled carefully, and which are exaggerated?",
+        "What can adornment suggest without identifying an individual?"
+      ],
+      "creator": "Olmec artist(s)",
+      "place": "Mesoamerica; Olmec cultural attribution",
+      "material": "Ceramic",
+      "relevance": "Small-scale representations, social identities and attributed ritual interpretations.",
+      "additionalImages": []
+    },
+    {
+      "id": "olmec-dating-guide",
+      "caption": "A surface form, dated sample and interpretation answer different questions. A changed period assignment can overturn an earlier estimate. These generic symbols are not a measured mound, excavated floor, survey or census; no source figure is copied or traced.",
+      "notice": [
+        "Identify what each panel contributes to an interpretation.",
+        "Explain why changing a feature’s date could change the question about households."
+      ],
+      "creator": "Chronos / Codex; source-based editorial diagram",
+      "place": "Modern teaching guide; no measured ancient site or workshop reconstructed",
+      "material": "Original SVG diagram",
+      "representedDate": "A modern guide to revising a San Lorenzo household interpretation using the selected 2020 archaeological account; no ancient census or measured floor is depicted.",
+      "relevance": "Explains a source-based operation with independently arranged symbols, without asserting measured geometry, quantities or a recovered individual action.",
+      "additionalImages": [],
+      "printWidthMm": 145
+    }
+  ]
+}

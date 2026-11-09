@@ -1,0 +1,15 @@
+{
+  "subject": "world-war-one",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "loc-war-poster",
+      "caption": "A 1917 wartime recruiting appeal. Persuasive language is evidence of the desired response, not proof of actual participation.",
+      "notice": ["Who is being addressed?", "Which response does the poster seek?"],
+      "creator": "Maker not identified in the consulted catalogue",
+      "place": "United States",
+      "material": "Digitized printed poster",
+      "relevance": "Mass mobilization, persuasion and the limits of a public appeal."
+    }
+  ]
+}

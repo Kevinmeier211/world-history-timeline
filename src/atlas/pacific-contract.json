@@ -1,0 +1,65 @@
+{
+  "finalized": true,
+  "purpose": "Root-authorized finite Pacific exchange local-validation scope; no new approval is inferred by the draft writer.",
+  "selectedSubjects": ["manila-network", "banda-1621"],
+  "newSourceIDs": [
+    "manila-shipbuilding-1618-1619",
+    "manila-tamal-huye-project",
+    "manila-santo-cristo-2022",
+    "banda-pala-1621",
+    "banda-wandan-statement-2021",
+    "banda-farid-commemoration",
+    "banda-language-tana-2019",
+    "banda-gazetteer-2021"
+  ],
+  "renewedSourceIDs": [
+    "galleon",
+    "point-reyes",
+    "met-9198",
+    "banda-archive",
+    "banda-museum"
+  ],
+  "newIDsByCollection": {
+    "contexts": ["manila-ships-people-context", "banda-food-displacement-context"],
+    "comparisons": ["banda-1621--manila-network"],
+    "journeys": ["goods-work-coercion"],
+    "glossary": [],
+    "relations": []
+  },
+  "mediaChanges": {
+    "met-9198": {
+      "caption": "Mexican tin-glazed earthenware, ca. 1680–1700. This accession is not identified as cargo from the 1595 San Agustín wreck or the 1726 Santo Cristo register.",
+      "notice": [
+        "Find a floral form inside a panel and a repeated blue border.",
+        "What record would identify this jar with a particular shipment?"
+      ],
+      "relevance": "Mexican ceramic making compared with separately documented Pacific exchange. Its catalogue does not establish a particular voyage."
+    }
+  },
+  "bandaPoints": {
+    "banda-besar-reference": [129.90971944444445, -4.555830555555556],
+    "banda-neira-reference": [129.903, -4.512219444444445],
+    "banda-rhun-reference": [129.6811111111111, -4.558055555555556]
+  },
+  "bandaBounds": [129.65, -4.59, 129.96, -4.48],
+  "journeyStops": [
+    {
+      "subject": "banda-1621",
+      "year": 1621
+    },
+    {
+      "subject": "manila-network",
+      "object": "met-9198",
+      "year": 1726
+    }
+  ],
+  "pairedJourneyRule": "Two distinct dossier stops require an authored comparison and complete cited family/reasoning/return structures. Existing three-or-more-stop rules remain unchanged; no dummy stop.",
+  "requiredStartingStateFields": [
+    "startingCommit",
+    "startingCorpusSHA256",
+    "priorSourceStateSHA256",
+    "priorPortableResultSHA256"
+  ],
+  "requiredPriorReceiptPath": "output/c7-cities-2026-10-29",
+  "metadataReview": "Exact caption/notice/relevance values armed by root in the active parent-adoption-review.json after actual selected photo/catalogue consultation; no identity/date/rights/pixel change."
+}

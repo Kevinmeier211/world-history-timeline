@@ -1,0 +1,52 @@
+{
+  "subject": "ocmulgee-council",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "ocmulgee-floor",
+      "caption": "The surviving clay floor and raised platform sit within a reconstructed shelter. The NPS image caption’s older 1015 date is assessed against newer collaborative research rather than copied as settled. The photograph has no supplied exposure date; its limited original resolution is retained.",
+      "notice": [
+        "Find the raised clay platform and the wooden supports.",
+        "Which parts might survive if the wooden shelter disappeared?"
+      ],
+      "creator": "National Park Service; individual photographer not named",
+      "place": "Ocmulgee Earthlodge, Georgia",
+      "material": "Digital photograph of archaeological clay floor and reconstructed interior",
+      "representedDate": "Surviving archaeological floor and seating under a modern protective reconstruction",
+      "relevance": "Allows close inspection of real surviving material while keeping restoration and dating claims separate.",
+      "datingNote": "NPS supplies no exposure date. The surviving archaeological clay and reconstructed shelter have different dates. Source is 526×339 pixels and is not enlarged.",
+      "additionalImages": []
+    },
+    {
+      "id": "ocmulgee-exterior",
+      "caption": "The modern walls and roof protect a surviving archaeological floor. This exterior cannot show the exact ancient roof or settle the building’s date. The older NPS 1015 label is discussed beside newer collaborative dating research.",
+      "notice": [
+        "Which features are visible, and which are hidden inside?",
+        "What evidence would distinguish a reconstruction from a surviving ancient surface?"
+      ],
+      "creator": "NPS / Martinson",
+      "place": "Ocmulgee Mounds, Georgia",
+      "material": "Digital photograph of a reconstructed building",
+      "representedDate": "Modern protective reconstruction above surviving ancient clay; construction chronology debated",
+      "relevance": "Makes restoration and surviving archaeological material separate parts of the inquiry.",
+      "datingNote": "The exterior shows reconstructed walls/roof, not an ancient photograph. Source supplies no exposure date.",
+      "additionalImages": []
+    },
+    {
+      "id": "ocmulgee-earthlodge-feature-plan",
+      "caption": "Excavated D-1 features, not a standing roof. Panel C’s Council Chamber 2 caption conflicts with its D-1 identification. Publication in 2025/2026 does not date the images or features.",
+      "notice": [
+        "Follow the source labels from the entrance to the hearth, bench seats and bird-shaped platform.",
+        "Which marks record fallen material rather than a completed standing building?"
+      ],
+      "creator": "Victor D. Thompson / University of Georgia Laboratory of Archaeology; adapted from Fairbanks",
+      "place": "Ocmulgee D-1 Earthlodge; no new geographic coordinate or plan georegistration",
+      "material": "Modern published composite of archival photographs and an adapted feature drawing",
+      "representedDate": "Excavation-state features of the D-1 Earthlodge and retained fallen timber, not a standing-roof reconstruction or one precisely dated ancient event",
+      "relevance": "Supplies an actually inspected labelled archaeological feature record, without substituting the modern protective exterior for the excavated floor or claiming a new measured survey.",
+      "datingNote": "Keep original/publication, excavation, surviving-feature and modern reconstruction dates separate. No figure-creation year, exact roof completion or photographic exposure dates supplied.",
+      "additionalImages": [],
+      "printWidthMm": 170
+    }
+  ]
+}

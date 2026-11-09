@@ -1,0 +1,1537 @@
+{
+  "date": "2026-11-05",
+  "status": "author_review_and_local_semantic_checks_complete",
+  "corpusSHA256": "cacd0e7d9be7ef13909afe5f9bd511a0ce73b5cc9379648b6d59380fc81d167c",
+  "namedDossiers": 77,
+  "placeStudies": 38,
+  "namedPoints": 114,
+  "features": 6,
+  "chapterStudyCounts": {
+    "C1": 4,
+    "C2": 5,
+    "C3": 10,
+    "C4": 6,
+    "C5": 9,
+    "C6": 8,
+    "C7": 7,
+    "C8": 5
+  },
+  "points": [
+    {
+      "dossier": "palmyra",
+      "id": "antioch",
+      "label": "Antioch \u2014 Mediterranean-facing exchange",
+      "citations": [
+        {
+          "source": "trade",
+          "locator": "Trading-post sequence beginning at Antioch"
+        }
+      ]
+    },
+    {
+      "dossier": "palmyra",
+      "id": "palmyra",
+      "label": "Palmyra \u2014 families and civic exchange",
+      "citations": [
+        {
+          "source": "met-322375",
+          "locator": "Family inscription"
+        },
+        {
+          "source": "palmyra-tax",
+          "locator": "Printed pp. 173\u2013175"
+        }
+      ]
+    },
+    {
+      "dossier": "palmyra",
+      "id": "ctesiphon",
+      "label": "Ctesiphon \u2014 a Mesopotamian trading setting",
+      "citations": [
+        {
+          "source": "trade",
+          "locator": "Trading posts and distribution"
+        }
+      ]
+    },
+    {
+      "dossier": "kushan-contexts",
+      "id": "peshawar",
+      "label": "Peshawar / Purushapura \u2014 regional center",
+      "citations": [
+        {
+          "source": "kushan",
+          "locator": "Kanishka centers paragraph"
+        }
+      ]
+    },
+    {
+      "dossier": "kushan-contexts",
+      "id": "mathura",
+      "label": "Mathura \u2014 a different urban setting",
+      "citations": [
+        {
+          "source": "kushan",
+          "locator": "Kanishka centers paragraph"
+        }
+      ]
+    },
+    {
+      "dossier": "kushan-contexts",
+      "id": "baghlan",
+      "label": "Baghlan region \u2014 Rabatak and Surkh Kotal",
+      "citations": [
+        {
+          "source": "kushan-inscriptions",
+          "locator": "Printed pp. 77\u201378, site descriptions"
+        }
+      ]
+    },
+    {
+      "dossier": "aksum",
+      "id": "aksum",
+      "label": "Aksum \u2014 highland center",
+      "citations": [
+        {
+          "source": "aksum-world",
+          "locator": "Excerpt pp. 5\u20137"
+        },
+        {
+          "source": "aksum",
+          "locator": "Architecture and stelae chronology"
+        }
+      ]
+    },
+    {
+      "dossier": "aksum",
+      "id": "adulis",
+      "label": "Adulis \u2014 Red Sea outlet",
+      "citations": [
+        {
+          "source": "aksum-world",
+          "locator": "Excerpt pp. 5\u20137"
+        }
+      ]
+    },
+    {
+      "dossier": "aksum",
+      "id": "yeha-research",
+      "label": "Yeha district \u2014 Beta Samati research area",
+      "citations": [
+        {
+          "source": "beta-samati",
+          "locator": "Printed pp. 1534\u20131535: Yeha-region study and site location"
+        }
+      ]
+    },
+    {
+      "dossier": "teotihuacan",
+      "id": "teotihuacan-site",
+      "label": "Teotihuacan \u2014 site reference",
+      "citations": [
+        {
+          "source": "teotihuacan-location-unesco",
+          "locator": "Location metadata below Dossier 414: N19 41 30.012 W98 50 30.012"
+        },
+        {
+          "source": "teot-tlajinga-2026",
+          "locator": "The Tlajinga District and Its Neighborhood Center; Figure 1 caption"
+        }
+      ]
+    },
+    {
+      "dossier": "dongson",
+      "id": "co-loa-complex-reference",
+      "label": "C\u1ed5 Loa: M\u1ea3 Tre group",
+      "citations": [
+        {
+          "source": "dongson-co-loa-location",
+          "locator": "Coordinates; State Party disclaimer"
+        },
+        {
+          "source": "dongson-co-loa-2021",
+          "locator": "Opening find-context paragraph"
+        }
+      ]
+    },
+    {
+      "dossier": "dongson",
+      "id": "ngoc-lu-locality-reference",
+      "label": "Ng\u1ecdc L\u0169: discovery/use record",
+      "citations": [
+        {
+          "source": "dongson-ngoc-lu-location",
+          "locator": "Coordinates and JSON-LD"
+        },
+        {
+          "source": "dongson-ngoc-lu-2013",
+          "locator": "Discovery/later-use paragraphs"
+        },
+        {
+          "source": "dongson-ngoc-lu-2023",
+          "locator": "Discovery/transfer paragraph"
+        }
+      ]
+    },
+    {
+      "dossier": "dongson",
+      "id": "nhu-trac-locality-reference",
+      "label": "Nh\u01b0 Tr\u00e1c: use/discovery record",
+      "citations": [
+        {
+          "source": "dongson-nhu-trac-location",
+          "locator": "Coordinates and JSON-LD"
+        },
+        {
+          "source": "dongson-ngoc-lu-2013",
+          "locator": "Discovery/later-use paragraphs"
+        },
+        {
+          "source": "dongson-ngoc-lu-2023",
+          "locator": "Discovery/transfer paragraph"
+        }
+      ]
+    },
+    {
+      "dossier": "dongson",
+      "id": "phu-chanh-locality-reference",
+      "label": "Ph\u00fa Ch\u00e1nh: jar and drum contexts",
+      "citations": [
+        {
+          "source": "dongson-phu-chanh-location",
+          "locator": "Coordinates and JSON-LD"
+        },
+        {
+          "source": "dongson-phu-chanh-2008",
+          "locator": "pp.67, 69\u201370, 72"
+        },
+        {
+          "source": "dongson-phu-chanh-treasure",
+          "locator": "Date block"
+        }
+      ]
+    },
+    {
+      "dossier": "dongson",
+      "id": "luy-lau-area-reference",
+      "label": "Luy L\u00e2u: later production",
+      "citations": [
+        {
+          "source": "dongson-luy-lau-location",
+          "locator": "Coordinates and JSON-LD"
+        },
+        {
+          "source": "dongson-luy-lau-2024",
+          "locator": "Opening location; workshop-discard phase"
+        }
+      ]
+    },
+    {
+      "dossier": "benin-ivory",
+      "id": "benin-city",
+      "label": "Benin City \u2014 Edo court area",
+      "citations": [
+        {
+          "source": "benin-court-guilds",
+          "locator": "Court history"
+        },
+        {
+          "source": "met-309900",
+          "locator": "Culture: court of Benin (?)"
+        }
+      ]
+    },
+    {
+      "dossier": "benin-ivory",
+      "id": "regional-coast",
+      "label": "Regional coast \u2014 orientation only",
+      "citations": [
+        {
+          "source": "benin-court-guilds",
+          "locator": "Conquest and contact"
+        }
+      ]
+    },
+    {
+      "dossier": "kongo-translation",
+      "id": "mbanza-kongo",
+      "label": "Mbanza Kongo \u2014 royal center",
+      "citations": [
+        {
+          "source": "kongo-christianity",
+          "locator": "Royal center and later movement"
+        }
+      ]
+    },
+    {
+      "dossier": "kongo-translation",
+      "id": "atlantic-coast",
+      "label": "Atlantic coast \u2014 regional orientation",
+      "citations": [
+        {
+          "source": "kongo-interview",
+          "locator": "Portuguese encounters and trafficking"
+        }
+      ]
+    },
+    {
+      "dossier": "portuguese-voyage",
+      "id": "lisbon",
+      "label": "Lisbon \u2014 voyage departure",
+      "citations": [
+        {
+          "source": "gama-journal-1898",
+          "locator": "Printed p. 1: departure; editorial Lisbon heading"
+        }
+      ]
+    },
+    {
+      "dossier": "portuguese-voyage",
+      "id": "malindi",
+      "label": "Malindi \u2014 negotiation and pilotage",
+      "citations": [
+        {
+          "source": "gama-journal-1898",
+          "locator": "Printed pp. 39\u201346"
+        }
+      ]
+    },
+    {
+      "dossier": "portuguese-voyage",
+      "id": "calicut",
+      "label": "Calicut / Kozhikode \u2014 encounters and audience",
+      "citations": [
+        {
+          "source": "gama-journal-1898",
+          "locator": "Printed pp. 47\u201357"
+        }
+      ]
+    },
+    {
+      "dossier": "portuguese-voyage",
+      "id": "goa",
+      "label": "Goa \u2014 separate 1510 conquest",
+      "citations": [
+        {
+          "source": "interwoven",
+          "locator": "India 1510"
+        }
+      ]
+    },
+    {
+      "dossier": "banda-1621",
+      "id": "banda-besar-reference",
+      "label": "Banda Besar \u2014 island reference",
+      "citations": [
+        {
+          "source": "banda-gazetteer-2021",
+          "locator": "PDF 250: Banda Besar, Pulau; 04\u00b033\u203220.99\u2033S 129\u00b054\u203234.99\u2033E"
+        },
+        {
+          "source": "banda-archive",
+          "locator": "Geografie: Banda Besar, also called Lontor"
+        }
+      ]
+    },
+    {
+      "dossier": "banda-1621",
+      "id": "banda-neira-reference",
+      "label": "Neira \u2014 island reference",
+      "citations": [
+        {
+          "source": "banda-gazetteer-2021",
+          "locator": "PDF 604: Neira, Pulau; 04\u00b030\u203243.99\u2033S 129\u00b054\u203210.80\u2033E"
+        }
+      ]
+    },
+    {
+      "dossier": "banda-1621",
+      "id": "banda-rhun-reference",
+      "label": "Rhun / Run \u2014 island reference",
+      "citations": [
+        {
+          "source": "banda-gazetteer-2021",
+          "locator": "PDF 686: Rhun, Pulau; 04\u00b033\u203229.00\u2033S 129\u00b040\u203252.00\u2033E"
+        },
+        {
+          "source": "banda-pala-1621",
+          "locator": "Spectres and rumours: Run"
+        }
+      ]
+    },
+    {
+      "dossier": "old-kingdom",
+      "id": "saqqara-wall",
+      "label": "Saqqara \u2014 selected chapel context",
+      "citations": [
+        {
+          "source": "met-543914",
+          "locator": "Artwork Details: Saqqara,Tomb QS 915"
+        }
+      ]
+    },
+    {
+      "dossier": "old-kingdom",
+      "id": "giza-reference",
+      "label": "Giza area \u2014 pyramid-field reference",
+      "citations": [
+        {
+          "source": "pyramid-field-locators",
+          "locator": "Component 86-002 geographical coordinate"
+        },
+        {
+          "source": "giza-settlement",
+          "locator": "Fourth Dynasty site and provisioning account"
+        }
+      ]
+    },
+    {
+      "dossier": "old-kingdom",
+      "id": "memphis-reference",
+      "label": "Memphis \u2014 regional administrative setting",
+      "citations": [
+        {
+          "source": "pyramid-field-locators",
+          "locator": "Component 86-001 geographical coordinate"
+        },
+        {
+          "source": "merer-logbook",
+          "locator": "English annex,printed p. 152: Memphite region"
+        }
+      ]
+    },
+    {
+      "dossier": "caral",
+      "id": "caral-inland",
+      "label": "Caral \u2014 inland settlement and one study individual",
+      "citations": [
+        {
+          "source": "caral-starch-2023",
+          "locator": "Study area; Burial contexts"
+        }
+      ]
+    },
+    {
+      "dossier": "caral",
+      "id": "aspero-coastal",
+      "label": "\u00c1spero \u2014 coastal settlement and nine study individuals",
+      "citations": [
+        {
+          "source": "caral-starch-2023",
+          "locator": "Study area; Burial contexts"
+        },
+        {
+          "source": "caral-project-2005",
+          "locator": "Printed p.14 / PDF 16: Organizaci\u00f3n econ\u00f3mica"
+        }
+      ]
+    },
+    {
+      "dossier": "skara-brae",
+      "id": "skara-houses",
+      "label": "Skara Brae \u2014 household settlement",
+      "citations": [
+        {
+          "source": "skara-significance-2024",
+          "locator": "Printed pp.15\u201317 and60: site,landscape and chronology"
+        }
+      ]
+    },
+    {
+      "dossier": "skara-brae",
+      "id": "brodgar-circle",
+      "label": "Ring of Brodgar \u2014 a separate monument history",
+      "citations": [
+        {
+          "source": "orkney-brodgar-locator",
+          "locator": "Search-indexed Location Details,NGR HY 2945 1335"
+        },
+        {
+          "source": "skara-significance-2024",
+          "locator": "Printed p.60,note 196"
+        }
+      ]
+    },
+    {
+      "dossier": "skara-brae",
+      "id": "stenness-circle",
+      "label": "Stones of Stenness \u2014 ceremonial context",
+      "citations": [
+        {
+          "source": "orkney-stenness-locator",
+          "locator": "Search-indexed Location Details,NGR HY 3067 1252"
+        },
+        {
+          "source": "orkney-neolithic",
+          "locator": "Description; Brief synthesis"
+        }
+      ]
+    },
+    {
+      "dossier": "kerma-potters",
+      "id": "kerma",
+      "label": "Kerma \u2014 regional capital setting",
+      "citations": [
+        {
+          "source": "kerma-location-tentative",
+          "locator": "Coordinates; opening Description"
+        },
+        {
+          "source": "kerma-city-project",
+          "locator": "City of Kerma: excavated city and institutional/craft spaces"
+        }
+      ]
+    },
+    {
+      "dossier": "kerma-potters",
+      "id": "abydos",
+      "label": "Abydos \u2014 recorded findspot region",
+      "citations": [
+        {
+          "source": "abydos-location-tentative",
+          "locator": "Coordinates; submission metadata"
+        },
+        {
+          "source": "met-545772",
+          "locator": "Description and Geography: Abydos, Tomb 525"
+        }
+      ]
+    },
+    {
+      "dossier": "olmec",
+      "id": "san-lorenzo-reference",
+      "label": "San Lorenzo \u2014 site-area reference",
+      "citations": [
+        {
+          "source": "sic-san-lorenzo",
+          "locator": "Named record; abrir en google maps href"
+        },
+        {
+          "source": "olmec-sampling-2020",
+          "locator": "Printed pp. 130, 135 and 140\u2013141"
+        }
+      ]
+    },
+    {
+      "dossier": "olmec",
+      "id": "la-venta-reference",
+      "label": "La Venta \u2014 a different monumental setting",
+      "citations": [
+        {
+          "source": "sic-la-venta",
+          "locator": "Named record; abrir en google maps href"
+        },
+        {
+          "source": "olmec-regional-inah",
+          "locator": "Introductoria: two conventional peaks"
+        },
+        {
+          "source": "olmec",
+          "locator": "La Venta platforms and greenstone offerings"
+        }
+      ]
+    },
+    {
+      "dossier": "olmec",
+      "id": "tres-zapotes-reference",
+      "label": "Tres Zapotes \u2014 regional visitor reference",
+      "citations": [
+        {
+          "source": "sic-tres-zapotes",
+          "locator": "Named record; abrir en google maps href"
+        },
+        {
+          "source": "olmec",
+          "locator": "After 400 B.C.: production at other centres"
+        }
+      ]
+    },
+    {
+      "dossier": "lapita",
+      "id": "bismarck-orientation",
+      "label": "Bismarck Archipelago \u2014 broad regional orientation",
+      "citations": [
+        {
+          "source": "lapita-voyaging",
+          "locator": "Page 3: opening Bismarck orientation"
+        }
+      ]
+    },
+    {
+      "dossier": "lapita",
+      "id": "efate-orientation",
+      "label": "Efate \u2014 Teouma study\u2019s island setting",
+      "citations": [
+        {
+          "source": "lapita-teouma-diet",
+          "locator": "Figure 2, visually inspected; The site and skeletal sample"
+        }
+      ]
+    },
+    {
+      "dossier": "lapita",
+      "id": "tonga-orientation",
+      "label": "Tongan island groups \u2014 regional reference",
+      "citations": [
+        {
+          "source": "tonga-lapita-tentative",
+          "locator": "Coordinates; State, Province or Region"
+        },
+        {
+          "source": "lapita-nukuleka-uth",
+          "locator": "Nukuleka setting; Sample Context"
+        },
+        {
+          "source": "lapita-tonga-dating",
+          "locator": "Bayesian Overlap Model; Discussion"
+        }
+      ]
+    },
+    {
+      "dossier": "nimrud-palace",
+      "id": "kalhu",
+      "label": "Kalhu / Nimrud \u2014 selected palace setting",
+      "citations": [
+        {
+          "source": "nimrud-geonames",
+          "locator": "Named entry; coordinates linked to Pleiades 894019"
+        },
+        {
+          "source": "nimrud",
+          "locator": "Northwest Palace and capital setting"
+        }
+      ]
+    },
+    {
+      "dossier": "nimrud-palace",
+      "id": "dur-sharrukin",
+      "label": "Dur-\u0160arrukin \u2014 a later royal capital",
+      "citations": [
+        {
+          "source": "dur-sharrukin-geonames",
+          "locator": "D index, Dur-\u0160arrukin entry; Pleiades 874458"
+        },
+        {
+          "source": "nimrud",
+          "locator": "Later capitals under Sargon II and Sennacherib"
+        }
+      ]
+    },
+    {
+      "dossier": "nimrud-palace",
+      "id": "nineveh",
+      "label": "Nineveh \u2014 another later royal centre",
+      "citations": [
+        {
+          "source": "nineveh-geonames",
+          "locator": "Named entry; coordinates linked to Pleiades 874621"
+        },
+        {
+          "source": "nimrud",
+          "locator": "Later capital and continued local use"
+        }
+      ]
+    },
+    {
+      "dossier": "ashoka-messages",
+      "id": "pataliputra",
+      "label": "Pataliputra \u2014 royal centre",
+      "citations": [
+        {
+          "source": "ashoka",
+          "locator": "Opening paragraph and distribution"
+        }
+      ]
+    },
+    {
+      "dossier": "ashoka-messages",
+      "id": "kandahar",
+      "label": "Kandahar \u2014 Greek and Aramaic material",
+      "citations": [
+        {
+          "source": "ashoka",
+          "locator": "Inscriptions and Kandahar"
+        }
+      ]
+    },
+    {
+      "dossier": "ashoka-messages",
+      "id": "girnar",
+      "label": "Girnar \u2014 Rock Edict II",
+      "citations": [
+        {
+          "source": "ashoka-edicts-1925",
+          "locator": "Printed pp. 3\u20134, Girnar II"
+        }
+      ]
+    },
+    {
+      "dossier": "ashoka-messages",
+      "id": "dhauli",
+      "label": "Dhauli \u2014 Separate Edict I",
+      "citations": [
+        {
+          "source": "ashoka-edicts-1925",
+          "locator": "Printed pp. 95\u201396 and introduction on regional sets"
+        }
+      ]
+    },
+    {
+      "dossier": "athens-water",
+      "id": "agora",
+      "label": "Agora \u2014 work and civic institutions",
+      "citations": [
+        {
+          "source": "athens-sites",
+          "locator": "Historical description"
+        },
+        {
+          "source": "agora-women",
+          "locator": "Printed pp. 9\u201311"
+        }
+      ]
+    },
+    {
+      "dossier": "athens-water",
+      "id": "southeast-fountain",
+      "label": "Southeast Fountain House \u2014 water provision",
+      "citations": [
+        {
+          "source": "agora-women",
+          "locator": "Printed map p. 2, feature 8; pp. 6\u20138"
+        }
+      ]
+    },
+    {
+      "dossier": "athens-water",
+      "id": "pnyx",
+      "label": "Pnyx \u2014 Assembly setting",
+      "citations": [
+        {
+          "source": "athens-sites",
+          "locator": "Pnyx and Agora"
+        },
+        {
+          "source": "athens-constitution",
+          "locator": "Parts 42\u201343"
+        }
+      ]
+    },
+    {
+      "dossier": "taharqo",
+      "id": "nuri",
+      "label": "Nuri \u2014 probable royal burial association",
+      "citations": [
+        {
+          "source": "napatan-locations",
+          "locator": "Geographical data: component 1073-003 Nuri"
+        },
+        {
+          "source": "met-544883",
+          "locator": "Description and Geography"
+        }
+      ]
+    },
+    {
+      "dossier": "taharqo",
+      "id": "sanam",
+      "label": "Sanam \u2014 excavated production setting",
+      "citations": [
+        {
+          "source": "napatan-locations",
+          "locator": "Geographical data: component 1073-004 Sanam"
+        },
+        {
+          "source": "sanam-production-2026",
+          "locator": "New excavations; workshop and production discussion; Figures 4 and 10"
+        }
+      ]
+    },
+    {
+      "dossier": "chavin-textile",
+      "id": "chavin-centre",
+      "label": "Chav\u00edn de Hu\u00e1ntar \u2014 ceremonial centre",
+      "citations": [
+        {
+          "source": "chavin-center-unesco",
+          "locator": "Location metadata below Dossier 330: S9 35 33.981 W77 10 42.433"
+        },
+        {
+          "source": "met-315784",
+          "locator": "Description paragraphs 2\u20133: reported southern-coastal origin and motif parallels"
+        }
+      ]
+    },
+    {
+      "dossier": "tang-city",
+      "id": "changan",
+      "label": "Chang\u2019an / Xi\u2019an \u2014 capital area",
+      "citations": [
+        {
+          "source": "tang-changan",
+          "locator": "Successive city locations and later structures"
+        }
+      ]
+    },
+    {
+      "dossier": "tang-city",
+      "id": "luoyang",
+      "label": "Luoyang \u2014 the house example\u2019s setting",
+      "citations": [
+        {
+          "source": "tang-wards",
+          "locator": "Bai Juyi paragraph"
+        }
+      ]
+    },
+    {
+      "dossier": "abbasid-craft",
+      "id": "baghdad",
+      "label": "Baghdad \u2014 founded in 762",
+      "citations": [
+        {
+          "source": "abbasid",
+          "locator": "Opening paragraph"
+        },
+        {
+          "source": "met-451400",
+          "locator": "Date and attribution"
+        }
+      ]
+    },
+    {
+      "dossier": "abbasid-craft",
+      "id": "samarra",
+      "label": "Samarra \u2014 court setting, 836\u2013892",
+      "citations": [
+        {
+          "source": "abbasid",
+          "locator": "Samarra and archaeological survival"
+        },
+        {
+          "source": "basrah-fieldwork",
+          "locator": "Ceramic production evidence"
+        }
+      ]
+    },
+    {
+      "dossier": "abbasid-craft",
+      "id": "early-basra",
+      "label": "Al-Zubayr area \u2014 early Basra research",
+      "citations": [
+        {
+          "source": "basrah-fieldwork",
+          "locator": "Location and origins, ceramics and survey"
+        }
+      ]
+    },
+    {
+      "dossier": "borobudur",
+      "id": "borobudur-component-reference",
+      "label": "Borobudur \u2014 monumental hill",
+      "citations": [
+        {
+          "source": "borobudur-component-locations",
+          "locator": "Component 592-001 coordinate row"
+        }
+      ]
+    },
+    {
+      "dossier": "borobudur",
+      "id": "pawon-component-reference",
+      "label": "Pawon \u2014 associated temple",
+      "citations": [
+        {
+          "source": "borobudur-component-locations",
+          "locator": "Component 592-003 coordinate row"
+        },
+        {
+          "source": "borobudur",
+          "locator": "Brief synthesis: associated monuments"
+        }
+      ]
+    },
+    {
+      "dossier": "borobudur",
+      "id": "mendut-component-reference",
+      "label": "Mendut \u2014 associated temple",
+      "citations": [
+        {
+          "source": "borobudur-component-locations",
+          "locator": "Component 592-002 coordinate row"
+        },
+        {
+          "source": "borobudur-monitoring-mission-2024",
+          "locator": "\u00a73.3.2 pp. 36\u201341: modern Cultural Axis Path"
+        }
+      ]
+    },
+    {
+      "dossier": "nalanda",
+      "id": "nalanda",
+      "label": "Nalanda \u2014 monastic and scholastic remains",
+      "citations": [
+        {
+          "source": "nalanda",
+          "locator": "Brief synthesis and Integrity"
+        }
+      ]
+    },
+    {
+      "dossier": "nalanda",
+      "id": "tamralipti",
+      "label": "Tamralipti / Tamluk region \u2014 a different monastery",
+      "citations": [
+        {
+          "source": "yijing-1896",
+          "locator": "Printed pp. 63\u201365 and p. 154 note 1"
+        }
+      ]
+    },
+    {
+      "dossier": "maya-vessel",
+      "id": "maya-ceren-comparison",
+      "label": "Joya de Cer\u00e9n: household comparison",
+      "citations": [
+        {
+          "source": "maya-ceren-unesco",
+          "locator": "Dossier 675 location metadata, Department of La Libertad"
+        }
+      ]
+    },
+    {
+      "dossier": "mali-networks",
+      "id": "jenne-jeno",
+      "label": "Jenne-jeno \u2014 older urban history",
+      "citations": [
+        {
+          "source": "sahel",
+          "locator": "Ancient Mali; Archaeology"
+        }
+      ]
+    },
+    {
+      "dossier": "mali-networks",
+      "id": "timbuktu",
+      "label": "Timbuktu \u2014 scholarly and political histories",
+      "citations": [
+        {
+          "source": "sahel",
+          "locator": "Islam; Songhay"
+        }
+      ]
+    },
+    {
+      "dossier": "mali-networks",
+      "id": "gao",
+      "label": "Gao \u2014 distinct settlement and later power",
+      "citations": [
+        {
+          "source": "sahel",
+          "locator": "Songhay"
+        }
+      ]
+    },
+    {
+      "dossier": "angkor",
+      "id": "wat",
+      "label": "Angkor Wat",
+      "citations": [
+        {
+          "source": "angkor-nasa",
+          "locator": "Image and Angkor Wat paragraph"
+        },
+        {
+          "source": "angkor-occupation",
+          "locator": "Life history of the temple"
+        }
+      ]
+    },
+    {
+      "dossier": "angkor",
+      "id": "thom",
+      "label": "Angkor Thom",
+      "citations": [
+        {
+          "source": "angkor-nasa",
+          "locator": "Angkor Thom paragraph"
+        }
+      ]
+    },
+    {
+      "dossier": "angkor",
+      "id": "west-baray",
+      "label": "West Baray",
+      "citations": [
+        {
+          "source": "angkor-nasa",
+          "locator": "Western Baray paragraph"
+        },
+        {
+          "source": "angkor-network",
+          "locator": "Water distribution network"
+        }
+      ]
+    },
+    {
+      "dossier": "angkor",
+      "id": "east-baray",
+      "label": "East Baray",
+      "citations": [
+        {
+          "source": "angkor-nasa",
+          "locator": "Eastern Baray paragraph"
+        }
+      ]
+    },
+    {
+      "dossier": "angkor",
+      "id": "lake",
+      "label": "Toward Tonle Sap",
+      "citations": [
+        {
+          "source": "angkor-nasa",
+          "locator": "Opening and satellite image"
+        }
+      ]
+    },
+    {
+      "dossier": "song-art",
+      "id": "kaifeng",
+      "label": "Kaifeng / Bianliang \u2014 northern capital area",
+      "citations": [
+        {
+          "source": "song",
+          "locator": "Northern capital"
+        },
+        {
+          "source": "song-phases",
+          "locator": "1125\u20131234 entry"
+        }
+      ]
+    },
+    {
+      "dossier": "song-art",
+      "id": "hangzhou",
+      "label": "Hangzhou \u2014 southern capital area",
+      "citations": [
+        {
+          "source": "song-phases",
+          "locator": "Southern Song and Hangzhou"
+        }
+      ]
+    },
+    {
+      "dossier": "inca-weaving",
+      "id": "cusco",
+      "label": "Cusco \u2014 capital area",
+      "citations": [
+        {
+          "source": "inka-regional",
+          "locator": "Ambiente y Localizaci\u00f3n"
+        }
+      ]
+    },
+    {
+      "dossier": "inca-weaving",
+      "id": "yanawilka",
+      "label": "Yanawilka \u2014 studied household settlement",
+      "citations": [
+        {
+          "source": "yanawilka-food",
+          "locator": "Introduction coordinates; Methods"
+        }
+      ]
+    },
+    {
+      "dossier": "inca-weaving",
+      "id": "vilcashuaman",
+      "label": "Vilcashuam\u00e1n \u2014 provincial center",
+      "citations": [
+        {
+          "source": "yanawilka-food",
+          "locator": "Landscape and settlement location"
+        }
+      ]
+    },
+    {
+      "dossier": "tomioka",
+      "id": "tomioka-mill-reference",
+      "label": "Tomioka Silk Mill",
+      "citations": [
+        {
+          "source": "tomioka-unesco-coordinates",
+          "locator": "1449-001"
+        },
+        {
+          "source": "tomioka-local",
+          "locator": "Tomioka Silk Mill"
+        }
+      ]
+    },
+    {
+      "dossier": "tomioka",
+      "id": "tajima-farm-reference",
+      "label": "Tajima Yahei Sericulture Farm",
+      "citations": [
+        {
+          "source": "tomioka-unesco-coordinates",
+          "locator": "1449-002"
+        },
+        {
+          "source": "tomioka-local",
+          "locator": "Farmhouses: Tajima"
+        }
+      ]
+    },
+    {
+      "dossier": "tomioka",
+      "id": "takayama-school-reference",
+      "label": "Takayama-sha Sericulture School",
+      "citations": [
+        {
+          "source": "tomioka-unesco-coordinates",
+          "locator": "1449-003"
+        },
+        {
+          "source": "tomioka-local",
+          "locator": "Farmhouses: Takayama-sha"
+        }
+      ]
+    },
+    {
+      "dossier": "tomioka",
+      "id": "arafune-storage-reference",
+      "label": "Arafune Cold Storage",
+      "citations": [
+        {
+          "source": "tomioka-unesco-coordinates",
+          "locator": "1449-004"
+        },
+        {
+          "source": "tomioka-arafune-2020",
+          "locator": "Preparing for storage"
+        }
+      ]
+    },
+    {
+      "dossier": "partition-1947",
+      "id": "lahore",
+      "label": "Lahore \u00b7 Punjab",
+      "citations": [
+        {
+          "source": "partition-map",
+          "locator": "Lahore on the map"
+        },
+        {
+          "source": "partition",
+          "locator": "Source 3 introduction"
+        }
+      ]
+    },
+    {
+      "dossier": "partition-1947",
+      "id": "amritsar",
+      "label": "Amritsar \u00b7 Punjab",
+      "citations": [
+        {
+          "source": "partition-map",
+          "locator": "Amritsar on the map"
+        }
+      ]
+    },
+    {
+      "dossier": "partition-1947",
+      "id": "delhi",
+      "label": "Delhi",
+      "citations": [
+        {
+          "source": "partition",
+          "locator": "Source 1: sender, date and contents"
+        }
+      ]
+    },
+    {
+      "dossier": "partition-1947",
+      "id": "barrackpore",
+      "label": "Barrackpore \u00b7 Bengal",
+      "citations": [
+        {
+          "source": "partition-oral",
+          "locator": "Sunil Chandra Ghosh summary"
+        }
+      ]
+    },
+    {
+      "dossier": "partition-1947",
+      "id": "mymensingh",
+      "label": "Mymensingh \u00b7 East Bengal",
+      "citations": [
+        {
+          "source": "partition-oral",
+          "locator": "Ila Banerjee summary"
+        }
+      ]
+    },
+    {
+      "dossier": "south-africa-rights",
+      "id": "inanda",
+      "label": "Inanda \u2014 the voting photograph",
+      "citations": [
+        {
+          "source": "sa-voting-image",
+          "locator": "Setting, author and date"
+        }
+      ]
+    },
+    {
+      "dossier": "south-africa-rights",
+      "id": "cape-town",
+      "label": "Cape Town \u2014 constitution-making",
+      "citations": [
+        {
+          "source": "sa-mandela-constitution",
+          "locator": "Title and pp. 1\u20132"
+        },
+        {
+          "source": "sa-certification",
+          "locator": "Paragraph 6, Assembly address"
+        }
+      ]
+    },
+    {
+      "dossier": "south-africa-rights",
+      "id": "sharpeville",
+      "label": "Sharpeville \u2014 signing",
+      "citations": [
+        {
+          "source": "sa-transition",
+          "locator": "1996 and 1997 milestones"
+        }
+      ]
+    },
+    {
+      "dossier": "south-africa-rights",
+      "id": "braamfontein",
+      "label": "Braamfontein \u2014 the 1996 Court procedure",
+      "citations": [
+        {
+          "source": "sa-certification",
+          "locator": "Paragraphs 5 and 11, Forum II address"
+        },
+        {
+          "source": "sa-constitution-hill",
+          "locator": "Later Court building history"
+        }
+      ]
+    },
+    {
+      "dossier": "qin-administration",
+      "id": "xianyang",
+      "label": "Xianyang \u2014 capital orientation",
+      "citations": [
+        {
+          "source": "qin-mausoleum",
+          "locator": "Criterion iv: Xianyang"
+        }
+      ]
+    },
+    {
+      "dossier": "qin-administration",
+      "id": "lishan",
+      "label": "Lishan \u2014 royal mausoleum",
+      "citations": [
+        {
+          "source": "qin-mausoleum",
+          "locator": "Brief synthesis: location and project chronology"
+        }
+      ]
+    },
+    {
+      "dossier": "qin-administration",
+      "id": "liye",
+      "label": "Liye / Qianling \u2014 excavated records",
+      "citations": [
+        {
+          "source": "qin-practice",
+          "locator": "Printed pp. 147\u2013150"
+        }
+      ]
+    },
+    {
+      "dossier": "poverty-point",
+      "id": "poverty-property-reference",
+      "label": "Poverty Point \u2014 property reference",
+      "citations": [
+        {
+          "source": "pp-heritage",
+          "locator": "Property coordinates: N32\u00b038\u203213\u2033 W91\u00b024\u203223\u2033"
+        },
+        {
+          "source": "pp-nps",
+          "locator": "Main residential/ceremonial frame"
+        }
+      ]
+    },
+    {
+      "dossier": "poverty-point",
+      "id": "jaketown-site-reference",
+      "label": "Jaketown \u2014 a separately dated archaeological site",
+      "citations": [
+        {
+          "source": "jaketown-locator",
+          "locator": "Published GeoJSON Point and POINT value"
+        },
+        {
+          "source": "pp-chronology-2023",
+          "locator": "Abstract; Discussion; Conclusion"
+        }
+      ]
+    },
+    {
+      "dossier": "hopewell-earthworks",
+      "id": "hopewell-1689-001",
+      "label": "Octagon Earthworks",
+      "citations": [
+        {
+          "source": "hopewell-unesco-locations",
+          "locator": "Geographical data (8), 1689-001 Octagon Earthworks row"
+        }
+      ]
+    },
+    {
+      "dossier": "hopewell-earthworks",
+      "id": "hopewell-1689-002",
+      "label": "Great Circle Earthworks",
+      "citations": [
+        {
+          "source": "hopewell-unesco-locations",
+          "locator": "Geographical data (8), 1689-002 Great Circle Earthworks row"
+        }
+      ]
+    },
+    {
+      "dossier": "hopewell-earthworks",
+      "id": "hopewell-1689-003",
+      "label": "Hopeton Earthworks",
+      "citations": [
+        {
+          "source": "hopewell-unesco-locations",
+          "locator": "Geographical data (8), 1689-003 Hopeton Earthworks row"
+        }
+      ]
+    },
+    {
+      "dossier": "hopewell-earthworks",
+      "id": "hopewell-1689-004",
+      "label": "Mound City",
+      "citations": [
+        {
+          "source": "hopewell-unesco-locations",
+          "locator": "Geographical data (8), 1689-004 Mound City row"
+        }
+      ]
+    },
+    {
+      "dossier": "hopewell-earthworks",
+      "id": "hopewell-1689-005",
+      "label": "High Bank Works",
+      "citations": [
+        {
+          "source": "hopewell-unesco-locations",
+          "locator": "Geographical data (8), 1689-005 High Bank Works row"
+        }
+      ]
+    },
+    {
+      "dossier": "hopewell-earthworks",
+      "id": "hopewell-1689-006",
+      "label": "Hopewell Mound Group",
+      "citations": [
+        {
+          "source": "hopewell-unesco-locations",
+          "locator": "Geographical data (8), 1689-006 Hopewell Mound Group row"
+        }
+      ]
+    },
+    {
+      "dossier": "hopewell-earthworks",
+      "id": "hopewell-1689-007",
+      "label": "Seip Earthworks",
+      "citations": [
+        {
+          "source": "hopewell-unesco-locations",
+          "locator": "Geographical data (8), 1689-007 Seip Earthworks row"
+        }
+      ]
+    },
+    {
+      "dossier": "hopewell-earthworks",
+      "id": "hopewell-1689-008",
+      "label": "Fort Ancient",
+      "citations": [
+        {
+          "source": "hopewell-unesco-locations",
+          "locator": "Geographical data (8), 1689-008 Fort Ancient row"
+        }
+      ]
+    },
+    {
+      "dossier": "isfahan-silk",
+      "id": "isfahan-square-reference",
+      "label": "Meidan Emam \u2014 published square reference",
+      "citations": [
+        {
+          "source": "isfahan-square-unesco",
+          "locator": "Published coordinate: N32 39 26.82 E51 40 40"
+        },
+        {
+          "source": "isfahan-bridges",
+          "locator": "All\u0101hverdi Khan Bridge: royal/Meydan side and southern suburbs"
+        }
+      ]
+    },
+    {
+      "dossier": "isfahan-silk",
+      "id": "new-julfa-vank-reference",
+      "label": "New Julfa \u2014 submitted Vank monastery reference",
+      "citations": [
+        {
+          "source": "isfahan-vank-tentative",
+          "locator": "Submission header: 1 February 2019; N32 38 06 E51 39 21"
+        },
+        {
+          "source": "isfahan-bridges",
+          "locator": "All\u0101hverdi Khan Bridge: New Julfa connection"
+        }
+      ]
+    },
+    {
+      "dossier": "indonesia-independence",
+      "id": "jakarta",
+      "label": "Jakarta \u2014 proclamation",
+      "citations": [
+        {
+          "source": "indonesia-proclamation-archive",
+          "locator": "Printed p. 7, dated Jakarta proclamation"
+        }
+      ]
+    },
+    {
+      "dossier": "indonesia-independence",
+      "id": "yogyakarta",
+      "label": "Yogyakarta \u2014 a Republican capital",
+      "citations": [
+        {
+          "source": "indonesia-war",
+          "locator": "19 December 1948"
+        }
+      ]
+    },
+    {
+      "dossier": "indonesia-independence",
+      "id": "sumatra",
+      "label": "Sumatra \u2014 authority under negotiation",
+      "citations": [
+        {
+          "source": "indonesia-transfer",
+          "locator": "Linggajati agreement summary"
+        }
+      ]
+    },
+    {
+      "dossier": "indonesia-independence",
+      "id": "new-guinea",
+      "label": "Western New Guinea \u2014 excluded in 1949",
+      "citations": [
+        {
+          "source": "indonesia-newguinea",
+          "locator": "New Guinea exclusion"
+        }
+      ]
+    },
+    {
+      "dossier": "ghana-independence",
+      "id": "accra",
+      "label": "Accra \u2014 assembly and political organizing",
+      "citations": [
+        {
+          "source": "ghana-country-study",
+          "locator": "Printed pp. 26\u201329"
+        },
+        {
+          "source": "ghana-debate-1957",
+          "locator": "Printed columns 23\u201324"
+        }
+      ]
+    },
+    {
+      "dossier": "ghana-independence",
+      "id": "kumasi",
+      "label": "Kumasi / Asante \u2014 regional opposition",
+      "citations": [
+        {
+          "source": "ghana-country-study",
+          "locator": "Printed p. 29, NLM and regionalism"
+        }
+      ]
+    },
+    {
+      "dossier": "ghana-independence",
+      "id": "tema",
+      "label": "Tema \u2014 plans for a harbour",
+      "citations": [
+        {
+          "source": "ghana-debate-1957",
+          "locator": "Printed column 26; PDF p. 21"
+        }
+      ]
+    }
+  ],
+  "networkFindings": [
+    {
+      "id": "palmyra-network",
+      "displayWindow": "Selected case overlap 100\u2013299 CE; historical label remains Early centuries CE.",
+      "source": "https://www.metmuseum.org/essays/trade-between-the-romans-and-the-empires-of-asia",
+      "consulted": "2026-11-05",
+      "scope": "The trading-post paragraphs name Palmyra, Ctesiphon, Ecbatana, Merv and Bactria. Network sequence and intermediaries supported; exact plotted geometry or any individual journey not verified."
+    },
+    {
+      "id": "pacific-exchange",
+      "displayWindow": "Never before 1565; shown only when both selected case windows include the view year. This does not redefine the wider galleon trade dates.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-manila-galleon-trade-1565-1815",
+        "https://www.nps.gov/pore/learn/historyculture/collections-museum-cultural-archeology-contact.htm"
+      ],
+      "consulted": "2026-11-05",
+      "scope": "Museum account supports Philippines/Acapulco exchange; NPS describes 1595 wreck and generic route. Offshore bends and exact route geometry remain schematic; selected Ming object not asserted as identified voyage cargo."
+    }
+  ],
+  "implementation": "World view now displays the actual relation explanation, date, source locators and schematic limits beside each eligible mapped network. No relation, date or coordinate changes.",
+  "priorSubstantiveEvidence": [
+    "docs/redesign/review/PLACE-EDITORIAL-2026-11-04.json",
+    "output/dossier-review-2026-11-04/accepted-comparison-place.json"
+  ],
+  "unitChecks": "src/atlas/world-connection.test.ts: four passing source/date-visibility regressions",
+  "browserEvidence": {
+    "status": "pass",
+    "engine": "Playwright-managed Chromium",
+    "mapControls": "Zoom in, fit current readings, whole world reset and named Kushan selection passed; URL retains selected moment and case.",
+    "palmyraSources": "Two source URLs and locators match corpus.",
+    "pacificPhone": "390 px viewport; 358 px panel; no document overflow; two source links; panel visible at 1600 and absent at 1550.",
+    "evidence": [
+      "output/remaining-plan-2026-11-05/map-controls.log",
+      "output/remaining-plan-2026-11-05/pacific-readback.log",
+      "output/playwright/remaining-plan-2026-11-05/palmyra-sources.png",
+      "output/playwright/remaining-plan-2026-11-05/pacific-phone.png"
+    ],
+    "limits": "Automated key/pointer events and visual inspection; not physical-device or experienced screen-reader acceptance.",
+    "threeEngineFollowup": "output/remaining-plan-2026-11-05/navigation-final.json",
+    "touchTargets": "Axe exposed a short link target; world citations now have minimum 44px targets, verified in all three engines."
+  },
+  "limits": [
+    "Coordinate range checks are not an independent survey.",
+    "Modern coastlines and regional anchors do not establish historic borders, findspots or itineraries.",
+    "Independent geographical/historical/community review remains H03."
+  ]
+}

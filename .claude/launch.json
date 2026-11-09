@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "chronos-dist-review",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["scripts/redesign/serve.py", "--root", "dist", "--port", "4391"],
+      "port": 4391
+    }
+  ]
+}

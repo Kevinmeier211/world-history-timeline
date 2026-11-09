@@ -1,0 +1,55 @@
+{
+  "journey": "ocean-connections",
+  "revision": "b5f778168fa8aad8d391e94d9e3b4e605817d03a829edaae0e65490869b10898",
+  "stops": [
+    {
+      "index": 0,
+      "narrative": "Locate Portugal and Calicut. Explain what changed for European access while preserving the existing lives and commerce of Indian Ocean ports."
+    },
+    {
+      "index": 1,
+      "narrative": "Look closely at rank, dress and pose. The commission links makers and patrons; do not assume the artist simply copied a European world."
+    },
+    {
+      "index": 2,
+      "narrative": "Study a crucifix and the history of interpreters. Separate a ruler’s baptism, local practices and the long life of a religious tradition."
+    },
+    {
+      "index": 3,
+      "narrative": "Observe Krishna sheltering the villagers. Distinguish the production of this painting from the sacred story it represents."
+    },
+    {
+      "index": 4,
+      "narrative": "Inspect the jar’s fish and plants. Compare production and intended audiences with Benin ivory; a material resemblance cannot provide a shipping history."
+    },
+    {
+      "index": 5,
+      "narrative": "Trace China, Manila and Acapulco. The Mexican jar shown in the dossier is later, around 1680–1700. Use archaeological wreck evidence for the earlier network; keep the chronology visible."
+    },
+    {
+      "index": 6,
+      "narrative": "The VOC’s surviving account describes policy and resistance. Consider the author’s purpose and the people whose voices are not preserved in this letter. Connections could be coercive, and people contested them."
+    }
+  ],
+  "conclusion": "Ocean connections were made through skilled work, interpretation and political decisions. They also involved conquest, enslavement and resistance. A specific commission, a translation, a wreck and an official letter support different claims. No single arrow can explain all of them.",
+  "evidence": {
+    "prompt": "What is a defensible use of Coen’s 1621 letter?",
+    "options": [
+      {
+        "text": "Treat it as a neutral account of every Bandanese person’s experience.",
+        "supported": false,
+        "feedback": "The author was a company official writing to superiors. His purposes and omissions matter."
+      },
+      {
+        "text": "Use it to investigate company policy and resistance, while seeking other perspectives.",
+        "supported": true,
+        "feedback": "The letter supports a limited analysis of decisions and reported resistance; it cannot replace the experiences of those attacked."
+      },
+      {
+        "text": "Assume that profitable exchange benefited everyone equally.",
+        "supported": false,
+        "feedback": "The documented killing, enslavement and displacement directly challenge that assumption."
+      }
+    ]
+  }
+}

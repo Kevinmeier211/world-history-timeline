@@ -1,0 +1,374 @@
+{
+  "reviewDate": "2026-11-04",
+  "method": "Fetched all 14 named source image URLs and all 14 publisher or institutional pages. Read item rights, credit and caption, inspected local image compositions and checked source-to-display and source-to-thumbnail pixels. Dimensions are width and height. SHA-256 values identify the compared file bytes. MAE is mean absolute RGB channel difference on a 0–255 scale after EXIF orientation, white-background compositing and Lanczos resizing of the source to the derivative dimensions. A zero denotes equality under that comparison. Human review covers framing, labels and subject. These measurements do not establish archaeological interpretation or rights.",
+  "records": [
+    {
+      "id": "beta-samati-coins",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "Harrower et al. name coauthor I. Dumitru as the maker of Figure 4. The 2019 Antiquity Publications copyright notice grants CC BY 4.0 with attribution. Figure 4 carries no separate rights notice.",
+      "fidelityFinding": "Both views of each of the five coins and the scale are present.",
+      "descriptionFinding": "The order of the five identifications in the description follows the excavation caption, with coin issue dates distinguished from their deposits.",
+      "dateFinding": "2019 is the publication of the comparative figure. The excavation account acknowledges uncertainty in the ancient Armah chronology.",
+      "evidence": [
+        "https://doi.org/10.15184/aqy.2019.84",
+        "https://static.cambridge.org/binary/version/id/urn:cambridge.org:id:binary-alt:20191209150711-56673-optimisedImage-S0003598X1900084X_fig4.jpg",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "gaps": [],
+      "comparison": {
+        "sourceSize": [1583, 919],
+        "localSize": [1583, 919],
+        "thumbSize": [300, 174],
+        "sourceSHA256": "4f9b35deca5d935af35c395889b32b0dc67a19b3bd40deda11729fb92e9c6512",
+        "localSHA256": "fecb2825049eca2fb974efba4f6f8cffd0b309afcdb8c50cd59beaea5c07b3c5",
+        "thumbSHA256": "37952eca43408319bc5a9ecd5bdb4fa50735e5eacbfe02609fb20d0d90ff5c60",
+        "mae": 1.422,
+        "thumbMAE": 2.383
+      }
+    },
+    {
+      "id": "nalanda-brick-photo",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "Sumitsurai identifies this as their own photograph on Commons and offers CC BY-SA 4.0. The record credits the photographer, identifies resizing and WebP encoding, and links the licence.",
+      "fidelityFinding": "All four edges of the brick doorway photograph survive the resize.",
+      "descriptionFinding": "The alt text describes the doorway, openings, wall and sky. It makes no claim about a specific medieval classroom.",
+      "dateFinding": "Commons description and original-capture metadata agree on 9 October 2023.",
+      "evidence": [
+        "https://commons.wikimedia.org/wiki/File:Nalanda_Ruins_(41).jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/1/1c/Nalanda_Ruins_%2841%29.jpg",
+        "https://creativecommons.org/licenses/by-sa/4.0/"
+      ],
+      "gaps": [],
+      "comparison": {
+        "sourceSize": [3280, 2464],
+        "localSize": [1600, 1202],
+        "thumbSize": [300, 225],
+        "sourceSHA256": "ea494b7c7a1f8f5ca958ebb70f03ee791bbcb6066dea604c45682442344cd2e6",
+        "localSHA256": "691bcd70495b5fb537afbab76797ab74793b041032a2b1c4f70006484fc7d3a0",
+        "thumbSHA256": "c14e2fdfcc8433bb261ff4918465cd30c7bb5700a5ea50ec74c159e0a3d8b7ec",
+        "mae": 2.361,
+        "thumbMAE": 5.093
+      }
+    },
+    {
+      "id": "catalan-musa-detail",
+      "rightsStatus": "qualified",
+      "fidelityStatus": "supported",
+      "rightsFinding": "Commons identifies this faithful reproduction of the BnF manuscript as PD-Art and displays the Public Domain Mark. Its stated jurisdictional caveat applies. Attribution to Abraham Cresques is qualified and the 2015 uploader is separately credited.",
+      "fidelityFinding": "The delivered frame matches the supplied detail. The edges of the surrounding manuscript were already outside the Commons file.",
+      "descriptionFinding": "The seated crowned ruler, gold-coloured object, staff, map marks and lettering are visible. The description identifies a European image of rulership.",
+      "dateFinding": "The 1375 conventional manuscript date, 1324 pilgrimage and 2015 file upload describe separate events.",
+      "evidence": [
+        "https://commons.wikimedia.org/wiki/File:Catalan_Atlas_BNF_Sheet_6_Mansa_Musa.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ea/Catalan_Atlas_BNF_Sheet_6_Mansa_Musa.jpg",
+        "https://creativecommons.org/publicdomain/mark/1.0/"
+      ],
+      "gaps": [
+        "Commons qualifies the territorial reach of the faithful-reproduction determination."
+      ],
+      "comparison": {
+        "sourceSize": [3712, 2647],
+        "localSize": [1600, 1141],
+        "thumbSize": [300, 213],
+        "sourceSHA256": "25f9e9044fbdcfe89a32cab2ff5af5df9588eeec08c5fdcc08135ff85918cb69",
+        "localSHA256": "922d26c4806093d0ee03a3a71daf618c1e8e9e0bf9b66db1e824e94e5540ee37",
+        "thumbSHA256": "7afe84f7ed2509745d0b909411d45b5e3b98b964491c46cddfaf09ac1a49088f",
+        "mae": 2.3,
+        "thumbMAE": 5.49
+      }
+    },
+    {
+      "id": "poverty-terrain-model",
+      "rightsStatus": "qualified",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The article credits K. Ervin in Figure 2 and thanks Kelly Ervin for supplying the map. The article offers CC BY 4.0 and Figure 2 has no separate exclusion. The rights evidence for this contributed figure is the article notice and caption.",
+      "fidelityFinding": "The elevation legend, north arrow, six ridges, five labelled mounds, plaza and entire scale appear within the original frame.",
+      "descriptionFinding": "The figure gives 18.7341–54.7741 m elevations, 50 cm contours, a 420 m scale and NAD 83. The rounded text equivalent preserves those distinctions.",
+      "dateFinding": "The 2023 publication date is independent of both LiDAR acquisition and ancient construction.",
+      "evidence": [
+        "https://www.cambridge.org/core/journals/antiquity/article/convergence-at-poverty-point-a-revised-chronology-of-the-late-archaic-lower-mississippi-valley/121431E2E3469A819185F44BF7AB81EA",
+        "https://static.cambridge.org/binary/version/id/urn:cambridge.org:id:binary:20240119220228685-0045:S0003598X23001552:S0003598X23001552_fig2.png?pub-status=live",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "gaps": [
+        "LiDAR acquisition date is unstated. The article does not supply a separate grant signed by the cartographer."
+      ],
+      "comparison": {
+        "sourceSize": [1583, 1239],
+        "localSize": [1583, 1239],
+        "thumbSize": [420, 329],
+        "sourceSHA256": "a906a2cf9b6ced45f37c961ce49ee874bc05960a4a5f328f706fc5f97d0b92f8",
+        "localSHA256": "0fb82caba1664a316feb176b0dcebe67cbec1b8b5786d00c2ec3699e87a454c6",
+        "thumbSHA256": "bd2d8cbf44c287159bc30c89321e0e85aa17be0ca528503e4ab9eb7038305a3d",
+        "mae": 1.289,
+        "thumbMAE": 3.008
+      }
+    },
+    {
+      "id": "nimrud-palace-plan",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "Image 1 specifically credits BSAI/BISI. Oracc’s re-use page expressly releases images bearing that exact credit under CC BY-SA 3.0. The credit names the project, Eleanor Robson and AHRC as requested.",
+      "fidelityFinding": "The complete narrow drawing, room labels, compass and bottom scale survive the lossless conversion.",
+      "descriptionFinding": "Caption identifies source-labelled rooms and later features and supplies the scale for users who cannot read the small drawing.",
+      "dateFinding": "The project cites figures from Oates and Oates (2001). That publication does not establish a creation date for this online composite.",
+      "evidence": [
+        "https://oracc.museum.upenn.edu/nimrud/ancientkalhu/thecity/northwestpalace/index.html",
+        "https://oracc.museum.upenn.edu/nimrud/images/ancientcity/nwpalace-plan.jpg",
+        "https://creativecommons.org/licenses/by-sa/3.0/",
+        "https://oracc.museum.upenn.edu/nimrud/aboutthiswebsite/index.html#BISIimages"
+      ],
+      "gaps": [],
+      "comparison": {
+        "sourceSize": [460, 926],
+        "localSize": [460, 926],
+        "thumbSize": [420, 845],
+        "sourceSHA256": "a7dd87490b75578208d2ce7f6650c7153ed6bb717666e287d7a8c782f4f40ef6",
+        "localSHA256": "5d8c5a203ad7a7ad0c4f66ca70c702e888e8f01fecbb805f225a3ffe7b55899d",
+        "thumbSHA256": "32d9eb6a3c8ed587d63a9179ef72072107b10233eae72616f69da0edbc62a474",
+        "mae": 0.0,
+        "thumbMAE": 1.514
+      }
+    },
+    {
+      "id": "sanam-workshop-view",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The research team credits itself for Figure 4, an annotated orthophoto. Cambridge publishes the article under CC BY 4.0 with author copyright. No separate exception appears on this figure.",
+      "fidelityFinding": "The coloured marks over the pits, basin labels and scale occupy the same positions as on the original orthophoto.",
+      "descriptionFinding": "Description reflects three marked firing pits, two basins, mudbrick and the 5 m scale. The source supplies no north arrow.",
+      "dateFinding": "The published view is dated 2026. The 2018–2020 project seasons do not assign an exact exposure date.",
+      "evidence": [
+        "https://www.cambridge.org/core/journals/antiquity/article/crafting-power-in-kush-faience-production-and-state-control-in-the-napatan-region/A15CF88886CC39E3C6D4110DD58B94A5",
+        "https://static.cambridge.org/binary/version/id/urn%3Acambridge.org%3Aid%3Abinary%3A20261009050642161-0498%3AS0003598X26104347%3AS0003598X26104347_fig4.png?pub-status=live",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "gaps": [],
+      "comparison": {
+        "sourceSize": [1063, 1115],
+        "localSize": [1063, 1115],
+        "thumbSize": [420, 441],
+        "sourceSHA256": "df78195d1dc5d06193fb3eb4ddc3ed69cea5a2c3d59f427248b93f8ddd6f4f4b",
+        "localSHA256": "fb3dbb11748668d59abaaef0c9536be1fbf8bbfe480aeaa5ea26962ac3e1816f",
+        "thumbSHA256": "8060fd291149db00d8bf85ab2c22ece8180cd2ca4a8334c958ae61d7c6de4e31",
+        "mae": 2.599,
+        "thumbMAE": 3.437
+      }
+    },
+    {
+      "id": "sanam-mould-match",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The research team credits itself for Figure 10 under the article’s CC BY 4.0 notice. The figure has no distinct rights reservation.",
+      "fidelityFinding": "The two objects and segmented scale are present at the native size of 512 by 469 pixels.",
+      "descriptionFinding": "Corrected the place, date label and caption using the Figure 10 caption. The shabti fragment came from the workshop and the mould came from inside the temple. The alt text describes shape, relative position and an unlabelled scale.",
+      "dateFinding": "The image appeared in 2026. Individual manufacture and photo-acquisition dates are unreported.",
+      "evidence": [
+        "https://www.cambridge.org/core/journals/antiquity/article/crafting-power-in-kush-faience-production-and-state-control-in-the-napatan-region/A15CF88886CC39E3C6D4110DD58B94A5",
+        "https://static.cambridge.org/binary/version/id/urn%3Acambridge.org%3Aid%3Abinary%3A20261009050642161-0498%3AS0003598X26104347%3AS0003598X26104347_fig10.png?pub-status=live",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "gaps": [],
+      "comparison": {
+        "sourceSize": [512, 469],
+        "localSize": [512, 469],
+        "thumbSize": [420, 385],
+        "sourceSHA256": "db497b2c2ad549e1aa19d32947e55da34516edc26fd10c3b30b9a4905dc4cd9f",
+        "localSHA256": "d75827bf113b733e1108a27760940a4869e8e2ec5ab53db6d06e14c50df48f6b",
+        "thumbSHA256": "1482572d148e3a2899ad07979e7dc5efba5997afc83cab4248ecf310623cb3f3",
+        "mae": 1.152,
+        "thumbMAE": 1.295
+      }
+    },
+    {
+      "id": "teotihuacan-tlajinga-map",
+      "rightsStatus": "qualified",
+      "fidelityStatus": "supported",
+      "rightsFinding": "Carballo and colleagues publish under CC BY-NC 4.0. Figure 1 credits the 1973 Teotihuacan Mapping Project base and later fieldwork. The article explicitly requires written permission for commercial reuse. Its caption indicates no different figure-specific grant.",
+      "fidelityFinding": "The original map legend reads 6 Teopancazco and 7 Tlajinga. This agrees with the atlas’s activity and differs from the publisher’s generated long description. Both map panels and their scales are intact.",
+      "descriptionFinding": "The description identifies the two scales, the river and compounds relative to the street. No numerical coordinates are read into the map.",
+      "dateFinding": "A 2026 publication reproduces a composite of the 1973 mapping and later work. The drawing has no stated creation date.",
+      "evidence": [
+        "https://www.cambridge.org/core/journals/latin-american-antiquity/article/disentangling-community-and-domestic-uses-of-space-in-teotihuacans-tlajinga-district/2949C67FEBA7F7F90D105F83157CC47E",
+        "https://static.cambridge.org/binary/version/id/urn%3Acambridge.org%3Aid%3Abinary%3A20260918030654389-0775%3AS1045663526102077%3AS1045663526102077_fig1.png?pub-status=live",
+        "https://creativecommons.org/licenses/by-nc/4.0/"
+      ],
+      "gaps": [
+        "Noncommercial reuse only under the recorded article licence. Earlier map components have attribution but no separately established grant for independent use."
+      ],
+      "comparison": {
+        "sourceSize": [1650, 2345],
+        "localSize": [1650, 2345],
+        "thumbSize": [300, 426],
+        "sourceSHA256": "b8e2a34ef723a405c524dd6858bf946a5f3baed2c9291c641fb76e3ea860dca1",
+        "localSHA256": "ba7304e2f8c799a66cbdeea865ab67c55f2f911db5c9b352532241bd642c63cb",
+        "thumbSHA256": "20919be48913d27aef96fca9eb0919d685c8801f56ff74edd1cd99b7e0e531da",
+        "mae": 0.0,
+        "thumbMAE": 1.302
+      }
+    },
+    {
+      "id": "hopewell-moundcity-1848",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "NPS credits Squier and Davis on this particular plate. The original US publication dates to 1848, and the digital file reproduces the historical plate.",
+      "fidelityFinding": "The complete 450-pixel-wide NPS reproduction includes the canal, enclosure, river and title block.",
+      "descriptionFinding": "The description and caption distinguish this Mound City enclosure from the separate North Fork Works plate.",
+      "dateFinding": "The surveyor line dates the drawing 1846. NPS administrative history Figure 5 corroborates that year and the 1848 volume identifies Plate XIX. The web and print captions now distinguish survey from publication.",
+      "evidence": [
+        "https://www.nps.gov/hocu/learn/historyculture/mound-city-group.htm",
+        "https://www.nps.gov/hocu/learn/historyculture/images/Mound-City-450.jpg",
+        "https://www.nps.gov/aboutus/disclaimer.htm",
+        "https://www.govinfo.gov/content/pkg/GOVPUB-I29-PURL-gpo82046/pdf/GOVPUB-I29-PURL-gpo82046.pdf",
+        "https://www.gutenberg.org/files/49668/49668-h/49668-h.htm",
+        "https://www.loc.gov/item/2021666743/"
+      ],
+      "gaps": [],
+      "comparison": {
+        "sourceSize": [450, 607],
+        "localSize": [450, 607],
+        "thumbSize": [360, 486],
+        "sourceSHA256": "cee919bc8340787f7e9b8ca2d348701edb22d71b9db93c1e159d3835e305a755",
+        "localSHA256": "befd60a4fcd9a5a015b12d5b96f790050912472e7bf31b4b14a7c5ffd99520c1",
+        "thumbSHA256": "da1360d2cd02e8471c9262b1293241dcef1fc49bd2f15635331e245558294a2d",
+        "mae": 0.0,
+        "thumbMAE": 2.691
+      }
+    },
+    {
+      "id": "borobudur-conserved-monument",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "Gunawan Kartapranata identifies this as their own photograph. Commons offers CC BY-SA 3.0 among the available licences. The record selects that licence and credits the photographer.",
+      "fidelityFinding": "The wide view retains the trees, grass, visitors and stupa at source scale.",
+      "descriptionFinding": "The description describes a surviving conserved building and avoids resolving a camera direction from conflicting captions.",
+      "dateFinding": "Commons lists 12 June 2008. Its original EXIF timestamp is 7 June 2008. June 2008 is supported by both.",
+      "evidence": [
+        "https://commons.wikimedia.org/wiki/File:Borobudur-Nothwest-view.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/8/8c/Borobudur-Nothwest-view.jpg",
+        "https://creativecommons.org/licenses/by-sa/3.0/"
+      ],
+      "gaps": [
+        "Exact exposure day and view direction remain qualified in the public record."
+      ],
+      "comparison": {
+        "sourceSize": [2816, 1108],
+        "localSize": [2816, 1108],
+        "thumbSize": [400, 157],
+        "sourceSHA256": "905aec75d7af12e2466512134d4e647a573fa4a0bb09b143d251f5664cd80128",
+        "localSHA256": "905aec75d7af12e2466512134d4e647a573fa4a0bb09b143d251f5664cd80128",
+        "thumbSHA256": "02e3075a774015d5f19991c3fc3884a7a82fb84f890eaa43574be2360eedbfdd",
+        "mae": 0.0,
+        "thumbMAE": 3.628
+      }
+    },
+    {
+      "id": "borobudur-schematic-plan",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "Commons identifies Indon as the diagram creator and offers CC BY-SA 3.0. The atlas retains that licence and its link.",
+      "fidelityFinding": "All four sides and symbols remain visible in the unchanged square schematic.",
+      "descriptionFinding": "Description correctly identifies the concentric forms, four projections and absence of scale or north arrow. It does not present a measured survey.",
+      "dateFinding": "The source identifies 2007 as the drawing year. Its upload time records a separate event.",
+      "evidence": [
+        "https://commons.wikimedia.org/wiki/File:Borobudur_Ground_Plan.png",
+        "https://upload.wikimedia.org/wikipedia/commons/3/37/Borobudur_Ground_Plan.png",
+        "https://creativecommons.org/licenses/by-sa/3.0/"
+      ],
+      "gaps": [],
+      "comparison": {
+        "sourceSize": [800, 800],
+        "localSize": [800, 800],
+        "thumbSize": [400, 400],
+        "sourceSHA256": "353f5c0fcd994ad5496ab6066a4abe46f23b923b8ed1461be5cf5a741c8e6182",
+        "localSHA256": "353f5c0fcd994ad5496ab6066a4abe46f23b923b8ed1461be5cf5a741c8e6182",
+        "thumbSHA256": "1b4c5c89c652208c5dd1ebc42491a48ae3fc2cc478df128554fb2e9fe829f745",
+        "mae": 0.0,
+        "thumbMAE": 3.176
+      }
+    },
+    {
+      "id": "chaco-plan-1850",
+      "rightsStatus": "qualified",
+      "fidelityStatus": "supported",
+      "rightsFinding": "Commons marks the underlying 1850 work public domain and transmits a separate David Rumsey Map Collection scan notice. The provider links CC BY-NC-SA 3.0 and also describes broader publication uses, reserving standalone sale facsimiles for permission. The atlas credits the collection and uses the restrictive scan terms.",
+      "fidelityFinding": "The scan’s margins, labels and book-page edges match the source.",
+      "descriptionFinding": "The description distinguishes room rows and printed Estufa labels from an ancient account of function. The source shows meridians and an approximate circuit figure rather than a measured scale bar.",
+      "dateFinding": "1850 is the report publication. The scan creation date and exact field-survey day remain unstated.",
+      "evidence": [
+        "https://commons.wikimedia.org/wiki/File:General_ground_plan_of_the_Pueblo_Bonito._Canon_of_Chaco._No._6._P.S._Duval%27s_Lith._Steam_Press._Philada._(to_accompany)_Reports_(IA_dr_general-ground-plan-of-the-pueblo-bonito-canon-of-chaco-no-6-ps-duval-0380041).jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/23/General_ground_plan_of_the_Pueblo_Bonito._Canon_of_Chaco._No._6._P.S._Duval%27s_Lith._Steam_Press._Philada._%28to_accompany%29_Reports_%28IA_dr_general-ground-plan-of-the-pueblo-bonito-canon-of-chaco-no-6-ps-duval-0380041%29.jpg",
+        "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "https://www.davidrumsey.com/about/copyright-and-permissions"
+      ],
+      "gaps": [
+        "Separate provider language limits what can be inferred about commercial uses of this scan."
+      ],
+      "comparison": {
+        "sourceSize": [1536, 1098],
+        "localSize": [1536, 1098],
+        "thumbSize": [400, 286],
+        "sourceSHA256": "d646191beb55f6c2ff0857a0926ec56a48d88b78290f8209180274265fa52836",
+        "localSHA256": "d646191beb55f6c2ff0857a0926ec56a48d88b78290f8209180274265fa52836",
+        "thumbSHA256": "239cfff0a0a6addb921a9fb36e42012ba7518ebd7a1a51098fd048c6fa935827",
+        "mae": 0.0,
+        "thumbMAE": 1.861
+      }
+    },
+    {
+      "id": "ocmulgee-earthlodge-feature-plan",
+      "rightsStatus": "qualified",
+      "fidelityStatus": "qualified",
+      "rightsFinding": "The 2025 article carries CC BY 4.0. Figure 3 credits Victor D. Thompson and the University of Georgia Laboratory of Archaeology, and identifies Fairbanks (1946), Figure X, as the drawing source. No separate restriction appears. The article gives no independent licence for the archival components.",
+      "fidelityFinding": "The entire composite matches the publisher image. The caption names both Council Chamber 2 and the D-1 Earthlodge for the lower drawing. The public record preserves the conflict.",
+      "descriptionFinding": "The two upper photographs and lower drawing are separately described, including the feet scale, north symbol, bird-shaped platform and fallen posts.",
+      "dateFinding": "Online publication was 19 December 2025 with a January 2026 issue. The drawing adaptation and the two exposures do not have independent dates in the figure.",
+      "evidence": [
+        "https://www.cambridge.org/core/journals/american-antiquity/article/collaborative-archaeology-public-parks-and-the-importance-of-chronology-at-ocmulgee-mounds-national-historical-park/307E03D57888AA1911F264D1B7A45A80",
+        "https://static.cambridge.org/binary/version/id/urn%3Acambridge.org%3Aid%3Abinary%3A20260130085358436-0047%3AS0002731625101066%3AS0002731625101066_fig3.png?pub-status=live",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "gaps": [
+        "The conflicting panel-C identification cannot be resolved from the caption alone. Rights evidence for the archival components is limited to the published composite."
+      ],
+      "comparison": {
+        "sourceSize": [1600, 1725],
+        "localSize": [1600, 1725],
+        "thumbSize": [400, 431],
+        "sourceSHA256": "5a16fa2c8dc370563c6e8a1d0f6bb1f6fffde601692eab22db4c3a70647c9846",
+        "localSHA256": "5a16fa2c8dc370563c6e8a1d0f6bb1f6fffde601692eab22db4c3a70647c9846",
+        "thumbSHA256": "2a892f2b3ed25f727886500794c7f5fb4271f8233ba1e7f1f21b225f16b8cfce",
+        "mae": 0.0,
+        "thumbMAE": 1.689
+      }
+    },
+    {
+      "id": "tomioka-reeling-print",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The item-specific NDL manifest marks Access Restrictions as PDM, credits NDL, and identifies Kuniteru and publisher Daikokuya Heikichi. The linked IIIF licence field is a terms page. NDL’s separate reproduction policy explicitly permits reuse of images from the named Landmarks exhibition with source credit.",
+      "fidelityFinding": "Both rows of workers, sheet boundaries and central passage retain the source framing in the resized image.",
+      "descriptionFinding": "The description identifies a print with visible sheet divisions and painted architectural features. The image is not used to identify individual workers.",
+      "dateFinding": "The NDL exhibition record brackets this impression’s year as 1872. The related impression dated 1873 cannot establish the selected copy’s date.",
+      "evidence": [
+        "https://www.ndl.go.jp/en/landmarks/sights/tomiokaseishijo",
+        "https://ndlsearch.ndl.go.jp/files/imagebank/dc/1305876_1.jpg",
+        "https://www.ndl.go.jp/en/use/reproduction",
+        "https://dl.ndl.go.jp/api/iiif/1305876/manifest.json"
+      ],
+      "gaps": [],
+      "comparison": {
+        "sourceSize": [2984, 1466],
+        "localSize": [1600, 786],
+        "thumbSize": [400, 196],
+        "sourceSHA256": "5dceba3929d95df272acb48edf4e857ee10b31729f76428ab1db80223e2f9f5b",
+        "localSHA256": "e6cd0ab93b59423c87a6d62bcba196537021e3b99444b4a870d096268f9546f2",
+        "thumbSHA256": "8900737b998ccf2a37ad8899e1ae8b8c6fd983fe4d617954b979836f3c6d7591",
+        "mae": 2.302,
+        "thumbMAE": 6.591
+      }
+    }
+  ]
+}

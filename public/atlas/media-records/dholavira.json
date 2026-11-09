@@ -1,0 +1,37 @@
+{
+  "subject": "dholavira",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "met-324062",
+      "caption": "An ancient seal with a modern impression, c. 2600–1900 BCE. The carving’s signs have not been fully deciphered.",
+      "notice": [
+        "How does the impression reverse the carved design?",
+        "Can an unread sign still tell us something about making and use?"
+      ],
+      "creator": "Maker not recorded",
+      "place": "Indus Valley; not identified here as a Dholavira find",
+      "material": "Burnt steatite",
+      "representedDate": "Ancient seal; accompanying impression is modern.",
+      "relevance": "Distinguish the ancient object, modern impression, uncertain reading and regional attribution.",
+      "additionalImages": ["/atlas/media/324062-1.webp"],
+      "additionalImageAlts": [
+        "Black-and-white photograph of the back of the seal, showing a raised grip on the square slab."
+      ]
+    },
+    {
+      "id": "dholavira-water-diagram",
+      "caption": "Component schematic combining phases. Solid: recorded features. Dashed: radar study area with unconfirmed interpretations. No scale, connecting flow network or simultaneous operation is asserted.",
+      "notice": [
+        "Read the convention note before following the diagram.",
+        "Separate a component or task from an inferred social relationship."
+      ],
+      "creator": "Chronos / Codex; source-based editorial diagram",
+      "place": "Modern editorial schematic; no surveyed coordinates",
+      "material": "Original SVG diagram",
+      "representedDate": "Components across Dholavira’s occupation; modern ASI plan (2020) and GPR study (2018).",
+      "relevance": "Makes a mechanism or evidence distinction inspectable without presenting an imagined ancient scene as evidence.",
+      "printWidthMm": 145
+    }
+  ]
+}

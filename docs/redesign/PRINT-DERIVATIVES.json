@@ -1,0 +1,1119 @@
+{
+  "status": "generated_for_render_review",
+  "images": [
+    {
+      "source": "/atlas/media/49519-0.webp",
+      "path": "/atlas/print-media/92ef3ee2c3754a7237a5.jpg",
+      "sourceSHA256": "92ef3ee2c3754a7237a5d1e0d4f744348f405fffb4b2466eb0e0871bbf2eba64",
+      "sha256": "668fc2549da74c959f4a47a610d1214463c1578502837a54deefa87081fec535",
+      "bytes": 429647,
+      "width": 1200,
+      "height": 1600,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/49519-1.webp",
+      "path": "/atlas/print-media/45e87ef36be14189e341.jpg",
+      "sourceSHA256": "45e87ef36be14189e34192dba0dc626e62ffac36f39f2f8a723a63667f44fabd",
+      "sha256": "4e24a1025b2f65a17d16fe4ade4c5eca06ce8fcc4e43645bfc429543de26104d",
+      "bytes": 459917,
+      "width": 1200,
+      "height": 1600,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/49519-2.webp",
+      "path": "/atlas/print-media/231eb624f07b3ab8f078.jpg",
+      "sourceSHA256": "231eb624f07b3ab8f0781b1789efea442d4a2e66cf98a60b6f1f4edd3dadabc6",
+      "sha256": "5a3e77c2b6ca29be10ed145df8cc1de1daf29ab34319315a601a1a1efe7cb1bb",
+      "bytes": 42897,
+      "width": 466,
+      "height": 700,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/317600-0.webp",
+      "path": "/atlas/print-media/f27a6f044e0f31b631b5.jpg",
+      "sourceSHA256": "f27a6f044e0f31b631b57e7da94f061458c67e2feb0aff8602522a92aa165b96",
+      "sha256": "9cb48379bf6d2f30685403a84a84a6b80def203f7866acf152404f9a00697356",
+      "bytes": 422559,
+      "width": 1600,
+      "height": 1465,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/317600-1.webp",
+      "path": "/atlas/print-media/a68e801191769eeb44f4.jpg",
+      "sourceSHA256": "a68e801191769eeb44f44691004898ecf69ae755ac59b10893caabb0c3d15258",
+      "sha256": "ba5dffdaa794972e29ca0e9ac334ed8588c14b4bc9e6d12a002973497400e273",
+      "bytes": 404660,
+      "width": 1411,
+      "height": 1452,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/52010-0.webp",
+      "path": "/atlas/print-media/36667b55df88988601e6.jpg",
+      "sourceSHA256": "36667b55df88988601e6df6cae76faa1153909f7680aa8ee4f7458c33e72bc93",
+      "sha256": "cc871069c2187db7460995c3293dfb22fdd61555e8136c57e8d4d1f9fa5a1fdc",
+      "bytes": 459919,
+      "width": 1272,
+      "height": 1600,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/52527-0.webp",
+      "path": "/atlas/print-media/b47384ecd43a63bc69f7.jpg",
+      "sourceSHA256": "b47384ecd43a63bc69f707178869c3985de5b2c9c3d62582aa128a86727b4182",
+      "sha256": "3961dac35675233aa3f9d99c94247006e9c03686bdaa84ca15f4c9fe99c248f4",
+      "bytes": 64294,
+      "width": 545,
+      "height": 700,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/251870-0.webp",
+      "path": "/atlas/print-media/36231bab63cf92660310.jpg",
+      "sourceSHA256": "36231bab63cf9266031075c3ff166ac5d53bfb9db49be6bd1b7d5872a238ca26",
+      "sha256": "41f3303e3b2f85bdfbe71cf56c9e5abebeee99cbd3e7b70b92a3e1c726e39d23",
+      "bytes": 349785,
+      "width": 1226,
+      "height": 1600,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/547951-0.webp",
+      "path": "/atlas/print-media/0e1fc0997f0c1a6c8ea1.jpg",
+      "sourceSHA256": "0e1fc0997f0c1a6c8ea19c39d297fb2e10fef9590e7b16ea41d73fbf764f2e10",
+      "sha256": "b30d75863d4fd3440d6d7d5c49b4350a472118c8016488201717900ec5261f69",
+      "bytes": 408490,
+      "width": 879,
+      "height": 1600,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/256732-0.webp",
+      "path": "/atlas/print-media/d085cf25b5b070ba814b.jpg",
+      "sourceSHA256": "d085cf25b5b070ba814b076b6dcb796290789c88c47cca33c3c761ad78650d24",
+      "sha256": "93286d9898397762f553e30c768ee68c4748156c13ae3c647920bc8a3d613e0f",
+      "bytes": 188227,
+      "width": 1600,
+      "height": 1600,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/322375-0.webp",
+      "path": "/atlas/print-media/fa7d2940ff251f6e460e.jpg",
+      "sourceSHA256": "fa7d2940ff251f6e460eaf0367f88eb474e36f0c4ed92350c3ee0455f7c6a1fc",
+      "sha256": "0248b216933d4e695d6461ba1b1f0095058d9d5be6a35061c25460d0e81f30af",
+      "bytes": 695795,
+      "width": 1600,
+      "height": 1539,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/39385-0.webp",
+      "path": "/atlas/print-media/f50b60ce3465cdadeeaf.jpg",
+      "sourceSHA256": "f50b60ce3465cdadeeaf28512821eb69e1b4a48dee7346b6016e08427b04f7ab",
+      "sha256": "579e9b9da6f4b5fb16375c88f7cc33578d8c4c8795f27075c5c915d63303a671",
+      "bytes": 394847,
+      "width": 1600,
+      "height": 1600,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/39385-1.webp",
+      "path": "/atlas/print-media/0b5533a3db0c5de1fe73.jpg",
+      "sourceSHA256": "0b5533a3db0c5de1fe73af7ed606a959e59c0e0135e61a622152d2fb042192a5",
+      "sha256": "8a37bc8985a8c29662dcab5e59c02b7780c26e5f2fba9e6f9e9351bd165ba73e",
+      "bytes": 376882,
+      "width": 1600,
+      "height": 1600,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/312736-0.webp",
+      "path": "/atlas/print-media/4d3efd731febd8768f11.jpg",
+      "sourceSHA256": "4d3efd731febd8768f11725f799875078a7872735ea9ba79d5d9798f4222f9d7",
+      "sha256": "47f43d1184058b5ef8e270465ee949c2ef75723d81b3d82f79f4c7fe5abe85cb",
+      "bytes": 403056,
+      "width": 1600,
+      "height": 1200,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/316721-0.webp",
+      "path": "/atlas/print-media/5b2c32341803b37b0766.jpg",
+      "sourceSHA256": "5b2c32341803b37b07664fe1f3471b727999651520dfd01d35604a1bd3198840",
+      "sha256": "a63d989579e8ab423c5ac6f4364a4ed05fbd5ecdea8d4a4cee1af93bb2ae772f",
+      "bytes": 204436,
+      "width": 1279,
+      "height": 1600,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/307474-0.webp",
+      "path": "/atlas/print-media/997d89f71da14142bf32.jpg",
+      "sourceSHA256": "997d89f71da14142bf32371145c48bbb6c8ee58b7ce7a1460104cc82a315ef37",
+      "sha256": "17aba5bd8be665838adf575a0afb5301753a2016b408c67d00ee088a0a95516d",
+      "bytes": 415184,
+      "width": 1280,
+      "height": 1600,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/39209-0.webp",
+      "path": "/atlas/print-media/c648aab54c7fb9462467.jpg",
+      "sourceSHA256": "c648aab54c7fb9462467126c8023b752e1eb5e61125f31a98461f567fcd3f92e",
+      "sha256": "9ef68081c3a5ee411140055e7a980bc3b39a1d268bce665a12a34d82cc7cc494",
+      "bytes": 523849,
+      "width": 1600,
+      "height": 1204,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/309900-0.webp",
+      "path": "/atlas/print-media/396c4b5fe7168fb6d205.jpg",
+      "sourceSHA256": "396c4b5fe7168fb6d2057b5d5052e40796a86597ba173b0b6254cd4d138bc7f4",
+      "sha256": "5ae3d34a3b77b8deae0f391ddffa129d11a623919e7c2df7ba7ed2b9045b435d",
+      "bytes": 269355,
+      "width": 1259,
+      "height": 1600,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/318323-0.webp",
+      "path": "/atlas/print-media/7b59328bd622c1c174c1.jpg",
+      "sourceSHA256": "7b59328bd622c1c174c1a7c7aa99297ca16a93b0ef779b0e8928752a976d0eb6",
+      "sha256": "0070b469851916aae4abab67b2b53f7a7c7843e2712bffe04a056c3d3517c2c4",
+      "bytes": 326925,
+      "width": 1186,
+      "height": 1600,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/448183-0.webp",
+      "path": "/atlas/print-media/d2a7854f7865d3fb6b0f.jpg",
+      "sourceSHA256": "d2a7854f7865d3fb6b0fe073eb47c3200007d33d614f027bc9bb10f8b8c96f79",
+      "sha256": "6947404d2d6ecc4c940818b869cfdd4057ed4f8f463622326dbffd3237183f9d",
+      "bytes": 674055,
+      "width": 1164,
+      "height": 1600,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/42549-0.webp",
+      "path": "/atlas/print-media/e62f18f14daa2e5665bd.jpg",
+      "sourceSHA256": "e62f18f14daa2e5665bd2cd6cddc568852e06eb2e471be296da1ad8408d06f4e",
+      "sha256": "ed23fe9cec1cf83adc036323194e894e7e166671caf1ab28252be5964bc6a603",
+      "bytes": 245484,
+      "width": 1200,
+      "height": 1600,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/9198-0.webp",
+      "path": "/atlas/print-media/f543877d5677b738edf0.jpg",
+      "sourceSHA256": "f543877d5677b738edf01cfbda24c2df4cd332786e8003b9e22106702a1caff2",
+      "sha256": "bbeb2aa13aee90a7e9623e3031504b2c283f17bd5499095e2ecea5c9d1d5e5c5",
+      "bytes": 272088,
+      "width": 1600,
+      "height": 1600,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/327384-0.webp",
+      "path": "/atlas/print-media/ad6bc22bb854d4b8915e.jpg",
+      "sourceSHA256": "ad6bc22bb854d4b8915ec24117c9136dcd60d4bde1d0d54b1c9c00bf72b0a8e3",
+      "sha256": "e4c0834e56e7d0854daf1eefb0977f2c1c1fc21e41fbf496d70c52bd2f9b49e2",
+      "bytes": 271524,
+      "width": 1200,
+      "height": 1600,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/327384-1.webp",
+      "path": "/atlas/print-media/311ea2ef49ab83dd7676.jpg",
+      "sourceSHA256": "311ea2ef49ab83dd767637ab61c25b8602cd1eff109c672cfc7b230065889b47",
+      "sha256": "5361747766832d66795db6044c4f04ced45d98653781ac3238f163978f3acbe2",
+      "bytes": 249719,
+      "width": 1200,
+      "height": 1600,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/543914-0.webp",
+      "path": "/atlas/print-media/c1efa9fabc438065a101.jpg",
+      "sourceSHA256": "c1efa9fabc438065a101046d61985de440158417a1209b7aa45f18aec198a602",
+      "sha256": "b83c8350aff8b6ed58aaecf7d51b796e91e32379666cb20ca8fe855952638bad",
+      "bytes": 323611,
+      "width": 1600,
+      "height": 630,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/324062-0.webp",
+      "path": "/atlas/print-media/d0ba65eb578f7679ebfc.jpg",
+      "sourceSHA256": "d0ba65eb578f7679ebfc8ad29458e30a05de2799620d652b71defaf425084295",
+      "sha256": "a7a594f02b50f452362ff4310c393579ccacd53f14bef695a527500f88e20a47",
+      "bytes": 301677,
+      "width": 1600,
+      "height": 1598,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/324062-1.webp",
+      "path": "/atlas/print-media/f32cb1e68b5117b84be1.jpg",
+      "sourceSHA256": "f32cb1e68b5117b84be1b813c99904ac4fb3e8f039f9ba8ba6acc65e4c3f3618",
+      "sha256": "5e2afbeaf1f4a12b6bb7fca238c8f40a76dab9636fc7c75357a2a79aea8c3127",
+      "bytes": 838109,
+      "width": 1600,
+      "height": 1525,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/72376-0.webp",
+      "path": "/atlas/print-media/563b0877946d0e1a1957.jpg",
+      "sourceSHA256": "563b0877946d0e1a19571e5bdf23f76d879803e3237402caac000e24055269b9",
+      "sha256": "a80836792b5c938155175510d52445cbc37d6f0c2f51f43d2d9febd85cd9cfff",
+      "bytes": 231855,
+      "width": 1200,
+      "height": 1600,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/545772-0.webp",
+      "path": "/atlas/print-media/73d4d1499a7ff3650061.jpg",
+      "sourceSHA256": "73d4d1499a7ff3650061d388ab274d2736d031f516619a63c8daf6ee3e3b1a93",
+      "sha256": "ec2cb3459e17a79f2428b90e60d928bf331692a64c47c24bbc75f6ecbc83fab1",
+      "bytes": 265990,
+      "width": 1265,
+      "height": 1600,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/42045-0.webp",
+      "path": "/atlas/print-media/de404c19a0b43791f84a.jpg",
+      "sourceSHA256": "de404c19a0b43791f84aa0f9c6d1e9bb3fa4f7de3b9ba3abea0aea05ce35761e",
+      "sha256": "f8bb7bf7466384f8a64caf10c32a1be51511d8ce43edd294a7e5bc0f5422cc8e",
+      "bytes": 143191,
+      "width": 1067,
+      "height": 1600,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/314609-0.webp",
+      "path": "/atlas/print-media/fde0a5f47e1bde074f67.jpg",
+      "sourceSHA256": "fde0a5f47e1bde074f676da6561d4ab9b49c5bb18dd66b796f5e98ccae2ffa9a",
+      "sha256": "c4db8983758b40e70083503b396076a27d8b1d29d39448016562ba12cd8d5442",
+      "bytes": 295807,
+      "width": 821,
+      "height": 1600,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/322614-0.webp",
+      "path": "/atlas/print-media/67f2d58c244759174921.jpg",
+      "sourceSHA256": "67f2d58c244759174921e9f4d9c44fb06ec6a032350416d4f18ba542923502a0",
+      "sha256": "f5b7026e5bcb84338280c1661b7e39f1ba6f232487ba58032518894291bcb6bd",
+      "bytes": 652235,
+      "width": 1140,
+      "height": 1600,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/247244-0.webp",
+      "path": "/atlas/print-media/bf047f88f808659d1462.jpg",
+      "sourceSHA256": "bf047f88f808659d14629db259ce3a067af883bdfa6b46eefdd57e3221936aa3",
+      "sha256": "fdc4a72674f1506691d103b9569b8e449f9afbf3326285e0dd360318c06def92",
+      "bytes": 403787,
+      "width": 1467,
+      "height": 1600,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/544883-0.webp",
+      "path": "/atlas/print-media/3cfef8c72ddf3ccc5753.jpg",
+      "sourceSHA256": "3cfef8c72ddf3ccc5753e748c911cfe5d25710f4e5993cb95ce5c6f667c7bf98",
+      "sha256": "18dd4fad65805ef0ee66ba939755e952ebcc201573bdadd1f909895ada5241ea",
+      "bytes": 203043,
+      "width": 1048,
+      "height": 1600,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/315784-0.webp",
+      "path": "/atlas/print-media/dac6e83f94bf40d4417e.jpg",
+      "sourceSHA256": "dac6e83f94bf40d4417ed5e433866df6ef3b1c031cfc7f84ca79daa97fa92659",
+      "sha256": "e6e7418afcdfdd20a5d9b55d1aabb89a4b5b4106fe973ab0f0b50b99b40ba3f4",
+      "bytes": 484550,
+      "width": 1600,
+      "height": 832,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/464428-0.webp",
+      "path": "/atlas/print-media/51297b28476b42c5725e.jpg",
+      "sourceSHA256": "51297b28476b42c5725e28910b96f685d1ae34b3aa98f81e41d666ba0f348f37",
+      "sha256": "80cd87608e247d58ad84bcec2cbbbc27dbd4b7d37d78b652f2bfce5c91064a09",
+      "bytes": 452482,
+      "width": 1152,
+      "height": 1600,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/452833-0.webp",
+      "path": "/atlas/print-media/198668bf94dc85ecd49e.jpg",
+      "sourceSHA256": "198668bf94dc85ecd49ef404583c9e81093ca727125fa1180b3fd07918ab71ea",
+      "sha256": "de38eebe7504a9cd3bde1fc3203b3271d6b2a85819590f25df66f35c391542d1",
+      "bytes": 526656,
+      "width": 1415,
+      "height": 1600,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/452833-1.webp",
+      "path": "/atlas/print-media/7d37a991c5e64d76a12b.jpg",
+      "sourceSHA256": "7d37a991c5e64d76a12b445a08b8e56a700b10bfaabb1fdc303d6e7ab8ee9970",
+      "sha256": "92ac4361a14531be7258e060e30402507a31dd99ff086d235e174a40a9f49f48",
+      "bytes": 529468,
+      "width": 1591,
+      "height": 1506,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/44800-0.webp",
+      "path": "/atlas/print-media/90f4098f14b8dea6cdfc.jpg",
+      "sourceSHA256": "90f4098f14b8dea6cdfcd5ba9c2d8b17960bd8e114b9740b55520e2b50d4aecc",
+      "sha256": "9eb62d60a4f3a2ab5f2208b358916543c1dbf2a6e407440f7052b3d92f51af57",
+      "bytes": 192533,
+      "width": 1200,
+      "height": 1600,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/316711-0.webp",
+      "path": "/atlas/print-media/fff24c9a7d09889ac55f.jpg",
+      "sourceSHA256": "fff24c9a7d09889ac55ffac07bd19d35ed79c1169f1a423307d48356710264f3",
+      "sha256": "d5a0ad7a82203c24157e373374f3b2eecd98365400f38c5b624e54bb92d2dc64",
+      "bytes": 652500,
+      "width": 1369,
+      "height": 1600,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/314362-0.webp",
+      "path": "/atlas/print-media/26a72edc1a3671787a16.jpg",
+      "sourceSHA256": "26a72edc1a3671787a16794e5937a341791797411c27491ca51c3957a35fc409",
+      "sha256": "2c64f26f473428eef129614bc5050e3e665dbb9e7d3385ffc83968c046d26bfc",
+      "bytes": 343392,
+      "width": 1600,
+      "height": 1280,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/314362-1.webp",
+      "path": "/atlas/print-media/f9e314bd55b249833420.jpg",
+      "sourceSHA256": "f9e314bd55b249833420bcfbde01eaaee98fe53ffed06b0ef3e1b715731ed98b",
+      "sha256": "efcf72ff0cce56c5eb2d81219bd7fa49de92ec9a9aefb24d418a6ba6bacdabea",
+      "bytes": 387412,
+      "width": 1600,
+      "height": 1280,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/42455-0.webp",
+      "path": "/atlas/print-media/237b43ebfb97f7108bd6.jpg",
+      "sourceSHA256": "237b43ebfb97f7108bd690a5271c0a5f0aef7011285259b227aee3cf1ad8ceb4",
+      "sha256": "67b886becb42b39bb6cf5cb939befd39e487f03f4976d7ac6893db8e402736ae",
+      "bytes": 145063,
+      "width": 1600,
+      "height": 1201,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/313152-0.webp",
+      "path": "/atlas/print-media/9ddc5a140610cb66ea44.jpg",
+      "sourceSHA256": "9ddc5a140610cb66ea44cdf0dc27711bd6a84be9bdea4233d101069ddf0789b4",
+      "sha256": "d1496203ae07362a3e74ed6f7b0f6cfec6f431e72c0d2c16768cf191b5e81f7b",
+      "bytes": 551748,
+      "width": 1600,
+      "height": 1200,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/loc-hine.webp",
+      "path": "/atlas/print-media/916ac6748db7d5458738.jpg",
+      "sourceSHA256": "916ac6748db7d5458738c5ef2e66ebd093e5e1076bfbfd1588ee8c9618a32c49",
+      "sha256": "786b7acaae753e17cdc0a94d9263fe4c418e12dab99d24d00835252f29564e5e",
+      "bytes": 197650,
+      "width": 1024,
+      "height": 729,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/loc-war-poster.webp",
+      "path": "/atlas/print-media/7d007034cfb68629bb92.jpg",
+      "sourceSHA256": "7d007034cfb68629bb92da93e60474923a49ffdaab89bd869a0865b8ed0262ab",
+      "sha256": "2b1b4bec1ca4c3e49372042df55d7c5864ff007dfdad8c376b1ef40b126acc6f",
+      "bytes": 82298,
+      "width": 511,
+      "height": 640,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/pp-cooking-objects-0.webp",
+      "path": "/atlas/print-media/069a24888ea521bd9001.jpg",
+      "sourceSHA256": "069a24888ea521bd9001fc884fa5b434f141269c774205da2ad6d47b5977bdab",
+      "sha256": "ea5338db9367e3fa8db61d583539927416ba796727bde54423fdca97bb81d14f",
+      "bytes": 150651,
+      "width": 1200,
+      "height": 721,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/hopewell-restored-mound-0.webp",
+      "path": "/atlas/print-media/b100a3803315bfee0f25.jpg",
+      "sourceSHA256": "b100a3803315bfee0f2568080401186e1836ec7c7d7bf45f4a4f06bfb71c1c82",
+      "sha256": "a054eab34758bdf4375cb16ef131f47f3105f2b964f3a5775905c42406191931",
+      "bytes": 715244,
+      "width": 1600,
+      "height": 1200,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/hopewell-survey-1848-0.webp",
+      "path": "/atlas/print-media/bfde620a55f53a3cd5d1.jpg",
+      "sourceSHA256": "bfde620a55f53a3cd5d11ecccec4e1f94d34dc0f4f8373aa52b57501166841dc",
+      "sha256": "e9a8080f33b02acd32bf0147d914f379e89a0191ccca0707f0e1576476432893",
+      "bytes": 68069,
+      "width": 500,
+      "height": 342,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/chaco-corner-door-0.webp",
+      "path": "/atlas/print-media/3bd3e966a7713171b4e9.jpg",
+      "sourceSHA256": "3bd3e966a7713171b4e9b75a08d954c67ff8a31e8e829e77f30d8947a0199e07",
+      "sha256": "a32420b2579f2ddbe92de420fee803ccd9c98aeea4a5841764de5c919b7302b8",
+      "bytes": 675558,
+      "width": 1600,
+      "height": 1200,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/cahokia-view-1907-0.webp",
+      "path": "/atlas/print-media/edeb9c52c3d2ca260ea4.jpg",
+      "sourceSHA256": "edeb9c52c3d2ca260ea4383042023f157df9e0ee335b349584e248b90d723fa1",
+      "sha256": "560d7f79f2cbe9a1c0e81e8c77f9c211a7269224919563a28b4d734b9d652ba9",
+      "bytes": 189608,
+      "width": 1024,
+      "height": 820,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/met-451490-0.webp",
+      "path": "/atlas/print-media/16143595b140a1824e2a.jpg",
+      "sourceSHA256": "16143595b140a1824e2a72e6aab10a781c5d295c136f3303effc6ee7fa22674e",
+      "sha256": "fdc3bdb42870205c3161973fd68b8484038fe8705b7f627961df83932b419d27",
+      "bytes": 523836,
+      "width": 1600,
+      "height": 1600,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/met-451490-1.webp",
+      "path": "/atlas/print-media/2918bf1c7cb20ec58321.jpg",
+      "sourceSHA256": "2918bf1c7cb20ec58321b593863a57a0b70e14bb7a49b27791865ecbffc5fa59",
+      "sha256": "8b76d38d287a87f6d074e7cdc214f6b79205acca4144c0171195aa2fb9138f5f",
+      "bytes": 528566,
+      "width": 1600,
+      "height": 1600,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/met-449533-0.webp",
+      "path": "/atlas/print-media/57a41bb90eb4899134d8.jpg",
+      "sourceSHA256": "57a41bb90eb4899134d882c8d9540abd72225b7bff34d8284cbc3def57971445",
+      "sha256": "8d341bb87b2fe4c342a6c578e30ca713bf7d7af05dc3b1a29f5da18cff0c4a82",
+      "bytes": 702393,
+      "width": 1600,
+      "height": 1291,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/met-451028-0.webp",
+      "path": "/atlas/print-media/abfe9c93a8e647fe11c9.jpg",
+      "sourceSHA256": "abfe9c93a8e647fe11c967e2e359b354d6b2c50128fc2ecd2ad3a0d737da6f3b",
+      "sha256": "1ee59848b167f972e5c022e0af2233ee03f803224239c54f4c2829ff97242233",
+      "bytes": 558492,
+      "width": 757,
+      "height": 1600,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/met-452671-0.webp",
+      "path": "/atlas/print-media/c717538d4bdfdc16fef6.jpg",
+      "sourceSHA256": "c717538d4bdfdc16fef6b4c7191d85e16f5b4859d52f052a35e26eb0ff093f32",
+      "sha256": "98f7c448212a2738c1011df9a9a0ca0ac0ec561b5146c704bcef11805c6a08ab",
+      "bytes": 890742,
+      "width": 1066,
+      "height": 1600,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/met-681122-0.webp",
+      "path": "/atlas/print-media/7f5a33ae427d19ff20ff.jpg",
+      "sourceSHA256": "7f5a33ae427d19ff20ff74bd8c10949600cc2a0a62f7fa6c1b2deb8e979f08c8",
+      "sha256": "d7d733e5109ffa5c8ce913b5c605f5d66648ec997baad4ceae711fb00a3341a5",
+      "bytes": 444253,
+      "width": 1600,
+      "height": 1280,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/met-681122-1.webp",
+      "path": "/atlas/print-media/f7d6ad62b6314ff172e8.jpg",
+      "sourceSHA256": "f7d6ad62b6314ff172e85e79adefc725c05dd1e6cd2a450332e08899d5572716",
+      "sha256": "97a1b31bb43bdcc89c15ea4684aa893e003e331326cb83192c2314a1048d5ab1",
+      "bytes": 663800,
+      "width": 1104,
+      "height": 1600,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/met-681122-2.webp",
+      "path": "/atlas/print-media/707c1d47b9196e18c6c8.jpg",
+      "sourceSHA256": "707c1d47b9196e18c6c884f64d8b1b680d3f45b9b086f1d9f031d4ac4a6d8529",
+      "sha256": "66d1a0c0c463bace3dc0ef51113a9beb4ea86d012c122d2b45294c88d559c0a4",
+      "bytes": 545012,
+      "width": 1091,
+      "height": 1600,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/met-717577-0.webp",
+      "path": "/atlas/print-media/1bf00a3b742774083219.jpg",
+      "sourceSHA256": "1bf00a3b74277408321926f39726aea60ecf5b7a8860f69aaa18947fb01dfc5a",
+      "sha256": "2a248b06cdbae44adceabaad7690b2d0f32aa78a472d0fc4f78d2d6e3c0803a3",
+      "bytes": 212529,
+      "width": 1600,
+      "height": 1182,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/met-717577-1.webp",
+      "path": "/atlas/print-media/a043c6888d8e43092539.jpg",
+      "sourceSHA256": "a043c6888d8e430925394121b269bb45db5050d037f3787ba3e58ec16bba489b",
+      "sha256": "9d856e5911a2236b95c7109bfe6cef0930282c872e3a35b7e071669de8ce3b27",
+      "bytes": 164634,
+      "width": 1600,
+      "height": 1016,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/met-717577-2.webp",
+      "path": "/atlas/print-media/d27ffea7c0b02e5b060a.jpg",
+      "sourceSHA256": "d27ffea7c0b02e5b060a5e1bb6a46a6b8f76596c72d0e4a0521eef2777b5d77c",
+      "sha256": "af65ccddfb6afb068ced4356a259b19b3a610879c3101da5f174ae3e0f59f3e3",
+      "bytes": 330167,
+      "width": 1600,
+      "height": 1200,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/inuinnait-plate-1922-0.webp",
+      "path": "/atlas/print-media/470d456ca2798aced4e5.jpg",
+      "sourceSHA256": "470d456ca2798aced4e5bcac14c9e89ba5609c85153fbcec566618646f7b0351",
+      "sha256": "8984da4369c8f92889fb3b1abe92f7d0162dd32112f2fe3ccee9b4eb8ed630aa",
+      "bytes": 358644,
+      "width": 997,
+      "height": 1600,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/makah-loc-1910-0.webp",
+      "path": "/atlas/print-media/f200d372a0effd0feae5.jpg",
+      "sourceSHA256": "f200d372a0effd0feae5c03644e58a30b1aecd0462c4e5c53e645d92472dd489",
+      "sha256": "93f69e6307d5ed76bd8a995344a2e0fd679b3090f11d20a0eedf9cff583b4da0",
+      "bytes": 93504,
+      "width": 1024,
+      "height": 814,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/hsi-cliff-2005-0.webp",
+      "path": "/atlas/print-media/4973c16776a30e3216e0.jpg",
+      "sourceSHA256": "4973c16776a30e3216e0c5dd6c6f16d176d76b626827f8c9076c4e96631e5c15",
+      "sha256": "9b39710d28a0962f3651bb3e741603af4093b696b876eb334dd06a27fd5f4c0d",
+      "bytes": 692895,
+      "width": 1600,
+      "height": 1200,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/knife-earthlodge-0.webp",
+      "path": "/atlas/print-media/f31adbccc6318faf86de.jpg",
+      "sourceSHA256": "f31adbccc6318faf86de0924e8d33e894826ee340da46c9e3abb1a95b3014d48",
+      "sha256": "742298202df6f15d3c0c5baf67b600d7e3e28a74cb8a96c906a3e874dfc394bd",
+      "bytes": 91058,
+      "width": 650,
+      "height": 433,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/knife-garden-tools-0.webp",
+      "path": "/atlas/print-media/9886892e93082b4586c8.jpg",
+      "sourceSHA256": "9886892e93082b4586c84a3c08919eaffe949998a1f44e19c698b795b291aed6",
+      "sha256": "1dbb7fd5962ff9107789a2c784bd4cb4b0f86a1e21a2b2a4e548fde2a236314c",
+      "bytes": 34434,
+      "width": 960,
+      "height": 940,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/hunt-title-1921-0.webp",
+      "path": "/atlas/print-media/1331bab8068988b10121.jpg",
+      "sourceSHA256": "1331bab8068988b101217c1ece9acd0d801f43d1b378c8384cc847fcfe83e764",
+      "sha256": "9ca7658148a89ae07051389fe5fe5698ec6c887c119cca8d66a9e30e83a26c84",
+      "bytes": 78679,
+      "width": 1009,
+      "height": 1600,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/ocmulgee-floor-0.webp",
+      "path": "/atlas/print-media/e52275bc59eb1f55c6c8.jpg",
+      "sourceSHA256": "e52275bc59eb1f55c6c8c5bac75406b2fdf4ec2a493b60e66a10db1cd3d38899",
+      "sha256": "7f4db8b0f45d819b81a81ac6ec6bd99be62255cbd352fe76106fbc402660965f",
+      "bytes": 61608,
+      "width": 526,
+      "height": 339,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/ocmulgee-exterior-0.webp",
+      "path": "/atlas/print-media/8ebdbc7d26215ec7ee11.jpg",
+      "sourceSHA256": "8ebdbc7d26215ec7ee11ce4d46687a1789038456674b74fcc657cefd86b57f99",
+      "sha256": "889d6e60a99043325ada99ac2efa7b271ac57eec98d1883ee91a0eba3db87344",
+      "bytes": 540146,
+      "width": 1600,
+      "height": 900,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/laine-radiocarbon-2022-0.webp",
+      "path": "/atlas/print-media/8fa423a774c5548a33d6.jpg",
+      "sourceSHA256": "8fa423a774c5548a33d6acfd2234d97c38c755a72e03a313f6856bac68c4e330",
+      "sha256": "f740ceb517121a272ced7c1f0c3f141b0667c89363c961aa75dc558036e13e86",
+      "bytes": 187605,
+      "width": 1600,
+      "height": 1118,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/canandaigua-ratification-0.webp",
+      "path": "/atlas/print-media/044e37c66e1efce3ad7d.jpg",
+      "sourceSHA256": "044e37c66e1efce3ad7df6700a3616ecf667416900a27cb9e4b61bae4a094d18",
+      "sha256": "3d26e43e58dfb55f35c67b10d5e74e80d9efc9f2b39c1fa19f7a2381391ec17a",
+      "bytes": 434085,
+      "width": 1021,
+      "height": 1600,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/phoenix-april-1828-0.webp",
+      "path": "/atlas/print-media/0cbe68720c3cfcbcf335.jpg",
+      "sourceSHA256": "0cbe68720c3cfcbcf335729b610125c8eca80623b285f885730cad434b6f4081",
+      "sha256": "6174dd2e51e09011738cc68431cfa1b16f821ce18bd0f9ec74c29b03babe2565",
+      "bytes": 149358,
+      "width": 650,
+      "height": 492,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/rice-linde-1913-0.webp",
+      "path": "/atlas/print-media/1e52de44019b68878eb7.jpg",
+      "sourceSHA256": "1e52de44019b68878eb7df4d9c283d5c3eeb61ec15e3eb8cc30162b3fa476dbc",
+      "sha256": "bd5412b7f5e53d88217cfbb98489806f7582a1dacefb13d37da5aeb8b83fa2e5",
+      "bytes": 207077,
+      "width": 1024,
+      "height": 617,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/angkor-aster.webp",
+      "path": "/atlas/print-media/2f5dc70eb00f9f1bdd39.jpg",
+      "sourceSHA256": "2f5dc70eb00f9f1bdd398393968cbd43ffc237b6ee78cc4a6ebefeed57e3356f",
+      "sha256": "d19def7920b61efdd9ad74dc7ede7ef6604fe8056b900c4686932a774467bcc1",
+      "bytes": 663833,
+      "width": 1200,
+      "height": 1200,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/partition-punjab-map.webp",
+      "path": "/atlas/print-media/fea034707ac71d206ae4.jpg",
+      "sourceSHA256": "fea034707ac71d206ae46e7625f204953806dbe5f5df7d25b2ad1f3809722e03",
+      "sha256": "3b1ae03d485bbfcf5c05ff388e31c3aefa4e9cbe7a3e0c0bb0b058c59c2ef00a",
+      "bytes": 49068,
+      "width": 900,
+      "height": 679,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/partition-telegram.webp",
+      "path": "/atlas/print-media/56b5edca027899bc8e59.jpg",
+      "sourceSHA256": "56b5edca027899bc8e59868662d32a9e466077733175d18ae68a96673bf332da",
+      "sha256": "829da4b0467e43994fcb0de1c8094248047dbb76cf151c3985d30e07fcfb6723",
+      "bytes": 25298,
+      "width": 546,
+      "height": 900,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/indonesia-proclamation.webp",
+      "path": "/atlas/print-media/196b620a487ad55d2505.jpg",
+      "sourceSHA256": "196b620a487ad55d25057a4b3a587d7004ed0fd0aaf0504f92d69293674588f8",
+      "sha256": "8e59038d80c05ae25d22c2b53b1b62416c723914d0571cff0b287dab39db4b76",
+      "bytes": 36111,
+      "width": 399,
+      "height": 268,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/ghana-independence-stamp.webp",
+      "path": "/atlas/print-media/1fbe8befcc7bf029c276.jpg",
+      "sourceSHA256": "1fbe8befcc7bf029c276cfa6d079d605049b9bbbef6dc9d35ef7fd998ab4960c",
+      "sha256": "c46536ac1e15ec56ae6c47bb15055c31da4ad1b3fe9b5f768fa106dabed4e779",
+      "bytes": 123137,
+      "width": 611,
+      "height": 460,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/mandela-voting.webp",
+      "path": "/atlas/print-media/da8bf4065c0cd49da932.jpg",
+      "sourceSHA256": "da8bf4065c0cd49da9327199c2828c34175dfeb76a7d086bc4367bd759a292b5",
+      "sha256": "2dc5ee55280564c20529149b87d117a797a0c5eeabc78ec2fa670c0bb967bdc1",
+      "bytes": 95929,
+      "width": 538,
+      "height": 800,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/uruk-accounting-diagram.svg",
+      "path": "/atlas/media/uruk-accounting-diagram.svg",
+      "sourceSHA256": "49db74c8c5286be4e16fce8e2e07f46b2a49b68dfe2553f03555fb9bd94820f5",
+      "sha256": "49db74c8c5286be4e16fce8e2e07f46b2a49b68dfe2553f03555fb9bd94820f5",
+      "treatment": "Original vector retained"
+    },
+    {
+      "source": "/atlas/media/dholavira-water-diagram.svg",
+      "path": "/atlas/media/dholavira-water-diagram.svg",
+      "sourceSHA256": "6fb7374c2ceb4a7a7ea113bd7634ba5f56867ab70f83cbf1aafcbb91538866e0",
+      "sha256": "6fb7374c2ceb4a7a7ea113bd7634ba5f56867ab70f83cbf1aafcbb91538866e0",
+      "treatment": "Original vector retained"
+    },
+    {
+      "source": "/atlas/media/liangzhu-water-diagram.svg",
+      "path": "/atlas/media/liangzhu-water-diagram.svg",
+      "sourceSHA256": "f390a7235d419e24cc88d754406a3660c5de428ce354cef462fd2672f128b033",
+      "sha256": "f390a7235d419e24cc88d754406a3660c5de428ce354cef462fd2672f128b033",
+      "treatment": "Original vector retained"
+    },
+    {
+      "source": "/atlas/media/hattusha-evidence-diagram.svg",
+      "path": "/atlas/media/hattusha-evidence-diagram.svg",
+      "sourceSHA256": "98b9f7d94b69bef1b49959c8b61d0bfe8c47085ef392b512680b9243bd1f7717",
+      "sha256": "98b9f7d94b69bef1b49959c8b61d0bfe8c47085ef392b512680b9243bd1f7717",
+      "treatment": "Original vector retained"
+    },
+    {
+      "source": "/atlas/media/uluburun-evidence-diagram.svg",
+      "path": "/atlas/media/uluburun-evidence-diagram.svg",
+      "sourceSHA256": "52ba2e3189fb89cf08693c7e654bc47c2ae73d90e431a96bf013c62bc4646535",
+      "sha256": "52ba2e3189fb89cf08693c7e654bc47c2ae73d90e431a96bf013c62bc4646535",
+      "treatment": "Original vector retained"
+    },
+    {
+      "source": "/atlas/media/shang-practices-diagram.svg",
+      "path": "/atlas/media/shang-practices-diagram.svg",
+      "sourceSHA256": "8fb92634345c1e229a3da6d45aaa912b7ff719c617e00e3ef20c8263efc8e6a1",
+      "sha256": "8fb92634345c1e229a3da6d45aaa912b7ff719c617e00e3ef20c8263efc8e6a1",
+      "treatment": "Original vector retained"
+    },
+    {
+      "source": "/atlas/media/44781-0.webp",
+      "path": "/atlas/print-media/97a27cbd6394c438d17c.jpg",
+      "sourceSHA256": "97a27cbd6394c438d17c3b29f1f78f08b8fdc190855892a3523443275805f915",
+      "sha256": "f31aadd4a0a63792cbf8a45308eb3a1c799b3e985ef10080c6dd5b7ed83df2d5",
+      "bytes": 236685,
+      "width": 1200,
+      "height": 900,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/qin-records-diagram.svg",
+      "path": "/atlas/media/qin-records-diagram.svg",
+      "sourceSHA256": "4becb75aff62ae69c3afa266b82c0249769072a352bdfe1af770000461393302",
+      "sha256": "4becb75aff62ae69c3afa266b82c0249769072a352bdfe1af770000461393302",
+      "treatment": "Original vector retained"
+    },
+    {
+      "source": "/atlas/media/ashoka-messages-diagram.svg",
+      "path": "/atlas/media/ashoka-messages-diagram.svg",
+      "sourceSHA256": "95c286ef9c5bfa172e800c66b8c1645506cbb81bf7aba4e33338295310bc243c",
+      "sha256": "95c286ef9c5bfa172e800c66b8c1645506cbb81bf7aba4e33338295310bc243c",
+      "treatment": "Original vector retained"
+    },
+    {
+      "source": "/atlas/media/beta-samati-coins.webp",
+      "path": "/atlas/print-media/fecb2825049eca2fb974.jpg",
+      "sourceSHA256": "fecb2825049eca2fb974efba4f6f8cffd0b309afcdb8c50cd59beaea5c07b3c5",
+      "sha256": "6df8c5eb025ecf9ed3daffa8be225812e73abe65f0f80359d056019de26c5ce2",
+      "bytes": 347436,
+      "width": 1583,
+      "height": 919,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/tang-access-diagram.svg",
+      "path": "/atlas/media/tang-access-diagram.svg",
+      "sourceSHA256": "bee0990492782294e1bba7f070fba60af7d2e6a82fcb257e066f09c92d7489ee",
+      "sha256": "bee0990492782294e1bba7f070fba60af7d2e6a82fcb257e066f09c92d7489ee",
+      "treatment": "Original vector retained"
+    },
+    {
+      "source": "/atlas/media/abbasid-work-diagram.svg",
+      "path": "/atlas/media/abbasid-work-diagram.svg",
+      "sourceSHA256": "d80649e9899cc196dbd294f963be1fd8b87449268a8b006f5e895ba2e2305ba4",
+      "sha256": "d80649e9899cc196dbd294f963be1fd8b87449268a8b006f5e895ba2e2305ba4",
+      "treatment": "Original vector retained"
+    },
+    {
+      "source": "/atlas/media/nalanda-brick-photo.webp",
+      "path": "/atlas/print-media/691bcd70495b5fb537af.jpg",
+      "sourceSHA256": "691bcd70495b5fb537afbab76797ab74793b041032a2b1c4f70006484fc7d3a0",
+      "sha256": "564cc2d385dd53efea13d6de0240b61343112a8e6e737f6561bbe306ca8d62c0",
+      "bytes": 941029,
+      "width": 1600,
+      "height": 1202,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/song-loan-diagram.svg",
+      "path": "/atlas/media/song-loan-diagram.svg",
+      "sourceSHA256": "fb7b22edb71b897f7d77b0f2ff22c0822c0d945556634e7e0ddf0fcdeb80e7b3",
+      "sha256": "fb7b22edb71b897f7d77b0f2ff22c0822c0d945556634e7e0ddf0fcdeb80e7b3",
+      "treatment": "Original vector retained"
+    },
+    {
+      "source": "/atlas/media/inka-work-diagram.svg",
+      "path": "/atlas/media/inka-work-diagram.svg",
+      "sourceSHA256": "4e274698cd2d9691c8dc29e23ab201b3583b6ebe90dd9acd023d76af91480f74",
+      "sha256": "4e274698cd2d9691c8dc29e23ab201b3583b6ebe90dd9acd023d76af91480f74",
+      "treatment": "Original vector retained"
+    },
+    {
+      "source": "/atlas/media/catalan-musa-detail.webp",
+      "path": "/atlas/print-media/922d26c4806093d0ee03.jpg",
+      "sourceSHA256": "922d26c4806093d0ee03a3a71daf618c1e8e9e0bf9b66db1e824e94e5540ee37",
+      "sha256": "685eedced1987258a6c49182e8f664ce8149d1664850c1948f50512c23f28648",
+      "bytes": 635450,
+      "width": 1600,
+      "height": 1141,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/voyage-mediation-diagram.svg",
+      "path": "/atlas/media/voyage-mediation-diagram.svg",
+      "sourceSHA256": "a8e901fb16cf7c041b620d668872d84d6ffad10a3bc7b465abe6c056009679f2",
+      "sha256": "a8e901fb16cf7c041b620d668872d84d6ffad10a3bc7b465abe6c056009679f2",
+      "treatment": "Original vector retained"
+    },
+    {
+      "source": "/atlas/media/giza-provisioning-diagram.svg",
+      "path": "/atlas/media/giza-provisioning-diagram.svg",
+      "sourceSHA256": "936156f4b3f68814cbdc506d0ed05d84c0daaa2f766296855fa000115bf08c42",
+      "sha256": "936156f4b3f68814cbdc506d0ed05d84c0daaa2f766296855fa000115bf08c42",
+      "treatment": "Original vector retained"
+    },
+    {
+      "source": "/atlas/media/caral-renewal-diagram.svg",
+      "path": "/atlas/media/caral-renewal-diagram.svg",
+      "sourceSHA256": "3c323eff34e2b7203c5cc9708f251fc28358f7a5326233477935217a60a4a58a",
+      "sha256": "3c323eff34e2b7203c5cc9708f251fc28358f7a5326233477935217a60a4a58a",
+      "treatment": "Original vector retained"
+    },
+    {
+      "source": "/atlas/media/skara-household-guide.svg",
+      "path": "/atlas/media/skara-household-guide.svg",
+      "sourceSHA256": "e52f4fed19d8453d7a0234586f2ef6ec5c02202e0f75d48bee42a7c5e3498e22",
+      "sha256": "e52f4fed19d8453d7a0234586f2ef6ec5c02202e0f75d48bee42a7c5e3498e22",
+      "treatment": "Original vector retained"
+    },
+    {
+      "source": "/atlas/media/olmec-dating-guide.svg",
+      "path": "/atlas/media/olmec-dating-guide.svg",
+      "sourceSHA256": "8b2f06a75cb5f1797bb38c84320a4c19894f5a184a6b3dd3f5edbe5f78cab754",
+      "sha256": "8b2f06a75cb5f1797bb38c84320a4c19894f5a184a6b3dd3f5edbe5f78cab754",
+      "treatment": "Original vector retained"
+    },
+    {
+      "source": "/atlas/media/lapita-stamp-guide.svg",
+      "path": "/atlas/media/lapita-stamp-guide.svg",
+      "sourceSHA256": "d18524f31ad9ac277231e67a8ea9c1c7d245021c0e2c0d1915d19ac35fc07197",
+      "sha256": "d18524f31ad9ac277231e67a8ea9c1c7d245021c0e2c0d1915d19ac35fc07197",
+      "treatment": "Original vector retained"
+    },
+    {
+      "source": "/atlas/media/met-314215-cast.webp",
+      "path": "/atlas/print-media/ab4be1bd225a99f85ecf.jpg",
+      "sourceSHA256": "ab4be1bd225a99f85ecf15e957841d5ae69cbfd23bbb132d6ac777cb050e53ed",
+      "sha256": "b5562f2c0227c8f58716adea836d8426632d88f2506d85cd8c8bdf490cb1ef14",
+      "bytes": 177124,
+      "width": 1056,
+      "height": 775,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/poverty-terrain-model.webp",
+      "path": "/atlas/print-media/0fb82caba1664a316feb.jpg",
+      "sourceSHA256": "0fb82caba1664a316feb176b0dcebe67cbec1b8b5786d00c2ec3699e87a454c6",
+      "sha256": "b9ff9e5e7869ec0db80ac03fc828228b1f9931daa29a4226ead3bc3487fff614",
+      "bytes": 479802,
+      "width": 1583,
+      "height": 1239,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/kerma-making-guide.svg",
+      "path": "/atlas/media/kerma-making-guide.svg",
+      "sourceSHA256": "7a215006f7d768145cbafde77999edc637cbdeeb78ccef30f524f595d7c08cef",
+      "sha256": "7a215006f7d768145cbafde77999edc637cbdeeb78ccef30f524f595d7c08cef",
+      "treatment": "Original vector retained"
+    },
+    {
+      "source": "/atlas/media/institution-evidence-guide.svg",
+      "path": "/atlas/media/institution-evidence-guide.svg",
+      "sourceSHA256": "7013c44332b0dce4a2b9bdfb69e15685271f16be47709fe5503335f336c7ee00",
+      "sha256": "7013c44332b0dce4a2b9bdfb69e15685271f16be47709fe5503335f336c7ee00",
+      "treatment": "Original vector retained"
+    },
+    {
+      "source": "/atlas/media/nimrud-palace-plan.webp",
+      "path": "/atlas/print-media/5d8c5a203ad7a7ad0c4f.jpg",
+      "sourceSHA256": "5d8c5a203ad7a7ad0c4f66ca70c702e888e8f01fecbb805f225a3ffe7b55899d",
+      "sha256": "59f63fcf0faa12c945c3afab88351952629c6b378e06e428891277f15bc84c67",
+      "bytes": 102326,
+      "width": 460,
+      "height": 926,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/sanam-workshop-view.webp",
+      "path": "/atlas/print-media/fb3dbb11748668d59aba.jpg",
+      "sourceSHA256": "fb3dbb11748668d59abaaef0c9536be1fbf8bbfe480aeaa5ea26962ac3e1816f",
+      "sha256": "23c6ff1be3f32be4104e7a0f2140b189d62ea529857033a6def93b3825a6285a",
+      "bytes": 526213,
+      "width": 1063,
+      "height": 1115,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/sanam-mould-match.webp",
+      "path": "/atlas/print-media/d75827bf113b733e1108.jpg",
+      "sourceSHA256": "d75827bf113b733e1108a27760940a4869e8e2ec5ab53db6d06e14c50df48f6b",
+      "sha256": "a0c719d93413444a7e418013eb70f057dc1158e5b522bf10eae2016d2490da0f",
+      "bytes": 48512,
+      "width": 512,
+      "height": 469,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/teotihuacan-household-guide.svg",
+      "path": "/atlas/media/teotihuacan-household-guide.svg",
+      "sourceSHA256": "cd86bc9a3307c798176ede48d55277beed953d183807259c2c7d0a51249e432f",
+      "sha256": "cd86bc9a3307c798176ede48d55277beed953d183807259c2c7d0a51249e432f",
+      "treatment": "Original vector retained"
+    },
+    {
+      "source": "/atlas/media/moche-evidence-guide.svg",
+      "path": "/atlas/media/moche-evidence-guide.svg",
+      "sourceSHA256": "9aba22a9c72e12d913dee9fcffede617ab3666e5e7c6f2524a8794a7213f8a5e",
+      "sha256": "9aba22a9c72e12d913dee9fcffede617ab3666e5e7c6f2524a8794a7213f8a5e",
+      "treatment": "Original vector retained"
+    },
+    {
+      "source": "/atlas/media/teotihuacan-tlajinga-map.webp",
+      "path": "/atlas/print-media/ba7304e2f8c799a66cbd.jpg",
+      "sourceSHA256": "ba7304e2f8c799a66cbdeea865ab67c55f2f911db5c9b352532241bd642c63cb",
+      "sha256": "961e3fe823059d1b449eae62cd61f0920e800835161d370b7b97e019ca003cb7",
+      "bytes": 509684,
+      "width": 1650,
+      "height": 2345,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/hopewell-moundcity-1848.webp",
+      "path": "/atlas/print-media/befd60a4fcd9a5a015b1.jpg",
+      "sourceSHA256": "befd60a4fcd9a5a015b12d5b96f790050912472e7bf31b4b14a7c5ffd99520c1",
+      "sha256": "0986420d05d22901922182612f7b33e0b75fa8b0baf96a2711febcfeaf8497b4",
+      "bytes": 90467,
+      "width": 450,
+      "height": 607,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/borobudur-conserved-monument.jpg",
+      "path": "/atlas/print-media/905aec75d7af12e24665.jpg",
+      "sourceSHA256": "905aec75d7af12e2466512134d4e647a573fa4a0bb09b143d251f5664cd80128",
+      "sha256": "f191d52979dc33f1bfd9fb9b97610a231561e226d62efedb7a5d51a81b7ded69",
+      "bytes": 1062543,
+      "width": 2400,
+      "height": 944,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/borobudur-schematic-plan.png",
+      "path": "/atlas/print-media/353f5c0fcd994ad5496a.jpg",
+      "sourceSHA256": "353f5c0fcd994ad5496ab6066a4abe46f23b923b8ed1461be5cf5a741c8e6182",
+      "sha256": "c364b0d1e1bfc7709b2c36b7fb05f0cacb1ac2d8fcc2c5044bd2e76c9618895f",
+      "bytes": 191572,
+      "width": 800,
+      "height": 800,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/chaco-plan-1850.jpg",
+      "path": "/atlas/print-media/d646191beb55f6c2ff08.jpg",
+      "sourceSHA256": "d646191beb55f6c2ff0857a0926ec56a48d88b78290f8209180274265fa52836",
+      "sha256": "075dd27c09e70d617aa13fc2e39eebe53967e68710cfddf2b4a8285bf97401e4",
+      "bytes": 428501,
+      "width": 1536,
+      "height": 1098,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/ocmulgee-earthlodge-figure3.png",
+      "path": "/atlas/print-media/5a16fa2c8dc370563c6e.jpg",
+      "sourceSHA256": "5a16fa2c8dc370563c6e8a1d0f6bb1f6fffde601692eab22db4c3a70647c9846",
+      "sha256": "88946a1b572b9d62e11ac703cb8c98d811f1b9fc53ae209079ba8f1ca7c8e9a1",
+      "bytes": 600246,
+      "width": 1600,
+      "height": 1725,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    },
+    {
+      "source": "/atlas/media/tomioka-reeling-print.webp",
+      "path": "/atlas/print-media/e6cd0ab93b59423c87a6.jpg",
+      "sourceSHA256": "e6cd0ab93b59423c87a6d62bcba196537021e3b99444b4a870d096268f9546f2",
+      "sha256": "c4c42cbef2ded9f59b243fa507cfcca5c958c933f839cbc787be7649ba4cac34",
+      "bytes": 628160,
+      "width": 1600,
+      "height": 786,
+      "treatment": "Print-only JPEG, quality 92, full chroma, maximum 2400 px, no enlargement; white paper background. Original retained."
+    }
+  ]
+}

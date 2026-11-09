@@ -1,0 +1,242 @@
+[
+  {
+    "id": "SEARCH01",
+    "category": "name_or_alias",
+    "query": "Rome",
+    "subject": "roman-world"
+  },
+  {
+    "id": "SEARCH02",
+    "category": "name_or_alias",
+    "query": "Han China",
+    "subject": "eastern-han"
+  },
+  {
+    "id": "SEARCH03",
+    "category": "name_or_alias",
+    "query": "Tadmor",
+    "subject": "palmyra"
+  },
+  {
+    "id": "SEARCH04",
+    "category": "name_or_alias",
+    "query": "Axum",
+    "subject": "aksum"
+  },
+  {
+    "id": "SEARCH05",
+    "category": "name_or_alias",
+    "query": "Mochica",
+    "subject": "moche"
+  },
+  {
+    "id": "SEARCH06",
+    "category": "name_or_alias",
+    "query": "Harappa",
+    "subject": "dholavira"
+  },
+  {
+    "id": "SEARCH07",
+    "category": "name_or_alias",
+    "query": "Hittites",
+    "subject": "hattusha-change"
+  },
+  {
+    "id": "SEARCH08",
+    "category": "name_or_alias",
+    "query": "Maurya",
+    "subject": "ashoka-messages"
+  },
+  {
+    "id": "SEARCH09",
+    "category": "name_or_alias",
+    "query": "Baghdad",
+    "subject": "abbasid-craft"
+  },
+  {
+    "id": "SEARCH10",
+    "category": "name_or_alias",
+    "query": "Gold Coast",
+    "subject": "ghana-independence"
+  },
+  {
+    "id": "SEARCH11",
+    "category": "concept",
+    "query": "frontier monopolies",
+    "subject": "eastern-han"
+  },
+  {
+    "id": "SEARCH12",
+    "category": "concept",
+    "query": "lidar",
+    "subject": "angkor"
+  },
+  {
+    "id": "SEARCH13",
+    "category": "concept",
+    "query": "Buddhism",
+    "subject": "borobudur"
+  },
+  {
+    "id": "SEARCH14",
+    "category": "concept",
+    "query": "oracle bones",
+    "subject": "shang-ritual"
+  },
+  {
+    "id": "SEARCH15",
+    "category": "concept",
+    "query": "standardization",
+    "subject": "qin-administration"
+  },
+  {
+    "id": "SEARCH16",
+    "category": "concept",
+    "query": "silk reeling",
+    "subject": "tomioka"
+  },
+  {
+    "id": "SEARCH17",
+    "category": "concept",
+    "query": "child labor",
+    "subject": "hine-labor"
+  },
+  {
+    "id": "SEARCH18",
+    "category": "concept",
+    "query": "wampum",
+    "subject": "haudenosaunee-canandaigua"
+  },
+  {
+    "id": "SEARCH19",
+    "category": "concept",
+    "query": "wild rice",
+    "subject": "ojibwe-manoomin"
+  },
+  {
+    "id": "SEARCH20",
+    "category": "concept",
+    "query": "forced removal",
+    "subject": "cherokee-print"
+  },
+  {
+    "id": "SEARCH21",
+    "category": "date_or_bce_ce_boundary",
+    "query": "1200 BCE",
+    "year": -1200
+  },
+  {
+    "id": "SEARCH22",
+    "category": "date_or_bce_ce_boundary",
+    "query": "200 CE",
+    "year": 200
+  },
+  {
+    "id": "SEARCH23",
+    "category": "date_or_bce_ce_boundary",
+    "query": "1 BCE",
+    "year": -1
+  },
+  {
+    "id": "SEARCH24",
+    "category": "date_or_bce_ce_boundary",
+    "query": "1 CE",
+    "year": 1
+  },
+  {
+    "id": "SEARCH25",
+    "category": "date_or_bce_ce_boundary",
+    "query": "1950",
+    "year": 1950
+  },
+  {
+    "id": "SEARCH26",
+    "category": "date_or_bce_ce_boundary",
+    "query": "3300 BCE",
+    "year": -3300
+  },
+  {
+    "id": "SEARCH27",
+    "category": "date_or_bce_ce_boundary",
+    "query": "2000 CE",
+    "year": 2000
+  },
+  {
+    "id": "SEARCH28",
+    "category": "date_or_bce_ce_boundary",
+    "query": "0 CE",
+    "year": null
+  },
+  {
+    "id": "SEARCH29",
+    "category": "spelling_or_diacritic",
+    "query": "Dong Son",
+    "subject": "dongson"
+  },
+  {
+    "id": "SEARCH30",
+    "category": "spelling_or_diacritic",
+    "query": "Chavin",
+    "subject": "chavin-textile"
+  },
+  {
+    "id": "SEARCH31",
+    "category": "spelling_or_diacritic",
+    "query": "Maori",
+    "subject": "tiriti"
+  },
+  {
+    "id": "SEARCH32",
+    "category": "spelling_or_diacritic",
+    "query": "Suleyman",
+    "subject": "ottoman-workshops"
+  },
+  {
+    "id": "SEARCH33",
+    "category": "spelling_or_diacritic",
+    "query": "Jenne-jeno",
+    "subject": "middle-niger"
+  },
+  {
+    "id": "SEARCH34",
+    "category": "spelling_or_diacritic",
+    "query": "Jean-Baptiste Laine",
+    "subject": "wendat-laine"
+  },
+  {
+    "id": "SEARCH35",
+    "category": "deliberate_coverage_gap",
+    "query": "Antarctic Treaty",
+    "subjects": []
+  },
+  {
+    "id": "SEARCH36",
+    "category": "deliberate_coverage_gap",
+    "query": "Tokugawa shogunate",
+    "subjects": []
+  },
+  {
+    "id": "SEARCH37",
+    "category": "deliberate_coverage_gap",
+    "query": "Australian federation",
+    "subjects": []
+  },
+  {
+    "id": "SEARCH38",
+    "category": "deliberate_coverage_gap",
+    "query": "Mali space programme",
+    "subjects": []
+  },
+  {
+    "id": "SEARCH39",
+    "category": "deliberate_coverage_gap",
+    "query": "Sumerian television",
+    "subjects": []
+  },
+  {
+    "id": "SEARCH40",
+    "category": "deliberate_coverage_gap",
+    "query": "zzunrepresentedzz",
+    "subjects": []
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "subject": "aksum",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "met-256732",
+      "caption": "A third-century Roman grape-shaped bottle. The Aksum essay compares this type with an excavated example; it does not give this specimen an Aksum findspot.",
+      "notice": ["What shape has the glassmaker borrowed from nature?"],
+      "creator": "Maker not recorded",
+      "place": "Roman world; this specimen is not identified as excavated at Aksum",
+      "material": "Glass",
+      "relevance": "Separate type comparison from the provenance of an individual object.",
+      "additionalImages": []
+    },
+    {
+      "id": "beta-samati-coins",
+      "caption": "Five coins, each shown on two sides, from Beta Samati. Their issue dates differ; the excavators interpret them with pottery and dated deposits. This is not one issue of 200 CE.",
+      "notice": [
+        "Count five paired columns, rather than ten separate coins.",
+        "Compare manufacture, use, deposition and modern excavation dates.",
+        "The photographic ruler does not make every screen or print reproduction life-size."
+      ],
+      "creator": "Figure by Ioana A. Dumitru; published by Harrower and colleagues",
+      "place": "Beta Samati, northern Ethiopia; reported excavated context, not Adulis or the selected Roman bottle’s findspot",
+      "material": "Modern photograph assembling two views of each of five archaeological coins",
+      "representedDate": "Coins span approximately fourth–seventh centuries CE; the source discusses alternative Armah chronology.",
+      "relevance": "Provides an excavated Aksumite example for questions about coin types, object dates, deposition and local work. The Roman bottle remains a separate type comparison.",
+      "printWidthMm": 165
+    }
+  ]
+}

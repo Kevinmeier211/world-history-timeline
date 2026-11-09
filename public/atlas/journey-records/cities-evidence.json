@@ -1,0 +1,51 @@
+{
+  "journey": "cities-evidence",
+  "revision": "7c53523ba488b6f978017960b04c4cee5fdbc102a28e955744a8c973925a3de9",
+  "stops": [
+    {
+      "index": 0,
+      "narrative": "Inspect the signs and numerical impressions. Keep the probable grain interpretation separate from a complete translation."
+    },
+    {
+      "index": 1,
+      "narrative": "Find scenes of offerings and music. Ask why an elite funerary wall selected these activities."
+    },
+    {
+      "index": 2,
+      "narrative": "Locate the arid island setting. Compare what reservoirs reveal with what the seal’s unread signs cannot yet tell us."
+    },
+    {
+      "index": 3,
+      "narrative": "Inspect the jade’s geometry and then think about waterworks and burials. Do not give a city, culture and artifact one artificial lifespan."
+    },
+    {
+      "index": 4,
+      "narrative": "Imagine questions you could ask of platforms and sunken courts. The comparison with Liangzhu implies no historical contact."
+    },
+    {
+      "index": 5,
+      "narrative": "Consider hearths, beds and a tool of uncertain use. Explain which evidence supports a conclusion and what may be missing."
+    }
+  ],
+  "conclusion": "Early communities become visible through many kinds of evidence. Records, monuments and surviving houses illuminate different people and activities. A serious atlas can compare them without ranking their worth or pretending they share one political lineage.",
+  "evidence": {
+    "prompt": "Which statement makes the strongest supported distinction?",
+    "options": [
+      {
+        "text": "Every ancient sign can be translated if we imagine what its maker wanted.",
+        "supported": false,
+        "feedback": "Imagination is not a translation method. The Indus signs remain incompletely read, while even the grain tablet’s interpretation has limits."
+      },
+      {
+        "text": "A building, a tablet and a burial object can support different questions about a society.",
+        "supported": true,
+        "feedback": "Their materials, contexts and purposes preserve different information. Compare the questions each can answer."
+      },
+      {
+        "text": "Monumental buildings prove that everyone in a community had equal power.",
+        "supported": false,
+        "feedback": "Coordinated work does not establish equality. Differentiated spaces and burials may instead prompt questions about hierarchy."
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "journey": "images-spaces-work",
+  "revision": "1c7935d61b05e381b960abd60d15b83bc01705d367e337f015b3f456e191ff0c",
+  "stops": [
+    {
+      "index": 0,
+      "narrative": "Use the four modern numbered notes on the unchanged photograph. Separate crossing threads, painted forms and broken edges from the catalogue’s material identification and motif interpretation. The reported southern-coastal origin does not locate manufacture or prove a journey from the highland centre."
+    },
+    {
+      "index": 1,
+      "narrative": "At Tlajinga, cores and production debris support blade making; courtyards and drains show how homes connected to shared facilities. The guide explains relationships rather than measured architecture. Different buildings and samples retain their own dates; these remains do not supply a recovered city constitution."
+    },
+    {
+      "index": 2,
+      "narrative": "Inspect the two vessels as well as the guide. Workshop and domestic evidence from named archaeological settings adds labor and exchange questions, while the museum objects retain their unknown precise findspots. Northern and southern interpretations do not become one uniform Moche kingdom."
+    }
+  ],
+  "conclusion": "Useful explanations connect a specific activity with material evidence: making a fabric, producing cutting tools, preparing food or working clay. Context helps explain organization, while an object’s appearance, an excavated workshop and a regional model answer different questions. Keep those sources connected without giving one object the provenance or certainty of another.",
+  "evidence": {
+    "prompt": "What would most directly strengthen a claim that a particular vessel was made in a particular workshop?",
+    "options": [
+      {
+        "text": "A similar motif appears on a distant textile.",
+        "supported": false,
+        "feedback": "Shared imagery invites comparison, but does not locate this vessel’s manufacture."
+      },
+      {
+        "text": "The vessel and workshop share the same broad cultural label.",
+        "supported": false,
+        "feedback": "A regional label can span different places, phases and production arrangements."
+      },
+      {
+        "text": "A documented archaeological context and production analysis that match the particular vessel.",
+        "supported": true,
+        "feedback": "Object-specific contextual and production evidence could test that attribution. Neither selected Met vessel currently has that demonstrated workshop link in this inquiry."
+      },
+      {
+        "text": "A modern line joins the panels in our teaching guide.",
+        "supported": false,
+        "feedback": "The line organizes a comparison. It is not excavated evidence or a historical route."
+      }
+    ]
+  }
+}

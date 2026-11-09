@@ -1,0 +1,44 @@
+{
+  "subject": "moche",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "met-316721",
+      "caption": "A modeled serpent wraps around a stirrup-spout bottle. The meaning of its imagery remains uncertain.",
+      "notice": [
+        "Where does the animal’s body go?",
+        "Which features seem unlike an ordinary snake?"
+      ],
+      "creator": "Maker not recorded",
+      "place": "Peru; Moche cultural attribution",
+      "material": "Ceramic",
+      "relevance": "Distinguish material technique, imagery and uncertain interpretation.",
+      "additionalImages": []
+    },
+    {
+      "id": "met-307474",
+      "caption": "A seated figure becomes part of a vessel, dated 200–500 CE.",
+      "notice": ["How are figure and container combined?"],
+      "creator": "Moche artist(s)",
+      "place": "Peru; Moche cultural attribution",
+      "material": "Ceramic",
+      "relevance": "Modeled human representation and specialized ceramic work.",
+      "additionalImages": []
+    },
+    {
+      "id": "moche-evidence-guide",
+      "caption": "A vessel permits close observation of form and surface. Excavated tools, debris and working spaces can support different claims about making. Bernier distinguishes a partly excavated fineware workshop from a utilitarian production area identified through surface evidence. These categories are not the known find context of either selected Met vessel; the drawing copies no source plan or ancient motif.",
+      "notice": [
+        "What can you observe on an object’s surface?",
+        "What additional evidence could locate its production?"
+      ],
+      "creator": "Chronos / Codex; independently drawn teaching symbols",
+      "place": "Modern comparison guide; no ancient workshop or vessel route located",
+      "material": "Original SVG teaching diagram",
+      "representedDate": "Separate Moche object and excavated production histories within the first millennium CE; no universal sequence or common findspot supplied",
+      "relevance": "Separates image interpretation from archaeological evidence for production, without inventing a firing recipe, workshop plan or quota.",
+      "additionalImages": [],
+      "printWidthMm": 145
+    }
+  ]
+}

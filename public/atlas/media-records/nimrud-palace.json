@@ -1,0 +1,49 @@
+{
+  "subject": "nimrud-palace",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "met-322614",
+      "caption": "A protective figure from Ashurnasirpal II’s palace, c.883–859 BCE. Its museum setting differs from its original room.",
+      "notice": [
+        "What suggests protection or authority?",
+        "How does stone change the scale of a message?"
+      ],
+      "creator": "Maker not recorded",
+      "place": "Nimrud, Northwest Palace",
+      "material": "Gypsum alabaster",
+      "relevance": "Royal representation, skilled labor and reconstructed display.",
+      "additionalImages": []
+    },
+    {
+      "id": "institution-evidence-guide",
+      "caption": "A royal inscription can establish a claim; an administrative letter can establish an instruction. Further evidence is needed to show an outcome. These modern icons are not copies or translations of ancient documents, and the arrows connect questions rather than historical events.",
+      "notice": [
+        "Find the claim, the order and the question.",
+        "What evidence would show that supplies were actually received?"
+      ],
+      "creator": "Chronos / Codex; independently drawn teaching symbols",
+      "place": "Modern teaching guide; no ancient workshop or record reconstructed",
+      "material": "Original SVG diagram",
+      "representedDate": "A ninth-century BCE royal inscription and a letter assigned to the reign of Tiglath-pileser III (744–727 BCE). The letter has no exact date.",
+      "relevance": "Provides legible modern symbols for an evidence question, with source images and their different rights retained separately.",
+      "additionalImages": [],
+      "printWidthMm": 145
+    },
+    {
+      "id": "nimrud-palace-plan",
+      "caption": "Composite excavated plan of the Northwest Palace complex. The project account identifies throne room B, anteroom F and central courtyard Y. A north arrow points toward the upper edge; the bar marks a scale to 50 m. “Sargon prism” at the top and “Adadnerari III Palace” at the bottom label later features. This is not a single 883–859 BCE snapshot. Small original room labels need zoom; this text supplies the principal reading.",
+      "notice": [
+        "Locate B, F and Y using the caption.",
+        "Which labels warn that the drawing includes later features?"
+      ],
+      "creator": "BSAI/BISI; individual drafter not named in the linked caption",
+      "place": "Kalhu / Nimrud, northern Iraq; excavated palace complex",
+      "material": "Modern archaeological plan, supplied JPEG converted losslessly to WebP",
+      "representedDate": "Northwest Palace complex and later features, ninth–seventh centuries BCE; not one 883–859 BCE snapshot",
+      "relevance": "Pairs the royal relief with a phase-qualified source plan and readable architectural explanation.",
+      "additionalImages": [],
+      "printWidthMm": 80
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "subject": "lapita",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "lapita-stamp-guide",
+      "caption": "Small repeated actions can build a larger pattern. This hypothetical tool and band explain toothed stamping before firing; they do not reconstruct a recovered ancient tool, a particular vessel, the cast’s pattern or a motif’s meaning.",
+      "notice": [
+        "Find the tool, one impression and the repeated impressions.",
+        "Explain how changing spacing or direction could change your own paper pattern."
+      ],
+      "creator": "Chronos / Codex; source-based editorial diagram",
+      "place": "Modern teaching guide; no measured ancient site or workshop reconstructed",
+      "material": "Original SVG diagram",
+      "representedDate": "A modern demonstration of repeated toothed stamping described in the museum essay; not a particular ancient tool, vessel or authentic motif.",
+      "relevance": "Explains a source-based operation with independently arranged symbols, without asserting measured geometry, quantities or a recovered individual action.",
+      "additionalImages": [],
+      "printWidthMm": 145
+    },
+    {
+      "id": "met-314215-cast",
+      "caption": "Mid-twentieth-century plaster cast of a pot sherd. Its visible circles, bands and angular forms support observation of a reproduced pattern. The record does not provide the original sherd’s precise date or excavated findspot. Converted to WebP at the original image bounds, without cropping, enhancement or upscaling.",
+      "notice": [
+        "Find repeated small marks and larger shapes on the reproduced surface.",
+        "Separate what the photograph shows from what the original sherd’s context would need to establish."
+      ],
+      "creator": "Cast maker not recorded in the consulted catalogue",
+      "place": "Catalogue geography: Solomon Islands, Santa Cruz Islands, Temotu province; not a verified excavation locus for the original sherd.",
+      "material": "Plaster reproduction; not ancient clay",
+      "representedDate": "Modern reproduction of patterned pottery; the catalogue does not supply the original sherd’s precise production date or excavated findspot.",
+      "relevance": "Lets a reader inspect a reproduced pattern while keeping the modern cast, unknown ancient object context and source-based making explanation distinct.",
+      "datingNote": "Catalogue date is mid-20th century for the plaster cast. No exact numeric cast date or original sherd date is supplied.",
+      "additionalImages": [],
+      "printWidthMm": 100
+    }
+  ]
+}

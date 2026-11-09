@@ -1,0 +1,20 @@
+{
+  "subject": "hattusha-change",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "hattusha-evidence-diagram",
+      "caption": "Modern evidence guide. The capital frame, dated proxy and historical explanation are different records; no annual rainfall values or direct causal link are supplied.",
+      "notice": [
+        "Identify which labels describe recovered material and which describe an interpretation.",
+        "Read the source limitations before connecting the panels."
+      ],
+      "creator": "Chronos / Codex; source-based editorial diagram",
+      "place": "Modern conceptual schematic; no surveyed plan or route",
+      "material": "Original SVG diagram",
+      "representedDate": "Capital orientation c1650–1180 BCE; Gordion drought episode around 1198–1196 BCE ±3 years.",
+      "relevance": "Distinguishes material evidence, analytical inference and unresolved historical questions without an invented ancient scene.",
+      "printWidthMm": 145
+    }
+  ]
+}

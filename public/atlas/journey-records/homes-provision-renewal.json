@@ -1,0 +1,39 @@
+{
+  "journey": "homes-provision-renewal",
+  "revision": "995029ce3a6871e1d450d5932dcebe91340f2d5332430d55e25dd0b44694d032",
+  "stops": [
+    {
+      "index": 0,
+      "narrative": "Begin with the relationship between grain, food preparation and people doing work. Keep Giza’s excavated workplaces, the translated crew record and the selected Saqqara chapel wall distinct. A recurring task requires more than a finished monument."
+    },
+    {
+      "index": 1,
+      "narrative": "Follow the guide from space through subdivision to fill and renewal. The project describes woven stone-filled bags and changing rooms; it does not supply every builder’s choices or one sequence for all buildings. Compare the material tasks before inferring the same institution."
+    },
+    {
+      "index": 2,
+      "narrative": "Imagine bringing fuel from the entrance toward the hearth in the independently drawn feature guide. Then read how House 1 changed during modern rebuilding. Physical features support practical questions while their present arrangement also has a history."
+    }
+  ],
+  "conclusion": "Preparing food, renewing buildings and maintaining domestic space depended on people, materials and organization. The evidence here makes particular relationships visible without identifying every worker or establishing a common government across these places.",
+  "evidence": {
+    "prompt": "How could we investigate the recurring work that kept these places usable?",
+    "options": [
+      {
+        "text": "Match a practical task to its specific record, then test the interpretation with further evidence.",
+        "supported": true,
+        "feedback": "A workplace, construction fill and a described house each support different questions. Their limits help choose a further source rather than erase the work they reveal."
+      },
+      {
+        "text": "Treat similar work as proof that one institution governed all three places.",
+        "supported": false,
+        "feedback": "Recurring tasks can be compared across distinct settings. Similarity does not establish shared government, contact or identical labor arrangements."
+      },
+      {
+        "text": "Read a modern guide as the exact arrangement experienced by every ancient resident.",
+        "supported": false,
+        "feedback": "The guides are modern and schematic. House phases, later alterations and different records require their own dates and explanations."
+      }
+    ]
+  }
+}

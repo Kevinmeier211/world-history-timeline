@@ -1,0 +1,802 @@
+import { addSourceConsultation } from './content-helpers';
+import type {
+  Corpus,
+  RegionalOrientation,
+  Region,
+  Section,
+} from '../../src/atlas/model';
+const ref = (source: string, locator: string) => ({ source, locator });
+const s = (
+  title: string,
+  text: string,
+  ...citations: Section['citations']
+): Section => ({ title, text, citations });
+const snap = (year: number, text: string, ...citations: Section['citations']) => ({
+  year,
+  text,
+  citations,
+});
+function reading(
+  n: number,
+  region: Region,
+  title: string,
+  question: string,
+  sections: Section[],
+  scope: string,
+  perspectives: string,
+  contextIds: string[],
+  subjectIds: string[],
+  prompt: string,
+  response: string,
+  dates: ReturnType<typeof snap>[],
+): RegionalOrientation {
+  const id = `C8-R${n}`;
+  return {
+    id,
+    chapter: 'C8',
+    region,
+    title,
+    question,
+    summary: sections[0]!,
+    sections: sections.slice(1),
+    scope,
+    perspectives,
+    contextIds,
+    subjectIds,
+    activity: { prompt, response },
+    snapshots: dates.map((date) => ({ orientation: id, region, ...date })),
+  };
+}
+export const c8Orientations = [
+  reading(
+    1,
+    'Americas',
+    'Freedom, schooling and political participation',
+    'What changes when people win a declaration, a court case or an election?',
+    [
+      s(
+        'Saint-Domingue and Haiti',
+        'In Saint-Domingue, people who had been enslaved fought to shape the meaning of emancipation. The French abolition decree of 1794 and Haitian independence in 1804 answered different questions: one concerned slavery, the other sovereignty. Neither date alone tells us how people could earn a living or exercise power afterward.',
+        ref('haiti-abolition-1794', 'Convention debate and decree'),
+        ref('haiti', 'Revolution and independence'),
+      ),
+      s(
+        'Who could enter a classroom?',
+        'In California, Mexican American families challenged segregation by local school districts. In Texas, Heman Sweatt challenged exclusion from a public law school. The courts addressed different institutions and questions. Reading the decisions side by side reveals how families and individuals tested public commitments in particular places.',
+        ref('orientation-mendez', 'Orange County family action and Ninth Circuit'),
+        ref('orientation-sweatt', 'Opinion: application and educational opportunity'),
+      ),
+      s(
+        'Political participation has a history beyond a single vote',
+        'Mexico’s presidential election in 2000 brought an opposition candidate to office. The education ministry’s account distinguishes that transfer from the disagreements that followed. A change in office is something we can date; proving that it improved every citizen’s political voice would require further evidence.',
+        ref(
+          'orientation-mexico',
+          'Alternancia en el poder: election and subsequent disagreements',
+        ),
+      ),
+      s(
+        'A document can show one moment of work',
+        'The linked Hine and Ojibwe readings ask who made a record and who supplied its interpretation. A reform photograph and later community knowledge can reveal tasks and relationships, but neither gives the unnamed subject’s complete testimony. The date of a photograph does not date the beginning of a practice.',
+        ref('hine', 'Photograph LC-DIG-nclc-01451 and caption card no. 358'),
+        ref('rice-goodberry', 'Attributed harvesting and processing knowledge'),
+        ref('rice-glifwc', 'Harvest and stewardship account'),
+      ),
+    ],
+    'Selected Caribbean, United States and Mexican settings. The legal examples are historical and differ in jurisdiction; no ruling or election is treated as continent-wide change.',
+    'Formerly enslaved people, families bringing cases and voters appear as actors. Courts and governments record decisions more directly than the daily experience of everyone affected.',
+    ['haiti-emancipation-authority-context', 'ojibwe-rice-rights-care-context'],
+    ['haitian-revolution', 'hine-labor', 'ojibwe-manoomin'],
+    'Choose one victory in this reading. What did it change directly, and what would you need to know about its effects?',
+    'Name the decision, year and jurisdiction. Then identify a different source—for example school enrolment, household testimony or later records—that could test implementation.',
+    [
+      snap(
+        1800,
+        'In 1800, Saint-Domingue was still in the revolutionary struggle. The 1794 abolition decree preceded this moment; Haitian independence in 1804 had not yet been declared. Legal status, military control and the work of plantation communities cannot be reduced to a single date.',
+        ref('haiti-abolition-1794', '4 February 1794 decree'),
+        ref('haiti', '1802 expedition and 1804 independence'),
+      ),
+      snap(
+        1900,
+        'Around 1900, the 1896 Plessy decision remained a legal reference for enforced racial separation in the United States. Brown’s rejection of separate public schooling came in 1954. The intervening history must not be presented as though desegregation was already secured in 1900.',
+        ref('orientation-brown', 'Historical introduction and opinion on Plessy'),
+      ),
+      snap(
+        1947,
+        'In 1947 the Ninth Circuit upheld the ruling won by Mexican American families challenging segregation in Orange County schools. Mendez was a federal appeals decision, not the later US Supreme Court ruling in Brown and not a ruling integrating every school in the Americas.',
+        ref('orientation-mendez', 'Federal court and 1947 appeal'),
+      ),
+      snap(
+        1950,
+        'In June 1950, the US Supreme Court ruled that Texas must admit Heman Sweatt to the University of Texas law school. It considered educational opportunities that could not be reduced to building size or a count of books. Brown’s broader public-school ruling was still four years away.',
+        ref('orientation-sweatt', 'Decision, reasoning and conclusion'),
+        ref('orientation-brown', '17 May 1954 decision'),
+      ),
+      snap(
+        2000,
+        'Mexico’s 2000 presidential election brought Vicente Fox, an opposition candidate, to office. This change after decades of rule by the dominant party is a specific political event. It does not establish that access to power or public services became equal for every citizen.',
+        ref('orientation-mexico', 'Election of Vicente Fox and limits of change'),
+      ),
+    ],
+  ),
+  reading(
+    2,
+    'Africa',
+    'Asante and Benin courts, Gold Coast organizing and South African rights',
+    'What can an object, a political organization and a constitution each tell us about power?',
+    [
+      s(
+        'Skilled production and control',
+        'At Kumasi, artisans made gold objects that expressed Asante court authority; gold also moved through tribute and war. Benin City was the centre of a different court. Britain’s 1897 attack and the later sale of looted works altered where objects could be seen and who could tell their histories.',
+        ref('orientation-asante', 'Gold, tribute, artisans and court regulation'),
+        ref('orientation-benin-raid', 'Attack, looting and subsequent sales'),
+      ),
+      s(
+        'Independence took organizing',
+        'The United Gold Coast Convention formed in 1947. Nkrumah broke with it in 1949 and the Convention People’s Party launched its Positive Action campaign in 1950. An independence stamp of 1957 announced a later change, but the political work that preceded it included disagreement, strikes and repression.',
+        ref(
+          'ghana-country-study',
+          'Table A; Historical Setting: UGCC and Positive Action',
+        ),
+        ref('ghana-stamp-image', '1957 overprint'),
+      ),
+      s(
+        'South Africa: voting and the limits of a promise',
+        'The South African transition distinguished voting in 1994, constitutional signing in 1996 and commencement in 1997. The resulting text named rights and institutions; it did not measure whether every household could use those rights. A later national symbol similarly expresses an aspiration rather than proving an outcome.',
+        ref('sa-transition', '1994, 1996, 1997 and 2000 milestones'),
+        ref('sa-rights', 'Chapter 2: selected rights and enforcement'),
+      ),
+    ],
+    'Asante/Gold Coast, Benin City and South Africa are distinct settings. The history of a particular museum acquisition is not the provenance of every Benin object.',
+    'Court makers, organizers and voters broaden a story often told through rulers. Museum and government records still privilege particular institutions; a public emblem is not everyone’s testimony.',
+    ['ghana-independence-context', 'south-africa-democracy-context'],
+    ['ghana-independence', 'south-africa-rights', 'benin-ivory'],
+    'How would you label a court object now in a museum if you know the general history of looting but not this object’s chain of custody?',
+    'Give its supported production context, distinguish the documented attack from this object’s specific provenance, and say exactly which ownership steps remain unknown.',
+    [
+      snap(
+        1800,
+        'Around 1800, Asante court production and gold exchange centred on institutions at Kumasi. The museum’s eighteenth–nineteenth-century weights and ornaments support this setting, without fixing their manufacture to 1800. These objects precede both the later Gold Coast colony and independent Ghana.',
+        ref(
+          'orientation-asante',
+          'Court regulation and eighteenth–nineteenth-century object dates',
+        ),
+        ref('ghana-country-study', 'Table A:1874 colony and 1957 independence'),
+      ),
+      snap(
+        1900,
+        'In 1900, British control was contested in Asante. In a separate setting, National Museums Scotland records purchases from a dealer during 1897–1903 following the British looting of Benin City. The two timelines concern different societies; the documented sales do not identify every object’s route.',
+        ref('ghana-country-study', 'Historical Setting:1900 Asante resistance'),
+        ref('orientation-benin-raid', '1897–1903 museum acquisitions'),
+      ),
+      snap(
+        1947,
+        'In the Gold Coast in 1947, the United Gold Coast Convention formed. This was organization under colonial government, before the 1948 crisis, the later CPP split and 1957 independence. It supplies a specific African political setting without backdating the independence stamp.',
+        ref('ghana-country-study', 'Table A:1947–1957; Historical Setting'),
+      ),
+      snap(
+        1950,
+        'In early 1950 the CPP’s Positive Action campaign called for strikes and resistance in the Gold Coast; leaders were imprisoned. The 1951 election and independence in 1957 came later. Political organizing did not mean that colonial executive power had already ended.',
+        ref(
+          'ghana-country-study',
+          'Historical Setting: Positive Action and 1951 election',
+        ),
+      ),
+      snap(
+        2000,
+        'In April 2000 South Africa introduced a new coat of arms, after its first democratic election and the commencement of its final constitution. A new emblem marks a change in how the state presented itself; it cannot establish that unequal conditions had ended.',
+        ref(
+          'sa-transition',
+          '2000: coat of arms on Freedom Day; constitutional milestones',
+        ),
+      ),
+    ],
+  ),
+  reading(
+    3,
+    'Europe',
+    'Factory work, postwar recovery and institutions shared across borders',
+    'How can a proposal, an enacted rule and its effects have different dates?',
+    [
+      s(
+        'A mill needed rules and people to enforce them',
+        'British cotton mills used apprentice labour around 1800. The 1802 legislation addressed apprentices; the 1833 Factory Act and its inspection system belong to a later stage. Surviving reports let us ask whether owners complied and what inspectors could actually see.',
+        ref('orientation-early-factories', 'Apprentices in 1800 and 1802 Act'),
+        ref('factory-act-1833-primary', 'Act: limits and inspectors'),
+        ref('factory-inspection-1836', 'Inspection report'),
+      ),
+      s(
+        'After war, proposals became institutions in stages',
+        'In 1947 George Marshall proposed American support for European recovery. The US law came in 1948. In 1950 Robert Schuman proposed sharing coal and steel production, especially between France and Germany. Reconstruction and political cooperation were related aims, but the speeches describe proposals, not instantaneous improvements in every home.',
+        ref('orientation-marshall', '1947 speech and 1948 Act'),
+        ref('orientation-schuman', '9 May 1950 declaration and original text'),
+      ),
+      s(
+        'A currency can change before the cash in a pocket',
+        'The euro began in participating countries in 1999 for accounting and electronic payments. Euro notes and coins came in 2002. The distinction matters if a family story says what someone used to pay cash in 2000; a later coin cannot document that transaction.',
+        ref('orientation-euro', 'Introduction and country dates'),
+      ),
+    ],
+    'British industrial, French/German and selected participating European settings. These institutional changes did not encompass every European country or erase the uneven losses and displacement of war.',
+    'Workers and households often appear indirectly in regulations, recovery proposals and monetary records. Their experiences require inspection reports, testimony and local evidence alongside the institutional dates.',
+    ['factory-work-inspection-context', 'war-occupation-persecution-context'],
+    ['factory-reform', 'world-war-one', 'world-war-two'],
+    'A museum label says a family paid cash with euro coins in France in 2000. How would you check it?',
+    'Separate the 1999 currency launch from the 2002 issue of notes and coins. Ask whether the evidence describes accounting, electronic payment or physical cash, and identify the country.',
+    [
+      snap(
+        1800,
+        'In Britain around 1800, apprentices worked in cotton mills before the 1802 apprentice legislation. The 1833 inspection system was still decades away. The later report in the factory dossier cannot be used as an inspector’s observation from 1800.',
+        ref(
+          'orientation-early-factories',
+          'Apprentice employment and 1802 legislation',
+        ),
+        ref('factory-act-1833-primary', 'Inspector provisions'),
+      ),
+      snap(
+        1900,
+        'By 1900 Britain had already extended factory regulation beyond the earlier cotton-mill measures. Parliament’s 1867 extension is one dated step. A rule’s existence does not prove compliance in every workplace, and the earlier 1836 inspection material remains evidence from its own year.',
+        ref('orientation-factory-dates', '1867 Factory Acts (Extension) Act'),
+        ref('factory-inspection-1836', 'Report date and observations'),
+      ),
+      snap(
+        1947,
+        'On 5 June 1947 Marshall proposed a European plan for economic reconstruction with American assistance. Truman sent a related message to Congress in December. The legislation was signed in April 1948; a 1947 snapshot should show the proposal and need for recovery, not benefits already delivered under that Act.',
+        ref(
+          'orientation-marshall',
+          '5 June speech, December message and 3 April 1948 Act',
+        ),
+      ),
+      snap(
+        1950,
+        'On 9 May 1950 Schuman proposed placing French and German coal and steel production under common authority, open to other European participants. This is a dated proposal about resources, industry and war prevention, not evidence that every European state had already joined one organization.',
+        ref(
+          'orientation-schuman',
+          'Opening account and declaration: common High Authority',
+        ),
+      ),
+      snap(
+        2000,
+        'In 2000 the euro existed for accounting and electronic payments in participating countries including France and Germany. National cash was still in use: euro banknotes and coins were introduced on 1 January 2002. Several European countries did not share the same currency timetable.',
+        ref('orientation-euro', 'Introduction; France and Germany entries'),
+      ),
+    ],
+  ),
+  reading(
+    4,
+    'West/Central Asia',
+    'Qajar Iran, republican Türkiye and independent Kazakhstan',
+    'How can a photograph, a parliamentary record and a banknote establish different changes?',
+    [
+      s(
+        'Photographs at the Qajar court',
+        'Qajar rulers governed Iran during the period conventionally dated 1785–1925. Photography arrived in the early 1840s and became one way the court presented itself and documented places. A staged image shows choices about representation; it cannot stand for all Iranian households.',
+        ref(
+          'orientation-qajar',
+          'Exhibition account: period, arrival of cameras and court missions',
+        ),
+      ),
+      s(
+        'The Ottoman imperial and republican settings differ',
+        'After the First World War, an assembly met in Ankara in 1920 and proclaimed a republic in 1923. Parliamentary and electoral records describe formal changes in government. An American president’s 1947 request for assistance to Turkey and Greece reflects another government’s aims, not a survey of what Turkish citizens wanted.',
+        ref('orientation-turkiye', 'New Parliament and Proclamation of the Republic'),
+        ref('orientation-truman', '12 March 1947 message and request'),
+      ),
+      s(
+        'In Central Asia, sovereignty also had practical forms',
+        'Kazakhstan’s independence in 1991 and the introduction of the tenge in 1993 were separate steps. A banknote factory opened in 1995. Currency therefore offers a way to investigate the work of building institutions after Soviet rule, alongside the earlier Soviet space programme in the linked dossier.',
+        ref('orientation-tenge', 'Timeline:1991, 1993 and 1995'),
+        ref('sputnik', 'Mission chronology'),
+      ),
+    ],
+    'A Qajar court, selected Turkish institutions and Kazakhstan provide three local histories; neither an imperial label nor a modern border defines the whole region across two centuries.',
+    'Court photographs, assemblies and a central bank speak from institutional positions. They document acts and objects more readily than regional differences, opposition voices or household purchasing power.',
+    ['sputnik-work-observation-context'],
+    ['sputnik', 'zand-iran', 'ottoman-workshops'],
+    'Which would best date a political declaration, the creation of a currency and a family’s change in buying power?',
+    'Use the declaration for the legal act and currency records for issue dates. Household income, prices and testimony would be needed for buying power; neither a new note nor a declaration alone establishes it.',
+    [
+      snap(
+        1800,
+        'Around 1800 Iran was under Qajar rule, after the earlier Zand setting. The court photography discussed in this reading began only after cameras arrived in the 1840s. A Qajar photograph must not be backdated simply because the dynasty already existed.',
+        ref('orientation-qajar', '1785–1925 frame; cameras in early 1840s'),
+      ),
+      snap(
+        1900,
+        'In 1900 Qajar rule continued in Iran. The Berlin exhibition identifies a court photograph from 1893 and explains how photography helped construct images of rule. It supplies nearby dated evidence, not a picture taken in 1900 or an unfiltered view of all society.',
+        ref('orientation-qajar', '1893 caption and exhibition account'),
+      ),
+      snap(
+        1947,
+        'In March 1947 Truman asked the US Congress for military and economic assistance to Greece and Turkey. Turkey’s republic had been proclaimed in 1923. The message records an American policy request, not money already received by every intended recipient or unanimous Turkish support.',
+        ref('orientation-truman', 'Message to Congress,12 March 1947'),
+        ref('orientation-turkiye', 'Proclamation of the Republic'),
+      ),
+      snap(
+        1950,
+        'Türkiye’s parliamentary election table records a general election on 14 May 1950. That entry establishes a dated electoral process; it does not by itself explain every voter’s choice or the extent of participation in each community. The selected Sputnik launch of 1957 still lay ahead.',
+        ref('orientation-turkiye-election', '1950 general election row'),
+        ref('sputnik', 'Launch chronology'),
+      ),
+      snap(
+        2000,
+        'By 2000 Kazakhstan had declared independence and introduced its own currency. The national bank dates those events to 1991 and 1993 respectively, and its banknote factory to 1995. These steps connect sovereignty with production without equating a change of currency with a guaranteed rise in living standards.',
+        ref(
+          'orientation-tenge',
+          '1991 independence, 1993 circulation and 1995 factory',
+        ),
+      ),
+    ],
+  ),
+  reading(
+    5,
+    'South Asia',
+    'Company rule, Partition and the making of new political maps',
+    'When does changing a boundary also change the choices available to a household?',
+    [
+      s(
+        'Company territory was made through power',
+        'Around 1800 the East India Company held territory under parliamentary oversight. Conquest and alliances expanded its holdings unevenly. In 1858 the British Crown took over the Company’s Indian possessions and armed forces; neither map nor administrative responsibility stayed fixed.',
+        ref('orientation-company', 'Charters, Wellesley and Hastings; 1858 transfer'),
+      ),
+      s(
+        'A new border could divide a home from familiar places',
+        'In 1947 independence and Partition divided Punjab and Bengal. A boundary map and official correspondence describe political decisions; later testimony can reveal uncertainty, displacement and loss that are harder to see on a map. Neither makes one household’s experience universal.',
+        ref('partition', 'Teaching sources and official correspondence'),
+        ref('partition-map', 'Annotated boundary evidence'),
+        ref('partition-oral', 'Personal testimony'),
+      ),
+      s(
+        'New constitutions and internal boundaries came later',
+        'India’s Constitution distinguished provisions effective immediately from general commencement in 1950. In 2000 Jharkhand became a state within India through the reorganization of Bihar. An internal state boundary and the 1947 international partition are different changes, even when both appear as lines on a map.',
+        ref('orientation-india-394', 'Article 394: commencement'),
+        ref(
+          'orientation-jharkhand',
+          'Introduction: Bihar reorganization and 15 November 2000',
+        ),
+      ),
+    ],
+    'Selected British Indian, Punjab/Bengal and post-independence Indian settings. The Indian commencement date is not a constitutional date for Pakistan or every South Asian state; internal reorganization is not another international partition.',
+    'Official maps and laws are strong evidence of formal decisions. Compare them with personal records when asking about displacement, safety, language, work or the ability to return home.',
+    ['partition-transition'],
+    ['partition-1947'],
+    'How would you distinguish a change of sovereign state from a change of state boundary within a country?',
+    'Name the level of government and the legal event first. Then ask whose residence, citizenship or administration changed, using household-level evidence before making claims about lived effects.',
+    [
+      snap(
+        1800,
+        'Around 1800, the East India Company expanded holdings through conquest and alliance under Governor-General Wellesley. This was Company government subject to parliamentary oversight, not yet the Crown takeover of 1858 and not a single uniform control over the whole subcontinent.',
+        ref('orientation-company', '1798–1805 Wellesley; 1858 transfer'),
+      ),
+      snap(
+        1900,
+        'By 1900 the Crown had taken over the East India Company’s Indian possessions and armed forces under the 1858 Act. The earlier Company administration should not be left unchanged on a 1900 map. Nor should the 1947 border be projected backward into this period.',
+        ref('orientation-company', 'Government of India Act 1858'),
+        ref('partition', '1947 boundary and independence'),
+      ),
+      snap(
+        1947,
+        'In August 1947 British India was partitioned as India and Pakistan became independent. Punjab and Bengal were divided. The decisions were dated; people’s journeys, losses and efforts to find relatives extended beyond the month in which sovereignty changed.',
+        ref('partition', 'Independence and Partition background; selected telegrams'),
+        ref('partition-oral', 'Personal accounts'),
+      ),
+      snap(
+        1950,
+        '26 January 1950 was the general commencement date of India’s Constitution. Article 394 expressly distinguishes provisions that came into force at once. Independence in 1947 and constitutional commencement in 1950 belong to separate moments, not a shared date for all South Asian governments.',
+        ref('orientation-india-394', 'Article 394 text and debate note'),
+      ),
+      snap(
+        2000,
+        'On 15 November 2000 Jharkhand became a state within India, formed from districts of Bihar. This was an internal reorganization rather than independence from India. The official formation date establishes the boundary change, not its effects on every resident.',
+        ref('orientation-jharkhand', 'Introduction: formation of the state'),
+      ),
+    ],
+  ),
+  reading(
+    6,
+    'East Asia',
+    'From imperial and industrial settings to constitutions, war and talks',
+    'Which records tell us that an institution changed, and which describe its effects?',
+    [
+      s(
+        'China and Japan were not on one timetable',
+        'The Qing court governed China across both the 1800 and 1900 snapshots. In Japan, Tomioka’s silk mill belonged to a nineteenth-century industrial project. Imported technology had to be adapted and workers had to learn new tasks; calling it modernization does not explain how work felt to each person.',
+        ref('orientation-qing', 'Emperors: Qing period convention'),
+        ref('tomioka', 'Brief synthesis: opening and integrated production'),
+      ),
+      s(
+        'Postwar Japan: commencement required further work',
+        'Japan’s new constitution came into force in May 1947. Other laws were revised and a new Diet convened. A constitutional date matters, but it is not the same thing as the completion of every change in public institutions or family life.',
+        ref(
+          'orientation-japan-constitution',
+          'Enactment and first session of the Diet',
+        ),
+      ),
+      s(
+        'Korea: a resolution and a declaration answer different questions',
+        'The UN Security Council’s June 1950 resolution called for hostilities to cease and for North Korean forces to withdraw. Fifty years later, leaders met in Pyongyang and issued a joint declaration. A record of a demand or an agreement establishes what was asked or agreed, not that fighting instantly ended or political division vanished.',
+        ref('orientation-korea-resolution', 'S/RES/82: action date and withdrawal'),
+        ref('orientation-korea-summit', 'South–North Joint Declaration, June 2000'),
+      ),
+    ],
+    'Chinese imperial, Japanese industrial and constitutional, and Korean conflict/diplomatic settings. These national and international records do not describe a single East Asian political trajectory.',
+    'Workers, families and those affected by war are unevenly visible in collections made by governments and international institutions. A leader’s statement does not establish every resident’s view.',
+    ['tomioka-skill-work-context'],
+    ['tomioka', 'world-war-two'],
+    'Which source could prove that leaders agreed to talks, and what would you need before claiming that families were reunited?',
+    'Use the declaration for the commitment. Look for separately dated implementation records and family accounts before describing actual reunions or their reach.',
+    [
+      snap(
+        1800,
+        'Around 1800 in China the Qing dynasty was in power. The National Library of Australia’s account places this in the longer 1644–1911 period. The selected Japanese mill at Tomioka is a later nineteenth-century setting; its machinery cannot be used to show industry in 1800.',
+        ref('orientation-qing', 'Qing dynasty chronology'),
+        ref('tomioka', 'Nineteenth-century opening'),
+      ),
+      snap(
+        1900,
+        'Around 1900 Qing rule still continued in China, while Japan’s Tomioka mill had already opened in 1872. The two dates compare an imperial framework with an institution for silk production. The opening date does not establish which employee, machine or workplace rule applied in 1900.',
+        ref('orientation-qing', '1644–1911 convention'),
+        ref('tomioka', '1872 opening and technical setting'),
+      ),
+      snap(
+        1947,
+        'Japan’s Constitution took effect on 3 May 1947, following April elections and before the first Diet session under it later in May. The National Diet Library lists further legal changes needed for the new institutions. Commencement therefore has a precise date without implying instantaneous implementation.',
+        ref(
+          'orientation-japan-constitution',
+          'Enactment and first session: April–May 1947',
+        ),
+      ),
+      snap(
+        1950,
+        'On 25 June 1950 the UN Security Council adopted resolution 82 in response to the armed attack on the Republic of Korea, calling for a halt to hostilities and withdrawal of North Korean forces. This records an institutional response to war, not a ceasefire already carried out.',
+        ref(
+          'orientation-korea-resolution',
+          'Action note 25 June 1950; resolution title and operative demands',
+        ),
+      ),
+      snap(
+        2000,
+        'In June 2000 the leaders of North and South Korea met in Pyongyang. Their joint declaration included commitments concerning separated families and cooperation. A summit and a written commitment are verifiable; the declaration alone does not prove reunification or that every family gained contact.',
+        ref(
+          'orientation-korea-summit',
+          'Opening and clauses 3–4 of the joint declaration',
+        ),
+      ),
+    ],
+  ),
+  reading(
+    7,
+    'Southeast Asia/Oceania',
+    'Aotearoa, Western Samoa and Indonesia: different paths through colonial rule',
+    'Why do contact, signing, recognition and independence need separate dates?',
+    [
+      s(
+        'Aotearoa before and after 1840',
+        'Sealers and whalers arriving from the 1790s brought new maritime encounters to Māori communities before Te Tiriti was signed. In 1840 rangatira considered promises and signed or declined in particular circumstances. The several texts and later Crown actions must be distinguished from an assumption of universal agreement.',
+        ref('orientation-nz-contact', 'Sealers and whalers:1791–2 and early trade'),
+        ref('tiriti-tepapa-texts', 'Treaty texts and translation'),
+        ref('treaty-signing', 'Signing and circulation'),
+      ),
+      s(
+        'Indonesia: proclamation did not end the war',
+        'The 1945 proclamation in Jakarta was followed by fighting and negotiations. Dutch military operations in 1947, the 1949 transfer to a federal state and the 1950 unitary change are separate events. They did not settle every territorial dispute or define one common civilian experience.',
+        ref('indonesia-proclamation-archive', 'Proclamation'),
+        ref('indonesia-war', 'July 1947 and 1950 timeline entries'),
+        ref('indonesia-transfer', 'December 1949 settlement'),
+      ),
+      s(
+        'Western Samoa had its own political movement',
+        'Western Samoa passed from German to New Zealand administration. The Mau opposed colonial rule; New Zealand Parliament’s account describes the violent repression of a 1929 protest. The 1961 legislation and independence effective on 1 January 1962 belong to a different chronology from both Indonesia and Aotearoa.',
+        ref(
+          'orientation-samoa',
+          'Administration, Mau, Western Samoa Act and commencement',
+        ),
+      ),
+    ],
+    'Three selected settings. Western Samoa’s dates do not apply to American Samoa; Indonesian sovereignty and later East Timorese self-determination are separate processes. No general Pacific independence date is inferred.',
+    'Treaty texts, colonial military accounts and legislatures document institutional acts. Rangatira, Samoan organizers and Indonesian civilians had distinct experiences that official records only partly preserve.',
+    ['indonesia-revolution-context', 'tiriti-agreement-assertion-enforcement'],
+    ['indonesia-independence', 'tiriti'],
+    'Make a label for the 1950 Indonesian change and another for Western Samoa in 1962. Why should they use different verbs?',
+    'In 1950 Indonesia replaced a federal arrangement with a unitary state following earlier proclamation and transfer. Western Samoa became independent in 1962. Name the prior status and authority each act changed.',
+    [
+      snap(
+        1800,
+        'Around 1800 sealers and whalers were reaching Aotearoa waters; the ministry dates early arrivals to 1791–2 and describes links with the Australian port at Sydney. Te Tiriti’s 1840 signing was still in the future. Maritime contact is not a declaration of sovereignty.',
+        ref('orientation-nz-contact', 'Early arrivals and port links'),
+        ref('treaty-signing', '1840 signing'),
+      ),
+      snap(
+        1900,
+        'By 1900 women in New Zealand had obtained the parliamentary vote under the 1893 Electoral Act, after petition campaigns. That change concerned voting rights; it did not resolve disagreements over Māori authority or mean that every political office became open at the same moment.',
+        ref('orientation-nz-vote', '1893 law and petitions'),
+        ref('tiriti-te-raki-2022', 'Subsequent Crown actions and authority'),
+      ),
+      snap(
+        1947,
+        'The Dutch launched a major military operation in Indonesia in July 1947, nearly two years after the independence proclamation. The 1949 federal settlement and 1950 unitary state were still in the future. A proclamation, control of territory and international recognition are different historical claims.',
+        ref('indonesia-war', '21 July 1947 operation'),
+        ref('indonesia-transfer', 'December 1949 transfer'),
+      ),
+      snap(
+        1950,
+        'In 1950 Indonesia ended the federal structure created by the 1949 settlement and became a unitary state. Western Samoa remained under New Zealand administration; its independence would take effect in 1962. The two settings cannot share one decolonization date.',
+        ref('indonesia-war', '1950 end of federal structure'),
+        ref('orientation-samoa', 'Postwar administration and 1962 independence'),
+      ),
+      snap(
+        2000,
+        'In 2000 East Timor was under the UN transitional administration established in 1999, following the popular consultation. Independent Timor-Leste dates to May 2002. The 2000 transition was neither the Indonesian revolution of 1945–50 nor independence already achieved.',
+        ref(
+          'orientation-timor',
+          'UNTAET:1999–2002, February 2000 and independence in May 2002',
+        ),
+      ),
+    ],
+  ),
+];
+
+type SourceInput = [
+  string,
+  string,
+  string,
+  string,
+  string,
+  Corpus['sources'][number]['type'],
+];
+const sourceInputs: SourceInput[] = [
+  [
+    'mendez',
+    'Mendez v. Westminster: How a Young Girl’s Courage Transformed Schools',
+    'United States Courts',
+    'https://www.uscourts.gov/data-news/judiciary-news/2024/09/26/mendez-v-westminster-how-a-young-girls-courage-transformed-schools',
+    'Institutional account of the Orange County families, local school districts and 1947 Ninth Circuit decision. Not the original pleadings, a US Supreme Court ruling or a claim of immediate nationwide desegregation.',
+    'scholarship',
+  ],
+  [
+    'sweatt',
+    'Sweatt v. Painter, 339 U.S.629 (1950)',
+    'U.S. Supreme Court opinion; Legal Information Institute, Cornell Law School',
+    'https://www.law.cornell.edu/supremecourt/text/339/629',
+    'Date, application, comparison of educational opportunities and holding in the published opinion. Distinguishes one Texas law school case from Brown; no current-law interpretation.',
+    'primary',
+  ],
+  [
+    'brown',
+    'Brown v. Board of Education (1954)',
+    'U.S. National Archives',
+    'https://www.archives.gov/milestone-documents/brown-v-board-of-education',
+    'Historical introduction and selected 1954 opinion text on Plessy, public education, the ruling and subsequent 1955 implementation decision. No assumption of immediate desegregation.',
+    'primary',
+  ],
+  [
+    'mexico',
+    'Alternancia en el poder',
+    'Secretaría de Educación Pública, Nueva Escuela Mexicana Digital',
+    'https://nuevaescuelamexicana.sep.gob.mx/contenido/coleccion/alternancia-en-el-poder/',
+    'Spanish-language instructional account of the 2000 presidential transfer to Vicente Fox and subsequent political disagreements. No claims of universal equal competition, complete democratic transition or later election percentages adopted.',
+    'scholarship',
+  ],
+  [
+    'asante',
+    'Gold in Asante Courtly Arts',
+    'The Metropolitan Museum of Art',
+    'https://www.metmuseum.org/ja/essays/gold-in-asante-courtly-arts',
+    'English essay at this URL: Kumasi, tribute, court artisans, weights and selected eighteenth–nineteenth-century catalogue ranges. No exact 1800 object manufacture or literal adoption of a royal origin tradition.',
+    'scholarship',
+  ],
+  [
+    'benin-raid',
+    'The British raid on Benin 1897',
+    'National Museums Scotland',
+    'https://www.nms.ac.uk/discover-catalogue/the-british-raid-on-benin-1897',
+    'Institutional provenance account, including attack and subsequent 1897–1903 dealer purchases. No assertion that a separately catalogued saltcellar was looted or that every object has a documented chain.',
+    'catalogue',
+  ],
+  [
+    'early-factories',
+    'Early factory legislation',
+    'UK Parliament',
+    'https://www.parliament.uk/about/living-heritage/transformingsociety/livinglearning/19thcentury/overview/earlyfactorylegislation/',
+    'Selected apprentice employment around 1800 and the 1802 Act; no workforce estimates, universal coverage or measured compliance adopted.',
+    'scholarship',
+  ],
+  [
+    'factory-dates',
+    'Key dates: the changing basis of social welfare',
+    'UK Parliament',
+    'https://www.parliament.uk/about/living-heritage/transformingsociety/livinglearning/19thcentury/keydates/',
+    'Selected dated factory legislation entries, especially 1867 extension; not a complete legislative history or evidence of enforcement at a particular workplace.',
+    'scholarship',
+  ],
+  [
+    'marshall',
+    'Marshall Plan (1948)',
+    'U.S. National Archives',
+    'https://www.archives.gov/milestone-documents/marshall-plan',
+    'Introduction, citation and selected speech/legislative chronology. June 1947 proposal and December message distinguished from the April 1948 Act. No aid totals or universal recovery effects adopted.',
+    'primary',
+  ],
+  [
+    'schuman',
+    'Schuman Declaration May 1950',
+    'European Union',
+    'https://european-union.europa.eu/principles-countries-history/history-eu/1945-59/schuman-declaration-may-1950_en',
+    'Dated introduction and selected declaration text: proposed common High Authority and Franco-German coal/steel pooling. Proposal not equated to membership or accomplished outcomes.',
+    'primary',
+  ],
+  [
+    'euro',
+    'Our money: introduction of the euro',
+    'European Central Bank',
+    'https://www.ecb.europa.eu/euro/intro/html/index.en.html',
+    'Opening historical chronology and country entries: launch for accounting/electronic payments in 1999, cash in 2002. France/Germany checked; no current membership total or financial advice.',
+    'primary',
+  ],
+  [
+    'qajar',
+    'Iran. Moving into Modernity',
+    'Staatliche Museen zu Berlin, exhibition with the National Archives of Iran',
+    'https://www.smb.museum/en/exhibitions/detail/iran-moving-into-modernity/',
+    'Exhibition description and 1893 caption: Qajar frame 1785–1925, cameras in early 1840s and official image-making. No pixels reproduced or claim of complete popular representation.',
+    'catalogue',
+  ],
+  [
+    'turkiye',
+    'History of the Grand National Assembly of Türkiye',
+    'Grand National Assembly of Türkiye',
+    'https://tbmm.gov.tr/history',
+    'Selected New Parliament and Proclamation of the Republic paragraphs:1920 assembly and 29 October 1923 proclamation. Institutional account, not all population perspectives or current constitutional advice.',
+    'primary',
+  ],
+  [
+    'turkiye-election',
+    'Türkiye Cumhuriyeti Milletvekili Genel Seçimleri',
+    'Grand National Assembly of Türkiye',
+    'https://www5.tbmm.gov.tr/develop/owa/secim_sorgu.genel_secimler',
+    '1950 general-election row and date column in Turkish. No vote shares, party-result reconstruction or universal access inferred.',
+    'primary',
+  ],
+  [
+    'truman',
+    'Truman Doctrine (1947)',
+    'U.S. National Archives',
+    'https://www.archives.gov/milestone-documents/truman-doctrine',
+    'Date, introduction and selected concluding request in Truman’s message to Congress about Greece and Turkey. Partisan US framing is not attributed to Turkish citizens; request is distinct from disbursement.',
+    'primary',
+  ],
+  [
+    'tenge',
+    'History of the national currency',
+    'National Bank of Kazakhstan',
+    'https://nationalbank.kz/en/page/currency-history',
+    'Historical timeline:16 December 1991 independence law,15 November 1993 introduction of tenge,19 May 1995 banknote factory. No exchange rate, present-day claim or household welfare conclusion.',
+    'primary',
+  ],
+  [
+    'company',
+    'East India Company and Raj 1785–1858',
+    'UK Parliament',
+    'https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/parliament-and-empire/parliament-and-the-american-colonies-before-1765/east-india-company-and-raj-1785-1858/',
+    'Charters, Wellesley/Hastings and Government of India Act 1858 transfer paragraphs. Changing holdings, not uniform direct administration across the subcontinent. British institutional perspective.',
+    'scholarship',
+  ],
+  [
+    'india-394',
+    'Article 394: Commencement',
+    'Constitution of India archive, Centre for Law and Policy Research',
+    'https://www.constitutionofindia.net/articles/394-commencement/',
+    'Historical 1950 Article 394 text and selected debate summary. Explicit exceptions retained alongside 26 January 1950 general commencement. No current-law interpretation.',
+    'primary',
+  ],
+  [
+    'jharkhand',
+    'Introduction: Jharkhand',
+    'Lok Bhavan Jharkhand, Government of India',
+    'https://lokbhavanjharkhand.nic.in/introduction/',
+    'Opening institutional history: formation from Bihar on 15 November 2000. No claim about outcomes for residents or present-day state data.',
+    'primary',
+  ],
+  [
+    'qing',
+    'Emperors: the Qing dynasty',
+    'National Library of Australia',
+    'https://www.library.gov.au/learn/digital-classroom/celestial-empire/emperors',
+    'Teaching collection opening and period chronology 1644–1911. A conventional dynastic frame; no exact abdication date, uniform border or political conditions inferred from it.',
+    'scholarship',
+  ],
+  [
+    'japan-constitution',
+    'Part 5: Enactment of the Constitution of Japan',
+    'National Diet Library, Japan',
+    'https://www.ndl.go.jp/constitution/e/outline/05outline.html',
+    'Enactment and first Diet section: April elections,3 May 1947 commencement, May session and related laws. No universal implementation or social outcome assumed.',
+    'primary',
+  ],
+  [
+    'korea-resolution',
+    'Security Council resolution 82 (1950), S/RES/82',
+    'United Nations Security Council, UN Digital Library',
+    'https://digitallibrary.un.org/record/112025',
+    'Record title/action note 25 June 1950 and UN Mandate Registry operative paragraphs: cessation and withdrawal. The 1965 collected edition is not the adoption date; demand is not evidence of compliance.',
+    'primary',
+  ],
+  [
+    'korea-summit',
+    'South–North Joint Declaration,15 June 2000',
+    'Republic of Korea Unification Ministry, summit preparatory team',
+    'https://english.mofe.go.kr/pc/selectTbPressCenterDtl.do?boardCd=N0001&seq=1693',
+    'Opening and selected clauses of the reproduced declaration, especially separated families and cooperation. Attributed commitments distinguished from outcomes and later government commentary.',
+    'primary',
+  ],
+  [
+    'nz-contact',
+    'Sealers and whalers',
+    'Manatū Taonga – Ministry for Culture and Heritage, New Zealand',
+    'https://nzhistory.govt.nz/culture/pre-1840-contact/sealers-and-whalers',
+    'Opening pre-1840 account:1791–2 arrivals and Australian port links. No population totals, uniform Māori response or sovereignty transfer inferred.',
+    'scholarship',
+  ],
+  [
+    'nz-vote',
+    'New Zealand women and the vote',
+    'Manatū Taonga – Ministry for Culture and Heritage, New Zealand',
+    'https://nzhistory.govt.nz/politics/womens-suffrage',
+    'Opening 1893 Electoral Act and petition chronology. Parliamentary voting rights distinguished from officeholding and other political rights.',
+    'scholarship',
+  ],
+  [
+    'samoa',
+    'Celebrating 60 years of independence for Western Samoa',
+    'New Zealand Parliament',
+    'https://www3.parliament.nz/en/get-involved/features/celebrating-60-years-of-independence-for-western-samoa/',
+    'Colonial administration, Mau resistance, 1929 repression, 1961 Act and 1 January 1962 commencement. New Zealand institutional account, not complete Samoan testimony or the history of American Samoa.',
+    'primary',
+  ],
+  [
+    'timor',
+    'Timeline of UN Missions in Timor-Leste',
+    'United Nations Integrated Mission in Timor-Leste',
+    'https://unmit.unmissions.org/en/timeline-of-un-missions-in-timor-leste',
+    'Indexed UN mission chronology:1999 popular consultation and UNTAET,February 2000 command transfer and 20 May 2002 independence. Direct mission page could not be reopened; bounded indexed entries used, not full mission files, vote totals or all civilian perspectives.',
+    'primary',
+  ],
+];
+export function applyC8Orientations(corpus: Corpus) {
+  corpus.sources.push(
+    ...sourceInputs.map(([id, title, institution, url, scope, type]) => ({
+      id: `orientation-${id}`,
+      title,
+      institution,
+      url,
+      scope,
+      type,
+      accessed: '2026-11-04',
+    })),
+  );
+  for (const [id, scope] of [
+    [
+      'ghana-country-study',
+      'Table A, printed xv–xvi, and selected Historical Setting paragraphs on 1900 Asante resistance, 1947 UGCC and 1950 Positive Action rechecked against preserved PDF text. No fresh whole-volume review.',
+    ],
+    [
+      'sa-transition',
+      'Government milestone entry for the 27 April 2000 coat of arms reconsulted. The symbol is not evidence that equality had been achieved.',
+    ],
+    [
+      'haiti',
+      'Selected revolution and independence chronology reconsulted for 1794, 1802 and 1804; conflicting local 1793 proclamation timing not used to change the separately consulted abolition source.',
+    ],
+    [
+      'indonesia-war',
+      'Selected Dutch timeline entries 21 July 1947 and 1950 end of federal structure reconsulted. Military/administrative record not a full civilian history.',
+    ],
+  ] as const) {
+    addSourceConsultation(
+      corpus,
+      id,
+      '2026-11-04',
+      `Additional consultation 4 November: ${scope}`,
+    );
+  }
+  (corpus.orientations ??= []).push(...structuredClone(c8Orientations));
+}

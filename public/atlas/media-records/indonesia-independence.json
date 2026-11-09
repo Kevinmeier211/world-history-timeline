@@ -1,0 +1,20 @@
+{
+  "subject": "indonesia-independence",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "indonesia-proclamation",
+      "caption": "A brief declaration with two signatures. Its text announces independence and addresses the transfer of power. This typed version and the handwritten ANRI draft are different forms of the same proclamation.",
+      "notice": [
+        "Find the signatures and the dated line.",
+        "Distinguish the proclamation’s words from evidence of control over territory.",
+        "This small facsimile has limited resolution; use the evidence paraphrase and archival reference for reading."
+      ],
+      "creator": "Proclamation signed by Sukarno and Mohammad Hatta; digital facsimile via Wikimedia Commons",
+      "place": "Jakarta, Indonesia",
+      "material": "Typed text and signatures, reproduced as a digital image",
+      "relevance": "An actual proclamation makes the difference between a political declaration and subsequent implementation visible.",
+      "printWidthMm": 100
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+import type { Media } from '../../src/atlas/model';
+import { interval } from './content-helpers';
+const diagram = (
+  id: string,
+  subject: string,
+  source: string,
+  title: string,
+  alt: string,
+  caption: string,
+  representedDate: string,
+): Media => ({
+  id,
+  subject,
+  source,
+  title,
+  alt,
+  caption,
+  representedDate,
+  accession: 'Chronos original teaching diagram, C2, 28 October 2026',
+  creator: 'Chronos / Codex; source-based editorial diagram',
+  date: interval(
+    2026,
+    2026,
+    'Teaching diagram made 28 October 2026',
+    'Modern explanatory diagram. Represented ancient dates belong to the cited records, not the creation of this graphic.',
+    'exact',
+  ),
+  place: 'Modern conceptual schematic; no surveyed plan or route',
+  material: 'Original SVG diagram',
+  image: `/atlas/media/${id}.svg`,
+  thumbnail: `/atlas/media/${id}-thumb.webp`,
+  width: 600,
+  height: 780,
+  printWidthMm: 145,
+  notice: [
+    'Identify which labels describe recovered material and which describe an interpretation.',
+    'Read the source limitations before connecting the panels.',
+  ],
+  rights: 'CC BY 4.0; original artwork, no source figure reproduced.',
+  licenseUrl: 'https://creativecommons.org/licenses/by/4.0/',
+  credit: 'Chronos / Codex, 2026. Original schematic; sources in dossier.',
+  sourceImage: `/atlas/media/${id}.svg`,
+  depiction: 'explanatory diagram',
+  relevance:
+    'Distinguishes material evidence, analytical inference and unresolved historical questions without an invented ancient scene.',
+});
+export const bronzeInstitutionsMedia: Media[] = [
+  diagram(
+    'hattusha-evidence-diagram',
+    'hattusha-change',
+    'hittite-drought',
+    'Hattusha: keep the clocks apart',
+    'Three separate panels show the broad capital frame, Gordion timbers with a drought episode around 1198–1196 BCE plus or minus three years, and the political question. No measured climate series or automatic causal arrow is drawn.',
+    'Modern evidence guide. The capital frame, dated proxy and historical explanation are different records; no annual rainfall values or direct causal link are supplied.',
+    'Capital orientation c1650–1180 BCE; Gordion drought episode around 1198–1196 BCE ±3 years.',
+  ),
+  diagram(
+    'uluburun-evidence-diagram',
+    'uluburun',
+    'uluburun',
+    'Uluburun: association, origin and itinerary',
+    'Solid panels identify the wreck off Kaş and recovered cargo/hull material. A dashed panel marks contested source assignments. A final panel leaves itinerary, ownership and crew identity unresolved. No route is drawn.',
+    'Solid panels concern the wreck and recovered association. Dashed: contested origin inference. The final panel asks unresolved questions; this is not a sailing map or stowage plan.',
+    'Wreck c1320 BCE ±15 years; origin studies are modern research.',
+  ),
+  diagram(
+    'shang-practices-diagram',
+    'shang-ritual',
+    'shang-zhou',
+    'Shang: making and recording',
+    'Two labelled activities separate model, mold sections and core for a hollow casting from a divination topic, crack interpretation and possible recorded outcome. No ancient signs, certain symbolic meanings or specimen translation are invented.',
+    'A modern practice guide, not a mold reconstruction or translation of the selected bone. Casting steps follow the Met essay; divination categories follow the cited Smithsonian teaching passage.',
+    'Shang frame c1600–1046 BCE; individual objects and late capital have separate dates.',
+  ),
+  {
+    id: 'met-44781',
+    title: 'Wine pouring vessel (Gong)',
+    subject: 'shang-ritual',
+    source: 'met-44781',
+    accession: '43.25.4',
+    creator: 'Maker not recorded',
+    date: interval(
+      -1300,
+      -1001,
+      '13th–11th century BCE; attributed to the Shang period',
+      'Numeric bounds are a century search envelope, not a production date in every included year. The museum separately assigns the vessel to the Shang period.',
+      'range',
+    ),
+    place:
+      'China, Henan Province, possibly Anyang; no secure excavated findspot supplied',
+    material: 'Bronze',
+    image: '/atlas/media/44781-0.webp',
+    thumbnail: '/atlas/media/44781-thumb.webp',
+    width: 1200,
+    height: 900,
+    alt: 'Green-brown bronze pouring vessel with a raised spout, bird-shaped handle, an owl-like body and dense coiling animal designs.',
+    caption:
+      'A bronze gong with a pouring spout, handle and worked animal forms. The Met gives Henan Province, possibly Anyang. Its cultural attribution does not establish an excavated tomb or named owner.',
+    printCaption:
+      'Bronze gong, 13th–11th century BCE. Possibly Anyang; no documented tomb or owner asserted.',
+    notice: [
+      'Find the spout and handle before interpreting the decoration.',
+      'Separate a visible animal form from a claim about its ancient meaning.',
+      'Read the qualified place attribution.',
+    ],
+    rights: 'Public domain; The Met Open Access (CC0)',
+    licenseUrl: 'https://creativecommons.org/publicdomain/zero/1.0/',
+    credit:
+      'The Metropolitan Museum of Art. Rogers Fund, 1943. 43.25.4. WebP conversion only; no cropping or alteration.',
+    sourceImage:
+      'https://collectionapi.metmuseum.org/api/collection/v1/iiif/44781/146946/main-image',
+    depiction: 'object photograph',
+    relevance:
+      'Connects skilled manufacture and ritual use with a specific object while retaining uncertain provenance.',
+  },
+];

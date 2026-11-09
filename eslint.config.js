@@ -18,6 +18,9 @@ export default tseslint.config(
     ignores: [
       'dist/**',
       'dist-print/**',
+      // Generated evidence and portable copies include bundled vendor code.
+      // Authoring sources remain in src/ and scripts/ and are still checked.
+      'output/**',
       'media-cache/**',
       'node_modules/**',
       'test-results/**',

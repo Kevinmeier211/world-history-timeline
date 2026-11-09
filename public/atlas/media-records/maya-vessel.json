@@ -1,0 +1,66 @@
+{
+  "subject": "maya-vessel",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "met-316711",
+      "caption": "A seventh–eighth-century Maya vessel. Its ownership text does not identify the ruler’s polity. Three modern numbered notes point to surviving features on the unchanged photograph; their observations remain separate from interpretation.",
+      "notice": [
+        "Where do text and image overlap?",
+        "What claims need a decipherment rather than visual observation?"
+      ],
+      "creator": "Maker not recorded",
+      "place": "Mesoamerica; Tabasco association proposed",
+      "material": "Ceramic, stucco",
+      "relevance": "Food, ownership, rank and uncertain regional attribution.",
+      "additionalImages": [],
+      "annotations": {
+        "createdOn": "2026-10-29",
+        "credit": "Chronos / Codex, 2026.",
+        "rights": "Modern annotations: CC BY 4.0. The underlying photograph has separate credit and rights.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "items": [
+          {
+            "id": "incised-blocks",
+            "label": "Inscribed forms",
+            "x": 0.274,
+            "y": 0.407,
+            "text": "Block-like forms sit beside the figure. The ownership reading comes from the museum’s decipherment; a visible sign is not itself a translated word.",
+            "citations": [
+              {
+                "source": "met-316711",
+                "locator": "Description ownership/text-image paragraphs; existing main photograph, left side"
+              }
+            ]
+          },
+          {
+            "id": "figure-and-text",
+            "label": "Figure and text meet",
+            "x": 0.35,
+            "y": 0.569,
+            "text": "The figure’s outlined arm meets the group of signs. The museum interprets an overlap between image and text; the photograph alone does not identify the owner’s polity.",
+            "citations": [
+              {
+                "source": "met-316711",
+                "locator": "Description text-image discussion and polity paragraph; existing main photograph"
+              }
+            ]
+          },
+          {
+            "id": "rim-traces",
+            "label": "Colour near the rim",
+            "x": 0.458,
+            "y": 0.169,
+            "text": "Pale and bluish traces remain near the upper rim. The catalogue proposes a painted-stucco finish; this observation adds no new pigment analysis or restoration.",
+            "citations": [
+              {
+                "source": "met-316711",
+                "locator": "Description final-ornamentation paragraph; existing main photograph, upper band"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

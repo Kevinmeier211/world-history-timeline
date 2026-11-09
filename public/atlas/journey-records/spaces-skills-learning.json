@@ -1,0 +1,39 @@
+{
+  "journey": "spaces-skills-learning",
+  "revision": "5eb7483b2b02006e54ce416196ab3914a73b9a5203b3921acc76c9f3912fdbc7",
+  "stops": [
+    {
+      "index": 0,
+      "narrative": "Trace the conceptual errand, then compare it with the tomb musician. A functional guide and a funerary image answer different questions."
+    },
+    {
+      "index": 1,
+      "narrative": "Distinguish visible decoration, production tasks and evidence needed to identify a workshop. Court locations and political control changed."
+    },
+    {
+      "index": 2,
+      "narrative": "Read the named Nalanda passages. Separate the seventh-century account, an institutional frame and the modern photograph."
+    }
+  ],
+  "conclusion": "Institutions work through particular arrangements: gates, resources, skilled workers, support and teaching. Their stated rules, pictured activities and actual practice need different evidence.",
+  "evidence": {
+    "prompt": "What evidence would best test whether residents could actually make the errand shown in the Chang’an diagram after a ward gate closed?",
+    "options": [
+      {
+        "text": "The diagram shows a straight street.",
+        "supported": false,
+        "feedback": "A street’s shape does not establish permission or actual movement after closing."
+      },
+      {
+        "text": "Dated rules about gates together with records or archaeological evidence of actual access.",
+        "supported": true,
+        "feedback": "The claim concerns a particular time and practice. Rules establish intended arrangements; further evidence tests how access worked."
+      },
+      {
+        "text": "The tomb figure has detailed clothing.",
+        "supported": false,
+        "feedback": "The figure is evidence of funerary representation. It does not establish a route through a closed gate."
+      }
+    ]
+  }
+}

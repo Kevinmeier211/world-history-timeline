@@ -1,0 +1,44 @@
+{
+  "journey": "makers-supplies-royal-claims",
+  "revision": "9c09ed4875390c9074885f02e6c3d3cca6c99502ba3b97a17661c7209b3d5f4f",
+  "stops": [
+    {
+      "index": 0,
+      "narrative": "Inspect the beaker and the original modern guide. Explain shaping, polishing and controlled firing, then distinguish the Kerma capital from this vessel’s recorded Abydos grave. A findspot alone does not identify its potter, owner’s origin or route."
+    },
+    {
+      "index": 1,
+      "narrative": "Use the separate relief, composite source plan and royal inscription to ask how a palace represented power. Then read the much later archive letter about provisions for captives. Its editorial date is around 732 BCE, not the 883–859 BCE relief interval; an instruction does not prove fulfilment."
+    },
+    {
+      "index": 2,
+      "narrative": "Read the granite shabti within the selected reign, then compare Kawa’s workforce claims and the separately dated Sanam workshop. A matching faience mould and uninscribed fragment support making; they do not identify where the granite figure was manufactured."
+    }
+  ],
+  "conclusion": "Institutions could gather resources, organise skilled work and claim authority over people. Excavated objects and spaces, royal inscriptions and administrative orders reveal different parts of those practices. Explain a concrete task first, then ask whose account survives and what would establish its result.",
+  "evidence": {
+    "prompt": "How could you investigate whether an official provision order was carried out?",
+    "options": [
+      {
+        "text": "Count protective figures on an earlier palace wall as proof that every captive received food.",
+        "feedback": "Protective imagery explains a represented environment; it is not a record of provisions received.",
+        "supported": false
+      },
+      {
+        "text": "Date every palace letter to the reign shown by the oldest relief.",
+        "feedback": "A long-used building preserves records from different reigns. The later letter retains its own editorial date.",
+        "supported": false
+      },
+      {
+        "text": "Compare the dated order with independent delivery or recipient evidence, if available.",
+        "feedback": "The order establishes what was instructed. Further dated evidence could investigate fulfilment while retaining gaps and the voices represented by each record.",
+        "supported": true
+      },
+      {
+        "text": "Treat the number of storerooms as the quantity delivered to each person.",
+        "feedback": "A plan can explain space and access. It cannot by itself supply an individual delivery record.",
+        "supported": false
+      }
+    ]
+  }
+}

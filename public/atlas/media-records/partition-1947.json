@@ -1,0 +1,32 @@
+{
+  "subject": "partition-1947",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "partition-punjab-map",
+      "caption": "Open the archive image to see the map key. The solid line marks the awarded Punjab boundary. The dashed line marks a Sikh demand extending toward the River Chenab.",
+      "notice": [
+        "On the linked map, find the solid and dashed lines in the key.",
+        "Locate Lahore and Amritsar.",
+        "Ask whose concerns a border line records and whose daily lives it cannot show."
+      ],
+      "creator": "Map held by The National Archives. Reference card by Chronos Atlas.",
+      "place": "Punjab",
+      "material": "Atlas reference card for a printed map held by The National Archives",
+      "relevance": "Preserves a distinction between the boundary award and a competing territorial demand."
+    },
+    {
+      "id": "partition-telegram",
+      "caption": "Read the excerpt in the dossier or open the archive for the telegram. Its heading and numbered paragraphs organize reports from Punjab and Delhi for an official audience.",
+      "notice": [
+        "In the linked telegram or its transcript, identify the sender, recipient and date.",
+        "Notice how places and incidents are numbered.",
+        "Compare the report’s administrative language with a later personal memory."
+      ],
+      "creator": "UK High Commissioner in India to the Secretary of State for Commonwealth Relations. Reference card by Chronos Atlas.",
+      "place": "Sent from New Delhi; reports Punjab and Delhi",
+      "material": "Atlas reference card for a typed telegram held by The National Archives",
+      "relevance": "Time-specific evidence that displacement and attacks continued after the August ceremonies and boundary announcements."
+    }
+  ]
+}

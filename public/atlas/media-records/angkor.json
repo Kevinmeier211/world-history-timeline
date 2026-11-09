@@ -1,0 +1,20 @@
+{
+  "subject": "angkor",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "angkor-aster",
+      "caption": "West Baray is the large dark rectangle left of center. Angkor Thom is the square enclosure to its east, and Angkor Wat the smaller dark square just south. This modern image makes the scale of the surrounding landscape visible; it does not show a single medieval moment.",
+      "notice": [
+        "Find the reservoir before the temple.",
+        "Compare the size of the enclosures with the surrounding fields and settlements.",
+        "Color is processed satellite information: it is not the view a medieval resident saw."
+      ],
+      "creator": "Jesse Allen, NASA Earth Observatory; ASTER science team",
+      "place": "Angkor and the northern shore of Tonle Sap, Cambodia",
+      "material": "ASTER simulated natural-color satellite image",
+      "representedDate": "Surviving landscape incorporating many historical periods",
+      "relevance": "Shows the relative positions and scale of water works, temple enclosures and a wider inhabited landscape."
+    }
+  ]
+}

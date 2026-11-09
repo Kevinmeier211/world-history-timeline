@@ -1,0 +1,55 @@
+{
+  "journey": "voices-power",
+  "revision": "ca234e8f360e0d1af753119b080281ef9d313422765402a0ba1ffa5aeaf43439",
+  "stops": [
+    {
+      "index": 0,
+      "narrative": "Inspect the protective imagery and distinguish the palace from its modern museum arrangement."
+    },
+    {
+      "index": 1,
+      "narrative": "Compare two royal messages without turning a similarity into a claim of copying."
+    },
+    {
+      "index": 2,
+      "narrative": "Look at the handles and painted fountain scene. Separate political rights from participation in everyday work."
+    },
+    {
+      "index": 3,
+      "narrative": "Keep probable findspot, royal identity and funerary purpose distinct."
+    },
+    {
+      "index": 4,
+      "narrative": "Portable imagery suggests circulation; what evidence would locate this particular journey?"
+    },
+    {
+      "index": 5,
+      "narrative": "Compare an announced standard with excavated administrative documents; uniform rules did not guarantee identical practice."
+    },
+    {
+      "index": 6,
+      "narrative": "Compare skilled bronze making and debated purposes with the evidence encountered so far."
+    }
+  ],
+  "conclusion": "Lasting records are selective. A ruler’s announcement, a work scene and a funerary object preserve different voices. Serious comparison keeps audience, material, dates and uncertainty visible.",
+  "evidence": {
+    "prompt": "Which reading best respects the evidence?",
+    "options": [
+      {
+        "text": "A royal declaration tells us what a ruler announced; its effects need additional evidence.",
+        "supported": true,
+        "feedback": "Purpose and reception are different questions. A surviving statement is strong evidence of a message, not proof of universal compliance."
+      },
+      {
+        "text": "Similar images prove that every maker followed the same route.",
+        "supported": false,
+        "feedback": "Similarity alone supplies neither a traveler nor an itinerary. Provenance and dated contexts matter."
+      },
+      {
+        "text": "Political exclusion means people did no public work.",
+        "supported": false,
+        "feedback": "The Agora study distinguishes formal rights from the broader evidence of work and presence."
+      }
+    ]
+  }
+}

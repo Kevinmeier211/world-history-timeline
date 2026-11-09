@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "069c1d4ddb1c95878cfef1977a955619bb5fc813",
+  "sourceIdentityNote": "Commit alone does not identify uncommitted work; pair with a release source manifest.",
+  "corpusSHA256": "cacd0e7d9be7ef13909afe5f9bd511a0ce73b5cc9379648b6d59380fc81d167c",
+  "inventory": {
+    "subjects": 77,
+    "sources": 589,
+    "media": 105,
+    "relations": 2,
+    "packs": 8,
+    "journeys": 33,
+    "glossary": 82,
+    "contexts": 78,
+    "comparisons": 76,
+    "orientations": 56
+  },
+  "expandedDossiers": 77,
+  "placeStudies": 38,
+  "imagelessDossiers": [
+    "banda-1621",
+    "polynesian-voyaging",
+    "factory-reform",
+    "haitian-revolution",
+    "tiriti",
+    "world-war-two",
+    "sputnik"
+  ],
+  "validation": "See dated receipts for checks against an exact source/build; counts are not historical approval."
+}

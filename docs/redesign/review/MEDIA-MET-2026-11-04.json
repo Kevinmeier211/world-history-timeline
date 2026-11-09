@@ -1,0 +1,2537 @@
+{
+  "method": "Current official object API and master JPEGs; per-view full-frame comparison downsampled to 150 × 150 in RGB. Mean absolute differences on a 0–255 scale. Institutional source statements and file identity, not a legal determination.",
+  "records": [
+    {
+      "id": "met-49519",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 1984.397a, b as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Purchase, Dr. and Mrs. John C. Weber Gift, 1984.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: 1st–early 3rd century. Reader label: 1st–early 3rd century. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Green glazed pottery watchtower with tiered roofs, balconies and a walled base.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/49519",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/49519",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-49519.json"
+      ],
+      "objectRecordSHA256": "685af454bc20c15be5a2767de4facaf96fdf62292430da4e8acd50a938461430",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/as/original/DP-46744-001.jpg",
+          "sourceSHA256": "509e4dabf290442e9601ab09e8ef8b8bed8b139b417549f6cac07d4b87d4a111",
+          "sourceSize": [3000, 4000],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/49519-0.webp",
+              "sha256": "92ef3ee2c3754a7237a5d1e0d4f744348f405fffb4b2466eb0e0871bbf2eba64",
+              "dimensions": [1200, 1600],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.523
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/92ef3ee2c3754a7237a5.jpg",
+              "sha256": "668fc2549da74c959f4a47a610d1214463c1578502837a54deefa87081fec535",
+              "dimensions": [1200, 1600],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.543
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/49519-thumb.webp",
+              "sha256": "f42af784a2df9780853b2f2287d59986421e84f4f567ab84a13ae8fbf2c5c652",
+              "dimensions": [360, 480],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 1.559
+            }
+          ]
+        },
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/as/original/DP-46744-002.jpg",
+          "sourceSHA256": "6bf7694eb824668dd132a1347ab6cd2b22ba1b27b226d42ab43497c147d30c98",
+          "sourceSize": [3000, 4000],
+          "derivatives": [
+            {
+              "role": "alternate",
+              "path": "/atlas/media/49519-1.webp",
+              "sha256": "45e87ef36be14189e34192dba0dc626e62ffac36f39f2f8a723a63667f44fabd",
+              "dimensions": [1200, 1600],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.52
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/45e87ef36be14189e341.jpg",
+              "sha256": "4e24a1025b2f65a17d16fe4ade4c5eca06ce8fcc4e43645bfc429543de26104d",
+              "dimensions": [1200, 1600],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.515
+            }
+          ]
+        },
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/as/original/236327.jpg",
+          "sourceSHA256": "80a115ce2f25e1df7cd7b57a7ecae62c59c54f14727405591d43f2a36f5d1bd2",
+          "sourceSize": [466, 700],
+          "derivatives": [
+            {
+              "role": "alternate",
+              "path": "/atlas/media/49519-2.webp",
+              "sha256": "231eb624f07b3ab8f0781b1789efea442d4a2e66cf98a60b6f1f4edd3dadabc6",
+              "dimensions": [466, 700],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.482
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/231eb624f07b3ab8f078.jpg",
+              "sha256": "5a3e77c2b6ca29be10ed145df8cc1de1daf29ab34319315a601a1a1efe7cb1bb",
+              "dimensions": [466, 700],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.492
+            }
+          ]
+        }
+      ],
+      "alternateDescriptions": [
+        "Frontal colour view of the green watchtower, showing the stacked balconies and rooflines.",
+        "Black-and-white side view of the same model. The narrow profile shows how far the roof and balconies project."
+      ]
+    },
+    {
+      "id": "met-317600",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 1995.63.5 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: From the Collection of Nina and Gordon Bunshaft, Bequest of Nina Bunshaft, 1994.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: 200 BCE–200 CE. Reader label: 200 BCE–200 CE. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Small ceramic model of a peaked-roof building on an elevated rectangular platform.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/317600",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/317600",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-317600.json"
+      ],
+      "objectRecordSHA256": "36026da61405cd07df20d3d0eb74ebd320f1406c10ece32ce76cc7cf665c5141",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/ao/original/DP-23904-001.jpg",
+          "sourceSHA256": "381c999fd978c1c3f7db06dcfca458c963f19d2caf96bbd5b79ac3a167e2f263",
+          "sourceSize": [4000, 3663],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/317600-0.webp",
+              "sha256": "f27a6f044e0f31b631b57e7da94f061458c67e2feb0aff8602522a92aa165b96",
+              "dimensions": [1600, 1465],
+              "relativeAspectChange": 0.00014,
+              "meanRGBDifferenceOf255": 0.438
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/f27a6f044e0f31b631b5.jpg",
+              "sha256": "9cb48379bf6d2f30685403a84a84a6b80def203f7866acf152404f9a00697356",
+              "dimensions": [1600, 1465],
+              "relativeAspectChange": 0.00014,
+              "meanRGBDifferenceOf255": 0.452
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/317600-thumb.webp",
+              "sha256": "04006ea201f644fce7f7ac148fca2b7e194908fab58b5c5a629e78d0fe09e2fc",
+              "dimensions": [480, 439],
+              "relativeAspectChange": 0.00128,
+              "meanRGBDifferenceOf255": 1.323
+            }
+          ]
+        },
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/ao/original/vs1995.63.5a.jpg",
+          "sourceSHA256": "303458245356ad362c2a4befe10530e3372bd209ca5ccf4ecc8cd9a13a97ee07",
+          "sourceSize": [1411, 1452],
+          "derivatives": [
+            {
+              "role": "alternate",
+              "path": "/atlas/media/317600-1.webp",
+              "sha256": "a68e801191769eeb44f44691004898ecf69ae755ac59b10893caabb0c3d15258",
+              "dimensions": [1411, 1452],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.363
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/a68e801191769eeb44f4.jpg",
+              "sha256": "ba5dffdaa794972e29ca0e9ac334ed8588c14b4bc9e6d12a002973497400e273",
+              "dimensions": [1411, 1452],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.377
+            }
+          ]
+        }
+      ],
+      "alternateDescriptions": [
+        "Frontal view of the peaked roof and the short stairway ascending the platform between two raised corner features."
+      ]
+    },
+    {
+      "id": "met-52010",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 13.100.11 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: John Stewart Kennedy Fund, 1913.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: 1st–early 3rd century. Reader label: 1st–early 3rd century. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Black-and-white photograph of a cylindrical pottery granary on short feet, with a broad round roof and a small rectangular opening near the base.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/52010",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/52010",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-52010.json"
+      ],
+      "objectRecordSHA256": "ddb1c0993f184bc81b1fb8a18936a9eea2c7f9675ba1e9af41c5347d620c8591",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/as/original/18736.jpg",
+          "sourceSHA256": "26dd7f307bf70fe4e489501a14978f43f1fdd499d724e9ea1dd6131ca14df1ad",
+          "sourceSize": [3180, 4000],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/52010-0.webp",
+              "sha256": "36667b55df88988601e6df6cae76faa1153909f7680aa8ee4f7458c33e72bc93",
+              "dimensions": [1272, 1600],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.248
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/36667b55df88988601e6.jpg",
+              "sha256": "cc871069c2187db7460995c3293dfb22fdd61555e8136c57e8d4d1f9fa5a1fdc",
+              "dimensions": [1272, 1600],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.251
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/52010-thumb.webp",
+              "sha256": "3480b7011d988baaf34bda6c1e7ee6f8aa81982fc41ad30033785f912a9688e2",
+              "dimensions": [382, 480],
+              "relativeAspectChange": 0.00105,
+              "meanRGBDifferenceOf255": 0.861
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-52527",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 27.119.23 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Fletcher Fund, 1927.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: 1st–2nd century CE. Reader label: 1st–2nd century CE. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Black-and-white photograph of a round well-head model with an arched frame rising from the rim and a small fitting at the top.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/52527",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/52527",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-52527.json"
+      ],
+      "objectRecordSHA256": "dfe8fd64ddf49f7ea63667591391ce1cdba4fa7fe467d1520301f64214da499f",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/as/original/67822.jpg",
+          "sourceSHA256": "bb27ad4bb4c1ee12f6f4b5b83f9cd7bd6576450dae1b209ed8ad2147fbc76c88",
+          "sourceSize": [545, 700],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/52527-0.webp",
+              "sha256": "b47384ecd43a63bc69f707178869c3985de5b2c9c3d62582aa128a86727b4182",
+              "dimensions": [545, 700],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.511
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/b47384ecd43a63bc69f7.jpg",
+              "sha256": "3961dac35675233aa3f9d99c94247006e9c03686bdaa84ca15f4c9fe99c248f4",
+              "dimensions": [545, 700],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.516
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/52527-thumb.webp",
+              "sha256": "eb85893a17a6d7d4b2b8c4c9668b7271d52171f7ce339d7f6acbd28406790464",
+              "dimensions": [374, 480],
+              "relativeAspectChange": 0.00076,
+              "meanRGBDifferenceOf255": 1.005
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-251870",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 25.78.90 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Fletcher Fund, 1925.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: ca. 200–210 CE. Reader label: ca. 200–210 CE. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Blue-green, roughly rectangular gem with bevelled edges. The engraved profile of Julia Domna shows rows of waves in her hair.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/251870",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/251870",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-251870.json"
+      ],
+      "objectRecordSHA256": "58157d3e347d914d79beef29e27e166b95d56ce935da3ac97b3524f259832d86",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/gr/original/h1_25.78.90.jpg",
+          "sourceSHA256": "f8cc9eaf22f81d5f9b9554638d0556f77187e9c0359342389a5706b6e76546ce",
+          "sourceSize": [1299, 1695],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/251870-0.webp",
+              "sha256": "36231bab63cf9266031075c3ff166ac5d53bfb9db49be6bd1b7d5872a238ca26",
+              "dimensions": [1226, 1600],
+              "relativeAspectChange": 0.00016,
+              "meanRGBDifferenceOf255": 0.53
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/36231bab63cf92660310.jpg",
+              "sha256": "41f3303e3b2f85bdfbe71cf56c9e5abebeee99cbd3e7b70b92a3e1c726e39d23",
+              "dimensions": [1226, 1600],
+              "relativeAspectChange": 0.00016,
+              "meanRGBDifferenceOf255": 0.649
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/251870-thumb.webp",
+              "sha256": "d4a2326239fb30c8acbf1219b33150cca45eb60173f7b768d96503b37a6f6031",
+              "dimensions": [368, 480],
+              "relativeAspectChange": 0.00038,
+              "meanRGBDifferenceOf255": 1.522
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-547951",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 18.9.2 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Gift of Edward S. Harkness, 1918.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: 100–150 CE. Reader label: 100–150 CE. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Painted portrait of a young person with short dark hair, white tunic and large dark eyes.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/547951",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/547951",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-547951.json"
+      ],
+      "objectRecordSHA256": "8ec3a35e75f3d8c53849cf9f63cba686e4b889688dabea93c81e825a34c7bf8a",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/eg/original/DP-25887-001.jpg",
+          "sourceSHA256": "22f59ea2853d46cc6f7fe1eec2a1cb6b62658e895a91a7c2dd9a82d8310ffda3",
+          "sourceSize": [2198, 4000],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/547951-0.webp",
+              "sha256": "0e1fc0997f0c1a6c8ea19c39d297fb2e10fef9590e7b16ea41d73fbf764f2e10",
+              "dimensions": [879, 1600],
+              "relativeAspectChange": 0.00023,
+              "meanRGBDifferenceOf255": 0.472
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/0e1fc0997f0c1a6c8ea1.jpg",
+              "sha256": "b30d75863d4fd3440d6d7d5c49b4350a472118c8016488201717900ec5261f69",
+              "dimensions": [879, 1600],
+              "relativeAspectChange": 0.00023,
+              "meanRGBDifferenceOf255": 0.511
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/547951-thumb.webp",
+              "sha256": "648ecb4a7dd5502608ec815fba3698e887073447b84079f321e91619cfbc4299",
+              "dimensions": [264, 480],
+              "relativeAspectChange": 0.00091,
+              "meanRGBDifferenceOf255": 1.686
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-256732",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies X.21.190 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Museum Accession.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: 3rd century CE. Reader label: 3rd century CE. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Small molded glass vessel shaped like a cluster of grapes with a narrow neck.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/256732",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/256732",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-256732.json"
+      ],
+      "objectRecordSHA256": "256cb5df40dec515de155db35183da1f3ae097d12b4fff51b36f43e4c789b87b",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/gr/original/DP108406.jpg",
+          "sourceSHA256": "9b20b9daae9c3321cec5b63315fdcdd3813c3344df0e2778a7c34b71f3f8da3a",
+          "sourceSize": [4000, 4000],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/256732-0.webp",
+              "sha256": "d085cf25b5b070ba814b076b6dcb796290789c88c47cca33c3c761ad78650d24",
+              "dimensions": [1600, 1600],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.381
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/d085cf25b5b070ba814b.jpg",
+              "sha256": "93286d9898397762f553e30c768ee68c4748156c13ae3c647920bc8a3d613e0f",
+              "dimensions": [1600, 1600],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.402
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/256732-thumb.webp",
+              "sha256": "752669ecf953316813cb3c39ec622c9d0fcdddd091d96aafbf8fc53120728fbc",
+              "dimensions": [480, 480],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.732
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-322375",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 02.29.1 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Purchase, 1902.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: ca. 2nd–3rd century CE. Reader label: ca. 2nd–3rd century CE. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Limestone relief with a reclining man and three smaller figures beside an inscription.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/322375",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/322375",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-322375.json"
+      ],
+      "objectRecordSHA256": "114a81a427ba93178bf8e546a0c076a8608b094124139a9f6acb692034919970",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/an/original/DP-13078-001.jpg",
+          "sourceSHA256": "76a6655ff96884a60570f3db7923d2647f61537a2d6c899ab5970bb1c2b9b603",
+          "sourceSize": [4000, 3847],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/322375-0.webp",
+              "sha256": "fa7d2940ff251f6e460eaf0367f88eb474e36f0c4ed92350c3ee0455f7c6a1fc",
+              "dimensions": [1600, 1539],
+              "relativeAspectChange": 0.00013,
+              "meanRGBDifferenceOf255": 0.399
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/fa7d2940ff251f6e460e.jpg",
+              "sha256": "0248b216933d4e695d6461ba1b1f0095058d9d5be6a35061c25460d0e81f30af",
+              "dimensions": [1600, 1539],
+              "relativeAspectChange": 0.00013,
+              "meanRGBDifferenceOf255": 0.425
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/322375-thumb.webp",
+              "sha256": "0a1c2b4e4f1fa0f73194ba0eb6a0d0fa6aa766bf7289032b2642685361850198",
+              "dimensions": [480, 461],
+              "relativeAspectChange": 0.00139,
+              "meanRGBDifferenceOf255": 1.55
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-39385",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 99.35.3024 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Bequest of Joseph H. Durkee, 1898.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: ca. 130. Reader label: ca. 130. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Gold coin with a standing figure and surrounding letters. The alternate photograph shows another standing figure beside an animal.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/39385",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/39385",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-39385.json"
+      ],
+      "objectRecordSHA256": "d8804b8a69387823d1c76423dcf6fa4609ec2a76516d00e8e31035d30563a0d0",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/as/original/DP123353.jpg",
+          "sourceSHA256": "5e28b4e3f0affa6aab5478f417feb31077410d26f2cd4245a1bcd654268d7b31",
+          "sourceSize": [3791, 3792],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/39385-0.webp",
+              "sha256": "f50b60ce3465cdadeeaf28512821eb69e1b4a48dee7346b6016e08427b04f7ab",
+              "dimensions": [1600, 1600],
+              "relativeAspectChange": 0.00026,
+              "meanRGBDifferenceOf255": 0.188
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/f50b60ce3465cdadeeaf.jpg",
+              "sha256": "579e9b9da6f4b5fb16375c88f7cc33578d8c4c8795f27075c5c915d63303a671",
+              "dimensions": [1600, 1600],
+              "relativeAspectChange": 0.00026,
+              "meanRGBDifferenceOf255": 0.201
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/39385-thumb.webp",
+              "sha256": "be8c69e803eaa7cd1422de2d93ac2f824c57870b121031b39504a6ed8e26481e",
+              "dimensions": [479, 480],
+              "relativeAspectChange": 0.00182,
+              "meanRGBDifferenceOf255": 0.962
+            }
+          ]
+        },
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/as/original/DP123354.jpg",
+          "sourceSHA256": "8eb24f7038145c4669688be36122663335b5fd27f192e7a31712aed282755ffc",
+          "sourceSize": [3792, 3791],
+          "derivatives": [
+            {
+              "role": "alternate",
+              "path": "/atlas/media/39385-1.webp",
+              "sha256": "0b5533a3db0c5de1fe73af7ed606a959e59c0e0135e61a622152d2fb042192a5",
+              "dimensions": [1600, 1600],
+              "relativeAspectChange": 0.00026,
+              "meanRGBDifferenceOf255": 0.197
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/0b5533a3db0c5de1fe73.jpg",
+              "sha256": "8a37bc8985a8c29662dcab5e59c02b7780c26e5f2fba9e6f9e9351bd165ba73e",
+              "dimensions": [1600, 1600],
+              "relativeAspectChange": 0.00026,
+              "meanRGBDifferenceOf255": 0.203
+            }
+          ]
+        }
+      ],
+      "alternateDescriptions": [
+        "Reverse of the gold coin. A standing figure extends an arm beside an animal, with lettering around the rim."
+      ]
+    },
+    {
+      "id": "met-312736",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 1979.206.527 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: The Michael C. Rockefeller Memorial Collection, Bequest of Nelson A. Rockefeller, 1979.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: 3rd–7th century. Reader label: 3rd–7th century. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Broad carved stone face with narrow eye recesses, a projecting nose and a partly open mouth.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/312736",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/312736",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-312736.json"
+      ],
+      "objectRecordSHA256": "366eb5042dd63da4bc915778e4d24f4ff078b58e232fd7b56716842f54e81874",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/ao/original/DP-16189-020.jpg",
+          "sourceSHA256": "ac042a57c864eadc128c919fe3730ce66d22f239301a546649d9b602eb8c8bfc",
+          "sourceSize": [4000, 3000],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/312736-0.webp",
+              "sha256": "4d3efd731febd8768f11725f799875078a7872735ea9ba79d5d9798f4222f9d7",
+              "dimensions": [1600, 1200],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.5
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/4d3efd731febd8768f11.jpg",
+              "sha256": "47f43d1184058b5ef8e270465ee949c2ef75723d81b3d82f79f4c7fe5abe85cb",
+              "dimensions": [1600, 1200],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.518
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/312736-thumb.webp",
+              "sha256": "cb0ea3a5cff03b784ee78f20f06469a5bec52731f042b07f31f8574fd97aa358",
+              "dimensions": [480, 360],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 1.202
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-316721",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 1992.60.9 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Gift of Conny and Fred Landmann, 1992.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: 2nd–5th century. Reader label: 2nd–5th century. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Rounded Moche ceramic bottle with a raised snake curling around its body and an arched spout.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/316721",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/316721",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-316721.json"
+      ],
+      "objectRecordSHA256": "cefcfd49e15121c8237f71614cba048dd92e65d92157e0ec071db1ab7e80b7fb",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/ao/original/DT5059.jpg",
+          "sourceSHA256": "39141c21a349b2e865609e5374f7019c5bbbc8a2d07e8da3760916a6c372420e",
+          "sourceSize": [1488, 1861],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/316721-0.webp",
+              "sha256": "5b2c32341803b37b07664fe1f3471b727999651520dfd01d35604a1bd3198840",
+              "dimensions": [1279, 1600],
+              "relativeAspectChange": 0.00024,
+              "meanRGBDifferenceOf255": 0.374
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/5b2c32341803b37b0766.jpg",
+              "sha256": "a63d989579e8ab423c5ac6f4364a4ed05fbd5ecdea8d4a4cee1af93bb2ae772f",
+              "dimensions": [1279, 1600],
+              "relativeAspectChange": 0.00024,
+              "meanRGBDifferenceOf255": 0.381
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/316721-thumb.webp",
+              "sha256": "5f7e65dd2d49116a7b3e510ca89382de66ad6d6a0e834b2a8dbe3bd33c39530c",
+              "dimensions": [384, 480],
+              "relativeAspectChange": 0.00054,
+              "meanRGBDifferenceOf255": 1.205
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-307474",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 82.1.30 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Gift of Henry G. Marquand, 1882.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: 200 CE–500 CE. Reader label: 200 CE–500 CE. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Moche ceramic stirrup-spout bottle modeled as a seated human figure.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/307474",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/307474",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-307474.json"
+      ],
+      "objectRecordSHA256": "d3f186eb4bd92cdf94e7ca06aa8d35beab0619f60ac5c6c6a2971d935dd3da50",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/ao/original/DT1266.jpg",
+          "sourceSHA256": "563e47068fa1ae614d843d923439ddf4ffb79ddea6fcf549191e58b68b88ebe0",
+          "sourceSize": [2978, 3722],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/307474-0.webp",
+              "sha256": "997d89f71da14142bf32371145c48bbb6c8ee58b7ce7a1460104cc82a315ef37",
+              "dimensions": [1280, 1600],
+              "relativeAspectChange": 0.00013,
+              "meanRGBDifferenceOf255": 0.399
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/997d89f71da14142bf32.jpg",
+              "sha256": "17aba5bd8be665838adf575a0afb5301753a2016b408c67d00ee088a0a95516d",
+              "dimensions": [1280, 1600],
+              "relativeAspectChange": 0.00013,
+              "meanRGBDifferenceOf255": 0.397
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/307474-thumb.webp",
+              "sha256": "9f37b5e37bb475cc2e6344d79eb62c4a668ada4a828bc6f999557ed866e9ab4e",
+              "dimensions": [384, 480],
+              "relativeAspectChange": 0.00013,
+              "meanRGBDifferenceOf255": 1.237
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-39209",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 2000.284.57 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Samuel Eilenberg Collection, Bequest of Samuel Eilenberg, 1998.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: ca. 500 BCE–300 CE. Reader label: ca. 500 BCE–300 CE. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Small bronze drum with a flared base, decorated surface and four frog figures on top.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/39209",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/39209",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-39209.json"
+      ],
+      "objectRecordSHA256": "b67466fd4aef149faa462357bbeccd582e718f3b0df74abf3c61fcfafcd15745",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/as/original/29G_A28AR5.jpg",
+          "sourceSHA256": "427162502c91819c6cd3aed45b4abf933dbde9cd8743db46f41ff8dc0f938d4a",
+          "sourceSize": [3402, 2560],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/39209-0.webp",
+              "sha256": "c648aab54c7fb9462467126c8023b752e1eb5e61125f31a98461f567fcd3f92e",
+              "dimensions": [1600, 1204],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.463
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/c648aab54c7fb9462467.jpg",
+              "sha256": "9ef68081c3a5ee411140055e7a980bc3b39a1d268bce665a12a34d82cc7cc494",
+              "dimensions": [1600, 1204],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.48
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/39209-thumb.webp",
+              "sha256": "e4a68df7f19415199ff98e4656d19e0a00879ce10ec049a5cbdcfb4b13a6ed82",
+              "dimensions": [480, 361],
+              "relativeAspectChange": 0.00055,
+              "meanRGBDifferenceOf255": 1.418
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-309900",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 1972.63a, b as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Louis V. Bell and Rogers Funds, 1972.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: ca. 1525–1600. Reader label: ca. 1525–1600. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Ivory vessel raised above standing figures. The front figure wears patterned clothing, beads and a cross, and holds a long weapon; other figures appear in partial side views. The upper rim has visible losses.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/309900",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/309900",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-309900.json"
+      ],
+      "objectRecordSHA256": "5768ab5805e7f917c22591fa4f93a5d1f4d7b0c201ba0a07728d319b9adb7951",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/ao/original/DT10918.jpg",
+          "sourceSHA256": "92777cbeb1050ba0aaa4e732b721b3583aa7d63906876b0cd80feced601f169f",
+          "sourceSize": [1464, 1860],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/309900-0.webp",
+              "sha256": "396c4b5fe7168fb6d2057b5d5052e40796a86597ba173b0b6254cd4d138bc7f4",
+              "dimensions": [1259, 1600],
+              "relativeAspectChange": 0.00028,
+              "meanRGBDifferenceOf255": 0.414
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/396c4b5fe7168fb6d205.jpg",
+              "sha256": "5ae3d34a3b77b8deae0f391ddffa129d11a623919e7c2df7ba7ed2b9045b435d",
+              "dimensions": [1259, 1600],
+              "relativeAspectChange": 0.00028,
+              "meanRGBDifferenceOf255": 0.418
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/309900-thumb.webp",
+              "sha256": "aebbeca3ef8cb12733b26d3ea007e97673f960106df4d9b02fdbcd9096a613ad",
+              "dimensions": [378, 480],
+              "relativeAspectChange": 0.00051,
+              "meanRGBDifferenceOf255": 1.227
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-318323",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 1999.295.7 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Gift of Ernst Anspach, 1999.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: 16th–17th century. Reader label: 16th–17th century. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Brass cross with a central Christ figure, small seated figures on both arms, another figure above and a smaller figure below. Incised diagonal lines form a border around the cross.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/318323",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/318323",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-318323.json"
+      ],
+      "objectRecordSHA256": "fddc0ce5548a785044c7a3db1461d27b95e6aa82832b073938d74198b20c9e24",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/ao/original/DP326205.jpg",
+          "sourceSHA256": "54db8508c4ac727108cee5604eb2286ca6a81d7ea18c5d8413256f8030929add",
+          "sourceSize": [2881, 3886],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/318323-0.webp",
+              "sha256": "7b59328bd622c1c174c1a7c7aa99297ca16a93b0ef779b0e8928752a976d0eb6",
+              "dimensions": [1186, 1600],
+              "relativeAspectChange": 0.00017,
+              "meanRGBDifferenceOf255": 0.482
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/7b59328bd622c1c174c1.jpg",
+              "sha256": "0070b469851916aae4abab67b2b53f7a7c7843e2712bffe04a056c3d3517c2c4",
+              "dimensions": [1186, 1600],
+              "relativeAspectChange": 0.00017,
+              "meanRGBDifferenceOf255": 0.488
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/318323-thumb.webp",
+              "sha256": "85134117d367f950f363157c995925523cd2e83d3e7844a2c7b059337d613813",
+              "dimensions": [356, 480],
+              "relativeAspectChange": 0.00039,
+              "meanRGBDifferenceOf255": 1.329
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-448183",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 28.63.1 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Purchase, Edward C. Moore Jr. Gift, 1928.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: ca. 1590–95. Reader label: ca. 1590–95. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Colorful manuscript painting of Krishna lifting a mountain above gathered villagers and animals.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/448183",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/448183",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-448183.json"
+      ],
+      "objectRecordSHA256": "ac197c6591b1c21fc5261e2c0f6cd660d37f4e0bad27f02c78bbf3d8f74b0993",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/is/original/DP231327.jpg",
+          "sourceSHA256": "8e03291e8e6fbf4ada73e0e65e2501b5425d4bd11ac607a14e1b516559989195",
+          "sourceSize": [2818, 3873],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/448183-0.webp",
+              "sha256": "d2a7854f7865d3fb6b0fe073eb47c3200007d33d614f027bc9bb10f8b8c96f79",
+              "dimensions": [1164, 1600],
+              "relativeAspectChange": 0.00014,
+              "meanRGBDifferenceOf255": 0.577
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/d2a7854f7865d3fb6b0f.jpg",
+              "sha256": "6947404d2d6ecc4c940818b869cfdd4057ed4f8f463622326dbffd3237183f9d",
+              "dimensions": [1164, 1600],
+              "relativeAspectChange": 0.00014,
+              "meanRGBDifferenceOf255": 0.602
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/448183-thumb.webp",
+              "sha256": "e911500226b5255ebb94532521d4b8eeed0b2fd44bf9eb979615df9b196a89c3",
+              "dimensions": [349, 480],
+              "relativeAspectChange": 0.00071,
+              "meanRGBDifferenceOf255": 2.406
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-42549",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 17.127.2 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Rogers Fund, 1917.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: mid-16th century. Reader label: mid-16th century. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Large round porcelain jar with orange carp and water plants painted around its surface.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/42549",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/42549",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-42549.json"
+      ],
+      "objectRecordSHA256": "d6b4d859b9e1c0b4cc067d899368acab5b3ceed64cb08e339099bde476e196c9",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/as/original/DP342697.jpg",
+          "sourceSHA256": "bb868c60495d4f9fd74177c3d0e12cfc5113c84b6fa80b072fe2264595fc36e9",
+          "sourceSize": [2911, 3880],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/42549-0.webp",
+              "sha256": "e62f18f14daa2e5665bd2cd6cddc568852e06eb2e471be296da1ad8408d06f4e",
+              "dimensions": [1200, 1600],
+              "relativeAspectChange": 0.00034,
+              "meanRGBDifferenceOf255": 0.477
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/e62f18f14daa2e5665bd.jpg",
+              "sha256": "ed23fe9cec1cf83adc036323194e894e7e166671caf1ab28252be5964bc6a603",
+              "dimensions": [1200, 1600],
+              "relativeAspectChange": 0.00034,
+              "meanRGBDifferenceOf255": 0.486
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/42549-thumb.webp",
+              "sha256": "ffce94cd2b9f74e9ff71cce757013f7a5e1de80ace03e8b54eeafd5787b5cf20",
+              "dimensions": [360, 480],
+              "relativeAspectChange": 0.00034,
+              "meanRGBDifferenceOf255": 1.428
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-9198",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 11.87.36 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Gift of Mrs. Robert W. de Forest, 1911.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: ca. 1680–1700. Reader label: ca. 1680–1700. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Blue and white decorated ceramic jar with a broad body and narrow base.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/9198",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/9198",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-9198.json"
+      ],
+      "objectRecordSHA256": "4b25156a2313e706bb877c32789803bb8e563123b386449f402ef25e3f365f9a",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/ad/original/DP105073.jpg",
+          "sourceSHA256": "c5d123397acb4b3f09b6bc73bca309b00b9abe306d89478343f38112f933386f",
+          "sourceSize": [2048, 2048],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/9198-0.webp",
+              "sha256": "f543877d5677b738edf01cfbda24c2df4cd332786e8003b9e22106702a1caff2",
+              "dimensions": [1600, 1600],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.49
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/f543877d5677b738edf0.jpg",
+              "sha256": "bbeb2aa13aee90a7e9623e3031504b2c283f17bd5499095e2ecea5c9d1d5e5c5",
+              "dimensions": [1600, 1600],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.605
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/9198-thumb.webp",
+              "sha256": "71876569993ecfcd1966ce91827e0a173ed73a218558e68774fdd28dac094c05",
+              "dimensions": [480, 480],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 1.11
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-327384",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 1988.433.2 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Purchase, Raymond and Beverly Sackler Gift, 1988.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: ca. 3100–2900 BCE. Reader label: ca. 3100–2900 BCE. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Small rectangular clay tablet incised with pictographic signs and round numerical impressions.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/327384",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/327384",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-327384.json"
+      ],
+      "objectRecordSHA256": "34f7ff12a5af1cc847c1de006868d61448a6194d34f491015ebd6fcbc99f9049",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/an/original/DP297593.jpg",
+          "sourceSHA256": "f98bec6fec708b7450f646175cd52c9b4dd649915f15a508f4c7bef42dd1c81d",
+          "sourceSize": [3000, 4000],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/327384-0.webp",
+              "sha256": "ad6bc22bb854d4b8915ec24117c9136dcd60d4bde1d0d54b1c9c00bf72b0a8e3",
+              "dimensions": [1200, 1600],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.447
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/ad6bc22bb854d4b8915e.jpg",
+              "sha256": "e4c0834e56e7d0854daf1eefb0977f2c1c1fc21e41fbf496d70c52bd2f9b49e2",
+              "dimensions": [1200, 1600],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.427
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/327384-thumb.webp",
+              "sha256": "b52a500a717b9cb8bb376b279e12541d3186dfa234d2cf0731163aa980aef041",
+              "dimensions": [360, 480],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.935
+            }
+          ]
+        },
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/an/original/DP297601.jpg",
+          "sourceSHA256": "adefecd77e29f8a0044d77e1acdfec54be4fbebe64d04a5a740f7d309bb934d8",
+          "sourceSize": [3000, 4000],
+          "derivatives": [
+            {
+              "role": "alternate",
+              "path": "/atlas/media/327384-1.webp",
+              "sha256": "311ea2ef49ab83dd767637ab61c25b8602cd1eff109c672cfc7b230065889b47",
+              "dimensions": [1200, 1600],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.483
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/311ea2ef49ab83dd7676.jpg",
+              "sha256": "5361747766832d66795db6044c4f04ced45d98653781ac3238f163978f3acbe2",
+              "dimensions": [1200, 1600],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.478
+            }
+          ]
+        }
+      ],
+      "alternateDescriptions": [
+        "Other face of the clay tablet, with groups of wedge-shaped and circular impressions separated by lines."
+      ]
+    },
+    {
+      "id": "met-543914",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 08.201.2a–g as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Rogers Fund, 1908.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: ca. 2465–2389 BCE. Reader label: ca. 2465–2389 BCE. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Painted limestone tomb wall with tall false-door panels and smaller rows of people, offerings and musicians.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/543914",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/543914",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-543914.json"
+      ],
+      "objectRecordSHA256": "417cb285b6f019e12e751ab06ba78ae346a4e8b7b3ad812a60bcb51d6af2bb04",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/eg/original/08.201.2a–g_EGDP015503-EGDP015504.jpg",
+          "sourceSHA256": "30328a7e44f4dc0739bc8df222f234195ba1fb68560cdf184df602776f244cf8",
+          "sourceSize": [2000, 788],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/543914-0.webp",
+              "sha256": "c1efa9fabc438065a101046d61985de440158417a1209b7aa45f18aec198a602",
+              "dimensions": [1600, 630],
+              "relativeAspectChange": 0.00063,
+              "meanRGBDifferenceOf255": 0.733
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/c1efa9fabc438065a101.jpg",
+              "sha256": "b83c8350aff8b6ed58aaecf7d51b796e91e32379666cb20ca8fe855952638bad",
+              "dimensions": [1600, 630],
+              "relativeAspectChange": 0.00063,
+              "meanRGBDifferenceOf255": 0.757
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/543914-thumb.webp",
+              "sha256": "7b3c4bb35ac6af55b56af6d6cf8e7d7c413b92540d6d0951561cf5a836f44971",
+              "dimensions": [480, 189],
+              "relativeAspectChange": 0.00063,
+              "meanRGBDifferenceOf255": 2.189
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-324062",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 49.40.1 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Dodge Fund, 1949.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: ca. 2600–1900 BCE. Reader label: ca. 2600–1900 BCE. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Square Indus seal with a one-horned animal and signs, alongside a modern positive impression.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/324062",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/324062",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-324062.json"
+      ],
+      "objectRecordSHA256": "6cdaaae90c72898bc71b25acdeafc4f26b03d7fe0651c70f0b8ab0477375dfc1",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/an/original/DP23101.jpg",
+          "sourceSHA256": "c107f53b5cd34488ae4be14b866267740873f40ff9b9fd5735397cdc99da4d7a",
+          "sourceSize": [2003, 2001],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/324062-0.webp",
+              "sha256": "d0ba65eb578f7679ebfc8ad29458e30a05de2799620d652b71defaf425084295",
+              "dimensions": [1600, 1598],
+              "relativeAspectChange": 0.00025,
+              "meanRGBDifferenceOf255": 0.449
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/d0ba65eb578f7679ebfc.jpg",
+              "sha256": "a7a594f02b50f452362ff4310c393579ccacd53f14bef695a527500f88e20a47",
+              "dimensions": [1600, 1598],
+              "relativeAspectChange": 0.00025,
+              "meanRGBDifferenceOf255": 0.487
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/324062-thumb.webp",
+              "sha256": "be46e52acdfb370a117a2b6242cba2f1822c6853cb6c9a601db6a67dcbf8fdde",
+              "dimensions": [480, 480],
+              "relativeAspectChange": 0.001,
+              "meanRGBDifferenceOf255": 1.352
+            }
+          ]
+        },
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/an/original/143690.jpg",
+          "sourceSHA256": "d98d10388ca60684ba548dfbb72ede134e3e94b55acca71daa817dc333239397",
+          "sourceSize": [3783, 3606],
+          "derivatives": [
+            {
+              "role": "alternate",
+              "path": "/atlas/media/324062-1.webp",
+              "sha256": "f32cb1e68b5117b84be1b813c99904ac4fb3e8f039f9ba8ba6acc65e4c3f3618",
+              "dimensions": [1600, 1525],
+              "relativeAspectChange": 9e-5,
+              "meanRGBDifferenceOf255": 0.224
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/f32cb1e68b5117b84be1.jpg",
+              "sha256": "5e2afbeaf1f4a12b6bb7fca238c8f40a76dab9636fc7c75357a2a79aea8c3127",
+              "dimensions": [1600, 1525],
+              "relativeAspectChange": 9e-5,
+              "meanRGBDifferenceOf255": 0.229
+            }
+          ]
+        }
+      ],
+      "alternateDescriptions": [
+        "Black-and-white photograph of the back of the seal, showing a raised grip on the square slab."
+      ]
+    },
+    {
+      "id": "met-72376",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 2004.52 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Purchase, Sir Joseph Hotung Gift, 2004.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: ca. 2400 BCE. Reader label: ca. 2400 BCE. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Tall dark jade cong with a square tapered exterior, circular opening and faint carved faces at the corners.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/72376",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/72376",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-72376.json"
+      ],
+      "objectRecordSHA256": "568e3a7eb41a9b0f793342a4e15c99437c9b8633e80eff773d40817a407b0d91",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/as/original/DP161556.jpg",
+          "sourceSHA256": "cbcdb3244de6f14f51bbec438886dc6a6b94c2cfcaee0ffef45feff0d32720e2",
+          "sourceSize": [3001, 4000],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/72376-0.webp",
+              "sha256": "563b0877946d0e1a19571e5bdf23f76d879803e3237402caac000e24055269b9",
+              "dimensions": [1200, 1600],
+              "relativeAspectChange": 0.00033,
+              "meanRGBDifferenceOf255": 0.457
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/563b0877946d0e1a1957.jpg",
+              "sha256": "a80836792b5c938155175510d52445cbc37d6f0c2f51f43d2d9febd85cd9cfff",
+              "dimensions": [1200, 1600],
+              "relativeAspectChange": 0.00033,
+              "meanRGBDifferenceOf255": 0.439
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/72376-thumb.webp",
+              "sha256": "c210d97eb500d741d0eb9ece13dfac7a40f87cae32051934e9880ff0b7906346",
+              "dimensions": [360, 480],
+              "relativeAspectChange": 0.00033,
+              "meanRGBDifferenceOf255": 0.895
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-545772",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 20.2.45 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Rogers Fund, 1920.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: ca. 1802–1640 B.C.. Reader label: c. 1802–1640 BCE. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Thin-walled bell-shaped pottery beaker with a polished red body, black rim and iridescent transition band.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/545772",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/545772",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-545772.json"
+      ],
+      "objectRecordSHA256": "dfdac3d9bf7df560340d29cbe712fb6f4136c677db32f79f5fb5ae333208dc3a",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/eg/original/DP354726.jpg",
+          "sourceSHA256": "f6a0528a9576868cd0925d6a4986139eb99919b8016b4f731cf2d31ad7ed3a29",
+          "sourceSize": [3047, 3855],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/545772-0.webp",
+              "sha256": "73d4d1499a7ff3650061d388ab274d2736d031f516619a63c8daf6ee3e3b1a93",
+              "dimensions": [1265, 1600],
+              "relativeAspectChange": 0.00028,
+              "meanRGBDifferenceOf255": 0.383
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/73d4d1499a7ff3650061.jpg",
+              "sha256": "ec2cb3459e17a79f2428b90e60d928bf331692a64c47c24bbc75f6ecbc83fab1",
+              "dimensions": [1265, 1600],
+              "relativeAspectChange": 0.00028,
+              "meanRGBDifferenceOf255": 0.396
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/545772-thumb.webp",
+              "sha256": "3221f6775d82155d59f69fbd1bc5a919713f9f63e021ad2032714a8e854ffb9f",
+              "dimensions": [379, 480],
+              "relativeAspectChange": 0.00104,
+              "meanRGBDifferenceOf255": 1.244
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-42045",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 67.43.14 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Gift of Paul E. Manheim, 1967.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: . Reader label: Shang period, c. 1600–1046 BCE; no narrower object date supplied. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Long pale fragment of animal bone with small incised Chinese signs across its surface.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/42045",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/42045",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-42045.json"
+      ],
+      "objectRecordSHA256": "74efc7255beeed6cf1400d86c336c5b97a5638a683956e83fa7216ad42f152b9",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/as/original/LC-67_43_14_002.jpg",
+          "sourceSHA256": "c605ae36f53ffdc5c1200e3bf23683aaaa6106a03e1c002ca5ab8f859e0333df",
+          "sourceSize": [2667, 4000],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/42045-0.webp",
+              "sha256": "de404c19a0b43791f84aa0f9c6d1e9bb3fa4f7de3b9ba3abea0aea05ce35761e",
+              "dimensions": [1067, 1600],
+              "relativeAspectChange": 0.00019,
+              "meanRGBDifferenceOf255": 0.499
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/de404c19a0b43791f84a.jpg",
+              "sha256": "f8bb7bf7466384f8a64caf10c32a1be51511d8ce43edd294a7e5bc0f5422cc8e",
+              "dimensions": [1067, 1600],
+              "relativeAspectChange": 0.00019,
+              "meanRGBDifferenceOf255": 0.46
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/42045-thumb.webp",
+              "sha256": "ddb6a9ec174265f0aa87373a526717a6f31098dadad0608cdb7c68391f4b3570",
+              "dimensions": [320, 480],
+              "relativeAspectChange": 0.00012,
+              "meanRGBDifferenceOf255": 0.864
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-314609",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 1983.424 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Rogers Fund, 1983.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: 1200-900 BCE. Reader label: 1200-900 BCE. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Small modeled ceramic female figure with wide eyes, styled hair and ear ornaments.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/314609",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/314609",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-314609.json"
+      ],
+      "objectRecordSHA256": "f2f83c7ac0254a4a7a8dd96945c592c6d6bb61dad8fbb4b6b11dae905ceeef15",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/ao/original/h1_1983.424.jpg",
+          "sourceSHA256": "005d0164003327f042946eba243d713f669ae4f20774c0f6f62a3f3abda22834",
+          "sourceSize": [1026, 2000],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/314609-0.webp",
+              "sha256": "fde0a5f47e1bde074f676da6561d4ab9b49c5bb18dd66b796f5e98ccae2ffa9a",
+              "dimensions": [821, 1600],
+              "relativeAspectChange": 0.00024,
+              "meanRGBDifferenceOf255": 0.623
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/fde0a5f47e1bde074f67.jpg",
+              "sha256": "c4db8983758b40e70083503b396076a27d8b1d29d39448016562ba12cd8d5442",
+              "dimensions": [821, 1600],
+              "relativeAspectChange": 0.00024,
+              "meanRGBDifferenceOf255": 0.683
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/314609-thumb.webp",
+              "sha256": "f7f35e2fd65279a1baff3d50b8a97ac40d6abc2b4d1afc81e7441be3117e14b5",
+              "dimensions": [246, 480],
+              "relativeAspectChange": 0.00097,
+              "meanRGBDifferenceOf255": 1.691
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-322614",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 32.143.7 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Gift of John D. Rockefeller Jr., 1932.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: ca. 883–859 BCE. Reader label: ca. 883–859 BCE. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Carved gypsum panel showing an eagle-headed winged figure in patterned clothing, holding a bucket beneath a band of cuneiform.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/322614",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/322614",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-322614.json"
+      ],
+      "objectRecordSHA256": "cf6db345dba88d3a10068615f6b8deec006503747b0b0ff55a6522bd70e96dc4",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/an/original/DP375422.jpg",
+          "sourceSHA256": "458bd164a1cc97b048dbd74aec5c2f84774b53241fcf998e60f032a0aae017bb",
+          "sourceSize": [2764, 3879],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/322614-0.webp",
+              "sha256": "67f2d58c244759174921e9f4d9c44fb06ec6a032350416d4f18ba542923502a0",
+              "dimensions": [1140, 1600],
+              "relativeAspectChange": 8e-5,
+              "meanRGBDifferenceOf255": 0.433
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/67f2d58c244759174921.jpg",
+              "sha256": "f5b7026e5bcb84338280c1661b7e39f1ba6f232487ba58032518894291bcb6bd",
+              "dimensions": [1140, 1600],
+              "relativeAspectChange": 8e-5,
+              "meanRGBDifferenceOf255": 0.515
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/322614-thumb.webp",
+              "sha256": "a842fba7f5ef513339ae5fe257f7656ff6844879c1bc68caacfcc9a76495ea95",
+              "dimensions": [342, 480],
+              "relativeAspectChange": 8e-5,
+              "meanRGBDifferenceOf255": 1.538
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-247244",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 06.1021.77 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Rogers Fund, 1906.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: ca. 510–500 BCE. Reader label: ca. 510–500 BCE. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Black-figure terracotta water jar showing women with vessels at a fountain house.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/247244",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/247244",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-247244.json"
+      ],
+      "objectRecordSHA256": "396c7478b3c0e3be0171b4297dc46ffb42376dd263505f1e9d9acfaa53640d99",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/gr/original/DP102371.jpg",
+          "sourceSHA256": "8986bb50d3a6cd401ed69d9194d55377d62e6a4963382ea2c564cad9c1db9706",
+          "sourceSize": [2931, 3197],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/247244-0.webp",
+              "sha256": "bf047f88f808659d14629db259ce3a067af883bdfa6b46eefdd57e3221936aa3",
+              "dimensions": [1467, 1600],
+              "relativeAspectChange": 9e-5,
+              "meanRGBDifferenceOf255": 0.389
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/bf047f88f808659d1462.jpg",
+              "sha256": "fdc4a72674f1506691d103b9569b8e449f9afbf3326285e0dd360318c06def92",
+              "dimensions": [1467, 1600],
+              "relativeAspectChange": 9e-5,
+              "meanRGBDifferenceOf255": 0.401
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/247244-thumb.webp",
+              "sha256": "0d872e30e1915f31c007c3f99372193babbf0a6371aaece47f60d17384bb398d",
+              "dimensions": [440, 480],
+              "relativeAspectChange": 0.00014,
+              "meanRGBDifferenceOf255": 1.631
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-544883",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 18.2.10 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Rogers Fund, 1918.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: 690–664 BCE. Reader label: c.690–664 BCE. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Black-and-white photograph of a standing stone funerary figure with a headdress, crossed arms and lines of writing on the lower body.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/544883",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/544883",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-544883.json"
+      ],
+      "objectRecordSHA256": "855d0ace139a001a1581e92a23bf56e636408d8d983eac12d25e2b22474186ce",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/eg/original/267759.jpg",
+          "sourceSHA256": "9702683d39e3a6eed285ebbb1381ad0035f4ff9f51cba98de45af3ff23caadca",
+          "sourceSize": [1176, 1796],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/544883-0.webp",
+              "sha256": "3cfef8c72ddf3ccc5753e748c911cfe5d25710f4e5993cb95ce5c6f667c7bf98",
+              "dimensions": [1048, 1600],
+              "relativeAspectChange": 0.00032,
+              "meanRGBDifferenceOf255": 0.313
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/3cfef8c72ddf3ccc5753.jpg",
+              "sha256": "18dd4fad65805ef0ee66ba939755e952ebcc201573bdadd1f909895ada5241ea",
+              "dimensions": [1048, 1600],
+              "relativeAspectChange": 0.00032,
+              "meanRGBDifferenceOf255": 0.312
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/544883-thumb.webp",
+              "sha256": "7f967a2fdea4ad56651838d5890cbc26cfdd00ec4e23d20d99efc4174f292887",
+              "dimensions": [314, 480],
+              "relativeAspectChange": 0.00095,
+              "meanRGBDifferenceOf255": 0.801
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-315784",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 1987.394.704 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Bequest of Jane Costello Goldberg, from the Collection of Arnold I. Goldberg, 1986.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: 4th–3rd century BCE. Reader label: 4th–3rd century BCE. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Fragmentary pale cotton textile painted with a large fanged figure and curling serpent-like forms.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/315784",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/315784",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-315784.json"
+      ],
+      "objectRecordSHA256": "b0c7b25e379fe6fa6bfd622d901445ab4a397cafc05c06e8662c27f06e33bb30",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/ao/original/DP-26545-001.jpg",
+          "sourceSHA256": "fd4f7cddc8f5a608551d683cc1de5598ff376deb233e630b697f0f06001989f0",
+          "sourceSize": [4000, 2080],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/315784-0.webp",
+              "sha256": "dac6e83f94bf40d4417ed5e433866df6ef3b1c031cfc7f84ca79daa97fa92659",
+              "dimensions": [1600, 832],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.601
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/dac6e83f94bf40d4417e.jpg",
+              "sha256": "e6e7418afcdfdd20a5d9b55d1aabb89a4b5b4106fe973ab0f0b50b99b40ba3f4",
+              "dimensions": [1600, 832],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.598
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/315784-thumb.webp",
+              "sha256": "4193c6bc7e7eafe6c2b05d02e968a7d42a0aa9ab13743622e9c8747482424f13",
+              "dimensions": [480, 250],
+              "relativeAspectChange": 0.0016,
+              "meanRGBDifferenceOf255": 1.913
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-464428",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 17.190.44 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Gift of J. Pierpont Morgan, 1917.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: mid-10th century. Reader label: mid-10th century. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Small carved ivory icon with a central cross, standing figures and an architectural canopy.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/464428",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/464428",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-464428.json"
+      ],
+      "objectRecordSHA256": "37f353fe476d656278438ce8bfe38ae66be2dfdd2a1093100bca73107c0e06b4",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/md/original/DP355179.jpg",
+          "sourceSHA256": "b8598bd16d1de516f27cd8df80c68b4c97b58d0413cc98bb151ebc96ffe89dee",
+          "sourceSize": [2789, 3875],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/464428-0.webp",
+              "sha256": "51297b28476b42c5725e28910b96f685d1ae34b3aa98f81e41d666ba0f348f37",
+              "dimensions": [1152, 1600],
+              "relativeAspectChange": 0.00036,
+              "meanRGBDifferenceOf255": 0.52
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/51297b28476b42c5725e.jpg",
+              "sha256": "80cd87608e247d58ad84bcec2cbbbc27dbd4b7d37d78b652f2bfce5c91064a09",
+              "dimensions": [1152, 1600],
+              "relativeAspectChange": 0.00036,
+              "meanRGBDifferenceOf255": 0.541
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/464428-thumb.webp",
+              "sha256": "2ad239d1919e03496a3886629ae7d3e51e83b8675b4eeca1db4ac02f1fb1b984",
+              "dimensions": [346, 480],
+              "relativeAspectChange": 0.00152,
+              "meanRGBDifferenceOf255": 2.361
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-452833",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 1977.126 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Gift of Edwin Binney 3rd and Purchase, Richard S. Perkins Gift, 1977.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: 10th century. Reader label: 10th century. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Cream-colored shallow bowl painted in metallic brown with a seated figure and two birds.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/452833",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/452833",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-452833.json"
+      ],
+      "objectRecordSHA256": "00913697a2d8d1e365012a5967eb7a114da769bd2bca9e3b083d28e1200410d5",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/is/original/DT4932.jpg",
+          "sourceSHA256": "1f5252ad1799fbd873fc2f2739b4d5bd28da06e08c9a86b33c29d2aad67ef070",
+          "sourceSize": [3268, 3695],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/452833-0.webp",
+              "sha256": "198668bf94dc85ecd49ef404583c9e81093ca727125fa1180b3fd07918ab71ea",
+              "dimensions": [1415, 1600],
+              "relativeAspectChange": 7e-5,
+              "meanRGBDifferenceOf255": 0.408
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/198668bf94dc85ecd49e.jpg",
+              "sha256": "de38eebe7504a9cd3bde1fc3203b3271d6b2a85819590f25df66f35c391542d1",
+              "dimensions": [1415, 1600],
+              "relativeAspectChange": 7e-5,
+              "meanRGBDifferenceOf255": 0.445
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/452833-thumb.webp",
+              "sha256": "3ac8f8a4aa01f3e744efe407fb0c3456ab61ee71168f19520d1254c8c761a6ff",
+              "dimensions": [425, 480],
+              "relativeAspectChange": 0.00111,
+              "meanRGBDifferenceOf255": 1.796
+            }
+          ]
+        },
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/is/original/wb-1977.126.JPG",
+          "sourceSHA256": "bd615a795c123fccf628dcf39e483c57480bf8d34fe62562126ecddf780ec3de",
+          "sourceSize": [1591, 1506],
+          "derivatives": [
+            {
+              "role": "alternate",
+              "path": "/atlas/media/452833-1.webp",
+              "sha256": "7d37a991c5e64d76a12b445a08b8e56a700b10bfaabb1fdc303d6e7ab8ee9970",
+              "dimensions": [1591, 1506],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.552
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/7d37a991c5e64d76a12b.jpg",
+              "sha256": "92ac4361a14531be7258e060e30402507a31dd99ff086d235e174a40a9f49f48",
+              "dimensions": [1591, 1506],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.715
+            }
+          ]
+        }
+      ],
+      "alternateDescriptions": [
+        "A second overhead photograph of the bowl in brighter light, showing the seated figure and curving decoration against the pale glaze."
+      ]
+    },
+    {
+      "id": "met-44800",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 1978.345 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Anonymous Gift, in memory of Louise G. Dillingham, 1978.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: 7th–8th century. Reader label: 7th–8th century. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Standing painted earthenware woman in a long robe with hands held in front of her.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/44800",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/44800",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-44800.json"
+      ],
+      "objectRecordSHA256": "19770b516c1d3422abd55bfdbdc5e7c909d39fb75ec0d44aba6e0f7db8b0570e",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/as/original/DP342515.jpg",
+          "sourceSHA256": "33f8ec3a5426d5a86bd7910dcd8327c1b66999c11df4322a12fcafaa171f0ceb",
+          "sourceSize": [2911, 3880],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/44800-0.webp",
+              "sha256": "90f4098f14b8dea6cdfcd5ba9c2d8b17960bd8e114b9740b55520e2b50d4aecc",
+              "dimensions": [1200, 1600],
+              "relativeAspectChange": 0.00034,
+              "meanRGBDifferenceOf255": 0.384
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/90f4098f14b8dea6cdfc.jpg",
+              "sha256": "9eb62d60a4f3a2ab5f2208b358916543c1dbf2a6e407440f7052b3d92f51af57",
+              "dimensions": [1200, 1600],
+              "relativeAspectChange": 0.00034,
+              "meanRGBDifferenceOf255": 0.37
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/44800-thumb.webp",
+              "sha256": "58df13ad3b2b09f7d62e1af785bc69b9d3e7bca789ded4387a5ab6b24329e355",
+              "dimensions": [360, 480],
+              "relativeAspectChange": 0.00034,
+              "meanRGBDifferenceOf255": 1.119
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-316711",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 1992.4 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Purchase, Joseph Pulitzer Bequest, 1992.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: 7th–8th century. Reader label: 7th–8th century. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Tall ceramic vessel with incised seated ruler, hieroglyphic text and supernatural imagery.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/316711",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/316711",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-316711.json"
+      ],
+      "objectRecordSHA256": "bfb8fbc03d31d9bfd18e384a164957282c10dc119963cd2c7e08277084ab57c2",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/ao/original/DP-24262-001.jpg",
+          "sourceSHA256": "a706fc2410f72a0430a5cb619fe16273b1b3fae83e3afe23c44ea950dab58d35",
+          "sourceSize": [3422, 4000],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/316711-0.webp",
+              "sha256": "fff24c9a7d09889ac55ffac07bd19d35ed79c1169f1a423307d48356710264f3",
+              "dimensions": [1369, 1600],
+              "relativeAspectChange": 0.00015,
+              "meanRGBDifferenceOf255": 0.459
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/fff24c9a7d09889ac55f.jpg",
+              "sha256": "d5a0ad7a82203c24157e373374f3b2eecd98365400f38c5b624e54bb92d2dc64",
+              "dimensions": [1369, 1600],
+              "relativeAspectChange": 0.00015,
+              "meanRGBDifferenceOf255": 0.477
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/316711-thumb.webp",
+              "sha256": "1e01631cbf0c716755f1645cc5417633a4f5bd01e1b5538dd04ab8ff97ffc3f1",
+              "dimensions": [410, 480],
+              "relativeAspectChange": 0.00156,
+              "meanRGBDifferenceOf255": 1.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-314362",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 1981.218 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Purchase, Buckeye Trust and Mr. and Mrs. Milton F. Rosenthal Gifts, Joseph Pulitzer Bequest and Harris Brisbane Dick and Rogers Funds, 1981.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: 13th century. Reader label: 13th century. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Terracotta seated person curled around one raised knee with the head resting sideways.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/314362",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/314362",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-314362.json"
+      ],
+      "objectRecordSHA256": "22572c45f58d661f18e8b8feb2d1289111dc67b8e90469153fc5e6f0e5545633",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/ao/original/DT1213.jpg",
+          "sourceSHA256": "630993d3ae57cb3e3efa11ed4d1ba71a34e43091b26133daba943177d9792337",
+          "sourceSize": [3811, 3049],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/314362-0.webp",
+              "sha256": "26a72edc1a3671787a16794e5937a341791797411c27491ca51c3957a35fc409",
+              "dimensions": [1600, 1280],
+              "relativeAspectChange": 7e-5,
+              "meanRGBDifferenceOf255": 0.398
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/26a72edc1a3671787a16.jpg",
+              "sha256": "2c64f26f473428eef129614bc5050e3e665dbb9e7d3385ffc83968c046d26bfc",
+              "dimensions": [1600, 1280],
+              "relativeAspectChange": 7e-5,
+              "meanRGBDifferenceOf255": 0.415
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/314362-thumb.webp",
+              "sha256": "56ef6b858a7f24a735f84b8decb23c518ace1075c1e43acdd4e153152ef8d62a",
+              "dimensions": [480, 384],
+              "relativeAspectChange": 7e-5,
+              "meanRGBDifferenceOf255": 1.359
+            }
+          ]
+        },
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/ao/original/DT9380.jpg",
+          "sourceSHA256": "4062471d73ccbd1834b81ec9fae723ee2702829020543ecd60ff1c5a24a68a06",
+          "sourceSize": [3001, 2401],
+          "derivatives": [
+            {
+              "role": "alternate",
+              "path": "/atlas/media/314362-1.webp",
+              "sha256": "f9e314bd55b249833420bcfbde01eaaee98fe53ffed06b0ef3e1b715731ed98b",
+              "dimensions": [1600, 1280],
+              "relativeAspectChange": 8e-5,
+              "meanRGBDifferenceOf255": 0.468
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/f9e314bd55b249833420.jpg",
+              "sha256": "efcf72ff0cce56c5eb2d81219bd7fa49de92ec9a9aefb24d418a6ba6bacdabea",
+              "dimensions": [1600, 1280],
+              "relativeAspectChange": 8e-5,
+              "meanRGBDifferenceOf255": 0.487
+            }
+          ]
+        }
+      ],
+      "alternateDescriptions": [
+        "Rear view of the curled seated figure, showing rows of raised bumps down its rounded back."
+      ]
+    },
+    {
+      "id": "met-42455",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 91.1.226 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Edward C. Moore Collection, Bequest of Edward C. Moore, 1891.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: 11th–12th century. Reader label: 11th–12th century. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Dark round tea bowl with a narrow elliptical view into its interior and fine brown streaks across the visible outer glaze.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/42455",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/42455",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-42455.json"
+      ],
+      "objectRecordSHA256": "5b83c024fb8adae8f6c2289dc8ade722dac625b6c0bd5ea3b44204513926fced",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/as/original/DP372022.jpg",
+          "sourceSHA256": "ff939e92ab7824ba5d1d220e9d802dc64ed594d3736b53dff94570667fc75490",
+          "sourceSize": [3919, 2941],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/42455-0.webp",
+              "sha256": "237b43ebfb97f7108bd690a5271c0a5f0aef7011285259b227aee3cf1ad8ceb4",
+              "dimensions": [1600, 1201],
+              "relativeAspectChange": 0.00024,
+              "meanRGBDifferenceOf255": 0.49
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/237b43ebfb97f7108bd6.jpg",
+              "sha256": "67b886becb42b39bb6cf5cb939befd39e487f03f4976d7ac6893db8e402736ae",
+              "dimensions": [1600, 1201],
+              "relativeAspectChange": 0.00024,
+              "meanRGBDifferenceOf255": 0.531
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/42455-thumb.webp",
+              "sha256": "72592607d65258425c8ccb669a073dfcd052defee58edbe62ae77b9605b70857",
+              "dimensions": [480, 360],
+              "relativeAspectChange": 0.0006,
+              "meanRGBDifferenceOf255": 0.938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-313152",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 1979.206.954 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: The Michael C. Rockefeller Memorial Collection, Bequest of Nelson A. Rockefeller, 1979.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: 1450–1550. Reader label: 1450–1550. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Wide tunic with a central neck opening, red and gold jagged bands against dark cloth, and contrasting black and pale areas toward the fringed bottom edge.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/313152",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/313152",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-313152.json"
+      ],
+      "objectRecordSHA256": "401472acaaf46e30e88807b9b35f86d4d9fd300e387cb3b11f470a81717d0f47",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/ao/original/DP244273.jpg",
+          "sourceSHA256": "ecb0a3f30dd42e33551b0fada9672504c60363e6b68e51938cd481836844529a",
+          "sourceSize": [4000, 3000],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/313152-0.webp",
+              "sha256": "9ddc5a140610cb66ea44cdf0dc27711bd6a84be9bdea4233d101069ddf0789b4",
+              "dimensions": [1600, 1200],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.495
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/9ddc5a140610cb66ea44.jpg",
+              "sha256": "d1496203ae07362a3e74ed6f7b0f6cfec6f431e72c0d2c16768cf191b5e81f7b",
+              "dimensions": [1600, 1200],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.504
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/313152-thumb.webp",
+              "sha256": "2d366b204e0ebf5b575c70d09190b27d32a5d03ed663d416a52b43b7b670522b",
+              "dimensions": [480, 360],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 1.703
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-451490",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 59.69.1 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Gift of James J. Rorimer in appreciation of Maurice S. Dimand's curatorship, 1933–1959, 1959.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: ca. 1575–90. Reader label: ca. 1575–90. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Round Iznik dish with two small birds among blue, red and green flowering stems.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/451490",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/451490",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-451490.json"
+      ],
+      "objectRecordSHA256": "a2b030b2f8fa4e5c0f65ee06cb62399fa2586db36ea8a73943e8a7310a6109c4",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/is/original/DP131621.jpg",
+          "sourceSHA256": "7864bd621e90913a315420e4421232c4b14acec385326fa977ac37c32eeb2cda",
+          "sourceSize": [4000, 4000],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/met-451490-0.webp",
+              "sha256": "16143595b140a1824e2a72e6aab10a781c5d295c136f3303effc6ee7fa22674e",
+              "dimensions": [1600, 1600],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.521
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/16143595b140a1824e2a.jpg",
+              "sha256": "fdc3bdb42870205c3161973fd68b8484038fe8705b7f627961df83932b419d27",
+              "dimensions": [1600, 1600],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.548
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/met-451490-thumb.webp",
+              "sha256": "83a8417ab1f5072eb4cc1e62b1a3cedd3a562a402dde163b3c104d4a6baee310",
+              "dimensions": [480, 480],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 1.763
+            }
+          ]
+        },
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/is/original/DP132500.jpg",
+          "sourceSHA256": "61568f59af3b615877a6e1509ef6fb33d543f9a6c3c9c7ef4c8ad8f767a1b79d",
+          "sourceSize": [4000, 4000],
+          "derivatives": [
+            {
+              "role": "alternate",
+              "path": "/atlas/media/met-451490-1.webp",
+              "sha256": "2918bf1c7cb20ec58321b593863a57a0b70e14bb7a49b27791865ecbffc5fa59",
+              "dimensions": [1600, 1600],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.525
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/2918bf1c7cb20ec58321.jpg",
+              "sha256": "8b76d38d287a87f6d074e7cdc214f6b79205acca4144c0171195aa2fb9138f5f",
+              "dimensions": [1600, 1600],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.556
+            }
+          ]
+        }
+      ],
+      "alternateDescriptions": [
+        "Another overhead view of the dish, showing both birds, the flower stems and the blue border around the rim."
+      ]
+    },
+    {
+      "id": "met-449533",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 38.149.1 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Rogers Fund, 1938.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: ca. 1555–60. Reader label: ca. 1555–60. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Gold and blue calligraphic tughra with three tall shafts and looping lines filled with floral ornament.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/449533",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/449533",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-449533.json"
+      ],
+      "objectRecordSHA256": "1feb4312530f93bf1dd73a4517bcd1ed8e3e3109bea0f8cb5af88b515cec2d53",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/is/original/DP251197.jpg",
+          "sourceSHA256": "7dbcff43125438dc381caa2881d6a0402bb21a071cd0bb11385f841bbf83c362",
+          "sourceSize": [3907, 3153],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/met-449533-0.webp",
+              "sha256": "57a41bb90eb4899134d882c8d9540abd72225b7bff34d8284cbc3def57971445",
+              "dimensions": [1600, 1291],
+              "relativeAspectChange": 0.00017,
+              "meanRGBDifferenceOf255": 0.609
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/57a41bb90eb4899134d8.jpg",
+              "sha256": "8d341bb87b2fe4c342a6c578e30ca713bf7d7af05dc3b1a29f5da18cff0c4a82",
+              "dimensions": [1600, 1291],
+              "relativeAspectChange": 0.00017,
+              "meanRGBDifferenceOf255": 0.637
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/met-449533-thumb.webp",
+              "sha256": "c609196fdadaad32d90d614bf4bf41ab352ce9c19c0584c389bea41e06637a0a",
+              "dimensions": [480, 388],
+              "relativeAspectChange": 0.00163,
+              "meanRGBDifferenceOf255": 2.389
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-451028",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 50.190.5 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Gift of John D. Rockefeller Jr., 1950.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: 17th century. Reader label: 17th century. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Long silk carpet with repeating curving floral forms and pale metallic areas on a colored field.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/451028",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/451028",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-451028.json"
+      ],
+      "objectRecordSHA256": "9fafeab1c7d8b592a5f9a38172876f56b913e85f4f119eaa6adde426931ce02e",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/is/original/DP168414.jpg",
+          "sourceSHA256": "ba0225156d4368d7dd1e809dcef019e52b2353dfe648bae9ea430626750baffd",
+          "sourceSize": [1869, 3952],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/met-451028-0.webp",
+              "sha256": "abfe9c93a8e647fe11c967e2e359b354d6b2c50128fc2ecd2ad3a0d737da6f3b",
+              "dimensions": [757, 1600],
+              "relativeAspectChange": 0.00042,
+              "meanRGBDifferenceOf255": 0.892
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/abfe9c93a8e647fe11c9.jpg",
+              "sha256": "1ee59848b167f972e5c022e0af2233ee03f803224239c54f4c2829ff97242233",
+              "dimensions": [757, 1600],
+              "relativeAspectChange": 0.00042,
+              "meanRGBDifferenceOf255": 0.912
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/met-451028-thumb.webp",
+              "sha256": "207b60a084ab51b9404c45015b3b5339bb3f7a9560aec9e74affa60fc380d39f",
+              "dimensions": [227, 480],
+              "relativeAspectChange": 2e-5,
+              "meanRGBDifferenceOf255": 3.324
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-452671",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 1974.294.3 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Purchase, Louis V. Bell Fund and The Vincent Astor Foundation Gift, 1974.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: ca. 1525–35. Reader label: ca. 1525–35. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Painted interior reception with seated and standing figures among richly patterned textiles and architecture.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/452671",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/452671",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-452671.json"
+      ],
+      "objectRecordSHA256": "f9db3fe824c5552087d1478ddcbd150cb7940c38591896e1d046ed0c17ac22f8",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/is/original/DT4824.jpg",
+          "sourceSHA256": "9781c5055f42e17c2cfb563b76e23920a0e49337ecf22ce300b2e6c609936067",
+          "sourceSize": [2480, 3722],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/met-452671-0.webp",
+              "sha256": "c717538d4bdfdc16fef6b4c7191d85e16f5b4859d52f052a35e26eb0ff093f32",
+              "dimensions": [1066, 1600],
+              "relativeAspectChange": 9e-5,
+              "meanRGBDifferenceOf255": 0.657
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/c717538d4bdfdc16fef6.jpg",
+              "sha256": "98f7c448212a2738c1011df9a9a0ca0ac0ec561b5146c704bcef11805c6a08ab",
+              "dimensions": [1066, 1600],
+              "relativeAspectChange": 9e-5,
+              "meanRGBDifferenceOf255": 0.683
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/met-452671-thumb.webp",
+              "sha256": "7f5bb37324399d431708b7679bb173489cf4d7bdd731feec4e119816ddb4dcb1",
+              "dimensions": [320, 480],
+              "relativeAspectChange": 0.00054,
+              "meanRGBDifferenceOf255": 3.13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-681122",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 2015.252a–c as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Purchase, Goldman Sachs Gift, 2015.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: dated 1204 AH/1789 CE. Reader label: dated 1204 AH/1789 CE. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Bird-and-flower decorated case shown with its mirror exposed and a fitted drawer partly extended.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/681122",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/681122",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-681122.json"
+      ],
+      "objectRecordSHA256": "b17548f77f40fae21de87693ab33985b60c881050da738b2c10c86524a9de7d3",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/is/original/DP358260.jpg",
+          "sourceSHA256": "9299ff3350c80bbf08346a3e02b3af278f33fb7e67a81306ade169d73cff45f5",
+          "sourceSize": [3909, 3128],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/met-681122-0.webp",
+              "sha256": "7f5a33ae427d19ff20ff74bd8c10949600cc2a0a62f7fa6c1b2deb8e979f08c8",
+              "dimensions": [1600, 1280],
+              "relativeAspectChange": 0.00026,
+              "meanRGBDifferenceOf255": 0.493
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/7f5a33ae427d19ff20ff.jpg",
+              "sha256": "d7d733e5109ffa5c8ce913b5c605f5d66648ec997baad4ceae711fb00a3341a5",
+              "dimensions": [1600, 1280],
+              "relativeAspectChange": 0.00026,
+              "meanRGBDifferenceOf255": 0.53
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/met-681122-thumb.webp",
+              "sha256": "063e481f43ee1b15a3eb69fc2135c26a4abe4a78bf8631547eb7c89073428f2b",
+              "dimensions": [480, 384],
+              "relativeAspectChange": 0.00026,
+              "meanRGBDifferenceOf255": 1.628
+            }
+          ]
+        },
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/is/original/DP368589.jpg",
+          "sourceSHA256": "ab5c191d5bf6a8f594f1088ddbed779cc2602e3925dd4033e6fcd43f2da5d0d9",
+          "sourceSize": [2679, 3884],
+          "derivatives": [
+            {
+              "role": "alternate",
+              "path": "/atlas/media/met-681122-1.webp",
+              "sha256": "f7d6ad62b6314ff172e85e79adefc725c05dd1e6cd2a450332e08899d5572716",
+              "dimensions": [1104, 1600],
+              "relativeAspectChange": 0.00036,
+              "meanRGBDifferenceOf255": 0.86
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/f7d6ad62b6314ff172e8.jpg",
+              "sha256": "97a1b31bb43bdcc89c15ea4684aa893e003e331326cb83192c2314a1048d5ab1",
+              "dimensions": [1104, 1600],
+              "relativeAspectChange": 0.00036,
+              "meanRGBDifferenceOf255": 0.986
+            }
+          ]
+        },
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/is/original/DP370492.jpg",
+          "sourceSHA256": "1aacc53d6a825f4a2d41d46ef524b61a45448abe19b30dd7f3530f28d35fa4da",
+          "sourceSize": [2649, 3884],
+          "derivatives": [
+            {
+              "role": "alternate",
+              "path": "/atlas/media/met-681122-2.webp",
+              "sha256": "707c1d47b9196e18c6c884f64d8b1b680d3f45b9b086f1d9f031d4ac4a6d8529",
+              "dimensions": [1091, 1600],
+              "relativeAspectChange": 0.00023,
+              "meanRGBDifferenceOf255": 0.67
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/707c1d47b9196e18c6c8.jpg",
+              "sha256": "66d1a0c0c463bace3dc0ef51113a9beb4ea86d012c122d2b45294c88d559c0a4",
+              "dimensions": [1091, 1600],
+              "relativeAspectChange": 0.00023,
+              "meanRGBDifferenceOf255": 0.72
+            }
+          ]
+        }
+      ],
+      "alternateDescriptions": [
+        "Birds among flowers and foliage on the bordered rectangular case lid.",
+        "Empty fitted drawer with shaped recesses for dressing implements and painted borders."
+      ]
+    },
+    {
+      "id": "met-717577",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 2019.456.17 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: The Charles and Valerie Diker Collection of Native American Art, Gift of Charles and Valerie Diker, 2019.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: 300–500 CE. Reader label: 300–500 CE. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Carved ivory harpoon counterweight with a central upright fitting and curved, engraved arms.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/717577",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/717577",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-717577.json"
+      ],
+      "objectRecordSHA256": "83c489ea01cfaf512c4aca42cebd013bc59e575af141477e4fb07eab1c180600",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/ad/original/DP-15301-002.jpg",
+          "sourceSHA256": "d4a416184c7f906122fbc7b068f461a7697ab8c9e40001fcdb70b381165dbde3",
+          "sourceSize": [4000, 2955],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/met-717577-0.webp",
+              "sha256": "1bf00a3b74277408321926f39726aea60ecf5b7a8860f69aaa18947fb01dfc5a",
+              "dimensions": [1600, 1182],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.405
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/1bf00a3b742774083219.jpg",
+              "sha256": "2a248b06cdbae44adceabaad7690b2d0f32aa78a472d0fc4f78d2d6e3c0803a3",
+              "dimensions": [1600, 1182],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.405
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/met-717577-thumb.webp",
+              "sha256": "60e7fd6f89267eeda5baacf3a6527048615879b848d55e08915dba22f6befda6",
+              "dimensions": [480, 354],
+              "relativeAspectChange": 0.00169,
+              "meanRGBDifferenceOf255": 1.013
+            }
+          ]
+        },
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/ad/original/DP-15301-003.jpg",
+          "sourceSHA256": "88f6aa5e595f7a6ba2136c9cdd9aeacc68a24310af3e3a3cd9497fbf6f7f35ad",
+          "sourceSize": [4000, 2540],
+          "derivatives": [
+            {
+              "role": "alternate",
+              "path": "/atlas/media/met-717577-1.webp",
+              "sha256": "a043c6888d8e430925394121b269bb45db5050d037f3787ba3e58ec16bba489b",
+              "dimensions": [1600, 1016],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.449
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/a043c6888d8e43092539.jpg",
+              "sha256": "9d856e5911a2236b95c7109bfe6cef0930282c872e3a35b7e071669de8ce3b27",
+              "dimensions": [1600, 1016],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.431
+            }
+          ]
+        },
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/ad/original/DP-15301-004.jpg",
+          "sourceSHA256": "12a0224396a6a48a6ba159762cb7518f6dcb90818b092e4e3e53dfd8a49a0edd",
+          "sourceSize": [4000, 3000],
+          "derivatives": [
+            {
+              "role": "alternate",
+              "path": "/atlas/media/met-717577-2.webp",
+              "sha256": "d27ffea7c0b02e5b060a5e1bb6a46a6b8f76596c72d0e4a0521eef2777b5d77c",
+              "dimensions": [1600, 1200],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.456
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/d27ffea7c0b02e5b060a.jpg",
+              "sha256": "af65ccddfb6afb068ced4356a259b19b3a610879c3101da5f174ae3e0f59f3e3",
+              "dimensions": [1600, 1200],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.475
+            }
+          ]
+        }
+      ],
+      "alternateDescriptions": [
+        "Reverse view of the counterweight with two rounded ends framing the central fitting.",
+        "Close view of the upright fitting and engraved curves on one end of the counterweight."
+      ]
+    },
+    {
+      "id": "met-44781",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 43.25.4 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Rogers Fund, 1943.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: 13th–11th century BCE. Reader label: 13th–11th century BCE; attributed to the Shang period. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Green-brown bronze pouring vessel with a raised spout, bird-shaped handle, an owl-like body and dense coiling animal designs.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/44781",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/44781",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-44781.json"
+      ],
+      "objectRecordSHA256": "63bd15662872358dea111a7a59028760a799377e79405dd6f866cd200b66814e",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/as/original/DP140733.jpg",
+          "sourceSHA256": "1555f020f3e155908d8d276c0d96d894688a08246855bc31dc165802c253c414",
+          "sourceSize": [2000, 1500],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/44781-0.webp",
+              "sha256": "97a27cbd6394c438d17c3b29f1f78f08b8fdc190855892a3523443275805f915",
+              "dimensions": [1200, 900],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.639
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/97a27cbd6394c438d17c.jpg",
+              "sha256": "f31aadd4a0a63792cbf8a45308eb3a1c799b3e985ef10080c6dd5b7ed83df2d5",
+              "dimensions": [1200, 900],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.637
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/44781-thumb.webp",
+              "sha256": "8c01249639c9dbdc0c58345a6a3aae4b0332c8238ddbcf76c27a6a379a6a2811",
+              "dimensions": [480, 360],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 1.138
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "met-314215-cast",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Met identifies 1980.153.2 as public domain and supplies the adopted view(s) through its Open Access service. Catalogue credit checked against the object's credit line: Rogers Fund, 1980.",
+      "fidelityFinding": "Compared full-frame museum image, display, thumbnail, each alternate and each print derivative. Per-file dimensions, pixel differences and hashes appear below.",
+      "dateFinding": "Museum object date: mid-20th century. Reader label: Mid-20th-century plaster cast. Photographic exposure date was not supplied.",
+      "descriptionFinding": "Visually checked against the shipped view: Photograph of a grey plaster reproduction with repeated circles, bands of short tooth-like marks and larger angular lines across its irregular surface. The photographed object is a modern cast, not an ancient clay fragment.",
+      "evidence": [
+        "https://www.metmuseum.org/art/collection/search/314215",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/314215",
+        "https://www.metmuseum.org/hubs/open-access",
+        "output/media-review-2026-11-04/sources/met-314215.json"
+      ],
+      "objectRecordSHA256": "e879e25b63b77f6362946093a307ae01f0a9371c6b038ca3e6829f86e94afe84",
+      "gaps": [],
+      "views": [
+        {
+          "sourceURL": "https://images.metmuseum.org/CRDImages/ao/original/vs1980_153_2.jpg",
+          "sourceSHA256": "453fc6fb57f4c0166f7e3eb905fc8a9200ba94fd4c3505c29700746acf83282e",
+          "sourceSize": [1056, 775],
+          "derivatives": [
+            {
+              "role": "display",
+              "path": "/atlas/media/met-314215-cast.webp",
+              "sha256": "ab4be1bd225a99f85ecf15e957841d5ae69cbfd23bbb132d6ac777cb050e53ed",
+              "dimensions": [1056, 775],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.399
+            },
+            {
+              "role": "print",
+              "path": "/atlas/print-media/ab4be1bd225a99f85ecf.jpg",
+              "sha256": "b5562f2c0227c8f58716adea836d8426632d88f2506d85cd8c8bdf490cb1ef14",
+              "dimensions": [1056, 775],
+              "relativeAspectChange": 0.0,
+              "meanRGBDifferenceOf255": 0.418
+            },
+            {
+              "role": "thumbnail",
+              "path": "/atlas/media/met-314215-cast-thumb.webp",
+              "sha256": "7bd8010550448609c0b9b2052d79a12c826dc22be96c4552b7a523a7ec1de0da",
+              "dimensions": [420, 308],
+              "relativeAspectChange": 0.00077,
+              "meanRGBDifferenceOf255": 0.742
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

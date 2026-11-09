@@ -15,8 +15,17 @@ export default defineConfig({
   },
   build: {
     target: 'esnext',
+    modulePreload: {
+      // These readers recover through native imports after a failed request.
+      // Preserve target preloads elsewhere, especially print views with CSS.
+      resolveDependencies: (filename, dependencies, { hostType }) =>
+        hostType === 'js' && /(?:^|\/)(?:Dossier|WorldContext|Notebook)-/.test(filename)
+          ? dependencies.filter((dependency) => dependency !== filename)
+          : dependencies,
+    },
   },
   test: {
+    maxWorkers: 2,
     environment: 'jsdom',
     passWithNoTests: true,
     include: ['src/**/*.test.ts', 'scripts/**/*.test.ts'],

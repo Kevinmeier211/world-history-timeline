@@ -1,0 +1,34 @@
+{
+  "journey": "promises-rights",
+  "revision": "48e83a5775ade6be1269f6589621b97f2c8986ee263336418ee53ba7d476c932",
+  "stops": [
+    {
+      "index": 0,
+      "narrative": "Preserve consequential translation differences and the process of signing."
+    },
+    {
+      "index": 1,
+      "narrative": "Keep independence, border announcement and displacement distinct."
+    },
+    {
+      "index": 2,
+      "narrative": "Read a specific right, then ask how implementation could be investigated."
+    }
+  ],
+  "conclusion": "Political statements have audiences, language and consequences. Their texts matter, and so do participation, institutions and lived experience.",
+  "evidence": {
+    "prompt": "Which statement respects the distinction between promise and outcome?",
+    "options": [
+      {
+        "text": "A constitutional right states a commitment; evidence of implementation must be investigated separately.",
+        "supported": true,
+        "feedback": "The legal text is strong evidence of the obligation. It does not itself measure whether everyone can exercise the right."
+      },
+      {
+        "text": "A signature proves identical understanding and universal consent.",
+        "supported": false,
+        "feedback": "The treaty record includes differing texts, refusals and uneven opportunities to sign."
+      }
+    ]
+  }
+}

@@ -1,0 +1,4005 @@
+{
+  "scope": "All declared display, thumbnail and alternate assets decoded and compared with the production build. Metadata transcribed for review. Pixel dimensions and source IDs do not authenticate legal rights, source identity, visual fidelity, or contextual alt text.",
+  "corpusSHA256": "e1a55385b2e242dbb9dcf865d94a0527fa4ed14396a2df0908d427bb5866cddd",
+  "records": 105,
+  "uniqueFiles": 223,
+  "recordsWithFlags": 10,
+  "rows": [
+    {
+      "id": "met-49519",
+      "subject": "eastern-han",
+      "source": "met-49519",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/49519",
+      "accession": "1984.397a, b",
+      "date": {
+        "start": 1,
+        "end": 233,
+        "label": "1st–early 3rd century",
+        "precision": "range",
+        "note": "Catalogue wording retained. Numeric bounds are museum search envelopes, not exact production dates."
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Purchase, Dr. and Mrs. John C. Weber Gift, 1984. 1984.397a, b.",
+      "alt": "Green glazed pottery watchtower with tiered roofs, balconies and a walled base.",
+      "relevance": "Architectural model, elite estate context and afterlife provision.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/49519-0.webp",
+          "width": 1200,
+          "height": 1600,
+          "sha256": "92ef3ee2c3754a7237a5d1e0d4f744348f405fffb4b2466eb0e0871bbf2eba64"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/49519-thumb.webp",
+          "width": 360,
+          "height": 480,
+          "sha256": "f42af784a2df9780853b2f2287d59986421e84f4f567ab84a13ae8fbf2c5c652"
+        },
+        {
+          "role": "alternate",
+          "path": "/atlas/media/49519-1.webp",
+          "width": 1200,
+          "height": 1600,
+          "sha256": "45e87ef36be14189e34192dba0dc626e62ffac36f39f2f8a723a63667f44fabd"
+        },
+        {
+          "role": "alternate",
+          "path": "/atlas/media/49519-2.webp",
+          "width": 466,
+          "height": 700,
+          "sha256": "231eb624f07b3ab8f0781b1789efea442d4a2e66cf98a60b6f1f4edd3dadabc6"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-317600",
+      "subject": "colima",
+      "source": "met-317600",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/317600",
+      "accession": "1995.63.5",
+      "date": {
+        "start": -200,
+        "end": 200,
+        "label": "200 BCE–200 CE",
+        "precision": "range",
+        "note": "Catalogue wording retained. Numeric bounds are museum search envelopes, not exact production dates."
+      },
+      "depiction": "object photograph",
+      "datingNote": "Current catalogue: 200 BCE–200 CE. Pillsbury’s 2015 essay captions the same accession 200 BCE–300 CE. Current catalogue followed; discrepancy preserved.",
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. From the Collection of Nina and Gordon Bunshaft, Bequest of Nina Bunshaft, 1994. 1995.63.5.",
+      "alt": "Small ceramic model of a peaked-roof building on an elevated rectangular platform.",
+      "relevance": "Compare architectural form and tentative use with the Han tower without asserting contact.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/317600-0.webp",
+          "width": 1600,
+          "height": 1465,
+          "sha256": "f27a6f044e0f31b631b57e7da94f061458c67e2feb0aff8602522a92aa165b96"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/317600-thumb.webp",
+          "width": 480,
+          "height": 439,
+          "sha256": "04006ea201f644fce7f7ac148fca2b7e194908fab58b5c5a629e78d0fe09e2fc"
+        },
+        {
+          "role": "alternate",
+          "path": "/atlas/media/317600-1.webp",
+          "width": 1411,
+          "height": 1452,
+          "sha256": "a68e801191769eeb44f44691004898ecf69ae755ac59b10893caabb0c3d15258"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-52010",
+      "subject": "eastern-han",
+      "source": "met-52010",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/52010",
+      "accession": "13.100.11",
+      "date": {
+        "start": 1,
+        "end": 233,
+        "label": "1st–early 3rd century",
+        "precision": "range",
+        "note": "Catalogue wording retained. Numeric bounds are museum search envelopes, not exact production dates."
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. John Stewart Kennedy Fund, 1913. 13.100.11.",
+      "alt": "Black-and-white photograph of a cylindrical pottery granary on short feet, with a broad round roof and a small rectangular opening near the base.",
+      "relevance": "Investigate estate work alongside the watchtower.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/52010-0.webp",
+          "width": 1272,
+          "height": 1600,
+          "sha256": "36667b55df88988601e6df6cae76faa1153909f7680aa8ee4f7458c33e72bc93"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/52010-thumb.webp",
+          "width": 382,
+          "height": 480,
+          "sha256": "3480b7011d988baaf34bda6c1e7ee6f8aa81982fc41ad30033785f912a9688e2"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-52527",
+      "subject": "eastern-han",
+      "source": "met-52527",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/52527",
+      "accession": "27.119.23",
+      "date": {
+        "start": 1,
+        "end": 199,
+        "label": "1st–2nd century CE",
+        "precision": "range",
+        "note": "Catalogue wording retained. Numeric bounds are museum search envelopes, not exact production dates."
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Fletcher Fund, 1927. 27.119.23.",
+      "alt": "Black-and-white photograph of a round well-head model with an arched frame rising from the rim and a small fitting at the top.",
+      "relevance": "Compare water provisioning and funerary models.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/52527-0.webp",
+          "width": 545,
+          "height": 700,
+          "sha256": "b47384ecd43a63bc69f707178869c3985de5b2c9c3d62582aa128a86727b4182"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/52527-thumb.webp",
+          "width": 374,
+          "height": 480,
+          "sha256": "eb85893a17a6d7d4b2b8c4c9668b7271d52171f7ce339d7f6acbd28406790464"
+        }
+      ],
+      "flags": [
+        "Longest display dimension below 800 px; inspect the task at its intended size or use a transcription."
+      ]
+    },
+    {
+      "id": "met-251870",
+      "subject": "roman-world",
+      "source": "met-251870",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/251870",
+      "accession": "25.78.90",
+      "date": {
+        "start": 198,
+        "end": 211,
+        "label": "ca. 200–210 CE",
+        "precision": "range",
+        "note": "Catalogue wording retained. Numeric bounds are museum search envelopes, not exact production dates."
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Fletcher Fund, 1925. 25.78.90.",
+      "alt": "Blue-green, roughly rectangular gem with bevelled edges. The engraved profile of Julia Domna shows rows of waves in her hair.",
+      "relevance": "Imperial authority, Syrian connections and the political work of images.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/251870-0.webp",
+          "width": 1226,
+          "height": 1600,
+          "sha256": "36231bab63cf9266031075c3ff166ac5d53bfb9db49be6bd1b7d5872a238ca26"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/251870-thumb.webp",
+          "width": 368,
+          "height": 480,
+          "sha256": "d4a2326239fb30c8acbf1219b33150cca45eb60173f7b768d96503b37a6f6031"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-547951",
+      "subject": "roman-world",
+      "source": "met-547951",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/547951",
+      "accession": "18.9.2",
+      "date": {
+        "start": 100,
+        "end": 150,
+        "label": "100–150 CE",
+        "precision": "range",
+        "note": "Catalogue wording retained. Numeric bounds are museum search envelopes, not exact production dates."
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Gift of Edward S. Harkness, 1918. 18.9.2.",
+      "alt": "Painted portrait of a young person with short dark hair, white tunic and large dark eyes.",
+      "relevance": "Identity, freed status and mixed practices in Roman Egypt.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/547951-0.webp",
+          "width": 879,
+          "height": 1600,
+          "sha256": "0e1fc0997f0c1a6c8ea19c39d297fb2e10fef9590e7b16ea41d73fbf764f2e10"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/547951-thumb.webp",
+          "width": 264,
+          "height": 480,
+          "sha256": "648ecb4a7dd5502608ec815fba3698e887073447b84079f321e91619cfbc4299"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-256732",
+      "subject": "roman-world",
+      "source": "met-256732",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/256732",
+      "accession": "X.21.190",
+      "date": {
+        "start": 200,
+        "end": 299,
+        "label": "3rd century CE",
+        "precision": "range",
+        "note": "Catalogue wording retained. Numeric bounds are museum search envelopes, not exact production dates."
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Museum Accession. X.21.190.",
+      "alt": "Small molded glass vessel shaped like a cluster of grapes with a narrow neck.",
+      "relevance": "Separate type comparison from the provenance of an individual object.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/256732-0.webp",
+          "width": 1600,
+          "height": 1600,
+          "sha256": "d085cf25b5b070ba814b076b6dcb796290789c88c47cca33c3c761ad78650d24"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/256732-thumb.webp",
+          "width": 480,
+          "height": 480,
+          "sha256": "752669ecf953316813cb3c39ec622c9d0fcdddd091d96aafbf8fc53120728fbc"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-322375",
+      "subject": "palmyra",
+      "source": "met-322375",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/322375",
+      "accession": "02.29.1",
+      "date": {
+        "start": 100,
+        "end": 299,
+        "label": "ca. 2nd–3rd century CE",
+        "precision": "range",
+        "note": "Catalogue wording retained. Numeric bounds are museum search envelopes, not exact production dates."
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Purchase, 1902. 02.29.1.",
+      "alt": "Limestone relief with a reclining man and three smaller figures beside an inscription.",
+      "relevance": "Family commemoration in a city connected to caravan exchange.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/322375-0.webp",
+          "width": 1600,
+          "height": 1539,
+          "sha256": "fa7d2940ff251f6e460eaf0367f88eb474e36f0c4ed92350c3ee0455f7c6a1fc"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/322375-thumb.webp",
+          "width": 480,
+          "height": 461,
+          "sha256": "0a1c2b4e4f1fa0f73194ba0eb6a0d0fa6aa766bf7289032b2642685361850198"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-39385",
+      "subject": "kushan-contexts",
+      "source": "met-39385",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/39385",
+      "accession": "99.35.3024",
+      "date": {
+        "start": 120,
+        "end": 140,
+        "label": "ca. 130",
+        "precision": "range",
+        "note": "Catalogue wording retained. Numeric bounds are museum search envelopes, not exact production dates."
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Bequest of Joseph H. Durkee, 1898. 99.35.3024.",
+      "alt": "Gold coin with a standing figure and surrounding letters. The alternate photograph shows another standing figure beside an animal.",
+      "relevance": "Royal imagery, monetary standards, dating uncertainty and find-context limits.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/39385-0.webp",
+          "width": 1600,
+          "height": 1600,
+          "sha256": "f50b60ce3465cdadeeaf28512821eb69e1b4a48dee7346b6016e08427b04f7ab"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/39385-thumb.webp",
+          "width": 479,
+          "height": 480,
+          "sha256": "be8c69e803eaa7cd1422de2d93ac2f824c57870b121031b39504a6ed8e26481e"
+        },
+        {
+          "role": "alternate",
+          "path": "/atlas/media/39385-1.webp",
+          "width": 1600,
+          "height": 1600,
+          "sha256": "0b5533a3db0c5de1fe73af7ed606a959e59c0e0135e61a622152d2fb042192a5"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-312736",
+      "subject": "teotihuacan",
+      "source": "met-312736",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/312736",
+      "accession": "1979.206.527",
+      "date": {
+        "start": 200,
+        "end": 700,
+        "label": "3rd–7th century",
+        "precision": "range",
+        "note": "Catalogue wording retained. Numeric bounds are museum search envelopes, not exact production dates."
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. The Michael C. Rockefeller Memorial Collection, Bequest of Nelson A. Rockefeller, 1979. 1979.206.527.",
+      "alt": "Broad carved stone face with narrow eye recesses, a projecting nose and a partly open mouth.",
+      "relevance": "Material observation can constrain functional interpretation; the object belongs to a later range than an exact 200 CE snapshot.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/312736-0.webp",
+          "width": 1600,
+          "height": 1200,
+          "sha256": "4d3efd731febd8768f11725f799875078a7872735ea9ba79d5d9798f4222f9d7"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/312736-thumb.webp",
+          "width": 480,
+          "height": 360,
+          "sha256": "cb0ea3a5cff03b784ee78f20f06469a5bec52731f042b07f31f8574fd97aa358"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-316721",
+      "subject": "moche",
+      "source": "met-316721",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/316721",
+      "accession": "1992.60.9",
+      "date": {
+        "start": 100,
+        "end": 500,
+        "label": "2nd–5th century",
+        "precision": "range",
+        "note": "Catalogue wording retained. Numeric bounds are museum search envelopes, not exact production dates."
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Gift of Conny and Fred Landmann, 1992. 1992.60.9.",
+      "alt": "Rounded Moche ceramic bottle with a raised snake curling around its body and an arched spout.",
+      "relevance": "Distinguish material technique, imagery and uncertain interpretation.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/316721-0.webp",
+          "width": 1279,
+          "height": 1600,
+          "sha256": "5b2c32341803b37b07664fe1f3471b727999651520dfd01d35604a1bd3198840"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/316721-thumb.webp",
+          "width": 384,
+          "height": 480,
+          "sha256": "5f7e65dd2d49116a7b3e510ca89382de66ad6d6a0e834b2a8dbe3bd33c39530c"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-307474",
+      "subject": "moche",
+      "source": "met-307474",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/307474",
+      "accession": "82.1.30",
+      "date": {
+        "start": 200,
+        "end": 500,
+        "label": "200 CE–500 CE",
+        "precision": "range",
+        "note": "Catalogue wording retained. Numeric bounds are museum search envelopes, not exact production dates."
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Gift of Henry G. Marquand, 1882. 82.1.30.",
+      "alt": "Moche ceramic stirrup-spout bottle modeled as a seated human figure.",
+      "relevance": "Modeled human representation and specialized ceramic work.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/307474-0.webp",
+          "width": 1280,
+          "height": 1600,
+          "sha256": "997d89f71da14142bf32371145c48bbb6c8ee58b7ce7a1460104cc82a315ef37"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/307474-thumb.webp",
+          "width": 384,
+          "height": 480,
+          "sha256": "9f37b5e37bb475cc2e6344d79eb62c4a668ada4a828bc6f999557ed866e9ab4e"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-39209",
+      "subject": "dongson",
+      "source": "met-39209",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/39209",
+      "accession": "2000.284.57",
+      "date": {
+        "start": -510,
+        "end": 310,
+        "label": "ca. 500 BCE–300 CE",
+        "precision": "range",
+        "note": "Catalogue wording retained. Numeric bounds are museum search envelopes, not exact production dates."
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Samuel Eilenberg Collection, Bequest of Samuel Eilenberg, 1998. 2000.284.57.",
+      "alt": "Small bronze drum with a flared base, decorated surface and four frog figures on top.",
+      "relevance": "Non-state material traditions, circulation, miniature scale and uncertain function.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/39209-0.webp",
+          "width": 1600,
+          "height": 1204,
+          "sha256": "c648aab54c7fb9462467126c8023b752e1eb5e61125f31a98461f567fcd3f92e"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/39209-thumb.webp",
+          "width": 480,
+          "height": 361,
+          "sha256": "e4a68df7f19415199ff98e4656d19e0a00879ce10ec049a5cbdcfb4b13a6ed82"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-309900",
+      "subject": "benin-ivory",
+      "source": "met-309900",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/309900",
+      "accession": "1972.63a, b",
+      "date": {
+        "start": 1520,
+        "end": 1600,
+        "label": "ca. 1525–1600",
+        "precision": "range",
+        "note": "Catalogue wording retained. Numeric bounds are museum search envelopes, not exact production dates."
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Louis V. Bell and Rogers Funds, 1972. 1972.63a, b.",
+      "alt": "Ivory vessel raised above standing figures. The front figure wears patterned clothing, beads and a cross, and holds a long weapon; other figures appear in partial side views. The upper rim has visible losses.",
+      "relevance": "African artistic agency, commissioning and representation of foreign patrons.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/309900-0.webp",
+          "width": 1259,
+          "height": 1600,
+          "sha256": "396c4b5fe7168fb6d2057b5d5052e40796a86597ba173b0b6254cd4d138bc7f4"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/309900-thumb.webp",
+          "width": 378,
+          "height": 480,
+          "sha256": "aebbeca3ef8cb12733b26d3ea007e97673f960106df4d9b02fdbcd9096a613ad"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-318323",
+      "subject": "kongo-translation",
+      "source": "met-318323",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/318323",
+      "accession": "1999.295.7",
+      "date": {
+        "start": 1500,
+        "end": 1700,
+        "label": "16th–17th century",
+        "precision": "range",
+        "note": "Catalogue wording retained. Numeric bounds are museum search envelopes, not exact production dates."
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Gift of Ernst Anspach, 1999. 1999.295.7.",
+      "alt": "Brass cross with a central Christ figure, small seated figures on both arms, another figure above and a smaller figure below. Incised diagonal lines form a border around the cross.",
+      "relevance": "Translation of Christian forms, local meaning and uncertainty in provenance.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/318323-0.webp",
+          "width": 1186,
+          "height": 1600,
+          "sha256": "7b59328bd622c1c174c1a7c7aa99297ca16a93b0ef779b0e8928752a976d0eb6"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/318323-thumb.webp",
+          "width": 356,
+          "height": 480,
+          "sha256": "85134117d367f950f363157c995925523cd2e83d3e7844a2c7b059337d613813"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-448183",
+      "subject": "mughal-books",
+      "source": "met-448183",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/448183",
+      "accession": "28.63.1",
+      "date": {
+        "start": 1565,
+        "end": 1620,
+        "label": "ca. 1590–95",
+        "precision": "range",
+        "note": "Catalogue wording retained. Numeric bounds are museum search envelopes, not exact production dates."
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Purchase, Edward C. Moore Jr. Gift, 1928. 28.63.1.",
+      "alt": "Colorful manuscript painting of Krishna lifting a mountain above gathered villagers and animals.",
+      "relevance": "Courtly translation and manuscript invention; sacred representation distinguished from eyewitness evidence.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/448183-0.webp",
+          "width": 1164,
+          "height": 1600,
+          "sha256": "d2a7854f7865d3fb6b0fe073eb47c3200007d33d614f027bc9bb10f8b8c96f79"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/448183-thumb.webp",
+          "width": 349,
+          "height": 480,
+          "sha256": "e911500226b5255ebb94532521d4b8eeed0b2fd44bf9eb979615df9b196a89c3"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-42549",
+      "subject": "ming-workshops",
+      "source": "met-42549",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/42549",
+      "accession": "17.127.2",
+      "date": {
+        "start": 1534,
+        "end": 1566,
+        "label": "mid-16th century",
+        "precision": "range",
+        "note": "Catalogue wording retained. Numeric bounds are museum search envelopes, not exact production dates."
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Rogers Fund, 1917. 17.127.2.",
+      "alt": "Large round porcelain jar with orange carp and water plants painted around its surface.",
+      "relevance": "Imperial production, technique and comparison of intended audiences.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/42549-0.webp",
+          "width": 1200,
+          "height": 1600,
+          "sha256": "e62f18f14daa2e5665bd2cd6cddc568852e06eb2e471be296da1ad8408d06f4e"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/42549-thumb.webp",
+          "width": 360,
+          "height": 480,
+          "sha256": "ffce94cd2b9f74e9ff71cce757013f7a5e1de80ace03e8b54eeafd5787b5cf20"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-9198",
+      "subject": "manila-network",
+      "source": "met-9198",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/9198",
+      "accession": "11.87.36",
+      "date": {
+        "start": 1680,
+        "end": 1700,
+        "label": "ca. 1680–1700",
+        "precision": "range",
+        "note": "Catalogue wording retained. Numeric bounds are museum search envelopes, not exact production dates."
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Gift of Mrs. Robert W. de Forest, 1911. 11.87.36.",
+      "alt": "Blue and white decorated ceramic jar with a broad body and narrow base.",
+      "relevance": "Mexican ceramic making compared with separately documented Pacific exchange. Its catalogue does not establish a particular voyage.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/9198-0.webp",
+          "width": 1600,
+          "height": 1600,
+          "sha256": "f543877d5677b738edf01cfbda24c2df4cd332786e8003b9e22106702a1caff2"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/9198-thumb.webp",
+          "width": 480,
+          "height": 480,
+          "sha256": "71876569993ecfcd1966ce91827e0a173ed73a218558e68774fdd28dac094c05"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-327384",
+      "subject": "uruk-accounts",
+      "source": "met-327384",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/327384",
+      "accession": "1988.433.2",
+      "date": {
+        "start": -3100,
+        "end": -2900,
+        "label": "ca. 3100–2900 BCE",
+        "precision": "range",
+        "note": "Catalogue wording retained. Numeric bounds are museum search envelopes, not exact production dates."
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Purchase, Raymond and Beverly Sackler Gift, 1988. 1988.433.2.",
+      "alt": "Small rectangular clay tablet incised with pictographic signs and round numerical impressions.",
+      "relevance": "Economic recordkeeping, work and the limits of early textual interpretation.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/327384-0.webp",
+          "width": 1200,
+          "height": 1600,
+          "sha256": "ad6bc22bb854d4b8915ec24117c9136dcd60d4bde1d0d54b1c9c00bf72b0a8e3"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/327384-thumb.webp",
+          "width": 360,
+          "height": 480,
+          "sha256": "b52a500a717b9cb8bb376b279e12541d3186dfa234d2cf0731163aa980aef041"
+        },
+        {
+          "role": "alternate",
+          "path": "/atlas/media/327384-1.webp",
+          "width": 1200,
+          "height": 1600,
+          "sha256": "311ea2ef49ab83dd767637ab61c25b8602cd1eff109c672cfc7b230065889b47"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-543914",
+      "subject": "old-kingdom",
+      "source": "met-543914",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/543914",
+      "accession": "08.201.2a–g",
+      "date": {
+        "start": -2465,
+        "end": -2389,
+        "label": "ca. 2465–2389 BCE",
+        "precision": "range",
+        "note": "Catalogue wording retained. Numeric bounds are museum search envelopes, not exact production dates."
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Rogers Fund, 1908. 08.201.2a–g.",
+      "alt": "Painted limestone tomb wall with tall false-door panels and smaller rows of people, offerings and musicians.",
+      "relevance": "Daily-life representation in a selective funerary setting; recarving and museum arrangement.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/543914-0.webp",
+          "width": 1600,
+          "height": 630,
+          "sha256": "c1efa9fabc438065a101046d61985de440158417a1209b7aa45f18aec198a602"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/543914-thumb.webp",
+          "width": 480,
+          "height": 189,
+          "sha256": "7b3c4bb35ac6af55b56af6d6cf8e7d7c413b92540d6d0951561cf5a836f44971"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-324062",
+      "subject": "dholavira",
+      "source": "met-324062",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/324062",
+      "accession": "49.40.1",
+      "date": {
+        "start": -2600,
+        "end": -1900,
+        "label": "ca. 2600–1900 BCE",
+        "precision": "range",
+        "note": "Catalogue wording retained. Numeric bounds are museum search envelopes, not exact production dates."
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Dodge Fund, 1949. 49.40.1.",
+      "alt": "Square Indus seal with a one-horned animal and signs, alongside a modern positive impression.",
+      "relevance": "Distinguish the ancient object, modern impression, uncertain reading and regional attribution.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/324062-0.webp",
+          "width": 1600,
+          "height": 1598,
+          "sha256": "d0ba65eb578f7679ebfc8ad29458e30a05de2799620d652b71defaf425084295"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/324062-thumb.webp",
+          "width": 480,
+          "height": 480,
+          "sha256": "be46e52acdfb370a117a2b6242cba2f1822c6853cb6c9a601db6a67dcbf8fdde"
+        },
+        {
+          "role": "alternate",
+          "path": "/atlas/media/324062-1.webp",
+          "width": 1600,
+          "height": 1525,
+          "sha256": "f32cb1e68b5117b84be1b813c99904ac4fb3e8f039f9ba8ba6acc65e4c3f3618"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-72376",
+      "subject": "liangzhu",
+      "source": "met-72376",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/72376",
+      "accession": "2004.52",
+      "date": {
+        "start": -2450,
+        "end": -2350,
+        "label": "ca. 2400 BCE",
+        "precision": "range",
+        "note": "Catalogue wording retained. Numeric bounds are museum search envelopes, not exact production dates."
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Purchase, Sir Joseph Hotung Gift, 2004. 2004.52.",
+      "alt": "Tall dark jade cong with a square tapered exterior, circular opening and faint carved faces at the corners.",
+      "relevance": "Skilled work, social status, uncertain ritual meaning and separate city/culture/object chronologies.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/72376-0.webp",
+          "width": 1200,
+          "height": 1600,
+          "sha256": "563b0877946d0e1a19571e5bdf23f76d879803e3237402caac000e24055269b9"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/72376-thumb.webp",
+          "width": 360,
+          "height": 480,
+          "sha256": "c210d97eb500d741d0eb9ece13dfac7a40f87cae32051934e9880ff0b7906346"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-545772",
+      "subject": "kerma-potters",
+      "source": "met-545772",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/545772",
+      "accession": "20.2.45",
+      "date": {
+        "start": -1802,
+        "end": -1640,
+        "label": "c. 1802–1640 BCE",
+        "precision": "approximate",
+        "note": "Visible catalogue range retained. API objectEndDate repeats -1802 and is corrected from the record’s Date field."
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Rogers Fund, 1920. 20.2.45.",
+      "alt": "Thin-walled bell-shaped pottery beaker with a polished red body, black rim and iridescent transition band.",
+      "relevance": "Skilled firing, documented findspot and the limits of inferring a person’s identity.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/545772-0.webp",
+          "width": 1265,
+          "height": 1600,
+          "sha256": "73d4d1499a7ff3650061d388ab274d2736d031f516619a63c8daf6ee3e3b1a93"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/545772-thumb.webp",
+          "width": 379,
+          "height": 480,
+          "sha256": "3221f6775d82155d59f69fbd1bc5a919713f9f63e021ad2032714a8e854ffb9f"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-42045",
+      "subject": "shang-ritual",
+      "source": "met-42045",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/42045",
+      "accession": "67.43.14",
+      "date": {
+        "start": -1600,
+        "end": -1046,
+        "label": "Shang period, c. 1600–1046 BCE; no narrower object date supplied",
+        "precision": "approximate",
+        "note": "The record has no displayed narrow Date. Its Period supplies only this broad attribution."
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Gift of Paul E. Manheim, 1967. 67.43.14.",
+      "alt": "Long pale fragment of animal bone with small incised Chinese signs across its surface.",
+      "relevance": "Selectivity of ritual writing and honest dating precision.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/42045-0.webp",
+          "width": 1067,
+          "height": 1600,
+          "sha256": "de404c19a0b43791f84aa0f9c6d1e9bb3fa4f7de3b9ba3abea0aea05ce35761e"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/42045-thumb.webp",
+          "width": 320,
+          "height": 480,
+          "sha256": "ddb6a9ec174265f0aa87373a526717a6f31098dadad0608cdb7c68391f4b3570"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-314609",
+      "subject": "olmec",
+      "source": "met-314609",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/314609",
+      "accession": "1983.424",
+      "date": {
+        "start": -1200,
+        "end": -900,
+        "label": "1200-900 BCE",
+        "precision": "range",
+        "note": "Catalogue wording retained. Numeric bounds are museum search envelopes, not exact production dates."
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Rogers Fund, 1983. 1983.424.",
+      "alt": "Small modeled ceramic female figure with wide eyes, styled hair and ear ornaments.",
+      "relevance": "Small-scale representations, social identities and attributed ritual interpretations.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/314609-0.webp",
+          "width": 821,
+          "height": 1600,
+          "sha256": "fde0a5f47e1bde074f676da6561d4ab9b49c5bb18dd66b796f5e98ccae2ffa9a"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/314609-thumb.webp",
+          "width": 246,
+          "height": 480,
+          "sha256": "f7f35e2fd65279a1baff3d50b8a97ac40d6abc2b4d1afc81e7441be3117e14b5"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-322614",
+      "subject": "nimrud-palace",
+      "source": "met-322614",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/322614",
+      "accession": "32.143.7",
+      "date": {
+        "start": -883,
+        "end": -859,
+        "label": "ca. 883–859 BCE",
+        "precision": "range",
+        "note": "Catalogue wording retained. Numeric bounds are museum search envelopes, not exact production dates."
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Gift of John D. Rockefeller Jr., 1932. 32.143.7.",
+      "alt": "Carved gypsum panel showing an eagle-headed winged figure in patterned clothing, holding a bucket beneath a band of cuneiform.",
+      "relevance": "Royal representation, skilled labor and reconstructed display.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/322614-0.webp",
+          "width": 1140,
+          "height": 1600,
+          "sha256": "67f2d58c244759174921e9f4d9c44fb06ec6a032350416d4f18ba542923502a0"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/322614-thumb.webp",
+          "width": 342,
+          "height": 480,
+          "sha256": "a842fba7f5ef513339ae5fe257f7656ff6844879c1bc68caacfcc9a76495ea95"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-247244",
+      "subject": "athens-water",
+      "source": "met-247244",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/247244",
+      "accession": "06.1021.77",
+      "date": {
+        "start": -510,
+        "end": -500,
+        "label": "ca. 510–500 BCE",
+        "precision": "range",
+        "note": "Catalogue wording retained. Numeric bounds are museum search envelopes, not exact production dates."
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Rogers Fund, 1906. 06.1021.77.",
+      "alt": "Black-figure terracotta water jar showing women with vessels at a fountain house.",
+      "relevance": "Daily work, public water and the limits of using images as social evidence.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/247244-0.webp",
+          "width": 1467,
+          "height": 1600,
+          "sha256": "bf047f88f808659d14629db259ce3a067af883bdfa6b46eefdd57e3221936aa3"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/247244-thumb.webp",
+          "width": 440,
+          "height": 480,
+          "sha256": "0d872e30e1915f31c007c3f99372193babbf0a6371aaece47f60d17384bb398d"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-544883",
+      "subject": "taharqo",
+      "source": "met-544883",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/544883",
+      "accession": "18.2.10",
+      "date": {
+        "start": -690,
+        "end": -664,
+        "label": "c.690–664 BCE",
+        "precision": "approximate",
+        "note": "Displayed catalogue reign range; API end repeats -690 and is corrected from the Date field."
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Rogers Fund, 1918. 18.2.10.",
+      "alt": "Black-and-white photograph of a standing stone funerary figure with a headdress, crossed arms and lines of writing on the lower body.",
+      "relevance": "Funerary labor, Kushite kingship and qualified provenance.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/544883-0.webp",
+          "width": 1048,
+          "height": 1600,
+          "sha256": "3cfef8c72ddf3ccc5753e748c911cfe5d25710f4e5993cb95ce5c6f667c7bf98"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/544883-thumb.webp",
+          "width": 314,
+          "height": 480,
+          "sha256": "7f967a2fdea4ad56651838d5890cbc26cfdd00ec4e23d20d99efc4174f292887"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-315784",
+      "subject": "chavin-textile",
+      "source": "met-315784",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/315784",
+      "accession": "1987.394.704",
+      "date": {
+        "start": -400,
+        "end": -200,
+        "label": "4th–3rd century BCE",
+        "precision": "range",
+        "note": "Catalogue wording retained. Numeric bounds are museum search envelopes, not exact production dates."
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Bequest of Jane Costello Goldberg, from the Collection of Arnold I. Goldberg, 1986. 1987.394.704.",
+      "alt": "Fragmentary pale cotton textile painted with a large fanged figure and curling serpent-like forms.",
+      "relevance": "Revised chronology, portable imagery and uncertain provenance.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/315784-0.webp",
+          "width": 1600,
+          "height": 832,
+          "sha256": "dac6e83f94bf40d4417ed5e433866df6ef3b1c031cfc7f84ca79daa97fa92659"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/315784-thumb.webp",
+          "width": 480,
+          "height": 250,
+          "sha256": "4193c6bc7e7eafe6c2b05d02e968a7d42a0aa9ab13743622e9c8747482424f13"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-464428",
+      "subject": "byzantium",
+      "source": "met-464428",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/464428",
+      "accession": "17.190.44",
+      "date": {
+        "start": 925,
+        "end": 975,
+        "label": "mid-10th century",
+        "precision": "range",
+        "note": "Catalogue wording retained. Numeric bounds are museum search envelopes, not exact production dates."
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Gift of J. Pierpont Morgan, 1917. 17.190.44.",
+      "alt": "Small carved ivory icon with a central cross, standing figures and an architectural canopy.",
+      "relevance": "Separate object chronology, devotional setting and political frame.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/464428-0.webp",
+          "width": 1152,
+          "height": 1600,
+          "sha256": "51297b28476b42c5725e28910b96f685d1ae34b3aa98f81e41d666ba0f348f37"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/464428-thumb.webp",
+          "width": 346,
+          "height": 480,
+          "sha256": "2ad239d1919e03496a3886629ae7d3e51e83b8675b4eeca1db4ac02f1fb1b984"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-452833",
+      "subject": "abbasid-craft",
+      "source": "met-452833",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/452833",
+      "accession": "1977.126",
+      "date": {
+        "start": 900,
+        "end": 999,
+        "label": "10th century",
+        "precision": "range",
+        "note": "Catalogue wording retained. Numeric bounds are museum search envelopes, not exact production dates."
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Gift of Edwin Binney 3rd and Purchase, Richard S. Perkins Gift, 1977. 1977.126.",
+      "alt": "Cream-colored shallow bowl painted in metallic brown with a seated figure and two birds.",
+      "relevance": "Technique, imagery and the diversity of settings within Islamic art.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/452833-0.webp",
+          "width": 1415,
+          "height": 1600,
+          "sha256": "198668bf94dc85ecd49ef404583c9e81093ca727125fa1180b3fd07918ab71ea"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/452833-thumb.webp",
+          "width": 425,
+          "height": 480,
+          "sha256": "3ac8f8a4aa01f3e744efe407fb0c3456ab61ee71168f19520d1254c8c761a6ff"
+        },
+        {
+          "role": "alternate",
+          "path": "/atlas/media/452833-1.webp",
+          "width": 1591,
+          "height": 1506,
+          "sha256": "7d37a991c5e64d76a12b445a08b8e56a700b10bfaabb1fdc303d6e7ab8ee9970"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-44800",
+      "subject": "tang-city",
+      "source": "met-44800",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/44800",
+      "accession": "1978.345",
+      "date": {
+        "start": 634,
+        "end": 799,
+        "label": "7th–8th century",
+        "precision": "range",
+        "note": "Catalogue wording retained. Numeric bounds are museum search envelopes, not exact production dates."
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Anonymous Gift, in memory of Louise G. Dillingham, 1978. 1978.345.",
+      "alt": "Standing painted earthenware woman in a long robe with hands held in front of her.",
+      "relevance": "Elite burial representation and limits of biography.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/44800-0.webp",
+          "width": 1200,
+          "height": 1600,
+          "sha256": "90f4098f14b8dea6cdfcd5ba9c2d8b17960bd8e114b9740b55520e2b50d4aecc"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/44800-thumb.webp",
+          "width": 360,
+          "height": 480,
+          "sha256": "58df13ad3b2b09f7d62e1af785bc69b9d3e7bca789ded4387a5ab6b24329e355"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-316711",
+      "subject": "maya-vessel",
+      "source": "met-316711",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/316711",
+      "accession": "1992.4",
+      "date": {
+        "start": 600,
+        "end": 800,
+        "label": "7th–8th century",
+        "precision": "range",
+        "note": "Catalogue wording retained. Numeric bounds are museum search envelopes, not exact production dates."
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Purchase, Joseph Pulitzer Bequest, 1992. 1992.4.",
+      "alt": "Tall ceramic vessel with incised seated ruler, hieroglyphic text and supernatural imagery.",
+      "relevance": "Food, ownership, rank and uncertain regional attribution.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/316711-0.webp",
+          "width": 1369,
+          "height": 1600,
+          "sha256": "fff24c9a7d09889ac55ffac07bd19d35ed79c1169f1a423307d48356710264f3"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/316711-thumb.webp",
+          "width": 410,
+          "height": 480,
+          "sha256": "1e01631cbf0c716755f1645cc5417633a4f5bd01e1b5538dd04ab8ff97ffc3f1"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-314362",
+      "subject": "middle-niger",
+      "source": "met-314362",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/314362",
+      "accession": "1981.218",
+      "date": {
+        "start": 1200,
+        "end": 1300,
+        "label": "13th century",
+        "precision": "range",
+        "note": "Catalogue wording retained. Numeric bounds are museum search envelopes, not exact production dates."
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Purchase, Buckeye Trust and Mr. and Mrs. Milton F. Rosenthal Gifts, Joseph Pulitzer Bequest and Harris Brisbane Dick and Rogers Funds, 1981. 1981.218.",
+      "alt": "Terracotta seated person curled around one raised knee with the head resting sideways.",
+      "relevance": "Skilled modeling, uncertain meaning and urbanism beyond a single state model.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/314362-0.webp",
+          "width": 1600,
+          "height": 1280,
+          "sha256": "26a72edc1a3671787a16794e5937a341791797411c27491ca51c3957a35fc409"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/314362-thumb.webp",
+          "width": 480,
+          "height": 384,
+          "sha256": "56ef6b858a7f24a735f84b8decb23c518ace1075c1e43acdd4e153152ef8d62a"
+        },
+        {
+          "role": "alternate",
+          "path": "/atlas/media/314362-1.webp",
+          "width": 1600,
+          "height": 1280,
+          "sha256": "f9e314bd55b249833420bcfbde01eaaee98fe53ffed06b0ef3e1b715731ed98b"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-42455",
+      "subject": "song-art",
+      "source": "met-42455",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/42455",
+      "accession": "91.1.226",
+      "date": {
+        "start": 1000,
+        "end": 1199,
+        "label": "11th–12th century",
+        "precision": "range",
+        "note": "Catalogue wording retained. Numeric bounds are museum search envelopes, not exact production dates."
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Edward C. Moore Collection, Bequest of Edward C. Moore, 1891. 91.1.226.",
+      "alt": "Dark round tea bowl with a narrow elliptical view into its interior and fine brown streaks across the visible outer glaze.",
+      "relevance": "Craft at the scale of a hand-held object within broader artistic and political histories.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/42455-0.webp",
+          "width": 1600,
+          "height": 1201,
+          "sha256": "237b43ebfb97f7108bd690a5271c0a5f0aef7011285259b227aee3cf1ad8ceb4"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/42455-thumb.webp",
+          "width": 480,
+          "height": 360,
+          "sha256": "72592607d65258425c8ccb669a073dfcd052defee58edbe62ae77b9605b70857"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-313152",
+      "subject": "inca-weaving",
+      "source": "met-313152",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/313152",
+      "accession": "1979.206.954",
+      "date": {
+        "start": 1450,
+        "end": 1550,
+        "label": "1450–1550",
+        "precision": "range",
+        "note": "Catalogue wording retained. Numeric bounds are museum search envelopes, not exact production dates."
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. The Michael C. Rockefeller Memorial Collection, Bequest of Nelson A. Rockefeller, 1979. 1979.206.954.",
+      "alt": "Wide tunic with a central neck opening, red and gold jagged bands against dark cloth, and contrasting black and pale areas toward the fringed bottom edge.",
+      "relevance": "Skilled work, regional comparison and chronology crossing a political rupture.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/313152-0.webp",
+          "width": 1600,
+          "height": 1200,
+          "sha256": "9ddc5a140610cb66ea44cdf0dc27711bd6a84be9bdea4233d101069ddf0789b4"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/313152-thumb.webp",
+          "width": 480,
+          "height": 360,
+          "sha256": "2d366b204e0ebf5b575c70d09190b27d32a5d03ed663d416a52b43b7b670522b"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "loc-hine",
+      "subject": "hine-labor",
+      "source": "hine",
+      "catalogueURL": "https://www.loc.gov/item/2018674890/",
+      "accession": "2018674890",
+      "date": {
+        "start": 1908,
+        "end": 1908,
+        "label": "3 December 1908",
+        "precision": "exact",
+        "note": "Hine’s caption card dates the photograph to 3 December 1908."
+      },
+      "depiction": "contemporary document",
+      "datingNote": null,
+      "rightsAsRecorded": "Library of Congress records no known restrictions on publication. The National Child Labor Committee placed no restrictions on use of the Hine material when donating the collection.",
+      "creditAsRecorded": "Lewis Wickes Hine. National Child Labor Committee collection, Library of Congress, Prints and Photographs Division. Hine 358; LC-DIG-nclc-01451.",
+      "alt": "A young girl stands beside a long row of spinning machinery in a cotton mill.",
+      "relevance": "Work, reform and the different evidentiary roles of a photograph and its caption.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/loc-hine.webp",
+          "width": 1024,
+          "height": 729,
+          "sha256": "916ac6748db7d5458738c5ef2e66ebd093e5e1076bfbfd1588ee8c9618a32c49"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/loc-hine-thumb.webp",
+          "width": 480,
+          "height": 342,
+          "sha256": "e94054c7d2a3437d020fa2cb2246583c68b90b71254aaa82b4acf100dae592da"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "loc-war-poster",
+      "subject": "world-war-one",
+      "source": "war-poster",
+      "catalogueURL": "https://www.loc.gov/item/2002708941/",
+      "accession": "2002708941",
+      "date": {
+        "start": 1917,
+        "end": 1917,
+        "label": "[1917]",
+        "precision": "approximate",
+        "note": "The Library of Congress supplies the year in brackets. The imprint gives no exact date."
+      },
+      "depiction": "contemporary document",
+      "datingNote": null,
+      "rightsAsRecorded": "Library of Congress records no known restrictions on publication for this U.S. World War I poster.",
+      "creditAsRecorded": "Library of Congress, Prints and Photographs Division. LC-USZC4-9547; item 2002708941.",
+      "alt": "Liberty presents a sword marked Service to a younger woman; a shield names State and National Councils of Defense.",
+      "relevance": "Mass mobilization, persuasion and the limits of a public appeal.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/loc-war-poster.webp",
+          "width": 511,
+          "height": 640,
+          "sha256": "7d007034cfb68629bb92da93e60474923a49ffdaab89bd869a0865b8ed0262ab"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/loc-war-poster-thumb.webp",
+          "width": 383,
+          "height": 480,
+          "sha256": "98a1c7f8029c4b679d7d24fef341783545e2663a7383ab105b44365cbe0fffd3"
+        }
+      ],
+      "flags": [
+        "Longest display dimension below 800 px; inspect the task at its intended size or use a transcription."
+      ]
+    },
+    {
+      "id": "pp-cooking-objects",
+      "subject": "poverty-point",
+      "source": "pp-gibson",
+      "catalogueURL": "https://www.gutenberg.org/cache/epub/62948/pg62948-images.html",
+      "accession": "Gibson, Anthropological Study 7, Figure 10",
+      "date": {
+        "start": null,
+        "end": null,
+        "label": "Individual objects undated",
+        "precision": "unknown",
+        "note": "The 1985 publication identifies these as Poverty Point heating objects but supplies no individual accession or production date. They are contextual examples, not objects securely assigned to one year of the main site."
+      },
+      "depiction": "object photograph",
+      "datingNote": "The 1985 publication identifies these as Poverty Point heating objects but supplies no individual accession or production date. They are contextual examples, not objects securely assigned to one year of the main site.",
+      "rightsAsRecorded": "Public domain in the USA according to Project Gutenberg ebook 62948; photograph credit retained",
+      "creditAsRecorded": "Brian Cockerham, Figure 10 in Jon L. Gibson, Poverty Point: A Culture of the Lower Mississippi Valley, corrected printing 1985. Louisiana Archaeological Survey and Antiquities Commission; digital edition Project Gutenberg, public domain in the USA.",
+      "alt": "Six differently shaped baked-earth objects, including grooved cylinders and pointed oval forms, shown in an archaeological publication.",
+      "relevance": "Connects domestic work and experimental archaeology to Poverty Point’s monumental landscape.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/pp-cooking-objects-0.webp",
+          "width": 1200,
+          "height": 721,
+          "sha256": "069a24888ea521bd9001fc884fa5b434f141269c774205da2ad6d47b5977bdab"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/pp-cooking-objects-thumb.webp",
+          "width": 480,
+          "height": 288,
+          "sha256": "f2a6463cb96f900d2ec0e8859311e66a6dcd245bf63675dce26d41d4fee48876"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "hopewell-restored-mound",
+      "subject": "hopewell-earthworks",
+      "source": "hopewell-nps-photo",
+      "catalogueURL": "https://www.nps.gov/media/photo/gallery-item.htm?gid=9C9CFD95-D0C6-48A1-899B-A6F9C81D6BB5&id=d829d8d4-bdb5-458d-bb2b-f849817b20a0",
+      "accession": "NPS asset d829d8d4-bdb5-458d-bb2b-f849817b20a0",
+      "date": {
+        "start": 2013,
+        "end": 2013,
+        "label": "11 January 2013 photograph",
+        "precision": "exact",
+        "note": "NPS gallery ImageCreateDate identifies 11 January 2013. Visible earthworks are modern restorations of an ancient ceremonial complex."
+      },
+      "depiction": "later depiction",
+      "datingNote": "NPS gallery ImageCreateDate identifies 11 January 2013. Visible earthworks are modern restorations of an ancient ceremonial complex.",
+      "rightsAsRecorded": "U.S. Government work; public domain in the United States (NPS credit and ownership policy)",
+      "creditAsRecorded": "National Park Service, gallery asset d829d8d4-bdb5-458d-bb2b-f849817b20a0. Metadata: Public domain; GrantingRights Full; ImageCreateDate 11 January 2013. No protection claimed in original U.S. Government works.",
+      "alt": "Winter view across Mound City Group, with trees and an earthen embankment in the foreground and restored mounds beyond.",
+      "relevance": "Makes reconstruction and archaeological inference visible rather than presenting a restored landscape as untouched.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/hopewell-restored-mound-0.webp",
+          "width": 1600,
+          "height": 1200,
+          "sha256": "b100a3803315bfee0f2568080401186e1836ec7c7d7bf45f4a4f06bfb71c1c82"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/hopewell-restored-mound-thumb.webp",
+          "width": 480,
+          "height": 360,
+          "sha256": "bbe56f97e19a9bb7db9accd71a38c40c748a8a59ad6e3757d07c51737b5127ec"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "hopewell-survey-1848",
+      "subject": "hopewell-earthworks",
+      "source": "hopewell-moundgroup",
+      "catalogueURL": "https://www.nps.gov/hocu/learn/historyculture/hopewell-mound-group.htm",
+      "accession": "Squier and Davis, 1848; NPS reproduction HMG-SD-500.jpg",
+      "date": {
+        "start": 1848,
+        "end": 1848,
+        "label": "Published 1848",
+        "precision": "exact",
+        "note": "Publication date of a later archaeological survey, not the date of earthwork construction."
+      },
+      "depiction": "later depiction",
+      "datingNote": "Publication date of a later archaeological survey, not the date of earthwork construction.",
+      "rightsAsRecorded": "Public domain; original survey published in the United States in 1848",
+      "creditAsRecorded": "E. G. Squier and E. H. Davis, Ancient Monuments of the Mississippi Valley (1848), reproduced by the National Park Service. Original publication is public domain.",
+      "alt": "Nineteenth-century survey plan showing a large enclosure, a smaller square, circular features and mounds at Hopewell Mound Group.",
+      "relevance": "Supports comparison of archaeological documentation with a restored landscape.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/hopewell-survey-1848-0.webp",
+          "width": 500,
+          "height": 342,
+          "sha256": "bfde620a55f53a3cd5d11ecccec4e1f94d34dc0f4f8373aa52b57501166841dc"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/hopewell-survey-1848-thumb.webp",
+          "width": 480,
+          "height": 328,
+          "sha256": "05b49aefe5e27a2be0a4b5b669b0351eb1c6756b7ec1d4aaaac4182e42bd3ec6"
+        }
+      ],
+      "flags": [
+        "Longest display dimension below 800 px; inspect the task at its intended size or use a transcription."
+      ]
+    },
+    {
+      "id": "chaco-corner-door",
+      "subject": "chaco-communities",
+      "source": "chaco-nps-photo",
+      "catalogueURL": "https://www.nps.gov/chcu/planyourvisit/placestogo.htm",
+      "accession": "NPS Pueblo-Bonito_1.jpg",
+      "date": {
+        "start": null,
+        "end": null,
+        "label": "Modern photograph; exposure date not supplied",
+        "precision": "unknown",
+        "note": "No photographic date is given. NPS dates the selected construction context to about 850–1150 CE; this is a view of surviving masonry, not a reconstruction of an occupied building."
+      },
+      "depiction": "later depiction",
+      "datingNote": "No photographic date is given. NPS dates the selected construction context to about 850–1150 CE; this is a view of surviving masonry, not a reconstruction of an occupied building.",
+      "rightsAsRecorded": "U.S. Government work; public domain in the United States (NPS Photo credit and ownership policy)",
+      "creditAsRecorded": "National Park Service, Places To Go, Chaco Culture National Historical Park. Caption identifies a corner doorway at Pueblo Bonito. No protection claimed in original U.S. Government works.",
+      "alt": "Surviving layered stone walls and a corner doorway at Pueblo Bonito, with exposed wooden beams.",
+      "relevance": "Opens questions about construction work, preservation and the limits of a visitor’s view.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/chaco-corner-door-0.webp",
+          "width": 1600,
+          "height": 1200,
+          "sha256": "3bd3e966a7713171b4e9b75a08d954c67ff8a31e8e829e77f30d8947a0199e07"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/chaco-corner-door-thumb.webp",
+          "width": 480,
+          "height": 360,
+          "sha256": "deecb488ec25556288b0ab85c24db4fb1532815ebb126f5c9115e003429fd835"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "cahokia-view-1907",
+      "subject": "cahokia-city",
+      "source": "cahokia-loc-1907",
+      "catalogueURL": "https://www.loc.gov/pictures/item/97505973/",
+      "accession": "Library of Congress 97505973; LC-USZ62-118522",
+      "date": {
+        "start": 1907,
+        "end": 1907,
+        "label": "1907 photomechanical print",
+        "precision": "exact",
+        "note": "The catalogue dates the print c1907 and its title names 16 October 1907. This is later documentation, not a picture of the occupied medieval city."
+      },
+      "depiction": "later depiction",
+      "datingNote": "The catalogue dates the print c1907 and its title names 16 October 1907. This is later documentation, not a picture of the occupied medieval city.",
+      "rightsAsRecorded": "Public domain in the United States: U.S. photomechanical print published/copyrighted in 1907; original copyright has expired",
+      "creditAsRecorded": "Library of Congress, Prints and Photographs Division, LOT 3889; LC-USZ62-118522. Original credited to National Photographic Library, c1907.",
+      "alt": "Historic black-and-white view of the large Cahokia mound in a much later open landscape.",
+      "relevance": "Distinguishes later documentation from evidence of an occupied city.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/cahokia-view-1907-0.webp",
+          "width": 1024,
+          "height": 820,
+          "sha256": "edeb9c52c3d2ca260ea4383042023f157df9e0ee335b349584e248b90d723fa1"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/cahokia-view-1907-thumb.webp",
+          "width": 480,
+          "height": 384,
+          "sha256": "0ffa0ec95caaf486629f92c1734669a25e7c4bf4e7eaedd9832e70ebf845f009"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-451490",
+      "subject": "ottoman-workshops",
+      "source": "met-451490",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/451490",
+      "accession": "59.69.1",
+      "date": {
+        "start": 1575,
+        "end": 1590,
+        "label": "ca. 1575–90",
+        "precision": "range",
+        "note": "Visible catalogue wording used instead of the API’s wider search envelope. Approximate production range, not exact manufacture dates."
+      },
+      "depiction": "object photograph",
+      "datingNote": "Museum API envelopes are wider; the visible catalogue dates are retained.",
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Gift of James J. Rorimer in appreciation of Maurice S. Dimand's curatorship, 1933–1959, 1959. 59.69.1.",
+      "alt": "Round Iznik dish with two small birds among blue, red and green flowering stems.",
+      "relevance": "Connects skilled ceramic work with both courtly tastes and wider markets.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/met-451490-0.webp",
+          "width": 1600,
+          "height": 1600,
+          "sha256": "16143595b140a1824e2a72e6aab10a781c5d295c136f3303effc6ee7fa22674e"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/met-451490-thumb.webp",
+          "width": 480,
+          "height": 480,
+          "sha256": "83a8417ab1f5072eb4cc1e62b1a3cedd3a562a402dde163b3c104d4a6baee310"
+        },
+        {
+          "role": "alternate",
+          "path": "/atlas/media/met-451490-1.webp",
+          "width": 1600,
+          "height": 1600,
+          "sha256": "2918bf1c7cb20ec58321b593863a57a0b70e14bb7a49b27791865ecbffc5fa59"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-449533",
+      "subject": "ottoman-workshops",
+      "source": "met-449533",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/449533",
+      "accession": "38.149.1",
+      "date": {
+        "start": 1555,
+        "end": 1560,
+        "label": "ca. 1555–60",
+        "precision": "range",
+        "note": "Visible catalogue wording used instead of the API’s wider search envelope. Approximate production range, not exact manufacture dates."
+      },
+      "depiction": "object photograph",
+      "datingNote": "Museum API envelopes are wider; the visible catalogue dates are retained.",
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Rogers Fund, 1938. 38.149.1.",
+      "alt": "Gold and blue calligraphic tughra with three tall shafts and looping lines filled with floral ornament.",
+      "relevance": "Makes administration, specialist labor and representation of sovereignty comparable.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/met-449533-0.webp",
+          "width": 1600,
+          "height": 1291,
+          "sha256": "57a41bb90eb4899134d882c8d9540abd72225b7bff34d8284cbc3def57971445"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/met-449533-thumb.webp",
+          "width": 480,
+          "height": 388,
+          "sha256": "c609196fdadaad32d90d614bf4bf41ab352ce9c19c0584c389bea41e06637a0a"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-451028",
+      "subject": "isfahan-silk",
+      "source": "met-451028",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/451028",
+      "accession": "50.190.5",
+      "date": {
+        "start": 1601,
+        "end": 1700,
+        "label": "17th century",
+        "precision": "range",
+        "note": "Numeric bounds expand the visible catalogue’s seventeenth-century label (1601–1700); no particular production year is established."
+      },
+      "depiction": "object photograph",
+      "datingNote": "Numeric bounds expand the visible catalogue’s seventeenth-century label (1601–1700); no particular production year is established.",
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Gift of John D. Rockefeller Jr., 1950. 50.190.5.",
+      "alt": "Long silk carpet with repeating curving floral forms and pale metallic areas on a colored field.",
+      "relevance": "Links craft, export markets and the need to check inherited attribution.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/met-451028-0.webp",
+          "width": 757,
+          "height": 1600,
+          "sha256": "abfe9c93a8e647fe11c967e2e359b354d6b2c50128fc2ecd2ad3a0d737da6f3b"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/met-451028-thumb.webp",
+          "width": 227,
+          "height": 480,
+          "sha256": "207b60a084ab51b9404c45015b3b5339bb3f7a9560aec9e74affa60fc380d39f"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-452671",
+      "subject": "bukhara-books",
+      "source": "met-452671",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/452671",
+      "accession": "1974.294.3",
+      "date": {
+        "start": 1525,
+        "end": 1535,
+        "label": "ca. 1525–35",
+        "precision": "range",
+        "note": "Visible catalogue wording used instead of the API’s wider search envelope. Approximate production range, not exact manufacture dates."
+      },
+      "depiction": "object photograph",
+      "datingNote": "Museum API envelopes are wider; the visible catalogue dates are retained.",
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Purchase, Louis V. Bell Fund and The Vincent Astor Foundation Gift, 1974. 1974.294.3.",
+      "alt": "Painted interior reception with seated and standing figures among richly patterned textiles and architecture.",
+      "relevance": "Makes staged book production and qualified geographic attribution visible.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/met-452671-0.webp",
+          "width": 1066,
+          "height": 1600,
+          "sha256": "c717538d4bdfdc16fef6b4c7191d85e16f5b4859d52f052a35e26eb0ff093f32"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/met-452671-thumb.webp",
+          "width": 320,
+          "height": 480,
+          "sha256": "7f5bb37324399d431708b7679bb173489cf4d7bdd731feec4e119816ddb4dcb1"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-681122",
+      "subject": "zand-iran",
+      "source": "met-681122",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/681122",
+      "accession": "2015.252a–c",
+      "date": {
+        "start": 1789,
+        "end": 1789,
+        "label": "dated 1204 AH/1789 CE",
+        "precision": "range",
+        "note": "Catalogue production range; not the date when every represented event occurred."
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Purchase, Goldman Sachs Gift, 2015. 2015.252a–c.",
+      "alt": "Bird-and-flower decorated case shown with its mirror exposed and a fitted drawer partly extended.",
+      "relevance": "Carries material and artistic history into the later eighteenth century without extending a dynasty or inventing a maker’s itinerary.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/met-681122-0.webp",
+          "width": 1600,
+          "height": 1280,
+          "sha256": "7f5a33ae427d19ff20ff74bd8c10949600cc2a0a62f7fa6c1b2deb8e979f08c8"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/met-681122-thumb.webp",
+          "width": 480,
+          "height": 384,
+          "sha256": "063e481f43ee1b15a3eb69fc2135c26a4abe4a78bf8631547eb7c89073428f2b"
+        },
+        {
+          "role": "alternate",
+          "path": "/atlas/media/met-681122-1.webp",
+          "width": 1104,
+          "height": 1600,
+          "sha256": "f7d6ad62b6314ff172e85e79adefc725c05dd1e6cd2a450332e08899d5572716"
+        },
+        {
+          "role": "alternate",
+          "path": "/atlas/media/met-681122-2.webp",
+          "width": 1091,
+          "height": 1600,
+          "sha256": "707c1d47b9196e18c6c884f64d8b1b680d3f45b9b086f1d9f031d4ac4a6d8529"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-717577",
+      "subject": "bering-sea-carvers",
+      "source": "met-717577",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/717577",
+      "accession": "2019.456.17",
+      "date": {
+        "start": 300,
+        "end": 500,
+        "label": "300–500 CE",
+        "precision": "range",
+        "note": "Catalogue production range; not the date when every represented event occurred."
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. The Charles and Valerie Diker Collection of Native American Art, Gift of Charles and Valerie Diker, 2019. 2019.456.17.",
+      "alt": "Carved ivory harpoon counterweight with a central upright fitting and curved, engraved arms.",
+      "relevance": "Joins material skill, practical function and the difference between an object attribution and regional dating.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/met-717577-0.webp",
+          "width": 1600,
+          "height": 1182,
+          "sha256": "1bf00a3b74277408321926f39726aea60ecf5b7a8860f69aaa18947fb01dfc5a"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/met-717577-thumb.webp",
+          "width": 480,
+          "height": 354,
+          "sha256": "60e7fd6f89267eeda5baacf3a6527048615879b848d55e08915dba22f6befda6"
+        },
+        {
+          "role": "alternate",
+          "path": "/atlas/media/met-717577-1.webp",
+          "width": 1600,
+          "height": 1016,
+          "sha256": "a043c6888d8e430925394121b269bb45db5050d037f3787ba3e58ec16bba489b"
+        },
+        {
+          "role": "alternate",
+          "path": "/atlas/media/met-717577-2.webp",
+          "width": 1600,
+          "height": 1200,
+          "sha256": "d27ffea7c0b02e5b060a5e1bb6a46a6b8f76596c72d0e4a0521eef2777b5d77c"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "inuinnait-plate-1922",
+      "subject": "inuinnait-sewing",
+      "source": "jenness-1922",
+      "catalogueURL": "https://archive.org/details/lifeofcoppereski00jenn",
+      "accession": "Jenness 1922, frontispiece Plate I; digital PDF page 8",
+      "date": {
+        "start": 1922,
+        "end": 1922,
+        "label": "Photograph published 1922; exact exposure undated",
+        "precision": "exact",
+        "note": "Publication date of the report. The title page names Southern Party 1913–16; the plate does not independently date its exposure."
+      },
+      "depiction": "contemporary document",
+      "datingNote": "Publication date of the report. The title page names Southern Party 1913–16; the plate does not independently date its exposure.",
+      "rightsAsRecorded": "Public domain in the United States (published 1922); historic Canadian government publication, expired Crown term",
+      "creditAsRecorded": "Canadian Arctic Expedition, in Diamond Jenness, 1922, vol. XII, frontispiece Plate I. Ottawa: F.A.Acland, Printer to the King. Internet Archive scan.",
+      "alt": "Historic printed photograph of Ikpakhuak and Higilak standing in patterned fur clothing, with the original caption naming them and describing dancing costume.",
+      "relevance": "Makes named people, clothing, documentary dates and the limits of expedition observation inspectable.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/inuinnait-plate-1922-0.webp",
+          "width": 997,
+          "height": 1600,
+          "sha256": "470d456ca2798aced4e5bcac14c9e89ba5609c85153fbcec566618646f7b0351"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/inuinnait-plate-1922-thumb.webp",
+          "width": 299,
+          "height": 480,
+          "sha256": "060ed024491d787044afc3dc92d1746b3da9db5ce330a738d074c06e6657e3d5"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "makah-loc-1910",
+      "subject": "ozette-makah",
+      "source": "makah-loc",
+      "catalogueURL": "https://www.loc.gov/item/94501684/",
+      "accession": "LOC 94501684; LC-USZ62-109749",
+      "date": {
+        "start": 1910,
+        "end": 1911,
+        "label": "c. 1910 photograph; copyright 1911",
+        "precision": "approximate",
+        "note": "Catalogue gives c. 1910, c. 1911 and original copyright credit. The question mark on Neah Bay is retained."
+      },
+      "depiction": "later depiction",
+      "datingNote": "Catalogue gives c. 1910, c. 1911 and original copyright credit. The question mark on Neah Bay is retained.",
+      "rightsAsRecorded": "Public domain in the United States: original U.S. photograph published/copyrighted 1910–1911; copyright expired",
+      "creditAsRecorded": "Asahel Curtis, c. 1910/copyright 1911. Library of Congress, Prints and Photographs Division, LOT 12766; LC-USZ62-109749.",
+      "alt": "Black-and-white archival photograph of Light House Joe holding a long pole beside a boat on a beach.",
+      "relevance": "Links a named archival person to the wider Makah context while preserving chronology and location limits.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/makah-loc-1910-0.webp",
+          "width": 1024,
+          "height": 814,
+          "sha256": "f200d372a0effd0feae5c03644e58a30b1aecd0462c4e5c53e645d92472dd489"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/makah-loc-1910-thumb.webp",
+          "width": 480,
+          "height": 382,
+          "sha256": "828ab96d7b686f748a9b8153e0cc9e7525dad83816cbd0b4b732498892b7017b"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "hsi-cliff-2005",
+      "subject": "blackfoot-bison",
+      "source": "hsi-image",
+      "catalogueURL": "https://commons.wikimedia.org/wiki/File:Head-Smashed-In.jpg",
+      "accession": "Commons: Head-Smashed-In.jpg",
+      "date": {
+        "start": 2005,
+        "end": 2005,
+        "label": "Photograph published online 2005",
+        "precision": "exact",
+        "note": "Own photograph uploaded 17 July 2005. Publication is known; an exact exposure date is not independently established."
+      },
+      "depiction": "later depiction",
+      "datingNote": "Own photograph uploaded 17 July 2005. Publication is known; an exact exposure date is not independently established.",
+      "rightsAsRecorded": "Creator’s worldwide public-domain dedication; original file page preserves the fallback unrestricted-use grant",
+      "creditAsRecorded": "UM, Head-Smashed-In.jpg, Wikimedia Commons, uploaded 17 July 2005; own photograph released to public domain.",
+      "alt": "Open prairie and a rocky cliff at Head-Smashed-In, seen from beside the escarpment.",
+      "relevance": "Gives a real geographic landscape while keeping the limits of visible surface evidence explicit.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/hsi-cliff-2005-0.webp",
+          "width": 1600,
+          "height": 1200,
+          "sha256": "4973c16776a30e3216e0c5dd6c6f16d176d76b626827f8c9076c4e96631e5c15"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/hsi-cliff-2005-thumb.webp",
+          "width": 480,
+          "height": 360,
+          "sha256": "dd0f672acbc2b5be3381151a4ccfc56c604a17058eaaafc7aac1616981895baa"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "knife-earthlodge",
+      "subject": "hidatsa-villages",
+      "source": "knife-women",
+      "catalogueURL": "https://www.nps.gov/articles/knri-hidatsa-women-earthlodges-cultural-landscape.htm",
+      "accession": "NPS EARTHLODGE-resized_1.jpg",
+      "date": {
+        "start": null,
+        "end": null,
+        "label": "Modern photograph; exposure date not supplied",
+        "precision": "unknown",
+        "note": "A photograph of an interpretive reconstruction, not an original 1600–1845 house. No exposure date is given."
+      },
+      "depiction": "later depiction",
+      "datingNote": "A photograph of an interpretive reconstruction, not an original 1600–1845 house. No exposure date is given.",
+      "rightsAsRecorded": "U.S. Government work; public domain in the United States (explicit NPS Photo credit and NPS ownership policy)",
+      "creditAsRecorded": "National Park Service, Hidatsa Women & Earthlodges of the Upper Missouri River; NPS Photo.",
+      "alt": "A dome-shaped reconstructed earthlodge covered in grass and sod, with a projecting timber-framed doorway.",
+      "relevance": "Makes reconstruction visible while linking architecture with women’s labor and authority.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/knife-earthlodge-0.webp",
+          "width": 650,
+          "height": 433,
+          "sha256": "f31adbccc6318faf86de0924e8d33e894826ee340da46c9e3abb1a95b3014d48"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/knife-earthlodge-thumb.webp",
+          "width": 480,
+          "height": 320,
+          "sha256": "c0a45554d6d6ecd7991b0ed303037c8a6adf84a76ed272d2494cbb138a5271de"
+        }
+      ],
+      "flags": [
+        "Longest display dimension below 800 px; inspect the task at its intended size or use a transcription."
+      ]
+    },
+    {
+      "id": "knife-garden-tools",
+      "subject": "hidatsa-villages",
+      "source": "knife-subsistence",
+      "catalogueURL": "https://www.nps.gov/articles/subsistence.htm",
+      "accession": "NPS teacher guide, hoe-and-digging-stick.jpg",
+      "date": {
+        "start": null,
+        "end": null,
+        "label": "Modern teaching illustration; creation date not supplied",
+        "precision": "unknown",
+        "note": "The institutional text describes tools made with wood and a bison scapula. This is not a dated excavated object photograph."
+      },
+      "depiction": "later depiction",
+      "datingNote": "The institutional text describes tools made with wood and a bison scapula. This is not a dated excavated object photograph.",
+      "rightsAsRecorded": "U.S. Government work; public domain in the United States (NPS credit and ownership policy)",
+      "creditAsRecorded": "National Park Service, Subsistence: Tribal Nutrition & Health; community-authored teacher guide. Source image credited NPS Photo, with alt text identifying illustration.",
+      "alt": "Teaching illustration showing a hoe with a bison shoulder blade attached to wood and a separate pointed digging stick.",
+      "relevance": "Connects bison materials with agriculture and distinguishes explanatory imagery from artifact evidence.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/knife-garden-tools-0.webp",
+          "width": 960,
+          "height": 940,
+          "sha256": "9886892e93082b4586c84a3c08919eaffe949998a1f44e19c698b795b291aed6"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/knife-garden-tools-thumb.webp",
+          "width": 480,
+          "height": 470,
+          "sha256": "57dd4ea2a6ba44d2e06132364bd6e5a0a94f516740e00f2828c6329be17dbb18"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "hunt-title-1921",
+      "subject": "kwakwakawakw-potlatch",
+      "source": "hunt-boas-1921",
+      "catalogueURL": "https://www.loc.gov/item/21020998/",
+      "accession": "LOC 21020998, part 2, p. V; scan 0013",
+      "date": {
+        "start": 1921,
+        "end": 1921,
+        "label": "Published 1921",
+        "precision": "exact",
+        "note": "Publication date from the volume title and catalogue; annual-report period 1913–14 is a separate date."
+      },
+      "depiction": "contemporary document",
+      "datingNote": "Publication date from the volume title and catalogue; annual-report period 1913–14 is a separate date.",
+      "rightsAsRecorded": "Public domain:1921 U.S. Government Printing Office publication; LOC identifies the book as free to use and reuse",
+      "creditAsRecorded": "George Hunt; Franz Boas, Ethnology of the Kwakiutl, 1921, part 2, p. V. Bureau of American Ethnology 35th Annual Report. Library of Congress.",
+      "alt": "Printed title page naming Ethnology of the Kwakiutl, based on data collected by George Hunt, by Franz Boas.",
+      "relevance": "Offers a genuine primary document for asking who records, credits and interprets community knowledge.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/hunt-title-1921-0.webp",
+          "width": 1009,
+          "height": 1600,
+          "sha256": "1331bab8068988b101217c1ece9acd0d801f43d1b378c8384cc847fcfe83e764"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/hunt-title-1921-thumb.webp",
+          "width": 303,
+          "height": 480,
+          "sha256": "308e3cb6a7d9d052489f877eb8b7cc829eeadda1222204aa9ac54fafd9a236a3"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "ocmulgee-floor",
+      "subject": "ocmulgee-council",
+      "source": "ocmu-floor-image",
+      "catalogueURL": "https://www.nps.gov/ocmu/index.htm",
+      "accession": "Earth Lodge floor, NPS image 3C79797E",
+      "date": {
+        "start": null,
+        "end": null,
+        "label": "Modern interior photograph; exposure undated",
+        "precision": "unknown",
+        "note": "NPS supplies no exposure date. The surviving archaeological clay and reconstructed shelter have different dates. Source is 526×339 pixels and is not enlarged."
+      },
+      "depiction": "object photograph",
+      "datingNote": "NPS supplies no exposure date. The surviving archaeological clay and reconstructed shelter have different dates. Source is 526×339 pixels and is not enlarged.",
+      "rightsAsRecorded": "U.S. Government work; public domain in the United States.",
+      "creditAsRecorded": "National Park Service, Ocmulgee Mounds image carousel, Earth Lodge floor. Source photograph 526×339; no upscaling.",
+      "alt": "Clay floor with a raised platform beneath reconstructed wooden supports and roof timbers.",
+      "relevance": "Allows close inspection of real surviving material while keeping restoration and dating claims separate.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/ocmulgee-floor-0.webp",
+          "width": 526,
+          "height": 339,
+          "sha256": "e52275bc59eb1f55c6c8c5bac75406b2fdf4ec2a493b60e66a10db1cd3d38899"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/ocmulgee-floor-thumb.webp",
+          "width": 480,
+          "height": 309,
+          "sha256": "3984693eeb667e7ecf21a0410e83e4e03462a5cd75fb975e82d6d73c1c38eaa4"
+        }
+      ],
+      "flags": [
+        "Longest display dimension below 800 px; inspect the task at its intended size or use a transcription."
+      ]
+    },
+    {
+      "id": "ocmulgee-exterior",
+      "subject": "ocmulgee-council",
+      "source": "ocmu-earthlodge",
+      "catalogueURL": "https://www.nps.gov/places/ocmulgee-mounds-earth-lodge.htm",
+      "accession": "NPS Earth Lodge place record; NPS/Martinson photograph",
+      "date": {
+        "start": null,
+        "end": null,
+        "label": "Modern reconstruction; photograph exposure undated",
+        "precision": "unknown",
+        "note": "The exterior shows reconstructed walls/roof, not an ancient photograph. Source supplies no exposure date."
+      },
+      "depiction": "later depiction",
+      "datingNote": "The exterior shows reconstructed walls/roof, not an ancient photograph. Source supplies no exposure date.",
+      "rightsAsRecorded": "U.S. Government work; public domain in the United States (explicit NPS/Martinson credit)",
+      "creditAsRecorded": "National Park Service / Martinson. Earth Lodge, Ocmulgee Mounds National Historical Park.",
+      "alt": "Grass-covered reconstructed Earthlodge with a wooden doorway and modern path.",
+      "relevance": "Makes restoration and surviving archaeological material separate parts of the inquiry.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/ocmulgee-exterior-0.webp",
+          "width": 1600,
+          "height": 900,
+          "sha256": "8ebdbc7d26215ec7ee11ce4d46687a1789038456674b74fcc657cefd86b57f99"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/ocmulgee-exterior-thumb.webp",
+          "width": 480,
+          "height": 270,
+          "sha256": "e93c1e7fce5d86633b5342f7e5016c6b150976a71cf4143bfbb78ac2675e47cf"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "laine-radiocarbon-2022",
+      "subject": "wendat-laine",
+      "source": "laine-chronology",
+      "catalogueURL": "https://doi.org/10.1017/RDC.2022.23",
+      "accession": "Manning and Birch 2022, Radiocarbon 64(2), Figure 2",
+      "date": {
+        "start": 2022,
+        "end": 2022,
+        "label": "Research figure published 2022; models an ancestral village",
+        "precision": "exact",
+        "note": "Modern research publication, not an ancient object or a new historical entry after 2000. Figure 2 precedes the paper’s additional constraints and preferred later model."
+      },
+      "depiction": "later depiction",
+      "datingNote": "Modern research publication, not an ancient object or a new historical entry after 2000. Figure 2 precedes the paper’s additional constraints and preferred later model.",
+      "rightsAsRecorded": "© The Authors 2022. Creative Commons Attribution 4.0 International (CC BY 4.0). Figure resized and converted to WebP without cropping.",
+      "creditAsRecorded": "Manning, Sturt W., and Jennifer Birch (2022), A Centennial Ambiguity, Radiocarbon 64(2):279–308, Figure 2. DOI 10.1017/RDC.2022.23. CC BY 4.0. Models use OxCal and IntCal20; original caption identifies input data.",
+      "alt": "Two panels of radiocarbon probability curves. The left groups samples by archaeological phase. The right treats the samples as one phase. Several rows show separate peaks near 1500 and 1600 CE.",
+      "relevance": "Provides authentic scientific source material for understanding uncertainty rather than decorating a fixed date.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/laine-radiocarbon-2022-0.webp",
+          "width": 1600,
+          "height": 1118,
+          "sha256": "8fa423a774c5548a33d6acfd2234d97c38c755a72e03a313f6856bac68c4e330"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/laine-radiocarbon-2022-thumb.webp",
+          "width": 480,
+          "height": 336,
+          "sha256": "d63bda9ad07cdaa3ed3f0dfdcdc8ec9cbbf66727b44aa8df34590801a148478a"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "canandaigua-ratification",
+      "subject": "haudenosaunee-canandaigua",
+      "source": "canandaigua-archive",
+      "catalogueURL": "https://digitreaties.org/treaties/treaty/12013172/",
+      "accession": "National Archives NAID 12013172; full recto, IDA PDF page 1",
+      "date": {
+        "start": 1795,
+        "end": 1795,
+        "label": "U.S. ratification instrument, 21 January 1795; incorporates treaty signed 11 November 1794",
+        "precision": "exact",
+        "note": "Displayed recto combines the treaty text/names/seals and later U.S. ratification. The treaty negotiation and this ratification are not the same date. Modern scan date is not supplied."
+      },
+      "depiction": "contemporary document",
+      "datingNote": "Displayed recto combines the treaty text/names/seals and later U.S. ratification. The treaty negotiation and this ratification are not the same date. Modern scan date is not supplied.",
+      "rightsAsRecorded": "Public domain: eighteenth-century U.S. federal document; faithful public archival reproduction",
+      "creditAsRecorded": "National Archives, Record Group 11, Ratified Indian Treaty 21, NAID 12013172. Digital scan provided through the Indigenous Digital Archive Treaties Explorer partnership.",
+      "alt": "Full manuscript recto with the treaty text, columns of names and red seals, followed by the U.S. ratification.",
+      "relevance": "Makes actual archival form available while distinguishing a document’s commitments from later enforcement.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/canandaigua-ratification-0.webp",
+          "width": 1021,
+          "height": 1600,
+          "sha256": "044e37c66e1efce3ad7df6700a3616ecf667416900a27cb9e4b61bae4a094d18"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/canandaigua-ratification-thumb.webp",
+          "width": 306,
+          "height": 480,
+          "sha256": "5381ba9c7138023e31c3a82b588c821cf80e8be79a1a14e428d8e2d3f2bc4df5"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "phoenix-april-1828",
+      "subject": "cherokee-print",
+      "source": "phoenix-photo",
+      "catalogueURL": "https://www.loc.gov/item/97512373/",
+      "accession": "LOC 97512373; LC-USZ62-115659; NPS reproduction",
+      "date": {
+        "start": 1828,
+        "end": 1828,
+        "label": "Original issue 10 April 1828; photographic reproduction undated",
+        "precision": "exact",
+        "note": "The masthead and LOC catalogue identify April 10, vol.1 no.8. It is not the first issue of February 21. The date belongs to the original newspaper, not the later reproduction."
+      },
+      "depiction": "contemporary document",
+      "datingNote": "The masthead and LOC catalogue identify April 10, vol.1 no.8. It is not the first issue of February 21. The date belongs to the original newspaper, not the later reproduction.",
+      "rightsAsRecorded": "Original 1828 publication copyright expired; LOC records no known restrictions on publication. Faithful photographic reproduction.",
+      "creditAsRecorded": "Cherokee Phoenix, New Echota, 10 April 1828, vol.1 no.8. Library of Congress 97512373, LC-USZ62-115659; reproduction from National Park Service, Preludes to the Trail of Tears.",
+      "alt": "Newspaper title portion with Cherokee characters, an eagle device, Cherokee Phoenix in English and the visible date April 10, 1828.",
+      "relevance": "Connects real bilingual print production with accurate issue identification and accessible textual evidence.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/phoenix-april-1828-0.webp",
+          "width": 650,
+          "height": 492,
+          "sha256": "0cbe68720c3cfcbcf335729b610125c8eca80623b285f885730cad434b6f4081"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/phoenix-april-1828-thumb.webp",
+          "width": 480,
+          "height": 363,
+          "sha256": "500f76e143203fd18db3df4fba82e8ea43a1183e07763d048c7417c40ebb9d9a"
+        }
+      ],
+      "flags": [
+        "Longest display dimension below 800 px; inspect the task at its intended size or use a transcription."
+      ]
+    },
+    {
+      "id": "rice-linde-1913",
+      "subject": "ojibwe-manoomin",
+      "source": "rice-linde",
+      "catalogueURL": "https://www.loc.gov/pictures/collection/cph/item/2020637524/",
+      "accession": "LOC 2020637524; LC-DIG-ds-14380",
+      "date": {
+        "start": 1913,
+        "end": 1913,
+        "label": "Photograph catalogued [1913]",
+        "precision": "approximate",
+        "note": "Bracketed institutional date; exact exposure date not independently established. Place and personal identity remain qualified."
+      },
+      "depiction": "contemporary document",
+      "datingNote": "Bracketed institutional date; exact exposure date not independently established. Place and personal identity remain qualified.",
+      "rightsAsRecorded": "Library of Congress rights advisory: No known restrictions on publication. This advisory is not a blanket guarantee of rights in every archive image.",
+      "creditAsRecorded": "Carl Gustave Linde, Wild rice, [1913]. Library of Congress Prints and Photographs Division, LOT 12880, LC-DIG-ds-14380.",
+      "alt": "A person in a canoe beside several other canoes among tall rice grasses; handwritten Wild Rice and Linde appear on the print.",
+      "relevance": "Connects a genuine historical photograph to community-led accounts while retaining archival uncertainty.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/rice-linde-1913-0.webp",
+          "width": 1024,
+          "height": 617,
+          "sha256": "1e52de44019b68878eb7df4d9c283d5c3eeb61ec15e3eb8cc30162b3fa476dbc"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/rice-linde-1913-thumb.webp",
+          "width": 480,
+          "height": 289,
+          "sha256": "76f89b458f97d5d42620f7dcfcb533fdafd48c4f5fbf411e881a7b8276ad8d6a"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "angkor-aster",
+      "subject": "angkor",
+      "source": "angkor-nasa",
+      "catalogueURL": "https://science.nasa.gov/earth/earth-observatory/angkor-ruins-4995/",
+      "accession": "Earth Observatory image 4995",
+      "date": {
+        "start": 2004,
+        "end": 2004,
+        "label": "17 February 2004",
+        "note": "Date of satellite acquisition, not of the structures visible in the image.",
+        "precision": "exact"
+      },
+      "depiction": "satellite image",
+      "datingNote": null,
+      "rightsAsRecorded": "NASA educational/informational media use; acknowledge the supplied credit. No endorsement implied.",
+      "creditAsRecorded": "NASA image by Jesse Allen, Earth Observatory, using data courtesy of NASA/GSFC/METI/ERSDAC/JAROS and the U.S./Japan ASTER Science Team.",
+      "alt": "Satellite view: a large dark rectangular reservoir lies west of a square enclosure; a smaller dark square lies south of it. Fields and settlements extend toward the lake at the bottom.",
+      "relevance": "Shows the relative positions and scale of water works, temple enclosures and a wider inhabited landscape.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/angkor-aster.webp",
+          "width": 1200,
+          "height": 1200,
+          "sha256": "2f5dc70eb00f9f1bdd398393968cbd43ffc237b6ee78cc4a6ebefeed57e3356f"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/angkor-aster-thumb.webp",
+          "width": 360,
+          "height": 360,
+          "sha256": "150fa71f8fdceaba0c43a1e34de723189ed0f821d61da28a1e2e5ede8dcea459"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "partition-punjab-map",
+      "subject": "partition-1947",
+      "source": "partition-map",
+      "catalogueURL": "https://www.nationalarchives.gov.uk/image/b87fc06c-fab5-4526-a1e9-1909a75bce84/",
+      "accession": "CO 1054/76",
+      "date": {
+        "start": 1947,
+        "end": 1947,
+        "label": "1947",
+        "note": "The archival map key dates the award to 17 August 1947. The atlas card refers to that document.",
+        "precision": "exact"
+      },
+      "depiction": "archive reference card",
+      "datingNote": null,
+      "rightsAsRecorded": "Chronos Atlas reference card. The archive requires Image Library permission for public reproduction of its scan. View the original at The National Archives.",
+      "creditAsRecorded": "Reference card by Chronos Atlas. Original map held by The National Archives, CO 1054/76.",
+      "alt": "Text reference card for the Punjab boundary map at The National Archives, CO 1054/76.",
+      "relevance": "Preserves a distinction between the boundary award and a competing territorial demand.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/partition-punjab-map.webp",
+          "width": 900,
+          "height": 679,
+          "sha256": "fea034707ac71d206ae46e7625f204953806dbe5f5df7d25b2ad1f3809722e03"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/partition-punjab-map-thumb.webp",
+          "width": 480,
+          "height": 362,
+          "sha256": "844b08242470da485e875c1b23101b29de2e4617864bb837285a76f89940bc76"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "partition-telegram",
+      "subject": "partition-1947",
+      "source": "partition",
+      "catalogueURL": "https://www.nationalarchives.gov.uk/education/teaching-resources/partition-of-british-india/",
+      "accession": "DO 142/416",
+      "date": {
+        "start": 1947,
+        "end": 1947,
+        "label": "23 September 1947",
+        "note": "The archival telegram was sent on 23 September and received on 24 September. The atlas card refers to that document.",
+        "precision": "exact"
+      },
+      "depiction": "archive reference card",
+      "datingNote": null,
+      "rightsAsRecorded": "Chronos Atlas reference card. View the scan at The National Archives. Its Crown text can be quoted under the Open Government Licence v3.0. Public reproduction of the scan requires separate permission.",
+      "creditAsRecorded": "Reference card by Chronos Atlas. Original telegram held by The National Archives, DO 142/416.",
+      "alt": "Text reference card for the telegram sent on 23 September 1947, The National Archives, DO 142/416.",
+      "relevance": "Time-specific evidence that displacement and attacks continued after the August ceremonies and boundary announcements.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/partition-telegram.webp",
+          "width": 546,
+          "height": 900,
+          "sha256": "56b5edca027899bc8e59868662d32a9e466077733175d18ae68a96673bf332da"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/partition-telegram-thumb.webp",
+          "width": 291,
+          "height": 480,
+          "sha256": "36f7691a2bc2fb9af3eea44ac24e39b26e88da4834c231cfcedf9bddf2532ecd"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "indonesia-proclamation",
+      "subject": "indonesia-independence",
+      "source": "indonesia-proclamation-image",
+      "catalogueURL": "https://commons.wikimedia.org/wiki/File:Proklamasi.png",
+      "accession": "Wikimedia Commons: Proklamasi.png; document dated 17 August 1945",
+      "date": {
+        "start": 1945,
+        "end": 1945,
+        "label": "17 August 1945",
+        "note": "Date of the represented proclamation. This digital facsimile is not the handwritten ANRI draft or a newly photographed original.",
+        "precision": "exact"
+      },
+      "depiction": "contemporary document",
+      "datingNote": null,
+      "rightsAsRecorded": "Wikimedia Commons identifies the government-issued proclamation as public domain in Indonesia under Article 43 of Law 28 of 2014.",
+      "creditAsRecorded": "Indonesian independence proclamation, via Wikimedia Commons. Converted to WebP at the original dimensions.",
+      "alt": "Short Indonesian text headed Proklamasi, with a Jakarta date and Sukarno and Hatta signatures beneath.",
+      "relevance": "An actual proclamation makes the difference between a political declaration and subsequent implementation visible.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/indonesia-proclamation.webp",
+          "width": 399,
+          "height": 268,
+          "sha256": "196b620a487ad55d25057a4b3a587d7004ed0fd0aaf0504f92d69293674588f8"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/indonesia-proclamation-thumb.webp",
+          "width": 399,
+          "height": 268,
+          "sha256": "c9a10f4fdab932e881dd2977c55557a2ea40de1d6d5caddb9e371adca7277ff0"
+        }
+      ],
+      "flags": [
+        "Longest display dimension below 800 px; inspect the task at its intended size or use a transcription."
+      ]
+    },
+    {
+      "id": "ghana-independence-stamp",
+      "subject": "ghana-independence",
+      "source": "ghana-stamp-image",
+      "catalogueURL": "https://commons.wikimedia.org/wiki/File:Ghana_Independence_overprint_on_Gold_Coast_1s_stamp_1957.jpg",
+      "accession": "Gold Coast 1-shilling stamp, Ghana independence overprint, 1957; Commons scan",
+      "date": {
+        "start": 1957,
+        "end": 1957,
+        "label": "Independence overprint, 6 March 1957",
+        "note": "Date announced by the overprint. The underlying Gold Coast design predates this change; digital scan uploaded in 2016.",
+        "precision": "exact"
+      },
+      "depiction": "contemporary document",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain: expired UK government Crown copyright, as recorded on the source file page.",
+      "creditAsRecorded": "British government postal issue; scan via Philafrenzy / Wikimedia Commons. Resized and converted to WebP; no design alteration.",
+      "alt": "Red Gold Coast stamp with Elizabeth II, people breaking cocoa pods, and black text reading Ghana Independence 6th March 1957.",
+      "relevance": "Layers on a single public object connect political change with continuing institutions and agricultural work.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/ghana-independence-stamp.webp",
+          "width": 611,
+          "height": 460,
+          "sha256": "1fbe8befcc7bf029c276cfa6d079d605049b9bbbef6dc9d35ef7fd998ab4960c"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/ghana-independence-stamp-thumb.webp",
+          "width": 480,
+          "height": 361,
+          "sha256": "f70fad979de166aa475f0407165031ca21333821d2629bd219b1de2f8b52b5b6"
+        }
+      ],
+      "flags": [
+        "Longest display dimension below 800 px; inspect the task at its intended size or use a transcription."
+      ]
+    },
+    {
+      "id": "mandela-voting",
+      "subject": "south-africa-rights",
+      "source": "sa-voting-image",
+      "catalogueURL": "https://commons.wikimedia.org/wiki/File:Mandela_voting_in_1994.jpg",
+      "accession": "Paul Weinberg election photograph; Commons permission record 2013062010004691",
+      "date": {
+        "start": 1994,
+        "end": 1994,
+        "label": "April 1994 election",
+        "note": "Photograph of the 1994 vote, not the 1996 constitution signing. The selected file record dates it to April 1994.",
+        "precision": "exact"
+      },
+      "depiction": "contemporary document",
+      "datingNote": null,
+      "rightsAsRecorded": "CC BY-SA 3.0. The derivative remains under the same licence.",
+      "creditAsRecorded": "© Paul Weinberg / Wikimedia Commons, CC BY-SA 3.0. Resized and converted to WebP; no cropping or content alteration.",
+      "alt": "Nelson Mandela smiles while lowering a ballot into a box, with other people behind him inside a polling room.",
+      "relevance": "A documented voting act introduces political participation and the separate work of making and enforcing a constitution.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/mandela-voting.webp",
+          "width": 538,
+          "height": 800,
+          "sha256": "da8bf4065c0cd49da9327199c2828c34175dfeb76a7d086bc4367bd759a292b5"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/mandela-voting-thumb.webp",
+          "width": 323,
+          "height": 480,
+          "sha256": "67b0d64c584e5f7d58f771ab4a4b641ba8afebddc599ccc5288485c0203ff939"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "uruk-accounting-diagram",
+      "subject": "uruk-accounts",
+      "source": "met-327384",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/327384",
+      "accession": "Chronos original teaching diagram, C1, 28 October 2026",
+      "date": {
+        "start": 2026,
+        "end": 2026,
+        "label": "Teaching diagram made 28 October 2026",
+        "note": "Modern explanatory diagram; represented ancient dates belong to the dossier and source records, not to the creation of this graphic.",
+        "precision": "exact"
+      },
+      "depiction": "explanatory diagram",
+      "datingNote": null,
+      "rightsAsRecorded": "CC BY 4.0; original artwork, no source figure reproduced.",
+      "creditAsRecorded": "Chronos / Codex, 2026. Original schematic; sources in dossier.",
+      "alt": "Modern diagram separates categories, quantities and a durable clay record; the final panel asks about people and work omitted. No ancient signs, numbers or translations are invented.",
+      "relevance": "Makes a mechanism or evidence distinction inspectable without presenting an imagined ancient scene as evidence.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/uruk-accounting-diagram.svg",
+          "width": 600,
+          "height": 780,
+          "sha256": "49db74c8c5286be4e16fce8e2e07f46b2a49b68dfe2553f03555fb9bd94820f5"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/uruk-accounting-diagram-thumb.webp",
+          "width": 300,
+          "height": 390,
+          "sha256": "76c5e6089f2b0a30eae13c964d618c4e46c569eed1d485e277f048b76ea675bf"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "dholavira-water-diagram",
+      "subject": "dholavira",
+      "source": "dholavira-plan",
+      "catalogueURL": "https://whc.unesco.org/document/189006",
+      "accession": "Chronos original teaching diagram, C1, 28 October 2026",
+      "date": {
+        "start": 2026,
+        "end": 2026,
+        "label": "Teaching diagram made 28 October 2026",
+        "note": "Modern explanatory diagram; represented ancient dates belong to the dossier and source records, not to the creation of this graphic.",
+        "precision": "exact"
+      },
+      "depiction": "explanatory diagram",
+      "datingNote": null,
+      "rightsAsRecorded": "CC BY 4.0; original artwork, no source figure reproduced.",
+      "creditAsRecorded": "Chronos / Codex, 2026. Original schematic; sources in dossier.",
+      "alt": "Solid boxes show the castle well and storm drain west of the East Reservoir, with South reservoirs below. A separate dashed note under the boxes describes a radar study east of the East Reservoir. Its proposed water structures await excavation. The figure combines phases and gives no scale or flow directions.",
+      "relevance": "Makes a mechanism or evidence distinction inspectable without presenting an imagined ancient scene as evidence.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/dholavira-water-diagram.svg",
+          "width": 600,
+          "height": 780,
+          "sha256": "6fb7374c2ceb4a7a7ea113bd7634ba5f56867ab70f83cbf1aafcbb91538866e0"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/dholavira-water-diagram-thumb.webp",
+          "width": 300,
+          "height": 390,
+          "sha256": "f633b6aae5bb563cc1176344bb346d80b08b25ecb140cb435fae430a7e812222"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "liangzhu-water-diagram",
+      "subject": "liangzhu",
+      "source": "liangzhu-hydraulics",
+      "catalogueURL": "https://www.pnas.org/doi/10.1073/pnas.1710516114",
+      "accession": "Chronos original teaching diagram, C1, 28 October 2026",
+      "date": {
+        "start": 2026,
+        "end": 2026,
+        "label": "Teaching diagram made 28 October 2026",
+        "note": "Modern explanatory diagram; represented ancient dates belong to the dossier and source records, not to the creation of this graphic.",
+        "precision": "exact"
+      },
+      "depiction": "explanatory diagram",
+      "datingNote": null,
+      "rightsAsRecorded": "CC BY 4.0; original artwork, no source figure reproduced.",
+      "creditAsRecorded": "Chronos / Codex, 2026. Original schematic; sources in dossier.",
+      "alt": "Concept diagram has three panels: grass-wrapped clay in dams, storage and channels, and rice production with movement of people and materials. A final question distinguishes practical coordination from evidence of household obligations. It is not a canal map.",
+      "relevance": "Makes a mechanism or evidence distinction inspectable without presenting an imagined ancient scene as evidence.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/liangzhu-water-diagram.svg",
+          "width": 600,
+          "height": 780,
+          "sha256": "f390a7235d419e24cc88d754406a3660c5de428ce354cef462fd2672f128b033"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/liangzhu-water-diagram-thumb.webp",
+          "width": 300,
+          "height": 390,
+          "sha256": "47a73b14326c004d5411f81c823b0d67826088420a36b281cb3efee1bd7d47cd"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "hattusha-evidence-diagram",
+      "subject": "hattusha-change",
+      "source": "hittite-drought",
+      "catalogueURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9946833/",
+      "accession": "Chronos original teaching diagram, C2, 28 October 2026",
+      "date": {
+        "start": 2026,
+        "end": 2026,
+        "label": "Teaching diagram made 28 October 2026",
+        "note": "Modern explanatory diagram. Represented ancient dates belong to the cited records, not the creation of this graphic.",
+        "precision": "exact"
+      },
+      "depiction": "explanatory diagram",
+      "datingNote": null,
+      "rightsAsRecorded": "CC BY 4.0; original artwork, no source figure reproduced.",
+      "creditAsRecorded": "Chronos / Codex, 2026. Original schematic; sources in dossier.",
+      "alt": "Three separate panels show the broad capital frame, Gordion timbers with a drought episode around 1198–1196 BCE plus or minus three years, and the political question. No measured climate series or automatic causal arrow is drawn.",
+      "relevance": "Distinguishes material evidence, analytical inference and unresolved historical questions without an invented ancient scene.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/hattusha-evidence-diagram.svg",
+          "width": 600,
+          "height": 780,
+          "sha256": "98b9f7d94b69bef1b49959c8b61d0bfe8c47085ef392b512680b9243bd1f7717"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/hattusha-evidence-diagram-thumb.webp",
+          "width": 300,
+          "height": 390,
+          "sha256": "44fe9ed8a3c59b8a6ab8c9b6df79d13e273154c083cb7d29bfc9f35882a2c8f6"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "uluburun-evidence-diagram",
+      "subject": "uluburun",
+      "source": "uluburun",
+      "catalogueURL": "https://nauticalarch.org/projects/uluburun-late-bronze-age-shipwreck-excavation/",
+      "accession": "Chronos original teaching diagram, C2, 28 October 2026",
+      "date": {
+        "start": 2026,
+        "end": 2026,
+        "label": "Teaching diagram made 28 October 2026",
+        "note": "Modern explanatory diagram. Represented ancient dates belong to the cited records, not the creation of this graphic.",
+        "precision": "exact"
+      },
+      "depiction": "explanatory diagram",
+      "datingNote": null,
+      "rightsAsRecorded": "CC BY 4.0; original artwork, no source figure reproduced.",
+      "creditAsRecorded": "Chronos / Codex, 2026. Original schematic; sources in dossier.",
+      "alt": "Solid panels identify the wreck off Kaş and recovered cargo/hull material. A dashed panel marks contested source assignments. A final panel leaves itinerary, ownership and crew identity unresolved. No route is drawn.",
+      "relevance": "Distinguishes material evidence, analytical inference and unresolved historical questions without an invented ancient scene.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/uluburun-evidence-diagram.svg",
+          "width": 600,
+          "height": 780,
+          "sha256": "52ba2e3189fb89cf08693c7e654bc47c2ae73d90e431a96bf013c62bc4646535"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/uluburun-evidence-diagram-thumb.webp",
+          "width": 300,
+          "height": 390,
+          "sha256": "aeed04b21315b04aa7c84de2ff148075328c69db421d31d960b7bc6eab3dab71"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "shang-practices-diagram",
+      "subject": "shang-ritual",
+      "source": "shang-zhou",
+      "catalogueURL": "https://www.metmuseum.org/essays/shang-and-zhou-dynasties-the-bronze-age-of-china",
+      "accession": "Chronos original teaching diagram, C2, 28 October 2026",
+      "date": {
+        "start": 2026,
+        "end": 2026,
+        "label": "Teaching diagram made 28 October 2026",
+        "note": "Modern explanatory diagram. Represented ancient dates belong to the cited records, not the creation of this graphic.",
+        "precision": "exact"
+      },
+      "depiction": "explanatory diagram",
+      "datingNote": null,
+      "rightsAsRecorded": "CC BY 4.0; original artwork, no source figure reproduced.",
+      "creditAsRecorded": "Chronos / Codex, 2026. Original schematic; sources in dossier.",
+      "alt": "Two labelled activities separate model, mold sections and core for a hollow casting from a divination topic, crack interpretation and possible recorded outcome. No ancient signs, certain symbolic meanings or specimen translation are invented.",
+      "relevance": "Distinguishes material evidence, analytical inference and unresolved historical questions without an invented ancient scene.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/shang-practices-diagram.svg",
+          "width": 600,
+          "height": 780,
+          "sha256": "8fb92634345c1e229a3da6d45aaa912b7ff719c617e00e3ef20c8263efc8e6a1"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/shang-practices-diagram-thumb.webp",
+          "width": 300,
+          "height": 390,
+          "sha256": "352e507c8b08b8db8525dde36ca97f26c6ffe93f443e6625df4c97f098a364bf"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-44781",
+      "subject": "shang-ritual",
+      "source": "met-44781",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/44781",
+      "accession": "43.25.4",
+      "date": {
+        "start": -1300,
+        "end": -1001,
+        "label": "13th–11th century BCE; attributed to the Shang period",
+        "note": "Numeric bounds are a century search envelope, not a production date in every included year. The museum separately assigns the vessel to the Shang period.",
+        "precision": "range"
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0)",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Rogers Fund, 1943. 43.25.4. WebP conversion only; no cropping or alteration.",
+      "alt": "Green-brown bronze pouring vessel with a raised spout, bird-shaped handle, an owl-like body and dense coiling animal designs.",
+      "relevance": "Connects skilled manufacture and ritual use with a specific object while retaining uncertain provenance.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/44781-0.webp",
+          "width": 1200,
+          "height": 900,
+          "sha256": "97a27cbd6394c438d17c3b29f1f78f08b8fdc190855892a3523443275805f915"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/44781-thumb.webp",
+          "width": 480,
+          "height": 360,
+          "sha256": "8c01249639c9dbdc0c58345a6a3aae4b0332c8238ddbcf76c27a6a379a6a2811"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "qin-records-diagram",
+      "subject": "qin-administration",
+      "source": "qin-practice",
+      "catalogueURL": "https://doi.org/10.1017/S0041977X23000228",
+      "accession": "Chronos original teaching diagram, C3, 28 October 2026",
+      "date": {
+        "start": 2026,
+        "end": 2026,
+        "label": "Teaching diagram made 28 October 2026",
+        "note": "Modern creation date, separate from the represented ancient evidence.",
+        "precision": "exact"
+      },
+      "depiction": "explanatory diagram",
+      "datingNote": null,
+      "rightsAsRecorded": "CC BY 4.0; original artwork, no source figure reproduced.",
+      "creditAsRecorded": "Chronos / Codex, 2026. Original guide; sources in dossier.",
+      "alt": "Separate panels distinguish measuring mass or volume, recording grain and responsibility, and comparing dimensions and required information. No invented ancient signs, quantities or full document translation.",
+      "relevance": "Connects the historical task with its surviving evidence and a specific limit.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/qin-records-diagram.svg",
+          "width": 600,
+          "height": 780,
+          "sha256": "4becb75aff62ae69c3afa266b82c0249769072a352bdfe1af770000461393302"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/qin-records-diagram-thumb.webp",
+          "width": 300,
+          "height": 390,
+          "sha256": "8d0f3d9675384e582c3a9510399288e27a2e29b690bc5c5734dfba651ed1c63e"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "ashoka-messages-diagram",
+      "subject": "ashoka-messages",
+      "source": "ashoka-edicts-1925",
+      "catalogueURL": "https://archive.org/details/InscriptionsOfAsoka.NewEditionByE.Hultzsch",
+      "accession": "Chronos original teaching diagram, C3, 28 October 2026",
+      "date": {
+        "start": 2026,
+        "end": 2026,
+        "label": "Teaching diagram made 28 October 2026",
+        "note": "Modern creation date, separate from the represented ancient evidence.",
+        "precision": "exact"
+      },
+      "depiction": "explanatory diagram",
+      "datingNote": null,
+      "rightsAsRecorded": "CC BY 4.0; original artwork, no source figure reproduced.",
+      "creditAsRecorded": "Chronos / Codex, 2026. Original guide; sources in dossier.",
+      "alt": "Three panels distinguish Girnar II on practical provision, Dhauli Separate I addressing judicial officials, and Greek/Aramaic material at Kandahar. These are different regional records, not a single translated text.",
+      "relevance": "Connects the historical task with its surviving evidence and a specific limit.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/ashoka-messages-diagram.svg",
+          "width": 600,
+          "height": 780,
+          "sha256": "95c286ef9c5bfa172e800c66b8c1645506cbb81bf7aba4e33338295310bc243c"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/ashoka-messages-diagram-thumb.webp",
+          "width": 300,
+          "height": 390,
+          "sha256": "c718bbec0b53463db4d6117a151f75e843197825cb498fc7dd2542c733eeed93"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "beta-samati-coins",
+      "subject": "aksum",
+      "source": "beta-samati",
+      "catalogueURL": "https://doi.org/10.15184/aqy.2019.84",
+      "accession": "Harrower et al. (2019), Figure 4; excavation Area A",
+      "date": {
+        "start": 2019,
+        "end": 2019,
+        "label": "Excavation figure published 2019",
+        "note": "Publication date of the modern figure, separate from the coins and their archaeological deposits.",
+        "precision": "exact"
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "CC BY 4.0; Figure 4 from Harrower et al., Antiquity 93 (2019), 1534–1552.",
+      "creditAsRecorded": "Figure by I. Dumitru, in M. J. Harrower et al., Antiquity 93 (2019), Figure 4. © Antiquity Publications Ltd 2019. CC BY 4.0.",
+      "alt": "Five columns of corroded coins on a dark background, with two views per column and a photographic scale below. The source identifies two Armah coins, an anonymous coin, a pre-Christian Ezana coin and an MHDYS coin from left to right.",
+      "relevance": "Provides an excavated Aksumite example for questions about coin types, object dates, deposition and local work. The Roman bottle remains a separate type comparison.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/beta-samati-coins.webp",
+          "width": 1583,
+          "height": 919,
+          "sha256": "fecb2825049eca2fb974efba4f6f8cffd0b309afcdb8c50cd59beaea5c07b3c5"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/beta-samati-coins-thumb.webp",
+          "width": 300,
+          "height": 174,
+          "sha256": "37952eca43408319bc5a9ecd5bdb4fa50735e5eacbfe02609fb20d0d90ff5c60"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "tang-access-diagram",
+      "subject": "tang-city",
+      "source": "tang-wards",
+      "catalogueURL": "https://research.nus.edu.sg/eai/wp-content/uploads/2019/10/2019-09-17-InFocus-HengChyeKiang.pdf",
+      "accession": "Chronos original teaching diagram, C5, 28 October 2026",
+      "date": {
+        "start": 2026,
+        "end": 2026,
+        "label": "Teaching diagram made 28 October 2026",
+        "note": "Modern creation date, distinct from represented historical evidence.",
+        "precision": "exact"
+      },
+      "depiction": "explanatory diagram",
+      "datingNote": null,
+      "rightsAsRecorded": "CC BY 4.0; original artwork, no source figure reproduced.",
+      "creditAsRecorded": "Chronos / Codex, 2026. Original guide; sources in dossier.",
+      "alt": "A generic residential ward connects through a gate to a public street and a market. The arrow traces a hypothetical daytime errand. Labels say the settings are functional, not a measured city plan; gate rules need evidence of actual practice.",
+      "relevance": "Makes access or skilled work visible without inventing an ancient plan, text or workshop history.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/tang-access-diagram.svg",
+          "width": 600,
+          "height": 400,
+          "sha256": "bee0990492782294e1bba7f070fba60af7d2e6a82fcb257e066f09c92d7489ee"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/tang-access-diagram-thumb.webp",
+          "width": 300,
+          "height": 200,
+          "sha256": "85b83ddfe8167d0c16995ea572378734a81f5703237060743c0d46bd1b370f44"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "abbasid-work-diagram",
+      "subject": "abbasid-craft",
+      "source": "abbasid-workshops",
+      "catalogueURL": "https://islamicceramics.ashmolean.org/Abbasid/ceramics.htm",
+      "accession": "Chronos original teaching diagram, C5, 28 October 2026",
+      "date": {
+        "start": 2026,
+        "end": 2026,
+        "label": "Teaching diagram made 28 October 2026",
+        "note": "Modern creation date, distinct from represented historical evidence.",
+        "precision": "exact"
+      },
+      "depiction": "explanatory diagram",
+      "datingNote": null,
+      "rightsAsRecorded": "CC BY 4.0; original artwork, no source figure reproduced.",
+      "creditAsRecorded": "Chronos / Codex, 2026. Original guide; sources in dossier.",
+      "alt": "Three diagrams distinguish forming an earthenware body, an opaque glazed surface, and lustre decoration with controlled firing. A note names skill, kilns, fuel and failures; no recipe or workshop is assigned to the selected bowl.",
+      "relevance": "Makes access or skilled work visible without inventing an ancient plan, text or workshop history.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/abbasid-work-diagram.svg",
+          "width": 600,
+          "height": 780,
+          "sha256": "d80649e9899cc196dbd294f963be1fd8b87449268a8b006f5e895ba2e2305ba4"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/abbasid-work-diagram-thumb.webp",
+          "width": 300,
+          "height": 390,
+          "sha256": "8285e87eec8cd878d1bacdde3c9b9d31daf2bae16ddec3b9b046891f782d2fee"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "nalanda-brick-photo",
+      "subject": "nalanda",
+      "source": "nalanda-photo",
+      "catalogueURL": "https://commons.wikimedia.org/wiki/File:Nalanda_Ruins_(41).jpg",
+      "accession": "Nalanda Ruins (41).jpg; Commons photographer record",
+      "date": {
+        "start": 2023,
+        "end": 2023,
+        "label": "Photographed 9 October 2023",
+        "note": "Modern photograph date from the photographer’s record; not a construction date.",
+        "precision": "exact"
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "CC BY-SA 4.0; photograph resized and WebP-encoded, without cropping or retouching.",
+      "creditAsRecorded": "Sumit Surai (Sumitsurai), 9 October 2023, via Wikimedia Commons. CC BY-SA 4.0. Resized and encoded as WebP; no crop or retouch.",
+      "alt": "A brick doorway seen from within high brick walls, with several smaller openings above, another wall beyond and open sky. No ancient roof or people engaged in teaching are shown.",
+      "relevance": "Provides a directly inspectable modern view of architectural remains, alongside explicitly different dated textual evidence.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/nalanda-brick-photo.webp",
+          "width": 1600,
+          "height": 1202,
+          "sha256": "691bcd70495b5fb537afbab76797ab74793b041032a2b1c4f70006484fc7d3a0"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/nalanda-brick-photo-thumb.webp",
+          "width": 300,
+          "height": 225,
+          "sha256": "c14e2fdfcc8433bb261ff4918465cd30c7bb5700a5ea50ec74c159e0a3d8b7ec"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "song-loan-diagram",
+      "subject": "song-art",
+      "source": "song-crop-loans",
+      "catalogueURL": "https://afe.easia.columbia.edu/main_pop/ps/ps_china-wang-anshi-crop-loans.htm",
+      "accession": "Chronos original teaching diagram, C6, 28 October 2026",
+      "date": {
+        "start": 2026,
+        "end": 2026,
+        "label": "Teaching diagram made 28 October 2026",
+        "note": "Modern creation date, separate from represented historical evidence.",
+        "precision": "exact"
+      },
+      "depiction": "explanatory diagram",
+      "datingNote": null,
+      "rightsAsRecorded": "CC BY 4.0; original artwork, no source figure reproduced.",
+      "creditAsRecorded": "Chronos / Codex, 2026. Sources in dossier.",
+      "alt": "Two panels show reserves supplying a household before harvest and repayment with tax collection after harvest. An arrow indicates timing. A note asks readers to test choice, harvest and repayment; this is a modern proposal guide, not an outcome study.",
+      "relevance": "Explains timing or divided work without inventing measured quantities, consent or a workshop history.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/song-loan-diagram.svg",
+          "width": 600,
+          "height": 300,
+          "sha256": "fb7b22edb71b897f7d77b0f2ff22c0822c0d945556634e7e0ddf0fcdeb80e7b3"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/song-loan-diagram-thumb.webp",
+          "width": 300,
+          "height": 150,
+          "sha256": "ed7ab501170f09904bb7070a40b33681f228cb3f5c7dbd16ed1af86857487f81"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "inka-work-diagram",
+      "subject": "inca-weaving",
+      "source": "inka-labor",
+      "catalogueURL": "https://americanindian.si.edu/inkaroad/inkauniverse/inkaroadexpansion/building-road.html",
+      "accession": "Chronos original teaching diagram, C6, 28 October 2026",
+      "date": {
+        "start": 2026,
+        "end": 2026,
+        "label": "Teaching diagram made 28 October 2026",
+        "note": "Modern creation date, separate from represented historical evidence.",
+        "precision": "exact"
+      },
+      "depiction": "explanatory diagram",
+      "datingNote": null,
+      "rightsAsRecorded": "CC BY 4.0; original artwork, no source figure reproduced.",
+      "creditAsRecorded": "Chronos / Codex, 2026. Sources in dossier.",
+      "alt": "Three labeled settings distinguish household production, state work demands and stores/provisioning. Arrows show conceptual relationships, not measured equal exchanges. The guide cannot identify the selected tunic’s maker or labor category.",
+      "relevance": "Explains timing or divided work without inventing measured quantities, consent or a workshop history.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/inka-work-diagram.svg",
+          "width": 600,
+          "height": 650,
+          "sha256": "4e274698cd2d9691c8dc29e23ab201b3583b6ebe90dd9acd023d76af91480f74"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/inka-work-diagram-thumb.webp",
+          "width": 300,
+          "height": 325,
+          "sha256": "7c466cf8d261bc868d1947e134726a72b4110ea75df6b2076e0452c210eb939c"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "catalan-musa-detail",
+      "subject": "mali-networks",
+      "source": "catalan-musa-detail",
+      "catalogueURL": "https://commons.wikimedia.org/wiki/File:Catalan_Atlas_BNF_Sheet_6_Mansa_Musa.jpg",
+      "accession": "BnF, MS Espagnol 30; Commons supplied image detail",
+      "date": {
+        "start": 1375,
+        "end": 1375,
+        "label": "About 1375 CE: conventional atlas date",
+        "note": "Approximate conventional date; attribution qualified. The later digital reproduction has no new historical observation date.",
+        "precision": "approximate"
+      },
+      "depiction": "later depiction",
+      "datingNote": null,
+      "rightsAsRecorded": "Faithful reproduction of public-domain two-dimensional art; Commons PD-Art / Public Domain Mark 1.0. Reproduction status can differ by jurisdiction. Resized and WebP-encoded; no further crop or retouch.",
+      "creditAsRecorded": "Attributed to Abraham Cresques, about 1375. BnF / Gallica, MS Espagnol 30, via Wikimedia Commons (Aa77zz upload, 2015). PD-Art / Public Domain Mark; resized and WebP-encoded, no further crop.",
+      "alt": "A seated dark-skinned ruler wears a gold-colored crown and holds a round gold-colored object and a staff. Nearby are stylized place signs, lettering and intersecting red and green lines. The supplied detail cuts off parts of the surrounding map.",
+      "relevance": "Makes foreign royal imagery directly inspectable while separating representation from local institutions and household production.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/catalan-musa-detail.webp",
+          "width": 1600,
+          "height": 1141,
+          "sha256": "922d26c4806093d0ee03a3a71daf618c1e8e9e0bf9b66db1e824e94e5540ee37"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/catalan-musa-detail-thumb.webp",
+          "width": 300,
+          "height": 213,
+          "sha256": "7afe84f7ed2509745d0b909411d45b5e3b98b964491c46cddfaf09ac1a49088f"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "voyage-mediation-diagram",
+      "subject": "portuguese-voyage",
+      "source": "gama-journal-1898",
+      "catalogueURL": "https://www.gutenberg.org/cache/epub/46440/pg46440-images.html",
+      "accession": "Chronos original teaching diagram, C7, 28 October 2026",
+      "date": {
+        "start": 2026,
+        "end": 2026,
+        "label": "Teaching diagram made 28 October 2026",
+        "note": "Modern creation date, separate from represented evidence.",
+        "precision": "exact"
+      },
+      "depiction": "explanatory diagram",
+      "datingNote": null,
+      "rightsAsRecorded": "CC BY 4.0; original artwork, no source figure reproduced.",
+      "creditAsRecorded": "Chronos / Codex, 2026. Based on anonymous journal, English ed. Ravenstein 1898, pp. 39–57.",
+      "alt": "Two panels distinguish supplies and a pilot at Malindi from interpreters and a court audience at Calicut. An arrow follows the narrative, not an exact ship track. A note says assistance does not establish free choice.",
+      "relevance": "Makes necessary tasks explicit while keeping coercion and the source’s perspective visible.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/voyage-mediation-diagram.svg",
+          "width": 600,
+          "height": 300,
+          "sha256": "a8e901fb16cf7c041b620d668872d84d6ffad10a3bc7b465abe6c056009679f2"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/voyage-mediation-diagram-thumb.webp",
+          "width": 300,
+          "height": 150,
+          "sha256": "e38a2bac6b5d71c9807fcdbbb4ecd16e11d0fe828bd02facaa68c32e7bbf2cce"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "giza-provisioning-diagram",
+      "subject": "old-kingdom",
+      "source": "giza-provisioning",
+      "catalogueURL": "https://aeraweb.org/feeding-pyramid-workers/",
+      "accession": "Chronos original teaching diagram, C1 households, 28 October 2026",
+      "date": {
+        "start": 2026,
+        "end": 2026,
+        "label": "Teaching diagram made 28 October 2026",
+        "note": "Modern creation date, separate from represented historical evidence.",
+        "precision": "exact"
+      },
+      "depiction": "explanatory diagram",
+      "datingNote": null,
+      "rightsAsRecorded": "CC BY 4.0; original artwork, no source figure reproduced.",
+      "creditAsRecorded": "Chronos / Codex, 2026. Original functional guide; sources in dossier.",
+      "alt": "Three panels connect grain storage, preparation and baking, and meals and work. Generic grain, bowl and person symbols show relationships, not quantities, a particular ancient recipe or a surveyed settlement plan.",
+      "relevance": "Makes practical tasks and relationships visible without inventing a measured ancient plan, individual worker or complete social arrangement.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/giza-provisioning-diagram.svg",
+          "width": 600,
+          "height": 300,
+          "sha256": "936156f4b3f68814cbdc506d0ed05d84c0daaa2f766296855fa000115bf08c42"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/giza-provisioning-diagram-thumb.webp",
+          "width": 300,
+          "height": 150,
+          "sha256": "7cd05f470630f1a3a90456fc259e74710deebec3e699de74faba4d73aec1d63a"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "caral-renewal-diagram",
+      "subject": "caral",
+      "source": "caral-project-2005",
+      "catalogueURL": "https://www.zonacaral.gob.pe/downloads/publicaciones/libro-caral-supe-5000-anos-identidad-cultural-2005-espanol.pdf",
+      "accession": "Chronos original teaching diagram, C1 households, 28 October 2026",
+      "date": {
+        "start": 2026,
+        "end": 2026,
+        "label": "Teaching diagram made 28 October 2026",
+        "note": "Modern creation date, separate from represented historical evidence.",
+        "precision": "exact"
+      },
+      "depiction": "explanatory diagram",
+      "datingNote": null,
+      "rightsAsRecorded": "CC BY 4.0; original artwork, no source figure reproduced.",
+      "creditAsRecorded": "Chronos / Codex, 2026. Original functional guide; sources in dossier.",
+      "alt": "Three conceptual panels show an earlier space, subdivision, and stone-filled bag symbols beneath renewed construction. The panels separate relationships in the project account; they supply no surveyed dimensions, measured quantities or universal sequence.",
+      "relevance": "Makes practical tasks and relationships visible without inventing a measured ancient plan, individual worker or complete social arrangement.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/caral-renewal-diagram.svg",
+          "width": 600,
+          "height": 360,
+          "sha256": "3c323eff34e2b7203c5cc9708f251fc28358f7a5326233477935217a60a4a58a"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/caral-renewal-diagram-thumb.webp",
+          "width": 300,
+          "height": 180,
+          "sha256": "63ecac925ba96949c7659a5607418d5b6311c5197d90676887554de6f389c6fa"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "skara-household-guide",
+      "subject": "skara-brae",
+      "source": "skara-significance-2024",
+      "catalogueURL": "https://app-hes-pubs-prod-neu-01.azurewebsites.net/api/file/703982e8-be07-4f7a-9265-b11e0121c461",
+      "accession": "Chronos original teaching diagram, C1 households, 28 October 2026",
+      "date": {
+        "start": 2026,
+        "end": 2026,
+        "label": "Teaching diagram made 28 October 2026",
+        "note": "Modern creation date, separate from represented historical evidence.",
+        "precision": "exact"
+      },
+      "depiction": "explanatory diagram",
+      "datingNote": null,
+      "rightsAsRecorded": "Original artwork CC BY 4.0. HES textual information is under Open Government Licence v3.0; its images are excluded from that licence and none is copied.",
+      "creditAsRecorded": "Chronos / Codex, 2026. Original artwork CC BY 4.0. Contains Historic Environment Scotland information © HES 2024, licensed under Open Government Licence v3.0, https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/. Textual information from Statement of Significance, printed p. 68 / PDF p. 70. HES source images are excluded and not reproduced.",
+      "alt": "An independently arranged relationship guide places stone shelving beyond a central hearth and entrance. Four side slab enclosures appear as two on each side. A separate, fifth enclosure labeled Wider sits left of the entrance. Separate boxes and dashed links are teaching symbols, not measured walls, orientation, roof form or an untouched ancient room. Nineteenth-century rebuilding omitted recorded cells.",
+      "relevance": "Makes practical tasks and relationships visible without inventing a measured ancient plan, individual worker or complete social arrangement.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/skara-household-guide.svg",
+          "width": 600,
+          "height": 400,
+          "sha256": "e52f4fed19d8453d7a0234586f2ef6ec5c02202e0f75d48bee42a7c5e3498e22"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/skara-household-guide-thumb.webp",
+          "width": 300,
+          "height": 200,
+          "sha256": "65d014d65ee3b98a5972d9a75852b49b62f641c79de6b0c575dbc79000640d5f"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "olmec-dating-guide",
+      "subject": "olmec",
+      "source": "olmec-sampling-2020",
+      "catalogueURL": "https://scielo.org.mx/pdf/educm/v35n1/2448-6515-educm-35-01-117.pdf",
+      "accession": "Chronos original teaching diagram, C2 material work, 28 October 2026",
+      "date": {
+        "start": 2026,
+        "end": 2026,
+        "label": "Teaching diagram made 28 October 2026",
+        "note": "Modern creation date, separate from the historical evidence being explained.",
+        "precision": "exact"
+      },
+      "depiction": "explanatory diagram",
+      "datingNote": null,
+      "rightsAsRecorded": "CC BY 4.0; original artwork, no source figure copied or traced.",
+      "creditAsRecorded": "Chronos / Codex, 2026. Original teaching guide; cited sources in dossier.",
+      "alt": "Three panels show a generic surface form, a layered sample and notes about local history. Arrows connect appearance, dated evidence and interpretation. The mound outline, layers, spacing and marks are independently drawn symbols, not observed San Lorenzo features, sampled quantities or a population count.",
+      "relevance": "Explains a source-based operation with independently arranged symbols, without asserting measured geometry, quantities or a recovered individual action.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/olmec-dating-guide.svg",
+          "width": 600,
+          "height": 360,
+          "sha256": "8b2f06a75cb5f1797bb38c84320a4c19894f5a184a6b3dd3f5edbe5f78cab754"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/olmec-dating-guide-thumb.webp",
+          "width": 300,
+          "height": 180,
+          "sha256": "964f66a5624a78e234394d9f35d9b4390977dd9eef23ed32e9e39307bebf921b"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "lapita-stamp-guide",
+      "subject": "lapita",
+      "source": "lapita",
+      "catalogueURL": "https://www.metmuseum.org/essays/lapita-pottery-ca-1500-500-b-c",
+      "accession": "Chronos original teaching diagram, C2 material work, 28 October 2026",
+      "date": {
+        "start": 2026,
+        "end": 2026,
+        "label": "Teaching diagram made 28 October 2026",
+        "note": "Modern creation date, separate from the historical evidence being explained.",
+        "precision": "exact"
+      },
+      "depiction": "explanatory diagram",
+      "datingNote": null,
+      "rightsAsRecorded": "CC BY 4.0; original artwork, no source figure copied or traced.",
+      "creditAsRecorded": "Chronos / Codex, 2026. Original teaching guide; cited sources in dossier.",
+      "alt": "Three panels show a hypothetical three-tooth tool, one press leaving three marks in a band, and the same action repeated. Tool, band, marks and spacing are independently drawn teaching symbols. They do not copy an ancient Lapita motif, a source figure or the pattern on the photographed plaster cast.",
+      "relevance": "Explains a source-based operation with independently arranged symbols, without asserting measured geometry, quantities or a recovered individual action.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/lapita-stamp-guide.svg",
+          "width": 600,
+          "height": 360,
+          "sha256": "d18524f31ad9ac277231e67a8ea9c1c7d245021c0e2c0d1915d19ac35fc07197"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/lapita-stamp-guide-thumb.webp",
+          "width": 300,
+          "height": 180,
+          "sha256": "e655bf8f1aebee460838ae69b78bb8ac4ffab8b883c0d311fa29177ce02df150"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "met-314215-cast",
+      "subject": "lapita",
+      "source": "met-314215-cast",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/314215",
+      "accession": "1980.153.2",
+      "date": {
+        "start": null,
+        "end": null,
+        "label": "Mid-20th-century plaster cast",
+        "note": "The catalogue supplies this verbal date, not exact numeric endpoints. The 1980 acquisition credit is not a manufacture date; no 1940–1960 range is inferred.",
+        "precision": "unknown"
+      },
+      "depiction": "object photograph",
+      "datingNote": "Catalogue date is mid-20th century for the plaster cast. No exact numeric cast date or original sherd date is supplied.",
+      "rightsAsRecorded": "Public domain; The Met Open Access (CC0).",
+      "creditAsRecorded": "The Metropolitan Museum of Art. Rogers Fund, 1980. 1980.153.2.",
+      "alt": "Photograph of a grey plaster reproduction with repeated circles, bands of short tooth-like marks and larger angular lines across its irregular surface. The photographed object is a modern cast, not an ancient clay fragment.",
+      "relevance": "Lets a reader inspect a reproduced pattern while keeping the modern cast, unknown ancient object context and source-based making explanation distinct.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/met-314215-cast.webp",
+          "width": 1056,
+          "height": 775,
+          "sha256": "ab4be1bd225a99f85ecf15e957841d5ae69cbfd23bbb132d6ac777cb050e53ed"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/met-314215-cast-thumb.webp",
+          "width": 420,
+          "height": 308,
+          "sha256": "7bd8010550448609c0b9b2052d79a12c826dc22be96c4552b7a523a7ec1de0da"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "poverty-terrain-model",
+      "subject": "poverty-point",
+      "source": "pp-chronology-2023",
+      "catalogueURL": "https://www.cambridge.org/core/journals/antiquity/article/convergence-at-poverty-point-a-revised-chronology-of-the-late-archaic-lower-mississippi-valley/121431E2E3469A819185F44BF7AB81EA",
+      "accession": "Grooms, Ward and Kidder 2023, Figure 2, printed p. 1456",
+      "date": {
+        "start": 2023,
+        "end": 2023,
+        "label": "Terrain figure published in 2023; LiDAR acquisition date unstated",
+        "note": "This year identifies the article publication, not the LiDAR acquisition or construction of an ancient earthwork. The later image-server version does not establish a survey date.",
+        "precision": "exact"
+      },
+      "depiction": "modern terrain model",
+      "datingNote": null,
+      "rightsAsRecorded": "© The Authors, 2023. CC BY 4.0; source figure credited to K. Ervin.",
+      "creditAsRecorded": "K. Ervin, Figure 2 in Seth B. Grooms, Grace M.V. Ward and Tristram R. Kidder, Convergence at Poverty Point, Antiquity 97(396), 1453–1469 (2023), DOI 10.15184/aqy.2023.155. © The Authors, 2023; CC BY 4.0. WebP conversion; original image bounds retained.",
+      "alt": "Modern elevation model of Poverty Point. Mound A lies west of six curved ridges numbered 1–6, with a plaza inside the ridges. Mounds B, C, E and F are also labeled; Mound D is not labeled. Lighter areas indicate higher ground and dark green lower ground. North is up; a metre scale and elevation legend accompany the image.",
+      "relevance": "Makes surviving ground height and relative arrangement inspectable, while separate archaeological evidence explains construction, maintenance and later changes.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/poverty-terrain-model.webp",
+          "width": 1583,
+          "height": 1239,
+          "sha256": "0fb82caba1664a316feb176b0dcebe67cbec1b8b5786d00c2ec3699e87a454c6"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/poverty-terrain-model-thumb.webp",
+          "width": 420,
+          "height": 329,
+          "sha256": "bd2d8cbf44c287159bc30c89321e0e85aa17be0ca528503e4ab9eb7038305a3d"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "kerma-making-guide",
+      "subject": "kerma-potters",
+      "source": "met-545772",
+      "catalogueURL": "https://www.metmuseum.org/art/collection/search/545772",
+      "accession": "Chronos original teaching guide, 29 October 2026",
+      "date": {
+        "start": 2026,
+        "end": 2026,
+        "label": "Teaching guide made 29 October 2026",
+        "note": "Modern creation date, distinct from the historical sources being explained.",
+        "precision": "exact"
+      },
+      "depiction": "explanatory diagram",
+      "datingNote": null,
+      "rightsAsRecorded": "CC BY 4.0; original teaching artwork.",
+      "creditAsRecorded": "Chronos / Codex, 2026. Original teaching guide; historical sources cited in dossier.",
+      "alt": "Three panels show a vessel outline under Shape, a polishing tool at the rim under Polish, and heat marks above a dark-topped vessel under Fire. The arrows connect making tasks.",
+      "relevance": "Provides legible modern symbols for an evidence question, with source images and their different rights retained separately.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/kerma-making-guide.svg",
+          "width": 600,
+          "height": 360,
+          "sha256": "7a215006f7d768145cbafde77999edc637cbdeeb78ccef30f524f595d7c08cef"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/kerma-making-guide-thumb.webp",
+          "width": 300,
+          "height": 180,
+          "sha256": "3a3e525292a8c87a4ef99ec98c3bc889fd2a7f89fc13488b4dd76e3f4be840f4"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "institution-evidence-guide",
+      "subject": "nimrud-palace",
+      "source": "nimrud-captives-letter",
+      "catalogueURL": "https://oracc.museum.upenn.edu/saao/saa19/P224478",
+      "accession": "Chronos original teaching guide, 29 October 2026",
+      "date": {
+        "start": 2026,
+        "end": 2026,
+        "label": "Teaching guide made 29 October 2026",
+        "note": "Modern creation date, distinct from the historical sources being explained.",
+        "precision": "exact"
+      },
+      "depiction": "explanatory diagram",
+      "datingNote": null,
+      "rightsAsRecorded": "CC BY 4.0; original teaching artwork.",
+      "creditAsRecorded": "Chronos / Codex, 2026. Original teaching guide; historical sources cited in dossier.",
+      "alt": "An icon of a written claim and an icon of a written order lead to a question mark under Outcome. The arrows ask what additional evidence could show that provisions arrived.",
+      "relevance": "Provides legible modern symbols for an evidence question, with source images and their different rights retained separately.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/institution-evidence-guide.svg",
+          "width": 600,
+          "height": 360,
+          "sha256": "7013c44332b0dce4a2b9bdfb69e15685271f16be47709fe5503335f336c7ee00"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/institution-evidence-guide-thumb.webp",
+          "width": 300,
+          "height": 180,
+          "sha256": "6f21a0bd97a082b25c7f8f14d4d8ffaaf7e69de2452952be40e9c1c09c21020b"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "nimrud-palace-plan",
+      "subject": "nimrud-palace",
+      "source": "nimrud-palace-project",
+      "catalogueURL": "https://oracc.museum.upenn.edu/nimrud/ancientkalhu/thecity/northwestpalace/index.html",
+      "accession": "Nimrud Project, Image 1; caption cites Oates and Oates 2001, figures 15 and 33",
+      "date": {
+        "start": null,
+        "end": null,
+        "label": "Modern archaeological plan; online image date unstated",
+        "note": "The project caption cites a 2001 publication; this does not establish the drawing’s creation date. The composite includes multiple periods of building and later features.",
+        "precision": "unknown"
+      },
+      "depiction": "explanatory diagram",
+      "datingNote": null,
+      "rightsAsRecorded": "CC BY-SA 3.0; BSAI/BISI image released courtesy of BISI through the Nimrud Project.",
+      "creditAsRecorded": "BSAI/BISI, via Eleanor Robson, The Northwest Palace, Nimrud Project / Oracc, funded by AHRC. Project caption cites Oates and Oates 2001, figs 15 and 33. Lossless format conversion; drawing uncropped and unaltered.",
+      "alt": "Tall composite palace plan with room labels, a north arrow, a scale bar to 50 metres and later features labeled at its upper and lower edges.",
+      "relevance": "Pairs the royal relief with a phase-qualified source plan and readable architectural explanation.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/nimrud-palace-plan.webp",
+          "width": 460,
+          "height": 926,
+          "sha256": "5d8c5a203ad7a7ad0c4f66ca70c702e888e8f01fecbb805f225a3ffe7b55899d"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/nimrud-palace-plan-thumb.webp",
+          "width": 420,
+          "height": 845,
+          "sha256": "32d9eb6a3c8ed587d63a9179ef72072107b10233eae72616f69da0edbc62a474"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "sanam-workshop-view",
+      "subject": "taharqo",
+      "source": "sanam-production-2026",
+      "catalogueURL": "https://www.cambridge.org/core/journals/antiquity/article/crafting-power-in-kush-faience-production-and-state-control-in-the-napatan-region/A15CF88886CC39E3C6D4110DD58B94A5",
+      "accession": "Lemos and colleagues 2026, Figure 4",
+      "date": {
+        "start": 2026,
+        "end": 2026,
+        "label": "Excavation view published in 2026; exact photograph date unstated",
+        "note": "The article reports 2018–2020 excavations. Publication and fieldwork seasons do not establish the exact acquisition date of this image.",
+        "precision": "exact"
+      },
+      "depiction": "annotated excavation photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "© The authors, 2026. CC BY 4.0.",
+      "creditAsRecorded": "Lemos, Howley, Shinn and Abdu Rabo, Crafting power in Kush, Antiquity (2026), Figure 4, figure by the authors. DOI 10.15184/aqy.2026.10434. WebP format conversion; original bounds retained.",
+      "alt": "Annotated excavation photograph showing three firing pits, two basins, collapsed mudbrick and a five-metre scale bar.",
+      "relevance": "Makes a material production space visible while retaining the excavators’ chronology and interpretation limits.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/sanam-workshop-view.webp",
+          "width": 1063,
+          "height": 1115,
+          "sha256": "fb3dbb11748668d59abaaef0c9536be1fbf8bbfe480aeaa5ea26962ac3e1816f"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/sanam-workshop-view-thumb.webp",
+          "width": 420,
+          "height": 441,
+          "sha256": "8060fd291149db00d8bf85ab2c22ece8180cd2ca4a8334c958ae61d7c6de4e31"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "sanam-mould-match",
+      "subject": "taharqo",
+      "source": "sanam-production-2026",
+      "catalogueURL": "https://www.cambridge.org/core/journals/antiquity/article/crafting-power-in-kush-faience-production-and-state-control-in-the-napatan-region/A15CF88886CC39E3C6D4110DD58B94A5",
+      "accession": "Lemos and colleagues 2026, Figure 10",
+      "date": {
+        "start": null,
+        "end": null,
+        "label": "Sanam shabti fragment and mould; individual manufacture years unknown",
+        "note": "The workshop has a broad archaeological chronology. This uninscribed faience fragment is not assigned to Taharqo or substituted for the Met granite shabti. The photograph was published in 2026; its exact acquisition date is unstated.",
+        "precision": "unknown"
+      },
+      "depiction": "object photograph",
+      "datingNote": null,
+      "rightsAsRecorded": "© The authors, 2026. CC BY 4.0.",
+      "creditAsRecorded": "Lemos, Howley, Shinn and Abdu Rabo, Crafting power in Kush, Antiquity (2026), Figure 10, photograph by the authors. DOI 10.15184/aqy.2026.10434. WebP format conversion; no crop or upscaling.",
+      "alt": "Small green uninscribed faience figure fragment at left, matching clay negative mould at right and a segmented scale with no readable unit.",
+      "relevance": "Shows a consequential material match without attributing an uninscribed faience object to a named king or granite workshop.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/sanam-mould-match.webp",
+          "width": 512,
+          "height": 469,
+          "sha256": "d75827bf113b733e1108a27760940a4869e8e2ec5ab53db6d06e14c50df48f6b"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/sanam-mould-match-thumb.webp",
+          "width": 420,
+          "height": 385,
+          "sha256": "1482572d148e3a2899ad07979e7dc5efba5997afc83cab4248ecf310623cb3f3"
+        }
+      ],
+      "flags": [
+        "Longest display dimension below 800 px; inspect the task at its intended size or use a transcription."
+      ]
+    },
+    {
+      "id": "teotihuacan-household-guide",
+      "subject": "teotihuacan",
+      "source": "teot-patt-households",
+      "catalogueURL": "https://sites.bu.edu/patt/research/household-archaeology/",
+      "accession": "Chronos original teaching guide, 29 October 2026",
+      "date": {
+        "start": 2026,
+        "end": 2026,
+        "label": "Teaching guide made 29 October 2026",
+        "note": "Modern creation date. The source describes excavated spaces from different phases; this guide is neither an ancient object nor a plan of one occupation.",
+        "precision": "exact"
+      },
+      "depiction": "explanatory diagram",
+      "datingNote": null,
+      "rightsAsRecorded": "CC BY 4.0; original teaching artwork.",
+      "creditAsRecorded": "Chronos / Codex, 2026. Original guide; historical sources cited in the dossier.",
+      "alt": "Two modern panels connect blade making in rooms of Compound 17 with shared courtyards. A separate line notes drains connected to the street. No measured room arrangement is shown.",
+      "relevance": "Makes relationships between production, homes and shared facilities legible while distinguishing a conceptual guide from archaeological geometry.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/teotihuacan-household-guide.svg",
+          "width": 600,
+          "height": 360,
+          "sha256": "cd86bc9a3307c798176ede48d55277beed953d183807259c2c7d0a51249e432f"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/teotihuacan-household-guide-thumb.webp",
+          "width": 300,
+          "height": 180,
+          "sha256": "21657e1142a130c6beb0a85acb44c8fac976acebb319195457d227e137e848da"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "moche-evidence-guide",
+      "subject": "moche",
+      "source": "moche-production-2009",
+      "catalogueURL": "https://www.scielo.cl/scielo.php?pid=S0718-10432009000100010&script=sci_arttext",
+      "accession": "Chronos original teaching guide, 29 October 2026",
+      "date": {
+        "start": 2026,
+        "end": 2026,
+        "label": "Teaching guide made 29 October 2026",
+        "note": "Modern creation date, separate from each museum vessel and each excavated production context.",
+        "precision": "exact"
+      },
+      "depiction": "explanatory diagram",
+      "datingNote": null,
+      "rightsAsRecorded": "CC BY 4.0; original teaching artwork.",
+      "creditAsRecorded": "Chronos / Codex, 2026. Original guide; historical sources cited in the dossier.",
+      "alt": "Two modern panels contrast observing a vessel’s form and surface with excavated tools and production debris. A line invites comparison rather than implying that these museum vessels came from a known workshop.",
+      "relevance": "Separates image interpretation from archaeological evidence for production, without inventing a firing recipe, workshop plan or quota.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/moche-evidence-guide.svg",
+          "width": 600,
+          "height": 360,
+          "sha256": "9aba22a9c72e12d913dee9fcffede617ab3666e5e7c6f2524a8794a7213f8a5e"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/moche-evidence-guide-thumb.webp",
+          "width": 300,
+          "height": 180,
+          "sha256": "944e5cb66a8e6ea0b192ee5e32ff384a6fdb1f976b296b28d7c17b84b433e215"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "teotihuacan-tlajinga-map",
+      "subject": "teotihuacan",
+      "source": "teot-tlajinga-2026",
+      "catalogueURL": "https://www.cambridge.org/core/journals/latin-american-antiquity/article/disentangling-community-and-domestic-uses-of-space-in-teotihuacans-tlajinga-district/2949C67FEBA7F7F90D105F83157CC47E",
+      "accession": "Carballo and colleagues 2026, Figure 1; DOI 10.1017/laq.2026.10207",
+      "date": {
+        "start": null,
+        "end": null,
+        "label": "Modern composite map; published in 2026, drawing date unstated",
+        "note": "Publication dates the article, not every mapping observation or the drawing’s creation. The figure combines a 1973 mapping base with later fieldwork; no single occupation date follows.",
+        "precision": "unknown"
+      },
+      "depiction": "later depiction",
+      "datingNote": null,
+      "rightsAsRecorded": "CC BY-NC 4.0; non-commercial reuse only. © The Author(s), 2026. Commercial use requires permission from Cambridge University Press or the rights holder(s).",
+      "creditAsRecorded": "David M. Carballo, Luis Barba Pingarrón, Agustin Ortiz, Jorge Blancas, A. Gabriel Vicencio, Daniela Hernández Sariñana and Jorge Nukyen Archer Velasco, 2026, Figure 1, DOI 10.1017/laq.2026.10207. Cambridge University Press for the Society for American Archaeology. Based on TMP 1973 with PATT and Widmer/Storey 1993 modifications. PNG converted losslessly to WebP, without cropping or enhancement.",
+      "alt": "Two-panel composite archaeological map. The upper city map places Tlajinga south of the main monuments and shows a north arrow and 1 km scale. The district detail places Compounds 17 and 18 east of the Street of the Dead, with platform complexes and plazas west, San Lorenzo River to the north and a 200 m scale. No geographic coordinate grid is printed.",
+      "relevance": "Locates the studied neighborhood and the different architectural settings discussed in the household and production account. Mapping conventions, composite chronology and small labels remain explicit.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/teotihuacan-tlajinga-map.webp",
+          "width": 1650,
+          "height": 2345,
+          "sha256": "ba7304e2f8c799a66cbdeea865ab67c55f2f911db5c9b352532241bd642c63cb"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/teotihuacan-tlajinga-map-thumb.webp",
+          "width": 300,
+          "height": 426,
+          "sha256": "20919be48913d27aef96fca9eb0919d685c8801f56ff74edd1cd99b7e0e531da"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "hopewell-moundcity-1848",
+      "subject": "hopewell-earthworks",
+      "source": "hopewell-moundcity",
+      "catalogueURL": "https://www.nps.gov/hocu/learn/historyculture/mound-city-group.htm",
+      "accession": "Squier and Davis 1848; NPS reproduction Mound-City-450.jpg",
+      "date": {
+        "start": 1848,
+        "end": 1848,
+        "label": "Published 1848",
+        "precision": "exact",
+        "note": "The surveyors dated the drawing 1846. Plate XIX appeared in the 1848 volume. The modern reproduction has no stated date."
+      },
+      "depiction": "later depiction",
+      "datingNote": "1848 is the original publication year. The NPS digital reproduction’s creation date is not established; ancient features and later survey landscape must be distinguished.",
+      "rightsAsRecorded": "Public domain; original survey published in the United States in 1848",
+      "creditAsRecorded": "E. G. Squier and E. H. Davis, Ancient Monuments of the Mississippi Valley (1848), reproduced by the National Park Service. Original publication is public domain; no source pixels restored or newly recovered detail claimed.",
+      "alt": "Historical plan showing the Mound City enclosure and mound symbols beside the Scioto River, with a canal to the left, another circular work below, and printed scale and orientation marks.",
+      "relevance": "Adds a same-site historical plan for Mound City while retaining the distinct Hopewell Mound Group survey and the modern restored-landscape photograph.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/hopewell-moundcity-1848.webp",
+          "width": 450,
+          "height": 607,
+          "sha256": "befd60a4fcd9a5a015b12d5b96f790050912472e7bf31b4b14a7c5ffd99520c1"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/hopewell-moundcity-1848-thumb.webp",
+          "width": 360,
+          "height": 486,
+          "sha256": "da1360d2cd02e8471c9262b1293241dcef1fc49bd2f15635331e245558294a2d"
+        }
+      ],
+      "flags": [
+        "Longest display dimension below 800 px; inspect the task at its intended size or use a transcription."
+      ]
+    },
+    {
+      "id": "borobudur-conserved-monument",
+      "subject": "borobudur",
+      "source": "borobudur-photo-image",
+      "catalogueURL": "https://commons.wikimedia.org/wiki/File:Borobudur-Nothwest-view.jpg",
+      "accession": "Gunawan Kartapranata, Borobudur-Nothwest-view.jpg, Wikimedia Commons",
+      "date": {
+        "start": 2008,
+        "end": 2008,
+        "label": "Photograph made June 2008; exact day unresolved",
+        "note": "The current file record says 12 June 2008 while displayed original-capture metadata says 7 June 2008. June/year is retained without choosing between those days. The modern photograph date is distinct from broad eighth–ninth-century construction.",
+        "precision": "range"
+      },
+      "depiction": "object photograph",
+      "datingNote": "The source date field and original-capture metadata differ by five days. The title/current description and original upload comment also disagree on northwest/northeast. Neither conflict is silently resolved.",
+      "rightsAsRecorded": "Gunawan Kartapranata; photograph CC BY-SA 3.0. Building-public-domain status is separate.",
+      "creditAsRecorded": "Gunawan Kartapranata, 2008, via Wikimedia Commons, CC BY-SA 3.0. Original photograph; source image retained without crop or retouching.",
+      "alt": "Wide photograph of a stepped stone monument, stairways, niches and a central stupa, with modern lawn, trees and visitors.",
+      "relevance": "Makes the conserved building’s overall form visible while separating camera date, historical construction and modern interventions.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/borobudur-conserved-monument.jpg",
+          "width": 2816,
+          "height": 1108,
+          "sha256": "905aec75d7af12e2466512134d4e647a573fa4a0bb09b143d251f5664cd80128"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/borobudur-conserved-monument-thumb.webp",
+          "width": 400,
+          "height": 157,
+          "sha256": "02e3075a774015d5f19991c3fc3884a7a82fb84f890eaa43574be2360eedbfdd"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "borobudur-schematic-plan",
+      "subject": "borobudur",
+      "source": "borobudur-plan-image",
+      "catalogueURL": "https://commons.wikimedia.org/wiki/File:Borobudur_Ground_Plan.png",
+      "accession": "Indon, Borobudur Ground Plan.png, Wikimedia Commons",
+      "date": {
+        "start": 2007,
+        "end": 2007,
+        "label": "Modern schematic made in 2007",
+        "note": "Creator-provided year, separate from eighth–ninth-century construction. Exact drawing day and an underlying measured survey were not established.",
+        "precision": "exact"
+      },
+      "depiction": "explanatory diagram",
+      "datingNote": "Modern creation year and represented historical construction are distinct. No measured survey, exact ancient phase or archaeological niche inventory is established.",
+      "rightsAsRecorded": "Indon; CC BY-SA 3.0. This source diagram is not new Chronos CC BY 4.0 artwork.",
+      "creditAsRecorded": "Indon, 2007, Borobudur Ground Plan, via Wikimedia Commons, CC BY-SA 3.0. Source diagram retained without tracing or redrawing.",
+      "alt": "Modern coloured schematic with stepped concentric square forms, circular upper forms and stair-like projections on four sides; no north arrow or scale.",
+      "relevance": "Provides a qualified source diagram for comparing built forms without inventing an original measured plan or forcing a ritual itinerary.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/borobudur-schematic-plan.png",
+          "width": 800,
+          "height": 800,
+          "sha256": "353f5c0fcd994ad5496ab6066a4abe46f23b923b8ed1461be5cf5a741c8e6182"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/borobudur-schematic-plan-thumb.webp",
+          "width": 400,
+          "height": 400,
+          "sha256": "1b4c5c89c652208c5dd1ebc42491a48ae3fc2cc478df128554fb2e9fe829f745"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "chaco-plan-1850",
+      "subject": "chaco-communities",
+      "source": "chaco-plan-1850",
+      "catalogueURL": "https://commons.wikimedia.org/wiki/File:General_ground_plan_of_the_Pueblo_Bonito._Canon_of_Chaco._No._6._P.S._Duval%27s_Lith._Steam_Press._Philada._(to_accompany)_Reports_(IA_dr_general-ground-plan-of-the-pueblo-bonito-canon-of-chaco-no-6-ps-duval-0380041).jpg",
+      "accession": "Plate 37 / No. 6; David Rumsey image 0380.041",
+      "date": {
+        "start": 1850,
+        "end": 1850,
+        "label": "Plan published 1850; digital scan creation date unstated",
+        "note": "Publication is distinct from ancient construction, a precise field-survey day and the modern scan. A 2026 file upload does not date the drawing or establish scan creation.",
+        "precision": "exact"
+      },
+      "depiction": "explanatory diagram",
+      "datingNote": "The 1850 publication belongs to a military reconnaissance record, not ancient construction. Field observation and scan dates are not independently established; the complete source volume and direct Rumsey item were not read.",
+      "rightsAsRecorded": "Underlying 1850 work identified as public domain in Commons; provider scan licence CC BY-NC-SA 3.0 retained conservatively. These are separate rights statements; broader provider publication wording is not treated as universal commercial permission.",
+      "creditAsRecorded": "Published with Lieut. J. H. Simpson’s expedition report, 1850; lithography P. S. Duval, Philadelphia. David Rumsey Map Collection, David Rumsey Map Center, Stanford University Libraries; source file via Wikimedia Commons. CC BY-NC-SA 3.0 provider notice retained alongside underlying-public-domain status. Source bounds unchanged; no tracing or reconstruction.",
+      "alt": "Historical plan with rows of small rectangles around an open court, circular features labelled Estufa, ruined eastern portions and two meridian marks; no measured scale bar.",
+      "relevance": "Makes a dated observer’s spatial record inspectable while separating source labels, ruin conditions, modern scanning and ancient building/use questions.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/chaco-plan-1850.jpg",
+          "width": 1536,
+          "height": 1098,
+          "sha256": "d646191beb55f6c2ff0857a0926ec56a48d88b78290f8209180274265fa52836"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/chaco-plan-1850-thumb.webp",
+          "width": 400,
+          "height": 286,
+          "sha256": "239cfff0a0a6addb921a9fb36e42012ba7518ebd7a1a51098fd048c6fa935827"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "ocmulgee-earthlodge-feature-plan",
+      "subject": "ocmulgee-council",
+      "source": "ocmu-earthlodge-plan",
+      "catalogueURL": "https://www.cambridge.org/core/journals/american-antiquity/article/collaborative-archaeology-public-parks-and-the-importance-of-chronology-at-ocmulgee-mounds-national-historical-park/307E03D57888AA1911F264D1B7A45A80",
+      "accession": "Thompson et al., Figure 3; D-1 drawing adapted from Fairbanks 1946, Figure X",
+      "date": {
+        "start": null,
+        "end": null,
+        "label": "Modern published composite; drawing and exposure dates not separately supplied",
+        "note": "Article published online 19 December 2025 and in the January 2026 issue. Those dates do not establish creation/exposure dates for the adapted drawing or archival photographs. Its cited Fairbanks publication is 1946, not an ancient construction date.",
+        "precision": "unknown"
+      },
+      "depiction": "explanatory diagram",
+      "datingNote": "Keep original/publication, excavation, surviving-feature and modern reconstruction dates separate. No figure-creation year, exact roof completion or photographic exposure dates supplied.",
+      "rightsAsRecorded": "Article-specific CC BY 4.0; source/adaptation credit retained. No new original survey claimed.",
+      "creditAsRecorded": "Thompson et al., 2025/2026, Figure 3. Courtesy Victor D. Thompson and University of Georgia Laboratory of Archaeology; drawing redrawn/adapted from Fairbanks 1946, Figure X. Published under CC BY 4.0.",
+      "alt": "Two excavation and timber photographs above a circular feature drawing labelled with bench seats, fallen roof posts, a central fire pit, bird-shaped platform, cane entrance and internal supports; a north symbol and zero-to-six-feet scale sit beside it.",
+      "relevance": "Supplies an actually inspected labelled archaeological feature record, without substituting the modern protective exterior for the excavated floor or claiming a new measured survey.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/ocmulgee-earthlodge-figure3.png",
+          "width": 1600,
+          "height": 1725,
+          "sha256": "5a16fa2c8dc370563c6e8a1d0f6bb1f6fffde601692eab22db4c3a70647c9846"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/ocmulgee-earthlodge-figure3-thumb.webp",
+          "width": 400,
+          "height": 431,
+          "sha256": "2a892f2b3ed25f727886500794c7f5fb4271f8233ba1e7f1f21b225f16b8cfce"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "tomioka-reeling-print",
+      "subject": "tomioka",
+      "source": "tomioka-ndl-print",
+      "catalogueURL": "https://www.ndl.go.jp/en/landmarks/sights/tomiokaseishijo",
+      "accession": "寄別7-4-2-5; NDL Digital Collections PID 1305876",
+      "date": {
+        "start": 1872,
+        "end": 1872,
+        "label": "[1872], bracketed NDL catalogue attribution",
+        "precision": "approximate",
+        "note": "NDL brackets the selected impression as Meiji 5 [1872]. MAFF dates a comparable impression 1873, but the exact copy/state relationship has not been established; that other date does not independently date this NDL copy. No seal/signature transcription or precise publication day is verified. The exact October 1872 mill-opening case is separate. The modern digitization/composition date is unstated."
+      },
+      "depiction": "contemporary document",
+      "datingNote": "Use the selected NDL impression’s bracketed [1872] attribution. Keep the comparable MAFF 1873 impression, unknown print-state relationship and unknown modern digitization date explicit; do not infer an exact publication day or replace the October 1872 case event.",
+      "rightsAsRecorded": "Public domain: PDM status in the NDL IIIF manifest. Separately, NDL’s named-exhibition reproduction guidance permits reuse with source credit. PDM is a rights-status mark, not a newly granted copyright licence.",
+      "creditAsRecorded": "Ichiyōsai Kuniteru (Utagawa Kuniteru II), Jōshū Tomioka seishijō no zu, published by Daikokuya Heikichi; source: National Diet Library, Japan, 寄別7-4-2-5, DOI 10.11501/1305876. Public domain; NDL reproduction terms.",
+      "alt": "Published woodblock-print interior with two receding rows of people and reeling equipment on either side of a central passage. Brick walls, windows and repeated blue roof supports enclose the scene; the supplied composition retains visible divisions between its three sheets. This is an artistic depiction, not a photograph.",
+      "relevance": "Makes workers, equipment and a constructed workplace visible through a published representation. Training, employment conditions and enforcement require separately dated records rather than an inference from orderly composition.",
+      "derivatives": [
+        {
+          "role": "display",
+          "path": "/atlas/media/tomioka-reeling-print.webp",
+          "width": 1600,
+          "height": 786,
+          "sha256": "e6cd0ab93b59423c87a6d62bcba196537021e3b99444b4a870d096268f9546f2"
+        },
+        {
+          "role": "thumbnail",
+          "path": "/atlas/media/tomioka-reeling-print-thumb.webp",
+          "width": 400,
+          "height": 196,
+          "sha256": "8900737b998ccf2a37ad8899e1ae8b8c6fd983fe4d617954b979836f3c6d7591"
+        }
+      ],
+      "flags": []
+    }
+  ]
+}

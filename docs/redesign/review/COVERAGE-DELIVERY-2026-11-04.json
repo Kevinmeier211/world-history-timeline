@@ -1,0 +1,3146 @@
+{
+  "scope": "Local delivered-record and curriculum checks; not source authentication, community endorsement or reader acceptance.",
+  "corpusSHA256": "ab07b81d6150eb754552346cc4ce8655af5ab600ffeff8107bbd6b6ec3c82900",
+  "browser": "output/completion-2026-11-04/comparison-place-browser.json",
+  "comparisons": [
+    {
+      "id": "factory-reform--tomioka",
+      "matched": ["work-organization", "production"],
+      "oneSided": ["participation", "evidence"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "banda-1621--manila-network",
+      "matched": ["work-organization", "evidence"],
+      "oneSided": ["authority", "audience"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "isfahan-silk--bukhara-books",
+      "matched": ["place-work", "patronage", "inequality", "evidence"],
+      "oneSided": [],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "isfahan-silk--zand-iran",
+      "matched": ["place-work", "patronage", "inequality", "evidence"],
+      "oneSided": [],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "ming-workshops--ottoman-workshops",
+      "matched": ["work-organization", "evidence"],
+      "oneSided": ["audience", "patronage", "inequality"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "mughal-books--ottoman-workshops",
+      "matched": ["work-organization", "evidence"],
+      "oneSided": ["audience", "patronage", "inequality"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "chaco-communities--ocmulgee-council",
+      "matched": ["place-work"],
+      "oneSided": [
+        "coordination",
+        "evidence-limits",
+        "materials",
+        "knowledge",
+        "evidence-authority"
+      ],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "cahokia-city--ocmulgee-council",
+      "matched": ["place-work"],
+      "oneSided": [
+        "coordination",
+        "evidence-limits",
+        "materials",
+        "knowledge",
+        "evidence-authority"
+      ],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "byzantium--borobudur",
+      "matched": ["place-work", "evidence"],
+      "oneSided": ["participation", "production"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "byzantium--maya-vessel",
+      "matched": ["place-work", "participation", "evidence"],
+      "oneSided": [],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "dongson--hopewell-earthworks",
+      "matched": ["place-context"],
+      "oneSided": ["belief", "production", "coordination", "evidence-limits"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "colima--hopewell-earthworks",
+      "matched": ["place-context"],
+      "oneSided": ["belief", "production", "coordination", "evidence-limits"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "chavin-textile--teotihuacan",
+      "matched": ["evidence", "production", "material-work"],
+      "oneSided": [],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "chavin-textile--moche",
+      "matched": ["evidence", "production", "material-work"],
+      "oneSided": [],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "indonesia-independence--ghana-independence",
+      "matched": ["participation", "evidence", "change"],
+      "oneSided": ["production"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "ghana-independence--south-africa-rights",
+      "matched": ["participation", "evidence", "change"],
+      "oneSided": ["production"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "roman-world--eastern-han",
+      "matched": ["authority", "production", "belief", "evidence"],
+      "oneSided": [],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "eastern-han--colima",
+      "matched": ["belief", "production"],
+      "oneSided": ["authority", "evidence", "place-context"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "roman-world--palmyra",
+      "matched": ["authority", "evidence"],
+      "oneSided": ["production", "belief", "coordination"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "palmyra--kushan-contexts",
+      "matched": ["authority", "evidence", "coordination"],
+      "oneSided": [],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "kushan-contexts--aksum",
+      "matched": ["authority", "evidence", "coordination"],
+      "oneSided": ["movement"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "palmyra--aksum",
+      "matched": ["authority", "evidence", "coordination"],
+      "oneSided": ["movement"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "aksum--portuguese-voyage",
+      "matched": ["movement", "evidence"],
+      "oneSided": ["authority", "coordination", "mediation"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "teotihuacan--moche",
+      "matched": ["production", "evidence", "material-work"],
+      "oneSided": [],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "dongson--shang-ritual",
+      "matched": ["production"],
+      "oneSided": ["place-context", "belief", "evidence", "coordination"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "benin-ivory--ming-workshops",
+      "matched": ["audience", "evidence"],
+      "oneSided": ["mediation", "work-organization"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "kongo-translation--mughal-books",
+      "matched": ["audience", "evidence"],
+      "oneSided": ["mediation", "work-organization"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "manila-network--ming-workshops",
+      "matched": ["work-organization", "audience", "evidence"],
+      "oneSided": [],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "banda-1621--haitian-revolution",
+      "matched": ["evidence"],
+      "oneSided": ["work-organization", "authority", "participation"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "uruk-accounts--dholavira",
+      "matched": ["urban", "evidence", "coordination"],
+      "oneSided": [],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "uruk-accounts--old-kingdom",
+      "matched": ["urban", "evidence"],
+      "oneSided": ["coordination", "maintenance"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "dholavira--liangzhu",
+      "matched": ["urban", "evidence", "coordination"],
+      "oneSided": [],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "caral--skara-brae",
+      "matched": ["maintenance", "urban", "evidence"],
+      "oneSided": [],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "old-kingdom--caral",
+      "matched": ["maintenance", "urban", "evidence"],
+      "oneSided": [],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "old-kingdom--skara-brae",
+      "matched": ["maintenance", "urban", "evidence"],
+      "oneSided": [],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "uluburun--shang-ritual",
+      "matched": ["evidence", "production", "coordination"],
+      "oneSided": [],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "hattusha-change--uluburun",
+      "matched": ["evidence", "production", "coordination"],
+      "oneSided": [],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "kerma-potters--olmec",
+      "matched": ["evidence", "production", "material-work"],
+      "oneSided": ["maintenance"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "lapita--polynesian-voyaging",
+      "matched": ["evidence", "production"],
+      "oneSided": ["material-work"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "olmec--poverty-point",
+      "matched": ["material-work", "maintenance"],
+      "oneSided": ["evidence", "production", "coordination", "evidence-limits"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "lapita--poverty-point",
+      "matched": ["material-work"],
+      "oneSided": [
+        "evidence",
+        "production",
+        "coordination",
+        "evidence-limits",
+        "maintenance"
+      ],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "qin-administration--ashoka-messages",
+      "matched": ["participation", "evidence", "coordination"],
+      "oneSided": [],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "ashoka-messages--athens-water",
+      "matched": ["participation", "coordination"],
+      "oneSided": ["evidence", "production"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "nimrud-palace--ashoka-messages",
+      "matched": ["participation", "evidence"],
+      "oneSided": ["material-work", "coordination"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "athens-water--qin-administration",
+      "matched": ["participation", "coordination"],
+      "oneSided": ["production", "evidence"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "taharqo--maya-vessel",
+      "matched": ["participation", "evidence"],
+      "oneSided": ["material-work", "place-work"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "chavin-textile--inca-weaving",
+      "matched": ["evidence", "production"],
+      "oneSided": ["material-work", "obligation"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "byzantium--tang-city",
+      "matched": ["participation", "evidence"],
+      "oneSided": ["place-work", "coordination"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "abbasid-craft--song-art",
+      "matched": ["production"],
+      "oneSided": ["evidence", "coordination", "participation", "obligation"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "tang-city--abbasid-craft",
+      "matched": ["evidence", "coordination"],
+      "oneSided": ["participation", "production"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "abbasid-craft--nalanda",
+      "matched": ["production", "evidence", "coordination"],
+      "oneSided": [],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "borobudur--nalanda",
+      "matched": ["evidence", "production"],
+      "oneSided": ["place-work", "coordination"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "mali-networks--middle-niger",
+      "matched": ["participation", "evidence"],
+      "oneSided": ["obligation"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "song-art--inca-weaving",
+      "matched": ["production", "obligation"],
+      "oneSided": ["participation", "evidence"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "portuguese-voyage--benin-ivory",
+      "matched": ["evidence", "mediation"],
+      "oneSided": ["movement", "audience"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "portuguese-voyage--kongo-translation",
+      "matched": ["evidence", "mediation"],
+      "oneSided": ["movement", "audience"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "mali-networks--inca-weaving",
+      "matched": ["evidence", "obligation"],
+      "oneSided": ["participation", "production"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "angkor--dholavira",
+      "matched": ["evidence"],
+      "oneSided": ["production", "urban", "coordination"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "factory-reform--hine-labor",
+      "matched": ["work-organization", "production"],
+      "oneSided": ["participation", "evidence"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "tomioka--hine-labor",
+      "matched": ["work-organization", "production", "evidence"],
+      "oneSided": [],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "tiriti--partition-1947",
+      "matched": ["participation", "evidence"],
+      "oneSided": [],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "partition-1947--south-africa-rights",
+      "matched": ["participation", "evidence"],
+      "oneSided": ["change"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "world-war-one--world-war-two",
+      "matched": ["participation", "evidence"],
+      "oneSided": [],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "sputnik--tomioka",
+      "matched": ["production", "evidence"],
+      "oneSided": ["work-organization"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "poverty-point--hopewell-earthworks",
+      "matched": ["coordination", "evidence-limits"],
+      "oneSided": ["material-work", "maintenance", "place-context"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "chaco-communities--cahokia-city",
+      "matched": ["place-work", "coordination", "evidence-limits"],
+      "oneSided": [],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "ottoman-workshops--isfahan-silk",
+      "matched": ["patronage", "inequality", "evidence"],
+      "oneSided": ["work-organization", "place-work"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "bukhara-books--zand-iran",
+      "matched": ["place-work", "patronage", "inequality", "evidence"],
+      "oneSided": [],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "bering-sea-carvers--inuinnait-sewing",
+      "matched": ["materials", "knowledge", "custody"],
+      "oneSided": [],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "ozette-makah--kwakwakawakw-potlatch",
+      "matched": ["materials", "knowledge", "custody"],
+      "oneSided": [],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "blackfoot-bison--hidatsa-villages",
+      "matched": ["materials", "knowledge", "custody"],
+      "oneSided": [],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "ocmulgee-council--wendat-laine",
+      "matched": ["materials", "knowledge", "evidence-authority"],
+      "oneSided": ["place-work"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "haudenosaunee-canandaigua--cherokee-print",
+      "matched": ["materials", "knowledge", "evidence-authority"],
+      "oneSided": [],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "ojibwe-manoomin--inuinnait-sewing",
+      "matched": ["materials", "knowledge"],
+      "oneSided": ["evidence-authority", "custody"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "nimrud-palace--taharqo",
+      "matched": ["participation", "evidence", "material-work"],
+      "oneSided": [],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    },
+    {
+      "id": "kerma-potters--taharqo",
+      "matched": ["evidence", "material-work"],
+      "oneSided": ["production", "participation"],
+      "sourceLinksAndLocators": "matched to authored record on both sides"
+    }
+  ],
+  "defaults": [
+    {
+      "subject": "eastern-han",
+      "partner": "roman-world",
+      "pair": "roman-world--eastern-han",
+      "returnState": "matched"
+    },
+    {
+      "subject": "colima",
+      "partner": "eastern-han",
+      "pair": "eastern-han--colima",
+      "returnState": "matched"
+    },
+    {
+      "subject": "roman-world",
+      "partner": "eastern-han",
+      "pair": "roman-world--eastern-han",
+      "returnState": "matched"
+    },
+    {
+      "subject": "palmyra",
+      "partner": "kushan-contexts",
+      "pair": "palmyra--kushan-contexts",
+      "returnState": "matched"
+    },
+    {
+      "subject": "kushan-contexts",
+      "partner": "palmyra",
+      "pair": "palmyra--kushan-contexts",
+      "returnState": "matched"
+    },
+    {
+      "subject": "aksum",
+      "partner": "kushan-contexts",
+      "pair": "kushan-contexts--aksum",
+      "returnState": "matched"
+    },
+    {
+      "subject": "teotihuacan",
+      "partner": "chavin-textile",
+      "pair": "chavin-textile--teotihuacan",
+      "returnState": "matched"
+    },
+    {
+      "subject": "moche",
+      "partner": "teotihuacan",
+      "pair": "teotihuacan--moche",
+      "returnState": "matched"
+    },
+    {
+      "subject": "dongson",
+      "partner": "hopewell-earthworks",
+      "pair": "dongson--hopewell-earthworks",
+      "returnState": "matched"
+    },
+    {
+      "subject": "benin-ivory",
+      "partner": "ming-workshops",
+      "pair": "benin-ivory--ming-workshops",
+      "returnState": "matched"
+    },
+    {
+      "subject": "kongo-translation",
+      "partner": "mughal-books",
+      "pair": "kongo-translation--mughal-books",
+      "returnState": "matched"
+    },
+    {
+      "subject": "portuguese-voyage",
+      "partner": "benin-ivory",
+      "pair": "portuguese-voyage--benin-ivory",
+      "returnState": "matched"
+    },
+    {
+      "subject": "manila-network",
+      "partner": "ming-workshops",
+      "pair": "manila-network--ming-workshops",
+      "returnState": "matched"
+    },
+    {
+      "subject": "ming-workshops",
+      "partner": "manila-network",
+      "pair": "manila-network--ming-workshops",
+      "returnState": "matched"
+    },
+    {
+      "subject": "mughal-books",
+      "partner": "ottoman-workshops",
+      "pair": "mughal-books--ottoman-workshops",
+      "returnState": "matched"
+    },
+    {
+      "subject": "banda-1621",
+      "partner": "manila-network",
+      "pair": "banda-1621--manila-network",
+      "returnState": "matched"
+    },
+    {
+      "subject": "uruk-accounts",
+      "partner": "dholavira",
+      "pair": "uruk-accounts--dholavira",
+      "returnState": "matched"
+    },
+    {
+      "subject": "old-kingdom",
+      "partner": "caral",
+      "pair": "old-kingdom--caral",
+      "returnState": "matched"
+    },
+    {
+      "subject": "dholavira",
+      "partner": "uruk-accounts",
+      "pair": "uruk-accounts--dholavira",
+      "returnState": "matched"
+    },
+    {
+      "subject": "liangzhu",
+      "partner": "dholavira",
+      "pair": "dholavira--liangzhu",
+      "returnState": "matched"
+    },
+    {
+      "subject": "caral",
+      "partner": "skara-brae",
+      "pair": "caral--skara-brae",
+      "returnState": "matched"
+    },
+    {
+      "subject": "skara-brae",
+      "partner": "caral",
+      "pair": "caral--skara-brae",
+      "returnState": "matched"
+    },
+    {
+      "subject": "hattusha-change",
+      "partner": "uluburun",
+      "pair": "hattusha-change--uluburun",
+      "returnState": "matched"
+    },
+    {
+      "subject": "uluburun",
+      "partner": "shang-ritual",
+      "pair": "uluburun--shang-ritual",
+      "returnState": "matched"
+    },
+    {
+      "subject": "shang-ritual",
+      "partner": "uluburun",
+      "pair": "uluburun--shang-ritual",
+      "returnState": "matched"
+    },
+    {
+      "subject": "kerma-potters",
+      "partner": "olmec",
+      "pair": "kerma-potters--olmec",
+      "returnState": "matched"
+    },
+    {
+      "subject": "olmec",
+      "partner": "kerma-potters",
+      "pair": "kerma-potters--olmec",
+      "returnState": "matched"
+    },
+    {
+      "subject": "lapita",
+      "partner": "polynesian-voyaging",
+      "pair": "lapita--polynesian-voyaging",
+      "returnState": "matched"
+    },
+    {
+      "subject": "nimrud-palace",
+      "partner": "taharqo",
+      "pair": "nimrud-palace--taharqo",
+      "returnState": "matched"
+    },
+    {
+      "subject": "ashoka-messages",
+      "partner": "qin-administration",
+      "pair": "qin-administration--ashoka-messages",
+      "returnState": "matched"
+    },
+    {
+      "subject": "athens-water",
+      "partner": "ashoka-messages",
+      "pair": "ashoka-messages--athens-water",
+      "returnState": "matched"
+    },
+    {
+      "subject": "taharqo",
+      "partner": "nimrud-palace",
+      "pair": "nimrud-palace--taharqo",
+      "returnState": "matched"
+    },
+    {
+      "subject": "chavin-textile",
+      "partner": "teotihuacan",
+      "pair": "chavin-textile--teotihuacan",
+      "returnState": "matched"
+    },
+    {
+      "subject": "byzantium",
+      "partner": "maya-vessel",
+      "pair": "byzantium--maya-vessel",
+      "returnState": "matched"
+    },
+    {
+      "subject": "tang-city",
+      "partner": "byzantium",
+      "pair": "byzantium--tang-city",
+      "returnState": "matched"
+    },
+    {
+      "subject": "abbasid-craft",
+      "partner": "nalanda",
+      "pair": "abbasid-craft--nalanda",
+      "returnState": "matched"
+    },
+    {
+      "subject": "borobudur",
+      "partner": "byzantium",
+      "pair": "byzantium--borobudur",
+      "returnState": "matched"
+    },
+    {
+      "subject": "nalanda",
+      "partner": "abbasid-craft",
+      "pair": "abbasid-craft--nalanda",
+      "returnState": "matched"
+    },
+    {
+      "subject": "maya-vessel",
+      "partner": "byzantium",
+      "pair": "byzantium--maya-vessel",
+      "returnState": "matched"
+    },
+    {
+      "subject": "mali-networks",
+      "partner": "middle-niger",
+      "pair": "mali-networks--middle-niger",
+      "returnState": "matched"
+    },
+    {
+      "subject": "middle-niger",
+      "partner": "mali-networks",
+      "pair": "mali-networks--middle-niger",
+      "returnState": "matched"
+    },
+    {
+      "subject": "angkor",
+      "partner": "dholavira",
+      "pair": "angkor--dholavira",
+      "returnState": "matched"
+    },
+    {
+      "subject": "song-art",
+      "partner": "inca-weaving",
+      "pair": "song-art--inca-weaving",
+      "returnState": "matched"
+    },
+    {
+      "subject": "inca-weaving",
+      "partner": "song-art",
+      "pair": "song-art--inca-weaving",
+      "returnState": "matched"
+    },
+    {
+      "subject": "polynesian-voyaging",
+      "partner": "lapita",
+      "pair": "lapita--polynesian-voyaging",
+      "returnState": "matched"
+    },
+    {
+      "subject": "factory-reform",
+      "partner": "tomioka",
+      "pair": "factory-reform--tomioka",
+      "returnState": "matched"
+    },
+    {
+      "subject": "hine-labor",
+      "partner": "tomioka",
+      "pair": "tomioka--hine-labor",
+      "returnState": "matched"
+    },
+    {
+      "subject": "tomioka",
+      "partner": "hine-labor",
+      "pair": "tomioka--hine-labor",
+      "returnState": "matched"
+    },
+    {
+      "subject": "haitian-revolution",
+      "partner": "banda-1621",
+      "pair": "banda-1621--haitian-revolution",
+      "returnState": "matched"
+    },
+    {
+      "subject": "tiriti",
+      "partner": "partition-1947",
+      "pair": "tiriti--partition-1947",
+      "returnState": "matched"
+    },
+    {
+      "subject": "partition-1947",
+      "partner": "tiriti",
+      "pair": "tiriti--partition-1947",
+      "returnState": "matched"
+    },
+    {
+      "subject": "south-africa-rights",
+      "partner": "ghana-independence",
+      "pair": "ghana-independence--south-africa-rights",
+      "returnState": "matched"
+    },
+    {
+      "subject": "world-war-one",
+      "partner": "world-war-two",
+      "pair": "world-war-one--world-war-two",
+      "returnState": "matched"
+    },
+    {
+      "subject": "world-war-two",
+      "partner": "world-war-one",
+      "pair": "world-war-one--world-war-two",
+      "returnState": "matched"
+    },
+    {
+      "subject": "sputnik",
+      "partner": "tomioka",
+      "pair": "sputnik--tomioka",
+      "returnState": "matched"
+    },
+    {
+      "subject": "qin-administration",
+      "partner": "ashoka-messages",
+      "pair": "qin-administration--ashoka-messages",
+      "returnState": "matched"
+    },
+    {
+      "subject": "poverty-point",
+      "partner": "olmec",
+      "pair": "olmec--poverty-point",
+      "returnState": "matched"
+    },
+    {
+      "subject": "hopewell-earthworks",
+      "partner": "poverty-point",
+      "pair": "poverty-point--hopewell-earthworks",
+      "returnState": "matched"
+    },
+    {
+      "subject": "chaco-communities",
+      "partner": "cahokia-city",
+      "pair": "chaco-communities--cahokia-city",
+      "returnState": "matched"
+    },
+    {
+      "subject": "cahokia-city",
+      "partner": "chaco-communities",
+      "pair": "chaco-communities--cahokia-city",
+      "returnState": "matched"
+    },
+    {
+      "subject": "ottoman-workshops",
+      "partner": "isfahan-silk",
+      "pair": "ottoman-workshops--isfahan-silk",
+      "returnState": "matched"
+    },
+    {
+      "subject": "isfahan-silk",
+      "partner": "bukhara-books",
+      "pair": "isfahan-silk--bukhara-books",
+      "returnState": "matched"
+    },
+    {
+      "subject": "bukhara-books",
+      "partner": "isfahan-silk",
+      "pair": "isfahan-silk--bukhara-books",
+      "returnState": "matched"
+    },
+    {
+      "subject": "zand-iran",
+      "partner": "isfahan-silk",
+      "pair": "isfahan-silk--zand-iran",
+      "returnState": "matched"
+    },
+    {
+      "subject": "bering-sea-carvers",
+      "partner": "inuinnait-sewing",
+      "pair": "bering-sea-carvers--inuinnait-sewing",
+      "returnState": "matched"
+    },
+    {
+      "subject": "inuinnait-sewing",
+      "partner": "bering-sea-carvers",
+      "pair": "bering-sea-carvers--inuinnait-sewing",
+      "returnState": "matched"
+    },
+    {
+      "subject": "ozette-makah",
+      "partner": "kwakwakawakw-potlatch",
+      "pair": "ozette-makah--kwakwakawakw-potlatch",
+      "returnState": "matched"
+    },
+    {
+      "subject": "blackfoot-bison",
+      "partner": "hidatsa-villages",
+      "pair": "blackfoot-bison--hidatsa-villages",
+      "returnState": "matched"
+    },
+    {
+      "subject": "hidatsa-villages",
+      "partner": "blackfoot-bison",
+      "pair": "blackfoot-bison--hidatsa-villages",
+      "returnState": "matched"
+    },
+    {
+      "subject": "kwakwakawakw-potlatch",
+      "partner": "ozette-makah",
+      "pair": "ozette-makah--kwakwakawakw-potlatch",
+      "returnState": "matched"
+    },
+    {
+      "subject": "ocmulgee-council",
+      "partner": "wendat-laine",
+      "pair": "ocmulgee-council--wendat-laine",
+      "returnState": "matched"
+    },
+    {
+      "subject": "wendat-laine",
+      "partner": "ocmulgee-council",
+      "pair": "ocmulgee-council--wendat-laine",
+      "returnState": "matched"
+    },
+    {
+      "subject": "haudenosaunee-canandaigua",
+      "partner": "cherokee-print",
+      "pair": "haudenosaunee-canandaigua--cherokee-print",
+      "returnState": "matched"
+    },
+    {
+      "subject": "cherokee-print",
+      "partner": "haudenosaunee-canandaigua",
+      "pair": "haudenosaunee-canandaigua--cherokee-print",
+      "returnState": "matched"
+    },
+    {
+      "subject": "ojibwe-manoomin",
+      "partner": "inuinnait-sewing",
+      "pair": "ojibwe-manoomin--inuinnait-sewing",
+      "returnState": "matched"
+    },
+    {
+      "subject": "indonesia-independence",
+      "partner": "ghana-independence",
+      "pair": "indonesia-independence--ghana-independence",
+      "returnState": "matched"
+    },
+    {
+      "subject": "ghana-independence",
+      "partner": "indonesia-independence",
+      "pair": "indonesia-independence--ghana-independence",
+      "returnState": "matched"
+    }
+  ],
+  "places": [
+    {
+      "subject": "palmyra",
+      "points": [
+        {
+          "id": "antioch",
+          "citations": [
+            {
+              "source": "trade",
+              "locator": "Trading-post sequence beginning at Antioch"
+            }
+          ]
+        },
+        {
+          "id": "palmyra",
+          "citations": [
+            {
+              "source": "met-322375",
+              "locator": "Family inscription"
+            },
+            {
+              "source": "palmyra-tax",
+              "locator": "Printed pp. 173–175"
+            }
+          ]
+        },
+        {
+          "id": "ctesiphon",
+          "citations": [
+            {
+              "source": "trade",
+              "locator": "Trading posts and distribution"
+            }
+          ]
+        }
+      ],
+      "features": [
+        {
+          "kind": "route",
+          "note": "Author-drawn schematic linking the Met account’s named places; not an exact ancient road, continuous single journey or route of the pictured family.",
+          "citations": [
+            {
+              "source": "trade",
+              "locator": "Antioch, Palmyra and Ctesiphon paragraph"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "kushan-contexts",
+      "points": [
+        {
+          "id": "peshawar",
+          "citations": [
+            {
+              "source": "kushan",
+              "locator": "Kanishka centers paragraph"
+            }
+          ]
+        },
+        {
+          "id": "mathura",
+          "citations": [
+            {
+              "source": "kushan",
+              "locator": "Kanishka centers paragraph"
+            }
+          ]
+        },
+        {
+          "id": "baghlan",
+          "citations": [
+            {
+              "source": "kushan-inscriptions",
+              "locator": "Printed pp. 77–78, site descriptions"
+            }
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "subject": "aksum",
+      "points": [
+        {
+          "id": "aksum",
+          "citations": [
+            {
+              "source": "aksum-world",
+              "locator": "Excerpt pp. 5–7"
+            },
+            {
+              "source": "aksum",
+              "locator": "Architecture and stelae chronology"
+            }
+          ]
+        },
+        {
+          "id": "adulis",
+          "citations": [
+            {
+              "source": "aksum-world",
+              "locator": "Excerpt pp. 5–7"
+            }
+          ]
+        },
+        {
+          "id": "yeha-research",
+          "citations": [
+            {
+              "source": "beta-samati",
+              "locator": "Printed pp. 1534–1535: Yeha-region study and site location"
+            }
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "subject": "teotihuacan",
+      "points": [
+        {
+          "id": "teotihuacan-site",
+          "citations": [
+            {
+              "source": "teotihuacan-location-unesco",
+              "locator": "Location metadata below Dossier 414: N19 41 30.012 W98 50 30.012"
+            },
+            {
+              "source": "teot-tlajinga-2026",
+              "locator": "The Tlajinga District and Its Neighborhood Center; Figure 1 caption"
+            }
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "subject": "dongson",
+      "points": [
+        {
+          "id": "co-loa-complex-reference",
+          "citations": [
+            {
+              "source": "dongson-co-loa-location",
+              "locator": "Coordinates; State Party disclaimer"
+            },
+            {
+              "source": "dongson-co-loa-2021",
+              "locator": "Opening find-context paragraph"
+            }
+          ]
+        },
+        {
+          "id": "ngoc-lu-locality-reference",
+          "citations": [
+            {
+              "source": "dongson-ngoc-lu-location",
+              "locator": "Coordinates and JSON-LD"
+            },
+            {
+              "source": "dongson-ngoc-lu-2013",
+              "locator": "Discovery/later-use paragraphs"
+            },
+            {
+              "source": "dongson-ngoc-lu-2023",
+              "locator": "Discovery/transfer paragraph"
+            }
+          ]
+        },
+        {
+          "id": "nhu-trac-locality-reference",
+          "citations": [
+            {
+              "source": "dongson-nhu-trac-location",
+              "locator": "Coordinates and JSON-LD"
+            },
+            {
+              "source": "dongson-ngoc-lu-2013",
+              "locator": "Discovery/later-use paragraphs"
+            },
+            {
+              "source": "dongson-ngoc-lu-2023",
+              "locator": "Discovery/transfer paragraph"
+            }
+          ]
+        },
+        {
+          "id": "phu-chanh-locality-reference",
+          "citations": [
+            {
+              "source": "dongson-phu-chanh-location",
+              "locator": "Coordinates and JSON-LD"
+            },
+            {
+              "source": "dongson-phu-chanh-2008",
+              "locator": "pp.67, 69–70, 72"
+            },
+            {
+              "source": "dongson-phu-chanh-treasure",
+              "locator": "Date block"
+            }
+          ]
+        },
+        {
+          "id": "luy-lau-area-reference",
+          "citations": [
+            {
+              "source": "dongson-luy-lau-location",
+              "locator": "Coordinates and JSON-LD"
+            },
+            {
+              "source": "dongson-luy-lau-2024",
+              "locator": "Opening location; workshop-discard phase"
+            }
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "subject": "benin-ivory",
+      "points": [
+        {
+          "id": "benin-city",
+          "citations": [
+            {
+              "source": "benin-court-guilds",
+              "locator": "Court history"
+            },
+            {
+              "source": "met-309900",
+              "locator": "Culture: court of Benin (?)"
+            }
+          ]
+        },
+        {
+          "id": "regional-coast",
+          "citations": [
+            {
+              "source": "benin-court-guilds",
+              "locator": "Conquest and contact"
+            }
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "subject": "kongo-translation",
+      "points": [
+        {
+          "id": "mbanza-kongo",
+          "citations": [
+            {
+              "source": "kongo-christianity",
+              "locator": "Royal center and later movement"
+            }
+          ]
+        },
+        {
+          "id": "atlantic-coast",
+          "citations": [
+            {
+              "source": "kongo-interview",
+              "locator": "Portuguese encounters and trafficking"
+            }
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "subject": "portuguese-voyage",
+      "points": [
+        {
+          "id": "lisbon",
+          "citations": [
+            {
+              "source": "gama-journal-1898",
+              "locator": "Printed p. 1: departure; editorial Lisbon heading"
+            }
+          ]
+        },
+        {
+          "id": "malindi",
+          "citations": [
+            {
+              "source": "gama-journal-1898",
+              "locator": "Printed pp. 39–46"
+            }
+          ]
+        },
+        {
+          "id": "calicut",
+          "citations": [
+            {
+              "source": "gama-journal-1898",
+              "locator": "Printed pp. 47–57"
+            }
+          ]
+        },
+        {
+          "id": "goa",
+          "citations": [
+            {
+              "source": "interwoven",
+              "locator": "India 1510"
+            }
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "subject": "banda-1621",
+      "points": [
+        {
+          "id": "banda-besar-reference",
+          "citations": [
+            {
+              "source": "banda-gazetteer-2021",
+              "locator": "PDF 250: Banda Besar, Pulau; 04°33′20.99″S 129°54′34.99″E"
+            },
+            {
+              "source": "banda-archive",
+              "locator": "Geografie: Banda Besar, also called Lontor"
+            }
+          ]
+        },
+        {
+          "id": "banda-neira-reference",
+          "citations": [
+            {
+              "source": "banda-gazetteer-2021",
+              "locator": "PDF 604: Neira, Pulau; 04°30′43.99″S 129°54′10.80″E"
+            }
+          ]
+        },
+        {
+          "id": "banda-rhun-reference",
+          "citations": [
+            {
+              "source": "banda-gazetteer-2021",
+              "locator": "PDF 686: Rhun, Pulau; 04°33′29.00″S 129°40′52.00″E"
+            },
+            {
+              "source": "banda-pala-1621",
+              "locator": "Spectres and rumours: Run"
+            }
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "subject": "old-kingdom",
+      "points": [
+        {
+          "id": "saqqara-wall",
+          "citations": [
+            {
+              "source": "met-543914",
+              "locator": "Artwork Details: Saqqara,Tomb QS 915"
+            }
+          ]
+        },
+        {
+          "id": "giza-reference",
+          "citations": [
+            {
+              "source": "pyramid-field-locators",
+              "locator": "Component 86-002 geographical coordinate"
+            },
+            {
+              "source": "giza-settlement",
+              "locator": "Fourth Dynasty site and provisioning account"
+            }
+          ]
+        },
+        {
+          "id": "memphis-reference",
+          "citations": [
+            {
+              "source": "pyramid-field-locators",
+              "locator": "Component 86-001 geographical coordinate"
+            },
+            {
+              "source": "merer-logbook",
+              "locator": "English annex,printed p. 152: Memphite region"
+            }
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "subject": "caral",
+      "points": [
+        {
+          "id": "caral-inland",
+          "citations": [
+            {
+              "source": "caral-starch-2023",
+              "locator": "Study area; Burial contexts"
+            }
+          ]
+        },
+        {
+          "id": "aspero-coastal",
+          "citations": [
+            {
+              "source": "caral-starch-2023",
+              "locator": "Study area; Burial contexts"
+            },
+            {
+              "source": "caral-project-2005",
+              "locator": "Printed p.14 / PDF 16: Organización económica"
+            }
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "subject": "skara-brae",
+      "points": [
+        {
+          "id": "skara-houses",
+          "citations": [
+            {
+              "source": "skara-significance-2024",
+              "locator": "Printed pp.15–17 and60: site,landscape and chronology"
+            }
+          ]
+        },
+        {
+          "id": "brodgar-circle",
+          "citations": [
+            {
+              "source": "orkney-brodgar-locator",
+              "locator": "Search-indexed Location Details,NGR HY 2945 1335"
+            },
+            {
+              "source": "skara-significance-2024",
+              "locator": "Printed p.60,note 196"
+            }
+          ]
+        },
+        {
+          "id": "stenness-circle",
+          "citations": [
+            {
+              "source": "orkney-stenness-locator",
+              "locator": "Search-indexed Location Details,NGR HY 3067 1252"
+            },
+            {
+              "source": "orkney-neolithic",
+              "locator": "Description; Brief synthesis"
+            }
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "subject": "kerma-potters",
+      "points": [
+        {
+          "id": "kerma",
+          "citations": [
+            {
+              "source": "kerma-location-tentative",
+              "locator": "Coordinates; opening Description"
+            },
+            {
+              "source": "kerma-city-project",
+              "locator": "City of Kerma: excavated city and institutional/craft spaces"
+            }
+          ]
+        },
+        {
+          "id": "abydos",
+          "citations": [
+            {
+              "source": "abydos-location-tentative",
+              "locator": "Coordinates; submission metadata"
+            },
+            {
+              "source": "met-545772",
+              "locator": "Description and Geography: Abydos, Tomb 525"
+            }
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "subject": "olmec",
+      "points": [
+        {
+          "id": "san-lorenzo-reference",
+          "citations": [
+            {
+              "source": "sic-san-lorenzo",
+              "locator": "Named record; abrir en google maps href"
+            },
+            {
+              "source": "olmec-sampling-2020",
+              "locator": "Printed pp. 130, 135 and 140–141"
+            }
+          ]
+        },
+        {
+          "id": "la-venta-reference",
+          "citations": [
+            {
+              "source": "sic-la-venta",
+              "locator": "Named record; abrir en google maps href"
+            },
+            {
+              "source": "olmec-regional-inah",
+              "locator": "Introductoria: two conventional peaks"
+            },
+            {
+              "source": "olmec",
+              "locator": "La Venta platforms and greenstone offerings"
+            }
+          ]
+        },
+        {
+          "id": "tres-zapotes-reference",
+          "citations": [
+            {
+              "source": "sic-tres-zapotes",
+              "locator": "Named record; abrir en google maps href"
+            },
+            {
+              "source": "olmec",
+              "locator": "After 400 B.C.: production at other centres"
+            }
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "subject": "lapita",
+      "points": [
+        {
+          "id": "bismarck-orientation",
+          "citations": [
+            {
+              "source": "lapita-voyaging",
+              "locator": "Page 3: opening Bismarck orientation"
+            }
+          ]
+        },
+        {
+          "id": "efate-orientation",
+          "citations": [
+            {
+              "source": "lapita-teouma-diet",
+              "locator": "Figure 2, visually inspected; The site and skeletal sample"
+            }
+          ]
+        },
+        {
+          "id": "tonga-orientation",
+          "citations": [
+            {
+              "source": "tonga-lapita-tentative",
+              "locator": "Coordinates; State, Province or Region"
+            },
+            {
+              "source": "lapita-nukuleka-uth",
+              "locator": "Nukuleka setting; Sample Context"
+            },
+            {
+              "source": "lapita-tonga-dating",
+              "locator": "Bayesian Overlap Model; Discussion"
+            }
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "subject": "nimrud-palace",
+      "points": [
+        {
+          "id": "kalhu",
+          "citations": [
+            {
+              "source": "nimrud-geonames",
+              "locator": "Named entry; coordinates linked to Pleiades 894019"
+            },
+            {
+              "source": "nimrud",
+              "locator": "Northwest Palace and capital setting"
+            }
+          ]
+        },
+        {
+          "id": "dur-sharrukin",
+          "citations": [
+            {
+              "source": "dur-sharrukin-geonames",
+              "locator": "D index, Dur-Šarrukin entry; Pleiades 874458"
+            },
+            {
+              "source": "nimrud",
+              "locator": "Later capitals under Sargon II and Sennacherib"
+            }
+          ]
+        },
+        {
+          "id": "nineveh",
+          "citations": [
+            {
+              "source": "nineveh-geonames",
+              "locator": "Named entry; coordinates linked to Pleiades 874621"
+            },
+            {
+              "source": "nimrud",
+              "locator": "Later capital and continued local use"
+            }
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "subject": "ashoka-messages",
+      "points": [
+        {
+          "id": "pataliputra",
+          "citations": [
+            {
+              "source": "ashoka",
+              "locator": "Opening paragraph and distribution"
+            }
+          ]
+        },
+        {
+          "id": "kandahar",
+          "citations": [
+            {
+              "source": "ashoka",
+              "locator": "Inscriptions and Kandahar"
+            }
+          ]
+        },
+        {
+          "id": "girnar",
+          "citations": [
+            {
+              "source": "ashoka-edicts-1925",
+              "locator": "Printed pp. 3–4, Girnar II"
+            }
+          ]
+        },
+        {
+          "id": "dhauli",
+          "citations": [
+            {
+              "source": "ashoka-edicts-1925",
+              "locator": "Printed pp. 95–96 and introduction on regional sets"
+            }
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "subject": "athens-water",
+      "points": [
+        {
+          "id": "agora",
+          "citations": [
+            {
+              "source": "athens-sites",
+              "locator": "Historical description"
+            },
+            {
+              "source": "agora-women",
+              "locator": "Printed pp. 9–11"
+            }
+          ]
+        },
+        {
+          "id": "southeast-fountain",
+          "citations": [
+            {
+              "source": "agora-women",
+              "locator": "Printed map p. 2, feature 8; pp. 6–8"
+            }
+          ]
+        },
+        {
+          "id": "pnyx",
+          "citations": [
+            {
+              "source": "athens-sites",
+              "locator": "Pnyx and Agora"
+            },
+            {
+              "source": "athens-constitution",
+              "locator": "Parts 42–43"
+            }
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "subject": "taharqo",
+      "points": [
+        {
+          "id": "nuri",
+          "citations": [
+            {
+              "source": "napatan-locations",
+              "locator": "Geographical data: component 1073-003 Nuri"
+            },
+            {
+              "source": "met-544883",
+              "locator": "Description and Geography"
+            }
+          ]
+        },
+        {
+          "id": "sanam",
+          "citations": [
+            {
+              "source": "napatan-locations",
+              "locator": "Geographical data: component 1073-004 Sanam"
+            },
+            {
+              "source": "sanam-production-2026",
+              "locator": "New excavations; workshop and production discussion; Figures 4 and 10"
+            }
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "subject": "chavin-textile",
+      "points": [
+        {
+          "id": "chavin-centre",
+          "citations": [
+            {
+              "source": "chavin-center-unesco",
+              "locator": "Location metadata below Dossier 330: S9 35 33.981 W77 10 42.433"
+            },
+            {
+              "source": "met-315784",
+              "locator": "Description paragraphs 2–3: reported southern-coastal origin and motif parallels"
+            }
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "subject": "tang-city",
+      "points": [
+        {
+          "id": "changan",
+          "citations": [
+            {
+              "source": "tang-changan",
+              "locator": "Successive city locations and later structures"
+            }
+          ]
+        },
+        {
+          "id": "luoyang",
+          "citations": [
+            {
+              "source": "tang-wards",
+              "locator": "Bai Juyi paragraph"
+            }
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "subject": "abbasid-craft",
+      "points": [
+        {
+          "id": "baghdad",
+          "citations": [
+            {
+              "source": "abbasid",
+              "locator": "Opening paragraph"
+            },
+            {
+              "source": "met-451400",
+              "locator": "Date and attribution"
+            }
+          ]
+        },
+        {
+          "id": "samarra",
+          "citations": [
+            {
+              "source": "abbasid",
+              "locator": "Samarra and archaeological survival"
+            },
+            {
+              "source": "basrah-fieldwork",
+              "locator": "Ceramic production evidence"
+            }
+          ]
+        },
+        {
+          "id": "early-basra",
+          "citations": [
+            {
+              "source": "basrah-fieldwork",
+              "locator": "Location and origins, ceramics and survey"
+            }
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "subject": "borobudur",
+      "points": [
+        {
+          "id": "borobudur-component-reference",
+          "citations": [
+            {
+              "source": "borobudur-component-locations",
+              "locator": "Component 592-001 coordinate row"
+            }
+          ]
+        },
+        {
+          "id": "pawon-component-reference",
+          "citations": [
+            {
+              "source": "borobudur-component-locations",
+              "locator": "Component 592-003 coordinate row"
+            },
+            {
+              "source": "borobudur",
+              "locator": "Brief synthesis: associated monuments"
+            }
+          ]
+        },
+        {
+          "id": "mendut-component-reference",
+          "citations": [
+            {
+              "source": "borobudur-component-locations",
+              "locator": "Component 592-002 coordinate row"
+            },
+            {
+              "source": "borobudur-monitoring-mission-2024",
+              "locator": "§3.3.2 pp. 36–41: modern Cultural Axis Path"
+            }
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "subject": "nalanda",
+      "points": [
+        {
+          "id": "nalanda",
+          "citations": [
+            {
+              "source": "nalanda",
+              "locator": "Brief synthesis and Integrity"
+            }
+          ]
+        },
+        {
+          "id": "tamralipti",
+          "citations": [
+            {
+              "source": "yijing-1896",
+              "locator": "Printed pp. 63–65 and p. 154 note 1"
+            }
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "subject": "maya-vessel",
+      "points": [
+        {
+          "id": "maya-ceren-comparison",
+          "citations": [
+            {
+              "source": "maya-ceren-unesco",
+              "locator": "Dossier 675 location metadata, Department of La Libertad"
+            }
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "subject": "mali-networks",
+      "points": [
+        {
+          "id": "jenne-jeno",
+          "citations": [
+            {
+              "source": "sahel",
+              "locator": "Ancient Mali; Archaeology"
+            }
+          ]
+        },
+        {
+          "id": "timbuktu",
+          "citations": [
+            {
+              "source": "sahel",
+              "locator": "Islam; Songhay"
+            }
+          ]
+        },
+        {
+          "id": "gao",
+          "citations": [
+            {
+              "source": "sahel",
+              "locator": "Songhay"
+            }
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "subject": "angkor",
+      "points": [
+        {
+          "id": "wat",
+          "citations": [
+            {
+              "source": "angkor-nasa",
+              "locator": "Image and Angkor Wat paragraph"
+            },
+            {
+              "source": "angkor-occupation",
+              "locator": "Life history of the temple"
+            }
+          ]
+        },
+        {
+          "id": "thom",
+          "citations": [
+            {
+              "source": "angkor-nasa",
+              "locator": "Angkor Thom paragraph"
+            }
+          ]
+        },
+        {
+          "id": "west-baray",
+          "citations": [
+            {
+              "source": "angkor-nasa",
+              "locator": "Western Baray paragraph"
+            },
+            {
+              "source": "angkor-network",
+              "locator": "Water distribution network"
+            }
+          ]
+        },
+        {
+          "id": "east-baray",
+          "citations": [
+            {
+              "source": "angkor-nasa",
+              "locator": "Eastern Baray paragraph"
+            }
+          ]
+        },
+        {
+          "id": "lake",
+          "citations": [
+            {
+              "source": "angkor-nasa",
+              "locator": "Opening and satellite image"
+            }
+          ]
+        }
+      ],
+      "features": [
+        {
+          "kind": "water",
+          "note": "A simplified West Baray rectangle derived from the satellite orientation; dimensions are not survey data.",
+          "citations": [
+            {
+              "source": "angkor-nasa",
+              "locator": "Satellite image"
+            }
+          ]
+        },
+        {
+          "kind": "area",
+          "note": "An enclosure outline, not a claim that it was filled at the same time as the modern image of West Baray.",
+          "citations": [
+            {
+              "source": "angkor-nasa",
+              "locator": "Eastern Baray"
+            }
+          ]
+        },
+        {
+          "kind": "water",
+          "note": "A schematic edge indicating the lakeward side of the plain, not a historical shoreline.",
+          "citations": [
+            {
+              "source": "angkor-nasa",
+              "locator": "Image"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "song-art",
+      "points": [
+        {
+          "id": "kaifeng",
+          "citations": [
+            {
+              "source": "song",
+              "locator": "Northern capital"
+            },
+            {
+              "source": "song-phases",
+              "locator": "1125–1234 entry"
+            }
+          ]
+        },
+        {
+          "id": "hangzhou",
+          "citations": [
+            {
+              "source": "song-phases",
+              "locator": "Southern Song and Hangzhou"
+            }
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "subject": "inca-weaving",
+      "points": [
+        {
+          "id": "cusco",
+          "citations": [
+            {
+              "source": "inka-regional",
+              "locator": "Ambiente y Localización"
+            }
+          ]
+        },
+        {
+          "id": "yanawilka",
+          "citations": [
+            {
+              "source": "yanawilka-food",
+              "locator": "Introduction coordinates; Methods"
+            }
+          ]
+        },
+        {
+          "id": "vilcashuaman",
+          "citations": [
+            {
+              "source": "yanawilka-food",
+              "locator": "Landscape and settlement location"
+            }
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "subject": "tomioka",
+      "points": [
+        {
+          "id": "tomioka-mill-reference",
+          "citations": [
+            {
+              "source": "tomioka-unesco-coordinates",
+              "locator": "1449-001"
+            },
+            {
+              "source": "tomioka-local",
+              "locator": "Tomioka Silk Mill"
+            }
+          ]
+        },
+        {
+          "id": "tajima-farm-reference",
+          "citations": [
+            {
+              "source": "tomioka-unesco-coordinates",
+              "locator": "1449-002"
+            },
+            {
+              "source": "tomioka-local",
+              "locator": "Farmhouses: Tajima"
+            }
+          ]
+        },
+        {
+          "id": "takayama-school-reference",
+          "citations": [
+            {
+              "source": "tomioka-unesco-coordinates",
+              "locator": "1449-003"
+            },
+            {
+              "source": "tomioka-local",
+              "locator": "Farmhouses: Takayama-sha"
+            }
+          ]
+        },
+        {
+          "id": "arafune-storage-reference",
+          "citations": [
+            {
+              "source": "tomioka-unesco-coordinates",
+              "locator": "1449-004"
+            },
+            {
+              "source": "tomioka-arafune-2020",
+              "locator": "Preparing for storage"
+            }
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "subject": "partition-1947",
+      "points": [
+        {
+          "id": "lahore",
+          "citations": [
+            {
+              "source": "partition-map",
+              "locator": "Lahore on the map"
+            },
+            {
+              "source": "partition",
+              "locator": "Source 3 introduction"
+            }
+          ]
+        },
+        {
+          "id": "amritsar",
+          "citations": [
+            {
+              "source": "partition-map",
+              "locator": "Amritsar on the map"
+            }
+          ]
+        },
+        {
+          "id": "delhi",
+          "citations": [
+            {
+              "source": "partition",
+              "locator": "Source 1: sender, date and contents"
+            }
+          ]
+        },
+        {
+          "id": "barrackpore",
+          "citations": [
+            {
+              "source": "partition-oral",
+              "locator": "Sunil Chandra Ghosh summary"
+            }
+          ]
+        },
+        {
+          "id": "mymensingh",
+          "citations": [
+            {
+              "source": "partition-oral",
+              "locator": "Ila Banerjee summary"
+            }
+          ]
+        }
+      ],
+      "features": [
+        {
+          "kind": "area",
+          "note": "An approximate reading-area box, not the limits of Punjab or any state.",
+          "citations": [
+            {
+              "source": "partition-map",
+              "locator": "Geographic scope"
+            }
+          ]
+        },
+        {
+          "kind": "area",
+          "note": "An approximate reading-area box locating the eastern examples; it is not a proposed or current border.",
+          "citations": [
+            {
+              "source": "partition-oral",
+              "locator": "East Pakistan and Bengal summaries"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "south-africa-rights",
+      "points": [
+        {
+          "id": "inanda",
+          "citations": [
+            {
+              "source": "sa-voting-image",
+              "locator": "Setting, author and date"
+            }
+          ]
+        },
+        {
+          "id": "cape-town",
+          "citations": [
+            {
+              "source": "sa-mandela-constitution",
+              "locator": "Title and pp. 1–2"
+            },
+            {
+              "source": "sa-certification",
+              "locator": "Paragraph 6, Assembly address"
+            }
+          ]
+        },
+        {
+          "id": "sharpeville",
+          "citations": [
+            {
+              "source": "sa-transition",
+              "locator": "1996 and 1997 milestones"
+            }
+          ]
+        },
+        {
+          "id": "braamfontein",
+          "citations": [
+            {
+              "source": "sa-certification",
+              "locator": "Paragraphs 5 and 11, Forum II address"
+            },
+            {
+              "source": "sa-constitution-hill",
+              "locator": "Later Court building history"
+            }
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "subject": "qin-administration",
+      "points": [
+        {
+          "id": "xianyang",
+          "citations": [
+            {
+              "source": "qin-mausoleum",
+              "locator": "Criterion iv: Xianyang"
+            }
+          ]
+        },
+        {
+          "id": "lishan",
+          "citations": [
+            {
+              "source": "qin-mausoleum",
+              "locator": "Brief synthesis: location and project chronology"
+            }
+          ]
+        },
+        {
+          "id": "liye",
+          "citations": [
+            {
+              "source": "qin-practice",
+              "locator": "Printed pp. 147–150"
+            }
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "subject": "poverty-point",
+      "points": [
+        {
+          "id": "poverty-property-reference",
+          "citations": [
+            {
+              "source": "pp-heritage",
+              "locator": "Property coordinates: N32°38′13″ W91°24′23″"
+            },
+            {
+              "source": "pp-nps",
+              "locator": "Main residential/ceremonial frame"
+            }
+          ]
+        },
+        {
+          "id": "jaketown-site-reference",
+          "citations": [
+            {
+              "source": "jaketown-locator",
+              "locator": "Published GeoJSON Point and POINT value"
+            },
+            {
+              "source": "pp-chronology-2023",
+              "locator": "Abstract; Discussion; Conclusion"
+            }
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "subject": "hopewell-earthworks",
+      "points": [
+        {
+          "id": "hopewell-1689-001",
+          "citations": [
+            {
+              "source": "hopewell-unesco-locations",
+              "locator": "Geographical data (8), 1689-001 Octagon Earthworks row"
+            }
+          ]
+        },
+        {
+          "id": "hopewell-1689-002",
+          "citations": [
+            {
+              "source": "hopewell-unesco-locations",
+              "locator": "Geographical data (8), 1689-002 Great Circle Earthworks row"
+            }
+          ]
+        },
+        {
+          "id": "hopewell-1689-003",
+          "citations": [
+            {
+              "source": "hopewell-unesco-locations",
+              "locator": "Geographical data (8), 1689-003 Hopeton Earthworks row"
+            }
+          ]
+        },
+        {
+          "id": "hopewell-1689-004",
+          "citations": [
+            {
+              "source": "hopewell-unesco-locations",
+              "locator": "Geographical data (8), 1689-004 Mound City row"
+            }
+          ]
+        },
+        {
+          "id": "hopewell-1689-005",
+          "citations": [
+            {
+              "source": "hopewell-unesco-locations",
+              "locator": "Geographical data (8), 1689-005 High Bank Works row"
+            }
+          ]
+        },
+        {
+          "id": "hopewell-1689-006",
+          "citations": [
+            {
+              "source": "hopewell-unesco-locations",
+              "locator": "Geographical data (8), 1689-006 Hopewell Mound Group row"
+            }
+          ]
+        },
+        {
+          "id": "hopewell-1689-007",
+          "citations": [
+            {
+              "source": "hopewell-unesco-locations",
+              "locator": "Geographical data (8), 1689-007 Seip Earthworks row"
+            }
+          ]
+        },
+        {
+          "id": "hopewell-1689-008",
+          "citations": [
+            {
+              "source": "hopewell-unesco-locations",
+              "locator": "Geographical data (8), 1689-008 Fort Ancient row"
+            }
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "subject": "isfahan-silk",
+      "points": [
+        {
+          "id": "isfahan-square-reference",
+          "citations": [
+            {
+              "source": "isfahan-square-unesco",
+              "locator": "Published coordinate: N32 39 26.82 E51 40 40"
+            },
+            {
+              "source": "isfahan-bridges",
+              "locator": "Allāhverdi Khan Bridge: royal/Meydan side and southern suburbs"
+            }
+          ]
+        },
+        {
+          "id": "new-julfa-vank-reference",
+          "citations": [
+            {
+              "source": "isfahan-vank-tentative",
+              "locator": "Submission header: 1 February 2019; N32 38 06 E51 39 21"
+            },
+            {
+              "source": "isfahan-bridges",
+              "locator": "Allāhverdi Khan Bridge: New Julfa connection"
+            }
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "subject": "indonesia-independence",
+      "points": [
+        {
+          "id": "jakarta",
+          "citations": [
+            {
+              "source": "indonesia-proclamation-archive",
+              "locator": "Printed p. 7, dated Jakarta proclamation"
+            }
+          ]
+        },
+        {
+          "id": "yogyakarta",
+          "citations": [
+            {
+              "source": "indonesia-war",
+              "locator": "19 December 1948"
+            }
+          ]
+        },
+        {
+          "id": "sumatra",
+          "citations": [
+            {
+              "source": "indonesia-transfer",
+              "locator": "Linggajati agreement summary"
+            }
+          ]
+        },
+        {
+          "id": "new-guinea",
+          "citations": [
+            {
+              "source": "indonesia-newguinea",
+              "locator": "New Guinea exclusion"
+            }
+          ]
+        }
+      ],
+      "features": []
+    },
+    {
+      "subject": "ghana-independence",
+      "points": [
+        {
+          "id": "accra",
+          "citations": [
+            {
+              "source": "ghana-country-study",
+              "locator": "Printed pp. 26–29"
+            },
+            {
+              "source": "ghana-debate-1957",
+              "locator": "Printed columns 23–24"
+            }
+          ]
+        },
+        {
+          "id": "kumasi",
+          "citations": [
+            {
+              "source": "ghana-country-study",
+              "locator": "Printed p. 29, NLM and regionalism"
+            }
+          ]
+        },
+        {
+          "id": "tema",
+          "citations": [
+            {
+              "source": "ghana-debate-1957",
+              "locator": "Printed column 26; PDF p. 21"
+            }
+          ]
+        }
+      ],
+      "features": []
+    }
+  ],
+  "themes": [
+    {
+      "id": "THEME01",
+      "question": "Who could turn a decision into everyday action?",
+      "scope": "",
+      "stops": [
+        {
+          "subject": "qin-administration",
+          "section": "A local office had to make records usable",
+          "prompt": "Find one job a local office had to do before a common rule could work.",
+          "source": "qin-practice",
+          "region": "East Asia",
+          "chapters": ["C3"],
+          "citations": [
+            {
+              "source": "qin-practice",
+              "locator": "Printed pp. 147–153; §3 grain disbursal tallies"
+            }
+          ]
+        },
+        {
+          "subject": "ashoka-messages",
+          "section": "Officials were told how to exercise power",
+          "prompt": "What were officials instructed to do? Mark the difference between an order and evidence that someone obeyed it.",
+          "source": "ashoka-edicts-1925",
+          "region": "South Asia",
+          "chapters": ["C3"],
+          "citations": [
+            {
+              "source": "ashoka-edicts-1925",
+              "locator": "Printed pp. 95–97, Dhauli Separate I"
+            }
+          ]
+        },
+        {
+          "subject": "athens-water",
+          "section": "Formal participation required eligibility",
+          "prompt": "Compare the rules for formal participation with the people visible in the water scene.",
+          "source": "athens-constitution",
+          "region": "Europe",
+          "chapters": ["C3"],
+          "citations": [
+            {
+              "source": "athens-constitution",
+              "locator": "Parts 42–43"
+            },
+            {
+              "source": "agora-women",
+              "locator": "Printed pp. 7–11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "THEME02",
+      "question": "What work kept people supplied, and what evidence survives?",
+      "scope": "",
+      "stops": [
+        {
+          "subject": "dholavira",
+          "section": "Read components before drawing a complete system",
+          "prompt": "Trace one step in storing water. Which part of the reconstruction is uncertain?",
+          "source": "dholavira-plan",
+          "region": "South Asia",
+          "chapters": ["C1", "C2"],
+          "citations": [
+            {
+              "source": "dholavira-plan",
+              "locator": "PDF p. 1, components C1, C5–C7 and reservoir labels"
+            }
+          ]
+        },
+        {
+          "subject": "old-kingdom",
+          "section": "Grain was only a beginning",
+          "prompt": "Follow grain past the point of delivery. Who had to turn supplies into food?",
+          "source": "giza-provisioning",
+          "region": "Africa",
+          "chapters": ["C1"],
+          "citations": [
+            {
+              "source": "giza-provisioning",
+              "locator": "Pyramid builders’ diet; Two Giza bakeries; Hearths and depressions; Bakery attachment"
+            }
+          ]
+        },
+        {
+          "subject": "ojibwe-manoomin",
+          "section": "Care for rice waters requires observation",
+          "prompt": "Find a sign that rice waters need care. Who has knowledge of the change?",
+          "source": "rice-glifwc",
+          "region": "Americas",
+          "chapters": ["C8"],
+          "citations": [
+            {
+              "source": "rice-glifwc",
+              "locator": "Program knowledge and Habitat Requirements"
+            },
+            {
+              "source": "rice-goodberry",
+              "locator": "PDFp4,Management and annual surveys"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "THEME03",
+      "question": "Whose work appears in records of households and cities?",
+      "scope": "Gendered experience needs further editorial review; these routes do not represent every household.",
+      "stops": [
+        {
+          "subject": "hidatsa-villages",
+          "section": "An earthlodge joined construction with household authority",
+          "prompt": "Who built or controlled an earthlodge? Look for a named responsibility.",
+          "source": "knife-women",
+          "region": "Americas",
+          "chapters": ["C7", "C8"],
+          "citations": [
+            {
+              "source": "knife-women",
+              "locator": "Construction/ownership; clan cooperation; depressions and reconstruction"
+            },
+            {
+              "source": "knife-subsistence",
+              "locator": "Food Storage; tool illustration"
+            }
+          ]
+        },
+        {
+          "subject": "athens-water",
+          "section": "Water connected households with public space",
+          "prompt": "What can a painted water scene suggest about work, and what can it leave out?",
+          "source": "agora-women",
+          "region": "Europe",
+          "chapters": ["C3"],
+          "citations": [
+            {
+              "source": "agora-women",
+              "locator": "Printed pp. 7–11, fountain house and public space"
+            }
+          ]
+        },
+        {
+          "subject": "eastern-han",
+          "section": "The model is not the building",
+          "prompt": "What did a household choose to put in a tomb? Explain why a model is different from an inventory of its home.",
+          "source": "met-49519",
+          "region": "East Asia",
+          "chapters": ["C4"],
+          "citations": [
+            {
+              "source": "met-49519",
+              "locator": "Description; period, date and medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "THEME04",
+      "question": "Who could learn a skill, and under what conditions?",
+      "scope": "Education and work are represented; broader childhood histories remain incomplete.",
+      "stops": [
+        {
+          "subject": "nalanda",
+          "section": "Study meant learning and explaining, not merely storing texts",
+          "prompt": "Find something a learner had to practice. Who describes it?",
+          "source": "yijing-1896",
+          "region": "South Asia",
+          "chapters": ["C5", "C6"],
+          "citations": [
+            {
+              "source": "yijing-1896",
+              "locator": "Printed pp. 176–177: stages of learning, Nalanda and Valabhi"
+            }
+          ]
+        },
+        {
+          "subject": "tomioka",
+          "section": "Workers carried knowledge elsewhere",
+          "prompt": "How could a worker carry a skill beyond the mill? Identify the kind of account you are reading.",
+          "source": "tomioka-wada-ndl",
+          "region": "East Asia",
+          "chapters": ["C8"],
+          "citations": [
+            {
+              "source": "tomioka-wada-ndl",
+              "locator": "Wada biographical paragraph"
+            },
+            {
+              "source": "tomioka-labour-adaptation-1994",
+              "locator": "Rokkūsha and Nakayamasha adaptation; note 11"
+            }
+          ]
+        },
+        {
+          "subject": "hine-labor",
+          "section": "A caption records a contested explanation",
+          "prompt": "Compare the photographer’s caption with the overseer’s explanation. Which questions about this child remain unanswered?",
+          "source": "hine",
+          "region": "Americas",
+          "chapters": ["C8"],
+          "citations": [
+            {
+              "source": "hine",
+              "locator": "Indexed caption title: reported conversation; 3 December 1908"
+            },
+            {
+              "source": "hine-mollahan-group",
+              "locator": "Indexed caption title: group, date and named witness"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "THEME05",
+      "question": "Who supplied work, who benefited, and who could refuse?",
+      "scope": "",
+      "stops": [
+        {
+          "subject": "inca-weaving",
+          "section": "Work could be demanded in different ways",
+          "prompt": "Distinguish one kind of work obligation from another before using the word forced.",
+          "source": "inka-labor",
+          "region": "Americas",
+          "chapters": ["C6", "C7"],
+          "citations": [
+            {
+              "source": "inka-labor",
+              "locator": "Mit’a and Ayni"
+            },
+            {
+              "source": "inka-regional",
+              "locator": "Economía, Arte and Organización Social"
+            }
+          ]
+        },
+        {
+          "subject": "banda-1621",
+          "section": "Plantation production depended on people’s knowledge",
+          "prompt": "Who needed whose knowledge to produce nutmeg after the conquest?",
+          "source": "banda-museum",
+          "region": "Southeast Asia/Oceania",
+          "chapters": ["C7"],
+          "citations": [
+            {
+              "source": "banda-museum",
+              "locator": "Eerste op slavernij gebaseerde kolonie"
+            },
+            {
+              "source": "banda-archive",
+              "locator": "Na de genocide"
+            },
+            {
+              "source": "banda-pala-1621",
+              "locator": "Further persecution and diaspora; Kei"
+            }
+          ]
+        },
+        {
+          "subject": "haitian-revolution",
+          "section": "Ending slavery did not settle control of work",
+          "prompt": "Find a rule about work after abolition. What did ending slavery change, and what remained contested?",
+          "source": "haiti-constitution-1801",
+          "region": "Americas",
+          "chapters": ["C7", "C8"],
+          "citations": [
+            {
+              "source": "haiti-constitution-1801",
+              "locator": "Articles 1,3,14–16,35"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "THEME06",
+      "question": "How do movement and political change affect a community?",
+      "scope": "These selected encounters and political transitions are not a comprehensive migration history.",
+      "stops": [
+        {
+          "subject": "isfahan-silk",
+          "section": "A prosperous quarter followed forced movement",
+          "prompt": "Trace the forced movement behind the new commercial quarter. Who chose the move?",
+          "source": "julfa-forced",
+          "region": "West/Central Asia",
+          "chapters": ["C7"],
+          "citations": [
+            {
+              "source": "julfa-forced",
+              "locator": "Origin, settlement, and population; Society and administration"
+            }
+          ]
+        },
+        {
+          "subject": "partition-1947",
+          "section": "The work of rebuilding a life",
+          "prompt": "Find one part of rebuilding a life that a boundary map would miss.",
+          "source": "partition",
+          "region": "South Asia",
+          "chapters": ["C8"],
+          "citations": [
+            {
+              "source": "partition",
+              "locator": "Source 6: Learning Hindi; My father and Mr Ansari transcripts"
+            }
+          ]
+        },
+        {
+          "subject": "polynesian-voyaging",
+          "section": "Preparation made sailing possible",
+          "prompt": "What preparation did a voyage require? Explain why the evidence does not support treating every movement as forced or permanent.",
+          "source": "navigation",
+          "region": "Southeast Asia/Oceania",
+          "chapters": ["C6"],
+          "citations": [
+            {
+              "source": "navigation",
+              "locator": "Ocean voyaging: Preparing to sail"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "THEME07",
+      "question": "How do ideas depend on institutions, makers and movement?",
+      "scope": "",
+      "stops": [
+        {
+          "subject": "nalanda",
+          "section": "A daily practice needed coordination and other workers",
+          "prompt": "Look beyond teachers: whose coordinated work supported study?",
+          "source": "yijing-1896",
+          "region": "South Asia",
+          "chapters": ["C5", "C6"],
+          "citations": [
+            {
+              "source": "yijing-1896",
+              "locator": "Printed pp. 154–155 and textual notes"
+            }
+          ]
+        },
+        {
+          "subject": "borobudur",
+          "section": "Support reached beyond the carved stone",
+          "prompt": "What evidence links religious buildings to people beyond the monument?",
+          "source": "borobudur-inscription-context-2018",
+          "region": "Southeast Asia/Oceania",
+          "chapters": ["C5"],
+          "citations": [
+            {
+              "source": "borobudur-inscription-context-2018",
+              "locator": "Sīma and Tri Tepusan interpretation"
+            },
+            {
+              "source": "borobudur-community-architecture-2026",
+              "locator": "Documentation initiative and December 2025 exhibition"
+            }
+          ]
+        },
+        {
+          "subject": "kongo-translation",
+          "section": "Translation required people who could question meanings",
+          "prompt": "Who could question or reshape a religious meaning in translation? Compare this work with maintaining a building.",
+          "source": "kongo-christianity",
+          "region": "Africa",
+          "chapters": ["C6", "C7"],
+          "citations": [
+            {
+              "source": "kongo-christianity",
+              "locator": "Education, translation and uneven practice"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "THEME08",
+      "question": "How can an object or record show a technical practice and its limits?",
+      "scope": "Technology is represented; medicine remains a major research gap.",
+      "stops": [
+        {
+          "subject": "dholavira",
+          "section": "A radar image is a proposal to test",
+          "prompt": "Identify the proposed feature in a radar image. What evidence would confirm it?",
+          "source": "dholavira-gpr",
+          "region": "South Asia",
+          "chapters": ["C1", "C2"],
+          "citations": [
+            {
+              "source": "dholavira-gpr",
+              "locator": "Printed pp. 880, 884–886; interpretation and Conclusion"
+            }
+          ]
+        },
+        {
+          "subject": "angkor",
+          "section": "Seeing traces beneath vegetation",
+          "prompt": "What does mapping beneath vegetation reveal, and what can it leave undated?",
+          "source": "angkor-lidar",
+          "region": "Southeast Asia/Oceania",
+          "chapters": ["C5", "C6"],
+          "citations": [
+            {
+              "source": "angkor-lidar",
+              "locator": "Introduction; airborne laser scanning and urban landscapes"
+            }
+          ]
+        },
+        {
+          "subject": "sputnik",
+          "section": "A signal depended on work on Earth",
+          "prompt": "Follow a signal from the spacecraft to a listener. What does receiving it establish?",
+          "source": "sputnik",
+          "region": "West/Central Asia",
+          "chapters": ["C8"],
+          "citations": [
+            {
+              "source": "sputnik",
+              "locator": "Opening;Background:IGY"
+            },
+            {
+              "source": "sputnik-siddiqi-igy",
+              "locator": "Labor;Birth:selected calculation/tracking passages"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "THEME09",
+      "question": "Who made a message, for whom, and what can we infer from it?",
+      "scope": "",
+      "stops": [
+        {
+          "subject": "mughal-books",
+          "section": "Different skills made a book possible",
+          "prompt": "Name two kinds of work that made a painted book possible.",
+          "source": "mughal-workshops-va",
+          "region": "South Asia",
+          "chapters": ["C7"],
+          "citations": [
+            {
+              "source": "mughal-workshops-va",
+              "locator": "House of Books; The Harivamsa"
+            },
+            {
+              "source": "mughal-razmnama-copy",
+              "locator": "Title and Scope & Content"
+            }
+          ]
+        },
+        {
+          "subject": "cherokee-print",
+          "section": "Readers debated access to political arguments",
+          "prompt": "Find a disagreement about access to print. How could changing the audience change a message?",
+          "source": "phoenix-boudinot-letter-1832",
+          "region": "Americas",
+          "chapters": ["C8"],
+          "citations": [
+            {
+              "source": "phoenix-boudinot-letter-1832",
+              "locator": "Separately dated September 7 reply concerning Rocky Mountain and Ross’s message"
+            }
+          ]
+        },
+        {
+          "subject": "kongo-translation",
+          "section": "A maker composed an argument in brass",
+          "prompt": "Choose one decision made visible in brass. What would you still need to identify the maker’s intention?",
+          "source": "met-318323",
+          "region": "Africa",
+          "chapters": ["C6", "C7"],
+          "citations": [
+            {
+              "source": "met-318323",
+              "locator": "Image and artwork details"
+            },
+            {
+              "source": "kongo-interview",
+              "locator": "Reading of accession 1999.295.7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "THEME10",
+      "question": "Whose work and knowledge made exchange possible?",
+      "scope": "",
+      "stops": [
+        {
+          "subject": "uluburun",
+          "section": "A chemical match is an argument about origin",
+          "prompt": "How does a researcher move from a material sample to an argument about origin?",
+          "source": "uluburun-tin-2022",
+          "region": "West/Central Asia",
+          "chapters": ["C2"],
+          "citations": [
+            {
+              "source": "uluburun-tin-2022",
+              "locator": "Results and Discussion: source assignments"
+            },
+            {
+              "source": "uluburun-tin-2023",
+              "locator": "Abstract"
+            },
+            {
+              "source": "uluburun-tin-2025",
+              "locator": "Printed pp. 717–719, especially p. 718"
+            }
+          ]
+        },
+        {
+          "subject": "benin-ivory",
+          "section": "A customer’s request still needed a maker’s decisions",
+          "prompt": "Separate a customer’s request from an ivory carver’s decisions.",
+          "source": "ivories",
+          "region": "Africa",
+          "chapters": ["C7"],
+          "citations": [
+            {
+              "source": "ivories",
+              "locator": "Commissioning and apprenticeship"
+            },
+            {
+              "source": "met-309900",
+              "locator": "Attribution and iconography"
+            }
+          ]
+        },
+        {
+          "subject": "manila-network",
+          "section": "A registered consignment gives a narrower connection",
+          "prompt": "Identify what one registered consignment establishes. Why can it not explain every object in the trade?",
+          "source": "manila-santo-cristo-2022",
+          "region": "Americas",
+          "chapters": ["C7", "C8"],
+          "citations": [
+            {
+              "source": "manila-santo-cristo-2022",
+              "locator": "PDF 4 note 5; PDF 6 and 10: declared-value limits; PDF 14: Julián Ignacio"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "THEME11",
+      "question": "How do decisions and institutions connect conflict to lives?",
+      "scope": "Political resistance has varied forms; shared route membership does not make every case a war.",
+      "stops": [
+        {
+          "subject": "world-war-one",
+          "section": "Empires connected campaigns to labour and households",
+          "prompt": "Trace a connection between an imperial campaign and work away from the battlefield.",
+          "source": "ww1",
+          "region": "Europe",
+          "chapters": ["C8"],
+          "citations": [
+            {
+              "source": "ww1",
+              "locator": "Retained global-war scope"
+            },
+            {
+              "source": "ww1-watkins-transcript",
+              "locator": "Paras 88–93/110–114"
+            }
+          ]
+        },
+        {
+          "subject": "indonesia-independence",
+          "section": "A republic had to survive",
+          "prompt": "What did a proclamation leave the new republic still needing to defend?",
+          "source": "indonesia-war",
+          "region": "Southeast Asia/Oceania",
+          "chapters": ["C8"],
+          "citations": [
+            {
+              "source": "indonesia-war",
+              "locator": "21 July 1947; 19 December 1948; 7 May 1949"
+            }
+          ]
+        },
+        {
+          "subject": "ghana-independence",
+          "section": "A party needed people and communication",
+          "prompt": "Find one form of political organizing. What evidence distinguishes it from armed conflict?",
+          "source": "ghana-country-study",
+          "region": "Africa",
+          "chapters": ["C8"],
+          "citations": [
+            {
+              "source": "ghana-country-study",
+              "locator": "Printed pp. 27–28"
+            },
+            {
+              "source": "ghana-nkrumah",
+              "locator": "CPP and Positive Action"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "THEME12",
+      "question": "Who understood, implemented and benefited from a rule or promise?",
+      "scope": "",
+      "stops": [
+        {
+          "subject": "tiriti",
+          "section": "Keep three kinds of text distinct",
+          "prompt": "Identify which text you are reading before explaining what was promised.",
+          "source": "tiriti-tepapa-texts",
+          "region": "Southeast Asia/Oceania",
+          "chapters": ["C8"],
+          "citations": [
+            {
+              "source": "tiriti-tepapa-texts",
+              "locator": "Original Māori/English articles 1–2; separate Kawharu translation"
+            },
+            {
+              "source": "tiriti-kawanatanga-scholarship",
+              "locator": "Page 1: terms in context"
+            }
+          ]
+        },
+        {
+          "subject": "partition-1947",
+          "section": "Neighbors cannot be reduced to categories",
+          "prompt": "Compare an individual account with what a boundary decision can tell you.",
+          "source": "partition-oral",
+          "region": "South Asia",
+          "chapters": ["C8"],
+          "citations": [
+            {
+              "source": "partition-oral",
+              "locator": "Sunil Chandra Ghosh and Hamida summaries"
+            }
+          ]
+        },
+        {
+          "subject": "south-africa-rights",
+          "section": "A commitment creates questions to investigate",
+          "prompt": "Choose a constitutional commitment. What additional evidence would show whether people could use it?",
+          "source": "sa-rights",
+          "region": "Africa",
+          "chapters": ["C8"],
+          "citations": [
+            {
+              "source": "sa-rights",
+              "locator": "Sections 7–8 and 38, duties, application and enforcement"
+            },
+            {
+              "source": "sa-transition",
+              "locator": "1994–1997 milestones"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

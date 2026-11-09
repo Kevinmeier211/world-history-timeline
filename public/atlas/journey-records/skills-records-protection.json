@@ -1,0 +1,39 @@
+{
+  "journey": "skills-records-protection",
+  "revision": "1e2b114c34a342204fec421bd5673426b147496ad2f927db23451e9e05658a4e",
+  "stops": [
+    {
+      "index": 0,
+      "narrative": "The 1833 Act’s selected clauses define powers and covered categories. The 1836 extract reports an inspector questioning boys, examining a time book and intending punishment. Ask what the selected record establishes and what would require evidence of what happened afterward. The extract does not supply every age, break, book finding or completed penalty, and a reported benefit elsewhere is not a census of all workplaces."
+    },
+    {
+      "index": 1,
+      "narrative": "Observe the print’s rows of people, equipment and roof supports as an artistic arrangement. Its NDL catalogue attribution is bracketed [1872]; the modern reproduction has another, unknown date. Separate sources explain women learning filament handling and teaching elsewhere, alongside regional farming, schooling and later cold storage. Neither the orderly picture nor technical learning establishes everyone’s working conditions. The 1911 law and its 1916 implementation are later, separate evidence."
+    },
+    {
+      "index": 2,
+      "narrative": "The case remains the particular photograph and caption dated 3 December 1908. Looking supports observations; the caption supplies Hine’s disputed workplace account. A later federal law and the Bureau’s report concern different dates and a defined administrative scope. They do not identify this child’s age, prove every mill complied or establish that this single photograph caused legislation. Ask which further record could test a particular claim."
+    }
+  ],
+  "conclusion": "Explain a practical task with a particular source, then name the evidence needed to assess a worker’s protection. Training, an artistic arrangement, an investigative action and a legal rule answer related questions without becoming the same kind of proof. Preserve the people, places, dates and access limits of each record.",
+  "evidence": {
+    "prompt": "Which conclusion distinguishes the supplied records carefully?",
+    "options": [
+      {
+        "text": "A source may explain a skill or report an investigation without proving effective protection for everyone.",
+        "supported": true,
+        "feedback": "The records have defined purposes and scopes. Evidence of training or an investigative action is not automatically a complete account of working conditions or outcomes."
+      },
+      {
+        "text": "Orderly rows in the Tomioka print prove that every worker could rest or leave whenever she wished.",
+        "supported": false,
+        "feedback": "A published artistic arrangement does not establish every worker’s hours or freedom. Those questions require appropriate records and attributed accounts."
+      },
+      {
+        "text": "The Hine photograph alone proves that it caused a later law and that every factory complied.",
+        "supported": false,
+        "feedback": "The photograph, caption, law and administration report have separate dates and evidentiary roles. A single image cannot supply that causal or universal outcome claim."
+      }
+    ]
+  }
+}

@@ -1,0 +1,435 @@
+{
+  "date": "2026-11-04",
+  "scope": "V03 author-side review of the question, complete map description, each point and each feature note with its cited locator, stated spatial scale and chronological qualification. Every dossier also has a named atlas place, coordinates and a precision statement. This pass did not independently survey coordinates, measure plotted paths, or repeat the project’s existing browser interaction tests. “FreshCheck” links identify sources reopened in this pass.",
+  "counts": {
+    "dossiersWithNamedOrientation": 77,
+    "placeStudies": 38,
+    "namedPoints": 114,
+    "features": 6,
+    "byFirstChapter": {
+      "C1": 4,
+      "C2": 3,
+      "C3": 8,
+      "C4": 4,
+      "C5": 7,
+      "C6": 4,
+      "C7": 3,
+      "C8": 5
+    }
+  },
+  "studies": [
+    {
+      "id": "palmyra",
+      "chapter": "C4",
+      "points": ["antioch", "palmyra", "ctesiphon"],
+      "sourceIds": ["trade", "met-322375", "palmyra-tax"],
+      "features": ["Selected trading-post sequence"],
+      "finding": "The selected post sequence puts a family portrait in a possible exchange setting. The dashed route is a source-based schematic and gives no evidence of that family’s occupation or travels. Corrected the description of inland Antioch, previously grouped with Mediterranean ports, to match the Met’s named city sequence.",
+      "freshCheck": "https://www.metmuseum.org/essays/trade-between-the-romans-and-the-empires-of-asia"
+    },
+    {
+      "id": "kushan-contexts",
+      "chapter": "C4",
+      "points": ["peshawar", "mathura", "baghlan"],
+      "sourceIds": ["kushan", "kushan-inscriptions"],
+      "features": [],
+      "finding": "Two cities and a deliberately broader Baghlan regional marker distinguish political centers from an inscription setting. None can establish where the featured coin was found, by whom it was issued locally, or the territory over which it circulated."
+    },
+    {
+      "id": "aksum",
+      "chapter": "C4",
+      "points": ["aksum", "adulis", "yeha-research"],
+      "sourceIds": ["aksum-world", "aksum", "beta-samati"],
+      "features": [],
+      "finding": "Inland Aksum and the Red Sea outlet at Adulis answer the geographic question directly. Yeha provides a district-level reference for multiperiod Beta Samati; neither an exact mountain road nor contemporaneity follows."
+    },
+    {
+      "id": "teotihuacan",
+      "chapter": "C3",
+      "points": ["teotihuacan-site"],
+      "sourceIds": ["teotihuacan-location-unesco", "teot-tlajinga-2026"],
+      "features": [],
+      "finding": "The UNESCO point locates the city while the separately identified excavators’ map places its southern Tlajinga district. One city marker is appropriate because neither the mask findspot nor independently verified compound coordinates are available here."
+    },
+    {
+      "id": "dongson",
+      "chapter": "C3",
+      "points": [
+        "co-loa-complex-reference",
+        "ngoc-lu-locality-reference",
+        "nhu-trac-locality-reference",
+        "phu-chanh-locality-reference",
+        "luy-lau-area-reference"
+      ],
+      "sourceIds": [
+        "dongson-co-loa-location",
+        "dongson-co-loa-2021",
+        "dongson-ngoc-lu-location",
+        "dongson-ngoc-lu-2013",
+        "dongson-ngoc-lu-2023",
+        "dongson-nhu-trac-location",
+        "dongson-phu-chanh-location",
+        "dongson-phu-chanh-2008",
+        "dongson-phu-chanh-treasure",
+        "dongson-luy-lau-location",
+        "dongson-luy-lau-2024"
+      ],
+      "features": [],
+      "finding": "The five localities separate drum contexts, including two competing modern accounts for Ngọc Lũ and Như Trác. Neither the gazetteer coordinates nor the later Luy Lâu manufacturing evidence locate the small featured drum’s maker."
+    },
+    {
+      "id": "benin-ivory",
+      "chapter": "C7",
+      "points": ["benin-city", "regional-coast"],
+      "sourceIds": ["benin-court-guilds", "met-309900"],
+      "features": [],
+      "finding": "Benin City identifies the Edo court in present-day Nigeria. The coast reference orients contact while leaving the qualified court attribution and the carver’s workshop location unresolved."
+    },
+    {
+      "id": "kongo-translation",
+      "chapter": "C6",
+      "points": ["mbanza-kongo", "atlantic-coast"],
+      "sourceIds": ["kongo-christianity", "kongo-interview"],
+      "features": [],
+      "finding": "Showing Mbanza Kongo and a broad coastal reference helps distinguish a royal center from a wider zone of Atlantic contact. The two points do not trace a missionary, enslaved individual or crucifix."
+    },
+    {
+      "id": "portuguese-voyage",
+      "chapter": "C6",
+      "points": ["lisbon", "malindi", "calicut", "goa"],
+      "sourceIds": ["gama-journal-1898", "interwoven"],
+      "features": [],
+      "finding": "Lisbon, Malindi and Calicut locate separate documented episodes; Goa is explicitly a 1510 reference after the first voyage. Omission of a sailing track avoids guessing courses and anchorages from a few named places."
+    },
+    {
+      "id": "banda-1621",
+      "chapter": "C7",
+      "points": [
+        "banda-besar-reference",
+        "banda-neira-reference",
+        "banda-rhun-reference"
+      ],
+      "sourceIds": ["banda-gazetteer-2021", "banda-archive", "banda-pala-1621"],
+      "features": [],
+      "finding": "Official island references for Banda Besar, Neira and Rhun help distinguish names in the accounts. Island points cannot put the reader at a particular act of violence, plantation, fort or refugee destination."
+    },
+    {
+      "id": "old-kingdom",
+      "chapter": "C1",
+      "points": ["saqqara-wall", "giza-reference", "memphis-reference"],
+      "sourceIds": [
+        "met-543914",
+        "pyramid-field-locators",
+        "giza-settlement",
+        "merer-logbook"
+      ],
+      "features": [],
+      "finding": "Saqqara’s chapel, Giza’s pyramid-field reference and the administrative Memphis setting connect tomb imagery to several places of work. The regional Giza point makes no claim to be an excavated bakery address."
+    },
+    {
+      "id": "caral",
+      "chapter": "C1",
+      "points": ["caral-inland", "aspero-coastal"],
+      "sourceIds": ["caral-starch-2023", "caral-project-2005"],
+      "features": [],
+      "finding": "Inland Caral and coastal Áspero prevent ten individuals from being attributed to a single site. The primary starch study reports one sample individual from Caral and nine from Áspero. The diagram cannot establish a route or diet for every household.",
+      "freshCheck": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10465486/"
+    },
+    {
+      "id": "skara-brae",
+      "chapter": "C1",
+      "points": ["skara-houses", "brodgar-circle", "stenness-circle"],
+      "sourceIds": [
+        "skara-significance-2024",
+        "orkney-brodgar-locator",
+        "orkney-stenness-locator",
+        "orkney-neolithic"
+      ],
+      "features": [],
+      "finding": "The regional view places a settlement and two monuments in different locations and phases. Its plain background avoids an assumed Neolithic shoreline, and proximity does not prove the village and the ring had the same builders."
+    },
+    {
+      "id": "kerma-potters",
+      "chapter": "C1",
+      "points": ["kerma", "abydos"],
+      "sourceIds": [
+        "kerma-location-tentative",
+        "kerma-city-project",
+        "abydos-location-tentative",
+        "met-545772"
+      ],
+      "features": [],
+      "finding": "The court and craft setting at Kerma differs from the catalogued grave at Abydos. A regional Abydos pin cannot locate Tomb 525 precisely or reconstruct the route taken by the beaker."
+    },
+    {
+      "id": "olmec",
+      "chapter": "C2",
+      "points": [
+        "san-lorenzo-reference",
+        "la-venta-reference",
+        "tres-zapotes-reference"
+      ],
+      "sourceIds": [
+        "sic-san-lorenzo",
+        "olmec-sampling-2020",
+        "sic-la-venta",
+        "olmec-regional-inah",
+        "olmec",
+        "sic-tres-zapotes"
+      ],
+      "features": [],
+      "finding": "Three official visitor/reference locations support comparison of settlement and monument histories over time. The ceramic figure has no catalogued excavated findspot and none of the three pins fills that gap."
+    },
+    {
+      "id": "lapita",
+      "chapter": "C2",
+      "points": ["bismarck-orientation", "efate-orientation", "tonga-orientation"],
+      "sourceIds": [
+        "lapita-voyaging",
+        "lapita-teouma-diet",
+        "tonga-lapita-tentative",
+        "lapita-nukuleka-uth",
+        "lapita-tonga-dating"
+      ],
+      "features": [],
+      "finding": "The trans-Pacific orientation crosses the 180-degree meridian while distinguishing the Bismarcks, Efate and the Tongan island groups. Their different source scales permit comparison without inventing an eastward track, exact cemetery location or universal arrival date."
+    },
+    {
+      "id": "nimrud-palace",
+      "chapter": "C3",
+      "points": ["kalhu", "dur-sharrukin", "nineveh"],
+      "sourceIds": [
+        "nimrud-geonames",
+        "nimrud",
+        "dur-sharrukin-geonames",
+        "nineveh-geonames"
+      ],
+      "features": [],
+      "finding": "Kalhu, Dur-Šarrukin and Nineveh put changing royal capitals in sequence across different reigns. The separate plan supplies palace-scale architecture, whereas these city points cannot locate a relief on a doorway."
+    },
+    {
+      "id": "ashoka-messages",
+      "chapter": "C3",
+      "points": ["pataliputra", "kandahar", "girnar", "dhauli"],
+      "sourceIds": ["ashoka", "ashoka-edicts-1925"],
+      "features": [],
+      "finding": "Kandahar, Girnar and Dhauli distinguish languages and edict versions from a broad capital reference. The panel cannot turn an inscription announcing wells into a map of those wells or infer that every site contains the same edicts."
+    },
+    {
+      "id": "athens-water",
+      "chapter": "C3",
+      "points": ["agora", "southeast-fountain", "pnyx"],
+      "sourceIds": ["athens-sites", "agora-women", "athens-constitution"],
+      "features": [],
+      "finding": "The Agora, excavated fountain and Pnyx illuminate the difference between access to water and access to political assembly. The vase painting does not identify the southeast fountain or a household walking route."
+    },
+    {
+      "id": "taharqo",
+      "chapter": "C3",
+      "points": ["nuri", "sanam"],
+      "sourceIds": ["napatan-locations", "met-544883", "sanam-production-2026"],
+      "features": [],
+      "finding": "Nuri’s probable burial association and Sanam’s independently excavated production evidence are separate. Their property coordinates support regional orientation without locating the Met figure’s grave or manufacture."
+    },
+    {
+      "id": "chavin-textile",
+      "chapter": "C3",
+      "points": ["chavin-centre"],
+      "sourceIds": ["chavin-center-unesco", "met-315784"],
+      "features": [],
+      "finding": "A single highland point makes the visual parallel with Chavín carvings intelligible. The reported southern-coastal origin remains separate; there is no adequate basis for a route or an excavated findspot for the cloth."
+    },
+    {
+      "id": "tang-city",
+      "chapter": "C5",
+      "points": ["changan", "luoyang"],
+      "sourceIds": ["tang-changan", "tang-wards"],
+      "features": [],
+      "finding": "Chang’an and Luoyang separate a capital from a poet’s house example. A conceptual ward diagram cannot convert the Luoyang example into a measured plan of Chang’an."
+    },
+    {
+      "id": "abbasid-craft",
+      "chapter": "C5",
+      "points": ["baghdad", "samarra", "early-basra"],
+      "sourceIds": ["abbasid", "met-451400", "basrah-fieldwork"],
+      "features": [],
+      "finding": "The Baghdad foundation, Samarra court period and Al-Zubayr/Basra research area juxtapose political and production histories. Each has a bounded role; none establishes the selected bowl’s kiln or a shipment path."
+    },
+    {
+      "id": "borobudur",
+      "chapter": "C5",
+      "points": [
+        "borobudur-component-reference",
+        "pawon-component-reference",
+        "mendut-component-reference"
+      ],
+      "sourceIds": [
+        "borobudur-component-locations",
+        "borobudur",
+        "borobudur-monitoring-mission-2024"
+      ],
+      "features": [],
+      "finding": "Three published property-component locators distinguish Borobudur, Pawon and Mendut. Their alignment and a modern proposed cultural path cannot reconstruct an ancient procession. Movement within the monument is investigated through the separate building diagram."
+    },
+    {
+      "id": "nalanda",
+      "chapter": "C5",
+      "points": ["nalanda", "tamralipti"],
+      "sourceIds": ["nalanda", "yijing-1896"],
+      "features": [],
+      "finding": "The two points keep a translated account of a monastery in the Tamralipti region separate from Nalanda. The modern coast cannot reconstruct a seventh-century estuary and the rounded point cannot locate a specific room."
+    },
+    {
+      "id": "maya-vessel",
+      "chapter": "C5",
+      "points": ["maya-ceren-comparison"],
+      "sourceIds": ["maya-ceren-unesco"],
+      "features": [],
+      "finding": "The Joya de Cerén point explicitly identifies the separate household comparison. It gives a reason to look beyond court imagery while preserving the cup’s uncertain Tabasco association and missing findspot."
+    },
+    {
+      "id": "mali-networks",
+      "chapter": "C6",
+      "points": ["jenne-jeno", "timbuktu", "gao"],
+      "sourceIds": ["sahel"],
+      "features": [],
+      "finding": "Jenne-jeno, Timbuktu and Gao represent different urban, scholarly and political histories. None is advanced as a fixed imperial capital, nor does their relative placement identify a caravan itinerary."
+    },
+    {
+      "id": "angkor",
+      "chapter": "C5",
+      "points": ["wat", "thom", "west-baray", "east-baray", "lake"],
+      "sourceIds": ["angkor-nasa", "angkor-occupation", "angkor-network"],
+      "features": [
+        "Reservoir footprints",
+        "East Baray enclosure",
+        "Lakeward direction"
+      ],
+      "finding": "The temple, city enclosure, reservoirs and lakeward direction explain features outside the celebrated monument. NASA’s 2004 image supports their relative positions; the drawn water and area features have distinct notes and no single ancient water level, size survey or reconstructed shoreline is asserted.",
+      "freshCheck": "https://science.nasa.gov/earth/earth-observatory/angkor-ruins-4995/"
+    },
+    {
+      "id": "song-art",
+      "chapter": "C5",
+      "points": ["kaifeng", "hangzhou"],
+      "sourceIds": ["song", "song-phases"],
+      "features": [],
+      "finding": "Kaifeng and Hangzhou give the loss of the northern capital a geographic dimension. The changing court location supplies neither the bowl’s findspot nor a particular ceramic transport route."
+    },
+    {
+      "id": "inca-weaving",
+      "chapter": "C6",
+      "points": ["cusco", "yanawilka", "vilcashuaman"],
+      "sourceIds": ["inka-regional", "yanawilka-food"],
+      "features": [],
+      "finding": "Cusco, Yanawilka and Vilcashuamán distinguish an imperial center, a sampled settlement and a nearby provincial center. The household evidence does not authorize sending the featured tunic along an inferred road."
+    },
+    {
+      "id": "tomioka",
+      "chapter": "C8",
+      "points": [
+        "tomioka-mill-reference",
+        "tajima-farm-reference",
+        "takayama-school-reference",
+        "arafune-storage-reference"
+      ],
+      "sourceIds": [
+        "tomioka-unesco-coordinates",
+        "tomioka-local",
+        "tomioka-arafune-2020"
+      ],
+      "features": [],
+      "finding": "Four published UNESCO component points distinguish the mill, farm, school and cold storage. The changing dates and work functions explain technology transfer without asserting that a particular batch moved through all four sites.",
+      "freshCheck": "https://whc.unesco.org/en/list/1449/maps/"
+    },
+    {
+      "id": "partition-1947",
+      "chapter": "C8",
+      "points": ["lahore", "amritsar", "delhi", "barrackpore", "mymensingh"],
+      "sourceIds": ["partition-map", "partition", "partition-oral"],
+      "features": ["Punjab reading area", "Bengal reading area"],
+      "finding": "The two reading boxes direct attention separately to Punjab and Bengal. Actual boundary evidence is on the archival Punjab map; recollections of Barrackpore and Mymensingh identify places in personal histories without generating universal migration paths."
+    },
+    {
+      "id": "south-africa-rights",
+      "chapter": "C8",
+      "points": ["inanda", "cape-town", "sharpeville", "braamfontein"],
+      "sourceIds": [
+        "sa-voting-image",
+        "sa-mandela-constitution",
+        "sa-certification",
+        "sa-transition",
+        "sa-constitution-hill"
+      ],
+      "features": [],
+      "finding": "Inanda, Cape Town, Sharpeville and Braamfontein distinguish voting, assembly, signing and court procedures. The 1996 Court premises are differentiated from the building that opened in 2004, and the panel draws no personal travel route."
+    },
+    {
+      "id": "qin-administration",
+      "chapter": "C3",
+      "points": ["xianyang", "lishan", "liye"],
+      "sourceIds": ["qin-mausoleum", "qin-practice"],
+      "features": [],
+      "finding": "Xianyang, Lishan and Liye put imperial institutions beside the setting of recovered county records. Liye’s find context cannot be transferred to unprovenanced Yuelu manuscripts or to every county office."
+    },
+    {
+      "id": "poverty-point",
+      "chapter": "C2",
+      "points": ["poverty-property-reference", "jaketown-site-reference"],
+      "sourceIds": ["pp-heritage", "pp-nps", "jaketown-locator", "pp-chronology-2023"],
+      "features": [],
+      "finding": "The Poverty Point property point and independently identified Jaketown archaeological site place the chronological comparison geographically. They avoid conflating a modern hamlet, excavation trench, terrain image and wider archaeological tradition."
+    },
+    {
+      "id": "hopewell-earthworks",
+      "chapter": "C4",
+      "points": [
+        "hopewell-1689-001",
+        "hopewell-1689-002",
+        "hopewell-1689-003",
+        "hopewell-1689-004",
+        "hopewell-1689-005",
+        "hopewell-1689-006",
+        "hopewell-1689-007",
+        "hopewell-1689-008"
+      ],
+      "sourceIds": ["hopewell-unesco-locations"],
+      "features": [],
+      "finding": "Eight UNESCO component centers show that the inquiry concerns distinct places. Rounded property coordinates cannot identify trench locations, political centers, contemporaneous construction or a route among all eight.",
+      "freshCheck": "https://whc.unesco.org/en/list/1689/maps/"
+    },
+    {
+      "id": "isfahan-silk",
+      "chapter": "C7",
+      "points": ["isfahan-square-reference", "new-julfa-vank-reference"],
+      "sourceIds": [
+        "isfahan-square-unesco",
+        "isfahan-bridges",
+        "isfahan-vank-tentative"
+      ],
+      "features": [],
+      "finding": "The royal square and Vank monastery references distinguish the city center from New Julfa. The named bridge connection is explained in prose; neither a quarter boundary nor a carpet worker’s address is drawn from these two modern references."
+    },
+    {
+      "id": "indonesia-independence",
+      "chapter": "C8",
+      "points": ["jakarta", "yogyakarta", "sumatra", "new-guinea"],
+      "sourceIds": [
+        "indonesia-proclamation-archive",
+        "indonesia-war",
+        "indonesia-transfer",
+        "indonesia-newguinea"
+      ],
+      "features": [],
+      "finding": "Jakarta, Yogyakarta, Sumatra and western New Guinea distinguish proclamation, military occupation, negotiation and territorial exclusion. The Hague lies outside the displayed region; broad island references cannot delineate successive borders."
+    },
+    {
+      "id": "ghana-independence",
+      "chapter": "C8",
+      "points": ["accra", "kumasi", "tema"],
+      "sourceIds": ["ghana-country-study", "ghana-debate-1957"],
+      "features": [],
+      "finding": "Accra, Kumasi/Asante and Tema connect political organizing, federalist argument and a development proposal. The points cannot measure agreement inside Asante or date the harbor’s completion from the 1957 speech."
+    }
+  ]
+}

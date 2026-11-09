@@ -1,0 +1,20 @@
+{
+  "subject": "ashoka-messages",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "ashoka-messages-diagram",
+      "caption": "Modern source paraphrases: Girnar II and Dhauli Separate I follow Hultzsch; Kandahar follows Neelis. The 1925 edition predates the Kandahar discoveries.",
+      "notice": [
+        "Distinguish the objects or messages in the separate panels.",
+        "Name the evidence that would test the proposed practical result."
+      ],
+      "creator": "Chronos / Codex; source-based editorial diagram",
+      "place": "Modern conceptual guide; no facsimile, surveyed plan or travel route",
+      "material": "Original SVG diagram",
+      "representedDate": "Ashoka case c268–232 BCE; Hultzsch’s English edition published 1925.",
+      "relevance": "Connects the historical task with its surviving evidence and a specific limit.",
+      "printWidthMm": 145
+    }
+  ]
+}

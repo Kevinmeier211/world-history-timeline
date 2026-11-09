@@ -1,0 +1,39 @@
+{
+  "journey": "places-patrons-work",
+  "revision": "8e57bcf24d1931188b0479cce53399fcd688fdea82386e427f9db4654cc883da",
+  "stops": [
+    {
+      "index": 0,
+      "narrative": "Find the inscribed forms, figure and rim using the modern observation notes. The catalogue’s uncertain name reading and possible geographic comparisons remain qualified. Courtly cups and the separate Cerén household account reveal different kinds of making, food and exchange; neither supplies this cup’s excavated findspot."
+    },
+    {
+      "index": 1,
+      "narrative": "Compare square and circular forms in the modern schematic with the conserved monument photograph. Relief studies, an attributed land-and-upkeep interpretation and drainage research add work and institutions. The diagram has no north arrow or scale, and does not recover an ancient visitor’s itinerary."
+    },
+    {
+      "index": 2,
+      "narrative": "Observe the ivory’s frame, raised body and lower letters. Probable private devotion and alternative figure interpretations remain attributed scholarship. Separately excavated ship planks, caulking and repairs explain practical urban work, while timber and pottery-layer dates remain distinct. No ship is said to have carried this ivory."
+    }
+  ],
+  "conclusion": "People shaped materials, maintained places and supplied resources through different relationships. A named owner is not necessarily a maker; an image is not a complete household history; a schematic is not a measured plan. Test an explanation by identifying the particular work, people and source association it requires.",
+  "evidence": {
+    "prompt": "Which explanation best fits the supplied Borobudur schematic?",
+    "options": [
+      {
+        "text": "It helps locate square and circular forms; a required ancient walking route needs further dated evidence.",
+        "supported": true,
+        "feedback": "Visible relationships support observation. A modern diagram without north or scale cannot by itself establish what every ancient visitor did."
+      },
+      {
+        "text": "Its colours show the monument’s original paint scheme.",
+        "supported": false,
+        "feedback": "The creator’s modern colours have no supplied ancient-paint legend or analysis."
+      },
+      {
+        "text": "A similar image elsewhere proves that the same patron organized both places.",
+        "supported": false,
+        "feedback": "Resemblance invites comparison; a particular patron or institutional connection needs its own evidence."
+      }
+    ]
+  }
+}

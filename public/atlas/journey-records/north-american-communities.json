@@ -1,0 +1,43 @@
+{
+  "journey": "north-american-communities",
+  "revision": "84b7cf8c1b0a5f2598cd6090746a9617cd9b8f54851b06bc2c4da39722e8e3a3",
+  "stops": [
+    {
+      "index": 0,
+      "narrative": "Inspect heating objects and ask how food preparation belonged to a monumental landscape built by hunter-fisher-gatherers. Individual objects in the later publication are not precisely dated."
+    },
+    {
+      "index": 1,
+      "narrative": "Distinguish a ceremonial enclosure from a permanent town. Compare a modern restoration with an 1848 survey; both need interpretation."
+    },
+    {
+      "index": 2,
+      "narrative": "Read the cacao analysis as evidence of movement, then separate that result from an exact route or a claim about every household."
+    },
+    {
+      "index": 3,
+      "narrative": "Investigate neighborhoods and work, then consider the debate about population after the urban center changed. Compare Cahokia with Chaco without assuming contact or identical government."
+    }
+  ],
+  "conclusion": "Food, skilled work, exchange and gathering took different forms across North America. Monumental building does not require one universal governing system. Changes in a center’s role do not establish the disappearance of a people, and later photographs must be read alongside archaeology and community accounts.",
+  "evidence": {
+    "prompt": "Which statement stays within the Chaco cacao study’s evidence?",
+    "options": [
+      {
+        "text": "Residues in selected Pueblo Bonito vessel fragments support cacao use and ingredient movement, while access and exact routes remain uncertain.",
+        "supported": true,
+        "feedback": "The study selected five samples and detected theobromine in three probable cylinder-jar fragments. Its evidence does not map every intermediary or describe every household."
+      },
+      {
+        "text": "The result proves that all Chaco residents drank cacao daily and that we know the precise road it followed.",
+        "supported": false,
+        "feedback": "A small vessel-fragment sample cannot establish universal daily consumption or an exact itinerary."
+      },
+      {
+        "text": "Because a city or ceremonial center changed, all related Indigenous peoples must have disappeared.",
+        "supported": false,
+        "feedback": "A building phase, a regional population interpretation and a people’s continuing history are distinct. Pueblo community statements and the Cahokia debate help keep them separate."
+      }
+    ]
+  }
+}

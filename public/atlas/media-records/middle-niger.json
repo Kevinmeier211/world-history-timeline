@@ -1,0 +1,22 @@
+{
+  "subject": "middle-niger",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "met-314362",
+      "caption": "A thirteenth-century terracotta figure. Its original purpose and the meaning of its markings remain uncertain.",
+      "notice": [
+        "Describe the posture without naming a feeling.",
+        "Turn to the back view: what marks can you see?"
+      ],
+      "creator": "Middle Niger artist",
+      "place": "Inland Niger Delta, Mali; no secure excavated context asserted",
+      "material": "Terracotta",
+      "relevance": "Skilled modeling, uncertain meaning and urbanism beyond a single state model.",
+      "additionalImages": ["/atlas/media/314362-1.webp"],
+      "additionalImageAlts": [
+        "Rear view of the curled seated figure, showing rows of raised bumps down its rounded back."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "journey": "institutions-images",
+  "revision": "7ff1e375d2db44199462d378ae10b8f6f891716defc4dda7f44ad09008da630a",
+  "stops": [
+    {
+      "index": 0,
+      "narrative": "Read the long frame and its interruptions. Inspect a much later devotional object."
+    },
+    {
+      "index": 1,
+      "narrative": "Distinguish a dynasty, a capital phase and the date of a bowl."
+    },
+    {
+      "index": 2,
+      "narrative": "Explore a capital’s contacts while questioning what an elite burial represents."
+    },
+    {
+      "index": 3,
+      "narrative": "Read the difference between ownership, interpretation and a secure findspot."
+    },
+    {
+      "index": 4,
+      "narrative": "Investigate movement and cosmology, then distinguish construction from restoration."
+    },
+    {
+      "index": 5,
+      "narrative": "Compare two religious built environments and their surviving construction layers."
+    }
+  ],
+  "conclusion": "Institutions can survive political transitions, but survival does not mean sameness. Buildings, objects and texts preserve different scales of change.",
+  "evidence": {
+    "prompt": "Why should Nalanda’s early remains and institutional dates be separated?",
+    "options": [
+      {
+        "text": "A site can contain earlier activity than the particular institution being investigated.",
+        "supported": true,
+        "feedback": "The detailed synthesis distinguishes the fifth–thirteenth-century institution from earlier remains."
+      },
+      {
+        "text": "Any ancient object proves a modern-style university operated from the earliest date.",
+        "supported": false,
+        "feedback": "The kind of institution and the meaning of the earliest archaeological remains need separate evidence."
+      }
+    ]
+  }
+}

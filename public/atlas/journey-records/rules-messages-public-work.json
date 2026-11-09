@@ -1,0 +1,39 @@
+{
+  "journey": "rules-messages-public-work",
+  "revision": "8b24e82d8df80357e806398b49a5cf7db55ba608f49bf146e20a7df4f43d94e6",
+  "stops": [
+    {
+      "index": 0,
+      "narrative": "Distinguish a measuring device, a prescribed document and an excavated record. Follow the people preparing and processing the materials."
+    },
+    {
+      "index": 1,
+      "narrative": "Use the map to keep Girnar, Dhauli and Kandahar evidence separate. Name the work an instruction requires and the local evidence needed to test its results."
+    },
+    {
+      "index": 2,
+      "narrative": "Inspect the earlier jar, then read the later civic rules. Explain why supplying water or selling goods did not itself grant Assembly participation."
+    }
+  ],
+  "conclusion": "Rules needed people and material work. A common standard, a royal instruction and a civic eligibility procedure are different institutions. Explain one mechanism, identify whose experience survives and ask what evidence could test the account.",
+  "evidence": {
+    "prompt": "Which comparison respects both institutions and ordinary work?",
+    "options": [
+      {
+        "text": "Records and objects reveal different tasks and powers; announcements, local practice and political eligibility require separate evidence.",
+        "supported": true,
+        "feedback": "Yes. Identify the rule, the people doing the work and the evidence of implementation. A shared question does not erase differences in status or date."
+      },
+      {
+        "text": "Publishing a rule proves that every person experienced its promised result.",
+        "supported": false,
+        "feedback": "A decree or instruction preserves a claim. Local records, material use and people’s experience are needed to investigate its effects."
+      },
+      {
+        "text": "Anyone shown working in a public place must have held the same political rights.",
+        "supported": false,
+        "feedback": "Water provision, commerce and Assembly participation were different activities. The jar cannot identify each figure’s legal status or turn public work into universal franchise."
+      }
+    ]
+  }
+}

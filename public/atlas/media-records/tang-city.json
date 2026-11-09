@@ -1,0 +1,33 @@
+{
+  "subject": "tang-city",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "met-44800",
+      "caption": "An earthenware court lady, seventh–eighth century. The figure is not identified as a named person.",
+      "notice": [
+        "What details of dress survive?",
+        "Which personal details remain unknown?"
+      ],
+      "creator": "Maker not recorded",
+      "place": "China; no precise findspot supplied",
+      "material": "Earthenware with pigment",
+      "relevance": "Elite burial representation and limits of biography.",
+      "additionalImages": []
+    },
+    {
+      "id": "tang-access-diagram",
+      "caption": "Modern functional guide. A ward gate constrains an imagined errand; the placement and shape of every setting are schematic. No named resident or exact street is reconstructed.",
+      "notice": [
+        "Trace the relationship between the separate labeled settings or tasks.",
+        "Distinguish what the guide explains from what the historical source establishes."
+      ],
+      "creator": "Chronos / Codex; source-based editorial diagram",
+      "place": "Modern functional guide; not a surveyed plan, facsimile or exact recipe",
+      "material": "Original SVG diagram",
+      "representedDate": "Tang capital context, 618–907 CE; source is a 2019 seminar summary.",
+      "relevance": "Makes access or skilled work visible without inventing an ancient plan, text or workshop history.",
+      "printWidthMm": 145
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "subject": "borobudur",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "borobudur-conserved-monument",
+      "caption": "Photograph by Gunawan Kartapranata, June 2008. The visible stone terraces and upper stupa belong to a conserved surviving monument, not an untouched ancient surface or a new reconstruction. UNESCO documents twentieth-century restoration, including 1973–1983. Current source description and the original upload comment disagree on compass direction, so none is assigned. Fine relief narratives are not readable in this overview.",
+      "notice": [
+        "Find the changes between square terrace forms and circular upper forms using the plan as a separate guide.",
+        "What evidence would distinguish earlier stonework from later conservation?"
+      ],
+      "creator": "Gunawan Kartapranata, photographer; ancient builders and carvers unnamed",
+      "place": "Borobudur, Kedu Valley, Central Java, Indonesia; compass view unresolved",
+      "material": "Modern digital photograph of a stone monument",
+      "representedDate": "Surviving monument with early fabric and modern conservation, photographed in 2008; not an eighth-century reconstruction",
+      "relevance": "Makes the conserved building’s overall form visible while separating camera date, historical construction and modern interventions.",
+      "datingNote": "The source date field and original-capture metadata differ by five days. The title/current description and original upload comment also disagree on northwest/northeast. Neither conflict is silently resolved.",
+      "additionalImages": [],
+      "printWidthMm": 145
+    },
+    {
+      "id": "borobudur-schematic-plan",
+      "caption": "Indon’s 2007 own-work schematic helps distinguish square and circular forms and stair-like projections on four sides. It supplies no north arrow, scale, gallery labels or colour legend. No underlying measured archaeological survey was inspected; the colours do not establish ancient paint. Read the source-qualified relief convention in the dossier separately. The diagram does not prove a required ancient route, exact relief location or niche count.",
+      "notice": [
+        "Find one square form and one circular form.",
+        "Which orientation or movement claim would need evidence beyond this schematic?"
+      ],
+      "creator": "Indon; modern own-work diagram",
+      "place": "Borobudur, Central Java; schematic has no north arrow or scale",
+      "material": "Modern colour PNG diagram; source pixels unaltered",
+      "representedDate": "Schematic organization of Borobudur’s surviving forms; no single ancient phase, measured survey or visitor itinerary represented",
+      "relevance": "Provides a qualified source diagram for comparing built forms without inventing an original measured plan or forcing a ritual itinerary.",
+      "datingNote": "Modern creation year and represented historical construction are distinct. No measured survey, exact ancient phase or archaeological niche inventory is established.",
+      "additionalImages": [],
+      "printWidthMm": 105
+    }
+  ]
+}

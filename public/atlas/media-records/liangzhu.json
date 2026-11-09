@@ -1,0 +1,33 @@
+{
+  "subject": "liangzhu",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "met-72376",
+      "caption": "A jade cong, c. 2400 BCE, with a square exterior and round bore. Function and meaning remain uncertain.",
+      "notice": [
+        "What changes when you look from the top?",
+        "Can you locate the small faces?"
+      ],
+      "creator": "Maker not recorded",
+      "place": "China; Liangzhu cultural attribution",
+      "material": "Jade (nephrite)",
+      "relevance": "Skilled work, social status, uncertain ritual meaning and separate city/culture/object chronologies.",
+      "additionalImages": []
+    },
+    {
+      "id": "liangzhu-water-diagram",
+      "caption": "Modern concept guide to construction, water management and production. It is not a surveyed canal map, flow model or reconstructed workday.",
+      "notice": [
+        "Read the convention note before following the diagram.",
+        "Separate a component or task from an inferred social relationship."
+      ],
+      "creator": "Chronos / Codex; source-based editorial diagram",
+      "place": "Modern editorial schematic; no surveyed coordinates",
+      "material": "Original SVG diagram",
+      "representedDate": "Liangzhu landscape c. 3300–2300 BCE; individual dam samples have separate distributions.",
+      "relevance": "Makes a mechanism or evidence distinction inspectable without presenting an imagined ancient scene as evidence.",
+      "printWidthMm": 145
+    }
+  ]
+}

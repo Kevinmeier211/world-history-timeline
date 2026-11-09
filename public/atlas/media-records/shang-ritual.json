@@ -1,0 +1,46 @@
+{
+  "subject": "shang-ritual",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "met-42045",
+      "caption": "An inscribed oracle bone attributed to the Shang period. No translation of this particular specimen is supplied without support.",
+      "notice": [
+        "How are the signs placed on the available surface?",
+        "What would you need before claiming a translation?"
+      ],
+      "creator": "Maker not recorded",
+      "place": "China; broad Shang attribution, no precise findspot supplied here",
+      "material": "Inscribed bone",
+      "relevance": "Selectivity of ritual writing and honest dating precision.",
+      "additionalImages": []
+    },
+    {
+      "id": "shang-practices-diagram",
+      "caption": "A modern practice guide, not a mold reconstruction or translation of the selected bone. Casting steps follow the Met essay; divination categories follow the cited Smithsonian teaching passage.",
+      "notice": [
+        "Identify which labels describe recovered material and which describe an interpretation.",
+        "Read the source limitations before connecting the panels."
+      ],
+      "creator": "Chronos / Codex; source-based editorial diagram",
+      "place": "Modern conceptual schematic; no surveyed plan or route",
+      "material": "Original SVG diagram",
+      "representedDate": "Shang frame c1600–1046 BCE; individual objects and late capital have separate dates.",
+      "relevance": "Distinguishes material evidence, analytical inference and unresolved historical questions without an invented ancient scene.",
+      "printWidthMm": 145
+    },
+    {
+      "id": "met-44781",
+      "caption": "A bronze gong with a pouring spout, handle and worked animal forms. The Met gives Henan Province, possibly Anyang. Its cultural attribution does not establish an excavated tomb or named owner.",
+      "notice": [
+        "Find the spout and handle before interpreting the decoration.",
+        "Separate a visible animal form from a claim about its ancient meaning.",
+        "Read the qualified place attribution."
+      ],
+      "creator": "Maker not recorded",
+      "place": "China, Henan Province, possibly Anyang; no secure excavated findspot supplied",
+      "material": "Bronze",
+      "relevance": "Connects skilled manufacture and ritual use with a specific object while retaining uncertain provenance."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "requirement": "E02",
+  "reviewed": "2026-11-05",
+  "result": "pass",
+  "scope": "Structural canonical-source migration with exact whole-corpus and delivery parity.",
+  "corpusSHA256": "e1a55385b2e242dbb9dcf865d94a0527fa4ed14396a2df0908d427bb5866cddd",
+  "records": 1106,
+  "chapters": 8,
+  "dossiers": 77,
+  "sources": 589,
+  "media": 105,
+  "ownershipDecisions": [
+    "Every record has an explicit canonical owner and ordered ID in the manifest.",
+    "Dossiers received an authoring home in their first listed chapter during migration. Existing chapter memberships remain in each full record.",
+    "A single source registry owns access dates, citations' target identities and scope limits.",
+    "Cross-chapter journeys, comparisons, relationships and glossary terms have a shared owner.",
+    "The compiler obtains a fresh canonical corpus on every invocation. The historical 35-stage pipeline is retained for provenance and comparison."
+  ],
+  "verification": {
+    "c1Pilot": "The actual C1 canonical file replaced its records in the historical assembly. All whole-corpus bytes and 190 delivery JSON files matched the frozen inputs.",
+    "allChapters": "The canonical loader joined all eight chapters, sources and shared records using manifest order. All whole-corpus bytes and 190 delivery JSON files matched the same frozen inputs.",
+    "repeatability": "Repeated default compilation reproduced delivery bytes. Independent assembly and nested-record mutation isolation passed.",
+    "negativeContracts": "Focused regressions reject duplicate, missing, unowned and misplaced records, contradictory ownership/order entries and unsupported collections.",
+    "focusedTests": { "files": 2, "passed": 11 },
+    "projectTypecheck": "pass",
+    "changedTypeScriptLint": "pass",
+    "contentChanges": 0
+  },
+  "evidence": [
+    "scripts/redesign/canonical-assembly.ts",
+    "scripts/redesign/canonical-content.ts",
+    "scripts/redesign/content-canonical/manifest.json",
+    "scripts/redesign/compile.ts",
+    "scripts/completion/migrate-canonical-content.ts",
+    "scripts/completion/verify-canonical-delivery.ts",
+    "scripts/completion/content-ownership.ts",
+    "src/atlas/canonical-content.test.ts",
+    "docs/redesign/CONTENT-OWNERSHIP.json",
+    "docs/redesign/CONTENT-HISTORY-2026-11-05.json",
+    "docs/redesign/CONTENT-OWNERSHIP.md",
+    "docs/redesign/MAINTENANCE.md",
+    "docs/redesign/BASELINE-AND-GATES.md",
+    "output/navigation-accessibility-2026-11-05/content-ownership/baseline-files.json",
+    "output/navigation-accessibility-2026-11-05/content-ownership/c1-pilot.json",
+    "output/navigation-accessibility-2026-11-05/content-ownership/all-chapters.json",
+    "output/navigation-accessibility-2026-11-05/content-ownership/c1-pilot-delivery-parity.json",
+    "output/navigation-accessibility-2026-11-05/content-ownership/all-chapters-delivery-parity.json",
+    "output/navigation-accessibility-2026-11-05/content-ownership/tests.log",
+    "output/navigation-accessibility-2026-11-05/content-ownership/typecheck.log"
+  ],
+  "futureEditorialChanges": "Canonical edits require current delivery/citation validation and an explicitly recorded new corpus revision. The historical migration hash and field-writer history remain frozen. The ownership script compares a historical baseline only when ATLAS_BASELINE_CORPUS is explicitly supplied.",
+  "openIssues": []
+}

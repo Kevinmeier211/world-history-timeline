@@ -1,0 +1,20 @@
+{
+  "subject": "qin-administration",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "qin-records-diagram",
+      "caption": "Modern comparison guide. A measuring device and a written administrative record do different jobs. No ancient inscription, exact object outline or quantitative dataset is reproduced.",
+      "notice": [
+        "Distinguish the objects or messages in the separate panels.",
+        "Name the evidence that would test the proposed practical result."
+      ],
+      "creator": "Chronos / Codex; source-based editorial diagram",
+      "place": "Modern conceptual guide; no facsimile, surveyed plan or travel route",
+      "material": "Original SVG diagram",
+      "representedDate": "Imperial case 221–206 BCE; Liye documents mainly 222–208 BCE.",
+      "relevance": "Connects the historical task with its surviving evidence and a specific limit.",
+      "printWidthMm": 145
+    }
+  ]
+}

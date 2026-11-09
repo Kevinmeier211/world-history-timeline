@@ -1,0 +1,39 @@
+{
+  "journey": "households-books-city-work",
+  "revision": "6981c0cc931bd5bb09ba52a2c86a03217f2db11960b3b7abedb2f2ba4b4cd322",
+  "stops": [
+    {
+      "index": 0,
+      "narrative": "The catalogue distinguishes a manuscript probably copied in Herat from its later illustration, probably in Bukhara. The painting makes patterns and arrangements visible. Other records explain teaching, endowed property and water maintenance; a literary scene does not identify every worker or household’s access to these resources."
+    },
+    {
+      "index": 1,
+      "narrative": "Keep the carpet’s uncertain individual production centre separate from Isfahan and New Julfa’s documented urban relationships. Coercion in 1604 and settlement in 1605 preceded particular later commercial and household records. A 1700 merchant letter and a 1747 family letter, later than the 1598–1722 case, expose coordination and separation; neither identifies this carpet’s weavers, buyer or shipment."
+    },
+    {
+      "index": 2,
+      "narrative": "The case is dated 1789, after Karim Khan’s death. Its supplied views show painted outer surfaces, a mirror and fitted storage. The catalogue describes an inner-lid gathering absent from these views. Separately dated accounts of building, merchants and artisans in Shiraz do not locate this case’s workshop or establish universal prosperity."
+    }
+  ],
+  "conclusion": "Explain one task with a particular source. Then identify whose labor, household or access remains unknown. Material objects, institutional accounts and letters answer different questions; a capital, patron or decorated scene does not stand for all city life.",
+  "evidence": {
+    "prompt": "What can the supplied Bukhara manuscript photograph and its catalogue establish?",
+    "options": [
+      {
+        "text": "The arrangement is visible; the catalogue distinguishes likely copying and painting stages, with qualified places and dates.",
+        "supported": true,
+        "feedback": "Looking and catalogue research supply different evidence. The literary scene does not become a record of every household or worker."
+      },
+      {
+        "text": "The reception shows exactly how every household lived and obtained water.",
+        "supported": false,
+        "feedback": "A selected literary scene cannot establish universal living conditions. Water supply and access require other records."
+      },
+      {
+        "text": "A manuscript painted in Bukhara proves the three selected objects travelled together.",
+        "supported": false,
+        "feedback": "A catalogue attribution does not supply a documented shipment or contact among these objects."
+      }
+    ]
+  }
+}

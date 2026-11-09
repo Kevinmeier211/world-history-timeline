@@ -1,0 +1,39 @@
+{
+  "journey": "objects-work-exchange",
+  "revision": "9f0a4d583576226390bdc6f57aaaa34236a027fc3f75332206b26b6a21796a6d",
+  "stops": [
+    {
+      "index": 0,
+      "narrative": "Read the family inscription, then distinguish it from civic tax rules and public caravan commemoration. A name on this memorial does not supply an occupation or journey."
+    },
+    {
+      "index": 1,
+      "narrative": "Compare a royal coin with the temple-maintenance account. The selected object, earlier commands and surviving records have different dates; a named official is not every worker."
+    },
+    {
+      "index": 2,
+      "narrative": "The excavation photograph shows five coins with different issue dates. Read them with deposit evidence and nearby domestic/craft traces, keeping the earlier port account on its own clock."
+    }
+  ],
+  "conclusion": "Connections become historical explanations through specific practices and evidence: civic regulation, distribution, maintenance, local production and recorded finds. Similar objects or overlapping dates alone do not reconstruct a journey.",
+  "evidence": {
+    "prompt": "What further evidence would best support a claim that this named Palmyrene family financed a particular caravan?",
+    "options": [
+      {
+        "text": "Their memorial and the caravan records belong to the same city.",
+        "supported": false,
+        "feedback": "A shared city supplies context. It does not identify the family’s occupation or participation in a particular journey."
+      },
+      {
+        "text": "A dated record identifying these family members and their financial role in that caravan.",
+        "supported": true,
+        "feedback": "The claim names particular people and an activity. It needs evidence linking those people with that activity, read with its date and purpose. The pictured family inscription alone supplies no caravan role."
+      },
+      {
+        "text": "Their clothing and banquet look expensive.",
+        "supported": false,
+        "feedback": "A chosen display of resources does not establish how the family earned or invested them. Clothing and a banquet cannot identify a caravan investment."
+      }
+    ]
+  }
+}

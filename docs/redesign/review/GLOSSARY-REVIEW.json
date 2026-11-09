@@ -1,0 +1,958 @@
+{
+  "date": "2026-11-04",
+  "termsRead": 82,
+  "scope": "All current definitions read; not a claim that every historical use has been independently source-verified.",
+  "repair": {
+    "id": "primary-source",
+    "source": "https://ask.loc.gov/faq/303148",
+    "sourceTitle": "Library of Congress: What is a primary source?",
+    "reason": "The consulted FAQ explicitly includes later memoirs and oral histories. Preserve date, purpose and mediation rather than excluding them by creation date.",
+    "owner": "scripts/redesign/content-program.ts",
+    "adoptedDefinition": "Original evidence directly connected to the historical question, such as an object, record or first-hand account. A memoir or oral history recorded later can also be a primary source. Its date, purpose, memory and mediation still need examination."
+  },
+  "terms": [
+    {
+      "id": "genocide",
+      "definitionReviewed": "Deliberate destruction, in whole or in part, of a national, ethnic, racial or religious group. Historical investigation identifies actions, intent, institutions and victims.",
+      "relatedDossiers": ["world-war-two"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Retain case-specific review of cultural/legal/historical usage; no universal community meaning or legal adjudication implied.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "primary-source",
+      "definitionReviewed": "A record or material from the time being investigated. Its purpose and perspective still require interpretation.",
+      "relatedDossiers": [
+        "nimrud-palace",
+        "ashoka-messages",
+        "athens-water",
+        "hine-labor",
+        "haitian-revolution",
+        "tiriti",
+        "south-africa-rights",
+        "world-war-one",
+        "sputnik",
+        "qin-administration",
+        "haudenosaunee-canandaigua",
+        "indonesia-independence",
+        "ghana-independence"
+      ],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "Repair: original definition excluded later first-hand memoir/oral-history evidence.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "repaired_source_checked"
+    },
+    {
+      "id": "patronage",
+      "definitionReviewed": "Support or commissioning of work by a person or institution, shaping what makers could produce.",
+      "relatedDossiers": [
+        "ming-workshops",
+        "mughal-books",
+        "ashoka-messages",
+        "byzantium",
+        "tang-city",
+        "abbasid-craft",
+        "borobudur",
+        "nalanda",
+        "maya-vessel",
+        "song-art",
+        "ottoman-workshops",
+        "isfahan-silk",
+        "bukhara-books",
+        "zand-iran"
+      ],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "tomb",
+      "definitionReviewed": "A place prepared for the dead. Its objects may reflect the beliefs and resources of those arranging the burial.",
+      "relatedDossiers": ["eastern-han", "old-kingdom", "tang-city"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "estate",
+      "definitionReviewed": "A substantial property and the land, buildings and labor that sustain it.",
+      "relatedDossiers": ["eastern-han"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "afterlife",
+      "definitionReviewed": "Beliefs about an existence after death. Historians study how people represented and practiced these beliefs.",
+      "relatedDossiers": ["eastern-han", "old-kingdom", "taharqo"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "evidence",
+      "definitionReviewed": "Surviving material used to support or challenge an account of the past. It must be interpreted in context.",
+      "relatedDossiers": [
+        "eastern-han",
+        "colima",
+        "dongson",
+        "mughal-books",
+        "uruk-accounts",
+        "old-kingdom",
+        "hattusha-change",
+        "borobudur",
+        "polynesian-voyaging",
+        "factory-reform",
+        "poverty-point",
+        "hopewell-earthworks",
+        "chaco-communities",
+        "cahokia-city",
+        "ottoman-workshops",
+        "isfahan-silk",
+        "bukhara-books",
+        "zand-iran",
+        "bering-sea-carvers",
+        "inuinnait-sewing",
+        "ozette-makah",
+        "blackfoot-bison",
+        "hidatsa-villages",
+        "kwakwakawakw-potlatch",
+        "ocmulgee-council",
+        "wendat-laine",
+        "haudenosaunee-canandaigua",
+        "cherokee-print",
+        "ojibwe-manoomin"
+      ],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "inference",
+      "definitionReviewed": "An explanation drawn from evidence rather than something directly observed.",
+      "relatedDossiers": [
+        "colima",
+        "palmyra",
+        "teotihuacan",
+        "ming-workshops",
+        "dholavira",
+        "caral",
+        "skara-brae",
+        "hattusha-change",
+        "kerma-potters",
+        "olmec",
+        "lapita",
+        "nimrud-palace",
+        "taharqo",
+        "chavin-textile",
+        "middle-niger",
+        "inca-weaving",
+        "tomioka",
+        "sputnik",
+        "qin-administration",
+        "poverty-point",
+        "hopewell-earthworks",
+        "chaco-communities",
+        "cahokia-city",
+        "zand-iran",
+        "bering-sea-carvers",
+        "inuinnait-sewing",
+        "ozette-makah",
+        "blackfoot-bison",
+        "hidatsa-villages",
+        "kwakwakawakw-potlatch",
+        "ocmulgee-council",
+        "wendat-laine",
+        "haudenosaunee-canandaigua",
+        "cherokee-print",
+        "ojibwe-manoomin"
+      ],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "chronology",
+      "definitionReviewed": "The ordering and dating of events. Dates can be approximate, disputed or revised.",
+      "relatedDossiers": [
+        "colima",
+        "kushan-contexts",
+        "caral",
+        "byzantium",
+        "nalanda",
+        "polynesian-voyaging"
+      ],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "ritual",
+      "definitionReviewed": "An action or sequence given particular shared significance, often repeated in a religious or social setting.",
+      "relatedDossiers": [
+        "colima",
+        "moche",
+        "kongo-translation",
+        "old-kingdom",
+        "liangzhu",
+        "shang-ritual",
+        "olmec",
+        "taharqo",
+        "borobudur"
+      ],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "dynasty",
+      "definitionReviewed": "A sequence of rulers associated with one family; it is not the same thing as a whole society.",
+      "relatedDossiers": [
+        "roman-world",
+        "ming-workshops",
+        "mughal-books",
+        "shang-ritual",
+        "tang-city",
+        "abbasid-craft",
+        "song-art"
+      ],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "empire",
+      "definitionReviewed": "A political formation ruling over diverse territories and peoples, often through conquest and unequal power.",
+      "relatedDossiers": ["roman-world", "byzantium", "mali-networks", "world-war-one"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "freedman",
+      "definitionReviewed": "A formerly enslaved man. The label identifies a past legal status, not the full experience of a person.",
+      "relatedDossiers": ["roman-world"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Retain case-specific review of cultural/legal/historical usage; no universal community meaning or legal adjudication implied.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "caravan",
+      "definitionReviewed": "People and pack animals traveling together, often carrying goods.",
+      "relatedDossiers": ["palmyra", "mali-networks"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "inscription",
+      "definitionReviewed": "Words deliberately written or cut on a surface. The author’s purposes and audience matter.",
+      "relatedDossiers": [
+        "palmyra",
+        "kushan-contexts",
+        "uruk-accounts",
+        "shang-ritual",
+        "taharqo",
+        "maya-vessel",
+        "qin-administration"
+      ],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "coinage",
+      "definitionReviewed": "Coins and the practices through which authorities issue and people use them.",
+      "relatedDossiers": ["kushan-contexts"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "provenance",
+      "definitionReviewed": "The recorded history of an object’s ownership. A findspot is a different question: where it was discovered.",
+      "relatedDossiers": [
+        "kushan-contexts",
+        "aksum",
+        "teotihuacan",
+        "dongson",
+        "benin-ivory",
+        "kongo-translation",
+        "manila-network",
+        "uluburun",
+        "kerma-potters",
+        "taharqo",
+        "chavin-textile",
+        "maya-vessel",
+        "middle-niger",
+        "inuinnait-sewing",
+        "ozette-makah",
+        "kwakwakawakw-potlatch",
+        "ojibwe-manoomin"
+      ],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "port",
+      "definitionReviewed": "A place where vessels land and goods or people enter a wider network.",
+      "relatedDossiers": ["aksum", "portuguese-voyage", "manila-network", "uluburun"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "stele",
+      "definitionReviewed": "An upright stone monument, often carved or inscribed.",
+      "relatedDossiers": ["aksum"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "archaeology",
+      "definitionReviewed": "Study of the past through material remains and their contexts.",
+      "relatedDossiers": [
+        "colima",
+        "teotihuacan",
+        "moche",
+        "dongson",
+        "manila-network",
+        "dholavira",
+        "caral",
+        "skara-brae",
+        "hattusha-change",
+        "uluburun",
+        "lapita",
+        "athens-water",
+        "borobudur",
+        "nalanda",
+        "angkor"
+      ],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "irrigation",
+      "definitionReviewed": "Directing water to fields. The channels and their maintenance involve both environments and people.",
+      "relatedDossiers": ["moche", "dholavira", "liangzhu", "angkor"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "tribute",
+      "definitionReviewed": "Goods or labor demanded by a political authority. Its precise form varies by setting.",
+      "relatedDossiers": ["moche"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "iconography",
+      "definitionReviewed": "The study of imagery and its meanings in a particular context.",
+      "relatedDossiers": ["moche", "mughal-books", "byzantium"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "regalia",
+      "definitionReviewed": "Objects that represent office, rank or authority.",
+      "relatedDossiers": ["dongson", "benin-ivory"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "material culture",
+      "definitionReviewed": "Things people make and use, studied as part of social life.",
+      "relatedDossiers": [
+        "dongson",
+        "benin-ivory",
+        "ming-workshops",
+        "liangzhu",
+        "skara-brae",
+        "kerma-potters",
+        "olmec",
+        "lapita",
+        "inca-weaving"
+      ],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "enslavement",
+      "definitionReviewed": "The coercive treatment of people as property, denying freedom and exploiting their work.",
+      "relatedDossiers": [
+        "kongo-translation",
+        "portuguese-voyage",
+        "banda-1621",
+        "haitian-revolution",
+        "cherokee-print"
+      ],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Retain case-specific review of cultural/legal/historical usage; no universal community meaning or legal adjudication implied.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "colonialism",
+      "definitionReviewed": "Control of people and territories by an outside power, involving unequal political and economic relationships.",
+      "relatedDossiers": [
+        "portuguese-voyage",
+        "banda-1621",
+        "haitian-revolution",
+        "tiriti"
+      ],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Retain case-specific review of cultural/legal/historical usage; no universal community meaning or legal adjudication implied.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "decolonization",
+      "definitionReviewed": "Processes of ending colonial rule; political independence did not automatically end every inequality.",
+      "relatedDossiers": [
+        "partition-1947",
+        "south-africa-rights",
+        "indonesia-independence",
+        "ghana-independence"
+      ],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Retain case-specific review of cultural/legal/historical usage; no universal community meaning or legal adjudication implied.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "archive",
+      "definitionReviewed": "A collection of records, shaped by decisions about what was created, kept, lost and made accessible.",
+      "relatedDossiers": [
+        "banda-1621",
+        "uruk-accounts",
+        "mali-networks",
+        "hine-labor",
+        "partition-1947",
+        "world-war-two"
+      ],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "industrialization",
+      "definitionReviewed": "Changes in production involving machines, energy, workplaces and labor organization; timing and effects differ by region.",
+      "relatedDossiers": ["factory-reform", "hine-labor", "tomioka"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "earthwork",
+      "definitionReviewed": "A deliberately shaped construction of earth, such as a mound or enclosure. Its form alone does not establish its purpose or governing system.",
+      "relatedDossiers": ["poverty-point", "hopewell-earthworks"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "terminus-post-quem",
+      "definitionReviewed": "A limit after which something must have happened. Wood can be older than its use in a building, so a dated tree ring does not automatically give an exact construction year.",
+      "relatedDossiers": ["ocmulgee-council", "wendat-laine"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "calibration",
+      "definitionReviewed": "Converting a radiocarbon determination into possible calendar dates using an independently established reference curve. One determination can have more than one plausible calendar placement.",
+      "relatedDossiers": ["lapita", "wendat-laine"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "syllabary",
+      "definitionReviewed": "A writing system whose signs represent syllables. The Cherokee syllabary is a system for writing Cherokee, not an ornamental version of English.",
+      "relatedDossiers": ["cherokee-print"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "wampum",
+      "definitionReviewed": "Worked shell beads used in particular Indigenous contexts. The Onondaga account here explains agreements, speakers, memory and responsibilities; a pattern does not interpret itself.",
+      "relatedDossiers": ["haudenosaunee-canandaigua"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Retain case-specific review of cultural/legal/historical usage; no universal community meaning or legal adjudication implied.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "ratification",
+      "definitionReviewed": "A formal act of confirming an agreement through a government’s procedures. It can occur after negotiation and signing, and does not by itself prove that commitments were fulfilled.",
+      "relatedDossiers": ["haudenosaunee-canandaigua"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "manoomin",
+      "definitionReviewed": "The Ojibwe name for wild rice, explained in the community sources as food with physical, cultural and spiritual significance. Related practices differ among communities.",
+      "relatedDossiers": ["ojibwe-manoomin"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Retain case-specific review of cultural/legal/historical usage; no universal community meaning or legal adjudication implied.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "winnowing",
+      "definitionReviewed": "Separating grain from lighter chaff, often with the help of moving air. It is one stage of finishing rice, distinct from harvesting, drying, parching and hulling.",
+      "relatedDossiers": ["ojibwe-manoomin"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "marine-reservoir-effect",
+      "definitionReviewed": "Marine carbon can give a sample a different radiocarbon age from a contemporary land-based sample. Appropriate calibration and reservoir corrections matter; a regional revision does not automatically redetermine every catalogued object.",
+      "relatedDossiers": ["bering-sea-carvers"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "reconstruction",
+      "definitionReviewed": "A modern interpretation made from evidence about an earlier object, building or practice. It can help investigate how something worked, while remaining distinct from the surviving original.",
+      "relatedDossiers": [
+        "skara-brae",
+        "inuinnait-sewing",
+        "hidatsa-villages",
+        "ocmulgee-council"
+      ],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "radiocarbon",
+      "definitionReviewed": "A method that estimates the age of once-living material from radioactive carbon. Samples, calibration and environmental effects matter; an uncalibrated age in years BP is not automatically a calendar year.",
+      "relatedDossiers": [
+        "skara-brae",
+        "ozette-makah",
+        "ocmulgee-council",
+        "wendat-laine"
+      ],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "waterlogged-preservation",
+      "definitionReviewed": "Survival of material in persistently wet conditions that slow some forms of decay. The preserved material is still a selective record, not a complete picture of a household.",
+      "relatedDossiers": ["ozette-makah"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "seasonal-round",
+      "definitionReviewed": "An organized pattern of activities and movement through the year. Mobility can depend on detailed knowledge, planning and social institutions.",
+      "relatedDossiers": ["blackfoot-bison"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "cache-pit",
+      "definitionReviewed": "A prepared underground storage space. Its construction, contents and use require evidence; an explanatory model is not an excavated original.",
+      "relatedDossiers": ["hidatsa-villages"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "repatriation",
+      "definitionReviewed": "Return of belongings or ancestral remains to the peoples or communities to whom they belong. The atlas follows the particular community account rather than assuming one process for every collection.",
+      "relatedDossiers": ["kwakwakawakw-potlatch"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Retain case-specific review of cultural/legal/historical usage; no universal community meaning or legal adjudication implied.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "potlatch",
+      "definitionReviewed": "A ceremony with specific forms and responsibilities in different Northwest Coast communities. In the Kwakwaka’wakw account here, invited people witness consequential events and gifts acknowledge their role.",
+      "relatedDossiers": ["kwakwakawakw-potlatch"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Retain case-specific review of cultural/legal/historical usage; no universal community meaning or legal adjudication implied.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "experimental-archaeology",
+      "definitionReviewed": "Testing an interpretation by reproducing a material, technique or activity under stated conditions. An experiment supports a possibility; it is not a recovered ancient event.",
+      "relatedDossiers": ["old-kingdom", "poverty-point", "blackfoot-bison"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "archaeological-tradition",
+      "definitionReviewed": "A research label for related material practices across places or times. It is not automatically the name of one people, language or state.",
+      "relatedDossiers": ["hopewell-earthworks", "bering-sea-carvers"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Retain case-specific review of cultural/legal/historical usage; no universal community meaning or legal adjudication implied.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "biomarker",
+      "definitionReviewed": "A detectable chemical or biological trace used as evidence of a substance or process. Its interpretation depends on the method, sample and alternative explanations.",
+      "relatedDossiers": ["chaco-communities"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "kiva",
+      "definitionReviewed": "A Pueblo ceremonial space with varied forms and histories. Archaeological identification and living community knowledge both matter; not every circular room has an identical meaning.",
+      "relatedDossiers": ["chaco-communities"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Retain case-specific review of cultural/legal/historical usage; no universal community meaning or legal adjudication implied.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "proxy",
+      "definitionReviewed": "An indirect measurement used to investigate something not directly counted or observed. A lake-sediment signal, for example, requires interpretation before it becomes a population claim.",
+      "relatedDossiers": ["cahokia-city"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "chiefdom",
+      "definitionReviewed": "An analytical term for a society with ranked authority and leadership above a local community. Its use for an archaeological case is an interpretation, not a surviving official name.",
+      "relatedDossiers": ["cahokia-city"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Retain case-specific review of cultural/legal/historical usage; no universal community meaning or legal adjudication implied.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "stonepaste",
+      "definitionReviewed": "A ceramic body containing abundant crushed quartz with clay and glassy material. It differs from porcelain even when makers adapt similar designs.",
+      "relatedDossiers": ["ottoman-workshops"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Retain case-specific review of cultural/legal/historical usage; no universal community meaning or legal adjudication implied.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "tughra",
+      "definitionReviewed": "A calligraphic emblem of an Ottoman sultan’s authority used on official documents and other media. Drawing and ornament could involve specialized makers.",
+      "relatedDossiers": ["ottoman-workshops"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Retain case-specific review of cultural/legal/historical usage; no universal community meaning or legal adjudication implied.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "forced-relocation",
+      "definitionReviewed": "Movement imposed on people by authorities or armed power. Later achievements or privileges do not make the original movement voluntary.",
+      "relatedDossiers": ["isfahan-silk", "cherokee-print"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "caravansary",
+      "definitionReviewed": "An establishment offering space and facilities for traveling merchants and their goods, often linked to urban markets or overland travel.",
+      "relatedDossiers": ["isfahan-silk", "bukhara-books"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "madrasa",
+      "definitionReviewed": "An institution of learning in Islamic societies, with varied subjects, forms and patronage across time and place. A building does not by itself reveal every student’s experience.",
+      "relatedDossiers": ["bukhara-books"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Retain case-specific review of cultural/legal/historical usage; no universal community meaning or legal adjudication implied.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "lacquer",
+      "definitionReviewed": "A protective, often glossy surface finish applied over painted or decorated material. The Iranian case here uses painted papier-mâché and pasteboard.",
+      "relatedDossiers": ["zand-iran"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "sovereignty",
+      "definitionReviewed": "A claim to supreme political authority, including independence from another state. A declaration, recognition by other states and effective control can have different dates and histories.",
+      "relatedDossiers": ["indonesia-independence", "ghana-independence"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Retain case-specific review of cultural/legal/historical usage; no universal community meaning or legal adjudication implied.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "federation",
+      "definitionReviewed": "A political arrangement in which powers are divided between a central government and constituent governments. Its actual distribution of authority must be read in the particular constitution or agreement.",
+      "relatedDossiers": ["indonesia-independence", "ghana-independence"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "standardization",
+      "definitionReviewed": "An attempt to establish common units, forms or procedures. An announced standard and the way people use it are separate historical questions.",
+      "relatedDossiers": ["qin-administration"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "dhamma",
+      "definitionReviewed": "In Ashoka’s messages, a moral and administrative program concerning conduct and government. Its uses need context and are not identical with a complete statement of Buddhist doctrine.",
+      "relatedDossiers": ["ashoka-messages"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Retain case-specific review of cultural/legal/historical usage; no universal community meaning or legal adjudication implied.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "deme",
+      "definitionReviewed": "A local civic community in ancient Attica. The late-fourth-century Athenian account describes scrutiny and enrollment of eligible young men among its members.",
+      "relatedDossiers": ["athens-water"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Retain case-specific review of cultural/legal/historical usage; no universal community meaning or legal adjudication implied.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "stratigraphy",
+      "definitionReviewed": "The sequence and relationships of archaeological layers and features. An object’s manufacture date and the date or history of the deposit containing it are different questions.",
+      "relatedDossiers": ["aksum", "caral", "olmec", "lapita", "poverty-point"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "endowment",
+      "definitionReviewed": "A grant of land, property or resources intended to support an institution over time. Its terms and the work supplying that support need their own evidence.",
+      "relatedDossiers": ["nalanda"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "mita",
+      "definitionReviewed": "Rotating labor service required by Inca authorities. It differs from permanent or semi-permanent resettlement; provisioning does not by itself establish equal choice or returns.",
+      "relatedDossiers": ["inca-weaving"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Retain case-specific review of cultural/legal/historical usage; no universal community meaning or legal adjudication implied.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "jeli",
+      "definitionReviewed": "A Mande specialist in oral traditions and performance, with roles including genealogy, praise and diplomacy. Jeliw is plural; particular performances have their own dates, audiences and purposes.",
+      "relatedDossiers": ["mali-networks"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Retain case-specific review of cultural/legal/historical usage; no universal community meaning or legal adjudication implied.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "provisioning",
+      "definitionReviewed": "Organizing and supplying the food and other materials needed by people or institutions. Storage, preparation and delivery involve different tasks.",
+      "relatedDossiers": ["moche", "old-kingdom", "kerma-potters", "lapita", "taharqo"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "shicra",
+      "definitionReviewed": "A woven plant-fiber bag. Stone-filled examples occur in Caral’s construction deposits; their presence alone does not establish how every worker was recruited or required to contribute.",
+      "relatedDossiers": ["caral"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "midden",
+      "definitionReviewed": "An accumulation of discarded material and occupation deposits. Its contents and layers can help investigate activities, but need their own context and chronology.",
+      "relatedDossiers": ["skara-brae", "poverty-point"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "temper",
+      "definitionReviewed": "Non-clay material, such as sand or plant fibers, mixed with clay to change how pottery behaves. Its composition can help investigate material sources, without identifying a particular carrier or voyage.",
+      "relatedDossiers": ["lapita"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "type-site",
+      "definitionReviewed": "A place whose name supplies the label for an archaeological category. Similar finds elsewhere still need their own dates and contexts; the name alone does not prove that practices spread outward from that place.",
+      "relatedDossiers": ["poverty-point"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "lidar",
+      "definitionReviewed": "Light detection and ranging: measurements of light pulses used to model elevation. A ground-surface model can reveal forms, while excavation and dating help investigate their histories.",
+      "relatedDossiers": ["poverty-point"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "faience",
+      "definitionReviewed": "A manufactured, usually quartz-rich material with a glazed surface. Ancient Egyptian and Kushite faience is distinct from a granite carving or ordinary clay pottery; a mould and production debris can help investigate its making.",
+      "relatedDossiers": ["taharqo"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Retain case-specific review of cultural/legal/historical usage; no universal community meaning or legal adjudication implied.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "shabti",
+      "definitionReviewed": "A funerary figure intended to substitute for work required of the deceased in the afterlife. Its name, material, inscription and find context need their own evidence; a royal example does not represent every household’s beliefs.",
+      "relatedDossiers": ["taharqo"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Retain case-specific review of cultural/legal/historical usage; no universal community meaning or legal adjudication implied.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "plain-weave",
+      "definitionReviewed": "A basic interlacing in which a weft thread alternates over and under successive warp threads. A general diagram explains this principle; identifying a particular textile’s structure and counts requires appropriate examination.",
+      "relatedDossiers": ["chavin-textile"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "residential-compound",
+      "definitionReviewed": "A connected group of rooms and open spaces used for living and other activities. An archaeological compound may include production, storage and gathering; its walls do not by themselves identify one nuclear family or its legal status.",
+      "relatedDossiers": ["teotihuacan", "moche"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "find-context",
+      "definitionReviewed": "The recorded place and associations in which something was found, including its position, surrounding material and relationship to other features. A regional style or present museum location does not supply a precise archaeological find context.",
+      "relatedDossiers": ["colima", "dongson", "hopewell-earthworks"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "relief",
+      "definitionReviewed": "An image carved or modelled so that forms project from a background surface. A relief can organize a story on that surface; its interpretation and use require further evidence.",
+      "relatedDossiers": ["byzantium", "borobudur"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "iconoclasm",
+      "definitionReviewed": "Opposition to or destruction of images, especially in religious settings. Byzantine disputes involved particular periods and policies; the term does not describe every Christian view about images.",
+      "relatedDossiers": ["byzantium"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "masonry",
+      "definitionReviewed": "Building with stone, brick or similar units. Facing stones and a rubble core can perform different tasks within one wall; its materials alone do not identify every builder or the institution organizing the work.",
+      "relatedDossiers": ["chaco-communities"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    },
+    {
+      "id": "workshop",
+      "definitionReviewed": "A setting or group in which people produce or prepare work. Size, training, ownership and the division of tasks vary; a catalogue’s workshop attribution does not identify every maker.",
+      "relatedDossiers": ["ming-workshops", "mughal-books", "ottoman-workshops"],
+      "editorialRead": "Read for clarity, scope and unsupported universal claims on 2026-11-04.",
+      "finding": "No copy change identified in this pass.",
+      "sourceReview": "Source and disciplinary fit remain subject to case-level audit.",
+      "status": "editorial_read_complete_source_audit_open"
+    }
+  ]
+}

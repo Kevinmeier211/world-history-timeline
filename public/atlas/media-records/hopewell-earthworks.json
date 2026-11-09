@@ -1,0 +1,53 @@
+{
+  "subject": "hopewell-earthworks",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "hopewell-restored-mound",
+      "caption": "This is a modern photograph of a restored mound. NPS explains that the visible walls and mounds at Mound City were reconstructed using surviving bases, documents and field research. A present-day view therefore contains both ancient evidence and modern interpretation.",
+      "notice": [
+        "What can a photograph show about the mound’s shape?",
+        "How would restoration affect what you can infer from its surface?"
+      ],
+      "creator": "National Park Service",
+      "place": "Mound City Group, Ohio, United States",
+      "material": "Digital photograph of an archaeological landscape",
+      "representedDate": "Mound City ceremonial complex, 1–400 CE; visible earthworks restored in modern times",
+      "relevance": "Makes reconstruction and archaeological inference visible rather than presenting a restored landscape as untouched.",
+      "datingNote": "NPS gallery ImageCreateDate identifies 11 January 2013. Visible earthworks are modern restorations of an ancient ceremonial complex.",
+      "additionalImages": []
+    },
+    {
+      "id": "hopewell-survey-1848",
+      "caption": "A survey is evidence of what observers recorded, using their methods and assumptions. It is not a photograph of the ancient gathering place. The name Hopewell came from a later landowner, not a surviving name for all its builders. This institutional reproduction has limited resolution.",
+      "notice": [
+        "Which shapes are connected?",
+        "What information about people is absent from a plan?"
+      ],
+      "creator": "Ephraim George Squier and Edwin Hamilton Davis",
+      "place": "Hopewell Mound Group, Ohio, United States",
+      "material": "Reproduction of a printed survey plan",
+      "representedDate": "Ancient Ohio earthworks documented in the nineteenth century",
+      "relevance": "Supports comparison of archaeological documentation with a restored landscape.",
+      "datingNote": "Publication date of a later archaeological survey, not the date of earthwork construction.",
+      "additionalImages": []
+    },
+    {
+      "id": "hopewell-moundcity-1848",
+      "caption": "Squier and Davis surveyed Mound City in 1846 and published the plan in 1848 as Plate XIX. The enclosure and mound symbols appear beside the Scioto River; a canal and other recorded features share the sheet. This is a later survey, not a single ancient construction phase. It is a different plan from the existing North Fork Works image of Hopewell Mound Group. The small source reproduction retains its original limits.",
+      "notice": [
+        "Find the Mound City enclosure and the Scioto River.",
+        "Which feature belongs to the nineteenth-century survey landscape?",
+        "What can this plan tell us about spatial relationships without dating each mound?"
+      ],
+      "creator": "Ephraim George Squier and Edwin Hamilton Davis",
+      "place": "Mound City Group and neighboring recorded features, Ohio, United States",
+      "material": "Digital reproduction of a printed historical survey plan",
+      "representedDate": "Ancient earthwork features recorded within a nineteenth-century landscape; individual construction phases not established by this sheet",
+      "relevance": "Adds a same-site historical plan for Mound City while retaining the distinct Hopewell Mound Group survey and the modern restored-landscape photograph.",
+      "datingNote": "1848 is the original publication year. The NPS digital reproduction’s creation date is not established; ancient features and later survey landscape must be distinguished.",
+      "additionalImages": [],
+      "printWidthMm": 55
+    }
+  ]
+}

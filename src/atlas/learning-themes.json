@@ -1,0 +1,342 @@
+[
+  {
+    "id": "THEME01",
+    "name": "Governance and power",
+    "question": "Who could turn a decision into everyday action?",
+    "journeys": ["voices-power", "rules-messages-public-work", "promises-rights"],
+    "limit": "",
+    "stops": [
+      {
+        "subject": "qin-administration",
+        "section": "A local office had to make records usable",
+        "prompt": "Find one job a local office had to do before a common rule could work.",
+        "source": "qin-practice"
+      },
+      {
+        "subject": "ashoka-messages",
+        "section": "Officials were told how to exercise power",
+        "prompt": "What were officials instructed to do? Mark the difference between an order and evidence that someone obeyed it.",
+        "source": "ashoka-edicts-1925"
+      },
+      {
+        "subject": "athens-water",
+        "section": "Formal participation required eligibility",
+        "prompt": "Compare the rules for formal participation with the people visible in the water scene.",
+        "source": "athens-constitution"
+      }
+    ]
+  },
+  {
+    "id": "THEME02",
+    "name": "Food, water and ecology",
+    "question": "What work kept people supplied, and what evidence survives?",
+    "journeys": ["cities-work-water", "homes-provision-renewal", "northern-knowledge"],
+    "limit": "",
+    "stops": [
+      {
+        "subject": "dholavira",
+        "section": "Read components before drawing a complete system",
+        "prompt": "Trace one step in storing water. Which part of the reconstruction is uncertain?",
+        "source": "dholavira-plan"
+      },
+      {
+        "subject": "old-kingdom",
+        "section": "Grain was only a beginning",
+        "prompt": "Follow grain past the point of delivery. Who had to turn supplies into food?",
+        "source": "giza-provisioning"
+      },
+      {
+        "subject": "ojibwe-manoomin",
+        "section": "Care for rice waters requires observation",
+        "prompt": "Find a sign that rice waters need care. Who has knowledge of the change?",
+        "source": "rice-glifwc"
+      }
+    ]
+  },
+  {
+    "id": "THEME03",
+    "name": "Households and gender",
+    "question": "Whose work appears in records of households and cities?",
+    "journeys": [
+      "homes-provision-renewal",
+      "households-books-city-work",
+      "buildings-food-continuity"
+    ],
+    "limit": "Gendered experience needs further editorial review; these routes do not represent every household.",
+    "stops": [
+      {
+        "subject": "hidatsa-villages",
+        "section": "An earthlodge joined construction with household authority",
+        "prompt": "Who built or controlled an earthlodge? Look for a named responsibility.",
+        "source": "knife-women"
+      },
+      {
+        "subject": "athens-water",
+        "section": "Water connected households with public space",
+        "prompt": "What can a painted water scene suggest about work, and what can it leave out?",
+        "source": "agora-women"
+      },
+      {
+        "subject": "eastern-han",
+        "section": "The model is not the building",
+        "prompt": "What did a household choose to put in a tomb? Explain why a model is different from an inventory of its home.",
+        "source": "met-49519"
+      }
+    ]
+  },
+  {
+    "id": "THEME04",
+    "name": "Childhood and education",
+    "question": "Who could learn a skill, and under what conditions?",
+    "journeys": [
+      "spaces-skills-learning",
+      "skills-records-protection",
+      "machines-work"
+    ],
+    "limit": "Education and work are represented; broader childhood histories remain incomplete.",
+    "stops": [
+      {
+        "subject": "nalanda",
+        "section": "Study meant learning and explaining, not merely storing texts",
+        "prompt": "Find something a learner had to practice. Who describes it?",
+        "source": "yijing-1896"
+      },
+      {
+        "subject": "tomioka",
+        "section": "Workers carried knowledge elsewhere",
+        "prompt": "How could a worker carry a skill beyond the mill? Identify the kind of account you are reading.",
+        "source": "tomioka-wada-ndl"
+      },
+      {
+        "subject": "hine-labor",
+        "section": "A caption records a contested explanation",
+        "prompt": "Compare the photographer’s caption with the overseer’s explanation. Which questions about this child remain unanswered?",
+        "source": "hine"
+      }
+    ]
+  },
+  {
+    "id": "THEME05",
+    "name": "Labor, coercion and slavery",
+    "question": "Who supplied work, who benefited, and who could refuse?",
+    "journeys": ["work-obligation-voices", "goods-work-coercion", "machines-work"],
+    "limit": "",
+    "stops": [
+      {
+        "subject": "inca-weaving",
+        "section": "Work could be demanded in different ways",
+        "prompt": "Distinguish one kind of work obligation from another before using the word forced.",
+        "source": "inka-labor"
+      },
+      {
+        "subject": "banda-1621",
+        "section": "Plantation production depended on people’s knowledge",
+        "prompt": "Who needed whose knowledge to produce nutmeg after the conquest?",
+        "source": "banda-museum"
+      },
+      {
+        "subject": "haitian-revolution",
+        "section": "Ending slavery did not settle control of work",
+        "prompt": "Find a rule about work after abolition. What did ending slavery change, and what remained contested?",
+        "source": "haiti-constitution-1801"
+      }
+    ]
+  },
+  {
+    "id": "THEME06",
+    "name": "Migration and diaspora",
+    "question": "How do movement and political change affect a community?",
+    "journeys": ["ocean-connections", "promises-rights", "independence-citizenship"],
+    "limit": "These selected encounters and political transitions are not a comprehensive migration history.",
+    "stops": [
+      {
+        "subject": "isfahan-silk",
+        "section": "A prosperous quarter followed forced movement",
+        "prompt": "Trace the forced movement behind the new commercial quarter. Who chose the move?",
+        "source": "julfa-forced"
+      },
+      {
+        "subject": "partition-1947",
+        "section": "The work of rebuilding a life",
+        "prompt": "Find one part of rebuilding a life that a boundary map would miss.",
+        "source": "partition"
+      },
+      {
+        "subject": "polynesian-voyaging",
+        "section": "Preparation made sailing possible",
+        "prompt": "What preparation did a voyage require? Explain why the evidence does not support treating every movement as forced or permanent.",
+        "source": "navigation"
+      }
+    ]
+  },
+  {
+    "id": "THEME07",
+    "name": "Religion and intellectual life",
+    "question": "How do ideas depend on institutions, makers and movement?",
+    "journeys": ["institutions-images", "knowledge-networks", "images-spaces-work"],
+    "limit": "",
+    "stops": [
+      {
+        "subject": "nalanda",
+        "section": "A daily practice needed coordination and other workers",
+        "prompt": "Look beyond teachers: whose coordinated work supported study?",
+        "source": "yijing-1896"
+      },
+      {
+        "subject": "borobudur",
+        "section": "Support reached beyond the carved stone",
+        "prompt": "What evidence links religious buildings to people beyond the monument?",
+        "source": "borobudur-inscription-context-2018"
+      },
+      {
+        "subject": "kongo-translation",
+        "section": "Translation required people who could question meanings",
+        "prompt": "Who could question or reshape a religious meaning in translation? Compare this work with maintaining a building.",
+        "source": "kongo-christianity"
+      }
+    ]
+  },
+  {
+    "id": "THEME08",
+    "name": "Science, medicine and technology",
+    "question": "How can an object or record show a technical practice and its limits?",
+    "journeys": ["cities-evidence", "skills-records-protection", "war-signals"],
+    "limit": "Technology is represented; medicine remains a major research gap.",
+    "stops": [
+      {
+        "subject": "dholavira",
+        "section": "A radar image is a proposal to test",
+        "prompt": "Identify the proposed feature in a radar image. What evidence would confirm it?",
+        "source": "dholavira-gpr"
+      },
+      {
+        "subject": "angkor",
+        "section": "Seeing traces beneath vegetation",
+        "prompt": "What does mapping beneath vegetation reveal, and what can it leave undated?",
+        "source": "angkor-lidar"
+      },
+      {
+        "subject": "sputnik",
+        "section": "A signal depended on work on Earth",
+        "prompt": "Follow a signal from the spacecraft to a listener. What does receiving it establish?",
+        "source": "sputnik"
+      }
+    ]
+  },
+  {
+    "id": "THEME09",
+    "name": "Art and communication",
+    "question": "Who made a message, for whom, and what can we infer from it?",
+    "journeys": ["voices-power", "objects-work-exchange", "makers-patrons-markets"],
+    "limit": "",
+    "stops": [
+      {
+        "subject": "mughal-books",
+        "section": "Different skills made a book possible",
+        "prompt": "Name two kinds of work that made a painted book possible.",
+        "source": "mughal-workshops-va"
+      },
+      {
+        "subject": "cherokee-print",
+        "section": "Readers debated access to political arguments",
+        "prompt": "Find a disagreement about access to print. How could changing the audience change a message?",
+        "source": "phoenix-boudinot-letter-1832"
+      },
+      {
+        "subject": "kongo-translation",
+        "section": "A maker composed an argument in brass",
+        "prompt": "Choose one decision made visible in brass. What would you still need to identify the maker’s intention?",
+        "source": "met-318323"
+      }
+    ]
+  },
+  {
+    "id": "THEME10",
+    "name": "Trade and intermediaries",
+    "question": "Whose work and knowledge made exchange possible?",
+    "journeys": [
+      "ocean-connections",
+      "makers-interpreters-encounters",
+      "objects-work-exchange"
+    ],
+    "limit": "",
+    "stops": [
+      {
+        "subject": "uluburun",
+        "section": "A chemical match is an argument about origin",
+        "prompt": "How does a researcher move from a material sample to an argument about origin?",
+        "source": "uluburun-tin-2022"
+      },
+      {
+        "subject": "benin-ivory",
+        "section": "A customer’s request still needed a maker’s decisions",
+        "prompt": "Separate a customer’s request from an ivory carver’s decisions.",
+        "source": "ivories"
+      },
+      {
+        "subject": "manila-network",
+        "section": "A registered consignment gives a narrower connection",
+        "prompt": "Identify what one registered consignment establishes. Why can it not explain every object in the trade?",
+        "source": "manila-santo-cristo-2022"
+      }
+    ]
+  },
+  {
+    "id": "THEME11",
+    "name": "War and resistance",
+    "question": "How do decisions and institutions connect conflict to lives?",
+    "journeys": ["war-signals", "independence-citizenship", "promises-rights"],
+    "limit": "Political resistance has varied forms; shared route membership does not make every case a war.",
+    "stops": [
+      {
+        "subject": "world-war-one",
+        "section": "Empires connected campaigns to labour and households",
+        "prompt": "Trace a connection between an imperial campaign and work away from the battlefield.",
+        "source": "ww1-watkins-transcript"
+      },
+      {
+        "subject": "indonesia-independence",
+        "section": "A republic had to survive",
+        "prompt": "What did a proclamation leave the new republic still needing to defend?",
+        "source": "indonesia-war"
+      },
+      {
+        "subject": "ghana-independence",
+        "section": "A party needed people and communication",
+        "prompt": "Find one form of political organizing. What evidence distinguishes it from armed conflict?",
+        "source": "ghana-country-study"
+      }
+    ]
+  },
+  {
+    "id": "THEME12",
+    "name": "Law, citizenship and exclusion",
+    "question": "Who understood, implemented and benefited from a rule or promise?",
+    "journeys": [
+      "promises-rights",
+      "rules-messages-public-work",
+      "independence-citizenship"
+    ],
+    "limit": "",
+    "stops": [
+      {
+        "subject": "tiriti",
+        "section": "Keep three kinds of text distinct",
+        "prompt": "Identify which text you are reading before explaining what was promised.",
+        "source": "tiriti-tepapa-texts"
+      },
+      {
+        "subject": "partition-1947",
+        "section": "Neighbors cannot be reduced to categories",
+        "prompt": "Compare an individual account with what a boundary decision can tell you.",
+        "source": "partition-oral"
+      },
+      {
+        "subject": "south-africa-rights",
+        "section": "A commitment creates questions to investigate",
+        "prompt": "Choose a constitutional commitment. What additional evidence would show whether people could use it?",
+        "source": "sa-rights"
+      }
+    ]
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "P03-1",
+    "downloadId": "world-overview",
+    "path": "/atlas/exports/world-overview.pdf",
+    "checks": [
+      "Actual paper and scaling",
+      "Legibility at normal distance",
+      "Grayscale evidence distinctions",
+      "Fine-detail limits and text alternative",
+      "Page/section continuity",
+      "Spoken reading order in configured PDF reader when applicable"
+    ],
+    "status": "not_printed",
+    "evaluator": null,
+    "observations": null
+  },
+  {
+    "id": "P03-2",
+    "downloadId": "reader-nalanda",
+    "path": "/atlas/exports/reader-nalanda.pdf",
+    "checks": [
+      "Actual paper and scaling",
+      "Legibility at normal distance",
+      "Grayscale evidence distinctions",
+      "Fine-detail limits and text alternative",
+      "Page/section continuity",
+      "Spoken reading order in configured PDF reader when applicable"
+    ],
+    "status": "not_printed",
+    "evaluator": null,
+    "observations": null
+  },
+  {
+    "id": "P03-3",
+    "downloadId": "reader-partition-1947",
+    "path": "/atlas/exports/reader-partition-1947.pdf",
+    "checks": [
+      "Actual paper and scaling",
+      "Legibility at normal distance",
+      "Grayscale evidence distinctions",
+      "Fine-detail limits and text alternative",
+      "Page/section continuity",
+      "Spoken reading order in configured PDF reader when applicable"
+    ],
+    "status": "not_printed",
+    "evaluator": null,
+    "observations": null
+  },
+  {
+    "id": "P03-4",
+    "downloadId": "family-cities-evidence",
+    "path": "/atlas/exports/family-cities-evidence.pdf",
+    "checks": [
+      "Actual paper and scaling",
+      "Legibility at normal distance",
+      "Grayscale evidence distinctions",
+      "Fine-detail limits and text alternative",
+      "Page/section continuity",
+      "Spoken reading order in configured PDF reader when applicable"
+    ],
+    "status": "not_printed",
+    "evaluator": null,
+    "observations": null
+  },
+  {
+    "id": "P03-5",
+    "downloadId": "chapter-C8",
+    "path": "/atlas/exports/chapter-C8.pdf",
+    "checks": [
+      "Actual paper and scaling",
+      "Legibility at normal distance",
+      "Grayscale evidence distinctions",
+      "Fine-detail limits and text alternative",
+      "Page/section continuity",
+      "Spoken reading order in configured PDF reader when applicable"
+    ],
+    "status": "not_printed",
+    "evaluator": null,
+    "observations": null
+  },
+  {
+    "id": "P03-6",
+    "downloadId": "short-C1",
+    "path": "/atlas/exports/short-C1.pdf",
+    "checks": [
+      "Actual paper and scaling",
+      "Legibility at normal distance",
+      "Grayscale evidence distinctions",
+      "Fine-detail limits and text alternative",
+      "Page/section continuity",
+      "Spoken reading order in configured PDF reader when applicable"
+    ],
+    "status": "not_printed",
+    "evaluator": null,
+    "observations": null
+  }
+]

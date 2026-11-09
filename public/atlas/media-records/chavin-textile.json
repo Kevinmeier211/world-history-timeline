@@ -1,0 +1,87 @@
+{
+  "subject": "chavin-textile",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "met-315784",
+      "caption": "Painted cotton, fourth–third centuries BCE, with imagery related to Chavín. The reported origin does not reveal a complete route. Four numbered modern annotations point to surviving details; the underlying photograph is unchanged and no missing design has been restored.",
+      "notice": [
+        "Which shapes recur?",
+        "How might a cloth travel differently from a carved wall?"
+      ],
+      "creator": "Chavín artist(s)",
+      "place": "Peru; said to come from the southern coast",
+      "material": "Cotton, refined iron earth pigments",
+      "relevance": "Revised chronology, portable imagery and uncertain provenance.",
+      "additionalImages": [],
+      "annotations": {
+        "createdOn": "2026-10-29",
+        "credit": "Chronos / Codex, 2026.",
+        "rights": "Modern annotations: CC BY 4.0. The underlying photograph has separate credit and rights.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "items": [
+          {
+            "id": "crossing-threads",
+            "label": "Crossing threads",
+            "x": 0.55,
+            "y": 0.42,
+            "text": "Crossed threads are visible in this pale area. This photograph does not establish thread counts or which direction was the warp.",
+            "citations": [
+              {
+                "source": "met-315784",
+                "locator": "Artwork Details: Textiles-Woven; existing photograph, pale area beside the central figure"
+              },
+              {
+                "source": "chavin-weaving-abstraction",
+                "locator": "Printed p. 4: grid/warp/weft paragraph; p. 8, Fig. 3"
+              }
+            ]
+          },
+          {
+            "id": "painted-form",
+            "label": "Painted form",
+            "x": 0.65,
+            "y": 0.545,
+            "text": "A broad red form lies across the fabric. The catalogue identifies painting; visible colour alone does not identify its chemical ingredients.",
+            "citations": [
+              {
+                "source": "met-315784",
+                "locator": "Description paragraphs2–4; existing photograph, red angular form at right"
+              }
+            ]
+          },
+          {
+            "id": "turning-boundary",
+            "label": "A turning boundary",
+            "x": 0.31,
+            "y": 0.433,
+            "text": "Follow the edge where red meets pale fabric. Its curve belongs to the visible image; identifying a supernatural face is a further interpretation.",
+            "citations": [
+              {
+                "source": "met-315784",
+                "locator": "Description paragraph4; existing photograph, curved red boundary near centre-left"
+              }
+            ]
+          },
+          {
+            "id": "fragmentary-edge",
+            "label": "Fragmentary edge",
+            "x": 0.86,
+            "y": 0.62,
+            "text": "Loose threads and an incomplete edge remain visible here. Keep missing parts blank: a proposed repeating composition is not a recovered complete cloth.",
+            "citations": [
+              {
+                "source": "met-315784",
+                "locator": "Existing photograph, right edge; Description paragraph5: proposed repetition"
+              },
+              {
+                "source": "chavin-weaving-abstraction",
+                "locator": "Printed pp. 8–9, Fig. 3 and adjacent pattern discussion"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,712 @@
+{
+  "extractedDuring": "C6 candidate validation; not a sealed C7 baseline",
+  "verifiedReferenceCommit": "01e97998a0ef0e9ed2512fde5b14fde844e7df41",
+  "currentCandidateCorpusSHA256": "af8a3f3f857cf3627f7074dbd68b64eae4117b72243fb34a8f40b6cb494194f3",
+  "subjects": [
+    {
+      "aliases": ["Ming China", "Jingdezhen"],
+      "terms": ["dynasty", "material culture", "inference"],
+      "dimensions": {
+        "audience": {
+          "text": "The catalogue places this jar in Jiajing-era ceramic production; the Ming essay documents a court Bureau of Design for imperial wares.",
+          "citations": [
+            {
+              "source": "met-42549",
+              "locator": "Period and catalogue"
+            },
+            {
+              "source": "ming",
+              "locator": "Final paragraph"
+            }
+          ]
+        },
+        "evidence": {
+          "text": "The vessel preserves material and decoration; it is not identified here as a specific galleon cargo.",
+          "citations": [
+            {
+              "source": "met-42549",
+              "locator": "Artwork Details"
+            }
+          ]
+        }
+      },
+      "status": "published",
+      "id": "ming-workshops",
+      "name": "Ming workshops and court design",
+      "kind": "period",
+      "region": "East Asia",
+      "place": "China; Jingdezhen ceramic production",
+      "coordinates": [117.2, 29.3],
+      "geographicPrecision": "Production center locator, not a boundary of artistic influence.",
+      "interval": {
+        "start": 1368,
+        "end": 1644,
+        "label": "1368–1644 CE",
+        "note": "Conventional Ming dynastic period. Individual works and trade routes retain their own dates.",
+        "precision": "exact"
+      },
+      "packs": ["C6", "C7"],
+      "question": "Who decided what a beautiful object should look like?",
+      "summary": "Ming decorative arts combined workshop skill, court requirements and inherited forms shaped by exchange. The jar with carp in a lotus pond makes that work visible in porcelain and colored decoration. A dynasty’s art was not one uniform style. Court taste, production technique and markets help explain different choices within a shared political period.",
+      "sections": [
+        {
+          "title": "Materials and close looking",
+          "text": "The selected jar combines underglaze cobalt blue with colors applied over the glaze. Its catalogue dates it to the middle sixteenth century and associates it with the Jiajing period. Notice fish and plants before assigning symbolism. Technical identification and a proposed meaning are different claims.",
+          "citations": [
+            {
+              "source": "met-42549",
+              "locator": "Title; Date, Period and Medium"
+            }
+          ]
+        },
+        {
+          "title": "A court and a design system",
+          "text": "The museum’s Ming essay identifies a court Bureau of Design that established standards for imperial decorative production. It also describes West Asian connections in the earlier development of blue-and-white porcelain and cloisonné. Imported ideas did not remove the agency of local makers; court regulation did not make every produced object an imperial commission.",
+          "citations": [
+            {
+              "source": "ming",
+              "locator": "Final decorative-arts paragraphs"
+            }
+          ]
+        },
+        {
+          "title": "A comparison of intended audiences",
+          "text": "Set the jar beside the Benin saltcellar. Both involve specialized materials and meaningful decoration, but the selected sources identify different settings: imperial ceramic production and a work for a foreign patron. Ask what each account actually establishes about audience. Do not infer a documented trade journey for this jar from the existence of Pacific porcelain commerce.",
+          "citations": [
+            {
+              "source": "met-42549",
+              "locator": "Catalogue entry"
+            },
+            {
+              "source": "met-309900",
+              "locator": "Commission and proposed set"
+            },
+            {
+              "source": "ming",
+              "locator": "Bureau of Design paragraph"
+            }
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "ming-dates",
+          "text": "The Ming period is conventionally dated 1368–1644.",
+          "citations": [
+            {
+              "source": "ming",
+              "locator": "Title"
+            }
+          ],
+          "status": "published",
+          "checkedBy": "Codex source consultation and self-review; not independent historian approval",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "id": "ming-jar",
+          "text": "The selected jar is mid-sixteenth-century Jingdezhen porcelain with underglaze and overglaze decoration.",
+          "citations": [
+            {
+              "source": "met-42549",
+              "locator": "Date and Medium"
+            }
+          ],
+          "status": "published",
+          "checkedBy": "Codex source consultation and self-review; not independent historian approval",
+          "checkedOn": "2026-10-26"
+        }
+      ],
+      "objectIds": ["met-42549"],
+      "returnPrompt": "What would you need to show that a particular pot was made for a particular buyer?",
+      "dimensionKeys": ["audience", "evidence"]
+    },
+    {
+      "aliases": ["Mughal India", "Akbar", "Harivamsa"],
+      "terms": ["dynasty", "iconography", "evidence"],
+      "dimensions": {
+        "audience": {
+          "text": "A royal atelier translated and illustrated sacred narratives for a courtly project; artists drew on several traditions.",
+          "citations": [
+            {
+              "source": "mughal",
+              "locator": "Royal atelier"
+            },
+            {
+              "source": "met-448183",
+              "locator": "Description"
+            }
+          ]
+        },
+        "evidence": {
+          "text": "A manuscript page preserves a historical representation of a sacred story; its making date is not the story’s date.",
+          "citations": [
+            {
+              "source": "met-448183",
+              "locator": "Description and Date"
+            }
+          ]
+        }
+      },
+      "status": "published",
+      "id": "mughal-books",
+      "name": "Akbar’s books and translators",
+      "kind": "period",
+      "region": "South Asia",
+      "place": "Mughal courts at Fatehpur Sikri and Lahore",
+      "coordinates": [74.35, 31.55],
+      "geographicPrecision": "Lahore is the probable place of the selected painting; the court moved.",
+      "interval": {
+        "start": 1556,
+        "end": 1605,
+        "label": "1556–1605 CE",
+        "note": "Akbar’s reign; not the entire Mughal state’s lifespan.",
+        "precision": "exact"
+      },
+      "packs": ["C7"],
+      "question": "What happens when a story meets a new language and audience?",
+      "summary": "A painting of Krishna sheltering villagers belonged to a courtly translation project under Akbar. Persian and Indian artists, including Muslims and Hindus, worked within the royal atelier. Their books show deliberate acts of interpretation. Court patronage could bring traditions into contact while remaining an expression of imperial power, rather than a picture of everyone’s religious life.",
+      "sections": [
+        {
+          "title": "A scene, not a photograph",
+          "text": "The painting represents Krishna holding up Mount Govardhan to shelter villagers from rain. Its production around 1590–95 is different from the time represented in the sacred story. We can study the scene’s composition and patronage without claiming that the painting is eyewitness evidence for the narrated event.",
+          "citations": [
+            {
+              "source": "met-448183",
+              "locator": "Description; Date"
+            }
+          ]
+        },
+        {
+          "title": "Translation and artistic invention",
+          "text": "The object record places the translation and illustration of Hindu epics and the Harivamsa within Akbar’s reign. The artists needed new compositions rather than simply inheriting an established Iranian manuscript design for these works. Translation occurred in words and images together.",
+          "citations": [
+            {
+              "source": "met-448183",
+              "locator": "Opening description"
+            }
+          ]
+        },
+        {
+          "title": "An imperial workshop in a connected region",
+          "text": "The Mughal essay describes a collaborative atelier and Akbar’s access to Gujarat’s commercial centers and the Arabian Sea. A religiously diverse workshop is evidence about selected artists and patronage, not proof of equal power for all communities. Comparing it with Kongo’s translation history reveals different institutions and surviving sources rather than one universal model of exchange.",
+          "citations": [
+            {
+              "source": "mughal",
+              "locator": "Gujarat and royal atelier paragraphs"
+            },
+            {
+              "source": "kongo-christianity",
+              "locator": "Translation and uneven adoption"
+            }
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "akbar-range",
+          "text": "Akbar reigned 1556–1605.",
+          "citations": [
+            {
+              "source": "mughal",
+              "locator": "Akbar paragraph"
+            }
+          ],
+          "status": "published",
+          "checkedBy": "Codex source consultation and self-review; not independent historian approval",
+          "checkedOn": "2026-10-26"
+        },
+        {
+          "id": "harivamsa-production",
+          "text": "The selected folio is dated approximately 1590–95 and depicts Krishna sheltering villagers.",
+          "citations": [
+            {
+              "source": "met-448183",
+              "locator": "Date; Description"
+            }
+          ],
+          "status": "published",
+          "checkedBy": "Codex source consultation and self-review; not independent historian approval",
+          "checkedOn": "2026-10-26"
+        }
+      ],
+      "objectIds": ["met-448183"],
+      "returnPrompt": "What can a painting establish about its makers and patrons, even when it cannot verify the events in its story?",
+      "dimensionKeys": ["audience", "evidence"]
+    },
+    {
+      "aliases": [
+        "Ottoman Empire",
+        "Istanbul",
+        "Iznik",
+        "Suleiman",
+        "Süleyman",
+        "Sinan"
+      ],
+      "terms": ["patronage", "stonepaste", "tughra", "evidence"],
+      "dimensions": {
+        "patronage": {
+          "text": "Court specialists, provincial ceramic makers and market clients belonged to intersecting systems of production; patronage was not the only source of work.",
+          "citations": [
+            {
+              "source": "ottoman-after",
+              "locator": "Court payments and open-market incentives"
+            }
+          ]
+        },
+        "inequality": {
+          "text": "Official emblems and major foundations represented power; their survival does not measure every person’s understanding or benefit.",
+          "citations": [
+            {
+              "source": "met-449533",
+              "locator": "Description of official uses and specialist production"
+            }
+          ]
+        },
+        "evidence": {
+          "text": "The dish and emblem have defined catalogue dates; their original users and reception require further evidence.",
+          "citations": [
+            {
+              "source": "met-451490",
+              "locator": "Description and Artwork Details"
+            }
+          ]
+        }
+      },
+      "status": "published",
+      "id": "ottoman-workshops",
+      "name": "Ottoman workshops: writing, clay and markets",
+      "kind": "period",
+      "region": "West/Central Asia",
+      "place": "Istanbul and Iznik, present-day Türkiye; locator at Istanbul",
+      "coordinates": [28.978, 41.008],
+      "geographicPrecision": "Capital/workshop context, not an Ottoman territorial polygon or a precise route between individual makers.",
+      "interval": {
+        "start": 1500,
+        "end": 1755,
+        "label": "Selected Ottoman art and urban contexts, c. 1500–1755",
+        "note": "A bounded investigation of sixteenth-century work, seventeenth-century markets and eighteenth-century building, ending with the cited 1748–55 mosque example. These are not the Ottoman Empire’s founding or dissolution dates.",
+        "precision": "approximate"
+      },
+      "packs": ["C7"],
+      "question": "How did skilled work serve both public authority and people buying things?",
+      "summary": "A calligraphic emblem, a painted dish and a mosque complex belonged to different kinds of work in Ottoman society. Court patronage mattered, but the empire’s makers were not all confined to a palace. Istanbul, Iznik and other centers supported production, exchange and religious institutions. Looking at the objects closely helps separate a ruler’s claims from the decisions and labor of those who made and used them.",
+      "sections": [
+        {
+          "title": "Making authority visible",
+          "text": "A tughra was an emblem used on official documents and other expressions of a sultan’s authority. The Met explains that a specialist drew its standard form and an illuminator could decorate it. In the example associated with Süleyman, writing and ornament work together. Its phrase of victory is evidence of royal representation, not independent proof that a ruler always won, or that every reader could interpret the emblem easily.",
+          "citations": [
+            {
+              "source": "met-449533",
+              "locator": "Description: content, specialist draughtsman and illuminator; visible catalogue date c1555–60"
+            }
+          ]
+        },
+        {
+          "title": "A dish is not a decree",
+          "text": "Iznik makers used stonepaste and painted decoration beneath a transparent glaze. The two-bird dish is dated c1575–90, although the API’s search envelope is wider. The museum’s discussion describes adaptation of admired Chinese ceramics into distinctive local forms and colors. That supports a history of artistic exchange, not a claim that this dish was made in China or that its particular buyer is known.",
+          "citations": [
+            {
+              "source": "met-451490",
+              "locator": "Artwork Details and audio transcript, Overview: Iznik Ceramics"
+            },
+            {
+              "source": "stonepaste-tech",
+              "locator": "Opening material definition"
+            }
+          ]
+        },
+        {
+          "title": "Cities, institutions and work",
+          "text": "The Ottoman capital’s building programs combined worship, education, social provision and commercial activity. Provincial centers mattered too: the Met identifies Iznik ceramics and Bursa silks rather than assigning all production to Istanbul. Buildings required many kinds of work beyond the celebrated designer. Court commissions and pious foundations can be investigated through their institutions; the fame of a patron does not tell us every worker’s conditions.",
+          "citations": [
+            {
+              "source": "ottoman-before",
+              "locator": "Istanbul rebuilding, multifunctional complexes, Sinan and provincial artistic/commercial centers"
+            }
+          ]
+        },
+        {
+          "title": "Markets and changing patronage",
+          "text": "Sardar’s account of the seventeenth century describes makers finding open-market work more rewarding than court payments that had not kept pace. Its broad economic explanation should not be mistaken for the complete history of every workshop. Eighteenth-century rulers continued commissioning books, fountains and mosques; the Nur-u Osmaniye was built in 1748–55. This changing record is more useful than an unbroken golden-age-then-decay story.",
+          "citations": [
+            {
+              "source": "ottoman-after",
+              "locator": "Court prices and open-market incentives; Ahmet III and Nur-u Osmaniye, 1748–55"
+            }
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "ottoman-workshops-checked",
+          "text": "The visible catalogue dates the Iznik dish c1575–90 and the tughra c1555–60; the museum API’s wider search envelopes do not replace these object dates.",
+          "citations": [
+            {
+              "source": "met-451490",
+              "locator": "Visible date and Artwork Details"
+            },
+            {
+              "source": "met-449533",
+              "locator": "Visible catalogue date c1555–60"
+            }
+          ],
+          "status": "published",
+          "checkedBy": "Codex source consultation and self-review; not independent historian approval",
+          "checkedOn": "2026-10-27"
+        }
+      ],
+      "objectIds": ["met-451490", "met-449533"],
+      "returnPrompt": "Compare the dish with the tughra. What can each show about work, and what would you need to know about its users?",
+      "dimensionKeys": ["patronage", "inequality", "evidence"]
+    }
+  ],
+  "media": [
+    {
+      "id": "met-448183",
+      "title": "\"Krishna Holds Up Mount Govardhan to Shelter the Villagers of Braj\", Folio from a Harivamsa (The Legend of Hari (Krishna))",
+      "subject": "mughal-books",
+      "source": "met-448183",
+      "accession": "28.63.1",
+      "creator": "Maker not recorded",
+      "date": {
+        "start": 1565,
+        "end": 1620,
+        "label": "ca. 1590–95",
+        "precision": "range",
+        "note": "Catalogue wording retained. Numeric bounds are museum search envelopes, not exact production dates."
+      },
+      "place": "Probably Lahore, present-day Pakistan",
+      "material": "Ink, opaque watercolor, and gold on paper",
+      "image": "/atlas/media/448183-0.webp",
+      "width": 1164,
+      "height": 1600,
+      "thumbnail": "/atlas/media/448183-thumb.webp",
+      "alt": "Colorful manuscript painting of Krishna lifting a mountain above gathered villagers and animals.",
+      "caption": "A folio made around 1590–95 depicting Krishna protecting villagers. The making date is not the date of the sacred story.",
+      "notice": [
+        "How does the artist arrange the protected people?",
+        "How is the sheltering mountain made visible?"
+      ],
+      "rights": "Public domain; The Met Open Access (CC0)",
+      "credit": "The Metropolitan Museum of Art. Purchase, Edward C. Moore Jr. Gift, 1928. 28.63.1.",
+      "sourceImage": "https://images.metmuseum.org/CRDImages/is/original/DP231327.jpg",
+      "depiction": "object photograph",
+      "representedDate": "A sacred narrative; no historical event year assigned.",
+      "relevance": "Courtly translation and manuscript invention; sacred representation distinguished from eyewitness evidence.",
+      "additionalImages": []
+    },
+    {
+      "id": "met-42549",
+      "title": "Jar with carp in lotus pond",
+      "subject": "ming-workshops",
+      "source": "met-42549",
+      "accession": "17.127.2",
+      "creator": "Maker not recorded",
+      "date": {
+        "start": 1534,
+        "end": 1566,
+        "label": "mid-16th century",
+        "precision": "range",
+        "note": "Catalogue wording retained. Numeric bounds are museum search envelopes, not exact production dates."
+      },
+      "place": "Jingdezhen, China; production attribution",
+      "material": "Porcelain painted in underglaze cobalt blue and overglaze polychrome enamels (Jingdezhen ware)",
+      "image": "/atlas/media/42549-0.webp",
+      "width": 1200,
+      "height": 1600,
+      "thumbnail": "/atlas/media/42549-thumb.webp",
+      "alt": "Large round porcelain jar with orange carp and water plants painted around its surface.",
+      "caption": "A mid-sixteenth-century porcelain jar decorated with fish and lotus plants. This specimen is not identified as galleon cargo.",
+      "notice": [
+        "How many fish can you follow around the surface?",
+        "Which materials and colors required specialized work?"
+      ],
+      "rights": "Public domain; The Met Open Access (CC0)",
+      "credit": "The Metropolitan Museum of Art. Rogers Fund, 1917. 17.127.2.",
+      "sourceImage": "https://images.metmuseum.org/CRDImages/as/original/DP342697.jpg",
+      "depiction": "object photograph",
+      "relevance": "Imperial production, technique and comparison of intended audiences.",
+      "additionalImages": []
+    },
+    {
+      "id": "met-451490",
+      "subject": "ottoman-workshops",
+      "source": "met-451490",
+      "title": "Dish Depicting Two Birds among Flowering Plants",
+      "accession": "59.69.1",
+      "creator": "Maker not recorded",
+      "date": {
+        "start": 1575,
+        "end": 1590,
+        "label": "ca. 1575–90",
+        "precision": "range",
+        "note": "Visible catalogue wording used instead of the API’s wider search envelope. Approximate production range, not exact manufacture dates."
+      },
+      "place": "Iznik, present-day Türkiye",
+      "material": "Stonepaste; polychrome painted under transparent glaze",
+      "image": "/atlas/media/met-451490-0.webp",
+      "width": 1600,
+      "height": 1600,
+      "thumbnail": "/atlas/media/met-451490-thumb.webp",
+      "additionalImages": ["/atlas/media/met-451490-1.webp"],
+      "alt": "Round Iznik dish with two small birds among blue, red and green flowering stems.",
+      "caption": "The catalogue dates this Iznik dish around 1575–90. Its painted stonepaste is a local material and design tradition, not Chinese porcelain. The precise buyer and original occasion of use are not identified by this object record.",
+      "printCaption": "Iznik stonepaste dish, c1575–90. The catalogue does not identify its particular buyer or original occasion of use.",
+      "notice": [
+        "Find the two birds among the stems.",
+        "How does the design fit a round surface?"
+      ],
+      "relevance": "Connects skilled ceramic work with both courtly tastes and wider markets.",
+      "rights": "Public domain; The Met Open Access (CC0)",
+      "credit": "The Metropolitan Museum of Art. Gift of James J. Rorimer in appreciation of Maurice S. Dimand's curatorship, 1933–1959, 1959. 59.69.1.",
+      "sourceImage": "https://images.metmuseum.org/CRDImages/is/original/DP131621.jpg",
+      "depiction": "object photograph",
+      "datingNote": "Museum API envelopes are wider; the visible catalogue dates are retained."
+    },
+    {
+      "id": "met-449533",
+      "subject": "ottoman-workshops",
+      "source": "met-449533",
+      "title": "Tughra (Insignia) of Sultan Süleiman the Magnificent (r. 1520–66)",
+      "accession": "38.149.1",
+      "creator": "Maker not recorded",
+      "date": {
+        "start": 1555,
+        "end": 1560,
+        "label": "ca. 1555–60",
+        "precision": "range",
+        "note": "Visible catalogue wording used instead of the API’s wider search envelope. Approximate production range, not exact manufacture dates."
+      },
+      "place": "Ottoman court; present-day Türkiye",
+      "material": "Ink, opaque watercolor, and gold on paper",
+      "image": "/atlas/media/met-449533-0.webp",
+      "width": 1600,
+      "height": 1291,
+      "thumbnail": "/atlas/media/met-449533-thumb.webp",
+      "additionalImages": [],
+      "alt": "Gold and blue calligraphic tughra with three tall shafts and looping lines filled with floral ornament.",
+      "caption": "A tughra made authority visible on documents. The catalogue distinguishes the specialist who drew its standard form from the illuminator who decorated it. This surviving emblem does not establish how every recipient understood a decree.",
+      "notice": [
+        "Where does writing become a repeated shape?",
+        "What work might be needed to make many official documents?"
+      ],
+      "relevance": "Makes administration, specialist labor and representation of sovereignty comparable.",
+      "rights": "Public domain; The Met Open Access (CC0)",
+      "credit": "The Metropolitan Museum of Art. Rogers Fund, 1938. 38.149.1.",
+      "sourceImage": "https://images.metmuseum.org/CRDImages/is/original/DP251197.jpg",
+      "depiction": "object photograph",
+      "datingNote": "Museum API envelopes are wider; the visible catalogue dates are retained."
+    }
+  ],
+  "sources": [
+    {
+      "id": "ming",
+      "title": "Ming Dynasty (1368–1644)",
+      "url": "https://www.metmuseum.org/essays/ming-dynasty-1368-1644",
+      "institution": "The Metropolitan Museum of Art",
+      "type": "scholarship",
+      "accessed": "2026-10-26",
+      "scope": "Decorative arts, West Asian exchange and court Bureau of Design.",
+      "author": "Department of Asian Art",
+      "published": "2002-10"
+    },
+    {
+      "id": "met-309900",
+      "title": "Saltcellar with Portuguese Figures",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/309900",
+      "type": "catalogue",
+      "accessed": "2026-10-28",
+      "scope": "Main catalogue description, artwork details and existing image inspected again. Ivory saltcellar, accession 1972.63a,b, ca. 1525–1600; court of Benin (?) and modern conventional master attribution retained. Inherited media numeric envelope 1520–1600 preserved separately. Four figures described around whole object; single front view is incomplete. A proposed set/gift remains tentative and is not asserted. Provenance tab contents not consulted; no complete custody chain, named carver or 1897 removal inferred. Existing CC0 image bytes unchanged."
+    },
+    {
+      "id": "met-42549",
+      "title": "Jar with carp in lotus pond",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/42549",
+      "type": "catalogue",
+      "accessed": "2026-10-26",
+      "scope": "Accession 17.127.2; Description, Artwork Details, provenance and Public Domain image statement."
+    },
+    {
+      "id": "kongo-christianity",
+      "title": "Christianity and Kongo Visual Culture",
+      "url": "https://www.metmuseum.org/essays/christianity-kongo-visual-culture",
+      "institution": "The Metropolitan Museum of Art",
+      "type": "scholarship",
+      "accessed": "2026-10-28",
+      "scope": "Full English essay body read through the Japanese-UI route https://www.metmuseum.org/ja/essays/christianity-kongo-visual-culture after English URL access failed (curl 429). Almeida, 30 June 2026: 1491 baptism, education/translation, 1624 catechism, uneven adoption, 1645 Capuchins, Kimpa Vita 1704/1706 and provenance/dating limits. Not the linked full books or original-language documents. Regional 40% enslavement figure and uniform linear Africanization claims excluded. Motifs from other crucifixes not transferred to this accession.",
+      "author": "Carlos Almeida",
+      "published": "2026-06-30"
+    },
+    {
+      "id": "mughal",
+      "title": "The Art of the Mughals before 1600",
+      "url": "https://www.metmuseum.org/essays/the-art-of-the-mughals-before-1600",
+      "institution": "The Metropolitan Museum of Art",
+      "type": "scholarship",
+      "accessed": "2026-10-26",
+      "scope": "Akbar’s reign, Gujarat access and collaborative royal atelier.",
+      "author": "Department of Islamic Art",
+      "published": "2002-10"
+    },
+    {
+      "id": "met-448183",
+      "title": "\"Krishna Holds Up Mount Govardhan to Shelter the Villagers of Braj\", Folio from a Harivamsa (The Legend of Hari (Krishna))",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/448183",
+      "type": "catalogue",
+      "accessed": "2026-10-26",
+      "scope": "Accession 28.63.1; Description, Artwork Details, provenance and Public Domain image statement."
+    },
+    {
+      "id": "stonepaste-tech",
+      "title": "Ceramic Technology in the Seljuq Period: Stonepaste in Syria and Iran in the Eleventh Century",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/essays/seljuq-stonepaste-syria-iran-eleventh-century",
+      "scope": "Rugiadi, 2021. Opening technical definition of quartz, glass frit and refined clay; used for material explanation and glossary, not to date the later Iznik object.",
+      "author": "Martina Rugiadi",
+      "type": "scholarship",
+      "accessed": "2026-10-27"
+    },
+    {
+      "id": "ottoman-before",
+      "title": "The Art of the Ottomans before 1600",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/essays/the-art-of-the-ottomans-before-1600",
+      "scope": "Yalman/Komaroff, 2002. Paragraphs on rebuilding Istanbul, multifunctional foundations, Sinan and provincial production centers. Evaluative superlatives are not adopted.",
+      "author": "Suzan Yalman, based on Linda Komaroff",
+      "type": "scholarship",
+      "accessed": "2026-10-27"
+    },
+    {
+      "id": "ottoman-after",
+      "title": "The Art of the Ottomans after 1600",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/essays/the-art-of-the-ottomans-after-1600",
+      "scope": "Sardar, 2003. Court payments and makers’ open-market incentives; Ahmet III’s patronage and the 1748–55 Nur-u Osmaniye Mosque. The broad decline narrative is not treated as a universal account.",
+      "author": "Marika Sardar",
+      "type": "scholarship",
+      "accessed": "2026-10-27"
+    },
+    {
+      "id": "met-451490",
+      "title": "Dish Depicting Two Birds among Flowering Plants",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/451490",
+      "type": "catalogue",
+      "accessed": "2026-10-27",
+      "scope": "Accession 59.69.1; description, Artwork Details, attribution and Public Domain image statement consulted."
+    },
+    {
+      "id": "met-449533",
+      "title": "Tughra (Insignia) of Sultan Süleiman the Magnificent (r. 1520–66)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/449533",
+      "type": "catalogue",
+      "accessed": "2026-10-27",
+      "scope": "Accession 38.149.1; description, Artwork Details, attribution and Public Domain image statement consulted."
+    }
+  ],
+  "selectedRenewals": [
+    "ming",
+    "met-42549",
+    "mughal",
+    "met-448183",
+    "ottoman-before",
+    "ottoman-after",
+    "met-451490",
+    "met-449533"
+  ],
+  "imageBytes": [
+    {
+      "path": "/atlas/media/448183-0.webp",
+      "sha256": "d2a7854f7865d3fb6b0fe073eb47c3200007d33d614f027bc9bb10f8b8c96f79"
+    },
+    {
+      "path": "/atlas/media/448183-thumb.webp",
+      "sha256": "e911500226b5255ebb94532521d4b8eeed0b2fd44bf9eb979615df9b196a89c3"
+    },
+    {
+      "path": "/atlas/media/42549-0.webp",
+      "sha256": "e62f18f14daa2e5665bd2cd6cddc568852e06eb2e471be296da1ad8408d06f4e"
+    },
+    {
+      "path": "/atlas/media/42549-thumb.webp",
+      "sha256": "ffce94cd2b9f74e9ff71cce757013f7a5e1de80ace03e8b54eeafd5787b5cf20"
+    },
+    {
+      "path": "/atlas/media/met-451490-0.webp",
+      "sha256": "16143595b140a1824e2a72e6aab10a781c5d295c136f3303effc6ee7fa22674e"
+    },
+    {
+      "path": "/atlas/media/met-451490-thumb.webp",
+      "sha256": "83a8417ab1f5072eb4cc1e62b1a3cedd3a562a402dde163b3c104d4a6baee310"
+    },
+    {
+      "path": "/atlas/media/met-451490-1.webp",
+      "sha256": "2918bf1c7cb20ec58321b593863a57a0b70e14bb7a49b27791865ecbffc5fa59"
+    },
+    {
+      "path": "/atlas/media/met-449533-0.webp",
+      "sha256": "57a41bb90eb4899134d882c8d9540abd72225b7bff34d8284cbc3def57971445"
+    },
+    {
+      "path": "/atlas/media/met-449533-thumb.webp",
+      "sha256": "c609196fdadaad32d90d614bf4bf41ab352ce9c19c0584c389bea41e06637a0a"
+    }
+  ],
+  "oldComparisons": [
+    {
+      "id": "benin-ivory--ming-workshops",
+      "subjects": ["benin-ivory", "ming-workshops"],
+      "question": "How do makers respond to patrons and distant audiences?"
+    },
+    {
+      "id": "kongo-translation--mughal-books",
+      "subjects": ["kongo-translation", "mughal-books"],
+      "question": "How are religious ideas remade through local languages and materials?"
+    },
+    {
+      "id": "manila-network--ming-workshops",
+      "subjects": ["manila-network", "ming-workshops"],
+      "question": "What changes when crafted objects circulate across an ocean?"
+    },
+    {
+      "id": "ottoman-workshops--isfahan-silk",
+      "subjects": ["ottoman-workshops", "isfahan-silk"],
+      "question": "How do patrons, markets and unequal power shape craft?"
+    }
+  ],
+  "oldRelations": [
+    {
+      "id": "pacific-exchange",
+      "notBefore": 1565,
+      "from": "ming-workshops",
+      "to": "manila-network",
+      "type": "trade",
+      "date": "From 1565; selected later material through 1700",
+      "explanation": "Chinese wares moved through Manila to Acapulco in a network exchanging Asian goods and American silver. The selected Ming jar is contextual evidence for production, not identified cargo of a particular voyage.",
+      "citations": [
+        {
+          "source": "galleon",
+          "locator": "Main route paragraph"
+        },
+        {
+          "source": "point-reyes",
+          "locator": "Cargo and wreck discussion"
+        }
+      ],
+      "status": "published",
+      "route": [
+        [117.2, 29.3],
+        [120.98, 14.6],
+        [150, 30],
+        [180, 38],
+        [-150, 38],
+        [-120, 34],
+        [-99.88, 16.85]
+      ]
+    }
+  ]
+}

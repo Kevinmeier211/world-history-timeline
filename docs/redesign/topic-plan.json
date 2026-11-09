@@ -1,0 +1,552 @@
+{
+  "version": 1,
+  "scope": "Finite editorial triage of the current 77 dossiers. Planning judgments, not renewed source verification or approval. Current case IDs and dates must survive subsequent reference work.",
+  "columns": [
+    "id",
+    "currentRole",
+    "action",
+    "referenceDestination",
+    "nextEditorialTask"
+  ],
+  "rows": [
+    [
+      "eastern-han",
+      "case + reference",
+      "review",
+      "Han imperial government, 206 BCE–220 CE",
+      "Review provincial and household explanation with a reader; add independently reviewed Chinese scholarship before wider expansion."
+    ],
+    [
+      "colima",
+      "case + reference",
+      "review",
+      "Western Mexican funerary communities, selected c.300 BCE–400 CE",
+      "Review the possible lid interpretation, modern photo notes and regional variation independently. Consult complete Huitzilapa excavation/organic-study and dating tables, full custody/provenance records and broader household/gender evidence; retain the exact selected model interval and the 2015 caption alternative, with no invented tomb or single Colima state."
+    ],
+    [
+      "roman-world",
+      "case + reference",
+      "review",
+      "Roman imperial institutions, 27 BCE–476 CE",
+      "Review daily-life and provincial balance; preserve Severan portrait dates independently of the imperial frame."
+    ],
+    [
+      "palmyra",
+      "case + reference",
+      "review",
+      "Palmyra civic and family contexts, 1st–3rd centuries CE",
+      "Independently review the distinction between family memorials, municipal tax rules and caravan records. Extend neighborhood/workshop, gender and enslavement evidence; consult the blocked Seland article and full tax-law study without assuming this family’s occupation."
+    ],
+    [
+      "kushan-contexts",
+      "case + reference",
+      "review",
+      "Kushan coinage and temple maintenance, 1st–3rd centuries CE",
+      "Review Bactrian translations, chronology alternatives and exact coin identities with a specialist; extend agricultural, household and Buddhist institutional evidence beyond the temple records and broad regional locators."
+    ],
+    [
+      "aksum",
+      "case + reference",
+      "review",
+      "Aksum, Adulis and inland work, 1st–7th centuries CE",
+      "Review the excavated coin/deposit explanation, Armah alternatives and language/script distinction independently. Consult the complete book, critical Periplus and excavation data; add wider agricultural, gender, regional and enslavement histories."
+    ],
+    [
+      "teotihuacan",
+      "case + reference",
+      "review",
+      "Teotihuacan household and neighborhood work, selected c.100 BCE–650 CE",
+      "Independently review the Tlajinga household/platform interpretation and composite source map; consult full excavation/chemistry datasets and the 2019 workshop article. Extend resident, gender, migration and labor perspectives, preserving the complete case ending800 and the unknown mask findspot."
+    ],
+    [
+      "moche",
+      "case + reference",
+      "review",
+      "Moche regional societies and work, selected c.100–850 CE",
+      "Review distinct valley coordination and household/production interpretations with a specialist. Consult complete regional/excavation studies, identify verified geographic locators and a reusable source plan, and extend labor/gender evidence. Preserve both vessels’ absent precise findspots and the case1–800CE."
+    ],
+    [
+      "dongson",
+      "case + reference",
+      "review",
+      "Đông Sơn traditions: selected contexts c.700 BCE–600 CE, including later production",
+      "Independently review the distinct deposits, Ngọc Lũ/Như Trác conflicting roles and BP/calendrical distinctions. Consult full casting/labor datasets and broader mainland/island find contexts; the five selected Vietnam references are not a complete Southeast Asian distribution. Preserve the miniature case −500..300 and unknown workshop/use."
+    ],
+    [
+      "benin-ivory",
+      "case + reference",
+      "review",
+      "Benin court and makers, selected 15th–17th centuries",
+      "Independently review Edo institutional/visual interpretation; consult Edo-language accounts, workshops and ivory procurement. Establish the selected saltcellar’s own custody chain without assigning the 1897 raid to it by analogy."
+    ],
+    [
+      "kongo-translation",
+      "case + reference",
+      "review",
+      "Kongo Christianity, selected episodes 1491–1706",
+      "Identify and collate a critical edition/original Portuguese for the 1526 letters. Extend local clergy, women, rural practice and captive voices; review crucifix interpretation and later political histories independently."
+    ],
+    [
+      "portuguese-voyage",
+      "case + reference",
+      "review",
+      "Indian Ocean encounters, selected voyage 1497–1499 and Goa 1510",
+      "Add African/Indian accounts and critical maritime/port scholarship; extend provisioning, workers and coercion. Consult the original Portuguese journal and full critical edition without inventing the unnamed pilot or a precise track."
+    ],
+    [
+      "manila-network",
+      "case + reference",
+      "review",
+      "Pacific work and selected movements, 1565–1726; whole case 1565–1815 retained",
+      "Independently review the translated 1618/1619 shipbuilding passages, particular 1726 register and Tamál-Húye interpretation with relevant specialists/communities. Consult original Spanish/manuscript and worker records, compare loading/arrival evidence, and extend household and port geography; no jar-to-voyage association established."
+    ],
+    [
+      "ming-workshops",
+      "case + reference",
+      "review",
+      "Ming kilns, official production and markets, selected 1368–1644",
+      "Review the expanded kiln/market source uses; consult original Chinese orders and worker accounts, inspect provenance/technical records, and distinguish a documented batch from similar-object demand."
+    ],
+    [
+      "mughal-books",
+      "case + reference",
+      "review",
+      "Mughal book production and translation, selected c.1562–1617",
+      "Review project chronology, named roles and audience arguments against original Persian/Sanskrit records and fuller workshop studies; widen workers’ perspectives without equating court sponsorship with equal participation."
+    ],
+    [
+      "banda-1621",
+      "case + reference",
+      "review",
+      "Banda society, conquest and continuing communities, selected1599–1630; exact 1621 case retained",
+      "Review attributed public Bandanese voices and selected colonial transcriptions with relevant historians/communities. Consult full treaty, plantation and worker records and accessible ethnography without reproducing restricted ritual knowledge. Extend source-qualified household/island geography beyond three modern references; no universal diaspora or casualty reconstruction established."
+    ],
+    [
+      "uruk-accounts",
+      "case + reference",
+      "review",
+      "Uruk urban growth and later city-states, c3300–2350 BCE",
+      "Independently review the account/diagram and source use; add dated fourth-millennium domestic evidence, recruitment and gender histories before calling household coverage complete."
+    ],
+    [
+      "old-kingdom",
+      "case + reference",
+      "review",
+      "Old Kingdom institutions and provisioning, c.2649–2130 BCE",
+      "Review the distinction between Saqqara commemoration, Giza workplaces and the translated crew log. Extend farming, gender, recruitment and provincial evidence; assess the provisioning guide independently. Preserve the current period convention and object dates."
+    ],
+    [
+      "dholavira",
+      "case + reference",
+      "review",
+      "Dholavira occupation, c3000–1500 BCE, within wider Indus histories",
+      "Independently review the water schematic; inspect the full ASI plan and phased excavation reports, then add dated domestic evidence and water-access research. Wider Indus history remains open."
+    ],
+    [
+      "liangzhu",
+      "case + reference",
+      "review",
+      "Liangzhu landscape, c3300–2300 BCE",
+      "Independently review dam chronology, corrected estimates and explanatory quality; inspect original figures/supplement and extend household, gender and labor evidence."
+    ],
+    [
+      "caral",
+      "case + reference",
+      "review",
+      "Caral-Supe communities and renewal, c.3000–1800 BCE",
+      "Review the project phase/renewal interpretation, residential explanation and small study sample. Inspect full nomination plans and broader household evidence; retain the separate government endpoint, Áspero/Caral samples and unverified political arrangements."
+    ],
+    [
+      "skara-brae",
+      "case + reference",
+      "review",
+      "Skara Brae households and changing landscape, selected 3300–2440 BCE reference",
+      "Review the nonmeasured feature guide, early crop context and uncertain phase boundaries. Verify a licensed annotated measured site plan and full residential reports. Resolve changing tool-record fields through source work without silently replacing the preserved case interval."
+    ],
+    [
+      "hattusha-change",
+      "case + reference",
+      "review",
+      "Hattusha capital and provisioning; wider Hittite transition",
+      "Assess the new institution/proxy account independently; consult full residential reports and household distribution evidence before extending causation."
+    ],
+    [
+      "uluburun",
+      "case + reference",
+      "review",
+      "Eastern Mediterranean exchange and the Uluburun wreck",
+      "Review cargo, hull and disputed tin provenance; add a licensed excavation visual and dated texts on ownership/intermediaries without inventing an itinerary."
+    ],
+    [
+      "shang-ritual",
+      "case + reference",
+      "review",
+      "Shang centres, late Yin Xu and object-specific ritual evidence",
+      "Review casting and divination explanation; obtain full lesson/translated inscriptions, workshop and domestic evidence while retaining qualified object provenance."
+    ],
+    [
+      "kerma-potters",
+      "case + reference",
+      "review",
+      "Kerma capital, craft and changing institutions, c.2500–1500 BCE",
+      "Review city production and phase conventions with a Nubian archaeologist; obtain broader workshop/household reports and multilingual/community perspectives. Preserve the beaker’s Abydos context and uncertain owner identity; no Kerma–Taharqo political continuity is inferred."
+    ],
+    [
+      "olmec",
+      "case + reference",
+      "review",
+      "Gulf Coast communities and selected centres, c.1800–400 BCE",
+      "Review floor/household inference and source-qualified centre phases with an archaeologist; consult full local foodways studies and add wider household/production perspectives. Keep the figure’s absent excavated findspot explicit."
+    ],
+    [
+      "lapita",
+      "case + reference",
+      "review",
+      "Selected Lapita island communities and Tongan ceramic change, c.1500–400 BCE",
+      "Review island-specific dating, provisioning and linguistic reconstruction; obtain the full Rove temper study, wider community-authored perspectives and a rights-cleared ancient ceramic with secure context. Preserve the modern cast and original case dates separately."
+    ],
+    [
+      "nimrud-palace",
+      "case + reference",
+      "review",
+      "Kalhu palace, later archives and changing Assyrian government, 9th–7th centuries BCE",
+      "Review the royal settlement edition, later captive-provision letter and source-plan phases with an Assyriologist. Obtain fuller labor/recipient testimony and room-use evidence; improve legibility of the small licensed plan without inventing details. Keep anteroom F and courtyard Y distinct."
+    ],
+    [
+      "ashoka-messages",
+      "case + reference",
+      "review",
+      "Mauryan rule and regional inscriptions",
+      "Review regional versions and translation choices with newer epigraphy; deepen local reception, practical outcomes and workers’ voices without equating royal intention with implementation."
+    ],
+    [
+      "athens-water",
+      "case + reference",
+      "review",
+      "Athenian civic rules, households and public work",
+      "Review the object-specific and phase-specific account; extend resident-foreigner, household and enslaved-person evidence and inspect legal interpretations independently."
+    ],
+    [
+      "taharqo",
+      "case + reference",
+      "review",
+      "Kushite royal temples, production and funerary evidence, 8th–7th centuries BCE",
+      "Review mediated Kawa texts, Sanam ceramic chronology/institutional interpretation and object-specific inscription with specialists. Seek fuller worker/household histories and catalogue provenance. Later manufacture or reuse of 18.2.10 remains unproved, not an established event."
+    ],
+    [
+      "chavin-textile",
+      "focused case + reference",
+      "keep",
+      "Chavín centre and portable imagery, distinct source frames c.1500–200 BCE",
+      "Review the focused textile annotation and source-date distinctions with a conservator/Andean specialist. Identify the specimen-matched 2023 technical reference; resolve reported provenance before extending makers, use or route claims. The small inquiry is intentional."
+    ],
+    [
+      "byzantium",
+      "case + reference",
+      "review",
+      "Constantinople: portable images and harbour work, selected 843–1204",
+      "Independently review the ivory interpretation and urban craft comparison. Extend full monastic/household and harbour records, calibration/ceramic evidence and technical image study; keep the complete 330–1453 case, probable origin/private use, alternative Hades/Adam readings and no recovered ivory-cargo link."
+    ],
+    [
+      "tang-city",
+      "case + reference",
+      "review",
+      "Chang’an and Tang government, Sui rebuilding through 907 CE",
+      "Independently review the city-access and funerary-evidence account. Consult the full ward study and original Tang rules/registers; deepen taxation, rural/military households, women’s experiences and late-Tang change without transferring the Luoyang house example."
+    ],
+    [
+      "abbasid-craft",
+      "case + reference",
+      "review",
+      "Abbasid-era Iraqi cities and institutions, 750–1258 CE",
+      "Review changing control, workshop attribution and dated book evidence independently. Extend fiscal/urban/slave-labor histories and scholarly institutions; consult full production datasets, keeping Murwab’s sampled common wares distinct from the selected bowl."
+    ],
+    [
+      "borobudur",
+      "case + reference",
+      "review",
+      "Central Java: buildings, support and maintenance, selected c.700–1000",
+      "Consult an inspected measured archaeological plan, relief close-ups and fuller inscription translations before a more precise movement or patronage account. Review the source schematic and contemporary community evidence; preserve 700–900 case dates, separate 824/842 records and the photograph’s unresolved day/compass direction."
+    ],
+    [
+      "nalanda",
+      "case + reference",
+      "review",
+      "Nalanda and Buddhist learning institutions, fifth–thirteenth centuries CE",
+      "Independently review selected Yijing/Takakusu passages and archaeology/conservation distinctions. Consult land/endowment charters and original-language scholarship; deepen villagers’, assistants’ and changing institutional histories without transferring Tamralipti rules."
+    ],
+    [
+      "maya-vessel",
+      "case + reference",
+      "review",
+      "Classic Maya courts, makers and households, selected c.250–900",
+      "Review epigraphic readings and the cup’s provenance with a specialist; consult full Cerén household/chronology studies, production data and any specimen-matched residue evidence. Keep uncertain Baje/Kaan-or-Chan readings, possible Tabasco comparisons, different named painters and separate Cerén context without an invented polity, findspot or route."
+    ],
+    [
+      "mali-networks",
+      "case + reference",
+      "review",
+      "Mali and West African networks, 13th–16th centuries",
+      "Consult a dated jeli performance and original Arabic passage alongside controlled local excavation reports; deepen administration and producers’ own perspectives."
+    ],
+    [
+      "middle-niger",
+      "case + reference",
+      "review",
+      "Middle Niger urban communities, approximately 1st–2nd millennia CE",
+      "The thirteenth-century figure stays separate from the reused C6 settlement frame, approximately 400–1400. The 1981 article was only an exposed extract, the Rice report’s version date is unestablished, and McIntosh’s 2005 book remains unread. The search-exposed essay span and its 250 BCE–1400 reference were not adopted. Reconcile that essay only after the book and full article are read."
+    ],
+    [
+      "angkor",
+      "case + reference",
+      "review",
+      "Angkor landscape and political change, 9th–15th centuries",
+      "Review the water-system explanation and plan with a reader; widen regional Khmer voices before a larger synthesis."
+    ],
+    [
+      "song-art",
+      "case + reference",
+      "review",
+      "Song institutions and material life, 960–1279",
+      "Review seasonal-loan explanation with local registers or petitions and original Chinese consultation; widen rural, military and neighboring-state perspectives."
+    ],
+    [
+      "inca-weaving",
+      "case + reference",
+      "review",
+      "Inca labor and authority, 15th–16th centuries",
+      "Read selected Guaman Poma manuscript pages with language expertise; deepen regional textile obligations and household work without assigning this tunic an invented provenance."
+    ],
+    [
+      "polynesian-voyaging",
+      "case + reference",
+      "review",
+      "Settlement of Aotearoa and navigation knowledge",
+      "The 1250–1300 case and the reused C6 dating context stay inside that window. The 2008 and 2022 model intervals are not landfalls. Kupe/Toi and the 1999 voyage remain in the unapplied search-exposed draft. Next task: read the unread waiata, recordings and article figures before adding those names to the adopted reference. No star compass is copied."
+    ],
+    [
+      "factory-reform",
+      "case + reference",
+      "review",
+      "Factory work, statutory design and reported inspection, 1833–1836",
+      "Independently review selected statutory wording and its Eight/Nine Hours discrepancy without a universal headline. Consult the original inspector volume, time books, prosecution results and workers’ own accounts; the reported investigation is not a completed penalty or compliance series."
+    ],
+    [
+      "hine-labor",
+      "case + reference",
+      "review",
+      "Photographic investigation and federal child-labor administration, selected 1904–1918",
+      "Independently review caption authorship, the child’s uncertain identification and access-limited catalogue scope. Consult caption-card pixels, local worker/family records and complete later administration evidence; preserve the exact 1908 photograph and avoid photograph-to-law causation."
+    ],
+    [
+      "tomioka",
+      "case + reference",
+      "review",
+      "Silk skills, regional production and later protection, selected 1872–1916",
+      "Review women’s instruction and retrospective memoir mediation with relevant specialists. Consult the original Japanese memoir, payroll and enforcement records; reconcile NDL [1872] and comparable MAFF 1873 impressions without claiming identical copy/state or a modern scan date. Extend regional/household geography beyond four published modern property references."
+    ],
+    [
+      "haitian-revolution",
+      "case + reference",
+      "review",
+      "Saint-Domingue and the Haitian Revolution, 1791–1804",
+      "Review the 1791–1804 case against the consulted emancipation, 1801 constitution and 1804 acte. Cultivator experience, full French editions and independent historical review remain open."
+    ],
+    [
+      "tiriti",
+      "case + reference",
+      "review",
+      "Te Tiriti, sovereignty and colonization in 19th-century Aotearoa",
+      "The exact 1840 signing case stays unchanged. Review paired texts, distinct iwi positions and the separate 1840–1846 reference with iwi historians before any later enforcement claim is widened."
+    ],
+    [
+      "partition-1947",
+      "case + reference",
+      "review",
+      "South Asian independence and Partition, 1930s–1950s",
+      "Resolve archival reproduction clearance and widen situated South Asian voices; keep announcement, boundary and displacement dates separate."
+    ],
+    [
+      "south-africa-rights",
+      "case + reference",
+      "review",
+      "Apartheid and constitutional transition, 1948–1997",
+      "New local expansion: seek independent historical review, resistance histories and evidence of rights implementation."
+    ],
+    [
+      "world-war-one",
+      "case + reference",
+      "review",
+      "First World War: decisions, empires and societies, 1914–1918",
+      "The 1914–1918 case now includes bounded Natha Singh, Birtley and Watkins capsules. The regional case IDs remain unadopted. Next task: independent review before any split, including the unread British Library originals and the uncollated Watkins typescript."
+    ],
+    [
+      "world-war-two",
+      "case + reference",
+      "review",
+      "Asian and European wars, occupation and Holocaust, 1931–1945",
+      "Partial. The 1933–1945 case now has source capsules for Ginling, Singapore paperwork and Lichtensztajn’s 31 July 1942 request, plus an older-reader activity. Nanjing, Singapore and Warsaw case IDs remain unadopted. Next task: read Tsen’s Chinese manuscript or full 2010 translation and the original Singapore interviews."
+    ],
+    [
+      "sputnik",
+      "case + reference",
+      "review",
+      "Cold War institutions and science, 1945–1991",
+      "The 4 October 1957 launch stays the case. Review the 1955–1958 technical reference, Soviet proposal and British reception before widening to a full Cold War history."
+    ],
+    [
+      "qin-administration",
+      "case + reference",
+      "review",
+      "Qin institutions and local administrative practice",
+      "Review the new account and maps; examine original legal editions, provenance of Yuelu prescriptions and labor evidence before generalizing beyond Liye."
+    ],
+    [
+      "poverty-point",
+      "case + reference",
+      "review",
+      "Poverty Point main earthworks and local/regional comparison, c.1700–1100 BCE",
+      "Review construction pace at the level of specific mound parts and ridge samples; consult original experimental/chronological reports and continuing community perspectives. Preserve separate Jaketown dates, later MoundD and the terrain model’s modern observation date."
+    ],
+    [
+      "hopewell-earthworks",
+      "case + reference",
+      "review",
+      "Ohio gathering and construction, selected c.100 BCE–500 CE",
+      "Review construction and provisioning with specialists and descendant/community perspectives. Consult complete Hopeton dating/context tables and fuller community-authored accounts; retain the distinction among Mound City, Hopewell Mound Group, the ancient case 1–400, 1848 surveys, restoration, the 2013 photo and named 2023 voices. Extend construction plans/sequence without inferring a single centralized state."
+    ],
+    [
+      "chaco-communities",
+      "case + reference",
+      "review",
+      "Chaco building, provisioning and circulation, c.700–1300",
+      "Review the expanded archaeological/Pueblo source uses; inspect dated road-segment geography and fuller food-production evidence before adopting a regional institutional model."
+    ],
+    [
+      "cahokia-city",
+      "case + reference",
+      "review",
+      "Cahokia neighborhoods and material work, selected c.1050–1200",
+      "Review neighborhood/copper/environment explanations with relevant specialists and community perspectives; inspect excavation plans and fuller environmental series before extending a local result to the whole city."
+    ],
+    [
+      "ottoman-workshops",
+      "case + reference",
+      "review",
+      "Ottoman specialist making and markets, selected 1549–1700",
+      "Review signed-object, excavation and mediated market accounts; consult fuller technical methods and original guild/payment/market records before assigning universal recipes or labor conditions."
+    ],
+    [
+      "isfahan-silk",
+      "case + reference",
+      "review",
+      "Safavid Isfahan and Armenian New Julfa, selected 1604–1747",
+      "Review merchant/household perspectives and coercion independently. Expand phase-specific urban geography beyond the two published square/monastery references: rights-cleared street/river plans and household/workshop locations remain open. Original Armenian letters/wills and universal household experience are not established."
+    ],
+    [
+      "bukhara-books",
+      "case + reference",
+      "review",
+      "Bukhara teaching, water and book work, selected 1500–1700",
+      "Review manuscript stages, endowed support and water maintenance independently; broaden different households’ access and workers’ experience. Keep the Vakhsh labor example at its separately named location and the full 1500–1785 case, with no invented workshop or classroom for the selected folio."
+    ],
+    [
+      "zand-iran",
+      "case + reference",
+      "review",
+      "Iranian political change, selected 1747–1794",
+      "Keep the 1789 lacquer case bounded and distinguish supplied views from the catalogue-described inner-lid gathering. Independent specialist review, original inscriptions, purchaser/workshop evidence and rights-cleared access to the unpictured surface remain open; Karim Khan’s 1765–1779residence is not the whole 1751–1794 case."
+    ],
+    [
+      "bering-sea-carvers",
+      "case + reference",
+      "review",
+      "Bering Strait communities and archaeological chronology",
+      "The catalogue date stays 300–500 CE. Review the added community-carving account with Bering Strait reviewers. No object was redated, and no new image was added."
+    ],
+    [
+      "inuinnait-sewing",
+      "case + reference",
+      "review",
+      "Inuinnait knowledge and change, 19th–20th centuries",
+      "The 1913–1916 observation window stays the case. Review the community clothing history with Inuinnait reviewers. No pattern, song or sewing method is reproduced as a lesson to copy."
+    ],
+    [
+      "ozette-makah",
+      "case + reference",
+      "review",
+      "Makah households and community custody at Ozette",
+      "The disputed 1560/1700 burial estimates stay distinct from village occupation. Review the Makah account with the community. Blocked Ozette image sources were not renewed, and no house reconstruction was added."
+    ],
+    [
+      "blackfoot-bison",
+      "case + reference",
+      "review",
+      "Blackfoot communal work and later interpretation of a hunting landscape, selected c.1700–1850",
+      "Review the public collaborative teaching and the retained grease-processing experiment with Blackfoot reviewers. No ceremony, song or reenactment is supplied. A drive-lane survey and any named eighteenth-century hunt remain open; the approximate 1850 site boundary does not end community knowledge."
+    ],
+    [
+      "hidatsa-villages",
+      "case + reference",
+      "review",
+      "Hidatsa gardens, houses and exchange, selected c.1600–1845 Big Hidatsa occupation",
+      "Review Maxi´diwiac’s mediated 1917 recollections and the NPS relocation passages with MHA reviewers. A source-qualified Big Hidatsa village plan remains open. Lower Hidatsa and Like-a-Fishhook are different places, and 1953–1954 dam displacement is not part of the 1845 case."
+    ],
+    [
+      "kwakwakawakw-potlatch",
+      "case + reference",
+      "review",
+      "Kwakwaka’wakw witnesses, prohibition and particular returns, selected 1884–1980",
+      "Review the named public accounts with the owning community. Original legal files, full custody chains and a current count of returned belongings remain outside this read. The 2003 return stays outside the 1980 case endpoint. No song, ceremony or reenactment is supplied."
+    ],
+    [
+      "ocmulgee-council",
+      "case + reference",
+      "review",
+      "Ocmulgee public buildings and changing settlement histories, selected post-1000–1715",
+      "Review timber/cane/maize model use and the source-figure caption inconsistency with scholarly and Muscogee perspectives; consult original field/plan records before extending particular building interpretations."
+    ],
+    [
+      "wendat-laine",
+      "case",
+      "keep",
+      "Wendat village life and revised chronology",
+      "Expanded reading is adopted from the public Wendat account and the 2022 dating article. No new phase context was added: the two modeled ranges are alternatives, not successive village phases. The 1595–1626 case stays exact."
+    ],
+    [
+      "haudenosaunee-canandaigua",
+      "case + reference",
+      "review",
+      "Haudenosaunee diplomacy and the 1794 treaty",
+      "The 1794–1795 case stays exact. Review the added 1779–1795 reference, wampum custody and nation accounts with Haudenosaunee reviewers before any implementation claim is widened."
+    ],
+    [
+      "cherokee-print",
+      "case + reference",
+      "review",
+      "Cherokee sovereignty, print and removal, 19th century",
+      "The 1821–1839 case and the April 1828 masthead stay exact. Review the constitution’s exclusions, the Freedmen public history and the 1835 signatories with Cherokee and Freedmen reviewers."
+    ],
+    [
+      "ojibwe-manoomin",
+      "case + reference",
+      "review",
+      "Ojibwe manoomin, water and political responsibility",
+      "The bracketed 1913 photograph stays the case. Review the treaty and GLIFWC accounts with Ojibwe reviewers. The photograph’s probable Ontario place is not a treaty map."
+    ],
+    [
+      "indonesia-independence",
+      "case + reference",
+      "review",
+      "Indonesian revolution and recognition, 1945–1950",
+      "New local account: add Indonesian civilian and regional scholarship; retain distinct proclamation, transfer and constitutional dates."
+    ],
+    [
+      "ghana-independence",
+      "case + reference",
+      "review",
+      "Ghana independence and early government, 1948–1964",
+      "New local account: add named market organizers, opposition voices and British Togoland/Ewe evidence."
+    ]
+  ]
+}

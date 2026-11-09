@@ -1,0 +1,4405 @@
+{
+  "scope": "Internal editorial assessment of the 76 authored questions against both dossiers. The selected dimension carries the cited comparison evidence. Other shared dimensions are listed for navigation. Chronological overlap alone does not establish contact. The reader-facing judgment is stored once under the cited key. Each side identifies the supporting dossier passage as well as its common dimension. defaultFrom lists the dossiers which open that pair first.",
+  "pairs": [
+    {
+      "id": "factory-reform--tomioka",
+      "subjects": ["factory-reform", "tomioka"],
+      "question": "How can learning a production skill differ from putting worker protection into practice?",
+      "selectedDimension": "work-organization",
+      "sharedDimensions": ["work-organization", "production"],
+      "evidence": [
+        {
+          "subject": "factory-reform",
+          "interval": "Act in 1833; inspector evidence in 1836",
+          "place": "British textile factories; locator near Manchester",
+          "citations": [
+            {
+              "source": "factory-quarry-bank-context",
+              "locator": "Production, housing and apprenticeships"
+            },
+            {
+              "source": "factory-act-1833-primary",
+              "locator": "Clauses XVII–XXI"
+            },
+            {
+              "source": "factory-inspection-1836",
+              "locator": "Particular investigation"
+            },
+            {
+              "source": "factory-hansard-1836",
+              "locator": "Hindley quoting Howell, c768"
+            }
+          ],
+          "section": "An inspector had to investigate what happened",
+          "sectionCitations": [
+            {
+              "source": "factory-act-1833-primary",
+              "locator": "PDF 6: clauses XVII–XVIII"
+            },
+            {
+              "source": "factory-inspection-1836",
+              "locator": "Lesson PDF, printed p. 9, Source 1 transcript"
+            }
+          ]
+        },
+        {
+          "subject": "tomioka",
+          "interval": "Model mill opened October 1872",
+          "place": "Gunma Prefecture, Japan",
+          "citations": [
+            {
+              "source": "tomioka-instructors-2022",
+              "locator": "Exposed Summary/Introduction"
+            },
+            {
+              "source": "tomioka-local",
+              "locator": "Farmhouses"
+            },
+            {
+              "source": "tomioka-labour-adaptation-1994",
+              "locator": "Selected adaptation and working-hours passages"
+            }
+          ],
+          "section": "A machine still needs practiced hands",
+          "sectionCitations": [
+            {
+              "source": "tomioka-local",
+              "locator": "Tomioka Silk Mill; Women Mill Workers"
+            },
+            {
+              "source": "tomioka-instructors-2022",
+              "locator": "Exposed Summary/Introduction"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#factory-reform--tomioka",
+      "defaultFrom": ["factory-reform"]
+    },
+    {
+      "id": "banda-1621--manila-network",
+      "subjects": ["banda-1621", "manila-network"],
+      "question": "Whose work is visible in these commercial and colonial records, and whose experience needs other evidence?",
+      "selectedDimension": "work-organization",
+      "sharedDimensions": ["work-organization", "evidence"],
+      "evidence": [
+        {
+          "subject": "banda-1621",
+          "interval": "1621 CE",
+          "place": "Banda Islands, present-day Indonesia",
+          "citations": [
+            {
+              "source": "banda-archive",
+              "locator": "Handel; Na de genocide"
+            },
+            {
+              "source": "banda-museum",
+              "locator": "Eerste op slavernij gebaseerde kolonie"
+            },
+            {
+              "source": "banda-wandan-statement-2021",
+              "locator": "PDF 1–2: self-identification and protest"
+            }
+          ],
+          "section": "Plantation production depended on people’s knowledge",
+          "sectionCitations": [
+            {
+              "source": "banda-museum",
+              "locator": "Eerste op slavernij gebaseerde kolonie"
+            },
+            {
+              "source": "banda-archive",
+              "locator": "Na de genocide"
+            },
+            {
+              "source": "banda-pala-1621",
+              "locator": "Further persecution and diaspora; Kei"
+            }
+          ]
+        },
+        {
+          "subject": "manila-network",
+          "interval": "1565–1815 CE",
+          "place": "Acapulco, Manila and Chinese production centers",
+          "citations": [
+            {
+              "source": "manila-shipbuilding-1618-1619",
+              "locator": "Selected work, payment and community-burden passages"
+            },
+            {
+              "source": "point-reyes",
+              "locator": "Particular wreck context"
+            },
+            {
+              "source": "met-9198",
+              "locator": "Separate later date and material"
+            }
+          ],
+          "section": "Royal construction placed burdens on communities",
+          "sectionCitations": [
+            {
+              "source": "manila-shipbuilding-1618-1619",
+              "locator": "Fajardo: royal shipbuilding; Pineda: pay arrears and flight"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#banda-1621--manila-network",
+      "defaultFrom": ["banda-1621"]
+    },
+    {
+      "id": "isfahan-silk--bukhara-books",
+      "subjects": ["isfahan-silk", "bukhara-books"],
+      "question": "Which records explain the work supporting city life, and whose experience remains unknown?",
+      "selectedDimension": "place-work",
+      "sharedDimensions": ["place-work", "patronage", "inequality", "evidence"],
+      "evidence": [
+        {
+          "subject": "isfahan-silk",
+          "interval": "Selected Safavid capital phase, 1597–98 to 1722",
+          "place": "Isfahan and New Julfa, Iran",
+          "citations": [
+            {
+              "source": "isfahan-capital",
+              "locator": "New commercial centre and named urban relationships"
+            },
+            {
+              "source": "julfa-forced",
+              "locator": "Forced settlement and Society and administration"
+            },
+            {
+              "source": "julfa-merchant-correspondence-2026",
+              "locator": "Family firm and correspondence"
+            },
+            {
+              "source": "julfa-anna-letter-1747",
+              "locator": "Later family letter"
+            }
+          ],
+          "section": "Commerce required relationships and information",
+          "sectionCitations": [
+            {
+              "source": "julfa-merchant-correspondence-2026",
+              "locator": "Family firm; Commenda Contracts and Agents; Turquoise correspondence"
+            }
+          ]
+        },
+        {
+          "subject": "bukhara-books",
+          "interval": "Selected Shaibanid and Janid urban contexts, c. 1500–1785",
+          "place": "Bukhara, present-day Uzbekistan",
+          "citations": [
+            {
+              "source": "bukhara-manuscript-work-2023",
+              "locator": "Sixteenth-century manuscript organization"
+            },
+            {
+              "source": "bukhara-irrigation-economy",
+              "locator": "Water supply"
+            },
+            {
+              "source": "bukhara-juybari-endowments",
+              "locator": "Administration; Monuments and public works"
+            }
+          ],
+          "section": "Water and income sustained institutions",
+          "sectionCitations": [
+            {
+              "source": "bukhara-irrigation-economy",
+              "locator": "Water supply"
+            },
+            {
+              "source": "bukhara-monuments",
+              "locator": "Lab-i Hauz complex"
+            },
+            {
+              "source": "bukhara-juybari-endowments",
+              "locator": "Monuments and public works"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#isfahan-silk--bukhara-books",
+      "defaultFrom": ["isfahan-silk", "bukhara-books"]
+    },
+    {
+      "id": "isfahan-silk--zand-iran",
+      "subjects": ["isfahan-silk", "zand-iran"],
+      "question": "How can an object’s attribution be kept separate from a city’s households and political history?",
+      "selectedDimension": "evidence",
+      "sharedDimensions": ["place-work", "patronage", "inequality", "evidence"],
+      "evidence": [
+        {
+          "subject": "isfahan-silk",
+          "interval": "Selected Safavid capital phase, 1597–98 to 1722",
+          "place": "Isfahan and New Julfa, Iran",
+          "citations": [
+            {
+              "source": "met-451028",
+              "locator": "Misattribution and workshop centers"
+            }
+          ],
+          "section": "Silk connected several kinds of making",
+          "sectionCitations": [
+            {
+              "source": "safavid-silk",
+              "locator": "Producer/workshop and pattern/weaving paragraphs"
+            },
+            {
+              "source": "met-451028",
+              "locator": "Opening description; Artwork Details: Medium"
+            }
+          ]
+        },
+        {
+          "subject": "zand-iran",
+          "interval": "Selected Zand political and material contexts, 1751–1794",
+          "place": "Shiraz and western Iran; object attributed only to Iran",
+          "citations": [
+            {
+              "source": "met-681122",
+              "locator": "Description and Artwork Details"
+            }
+          ],
+          "section": "One object, several kinds of evidence",
+          "sectionCitations": [
+            {
+              "source": "met-681122",
+              "locator": "Date; opening description; actual three supplied photographs"
+            },
+            {
+              "source": "zand-history",
+              "locator": "Karim Khan’s death in 1779 and later succession"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#isfahan-silk--zand-iran",
+      "defaultFrom": ["zand-iran"]
+    },
+    {
+      "id": "ming-workshops--ottoman-workshops",
+      "subjects": ["ming-workshops", "ottoman-workshops"],
+      "question": "What distinguishes evidence of court demand from evidence of making and buying?",
+      "selectedDimension": "work-organization",
+      "sharedDimensions": ["work-organization", "evidence"],
+      "evidence": [
+        {
+          "subject": "ming-workshops",
+          "interval": "1368–1644 CE",
+          "place": "China; Jingdezhen ceramic production",
+          "citations": [
+            {
+              "source": "met-42549",
+              "locator": "Catalogue technical identification"
+            },
+            {
+              "source": "ming-palace-production-2016",
+              "locator": "Design, inspection and distribution"
+            },
+            {
+              "source": "ming-cuhk-markets-2022",
+              "locator": "Private production and court orders"
+            }
+          ],
+          "section": "An official order needed more than a design",
+          "sectionCitations": [
+            {
+              "source": "ming",
+              "locator": "Final paragraph: Bureau of Design"
+            },
+            {
+              "source": "ming-npm-production",
+              "locator": "Early official production and supervision"
+            }
+          ]
+        },
+        {
+          "subject": "ottoman-workshops",
+          "interval": "Selected Ottoman art and urban contexts, c. 1500–1755",
+          "place": "Istanbul and Iznik, present-day Türkiye; locator at Istanbul",
+          "citations": [
+            {
+              "source": "met-449533",
+              "locator": "Specialist drawing and illumination"
+            },
+            {
+              "source": "ottoman-musli-lamp",
+              "locator": "Supplied inscription translation"
+            },
+            {
+              "source": "ottoman-kiln-residues-2025",
+              "locator": "English abstract"
+            },
+            {
+              "source": "ottoman-after",
+              "locator": "Court payments and open-market incentives"
+            }
+          ],
+          "section": "Names and production remains",
+          "sectionCitations": [
+            {
+              "source": "ottoman-musli-lamp",
+              "locator": "Date and supplied inscription translation"
+            },
+            {
+              "source": "ottoman-kiln-residues-2025",
+              "locator": "English abstract: production residues and comparisons"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#ming-workshops--ottoman-workshops",
+      "defaultFrom": []
+    },
+    {
+      "id": "mughal-books--ottoman-workshops",
+      "subjects": ["mughal-books", "ottoman-workshops"],
+      "question": "How do writing and decoration connect specialized work with patrons and audiences?",
+      "selectedDimension": "work-organization",
+      "sharedDimensions": ["work-organization", "evidence"],
+      "evidence": [
+        {
+          "subject": "mughal-books",
+          "interval": "1556–1605 CE",
+          "place": "Mughal courts at Fatehpur Sikri and Lahore",
+          "citations": [
+            {
+              "source": "mughal-workshops-va",
+              "locator": "House of Books; The Akbarnama"
+            },
+            {
+              "source": "mughal-workshop-network",
+              "locator": "Publisher abstract only"
+            },
+            {
+              "source": "mughal-preface-politics",
+              "locator": "Printed pp.902–904"
+            }
+          ],
+          "section": "Different skills made a book possible",
+          "sectionCitations": [
+            {
+              "source": "mughal-workshops-va",
+              "locator": "House of Books; The Harivamsa"
+            },
+            {
+              "source": "mughal-razmnama-copy",
+              "locator": "Title and Scope & Content"
+            }
+          ]
+        },
+        {
+          "subject": "ottoman-workshops",
+          "interval": "Selected Ottoman art and urban contexts, c. 1500–1755",
+          "place": "Istanbul and Iznik, present-day Türkiye; locator at Istanbul",
+          "citations": [
+            {
+              "source": "met-449533",
+              "locator": "Specialist drawing and illumination"
+            },
+            {
+              "source": "ottoman-musli-lamp",
+              "locator": "Supplied inscription translation"
+            },
+            {
+              "source": "ottoman-kiln-residues-2025",
+              "locator": "English abstract"
+            },
+            {
+              "source": "ottoman-after",
+              "locator": "Court payments and open-market incentives"
+            }
+          ],
+          "section": "Names and production remains",
+          "sectionCitations": [
+            {
+              "source": "ottoman-musli-lamp",
+              "locator": "Date and supplied inscription translation"
+            },
+            {
+              "source": "ottoman-kiln-residues-2025",
+              "locator": "English abstract: production residues and comparisons"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#mughal-books--ottoman-workshops",
+      "defaultFrom": ["mughal-books"]
+    },
+    {
+      "id": "chaco-communities--ocmulgee-council",
+      "subjects": ["chaco-communities", "ocmulgee-council"],
+      "question": "How can building records and particular samples explain work without dating a whole people?",
+      "selectedDimension": "place-work",
+      "sharedDimensions": ["place-work"],
+      "evidence": [
+        {
+          "subject": "chaco-communities",
+          "interval": "Selected Chaco regional context, c. 850–1250 CE",
+          "place": "Chaco Canyon, San Juan Basin, New Mexico, United States",
+          "citations": [
+            {
+              "source": "chaco-pueblo-period",
+              "locator": "Architecture; Environment and Subsistence"
+            },
+            {
+              "source": "chaco-roads",
+              "locator": "Identified segments and function debate"
+            },
+            {
+              "source": "chaco-pueblo-council",
+              "locator": "Page 1, second WHEREAS clause"
+            }
+          ],
+          "section": "Materials made different spaces possible",
+          "sectionCitations": [
+            {
+              "source": "chaco-nps-photo",
+              "locator": "Inspected corner-doorway photograph and current caption"
+            },
+            {
+              "source": "chaco-pueblo-period",
+              "locator": "Architecture: great houses and core/veneer construction"
+            },
+            {
+              "source": "chaco-bonito",
+              "locator": "Staged construction paragraph"
+            }
+          ]
+        },
+        {
+          "subject": "ocmulgee-council",
+          "interval": "Earthlodge construction chronology under revision",
+          "place": "Ocmulgee, beside the Ocmulgee River, present-day Macon, Georgia",
+          "citations": [
+            {
+              "source": "ocmu-household-work",
+              "locator": "Community and Culture paragraphs"
+            },
+            {
+              "source": "ocmu-chronology",
+              "locator": "The Earthlodge and Council Houses; Discussion"
+            },
+            {
+              "source": "ocmu-mvskoke-research-2026",
+              "locator": "Collaborative Research: Butler and Hunt statements"
+            }
+          ],
+          "section": "Retained material makes new questions possible",
+          "sectionCitations": [
+            {
+              "source": "ocmu-chronology",
+              "locator": "Methods/Materials sampling; Results: Earthlodge; Discussion"
+            },
+            {
+              "source": "ocmu-earthlodge",
+              "locator": "Reconstruction paragraph and older 1015 label"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#chaco-communities--ocmulgee-council",
+      "defaultFrom": []
+    },
+    {
+      "id": "cahokia-city--ocmulgee-council",
+      "subjects": ["cahokia-city", "ocmulgee-council"],
+      "question": "How do local evidence and attributed community accounts change explanations of settlement?",
+      "selectedDimension": "place-work",
+      "sharedDimensions": ["place-work"],
+      "evidence": [
+        {
+          "subject": "cahokia-city",
+          "interval": "Selected urban context, c. 1050–1400 CE",
+          "place": "Mississippi River floodplain near present-day Collinsville, Illinois, United States",
+          "citations": [
+            {
+              "source": "cahokia-neighborhoods-2019",
+              "locator": "Publisher abstract"
+            },
+            {
+              "source": "cahokia-copper-2011",
+              "locator": "Selected material and process discussion"
+            },
+            {
+              "source": "cahokia-soils-2021",
+              "locator": "Institutional author-record abstract"
+            }
+          ],
+          "section": "Homes within an urban landscape",
+          "sectionCitations": [
+            {
+              "source": "cahokia-isas-urban-work",
+              "locator": "Ancient Urbanism; Corn and Cuisine paragraphs"
+            },
+            {
+              "source": "cahokia-neighborhoods-2019",
+              "locator": "Publisher abstract"
+            }
+          ]
+        },
+        {
+          "subject": "ocmulgee-council",
+          "interval": "Earthlodge construction chronology under revision",
+          "place": "Ocmulgee, beside the Ocmulgee River, present-day Macon, Georgia",
+          "citations": [
+            {
+              "source": "ocmu-household-work",
+              "locator": "Community and Culture paragraphs"
+            },
+            {
+              "source": "ocmu-chronology",
+              "locator": "The Earthlodge and Council Houses; Discussion"
+            },
+            {
+              "source": "ocmu-mvskoke-research-2026",
+              "locator": "Collaborative Research: Butler and Hunt statements"
+            }
+          ],
+          "section": "Living relationships shape research",
+          "sectionCitations": [
+            {
+              "source": "ocmu-mvskoke-research-2026",
+              "locator": "Collaborative Research: Butler and Hunt statements"
+            },
+            {
+              "source": "muscogee-councilhouse",
+              "locator": "The Council House history"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#cahokia-city--ocmulgee-council",
+      "defaultFrom": []
+    },
+    {
+      "id": "byzantium--borobudur",
+      "subjects": ["byzantium", "borobudur"],
+      "question": "How can evidence for making, supporting and maintaining a place reveal different institutions?",
+      "selectedDimension": "place-work",
+      "sharedDimensions": ["place-work", "evidence"],
+      "evidence": [
+        {
+          "subject": "byzantium",
+          "interval": "Conventional frame, 330–1453 CE",
+          "place": "Constantinople, present-day Istanbul; territories varied",
+          "citations": [
+            {
+              "source": "met-464428",
+              "locator": "Description; Artwork Details"
+            },
+            {
+              "source": "byzantium-yenikapi-2015",
+              "locator": "Printed pp. 53–55: YK14"
+            },
+            {
+              "source": "byzantium-ivory-work-2007",
+              "locator": "Production and material discussion"
+            }
+          ],
+          "section": "Fitting and maintaining a working hull",
+          "sectionCitations": [
+            {
+              "source": "byzantium-yenikapi-2015",
+              "locator": "Printed pp. 53–55: YK14 construction and repairs"
+            },
+            {
+              "source": "byzantium-yenikapi-project",
+              "locator": "Harbour excavation and organic preservation"
+            }
+          ]
+        },
+        {
+          "subject": "borobudur",
+          "interval": "Built in the eighth–ninth centuries CE",
+          "place": "Kedu Valley, Central Java, Indonesia",
+          "citations": [
+            {
+              "source": "borobudur",
+              "locator": "Brief synthesis; Authenticity"
+            },
+            {
+              "source": "borobudur-drainage-2018",
+              "locator": "Borobudur-specific paragraphs"
+            },
+            {
+              "source": "borobudur-inscription-context-2018",
+              "locator": "Religious upkeep interpretation"
+            }
+          ],
+          "section": "Moving water required continued work",
+          "sectionCitations": [
+            {
+              "source": "borobudur-drainage-2018",
+              "locator": "Borobudur-specific drainage paragraphs"
+            },
+            {
+              "source": "borobudur",
+              "locator": "Authenticity: twentieth-century restoration"
+            },
+            {
+              "source": "borobudur-photo-image",
+              "locator": "Inspected 2008 source photograph"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#byzantium--borobudur",
+      "defaultFrom": ["borobudur"]
+    },
+    {
+      "id": "byzantium--maya-vessel",
+      "subjects": ["byzantium", "maya-vessel"],
+      "question": "How do a portable image, an owner’s name and separate work contexts support different explanations?",
+      "selectedDimension": "place-work",
+      "sharedDimensions": ["place-work", "participation", "evidence"],
+      "evidence": [
+        {
+          "subject": "byzantium",
+          "interval": "Conventional frame, 330–1453 CE",
+          "place": "Constantinople, present-day Istanbul; territories varied",
+          "citations": [
+            {
+              "source": "met-464428",
+              "locator": "Description; Artwork Details"
+            },
+            {
+              "source": "byzantium-yenikapi-2015",
+              "locator": "Printed pp. 53–55: YK14"
+            },
+            {
+              "source": "byzantium-ivory-work-2007",
+              "locator": "Production and material discussion"
+            }
+          ],
+          "section": "Carving a portable image",
+          "sectionCitations": [
+            {
+              "source": "met-464428",
+              "locator": "Description; Artwork Details; existing photograph"
+            },
+            {
+              "source": "icons",
+              "locator": "Form and Function: triptychs"
+            }
+          ]
+        },
+        {
+          "subject": "maya-vessel",
+          "interval": "Seventh–eighth centuries CE",
+          "place": "Mesoamerica; proposed Tabasco association",
+          "citations": [
+            {
+              "source": "met-316711",
+              "locator": "Description: ownership and regional hypothesis"
+            },
+            {
+              "source": "maya-painted-ceramics",
+              "locator": "Production and diplomatic-gift paragraphs"
+            },
+            {
+              "source": "maya-ceren-households-2000",
+              "locator": "Exposed publisher abstract"
+            },
+            {
+              "source": "maya-ik-painters-2012",
+              "locator": "Opening caption and exhibition description"
+            }
+          ],
+          "section": "Naming a relationship",
+          "sectionCitations": [
+            {
+              "source": "met-316711",
+              "locator": "Description: ownership text; text-image relationship; polity paragraph"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#byzantium--maya-vessel",
+      "defaultFrom": ["byzantium", "maya-vessel"]
+    },
+    {
+      "id": "dongson--hopewell-earthworks",
+      "subjects": ["dongson", "hopewell-earthworks"],
+      "question": "How do documented deposits and later place records change an explanation of shared material forms?",
+      "selectedDimension": "place-context",
+      "sharedDimensions": ["place-context"],
+      "evidence": [
+        {
+          "subject": "dongson",
+          "interval": "c. 500 BCE–300 CE",
+          "place": "Northern Vietnam and wider Southeast Asian circulation",
+          "citations": [
+            {
+              "source": "met-39209",
+              "locator": "Description; Artwork Details"
+            },
+            {
+              "source": "dongson-co-loa-2021",
+              "locator": "Find context"
+            },
+            {
+              "source": "dongson-phu-chanh-2008",
+              "locator": "pp.69–70"
+            },
+            {
+              "source": "dongson-luy-lau-2024",
+              "locator": "Workshop-discard and phase interpretation"
+            }
+          ],
+          "section": "Objects were gathered into particular groups",
+          "sectionCitations": [
+            {
+              "source": "dongson-co-loa-2021",
+              "locator": "Opening find-context paragraph"
+            }
+          ]
+        },
+        {
+          "subject": "hopewell-earthworks",
+          "interval": "Selected Ohio ceremonial networks, c. 1–400 CE",
+          "place": "Ohio River tributaries; locator at Mound City Group, Ohio, United States",
+          "citations": [
+            {
+              "source": "hopewell-moundcity",
+              "locator": "Careful Construction"
+            },
+            {
+              "source": "hopewell-hopeton-research",
+              "locator": "Ongoing Research"
+            },
+            {
+              "source": "hopewell-moundgroup",
+              "locator": "1848 illustration; Archeological Expeditions"
+            },
+            {
+              "source": "hopewell-myaamia-2023",
+              "locator": "Printed pp. 3A and 5A"
+            }
+          ],
+          "section": "A wall preserves a particular sequence",
+          "sectionCitations": [
+            {
+              "source": "hopewell-hopeton-research",
+              "locator": "Ongoing Research: 2001–02 trenches, soil layers and burned-log estimate"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#dongson--hopewell-earthworks",
+      "defaultFrom": ["dongson"]
+    },
+    {
+      "id": "colima--hopewell-earthworks",
+      "subjects": ["colima", "hopewell-earthworks"],
+      "question": "What can visible form, an excavated association and a later reconstruction each establish about a place?",
+      "selectedDimension": "place-context",
+      "sharedDimensions": ["place-context"],
+      "evidence": [
+        {
+          "subject": "colima",
+          "interval": "200 BCE–200 CE",
+          "place": "Colima, western Mexico",
+          "citations": [
+            {
+              "source": "met-317600",
+              "locator": "Description and regional Artwork Details"
+            },
+            {
+              "source": "colima-huitzilapa-1996",
+              "locator": "Publisher abstract: excavated context"
+            },
+            {
+              "source": "colima-western-polities-2026",
+              "locator": "Political organization paragraphs"
+            }
+          ],
+          "section": "Preparing places and gifts",
+          "sectionCitations": [
+            {
+              "source": "colima-shaft-tombs-inah",
+              "locator": "Shaft/chamber and offering descriptions"
+            },
+            {
+              "source": "colima-nayarit-offerings-inah",
+              "locator": "Chamber variants and listed offerings"
+            },
+            {
+              "source": "colima-models-2016",
+              "locator": "Western Mexican model and offering paragraphs"
+            }
+          ]
+        },
+        {
+          "subject": "hopewell-earthworks",
+          "interval": "Selected Ohio ceremonial networks, c. 1–400 CE",
+          "place": "Ohio River tributaries; locator at Mound City Group, Ohio, United States",
+          "citations": [
+            {
+              "source": "hopewell-moundcity",
+              "locator": "Careful Construction"
+            },
+            {
+              "source": "hopewell-hopeton-research",
+              "locator": "Ongoing Research"
+            },
+            {
+              "source": "hopewell-moundgroup",
+              "locator": "1848 illustration; Archeological Expeditions"
+            },
+            {
+              "source": "hopewell-myaamia-2023",
+              "locator": "Printed pp. 3A and 5A"
+            }
+          ],
+          "section": "Building, dismantling and adding earth",
+          "sectionCitations": [
+            {
+              "source": "hopewell-moundcity",
+              "locator": "Careful Construction"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#colima--hopewell-earthworks",
+      "defaultFrom": []
+    },
+    {
+      "id": "chavin-textile--teotihuacan",
+      "subjects": ["chavin-textile", "teotihuacan"],
+      "question": "How does evidence for making differ between a portable fragment and an excavated neighborhood?",
+      "selectedDimension": "material-work",
+      "sharedDimensions": ["evidence", "production", "material-work"],
+      "evidence": [
+        {
+          "subject": "chavin-textile",
+          "interval": "Fourth–third centuries BCE",
+          "place": "Peru; said to come from the southern coast",
+          "citations": [
+            {
+              "source": "met-315784",
+              "locator": "Medium; Description paragraphs 1–5"
+            },
+            {
+              "source": "chavin-weaving-abstraction",
+              "locator": "Printed pp. 4 and 8–9"
+            }
+          ],
+          "section": "A surface was made before an image was painted",
+          "sectionCitations": [
+            {
+              "source": "met-315784",
+              "locator": "Medium; Description paragraphs 1–2; existing photograph"
+            },
+            {
+              "source": "chavin-weaving-abstraction",
+              "locator": "Printed p. 8, Fig. 3 and adjacent paragraph"
+            }
+          ]
+        },
+        {
+          "subject": "teotihuacan",
+          "interval": "c. 100 BCE–800 CE",
+          "place": "Basin of Mexico",
+          "citations": [
+            {
+              "source": "teot-patt-households",
+              "locator": "Materials, courtyards and drains"
+            },
+            {
+              "source": "teot-patt-economy",
+              "locator": "Blade production and exchange"
+            },
+            {
+              "source": "teot-tlajinga-2026",
+              "locator": "Comparing the Neighborhood Center and Apartments"
+            }
+          ],
+          "section": "A household could also make tools",
+          "sectionCitations": [
+            {
+              "source": "teot-patt-economy",
+              "locator": "Blade production, 2013 sample and exchange paragraphs"
+            },
+            {
+              "source": "teot-patt-households",
+              "locator": "Compounds 17:S3E1 and 18:S3E1"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#chavin-textile--teotihuacan",
+      "defaultFrom": ["teotihuacan", "chavin-textile"]
+    },
+    {
+      "id": "chavin-textile--moche",
+      "subjects": ["chavin-textile", "moche"],
+      "question": "Which observations support a making technique, and which further evidence could locate its makers?",
+      "selectedDimension": "material-work",
+      "sharedDimensions": ["evidence", "production", "material-work"],
+      "evidence": [
+        {
+          "subject": "chavin-textile",
+          "interval": "Fourth–third centuries BCE",
+          "place": "Peru; said to come from the southern coast",
+          "citations": [
+            {
+              "source": "met-315784",
+              "locator": "Medium; Description paragraphs 1–5"
+            },
+            {
+              "source": "chavin-weaving-abstraction",
+              "locator": "Printed pp. 4 and 8–9"
+            }
+          ],
+          "section": "A surface was made before an image was painted",
+          "sectionCitations": [
+            {
+              "source": "met-315784",
+              "locator": "Medium; Description paragraphs 1–2; existing photograph"
+            },
+            {
+              "source": "chavin-weaving-abstraction",
+              "locator": "Printed p. 8, Fig. 3 and adjacent paragraph"
+            }
+          ]
+        },
+        {
+          "subject": "moche",
+          "interval": "1st–8th centuries CE",
+          "place": "Northern coastal Peru",
+          "citations": [
+            {
+              "source": "moche-production-2009",
+              "locator": "Workshop evidence; utilitarian and fineware consumption"
+            },
+            {
+              "source": "moche-households-2009",
+              "locator": "Printed pp. 185, 187–190: domestic work, supply and exchange"
+            }
+          ],
+          "section": "Making more than decorated bottles",
+          "sectionCitations": [
+            {
+              "source": "moche-production-2009",
+              "locator": "Talleres de producción; Cerámica utilitaria; Figures 2–5 captions"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#chavin-textile--moche",
+      "defaultFrom": []
+    },
+    {
+      "id": "indonesia-independence--ghana-independence",
+      "subjects": ["indonesia-independence", "ghana-independence"],
+      "question": "Which powers changed at independence, and what remained contested?",
+      "selectedDimension": "change",
+      "sharedDimensions": ["participation", "evidence", "change"],
+      "evidence": [
+        {
+          "subject": "indonesia-independence",
+          "interval": "Proclamation in 1945; federal settlement in 1949; unitary state in 1950",
+          "place": "Indonesian archipelago; proclamation at Jakarta",
+          "citations": [
+            {
+              "source": "indonesia-war",
+              "locator": "17 August 1945; 27 December 1949; 1950"
+            }
+          ],
+          "section": "Negotiating the shape of the state",
+          "sectionCitations": [
+            {
+              "source": "indonesia-transfer",
+              "locator": "Linggajati, Round Table Conference and sovereignty transfer"
+            }
+          ]
+        },
+        {
+          "subject": "ghana-independence",
+          "interval": "Political mobilization, 1948–1957; republic in 1960",
+          "place": "Gold Coast and independent Ghana; Accra",
+          "citations": [
+            {
+              "source": "ghana-country-study",
+              "locator": "Printed pp. 30–36"
+            }
+          ],
+          "section": "Independence did not mean one opinion",
+          "sectionCitations": [
+            {
+              "source": "ghana-country-study",
+              "locator": "Printed pp. 29–30, 33"
+            },
+            {
+              "source": "ghana-parliament",
+              "locator": "1957 and 1960 constitutional changes"
+            },
+            {
+              "source": "ghana-stamp-image",
+              "locator": "Stamp scan, design and overprint"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#indonesia-independence--ghana-independence",
+      "defaultFrom": ["indonesia-independence", "ghana-independence"]
+    },
+    {
+      "id": "ghana-independence--south-africa-rights",
+      "subjects": ["ghana-independence", "south-africa-rights"],
+      "question": "How does a change in government differ from a guarantee of political rights?",
+      "selectedDimension": "change",
+      "sharedDimensions": ["participation", "evidence", "change"],
+      "evidence": [
+        {
+          "subject": "ghana-independence",
+          "interval": "Political mobilization, 1948–1957; republic in 1960",
+          "place": "Gold Coast and independent Ghana; Accra",
+          "citations": [
+            {
+              "source": "ghana-country-study",
+              "locator": "Printed pp. 30–36"
+            }
+          ],
+          "section": "Follow the promise into the institutions",
+          "sectionCitations": [
+            {
+              "source": "ghana-country-study",
+              "locator": "Printed pp. 32–33 and 36"
+            }
+          ]
+        },
+        {
+          "subject": "south-africa-rights",
+          "interval": "Democratic transition and final constitution, 1994–1997",
+          "place": "South Africa; Sharpeville signing context",
+          "citations": [
+            {
+              "source": "sa-transition",
+              "locator": "1994–1997 timeline"
+            }
+          ],
+          "section": "Adoption, review, signing and commencement",
+          "sectionCitations": [
+            {
+              "source": "sa-certification",
+              "locator": "20 May 1996 statement, paragraphs 1–5"
+            },
+            {
+              "source": "sa-constitutional-negotiation",
+              "locator": "May adoption and October amendment"
+            },
+            {
+              "source": "sa-transition",
+              "locator": "1996 signing and 1997 commencement"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#ghana-independence--south-africa-rights",
+      "defaultFrom": ["south-africa-rights"]
+    },
+    {
+      "id": "roman-world--eastern-han",
+      "subjects": ["roman-world", "eastern-han"],
+      "question": "How did empires turn local work into imperial power?",
+      "selectedDimension": "production",
+      "sharedDimensions": ["authority", "production", "belief", "evidence"],
+      "evidence": [
+        {
+          "subject": "roman-world",
+          "interval": "193–235 CE",
+          "place": "Mediterranean world; Rome as locator",
+          "citations": [
+            {
+              "source": "rome-educators",
+              "locator": "Printed p. 130: Occupations"
+            }
+          ],
+          "section": "The work that supported imperial life",
+          "sectionCitations": [
+            {
+              "source": "rome-educators",
+              "locator": "Printed p. 130: Occupations"
+            }
+          ]
+        },
+        {
+          "subject": "eastern-han",
+          "interval": "25–220 CE",
+          "place": "Luoyang and Han-ruled regions of China",
+          "citations": [
+            {
+              "source": "models",
+              "locator": "Agricultural structures paragraph"
+            }
+          ],
+          "section": "An estate is a network of work",
+          "sectionCitations": [
+            {
+              "source": "models",
+              "locator": "Han architectural models; agricultural structures"
+            },
+            {
+              "source": "met-52010",
+              "locator": "Granary description"
+            },
+            {
+              "source": "met-52527",
+              "locator": "Well description"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#roman-world--eastern-han",
+      "defaultFrom": ["eastern-han", "roman-world"]
+    },
+    {
+      "id": "eastern-han--colima",
+      "subjects": ["eastern-han", "colima"],
+      "question": "What does a model building preserve about the world of its makers?",
+      "selectedDimension": "belief",
+      "sharedDimensions": ["belief", "production"],
+      "evidence": [
+        {
+          "subject": "eastern-han",
+          "interval": "25–220 CE",
+          "place": "Luoyang and Han-ruled regions of China",
+          "citations": [
+            {
+              "source": "models",
+              "locator": "Han architectural model paragraphs"
+            }
+          ],
+          "section": "The model is not the building",
+          "sectionCitations": [
+            {
+              "source": "met-49519",
+              "locator": "Description; period, date and medium"
+            }
+          ]
+        },
+        {
+          "subject": "colima",
+          "interval": "200 BCE–200 CE",
+          "place": "Colima, western Mexico",
+          "citations": [
+            {
+              "source": "met-317600",
+              "locator": "Opening description"
+            }
+          ],
+          "section": "A possible vessel component",
+          "sectionCitations": [
+            {
+              "source": "met-317600",
+              "locator": "Description: possible incense-burner lid"
+            },
+            {
+              "source": "models",
+              "locator": "2015 opening caption; prototype and ritual-vessel discussion"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#eastern-han--colima",
+      "defaultFrom": ["colima"]
+    },
+    {
+      "id": "roman-world--palmyra",
+      "subjects": ["roman-world", "palmyra"],
+      "question": "How do personal portraits and imperial images make status visible?",
+      "selectedDimension": "evidence",
+      "sharedDimensions": ["authority", "evidence"],
+      "evidence": [
+        {
+          "subject": "roman-world",
+          "interval": "193–235 CE",
+          "place": "Mediterranean world; Rome as locator",
+          "citations": [
+            {
+              "source": "met-547951",
+              "locator": "Date and inscription"
+            },
+            {
+              "source": "met-251870",
+              "locator": "Description"
+            }
+          ],
+          "section": "A family claiming the right to rule",
+          "sectionCitations": [
+            {
+              "source": "rome-severans",
+              "locator": "Septimius Severus and dynastic representation"
+            },
+            {
+              "source": "met-251870",
+              "locator": "Description; date and material"
+            }
+          ]
+        },
+        {
+          "subject": "palmyra",
+          "interval": "2nd–3rd centuries CE",
+          "place": "Syrian desert, present-day Syria",
+          "citations": [
+            {
+              "source": "met-322375",
+              "locator": "Inscription and burial marker discussion"
+            }
+          ],
+          "section": "Names made a family memorable",
+          "sectionCitations": [
+            {
+              "source": "met-322375",
+              "locator": "Inscription, banquet description and burial marker"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#roman-world--palmyra",
+      "defaultFrom": []
+    },
+    {
+      "id": "palmyra--kushan-contexts",
+      "subjects": ["palmyra", "kushan-contexts"],
+      "question": "How do objects reveal communities within wider networks?",
+      "selectedDimension": "coordination",
+      "sharedDimensions": ["authority", "evidence", "coordination"],
+      "evidence": [
+        {
+          "subject": "palmyra",
+          "interval": "2nd–3rd centuries CE",
+          "place": "Syrian desert, present-day Syria",
+          "citations": [
+            {
+              "source": "palmyra-tax",
+              "locator": "Printed pp. 173–175"
+            },
+            {
+              "source": "palmyra-getty",
+              "locator": "Trade"
+            }
+          ],
+          "section": "The city regulated recurring transactions",
+          "sectionCitations": [
+            {
+              "source": "palmyra-tax",
+              "locator": "Opening extract; printed pp. 173–175"
+            }
+          ]
+        },
+        {
+          "subject": "kushan-contexts",
+          "interval": "Early centuries CE",
+          "place": "Gandhara and adjoining Central/South Asian regions",
+          "citations": [
+            {
+              "source": "kushan-inscriptions",
+              "locator": "Printed pp. 78–79"
+            }
+          ],
+          "section": "A sanctuary had to be kept supplied",
+          "sectionCitations": [
+            {
+              "source": "kushan-inscriptions",
+              "locator": "Printed pp. 78–79, SK 4 and version M"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#palmyra--kushan-contexts",
+      "defaultFrom": ["palmyra", "kushan-contexts"]
+    },
+    {
+      "id": "kushan-contexts--aksum",
+      "subjects": ["kushan-contexts", "aksum"],
+      "question": "How do coin images and excavated coin contexts answer different questions?",
+      "selectedDimension": "evidence",
+      "sharedDimensions": ["authority", "evidence", "coordination"],
+      "evidence": [
+        {
+          "subject": "kushan-contexts",
+          "interval": "Early centuries CE",
+          "place": "Gandhara and adjoining Central/South Asian regions",
+          "citations": [
+            {
+              "source": "met-39385",
+              "locator": "Description"
+            }
+          ],
+          "section": "A small object carried a royal presentation",
+          "sectionCitations": [
+            {
+              "source": "met-39385",
+              "locator": "Date, general coinage paragraph, two views and object details"
+            }
+          ]
+        },
+        {
+          "subject": "aksum",
+          "interval": "1st–8th centuries CE",
+          "place": "Northern Ethiopia and Eritrea; Red Sea connections",
+          "citations": [
+            {
+              "source": "aksum",
+              "locator": "Architecture and glass discussion"
+            }
+          ],
+          "section": "An old coin can occur in a later deposit",
+          "sectionCitations": [
+            {
+              "source": "beta-samati",
+              "locator": "Printed pp. 1541–1542, Figure 4 and Armah chronology"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#kushan-contexts--aksum",
+      "defaultFrom": ["aksum"]
+    },
+    {
+      "id": "palmyra--aksum",
+      "subjects": ["palmyra", "aksum"],
+      "question": "How do local transactions and inland work complicate a history told only through distant trade?",
+      "selectedDimension": "coordination",
+      "sharedDimensions": ["authority", "evidence", "coordination"],
+      "evidence": [
+        {
+          "subject": "palmyra",
+          "interval": "2nd–3rd centuries CE",
+          "place": "Syrian desert, present-day Syria",
+          "citations": [
+            {
+              "source": "palmyra-tax",
+              "locator": "Printed pp. 173–175"
+            },
+            {
+              "source": "palmyra-getty",
+              "locator": "Trade"
+            }
+          ],
+          "section": "The city regulated recurring transactions",
+          "sectionCitations": [
+            {
+              "source": "palmyra-tax",
+              "locator": "Opening extract; printed pp. 173–175"
+            }
+          ]
+        },
+        {
+          "subject": "aksum",
+          "interval": "1st–8th centuries CE",
+          "place": "Northern Ethiopia and Eritrea; Red Sea connections",
+          "citations": [
+            {
+              "source": "aksum-world",
+              "locator": "Excerpt pp. 5–7"
+            },
+            {
+              "source": "beta-samati",
+              "locator": "Area A and Discussion"
+            }
+          ],
+          "section": "Inland work sustained more than monuments",
+          "sectionCitations": [
+            {
+              "source": "beta-samati",
+              "locator": "Printed pp. 1540–1543: methods, Area A and selected Area B"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#palmyra--aksum",
+      "defaultFrom": []
+    },
+    {
+      "id": "aksum--portuguese-voyage",
+      "subjects": ["aksum", "portuguese-voyage"],
+      "question": "How does a port connect inland power to maritime exchange?",
+      "selectedDimension": "movement",
+      "sharedDimensions": ["movement", "evidence"],
+      "evidence": [
+        {
+          "subject": "aksum",
+          "interval": "1st–8th centuries CE",
+          "place": "Northern Ethiopia and Eritrea; Red Sea connections",
+          "citations": [
+            {
+              "source": "aksum",
+              "locator": "Opening paragraph"
+            }
+          ],
+          "section": "The inland city was not itself a harbor",
+          "sectionCitations": [
+            {
+              "source": "aksum-world",
+              "locator": "Excerpt pp. 5–7: Periplus, Adulis and Zoskales"
+            }
+          ]
+        },
+        {
+          "subject": "portuguese-voyage",
+          "interval": "1497–1499 CE",
+          "place": "Lisbon, Cape route and Calicut (Kozhikode)",
+          "citations": [
+            {
+              "source": "interwoven",
+              "locator": "India and Portugal chronologies"
+            }
+          ],
+          "section": "A sea crossing depended on work near the shore",
+          "sectionCitations": [
+            {
+              "source": "gama-journal-1898",
+              "locator": "Printed pp. 39–46"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#aksum--portuguese-voyage",
+      "defaultFrom": []
+    },
+    {
+      "id": "teotihuacan--moche",
+      "subjects": ["teotihuacan", "moche"],
+      "question": "What kinds of work become visible through surviving material?",
+      "selectedDimension": "material-work",
+      "sharedDimensions": ["production", "evidence", "material-work"],
+      "evidence": [
+        {
+          "subject": "teotihuacan",
+          "interval": "c. 100 BCE–800 CE",
+          "place": "Basin of Mexico",
+          "citations": [
+            {
+              "source": "teot-patt-households",
+              "locator": "Materials, courtyards and drains"
+            },
+            {
+              "source": "teot-patt-economy",
+              "locator": "Blade production and exchange"
+            },
+            {
+              "source": "teot-tlajinga-2026",
+              "locator": "Comparing the Neighborhood Center and Apartments"
+            }
+          ],
+          "section": "A household could also make tools",
+          "sectionCitations": [
+            {
+              "source": "teot-patt-economy",
+              "locator": "Blade production, 2013 sample and exchange paragraphs"
+            },
+            {
+              "source": "teot-patt-households",
+              "locator": "Compounds 17:S3E1 and 18:S3E1"
+            }
+          ]
+        },
+        {
+          "subject": "moche",
+          "interval": "1st–8th centuries CE",
+          "place": "Northern coastal Peru",
+          "citations": [
+            {
+              "source": "moche-production-2009",
+              "locator": "Workshop evidence; utilitarian and fineware consumption"
+            },
+            {
+              "source": "moche-households-2009",
+              "locator": "Printed pp. 185, 187–190: domestic work, supply and exchange"
+            }
+          ],
+          "section": "Making more than decorated bottles",
+          "sectionCitations": [
+            {
+              "source": "moche-production-2009",
+              "locator": "Talleres de producción; Cerámica utilitaria; Figures 2–5 captions"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#teotihuacan--moche",
+      "defaultFrom": ["moche"]
+    },
+    {
+      "id": "dongson--shang-ritual",
+      "subjects": ["dongson", "shang-ritual"],
+      "question": "How can bronze communicate ideas as well as display skilled work?",
+      "selectedDimension": "production",
+      "sharedDimensions": ["production"],
+      "evidence": [
+        {
+          "subject": "dongson",
+          "interval": "c. 500 BCE–300 CE",
+          "place": "Northern Vietnam and wider Southeast Asian circulation",
+          "citations": [
+            {
+              "source": "met-39209",
+              "locator": "Description"
+            }
+          ],
+          "section": "Making leaves evidence beyond the finished drum",
+          "sectionCitations": [
+            {
+              "source": "dongson-luy-lau-2024",
+              "locator": "Workshop-discard, equipment and phase paragraphs"
+            }
+          ]
+        },
+        {
+          "subject": "shang-ritual",
+          "interval": "c. 1600–1046 BCE",
+          "place": "Yellow River region; Anyang as a late center",
+          "citations": [
+            {
+              "source": "shang-zhou",
+              "locator": "Casting technique and motifs"
+            }
+          ],
+          "section": "Casting put several skills into one vessel",
+          "sectionCitations": [
+            {
+              "source": "shang-zhou",
+              "locator": "Piece-mold process and decoration"
+            },
+            {
+              "source": "met-44781",
+              "locator": "Description and Artwork Details"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#dongson--shang-ritual",
+      "defaultFrom": []
+    },
+    {
+      "id": "benin-ivory--ming-workshops",
+      "subjects": ["benin-ivory", "ming-workshops"],
+      "question": "How do makers respond to patrons and distant audiences?",
+      "selectedDimension": "audience",
+      "sharedDimensions": ["audience", "evidence"],
+      "evidence": [
+        {
+          "subject": "benin-ivory",
+          "interval": "c. 1525–1600 CE",
+          "place": "Court of Benin(?), present-day Nigeria",
+          "citations": [
+            {
+              "source": "met-309900",
+              "locator": "Description"
+            }
+          ],
+          "section": "A customer’s request still needed a maker’s decisions",
+          "sectionCitations": [
+            {
+              "source": "ivories",
+              "locator": "Commissioning and apprenticeship"
+            },
+            {
+              "source": "met-309900",
+              "locator": "Attribution and iconography"
+            }
+          ]
+        },
+        {
+          "subject": "ming-workshops",
+          "interval": "1368–1644 CE",
+          "place": "China; Jingdezhen ceramic production",
+          "citations": [
+            {
+              "source": "met-42549",
+              "locator": "Period and catalogue"
+            },
+            {
+              "source": "ming",
+              "locator": "Final paragraph"
+            }
+          ],
+          "section": "An official order needed more than a design",
+          "sectionCitations": [
+            {
+              "source": "ming",
+              "locator": "Final paragraph: Bureau of Design"
+            },
+            {
+              "source": "ming-npm-production",
+              "locator": "Early official production and supervision"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#benin-ivory--ming-workshops",
+      "defaultFrom": ["benin-ivory"]
+    },
+    {
+      "id": "kongo-translation--mughal-books",
+      "subjects": ["kongo-translation", "mughal-books"],
+      "question": "How are religious ideas remade through local languages and materials?",
+      "selectedDimension": "audience",
+      "sharedDimensions": ["audience", "evidence"],
+      "evidence": [
+        {
+          "subject": "kongo-translation",
+          "interval": "From the royal baptism of 1491 CE",
+          "place": "Mbanza Kongo and surrounding Central African regions",
+          "citations": [
+            {
+              "source": "kongo-christianity",
+              "locator": "Adoption and crucifix discussion"
+            }
+          ],
+          "section": "Translation required people who could question meanings",
+          "sectionCitations": [
+            {
+              "source": "kongo-christianity",
+              "locator": "Education, translation and uneven practice"
+            }
+          ]
+        },
+        {
+          "subject": "mughal-books",
+          "interval": "1556–1605 CE",
+          "place": "Mughal courts at Fatehpur Sikri and Lahore",
+          "citations": [
+            {
+              "source": "mughal",
+              "locator": "Royal atelier"
+            },
+            {
+              "source": "met-448183",
+              "locator": "Description"
+            }
+          ],
+          "section": "Language and patronage shaped an audience",
+          "sectionCitations": [
+            {
+              "source": "mughal-workshops-va",
+              "locator": "The Baburnama; The Harivamsa"
+            },
+            {
+              "source": "mughal-preface-politics",
+              "locator": "Printed pp.902–904"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#kongo-translation--mughal-books",
+      "defaultFrom": ["kongo-translation"]
+    },
+    {
+      "id": "manila-network--ming-workshops",
+      "subjects": ["manila-network", "ming-workshops"],
+      "question": "What changes when crafted objects circulate across an ocean?",
+      "selectedDimension": "evidence",
+      "sharedDimensions": ["work-organization", "audience", "evidence"],
+      "evidence": [
+        {
+          "subject": "manila-network",
+          "interval": "1565–1815 CE",
+          "place": "Acapulco, Manila and Chinese production centers",
+          "citations": [
+            {
+              "source": "point-reyes",
+              "locator": "Shipwreck"
+            },
+            {
+              "source": "met-9198",
+              "locator": "Date and Geography"
+            }
+          ],
+          "section": "Follow one interrupted voyage",
+          "sectionCitations": [
+            {
+              "source": "point-reyes",
+              "locator": "San Agustín wreck and porcelain identification"
+            },
+            {
+              "source": "manila-tamal-huye-project",
+              "locator": "Encounter, village archaeology and alternative-use models"
+            }
+          ]
+        },
+        {
+          "subject": "ming-workshops",
+          "interval": "1368–1644 CE",
+          "place": "China; Jingdezhen ceramic production",
+          "citations": [
+            {
+              "source": "met-42549",
+              "locator": "Artwork Details"
+            }
+          ],
+          "section": "Inspection and buying linked different organizations",
+          "sectionCitations": [
+            {
+              "source": "ming-palace-production-2016",
+              "locator": "Quality testing and disposal"
+            },
+            {
+              "source": "ming-cuhk-markets-2022",
+              "locator": "Thriving Country of China"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#manila-network--ming-workshops",
+      "defaultFrom": ["manila-network", "ming-workshops"]
+    },
+    {
+      "id": "banda-1621--haitian-revolution",
+      "subjects": ["banda-1621", "haitian-revolution"],
+      "question": "How do sources reveal coercion and struggles over freedom?",
+      "selectedDimension": "evidence",
+      "sharedDimensions": ["evidence"],
+      "evidence": [
+        {
+          "subject": "banda-1621",
+          "interval": "1621 CE",
+          "place": "Banda Islands, present-day Indonesia",
+          "citations": [
+            {
+              "source": "banda-archive",
+              "locator": "Coen letter, 6 May 1621"
+            }
+          ],
+          "section": "A monopoly claim became control over food and place",
+          "sectionCitations": [
+            {
+              "source": "banda-pala-1621",
+              "locator": "Treaty claims and escalation"
+            },
+            {
+              "source": "banda-archive",
+              "locator": "Genocide: removal decision and report"
+            }
+          ]
+        },
+        {
+          "subject": "haitian-revolution",
+          "interval": "Revolutionary investigation, 1791–1804",
+          "place": "Saint-Domingue/Haiti, Caribbean",
+          "citations": [
+            {
+              "source": "haiti-declaration",
+              "locator": "Printed p. 7, final appeal and attribution"
+            }
+          ],
+          "section": "Ending slavery did not settle control of work",
+          "sectionCitations": [
+            {
+              "source": "haiti-constitution-1801",
+              "locator": "Articles 1,3,14–16,35"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#banda-1621--haitian-revolution",
+      "defaultFrom": ["haitian-revolution"]
+    },
+    {
+      "id": "uruk-accounts--dholavira",
+      "subjects": ["uruk-accounts", "dholavira"],
+      "question": "How do accounts and waterworks make different kinds of urban work visible?",
+      "selectedDimension": "coordination",
+      "sharedDimensions": ["urban", "evidence", "coordination"],
+      "evidence": [
+        {
+          "subject": "uruk-accounts",
+          "interval": "c. 3100–2900 BCE",
+          "place": "Southern Mesopotamia; probably Uruk, modern Iraq",
+          "citations": [
+            {
+              "source": "uruk",
+              "locator": "Pictographs and workers’ rations"
+            }
+          ],
+          "section": "A record separates a thing from its amount",
+          "sectionCitations": [
+            {
+              "source": "met-327384",
+              "locator": "Description and Artwork Details"
+            }
+          ]
+        },
+        {
+          "subject": "dholavira",
+          "interval": "c. 3000–1500 BCE",
+          "place": "Khadir island, Gujarat, India",
+          "citations": [
+            {
+              "source": "dholavira",
+              "locator": "Description and Brief synthesis"
+            }
+          ],
+          "section": "A city needs water between rains",
+          "sectionCitations": [
+            {
+              "source": "dholavira",
+              "locator": "Description; Brief synthesis: reservoirs and drainage"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#uruk-accounts--dholavira",
+      "defaultFrom": ["uruk-accounts", "dholavira"]
+    },
+    {
+      "id": "uruk-accounts--old-kingdom",
+      "subjects": ["uruk-accounts", "old-kingdom"],
+      "question": "Whose work becomes visible in a record or an image?",
+      "selectedDimension": "evidence",
+      "sharedDimensions": ["urban", "evidence"],
+      "evidence": [
+        {
+          "subject": "uruk-accounts",
+          "interval": "c. 3100–2900 BCE",
+          "place": "Southern Mesopotamia; probably Uruk, modern Iraq",
+          "citations": [
+            {
+              "source": "met-327384",
+              "locator": "Description"
+            }
+          ],
+          "section": "A record separates a thing from its amount",
+          "sectionCitations": [
+            {
+              "source": "met-327384",
+              "locator": "Description and Artwork Details"
+            }
+          ]
+        },
+        {
+          "subject": "old-kingdom",
+          "interval": "c. 2649–2130 BCE",
+          "place": "Nile Valley; Saqqara as the selected object’s context",
+          "citations": [
+            {
+              "source": "old-kingdom",
+              "locator": "Introduction"
+            },
+            {
+              "source": "met-543914",
+              "locator": "Erased scene"
+            }
+          ],
+          "section": "Providing for the dead",
+          "sectionCitations": [
+            {
+              "source": "met-543914",
+              "locator": "Description; audio transcript; Artwork Details"
+            },
+            {
+              "source": "old-kingdom",
+              "locator": "Dynasty 3 offering chapels; Dynasty 5 daily-life scenes"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#uruk-accounts--old-kingdom",
+      "defaultFrom": []
+    },
+    {
+      "id": "dholavira--liangzhu",
+      "subjects": ["dholavira", "liangzhu"],
+      "question": "How did communities organize work around water?",
+      "selectedDimension": "coordination",
+      "sharedDimensions": ["urban", "evidence", "coordination"],
+      "evidence": [
+        {
+          "subject": "dholavira",
+          "interval": "c. 3000–1500 BCE",
+          "place": "Khadir island, Gujarat, India",
+          "citations": [
+            {
+              "source": "dholavira",
+              "locator": "Description and Brief synthesis"
+            }
+          ],
+          "section": "A city needs water between rains",
+          "sectionCitations": [
+            {
+              "source": "dholavira",
+              "locator": "Description; Brief synthesis: reservoirs and drainage"
+            }
+          ]
+        },
+        {
+          "subject": "liangzhu",
+          "interval": "c. 3300–2300 BCE",
+          "place": "Lower Yangtze region near Hangzhou, China",
+          "citations": [
+            {
+              "source": "liangzhu",
+              "locator": "Brief synthesis; criteria (iii)–(iv)"
+            }
+          ],
+          "section": "Engineering involved materials and repeated work",
+          "sectionCitations": [
+            {
+              "source": "liangzhu-hydraulics",
+              "locator": "Defining the Hydraulic Landscape; construction and labor assumptions"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#dholavira--liangzhu",
+      "defaultFrom": ["liangzhu"]
+    },
+    {
+      "id": "caral--skara-brae",
+      "subjects": ["caral", "skara-brae"],
+      "question": "What can built spaces tell us about gathering and household work?",
+      "selectedDimension": "maintenance",
+      "sharedDimensions": ["maintenance", "urban", "evidence"],
+      "evidence": [
+        {
+          "subject": "caral",
+          "interval": "c. 3000–1800 BCE",
+          "place": "Supe Valley, coastal Peru",
+          "citations": [
+            {
+              "source": "caral-project-2005",
+              "locator": "PDF p. 21, printed p. 19: Fibras vegetales y shicras"
+            },
+            {
+              "source": "caral-project-2005",
+              "locator": "PDF p. 43, printed p. 41: room subdivision and renewal"
+            }
+          ],
+          "section": "Covering an old room made new construction possible",
+          "sectionCitations": [
+            {
+              "source": "caral-project-2005",
+              "locator": "PDF p. 21, printed p. 19: Fibras vegetales y shicras"
+            },
+            {
+              "source": "caral-project-2005",
+              "locator": "PDF p. 43, printed p. 41: room subdivision and renewal"
+            }
+          ]
+        },
+        {
+          "subject": "skara-brae",
+          "interval": "c. 3180–2500 BCE",
+          "place": "Sandwick, Orkney, Scotland",
+          "citations": [
+            {
+              "source": "skara-significance-2024",
+              "locator": "Printed pp. 17,61–62 and67–69"
+            }
+          ],
+          "section": "Rebuilding changed the available space",
+          "sectionCitations": [
+            {
+              "source": "skara-significance-2024",
+              "locator": "Printed pp. 17 and61–62: house sequence and changing passages"
+            },
+            {
+              "source": "skara-significance-2024",
+              "locator": "Printed p. 17: modeled occupation sequence"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#caral--skara-brae",
+      "defaultFrom": ["caral", "skara-brae"]
+    },
+    {
+      "id": "old-kingdom--caral",
+      "subjects": ["old-kingdom", "caral"],
+      "question": "How did food production and building renewal require continuing work, and which records make it visible?",
+      "selectedDimension": "maintenance",
+      "sharedDimensions": ["maintenance", "urban", "evidence"],
+      "evidence": [
+        {
+          "subject": "old-kingdom",
+          "interval": "c. 2649–2130 BCE",
+          "place": "Nile Valley; Saqqara as the selected object’s context",
+          "citations": [
+            {
+              "source": "giza-provisioning",
+              "locator": "Bakeries and food preparation"
+            },
+            {
+              "source": "giza-cult-town",
+              "locator": "Construction to cult-service interpretation"
+            }
+          ],
+          "section": "Grain was only a beginning",
+          "sectionCitations": [
+            {
+              "source": "giza-provisioning",
+              "locator": "Pyramid builders’ diet; Two Giza bakeries; Hearths and depressions; Bakery attachment"
+            }
+          ]
+        },
+        {
+          "subject": "caral",
+          "interval": "c. 3000–1800 BCE",
+          "place": "Supe Valley, coastal Peru",
+          "citations": [
+            {
+              "source": "caral-project-2005",
+              "locator": "PDF p. 21, printed p. 19: Fibras vegetales y shicras"
+            },
+            {
+              "source": "caral-project-2005",
+              "locator": "PDF p. 43, printed p. 41: room subdivision and renewal"
+            }
+          ],
+          "section": "Covering an old room made new construction possible",
+          "sectionCitations": [
+            {
+              "source": "caral-project-2005",
+              "locator": "PDF p. 21, printed p. 19: Fibras vegetales y shicras"
+            },
+            {
+              "source": "caral-project-2005",
+              "locator": "PDF p. 43, printed p. 41: room subdivision and renewal"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#old-kingdom--caral",
+      "defaultFrom": ["old-kingdom"]
+    },
+    {
+      "id": "old-kingdom--skara-brae",
+      "subjects": ["old-kingdom", "skara-brae"],
+      "question": "How can we distinguish commemoration, occupied space and later rebuilding when investigating daily work?",
+      "selectedDimension": "maintenance",
+      "sharedDimensions": ["maintenance", "urban", "evidence"],
+      "evidence": [
+        {
+          "subject": "old-kingdom",
+          "interval": "c. 2649–2130 BCE",
+          "place": "Nile Valley; Saqqara as the selected object’s context",
+          "citations": [
+            {
+              "source": "giza-provisioning",
+              "locator": "Bakeries and food preparation"
+            },
+            {
+              "source": "giza-cult-town",
+              "locator": "Construction to cult-service interpretation"
+            }
+          ],
+          "section": "Providing for the dead",
+          "sectionCitations": [
+            {
+              "source": "met-543914",
+              "locator": "Description; audio transcript; Artwork Details"
+            },
+            {
+              "source": "old-kingdom",
+              "locator": "Dynasty 3 offering chapels; Dynasty 5 daily-life scenes"
+            }
+          ]
+        },
+        {
+          "subject": "skara-brae",
+          "interval": "c. 3180–2500 BCE",
+          "place": "Sandwick, Orkney, Scotland",
+          "citations": [
+            {
+              "source": "skara-significance-2024",
+              "locator": "Printed pp. 17,61–62 and67–69"
+            }
+          ],
+          "section": "Rebuilding changed the available space",
+          "sectionCitations": [
+            {
+              "source": "skara-significance-2024",
+              "locator": "Printed pp. 17 and61–62: house sequence and changing passages"
+            },
+            {
+              "source": "skara-significance-2024",
+              "locator": "Printed p. 17: modeled occupation sequence"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#old-kingdom--skara-brae",
+      "defaultFrom": []
+    },
+    {
+      "id": "uluburun--shang-ritual",
+      "subjects": ["uluburun", "shang-ritual"],
+      "question": "How do cargo and ritual objects reveal different stages of skilled work?",
+      "selectedDimension": "production",
+      "sharedDimensions": ["evidence", "production", "coordination"],
+      "evidence": [
+        {
+          "subject": "uluburun",
+          "interval": "c. 1320 BCE ±15 years",
+          "place": "Off Kaş, eastern Mediterranean coast of Türkiye",
+          "citations": [
+            {
+              "source": "uluburun",
+              "locator": "Hull and cargo"
+            }
+          ],
+          "section": "One archaeological association, several kinds of work",
+          "sectionCitations": [
+            {
+              "source": "uluburun",
+              "locator": "Date header; cargo and economic exchange"
+            }
+          ]
+        },
+        {
+          "subject": "shang-ritual",
+          "interval": "c. 1600–1046 BCE",
+          "place": "Yellow River region; Anyang as a late center",
+          "citations": [
+            {
+              "source": "shang-zhou",
+              "locator": "Casting technique and motifs"
+            }
+          ],
+          "section": "Casting put several skills into one vessel",
+          "sectionCitations": [
+            {
+              "source": "shang-zhou",
+              "locator": "Piece-mold process and decoration"
+            },
+            {
+              "source": "met-44781",
+              "locator": "Description and Artwork Details"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#uluburun--shang-ritual",
+      "defaultFrom": ["uluburun", "shang-ritual"]
+    },
+    {
+      "id": "hattusha-change--uluburun",
+      "subjects": ["hattusha-change", "uluburun"],
+      "question": "What can a capital and a shipwreck tell us about changing networks?",
+      "selectedDimension": "coordination",
+      "sharedDimensions": ["evidence", "production", "coordination"],
+      "evidence": [
+        {
+          "subject": "hattusha-change",
+          "interval": "13th century BCE, approaching c. 1200",
+          "place": "Central Anatolia, present-day Türkiye",
+          "citations": [
+            {
+              "source": "hattusha-dai",
+              "locator": "Capital, cult centre and administrative archives"
+            }
+          ],
+          "section": "Food could be stored, but resilience had limits",
+          "sectionCitations": [
+            {
+              "source": "hittite-drought",
+              "locator": "Printed pp. 720–722, subsistence/storage and Discussion"
+            }
+          ]
+        },
+        {
+          "subject": "uluburun",
+          "interval": "c. 1320 BCE ±15 years",
+          "place": "Off Kaş, eastern Mediterranean coast of Türkiye",
+          "citations": [
+            {
+              "source": "uluburun",
+              "locator": "Hull, cargo and personal effects"
+            }
+          ],
+          "section": "One archaeological association, several kinds of work",
+          "sectionCitations": [
+            {
+              "source": "uluburun",
+              "locator": "Date header; cargo and economic exchange"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#hattusha-change--uluburun",
+      "defaultFrom": ["hattusha-change"]
+    },
+    {
+      "id": "kerma-potters--olmec",
+      "subjects": ["kerma-potters", "olmec"],
+      "question": "How do material choices reveal skills and connections?",
+      "selectedDimension": "material-work",
+      "sharedDimensions": ["evidence", "production", "material-work"],
+      "evidence": [
+        {
+          "subject": "kerma-potters",
+          "interval": "c. 2050–1500 BCE",
+          "place": "Upper Nubia; selected beaker found at Abydos in Egypt",
+          "citations": [
+            {
+              "source": "met-545772",
+              "locator": "Manufacture description"
+            },
+            {
+              "source": "kerma-doukki-aibl",
+              "locator": "La ville antique de Kerma"
+            },
+            {
+              "source": "kerma-city-project",
+              "locator": "City of Kerma: houses"
+            }
+          ],
+          "section": "Skilled hands controlled contrasting surfaces",
+          "sectionCitations": [
+            {
+              "source": "met-545772",
+              "locator": "Description paragraphs1–2"
+            }
+          ]
+        },
+        {
+          "subject": "olmec",
+          "interval": "c. 1200–400 BCE",
+          "place": "Gulf Coast and connected Mesoamerican regions",
+          "citations": [
+            {
+              "source": "olmec",
+              "locator": "Potters at San Lorenzo; Ceramic arts"
+            },
+            {
+              "source": "met-314609",
+              "locator": "Description; Artwork Details"
+            }
+          ],
+          "section": "A small body changes the question",
+          "sectionCitations": [
+            {
+              "source": "met-314609",
+              "locator": "Description; Artwork Details"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#kerma-potters--olmec",
+      "defaultFrom": ["kerma-potters", "olmec"]
+    },
+    {
+      "id": "lapita--polynesian-voyaging",
+      "subjects": ["lapita", "polynesian-voyaging"],
+      "question": "What evidence supports an account of movement across water?",
+      "selectedDimension": "evidence",
+      "sharedDimensions": ["evidence", "production"],
+      "evidence": [
+        {
+          "subject": "lapita",
+          "interval": "c. 1500–500 BCE",
+          "place": "Bismarck Archipelago and routes into Remote Oceania",
+          "citations": [
+            {
+              "source": "lapita",
+              "locator": "Pottery"
+            },
+            {
+              "source": "lapita-voyaging",
+              "locator": "Settlement and food"
+            }
+          ],
+          "section": "Settlement joined voyaging with provisioning",
+          "sectionCitations": [
+            {
+              "source": "lapita-voyaging",
+              "locator": "Emergence; Lapita in Remote Oceania; transported foods and differing subsistence interpretations"
+            }
+          ]
+        },
+        {
+          "subject": "polynesian-voyaging",
+          "interval": "Settlement estimate, c.1250–1300 CE",
+          "place": "East Polynesia and Aotearoa New Zealand",
+          "citations": [
+            {
+              "source": "nz-settlement",
+              "locator": "Full story dating methods"
+            }
+          ],
+          "section": "A small trace can test a large date claim",
+          "sectionCitations": [
+            {
+              "source": "voyaging-rat-seeds-2008",
+              "locator": "Results and Discussion; Conclusions"
+            },
+            {
+              "source": "voyaging-chronology-2022",
+              "locator": "PDF pp. 2–3: materials and settlement windows"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#lapita--polynesian-voyaging",
+      "defaultFrom": ["lapita", "polynesian-voyaging"]
+    },
+    {
+      "id": "olmec--poverty-point",
+      "subjects": ["olmec", "poverty-point"],
+      "question": "How did different uses of clay connect skilled work with social or practical needs?",
+      "selectedDimension": "material-work",
+      "sharedDimensions": ["material-work", "maintenance"],
+      "evidence": [
+        {
+          "subject": "olmec",
+          "interval": "c. 1200–400 BCE",
+          "place": "Gulf Coast and connected Mesoamerican regions",
+          "citations": [
+            {
+              "source": "olmec",
+              "locator": "Potters at San Lorenzo; Ceramic arts"
+            },
+            {
+              "source": "met-314609",
+              "locator": "Description; Artwork Details"
+            }
+          ],
+          "section": "A small body changes the question",
+          "sectionCitations": [
+            {
+              "source": "met-314609",
+              "locator": "Description; Artwork Details"
+            }
+          ]
+        },
+        {
+          "subject": "poverty-point",
+          "interval": "Main earthwork complex, c. 1700–1100 BCE",
+          "place": "Macon Ridge, northeastern Louisiana, United States",
+          "citations": [
+            {
+              "source": "pp-louisiana",
+              "locator": "Printed pp. 5–7 and 24–25"
+            },
+            {
+              "source": "pp-gibson",
+              "locator": "Printed p21: modern experiments and Figure 10"
+            }
+          ],
+          "section": "Soil could help turn gathered food into meals",
+          "sectionCitations": [
+            {
+              "source": "pp-louisiana",
+              "locator": "Printed p. 7: food and preservation; pp. 24–25: heating objects"
+            },
+            {
+              "source": "pp-gibson",
+              "locator": "Food Preparation, printed p21 and Figure 10"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#olmec--poverty-point",
+      "defaultFrom": ["poverty-point"]
+    },
+    {
+      "id": "lapita--poverty-point",
+      "subjects": ["lapita", "poverty-point"],
+      "question": "How can material observations and dated contexts distinguish a making technique, a practical use and a proposed connection?",
+      "selectedDimension": "material-work",
+      "sharedDimensions": ["material-work"],
+      "evidence": [
+        {
+          "subject": "lapita",
+          "interval": "c. 1500–500 BCE",
+          "place": "Bismarck Archipelago and routes into Remote Oceania",
+          "citations": [
+            {
+              "source": "lapita",
+              "locator": "Ceramic technique and proposed uses"
+            },
+            {
+              "source": "lapita-rove-temper",
+              "locator": "Published abstract"
+            },
+            {
+              "source": "lapita-teouma-diet",
+              "locator": "Conclusions"
+            }
+          ],
+          "section": "Potters also worked with local materials",
+          "sectionCitations": [
+            {
+              "source": "lapita-rove-temper",
+              "locator": "Published abstract: local temper groups and three nonlocal sherds"
+            }
+          ]
+        },
+        {
+          "subject": "poverty-point",
+          "interval": "Main earthwork complex, c. 1700–1100 BCE",
+          "place": "Macon Ridge, northeastern Louisiana, United States",
+          "citations": [
+            {
+              "source": "pp-louisiana",
+              "locator": "Printed pp. 5–7 and 24–25"
+            },
+            {
+              "source": "pp-gibson",
+              "locator": "Printed p21: modern experiments and Figure 10"
+            }
+          ],
+          "section": "Soil could help turn gathered food into meals",
+          "sectionCitations": [
+            {
+              "source": "pp-louisiana",
+              "locator": "Printed p. 7: food and preservation; pp. 24–25: heating objects"
+            },
+            {
+              "source": "pp-gibson",
+              "locator": "Food Preparation, printed p21 and Figure 10"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#lapita--poverty-point",
+      "defaultFrom": []
+    },
+    {
+      "id": "qin-administration--ashoka-messages",
+      "subjects": ["qin-administration", "ashoka-messages"],
+      "question": "How did a common rule become local administrative work?",
+      "selectedDimension": "coordination",
+      "sharedDimensions": ["participation", "evidence", "coordination"],
+      "evidence": [
+        {
+          "subject": "qin-administration",
+          "interval": "Imperial Qin frame, 221–206 BCE",
+          "place": "Qin imperial administration; local evidence at Liye, Hunan, China",
+          "citations": [
+            {
+              "source": "qin-practice",
+              "locator": "Printed pp. 157 and 169–170"
+            }
+          ],
+          "section": "A local office had to make records usable",
+          "sectionCitations": [
+            {
+              "source": "qin-practice",
+              "locator": "Printed pp. 147–153; §3 grain disbursal tallies"
+            }
+          ]
+        },
+        {
+          "subject": "ashoka-messages",
+          "interval": "Ashoka, c. 268–232 BCE",
+          "place": "South Asia; locator at Sarnath, one pillar site",
+          "citations": [
+            {
+              "source": "ashoka-edicts-1925",
+              "locator": "Girnar II; Dhauli Separate I"
+            }
+          ],
+          "section": "Officials were told how to exercise power",
+          "sectionCitations": [
+            {
+              "source": "ashoka-edicts-1925",
+              "locator": "Printed pp. 95–97, Dhauli Separate I"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#qin-administration--ashoka-messages",
+      "defaultFrom": ["ashoka-messages", "qin-administration"]
+    },
+    {
+      "id": "ashoka-messages--athens-water",
+      "subjects": ["ashoka-messages", "athens-water"],
+      "question": "How do public messages and public work reveal different political powers?",
+      "selectedDimension": "participation",
+      "sharedDimensions": ["participation", "coordination"],
+      "evidence": [
+        {
+          "subject": "ashoka-messages",
+          "interval": "Ashoka, c. 268–232 BCE",
+          "place": "South Asia; locator at Sarnath, one pillar site",
+          "citations": [
+            {
+              "source": "ashoka",
+              "locator": "Dharma and languages"
+            }
+          ],
+          "section": "The announced actions were practical",
+          "sectionCitations": [
+            {
+              "source": "ashoka-edicts-1925",
+              "locator": "Printed pp. 3–4, Girnar II, sections A–D"
+            }
+          ]
+        },
+        {
+          "subject": "athens-water",
+          "interval": "Sixth–fourth centuries BCE",
+          "place": "Athens, Greece",
+          "citations": [
+            {
+              "source": "agora-women",
+              "locator": "Printed pp7–11"
+            }
+          ],
+          "section": "Water connected households with public space",
+          "sectionCitations": [
+            {
+              "source": "agora-women",
+              "locator": "Printed pp. 7–11, fountain house and public space"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#ashoka-messages--athens-water",
+      "defaultFrom": ["athens-water"]
+    },
+    {
+      "id": "nimrud-palace--ashoka-messages",
+      "subjects": ["nimrud-palace", "ashoka-messages"],
+      "question": "How do rulers address different audiences in stone?",
+      "selectedDimension": "participation",
+      "sharedDimensions": ["participation", "evidence"],
+      "evidence": [
+        {
+          "subject": "nimrud-palace",
+          "interval": "Reign of Ashurnasirpal II, 883–859 BCE",
+          "place": "Nimrud, northern Iraq",
+          "citations": [
+            {
+              "source": "nimrud",
+              "locator": "Standard Inscription"
+            }
+          ],
+          "section": "The king claims a city",
+          "sectionCitations": [
+            {
+              "source": "nimrud-standard-inscription",
+              "locator": "Q004477, lines 1–5a, 14b–17a and 17b–22"
+            }
+          ]
+        },
+        {
+          "subject": "ashoka-messages",
+          "interval": "Ashoka, c. 268–232 BCE",
+          "place": "South Asia; locator at Sarnath, one pillar site",
+          "citations": [
+            {
+              "source": "ashoka",
+              "locator": "Dharma and languages"
+            }
+          ],
+          "section": "A message needed a local audience",
+          "sectionCitations": [
+            {
+              "source": "ashoka",
+              "locator": "Inscriptions, languages, Pataliputra and Kandahar"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#nimrud-palace--ashoka-messages",
+      "defaultFrom": []
+    },
+    {
+      "id": "athens-water--qin-administration",
+      "subjects": ["athens-water", "qin-administration"],
+      "question": "How does everyday work test a government’s claims?",
+      "selectedDimension": "coordination",
+      "sharedDimensions": ["participation", "coordination"],
+      "evidence": [
+        {
+          "subject": "athens-water",
+          "interval": "Sixth–fourth centuries BCE",
+          "place": "Athens, Greece",
+          "citations": [
+            {
+              "source": "agora-women",
+              "locator": "Printed pp. 7–11"
+            }
+          ],
+          "section": "Water connected households with public space",
+          "sectionCitations": [
+            {
+              "source": "agora-women",
+              "locator": "Printed pp. 7–11, fountain house and public space"
+            }
+          ]
+        },
+        {
+          "subject": "qin-administration",
+          "interval": "Imperial Qin frame, 221–206 BCE",
+          "place": "Qin imperial administration; local evidence at Liye, Hunan, China",
+          "citations": [
+            {
+              "source": "qin-practice",
+              "locator": "Printed pp. 157 and 169–170"
+            }
+          ],
+          "section": "Uniformity had practical limits",
+          "sectionCitations": [
+            {
+              "source": "qin-practice",
+              "locator": "Printed pp. 169–170, Conclusions"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#athens-water--qin-administration",
+      "defaultFrom": []
+    },
+    {
+      "id": "taharqo--maya-vessel",
+      "subjects": ["taharqo", "maya-vessel"],
+      "question": "How can an object express rank and religious authority?",
+      "selectedDimension": "participation",
+      "sharedDimensions": ["participation", "evidence"],
+      "evidence": [
+        {
+          "subject": "taharqo",
+          "interval": "Taharqo’s reign, c. 690–664 BCE",
+          "place": "Nuri and the Nile valley; present-day Sudan and Egypt",
+          "citations": [
+            {
+              "source": "met-544883",
+              "locator": "Description"
+            }
+          ],
+          "section": "Work imagined beyond life",
+          "sectionCitations": [
+            {
+              "source": "met-544883",
+              "locator": "Description and Artwork Details: date, material, height, probable geography"
+            },
+            {
+              "source": "shabti-context",
+              "locator": "Description of accession 26.7.919; general shabti labor-spell context only"
+            }
+          ]
+        },
+        {
+          "subject": "maya-vessel",
+          "interval": "Seventh–eighth centuries CE",
+          "place": "Mesoamerica; proposed Tabasco association",
+          "citations": [
+            {
+              "source": "met-316711",
+              "locator": "Text and image"
+            }
+          ],
+          "section": "Naming a relationship",
+          "sectionCitations": [
+            {
+              "source": "met-316711",
+              "locator": "Description: ownership text; text-image relationship; polity paragraph"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#taharqo--maya-vessel",
+      "defaultFrom": []
+    },
+    {
+      "id": "chavin-textile--inca-weaving",
+      "subjects": ["chavin-textile", "inca-weaving"],
+      "question": "How do textiles join skilled work to social meaning?",
+      "selectedDimension": "production",
+      "sharedDimensions": ["evidence", "production"],
+      "evidence": [
+        {
+          "subject": "chavin-textile",
+          "interval": "Fourth–third centuries BCE",
+          "place": "Peru; said to come from the southern coast",
+          "citations": [
+            {
+              "source": "met-315784",
+              "locator": "Medium and description"
+            }
+          ],
+          "section": "A surface was made before an image was painted",
+          "sectionCitations": [
+            {
+              "source": "met-315784",
+              "locator": "Medium; Description paragraphs 1–2; existing photograph"
+            },
+            {
+              "source": "chavin-weaving-abstraction",
+              "locator": "Printed p. 8, Fig. 3 and adjacent paragraph"
+            }
+          ]
+        },
+        {
+          "subject": "inca-weaving",
+          "interval": "Tunic catalogue range, 1450–1550 CE",
+          "place": "Peru; highland technique and coastal comparisons",
+          "citations": [
+            {
+              "source": "met-313152",
+              "locator": "Medium and construction"
+            }
+          ],
+          "section": "Start with the garment’s construction",
+          "sectionCitations": [
+            {
+              "source": "met-313152",
+              "locator": "Description and artwork details, accession 1979.206.954"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#chavin-textile--inca-weaving",
+      "defaultFrom": []
+    },
+    {
+      "id": "byzantium--tang-city",
+      "subjects": ["byzantium", "tang-city"],
+      "question": "How do capitals and institutions change within long political histories?",
+      "selectedDimension": "evidence",
+      "sharedDimensions": ["participation", "evidence"],
+      "evidence": [
+        {
+          "subject": "byzantium",
+          "interval": "Conventional frame, 330–1453 CE",
+          "place": "Constantinople, present-day Istanbul; territories varied",
+          "citations": [
+            {
+              "source": "met-464428",
+              "locator": "Description and date"
+            }
+          ],
+          "section": "Keeping the wider history in view",
+          "sectionCitations": [
+            {
+              "source": "byzantium",
+              "locator": "Opening; Beginning; Latin Occupation; Late Byzantium"
+            }
+          ]
+        },
+        {
+          "subject": "tang-city",
+          "interval": "Tang dynastic frame, 618–907 CE",
+          "place": "Chang’an, present-day Xi’an, China",
+          "citations": [
+            {
+              "source": "met-44800",
+              "locator": "Artwork details"
+            }
+          ],
+          "section": "Walls and gates shaped an ordinary errand",
+          "sectionCitations": [
+            {
+              "source": "tang-wards",
+              "locator": "One-page summary, ward/curfew and reconstruction paragraphs"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#byzantium--tang-city",
+      "defaultFrom": ["tang-city"]
+    },
+    {
+      "id": "abbasid-craft--song-art",
+      "subjects": ["abbasid-craft", "song-art"],
+      "question": "How do materials and institutions shape artistic production?",
+      "selectedDimension": "production",
+      "sharedDimensions": ["production"],
+      "evidence": [
+        {
+          "subject": "abbasid-craft",
+          "interval": "Abbasid rule in Baghdad: conventional frame, 750–1258 CE",
+          "place": "Baghdad and Samarra, Iraq",
+          "citations": [
+            {
+              "source": "met-452833",
+              "locator": "Medium and geography"
+            }
+          ],
+          "section": "The bowl’s surface required decisions and skill",
+          "sectionCitations": [
+            {
+              "source": "met-452833",
+              "locator": "Description, medium, inscription and Iraq attribution"
+            },
+            {
+              "source": "abbasid-workshops",
+              "locator": "Investment and lustre-technique discussion"
+            }
+          ]
+        },
+        {
+          "subject": "song-art",
+          "interval": "Song dynastic frame, 960–1279 CE",
+          "place": "China; Northern capital at Kaifeng, later southern court",
+          "citations": [
+            {
+              "source": "met-42455",
+              "locator": "Medium"
+            }
+          ],
+          "section": "A bowl begins with work, rather than a dynasty label",
+          "sectionCitations": [
+            {
+              "source": "met-42455",
+              "locator": "Artwork details, accession 91.1.226 and supplied image"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#abbasid-craft--song-art",
+      "defaultFrom": []
+    },
+    {
+      "id": "tang-city--abbasid-craft",
+      "subjects": ["tang-city", "abbasid-craft"],
+      "question": "How do capitals organize access, skill and resources while political authority changes?",
+      "selectedDimension": "coordination",
+      "sharedDimensions": ["evidence", "coordination"],
+      "evidence": [
+        {
+          "subject": "tang-city",
+          "interval": "Tang dynastic frame, 618–907 CE",
+          "place": "Chang’an, present-day Xi’an, China",
+          "citations": [
+            {
+              "source": "tang",
+              "locator": "Institutions"
+            },
+            {
+              "source": "tang-wards",
+              "locator": "Wards and curfew"
+            },
+            {
+              "source": "tang-changan",
+              "locator": "Xuanzang"
+            }
+          ],
+          "section": "Walls and gates shaped an ordinary errand",
+          "sectionCitations": [
+            {
+              "source": "tang-wards",
+              "locator": "One-page summary, ward/curfew and reconstruction paragraphs"
+            }
+          ]
+        },
+        {
+          "subject": "abbasid-craft",
+          "interval": "Abbasid rule in Baghdad: conventional frame, 750–1258 CE",
+          "place": "Baghdad and Samarra, Iraq",
+          "citations": [
+            {
+              "source": "abbasid",
+              "locator": "Capital and political phases"
+            },
+            {
+              "source": "abbasid-workshops",
+              "locator": "Production investment"
+            },
+            {
+              "source": "met-451400",
+              "locator": "Artwork details"
+            }
+          ],
+          "section": "Political authority changed before the final date",
+          "sectionCitations": [
+            {
+              "source": "abbasid",
+              "locator": "Changing authority and later Baghdad"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#tang-city--abbasid-craft",
+      "defaultFrom": []
+    },
+    {
+      "id": "abbasid-craft--nalanda",
+      "subjects": ["abbasid-craft", "nalanda"],
+      "question": "How do different institutions support skilled work and learning?",
+      "selectedDimension": "coordination",
+      "sharedDimensions": ["production", "evidence", "coordination"],
+      "evidence": [
+        {
+          "subject": "abbasid-craft",
+          "interval": "Abbasid rule in Baghdad: conventional frame, 750–1258 CE",
+          "place": "Baghdad and Samarra, Iraq",
+          "citations": [
+            {
+              "source": "abbasid",
+              "locator": "Capital and political phases"
+            },
+            {
+              "source": "abbasid-workshops",
+              "locator": "Production investment"
+            },
+            {
+              "source": "met-451400",
+              "locator": "Artwork details"
+            }
+          ],
+          "section": "Books also depended on skilled production",
+          "sectionCitations": [
+            {
+              "source": "met-451400",
+              "locator": "Description and artwork details; 57.51.21"
+            }
+          ]
+        },
+        {
+          "subject": "nalanda",
+          "interval": "Monastic and scholastic institution, fifth–thirteenth centuries CE",
+          "place": "Nalanda, Bihar, India",
+          "citations": [
+            {
+              "source": "yijing-1896",
+              "locator": "Printed pp. 65, 154–155 and 176–177"
+            },
+            {
+              "source": "nalanda",
+              "locator": "Brief synthesis and Integrity"
+            }
+          ],
+          "section": "Learning required support beyond a teaching hall",
+          "sectionCitations": [
+            {
+              "source": "yijing-1896",
+              "locator": "Printed p. 65: Nalanda and endowed villages"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#abbasid-craft--nalanda",
+      "defaultFrom": ["abbasid-craft", "nalanda"]
+    },
+    {
+      "id": "borobudur--nalanda",
+      "subjects": ["borobudur", "nalanda"],
+      "question": "How can a built place organize religious life and learning?",
+      "selectedDimension": "production",
+      "sharedDimensions": ["evidence", "production"],
+      "evidence": [
+        {
+          "subject": "borobudur",
+          "interval": "Built in the eighth–ninth centuries CE",
+          "place": "Kedu Valley, Central Java, Indonesia",
+          "citations": [
+            {
+              "source": "borobudur",
+              "locator": "Architectural description"
+            }
+          ],
+          "section": "Moving water required continued work",
+          "sectionCitations": [
+            {
+              "source": "borobudur-drainage-2018",
+              "locator": "Borobudur-specific drainage paragraphs"
+            },
+            {
+              "source": "borobudur",
+              "locator": "Authenticity: twentieth-century restoration"
+            },
+            {
+              "source": "borobudur-photo-image",
+              "locator": "Inspected 2008 source photograph"
+            }
+          ]
+        },
+        {
+          "subject": "nalanda",
+          "interval": "Monastic and scholastic institution, fifth–thirteenth centuries CE",
+          "place": "Nalanda, Bihar, India",
+          "citations": [
+            {
+              "source": "nalanda",
+              "locator": "Brief synthesis"
+            }
+          ],
+          "section": "Learning required support beyond a teaching hall",
+          "sectionCitations": [
+            {
+              "source": "yijing-1896",
+              "locator": "Printed p. 65: Nalanda and endowed villages"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#borobudur--nalanda",
+      "defaultFrom": []
+    },
+    {
+      "id": "mali-networks--middle-niger",
+      "subjects": ["mali-networks", "middle-niger"],
+      "question": "What different forms of authority can an urban network support?",
+      "selectedDimension": "participation",
+      "sharedDimensions": ["participation", "evidence"],
+      "evidence": [
+        {
+          "subject": "mali-networks",
+          "interval": "Mali political frame, c.1230–1600 CE",
+          "place": "Western Sahel; locator at Timbuktu, Mali",
+          "citations": [
+            {
+              "source": "sahel",
+              "locator": "Sahelian Narratives"
+            }
+          ],
+          "section": "Cities had histories before this empire",
+          "sectionCitations": [
+            {
+              "source": "sahel",
+              "locator": "Ancient Mali and Middle Niger Civilization; Archaeology"
+            }
+          ]
+        },
+        {
+          "subject": "middle-niger",
+          "interval": "Thirteenth century CE",
+          "place": "Inland Niger Delta, present-day Mali",
+          "citations": [
+            {
+              "source": "sahel-visual",
+              "locator": "McIntosh discussion"
+            }
+          ],
+          "section": "Organization is a question to investigate",
+          "sectionCitations": [
+            {
+              "source": "sahel-visual",
+              "locator": "Selected Middle Niger/McIntosh discussion"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#mali-networks--middle-niger",
+      "defaultFrom": ["mali-networks", "middle-niger"]
+    },
+    {
+      "id": "song-art--inca-weaving",
+      "subjects": ["song-art", "inca-weaving"],
+      "question": "How can we test a claim that an obligation benefited the people doing the work?",
+      "selectedDimension": "obligation",
+      "sharedDimensions": ["production", "obligation"],
+      "evidence": [
+        {
+          "subject": "song-art",
+          "interval": "Song dynastic frame, 960–1279 CE",
+          "place": "China; Northern capital at Kaifeng, later southern court",
+          "citations": [
+            {
+              "source": "song-crop-loans",
+              "locator": "Longer selection"
+            }
+          ],
+          "section": "A proposal tried to alter the timing of debt",
+          "sectionCitations": [
+            {
+              "source": "song-crop-loans",
+              "locator": "Longer selection: 1069 memorial, reserves, loans and repayment"
+            }
+          ]
+        },
+        {
+          "subject": "inca-weaving",
+          "interval": "Tunic catalogue range, 1450–1550 CE",
+          "place": "Peru; highland technique and coastal comparisons",
+          "citations": [
+            {
+              "source": "inka-labor",
+              "locator": "Mit’a/Ayni"
+            },
+            {
+              "source": "yanawilka-food",
+              "locator": "Introduction and Discussion"
+            },
+            {
+              "source": "met-313152",
+              "locator": "Description"
+            }
+          ],
+          "section": "Work could be demanded in different ways",
+          "sectionCitations": [
+            {
+              "source": "inka-labor",
+              "locator": "Mit’a and Ayni"
+            },
+            {
+              "source": "inka-regional",
+              "locator": "Economía, Arte and Organización Social"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#song-art--inca-weaving",
+      "defaultFrom": ["song-art", "inca-weaving"]
+    },
+    {
+      "id": "portuguese-voyage--benin-ivory",
+      "subjects": ["portuguese-voyage", "benin-ivory"],
+      "question": "How did makers and intermediaries shape an encounter beyond a patron’s or captain’s instructions?",
+      "selectedDimension": "mediation",
+      "sharedDimensions": ["evidence", "mediation"],
+      "evidence": [
+        {
+          "subject": "portuguese-voyage",
+          "interval": "1497–1499 CE",
+          "place": "Lisbon, Cape route and Calicut (Kozhikode)",
+          "citations": [
+            {
+              "source": "gama-journal-1898",
+              "locator": "Printed pp. 39–57"
+            }
+          ],
+          "section": "Help and coercion appear in the same account",
+          "sectionCitations": [
+            {
+              "source": "gama-journal-1898",
+              "locator": "Printed pp. 39–46"
+            }
+          ]
+        },
+        {
+          "subject": "benin-ivory",
+          "interval": "c. 1525–1600 CE",
+          "place": "Court of Benin(?), present-day Nigeria",
+          "citations": [
+            {
+              "source": "ivories",
+              "locator": "Models and commissions"
+            },
+            {
+              "source": "met-309900",
+              "locator": "Attribution"
+            }
+          ],
+          "section": "A customer’s request still needed a maker’s decisions",
+          "sectionCitations": [
+            {
+              "source": "ivories",
+              "locator": "Commissioning and apprenticeship"
+            },
+            {
+              "source": "met-309900",
+              "locator": "Attribution and iconography"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#portuguese-voyage--benin-ivory",
+      "defaultFrom": ["portuguese-voyage"]
+    },
+    {
+      "id": "portuguese-voyage--kongo-translation",
+      "subjects": ["portuguese-voyage", "kongo-translation"],
+      "question": "What distinguishes enabling communication from establishing free choice or protection?",
+      "selectedDimension": "mediation",
+      "sharedDimensions": ["evidence", "mediation"],
+      "evidence": [
+        {
+          "subject": "portuguese-voyage",
+          "interval": "1497–1499 CE",
+          "place": "Lisbon, Cape route and Calicut (Kozhikode)",
+          "citations": [
+            {
+              "source": "gama-journal-1898",
+              "locator": "Printed pp. 39–57"
+            }
+          ],
+          "section": "Calicut required several kinds of interpretation",
+          "sectionCitations": [
+            {
+              "source": "gama-journal-1898",
+              "locator": "Printed pp. 47–57"
+            }
+          ]
+        },
+        {
+          "subject": "kongo-translation",
+          "interval": "From the royal baptism of 1491 CE",
+          "place": "Mbanza Kongo and surrounding Central African regions",
+          "citations": [
+            {
+              "source": "kongo-christianity",
+              "locator": "Translation"
+            },
+            {
+              "source": "afonso-letters-1526",
+              "locator": "Selected letters"
+            }
+          ],
+          "section": "Afonso’s letters sought a response to kidnapping",
+          "sectionCitations": [
+            {
+              "source": "afonso-letters-1526",
+              "locator": "6 July and 18 October 1526 selections"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#portuguese-voyage--kongo-translation",
+      "defaultFrom": []
+    },
+    {
+      "id": "mali-networks--inca-weaving",
+      "subjects": ["mali-networks", "inca-weaving"],
+      "question": "What can royal images and finished objects reveal about workers, and whose voices are missing?",
+      "selectedDimension": "obligation",
+      "sharedDimensions": ["evidence", "obligation"],
+      "evidence": [
+        {
+          "subject": "mali-networks",
+          "interval": "Mali political frame, c.1230–1600 CE",
+          "place": "Western Sahel; locator at Timbuktu, Mali",
+          "citations": [
+            {
+              "source": "caravans-fragments",
+              "locator": "Printed pp. 26–29"
+            },
+            {
+              "source": "catalan-block",
+              "locator": "Object 26"
+            }
+          ],
+          "section": "A pilgrimage and a later map have separate dates",
+          "sectionCitations": [
+            {
+              "source": "sahel",
+              "locator": "Islam: 1324 pilgrimage"
+            },
+            {
+              "source": "catalan-block",
+              "locator": "Object 26 attribution, audience and imagery"
+            },
+            {
+              "source": "sahel-visual",
+              "locator": "Malian Emperor Mansa Musa section"
+            }
+          ]
+        },
+        {
+          "subject": "inca-weaving",
+          "interval": "Tunic catalogue range, 1450–1550 CE",
+          "place": "Peru; highland technique and coastal comparisons",
+          "citations": [
+            {
+              "source": "inka-labor",
+              "locator": "Mit’a/Ayni"
+            },
+            {
+              "source": "yanawilka-food",
+              "locator": "Introduction and Discussion"
+            },
+            {
+              "source": "met-313152",
+              "locator": "Description"
+            }
+          ],
+          "section": "Work could be demanded in different ways",
+          "sectionCitations": [
+            {
+              "source": "inka-labor",
+              "locator": "Mit’a and Ayni"
+            },
+            {
+              "source": "inka-regional",
+              "locator": "Economía, Arte and Organización Social"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#mali-networks--inca-weaving",
+      "defaultFrom": []
+    },
+    {
+      "id": "angkor--dholavira",
+      "subjects": ["angkor", "dholavira"],
+      "question": "How does water shape a city’s work and organization?",
+      "selectedDimension": "evidence",
+      "sharedDimensions": ["evidence"],
+      "evidence": [
+        {
+          "subject": "angkor",
+          "interval": "Successive capital landscapes, ninth–fifteenth centuries CE",
+          "place": "Siem Reap region, Cambodia",
+          "citations": [
+            {
+              "source": "angkor",
+              "locator": "Successive capitals"
+            }
+          ],
+          "section": "How a water network works",
+          "sectionCitations": [
+            {
+              "source": "angkor-network",
+              "locator": "Angkor’s water distribution network; modeling framework"
+            }
+          ]
+        },
+        {
+          "subject": "dholavira",
+          "interval": "c. 3000–1500 BCE",
+          "place": "Khadir island, Gujarat, India",
+          "citations": [
+            {
+              "source": "dholavira",
+              "locator": "Archaeological remains"
+            },
+            {
+              "source": "met-324062",
+              "locator": "Title and inscription"
+            }
+          ],
+          "section": "Read components before drawing a complete system",
+          "sectionCitations": [
+            {
+              "source": "dholavira-plan",
+              "locator": "PDF p. 1, components C1, C5–C7 and reservoir labels"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#angkor--dholavira",
+      "defaultFrom": ["angkor"]
+    },
+    {
+      "id": "factory-reform--hine-labor",
+      "subjects": ["factory-reform", "hine-labor"],
+      "question": "What is the difference between documenting work and changing its conditions?",
+      "selectedDimension": "work-organization",
+      "sharedDimensions": ["work-organization", "production"],
+      "evidence": [
+        {
+          "subject": "factory-reform",
+          "interval": "Act in 1833; inspector evidence in 1836",
+          "place": "British textile factories; locator near Manchester",
+          "citations": [
+            {
+              "source": "factory-quarry-bank-context",
+              "locator": "Production, housing and apprenticeships"
+            },
+            {
+              "source": "factory-act-1833-primary",
+              "locator": "Clauses XVII–XXI"
+            },
+            {
+              "source": "factory-inspection-1836",
+              "locator": "Particular investigation"
+            },
+            {
+              "source": "factory-hansard-1836",
+              "locator": "Hindley quoting Howell, c768"
+            }
+          ],
+          "section": "An inspector had to investigate what happened",
+          "sectionCitations": [
+            {
+              "source": "factory-act-1833-primary",
+              "locator": "PDF 6: clauses XVII–XVIII"
+            },
+            {
+              "source": "factory-inspection-1836",
+              "locator": "Lesson PDF, printed p. 9, Source 1 transcript"
+            }
+          ]
+        },
+        {
+          "subject": "hine-labor",
+          "interval": "3 December 1908",
+          "place": "Newberry, South Carolina, United States",
+          "citations": [
+            {
+              "source": "hine",
+              "locator": "Photograph and indexed caption title"
+            },
+            {
+              "source": "hine-nclc-collection",
+              "locator": "Background and Scope; The Photo Captions"
+            },
+            {
+              "source": "hine-federal-administration-1921",
+              "locator": "Printed pp.15–17 and 75–76; HTML transcription"
+            }
+          ],
+          "section": "A rule needed records and inspectors",
+          "sectionCitations": [
+            {
+              "source": "hine-keating-owen-1916",
+              "locator": "Transcript, sections 1, 3, 5 and 7"
+            },
+            {
+              "source": "hine-federal-administration-1921",
+              "locator": "Printed pp.11 and 15–17; HTML transcription"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#factory-reform--hine-labor",
+      "defaultFrom": []
+    },
+    {
+      "id": "tomioka--hine-labor",
+      "subjects": ["tomioka", "hine-labor"],
+      "question": "How do factory systems organize skill and labor?",
+      "selectedDimension": "work-organization",
+      "sharedDimensions": ["work-organization", "production", "evidence"],
+      "evidence": [
+        {
+          "subject": "tomioka",
+          "interval": "Model mill opened October 1872",
+          "place": "Gunma Prefecture, Japan",
+          "citations": [
+            {
+              "source": "tomioka-instructors-2022",
+              "locator": "Exposed Summary/Introduction"
+            },
+            {
+              "source": "tomioka-local",
+              "locator": "Farmhouses"
+            },
+            {
+              "source": "tomioka-labour-adaptation-1994",
+              "locator": "Selected adaptation and working-hours passages"
+            }
+          ],
+          "section": "A machine still needs practiced hands",
+          "sectionCitations": [
+            {
+              "source": "tomioka-local",
+              "locator": "Tomioka Silk Mill; Women Mill Workers"
+            },
+            {
+              "source": "tomioka-instructors-2022",
+              "locator": "Exposed Summary/Introduction"
+            }
+          ]
+        },
+        {
+          "subject": "hine-labor",
+          "interval": "3 December 1908",
+          "place": "Newberry, South Carolina, United States",
+          "citations": [
+            {
+              "source": "hine",
+              "locator": "Photograph and indexed caption title"
+            },
+            {
+              "source": "hine-nclc-collection",
+              "locator": "Background and Scope; The Photo Captions"
+            },
+            {
+              "source": "hine-federal-administration-1921",
+              "locator": "Printed pp.15–17 and 75–76; HTML transcription"
+            }
+          ],
+          "section": "A caption records a contested explanation",
+          "sectionCitations": [
+            {
+              "source": "hine",
+              "locator": "Indexed caption title: reported conversation; 3 December 1908"
+            },
+            {
+              "source": "hine-mollahan-group",
+              "locator": "Indexed caption title: group, date and named witness"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#tomioka--hine-labor",
+      "defaultFrom": ["hine-labor", "tomioka"]
+    },
+    {
+      "id": "tiriti--partition-1947",
+      "subjects": ["tiriti", "partition-1947"],
+      "question": "What separates an official document from people’s experience of political change?",
+      "selectedDimension": "participation",
+      "sharedDimensions": ["participation", "evidence"],
+      "evidence": [
+        {
+          "subject": "tiriti",
+          "interval": "Initial signing 6 February 1840; further signings through 1840",
+          "place": "Waitangi and signing places across Aotearoa New Zealand",
+          "citations": [
+            {
+              "source": "treaty-signing",
+              "locator": "Circulation and refusal"
+            }
+          ],
+          "section": "Sheets record different decisions",
+          "sectionCitations": [
+            {
+              "source": "tiriti-archive-sheets",
+              "locator": "Introduction; sheets 3, 4 and 7"
+            },
+            {
+              "source": "tiriti-onuku-runanga",
+              "locator": "Historical-place paragraph"
+            }
+          ]
+        },
+        {
+          "subject": "partition-1947",
+          "interval": "Independence and partition, August 1947",
+          "place": "British India, especially Punjab and Bengal",
+          "citations": [
+            {
+              "source": "partition",
+              "locator": "Background and border announcement"
+            }
+          ],
+          "section": "Why Punjab and Bengal need separate attention",
+          "sectionCitations": [
+            {
+              "source": "partition",
+              "locator": "Source 3a and accompanying explanation"
+            },
+            {
+              "source": "partition-map",
+              "locator": "Map key and transcript"
+            },
+            {
+              "source": "partition-oral",
+              "locator": "Ila Banerjee summary"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#tiriti--partition-1947",
+      "defaultFrom": ["tiriti", "partition-1947"]
+    },
+    {
+      "id": "partition-1947--south-africa-rights",
+      "subjects": ["partition-1947", "south-africa-rights"],
+      "question": "What does a new political settlement promise, and what must be investigated afterward?",
+      "selectedDimension": "evidence",
+      "sharedDimensions": ["participation", "evidence"],
+      "evidence": [
+        {
+          "subject": "partition-1947",
+          "interval": "Independence and partition, August 1947",
+          "place": "British India, especially Punjab and Bengal",
+          "citations": [
+            {
+              "source": "partition-army",
+              "locator": "Letters and oral testimony"
+            }
+          ],
+          "section": "What an official report can reveal",
+          "sectionCitations": [
+            {
+              "source": "partition",
+              "locator": "Source 1: DO 142/416, telegram sent 23 September 1947"
+            }
+          ]
+        },
+        {
+          "subject": "south-africa-rights",
+          "interval": "Democratic transition and final constitution, 1994–1997",
+          "place": "South Africa; Sharpeville signing context",
+          "citations": [
+            {
+              "source": "sa-certification",
+              "locator": "Certification procedure, paragraphs 1–7"
+            }
+          ],
+          "section": "A majority needed constitutional limits",
+          "sectionCitations": [
+            {
+              "source": "sa-mandela-constitution",
+              "locator": "8 May 1996 address, pp. 1–2"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#partition-1947--south-africa-rights",
+      "defaultFrom": []
+    },
+    {
+      "id": "world-war-one--world-war-two",
+      "subjects": ["world-war-one", "world-war-two"],
+      "question": "How do institutions and choices turn conflict into mass violence?",
+      "selectedDimension": "participation",
+      "sharedDimensions": ["participation", "evidence"],
+      "evidence": [
+        {
+          "subject": "world-war-one",
+          "interval": "Conventional war frame, 1914–1918",
+          "place": "European crisis with global imperial fronts and labor",
+          "citations": [
+            {
+              "source": "ww1",
+              "locator": "Global war"
+            }
+          ],
+          "section": "A public appeal does not measure its own success",
+          "sectionCitations": [
+            {
+              "source": "war-poster",
+              "locator": "Retained 1917 poster consultation"
+            },
+            {
+              "source": "ww1-birtley-care-letter",
+              "locator": "Selected 1919 care record"
+            }
+          ]
+        },
+        {
+          "subject": "world-war-two",
+          "interval": "Persecution 1933–1945; wider war contexts 1937/1939–1945",
+          "place": "Europe, Asia and wider war zones; locator at Berlin",
+          "citations": [
+            {
+              "source": "holocaust",
+              "locator": "Perpetrators and responses"
+            }
+          ],
+          "section": "Name the crime accurately",
+          "sectionCitations": [
+            {
+              "source": "holocaust",
+              "locator": "Definition, key facts and other victims"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#world-war-one--world-war-two",
+      "defaultFrom": ["world-war-one", "world-war-two"]
+    },
+    {
+      "id": "sputnik--tomioka",
+      "subjects": ["sputnik", "tomioka"],
+      "question": "How does technical change depend on organized work?",
+      "selectedDimension": "production",
+      "sharedDimensions": ["production", "evidence"],
+      "evidence": [
+        {
+          "subject": "sputnik",
+          "interval": "Sputnik 1 launched 4 October 1957",
+          "place": "Launched from Soviet Central Asia, present-day Kazakhstan",
+          "citations": [
+            {
+              "source": "sputnik",
+              "locator": "Historical context"
+            }
+          ],
+          "section": "A signal depended on work on Earth",
+          "sectionCitations": [
+            {
+              "source": "sputnik",
+              "locator": "Opening;Background:IGY"
+            },
+            {
+              "source": "sputnik-siddiqi-igy",
+              "locator": "Labor;Birth:selected calculation/tracking passages"
+            }
+          ]
+        },
+        {
+          "subject": "tomioka",
+          "interval": "Model mill opened October 1872",
+          "place": "Gunma Prefecture, Japan",
+          "citations": [
+            {
+              "source": "tomioka",
+              "locator": "Brief synthesis"
+            }
+          ],
+          "section": "A machine still needs practiced hands",
+          "sectionCitations": [
+            {
+              "source": "tomioka-local",
+              "locator": "Tomioka Silk Mill; Women Mill Workers"
+            },
+            {
+              "source": "tomioka-instructors-2022",
+              "locator": "Exposed Summary/Introduction"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#sputnik--tomioka",
+      "defaultFrom": ["sputnik"]
+    },
+    {
+      "id": "poverty-point--hopewell-earthworks",
+      "subjects": ["poverty-point", "hopewell-earthworks"],
+      "question": "What does coordinated earthmoving show, and what remains uncertain?",
+      "selectedDimension": "coordination",
+      "sharedDimensions": ["coordination", "evidence-limits"],
+      "evidence": [
+        {
+          "subject": "poverty-point",
+          "interval": "Main earthwork complex, c. 1700–1100 BCE",
+          "place": "Macon Ridge, northeastern Louisiana, United States",
+          "citations": [
+            {
+              "source": "pp-nps",
+              "locator": "Earthworks and subsistence"
+            }
+          ],
+          "section": "Moving earth required a sequence of tasks",
+          "sectionCitations": [
+            {
+              "source": "pp-louisiana",
+              "locator": "Printed pp. 10–12: Mounds A andB"
+            }
+          ]
+        },
+        {
+          "subject": "hopewell-earthworks",
+          "interval": "Selected Ohio ceremonial networks, c. 1–400 CE",
+          "place": "Ohio River tributaries; locator at Mound City Group, Ohio, United States",
+          "citations": [
+            {
+              "source": "hopewell-moundcity",
+              "locator": "Ceremonial Gatherings"
+            }
+          ],
+          "section": "Shared places and everyday provision",
+          "sectionCitations": [
+            {
+              "source": "hopewell-nps",
+              "locator": "History & Culture: 1–400 CE focus and broad network"
+            },
+            {
+              "source": "hopewell-moundcity",
+              "locator": "Ceremonial Gatherings"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#poverty-point--hopewell-earthworks",
+      "defaultFrom": ["hopewell-earthworks"]
+    },
+    {
+      "id": "chaco-communities--cahokia-city",
+      "subjects": ["chaco-communities", "cahokia-city"],
+      "question": "How can archaeology test explanations of gathering and change?",
+      "selectedDimension": "place-work",
+      "sharedDimensions": ["place-work", "coordination", "evidence-limits"],
+      "evidence": [
+        {
+          "subject": "chaco-communities",
+          "interval": "Selected Chaco regional context, c. 850–1250 CE",
+          "place": "Chaco Canyon, San Juan Basin, New Mexico, United States",
+          "citations": [
+            {
+              "source": "chaco-pueblo-period",
+              "locator": "Architecture; Environment and Subsistence"
+            },
+            {
+              "source": "chaco-roads",
+              "locator": "Identified segments and function debate"
+            },
+            {
+              "source": "chaco-pueblo-council",
+              "locator": "Page 1, second WHEREAS clause"
+            }
+          ],
+          "section": "Food connected fields, storage and gathering",
+          "sectionCitations": [
+            {
+              "source": "chaco-pueblo-period",
+              "locator": "Environment and Subsistence"
+            },
+            {
+              "source": "chaco-cacao",
+              "locator": "Earlier consultation: sample and interpretation limits"
+            }
+          ]
+        },
+        {
+          "subject": "cahokia-city",
+          "interval": "Selected urban context, c. 1050–1400 CE",
+          "place": "Mississippi River floodplain near present-day Collinsville, Illinois, United States",
+          "citations": [
+            {
+              "source": "cahokia-neighborhoods-2019",
+              "locator": "Publisher abstract"
+            },
+            {
+              "source": "cahokia-copper-2011",
+              "locator": "Selected material and process discussion"
+            },
+            {
+              "source": "cahokia-soils-2021",
+              "locator": "Institutional author-record abstract"
+            }
+          ],
+          "section": "Homes within an urban landscape",
+          "sectionCitations": [
+            {
+              "source": "cahokia-isas-urban-work",
+              "locator": "Ancient Urbanism; Corn and Cuisine paragraphs"
+            },
+            {
+              "source": "cahokia-neighborhoods-2019",
+              "locator": "Publisher abstract"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#chaco-communities--cahokia-city",
+      "defaultFrom": ["chaco-communities", "cahokia-city"]
+    },
+    {
+      "id": "ottoman-workshops--isfahan-silk",
+      "subjects": ["ottoman-workshops", "isfahan-silk"],
+      "question": "How do patrons, markets and unequal power shape craft?",
+      "selectedDimension": "patronage",
+      "sharedDimensions": ["patronage", "inequality", "evidence"],
+      "evidence": [
+        {
+          "subject": "ottoman-workshops",
+          "interval": "Selected Ottoman art and urban contexts, c. 1500–1755",
+          "place": "Istanbul and Iznik, present-day Türkiye; locator at Istanbul",
+          "citations": [
+            {
+              "source": "ottoman-after",
+              "locator": "Court payments and open-market incentives"
+            }
+          ],
+          "section": "Work for patrons and buyers",
+          "sectionCitations": [
+            {
+              "source": "ottoman-iznik-course",
+              "locator": "B.1: mediated Covel market/material account"
+            },
+            {
+              "source": "ottoman-before",
+              "locator": "Multifunctional foundations and provincial production centers"
+            },
+            {
+              "source": "ottoman-after",
+              "locator": "Court-price/open-market explanation; 1748–55 example"
+            }
+          ]
+        },
+        {
+          "subject": "isfahan-silk",
+          "interval": "Selected Safavid capital phase, 1597–98 to 1722",
+          "place": "Isfahan and New Julfa, Iran",
+          "citations": [
+            {
+              "source": "safavid-silk",
+              "locator": "Producer and workshop organization"
+            }
+          ],
+          "section": "A prosperous quarter followed forced movement",
+          "sectionCitations": [
+            {
+              "source": "julfa-forced",
+              "locator": "Origin, settlement, and population; Society and administration"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#ottoman-workshops--isfahan-silk",
+      "defaultFrom": ["ottoman-workshops"]
+    },
+    {
+      "id": "bukhara-books--zand-iran",
+      "subjects": ["bukhara-books", "zand-iran"],
+      "question": "How do changing patrons affect books and decorative arts?",
+      "selectedDimension": "patronage",
+      "sharedDimensions": ["place-work", "patronage", "inequality", "evidence"],
+      "evidence": [
+        {
+          "subject": "bukhara-books",
+          "interval": "Selected Shaibanid and Janid urban contexts, c. 1500–1785",
+          "place": "Bukhara, present-day Uzbekistan",
+          "citations": [
+            {
+              "source": "bukhara-monuments",
+              "locator": "Madrasa and commercial construction"
+            }
+          ],
+          "section": "A book made through several acts",
+          "sectionCitations": [
+            {
+              "source": "met-452671",
+              "locator": "Description; Artwork Details"
+            }
+          ]
+        },
+        {
+          "subject": "zand-iran",
+          "interval": "Selected Zand political and material contexts, 1751–1794",
+          "place": "Shiraz and western Iran; object attributed only to Iran",
+          "citations": [
+            {
+              "source": "met-681122",
+              "locator": "Artist, material and function"
+            }
+          ],
+          "section": "One object, several kinds of evidence",
+          "sectionCitations": [
+            {
+              "source": "met-681122",
+              "locator": "Date; opening description; actual three supplied photographs"
+            },
+            {
+              "source": "zand-history",
+              "locator": "Karim Khan’s death in 1779 and later succession"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#bukhara-books--zand-iran",
+      "defaultFrom": []
+    },
+    {
+      "id": "bering-sea-carvers--inuinnait-sewing",
+      "subjects": ["bering-sea-carvers", "inuinnait-sewing"],
+      "question": "How do tools and clothing carry skilled knowledge?",
+      "selectedDimension": "materials",
+      "sharedDimensions": ["materials", "knowledge", "custody"],
+      "evidence": [
+        {
+          "subject": "bering-sea-carvers",
+          "interval": "Catalogue object date, 300–500 CE; regional chronology debated",
+          "place": "Bering Strait region; object catalogued to Alaska",
+          "citations": [
+            {
+              "source": "met-717577",
+              "locator": "Material and function"
+            }
+          ],
+          "section": "A component, not the whole hunting system",
+          "sectionCitations": [
+            {
+              "source": "met-717577",
+              "locator": "Description: counterweight/stabilizer, walrus ivory and harpoon use"
+            }
+          ]
+        },
+        {
+          "subject": "inuinnait-sewing",
+          "interval": "Selected expedition context, 1913–1916",
+          "place": "Coronation Gulf and Victoria Island region, Canadian Arctic",
+          "citations": [
+            {
+              "source": "inuinnait-patterns",
+              "locator": "Creating Patterns of Change"
+            }
+          ],
+          "section": "Makers research and teach",
+          "sectionCitations": [
+            {
+              "source": "inuinnait-patterns",
+              "locator": "Creating Patterns of Change and Objects bodies"
+            },
+            {
+              "source": "inuinnait-2010s",
+              "locator": "English body: continuing making and materials"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#bering-sea-carvers--inuinnait-sewing",
+      "defaultFrom": ["bering-sea-carvers", "inuinnait-sewing"]
+    },
+    {
+      "id": "ozette-makah--kwakwakawakw-potlatch",
+      "subjects": ["ozette-makah", "kwakwakawakw-potlatch"],
+      "question": "How do surviving belongings relate to community knowledge and authority?",
+      "selectedDimension": "custody",
+      "sharedDimensions": ["materials", "knowledge", "custody"],
+      "evidence": [
+        {
+          "subject": "ozette-makah",
+          "interval": "Reported house-burial estimates: c. 1560 or 1700; disputed",
+          "place": "Ozette, near Cape Alava, Olympic Peninsula, Washington",
+          "citations": [
+            {
+              "source": "ozette-architecture",
+              "locator": "Burial alternatives and excavation"
+            },
+            {
+              "source": "makah-loc",
+              "locator": "Later photograph: date and qualified location"
+            }
+          ],
+          "section": "Belongings stayed in the community",
+          "sectionCitations": [
+            {
+              "source": "ozette-museum",
+              "locator": "Oral history, tribal custody and creation of MCRC"
+            },
+            {
+              "source": "makah-loc",
+              "locator": "Photograph title, date and qualified location"
+            }
+          ]
+        },
+        {
+          "subject": "kwakwakawakw-potlatch",
+          "interval": "Selected legislation and cultural-center history, 1884–1980",
+          "place": "Northern Vancouver Island and adjacent mainland; locator at Alert Bay",
+          "citations": [
+            {
+              "source": "umista-history",
+              "locator": "Return negotiations and descendant decisions"
+            }
+          ],
+          "section": "Return required organization and family decisions",
+          "sectionCitations": [
+            {
+              "source": "umista-history",
+              "locator": "Late 1950s/1960s efforts; 1973–1975 meetings; descendants’ decisions"
+            },
+            {
+              "source": "umista-return-voices",
+              "locator": "Return of the Collection"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#ozette-makah--kwakwakawakw-potlatch",
+      "defaultFrom": ["ozette-makah", "kwakwakawakw-potlatch"]
+    },
+    {
+      "id": "blackfoot-bison--hidatsa-villages",
+      "subjects": ["blackfoot-bison", "hidatsa-villages"],
+      "question": "How do communities coordinate food, work and seasonal knowledge?",
+      "selectedDimension": "knowledge",
+      "sharedDimensions": ["materials", "knowledge", "custody"],
+      "evidence": [
+        {
+          "subject": "blackfoot-bison",
+          "interval": "Selected later hunting context, c. 1700–1850",
+          "place": "Head-Smashed-In, southern Alberta; wider Blackfoot cultural context",
+          "citations": [
+            {
+              "source": "hsi-blackfoot",
+              "locator": "IINI and trade protocols"
+            }
+          ],
+          "section": "Seasonal work and respectful relations connected households",
+          "sectionCitations": [
+            {
+              "source": "blackfoot-collaborative-season",
+              "locator": "Camp Site During Summer;Hunting Buffalo;Drying Meat"
+            },
+            {
+              "source": "hsi-blackfoot",
+              "locator": "Trade;IINI"
+            },
+            {
+              "source": "blackfoot-collaborative-authorship",
+              "locator": "About this Site;Credits"
+            }
+          ]
+        },
+        {
+          "subject": "hidatsa-villages",
+          "interval": "Big Hidatsa village occupation, c. 1600–1845",
+          "place": "Big Hidatsa Village and the Knife–Missouri river confluence, North Dakota",
+          "citations": [
+            {
+              "source": "knife-women",
+              "locator": "Construction, ownership and clan knowledge"
+            }
+          ],
+          "section": "An earthlodge joined construction with household authority",
+          "sectionCitations": [
+            {
+              "source": "knife-women",
+              "locator": "Construction/ownership; clan cooperation; depressions and reconstruction"
+            },
+            {
+              "source": "knife-subsistence",
+              "locator": "Food Storage; tool illustration"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#blackfoot-bison--hidatsa-villages",
+      "defaultFrom": ["blackfoot-bison", "hidatsa-villages"]
+    },
+    {
+      "id": "ocmulgee-council--wendat-laine",
+      "subjects": ["ocmulgee-council", "wendat-laine"],
+      "question": "What can a public building and a village reveal about collective life?",
+      "selectedDimension": "evidence-authority",
+      "sharedDimensions": ["materials", "knowledge", "evidence-authority"],
+      "evidence": [
+        {
+          "subject": "ocmulgee-council",
+          "interval": "Earthlodge construction chronology under revision",
+          "place": "Ocmulgee, beside the Ocmulgee River, present-day Macon, Georgia",
+          "citations": [
+            {
+              "source": "ocmu-chronology",
+              "locator": "Earthlodge results and discussion"
+            }
+          ],
+          "section": "Retained material makes new questions possible",
+          "sectionCitations": [
+            {
+              "source": "ocmu-chronology",
+              "locator": "Methods/Materials sampling; Results: Earthlodge; Discussion"
+            },
+            {
+              "source": "ocmu-earthlodge",
+              "locator": "Reconstruction paragraph and older 1015 label"
+            }
+          ]
+        },
+        {
+          "subject": "wendat-laine",
+          "interval": "Preferred modeled village range, c.1595–1626 CE",
+          "place": "Jean-Baptiste Lainé site, Whitchurch-Stouffville, Ontario",
+          "citations": [
+            {
+              "source": "laine-chronology",
+              "locator": "Figure 2 and caption"
+            }
+          ],
+          "section": "Two date clusters do not make a century-long village",
+          "sectionCitations": [
+            {
+              "source": "laine-chronology",
+              "locator": "Short-lived samples and Figure 2; Possible Constraints on Site Dating; end Discussion"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#ocmulgee-council--wendat-laine",
+      "defaultFrom": ["ocmulgee-council", "wendat-laine"]
+    },
+    {
+      "id": "haudenosaunee-canandaigua--cherokee-print",
+      "subjects": ["haudenosaunee-canandaigua", "cherokee-print"],
+      "question": "How do words and records carry political responsibilities?",
+      "selectedDimension": "evidence-authority",
+      "sharedDimensions": ["materials", "knowledge", "evidence-authority"],
+      "evidence": [
+        {
+          "subject": "haudenosaunee-canandaigua",
+          "interval": "Treaty signed 11 November 1794; U.S. ratification 21 January 1795",
+          "place": "Canandaigua, present-day New York; six distinct Haudenosaunee nations",
+          "citations": [
+            {
+              "source": "canandaigua-onondaga",
+              "locator": "Articles I–III and VII"
+            }
+          ],
+          "section": "A continuing relationship requires particular evidence",
+          "sectionCitations": [
+            {
+              "source": "canandaigua-oneida-cloth",
+              "locator": "Annual cloth and diminished share as a continuing symbol"
+            },
+            {
+              "source": "onondaga-powless-return-1989",
+              "locator": "Opening agreement; preparation and arrival/custody account"
+            }
+          ]
+        },
+        {
+          "subject": "cherokee-print",
+          "interval": "Selected language/printing/removal inquiry, 1821–1839",
+          "place": "New Echota and southeastern Cherokee homelands; forced removal to Indian Territory",
+          "citations": [
+            {
+              "source": "cherokee-nation-history",
+              "locator": "Forced Removal and Reunification"
+            }
+          ],
+          "section": "Political defense coexisted with enslavement and exclusion",
+          "sectionCitations": [
+            {
+              "source": "phoenix-constitution",
+              "locator": "Article I section2; Article II; Article III sections 4 and 7"
+            },
+            {
+              "source": "cherokee-freedmen-public-history",
+              "locator": "Slavery in Cherokee Nation; 1827 and 1838–1839 timeline"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#haudenosaunee-canandaigua--cherokee-print",
+      "defaultFrom": ["haudenosaunee-canandaigua", "cherokee-print"]
+    },
+    {
+      "id": "ojibwe-manoomin--inuinnait-sewing",
+      "subjects": ["ojibwe-manoomin", "inuinnait-sewing"],
+      "question": "How do material work and knowledge connect across generations?",
+      "selectedDimension": "knowledge",
+      "sharedDimensions": ["materials", "knowledge"],
+      "evidence": [
+        {
+          "subject": "ojibwe-manoomin",
+          "interval": "Archival photograph catalogued [1913]; a longer-lived practice",
+          "place": "Great Lakes rice waters; archival photograph probably Ontario",
+          "citations": [
+            {
+              "source": "rice-stcroix",
+              "locator": "Opening cultural account"
+            }
+          ],
+          "section": "Harvested grain still needed several kinds of work",
+          "sectionCitations": [
+            {
+              "source": "rice-goodberry",
+              "locator": "PDFpp5–6,Drying/Parching/Hulling/Winnowing"
+            },
+            {
+              "source": "rice-glifwc",
+              "locator": "Finishing steps and mechanized finishing"
+            }
+          ]
+        },
+        {
+          "subject": "inuinnait-sewing",
+          "interval": "Selected expedition context, 1913–1916",
+          "place": "Coronation Gulf and Victoria Island region, Canadian Arctic",
+          "citations": [
+            {
+              "source": "inuinnait-history",
+              "locator": "History of Inuinnait Parkas"
+            }
+          ],
+          "section": "Makers research and teach",
+          "sectionCitations": [
+            {
+              "source": "inuinnait-patterns",
+              "locator": "Creating Patterns of Change and Objects bodies"
+            },
+            {
+              "source": "inuinnait-2010s",
+              "locator": "English body: continuing making and materials"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#ojibwe-manoomin--inuinnait-sewing",
+      "defaultFrom": ["ojibwe-manoomin"]
+    },
+    {
+      "id": "nimrud-palace--taharqo",
+      "subjects": ["nimrud-palace", "taharqo"],
+      "question": "How do royal images, work claims and excavated production answer different questions about authority?",
+      "selectedDimension": "material-work",
+      "sharedDimensions": ["participation", "evidence", "material-work"],
+      "evidence": [
+        {
+          "subject": "nimrud-palace",
+          "interval": "Reign of Ashurnasirpal II, 883–859 BCE",
+          "place": "Nimrud, northern Iraq",
+          "citations": [
+            {
+              "source": "assyrian-court",
+              "locator": "Palace materials and making"
+            },
+            {
+              "source": "nimrud-palace-project",
+              "locator": "Managing the palace; Behind the scenes, Room ZZ"
+            }
+          ],
+          "section": "Making a royal centre",
+          "sectionCitations": [
+            {
+              "source": "nimrud",
+              "locator": "Northwest Palace and stone reliefs"
+            },
+            {
+              "source": "assyrian-court",
+              "locator": "Making the palace: mud brick, local gypsum, quarrying, transport, carving and paint"
+            }
+          ]
+        },
+        {
+          "subject": "taharqo",
+          "interval": "Taharqo’s reign, c. 690–664 BCE",
+          "place": "Nuri and the Nile valley; present-day Sudan and Egypt",
+          "citations": [
+            {
+              "source": "kawa-work-2024",
+              "locator": "Printed pp. 132–133: mediated workforce/gift passages"
+            },
+            {
+              "source": "sanam-production-2026",
+              "locator": "Workshop and production/consumption sections; PDF pp. 10 and 13"
+            }
+          ],
+          "section": "A workshop makes the connection tangible",
+          "sectionCitations": [
+            {
+              "source": "faience-material",
+              "locator": "Technical Description of Faience; Making Faience: general material and mould shaping"
+            },
+            {
+              "source": "sanam-production-2026",
+              "locator": "Abstract; “The Sanam Temple faience workshop”; PDF pp. 10, 13 and Figure 10"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#nimrud-palace--taharqo",
+      "defaultFrom": ["nimrud-palace", "taharqo"]
+    },
+    {
+      "id": "kerma-potters--taharqo",
+      "subjects": ["kerma-potters", "taharqo"],
+      "question": "What can different materials and find contexts tell us about skilled work and institutions?",
+      "selectedDimension": "material-work",
+      "sharedDimensions": ["evidence", "material-work"],
+      "evidence": [
+        {
+          "subject": "kerma-potters",
+          "interval": "c. 2050–1500 BCE",
+          "place": "Upper Nubia; selected beaker found at Abydos in Egypt",
+          "citations": [
+            {
+              "source": "met-545772",
+              "locator": "Manufacture description"
+            },
+            {
+              "source": "kerma-doukki-aibl",
+              "locator": "La ville antique de Kerma"
+            },
+            {
+              "source": "kerma-city-project",
+              "locator": "City of Kerma: houses"
+            }
+          ],
+          "section": "An Egyptian findspot opens a further question",
+          "sectionCitations": [
+            {
+              "source": "met-545772",
+              "locator": "Date; Geography; Description paragraph3"
+            }
+          ]
+        },
+        {
+          "subject": "taharqo",
+          "interval": "Taharqo’s reign, c. 690–664 BCE",
+          "place": "Nuri and the Nile valley; present-day Sudan and Egypt",
+          "citations": [
+            {
+              "source": "kawa-work-2024",
+              "locator": "Printed pp. 132–133: mediated workforce/gift passages"
+            },
+            {
+              "source": "sanam-production-2026",
+              "locator": "Workshop and production/consumption sections; PDF pp. 10 and 13"
+            }
+          ],
+          "section": "A workshop makes the connection tangible",
+          "sectionCitations": [
+            {
+              "source": "faience-material",
+              "locator": "Technical Description of Faience; Making Faience: general material and mould shaping"
+            },
+            {
+              "source": "sanam-production-2026",
+              "locator": "Abstract; “The Sanam Temple faience workshop”; PDF pp. 10, 13 and Figure 10"
+            }
+          ]
+        }
+      ],
+      "editorialJudgment": "src/atlas/comparison-reading-notes.json#kerma-potters--taharqo",
+      "defaultFrom": []
+    }
+  ]
+}

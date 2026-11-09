@@ -1,0 +1,1195 @@
+{
+  "date": "2026-11-05",
+  "milestone": "P03",
+  "status": "autonomous digital audit completed; human physical-print and assistive-technology acceptance not performed",
+  "corpusSHA256": "cacd0e7d9be7ef13909afe5f9bd511a0ce73b5cc9379648b6d59380fc81d167c",
+  "pdfs": 138,
+  "pages": 2066,
+  "pageCountReconciliation": {
+    "previous": 2069,
+    "current": 2066,
+    "changes": {
+      "reader-middle-niger": "11 to 10",
+      "chapter-C4": "61 to 60",
+      "chapter-spreads": "458 to 457"
+    },
+    "evidence": "output/media-review-2026-11-04/catalog-before.json"
+  },
+  "repairs": {
+    "semanticActivityPackets": 8,
+    "activityPages": 16,
+    "activityTokenAndPunctuationMultisetParity": true,
+    "activitySourceURLSetsUnchanged": true,
+    "activityPagesWithinTwoPageBudget": true,
+    "titleOnlyUpdates": 130,
+    "allOriginalObjectsExceptInfoUnchanged": true,
+    "allOriginalBytesPreservedAsPrefix": true,
+    "futureExportTitleFixed": true
+  },
+  "checks": {
+    "allCatalogHashesBytesAndPagesMatch": true,
+    "allWithinExistingSizeBudgets": true,
+    "allLanguageEn": true,
+    "allTagged": true,
+    "allFontsEmbedded": true,
+    "structureOrBoundsOrContentIssues": [],
+    "allCurrentPagesHaveNonblankRasterEvidence": true,
+    "reusedPriorPDFs": 95,
+    "reusedPriorPages": 1823,
+    "supplementalPDFs": 35,
+    "supplementalPages": 227,
+    "replacementPages": 16,
+    "visuallyReviewedNewPages": 16,
+    "visuallyReviewedUnchangedRepresentativePages": 12,
+    "canonicalReaderCount": 77,
+    "canonicalReaderBlocksInTagOrder": 2754,
+    "missingOrReorderedCanonicalBlocks": 0,
+    "claimTextUncertaintyLocatorSourceTitleChecks": 114,
+    "externalLinkAnnotations": 4757,
+    "uniqueExternalURLTargets": 573,
+    "internalLinkAnnotations": 0,
+    "figureNodes": {
+      "ownAlt": 290,
+      "ownActualText": 0,
+      "wrapperWithDescribedDescendant": 252,
+      "withoutDescription": 0
+    },
+    "unmarkedCharacters": 3496
+  },
+  "limitations": [
+    "No physical print, physical grayscale or measured reading-distance legibility test; no observed family sessions.",
+    "No spoken screen-reader session or PDF/UA conformance claim. Tagged structure and successful extraction are narrower evidence.",
+    "Only 28 selected pages were visually inspected in this pass; all 2066 pages have raster nonblank evidence, mostly reused by hash or mapped through proven metadata-only succession. Supplemental 45 dpi rasters establish rendering, not fine-detail legibility.",
+    "External annotations were checked for syntactic portable URI targets, not fresh remote HTTP availability. No internal link annotations existed to exercise.",
+    "Numbered activity instructions remain paragraph tags with visible numbers. Semantic role appropriateness and assistive-technology usability remain acceptance considerations.",
+    "Unmarked text consists of page-number/numeric labels and repeated activity headers/footers in inspected extraction samples; no missing canonical reader blocks was detected. This is not a complete artifact classification."
+  ],
+  "parserNotes": [
+    "Nested ActualText spans caused pdfplumber 0.11.8 to lose outer MCIDs and Unicode replacements. The audit-specific stack-preserving parser correction restored canonical apostrophes/diacritics; installed dependencies and PDFs were not altered for this.",
+    "All 252 Figure nodes without their own Alt are wrappers containing a described descendant; no description-less Figure branch was found."
+  ],
+  "cleanup": {
+    "ownedBrowsersClosed": true,
+    "ownedServersRunning": false,
+    "heavyJobsComplete": true
+  },
+  "evidenceRoot": "output/remaining-plan-2026-11-05/print",
+  "evidence": [
+    "structure-audit.json",
+    "logical-reader-contract.json",
+    "logical-short-contract.json",
+    "figure-structure.json",
+    "render-coverage.json",
+    "representative-pages.json",
+    "short-text-parity.json",
+    "short-repair-validation.json",
+    "installation.json",
+    "title-repair.json"
+  ],
+  "files": [
+    {
+      "id": "chapter-C1",
+      "sha256": "5a8f63c7f4b7c4211b1f565eaa84eb868c37648c86267c5e06f416cb301f3e8c",
+      "bytes": 841730,
+      "pages": 33,
+      "auditedContentSHA256": "1f6ce34220a04cbd7e2f494328872b0bc162a9857c6e6f0df3787c9be38be9ed",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "chapter-C2",
+      "sha256": "95b37e3b2c9cbd96c594d80c664baa0df91b8d0e31dd017013f7936fd04d01dd",
+      "bytes": 1256347,
+      "pages": 43,
+      "auditedContentSHA256": "d6d26b1f016cd6446166f1c35f1101b6a8710111416be148f15241f2a71460cb",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "chapter-C5",
+      "sha256": "6477d92ddfd7441ef5100176bd4331013c703c07b54887caa417a27f1f8e2f16",
+      "bytes": 1383551,
+      "pages": 41,
+      "auditedContentSHA256": "505e4b2a81485ea80c66060577a87082332aa69618fb2a796b534177327e797f",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "chapter-C7",
+      "sha256": "4a2dd982ea90301d3e1a289956db09aef39ae8723d5fb2fb05993443f5d7e3e0",
+      "bytes": 3517781,
+      "pages": 79,
+      "auditedContentSHA256": "86f2042c086f26b94dbfa8db272cfd1183a8b0269bc46b8f93e8c2daa8f98f7f",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "family-cities-evidence",
+      "sha256": "b2c319a4e1b0c7a9876c9f69ade00f8e3a85f07e9c4290327fed78420eab55f3",
+      "bytes": 312244,
+      "pages": 1,
+      "auditedContentSHA256": "0d695427941f70362bf0d09469be0c32afe4bf1ec8ee2a759e33a48091614ba7",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "family-networks-disruption",
+      "sha256": "8e6c8d18b845f1b412efb46edcd3f576da9ba9568c786a105eef0dfe962ba8f9",
+      "bytes": 35332,
+      "pages": 1,
+      "auditedContentSHA256": "88610715b5b682f2a62f1fdbb7427aa516518e43056179d49bebf8076111f61d",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "family-voices-power",
+      "sha256": "ab6bc62d5e9d7bad07a3cfe40b79b2a68c9e5b4e94895740aac633d8d1f4769a",
+      "bytes": 694701,
+      "pages": 1,
+      "auditedContentSHA256": "a12b021d1e95437e69697c1bdcba8760d0dc1427073acbb70cc986e6c12c6862",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "family-world-200",
+      "sha256": "89a7318de65d5ab96fc05fe6396c0d39d1bdcb3f6e04b4fa8df207b49ad1a408",
+      "bytes": 469341,
+      "pages": 1,
+      "auditedContentSHA256": "f1edfa18f0be644fd502d6613fb7b6d46a516b5f8b99564f16304d8598c2bd99",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "family-institutions-images",
+      "sha256": "f03c50fae1acd27c253892241cc85a2108b6002dab77dc379079058b7b7130f2",
+      "bytes": 983118,
+      "pages": 1,
+      "auditedContentSHA256": "25215ec5d074ea7f7a509b48e69613168675378a225ffd855f9610acf80caf03",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "family-knowledge-networks",
+      "sha256": "dc51acd91537bbd7309f5dfac625b43720376b53d31f03333394ec92d224abaf",
+      "bytes": 591655,
+      "pages": 1,
+      "auditedContentSHA256": "a4e7e6791b7a49d1f70cb23f1d261565c9dc520eb95c5ea8754d449470f17255",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "family-ocean-connections",
+      "sha256": "1e6f6c8843c694971e4efd12b9f2d4e78dcf2ae95fa38d40d9e93d984fc16b7e",
+      "bytes": 35721,
+      "pages": 1,
+      "auditedContentSHA256": "d9787b7a3e8309664a375bfad773bee25ddb32a7dc646d93621a58597d8756a9",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "family-promises-rights",
+      "sha256": "59a4eced0d217cc0e5827c0340b11e5ae5d438a0716c01b08821fd50f492dda6",
+      "bytes": 35372,
+      "pages": 1,
+      "auditedContentSHA256": "938fafca63dfea17fa2bd6ca5f1693efa7b0fd1b96408c4405b546dc92a1566c",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "family-war-signals",
+      "sha256": "049bc4959b731b79011bc86833425d7a7d4932e993fc43140c5f695a1866f3d6",
+      "bytes": 37014,
+      "pages": 1,
+      "auditedContentSHA256": "42890e74d76b45f055b10a218e74306a2e2bfb8533c37ca2c270021fb0fbc101",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "family-north-american-communities",
+      "sha256": "be087a2cb019b5c50227ebbf465ca2c8bde65044f700f5f6c3173244137e3b5a",
+      "bytes": 716728,
+      "pages": 1,
+      "auditedContentSHA256": "6ea2326c1f01dd0e187861eb4b8084f9150a7e6958d5050f39526b21fb329d5a",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "family-west-central-workshops",
+      "sha256": "92a150703bca0330cf8ee7958fa809cfa4f3c24e1cd4bfa9fd8dd8cc5a4af41d",
+      "bytes": 600945,
+      "pages": 1,
+      "auditedContentSHA256": "b8674c09fc07d4ac45e3ba194f933339849161e70a2cf04902f329bdf5bec81b",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "family-northern-knowledge",
+      "sha256": "15d57a6e8d189e7d721de195ae65f2bdec6ddcf355cd8b3e325a90df010c6d3c",
+      "bytes": 136535,
+      "pages": 1,
+      "auditedContentSHA256": "31f1db71dd3a64d3610f94b3598302ef41e8c09da8d75f887389d99dc290eb91",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "family-eastern-woodlands",
+      "sha256": "a7ea355ef9927158a2816a5c22d041df27c0bd83a55739190685b1ccf60ad1e2",
+      "bytes": 476926,
+      "pages": 1,
+      "auditedContentSHA256": "f5170ddaa78b5012a00db7d9510edc2a0d5b320e50d80a8f68db54be9daa5bed",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "family-cities-work-water",
+      "sha256": "5d49f78574fe166cddb686aa59d82a4101c4547abaffdc204d6df6251ee2b98e",
+      "bytes": 312518,
+      "pages": 1,
+      "auditedContentSHA256": "b21f8f9cd05c68d40889baa5c803354d3eea0717dd69fdabb7131b2304e0bfab",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "family-institutions-shipment-ritual",
+      "sha256": "d98a9ee1b0fc84bf03e8cabad91cb699317ef01df0cf074786642910acd0e96f",
+      "bytes": 277686,
+      "pages": 1,
+      "auditedContentSHA256": "5753f6d92d47d0c772660c6b8cd70641630349d4e6e7e076733632b55c715f45",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "family-rules-messages-public-work",
+      "sha256": "39b37cbdc0c0b9f50b2a0f88dc590fde1c1de4c699f777867ae9b0c6e39ef2f5",
+      "bytes": 443721,
+      "pages": 1,
+      "auditedContentSHA256": "6c3a092423719df61f6c0e8a207723b7cd5d1c676154b2a5db7a4d4497021cb1",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "family-objects-work-exchange",
+      "sha256": "f65b07677e01c1c6baab2f5b6efa790ac738342b271e9e2d28bd914494288e5c",
+      "bytes": 735071,
+      "pages": 1,
+      "auditedContentSHA256": "70ee4043631d82fa59b30bc4933c936735b974a2956f56356215ef4bbecc4c4f",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "family-spaces-skills-learning",
+      "sha256": "f7eb81b104158219b941f03faae02c13f147354f37848bad0557927b0f7d433b",
+      "bytes": 87212,
+      "pages": 1,
+      "auditedContentSHA256": "b62605e0e73bb807dea9da3a2c87f592e20fb03b9d66e7cffcaf7f5f0d2d275d",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "family-work-obligation-voices",
+      "sha256": "3d7bf2978fd2c5d51dd7254cfa78dca38f822483c2a0b128efdb2586dce1daae",
+      "bytes": 85668,
+      "pages": 1,
+      "auditedContentSHA256": "ae14496acd81fd58d6ee22877394106ff9d10298338080b3de661ad6faacc814",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "family-makers-interpreters-encounters",
+      "sha256": "20487ab16c457ce357232951ff61afedb70eaf6f6242676b13745ff482db917f",
+      "bytes": 85155,
+      "pages": 1,
+      "auditedContentSHA256": "a834033113e9fa6dba9a1b0d831e0a7b069483f740fe462fe5d8d500464e9992",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "family-homes-provision-renewal",
+      "sha256": "ba148c9be384ddf08b0d6e0c21d20f6308f9fd725b0d9a1ecc54ad66c9cb9e1e",
+      "bytes": 75733,
+      "pages": 1,
+      "auditedContentSHA256": "746df858cf78ad9417bb09e6b9fe067d092d8ed7dd898d41d7a8948df9b4eac7",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "family-clay-work-local-histories",
+      "sha256": "fc85ecf46eecbf9b0309c0ff82df32e0f8940d5c7b96244913979021e2a4119c",
+      "bytes": 73436,
+      "pages": 1,
+      "auditedContentSHA256": "a0f942ce72dd69b9e3bb30ca8c45374410f4a34f591eae44f66f37beadc88c24",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "family-images-spaces-work",
+      "sha256": "3ce226ab07cee389edfe6200183423876f91f8b2129836fdecea07a8f5179a22",
+      "bytes": 532654,
+      "pages": 1,
+      "auditedContentSHA256": "2c59e6950d0f5b8de687c79124d2a3240600a8aac4eb61e9e348ba10a68f88bf",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "family-objects-places-associations",
+      "sha256": "3bda6c445da5f5726607afbebe976df9209e5584ea3d0b3840942054dbf06f0a",
+      "bytes": 468632,
+      "pages": 1,
+      "auditedContentSHA256": "6007fa89fd66039dc6048e86affc38d2bdab1bb206a06319a5ee84b038f1522f",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "family-places-patrons-work",
+      "sha256": "3012c422f7f217f28616ea3fe2cf51e84004e110ec5611bc0aa43f224bd699cd",
+      "bytes": 232858,
+      "pages": 1,
+      "auditedContentSHA256": "bd78f3953cc54c22eb3cf150241518cebf46befdde2d4f350cce6a32df49e3e9",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "family-buildings-food-continuity",
+      "sha256": "e433ccbfc020c0b455a0223c2f1653be1ed49cd59ebfff8f0cdb704fb5cfe3e7",
+      "bytes": 472248,
+      "pages": 1,
+      "auditedContentSHA256": "77ae4cccb31d5915d443b89bd0d4b2d46c985e1f141620634ea8f1cb57d32b58",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "family-makers-patrons-markets",
+      "sha256": "a3f332b541b91648aa2491d6141c8ff665ceb444fd2ee6c1189c75ff4ba0cdfc",
+      "bytes": 285528,
+      "pages": 1,
+      "auditedContentSHA256": "edb1d035fd25279fb7843d582da4a8ccf3b3ec9e4b1ff0d23645923532835df0",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "family-households-books-city-work",
+      "sha256": "f12b58758e12649e8cde49b731a619bb33586cbb38e1e52735a0e9532eb7b43e",
+      "bytes": 931621,
+      "pages": 1,
+      "auditedContentSHA256": "bd81ddd88257d76a936813c563ea525b8e0c5d393d6213f1705d842d3ae283c5",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "family-goods-work-coercion",
+      "sha256": "df8a7b59e9303991b8a825622373cbcd93e9bb3a82b1f1d2c85027dd80ab0701",
+      "bytes": 314084,
+      "pages": 1,
+      "auditedContentSHA256": "7f7ed4932c674e56094390f097e966f5b3f9999f0d29fd99b35ba868d453a866",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "family-skills-records-protection",
+      "sha256": "5e6f8cae3fcfc5dda75546e9a1528be9cf004cb930160082fb7a81c721c68794",
+      "bytes": 676577,
+      "pages": 1,
+      "auditedContentSHA256": "272d309be22777dabbc289c67722d2ddd15cfcf8ff59f6ddc1d52ac957cbcf16",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "world-overview",
+      "sha256": "6dff3e56e32ce277812fbe97137d50ffa02fdc797dbccfc0cae70b94722de5b1",
+      "bytes": 59915,
+      "pages": 1,
+      "auditedContentSHA256": "bd568bbf2e426699e8f4ce6a277a9694e196b9670b4a1438813666df2894d56a",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "regional-C1",
+      "sha256": "af735633de8ce4fe9542253b5dd6da3bbdc2a5cbb1daecf745cb40c0fb490793",
+      "bytes": 278267,
+      "pages": 18,
+      "auditedContentSHA256": "b35e98ad7c329ac1ff953f5099ed55dcde34958547a06ee231f0452386336cc9",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "regional-C2",
+      "sha256": "3e2b2fca92fd31e6f910b54b15bf2754d46e0983a98dbad2314fbf564f886389",
+      "bytes": 311777,
+      "pages": 20,
+      "auditedContentSHA256": "699fe5b797ba7b6881fad8bac28c11378884e24060b51eef8ef5023f1dd4bc40",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "regional-C5",
+      "sha256": "2e9c705fc817dfb79952e659ea3d5d4c5880b19d99611e18f0d557496aee1768",
+      "bytes": 330132,
+      "pages": 20,
+      "auditedContentSHA256": "04d4b0473bd5c5bcaef6db5b11dd0c24ee98888f72863d1b6c3395aa584b264a",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "regional-C6",
+      "sha256": "c25e07009488e7ee3eb6d5b6dcad3a23414fb5311cceafa8ba0f957b43c9b254",
+      "bytes": 332602,
+      "pages": 22,
+      "auditedContentSHA256": "fb54d406082825fcd09808277103f2253fba1b704b243850252cf6b1ecf88e1e",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "regional-C7",
+      "sha256": "dd58a1f44c4defb1676b49737a45936749304d2f5a132b374f9d5ab206085a89",
+      "bytes": 361849,
+      "pages": 23,
+      "auditedContentSHA256": "154e88b6ff1154e7f62e895e4f0752692d6b05f67b169c45f66feacc63fffcc8",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "regional-C3",
+      "sha256": "440ae5e22ba22643b08c4e6e8c4afcc5b300852857bbcb27dc265c2f3cdad751",
+      "bytes": 309192,
+      "pages": 20,
+      "auditedContentSHA256": "0c2d0dc6a23d9214ce6a21d8d2e0db3aab11a3fff3e6519c8a7a89cd1630400c",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "regional-C4",
+      "sha256": "a1eb448f926dd385e1c5e6ad7de0f5f89b15650af203d63583e6a8dbbeaebeed",
+      "bytes": 324259,
+      "pages": 20,
+      "auditedContentSHA256": "42a6397e683be55a3777fa7c59994ef0f8bd519a824e00e39e0a5d2fb06190a1",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-palmyra",
+      "sha256": "85a37e05abf7123dfe857ab725f612b4e0511638295000dd255cd18d1d137e45",
+      "bytes": 892688,
+      "pages": 9,
+      "auditedContentSHA256": "d02478794a6dca6c74244b858fc819855ef5de20d0b08743026db6666a27c47f",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-aksum",
+      "sha256": "40e47f55fea7a60a3a85f71e4e6ddb25b8eeea5e3caffe59d67db1183796d316",
+      "bytes": 731473,
+      "pages": 9,
+      "auditedContentSHA256": "41ab48693b5190cb39b884d5c44d517e15f1dd2f945ea8a347053aba44e0f282",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-dongson",
+      "sha256": "0989e8a3c1d27e3cb0967119f778161fc6305a74475010606b5e39a6f728ba34",
+      "bytes": 808182,
+      "pages": 15,
+      "auditedContentSHA256": "e3187afbd067243baf0261579b69d08bef7a1e3fa549d88007886410f0d392cf",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-benin-ivory",
+      "sha256": "3b7c8524a78ba44b3f1807d2ae5b83375fcca04980d5bd0cdf00cb9ab6927b75",
+      "bytes": 450621,
+      "pages": 7,
+      "auditedContentSHA256": "739ecf145d21f02e282bf2b6ab5fae78fdaac414832fc5944c0bb69e0ace6541",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-kongo-translation",
+      "sha256": "20bde8fbfc73dd0062d9c799881d126f72c3da4b2f0eae948cd289b567a87597",
+      "bytes": 517189,
+      "pages": 8,
+      "auditedContentSHA256": "7981a1a9ffbc1a48c29922dd7a7b50ad98cd1dc497b339cd563a4d45e2dd4e77",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-portuguese-voyage",
+      "sha256": "8f80cfc3cc384b30c8d5c9000f9172ea68f490c9fe5624dc55a53c662a25fab2",
+      "bytes": 233461,
+      "pages": 8,
+      "auditedContentSHA256": "61f3b38a047540998145819af0bfd6a113e06ca683ef3dd29371d70c7c13f033",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-manila-network",
+      "sha256": "a1ec1ef79677d42b9cb316c36547ff1f20a95da52c5d24b8baac7ee956fd57e2",
+      "bytes": 421105,
+      "pages": 11,
+      "auditedContentSHA256": "20d93a0e4eec4a062fe691a2f3de204a155531aae142c4b2f2f8d78d258c01e2",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-ming-workshops",
+      "sha256": "e12f337c3aed33b79f6212b703fac7451f4d57d8876862cc6af12353e44075f3",
+      "bytes": 386898,
+      "pages": 10,
+      "auditedContentSHA256": "2f997a5bef68a102063c21d3e5bd0868c75ff02483da294431bff77f9dbba4e3",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-mughal-books",
+      "sha256": "3700c8d78f4a0a0f435d412a8b3d7f9d84ff07bce6a66d55ee28f08731d8774d",
+      "bytes": 825140,
+      "pages": 10,
+      "auditedContentSHA256": "874dac25de92060b2a685d2b26bf647951bc4f382e71d73b773339d1adefb41f",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-banda-1621",
+      "sha256": "323714e5a9477f4fe97560a0565001b2b9b9d3bc60b6f8644fcfb541f4593f24",
+      "bytes": 158954,
+      "pages": 12,
+      "auditedContentSHA256": "e85ad33bf824c41b0fbb9083dc88a5bdae87fc64a5a983474e89f72d06639dd8",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-old-kingdom",
+      "sha256": "f6ee8b6558ebcd69f400aa65c3e4c925d03ebd95fbb5ca13563feed9c6c19c6e",
+      "bytes": 512291,
+      "pages": 10,
+      "auditedContentSHA256": "2f3f525dd5925938b115faeda3f3bc780b61c200a0f215049f7f169e42e0011d",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-liangzhu",
+      "sha256": "18f3774e76bbed882154a6eee1bd7426529aebcce4e9805784b70f00039ee512",
+      "bytes": 399351,
+      "pages": 8,
+      "auditedContentSHA256": "fb74fe6d731b428deb65cb81601fecf1a5566574f5e409d4697de41d657a2467",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-caral",
+      "sha256": "4c3e777794e8586c104ee4a89a91726078a3690b65283e8a6f797673a7ad84a7",
+      "bytes": 176400,
+      "pages": 11,
+      "auditedContentSHA256": "eb5898414ea2b463157e619a1dd46ea2ee5ed68d897fb5e706fd477b10dfd6c2",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-skara-brae",
+      "sha256": "ed5c6a785c243912e4264016b1041ca88d3288e62294a7c49d421486666a048d",
+      "bytes": 194113,
+      "pages": 12,
+      "auditedContentSHA256": "11ed5b8ea5836fbd5ab12dcbb2f0efcca83a3fd6deadfd0b29bec1f5be41bc5a",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-hattusha-change",
+      "sha256": "5478c7d4151610791fd439292317c6bae1a02795803a668a75edab5ce0f093be",
+      "bytes": 170955,
+      "pages": 8,
+      "auditedContentSHA256": "fe278f01f2c20a1517f6cd1e5fb08f544486332c4a61affd7d0626e143ab45da",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-uluburun",
+      "sha256": "1a7facc3715b7aadb17808682b67cd2732ae5c64dd1a98fcae0609a66656f4c6",
+      "bytes": 204153,
+      "pages": 10,
+      "auditedContentSHA256": "432942050b2d4f5a70c89f2456e887f2c7d7f7f06b6a60f933369b019402b2a5",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-shang-ritual",
+      "sha256": "94cdc389da4d2fd6e41a9054da342261c24ac88bf4bd69afbc3e4b64c46612e6",
+      "bytes": 555495,
+      "pages": 9,
+      "auditedContentSHA256": "1a932fed9656ca7d446df626b982da25631c887cdc443b5252c58dc73e7e7829",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-olmec",
+      "sha256": "65cc6534fda6703645780ed437731fbf2ec24f2987ae40b950a9546e5e244213",
+      "bytes": 511881,
+      "pages": 14,
+      "auditedContentSHA256": "69e0c1b5b06d92047fa09d935c5bef3d7e75529399b4d588d1d668b424c92e85",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-lapita",
+      "sha256": "e8382e4f7f6d9c864a714727cffd2ee2344aa3293330d9c5c1a7fd093889a4cc",
+      "bytes": 406437,
+      "pages": 15,
+      "auditedContentSHA256": "48ab0ad486abb4753c19951bd90bba666a0f84f2b21d60bbfea3e1c6ee393998",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-ashoka-messages",
+      "sha256": "cc313698497480ba360ffe228aa36535f9b4c4a8582eb74ac9cc6c4a942f4fdd",
+      "bytes": 236789,
+      "pages": 8,
+      "auditedContentSHA256": "fefc2742236b4e4af6f3cd6e6d2ff68f06b10891c526adbb1a4c0e4ec5b2b37f",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-athens-water",
+      "sha256": "2234d828b089d870e061a98e904c2b51dfbe31df5695774c78326d9158ff6de8",
+      "bytes": 537259,
+      "pages": 9,
+      "auditedContentSHA256": "48e936c6e9f55af40ab8aee9ff424d08275018010ad5b15024de07e2a0cd9761",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-chavin-textile",
+      "sha256": "d3f2f9d3c5739f4c402aba58d4165c62cc903145cbc6170c305fab714b026956",
+      "bytes": 622034,
+      "pages": 10,
+      "auditedContentSHA256": "ee035b5ac88a2c8b1ad5898b2fc053e885264a0c32e56e00920d74a73f34c30f",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-byzantium",
+      "sha256": "78a4c6ab0b40ec0548a8d27ad8ff11f79ca85985564eeef690e673ed0a2c1011",
+      "bytes": 612138,
+      "pages": 12,
+      "auditedContentSHA256": "f4926ea14bbc03a1afd2ce42a8d1760a8520da2e772d99e48a709b700c49e996",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-tang-city",
+      "sha256": "c5d4e13ebbcc42c22c9e220506b1ba375ba20d4a710f66b4a1e1cc42e682fa89",
+      "bytes": 374605,
+      "pages": 10,
+      "auditedContentSHA256": "f980faa59bbdd1996ab3dfe8e02215dfc81895757be617968a7bb5756a0aa974",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-borobudur",
+      "sha256": "0ef9f5ebbcdbfc79177e9f66de7003e86de0dbb01de81d2f3a580a19bde7f672",
+      "bytes": 1445968,
+      "pages": 15,
+      "auditedContentSHA256": "e437a67e37a11cd92cdcfc88468ec4c0f6bfa2e37fc5add3859204643b5d8371",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-nalanda",
+      "sha256": "72561173640c5d1eb95f33d69e4594124ab93a9016e9737e75c65dc74a6fadbb",
+      "bytes": 1128802,
+      "pages": 9,
+      "auditedContentSHA256": "281d707075152960dee318ebf607755fcd9d2ddf82a61746c7d75093aa3c73df",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-maya-vessel",
+      "sha256": "b7ac7eae1646edecf3392cf5681e0ebd7435cfec6d25b5d5dfb963abd08a861b",
+      "bytes": 888879,
+      "pages": 13,
+      "auditedContentSHA256": "05d62d78fa192386d54a9c406ac9aff7ee960df92e477fbf28f9a82a8788d19f",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-mali-networks",
+      "sha256": "e0fd2d5ccb7f28f9a374608eebafc6e984635639fb75d7d8a402b83b3ec84221",
+      "bytes": 776539,
+      "pages": 10,
+      "auditedContentSHA256": "d579b7313b50a62df5378724ce8752250f6b29bb991eb47acb719d4f267b0246",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-angkor",
+      "sha256": "6573a2cd1f155cfefe544547631070c00218699638165b11a1648ae6cd1930fb",
+      "bytes": 807371,
+      "pages": 10,
+      "auditedContentSHA256": "be6294acd44ffc49bc95b5ee14083a11fd564b3caff2ba434ac05b7191a7903d",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-song-art",
+      "sha256": "a65f432201108f1f316cbe4564a3519962c0d97f756f3ebd187e178128211c6f",
+      "bytes": 387940,
+      "pages": 9,
+      "auditedContentSHA256": "72bcbcf090bb361e62f456808baa276d0788dfcf8179e800f9dcdf23843b10a4",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-inca-weaving",
+      "sha256": "f64e2c10ae5a438508538323380529dd8b7466bf5accd2fa637f170f15e9cd3e",
+      "bytes": 749019,
+      "pages": 11,
+      "auditedContentSHA256": "f575108ab1e5d7c6dd1a44bb8fd9c6a90a97035343801742780b9c5c8402322b",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-polynesian-voyaging",
+      "sha256": "359e47bdd8cc400f31e84665a74459abf5681468539b29415f1fd1793a0816de",
+      "bytes": 131090,
+      "pages": 11,
+      "auditedContentSHA256": "843b2b29ee9b4c01bbf5afbdf87ffdfd867cd7354456292e8c661574945ce812",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-factory-reform",
+      "sha256": "df9c4e9af9d38f64116f7874b547806fb0978b8079b652a359914b4848e6a097",
+      "bytes": 133990,
+      "pages": 10,
+      "auditedContentSHA256": "2143975668856817ea612cd8c7c4edd98393f59c0caaf6bf00f469e2ae9ce00c",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-tomioka",
+      "sha256": "36fdff32932105125ff40a265d0282add1b5364af2ec4b5db8be251039b46cad",
+      "bytes": 846708,
+      "pages": 15,
+      "auditedContentSHA256": "9e3aeb0defa157e8a44890b11c9553db50ac5663cfae7b8114ef2b699d467d2c",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-haitian-revolution",
+      "sha256": "d71ea84269b9289ae09a713ced14b931d09d58655dedb1a54e206d3e5d691092",
+      "bytes": 150035,
+      "pages": 11,
+      "auditedContentSHA256": "473e8a1c62c9ab59ae86f8ea546a818584b1cad11a90a5b0871027f143cf5de7",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-tiriti",
+      "sha256": "ff629bd83dbb134491f59f785ff66ee08ca4f68bd2082af51226e0c66735d9b5",
+      "bytes": 171532,
+      "pages": 13,
+      "auditedContentSHA256": "86170c869d3c2f2bb5972754c9bba5528b65c90c3f21cf5f1cdecf3f9cf1cfd0",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-south-africa-rights",
+      "sha256": "ec7f37a692031e47fb4edfa2c9be6aae02c6846d766c3a2d17f58bb9e7e9861b",
+      "bytes": 309954,
+      "pages": 10,
+      "auditedContentSHA256": "88d40ab1be101fe850e7e9e14e6850a300c50a785d511861b4346c4a074e77bd",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-world-war-two",
+      "sha256": "b66d2fbfa35c750361fd3cee1bbab48133f7eeca23c8b757a1eb405f4c972cd2",
+      "bytes": 158990,
+      "pages": 11,
+      "auditedContentSHA256": "d5c28c3153a2a552871b9ac4425c356705cc520526562149fe7bee6884a91c1c",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-sputnik",
+      "sha256": "98daa844fae41ff61d98ba19a021a22e3627113928bf37f3382f5b069daca7dd",
+      "bytes": 137915,
+      "pages": 10,
+      "auditedContentSHA256": "82721cb586925032740254cd78a866e8f81e8b641c46bd08cc8a8d27875103de",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-qin-administration",
+      "sha256": "859c0e30660188fa514837823dee806f95aa8a5942f5a9ae1af01f887e9d50dd",
+      "bytes": 182695,
+      "pages": 10,
+      "auditedContentSHA256": "0720dd010917ad31c2c44d60fb19de0d53a2079946f07a9a72852a88a3da43c7",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-poverty-point",
+      "sha256": "7963a8a93c8f0e3d94b3f85def5862aa797013eea330448399812702de14cb7f",
+      "bytes": 797419,
+      "pages": 13,
+      "auditedContentSHA256": "b18b939ce3d732e9767ca049b28fe128845da6fd3e450cb029cd9827cd9177b3",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-chaco-communities",
+      "sha256": "9d282e620af1ddbb8f1d67f17b197a349e2020b15e9a1b1ab98d5ef3778a39b9",
+      "bytes": 1271945,
+      "pages": 14,
+      "auditedContentSHA256": "62b7e68f9bfbc1b6bb945ee1cafce15bffd532f4d0a67fcf45d745b703ac2d6c",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-cahokia-city",
+      "sha256": "76d1cb28ca2ef08d51a57b0d0c56ad0d1c82021471e378400db7b070be3a54c1",
+      "bytes": 343917,
+      "pages": 13,
+      "auditedContentSHA256": "eaa158cce8d63d2e224f9e7722ffa79b19cbf7c37ceaeeeccfeaefec2b7f0c74",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-isfahan-silk",
+      "sha256": "9e10df08bc7951dcd94626dbca17038fbb0bdebd81ae9dfce52f76eaba938786",
+      "bytes": 727723,
+      "pages": 14,
+      "auditedContentSHA256": "0a9ac3ae50279d4a4ad7b42821e2d7e64e6ac03fce0d6f5aba4cc5eea50c774f",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-bukhara-books",
+      "sha256": "808b92f22a812e9824618b6dcd3cc2083e1048f422818ce249065f73e6d8c126",
+      "bytes": 1023064,
+      "pages": 10,
+      "auditedContentSHA256": "4a478bf08bed37c090b7bc498f202a560eb374cdff5505d28a3c4cec2969a290",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-zand-iran",
+      "sha256": "2fe08a3b377c36097acd685ca99730b7091b8a48bd087375310b18a530c343c5",
+      "bytes": 1789721,
+      "pages": 11,
+      "auditedContentSHA256": "8756baf24726d9191d58ef88eb6e3ab8427d330e56440b45f315b4ea9a7f62b2",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-inuinnait-sewing",
+      "sha256": "c9235b228b72d324970da1e50dae18cd95bd4e5dd37ea15b0d3014c300f8ee7b",
+      "bytes": 502219,
+      "pages": 12,
+      "auditedContentSHA256": "7ae9df9f09a7a54343c99478389f2205fb333de1d6914178911adce8baa31d47",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-ozette-makah",
+      "sha256": "9075b19b79d9590c1fe80bba2c8a9d1114d19a3d6025f35c0090f9eb00f3f90b",
+      "bytes": 220630,
+      "pages": 10,
+      "auditedContentSHA256": "60c2d56a76f9a3afcbb613e3a911a95eb4fa8381f824afce8377753dcdd1cf92",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-blackfoot-bison",
+      "sha256": "759556aa0c478eced5ac4474bfcd87e865d6873e846eb22bdc77f404ac3e4fa6",
+      "bytes": 847188,
+      "pages": 12,
+      "auditedContentSHA256": "328e8e57770bd51d51de5367b2a9c4bbf2c315d2a5c273b99c1ccc1e8aed686b",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-hidatsa-villages",
+      "sha256": "9d8c6d9cf7cf894bc623c2d74ab34e1d03119e0ef7369174bb7e7effbab2e343",
+      "bytes": 275697,
+      "pages": 13,
+      "auditedContentSHA256": "5433ee2188bab731a22885ce280347e0edd801d0dcbd5db0965d6bd0ac99f7c0",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-kwakwakawakw-potlatch",
+      "sha256": "19e4e8e0f621cd10a41d05ca45b1b7a04d5f940da610acd0d6e203dfab3e3225",
+      "bytes": 241668,
+      "pages": 11,
+      "auditedContentSHA256": "21adece5653a6e2838d437ed318e6b6766ef06fbe29be4628531879f4c4687ef",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-haudenosaunee-canandaigua",
+      "sha256": "60f25cbfd40c910a66d3dd31c893b9b6849dafd819db690936dd016b94ae6c72",
+      "bytes": 573008,
+      "pages": 11,
+      "auditedContentSHA256": "1166fde4cbdbc6dbf3f5af48f1a3dc31718dd92bec82611e3709391d9864d689",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-cherokee-print",
+      "sha256": "3639203327eff69af23916505e013567f4f4f7efa2f998c602008ecdad6cc683",
+      "bytes": 304303,
+      "pages": 11,
+      "auditedContentSHA256": "cdec748078d6ef02236ce401722553cf9646e1bad270433432adaf66ec45173c",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-ojibwe-manoomin",
+      "sha256": "79ba97e58ec269be5e7dbe41217f8814f3402dd4cc532974b9b8bff0bd8c3791",
+      "bytes": 341472,
+      "pages": 10,
+      "auditedContentSHA256": "68b4fa3921024a51154f9facd8e7b29890136f5dc3dbd64388b08767685523db",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-ghana-independence",
+      "sha256": "1aca3b169157260c4ffb715910158e2f0cb4c0f16815bf80d781e6ccfe129247",
+      "bytes": 326612,
+      "pages": 10,
+      "auditedContentSHA256": "b356025c6b6a77d6632bf3b512bffebd68cfb4d5143c60c1f0f8061c92e4d295",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "chapter-C6",
+      "sha256": "dad78e74f754c7995f1ea5b78f82461ea2b946c5bc5bc94912c69352e22a0307",
+      "bytes": 1920799,
+      "pages": 57,
+      "auditedContentSHA256": "d4110402762ea84ed13e9a5302ab4923cf1c7ca3a4498e6d93523a0d2803a819",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "regional-C8",
+      "sha256": "560675eaeb2b4a76996d2e0d6887bdd368280abcb6dcd27699edd5d7ef7a87f5",
+      "bytes": 472974,
+      "pages": 30,
+      "auditedContentSHA256": "86319b00476e6e61b2ff56fa02a814d4e2dd0c07cb67e8f77fefbf1a23042da7",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-eastern-han",
+      "sha256": "e417bbf9de1e8eb381bf0808da7b4957a80e974713017e4c236fd4cec6081d40",
+      "bytes": 1599511,
+      "pages": 11,
+      "auditedContentSHA256": "a7a8f200159e0ad8385d867fdd6cb92703953a357432f7eea30f213919ddaa7e",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-colima",
+      "sha256": "a9a4e84a1035a30dbf18d2fd5e0b2470c49a6aeb0d38977a9d82a5e21dc87514",
+      "bytes": 993681,
+      "pages": 12,
+      "auditedContentSHA256": "025878d3ea1b192d9040028d725a7c00664b6400827fdcca15ae7ec051020a6a",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-roman-world",
+      "sha256": "61baf2023a7d95969fc366d9706d42693e9f4c540455b96fee62d339a85171a0",
+      "bytes": 1077018,
+      "pages": 9,
+      "auditedContentSHA256": "020c3aec3f2c35c7ff377b8f27e24eb2a480739a0e7ce1f25cc1aace13a52d02",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-kushan-contexts",
+      "sha256": "7b7c613b850a11103f836a0e4b86044831c13bf78f4e60eb516ac85cf4387f94",
+      "bytes": 897849,
+      "pages": 9,
+      "auditedContentSHA256": "9430acdf4f723f4a9738a4a7a2804849c8a85ec84d0f6269af3af043f94eab95",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-teotihuacan",
+      "sha256": "b02c6589f21de88bbe169c09fa77859fee932906ebf6e0de78665649f03ce938",
+      "bytes": 1132150,
+      "pages": 16,
+      "auditedContentSHA256": "de2253e8254390e3c6f94c7569f989424245ae36adc9a56d90387617c6616089",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-moche",
+      "sha256": "1f02272ebcde19c88c7d42468e283fcb00c1f04cd9f97da3b8aeebfa4e153807",
+      "bytes": 823708,
+      "pages": 13,
+      "auditedContentSHA256": "5b18dc99c34f6634f8fdc801e9e7499999e62aa5aa87fc6dd82ca8561fc7b469",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-uruk-accounts",
+      "sha256": "a1c20b7ad8875d5f4f1e2ace71391c7c75666bcb10a3fcc5eb37b1f3018c0350",
+      "bytes": 681437,
+      "pages": 9,
+      "auditedContentSHA256": "4349ee63a5735187ecfd43b80b44ef1741cd4da17c85625eb7927cc219f993b2",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-dholavira",
+      "sha256": "23fcc627520dcf5b7f7d68dd495b24b9d3ad99609a476caeae643d552e2b5437",
+      "bytes": 1322796,
+      "pages": 10,
+      "auditedContentSHA256": "fc6290a2b651dd4411e7c7b82c3ece3a4d44ec6b64ba5e5ac326bd8d74394e7a",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-kerma-potters",
+      "sha256": "74ef29338d3ce876b7ddcd262f5414abb34d4cab0829cdcbd1565164d9182b36",
+      "bytes": 458673,
+      "pages": 12,
+      "auditedContentSHA256": "56201c5549567e56a719dbffe4b7f6258d9545aeb7210b2847bb00d2f1b3d1b4",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-nimrud-palace",
+      "sha256": "9a816ad1e1d23ee70dc3eeab22c6250548b082c5bb4b0ea548a65ddc3cb88804",
+      "bytes": 967031,
+      "pages": 14,
+      "auditedContentSHA256": "ed229af5db26b37d79d7cfa66c6c41300f864177bbbf360afab78ba02e5c11c8",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-taharqo",
+      "sha256": "3c1e7807cb1f6cb12f944adb0ff25c7c888dd1b99e1e9b16f5f82ed3b5de03c6",
+      "bytes": 956810,
+      "pages": 15,
+      "auditedContentSHA256": "79b8b040ac57b07b412c187011d0a3cac053724013e61991225a7bc5b8ac85c2",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-abbasid-craft",
+      "sha256": "384f359de76d87cf56e3ef6d943f704aeb7653dccd6650fa952120215d5b14c2",
+      "bytes": 1254938,
+      "pages": 11,
+      "auditedContentSHA256": "db9eb1c07f1b5422e46adc429f82db63fb9e5ccd0abed014fec11339ecca38e2",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-middle-niger",
+      "sha256": "641a78f20e5b8aa2ffd784045592180a8a616538b013bc189c610d0a8a258d9a",
+      "bytes": 858413,
+      "pages": 10,
+      "auditedContentSHA256": "91e91c5e08e1ab55e9caee051dd4be72a1313e4f1991e63b81e507cd35a6464e",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-hine-labor",
+      "sha256": "03fd5e7291e637b46d64728dce71d473ea3f2cdb1e3cd3a361063349accf0b29",
+      "bytes": 347627,
+      "pages": 12,
+      "auditedContentSHA256": "0195b1628f8b5fb1ea20b21d9eeae77ed9d438e4823bf48f61c8cbd0e64ba433",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-partition-1947",
+      "sha256": "0b16da31a27bb0b934bb266787c6337f995d26979eba9500dbddbde1fb0c56f9",
+      "bytes": 289649,
+      "pages": 11,
+      "auditedContentSHA256": "440abbea2c2a9a360bd5f32f6413346eb934b457dbe52669e094d6783fb6da3a",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-world-war-one",
+      "sha256": "0dbedbec15db3b7ff825f41a9d9eaad3e814bc985fd396c301959c5ab0f92841",
+      "bytes": 260102,
+      "pages": 13,
+      "auditedContentSHA256": "6a810cf32af80b6ac9c1466066e3f8315984f46120a45a55694fa89a433fc089",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-hopewell-earthworks",
+      "sha256": "8c1cfefb466a04a2b1e2a045c46f42dbcf660634200ed1b89d3b9efe366d208f",
+      "bytes": 1067440,
+      "pages": 16,
+      "auditedContentSHA256": "20f085f74858a8fb2e23649222c12d2e3c0ddc33bd23b4cff3508297c353edb1",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-ottoman-workshops",
+      "sha256": "58a0a03d36d4b9b5d252e5bdadbc15a2b5090fd750fec7492e13d2ff4140cf86",
+      "bytes": 1920628,
+      "pages": 13,
+      "auditedContentSHA256": "dc6a0313242f7af5f0768387059c397c07ace1470b1e58ec6b3c14bb1fe70e8e",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-bering-sea-carvers",
+      "sha256": "d8a048c20ee9116523a9efe5ea70fa64217650f5550ff41da3ee4a265f3db4ed",
+      "bytes": 839572,
+      "pages": 11,
+      "auditedContentSHA256": "c73b0e6bb2c09905edc0efc127a129d03c98304a7827cf02a9a4df02900f18bf",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-ocmulgee-council",
+      "sha256": "7deee2cb63f569ca717e4b590c825f4cb0d5bc33a76ee4fa9104918c9f536449",
+      "bytes": 1367812,
+      "pages": 15,
+      "auditedContentSHA256": "3a3bdb721563b621683d5403f29c83efd9a5a47dfd258f1f34f9dc8c536bc616",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-wendat-laine",
+      "sha256": "4dfadaca3db445dc5cbfbb2aec9ff170f22333f0c29b49a6cf474c42ec0b9d4d",
+      "bytes": 289577,
+      "pages": 8,
+      "auditedContentSHA256": "107bbb9ba575f9502f025e6374d09857c735601ac130959bf39e1596469a4640",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "reader-indonesia-independence",
+      "sha256": "03a6455eaf1b8a5fab6940d59200deb6ae7682830d89ff70739bc2a5206a7f73",
+      "bytes": 239841,
+      "pages": 10,
+      "auditedContentSHA256": "9e3c469788de10a04d66033d27cf41778116abf290b61a79486252dab0881e9d",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "chapter-C3",
+      "sha256": "d17b08837615c1a5830a2d85f855436aa7f75ae29d9a7c5221ab2585bcf97bb3",
+      "bytes": 1748714,
+      "pages": 41,
+      "auditedContentSHA256": "8f9485452f3f78c30597f0d775ff0ccf44628ac5e9b5e8e899a71c77254b7a0d",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "chapter-C4",
+      "sha256": "01c3de02d6486654dd333809b609b6d6485b95d6e84c74a1b0d9c6798b685eea",
+      "bytes": 3014563,
+      "pages": 60,
+      "auditedContentSHA256": "64b1d5e41983dff61728196828963793a116b8d1b69ab0cf306d319066400cc7",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "chapter-C8",
+      "sha256": "e03e4013bb02f1500083dca08fb791aee817128b22e22a849a620043124bb493",
+      "bytes": 3094009,
+      "pages": 103,
+      "auditedContentSHA256": "5f0842f5d30445bdcd7a00b796b93956fcc6d5a72105a3ff4787e5206b1f838c",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "family-machines-work",
+      "sha256": "a1812fdba9f8ee092538e1e90224e41ba1996fec8bdbc157c46c812ec019c229",
+      "bytes": 238338,
+      "pages": 1,
+      "auditedContentSHA256": "3986e41139d767255d98e41d2857e7e2e8f5d1413a1423bc84157a07bc57fd1e",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "family-independence-citizenship",
+      "sha256": "0534c164b0592f42096962dc4e96ffb668ba5b53d51cce8769b495f83bc4f70b",
+      "bytes": 78527,
+      "pages": 1,
+      "auditedContentSHA256": "a6ac0938c33cc45179e8b30b52c249b9830b83d9b3b2dd8dca5b7f54bc896710",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "family-makers-supplies-royal-claims",
+      "sha256": "a5b77b003c17a583a8ab2bf54447315fb4cd29d3cffcdd266862da923bc3c68a",
+      "bytes": 71220,
+      "pages": 1,
+      "auditedContentSHA256": "4048619ef1b2e063efe9196124335c71b118cb5450a2bcca22d2b91172a46175",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "world-overview-notes",
+      "sha256": "4a9b37c8c7d6e7c215f7fb046d04a42aed4a9cc35fe0f58917e1362261f62f2f",
+      "bytes": 680308,
+      "pages": 38,
+      "auditedContentSHA256": "cf79322acadba604bea43910c5173217fa4d446c4ffa00c66cecf318d21f5155",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "chapter-spreads",
+      "sha256": "8ee9c12b9e2131a67868114c44e40fe706f547a2fdf26f7d700f661d9096d7b7",
+      "bytes": 16667570,
+      "pages": 457,
+      "auditedContentSHA256": "79ef7395d48c572898abc56c354f02babab044c90292a7028ddeb3aab71e4871",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "family-explorations",
+      "sha256": "9aeca766defdf801aba38058b88122f70ed702ccf581bff09cdf95e7a0e4b6b5",
+      "bytes": 10739548,
+      "pages": 33,
+      "auditedContentSHA256": "cacfc10174a1a8643fc334e5a80dfeb9aa3f8b26cc0015cc13d86f413c85d6cc",
+      "titleOnlySuccessor": true
+    },
+    {
+      "id": "short-C1",
+      "sha256": "9e6f5262b47080443313f0ddc2a432a07f30c5f7f2f6f629eca60467baef1f37",
+      "bytes": 192819,
+      "pages": 2,
+      "auditedContentSHA256": "9e6f5262b47080443313f0ddc2a432a07f30c5f7f2f6f629eca60467baef1f37",
+      "titleOnlySuccessor": false
+    },
+    {
+      "id": "short-C2",
+      "sha256": "1c504e613b2f2dc8e7c28a1d19a5d9f576380e07f3a46ddec24080c158ebf590",
+      "bytes": 222796,
+      "pages": 2,
+      "auditedContentSHA256": "1c504e613b2f2dc8e7c28a1d19a5d9f576380e07f3a46ddec24080c158ebf590",
+      "titleOnlySuccessor": false
+    },
+    {
+      "id": "short-C3",
+      "sha256": "83bcae5916a2fbd3ec0a3b008842b8c0761795e385f3ab69c0b7c43f80739ebc",
+      "bytes": 363294,
+      "pages": 2,
+      "auditedContentSHA256": "83bcae5916a2fbd3ec0a3b008842b8c0761795e385f3ab69c0b7c43f80739ebc",
+      "titleOnlySuccessor": false
+    },
+    {
+      "id": "short-C4",
+      "sha256": "557f9935b84923a45fbe5a9766e53991fa4074437351fbb2b65367405274a8e5",
+      "bytes": 567055,
+      "pages": 2,
+      "auditedContentSHA256": "557f9935b84923a45fbe5a9766e53991fa4074437351fbb2b65367405274a8e5",
+      "titleOnlySuccessor": false
+    },
+    {
+      "id": "short-C5",
+      "sha256": "8a9005f683edbb26ec077757f815c6e29584a4ee2795678327572d209f38b03b",
+      "bytes": 289450,
+      "pages": 2,
+      "auditedContentSHA256": "8a9005f683edbb26ec077757f815c6e29584a4ee2795678327572d209f38b03b",
+      "titleOnlySuccessor": false
+    },
+    {
+      "id": "short-C6",
+      "sha256": "9c43f181b131392639895b663208fff50fd5d61665688a442fe4ce0080a2c61e",
+      "bytes": 369704,
+      "pages": 2,
+      "auditedContentSHA256": "9c43f181b131392639895b663208fff50fd5d61665688a442fe4ce0080a2c61e",
+      "titleOnlySuccessor": false
+    },
+    {
+      "id": "short-C7",
+      "sha256": "18486956147990e3d07cbf6ca82c9cc10b0c695c0739ebb2e3e742b7ef6c40f1",
+      "bytes": 157069,
+      "pages": 2,
+      "auditedContentSHA256": "18486956147990e3d07cbf6ca82c9cc10b0c695c0739ebb2e3e742b7ef6c40f1",
+      "titleOnlySuccessor": false
+    },
+    {
+      "id": "short-C8",
+      "sha256": "10f3714a596dc0dfb129b5030e598babbbee5cb551b3f9086b24d848c558da29",
+      "bytes": 74794,
+      "pages": 2,
+      "auditedContentSHA256": "10f3714a596dc0dfb129b5030e598babbbee5cb551b3f9086b24d848c558da29",
+      "titleOnlySuccessor": false
+    }
+  ]
+}

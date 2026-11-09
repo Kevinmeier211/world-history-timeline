@@ -1,0 +1,74 @@
+[
+  {
+    "chapter": "C1",
+    "subject": "uruk-accounts",
+    "pages": 2,
+    "bytes": 192819,
+    "sha256": "9e6f5262b47080443313f0ddc2a432a07f30c5f7f2f6f629eca60467baef1f37",
+    "path": "/atlas/exports/short-C1.pdf",
+    "tagged": true
+  },
+  {
+    "chapter": "C2",
+    "subject": "uluburun",
+    "pages": 2,
+    "bytes": 222796,
+    "sha256": "1c504e613b2f2dc8e7c28a1d19a5d9f576380e07f3a46ddec24080c158ebf590",
+    "path": "/atlas/exports/short-C2.pdf",
+    "tagged": true
+  },
+  {
+    "chapter": "C3",
+    "subject": "nimrud-palace",
+    "pages": 2,
+    "bytes": 363294,
+    "sha256": "83bcae5916a2fbd3ec0a3b008842b8c0761795e385f3ab69c0b7c43f80739ebc",
+    "path": "/atlas/exports/short-C3.pdf",
+    "tagged": true
+  },
+  {
+    "chapter": "C4",
+    "subject": "eastern-han",
+    "pages": 2,
+    "bytes": 567055,
+    "sha256": "557f9935b84923a45fbe5a9766e53991fa4074437351fbb2b65367405274a8e5",
+    "path": "/atlas/exports/short-C4.pdf",
+    "tagged": true
+  },
+  {
+    "chapter": "C5",
+    "subject": "byzantium",
+    "pages": 2,
+    "bytes": 289450,
+    "sha256": "8a9005f683edbb26ec077757f815c6e29584a4ee2795678327572d209f38b03b",
+    "path": "/atlas/exports/short-C5.pdf",
+    "tagged": true
+  },
+  {
+    "chapter": "C6",
+    "subject": "mali-networks",
+    "pages": 2,
+    "bytes": 369704,
+    "sha256": "9c43f181b131392639895b663208fff50fd5d61665688a442fe4ce0080a2c61e",
+    "path": "/atlas/exports/short-C6.pdf",
+    "tagged": true
+  },
+  {
+    "chapter": "C7",
+    "subject": "portuguese-voyage",
+    "pages": 2,
+    "bytes": 157069,
+    "sha256": "18486956147990e3d07cbf6ca82c9cc10b0c695c0739ebb2e3e742b7ef6c40f1",
+    "path": "/atlas/exports/short-C7.pdf",
+    "tagged": true
+  },
+  {
+    "chapter": "C8",
+    "subject": "haitian-revolution",
+    "pages": 2,
+    "bytes": 74794,
+    "sha256": "10f3714a596dc0dfb129b5030e598babbbee5cb551b3f9086b24d848c558da29",
+    "path": "/atlas/exports/short-C8.pdf",
+    "tagged": true
+  }
+]

@@ -1,0 +1,66 @@
+import type { Media } from '../../src/atlas/model';
+import { interval } from './content-helpers';
+const diagram = (
+  id: string,
+  subject: string,
+  source: string,
+  title: string,
+  alt: string,
+  caption: string,
+  representedDate: string,
+): Media => ({
+  id,
+  subject,
+  source,
+  title,
+  alt,
+  caption,
+  representedDate,
+  accession: 'Chronos original teaching diagram, C3, 28 October 2026',
+  creator: 'Chronos / Codex; source-based editorial diagram',
+  date: interval(
+    2026,
+    2026,
+    'Teaching diagram made 28 October 2026',
+    'Modern creation date, separate from the represented ancient evidence.',
+    'exact',
+  ),
+  place: 'Modern conceptual guide; no facsimile, surveyed plan or travel route',
+  material: 'Original SVG diagram',
+  image: `/atlas/media/${id}.svg`,
+  thumbnail: `/atlas/media/${id}-thumb.webp`,
+  width: 600,
+  height: 780,
+  printWidthMm: 145,
+  notice: [
+    'Distinguish the objects or messages in the separate panels.',
+    'Name the evidence that would test the proposed practical result.',
+  ],
+  rights: 'CC BY 4.0; original artwork, no source figure reproduced.',
+  licenseUrl: 'https://creativecommons.org/licenses/by/4.0/',
+  credit: 'Chronos / Codex, 2026. Original guide; sources in dossier.',
+  sourceImage: `/atlas/media/${id}.svg`,
+  depiction: 'explanatory diagram',
+  relevance:
+    'Connects the historical task with its surviving evidence and a specific limit.',
+});
+export const governmentMedia: Media[] = [
+  diagram(
+    'qin-records-diagram',
+    'qin-administration',
+    'qin-practice',
+    'Qin: devices, records and practice',
+    'Separate panels distinguish measuring mass or volume, recording grain and responsibility, and comparing dimensions and required information. No invented ancient signs, quantities or full document translation.',
+    'Modern comparison guide. A measuring device and a written administrative record do different jobs. No ancient inscription, exact object outline or quantitative dataset is reproduced.',
+    'Imperial case 221–206 BCE; Liye documents mainly 222–208 BCE.',
+  ),
+  diagram(
+    'ashoka-messages-diagram',
+    'ashoka-messages',
+    'ashoka-edicts-1925',
+    'Ashoka: place, audience and action',
+    'Three panels distinguish Girnar II on practical provision, Dhauli Separate I addressing judicial officials, and Greek/Aramaic material at Kandahar. These are different regional records, not a single translated text.',
+    'Modern source paraphrases: Girnar II and Dhauli Separate I follow Hultzsch; Kandahar follows Neelis. The 1925 edition predates the Kandahar discoveries.',
+    'Ashoka case c268–232 BCE; Hultzsch’s English edition published 1925.',
+  ),
+];

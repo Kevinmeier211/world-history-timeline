@@ -1,0 +1,19 @@
+{
+  "subject": "manila-network",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "met-9198",
+      "caption": "Mexican tin-glazed earthenware, ca. 1680–1700. This accession is not identified as cargo from the 1595 San Agustín wreck or the 1726 Santo Cristo register.",
+      "notice": [
+        "Find a floral form inside a panel and a repeated blue border.",
+        "What record would identify this jar with a particular shipment?"
+      ],
+      "creator": "Maker not recorded",
+      "place": "Made in Mexico",
+      "material": "Tin-glazed earthenware",
+      "relevance": "Mexican ceramic making compared with separately documented Pacific exchange. Its catalogue does not establish a particular voyage.",
+      "additionalImages": []
+    }
+  ]
+}

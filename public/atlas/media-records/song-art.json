@@ -1,0 +1,33 @@
+{
+  "subject": "song-art",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "met-42455",
+      "caption": "An eleventh–twelfth-century stoneware tea bowl with streaked “hare’s-fur” glaze.",
+      "notice": [
+        "How does the glaze change toward the rim?",
+        "What would a photograph of the bottom add?"
+      ],
+      "creator": "Maker not recorded",
+      "place": "China; Jian ware",
+      "material": "Stoneware with \"hare's-fur\" glaze (Jian ware)",
+      "relevance": "Craft at the scale of a hand-held object within broader artistic and political histories.",
+      "additionalImages": []
+    },
+    {
+      "id": "song-loan-diagram",
+      "caption": "Modern guide to the 1069 proposal: resources before harvest, repayment later. No measured flow or outcome is shown.",
+      "notice": [
+        "Trace the labeled tasks or relationships.",
+        "Distinguish the source’s stated arrangement from evidence of a particular household’s experience."
+      ],
+      "creator": "Chronos / Codex; source-based editorial diagram",
+      "place": "Modern conceptual guide; no surveyed site, measured flow or particular worker reconstructed",
+      "material": "Original SVG diagram",
+      "representedDate": "1069 CE memorial; modern diagram created in 2026.",
+      "relevance": "Explains timing or divided work without inventing measured quantities, consent or a workshop history.",
+      "printWidthMm": 145
+    }
+  ]
+}

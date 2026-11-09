@@ -1,0 +1,33 @@
+{
+  "subject": "inca-weaving",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "met-313152",
+      "caption": "A camelid-hair tunic dated 1450–1550. Its historical range remains intact across chapter boundaries.",
+      "notice": [
+        "Where do different patterns meet?",
+        "Can you identify two joined pieces?"
+      ],
+      "creator": "Maker not recorded",
+      "place": "Peru; highland technique with coastal comparisons",
+      "material": "Camelid hair",
+      "relevance": "Skilled work, regional comparison and chronology crossing a political rupture.",
+      "additionalImages": []
+    },
+    {
+      "id": "inka-work-diagram",
+      "caption": "Modern institutional guide: household work, state demands and provisioning. Arrows do not imply equal returns or identify this tunic’s maker.",
+      "notice": [
+        "Trace the labeled tasks or relationships.",
+        "Distinguish the source’s stated arrangement from evidence of a particular household’s experience."
+      ],
+      "creator": "Chronos / Codex; source-based editorial diagram",
+      "place": "Modern conceptual guide; no surveyed site, measured flow or particular worker reconstructed",
+      "material": "Original SVG diagram",
+      "representedDate": "Selected fifteenth–sixteenth-century institutions, not the exact production history of the 1450–1550 tunic.",
+      "relevance": "Explains timing or divided work without inventing measured quantities, consent or a workshop history.",
+      "printWidthMm": 145
+    }
+  ]
+}

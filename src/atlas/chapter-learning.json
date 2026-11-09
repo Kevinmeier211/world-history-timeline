@@ -1,0 +1,122 @@
+[
+  {
+    "chapter": "C1",
+    "subject": "uruk-accounts",
+    "journey": "cities-evidence",
+    "shortOutcome": "Separate a visible mark from an inferred purpose.",
+    "deeperOutcome": "Compare how records and buildings reveal cooperation while leaving people out.",
+    "responseForm": "observation",
+    "facilitatorRubric": "Describe one mark without translating it; identify one thing an account leaves out.",
+    "steps": [
+      "Find one round impression and one incised mark in the tablet photograph. Describe their shapes without translating them.",
+      "Imagine recording a shared meal. Choose a category to track and an amount; use words or your own marks on paper."
+    ],
+    "revisit": "Return later without revealing your first answer. Apply the same distinction to another object or document in this chapter, then record what changed.",
+    "duration": "5–10 minutes estimated; not yet reader-tested"
+  },
+  {
+    "chapter": "C2",
+    "subject": "uluburun",
+    "journey": "networks-disruption",
+    "shortOutcome": "Distinguish what was found together from an inferred origin.",
+    "deeperOutcome": "Explain a network using evidence while leaving an unsupported itinerary open.",
+    "responseForm": "supported explanation",
+    "facilitatorRubric": "Name two recovered materials, then distinguish their discovery from the analysis needed to infer origins.",
+    "steps": [
+      "Find the wreck location and recovered materials in the solid part of the diagram. Name two things found together.",
+      "Find the dashed origin panel. Explain what extra work is needed to argue where a metal came from."
+    ],
+    "revisit": "Return later without revealing your first answer. Apply the same distinction to another object or document in this chapter, then record what changed.",
+    "duration": "5–10 minutes estimated; not yet reader-tested"
+  },
+  {
+    "chapter": "C3",
+    "subject": "nimrud-palace",
+    "journey": "voices-power",
+    "shortOutcome": "Separate a visible detail from an interpretation supplied by a source.",
+    "deeperOutcome": "Compare how different evidence represents authority and whose voices are missing.",
+    "responseForm": "comparison",
+    "facilitatorRubric": "Point to one visible feature and identify the museum explanation needed for a claim about purpose.",
+    "steps": [
+      "Find two details on the figure and the band of writing. Describe their shapes before deciding what they meant.",
+      "Use one visible detail to explain how carefully the figure was made. Then use the supplied caption to make a separate claim about its protective purpose."
+    ],
+    "revisit": "Return later without revealing your first answer. Apply the same distinction to another object or document in this chapter, then record what changed.",
+    "duration": "5–10 minutes estimated; not yet reader-tested"
+  },
+  {
+    "chapter": "C4",
+    "subject": "eastern-han",
+    "journey": "world-200",
+    "shortOutcome": "Use a model to identify a household need and an omitted task.",
+    "deeperOutcome": "Compare contemporary cases without inferring contact from overlapping dates.",
+    "responseForm": "comparison",
+    "facilitatorRubric": "Link a tower, granary or well to a need, and name someone or some work the model does not show.",
+    "steps": [
+      "Find the tower, granary and well using the object choices.",
+      "For each model, name something a real household would need: food, water, materials, maintenance or labor."
+    ],
+    "revisit": "Return later without revealing your first answer. Apply the same distinction to another object or document in this chapter, then record what changed.",
+    "duration": "5–10 minutes estimated; not yet reader-tested"
+  },
+  {
+    "chapter": "C5",
+    "subject": "byzantium",
+    "journey": "institutions-images",
+    "shortOutcome": "Sort an observation, a source interpretation and an unsupported claim.",
+    "deeperOutcome": "Explain how an institution and a surviving object have different historical scopes.",
+    "responseForm": "observation",
+    "facilitatorRubric": "Identify a visible feature; separate the proposed use from an imagined journey of the particular object.",
+    "steps": [
+      "Find an opening through the carved frame, a figure projecting from the background and a line of letters in the supplied photograph. Describe each before naming its meaning.",
+      "Ask an adult to read the capsule. Sort three statements: the frame has openings; the panel was probably used privately; a ship carried this exact ivory. Which is visible, which is a source interpretation, and which is not established?"
+    ],
+    "revisit": "Return later without revealing your first answer. Apply the same distinction to another object or document in this chapter, then record what changed.",
+    "duration": "5–10 minutes estimated; not yet reader-tested"
+  },
+  {
+    "chapter": "C6",
+    "subject": "mali-networks",
+    "journey": "knowledge-networks",
+    "shortOutcome": "Explain how a royal image makes some work visible and leaves other work out.",
+    "deeperOutcome": "Connect movement and knowledge through named intermediaries while keeping evidence limits explicit.",
+    "responseForm": "supported explanation",
+    "facilitatorRubric": "Describe one royal symbol and one everyday task absent from the image; say what other evidence would be needed.",
+    "steps": [
+      "In the supplied map detail, find the crown, staff and gold-colored round object.",
+      "Read about food vessels. Name one task that supported life but is absent from the royal image."
+    ],
+    "revisit": "Return later without revealing your first answer. Apply the same distinction to another object or document in this chapter, then record what changed.",
+    "duration": "5–10 minutes estimated; not yet reader-tested"
+  },
+  {
+    "chapter": "C7",
+    "subject": "portuguese-voyage",
+    "journey": "ocean-connections",
+    "shortOutcome": "Name work and knowledge required for an arrival beyond sailing.",
+    "deeperOutcome": "Explain exchange and unequal power through specific intermediaries and dated encounters.",
+    "responseForm": "supported explanation",
+    "facilitatorRubric": "Identify a pilot, supplies or conversation and distinguish a schematic connection from an exact ship track.",
+    "steps": [
+      "Follow the diagram from supplies and a pilot to conversation and a court audience.",
+      "Choose one task that sailing alone could not complete. Explain whose knowledge it required."
+    ],
+    "revisit": "Return later without revealing your first answer. Apply the same distinction to another object or document in this chapter, then record what changed.",
+    "duration": "5–10 minutes estimated; not yet reader-tested"
+  },
+  {
+    "chapter": "C8",
+    "subject": "haitian-revolution",
+    "journey": "machines-work",
+    "shortOutcome": "Sequence distinct statements about status, work and independence.",
+    "deeperOutcome": "Compare the promises and constraints of changing systems of work and political authority.",
+    "responseForm": "sequencing",
+    "facilitatorRubric": "Separate the 1801 legal/work provisions from the 1804 political decision and identify whose agreement the later text records.",
+    "steps": [
+      "Read the supplied capsule together. Make three cards: legal status, control of work and political separation.",
+      "Match the 1801 abolition clause, the cultivation/movement rules and the 1804 generals’ oath to the cards. Explain why two cards can describe the same constitution."
+    ],
+    "revisit": "Return later without revealing your first answer. Apply the same distinction to another object or document in this chapter, then record what changed.",
+    "duration": "5–10 minutes estimated; not yet reader-tested"
+  }
+]

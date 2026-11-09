@@ -1,0 +1,21 @@
+{
+  "subject": "mali-networks",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "catalan-musa-detail",
+      "caption": "A foreign royal image, conventionally dated about 1375. Crown, staff and gold foreground rulership and wealth; they do not measure a fortune or record the ruler’s appearance from life. This supplied detail is not the full atlas panel.",
+      "notice": [
+        "Find the crown, staff and gold-colored round object.",
+        "Ask whose work is absent from the royal image.",
+        "The supplied detail already crops the larger atlas; no further crop or reconstructed writing is added."
+      ],
+      "creator": "Attributed to Abraham Cresques; BnF / Gallica reproduction",
+      "place": "Atlas made in Majorca; represents Mali within a foreign geographical imagination",
+      "material": "Digital reproduction of illuminated parchment; supplied detail",
+      "representedDate": "A later foreign depiction of Mansa Musa, whose Cairo pilgrimage anchor is 1324; not a portrait made from life.",
+      "relevance": "Makes foreign royal imagery directly inspectable while separating representation from local institutions and household production.",
+      "printWidthMm": 155
+    }
+  ]
+}

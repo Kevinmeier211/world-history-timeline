@@ -1,0 +1,4690 @@
+{
+  "generated": "2026-11-05T19:24:50.816Z",
+  "scope": "Canonical authoring locations. Historical field writers are preserved in the frozen migration history.",
+  "corpusSHA256": "e1a55385b2e242dbb9dcf865d94a0527fa4ed14396a2df0908d427bb5866cddd",
+  "baselinePath": "output/navigation-accessibility-2026-11-05/content-ownership/baseline/corpus.json",
+  "identicalCorpusBytes": true,
+  "freshIndependentAssembly": true,
+  "mutationIsolation": true,
+  "manifest": "scripts/redesign/content-canonical/manifest.json",
+  "historicalProvenance": {
+    "file": "docs/redesign/CONTENT-HISTORY-2026-11-05.json",
+    "corpusSHA256": "e1a55385b2e242dbb9dcf865d94a0527fa4ed14396a2df0908d427bb5866cddd",
+    "stageCount": 35,
+    "base": "scripts/redesign/content-base.ts",
+    "pipeline": "scripts/redesign/content-pipeline.ts"
+  },
+  "chapterChecks": [
+    {
+      "chapter": "C1",
+      "authoringFile": "scripts/redesign/content-canonical/C1.json",
+      "ownedSubjectIds": [
+        "uruk-accounts",
+        "old-kingdom",
+        "dholavira",
+        "liangzhu",
+        "caral",
+        "skara-brae",
+        "kerma-potters"
+      ],
+      "visibleSubjectIds": [
+        "uruk-accounts",
+        "old-kingdom",
+        "dholavira",
+        "liangzhu",
+        "caral",
+        "skara-brae",
+        "kerma-potters"
+      ]
+    },
+    {
+      "chapter": "C2",
+      "authoringFile": "scripts/redesign/content-canonical/C2.json",
+      "ownedSubjectIds": [
+        "hattusha-change",
+        "uluburun",
+        "shang-ritual",
+        "olmec",
+        "lapita",
+        "poverty-point"
+      ],
+      "visibleSubjectIds": [
+        "dholavira",
+        "caral",
+        "hattusha-change",
+        "uluburun",
+        "shang-ritual",
+        "kerma-potters",
+        "olmec",
+        "lapita",
+        "poverty-point"
+      ]
+    },
+    {
+      "chapter": "C3",
+      "authoringFile": "scripts/redesign/content-canonical/C3.json",
+      "ownedSubjectIds": [
+        "colima",
+        "teotihuacan",
+        "dongson",
+        "nimrud-palace",
+        "ashoka-messages",
+        "athens-water",
+        "taharqo",
+        "chavin-textile",
+        "qin-administration"
+      ],
+      "visibleSubjectIds": [
+        "colima",
+        "teotihuacan",
+        "dongson",
+        "olmec",
+        "lapita",
+        "nimrud-palace",
+        "ashoka-messages",
+        "athens-water",
+        "taharqo",
+        "chavin-textile",
+        "qin-administration"
+      ]
+    },
+    {
+      "chapter": "C4",
+      "authoringFile": "scripts/redesign/content-canonical/C4.json",
+      "ownedSubjectIds": [
+        "eastern-han",
+        "roman-world",
+        "palmyra",
+        "kushan-contexts",
+        "aksum",
+        "moche",
+        "byzantium",
+        "hopewell-earthworks",
+        "bering-sea-carvers"
+      ],
+      "visibleSubjectIds": [
+        "eastern-han",
+        "colima",
+        "roman-world",
+        "palmyra",
+        "kushan-contexts",
+        "aksum",
+        "teotihuacan",
+        "moche",
+        "dongson",
+        "byzantium",
+        "hopewell-earthworks",
+        "bering-sea-carvers"
+      ]
+    },
+    {
+      "chapter": "C5",
+      "authoringFile": "scripts/redesign/content-canonical/C5.json",
+      "ownedSubjectIds": [
+        "tang-city",
+        "abbasid-craft",
+        "borobudur",
+        "nalanda",
+        "maya-vessel",
+        "angkor",
+        "song-art",
+        "chaco-communities"
+      ],
+      "visibleSubjectIds": [
+        "aksum",
+        "teotihuacan",
+        "moche",
+        "byzantium",
+        "tang-city",
+        "abbasid-craft",
+        "borobudur",
+        "nalanda",
+        "maya-vessel",
+        "angkor",
+        "song-art",
+        "chaco-communities"
+      ]
+    },
+    {
+      "chapter": "C6",
+      "authoringFile": "scripts/redesign/content-canonical/C6.json",
+      "ownedSubjectIds": [
+        "kongo-translation",
+        "portuguese-voyage",
+        "ming-workshops",
+        "mali-networks",
+        "middle-niger",
+        "inca-weaving",
+        "polynesian-voyaging",
+        "cahokia-city",
+        "ocmulgee-council"
+      ],
+      "visibleSubjectIds": [
+        "kongo-translation",
+        "portuguese-voyage",
+        "ming-workshops",
+        "byzantium",
+        "abbasid-craft",
+        "nalanda",
+        "mali-networks",
+        "middle-niger",
+        "angkor",
+        "song-art",
+        "inca-weaving",
+        "polynesian-voyaging",
+        "chaco-communities",
+        "cahokia-city",
+        "ocmulgee-council"
+      ]
+    },
+    {
+      "chapter": "C7",
+      "authoringFile": "scripts/redesign/content-canonical/C7.json",
+      "ownedSubjectIds": [
+        "benin-ivory",
+        "manila-network",
+        "mughal-books",
+        "banda-1621",
+        "haitian-revolution",
+        "ottoman-workshops",
+        "isfahan-silk",
+        "bukhara-books",
+        "zand-iran",
+        "ozette-makah",
+        "blackfoot-bison",
+        "hidatsa-villages",
+        "wendat-laine",
+        "haudenosaunee-canandaigua"
+      ],
+      "visibleSubjectIds": [
+        "benin-ivory",
+        "kongo-translation",
+        "portuguese-voyage",
+        "manila-network",
+        "ming-workshops",
+        "mughal-books",
+        "banda-1621",
+        "mali-networks",
+        "inca-weaving",
+        "haitian-revolution",
+        "ottoman-workshops",
+        "isfahan-silk",
+        "bukhara-books",
+        "zand-iran",
+        "ozette-makah",
+        "blackfoot-bison",
+        "hidatsa-villages",
+        "wendat-laine",
+        "haudenosaunee-canandaigua"
+      ]
+    },
+    {
+      "chapter": "C8",
+      "authoringFile": "scripts/redesign/content-canonical/C8.json",
+      "ownedSubjectIds": [
+        "factory-reform",
+        "hine-labor",
+        "tomioka",
+        "tiriti",
+        "partition-1947",
+        "south-africa-rights",
+        "world-war-one",
+        "world-war-two",
+        "sputnik",
+        "inuinnait-sewing",
+        "kwakwakawakw-potlatch",
+        "cherokee-print",
+        "ojibwe-manoomin",
+        "indonesia-independence",
+        "ghana-independence"
+      ],
+      "visibleSubjectIds": [
+        "manila-network",
+        "factory-reform",
+        "hine-labor",
+        "tomioka",
+        "haitian-revolution",
+        "tiriti",
+        "partition-1947",
+        "south-africa-rights",
+        "world-war-one",
+        "world-war-two",
+        "sputnik",
+        "inuinnait-sewing",
+        "blackfoot-bison",
+        "hidatsa-villages",
+        "kwakwakawakw-potlatch",
+        "cherokee-print",
+        "ojibwe-manoomin",
+        "indonesia-independence",
+        "ghana-independence"
+      ]
+    }
+  ],
+  "ownership": {
+    "subjects/eastern-han": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "eastern-han"
+    },
+    "subjects/colima": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "colima"
+    },
+    "subjects/roman-world": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "roman-world"
+    },
+    "subjects/palmyra": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "palmyra"
+    },
+    "subjects/kushan-contexts": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "kushan-contexts"
+    },
+    "subjects/aksum": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "aksum"
+    },
+    "subjects/teotihuacan": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "teotihuacan"
+    },
+    "subjects/moche": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "moche"
+    },
+    "subjects/dongson": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "dongson"
+    },
+    "subjects/benin-ivory": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "benin-ivory"
+    },
+    "subjects/kongo-translation": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "kongo-translation"
+    },
+    "subjects/portuguese-voyage": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "portuguese-voyage"
+    },
+    "subjects/manila-network": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "manila-network"
+    },
+    "subjects/ming-workshops": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "ming-workshops"
+    },
+    "subjects/mughal-books": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "mughal-books"
+    },
+    "subjects/banda-1621": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "banda-1621"
+    },
+    "subjects/uruk-accounts": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "uruk-accounts"
+    },
+    "subjects/old-kingdom": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "old-kingdom"
+    },
+    "subjects/dholavira": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "dholavira"
+    },
+    "subjects/liangzhu": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "liangzhu"
+    },
+    "subjects/caral": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "caral"
+    },
+    "subjects/skara-brae": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "skara-brae"
+    },
+    "subjects/hattusha-change": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "hattusha-change"
+    },
+    "subjects/uluburun": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "uluburun"
+    },
+    "subjects/shang-ritual": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "shang-ritual"
+    },
+    "subjects/kerma-potters": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "kerma-potters"
+    },
+    "subjects/olmec": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "olmec"
+    },
+    "subjects/lapita": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "lapita"
+    },
+    "subjects/nimrud-palace": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "nimrud-palace"
+    },
+    "subjects/ashoka-messages": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "ashoka-messages"
+    },
+    "subjects/athens-water": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "athens-water"
+    },
+    "subjects/taharqo": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "taharqo"
+    },
+    "subjects/chavin-textile": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "chavin-textile"
+    },
+    "subjects/byzantium": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "byzantium"
+    },
+    "subjects/tang-city": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "tang-city"
+    },
+    "subjects/abbasid-craft": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "abbasid-craft"
+    },
+    "subjects/borobudur": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "borobudur"
+    },
+    "subjects/nalanda": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "nalanda"
+    },
+    "subjects/maya-vessel": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "maya-vessel"
+    },
+    "subjects/mali-networks": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "mali-networks"
+    },
+    "subjects/middle-niger": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "middle-niger"
+    },
+    "subjects/angkor": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "angkor"
+    },
+    "subjects/song-art": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "song-art"
+    },
+    "subjects/inca-weaving": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "inca-weaving"
+    },
+    "subjects/polynesian-voyaging": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "polynesian-voyaging"
+    },
+    "subjects/factory-reform": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "factory-reform"
+    },
+    "subjects/hine-labor": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "hine-labor"
+    },
+    "subjects/tomioka": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "tomioka"
+    },
+    "subjects/haitian-revolution": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "haitian-revolution"
+    },
+    "subjects/tiriti": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "tiriti"
+    },
+    "subjects/partition-1947": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "partition-1947"
+    },
+    "subjects/south-africa-rights": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "south-africa-rights"
+    },
+    "subjects/world-war-one": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "world-war-one"
+    },
+    "subjects/world-war-two": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "world-war-two"
+    },
+    "subjects/sputnik": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "sputnik"
+    },
+    "subjects/qin-administration": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "qin-administration"
+    },
+    "subjects/poverty-point": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "poverty-point"
+    },
+    "subjects/hopewell-earthworks": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "hopewell-earthworks"
+    },
+    "subjects/chaco-communities": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "chaco-communities"
+    },
+    "subjects/cahokia-city": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "cahokia-city"
+    },
+    "subjects/ottoman-workshops": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "ottoman-workshops"
+    },
+    "subjects/isfahan-silk": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "isfahan-silk"
+    },
+    "subjects/bukhara-books": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "bukhara-books"
+    },
+    "subjects/zand-iran": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "zand-iran"
+    },
+    "subjects/bering-sea-carvers": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "bering-sea-carvers"
+    },
+    "subjects/inuinnait-sewing": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "inuinnait-sewing"
+    },
+    "subjects/ozette-makah": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "ozette-makah"
+    },
+    "subjects/blackfoot-bison": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "blackfoot-bison"
+    },
+    "subjects/hidatsa-villages": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "hidatsa-villages"
+    },
+    "subjects/kwakwakawakw-potlatch": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "kwakwakawakw-potlatch"
+    },
+    "subjects/ocmulgee-council": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "ocmulgee-council"
+    },
+    "subjects/wendat-laine": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "wendat-laine"
+    },
+    "subjects/haudenosaunee-canandaigua": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "haudenosaunee-canandaigua"
+    },
+    "subjects/cherokee-print": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "cherokee-print"
+    },
+    "subjects/ojibwe-manoomin": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "ojibwe-manoomin"
+    },
+    "subjects/indonesia-independence": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "indonesia-independence"
+    },
+    "subjects/ghana-independence": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "ghana-independence"
+    },
+    "sources/han": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "han"
+    },
+    "sources/models": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "models"
+    },
+    "sources/rome": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "rome"
+    },
+    "sources/trade": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "trade"
+    },
+    "sources/kushan": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "kushan"
+    },
+    "sources/parthia": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "parthia"
+    },
+    "sources/aksum": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "aksum"
+    },
+    "sources/teotihuacan": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "teotihuacan"
+    },
+    "sources/moche": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "moche"
+    },
+    "sources/kanishka-chronology": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "kanishka-chronology"
+    },
+    "sources/ivories": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ivories"
+    },
+    "sources/kongo-christianity": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "kongo-christianity"
+    },
+    "sources/galleon": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "galleon"
+    },
+    "sources/ming": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ming"
+    },
+    "sources/mughal": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "mughal"
+    },
+    "sources/interwoven": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "interwoven"
+    },
+    "sources/banda-archive": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "banda-archive"
+    },
+    "sources/point-reyes": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "point-reyes"
+    },
+    "sources/mexico-conquest": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "mexico-conquest"
+    },
+    "sources/banda-museum": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "banda-museum"
+    },
+    "sources/kongo-interview": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "kongo-interview"
+    },
+    "sources/uruk": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "uruk"
+    },
+    "sources/writing": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "writing"
+    },
+    "sources/old-kingdom": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "old-kingdom"
+    },
+    "sources/dholavira": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "dholavira"
+    },
+    "sources/caral": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "caral"
+    },
+    "sources/caral-peru": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "caral-peru"
+    },
+    "sources/liangzhu": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "liangzhu"
+    },
+    "sources/skara-houses": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "skara-houses"
+    },
+    "sources/skara-tool": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "skara-tool"
+    },
+    "sources/hattusha": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "hattusha"
+    },
+    "sources/hattusha-research": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "hattusha-research"
+    },
+    "sources/hittite-drought": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "hittite-drought"
+    },
+    "sources/uluburun": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "uluburun"
+    },
+    "sources/shang-zhou": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "shang-zhou"
+    },
+    "sources/chinese-music": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "chinese-music"
+    },
+    "sources/kerma": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "kerma"
+    },
+    "sources/olmec": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "olmec"
+    },
+    "sources/lapita": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "lapita"
+    },
+    "sources/lapita-voyaging": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "lapita-voyaging"
+    },
+    "sources/nimrud": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "nimrud"
+    },
+    "sources/assyrian-court": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "assyrian-court"
+    },
+    "sources/ashoka": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ashoka"
+    },
+    "sources/agora-women": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "agora-women"
+    },
+    "sources/hydria": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "hydria"
+    },
+    "sources/shabti-context": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "shabti-context"
+    },
+    "sources/byzantium": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "byzantium"
+    },
+    "sources/icons": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "icons"
+    },
+    "sources/tang": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "tang"
+    },
+    "sources/abbasid": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "abbasid"
+    },
+    "sources/borobudur": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "borobudur"
+    },
+    "sources/nalanda": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "nalanda"
+    },
+    "sources/sahel": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "sahel"
+    },
+    "sources/sahel-visual": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "sahel-visual"
+    },
+    "sources/angkor": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "angkor"
+    },
+    "sources/song": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "song"
+    },
+    "sources/song-phases": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "song-phases"
+    },
+    "sources/nz-settlement": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "nz-settlement"
+    },
+    "sources/navigation": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "navigation"
+    },
+    "sources/factory-act": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "factory-act"
+    },
+    "sources/hine": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "hine"
+    },
+    "sources/hine-context": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "hine-context"
+    },
+    "sources/tomioka": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "tomioka"
+    },
+    "sources/tomioka-local": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "tomioka-local"
+    },
+    "sources/haiti": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "haiti"
+    },
+    "sources/haiti-declaration": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "haiti-declaration"
+    },
+    "sources/treaty-signing": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "treaty-signing"
+    },
+    "sources/treaty-texts": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "treaty-texts"
+    },
+    "sources/partition": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "partition"
+    },
+    "sources/partition-army": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "partition-army"
+    },
+    "sources/sa-rights": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "sa-rights"
+    },
+    "sources/sa-transition": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "sa-transition"
+    },
+    "sources/ww1": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ww1"
+    },
+    "sources/ww1-indian-service-geography": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ww1-indian-service-geography"
+    },
+    "sources/ww1-decisions": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ww1-decisions"
+    },
+    "sources/war-poster": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "war-poster"
+    },
+    "sources/ww2": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ww2"
+    },
+    "sources/holocaust": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "holocaust"
+    },
+    "sources/sputnik": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "sputnik"
+    },
+    "sources/sputnik-records": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "sputnik-records"
+    },
+    "sources/qin": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "qin"
+    },
+    "sources/qin-quan": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "qin-quan"
+    },
+    "sources/qin-measure": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "qin-measure"
+    },
+    "sources/qin-practice": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "qin-practice"
+    },
+    "sources/pp-nps": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "pp-nps"
+    },
+    "sources/pp-louisiana": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "pp-louisiana"
+    },
+    "sources/pp-gibson": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "pp-gibson"
+    },
+    "sources/hopewell-nps": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "hopewell-nps"
+    },
+    "sources/hopewell-moundcity": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "hopewell-moundcity"
+    },
+    "sources/hopewell-moundgroup": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "hopewell-moundgroup"
+    },
+    "sources/hopewell-nps-photo": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "hopewell-nps-photo"
+    },
+    "sources/hopewell-unesco": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "hopewell-unesco"
+    },
+    "sources/chaco-history": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "chaco-history"
+    },
+    "sources/chaco-bonito": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "chaco-bonito"
+    },
+    "sources/chaco-nps-photo": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "chaco-nps-photo"
+    },
+    "sources/chaco-cacao": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "chaco-cacao"
+    },
+    "sources/chaco-pueblo-council": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "chaco-pueblo-council"
+    },
+    "sources/cahokia-unesco": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "cahokia-unesco"
+    },
+    "sources/cahokia-illinois": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "cahokia-illinois"
+    },
+    "sources/cahokia-after": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "cahokia-after"
+    },
+    "sources/cahokia-critique": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "cahokia-critique"
+    },
+    "sources/cahokia-loc-1907": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "cahokia-loc-1907"
+    },
+    "sources/nps-media-rights": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "nps-media-rights"
+    },
+    "sources/stonepaste-tech": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "stonepaste-tech"
+    },
+    "sources/ottoman-before": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ottoman-before"
+    },
+    "sources/ottoman-after": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ottoman-after"
+    },
+    "sources/isfahan-capital": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "isfahan-capital"
+    },
+    "sources/isfahan-art": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "isfahan-art"
+    },
+    "sources/safavid-silk": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "safavid-silk"
+    },
+    "sources/julfa-forced": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "julfa-forced"
+    },
+    "sources/bukhara-unesco": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "bukhara-unesco"
+    },
+    "sources/bukhara-monuments": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "bukhara-monuments"
+    },
+    "sources/zand-history": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "zand-history"
+    },
+    "sources/zand-karim": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "zand-karim"
+    },
+    "sources/met-717577": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-717577"
+    },
+    "sources/bering-whaling": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "bering-whaling"
+    },
+    "sources/birnirk-context": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "birnirk-context"
+    },
+    "sources/inuinnait-patterns": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "inuinnait-patterns"
+    },
+    "sources/inuinnait-history": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "inuinnait-history"
+    },
+    "sources/jenness-1922": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "jenness-1922"
+    },
+    "sources/ozette-museum": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ozette-museum"
+    },
+    "sources/ozette-dating-discussion": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ozette-dating-discussion"
+    },
+    "sources/ozette-architecture": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ozette-architecture"
+    },
+    "sources/ozette-wsu": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ozette-wsu"
+    },
+    "sources/makah-canoes": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "makah-canoes"
+    },
+    "sources/makah-loc": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "makah-loc"
+    },
+    "sources/hsi-unesco": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "hsi-unesco"
+    },
+    "sources/hsi-blackfoot": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "hsi-blackfoot"
+    },
+    "sources/hsi-brink": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "hsi-brink"
+    },
+    "sources/hsi-image": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "hsi-image"
+    },
+    "sources/knife-village": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "knife-village"
+    },
+    "sources/knife-subsistence": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "knife-subsistence"
+    },
+    "sources/knife-women": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "knife-women"
+    },
+    "sources/mha-history": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "mha-history"
+    },
+    "sources/umista-history": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "umista-history"
+    },
+    "sources/umista-about": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "umista-about"
+    },
+    "sources/kwak-amnh": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "kwak-amnh"
+    },
+    "sources/hunt-boas-1921": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "hunt-boas-1921"
+    },
+    "sources/umista-ban": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "umista-ban"
+    },
+    "sources/hsi-site-history": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "hsi-site-history"
+    },
+    "sources/ocmu-floor-image": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ocmu-floor-image"
+    },
+    "sources/ocmu-earthlodge": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ocmu-earthlodge"
+    },
+    "sources/ocmu-chronology": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ocmu-chronology"
+    },
+    "sources/ocmu-muscogee": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ocmu-muscogee"
+    },
+    "sources/muscogee-councilhouse": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "muscogee-councilhouse"
+    },
+    "sources/laine-chronology": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "laine-chronology"
+    },
+    "sources/laine-wendat": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "laine-wendat"
+    },
+    "sources/canandaigua-archive": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "canandaigua-archive"
+    },
+    "sources/canandaigua-onondaga": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "canandaigua-onondaga"
+    },
+    "sources/onondaga-wampum": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "onondaga-wampum"
+    },
+    "sources/phoenix-catalogue": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "phoenix-catalogue"
+    },
+    "sources/phoenix-photo": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "phoenix-photo"
+    },
+    "sources/phoenix-constitution": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "phoenix-constitution"
+    },
+    "sources/cherokee-nation-history": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "cherokee-nation-history"
+    },
+    "sources/rice-linde": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "rice-linde"
+    },
+    "sources/rice-goodberry": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "rice-goodberry"
+    },
+    "sources/rice-stcroix": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "rice-stcroix"
+    },
+    "sources/rice-glifwc": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "rice-glifwc"
+    },
+    "sources/met-451490": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-451490"
+    },
+    "sources/met-449533": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-449533"
+    },
+    "sources/met-451028": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-451028"
+    },
+    "sources/met-452671": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-452671"
+    },
+    "sources/met-681122": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-681122"
+    },
+    "sources/met-49519": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-49519"
+    },
+    "sources/met-317600": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-317600"
+    },
+    "sources/met-52010": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-52010"
+    },
+    "sources/met-52527": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-52527"
+    },
+    "sources/met-251870": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-251870"
+    },
+    "sources/met-547951": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-547951"
+    },
+    "sources/met-256732": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-256732"
+    },
+    "sources/met-322375": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-322375"
+    },
+    "sources/met-39385": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-39385"
+    },
+    "sources/met-312736": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-312736"
+    },
+    "sources/met-316721": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-316721"
+    },
+    "sources/met-307474": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-307474"
+    },
+    "sources/met-39209": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-39209"
+    },
+    "sources/met-309900": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-309900"
+    },
+    "sources/met-318323": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-318323"
+    },
+    "sources/met-448183": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-448183"
+    },
+    "sources/met-42549": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-42549"
+    },
+    "sources/met-9198": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-9198"
+    },
+    "sources/met-327384": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-327384"
+    },
+    "sources/met-543914": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-543914"
+    },
+    "sources/met-324062": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-324062"
+    },
+    "sources/met-72376": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-72376"
+    },
+    "sources/met-545772": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-545772"
+    },
+    "sources/met-42045": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-42045"
+    },
+    "sources/met-314609": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-314609"
+    },
+    "sources/met-322614": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-322614"
+    },
+    "sources/met-247244": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-247244"
+    },
+    "sources/met-544883": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-544883"
+    },
+    "sources/met-315784": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-315784"
+    },
+    "sources/met-464428": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-464428"
+    },
+    "sources/met-452833": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-452833"
+    },
+    "sources/met-44800": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-44800"
+    },
+    "sources/met-316711": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-316711"
+    },
+    "sources/met-314362": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-314362"
+    },
+    "sources/met-42455": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-42455"
+    },
+    "sources/met-313152": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-313152"
+    },
+    "sources/rome-severans": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "rome-severans"
+    },
+    "sources/rome-educators": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "rome-educators"
+    },
+    "sources/han-agriculture": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "han-agriculture"
+    },
+    "sources/han-salt": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "han-salt"
+    },
+    "sources/angkor-lidar": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "angkor-lidar"
+    },
+    "sources/angkor-network": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "angkor-network"
+    },
+    "sources/angkor-occupation": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "angkor-occupation"
+    },
+    "sources/angkor-nasa": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "angkor-nasa"
+    },
+    "sources/partition-oral": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "partition-oral"
+    },
+    "sources/partition-map": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "partition-map"
+    },
+    "sources/indonesia-proclamation-archive": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "indonesia-proclamation-archive"
+    },
+    "sources/indonesia-transfer": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "indonesia-transfer"
+    },
+    "sources/indonesia-war": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "indonesia-war"
+    },
+    "sources/indonesia-newguinea": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "indonesia-newguinea"
+    },
+    "sources/ghana-parliament": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ghana-parliament"
+    },
+    "sources/ghana-nkrumah": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ghana-nkrumah"
+    },
+    "sources/ghana-debate-1957": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ghana-debate-1957"
+    },
+    "sources/ghana-country-study": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ghana-country-study"
+    },
+    "sources/sa-mandela-constitution": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "sa-mandela-constitution"
+    },
+    "sources/sa-certification": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "sa-certification"
+    },
+    "sources/sa-constitutional-negotiation": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "sa-constitutional-negotiation"
+    },
+    "sources/sa-constitution-hill": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "sa-constitution-hill"
+    },
+    "sources/indonesia-proclamation-image": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "indonesia-proclamation-image"
+    },
+    "sources/ghana-stamp-image": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ghana-stamp-image"
+    },
+    "sources/sa-voting-image": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "sa-voting-image"
+    },
+    "sources/uruk-dai": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "uruk-dai"
+    },
+    "sources/dholavira-plan": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "dholavira-plan"
+    },
+    "sources/dholavira-gpr": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "dholavira-gpr"
+    },
+    "sources/liangzhu-hydraulics": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "liangzhu-hydraulics"
+    },
+    "sources/liangzhu-correction": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "liangzhu-correction"
+    },
+    "sources/hattusha-dai": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "hattusha-dai"
+    },
+    "sources/hattusha-houses": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "hattusha-houses"
+    },
+    "sources/uluburun-1990": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "uluburun-1990"
+    },
+    "sources/uluburun-tin-2022": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "uluburun-tin-2022"
+    },
+    "sources/uluburun-tin-2023": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "uluburun-tin-2023"
+    },
+    "sources/uluburun-tin-2025": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "uluburun-tin-2025"
+    },
+    "sources/shang-yinxu": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "shang-yinxu"
+    },
+    "sources/shang-divination": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "shang-divination"
+    },
+    "sources/met-44781": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-44781"
+    },
+    "sources/qin-mausoleum": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "qin-mausoleum"
+    },
+    "sources/ashoka-edicts-1925": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ashoka-edicts-1925"
+    },
+    "sources/athens-constitution": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "athens-constitution"
+    },
+    "sources/athens-status-research": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "athens-status-research"
+    },
+    "sources/athens-sites": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "athens-sites"
+    },
+    "sources/palmyra-tax": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "palmyra-tax"
+    },
+    "sources/palmyra-getty": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "palmyra-getty"
+    },
+    "sources/palmyra-literacy": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "palmyra-literacy"
+    },
+    "sources/kushan-inscriptions": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "kushan-inscriptions"
+    },
+    "sources/aksum-world": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "aksum-world"
+    },
+    "sources/beta-samati": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "beta-samati"
+    },
+    "sources/tang-changan": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "tang-changan"
+    },
+    "sources/tang-wards": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "tang-wards"
+    },
+    "sources/abbasid-workshops": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "abbasid-workshops"
+    },
+    "sources/basrah-fieldwork": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "basrah-fieldwork"
+    },
+    "sources/murwab-ceramics": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "murwab-ceramics"
+    },
+    "sources/yijing-1896": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "yijing-1896"
+    },
+    "sources/nalanda-photo": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "nalanda-photo"
+    },
+    "sources/met-451400": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-451400"
+    },
+    "sources/song-crop-loans": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "song-crop-loans"
+    },
+    "sources/song-markets": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "song-markets"
+    },
+    "sources/song-governance": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "song-governance"
+    },
+    "sources/caravans-fragments": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "caravans-fragments"
+    },
+    "sources/catalan-musa-detail": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "catalan-musa-detail"
+    },
+    "sources/catalan-block": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "catalan-block"
+    },
+    "sources/inka-labor": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "inka-labor"
+    },
+    "sources/inka-road-users": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "inka-road-users"
+    },
+    "sources/inka-colcas": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "inka-colcas"
+    },
+    "sources/inka-regional": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "inka-regional"
+    },
+    "sources/guaman-poma-context": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "guaman-poma-context"
+    },
+    "sources/yanawilka-food": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "yanawilka-food"
+    },
+    "sources/benin-court-guilds": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "benin-court-guilds"
+    },
+    "sources/afonso-letters-1526": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "afonso-letters-1526"
+    },
+    "sources/gama-journal-1898": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "gama-journal-1898"
+    },
+    "sources/gama-manuscript-custody": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "gama-manuscript-custody"
+    },
+    "sources/giza-settlement": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "giza-settlement"
+    },
+    "sources/giza-provisioning": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "giza-provisioning"
+    },
+    "sources/giza-cult-town": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "giza-cult-town"
+    },
+    "sources/merer-logbook": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "merer-logbook"
+    },
+    "sources/caral-project-2005": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "caral-project-2005"
+    },
+    "sources/caral-starch-2023": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "caral-starch-2023"
+    },
+    "sources/skara-significance-2024": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "skara-significance-2024"
+    },
+    "sources/skara-crops-2022": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "skara-crops-2022"
+    },
+    "sources/orkney-neolithic": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orkney-neolithic"
+    },
+    "sources/pyramid-field-locators": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "pyramid-field-locators"
+    },
+    "sources/orkney-brodgar-locator": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orkney-brodgar-locator"
+    },
+    "sources/orkney-stenness-locator": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orkney-stenness-locator"
+    },
+    "sources/olmec-sampling-2020": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "olmec-sampling-2020"
+    },
+    "sources/olmec-housing-2018": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "olmec-housing-2018"
+    },
+    "sources/olmec-workshops-2021": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "olmec-workshops-2021"
+    },
+    "sources/olmec-regional-inah": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "olmec-regional-inah"
+    },
+    "sources/olmec-foodways-2012": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "olmec-foodways-2012"
+    },
+    "sources/olmec-food-methods-2018": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "olmec-food-methods-2018"
+    },
+    "sources/lapita-rove-temper": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "lapita-rove-temper"
+    },
+    "sources/lapita-teouma-diet": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "lapita-teouma-diet"
+    },
+    "sources/lapita-nukuleka-uth": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "lapita-nukuleka-uth"
+    },
+    "sources/lapita-tonga-dating": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "lapita-tonga-dating"
+    },
+    "sources/lapita-tonga-ceramic-change": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "lapita-tonga-ceramic-change"
+    },
+    "sources/lapita-oceanic-linguistics": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "lapita-oceanic-linguistics"
+    },
+    "sources/pp-chronology-2023": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "pp-chronology-2023"
+    },
+    "sources/pp-heritage": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "pp-heritage"
+    },
+    "sources/jaketown-locator": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "jaketown-locator"
+    },
+    "sources/met-314215-cast": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-314215-cast"
+    },
+    "sources/sic-san-lorenzo": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "sic-san-lorenzo"
+    },
+    "sources/sic-la-venta": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "sic-la-venta"
+    },
+    "sources/sic-tres-zapotes": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "sic-tres-zapotes"
+    },
+    "sources/tonga-lapita-tentative": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "tonga-lapita-tentative"
+    },
+    "sources/kerma-doukki-aibl": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "kerma-doukki-aibl"
+    },
+    "sources/kerma-city-project": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "kerma-city-project"
+    },
+    "sources/kerma-history-project": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "kerma-history-project"
+    },
+    "sources/nimrud-palace-project": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "nimrud-palace-project"
+    },
+    "sources/nimrud-standard-inscription": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "nimrud-standard-inscription"
+    },
+    "sources/nimrud-captives-letter": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "nimrud-captives-letter"
+    },
+    "sources/nimrud-plan-rights": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "nimrud-plan-rights"
+    },
+    "sources/kawa-work-2024": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "kawa-work-2024"
+    },
+    "sources/sanam-production-2026": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "sanam-production-2026"
+    },
+    "sources/ashmolean-shrine": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ashmolean-shrine"
+    },
+    "sources/bm-taharqo-shabti": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "bm-taharqo-shabti"
+    },
+    "sources/faience-material": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "faience-material"
+    },
+    "sources/kerma-location-tentative": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "kerma-location-tentative"
+    },
+    "sources/abydos-location-tentative": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "abydos-location-tentative"
+    },
+    "sources/nimrud-geonames": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "nimrud-geonames"
+    },
+    "sources/nineveh-geonames": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "nineveh-geonames"
+    },
+    "sources/dur-sharrukin-geonames": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "dur-sharrukin-geonames"
+    },
+    "sources/napatan-locations": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "napatan-locations"
+    },
+    "sources/institutions-guides": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "institutions-guides"
+    },
+    "sources/chavin-weaving-abstraction": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "chavin-weaving-abstraction"
+    },
+    "sources/chavin-center-met-chronology": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "chavin-center-met-chronology"
+    },
+    "sources/chavin-center-unesco": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "chavin-center-unesco"
+    },
+    "sources/met-open-access": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "met-open-access"
+    },
+    "sources/teot-patt-households": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "teot-patt-households"
+    },
+    "sources/teot-patt-economy": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "teot-patt-economy"
+    },
+    "sources/teot-tlajinga-2026": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "teot-tlajinga-2026"
+    },
+    "sources/teot-obsidian-2019-abstract": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "teot-obsidian-2019-abstract"
+    },
+    "sources/moche-production-2009": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "moche-production-2009"
+    },
+    "sources/moche-households-2009": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "moche-households-2009"
+    },
+    "sources/moche-regions-2012": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "moche-regions-2012"
+    },
+    "sources/moche-moro-2023": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "moche-moro-2023"
+    },
+    "sources/teotihuacan-location-unesco": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "teotihuacan-location-unesco"
+    },
+    "sources/images-work-guides": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "images-work-guides"
+    },
+    "sources/dongson-vnmh-2014": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "dongson-vnmh-2014"
+    },
+    "sources/dongson-ngoc-lu-2013": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "dongson-ngoc-lu-2013"
+    },
+    "sources/dongson-ngoc-lu-2023": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "dongson-ngoc-lu-2023"
+    },
+    "sources/dongson-co-loa-2021": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "dongson-co-loa-2021"
+    },
+    "sources/dongson-phu-chanh-2008": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "dongson-phu-chanh-2008"
+    },
+    "sources/dongson-phu-chanh-treasure": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "dongson-phu-chanh-treasure"
+    },
+    "sources/dongson-luy-lau-2016": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "dongson-luy-lau-2016"
+    },
+    "sources/dongson-luy-lau-2024": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "dongson-luy-lau-2024"
+    },
+    "sources/dongson-co-loa-location": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "dongson-co-loa-location"
+    },
+    "sources/dongson-phu-chanh-location": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "dongson-phu-chanh-location"
+    },
+    "sources/dongson-ngoc-lu-location": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "dongson-ngoc-lu-location"
+    },
+    "sources/dongson-nhu-trac-location": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "dongson-nhu-trac-location"
+    },
+    "sources/dongson-luy-lau-location": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "dongson-luy-lau-location"
+    },
+    "sources/colima-models-2016": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "colima-models-2016"
+    },
+    "sources/colima-western-polities-2026": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "colima-western-polities-2026"
+    },
+    "sources/colima-shaft-tombs-inah": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "colima-shaft-tombs-inah"
+    },
+    "sources/colima-nayarit-offerings-inah": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "colima-nayarit-offerings-inah"
+    },
+    "sources/colima-huitzilapa-1996": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "colima-huitzilapa-1996"
+    },
+    "sources/colima-huitzilapa-organics-2006": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "colima-huitzilapa-organics-2006"
+    },
+    "sources/hopewell-farming": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "hopewell-farming"
+    },
+    "sources/hopewell-hopeton-research": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "hopewell-hopeton-research"
+    },
+    "sources/hopewell-hopeton": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "hopewell-hopeton"
+    },
+    "sources/hopewell-myaamia-2023": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "hopewell-myaamia-2023"
+    },
+    "sources/hopewell-unesco-locations": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "hopewell-unesco-locations"
+    },
+    "sources/hopewell-squier-davis-catalogue": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "hopewell-squier-davis-catalogue"
+    },
+    "sources/hopewell-nps-ownership": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "hopewell-nps-ownership"
+    },
+    "sources/hopewell-newark-center": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "hopewell-newark-center"
+    },
+    "sources/byzantium-ivory-work-2007": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "byzantium-ivory-work-2007"
+    },
+    "sources/byzantium-hades-reading-1974": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "byzantium-hades-reading-1974"
+    },
+    "sources/byzantium-yenikapi-project": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "byzantium-yenikapi-project"
+    },
+    "sources/byzantium-yenikapi-2015": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "byzantium-yenikapi-2015"
+    },
+    "sources/borobudur-roof-study-2022": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "borobudur-roof-study-2022"
+    },
+    "sources/borobudur-karmawibhangga-2016": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "borobudur-karmawibhangga-2016"
+    },
+    "sources/borobudur-inscription-context-2018": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "borobudur-inscription-context-2018"
+    },
+    "sources/borobudur-kayumwungan-edition": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "borobudur-kayumwungan-edition"
+    },
+    "sources/borobudur-drainage-2018": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "borobudur-drainage-2018"
+    },
+    "sources/borobudur-community-architecture-2026": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "borobudur-community-architecture-2026"
+    },
+    "sources/borobudur-monitoring-mission-2024": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "borobudur-monitoring-mission-2024"
+    },
+    "sources/borobudur-component-locations": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "borobudur-component-locations"
+    },
+    "sources/borobudur-plan-image": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "borobudur-plan-image"
+    },
+    "sources/borobudur-photo-image": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "borobudur-photo-image"
+    },
+    "sources/maya-drinking-cup-2014": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "maya-drinking-cup-2014"
+    },
+    "sources/maya-painted-ceramics": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "maya-painted-ceramics"
+    },
+    "sources/maya-ceren-households-2000": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "maya-ceren-households-2000"
+    },
+    "sources/maya-ceren-plants-2020": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "maya-ceren-plants-2020"
+    },
+    "sources/maya-ceren-unesco": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "maya-ceren-unesco"
+    },
+    "sources/maya-ik-painters-2012": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "maya-ik-painters-2012"
+    },
+    "sources/chaco-pueblo-period": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "chaco-pueblo-period"
+    },
+    "sources/chaco-roads": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "chaco-roads"
+    },
+    "sources/chaco-preservation": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "chaco-preservation"
+    },
+    "sources/chaco-treatment": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "chaco-treatment"
+    },
+    "sources/chaco-nps-ownership": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "chaco-nps-ownership"
+    },
+    "sources/chaco-plan-1850": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "chaco-plan-1850"
+    },
+    "sources/chaco-rumsey-rights": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "chaco-rumsey-rights"
+    },
+    "sources/cahokia-isas-urban-work": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "cahokia-isas-urban-work"
+    },
+    "sources/cahokia-neighborhoods-2019": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "cahokia-neighborhoods-2019"
+    },
+    "sources/cahokia-copper-2011": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "cahokia-copper-2011"
+    },
+    "sources/cahokia-soils-2021": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "cahokia-soils-2021"
+    },
+    "sources/cahokia-osage-history-2013": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "cahokia-osage-history-2013"
+    },
+    "sources/cahokia-peoria-visit-2022": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "cahokia-peoria-visit-2022"
+    },
+    "sources/ocmu-household-work": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ocmu-household-work"
+    },
+    "sources/ocmu-earthlodge-bulletin": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ocmu-earthlodge-bulletin"
+    },
+    "sources/ocmu-mvskoke-research-2026": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ocmu-mvskoke-research-2026"
+    },
+    "sources/ocmu-earthlodge-plan": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ocmu-earthlodge-plan"
+    },
+    "sources/ming-palace-production-2016": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ming-palace-production-2016"
+    },
+    "sources/ming-palace-kilns-2018": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ming-palace-kilns-2018"
+    },
+    "sources/ming-npm-production": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ming-npm-production"
+    },
+    "sources/ming-cuhk-markets-2022": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ming-cuhk-markets-2022"
+    },
+    "sources/ming-workshop-texts-2013": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ming-workshop-texts-2013"
+    },
+    "sources/ottoman-musli-lamp": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ottoman-musli-lamp"
+    },
+    "sources/ottoman-iznik-course": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ottoman-iznik-course"
+    },
+    "sources/ottoman-kiln-residues-2025": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ottoman-kiln-residues-2025"
+    },
+    "sources/ottoman-iznik-technology-2004": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ottoman-iznik-technology-2004"
+    },
+    "sources/mughal-workshops-va": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "mughal-workshops-va"
+    },
+    "sources/mughal-workshop-network": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "mughal-workshop-network"
+    },
+    "sources/mughal-razmnama-commission": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "mughal-razmnama-commission"
+    },
+    "sources/mughal-razmnama-copy": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "mughal-razmnama-copy"
+    },
+    "sources/mughal-preface-politics": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "mughal-preface-politics"
+    },
+    "sources/mughal-rahim-razmnama": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "mughal-rahim-razmnama"
+    },
+    "sources/julfa-merchant-correspondence-2026": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "julfa-merchant-correspondence-2026"
+    },
+    "sources/julfa-anna-letter-1747": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "julfa-anna-letter-1747"
+    },
+    "sources/isfahan-square-unesco": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "isfahan-square-unesco"
+    },
+    "sources/isfahan-vank-tentative": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "isfahan-vank-tentative"
+    },
+    "sources/isfahan-bridges": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "isfahan-bridges"
+    },
+    "sources/bukhara-manuscript-work-2023": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "bukhara-manuscript-work-2023"
+    },
+    "sources/bukhara-irrigation-economy": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "bukhara-irrigation-economy"
+    },
+    "sources/bukhara-juybari-endowments": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "bukhara-juybari-endowments"
+    },
+    "sources/bukhara-book-material-tasks": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "bukhara-book-material-tasks"
+    },
+    "sources/iran-lacquer-supports": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "iran-lacquer-supports"
+    },
+    "sources/manila-shipbuilding-1618-1619": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "manila-shipbuilding-1618-1619"
+    },
+    "sources/manila-tamal-huye-project": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "manila-tamal-huye-project"
+    },
+    "sources/manila-santo-cristo-2022": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "manila-santo-cristo-2022"
+    },
+    "sources/banda-pala-1621": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "banda-pala-1621"
+    },
+    "sources/banda-wandan-statement-2021": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "banda-wandan-statement-2021"
+    },
+    "sources/banda-farid-commemoration": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "banda-farid-commemoration"
+    },
+    "sources/banda-language-tana-2019": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "banda-language-tana-2019"
+    },
+    "sources/banda-gazetteer-2021": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "banda-gazetteer-2021"
+    },
+    "sources/factory-act-1833-primary": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "factory-act-1833-primary"
+    },
+    "sources/factory-inspection-1836": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "factory-inspection-1836"
+    },
+    "sources/factory-hansard-1836": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "factory-hansard-1836"
+    },
+    "sources/factory-quarry-bank-context": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "factory-quarry-bank-context"
+    },
+    "sources/factory-spinning-process": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "factory-spinning-process"
+    },
+    "sources/tomioka-instructors-2022": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "tomioka-instructors-2022"
+    },
+    "sources/tomioka-labour-adaptation-1994": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "tomioka-labour-adaptation-1994"
+    },
+    "sources/tomioka-wada-ndl": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "tomioka-wada-ndl"
+    },
+    "sources/tomioka-arafune-2020": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "tomioka-arafune-2020"
+    },
+    "sources/tomioka-factory-act-archives": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "tomioka-factory-act-archives"
+    },
+    "sources/tomioka-unesco-coordinates": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "tomioka-unesco-coordinates"
+    },
+    "sources/tomioka-ndl-print": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "tomioka-ndl-print"
+    },
+    "sources/tomioka-maff-prints": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "tomioka-maff-prints"
+    },
+    "sources/hine-nclc-collection": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "hine-nclc-collection"
+    },
+    "sources/hine-mollahan-group": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "hine-mollahan-group"
+    },
+    "sources/hine-photographic-technique": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "hine-photographic-technique"
+    },
+    "sources/hine-keating-owen-1916": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "hine-keating-owen-1916"
+    },
+    "sources/hine-federal-administration-1921": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "hine-federal-administration-1921"
+    },
+    "sources/blackfoot-collaborative-hunt": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "blackfoot-collaborative-hunt"
+    },
+    "sources/blackfoot-collaborative-camp": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "blackfoot-collaborative-camp"
+    },
+    "sources/blackfoot-collaborative-season": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "blackfoot-collaborative-season"
+    },
+    "sources/blackfoot-collaborative-authorship": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "blackfoot-collaborative-authorship"
+    },
+    "sources/hidatsa-maxidiwiac-1917": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "hidatsa-maxidiwiac-1917"
+    },
+    "sources/hidatsa-river-changes": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "hidatsa-river-changes"
+    },
+    "sources/umista-return-voices": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "umista-return-voices"
+    },
+    "sources/umista-public-exhibit-credits": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "umista-public-exhibit-credits"
+    },
+    "sources/wendat-community-history": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "wendat-community-history"
+    },
+    "sources/canandaigua-washington-orders-1779": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "canandaigua-washington-orders-1779"
+    },
+    "sources/canandaigua-oneida-cloth": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "canandaigua-oneida-cloth"
+    },
+    "sources/canandaigua-onondaga-belt": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "canandaigua-onondaga-belt"
+    },
+    "sources/onondaga-powless-return-1989": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "onondaga-powless-return-1989"
+    },
+    "sources/phoenix-boudinot-letter-1832": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "phoenix-boudinot-letter-1832"
+    },
+    "sources/phoenix-reprinted-comment-1832": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "phoenix-reprinted-comment-1832"
+    },
+    "sources/cherokee-freedmen-public-history": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "cherokee-freedmen-public-history"
+    },
+    "sources/rice-treaty-1837": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "rice-treaty-1837"
+    },
+    "sources/rice-glifwc-institution": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "rice-glifwc-institution"
+    },
+    "sources/bering-kawerak-artists": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "bering-kawerak-artists"
+    },
+    "sources/inuinnait-1880s": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "inuinnait-1880s"
+    },
+    "sources/inuinnait-1930s": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "inuinnait-1930s"
+    },
+    "sources/inuinnait-1950s": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "inuinnait-1950s"
+    },
+    "sources/inuinnait-2010s": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "inuinnait-2010s"
+    },
+    "sources/inuinnait-dance-clothing-guide": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "inuinnait-dance-clothing-guide"
+    },
+    "sources/haiti-manigat-1793": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "haiti-manigat-1793"
+    },
+    "sources/haiti-abolition-1794": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "haiti-abolition-1794"
+    },
+    "sources/haiti-vincent-letter-1797": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "haiti-vincent-letter-1797"
+    },
+    "sources/haiti-constitution-1801": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "haiti-constitution-1801"
+    },
+    "sources/haiti-acte-transcription": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "haiti-acte-transcription"
+    },
+    "sources/haiti-print-authority-study": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "haiti-print-authority-study"
+    },
+    "sources/tiriti-tepapa-texts": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "tiriti-tepapa-texts"
+    },
+    "sources/tiriti-archive-sheets": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "tiriti-archive-sheets"
+    },
+    "sources/tiriti-tribunal-text-editions": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "tiriti-tribunal-text-editions"
+    },
+    "sources/tiriti-signing-records": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "tiriti-signing-records"
+    },
+    "sources/tiriti-proclamation": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "tiriti-proclamation"
+    },
+    "sources/tiriti-te-raki-2014": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "tiriti-te-raki-2014"
+    },
+    "sources/tiriti-te-raki-2022": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "tiriti-te-raki-2022"
+    },
+    "sources/tiriti-kawanatanga-scholarship": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "tiriti-kawanatanga-scholarship"
+    },
+    "sources/tiriti-onuku-runanga": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "tiriti-onuku-runanga"
+    },
+    "sources/tiriti-ngaitahu-tipa-2025": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "tiriti-ngaitahu-tipa-2025"
+    },
+    "sources/sputnik-korolev-proposal": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "sputnik-korolev-proposal"
+    },
+    "sources/sputnik-siddiqi-igy": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "sputnik-siddiqi-igy"
+    },
+    "sources/sputnik-commons-1957": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "sputnik-commons-1957"
+    },
+    "sources/sputnik-pravda-catalogue": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "sputnik-pravda-catalogue"
+    },
+    "sources/sputnik-garf-commemoration": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "sputnik-garf-commemoration"
+    },
+    "sources/ww1-grey-debate-1914": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ww1-grey-debate-1914"
+    },
+    "sources/ww1-indian-censor-edition": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ww1-indian-censor-edition"
+    },
+    "sources/ww1-indian-library-story": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ww1-indian-library-story"
+    },
+    "sources/ww1-indian-archive-access": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ww1-indian-archive-access"
+    },
+    "sources/ww1-boulogne-reference": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ww1-boulogne-reference"
+    },
+    "sources/ww1-birtley-museum": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ww1-birtley-museum"
+    },
+    "sources/ww1-birtley-transfer-records": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ww1-birtley-transfer-records"
+    },
+    "sources/ww1-birtley-care-letter": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ww1-birtley-care-letter"
+    },
+    "sources/ww1-birtley-album-image": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ww1-birtley-album-image"
+    },
+    "sources/ww1-birtley-reference": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ww1-birtley-reference"
+    },
+    "sources/ww1-watkins-transcript": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ww1-watkins-transcript"
+    },
+    "sources/ww1-nyeri-labour-research": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ww1-nyeri-labour-research"
+    },
+    "sources/ww1-ngugi-family-memory": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ww1-ngugi-family-memory"
+    },
+    "sources/ww1-africa-crowder": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ww1-africa-crowder"
+    },
+    "sources/ww1-nyeri-reference": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "ww1-nyeri-reference"
+    },
+    "sources/nanjing-vautrin-biography": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "nanjing-vautrin-biography"
+    },
+    "sources/nanjing-vautrin-diary": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "nanjing-vautrin-diary"
+    },
+    "sources/nanjing-tsen-excerpts": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "nanjing-tsen-excerpts"
+    },
+    "sources/singapore-household-records": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "singapore-household-records"
+    },
+    "sources/singapore-wartime-victuals": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "singapore-wartime-victuals"
+    },
+    "sources/warsaw-oneg-overview": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "warsaw-oneg-overview"
+    },
+    "sources/warsaw-testaments-2019": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "warsaw-testaments-2019"
+    },
+    "sources/nanjing-vautrin-letter-1938": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "nanjing-vautrin-letter-1938"
+    },
+    "sources/middle-niger-urbanism-1981": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "middle-niger-urbanism-1981"
+    },
+    "sources/middle-niger-recent-excavations": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "middle-niger-recent-excavations"
+    },
+    "sources/middle-niger-keita-2020": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "middle-niger-keita-2020"
+    },
+    "sources/voyaging-rat-seeds-2008": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "voyaging-rat-seeds-2008"
+    },
+    "sources/voyaging-chronology-2022": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "voyaging-chronology-2022"
+    },
+    "sources/voyaging-tuaupiki-2022": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "voyaging-tuaupiki-2022"
+    },
+    "sources/voyaging-pvs-modern": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "voyaging-pvs-modern"
+    },
+    "sources/voyaging-thatcher-2021": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "voyaging-thatcher-2021"
+    },
+    "sources/completion-minoan-crete": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "completion-minoan-crete"
+    },
+    "sources/completion-mycenaean": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "completion-mycenaean"
+    },
+    "sources/completion-british-bronze": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "completion-british-bronze"
+    },
+    "sources/completion-kuk-sequence": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "completion-kuk-sequence"
+    },
+    "sources/completion-kuk-ditches": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "completion-kuk-ditches"
+    },
+    "sources/orientation-an-son": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-an-son"
+    },
+    "sources/orientation-mohenjodaro": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-mohenjodaro"
+    },
+    "sources/orientation-bhagwanpura": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-bhagwanpura"
+    },
+    "sources/orientation-meroe": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-meroe"
+    },
+    "sources/orientation-achaemenid": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-achaemenid"
+    },
+    "sources/orientation-hellenistic": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-hellenistic"
+    },
+    "sources/orientation-warring-states": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-warring-states"
+    },
+    "sources/orientation-post-han": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-post-han"
+    },
+    "sources/orientation-oc-eo": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-oc-eo"
+    },
+    "sources/orientation-djenne-urbanism": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-djenne-urbanism"
+    },
+    "sources/orientation-djenne-heritage": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-djenne-heritage"
+    },
+    "sources/orientation-aachen": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-aachen"
+    },
+    "sources/orientation-paharpur": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-paharpur"
+    },
+    "sources/orientation-nara": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-nara"
+    },
+    "sources/orientation-gyeongju": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-gyeongju"
+    },
+    "sources/orientation-korea": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-korea"
+    },
+    "sources/orientation-kilwa": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-kilwa"
+    },
+    "sources/orientation-zimbabwe": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-zimbabwe"
+    },
+    "sources/orientation-provins": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-provins"
+    },
+    "sources/orientation-fontenay": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-fontenay"
+    },
+    "sources/orientation-karakorum": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-karakorum"
+    },
+    "sources/orientation-mongol-transition": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-mongol-transition"
+    },
+    "sources/orientation-qutb": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-qutb"
+    },
+    "sources/orientation-chola": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-chola"
+    },
+    "sources/orientation-andean-textiles": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-andean-textiles"
+    },
+    "sources/orientation-plantin": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-plantin"
+    },
+    "sources/orientation-royal-society": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-royal-society"
+    },
+    "sources/orientation-momoyama": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-momoyama"
+    },
+    "sources/orientation-mendez": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-mendez"
+    },
+    "sources/orientation-sweatt": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-sweatt"
+    },
+    "sources/orientation-brown": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-brown"
+    },
+    "sources/orientation-mexico": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-mexico"
+    },
+    "sources/orientation-asante": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-asante"
+    },
+    "sources/orientation-benin-raid": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-benin-raid"
+    },
+    "sources/orientation-early-factories": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-early-factories"
+    },
+    "sources/orientation-factory-dates": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-factory-dates"
+    },
+    "sources/orientation-marshall": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-marshall"
+    },
+    "sources/orientation-schuman": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-schuman"
+    },
+    "sources/orientation-euro": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-euro"
+    },
+    "sources/orientation-qajar": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-qajar"
+    },
+    "sources/orientation-turkiye": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-turkiye"
+    },
+    "sources/orientation-turkiye-election": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-turkiye-election"
+    },
+    "sources/orientation-truman": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-truman"
+    },
+    "sources/orientation-tenge": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-tenge"
+    },
+    "sources/orientation-company": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-company"
+    },
+    "sources/orientation-india-394": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-india-394"
+    },
+    "sources/orientation-jharkhand": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-jharkhand"
+    },
+    "sources/orientation-qing": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-qing"
+    },
+    "sources/orientation-japan-constitution": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-japan-constitution"
+    },
+    "sources/orientation-korea-resolution": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-korea-resolution"
+    },
+    "sources/orientation-korea-summit": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-korea-summit"
+    },
+    "sources/orientation-nz-contact": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-nz-contact"
+    },
+    "sources/orientation-nz-vote": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-nz-vote"
+    },
+    "sources/orientation-samoa": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-samoa"
+    },
+    "sources/orientation-timor": {
+      "file": "scripts/redesign/content-canonical/sources.json",
+      "record": "orientation-timor"
+    },
+    "media/met-49519": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "met-49519"
+    },
+    "media/met-317600": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "met-317600"
+    },
+    "media/met-52010": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "met-52010"
+    },
+    "media/met-52527": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "met-52527"
+    },
+    "media/met-251870": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "met-251870"
+    },
+    "media/met-547951": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "met-547951"
+    },
+    "media/met-256732": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "met-256732"
+    },
+    "media/met-322375": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "met-322375"
+    },
+    "media/met-39385": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "met-39385"
+    },
+    "media/met-312736": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "met-312736"
+    },
+    "media/met-316721": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "met-316721"
+    },
+    "media/met-307474": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "met-307474"
+    },
+    "media/met-39209": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "met-39209"
+    },
+    "media/met-309900": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "met-309900"
+    },
+    "media/met-318323": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "met-318323"
+    },
+    "media/met-448183": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "met-448183"
+    },
+    "media/met-42549": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "met-42549"
+    },
+    "media/met-9198": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "met-9198"
+    },
+    "media/met-327384": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "met-327384"
+    },
+    "media/met-543914": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "met-543914"
+    },
+    "media/met-324062": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "met-324062"
+    },
+    "media/met-72376": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "met-72376"
+    },
+    "media/met-545772": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "met-545772"
+    },
+    "media/met-42045": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "met-42045"
+    },
+    "media/met-314609": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "met-314609"
+    },
+    "media/met-322614": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "met-322614"
+    },
+    "media/met-247244": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "met-247244"
+    },
+    "media/met-544883": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "met-544883"
+    },
+    "media/met-315784": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "met-315784"
+    },
+    "media/met-464428": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "met-464428"
+    },
+    "media/met-452833": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "met-452833"
+    },
+    "media/met-44800": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "met-44800"
+    },
+    "media/met-316711": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "met-316711"
+    },
+    "media/met-314362": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "met-314362"
+    },
+    "media/met-42455": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "met-42455"
+    },
+    "media/met-313152": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "met-313152"
+    },
+    "media/loc-hine": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "loc-hine"
+    },
+    "media/loc-war-poster": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "loc-war-poster"
+    },
+    "media/pp-cooking-objects": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "pp-cooking-objects"
+    },
+    "media/hopewell-restored-mound": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "hopewell-restored-mound"
+    },
+    "media/hopewell-survey-1848": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "hopewell-survey-1848"
+    },
+    "media/chaco-corner-door": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "chaco-corner-door"
+    },
+    "media/cahokia-view-1907": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "cahokia-view-1907"
+    },
+    "media/met-451490": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "met-451490"
+    },
+    "media/met-449533": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "met-449533"
+    },
+    "media/met-451028": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "met-451028"
+    },
+    "media/met-452671": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "met-452671"
+    },
+    "media/met-681122": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "met-681122"
+    },
+    "media/met-717577": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "met-717577"
+    },
+    "media/inuinnait-plate-1922": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "inuinnait-plate-1922"
+    },
+    "media/makah-loc-1910": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "makah-loc-1910"
+    },
+    "media/hsi-cliff-2005": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "hsi-cliff-2005"
+    },
+    "media/knife-earthlodge": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "knife-earthlodge"
+    },
+    "media/knife-garden-tools": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "knife-garden-tools"
+    },
+    "media/hunt-title-1921": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "hunt-title-1921"
+    },
+    "media/ocmulgee-floor": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "ocmulgee-floor"
+    },
+    "media/ocmulgee-exterior": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "ocmulgee-exterior"
+    },
+    "media/laine-radiocarbon-2022": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "laine-radiocarbon-2022"
+    },
+    "media/canandaigua-ratification": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "canandaigua-ratification"
+    },
+    "media/phoenix-april-1828": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "phoenix-april-1828"
+    },
+    "media/rice-linde-1913": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "rice-linde-1913"
+    },
+    "media/angkor-aster": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "angkor-aster"
+    },
+    "media/partition-punjab-map": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "partition-punjab-map"
+    },
+    "media/partition-telegram": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "partition-telegram"
+    },
+    "media/indonesia-proclamation": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "indonesia-proclamation"
+    },
+    "media/ghana-independence-stamp": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "ghana-independence-stamp"
+    },
+    "media/mandela-voting": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "mandela-voting"
+    },
+    "media/uruk-accounting-diagram": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "uruk-accounting-diagram"
+    },
+    "media/dholavira-water-diagram": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "dholavira-water-diagram"
+    },
+    "media/liangzhu-water-diagram": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "liangzhu-water-diagram"
+    },
+    "media/hattusha-evidence-diagram": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "hattusha-evidence-diagram"
+    },
+    "media/uluburun-evidence-diagram": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "uluburun-evidence-diagram"
+    },
+    "media/shang-practices-diagram": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "shang-practices-diagram"
+    },
+    "media/met-44781": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "met-44781"
+    },
+    "media/qin-records-diagram": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "qin-records-diagram"
+    },
+    "media/ashoka-messages-diagram": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "ashoka-messages-diagram"
+    },
+    "media/beta-samati-coins": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "beta-samati-coins"
+    },
+    "media/tang-access-diagram": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "tang-access-diagram"
+    },
+    "media/abbasid-work-diagram": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "abbasid-work-diagram"
+    },
+    "media/nalanda-brick-photo": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "nalanda-brick-photo"
+    },
+    "media/song-loan-diagram": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "song-loan-diagram"
+    },
+    "media/inka-work-diagram": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "inka-work-diagram"
+    },
+    "media/catalan-musa-detail": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "catalan-musa-detail"
+    },
+    "media/voyage-mediation-diagram": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "voyage-mediation-diagram"
+    },
+    "media/giza-provisioning-diagram": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "giza-provisioning-diagram"
+    },
+    "media/caral-renewal-diagram": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "caral-renewal-diagram"
+    },
+    "media/skara-household-guide": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "skara-household-guide"
+    },
+    "media/olmec-dating-guide": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "olmec-dating-guide"
+    },
+    "media/lapita-stamp-guide": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "lapita-stamp-guide"
+    },
+    "media/met-314215-cast": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "met-314215-cast"
+    },
+    "media/poverty-terrain-model": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "poverty-terrain-model"
+    },
+    "media/kerma-making-guide": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "kerma-making-guide"
+    },
+    "media/institution-evidence-guide": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "institution-evidence-guide"
+    },
+    "media/nimrud-palace-plan": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "nimrud-palace-plan"
+    },
+    "media/sanam-workshop-view": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "sanam-workshop-view"
+    },
+    "media/sanam-mould-match": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "sanam-mould-match"
+    },
+    "media/teotihuacan-household-guide": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "teotihuacan-household-guide"
+    },
+    "media/moche-evidence-guide": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "moche-evidence-guide"
+    },
+    "media/teotihuacan-tlajinga-map": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "teotihuacan-tlajinga-map"
+    },
+    "media/hopewell-moundcity-1848": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "hopewell-moundcity-1848"
+    },
+    "media/borobudur-conserved-monument": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "borobudur-conserved-monument"
+    },
+    "media/borobudur-schematic-plan": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "borobudur-schematic-plan"
+    },
+    "media/chaco-plan-1850": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "chaco-plan-1850"
+    },
+    "media/ocmulgee-earthlodge-feature-plan": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "ocmulgee-earthlodge-feature-plan"
+    },
+    "media/tomioka-reeling-print": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "tomioka-reeling-print"
+    },
+    "relations/palmyra-network": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "palmyra-network"
+    },
+    "relations/pacific-exchange": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "pacific-exchange"
+    },
+    "packs/C1": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "C1"
+    },
+    "packs/C2": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "C2"
+    },
+    "packs/C3": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "C3"
+    },
+    "packs/C4": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "C4"
+    },
+    "packs/C5": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "C5"
+    },
+    "packs/C6": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "C6"
+    },
+    "packs/C7": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "C7"
+    },
+    "packs/C8": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "C8"
+    },
+    "journeys/cities-evidence": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "cities-evidence"
+    },
+    "journeys/networks-disruption": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "networks-disruption"
+    },
+    "journeys/voices-power": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "voices-power"
+    },
+    "journeys/world-200": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "world-200"
+    },
+    "journeys/institutions-images": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "institutions-images"
+    },
+    "journeys/knowledge-networks": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "knowledge-networks"
+    },
+    "journeys/ocean-connections": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "ocean-connections"
+    },
+    "journeys/machines-work": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "machines-work"
+    },
+    "journeys/promises-rights": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "promises-rights"
+    },
+    "journeys/war-signals": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "war-signals"
+    },
+    "journeys/north-american-communities": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "north-american-communities"
+    },
+    "journeys/west-central-workshops": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "west-central-workshops"
+    },
+    "journeys/northern-knowledge": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "northern-knowledge"
+    },
+    "journeys/eastern-woodlands": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "eastern-woodlands"
+    },
+    "journeys/independence-citizenship": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "independence-citizenship"
+    },
+    "journeys/cities-work-water": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "cities-work-water"
+    },
+    "journeys/institutions-shipment-ritual": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "institutions-shipment-ritual"
+    },
+    "journeys/rules-messages-public-work": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "rules-messages-public-work"
+    },
+    "journeys/objects-work-exchange": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "objects-work-exchange"
+    },
+    "journeys/spaces-skills-learning": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "spaces-skills-learning"
+    },
+    "journeys/work-obligation-voices": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "work-obligation-voices"
+    },
+    "journeys/makers-interpreters-encounters": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "makers-interpreters-encounters"
+    },
+    "journeys/homes-provision-renewal": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "homes-provision-renewal"
+    },
+    "journeys/clay-work-local-histories": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "clay-work-local-histories"
+    },
+    "journeys/makers-supplies-royal-claims": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "makers-supplies-royal-claims"
+    },
+    "journeys/images-spaces-work": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "images-spaces-work"
+    },
+    "journeys/objects-places-associations": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "objects-places-associations"
+    },
+    "journeys/places-patrons-work": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "places-patrons-work"
+    },
+    "journeys/buildings-food-continuity": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "buildings-food-continuity"
+    },
+    "journeys/makers-patrons-markets": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "makers-patrons-markets"
+    },
+    "journeys/households-books-city-work": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "households-books-city-work"
+    },
+    "journeys/goods-work-coercion": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "goods-work-coercion"
+    },
+    "journeys/skills-records-protection": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "skills-records-protection"
+    },
+    "glossary/genocide": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "genocide"
+    },
+    "glossary/primary-source": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "primary-source"
+    },
+    "glossary/patronage": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "patronage"
+    },
+    "glossary/tomb": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "tomb"
+    },
+    "glossary/estate": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "estate"
+    },
+    "glossary/afterlife": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "afterlife"
+    },
+    "glossary/evidence": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "evidence"
+    },
+    "glossary/inference": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "inference"
+    },
+    "glossary/chronology": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "chronology"
+    },
+    "glossary/ritual": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "ritual"
+    },
+    "glossary/dynasty": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "dynasty"
+    },
+    "glossary/empire": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "empire"
+    },
+    "glossary/freedman": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "freedman"
+    },
+    "glossary/caravan": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "caravan"
+    },
+    "glossary/inscription": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "inscription"
+    },
+    "glossary/coinage": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "coinage"
+    },
+    "glossary/provenance": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "provenance"
+    },
+    "glossary/port": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "port"
+    },
+    "glossary/stele": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "stele"
+    },
+    "glossary/archaeology": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "archaeology"
+    },
+    "glossary/irrigation": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "irrigation"
+    },
+    "glossary/tribute": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "tribute"
+    },
+    "glossary/iconography": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "iconography"
+    },
+    "glossary/regalia": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "regalia"
+    },
+    "glossary/material culture": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "material culture"
+    },
+    "glossary/enslavement": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "enslavement"
+    },
+    "glossary/colonialism": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "colonialism"
+    },
+    "glossary/decolonization": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "decolonization"
+    },
+    "glossary/archive": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "archive"
+    },
+    "glossary/industrialization": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "industrialization"
+    },
+    "glossary/earthwork": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "earthwork"
+    },
+    "glossary/terminus-post-quem": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "terminus-post-quem"
+    },
+    "glossary/calibration": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "calibration"
+    },
+    "glossary/syllabary": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "syllabary"
+    },
+    "glossary/wampum": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "wampum"
+    },
+    "glossary/ratification": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "ratification"
+    },
+    "glossary/manoomin": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "manoomin"
+    },
+    "glossary/winnowing": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "winnowing"
+    },
+    "glossary/marine-reservoir-effect": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "marine-reservoir-effect"
+    },
+    "glossary/reconstruction": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "reconstruction"
+    },
+    "glossary/radiocarbon": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "radiocarbon"
+    },
+    "glossary/waterlogged-preservation": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "waterlogged-preservation"
+    },
+    "glossary/seasonal-round": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "seasonal-round"
+    },
+    "glossary/cache-pit": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "cache-pit"
+    },
+    "glossary/repatriation": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "repatriation"
+    },
+    "glossary/potlatch": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "potlatch"
+    },
+    "glossary/experimental-archaeology": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "experimental-archaeology"
+    },
+    "glossary/archaeological-tradition": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "archaeological-tradition"
+    },
+    "glossary/biomarker": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "biomarker"
+    },
+    "glossary/kiva": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "kiva"
+    },
+    "glossary/proxy": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "proxy"
+    },
+    "glossary/chiefdom": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "chiefdom"
+    },
+    "glossary/stonepaste": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "stonepaste"
+    },
+    "glossary/tughra": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "tughra"
+    },
+    "glossary/forced-relocation": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "forced-relocation"
+    },
+    "glossary/caravansary": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "caravansary"
+    },
+    "glossary/madrasa": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "madrasa"
+    },
+    "glossary/lacquer": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "lacquer"
+    },
+    "glossary/sovereignty": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "sovereignty"
+    },
+    "glossary/federation": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "federation"
+    },
+    "glossary/standardization": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "standardization"
+    },
+    "glossary/dhamma": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "dhamma"
+    },
+    "glossary/deme": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "deme"
+    },
+    "glossary/stratigraphy": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "stratigraphy"
+    },
+    "glossary/endowment": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "endowment"
+    },
+    "glossary/mita": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "mita"
+    },
+    "glossary/jeli": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "jeli"
+    },
+    "glossary/provisioning": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "provisioning"
+    },
+    "glossary/shicra": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "shicra"
+    },
+    "glossary/midden": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "midden"
+    },
+    "glossary/temper": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "temper"
+    },
+    "glossary/type-site": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "type-site"
+    },
+    "glossary/lidar": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "lidar"
+    },
+    "glossary/faience": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "faience"
+    },
+    "glossary/shabti": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "shabti"
+    },
+    "glossary/plain-weave": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "plain-weave"
+    },
+    "glossary/residential-compound": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "residential-compound"
+    },
+    "glossary/find-context": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "find-context"
+    },
+    "glossary/relief": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "relief"
+    },
+    "glossary/iconoclasm": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "iconoclasm"
+    },
+    "glossary/masonry": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "masonry"
+    },
+    "glossary/workshop": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "workshop"
+    },
+    "contexts/rome-early-empire": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "rome-early-empire"
+    },
+    "contexts/han-and-xin": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "han-and-xin"
+    },
+    "contexts/angkor-landscape": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "angkor-landscape"
+    },
+    "contexts/partition-transition": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "partition-transition"
+    },
+    "contexts/indonesia-revolution-context": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "indonesia-revolution-context"
+    },
+    "contexts/ghana-independence-context": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "ghana-independence-context"
+    },
+    "contexts/south-africa-democracy-context": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "south-africa-democracy-context"
+    },
+    "contexts/uruk-urban-context": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "uruk-urban-context"
+    },
+    "contexts/dholavira-urban-context": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "dholavira-urban-context"
+    },
+    "contexts/liangzhu-landscape-context": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "liangzhu-landscape-context"
+    },
+    "contexts/hattusha-capital-context": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "hattusha-capital-context"
+    },
+    "contexts/uluburun-exchange-context": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "uluburun-exchange-context"
+    },
+    "contexts/shang-centres-context": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "shang-centres-context"
+    },
+    "contexts/qin-state-context": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "qin-state-context"
+    },
+    "contexts/mauryan-messages-context": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "mauryan-messages-context"
+    },
+    "contexts/athens-civic-work-context": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "athens-civic-work-context"
+    },
+    "contexts/palmyra-civic-context": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "palmyra-civic-context"
+    },
+    "contexts/kushan-temples-context": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "kushan-temples-context"
+    },
+    "contexts/aksum-red-sea-context": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "aksum-red-sea-context"
+    },
+    "contexts/tang-changan-context": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "tang-changan-context"
+    },
+    "contexts/abbasid-iraq-context": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "abbasid-iraq-context"
+    },
+    "contexts/nalanda-institution-context": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "nalanda-institution-context"
+    },
+    "contexts/song-institutions-context": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "song-institutions-context"
+    },
+    "contexts/mali-networks-context": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "mali-networks-context"
+    },
+    "contexts/inka-labor-context": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "inka-labor-context"
+    },
+    "contexts/benin-court-context": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "benin-court-context"
+    },
+    "contexts/kongo-christian-context": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "kongo-christian-context"
+    },
+    "contexts/ocean-encounters-context": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "ocean-encounters-context"
+    },
+    "contexts/old-kingdom-work-context": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "old-kingdom-work-context"
+    },
+    "contexts/caral-community-context": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "caral-community-context"
+    },
+    "contexts/skara-households-context": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "skara-households-context"
+    },
+    "contexts/olmec-centres-context": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "olmec-centres-context"
+    },
+    "contexts/lapita-islands-context": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "lapita-islands-context"
+    },
+    "contexts/poverty-earthworks-context": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "poverty-earthworks-context"
+    },
+    "contexts/kerma-city-context": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "kerma-city-context"
+    },
+    "contexts/nimrud-government-context": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "nimrud-government-context"
+    },
+    "contexts/kushite-temple-work-context": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "kushite-temple-work-context"
+    },
+    "contexts/chavin-images-context": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "chavin-images-context"
+    },
+    "contexts/teotihuacan-neighborhood-context": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "teotihuacan-neighborhood-context"
+    },
+    "contexts/moche-valleys-work-context": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "moche-valleys-work-context"
+    },
+    "contexts/dongson-selected-contexts": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "dongson-selected-contexts"
+    },
+    "contexts/colima-funerary-communities-context": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "colima-funerary-communities-context"
+    },
+    "contexts/hopewell-gathering-context": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "hopewell-gathering-context"
+    },
+    "contexts/constantinople-material-work-context": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "constantinople-material-work-context"
+    },
+    "contexts/central-java-religious-landscapes": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "central-java-religious-landscapes"
+    },
+    "contexts/maya-courts-households-context": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "maya-courts-households-context"
+    },
+    "contexts/chaco-community-work-context": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "chaco-community-work-context"
+    },
+    "contexts/cahokia-neighborhoods-making-context": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "cahokia-neighborhoods-making-context"
+    },
+    "contexts/ocmulgee-public-buildings-context": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "ocmulgee-public-buildings-context"
+    },
+    "contexts/ming-kilns-markets-context": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "ming-kilns-markets-context"
+    },
+    "contexts/ottoman-makers-markets-context": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "ottoman-makers-markets-context"
+    },
+    "contexts/mughal-books-workshop-context": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "mughal-books-workshop-context"
+    },
+    "contexts/isfahan-julfa-households-context": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "isfahan-julfa-households-context"
+    },
+    "contexts/bukhara-learning-water-work-context": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "bukhara-learning-water-work-context"
+    },
+    "contexts/zand-political-context": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "zand-political-context"
+    },
+    "contexts/manila-ships-people-context": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "manila-ships-people-context"
+    },
+    "contexts/banda-food-displacement-context": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "banda-food-displacement-context"
+    },
+    "contexts/factory-work-inspection-context": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "factory-work-inspection-context"
+    },
+    "contexts/tomioka-skill-work-context": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "tomioka-skill-work-context"
+    },
+    "contexts/hine-labor-reform-context": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "hine-labor-reform-context"
+    },
+    "contexts/blackfoot-work-interpretation-context": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "blackfoot-work-interpretation-context"
+    },
+    "contexts/hidatsa-gardens-relocation-context": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "hidatsa-gardens-relocation-context"
+    },
+    "contexts/kwakwakawakw-witnesses-return-context": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "kwakwakawakw-witnesses-return-context"
+    },
+    "contexts/canandaigua-recovery-negotiation-context": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "canandaigua-recovery-negotiation-context"
+    },
+    "contexts/cherokee-print-government-context": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "cherokee-print-government-context"
+    },
+    "contexts/ojibwe-rice-rights-care-context": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "ojibwe-rice-rights-care-context"
+    },
+    "contexts/bering-catalogue-regional-chronologies": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "bering-catalogue-regional-chronologies"
+    },
+    "contexts/ozette-research-community-custody": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "ozette-research-community-custody"
+    },
+    "contexts/inuinnait-clothing-community-history": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "inuinnait-clothing-community-history"
+    },
+    "contexts/haiti-emancipation-authority-context": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "haiti-emancipation-authority-context"
+    },
+    "contexts/tiriti-agreement-assertion-enforcement": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "tiriti-agreement-assertion-enforcement"
+    },
+    "contexts/sputnik-work-observation-context": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "sputnik-work-observation-context"
+    },
+    "contexts/ww1-decisions-work-context": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "ww1-decisions-work-context"
+    },
+    "contexts/war-occupation-persecution-context": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "war-occupation-persecution-context"
+    },
+    "contexts/middle-niger-settlement-evidence": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "middle-niger-settlement-evidence"
+    },
+    "contexts/voyaging-dating-knowledge-context": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "voyaging-dating-knowledge-context"
+    },
+    "contexts/europe-bronze-settings": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "europe-bronze-settings"
+    },
+    "contexts/kuk-wetland-context": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "kuk-wetland-context"
+    },
+    "comparisons/factory-reform--tomioka": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "factory-reform--tomioka"
+    },
+    "comparisons/banda-1621--manila-network": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "banda-1621--manila-network"
+    },
+    "comparisons/isfahan-silk--bukhara-books": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "isfahan-silk--bukhara-books"
+    },
+    "comparisons/isfahan-silk--zand-iran": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "isfahan-silk--zand-iran"
+    },
+    "comparisons/ming-workshops--ottoman-workshops": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "ming-workshops--ottoman-workshops"
+    },
+    "comparisons/mughal-books--ottoman-workshops": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "mughal-books--ottoman-workshops"
+    },
+    "comparisons/chaco-communities--ocmulgee-council": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "chaco-communities--ocmulgee-council"
+    },
+    "comparisons/cahokia-city--ocmulgee-council": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "cahokia-city--ocmulgee-council"
+    },
+    "comparisons/byzantium--borobudur": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "byzantium--borobudur"
+    },
+    "comparisons/byzantium--maya-vessel": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "byzantium--maya-vessel"
+    },
+    "comparisons/dongson--hopewell-earthworks": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "dongson--hopewell-earthworks"
+    },
+    "comparisons/colima--hopewell-earthworks": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "colima--hopewell-earthworks"
+    },
+    "comparisons/chavin-textile--teotihuacan": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "chavin-textile--teotihuacan"
+    },
+    "comparisons/chavin-textile--moche": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "chavin-textile--moche"
+    },
+    "comparisons/indonesia-independence--ghana-independence": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "indonesia-independence--ghana-independence"
+    },
+    "comparisons/ghana-independence--south-africa-rights": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "ghana-independence--south-africa-rights"
+    },
+    "comparisons/roman-world--eastern-han": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "roman-world--eastern-han"
+    },
+    "comparisons/eastern-han--colima": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "eastern-han--colima"
+    },
+    "comparisons/roman-world--palmyra": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "roman-world--palmyra"
+    },
+    "comparisons/palmyra--kushan-contexts": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "palmyra--kushan-contexts"
+    },
+    "comparisons/kushan-contexts--aksum": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "kushan-contexts--aksum"
+    },
+    "comparisons/palmyra--aksum": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "palmyra--aksum"
+    },
+    "comparisons/aksum--portuguese-voyage": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "aksum--portuguese-voyage"
+    },
+    "comparisons/teotihuacan--moche": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "teotihuacan--moche"
+    },
+    "comparisons/dongson--shang-ritual": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "dongson--shang-ritual"
+    },
+    "comparisons/benin-ivory--ming-workshops": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "benin-ivory--ming-workshops"
+    },
+    "comparisons/kongo-translation--mughal-books": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "kongo-translation--mughal-books"
+    },
+    "comparisons/manila-network--ming-workshops": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "manila-network--ming-workshops"
+    },
+    "comparisons/banda-1621--haitian-revolution": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "banda-1621--haitian-revolution"
+    },
+    "comparisons/uruk-accounts--dholavira": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "uruk-accounts--dholavira"
+    },
+    "comparisons/uruk-accounts--old-kingdom": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "uruk-accounts--old-kingdom"
+    },
+    "comparisons/dholavira--liangzhu": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "dholavira--liangzhu"
+    },
+    "comparisons/caral--skara-brae": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "caral--skara-brae"
+    },
+    "comparisons/old-kingdom--caral": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "old-kingdom--caral"
+    },
+    "comparisons/old-kingdom--skara-brae": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "old-kingdom--skara-brae"
+    },
+    "comparisons/uluburun--shang-ritual": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "uluburun--shang-ritual"
+    },
+    "comparisons/hattusha-change--uluburun": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "hattusha-change--uluburun"
+    },
+    "comparisons/kerma-potters--olmec": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "kerma-potters--olmec"
+    },
+    "comparisons/lapita--polynesian-voyaging": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "lapita--polynesian-voyaging"
+    },
+    "comparisons/olmec--poverty-point": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "olmec--poverty-point"
+    },
+    "comparisons/lapita--poverty-point": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "lapita--poverty-point"
+    },
+    "comparisons/qin-administration--ashoka-messages": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "qin-administration--ashoka-messages"
+    },
+    "comparisons/ashoka-messages--athens-water": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "ashoka-messages--athens-water"
+    },
+    "comparisons/nimrud-palace--ashoka-messages": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "nimrud-palace--ashoka-messages"
+    },
+    "comparisons/athens-water--qin-administration": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "athens-water--qin-administration"
+    },
+    "comparisons/taharqo--maya-vessel": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "taharqo--maya-vessel"
+    },
+    "comparisons/chavin-textile--inca-weaving": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "chavin-textile--inca-weaving"
+    },
+    "comparisons/byzantium--tang-city": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "byzantium--tang-city"
+    },
+    "comparisons/abbasid-craft--song-art": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "abbasid-craft--song-art"
+    },
+    "comparisons/tang-city--abbasid-craft": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "tang-city--abbasid-craft"
+    },
+    "comparisons/abbasid-craft--nalanda": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "abbasid-craft--nalanda"
+    },
+    "comparisons/borobudur--nalanda": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "borobudur--nalanda"
+    },
+    "comparisons/mali-networks--middle-niger": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "mali-networks--middle-niger"
+    },
+    "comparisons/song-art--inca-weaving": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "song-art--inca-weaving"
+    },
+    "comparisons/portuguese-voyage--benin-ivory": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "portuguese-voyage--benin-ivory"
+    },
+    "comparisons/portuguese-voyage--kongo-translation": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "portuguese-voyage--kongo-translation"
+    },
+    "comparisons/mali-networks--inca-weaving": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "mali-networks--inca-weaving"
+    },
+    "comparisons/angkor--dholavira": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "angkor--dholavira"
+    },
+    "comparisons/factory-reform--hine-labor": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "factory-reform--hine-labor"
+    },
+    "comparisons/tomioka--hine-labor": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "tomioka--hine-labor"
+    },
+    "comparisons/tiriti--partition-1947": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "tiriti--partition-1947"
+    },
+    "comparisons/partition-1947--south-africa-rights": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "partition-1947--south-africa-rights"
+    },
+    "comparisons/world-war-one--world-war-two": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "world-war-one--world-war-two"
+    },
+    "comparisons/sputnik--tomioka": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "sputnik--tomioka"
+    },
+    "comparisons/poverty-point--hopewell-earthworks": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "poverty-point--hopewell-earthworks"
+    },
+    "comparisons/chaco-communities--cahokia-city": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "chaco-communities--cahokia-city"
+    },
+    "comparisons/ottoman-workshops--isfahan-silk": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "ottoman-workshops--isfahan-silk"
+    },
+    "comparisons/bukhara-books--zand-iran": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "bukhara-books--zand-iran"
+    },
+    "comparisons/bering-sea-carvers--inuinnait-sewing": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "bering-sea-carvers--inuinnait-sewing"
+    },
+    "comparisons/ozette-makah--kwakwakawakw-potlatch": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "ozette-makah--kwakwakawakw-potlatch"
+    },
+    "comparisons/blackfoot-bison--hidatsa-villages": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "blackfoot-bison--hidatsa-villages"
+    },
+    "comparisons/ocmulgee-council--wendat-laine": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "ocmulgee-council--wendat-laine"
+    },
+    "comparisons/haudenosaunee-canandaigua--cherokee-print": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "haudenosaunee-canandaigua--cherokee-print"
+    },
+    "comparisons/ojibwe-manoomin--inuinnait-sewing": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "ojibwe-manoomin--inuinnait-sewing"
+    },
+    "comparisons/nimrud-palace--taharqo": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "nimrud-palace--taharqo"
+    },
+    "comparisons/kerma-potters--taharqo": {
+      "file": "scripts/redesign/content-canonical/shared.json",
+      "record": "kerma-potters--taharqo"
+    },
+    "orientations/C1-R1": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "C1-R1"
+    },
+    "orientations/C1-R2": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "C1-R2"
+    },
+    "orientations/C1-R3": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "C1-R3"
+    },
+    "orientations/C1-R4": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "C1-R4"
+    },
+    "orientations/C1-R5": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "C1-R5"
+    },
+    "orientations/C1-R6": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "C1-R6"
+    },
+    "orientations/C1-R7": {
+      "file": "scripts/redesign/content-canonical/C1.json",
+      "record": "C1-R7"
+    },
+    "orientations/C2-R1": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "C2-R1"
+    },
+    "orientations/C2-R2": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "C2-R2"
+    },
+    "orientations/C2-R3": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "C2-R3"
+    },
+    "orientations/C2-R4": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "C2-R4"
+    },
+    "orientations/C2-R5": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "C2-R5"
+    },
+    "orientations/C2-R6": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "C2-R6"
+    },
+    "orientations/C2-R7": {
+      "file": "scripts/redesign/content-canonical/C2.json",
+      "record": "C2-R7"
+    },
+    "orientations/C3-R1": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "C3-R1"
+    },
+    "orientations/C3-R2": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "C3-R2"
+    },
+    "orientations/C3-R3": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "C3-R3"
+    },
+    "orientations/C3-R4": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "C3-R4"
+    },
+    "orientations/C3-R5": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "C3-R5"
+    },
+    "orientations/C3-R6": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "C3-R6"
+    },
+    "orientations/C3-R7": {
+      "file": "scripts/redesign/content-canonical/C3.json",
+      "record": "C3-R7"
+    },
+    "orientations/C4-R1": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "C4-R1"
+    },
+    "orientations/C4-R2": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "C4-R2"
+    },
+    "orientations/C4-R3": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "C4-R3"
+    },
+    "orientations/C4-R4": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "C4-R4"
+    },
+    "orientations/C4-R5": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "C4-R5"
+    },
+    "orientations/C4-R6": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "C4-R6"
+    },
+    "orientations/C4-R7": {
+      "file": "scripts/redesign/content-canonical/C4.json",
+      "record": "C4-R7"
+    },
+    "orientations/C5-R1": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "C5-R1"
+    },
+    "orientations/C5-R2": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "C5-R2"
+    },
+    "orientations/C5-R3": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "C5-R3"
+    },
+    "orientations/C5-R4": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "C5-R4"
+    },
+    "orientations/C5-R5": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "C5-R5"
+    },
+    "orientations/C5-R6": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "C5-R6"
+    },
+    "orientations/C5-R7": {
+      "file": "scripts/redesign/content-canonical/C5.json",
+      "record": "C5-R7"
+    },
+    "orientations/C6-R1": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "C6-R1"
+    },
+    "orientations/C6-R2": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "C6-R2"
+    },
+    "orientations/C6-R3": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "C6-R3"
+    },
+    "orientations/C6-R4": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "C6-R4"
+    },
+    "orientations/C6-R5": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "C6-R5"
+    },
+    "orientations/C6-R6": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "C6-R6"
+    },
+    "orientations/C6-R7": {
+      "file": "scripts/redesign/content-canonical/C6.json",
+      "record": "C6-R7"
+    },
+    "orientations/C7-R1": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "C7-R1"
+    },
+    "orientations/C7-R2": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "C7-R2"
+    },
+    "orientations/C7-R3": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "C7-R3"
+    },
+    "orientations/C7-R4": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "C7-R4"
+    },
+    "orientations/C7-R5": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "C7-R5"
+    },
+    "orientations/C7-R6": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "C7-R6"
+    },
+    "orientations/C7-R7": {
+      "file": "scripts/redesign/content-canonical/C7.json",
+      "record": "C7-R7"
+    },
+    "orientations/C8-R1": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "C8-R1"
+    },
+    "orientations/C8-R2": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "C8-R2"
+    },
+    "orientations/C8-R3": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "C8-R3"
+    },
+    "orientations/C8-R4": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "C8-R4"
+    },
+    "orientations/C8-R5": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "C8-R5"
+    },
+    "orientations/C8-R6": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "C8-R6"
+    },
+    "orientations/C8-R7": {
+      "file": "scripts/redesign/content-canonical/C8.json",
+      "record": "C8-R7"
+    }
+  }
+}

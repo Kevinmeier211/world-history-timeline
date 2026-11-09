@@ -1,0 +1,642 @@
+{
+  "date": "2026-11-04",
+  "corpusSHA256": "e1a55385b2e242dbb9dcf865d94a0527fa4ed14396a2df0908d427bb5866cddd",
+  "scope": "Local production build in Playwright-managed Chromium. Each object opened through its dossier and inspection dialog. Actual zoomed image width was compared with fitted width; opening and closing the dialog tested focus return. The twelve exemplars and two changed reference cards were also inspected visually from screenshots.",
+  "records": 105,
+  "settings": ["390 × 900 light", "390 × 900 dark", "1440 × 900 light"],
+  "displayChecks": 315,
+  "distinctAdditionalImages": 13,
+  "alternateViewChecks": 39,
+  "measuredZoomRatioRange": [1.499978994244423, 1.5000448873327947],
+  "intendedRatio": 1.5,
+  "exemplarCount": 12,
+  "chapterCount": 8,
+  "referenceCards": ["partition-punjab-map", "partition-telegram"],
+  "archiveLinks": [
+    {
+      "id": "partition-punjab-map",
+      "name": "image",
+      "expected": "https://www.nationalarchives.gov.uk/media/images/CO105.max-900x900.format-jpeg.jpegquality-60.bgcolor-fff.jpg",
+      "popupURL": "https://www.nationalarchives.gov.uk/media/images/CO105.max-900x900.format-jpeg.jpegquality-60.bgcolor-fff.jpg",
+      "httpStatus": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "id": "partition-punjab-map",
+      "name": "record",
+      "expected": "https://www.nationalarchives.gov.uk/image/b87fc06c-fab5-4526-a1e9-1909a75bce84/",
+      "popupURL": "https://www.nationalarchives.gov.uk/image/b87fc06c-fab5-4526-a1e9-1909a75bce84/",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": "partition-telegram",
+      "name": "image",
+      "expected": "https://www.nationalarchives.gov.uk/media/images/DO-14.max-900x900.format-jpeg.jpegquality-60.bgcolor-fff.jpg",
+      "popupURL": "https://www.nationalarchives.gov.uk/media/images/DO-14.max-900x900.format-jpeg.jpegquality-60.bgcolor-fff.jpg",
+      "httpStatus": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "id": "partition-telegram",
+      "name": "record",
+      "expected": "https://www.nationalarchives.gov.uk/education/teaching-resources/partition-of-british-india/",
+      "popupURL": "https://www.nationalarchives.gov.uk/education/teaching-resources/partition-of-british-india/",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8"
+    }
+  ],
+  "exemplars": [
+    {
+      "id": "met-327384",
+      "chapter": "C1",
+      "subject": "uruk-accounts",
+      "source": "met-327384",
+      "question": "Compare actual marks across two views with the separate accounting diagram.",
+      "assessment": "The tablet remains recognizable at phone fit. A second face has its own accessible description. The catalogue reading identifies the account; the repeating impressions alone do not translate it.",
+      "caption": "A probable grain account, c. 3100–2900 BCE. Missing verbs limit precise interpretation.",
+      "alternateViews": 1,
+      "annotationNotes": 0,
+      "evidenceReadings": [
+        {
+          "label": "What the catalogue identifies",
+          "citations": [
+            {
+              "source": "met-327384",
+              "locator": "Description, especially final paragraph"
+            }
+          ]
+        },
+        {
+          "label": "What a later house cannot supply",
+          "citations": [
+            {
+              "source": "uruk-dai",
+              "locator": "Ergebnisse: Wohnviertel"
+            },
+            {
+              "source": "met-327384",
+              "locator": "Geography and Date"
+            }
+          ]
+        }
+      ],
+      "screenshots": [
+        "output/completion-2026-11-04/media-display/met-327384-390-light.png",
+        "output/completion-2026-11-04/media-display/met-327384-390-dark.png",
+        "output/completion-2026-11-04/media-display/met-327384-1440-light.png"
+      ]
+    },
+    {
+      "id": "uluburun-evidence-diagram",
+      "chapter": "C2",
+      "subject": "uluburun",
+      "source": "uluburun",
+      "question": "Distinguish recovered materials from an inferred origin or itinerary.",
+      "assessment": "Text panels distinguish findspot and recovered association from inferred origins and unresolved itinerary. Printed words and borders carry the distinctions in both appearances.",
+      "caption": "Solid panels concern the wreck and recovered association. Dashed: contested origin inference. The final panel asks unresolved questions; this is not a sailing map or stowage plan.",
+      "alternateViews": 0,
+      "annotationNotes": 0,
+      "evidenceReadings": [
+        {
+          "label": "A campaign report is an interim record",
+          "citations": [
+            {
+              "source": "uluburun-1990",
+              "locator": "Printed pp. 8–11"
+            }
+          ]
+        },
+        {
+          "label": "Source assignments are contested",
+          "citations": [
+            {
+              "source": "uluburun-tin-2022",
+              "locator": "Results and Discussion"
+            },
+            {
+              "source": "uluburun-tin-2023",
+              "locator": "Abstract"
+            }
+          ]
+        },
+        {
+          "label": "A newer paper does not make all wrecks identical",
+          "citations": [
+            {
+              "source": "uluburun-tin-2025",
+              "locator": "Printed p. 718"
+            }
+          ]
+        }
+      ],
+      "screenshots": [
+        "output/completion-2026-11-04/media-display/uluburun-evidence-diagram-390-light.png",
+        "output/completion-2026-11-04/media-display/uluburun-evidence-diagram-390-dark.png",
+        "output/completion-2026-11-04/media-display/uluburun-evidence-diagram-1440-light.png"
+      ]
+    },
+    {
+      "id": "nimrud-palace-plan",
+      "chapter": "C3",
+      "subject": "nimrud-palace",
+      "source": "nimrud-palace-project",
+      "question": "Distinguish palace setting from the modern gallery reconstruction.",
+      "assessment": "The tall drawing fits the inspection region. Fine room letters are too small at phone fit. The caption identifies rooms B, F and Y and explains the later labels; the zoom control can enlarge the original pixels.",
+      "caption": "Composite excavated plan of the Northwest Palace complex. The project account identifies throne room B, anteroom F and central courtyard Y. A north arrow points toward the upper edge; the bar marks a scale to 50 m. “Sargon prism” at the top and “Adadnerari III Palace” at the bottom label later features. This is not a single 883–859 BCE snapshot. Small original room labels need zoom; this text supplies the principal reading.",
+      "alternateViews": 0,
+      "annotationNotes": 0,
+      "evidenceReadings": [
+        {
+          "label": "A visible figure and an interpreted purpose",
+          "citations": [
+            {
+              "source": "met-322614",
+              "locator": "32.143.7: inspected full image; renewed Description and Artwork Details"
+            },
+            {
+              "source": "assyrian-court",
+              "locator": "Protective imagery and placement"
+            }
+          ]
+        },
+        {
+          "label": "People in the king’s building claim",
+          "citations": [
+            {
+              "source": "nimrud-standard-inscription",
+              "locator": "Q004477, lines 14b–17a"
+            }
+          ]
+        },
+        {
+          "label": "Commands and outcomes are different evidence",
+          "citations": [
+            {
+              "source": "nimrud-captives-letter",
+              "locator": "Catalogue; obverse 1–15; reverse 2′–13′"
+            }
+          ]
+        },
+        {
+          "label": "A plan gathers different dates",
+          "citations": [
+            {
+              "source": "nimrud-palace-project",
+              "locator": "Actual Image 1 pixels, caption and footnote 1; After Assurnasirpal"
+            }
+          ]
+        }
+      ],
+      "screenshots": [
+        "output/completion-2026-11-04/media-display/nimrud-palace-plan-390-light.png",
+        "output/completion-2026-11-04/media-display/nimrud-palace-plan-390-dark.png",
+        "output/completion-2026-11-04/media-display/nimrud-palace-plan-1440-light.png"
+      ]
+    },
+    {
+      "id": "met-49519",
+      "chapter": "C4",
+      "subject": "eastern-han",
+      "source": "met-49519",
+      "question": "Compare all recorded views without treating the model as a measured building.",
+      "assessment": "The fitted view shows the tower’s repeated roofs and balconies. Both alternate views open with distinct descriptions. The evidence reading identifies a burial model and its limits as evidence for an actual building.",
+      "caption": "Pottery architecture made for a burial context. Its range spans the first through early third century; it is not dated precisely to 200 CE.",
+      "alternateViews": 2,
+      "annotationNotes": 0,
+      "evidenceReadings": [
+        {
+          "label": "The tower: Eastern Han",
+          "citations": [
+            {
+              "source": "met-49519",
+              "locator": "Description"
+            }
+          ]
+        },
+        {
+          "label": "The memorial: 178 BCE",
+          "citations": [
+            {
+              "source": "han-agriculture",
+              "locator": "Introduction; p. 3"
+            }
+          ]
+        },
+        {
+          "label": "The debate: 81 BCE",
+          "citations": [
+            {
+              "source": "han-salt",
+              "locator": "Translated debate"
+            }
+          ]
+        }
+      ],
+      "screenshots": [
+        "output/completion-2026-11-04/media-display/met-49519-390-light.png",
+        "output/completion-2026-11-04/media-display/met-49519-390-dark.png",
+        "output/completion-2026-11-04/media-display/met-49519-1440-light.png"
+      ]
+    },
+    {
+      "id": "met-464428",
+      "chapter": "C5",
+      "subject": "byzantium",
+      "source": "met-464428",
+      "question": "Read three source-cited observation notes and their text equivalents.",
+      "assessment": "Three visible numbered points correspond to full-text, cited notes on openwork, projecting relief and a debated identification. The notes remain available as text.",
+      "caption": "Mid-tenth-century ivory icon; the missing wings once formed a triptych. Probable private devotional use is an interpretation. Three modern numbered notes point to surviving features on the unchanged photograph; their observations remain separate from interpretation.",
+      "alternateViews": 0,
+      "annotationNotes": 3,
+      "evidenceReadings": [
+        {
+          "label": "A catalogue connects form with probable use",
+          "citations": [
+            {
+              "source": "met-464428",
+              "locator": "Description; Artwork Details; existing photograph"
+            }
+          ]
+        },
+        {
+          "label": "Excavated repairs make maintenance visible",
+          "citations": [
+            {
+              "source": "byzantium-yenikapi-2015",
+              "locator": "Printed pp. 53–55; Table 2, p. 47"
+            }
+          ]
+        },
+        {
+          "label": "An identification is tested by comparison",
+          "citations": [
+            {
+              "source": "byzantium-hades-reading-1974",
+              "locator": "Printed pp. 153, 155–156 and 159–160"
+            }
+          ]
+        }
+      ],
+      "screenshots": [
+        "output/completion-2026-11-04/media-display/met-464428-390-light.png",
+        "output/completion-2026-11-04/media-display/met-464428-390-dark.png",
+        "output/completion-2026-11-04/media-display/met-464428-1440-light.png"
+      ]
+    },
+    {
+      "id": "catalan-musa-detail",
+      "chapter": "C6",
+      "subject": "mali-networks",
+      "source": "catalan-musa-detail",
+      "question": "Separate visible royal signs from claims about wealth and household life.",
+      "assessment": "The seated figure and the royal attributes survive phone fit; the surrounding small lettering requires an enlarged source. The supplied prose separates visible crown and gold from claims about wealth and household work.",
+      "caption": "A foreign royal image, conventionally dated about 1375. Crown, staff and gold foreground rulership and wealth; they do not measure a fortune or record the ruler’s appearance from life. This supplied detail is not the full atlas panel.",
+      "alternateViews": 0,
+      "annotationNotes": 0,
+      "evidenceReadings": [
+        {
+          "label": "Crown and gold",
+          "citations": [
+            {
+              "source": "catalan-musa-detail",
+              "locator": "Inspected image"
+            },
+            {
+              "source": "catalan-block",
+              "locator": "Interpretation"
+            }
+          ]
+        },
+        {
+          "label": "Pots and food",
+          "citations": [
+            {
+              "source": "caravans-fragments",
+              "locator": "Printed pp. 26–29"
+            }
+          ]
+        },
+        {
+          "label": "A performed past",
+          "citations": [
+            {
+              "source": "sahel",
+              "locator": "Epics"
+            }
+          ]
+        }
+      ],
+      "screenshots": [
+        "output/completion-2026-11-04/media-display/catalan-musa-detail-390-light.png",
+        "output/completion-2026-11-04/media-display/catalan-musa-detail-390-dark.png",
+        "output/completion-2026-11-04/media-display/catalan-musa-detail-1440-light.png"
+      ]
+    },
+    {
+      "id": "met-448183",
+      "chapter": "C7",
+      "subject": "mughal-books",
+      "source": "met-448183",
+      "question": "Use the selected manuscript page and evidence reading to separate depiction from workshop labor.",
+      "assessment": "The painting groups the villagers under the lifted mountain. The selected folio and dossier readings distinguish what the painting shows from what other sources say about manuscript production.",
+      "caption": "A folio made around 1590–95 depicting Krishna protecting villagers. The making date is not the date of the sacred story.",
+      "alternateViews": 0,
+      "annotationNotes": 0,
+      "evidenceReadings": [
+        {
+          "label": "The painting arranges shelter; the catalogue identifies the story",
+          "citations": [
+            {
+              "source": "met-448183",
+              "locator": "Actual existing photo pixels; opening description"
+            }
+          ]
+        },
+        {
+          "label": "Working labels can reveal a division of skill",
+          "citations": [
+            {
+              "source": "mughal-workshop-network",
+              "locator": "Publisher abstract only"
+            },
+            {
+              "source": "mughal-workshops-va",
+              "locator": "The Akbarnama: working attributions"
+            }
+          ]
+        },
+        {
+          "label": "A prefatory argument connects inquiry with rule",
+          "citations": [
+            {
+              "source": "mughal-preface-politics",
+              "locator": "Printed pp.902–904"
+            }
+          ]
+        }
+      ],
+      "screenshots": [
+        "output/completion-2026-11-04/media-display/met-448183-390-light.png",
+        "output/completion-2026-11-04/media-display/met-448183-390-dark.png",
+        "output/completion-2026-11-04/media-display/met-448183-1440-light.png"
+      ]
+    },
+    {
+      "id": "tomioka-reeling-print",
+      "chapter": "C8",
+      "subject": "tomioka",
+      "source": "tomioka-ndl-print",
+      "question": "Distinguish a promotional print from evidence of lived factory work.",
+      "assessment": "The triptych’s rows of equipment, people and roof supports remain visible. The supplied reading does not ask a viewer to infer hours or employment conditions from the orderly scene.",
+      "caption": "Ichiyōsai Kuniteru’s print arranges workers and equipment in two rows beneath repeated roof supports. NDL catalogues this impression as [1872]; MAFF dates a comparable impression 1873 without establishing the NDL copy’s date. The published depiction supports observation of its drawn arrangement, not a measured floor plan or a photograph of every shift. Individual identities, working hours and freedom remain unestablished; modern digitization date unstated.",
+      "alternateViews": 0,
+      "annotationNotes": 0,
+      "evidenceReadings": [
+        {
+          "label": "Technical skill is part of production",
+          "citations": [
+            {
+              "source": "tomioka-instructors-2022",
+              "locator": "Summary/Introduction"
+            }
+          ]
+        },
+        {
+          "label": "A memory can explain a comparison",
+          "citations": [
+            {
+              "source": "tomioka-wada-ndl",
+              "locator": "Wada entry"
+            },
+            {
+              "source": "tomioka-labour-adaptation-1994",
+              "locator": "Adaptation; note 11"
+            }
+          ]
+        },
+        {
+          "label": "A law needs an implementation history",
+          "citations": [
+            {
+              "source": "tomioka-factory-act-archives",
+              "locator": "Explanatory paragraph"
+            },
+            {
+              "source": "tomioka-labour-adaptation-1994",
+              "locator": "1916–17 discussion; notes 44–45"
+            }
+          ]
+        }
+      ],
+      "screenshots": [
+        "output/completion-2026-11-04/media-display/tomioka-reeling-print-390-light.png",
+        "output/completion-2026-11-04/media-display/tomioka-reeling-print-390-dark.png",
+        "output/completion-2026-11-04/media-display/tomioka-reeling-print-1440-light.png"
+      ]
+    },
+    {
+      "id": "dholavira-water-diagram",
+      "chapter": "C1",
+      "subject": "dholavira",
+      "source": "dholavira-plan",
+      "question": "Distinguish confirmed excavated components from proposed radar features.",
+      "assessment": "The well, drain and reservoirs are labelled in solid boxes. A separate dashed research area explicitly calls possible water structures unconfirmed. Words preserve that distinction across themes.",
+      "caption": "Component schematic combining phases. Solid: recorded features. Dashed: radar study area with unconfirmed interpretations. No scale, connecting flow network or simultaneous operation is asserted.",
+      "alternateViews": 0,
+      "annotationNotes": 0,
+      "evidenceReadings": [
+        {
+          "label": "A labelled plan is a composite record",
+          "citations": [
+            {
+              "source": "dholavira-plan",
+              "locator": "PDF p. 1, C1/C5/C6/C7 and SR key"
+            }
+          ]
+        },
+        {
+          "label": "Reflections need interpretation",
+          "citations": [
+            {
+              "source": "dholavira-gpr",
+              "locator": "Printed pp. 884–886, Figs. 8–9 and final interpretation"
+            }
+          ]
+        },
+        {
+          "label": "Chronologies have different endpoints",
+          "citations": [
+            {
+              "source": "dholavira",
+              "locator": "Description"
+            },
+            {
+              "source": "dholavira-gpr",
+              "locator": "Printed p. 879"
+            }
+          ]
+        }
+      ],
+      "screenshots": [
+        "output/completion-2026-11-04/media-display/dholavira-water-diagram-390-light.png",
+        "output/completion-2026-11-04/media-display/dholavira-water-diagram-390-dark.png",
+        "output/completion-2026-11-04/media-display/dholavira-water-diagram-1440-light.png"
+      ]
+    },
+    {
+      "id": "met-317600",
+      "chapter": "C4",
+      "subject": "colima",
+      "source": "met-317600",
+      "question": "Compare source-cited annotations with the unannotated alternate view.",
+      "assessment": "Three numbered points correspond to roof, opening and platform notes with citations. The alternate view opens with its own text; pins specific to the primary image disappear there.",
+      "caption": "A roofed building on a platform, possibly once an incense-burner lid. Current catalogue: 200 BCE–200 CE. Three numbered modern notes point to visible architecture on the unchanged photograph; they do not reconstruct missing rooms or prove the proposed use.",
+      "alternateViews": 1,
+      "annotationNotes": 3,
+      "evidenceReadings": [
+        {
+          "label": "The catalogue proposes a use",
+          "citations": [
+            {
+              "source": "met-317600",
+              "locator": "Description; Artwork Details"
+            }
+          ]
+        },
+        {
+          "label": "An excavated association answers another question",
+          "citations": [
+            {
+              "source": "colima-huitzilapa-1996",
+              "locator": "Publisher abstract"
+            },
+            {
+              "source": "colima-huitzilapa-organics-2006",
+              "locator": "Publisher abstract"
+            }
+          ]
+        },
+        {
+          "label": "Regional traditions contain variation",
+          "citations": [
+            {
+              "source": "colima-nayarit-offerings-inah",
+              "locator": "Chamber variants and offerings"
+            },
+            {
+              "source": "colima-western-polities-2026",
+              "locator": "Political organization paragraphs"
+            }
+          ]
+        }
+      ],
+      "screenshots": [
+        "output/completion-2026-11-04/media-display/met-317600-390-light.png",
+        "output/completion-2026-11-04/media-display/met-317600-390-dark.png",
+        "output/completion-2026-11-04/media-display/met-317600-1440-light.png"
+      ]
+    },
+    {
+      "id": "canandaigua-ratification",
+      "chapter": "C7",
+      "subject": "haudenosaunee-canandaigua",
+      "source": "canandaigua-archive",
+      "question": "Keep 1794 treaty commitments distinct from the dated ratification instrument.",
+      "assessment": "The fitted sheet conveys the document and seals. Fine handwriting is unsuitable for unaided phone reading; dated textual evidence distinguishes treaty commitments from ratification.",
+      "caption": "Read the 1794 treaty and the January 1795 ratification as distinct actions. Names and seals show documentary form, not proof that every promise was later kept. Onondaga explanations of speakers and wampum supply another kind of political knowledge. The faded handwriting is accompanied by cited transcriptions.",
+      "alternateViews": 0,
+      "annotationNotes": 0,
+      "evidenceReadings": [
+        {
+          "label": "Two actions within one archival object",
+          "citations": [
+            {
+              "source": "canandaigua-archive",
+              "locator": "Metadata, Contains and actual full recto"
+            }
+          ]
+        },
+        {
+          "label": "A prescribed allowance and an attributed continuing practice",
+          "citations": [
+            {
+              "source": "canandaigua-onondaga",
+              "locator": "Article VI and concluding annuity note"
+            },
+            {
+              "source": "canandaigua-oneida-cloth",
+              "locator": "Annual treaty cloth and continuing relationship"
+            }
+          ]
+        },
+        {
+          "label": "A participant describes a specific return",
+          "citations": [
+            {
+              "source": "onondaga-powless-return-1989",
+              "locator": "Date/byline; opening agreement; preparation and arrival"
+            }
+          ]
+        }
+      ],
+      "screenshots": [
+        "output/completion-2026-11-04/media-display/canandaigua-ratification-390-light.png",
+        "output/completion-2026-11-04/media-display/canandaigua-ratification-390-dark.png",
+        "output/completion-2026-11-04/media-display/canandaigua-ratification-1440-light.png"
+      ]
+    },
+    {
+      "id": "indonesia-proclamation",
+      "chapter": "C8",
+      "subject": "indonesia-independence",
+      "source": "indonesia-proclamation-image",
+      "question": "Use the transcript/source reading when a small reproduction cannot carry fine text.",
+      "assessment": "The small typed facsimile allows recognition of the document and signatures. Both separately labelled evidence paraphrases and their citations are available in the dossier. Those paraphrases supply the reading task.",
+      "caption": "A brief declaration with two signatures. Its text announces independence and addresses the transfer of power. This typed version and the handwritten ANRI draft are different forms of the same proclamation.",
+      "alternateViews": 0,
+      "annotationNotes": 0,
+      "evidenceReadings": [
+        {
+          "label": "Declaration — paraphrase",
+          "citations": [
+            {
+              "source": "indonesia-proclamation-image",
+              "locator": "Typed facsimile, first sentence"
+            }
+          ]
+        },
+        {
+          "label": "Transfer of power — paraphrase",
+          "citations": [
+            {
+              "source": "indonesia-proclamation-image",
+              "locator": "Typed facsimile, second sentence"
+            }
+          ]
+        }
+      ],
+      "screenshots": [
+        "output/completion-2026-11-04/media-display/indonesia-proclamation-390-light.png",
+        "output/completion-2026-11-04/media-display/indonesia-proclamation-390-dark.png",
+        "output/completion-2026-11-04/media-display/indonesia-proclamation-1440-light.png"
+      ]
+    }
+  ],
+  "contactSheets": [
+    "output/completion-2026-11-04/media-display/contact-1440-light-1.jpg",
+    "output/completion-2026-11-04/media-display/contact-1440-light-2.jpg",
+    "output/completion-2026-11-04/media-display/contact-390-dark-1.jpg",
+    "output/completion-2026-11-04/media-display/contact-390-dark-2.jpg",
+    "output/completion-2026-11-04/media-display/contact-390-light-1.jpg",
+    "output/completion-2026-11-04/media-display/contact-390-light-2.jpg"
+  ],
+  "browserReceipt": "output/completion-2026-11-04/media-display/browser.json",
+  "reproduce": "Start scripts/redesign/serve.py against dist on a free loopback port, set ATLAS_URL to that origin, and run node scripts/completion/media-display-browser.mjs through agent-heavy-run.",
+  "limitations": [
+    "Only the two replacement reference cards had their external image and record links opened. Other media source and licence destinations were checked against corpus values in the rendered dialog.",
+    "Fit, decoding, exact alternate text, zoom, focus return and horizontal document overflow are machine checks. Manual screenshot review covers twelve exemplars and two changed cards in the three stated settings.",
+    "Fine handwriting, dense map symbols and small document text require the supplied reading or caption. Enlarging a raster increases display size without increasing captured detail.",
+    "Print-size verification belongs to the separate print receipt. This browser review did not test assistive technology with human participants."
+  ]
+}

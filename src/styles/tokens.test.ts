@@ -2,13 +2,14 @@ import { readFileSync } from 'node:fs';
 
 import { describe, expect, it } from 'vitest';
 
-describe('poster tokens', () => {
-  it('loads self-hosted faces and the parchment palette', () => {
+describe('self-hosted atlas typography and tokens', () => {
+  it('loads body and reading weights without remote fonts', () => {
     const html = readFileSync('index.html', 'utf8');
     const main = readFileSync('src/main.tsx', 'utf8');
     const css = readFileSync('src/styles/tokens.css', 'utf8');
     expect(html).not.toMatch(/fonts\.googleapis|fonts\.gstatic|typekit/);
-    expect(main).toContain('@fontsource/barlow-condensed/700.css');
+    expect(main).toContain('@fontsource/source-serif-4/400.css');
+    expect(main).not.toContain('@fontsource/barlow-condensed/');
     expect(main).toContain('@fontsource/source-sans-3/400.css');
     expect(main).toContain('@fontsource/source-serif-4/600.css');
     expect(css).toContain('--paper: #f1e8d2');

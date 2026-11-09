@@ -1,0 +1,334 @@
+{
+  "scope": "Seven original image gaps individually reviewed for evidence treatment; not a rights audit of the other 105 media records.",
+  "date": "2026-11-04",
+  "dispositions": [
+    {
+      "subject": "banda-1621",
+      "name": "Banda: monopoly and forced displacement",
+      "disposition": "intentional_text_evidence",
+      "status": "ready_for_review",
+      "rationale": "Use the existing dated colonial-policy and Wandan public-statement capsules. Their contrast in authorship, purpose and date carries the investigation; a generic colonial illustration would not supply the missing household testimony. No restricted song or ritual is reproduced.",
+      "evidenceTitle": "Policy, consequence and a living public claim",
+      "sourceCapsules": [
+        {
+          "label": "An order exposes a policy, not every experience",
+          "citations": [
+            {
+              "source": "banda-archive",
+              "locator": "Koloniaal bronmateriaal; Genocide transcriptions"
+            }
+          ]
+        },
+        {
+          "label": "A claim of control does not erase continuing communities",
+          "citations": [
+            {
+              "source": "banda-pala-1621",
+              "locator": "Spectres and rumours"
+            }
+          ]
+        },
+        {
+          "label": "A dated public statement is a modern source in its own right",
+          "citations": [
+            {
+              "source": "banda-wandan-statement-2021",
+              "locator": "PDF 1–2: identity, audience and date"
+            },
+            {
+              "source": "banda-language-tana-2019",
+              "locator": "Limits on documenting some Kabata"
+            }
+          ]
+        }
+      ],
+      "implementation": "Existing Dossier evidence-reading and ReaderPrint source-reading sections; no new historical wording or image asset introduced by this disposition.",
+      "remaining": "Independent historical review and final physical-print/device review retain their separate gates."
+    },
+    {
+      "subject": "polynesian-voyaging",
+      "name": "Voyaging to Aotearoa: knowledge at sea",
+      "disposition": "intentional_text_evidence",
+      "status": "ready_for_review",
+      "rationale": "Use the existing practice, material-proxy and dating-model capsules. They let the reader distinguish a learned skill from an archaeological date without fabricating an ancestral route, crew or universal star compass.",
+      "evidenceTitle": "Practiced knowledge, a proxy and a dated model",
+      "sourceCapsules": [
+        {
+          "label": "A rat-gnawed seed is a dated material, not a voyage log",
+          "citations": [
+            {
+              "source": "voyaging-rat-seeds-2008",
+              "locator": "Abstract; rat/seed Results; Conclusions"
+            }
+          ]
+        },
+        {
+          "label": "A range belongs to a specified model",
+          "citations": [
+            {
+              "source": "voyaging-chronology-2022",
+              "locator": "PDF pp. 2–3; p. 7: Bayesian Analysis"
+            }
+          ]
+        },
+        {
+          "label": "A named account makes teaching visible",
+          "citations": [
+            {
+              "source": "voyaging-tuaupiki-2022",
+              "locator": "Narrative research; language expertise; hui/marae"
+            }
+          ]
+        }
+      ],
+      "implementation": "Existing Dossier evidence-reading and ReaderPrint source-reading sections; no new historical wording or image asset introduced by this disposition.",
+      "remaining": "Independent historical review and final physical-print/device review retain their separate gates."
+    },
+    {
+      "subject": "factory-reform",
+      "name": "Factory reform: a law and the work of enforcement",
+      "disposition": "intentional_text_evidence",
+      "status": "ready_for_review",
+      "rationale": "Use the existing statute, inspection and parliamentary-report capsules. Sorting a rule, an investigation and an outcome is the central evidence task; a factory photograph would not prove enforcement of the 1833 Act.",
+      "evidenceTitle": "A rule, an investigation and evidence of change",
+      "sourceCapsules": [
+        {
+          "label": "A statutory obligation describes what should happen",
+          "citations": [
+            {
+              "source": "factory-act-1833-primary",
+              "locator": "Clauses I, VII–VIII and XVII–XXI"
+            }
+          ]
+        },
+        {
+          "label": "Checking a book is not the same as reporting its result",
+          "citations": [
+            {
+              "source": "factory-inspection-1836",
+              "locator": "Complete short indexed transcription"
+            }
+          ]
+        },
+        {
+          "label": "One complaint and one reported benefit have different limits",
+          "citations": [
+            {
+              "source": "factory-hansard-1836",
+              "locator": "Hindley, c768"
+            },
+            {
+              "source": "factory-inspection-1836",
+              "locator": "Particular case"
+            }
+          ]
+        }
+      ],
+      "implementation": "Existing Dossier evidence-reading and ReaderPrint source-reading sections; no new historical wording or image asset introduced by this disposition.",
+      "remaining": "Independent historical review and final physical-print/device review retain their separate gates."
+    },
+    {
+      "subject": "haitian-revolution",
+      "name": "Haiti: freedom fought for in a plantation world",
+      "disposition": "intentional_text_evidence",
+      "status": "ready_for_review",
+      "rationale": "Use the existing letter, constitutional provisions and independence-act capsules. Their different dates, audiences and physical versions matter more than a decorative portrait. Preserve the qualification that these are paraphrases of selected transcriptions and scholarship.",
+      "evidenceTitle": "Political voices, work rules and a circulated act",
+      "sourceCapsules": [
+        {
+          "label": "A leader’s letter is an argument to a recipient",
+          "citations": [
+            {
+              "source": "haiti-vincent-letter-1797",
+              "locator": "Catalogue; transcript pp. 2–4"
+            }
+          ]
+        },
+        {
+          "label": "An abolition clause coexists with work regulation",
+          "citations": [
+            {
+              "source": "haiti-constitution-1801",
+              "locator": "Articles 3,14–16,35"
+            }
+          ]
+        },
+        {
+          "label": "The act’s recorded agreement has a defined group",
+          "citations": [
+            {
+              "source": "haiti-acte-transcription",
+              "locator": "Dateline; assembled generals and oath"
+            },
+            {
+              "source": "haiti-print-authority-study",
+              "locator": "PDF pp. 17–20"
+            }
+          ]
+        }
+      ],
+      "implementation": "Existing Dossier evidence-reading and ReaderPrint source-reading sections; no new historical wording or image asset introduced by this disposition.",
+      "remaining": "Independent historical review and final physical-print/device review retain their separate gates."
+    },
+    {
+      "subject": "tiriti",
+      "name": "Te Tiriti o Waitangi: texts, signatures and authority",
+      "disposition": "intentional_text_evidence",
+      "status": "ready_for_review",
+      "rationale": "Use the existing wording, signature/mark and later-finding capsules. Keep original-language terms, translation scope and later interpretation distinct. A generic signing scene would not resolve the textual difference or represent all signatories.",
+      "evidenceTitle": "Original wording, recorded marks and a later finding",
+      "sourceCapsules": [
+        {
+          "label": "Two originals and a later translation",
+          "citations": [
+            {
+              "source": "tiriti-tepapa-texts",
+              "locator": "Māori/English articles 1–2; later translation"
+            }
+          ]
+        },
+        {
+          "label": "A number beside a name",
+          "citations": [
+            {
+              "source": "tiriti-signing-records",
+              "locator": "Introduction: facsimile numbers and uncertainty"
+            }
+          ]
+        },
+        {
+          "label": "A proclamation and a bounded inquiry",
+          "citations": [
+            {
+              "source": "tiriti-proclamation",
+              "locator": "Full exposed proclamation transcript"
+            },
+            {
+              "source": "tiriti-te-raki-2014",
+              "locator": "Conclusion and scope"
+            }
+          ]
+        }
+      ],
+      "implementation": "Existing Dossier evidence-reading and ReaderPrint source-reading sections; no new historical wording or image asset introduced by this disposition.",
+      "remaining": "Independent historical review and final physical-print/device review retain their separate gates."
+    },
+    {
+      "subject": "world-war-two",
+      "name": "War, occupation and genocide",
+      "disposition": "intentional_text_evidence",
+      "status": "ready_for_review",
+      "rationale": "Use the existing named and dated testimony/record capsules with adult guidance. Preserve the particular speaker, translation and retrospective-recording limits. No graphic image, imagined victim diary or reenactment is needed to perform the task.",
+      "evidenceTitle": "Work, entitlement and a request to be remembered",
+      "sourceCapsules": [
+        {
+          "label": "Preparing space at Ginling",
+          "citations": [
+            {
+              "source": "nanjing-vautrin-diary",
+              "locator": "6 December 1937, printed p. 97; 15 December 1937, printed p. 111"
+            }
+          ]
+        },
+        {
+          "label": "Tsen Shui-fang’s judgment",
+          "citations": [
+            {
+              "source": "nanjing-tsen-excerpts",
+              "locator": "21 December 1937 excerpt and footnote 2"
+            }
+          ]
+        },
+        {
+          "label": "Shared rounds after the new year",
+          "citations": [
+            {
+              "source": "nanjing-vautrin-letter-1938",
+              "locator": "4 January 1938, printed p. 3"
+            }
+          ]
+        },
+        {
+          "label": "A provisions card is not a meal",
+          "citations": [
+            {
+              "source": "singapore-wartime-victuals",
+              "locator": "Provisions-card caption"
+            }
+          ]
+        },
+        {
+          "label": "One passbook and one memory",
+          "citations": [
+            {
+              "source": "singapore-household-records",
+              "locator": "On Inflation"
+            },
+            {
+              "source": "singapore-wartime-victuals",
+              "locator": "Lee Tian Soo excerpt; endnote 17"
+            }
+          ]
+        },
+        {
+          "label": "Lichtensztajn’s request",
+          "citations": [
+            {
+              "source": "warsaw-testaments-2019",
+              "locator": "Lichtensztajn, 31 July 1942; translation by Olga Drenda"
+            }
+          ]
+        }
+      ],
+      "implementation": "Existing Dossier evidence-reading and ReaderPrint source-reading sections; no new historical wording or image asset introduced by this disposition.",
+      "remaining": "Independent historical review and final physical-print/device review retain their separate gates."
+    },
+    {
+      "subject": "sputnik",
+      "name": "Sputnik: a signal heard around a divided world",
+      "disposition": "intentional_text_evidence",
+      "status": "ready_for_review",
+      "rationale": "Use the existing proposal, announcement metadata and parliamentary-response capsules. Their contrast distinguishes intended work, launch and interpretation; an iconic satellite image would not establish the plan’s fulfilment or worldwide benefit.",
+      "evidenceTitle": "Request, announcement and parliamentary response",
+      "sourceCapsules": [
+        {
+          "label": "A proposal has an intended future",
+          "citations": [
+            {
+              "source": "sputnik-korolev-proposal",
+              "locator": "Opening request;proposals 1–3"
+            },
+            {
+              "source": "sputnik",
+              "locator": "Opening"
+            }
+          ]
+        },
+        {
+          "label": "An announcement also claims significance",
+          "citations": [
+            {
+              "source": "sputnik-pravda-catalogue",
+              "locator": "Pravda date/issue/page fields"
+            },
+            {
+              "source": "sputnik-garf-commemoration",
+              "locator": "Attributed TASS quotation"
+            }
+          ]
+        },
+        {
+          "label": "The debate contains more than one question",
+          "citations": [
+            {
+              "source": "sputnik-commons-1957",
+              "locator": "Questions 49–50 and follow-ups,cc 30–32"
+            }
+          ]
+        }
+      ],
+      "implementation": "Existing Dossier evidence-reading and ReaderPrint source-reading sections; no new historical wording or image asset introduced by this disposition.",
+      "remaining": "Independent historical review and final physical-print/device review retain their separate gates."
+    }
+  ]
+}

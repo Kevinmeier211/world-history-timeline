@@ -1,0 +1,34 @@
+{
+  "journey": "war-signals",
+  "revision": "00840092d43e117ccf225f6bdb4eceb8caa1d7c10b560544ab8207388ae946fa",
+  "stops": [
+    {
+      "index": 0,
+      "narrative": "Read a recruiting appeal as persuasion within a global imperial war."
+    },
+    {
+      "index": 1,
+      "narrative": "Keep war chronology, genocide and individual experience visible."
+    },
+    {
+      "index": 2,
+      "narrative": "Investigate scientific success and a particular archive of political responses."
+    }
+  ],
+  "conclusion": "Events did not happen by themselves. Institutions and choices connected science, state power, propaganda and violence. People’s lives should not disappear behind either triumphal images or totals.",
+  "evidence": {
+    "prompt": "Why does this atlas keep more than one starting date for the Second World War context?",
+    "options": [
+      {
+        "text": "War in Asia and war in Europe had different chronologies, while the Holocaust has its own 1933–1945 frame.",
+        "supported": true,
+        "feedback": "USHMM distinguishes these connected histories. One regional starting date cannot stand for all of them."
+      },
+      {
+        "text": "All regions entered the same conflict simultaneously in 1939.",
+        "supported": false,
+        "feedback": "The source describes Japanese conquest in 1931/1937 before Germany’s1939 invasion of Poland."
+      }
+    ]
+  }
+}

@@ -30,3 +30,13 @@ src/data/politiesEast.ts
 src/data/historicalNodes.ts
 src/data/regionsAndEras.ts
 src/data/legacy.ts
+
+# User review inputs and generated evidence are not source-format targets.
+output/
+
+# Compact generated static release payloads. Authoring sources are formatted.
+public/atlas/*.json
+public/atlas/subjects/
+tmp/
+.playwright-cli/
+docs/reference/local-only/

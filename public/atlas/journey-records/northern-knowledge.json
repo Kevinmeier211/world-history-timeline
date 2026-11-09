@@ -1,0 +1,51 @@
+{
+  "journey": "northern-knowledge",
+  "revision": "a19637f0f9e30fe5ea3549ff2cf3b046055d3f0dafa94e036a39162dfc6c7941",
+  "stops": [
+    {
+      "index": 0,
+      "narrative": "Inspect the counterweight. Separate its visible form, the museum’s functional interpretation and the unresolved relationship between object dating and regional chronology."
+    },
+    {
+      "index": 1,
+      "narrative": "Read Makah accounts of cedar work, oral history and custody. The displayed photograph is later community documentation; the house-burial date remains disputed."
+    },
+    {
+      "index": 2,
+      "narrative": "Find the work of coordinating a hunt and processing food. Keep a later landscape photograph and a limited cooking experiment distinct from an ancient event."
+    },
+    {
+      "index": 3,
+      "narrative": "Investigate growing, storing and exchanging food beside hunting. Compare the village with Ozette: similar needs do not make the communities identical."
+    },
+    {
+      "index": 4,
+      "narrative": "Begin with named people in a photograph, then read the community-led study of patterns, materials and language. Changing clothes need not mean an ended culture."
+    },
+    {
+      "index": 5,
+      "narrative": "Separate a ban from the practice it targeted, and publication from community authority. Learn why 1980 is an institutional milestone, not the end of a people or of return efforts."
+    }
+  ],
+  "conclusion": "Hunting, gardening, woodworking, sewing and witnessing drew on distinct systems of skill and responsibility. Material traces establish some facts; community accounts and careful source reading establish others. Similar needs never make these peoples interchangeable, and neither a relocation nor a legal prohibition proves that a culture ended.",
+  "evidence": {
+    "prompt": "Which comparison best respects both the material evidence and the community accounts?",
+    "options": [
+      {
+        "text": "Hidatsa gardens and Makah cedar work sustained different communities; material traces and community accounts answer complementary questions.",
+        "supported": true,
+        "feedback": "The community-authored subsistence guide documents Hidatsa garden/storage work. Makah sources explain cedar techniques and custody. These specific histories support comparison without proving identical institutions or direct contact."
+      },
+      {
+        "text": "A photograph of one Arctic outfit or one bison jump can describe how all northern peoples lived.",
+        "supported": false,
+        "feedback": "The photograph names particular people in dancing costume. Plains evidence includes village agriculture as well as communal hunting. Neither image supplies a universal regional identity."
+      },
+      {
+        "text": "Once a village moved or potlatching was banned, the people and their knowledge ceased to exist.",
+        "supported": false,
+        "feedback": "The MHA history traces relocation and continuity. U’mista documents potlatching during prohibition and community efforts to recover belongings. Administrative dates are not the lifespan of a people."
+      }
+    ]
+  }
+}

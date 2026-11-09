@@ -1,5 +1,9 @@
 # Handoff
 
+**Saved for later, 30 October 2026:** read [the resume note](redesign/RESUME-2026-10-30.md). Kevin paused before usability feedback. Source changes are saved in a local Git checkpoint on `codex/atlas-redesign`; the actual commit is in `output/savepoint-2026-10-30/SAVEPOINT.json`. The packaged preview is at `http://127.0.0.1:4384/`. Research, receipts and ZIPs remain in their existing local folders. No push or publication occurred. Content expansion remains on hold.
+
+**Verified technical checkpoint, 30 October 2026:** start with [current status](redesign/STATUS.md) and the latest section of the [remaining-reading handoff](redesign/REMAINING-READING-HANDOFF-2026-10-29.md). The app passes the full candidate gate and all 81 PDFs / 1,356 pages are verified. The archive, source snapshot and evidence are under `output/final-local-candidate-2026-10-30/`; `PORTABLE_RESULT.json` records the completed extraction/browser result and archive hash. That immutable snapshot captured interface, content and repair work before the later local save commit; it is not the older Industry commit's source. Nothing was pushed or published. The statements below describe historical v2 closeout.
+
 Chronos Atlas v2, local only. This is the §13.14 closeout. Pushes made: **0**. CI runs triggered: **0**.
 
 The print gate is the merge `a9f3a4e`. The annotated tag `v2-p7-done` points at that merge (tag object `eaca0fa`). Closeout commits are merged `--no-ff` into `v2/main`. The tag stays on `a9f3a4e`.

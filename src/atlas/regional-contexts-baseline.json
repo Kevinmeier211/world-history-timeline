@@ -1,0 +1,189 @@
+[
+  {
+    "id": "dongson",
+    "name": "Đông Sơn drum traditions",
+    "interval": {
+      "start": -500,
+      "end": 300,
+      "label": "c. 500 BCE–300 CE",
+      "note": "Catalogue date of the miniature; wider drum traditions have their own chronologies.",
+      "precision": "range"
+    },
+    "coordinates": [105.78, 19.82],
+    "geographicPrecision": "Regional origin anchor, not a known findspot for this miniature.",
+    "aliases": ["Dong Son", "Vietnam drums"],
+    "packs": ["C3", "C4"],
+    "claims": [
+      {
+        "id": "drum-date",
+        "text": "The selected miniature is catalogued approximately 500 BCE–300 CE.",
+        "citations": [
+          {
+            "source": "met-39209",
+            "locator": "Date"
+          }
+        ],
+        "status": "published",
+        "checkedBy": "Codex source consultation and self-review; not independent historian approval",
+        "checkedOn": "2026-10-26"
+      },
+      {
+        "id": "drum-function",
+        "text": "The function of Đông Sơn drums remains unclear in the consulted catalogue.",
+        "citations": [
+          {
+            "source": "met-39209",
+            "locator": "Description"
+          }
+        ],
+        "status": "published",
+        "checkedBy": "Codex source consultation and self-review; not independent historian approval",
+        "checkedOn": "2026-10-26"
+      }
+    ],
+    "question": "Does a widespread object mean one shared purpose?",
+    "returnPrompt": "What evidence would distinguish an instrument from a miniature made for burial?",
+    "objectIds": ["met-39209"],
+    "dimensions": {
+      "belief": {
+        "text": "Drums may have had political or ceremonial roles; a universal function is not established.",
+        "citations": [
+          {
+            "source": "met-39209",
+            "locator": "Description"
+          }
+        ]
+      },
+      "production": {
+        "text": "Bronze manufacture produced both large drums and miniatures; circulation extended beyond the production region.",
+        "citations": [
+          {
+            "source": "met-39209",
+            "locator": "Description"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "colima",
+    "name": "Colima architectural models",
+    "interval": {
+      "start": -200,
+      "end": 200,
+      "label": "200 BCE–200 CE",
+      "note": "Date of the selected temple model; not a lifespan assigned to an entire people.",
+      "precision": "range"
+    },
+    "coordinates": [-103.72, 19.24],
+    "geographicPrecision": "Regional locator, not an excavation site.",
+    "aliases": ["Temple Model", "West Mexico"],
+    "packs": ["C3", "C4"],
+    "claims": [
+      {
+        "id": "colima-date",
+        "text": "The current catalogue dates accession 1995.63.5 to 200 BCE–200 CE.",
+        "citations": [
+          {
+            "source": "met-317600",
+            "locator": "Artwork Details: Date"
+          }
+        ],
+        "uncertainty": "A 2015 essay ends the range at 300 CE; the current catalogue is followed.",
+        "status": "published",
+        "checkedBy": "Codex source consultation and self-review; not independent historian approval",
+        "checkedOn": "2026-10-26"
+      },
+      {
+        "id": "colima-use",
+        "text": "The model may have served as an incense-burner lid.",
+        "citations": [
+          {
+            "source": "met-317600",
+            "locator": "Opening description"
+          }
+        ],
+        "uncertainty": "Possible function, not a demonstrated universal use.",
+        "status": "published",
+        "checkedBy": "Codex source consultation and self-review; not independent historian approval",
+        "checkedOn": "2026-10-26"
+      }
+    ],
+    "question": "Does a small building have to be a toy?",
+    "returnPrompt": "Which part of our explanation was an observation, and which was an interpretation?",
+    "objectIds": ["met-317600"],
+    "dimensions": {
+      "belief": {
+        "text": "The temple model may have covered an incense burner. Its precise function remains an interpretation.",
+        "citations": [
+          {
+            "source": "met-317600",
+            "locator": "Opening description"
+          }
+        ]
+      },
+      "production": {
+        "text": "The small building and platform are made of ceramic; the model represents architecture rather than preserving a full-size building.",
+        "citations": [
+          {
+            "source": "met-317600",
+            "locator": "Medium; description"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "hopewell-earthworks",
+    "name": "Ohio Hopewell: gathering places and distant materials",
+    "interval": {
+      "start": 1,
+      "end": 400,
+      "label": "Selected Ohio ceremonial networks, c. 1–400 CE",
+      "note": "NPS focus for these earthworks. Hopewell is an archaeological network label; the bounds do not date the existence of every related community.",
+      "precision": "approximate"
+    },
+    "coordinates": [-82.99, 39.376],
+    "geographicPrecision": "One ceremonial site within a wider network; neither a tribal capital nor an imperial border.",
+    "aliases": ["Hopewell", "Mound City", "Hopewell Mound Group"],
+    "packs": ["C4"],
+    "claims": [
+      {
+        "id": "hopewell-earthworks-checked",
+        "text": "The visible earthworks at Mound City are modern restorations informed by ancient base layers, documents and field research.",
+        "citations": [
+          {
+            "source": "hopewell-moundcity",
+            "locator": "Introduction, paragraph on all visible mounds and walls"
+          }
+        ],
+        "status": "published",
+        "checkedBy": "Codex source consultation and self-review; not independent historian approval",
+        "checkedOn": "2026-10-27"
+      }
+    ],
+    "question": "How could dispersed communities create shared monumental places?",
+    "returnPrompt": "What evidence would distinguish a permanent settlement from a gathering place? Include one limit of the visible landscape.",
+    "objectIds": ["hopewell-restored-mound", "hopewell-survey-1848"],
+    "dimensions": {
+      "coordination": {
+        "text": "Dispersed households could gather at shared ceremonial places; a large enclosure need not be a permanently inhabited town.",
+        "citations": [
+          {
+            "source": "hopewell-moundcity",
+            "locator": "Ceremonial Gatherings"
+          }
+        ]
+      },
+      "evidence-limits": {
+        "text": "Survey plans, nonlocal materials, excavation and restoration each answer different questions.",
+        "citations": [
+          {
+            "source": "hopewell-moundgroup",
+            "locator": "Archeological Expeditions and nonlocal materials"
+          }
+        ]
+      }
+    }
+  }
+]

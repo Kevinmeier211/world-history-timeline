@@ -1,0 +1,336 @@
+{
+  "scope": "Ten display assets flagged for a longest dimension below 800 pixels in the media delivery audit. This is a digital PDF inspection. The reported density describes the embedded raster and gives no assurance of physical printer output.",
+  "method": "Identified the print JPEG from the atlas print-media index. Matched its complete compressed byte stream to the PDF image XObject, measured the placed image rectangle from the PDF, and calculated horizontal effective pixels per inch from source width divided by placed width in inches. Screen-rendered each actual reader page with Poppler at 122.4 dpi and inspected its figure crop. All matching PDF placements in the inspected exports are recorded. Reader width requested in code can exceed the layout width when CSS applies a tighter constraint.",
+  "records": [
+    {
+      "id": "met-52527",
+      "subject": "eastern-han",
+      "sourcePixels": [545, 700],
+      "authorRequestedReaderWidthMm": null,
+      "readerPlacement": {
+        "file": "reader-eastern-han.pdf",
+        "page": 4,
+        "widthMm": 56.1,
+        "effectivePpi": 246.8
+      },
+      "allMatchedPlacements": [
+        {
+          "file": "reader-eastern-han.pdf",
+          "page": 4,
+          "widthMm": 56.1,
+          "effectivePpi": 246.8
+        }
+      ],
+      "imageTask": ["How might water be lifted?"],
+      "visualReading": "The round rim, upstanding arch and top fitting can be distinguished. The mechanism and how a real bucket was raised remain interpretive.",
+      "textAlternative": "The image description names the arch and rim. The section “An estate is a network of work” explains how wells supplied water in the estate-model ensemble. Readers can discuss what lifting water would require.",
+      "sourceRecord": "met-52527"
+    },
+    {
+      "id": "loc-war-poster",
+      "subject": "world-war-one",
+      "sourcePixels": [511, 640],
+      "authorRequestedReaderWidthMm": null,
+      "readerPlacement": {
+        "file": "reader-world-war-one.pdf",
+        "page": 2,
+        "widthMm": 139.7,
+        "effectivePpi": 92.9
+      },
+      "allMatchedPlacements": [
+        {
+          "file": "chapter-C8.pdf",
+          "page": 27,
+          "widthMm": 48.7,
+          "effectivePpi": 266.6
+        },
+        {
+          "file": "chapter-spreads.pdf",
+          "page": 381,
+          "widthMm": 48.7,
+          "effectivePpi": 266.6
+        },
+        {
+          "file": "reader-world-war-one.pdf",
+          "page": 2,
+          "widthMm": 139.7,
+          "effectivePpi": 92.9
+        }
+      ],
+      "imageTask": ["Who is being addressed?", "Which response does the poster seek?"],
+      "visualReading": "The two figures, sword, shield and large headline survive in the reader. The smaller chapter image does not support dependable reading of the sword and shield inscriptions.",
+      "textAlternative": "The title gives the headline, the image description identifies Service on the sword and the councils on the shield, and “A poster asks rather than records” identifies the intended audience and request.",
+      "sourceRecord": "war-poster"
+    },
+    {
+      "id": "hopewell-survey-1848",
+      "subject": "hopewell-earthworks",
+      "sourcePixels": [500, 342],
+      "authorRequestedReaderWidthMm": null,
+      "readerPlacement": {
+        "file": "reader-hopewell-earthworks.pdf",
+        "page": 3,
+        "widthMm": 187.9,
+        "effectivePpi": 67.6
+      },
+      "allMatchedPlacements": [
+        {
+          "file": "reader-hopewell-earthworks.pdf",
+          "page": 3,
+          "widthMm": 187.9,
+          "effectivePpi": 67.6
+        }
+      ],
+      "imageTask": [
+        "Which shapes are connected?",
+        "What information about people is absent from a plan?"
+      ],
+      "visualReading": "The larger enclosure, attached square and circular features are distinguishable. Small survey numbers, fine labels and measurements cannot be reliably recovered from this 500-pixel reproduction.",
+      "textAlternative": "The caption identifies a later survey. “A plan is a dated act of recording” identifies the North Fork Works enclosure and distinguishes it from the Mound City photograph. Readers can compare connected shapes and explain what a plan omits.",
+      "sourceRecord": "hopewell-moundgroup"
+    },
+    {
+      "id": "knife-earthlodge",
+      "subject": "hidatsa-villages",
+      "sourcePixels": [650, 433],
+      "authorRequestedReaderWidthMm": null,
+      "readerPlacement": {
+        "file": "reader-hidatsa-villages.pdf",
+        "page": 3,
+        "widthMm": 187.9,
+        "effectivePpi": 87.9
+      },
+      "allMatchedPlacements": [
+        {
+          "file": "reader-hidatsa-villages.pdf",
+          "page": 3,
+          "widthMm": 187.9,
+          "effectivePpi": 87.9
+        }
+      ],
+      "imageTask": [
+        "How might the timber and earth support one another?",
+        "What would a photograph fail to tell us about ownership and knowledge?"
+      ],
+      "visualReading": "The mound-like roof, projecting doorway and support poles are visible. Fine joinery, construction sequence and ownership cannot be established from this view.",
+      "textAlternative": "The caption identifies the reconstructed lodge and attributes the description of women’s work to NPS. “An earthlodge joined construction with household authority” supplies the account of building and ownership for the question about what the photograph leaves out.",
+      "sourceRecord": "knife-women"
+    },
+    {
+      "id": "ocmulgee-floor",
+      "subject": "ocmulgee-council",
+      "sourcePixels": [526, 339],
+      "authorRequestedReaderWidthMm": null,
+      "readerPlacement": {
+        "file": "reader-ocmulgee-council.pdf",
+        "page": 2,
+        "widthMm": 65.1,
+        "effectivePpi": 205.3
+      },
+      "allMatchedPlacements": [
+        {
+          "file": "chapter-C8.pdf",
+          "page": 61,
+          "widthMm": 88.4,
+          "effectivePpi": 151.2
+        },
+        {
+          "file": "chapter-spreads.pdf",
+          "page": 415,
+          "widthMm": 88.4,
+          "effectivePpi": 151.2
+        },
+        {
+          "file": "reader-ocmulgee-council.pdf",
+          "page": 2,
+          "widthMm": 65.1,
+          "effectivePpi": 205.3
+        }
+      ],
+      "imageTask": [
+        "Find the raised clay platform and the wooden supports.",
+        "Which parts might survive if the wooden shelter disappeared?"
+      ],
+      "visualReading": "The platform outline, vertical supports and roof members remain visible. Surface texture, a seat count, specific use and a construction date cannot be established from the interior photograph.",
+      "textAlternative": "The image description and caption distinguish clay from the shelter. “The floor and the shelter have different histories” explains original material and reconstructed elements. The family activity asks readers to locate one clay feature and one wooden support.",
+      "sourceRecord": "ocmu-floor-image"
+    },
+    {
+      "id": "phoenix-april-1828",
+      "subject": "cherokee-print",
+      "sourcePixels": [650, 492],
+      "authorRequestedReaderWidthMm": null,
+      "readerPlacement": {
+        "file": "reader-cherokee-print.pdf",
+        "page": 2,
+        "widthMm": 171.7,
+        "effectivePpi": 96.1
+      },
+      "allMatchedPlacements": [
+        {
+          "file": "reader-cherokee-print.pdf",
+          "page": 2,
+          "widthMm": 171.7,
+          "effectivePpi": 96.1
+        }
+      ],
+      "imageTask": [
+        "Find two kinds of lettering and the printed date.",
+        "What would you need to read the whole article reliably?"
+      ],
+      "visualReading": "The eagle, masthead and contrasting scripts are recognizable. Tiny columns and individual characters are poor transcription targets, even at reader width. The date can be taken from the caption.",
+      "textAlternative": "“The image identifies a particular issue” supplies 10 April 1828 and distinguishes the first issue of 21 February. The activity asks for observable masthead features. The constitutional passages use separately identified transcriptions.",
+      "sourceRecord": "phoenix-photo"
+    },
+    {
+      "id": "indonesia-proclamation",
+      "subject": "indonesia-independence",
+      "sourcePixels": [399, 268],
+      "authorRequestedReaderWidthMm": 100,
+      "readerPlacement": {
+        "file": "reader-indonesia-independence.pdf",
+        "page": 2,
+        "widthMm": 100.0,
+        "effectivePpi": 101.3
+      },
+      "allMatchedPlacements": [
+        {
+          "file": "chapter-C8.pdf",
+          "page": 81,
+          "widthMm": 88.4,
+          "effectivePpi": 114.7
+        },
+        {
+          "file": "chapter-spreads.pdf",
+          "page": 435,
+          "widthMm": 88.4,
+          "effectivePpi": 114.7
+        },
+        {
+          "file": "family-explorations.pdf",
+          "page": 32,
+          "widthMm": 68.5,
+          "effectivePpi": 147.9
+        },
+        {
+          "file": "family-independence-citizenship.pdf",
+          "page": 1,
+          "widthMm": 68.5,
+          "effectivePpi": 147.9
+        },
+        {
+          "file": "reader-indonesia-independence.pdf",
+          "page": 2,
+          "widthMm": 100.0,
+          "effectivePpi": 101.3
+        }
+      ],
+      "imageTask": [
+        "Find the signatures and the dated line.",
+        "Distinguish the proclamation’s words from evidence of control over territory.",
+        "This small facsimile has limited resolution; use the evidence paraphrase and archival reference for reading."
+      ],
+      "visualReading": "The heading, short block of text and two signatures remain distinct in the reader. At the smaller family size, word-for-word reading or signature authentication is outside the task.",
+      "textAlternative": "The caption identifies a typed proclamation and its signatories are named in the image description. The two evidence-reading items, “Declaration — paraphrase” and “Transfer of power — paraphrase,” supply its substance without requiring the small type.",
+      "sourceRecord": "indonesia-proclamation-image"
+    },
+    {
+      "id": "ghana-independence-stamp",
+      "subject": "ghana-independence",
+      "sourcePixels": [611, 460],
+      "authorRequestedReaderWidthMm": 120,
+      "readerPlacement": {
+        "file": "reader-ghana-independence.pdf",
+        "page": 2,
+        "widthMm": 120.1,
+        "effectivePpi": 129.2
+      },
+      "allMatchedPlacements": [
+        {
+          "file": "reader-ghana-independence.pdf",
+          "page": 2,
+          "widthMm": 120.1,
+          "effectivePpi": 129.2
+        }
+      ],
+      "imageTask": [
+        "Separate the black overprint from the older red design.",
+        "Find the work scene and its label.",
+        "Ask what the image can show about public messaging, and what it cannot establish about workers’ lives."
+      ],
+      "visualReading": "The black Ghana overprint, royal profile, date and underlying scene are distinct. Cancellation marks and small lettering make a fine-detail transcription unnecessary and unreliable.",
+      "textAlternative": "“A stamp is a small public surface” identifies the original Gold Coast design and its cocoa-pod scene. The image description gives the independence overprint and date, enabling comparison of the two designs.",
+      "sourceRecord": "ghana-stamp-image"
+    },
+    {
+      "id": "sanam-mould-match",
+      "subject": "taharqo",
+      "sourcePixels": [512, 469],
+      "authorRequestedReaderWidthMm": 100,
+      "readerPlacement": {
+        "file": "reader-taharqo.pdf",
+        "page": 4,
+        "widthMm": 65.1,
+        "effectivePpi": 199.8
+      },
+      "allMatchedPlacements": [
+        {
+          "file": "reader-taharqo.pdf",
+          "page": 4,
+          "widthMm": 65.1,
+          "effectivePpi": 199.8
+        }
+      ],
+      "imageTask": [
+        "Compare the raised shape with the hollow mould.",
+        "Why does a match support making, while leaving the buyer or royal name uncertain?"
+      ],
+      "visualReading": "The green raised fragment, hollow brown mould and segmented scale are visible. The scale lacks a legible unit; a measured length, named owner or inscription cannot be read from it.",
+      "textAlternative": "“A mould match supports manufacture” explains the find contexts and why the matching shapes matter. The caption explicitly withholds a centimetre estimate and distinguishes the fragment from the inscribed royal granite figure.",
+      "sourceRecord": "sanam-production-2026"
+    },
+    {
+      "id": "hopewell-moundcity-1848",
+      "subject": "hopewell-earthworks",
+      "sourcePixels": [450, 607],
+      "authorRequestedReaderWidthMm": 55,
+      "readerPlacement": {
+        "file": "reader-hopewell-earthworks.pdf",
+        "page": 4,
+        "widthMm": 55.0,
+        "effectivePpi": 207.7
+      },
+      "allMatchedPlacements": [
+        {
+          "file": "reader-hopewell-earthworks.pdf",
+          "page": 4,
+          "widthMm": 55.0,
+          "effectivePpi": 207.7
+        }
+      ],
+      "imageTask": [
+        "Find the Mound City enclosure and the Scioto River.",
+        "Which feature belongs to the nineteenth-century survey landscape?",
+        "What can this plan tell us about spatial relationships without dating each mound?"
+      ],
+      "visualReading": "The enclosure, mound symbols, river edge, canal and lower circular feature remain visible. The small lettering and printed scale at 55 mm are unsuitable for reading out distances or precise measurements.",
+      "textAlternative": "“Compare records without flattening time” and the caption identify Mound City, the nearby river and the later survey landscape. Readers can answer the question about spatial relationships without deciphering individual labels.",
+      "sourceRecord": "hopewell-moundcity"
+    }
+  ],
+  "exportSHA256": {
+    "chapter-C8.pdf": "5f0842f5d30445bdcd7a00b796b93956fcc6d5a72105a3ff4787e5206b1f838c",
+    "chapter-spreads.pdf": "79ef7395d48c572898abc56c354f02babab044c90292a7028ddeb3aab71e4871",
+    "family-explorations.pdf": "cacfc10174a1a8643fc334e5a80dfeb9aa3f8b26cc0015cc13d86f413c85d6cc",
+    "family-independence-citizenship.pdf": "a6ac0938c33cc45179e8b30b52c249b9830b83d9b3b2dd8dca5b7f54bc896710",
+    "reader-cherokee-print.pdf": "cdec748078d6ef02236ce401722553cf9646e1bad270433432adaf66ec45173c",
+    "reader-eastern-han.pdf": "a7a8f200159e0ad8385d867fdd6cb92703953a357432f7eea30f213919ddaa7e",
+    "reader-ghana-independence.pdf": "b356025c6b6a77d6632bf3b512bffebd68cfb4d5143c60c1f0f8061c92e4d295",
+    "reader-hidatsa-villages.pdf": "5433ee2188bab731a22885ce280347e0edd801d0dcbd5db0965d6bd0ac99f7c0",
+    "reader-hopewell-earthworks.pdf": "20f085f74858a8fb2e23649222c12d2e3c0ddc33bd23b4cff3508297c353edb1",
+    "reader-indonesia-independence.pdf": "9e3c469788de10a04d66033d27cf41778116abf290b61a79486252dab0881e9d",
+    "reader-ocmulgee-council.pdf": "3a3bdb721563b621683d5403f29c83efd9a5a47dfd258f1f34f9dc8c536bc616",
+    "reader-taharqo.pdf": "79b8b040ac57b07b412c187011d0a3cac053724013e61991225a7bc5b8ac85c2",
+    "reader-world-war-one.pdf": "6a810cf32af80b6ac9c1466066e3f8315984f46120a45a55694fa89a433fc089"
+  }
+}

@@ -1,0 +1,586 @@
+{
+  "scope": "25 archival, government, research and Commons records. Rights status describes the referenced asset for the stated atlas use. Qualified records retain item- or territorial limits. Unresolved refers to public reproduction of the source scan even when an original reference card is delivered. Fidelity is an image-and-context comparison, not certification of all historical claims.",
+  "comparisonMethod": "Compared the display and source at 96 × 96 using Lanczos resampling and mean absolute RGB difference (0–255), checked subject and orientation visually, and regenerated 22 pairs of display/thumbnail variants with their recorded Sharp settings for byte equality. Pixel differences alone do not identify subjects or establish rights. For the two withdrawn TNA scans the comparisons document the original dispositions.",
+  "records": [
+    {
+      "id": "loc-hine",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "LOC attributes this image to Hine and records its donor’s unrestricted-use stipulation for the NCLC collection. The revised credit rests on that evidence rather than assuming the exposure date proves publication.",
+      "fidelityFinding": "LOC original digital file nclc.01451 shows the same mill aisle, girl, machinery and framing. Both display and thumbnail reproduced byte-for-byte from the authenticated input using the recorded WebP settings.",
+      "descriptionFinding": "Standing spinner and machinery are visible. The overseer’s remarks are attributed to Hine’s caption.",
+      "dateFinding": "3 December 1908 comes from Hine’s caption card.",
+      "evidence": [
+        "https://www.loc.gov/item/2018674890/",
+        "https://hdl.loc.gov/loc.pnp/res.097.hine",
+        "output/redesign/research/loc-2018674890.json"
+      ],
+      "gaps": [],
+      "sourceComparison": {
+        "originalSHA256": "00eb7c5f41532c7883e9f527b1c2c39959075ea8846a93280174e05b8e6ea6b7",
+        "sourceSize": [1024, 729],
+        "displaySize": [1024, 729],
+        "meanPixelDifference96": 0.49,
+        "displaySHA256": "916ac6748db7d5458738c5ef2e66ebd093e5e1076bfbfd1588ee8c9618a32c49"
+      }
+    },
+    {
+      "id": "loc-war-poster",
+      "rightsStatus": "qualified",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The LOC item gives a no-known-restrictions advisory for World War I posters. The revised record states that advisory and identifies the item.",
+      "fidelityFinding": "The colour copy transparency cph.3g09547 includes the border and the recruiting poster. Both display and thumbnail reproduced byte-for-byte from the authenticated input using the recorded WebP settings.",
+      "descriptionFinding": "Liberty, the recipient, the sword inscription and the defense council shield agree with the institutional summary.",
+      "dateFinding": "The catalogue supplies [1917] in brackets. The revised record preserves this as an approximate year.",
+      "evidence": [
+        "https://www.loc.gov/item/2002708941/",
+        "https://www.loc.gov/pictures/item/2002708941/",
+        "output/redesign/research/loc-2002708941.json"
+      ],
+      "gaps": ["LOC does not name the maker. Its advisory is distinct from a licence."],
+      "sourceComparison": {
+        "originalSHA256": "9972f5037e934b69ef5299b6ab6428f873fec2d90599272a1d800963d76309bf",
+        "sourceSize": [511, 640],
+        "displaySize": [511, 640],
+        "meanPixelDifference96": 0.73,
+        "displaySHA256": "7d007034cfb68629bb92da93e60474923a49ffdaab89bd869a0865b8ed0262ab"
+      }
+    },
+    {
+      "id": "pp-cooking-objects",
+      "rightsStatus": "qualified",
+      "fidelityStatus": "supported",
+      "rightsFinding": "Project Gutenberg labels the digitized edition public domain in the USA. Figure 10 credits the photographs to Brian Cockerham, identified in the acknowledgments as a ranger.",
+      "fidelityFinding": "Figure 10, file p06a.jpg, shows the six lettered forms a–f and a scale. Both display and thumbnail reproduced byte-for-byte from the authenticated input using the recorded WebP settings.",
+      "descriptionFinding": "The six clay objects match the printed caption. The figure itself does not establish a specific meal, findspot or object date.",
+      "dateFinding": "1985 is the corrected printing. Individual object dates and the photographic exposure are unspecified.",
+      "evidence": [
+        "https://www.gutenberg.org/cache/epub/62948/pg62948-images.html",
+        "https://www.gutenberg.org/ebooks/62948",
+        "output/redesign/expansion/research/gibson-poverty.html"
+      ],
+      "gaps": [
+        "The public-domain label applies to this U.S. edition. No independent global licence from Cockerham is supplied."
+      ],
+      "sourceComparison": {
+        "originalSHA256": "73437c4012c008499f74ae93c073cdacc86efed956316656c305b4dfd98c640a",
+        "sourceSize": [1200, 721],
+        "displaySize": [1200, 721],
+        "meanPixelDifference96": 0.15,
+        "displaySHA256": "069a24888ea521bd9001fc884fa5b434f141269c774205da2ad6d47b5977bdab"
+      }
+    },
+    {
+      "id": "hopewell-restored-mound",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The individual NPS asset (suffix 20a0) records public domain and full granting rights. The parent album has a different rights field.",
+      "fidelityFinding": "NPS’s winter scene has bare trees, an earthen embankment and conical and elongated mounds in the background. Both display and thumbnail reproduced byte-for-byte from the authenticated input using the recorded WebP settings.",
+      "descriptionFinding": "Description names the restored Mound City landscape and the features visible at a distance.",
+      "dateFinding": "The asset creation field records 11 January 2013. This dates the winter image, not the earthworks.",
+      "evidence": [
+        "https://www.nps.gov/media/photo/gallery-item.htm?gid=9C9CFD95-D0C6-48A1-899B-A6F9C81D6BB5&id=d829d8d4-bdb5-458d-bb2b-f849817b20a0",
+        "output/redesign/expansion/research/hopewell-gallery.json",
+        "https://www.nps.gov/aboutus/disclaimer.htm"
+      ],
+      "gaps": [],
+      "sourceComparison": {
+        "originalSHA256": "5bc2e1c2a3daa9dc40862b5aac73dd1fe6cfb8627dc2f3477e42a943adbcd472",
+        "sourceSize": [2048, 1536],
+        "displaySize": [1600, 1200],
+        "meanPixelDifference96": 0.34,
+        "displaySHA256": "b100a3803315bfee0f2568080401186e1836ec7c7d7bf45f4a4f06bfb71c1c82"
+      }
+    },
+    {
+      "id": "hopewell-survey-1848",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The map is a reproduction of the Squier and Davis U.S. publication of 1848. NPS credits the historical survey.",
+      "fidelityFinding": "The NPS file HMG-SD-500 shows the survey titled North Fork Works, with irregular and square enclosures, a scale and interior earthworks. Both display and thumbnail reproduced byte-for-byte from the authenticated input using the recorded WebP settings.",
+      "descriptionFinding": "The alt text identifies a plan. Its geometric outlines reflect a nineteenth-century survey.",
+      "dateFinding": "1848 is the publication year of the survey. It does not date the construction.",
+      "evidence": [
+        "https://www.nps.gov/hocu/learn/historyculture/hopewell-mound-group.htm",
+        "https://www.nps.gov/hocu/learn/historyculture/images/HMG-SD-500.jpg"
+      ],
+      "gaps": [],
+      "sourceComparison": {
+        "originalSHA256": "d67e39e2b6a23fb1ec0e50237be04c081fc45134cbe546adbe2b2a6e2a8b0307",
+        "sourceSize": [500, 342],
+        "displaySize": [500, 342],
+        "meanPixelDifference96": 0.47,
+        "displaySHA256": "bfde620a55f53a3cd5d11ecccec4e1f94d34dc0f4f8373aa52b57501166841dc"
+      }
+    },
+    {
+      "id": "chaco-corner-door",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The park page marks the specific Pueblo Bonito corner-door image NPS Photo. The NPS ownership policy covers its official work in the U.S.",
+      "fidelityFinding": "The photograph looks up at masonry, wall apertures and beam ends. The park identifies this as the second-floor corner door at Pueblo Bonito. Both display and thumbnail reproduced byte-for-byte from the authenticated input using the recorded WebP settings.",
+      "descriptionFinding": "The description identifies the corner and remaining beams without inferring a domestic or ceremonial use.",
+      "dateFinding": "The park provides no exposure date. The dossier separates the modern photograph from the surviving architecture.",
+      "evidence": [
+        "https://www.nps.gov/chcu/planyourvisit/placestogo.htm",
+        "https://www.nps.gov/aboutus/disclaimer.htm",
+        "output/redesign/expansion/research/chaco-media.html"
+      ],
+      "gaps": [],
+      "sourceComparison": {
+        "originalSHA256": "efba9dff9ec8f6c7c68d8359ee3abacfef679aaf730534f225d39d61f1e0468c",
+        "sourceSize": [2048, 1536],
+        "displaySize": [1600, 1200],
+        "meanPixelDifference96": 0.38,
+        "displaySHA256": "3bd3e966a7713171b4e9b75a08d954c67ff8a31e8e829e77f30d8947a0199e07"
+      }
+    },
+    {
+      "id": "cahokia-view-1907",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "LOC records a U.S. c1907 photomechanical print copyrighted by the National Photographic Library. The publication date supports U.S. public-domain treatment of the print.",
+      "fidelityFinding": "The black-and-white copy negative shows an agricultural landscape, a tree-covered mound and the printed border. Both display and thumbnail reproduced byte-for-byte from the authenticated input using the recorded WebP settings.",
+      "descriptionFinding": "The alt text identifies the later landscape. It does not treat the field as the medieval city.",
+      "dateFinding": "The catalogue title specifies 16 October 1907. The work is catalogued c1907.",
+      "evidence": [
+        "https://www.loc.gov/pictures/item/97505973/",
+        "https://www.loc.gov/item/97505973/",
+        "output/redesign/expansion/research/loc-cahokia.json"
+      ],
+      "gaps": [],
+      "sourceComparison": {
+        "originalSHA256": "1459d981748416a5199b6d3cda9dadfaf71afd35978cf7bc602dcee130c7813a",
+        "sourceSize": [1024, 820],
+        "displaySize": [1024, 820],
+        "meanPixelDifference96": 0.29,
+        "displaySHA256": "edeb9c52c3d2ca260ea4383042023f157df9e0ee335b349584e248b90d723fa1"
+      }
+    },
+    {
+      "id": "inuinnait-plate-1922",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The 1922 printed government expedition volume is public domain in the U.S. Publication by the King’s Printer also places the Crown publication beyond the fifty-year term in Canadian Copyright Act §12.",
+      "fidelityFinding": "The cached rendered frontispiece of volume XII shows the full printed plate of Ikpakhuak and Higilak. Its caption identifies them and their dancing clothing. Both display and thumbnail reproduced byte-for-byte from the authenticated input using the recorded WebP settings.",
+      "descriptionFinding": "Both sitters are named in the printed caption. The description distinguishes the caption’s account from what the photograph shows.",
+      "dateFinding": "1922 dates publication. The original exposure is undated.",
+      "evidence": [
+        "https://archive.org/details/lifeofcoppereski00jenn",
+        "https://laws-lois.justice.gc.ca/eng/acts/C-42/section-12.html",
+        "output/redesign/northern-expansion/research/jenness-text.txt"
+      ],
+      "gaps": [],
+      "sourceComparison": {
+        "originalSHA256": "86525a9feab2ee4d7cc520da2073536ec20e5f3d4eaa656d71b947a238033adf",
+        "sourceSize": [1495, 2400],
+        "displaySize": [997, 1600],
+        "meanPixelDifference96": 0.42,
+        "displaySHA256": "470d456ca2798aced4e5bcac14c9e89ba5609c85153fbcec566618646f7b0351"
+      }
+    },
+    {
+      "id": "makah-loc-1910",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "LOC records no known restrictions for the early U.S. photograph credited to Asahel Curtis. The item’s c1910/c1911 dates support the expired U.S. copyright.",
+      "fidelityFinding": "The LOC copy negative cph.3c09749 shows Light House Joe at a boat, holding a long pole. Both display and thumbnail reproduced byte-for-byte from the authenticated input using the recorded WebP settings.",
+      "descriptionFinding": "The subject is named by the archive. The catalogue places a question mark after Neah Bay.",
+      "dateFinding": "The catalogue records c1910, c1911. The record separates the approximate photo date from the later copyright.",
+      "evidence": [
+        "https://www.loc.gov/item/94501684/",
+        "https://www.loc.gov/resource/cph.3c09749/",
+        "output/redesign/northern-expansion/research/loc-makah.json"
+      ],
+      "gaps": [],
+      "sourceComparison": {
+        "originalSHA256": "1b968c2215fe4c84633cd42e0ab6adf54b87fbfd8a8063272245c85a78604f12",
+        "sourceSize": [1024, 814],
+        "displaySize": [1024, 814],
+        "meanPixelDifference96": 0.32,
+        "displaySHA256": "f200d372a0effd0feae5c03644e58a30b1aecd0462c4e5c53e645d92472dd489"
+      }
+    },
+    {
+      "id": "hsi-cliff-2005",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The uploader UM identifies the image as their own and dedicates it to the public domain worldwide, with a fallback unrestricted-use grant.",
+      "fidelityFinding": "The view along a low, rocky grassland escarpment matches the uploader’s photograph of Head-Smashed-In. Both display and thumbnail reproduced byte-for-byte from the authenticated input using the recorded WebP settings.",
+      "descriptionFinding": "A present-day site view gives terrain evidence. The photograph contains no hunt.",
+      "dateFinding": "17 July 2005 is the upload date. The record assigns no exact exposure date.",
+      "evidence": [
+        "https://commons.wikimedia.org/wiki/File:Head-Smashed-In.jpg",
+        "output/redesign/northern-expansion/research/commons-hsi-cliff.html"
+      ],
+      "gaps": [],
+      "sourceComparison": {
+        "originalSHA256": "4a80fe45c6a287344b4fd12fd19aa0a3afd9a88a3defbd1fcf24737c0c03a69c",
+        "sourceSize": [2016, 1512],
+        "displaySize": [1600, 1200],
+        "meanPixelDifference96": 0.36,
+        "displaySHA256": "4973c16776a30e3216e0c5dd6c6f16d176d76b626827f8c9076c4e96631e5c15"
+      }
+    },
+    {
+      "id": "knife-earthlodge",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The NPS article explicitly labels this exterior image NPS Photo. The agency policy supports U.S. public-domain use of its work.",
+      "fidelityFinding": "The article image shows a low earth-covered dome, wood-framed projecting entrance and surrounding supports. Both display and thumbnail reproduced byte-for-byte from the authenticated input using the recorded WebP settings.",
+      "descriptionFinding": "An earthlodge reconstruction is identified in the alt text. It does not establish who built any particular historical lodge.",
+      "dateFinding": "Date of exposure is unspecified. The image shows a modern reconstruction.",
+      "evidence": [
+        "https://www.nps.gov/articles/knri-hidatsa-women-earthlodges-cultural-landscape.htm",
+        "output/redesign/northern-expansion/research/knife-women.html",
+        "https://www.nps.gov/aboutus/disclaimer.htm"
+      ],
+      "gaps": [],
+      "sourceComparison": {
+        "originalSHA256": "1afc0767b8988c4f3866d6250b7d9414168d0bc57f02ce1582b924bf53b343a4",
+        "sourceSize": [650, 433],
+        "displaySize": [650, 433],
+        "meanPixelDifference96": 0.86,
+        "displaySHA256": "f31adbccc6318faf86de0924e8d33e894826ee340da46c9e3abb1a95b3014d48"
+      }
+    },
+    {
+      "id": "knife-garden-tools",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The NPS educational article credits its particular hoe and digging-stick image to NPS. Agency ownership policy applies to the illustration.",
+      "fidelityFinding": "The same outlined drawing pairs a blade attached to a handle with a slender pointed implement. Both display and thumbnail reproduced byte-for-byte from the authenticated input using the recorded WebP settings.",
+      "descriptionFinding": "The page describes the bison-scapula hoe and digging stick. Atlas identifies an illustration even though the institutional credit line says NPS Photo.",
+      "dateFinding": "This is a modern teaching illustration. The creation date is unavailable.",
+      "evidence": [
+        "https://www.nps.gov/articles/subsistence.htm",
+        "output/redesign/northern-expansion/research/nps-subsistence.html",
+        "https://www.nps.gov/aboutus/disclaimer.htm"
+      ],
+      "gaps": [],
+      "sourceComparison": {
+        "originalSHA256": "d34c0e1c3cf21ec82d5fb15e223ba2d963c733153d5d3518c868285a040c1099",
+        "sourceSize": [960, 940],
+        "displaySize": [960, 940],
+        "meanPixelDifference96": 0.06,
+        "displaySHA256": "9886892e93082b4586c84a3c08919eaffe949998a1f44e19c698b795b291aed6"
+      }
+    },
+    {
+      "id": "hunt-title-1921",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "LOC identifies this books collection as public domain and free to use and reuse. The consulted title page appeared in a 1921 U.S. Government Printing Office publication.",
+      "fidelityFinding": "The full scanned title leaf, image 13 of part 2, identifies the work based on data collected by George Hunt and names Franz Boas. Both display and thumbnail reproduced byte-for-byte from the authenticated input using the recorded WebP settings.",
+      "descriptionFinding": "The atlas preserves Hunt’s collecting role and the printed byline. This page is evidence about credited authorship.",
+      "dateFinding": "1921 dates the printed volume. The page does not date any single teaching, narrative or other knowledge discussed in the work.",
+      "evidence": [
+        "https://www.loc.gov/item/21020998/",
+        "https://www.loc.gov/resource/gdcmassbookdig.ethnologyofkwaki02boas/?sp=13",
+        "output/redesign/northern-expansion/research/loc-hunt2.json"
+      ],
+      "gaps": [],
+      "sourceComparison": {
+        "originalSHA256": "54121973920e43dade84469bfc829a5e47c5359b83d72fb9198e2f4e18cbb65a",
+        "sourceSize": [1600, 2537],
+        "displaySize": [1009, 1600],
+        "meanPixelDifference96": 0.38,
+        "displaySHA256": "1331bab8068988b101217c1ece9acd0d801f43d1b378c8384cc847fcfe83e764"
+      }
+    },
+    {
+      "id": "ocmulgee-floor",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The exact carousel image caption on the NPS homepage credits NPS. Asset 3C79797E is the interior. The separate NPGallery exterior is a different photograph.",
+      "fidelityFinding": "Asset 3C79797E shows the original clay floor/platform beneath later posts and roof timbers. Its preserved resolution is 526 × 339. Both display and thumbnail reproduced byte-for-byte from the authenticated input using the recorded WebP settings.",
+      "descriptionFinding": "The alt distinguishes the raised clay from the modern roof. The accompanying caption discloses the source resolution and contested interpretation of chronology.",
+      "dateFinding": "No exposure date accompanies this image. The age claimed for the floor in the park caption is not a photographic date.",
+      "evidence": [
+        "https://www.nps.gov/ocmu/index.htm",
+        "output/redesign/woodlands-expansion/research/ocmulgee-home.html",
+        "https://www.nps.gov/aboutus/disclaimer.htm"
+      ],
+      "gaps": [],
+      "sourceComparison": {
+        "originalSHA256": "db5d8d5b5c7257e7a438a530920c3404fbaee6591f68dcae1f538ef2d6355bab",
+        "sourceSize": [526, 339],
+        "displaySize": [526, 339],
+        "meanPixelDifference96": 1.1,
+        "displaySHA256": "e52275bc59eb1f55c6c8c5bac75406b2fdf4ec2a493b60e66a10db1cd3d38899"
+      }
+    },
+    {
+      "id": "ocmulgee-exterior",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The NPS Earth Lodge place record credits this photograph to NPS/Martinson, covered by the agency’s official-work policy in the United States.",
+      "fidelityFinding": "The 1600 × 900 NPS rendition shows the grass-covered structure and modern walkway leading to the entrance. Its framing is that of the supplied institutional rendition. Both display and thumbnail reproduced byte-for-byte from the authenticated input using the recorded WebP settings.",
+      "descriptionFinding": "The description identifies the above-ground protective reconstruction. No original floor is visible from here.",
+      "dateFinding": "Modern photograph of the reconstructed exterior. Exact exposure date is unavailable.",
+      "evidence": [
+        "https://www.nps.gov/places/ocmulgee-mounds-earth-lodge.htm",
+        "https://www.nps.gov/aboutus/disclaimer.htm"
+      ],
+      "gaps": [],
+      "sourceComparison": {
+        "originalSHA256": "2fa5741b97e76cbe3520f86089641a95e1c1b56960a6057247f84d28b498d561",
+        "sourceSize": [1600, 900],
+        "displaySize": [1600, 900],
+        "meanPixelDifference96": 0.44,
+        "displaySHA256": "8ebdbc7d26215ec7ee11ce4d46687a1789038456674b74fcc657cefd86b57f99"
+      }
+    },
+    {
+      "id": "laine-radiocarbon-2022",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "Manning and Birch’s publisher names the authors as copyright holders and specifies CC BY 4.0. Its Figure 2 credits its data and modeling inputs with no separate image-rights notice. The atlas now supplies a dedicated licence link.",
+      "fidelityFinding": "Figure 2 has a multi-row left panel and a smaller right panel. The entire figure, including both panels and axes, is retained. Both display and thumbnail reproduced byte-for-byte from the authenticated input using the recorded WebP settings.",
+      "descriptionFinding": "Revised description identifies the actual distinction between archaeological phases in panel a and a single modeled phase in b. Multiple probability peaks are alternative fits.",
+      "dateFinding": "2022 is the research publication date. The peaks around 1500 and 1600 are alternative modeled dates.",
+      "evidence": [
+        "https://doi.org/10.1017/RDC.2022.23",
+        "https://creativecommons.org/licenses/by/4.0/",
+        "output/redesign/woodlands-expansion/research/laine-study.txt"
+      ],
+      "gaps": [],
+      "sourceComparison": {
+        "originalSHA256": "3e623a433983893a1fb52132d77c2482f1a5a2d5159ca19c04801b1240622859",
+        "sourceSize": [1867, 1305],
+        "displaySize": [1600, 1118],
+        "meanPixelDifference96": 0.36,
+        "displaySHA256": "8fa423a774c5548a33d6acfd2234d97c38c755a72e03a313f6856bac68c4e330"
+      }
+    },
+    {
+      "id": "canandaigua-ratification",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The eighteenth-century ratification instrument is identified by the National Archives and reproduced through the Indigenous Digital Archive treaty project. Public-domain treatment concerns this historical document and its faithful scan.",
+      "fidelityFinding": "The first full PDF recto shows the handwritten treaty and ratification with names and seals. The archived source PDF and page-extraction history identify the image. Both display and thumbnail reproduced byte-for-byte from the authenticated input using the recorded WebP settings.",
+      "descriptionFinding": "The names, red seals and manuscript form support the description. The scan cannot establish that promises were kept.",
+      "dateFinding": "The catalogue identifies the treaty of 11 November 1794 and ratification on 21 January 1795. The date of scanning is unknown.",
+      "evidence": [
+        "https://digitreaties.org/treaties/treaty/12013172/",
+        "https://catalog.archives.gov/id/12013172",
+        "output/redesign/woodlands-expansion/research/canandaigua-archive.txt"
+      ],
+      "gaps": [],
+      "sourceComparison": {
+        "originalSHA256": "b96fa778f295ddaa76aea92dad674128344c89b5f9711cc7a3bbeffd1a34dee4",
+        "sourceSize": [1149, 1800],
+        "displaySize": [1021, 1600],
+        "meanPixelDifference96": 0.39,
+        "displaySHA256": "044e37c66e1efce3ad7df6700a3616ecf667416900a27cb9e4b61bae4a094d18"
+      }
+    },
+    {
+      "id": "phoenix-april-1828",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The original issue was published in 1828. LOC identifies its masthead reproduction. The digital source supplied by NPS reproduces the newspaper.",
+      "fidelityFinding": "The supplied 650-pixel image reproduces the upper portion of the front page. The eagle, newspaper title and original printed date are visible. Both display and thumbnail reproduced byte-for-byte from the authenticated input using the recorded WebP settings.",
+      "descriptionFinding": "The description limits itself to the masthead and identifies the Cherokee and English printing. It does not attempt a new transcription of small text.",
+      "dateFinding": "10 April 1828 is the issue date; it is distinct from both the first issue and the date of reproduction.",
+      "evidence": [
+        "https://www.loc.gov/item/97512373/",
+        "https://www.loc.gov/pictures/item/97512373/",
+        "https://www.loc.gov/resource/sn83020866/1828-04-10/ed-1/?sp=1",
+        "https://www.nps.gov/articles/000/images/cherokee-phoenix.jpg"
+      ],
+      "gaps": [],
+      "sourceComparison": {
+        "originalSHA256": "4833fb5727220fc7cb59442859d719505de4b02e6d18820e0a72cb20cf34c732",
+        "sourceSize": [650, 492],
+        "displaySize": [650, 492],
+        "meanPixelDifference96": 0.36,
+        "displaySHA256": "0cbe68720c3cfcbcf335729b610125c8eca80623b285f885730cad434b6f4081"
+      }
+    },
+    {
+      "id": "rice-linde-1913",
+      "rightsStatus": "qualified",
+      "fidelityStatus": "supported",
+      "rightsFinding": "LOC records no known publication restrictions for the Linde gelatin-silver print. This is an advisory for the identified photograph.",
+      "fidelityFinding": "LOC digital file ds.14380 shows an occupied canoe and other canoes in front of rice grasses, with Wild Rice and Linde at the edges. Both display and thumbnail reproduced byte-for-byte from the authenticated input using the recorded WebP settings.",
+      "descriptionFinding": "The catalogue identifies the subject as Ojibwe, without a name or certain gender. The atlas retains the probable Ontario location.",
+      "dateFinding": "The catalogue uses the supplied year [1913]. There is no exact exposure date.",
+      "evidence": [
+        "https://www.loc.gov/pictures/collection/cph/item/2020637524/",
+        "https://www.loc.gov/item/2020637524/"
+      ],
+      "gaps": [
+        "There is no item-specific licence grant or identification of the person or precise lake."
+      ],
+      "sourceComparison": {
+        "originalSHA256": "732c7c067c4d75ee3619686a7b4a53bb99880dfd9c016a12004e95b5176f66fd",
+        "sourceSize": [1024, 617],
+        "displaySize": [1024, 617],
+        "meanPixelDifference96": 1.32,
+        "displaySHA256": "1e52de44019b68878eb7df4d9c283d5c3eeb61ec15e3eb8cc30162b3fa476dbc"
+      }
+    },
+    {
+      "id": "angkor-aster",
+      "rightsStatus": "qualified",
+      "fidelityStatus": "supported",
+      "rightsFinding": "NASA permits factual educational and informational uses with acknowledgment and subject to its media guidelines. The article credits Jesse Allen’s image and the joint ASTER data providers.",
+      "fidelityFinding": "The current 3200-square NASA source and the 1200-square display share orientation, extent and visible features. The reservoir, enclosures, surrounding fields and lake edge match.",
+      "descriptionFinding": "The west reservoir, square enclosures, and dark-blue lake agree with NASA’s caption. Material is described as processed satellite information.",
+      "dateFinding": "NASA dates ASTER acquisition to 17 February 2004. The image captures accumulated landscape features.",
+      "evidence": [
+        "https://science.nasa.gov/earth/earth-observatory/angkor-ruins-4995/",
+        "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+      ],
+      "gaps": [
+        "NASA media guidelines impose use conditions. The finding concerns the credited educational reproduction."
+      ],
+      "sourceComparison": {
+        "originalSHA256": "0e4bf3b6bb009303b167c37d9363edd605676acaee050d9878cdadc162b6bcb9",
+        "sourceSize": [3200, 3200],
+        "displaySize": [1200, 1200],
+        "meanPixelDifference96": 0.41,
+        "displaySHA256": "2f5dc70eb00f9f1bdd398393968cbd43ffc237b6ee78cc4a6ebefeed57e3356f"
+      }
+    },
+    {
+      "id": "partition-punjab-map",
+      "rightsStatus": "unresolved",
+      "fidelityStatus": "supported",
+      "rightsFinding": "No Image Library publication permission is recorded for this scan. Section 4 of The National Archives guidance distinguishes private educational study from reproduction on the internet. The public atlas now uses its own source reference card.",
+      "fidelityFinding": "The pre-replacement scan matched the archive JPEG, depicting Punjab, the awarded line and a separate Sikh demand. The delivered card intentionally contains text that identifies the external original.",
+      "descriptionFinding": "Alt, print credit, prompts and caption refer to the card or direct readers to the map. Its colours and line styles are attributes of the original map.",
+      "dateFinding": "1947 dates the source map. Its key identifies the August award; the card is contemporary atlas material.",
+      "evidence": [
+        "https://www.nationalarchives.gov.uk/image/b87fc06c-fab5-4526-a1e9-1909a75bce84/",
+        "https://www.nationalarchives.gov.uk/terms-and-conditions/copyright/use-of-the-national-archives-materials/",
+        "https://cdn.nationalarchives.gov.uk/documents/education/partition-video-downloadable.pdf"
+      ],
+      "gaps": [
+        "Online redistribution of the archive scan requires documented permission from the Image Library. The atlas links to it."
+      ],
+      "sourceComparison": {
+        "originalSHA256": "5e751cd86c547940a00ebb5e07bee487a17b7c498d326a7290d9fd0c7d3fb7c9",
+        "sourceSize": [900, 679],
+        "displaySize": [900, 679],
+        "meanPixelDifference96": 0.56,
+        "displaySHA256": "4ca4a9df0dffa8d402dee2155f7e4b9bd91b6e54dea0d802223bc964b212e679",
+        "scope": "Prior privately reviewed scan; public derivative replaced by Chronos source reference card."
+      },
+      "publicReferenceCard": {
+        "image": {
+          "sha256": "fea034707ac71d206ae46e7625f204953806dbe5f5df7d25b2ad1f3809722e03",
+          "dimensions": [900, 679]
+        },
+        "thumbnail": {
+          "sha256": "844b08242470da485e875c1b23101b29de2e4617864bb837285a76f89940bc76",
+          "dimensions": [480, 362]
+        }
+      }
+    },
+    {
+      "id": "partition-telegram",
+      "rightsStatus": "unresolved",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The Crown text can be transcribed under the OGL. Internet reproduction of a scan from the archive’s website requires Image Library permission. The local public atlas now uses its own reference card.",
+      "fidelityFinding": "The pre-replacement JPEG matched the archived telegram’s heading, typing, numbered paragraphs and receipt marks. The delivered card identifies the source rather than reproducing the typescript.",
+      "descriptionFinding": "Alt text describes the reference card. The caption directs readers to the dossier excerpt or external archive for the original record.",
+      "dateFinding": "Sent on 23 September 1947 and received on 24 September, as recorded in the teaching source. This dates the telegram, separate from the atlas card.",
+      "evidence": [
+        "https://www.nationalarchives.gov.uk/education/teaching-resources/partition-of-british-india/",
+        "https://www.nationalarchives.gov.uk/terms-and-conditions/copyright/use-of-the-national-archives-materials/",
+        "https://cdn.nationalarchives.gov.uk/documents/education/partition-video-downloadable.pdf",
+        "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      ],
+      "gaps": [
+        "Image Library permission for redistribution of the scan has not been established. The atlas links to it."
+      ],
+      "sourceComparison": {
+        "originalSHA256": "ac89840e3d6ffe664c501a806c470f1cff269bc4e75e2307bbcbfe5df6d34527",
+        "sourceSize": [546, 900],
+        "displaySize": [546, 900],
+        "meanPixelDifference96": 0.67,
+        "displaySHA256": "20b77980bd4c4fe1faffe763e5ff5d3cedc1e909b5b3e4609de30c5ee4bde68f",
+        "scope": "Prior privately reviewed scan; public derivative replaced by Chronos source reference card."
+      },
+      "publicReferenceCard": {
+        "image": {
+          "sha256": "56b5edca027899bc8e59868662d32a9e466077733175d18ae68a96673bf332da",
+          "dimensions": [546, 900]
+        },
+        "thumbnail": {
+          "sha256": "36f7691a2bc2fb9af3eea44ac24e39b26e88da4834c231cfcedf9bddf2532ecd",
+          "dimensions": [291, 480]
+        }
+      }
+    },
+    {
+      "id": "indonesia-proclamation",
+      "rightsStatus": "qualified",
+      "fidelityStatus": "supported",
+      "rightsFinding": "Commons applies the Indonesian-government public-domain template under Article 43 of Law 28 of 2014. Atlas wording now preserves the stated jurisdiction.",
+      "fidelityFinding": "The Commons file is the typed facsimile with a date line and two signatures. The original file hash matches the pinned ingestion hash. Both display and thumbnail reproduced byte-for-byte from the authenticated input using the recorded WebP settings.",
+      "descriptionFinding": "The national proclamation and signatures are visible. The description differentiates the typed version from the handwritten draft.",
+      "dateFinding": "17 August 1945 dates the original declaration. The Commons upload history traces the image to 2004 on Indonesian Wikipedia.",
+      "evidence": [
+        "https://commons.wikimedia.org/wiki/File:Proklamasi.png",
+        "https://www.wipo.int/wipolex/en/legislation/details/15600",
+        "scripts/redesign/process-citizenship-media.mjs"
+      ],
+      "gaps": [
+        "The file page supplies no independent repository history for this digitization or separate worldwide grant."
+      ],
+      "sourceComparison": {
+        "originalSHA256": "8692ac8ec5e2c05b5b2c15750bed697a00e1b7e62c443add1dba444ebc37baff",
+        "sourceSize": [399, 268],
+        "displaySize": [399, 268],
+        "meanPixelDifference96": 0.5,
+        "displaySHA256": "196b620a487ad55d25057a4b3a587d7004ed0fd0aaf0504f92d69293674588f8"
+      }
+    },
+    {
+      "id": "ghana-independence-stamp",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "Commons credits the British government, identifies a scan of an original and records the expired-Crown-copyright basis. Its upload history credits Philafrenzy.",
+      "fidelityFinding": "The scan shows the Ghana independence overprint on a 1-shilling Gold Coast stamp. The source hash matches the pinned ingestion hash. Both display and thumbnail reproduced byte-for-byte from the authenticated input using the recorded WebP settings.",
+      "descriptionFinding": "The older royal portrait and cocoa scene appear behind the black overprint. The date and value are legible in the source.",
+      "dateFinding": "6 March 1957 appears on the overprint. This date is distinct from the underlying design and the scan.",
+      "evidence": [
+        "https://commons.wikimedia.org/wiki/File:Ghana_Independence_overprint_on_Gold_Coast_1s_stamp_1957.jpg",
+        "scripts/redesign/process-citizenship-media.mjs"
+      ],
+      "gaps": [],
+      "sourceComparison": {
+        "originalSHA256": "d4572c045d92e88b52b5601651006a1f8d9a64a6a70b5e6e60e3c264976b01c2",
+        "sourceSize": [611, 460],
+        "displaySize": [611, 460],
+        "meanPixelDifference96": 0.72,
+        "displaySHA256": "1fbe8befcc7bf029c276cfa6d079d605049b9bbbef6dc9d35ef7fd998ab4960c"
+      }
+    },
+    {
+      "id": "mandela-voting",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "The donor record credits Paul Weinberg, gives CC BY-SA 3.0 Unported, and identifies confirmed permission (VRT ticket 2013062010004691). Author, licence link, conversion and share-alike terms are retained.",
+      "fidelityFinding": "The source photo shows Mandela voting at Ohlange School. The fetched file matches the pinned input hash. The exact Sharp re-encoding also confirms the delivered grayscale tonal rendition despite different default-profile handling by other decoders. Both display and thumbnail reproduced byte-for-byte from the authenticated input using the recorded WebP settings.",
+      "descriptionFinding": "The ballot, hand, ballot box, other people and interior setting support the alt text. Place and attribution come from the source record.",
+      "dateFinding": "The item dates the photo to April 1994. It precedes the later constitutional milestones discussed in the dossier.",
+      "evidence": [
+        "https://commons.wikimedia.org/wiki/File:Mandela_voting_in_1994.jpg",
+        "https://creativecommons.org/licenses/by-sa/3.0/",
+        "scripts/redesign/process-citizenship-media.mjs"
+      ],
+      "gaps": [],
+      "sourceComparison": {
+        "originalSHA256": "50bf8897c639d737ed02e64910d337d844936f97e5f007ec1cf2b0f6ce29519b",
+        "sourceSize": [538, 800],
+        "displaySize": [538, 800],
+        "meanPixelDifference96": 10.95,
+        "displaySHA256": "da8bf4065c0cd49da9327199c2828c34175dfeb76a7d086bc4367bd759a292b5"
+      }
+    }
+  ]
+}

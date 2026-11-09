@@ -1,0 +1,17 @@
+{
+  "status": "prepared_not_observed_or_accepted",
+  "corpusSHA256": "cacd0e7d9be7ef13909afe5f9bd511a0ce73b5cc9379648b6d59380fc81d167c",
+  "historicalDossiers": 12,
+  "regionalReadings": 56,
+  "snapshotEntries": 84,
+  "finalAdultSlots": 5,
+  "finalFamilySlots": 5,
+  "minimumNewParticipantsPerTrack": 3,
+  "minimumDelayedFollowupsPerTrack": 3,
+  "deviceSlots": 5,
+  "physicalPrintSlots": 6,
+  "observedPeople": 0,
+  "historicalDecisions": 0,
+  "formativePilot": "removed_by_owner; not reinstated",
+  "limits": "Slots are a ready-to-use allocation, not recruited participants, observed results or acceptance. Verify exact candidate and PDF identities before use."
+}

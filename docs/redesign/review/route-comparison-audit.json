@@ -1,0 +1,3042 @@
+{
+  "journeys": [
+    {
+      "id": "cities-evidence",
+      "question": "Can we recover work, belief and authority from things?",
+      "durationAsAuthored": "25–40 minutes",
+      "stops": [
+        {
+          "number": 1,
+          "subject": "uruk-accounts",
+          "year": -3000,
+          "region": "West/Central Asia",
+          "caseInterval": {
+            "start": -3100,
+            "end": -2900,
+            "label": "c. 3100–2900 BCE",
+            "note": "Date of the selected administrative tablet, not the beginning or end of Uruk.",
+            "precision": "range"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 2,
+          "subject": "old-kingdom",
+          "year": -2400,
+          "region": "Africa",
+          "caseInterval": {
+            "start": -2649,
+            "end": -2130,
+            "label": "c. 2649–2130 BCE",
+            "note": "Approximate period convention in the current 2019 essay, whose URL retains an older endpoint.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 3,
+          "subject": "dholavira",
+          "year": -2400,
+          "region": "South Asia",
+          "caseInterval": {
+            "start": -3000,
+            "end": -1500,
+            "label": "c. 3000–1500 BCE",
+            "note": "Occupation range in the UNESCO site account; mature urban phases and individual objects have narrower dates.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "uruk-accounts"
+        },
+        {
+          "number": 4,
+          "subject": "liangzhu",
+          "year": -2400,
+          "region": "East Asia",
+          "caseInterval": {
+            "start": -3300,
+            "end": -2300,
+            "label": "c. 3300–2300 BCE",
+            "note": "UNESCO’s city/site range. The Met’s broader Liangzhu culture label c3200–2000 BCE has a different scope.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 5,
+          "subject": "caral",
+          "year": -2400,
+          "region": "Americas",
+          "caseInterval": {
+            "start": -3000,
+            "end": -1800,
+            "label": "c. 3000–1800 BCE",
+            "note": "UNESCO’s radiocarbon-based development range is followed. A current Peruvian government orientation gives 3000–1900 BCE; different endpoints are retained.",
+            "precision": "disputed",
+            "alternatives": [
+              {
+                "label": "3000–1900 BCE in the Peruvian government orientation",
+                "citations": [
+                  {
+                    "source": "caral-peru",
+                    "locator": "Opening orientation"
+                  }
+                ]
+              }
+            ]
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "liangzhu"
+        },
+        {
+          "number": 6,
+          "subject": "skara-brae",
+          "year": -2800,
+          "region": "Europe",
+          "caseInterval": {
+            "start": -3180,
+            "end": -2500,
+            "label": "c. 3180–2500 BCE",
+            "note": "Structured date in HES’s selected tool record gives the contextual range. Its narrative instead says 3100–2400; house-history page places the end around 2500. Boundaries are approximate.",
+            "precision": "disputed"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        }
+      ],
+      "dateOrder": "thematic/nonchronological",
+      "regions": [
+        "Africa",
+        "Americas",
+        "East Asia",
+        "Europe",
+        "South Asia",
+        "West/Central Asia"
+      ],
+      "review": "Metadata inventory only. Verify transitions, evidence task, comparisons, return and reader timing before acceptance."
+    },
+    {
+      "id": "networks-disruption",
+      "question": "What changed around 1200 BCE—and what did not?",
+      "durationAsAuthored": "25–40 minutes",
+      "stops": [
+        {
+          "number": 1,
+          "subject": "uluburun",
+          "year": -1320,
+          "region": "West/Central Asia",
+          "caseInterval": {
+            "start": -1335,
+            "end": -1305,
+            "label": "c. 1320 BCE ±15 years",
+            "note": "Dating reported by the excavators’ project page; not an exact sailing or sinking year.",
+            "precision": "range"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 2,
+          "subject": "hattusha-change",
+          "year": -1200,
+          "region": "West/Central Asia",
+          "caseInterval": {
+            "start": -1300,
+            "end": -1200,
+            "label": "13th century BCE, approaching c. 1200",
+            "note": "Investigation window for the late capital and political transformation; not the city’s entire occupation or an exact destruction year.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "uluburun"
+        },
+        {
+          "number": 3,
+          "subject": "kerma-potters",
+          "year": -1700,
+          "region": "Africa",
+          "caseInterval": {
+            "start": -2050,
+            "end": -1500,
+            "label": "c. 2050–1500 BCE",
+            "note": "Middle and Classical Kerma frame in the regional chronology; not the full history of Nubia.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 4,
+          "subject": "shang-ritual",
+          "year": -1200,
+          "region": "East Asia",
+          "caseInterval": {
+            "start": -1600,
+            "end": -1046,
+            "label": "c. 1600–1046 BCE",
+            "note": "Conventional Shang period in the current museum sources; individual objects can have narrower dates.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 5,
+          "subject": "olmec",
+          "year": -1100,
+          "region": "Americas",
+          "caseInterval": {
+            "start": -1200,
+            "end": -400,
+            "label": "c. 1200–400 BCE",
+            "note": "Cultural and artistic flourishing frame in Doyle’s essay; not one kingdom’s precise lifespan.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 6,
+          "subject": "lapita",
+          "year": -1100,
+          "region": "Southeast Asia/Oceania",
+          "caseInterval": {
+            "start": -1500,
+            "end": -500,
+            "label": "c. 1500–500 BCE",
+            "note": "Broad pottery-style frame in the museum essay; regional settlement and later histories have different dates.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        }
+      ],
+      "dateOrder": "thematic/nonchronological",
+      "regions": [
+        "Africa",
+        "Americas",
+        "East Asia",
+        "Southeast Asia/Oceania",
+        "West/Central Asia"
+      ],
+      "review": "Metadata inventory only. Verify transitions, evidence task, comparisons, return and reader timing before acceptance."
+    },
+    {
+      "id": "voices-power",
+      "question": "Who could make a message last?",
+      "durationAsAuthored": "25–40 minutes",
+      "stops": [
+        {
+          "number": 1,
+          "subject": "nimrud-palace",
+          "year": -870,
+          "region": "West/Central Asia",
+          "caseInterval": {
+            "start": -883,
+            "end": -859,
+            "label": "Reign of Ashurnasirpal II, 883–859 BCE",
+            "note": "Selected palace-building and representational context; not the full duration of Assyria or Nimrud.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 2,
+          "subject": "ashoka-messages",
+          "year": -250,
+          "region": "South Asia",
+          "caseInterval": {
+            "start": -268,
+            "end": -232,
+            "label": "Ashoka, c. 268–232 BCE",
+            "note": "Reign convention used by Neelis. Other chronologies place accession earlier; not exact dates for every edict.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "nimrud-palace"
+        },
+        {
+          "number": 3,
+          "subject": "athens-water",
+          "year": -500,
+          "region": "Europe",
+          "caseInterval": {
+            "start": -600,
+            "end": -300,
+            "label": "Sixth–fourth centuries BCE",
+            "note": "Analytical window joining an Archaic vase to Classical evidence. These phases are distinguished in the text; not a single unchanging social system.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 4,
+          "subject": "taharqo",
+          "year": -675,
+          "region": "Africa",
+          "caseInterval": {
+            "start": -690,
+            "end": -664,
+            "label": "Taharqo’s reign, c. 690–664 BCE",
+            "note": "Catalogue reign dates; the figure is attributed to this period, not one exact production year.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 5,
+          "subject": "chavin-textile",
+          "year": -300,
+          "region": "Americas",
+          "caseInterval": {
+            "start": -400,
+            "end": -200,
+            "label": "Fourth–third centuries BCE",
+            "note": "Current object catalogue dating, reflecting research cited in 2023; not the lifespan of a Chavín state.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 6,
+          "subject": "qin-administration",
+          "year": -216,
+          "region": "East Asia",
+          "caseInterval": {
+            "start": -221,
+            "end": -206,
+            "label": "Imperial Qin frame,221–206 BCE",
+            "note": "Met convention; National Palace Museum and the administrative study use 221–207 BCE. This is a period convention, not an exact date for every surviving object or document.",
+            "precision": "approximate",
+            "alternatives": [
+              {
+                "label": "221–207 BCE in the National Palace Museum label and Staack’s study; this atlas uses the Met’s 221–206 BCE convention.",
+                "citations": [
+                  {
+                    "source": "qin-measure",
+                    "locator": "Dynasty label"
+                  },
+                  {
+                    "source": "qin-practice",
+                    "locator": "Abstract period frame"
+                  }
+                ]
+              }
+            ]
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 7,
+          "subject": "dongson",
+          "year": -300,
+          "region": "Southeast Asia/Oceania",
+          "caseInterval": {
+            "start": -500,
+            "end": 300,
+            "label": "c. 500 BCE–300 CE",
+            "note": "Catalogue date of the miniature; wider drum traditions have their own chronologies.",
+            "precision": "range"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        }
+      ],
+      "dateOrder": "thematic/nonchronological",
+      "regions": [
+        "Africa",
+        "Americas",
+        "East Asia",
+        "Europe",
+        "South Asia",
+        "Southeast Asia/Oceania",
+        "West/Central Asia"
+      ],
+      "review": "Metadata inventory only. Verify transitions, evidence task, comparisons, return and reader timing before acceptance."
+    },
+    {
+      "id": "world-200",
+      "question": "At the same time—but connected how?",
+      "durationAsAuthored": "25–40 minutes, or one stop at a time",
+      "stops": [
+        {
+          "number": 1,
+          "subject": "eastern-han",
+          "year": 200,
+          "region": "East Asia",
+          "caseInterval": {
+            "start": 25,
+            "end": 220,
+            "label": "25–220 CE",
+            "note": "Eastern phase of Han rule, not the beginning or end of Chinese society.",
+            "precision": "exact"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 2,
+          "subject": "roman-world",
+          "year": 200,
+          "region": "Europe",
+          "caseInterval": {
+            "start": 193,
+            "end": 235,
+            "label": "193–235 CE",
+            "note": "Severan political period; this is not the full lifespan of Roman history.",
+            "precision": "exact"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 3,
+          "subject": "palmyra",
+          "year": 200,
+          "region": "West/Central Asia",
+          "caseInterval": {
+            "start": 100,
+            "end": 299,
+            "label": "2nd–3rd centuries CE",
+            "note": "Window of the selected funerary relief, not the city’s entire history.",
+            "precision": "range"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 4,
+          "subject": "kushan-contexts",
+          "year": 200,
+          "region": "South Asia",
+          "caseInterval": {
+            "start": 1,
+            "end": 300,
+            "label": "Early centuries CE",
+            "note": "Focus window for imperial Kushan contexts; boundaries and rulers’ chronologies are debated.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 5,
+          "subject": "aksum",
+          "year": 200,
+          "region": "Africa",
+          "caseInterval": {
+            "start": 1,
+            "end": 800,
+            "label": "1st–8th centuries CE",
+            "note": "Broad conventional flourishing in the consulted architectural essay; not exact founding and extinction.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 6,
+          "subject": "moche",
+          "year": 200,
+          "region": "Americas",
+          "caseInterval": {
+            "start": 1,
+            "end": 800,
+            "label": "1st–8th centuries CE",
+            "note": "Broad cultural flourishing; not a claim of one unchanging centralized state.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 7,
+          "subject": "dongson",
+          "year": 200,
+          "region": "Southeast Asia/Oceania",
+          "caseInterval": {
+            "start": -500,
+            "end": 300,
+            "label": "c. 500 BCE–300 CE",
+            "note": "Catalogue date of the miniature; wider drum traditions have their own chronologies.",
+            "precision": "range"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 8,
+          "subject": "colima",
+          "year": 200,
+          "region": "Americas",
+          "caseInterval": {
+            "start": -200,
+            "end": 200,
+            "label": "200 BCE–200 CE",
+            "note": "Date of the selected temple model; not a lifespan assigned to an entire people.",
+            "precision": "range"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "eastern-han"
+        }
+      ],
+      "dateOrder": "nondecreasing",
+      "regions": [
+        "Africa",
+        "Americas",
+        "East Asia",
+        "Europe",
+        "South Asia",
+        "Southeast Asia/Oceania",
+        "West/Central Asia"
+      ],
+      "review": "Metadata inventory only. Verify transitions, evidence task, comparisons, return and reader timing before acceptance."
+    },
+    {
+      "id": "institutions-images",
+      "question": "What continues when political power changes?",
+      "durationAsAuthored": "30–45 minutes",
+      "stops": [
+        {
+          "number": 1,
+          "subject": "byzantium",
+          "year": 950,
+          "region": "Europe",
+          "caseInterval": {
+            "start": 330,
+            "end": 1453,
+            "label": "Conventional frame, 330–1453 CE",
+            "note": "New capital in 330 to Ottoman capture in 1453. Constantinople was under Latin rule 1204–1261; Byzantine states continued elsewhere. Not an uninterrupted single territorial unit.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 2,
+          "subject": "abbasid-craft",
+          "year": 950,
+          "region": "West/Central Asia",
+          "caseInterval": {
+            "start": 750,
+            "end": 1258,
+            "label": "Abbasid rule in Baghdad: conventional frame, 750–1258 CE",
+            "note": "Baghdad founded 762; court at Samarra 836–892. Authority changed substantially; later nominal caliphs in Egypt are outside this frame.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 3,
+          "subject": "tang-city",
+          "year": 750,
+          "region": "East Asia",
+          "caseInterval": {
+            "start": 618,
+            "end": 907,
+            "label": "Tang dynastic frame, 618–907 CE",
+            "note": "Conventional dynasty dates; individual objects and political disruptions have their own chronology.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 4,
+          "subject": "maya-vessel",
+          "year": 750,
+          "region": "Americas",
+          "caseInterval": {
+            "start": 600,
+            "end": 800,
+            "label": "Seventh–eighth centuries CE",
+            "note": "Catalogue object range; not a lifespan for Maya peoples, who continue today.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 5,
+          "subject": "borobudur",
+          "year": 850,
+          "region": "Southeast Asia/Oceania",
+          "caseInterval": {
+            "start": 700,
+            "end": 900,
+            "label": "Built in the eighth–ninth centuries CE",
+            "note": "Broad construction frame from UNESCO, not exact building dates or the entire duration of use.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 6,
+          "subject": "nalanda",
+          "year": 850,
+          "region": "South Asia",
+          "caseInterval": {
+            "start": 400,
+            "end": 1300,
+            "label": "Monastic and scholastic institution, fifth–thirteenth centuries CE",
+            "note": "UNESCO Brief synthesis distinguishes this institution from earlier site remains reaching the third century BCE. End expressed by century, not an exact destruction year.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "borobudur"
+        }
+      ],
+      "dateOrder": "thematic/nonchronological",
+      "regions": [
+        "Americas",
+        "East Asia",
+        "Europe",
+        "South Asia",
+        "Southeast Asia/Oceania",
+        "West/Central Asia"
+      ],
+      "review": "Metadata inventory only. Verify transitions, evidence task, comparisons, return and reader timing before acceptance."
+    },
+    {
+      "id": "knowledge-networks",
+      "question": "What kinds of connection can we demonstrate?",
+      "durationAsAuthored": "30–45 minutes",
+      "stops": [
+        {
+          "number": 1,
+          "subject": "mali-networks",
+          "year": 1324,
+          "region": "Africa",
+          "caseInterval": {
+            "start": 1230,
+            "end": 1600,
+            "label": "Mali political frame, c.1230–1600 CE",
+            "note": "Broad exhibition convention; political influence and local autonomy changed. This is not an exact founding or extinction date.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 2,
+          "subject": "middle-niger",
+          "year": 1250,
+          "region": "Africa",
+          "caseInterval": {
+            "start": 1200,
+            "end": 1300,
+            "label": "Thirteenth century CE",
+            "note": "Object catalogue date; not the foundation or abandonment of the city or the lifespan of its people.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 3,
+          "subject": "angkor",
+          "year": 1200,
+          "region": "Southeast Asia/Oceania",
+          "caseInterval": {
+            "start": 800,
+            "end": 1500,
+            "label": "Successive capital landscapes, ninth–fifteenth centuries CE",
+            "note": "Broad archaeological frame, not one city plan, one reign or an exact date of universal abandonment.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 4,
+          "subject": "song-art",
+          "year": 1100,
+          "region": "East Asia",
+          "caseInterval": {
+            "start": 960,
+            "end": 1279,
+            "label": "Song dynastic frame, 960–1279 CE",
+            "note": "Northern Song 960–1127; Southern Song1127–1279. Simultaneous Liao and Jin states are distinct, not erased by this frame.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 5,
+          "subject": "inca-weaving",
+          "year": 1475,
+          "region": "Americas",
+          "caseInterval": {
+            "start": 1450,
+            "end": 1550,
+            "label": "Tunic catalogue range, 1450–1550 CE",
+            "note": "A broad object range crossing the C6/C7 boundary and Spanish conquest; not the lifespan of the Inca state.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 6,
+          "subject": "polynesian-voyaging",
+          "year": 1280,
+          "region": "Southeast Asia/Oceania",
+          "caseInterval": {
+            "start": 1250,
+            "end": 1300,
+            "label": "Settlement estimate, c.1250–1300 CE",
+            "note": "Te Ara synthesis of arrival/settlement evidence. Not an exact first landfall or the beginning/end of Māori identity.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        }
+      ],
+      "dateOrder": "thematic/nonchronological",
+      "regions": ["Africa", "Americas", "East Asia", "Southeast Asia/Oceania"],
+      "review": "Metadata inventory only. Verify transitions, evidence task, comparisons, return and reader timing before acceptance."
+    },
+    {
+      "id": "ocean-connections",
+      "question": "Who gained, who made, and who paid for ocean connections?",
+      "durationAsAuthored": "30–45 minutes, or one encounter at a time",
+      "stops": [
+        {
+          "number": 1,
+          "subject": "portuguese-voyage",
+          "year": 1498,
+          "region": "Europe",
+          "caseInterval": {
+            "start": 1497,
+            "end": 1499,
+            "label": "1497–1499 CE",
+            "note": "Dates of da Gama’s voyage in the consulted chronology; not the beginning of Indian Ocean exchange.",
+            "precision": "exact"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 2,
+          "subject": "benin-ivory",
+          "year": 1550,
+          "region": "Africa",
+          "caseInterval": {
+            "start": 1525,
+            "end": 1600,
+            "label": "c. 1525–1600 CE",
+            "note": "Catalogue date of the selected saltcellar; not the kingdom’s founding or end.",
+            "precision": "range"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 3,
+          "subject": "kongo-translation",
+          "year": 1600,
+          "region": "Africa",
+          "caseInterval": {
+            "start": 1491,
+            "end": null,
+            "label": "From the royal baptism of 1491 CE",
+            "note": "A documented starting episode for this investigation. No single terminal year is assigned to an evolving religious tradition.",
+            "precision": "exact"
+          },
+          "selectedYearWithinCase": false,
+          "comparison": null
+        },
+        {
+          "number": 4,
+          "subject": "mughal-books",
+          "year": 1595,
+          "region": "South Asia",
+          "caseInterval": {
+            "start": 1556,
+            "end": 1605,
+            "label": "1556–1605 CE",
+            "note": "Akbar’s reign; not the entire Mughal state’s lifespan.",
+            "precision": "exact"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 5,
+          "subject": "ming-workshops",
+          "year": 1550,
+          "region": "East Asia",
+          "caseInterval": {
+            "start": 1368,
+            "end": 1644,
+            "label": "1368–1644 CE",
+            "note": "Conventional Ming dynastic period. Individual works and trade routes retain their own dates.",
+            "precision": "exact"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "benin-ivory"
+        },
+        {
+          "number": 6,
+          "subject": "manila-network",
+          "year": 1600,
+          "region": "Americas",
+          "caseInterval": {
+            "start": 1565,
+            "end": 1815,
+            "label": "1565–1815 CE",
+            "note": "Historical range of the galleon trade. The C7 display clips at 1800; that is not its end.",
+            "precision": "exact"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 7,
+          "subject": "banda-1621",
+          "year": 1621,
+          "region": "Southeast Asia/Oceania",
+          "caseInterval": {
+            "start": 1621,
+            "end": 1621,
+            "label": "1621 CE",
+            "note": "The dated conquest investigated here; Bandanese history extends before and after this event.",
+            "precision": "exact"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        }
+      ],
+      "dateOrder": "thematic/nonchronological",
+      "regions": [
+        "Africa",
+        "Americas",
+        "East Asia",
+        "Europe",
+        "South Asia",
+        "Southeast Asia/Oceania"
+      ],
+      "review": "Metadata inventory only. Verify transitions, evidence task, comparisons, return and reader timing before acceptance."
+    },
+    {
+      "id": "machines-work",
+      "question": "Who shaped the conditions of work?",
+      "durationAsAuthored": "25–35 minutes",
+      "stops": [
+        {
+          "number": 1,
+          "subject": "haitian-revolution",
+          "year": 1804,
+          "region": "Americas",
+          "caseInterval": {
+            "start": 1791,
+            "end": 1804,
+            "label": "Revolutionary investigation,1791–1804",
+            "note": "Uprising to independence; not the end of the consequences of slavery or colonial power.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 2,
+          "subject": "factory-reform",
+          "year": 1836,
+          "region": "Europe",
+          "caseInterval": {
+            "start": 1833,
+            "end": 1836,
+            "label": "Act in 1833; inspector evidence in 1836",
+            "note": "Selected law-and-enforcement investigation, not the beginning/end of industrialization or child labor.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 3,
+          "subject": "tomioka",
+          "year": 1872,
+          "region": "East Asia",
+          "caseInterval": {
+            "start": 1872,
+            "end": 1872,
+            "label": "Model mill opened October 1872",
+            "note": "Opening event; the mill and associated techniques continued afterward. This is not an endpoint for Japanese industrialization.",
+            "precision": "exact"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 4,
+          "subject": "hine-labor",
+          "year": 1908,
+          "region": "Americas",
+          "caseInterval": {
+            "start": 1908,
+            "end": 1908,
+            "label": "3 December 1908",
+            "note": "Date of photograph and caption; not a known birth date, age or whole working life.",
+            "precision": "exact"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "factory-reform"
+        }
+      ],
+      "dateOrder": "nondecreasing",
+      "regions": ["Americas", "East Asia", "Europe"],
+      "review": "Metadata inventory only. Verify transitions, evidence task, comparisons, return and reader timing before acceptance."
+    },
+    {
+      "id": "promises-rights",
+      "question": "Who understood, shaped and benefited from political change?",
+      "durationAsAuthored": "25–40 minutes",
+      "stops": [
+        {
+          "number": 1,
+          "subject": "tiriti",
+          "year": 1840,
+          "region": "Southeast Asia/Oceania",
+          "caseInterval": {
+            "start": 1840,
+            "end": 1840,
+            "label": "Initial signing6 February 1840; further signings through 1840",
+            "note": "Document/signing chronology, not the beginning or end of Māori identity or agreement on every later interpretation.",
+            "precision": "exact"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 2,
+          "subject": "partition-1947",
+          "year": 1947,
+          "region": "South Asia",
+          "caseInterval": {
+            "start": 1947,
+            "end": 1947,
+            "label": "Independence and partition, August 1947",
+            "note": "Selected transition; neither national identity nor displacement began and ended in one month.",
+            "precision": "exact"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 3,
+          "subject": "south-africa-rights",
+          "year": 1996,
+          "region": "Africa",
+          "caseInterval": {
+            "start": 1994,
+            "end": 1997,
+            "label": "Democratic transition and final constitution,1994–1997",
+            "note": "Selected transition:1996 signing and 1997 commencement are distinct. Not the end of every inequality or of the work of implementation.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "tiriti"
+        }
+      ],
+      "dateOrder": "nondecreasing",
+      "regions": ["Africa", "South Asia", "Southeast Asia/Oceania"],
+      "review": "Metadata inventory only. Verify transitions, evidence task, comparisons, return and reader timing before acceptance."
+    },
+    {
+      "id": "war-signals",
+      "question": "How do decisions and institutions connect large events to individual lives?",
+      "durationAsAuthored": "25–40 minutes",
+      "stops": [
+        {
+          "number": 1,
+          "subject": "world-war-one",
+          "year": 1917,
+          "region": "Europe",
+          "caseInterval": {
+            "start": 1914,
+            "end": 1918,
+            "label": "Conventional war frame,1914–1918",
+            "note": "Major-war frame; regional fighting and political consequences did not all start or stop on the same day.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 2,
+          "subject": "world-war-two",
+          "year": 1942,
+          "region": "Europe",
+          "caseInterval": {
+            "start": 1933,
+            "end": 1945,
+            "label": "Persecution1933–1945; wider war contexts1937/1939–1945",
+            "note": "Holocaust frame differs from war chronology: Japanese expansion inChina precedes European war in 1939. Not a single universal start for all regions.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 3,
+          "subject": "sputnik",
+          "year": 1957,
+          "region": "West/Central Asia",
+          "caseInterval": {
+            "start": 1957,
+            "end": 1957,
+            "label": "Sputnik 1 launched4 October 1957",
+            "note": "Launch date, not the whole satellite lifetime, Cold War or history of spaceflight.",
+            "precision": "exact"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        }
+      ],
+      "dateOrder": "nondecreasing",
+      "regions": ["Europe", "West/Central Asia"],
+      "review": "Metadata inventory only. Verify transitions, evidence task, comparisons, return and reader timing before acceptance."
+    },
+    {
+      "id": "north-american-communities",
+      "question": "How can we investigate community life without making every monument into the same kind of state?",
+      "durationAsAuthored": "25–40 minutes",
+      "stops": [
+        {
+          "number": 1,
+          "subject": "poverty-point",
+          "year": -1500,
+          "region": "Americas",
+          "caseInterval": {
+            "start": -1700,
+            "end": -1100,
+            "label": "Main earthwork complex, c. 1700–1100 BCE",
+            "note": "Main-site construction/use frame from NPS and Louisiana. The wider Poverty Point archaeological tradition has broader dates; these are not the lifespan of an Indigenous people.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 2,
+          "subject": "hopewell-earthworks",
+          "year": 200,
+          "region": "Americas",
+          "caseInterval": {
+            "start": 1,
+            "end": 400,
+            "label": "Selected Ohio ceremonial networks, c. 1–400 CE",
+            "note": "NPS focus for these earthworks. Hopewell is an archaeological network label; the bounds do not date the existence of every related community.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 3,
+          "subject": "chaco-communities",
+          "year": 1100,
+          "region": "Americas",
+          "caseInterval": {
+            "start": 850,
+            "end": 1250,
+            "label": "Selected Chaco regional context, c. 850–1250 CE",
+            "note": "Regional frame. Pueblo Bonito construction c850–1150 and changes in the 1100s/1200s are distinct; this endpoint does not end Pueblo peoples or their ties to Chaco.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 4,
+          "subject": "cahokia-city",
+          "year": 1150,
+          "region": "Americas",
+          "caseInterval": {
+            "start": 1050,
+            "end": 1400,
+            "label": "Selected urban context, c. 1050–1400 CE",
+            "note": "Urban investigation frame used in the 2020 study; UNESCO describes broader occupation from c800 and an urban peak c1050–1150. The boundary does not assert that Indigenous life ended here.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "chaco-communities"
+        }
+      ],
+      "dateOrder": "nondecreasing",
+      "regions": ["Americas"],
+      "review": "Metadata inventory only. Verify transitions, evidence task, comparisons, return and reader timing before acceptance."
+    },
+    {
+      "id": "west-central-workshops",
+      "question": "How did makers and urban communities work within—and beyond—courtly power?",
+      "durationAsAuthored": "25–40 minutes",
+      "stops": [
+        {
+          "number": 1,
+          "subject": "bukhara-books",
+          "year": 1530,
+          "region": "West/Central Asia",
+          "caseInterval": {
+            "start": 1500,
+            "end": 1785,
+            "label": "Selected Shaibanid and Janid urban contexts, c. 1500–1785",
+            "note": "Investigation spans the two periods described in the archaeological source, not the founding or end of Bukhara. Individual buildings and manuscript stages have their own dates.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 2,
+          "subject": "ottoman-workshops",
+          "year": 1580,
+          "region": "West/Central Asia",
+          "caseInterval": {
+            "start": 1500,
+            "end": 1755,
+            "label": "Selected Ottoman art and urban contexts, c. 1500–1755",
+            "note": "A bounded investigation of sixteenth-century work, seventeenth-century markets and eighteenth-century building, ending with the cited 1748–55 mosque example. These are not the Ottoman Empire’s founding or dissolution dates.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 3,
+          "subject": "isfahan-silk",
+          "year": 1630,
+          "region": "West/Central Asia",
+          "caseInterval": {
+            "start": 1598,
+            "end": 1722,
+            "label": "Selected Safavid capital phase, 1597–98 to 1722",
+            "note": "Start follows the conventional 1597–98 capital transfer, plotted at 1598. The endpoint marks the selected capital phase, not Isfahan’s existence or every later Safavid dynastic claim.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "ottoman-workshops"
+        },
+        {
+          "number": 4,
+          "subject": "zand-iran",
+          "year": 1789,
+          "region": "West/Central Asia",
+          "caseInterval": {
+            "start": 1751,
+            "end": 1794,
+            "label": "Selected Zand political and material contexts, 1751–1794",
+            "note": "Dynastic convention follows Perry. Karim Khan’s residence in Shiraz from 1765–1779 is narrower; the 1789 case belongs after his death and is not assigned to his personal use.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "isfahan-silk"
+        }
+      ],
+      "dateOrder": "nondecreasing",
+      "regions": ["West/Central Asia"],
+      "review": "Metadata inventory only. Verify transitions, evidence task, comparisons, return and reader timing before acceptance."
+    },
+    {
+      "id": "northern-knowledge",
+      "question": "How do different communities sustain life and pass on knowledge?",
+      "durationAsAuthored": "35–50 minutes",
+      "stops": [
+        {
+          "number": 1,
+          "subject": "bering-sea-carvers",
+          "year": 400,
+          "region": "Americas",
+          "caseInterval": {
+            "start": 300,
+            "end": 500,
+            "label": "Catalogue object date, 300–500 CE; regional chronology debated",
+            "note": "Dates follow the current Met object record 2019.456.17. They do not define the Old Bering Sea tradition’s beginning/end. Mason and Rasic propose a later regional florescence; no new radiocarbon date for this individual object is supplied.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 2,
+          "subject": "ozette-makah",
+          "year": 1700,
+          "region": "Americas",
+          "caseInterval": {
+            "start": 1560,
+            "end": 1700,
+            "label": "Reported house-burial estimates: c. 1560 or 1700; disputed",
+            "note": "Bounds describe differing published estimates for burial of houses, not the village’s occupation or a 140-year-long slide. SAH lists 1560/1700; WSU discusses 1700 as likely; the Makah museum reports 500±50 BP radiocarbon age, which is not silently converted to a calendar year.",
+            "precision": "disputed",
+            "alternatives": [
+              {
+                "label": "SAH reports 1560 or 1700 CE burial estimates; neither is village occupation.",
+                "citations": [
+                  {
+                    "source": "ozette-architecture",
+                    "locator": "Mudslide dating paragraph"
+                  }
+                ]
+              },
+              {
+                "label": "Makah museum reports 500±50 BP radiocarbon age; WSU discusses likely 1700 correlation. These have different methods/scopes.",
+                "citations": [
+                  {
+                    "source": "ozette-museum",
+                    "locator": "Reported radiocarbon age"
+                  },
+                  {
+                    "source": "ozette-wsu",
+                    "locator": "Likely 1700 event interpretation"
+                  }
+                ]
+              }
+            ]
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 3,
+          "subject": "blackfoot-bison",
+          "year": 1750,
+          "region": "Americas",
+          "caseInterval": {
+            "start": 1700,
+            "end": 1850,
+            "label": "Selected later hunting context, c. 1700–1850",
+            "note": "A bounded historical investigation, not the beginning of bison hunting or the site’s full chronology. UNESCO describes approximately 5800 BP to 1850 CE use with a lengthy hiatus. Earlier layers and later Blackfoot community histories are not compressed into these bounds.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 4,
+          "subject": "hidatsa-villages",
+          "year": 1780,
+          "region": "Americas",
+          "caseInterval": {
+            "start": 1600,
+            "end": 1845,
+            "label": "Big Hidatsa village occupation, c. 1600–1845",
+            "note": "NPS’s selected village frame. 1845 marks relocation to Like-a-Fishhook, not the end of Hidatsa people, gardening or earthlodge knowledge. Other Knife River villages have their own different starting dates.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "ozette-makah"
+        },
+        {
+          "number": 5,
+          "subject": "inuinnait-sewing",
+          "year": 1915,
+          "region": "Americas",
+          "caseInterval": {
+            "start": 1913,
+            "end": 1916,
+            "label": "Selected expedition context, 1913–1916",
+            "note": "This is the Southern Party observation window named in Jenness’s 1922 report, not the lifespan of Inuinnait clothing or peoples. The photograph is individually undated and was published in 1922. Later community research interprets this history without extending the selected interval.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 6,
+          "subject": "kwakwakawakw-potlatch",
+          "year": 1980,
+          "region": "Americas",
+          "caseInterval": {
+            "start": 1884,
+            "end": 1980,
+            "label": "Selected legislation and cultural-center history, 1884–1980",
+            "note": "The 1884 legislation, effective in 1885, and 1980 opening of U’mista frame this inquiry, not the existence of potlatch or the end of return efforts. Prohibition was removed in 1951; practices continued during it. Later returns are not projected backward into 1980.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "inuinnait-sewing"
+        }
+      ],
+      "dateOrder": "nondecreasing",
+      "regions": ["Americas"],
+      "review": "Metadata inventory only. Verify transitions, evidence task, comparisons, return and reader timing before acceptance."
+    },
+    {
+      "id": "eastern-woodlands",
+      "question": "How do places, food and records help people sustain a community?",
+      "durationAsAuthored": "35–50 minutes",
+      "stops": [
+        {
+          "number": 1,
+          "subject": "ocmulgee-council",
+          "year": 1200,
+          "region": "Americas",
+          "caseInterval": {
+            "start": null,
+            "end": null,
+            "label": "Earthlodge construction chronology under revision",
+            "note": "No settled construction/use endpoints are plotted. The older 1015 label is a median of early radiocarbon determinations; newer roof-wood evidence indicates cutting sometime after c.1160 and leaves possible earlier construction unresolved. Neither observation dates the lifespan of Muscogee people or the whole Ocmulgee site.",
+            "precision": "disputed",
+            "alternatives": [
+              {
+                "label": "NPS retains 1015, an older median date; this is not a directly observed construction year.",
+                "citations": [
+                  {
+                    "source": "ocmu-earthlodge",
+                    "locator": "Older date label"
+                  },
+                  {
+                    "source": "ocmu-chronology",
+                    "locator": "Discussion: older median"
+                  }
+                ]
+              },
+              {
+                "label": "New roof-wood evidence indicates cutting sometime after c.1160; possible earlier construction remains unresolved.",
+                "citations": [
+                  {
+                    "source": "ocmu-chronology",
+                    "locator": "Earthlodge results and discussion"
+                  }
+                ]
+              }
+            ]
+          },
+          "selectedYearWithinCase": false,
+          "comparison": null
+        },
+        {
+          "number": 2,
+          "subject": "hopewell-earthworks",
+          "year": 200,
+          "region": "Americas",
+          "caseInterval": {
+            "start": 1,
+            "end": 400,
+            "label": "Selected Ohio ceremonial networks, c. 1–400 CE",
+            "note": "NPS focus for these earthworks. Hopewell is an archaeological network label; the bounds do not date the existence of every related community.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 3,
+          "subject": "wendat-laine",
+          "year": 1600,
+          "region": "Americas",
+          "caseInterval": {
+            "start": 1595,
+            "end": 1626,
+            "label": "Preferred modeled village range, c.1595–1626 CE",
+            "note": "Manning and Birch 2022 prefer a model around 1600 over the older c.1500–1530 estimate. These bounds summarize a model, not directly observed foundation and abandonment years. The article describes probability ranges differently in its abstract/body; no single confidence percentage is asserted here.",
+            "precision": "range",
+            "alternatives": [
+              {
+                "label": "Earlier c.1500–1530 attribution relied partly on material styles and scarce European goods; the 2022 analysis prefers a later model.",
+                "citations": [
+                  {
+                    "source": "laine-chronology",
+                    "locator": "Introduction and Conclusions"
+                  }
+                ]
+              }
+            ]
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "ocmulgee-council"
+        },
+        {
+          "number": 4,
+          "subject": "haudenosaunee-canandaigua",
+          "year": 1794,
+          "region": "Americas",
+          "caseInterval": {
+            "start": 1794,
+            "end": 1795,
+            "label": "Treaty signed 11 November 1794; U.S. ratification 21 January 1795",
+            "note": "The bounds connect two documented actions, not the founding or ending of the Haudenosaunee or the duration of the promises. Treaty text, ratification instrument and later community interpretation have distinct dates and roles.",
+            "precision": "exact"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 5,
+          "subject": "cherokee-print",
+          "year": 1828,
+          "region": "Americas",
+          "caseInterval": {
+            "start": 1821,
+            "end": 1839,
+            "label": "Selected language/printing/removal inquiry, 1821–1839",
+            "note": "Sequoyah’s syllabary, newspaper publication and political reorganization frame the inquiry. The April 1828 image is not the February first issue. Forced removal from 1838 and the 1839 constitution do not mark the end of Cherokee people, language or printing.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "haudenosaunee-canandaigua"
+        },
+        {
+          "number": 6,
+          "subject": "ojibwe-manoomin",
+          "year": 1913,
+          "region": "Americas",
+          "caseInterval": {
+            "start": 1913,
+            "end": 1913,
+            "label": "Archival photograph catalogued [1913]; a longer-lived practice",
+            "note": "The bracketed catalogue date anchors one document, not the origin or endpoint of manoomin harvesting. Later Ojibwe accounts interpret work, knowledge and continuity; they are not transcripts of the pictured person’s words.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        }
+      ],
+      "dateOrder": "thematic/nonchronological",
+      "regions": ["Americas"],
+      "review": "Metadata inventory only. Verify transitions, evidence task, comparisons, return and reader timing before acceptance."
+    },
+    {
+      "id": "independence-citizenship",
+      "question": "What changes on a political turning point—and what still has to be built?",
+      "durationAsAuthored": "35–50 minutes",
+      "stops": [
+        {
+          "number": 1,
+          "subject": "indonesia-independence",
+          "year": 1945,
+          "region": "Southeast Asia/Oceania",
+          "caseInterval": {
+            "start": 1945,
+            "end": 1950,
+            "label": "Proclamation in 1945; federal settlement in 1949; unitary state in 1950",
+            "note": "Selected revolution and constitutional transition, not the entire history of Indonesian nationalism or the end of all territorial disputes.",
+            "precision": "range"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "ghana-independence"
+        },
+        {
+          "number": 2,
+          "subject": "partition-1947",
+          "year": 1947,
+          "region": "South Asia",
+          "caseInterval": {
+            "start": 1947,
+            "end": 1947,
+            "label": "Independence and partition, August 1947",
+            "note": "Selected transition; neither national identity nor displacement began and ended in one month.",
+            "precision": "exact"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 3,
+          "subject": "ghana-independence",
+          "year": 1957,
+          "region": "Africa",
+          "caseInterval": {
+            "start": 1948,
+            "end": 1960,
+            "label": "Political mobilization, 1948–1957; republic in 1960",
+            "note": "Selected route to independence and early constitutional choices. Earlier resistance and later Ghanaian history extend beyond this inquiry.",
+            "precision": "range"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "indonesia-independence"
+        },
+        {
+          "number": 4,
+          "subject": "south-africa-rights",
+          "year": 1996,
+          "region": "Africa",
+          "caseInterval": {
+            "start": 1994,
+            "end": 1997,
+            "label": "Democratic transition and final constitution,1994–1997",
+            "note": "Selected transition:1996 signing and 1997 commencement are distinct. Not the end of every inequality or of the work of implementation.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "ghana-independence"
+        }
+      ],
+      "dateOrder": "nondecreasing",
+      "regions": ["Africa", "South Asia", "Southeast Asia/Oceania"],
+      "review": "Metadata inventory only. Verify transitions, evidence task, comparisons, return and reader timing before acceptance."
+    },
+    {
+      "id": "cities-work-water",
+      "question": "What evidence connects everyday work with a city’s organization?",
+      "durationAsAuthored": "About 20–30 minutes",
+      "stops": [
+        {
+          "number": 1,
+          "subject": "uruk-accounts",
+          "year": -3000,
+          "region": "West/Central Asia",
+          "caseInterval": {
+            "start": -3100,
+            "end": -2900,
+            "label": "c. 3100–2900 BCE",
+            "note": "Date of the selected administrative tablet, not the beginning or end of Uruk.",
+            "precision": "range"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "dholavira"
+        },
+        {
+          "number": 2,
+          "subject": "dholavira",
+          "year": -2400,
+          "region": "South Asia",
+          "caseInterval": {
+            "start": -3000,
+            "end": -1500,
+            "label": "c. 3000–1500 BCE",
+            "note": "Occupation range in the UNESCO site account; mature urban phases and individual objects have narrower dates.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "liangzhu"
+        },
+        {
+          "number": 3,
+          "subject": "liangzhu",
+          "year": -2800,
+          "region": "East Asia",
+          "caseInterval": {
+            "start": -3300,
+            "end": -2300,
+            "label": "c. 3300–2300 BCE",
+            "note": "UNESCO’s city/site range. The Met’s broader Liangzhu culture label c3200–2000 BCE has a different scope.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "uruk-accounts"
+        }
+      ],
+      "dateOrder": "thematic/nonchronological",
+      "regions": ["East Asia", "South Asia", "West/Central Asia"],
+      "review": "Metadata inventory only. Verify transitions, evidence task, comparisons, return and reader timing before acceptance."
+    },
+    {
+      "id": "institutions-shipment-ritual",
+      "question": "How far can a record take us from materials to people?",
+      "durationAsAuthored": "About 20–30 minutes",
+      "stops": [
+        {
+          "number": 1,
+          "subject": "uluburun",
+          "year": -1320,
+          "region": "West/Central Asia",
+          "caseInterval": {
+            "start": -1335,
+            "end": -1305,
+            "label": "c. 1320 BCE ±15 years",
+            "note": "Dating reported by the excavators’ project page; not an exact sailing or sinking year.",
+            "precision": "range"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "hattusha-change"
+        },
+        {
+          "number": 2,
+          "subject": "hattusha-change",
+          "year": -1200,
+          "region": "West/Central Asia",
+          "caseInterval": {
+            "start": -1300,
+            "end": -1200,
+            "label": "13th century BCE, approaching c. 1200",
+            "note": "Investigation window for the late capital and political transformation; not the city’s entire occupation or an exact destruction year.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "uluburun"
+        },
+        {
+          "number": 3,
+          "subject": "shang-ritual",
+          "year": -1200,
+          "region": "East Asia",
+          "caseInterval": {
+            "start": -1600,
+            "end": -1046,
+            "label": "c. 1600–1046 BCE",
+            "note": "Conventional Shang period in the current museum sources; individual objects can have narrower dates.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "uluburun"
+        }
+      ],
+      "dateOrder": "nondecreasing",
+      "regions": ["East Asia", "West/Central Asia"],
+      "review": "Metadata inventory only. Verify transitions, evidence task, comparisons, return and reader timing before acceptance."
+    },
+    {
+      "id": "rules-messages-public-work",
+      "question": "Who carried a rule into everyday life?",
+      "durationAsAuthored": "About 20–30 minutes",
+      "stops": [
+        {
+          "number": 1,
+          "subject": "qin-administration",
+          "year": -216,
+          "region": "East Asia",
+          "caseInterval": {
+            "start": -221,
+            "end": -206,
+            "label": "Imperial Qin frame,221–206 BCE",
+            "note": "Met convention; National Palace Museum and the administrative study use 221–207 BCE. This is a period convention, not an exact date for every surviving object or document.",
+            "precision": "approximate",
+            "alternatives": [
+              {
+                "label": "221–207 BCE in the National Palace Museum label and Staack’s study; this atlas uses the Met’s 221–206 BCE convention.",
+                "citations": [
+                  {
+                    "source": "qin-measure",
+                    "locator": "Dynasty label"
+                  },
+                  {
+                    "source": "qin-practice",
+                    "locator": "Abstract period frame"
+                  }
+                ]
+              }
+            ]
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "ashoka-messages"
+        },
+        {
+          "number": 2,
+          "subject": "ashoka-messages",
+          "year": -250,
+          "region": "South Asia",
+          "caseInterval": {
+            "start": -268,
+            "end": -232,
+            "label": "Ashoka, c. 268–232 BCE",
+            "note": "Reign convention used by Neelis. Other chronologies place accession earlier; not exact dates for every edict.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "qin-administration"
+        },
+        {
+          "number": 3,
+          "subject": "athens-water",
+          "year": -430,
+          "region": "Europe",
+          "caseInterval": {
+            "start": -600,
+            "end": -300,
+            "label": "Sixth–fourth centuries BCE",
+            "note": "Analytical window joining an Archaic vase to Classical evidence. These phases are distinguished in the text; not a single unchanging social system.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "qin-administration"
+        }
+      ],
+      "dateOrder": "thematic/nonchronological",
+      "regions": ["East Asia", "Europe", "South Asia"],
+      "review": "Metadata inventory only. Verify transitions, evidence task, comparisons, return and reader timing before acceptance."
+    },
+    {
+      "id": "objects-work-exchange",
+      "question": "What turns an object into evidence of a connection?",
+      "durationAsAuthored": "About 20–30 minutes",
+      "stops": [
+        {
+          "number": 1,
+          "subject": "palmyra",
+          "year": 200,
+          "region": "West/Central Asia",
+          "caseInterval": {
+            "start": 100,
+            "end": 299,
+            "label": "2nd–3rd centuries CE",
+            "note": "Window of the selected funerary relief, not the city’s entire history.",
+            "precision": "range"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 2,
+          "subject": "kushan-contexts",
+          "year": 159,
+          "region": "South Asia",
+          "caseInterval": {
+            "start": 1,
+            "end": 300,
+            "label": "Early centuries CE",
+            "note": "Focus window for imperial Kushan contexts; boundaries and rulers’ chronologies are debated.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 3,
+          "subject": "aksum",
+          "year": 600,
+          "region": "Africa",
+          "caseInterval": {
+            "start": 1,
+            "end": 800,
+            "label": "1st–8th centuries CE",
+            "note": "Broad conventional flourishing in the consulted architectural essay; not exact founding and extinction.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "kushan-contexts"
+        }
+      ],
+      "dateOrder": "thematic/nonchronological",
+      "regions": ["Africa", "South Asia", "West/Central Asia"],
+      "review": "Metadata inventory only. Verify transitions, evidence task, comparisons, return and reader timing before acceptance."
+    },
+    {
+      "id": "spaces-skills-learning",
+      "question": "How do institutions organize access and everyday work?",
+      "durationAsAuthored": "About 20–30 minutes",
+      "stops": [
+        {
+          "number": 1,
+          "subject": "tang-city",
+          "year": 700,
+          "region": "East Asia",
+          "caseInterval": {
+            "start": 618,
+            "end": 907,
+            "label": "Tang dynastic frame, 618–907 CE",
+            "note": "Conventional dynasty dates; individual objects and political disruptions have their own chronology.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 2,
+          "subject": "abbasid-craft",
+          "year": 950,
+          "region": "West/Central Asia",
+          "caseInterval": {
+            "start": 750,
+            "end": 1258,
+            "label": "Abbasid rule in Baghdad: conventional frame, 750–1258 CE",
+            "note": "Baghdad founded 762; court at Samarra 836–892. Authority changed substantially; later nominal caliphs in Egypt are outside this frame.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "tang-city"
+        },
+        {
+          "number": 3,
+          "subject": "nalanda",
+          "year": 680,
+          "region": "South Asia",
+          "caseInterval": {
+            "start": 400,
+            "end": 1300,
+            "label": "Monastic and scholastic institution, fifth–thirteenth centuries CE",
+            "note": "UNESCO Brief synthesis distinguishes this institution from earlier site remains reaching the third century BCE. End expressed by century, not an exact destruction year.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "abbasid-craft"
+        }
+      ],
+      "dateOrder": "thematic/nonchronological",
+      "regions": ["East Asia", "South Asia", "West/Central Asia"],
+      "review": "Metadata inventory only. Verify transitions, evidence task, comparisons, return and reader timing before acceptance."
+    },
+    {
+      "id": "work-obligation-voices",
+      "question": "Who supplied the work, and who gets to describe its benefits?",
+      "durationAsAuthored": "About 20–30 minutes",
+      "stops": [
+        {
+          "number": 1,
+          "subject": "song-art",
+          "year": 1069,
+          "region": "East Asia",
+          "caseInterval": {
+            "start": 960,
+            "end": 1279,
+            "label": "Song dynastic frame, 960–1279 CE",
+            "note": "Northern Song 960–1127; Southern Song1127–1279. Simultaneous Liao and Jin states are distinct, not erased by this frame.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 2,
+          "subject": "mali-networks",
+          "year": 1375,
+          "region": "Africa",
+          "caseInterval": {
+            "start": 1230,
+            "end": 1600,
+            "label": "Mali political frame, c.1230–1600 CE",
+            "note": "Broad exhibition convention; political influence and local autonomy changed. This is not an exact founding or extinction date.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "song-art"
+        },
+        {
+          "number": 3,
+          "subject": "inca-weaving",
+          "year": 1500,
+          "region": "Americas",
+          "caseInterval": {
+            "start": 1450,
+            "end": 1550,
+            "label": "Tunic catalogue range, 1450–1550 CE",
+            "note": "A broad object range crossing the C6/C7 boundary and Spanish conquest; not the lifespan of the Inca state.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "mali-networks"
+        }
+      ],
+      "dateOrder": "nondecreasing",
+      "regions": ["Africa", "Americas", "East Asia"],
+      "review": "Metadata inventory only. Verify transitions, evidence task, comparisons, return and reader timing before acceptance."
+    },
+    {
+      "id": "makers-interpreters-encounters",
+      "question": "Whose knowledge made an encounter possible, and who could choose?",
+      "durationAsAuthored": "About 20–30 minutes",
+      "stops": [
+        {
+          "number": 1,
+          "subject": "portuguese-voyage",
+          "year": 1498,
+          "region": "Europe",
+          "caseInterval": {
+            "start": 1497,
+            "end": 1499,
+            "label": "1497–1499 CE",
+            "note": "Dates of da Gama’s voyage in the consulted chronology; not the beginning of Indian Ocean exchange.",
+            "precision": "exact"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 2,
+          "subject": "benin-ivory",
+          "year": 1550,
+          "region": "Africa",
+          "caseInterval": {
+            "start": 1525,
+            "end": 1600,
+            "label": "c. 1525–1600 CE",
+            "note": "Catalogue date of the selected saltcellar; not the kingdom’s founding or end.",
+            "precision": "range"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "portuguese-voyage"
+        },
+        {
+          "number": 3,
+          "subject": "kongo-translation",
+          "year": 1624,
+          "region": "Africa",
+          "caseInterval": {
+            "start": 1491,
+            "end": null,
+            "label": "From the royal baptism of 1491 CE",
+            "note": "A documented starting episode for this investigation. No single terminal year is assigned to an evolving religious tradition.",
+            "precision": "exact"
+          },
+          "selectedYearWithinCase": false,
+          "comparison": "portuguese-voyage"
+        }
+      ],
+      "dateOrder": "nondecreasing",
+      "regions": ["Africa", "Europe"],
+      "review": "Metadata inventory only. Verify transitions, evidence task, comparisons, return and reader timing before acceptance."
+    },
+    {
+      "id": "homes-provision-renewal",
+      "question": "What recurring work kept a place usable, and which records reveal it?",
+      "durationAsAuthored": "30–40 minutes",
+      "stops": [
+        {
+          "number": 1,
+          "subject": "old-kingdom",
+          "year": -2450,
+          "region": "Africa",
+          "caseInterval": {
+            "start": -2649,
+            "end": -2130,
+            "label": "c. 2649–2130 BCE",
+            "note": "Approximate period convention in the current 2019 essay, whose URL retains an older endpoint.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 2,
+          "subject": "caral",
+          "year": -2400,
+          "region": "Americas",
+          "caseInterval": {
+            "start": -3000,
+            "end": -1800,
+            "label": "c. 3000–1800 BCE",
+            "note": "UNESCO’s radiocarbon-based development range is followed. A current Peruvian government orientation gives 3000–1900 BCE; different endpoints are retained.",
+            "precision": "disputed",
+            "alternatives": [
+              {
+                "label": "3000–1900 BCE in the Peruvian government orientation",
+                "citations": [
+                  {
+                    "source": "caral-peru",
+                    "locator": "Opening orientation"
+                  }
+                ]
+              }
+            ]
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "old-kingdom"
+        },
+        {
+          "number": 3,
+          "subject": "skara-brae",
+          "year": -2800,
+          "region": "Europe",
+          "caseInterval": {
+            "start": -3180,
+            "end": -2500,
+            "label": "c. 3180–2500 BCE",
+            "note": "Structured date in HES’s selected tool record gives the contextual range. Its narrative instead says 3100–2400; house-history page places the end around 2500. Boundaries are approximate.",
+            "precision": "disputed"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "caral"
+        }
+      ],
+      "dateOrder": "thematic/nonchronological",
+      "regions": ["Africa", "Americas", "Europe"],
+      "review": "Metadata inventory only. Verify transitions, evidence task, comparisons, return and reader timing before acceptance."
+    },
+    {
+      "id": "clay-work-local-histories",
+      "question": "How can clay reveal practical work and connections?",
+      "durationAsAuthored": "30–40 minutes",
+      "stops": [
+        {
+          "number": 1,
+          "subject": "poverty-point",
+          "year": -1400,
+          "region": "Americas",
+          "caseInterval": {
+            "start": -1700,
+            "end": -1100,
+            "label": "Main earthwork complex, c. 1700–1100 BCE",
+            "note": "Main-site construction/use frame from NPS and Louisiana. The wider Poverty Point archaeological tradition has broader dates; these are not the lifespan of an Indigenous people.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 2,
+          "subject": "olmec",
+          "year": -1000,
+          "region": "Americas",
+          "caseInterval": {
+            "start": -1200,
+            "end": -400,
+            "label": "c. 1200–400 BCE",
+            "note": "Cultural and artistic flourishing frame in Doyle’s essay; not one kingdom’s precise lifespan.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "poverty-point"
+        },
+        {
+          "number": 3,
+          "subject": "lapita",
+          "year": -900,
+          "region": "Southeast Asia/Oceania",
+          "caseInterval": {
+            "start": -1500,
+            "end": -500,
+            "label": "c. 1500–500 BCE",
+            "note": "Broad pottery-style frame in the museum essay; regional settlement and later histories have different dates.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": "poverty-point"
+        }
+      ],
+      "dateOrder": "nondecreasing",
+      "regions": ["Americas", "Southeast Asia/Oceania"],
+      "review": "Metadata inventory only. Verify transitions, evidence task, comparisons, return and reader timing before acceptance."
+    },
+    {
+      "id": "makers-supplies-royal-claims",
+      "question": "Who made and supplied things for powerful places?",
+      "durationAsAuthored": "20–30 minutes",
+      "stops": [
+        {
+          "number": 1,
+          "subject": "kerma-potters",
+          "year": -1800,
+          "region": "Africa",
+          "caseInterval": {
+            "start": -2050,
+            "end": -1500,
+            "label": "c. 2050–1500 BCE",
+            "note": "Middle and Classical Kerma frame in the regional chronology; not the full history of Nubia.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 2,
+          "subject": "nimrud-palace",
+          "year": -870,
+          "region": "West/Central Asia",
+          "caseInterval": {
+            "start": -883,
+            "end": -859,
+            "label": "Reign of Ashurnasirpal II, 883–859 BCE",
+            "note": "Selected palace-building and representational context; not the full duration of Assyria or Nimrud.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 3,
+          "subject": "taharqo",
+          "year": -675,
+          "region": "Africa",
+          "caseInterval": {
+            "start": -690,
+            "end": -664,
+            "label": "Taharqo’s reign, c. 690–664 BCE",
+            "note": "Catalogue reign dates; the figure is attributed to this period, not one exact production year.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        }
+      ],
+      "dateOrder": "nondecreasing",
+      "regions": ["Africa", "West/Central Asia"],
+      "review": "Metadata inventory only. Verify transitions, evidence task, comparisons, return and reader timing before acceptance."
+    },
+    {
+      "id": "images-spaces-work",
+      "question": "How can objects and excavated spaces explain people’s work?",
+      "durationAsAuthored": "20–30 minutes",
+      "stops": [
+        {
+          "number": 1,
+          "subject": "chavin-textile",
+          "year": -300,
+          "region": "Americas",
+          "caseInterval": {
+            "start": -400,
+            "end": -200,
+            "label": "Fourth–third centuries BCE",
+            "note": "Current object catalogue dating, reflecting research cited in 2023; not the lifespan of a Chavín state.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 2,
+          "subject": "teotihuacan",
+          "year": 400,
+          "region": "Americas",
+          "caseInterval": {
+            "start": -100,
+            "end": 800,
+            "label": "c. 100 BCE–800 CE",
+            "note": "Broad city chronology in Barnes’s essay; buildings and population changed within it.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 3,
+          "subject": "moche",
+          "year": 400,
+          "region": "Americas",
+          "caseInterval": {
+            "start": 1,
+            "end": 800,
+            "label": "1st–8th centuries CE",
+            "note": "Broad cultural flourishing; not a claim of one unchanging centralized state.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        }
+      ],
+      "dateOrder": "nondecreasing",
+      "regions": ["Americas"],
+      "review": "Metadata inventory only. Verify transitions, evidence task, comparisons, return and reader timing before acceptance."
+    },
+    {
+      "id": "objects-places-associations",
+      "question": "How does a documented place change what an object can tell us?",
+      "durationAsAuthored": "20–30 minutes",
+      "stops": [
+        {
+          "number": 1,
+          "subject": "dongson",
+          "year": -200,
+          "region": "Southeast Asia/Oceania",
+          "caseInterval": {
+            "start": -500,
+            "end": 300,
+            "label": "c. 500 BCE–300 CE",
+            "note": "Catalogue date of the miniature; wider drum traditions have their own chronologies.",
+            "precision": "range"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 2,
+          "subject": "colima",
+          "year": 1,
+          "region": "Americas",
+          "caseInterval": {
+            "start": -200,
+            "end": 200,
+            "label": "200 BCE–200 CE",
+            "note": "Date of the selected temple model; not a lifespan assigned to an entire people.",
+            "precision": "range"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 3,
+          "subject": "hopewell-earthworks",
+          "year": 300,
+          "region": "Americas",
+          "caseInterval": {
+            "start": 1,
+            "end": 400,
+            "label": "Selected Ohio ceremonial networks, c. 1–400 CE",
+            "note": "NPS focus for these earthworks. Hopewell is an archaeological network label; the bounds do not date the existence of every related community.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        }
+      ],
+      "dateOrder": "nondecreasing",
+      "regions": ["Americas", "Southeast Asia/Oceania"],
+      "review": "Metadata inventory only. Verify transitions, evidence task, comparisons, return and reader timing before acceptance."
+    },
+    {
+      "id": "places-patrons-work",
+      "question": "What links making and upkeep to people and institutions?",
+      "durationAsAuthored": "20–30 minutes",
+      "stops": [
+        {
+          "number": 1,
+          "subject": "maya-vessel",
+          "year": 750,
+          "region": "Americas",
+          "caseInterval": {
+            "start": 600,
+            "end": 800,
+            "label": "Seventh–eighth centuries CE",
+            "note": "Catalogue object range; not a lifespan for Maya peoples, who continue today.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 2,
+          "subject": "borobudur",
+          "year": 800,
+          "region": "Southeast Asia/Oceania",
+          "caseInterval": {
+            "start": 700,
+            "end": 900,
+            "label": "Built in the eighth–ninth centuries CE",
+            "note": "Broad construction frame from UNESCO, not exact building dates or the entire duration of use.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 3,
+          "subject": "byzantium",
+          "year": 950,
+          "region": "Europe",
+          "caseInterval": {
+            "start": 330,
+            "end": 1453,
+            "label": "Conventional frame, 330–1453 CE",
+            "note": "New capital in 330 to Ottoman capture in 1453. Constantinople was under Latin rule 1204–1261; Byzantine states continued elsewhere. Not an uninterrupted single territorial unit.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        }
+      ],
+      "dateOrder": "nondecreasing",
+      "regions": ["Americas", "Europe", "Southeast Asia/Oceania"],
+      "review": "Metadata inventory only. Verify transitions, evidence task, comparisons, return and reader timing before acceptance."
+    },
+    {
+      "id": "buildings-food-continuity",
+      "question": "How can buildings and food help explain communities through change?",
+      "durationAsAuthored": "20–30 minutes",
+      "stops": [
+        {
+          "number": 1,
+          "subject": "chaco-communities",
+          "year": 1000,
+          "region": "Americas",
+          "caseInterval": {
+            "start": 850,
+            "end": 1250,
+            "label": "Selected Chaco regional context, c. 850–1250 CE",
+            "note": "Regional frame. Pueblo Bonito construction c850–1150 and changes in the 1100s/1200s are distinct; this endpoint does not end Pueblo peoples or their ties to Chaco.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 2,
+          "subject": "cahokia-city",
+          "year": 1100,
+          "region": "Americas",
+          "caseInterval": {
+            "start": 1050,
+            "end": 1400,
+            "label": "Selected urban context, c. 1050–1400 CE",
+            "note": "Urban investigation frame used in the 2020 study; UNESCO describes broader occupation from c800 and an urban peak c1050–1150. The boundary does not assert that Indigenous life ended here.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 3,
+          "subject": "ocmulgee-council",
+          "year": 1200,
+          "region": "Americas",
+          "caseInterval": {
+            "start": null,
+            "end": null,
+            "label": "Earthlodge construction chronology under revision",
+            "note": "No settled construction/use endpoints are plotted. The older 1015 label is a median of early radiocarbon determinations; newer roof-wood evidence indicates cutting sometime after c.1160 and leaves possible earlier construction unresolved. Neither observation dates the lifespan of Muscogee people or the whole Ocmulgee site.",
+            "precision": "disputed",
+            "alternatives": [
+              {
+                "label": "NPS retains 1015, an older median date; this is not a directly observed construction year.",
+                "citations": [
+                  {
+                    "source": "ocmu-earthlodge",
+                    "locator": "Older date label"
+                  },
+                  {
+                    "source": "ocmu-chronology",
+                    "locator": "Discussion: older median"
+                  }
+                ]
+              },
+              {
+                "label": "New roof-wood evidence indicates cutting sometime after c.1160; possible earlier construction remains unresolved.",
+                "citations": [
+                  {
+                    "source": "ocmu-chronology",
+                    "locator": "Earthlodge results and discussion"
+                  }
+                ]
+              }
+            ]
+          },
+          "selectedYearWithinCase": false,
+          "comparison": null
+        }
+      ],
+      "dateOrder": "nondecreasing",
+      "regions": ["Americas"],
+      "review": "Metadata inventory only. Verify transitions, evidence task, comparisons, return and reader timing before acceptance."
+    },
+    {
+      "id": "makers-patrons-markets",
+      "question": "How did makers, patrons and markets organize work?",
+      "durationAsAuthored": "20–30 minutes",
+      "stops": [
+        {
+          "number": 1,
+          "subject": "ming-workshops",
+          "year": 1550,
+          "region": "East Asia",
+          "caseInterval": {
+            "start": 1368,
+            "end": 1644,
+            "label": "1368–1644 CE",
+            "note": "Conventional Ming dynastic period. Individual works and trade routes retain their own dates.",
+            "precision": "exact"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 2,
+          "subject": "ottoman-workshops",
+          "year": 1560,
+          "region": "West/Central Asia",
+          "caseInterval": {
+            "start": 1500,
+            "end": 1755,
+            "label": "Selected Ottoman art and urban contexts, c. 1500–1755",
+            "note": "A bounded investigation of sixteenth-century work, seventeenth-century markets and eighteenth-century building, ending with the cited 1748–55 mosque example. These are not the Ottoman Empire’s founding or dissolution dates.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 3,
+          "subject": "mughal-books",
+          "year": 1592,
+          "region": "South Asia",
+          "caseInterval": {
+            "start": 1556,
+            "end": 1605,
+            "label": "1556–1605 CE",
+            "note": "Akbar’s reign; not the entire Mughal state’s lifespan.",
+            "precision": "exact"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        }
+      ],
+      "dateOrder": "nondecreasing",
+      "regions": ["East Asia", "South Asia", "West/Central Asia"],
+      "review": "Metadata inventory only. Verify transitions, evidence task, comparisons, return and reader timing before acceptance."
+    },
+    {
+      "id": "households-books-city-work",
+      "question": "Whose work supported city life?",
+      "durationAsAuthored": "20–30 minutes",
+      "stops": [
+        {
+          "number": 1,
+          "subject": "bukhara-books",
+          "year": 1530,
+          "region": "West/Central Asia",
+          "caseInterval": {
+            "start": 1500,
+            "end": 1785,
+            "label": "Selected Shaibanid and Janid urban contexts, c. 1500–1785",
+            "note": "Investigation spans the two periods described in the archaeological source, not the founding or end of Bukhara. Individual buildings and manuscript stages have their own dates.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 2,
+          "subject": "isfahan-silk",
+          "year": 1700,
+          "region": "West/Central Asia",
+          "caseInterval": {
+            "start": 1598,
+            "end": 1722,
+            "label": "Selected Safavid capital phase, 1597–98 to 1722",
+            "note": "Start follows the conventional 1597–98 capital transfer, plotted at 1598. The endpoint marks the selected capital phase, not Isfahan’s existence or every later Safavid dynastic claim.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 3,
+          "subject": "zand-iran",
+          "year": 1789,
+          "region": "West/Central Asia",
+          "caseInterval": {
+            "start": 1751,
+            "end": 1794,
+            "label": "Selected Zand political and material contexts, 1751–1794",
+            "note": "Dynastic convention follows Perry. Karim Khan’s residence in Shiraz from 1765–1779 is narrower; the 1789 case belongs after his death and is not assigned to his personal use.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        }
+      ],
+      "dateOrder": "nondecreasing",
+      "regions": ["West/Central Asia"],
+      "review": "Metadata inventory only. Verify transitions, evidence task, comparisons, return and reader timing before acceptance."
+    },
+    {
+      "id": "goods-work-coercion",
+      "question": "What can particular records tell us about work behind exchange?",
+      "durationAsAuthored": "15–20 minutes",
+      "stops": [
+        {
+          "number": 1,
+          "subject": "banda-1621",
+          "year": 1621,
+          "region": "Southeast Asia/Oceania",
+          "caseInterval": {
+            "start": 1621,
+            "end": 1621,
+            "label": "1621 CE",
+            "note": "The dated conquest investigated here; Bandanese history extends before and after this event.",
+            "precision": "exact"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 2,
+          "subject": "manila-network",
+          "year": 1726,
+          "region": "Americas",
+          "caseInterval": {
+            "start": 1565,
+            "end": 1815,
+            "label": "1565–1815 CE",
+            "note": "Historical range of the galleon trade. The C7 display clips at 1800; that is not its end.",
+            "precision": "exact"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        }
+      ],
+      "dateOrder": "nondecreasing",
+      "regions": ["Americas", "Southeast Asia/Oceania"],
+      "review": "Metadata inventory only. Verify transitions, evidence task, comparisons, return and reader timing before acceptance."
+    },
+    {
+      "id": "skills-records-protection",
+      "question": "How can we distinguish skilled work from effective protection?",
+      "durationAsAuthored": "20–30 minutes",
+      "stops": [
+        {
+          "number": 1,
+          "subject": "factory-reform",
+          "year": 1836,
+          "region": "Europe",
+          "caseInterval": {
+            "start": 1833,
+            "end": 1836,
+            "label": "Act in 1833; inspector evidence in 1836",
+            "note": "Selected law-and-enforcement investigation, not the beginning/end of industrialization or child labor.",
+            "precision": "approximate"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 2,
+          "subject": "tomioka",
+          "year": 1872,
+          "region": "East Asia",
+          "caseInterval": {
+            "start": 1872,
+            "end": 1872,
+            "label": "Model mill opened October 1872",
+            "note": "Opening event; the mill and associated techniques continued afterward. This is not an endpoint for Japanese industrialization.",
+            "precision": "exact"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        },
+        {
+          "number": 3,
+          "subject": "hine-labor",
+          "year": 1908,
+          "region": "Americas",
+          "caseInterval": {
+            "start": 1908,
+            "end": 1908,
+            "label": "3 December 1908",
+            "note": "Date of photograph and caption; not a known birth date, age or whole working life.",
+            "precision": "exact"
+          },
+          "selectedYearWithinCase": true,
+          "comparison": null
+        }
+      ],
+      "dateOrder": "nondecreasing",
+      "regions": ["Americas", "East Asia", "Europe"],
+      "review": "Metadata inventory only. Verify transitions, evidence task, comparisons, return and reader timing before acceptance."
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "factory-reform--tomioka",
+      "subjects": ["factory-reform", "tomioka"],
+      "question": "How can learning a production skill differ from putting worker protection into practice?",
+      "sharedDimensions": ["production", "work-organization"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "banda-1621--manila-network",
+      "subjects": ["banda-1621", "manila-network"],
+      "question": "Whose work is visible in these commercial and colonial records, and whose experience needs other evidence?",
+      "sharedDimensions": ["evidence", "work-organization"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "isfahan-silk--bukhara-books",
+      "subjects": ["isfahan-silk", "bukhara-books"],
+      "question": "Which records explain the work supporting city life, and whose experience remains unknown?",
+      "sharedDimensions": ["evidence", "inequality", "patronage", "place-work"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "isfahan-silk--zand-iran",
+      "subjects": ["isfahan-silk", "zand-iran"],
+      "question": "How can an object’s attribution be kept separate from a city’s households and political history?",
+      "sharedDimensions": ["evidence", "inequality", "patronage", "place-work"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "ming-workshops--ottoman-workshops",
+      "subjects": ["ming-workshops", "ottoman-workshops"],
+      "question": "What distinguishes evidence of court demand from evidence of making and buying?",
+      "sharedDimensions": ["evidence", "work-organization"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "mughal-books--ottoman-workshops",
+      "subjects": ["mughal-books", "ottoman-workshops"],
+      "question": "How do writing and decoration connect specialized work with patrons and audiences?",
+      "sharedDimensions": ["evidence", "work-organization"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "chaco-communities--ocmulgee-council",
+      "subjects": ["chaco-communities", "ocmulgee-council"],
+      "question": "How can building records and particular samples explain work without dating a whole people?",
+      "sharedDimensions": ["place-work"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "cahokia-city--ocmulgee-council",
+      "subjects": ["cahokia-city", "ocmulgee-council"],
+      "question": "How do local evidence and attributed community accounts change explanations of settlement?",
+      "sharedDimensions": ["place-work"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "byzantium--borobudur",
+      "subjects": ["byzantium", "borobudur"],
+      "question": "How can evidence for making, supporting and maintaining a place reveal different institutions?",
+      "sharedDimensions": ["evidence", "place-work"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "byzantium--maya-vessel",
+      "subjects": ["byzantium", "maya-vessel"],
+      "question": "How do a portable image, an owner’s name and separate work contexts support different explanations?",
+      "sharedDimensions": ["evidence", "participation", "place-work"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "dongson--hopewell-earthworks",
+      "subjects": ["dongson", "hopewell-earthworks"],
+      "question": "How do documented deposits and later place records change an explanation of shared material forms?",
+      "sharedDimensions": ["place-context"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "colima--hopewell-earthworks",
+      "subjects": ["colima", "hopewell-earthworks"],
+      "question": "What can visible form, an excavated association and a later reconstruction each establish about a place?",
+      "sharedDimensions": ["place-context"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "chavin-textile--teotihuacan",
+      "subjects": ["chavin-textile", "teotihuacan"],
+      "question": "How does evidence for making differ between a portable fragment and an excavated neighborhood?",
+      "sharedDimensions": ["evidence", "material-work", "production"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "chavin-textile--moche",
+      "subjects": ["chavin-textile", "moche"],
+      "question": "Which observations support a making technique, and which further evidence could locate its makers?",
+      "sharedDimensions": ["evidence", "material-work", "production"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "indonesia-independence--ghana-independence",
+      "subjects": ["indonesia-independence", "ghana-independence"],
+      "question": "Which powers changed at independence, and what remained contested?",
+      "sharedDimensions": ["change", "evidence", "participation"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "ghana-independence--south-africa-rights",
+      "subjects": ["ghana-independence", "south-africa-rights"],
+      "question": "How does a change in government differ from a guarantee of political rights?",
+      "sharedDimensions": ["change", "evidence", "participation"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "roman-world--eastern-han",
+      "subjects": ["roman-world", "eastern-han"],
+      "question": "How did empires turn local work into imperial power?",
+      "sharedDimensions": ["authority", "belief", "evidence", "production"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "eastern-han--colima",
+      "subjects": ["eastern-han", "colima"],
+      "question": "What does a model building preserve about the world of its makers?",
+      "sharedDimensions": ["belief", "production"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "roman-world--palmyra",
+      "subjects": ["roman-world", "palmyra"],
+      "question": "How do personal portraits and imperial images make status visible?",
+      "sharedDimensions": ["authority", "evidence"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "palmyra--kushan-contexts",
+      "subjects": ["palmyra", "kushan-contexts"],
+      "question": "How do objects reveal communities within wider networks?",
+      "sharedDimensions": ["authority", "coordination", "evidence"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "kushan-contexts--aksum",
+      "subjects": ["kushan-contexts", "aksum"],
+      "question": "How do coin images and excavated coin contexts answer different questions?",
+      "sharedDimensions": ["authority", "coordination", "evidence"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "palmyra--aksum",
+      "subjects": ["palmyra", "aksum"],
+      "question": "How do local transactions and inland work complicate a history told only through distant trade?",
+      "sharedDimensions": ["authority", "coordination", "evidence"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "aksum--portuguese-voyage",
+      "subjects": ["aksum", "portuguese-voyage"],
+      "question": "How does a port connect inland power to maritime exchange?",
+      "sharedDimensions": ["evidence", "movement"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "teotihuacan--moche",
+      "subjects": ["teotihuacan", "moche"],
+      "question": "What kinds of work become visible through surviving material?",
+      "sharedDimensions": ["evidence", "material-work", "production"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "dongson--shang-ritual",
+      "subjects": ["dongson", "shang-ritual"],
+      "question": "How can bronze communicate ideas as well as display skilled work?",
+      "sharedDimensions": ["production"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "benin-ivory--ming-workshops",
+      "subjects": ["benin-ivory", "ming-workshops"],
+      "question": "How do makers respond to patrons and distant audiences?",
+      "sharedDimensions": ["audience", "evidence"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "kongo-translation--mughal-books",
+      "subjects": ["kongo-translation", "mughal-books"],
+      "question": "How are religious ideas remade through local languages and materials?",
+      "sharedDimensions": ["audience", "evidence"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "manila-network--ming-workshops",
+      "subjects": ["manila-network", "ming-workshops"],
+      "question": "What changes when crafted objects circulate across an ocean?",
+      "sharedDimensions": ["audience", "evidence", "work-organization"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "banda-1621--haitian-revolution",
+      "subjects": ["banda-1621", "haitian-revolution"],
+      "question": "How do sources reveal coercion and struggles over freedom?",
+      "sharedDimensions": ["evidence"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "uruk-accounts--dholavira",
+      "subjects": ["uruk-accounts", "dholavira"],
+      "question": "How do accounts and waterworks make different kinds of urban work visible?",
+      "sharedDimensions": ["coordination", "evidence", "urban"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "uruk-accounts--old-kingdom",
+      "subjects": ["uruk-accounts", "old-kingdom"],
+      "question": "Whose work becomes visible in a record or an image?",
+      "sharedDimensions": ["evidence", "urban"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "dholavira--liangzhu",
+      "subjects": ["dholavira", "liangzhu"],
+      "question": "How did communities organize work around water?",
+      "sharedDimensions": ["coordination", "evidence", "urban"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "caral--skara-brae",
+      "subjects": ["caral", "skara-brae"],
+      "question": "What can built spaces tell us about gathering and household work?",
+      "sharedDimensions": ["evidence", "maintenance", "urban"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "old-kingdom--caral",
+      "subjects": ["old-kingdom", "caral"],
+      "question": "How did food production and building renewal require continuing work, and which records make it visible?",
+      "sharedDimensions": ["evidence", "maintenance", "urban"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "old-kingdom--skara-brae",
+      "subjects": ["old-kingdom", "skara-brae"],
+      "question": "How can we distinguish commemoration, occupied space and later rebuilding when investigating daily work?",
+      "sharedDimensions": ["evidence", "maintenance", "urban"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "uluburun--shang-ritual",
+      "subjects": ["uluburun", "shang-ritual"],
+      "question": "How do cargo and ritual objects reveal different stages of skilled work?",
+      "sharedDimensions": ["coordination", "evidence", "production"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "hattusha-change--uluburun",
+      "subjects": ["hattusha-change", "uluburun"],
+      "question": "What can a capital and a shipwreck tell us about changing networks?",
+      "sharedDimensions": ["coordination", "evidence", "production"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "kerma-potters--olmec",
+      "subjects": ["kerma-potters", "olmec"],
+      "question": "How do material choices reveal skills and connections?",
+      "sharedDimensions": ["evidence", "material-work", "production"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "lapita--polynesian-voyaging",
+      "subjects": ["lapita", "polynesian-voyaging"],
+      "question": "What evidence supports an account of movement across water?",
+      "sharedDimensions": ["evidence", "production"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "olmec--poverty-point",
+      "subjects": ["olmec", "poverty-point"],
+      "question": "How did different uses of clay connect skilled work with social or practical needs?",
+      "sharedDimensions": ["maintenance", "material-work"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "lapita--poverty-point",
+      "subjects": ["lapita", "poverty-point"],
+      "question": "How can material observations and dated contexts distinguish a making technique, a practical use and a proposed connection?",
+      "sharedDimensions": ["material-work"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "qin-administration--ashoka-messages",
+      "subjects": ["qin-administration", "ashoka-messages"],
+      "question": "How did a common rule become local administrative work?",
+      "sharedDimensions": ["coordination", "evidence", "participation"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "ashoka-messages--athens-water",
+      "subjects": ["ashoka-messages", "athens-water"],
+      "question": "How do public messages and public work reveal different political powers?",
+      "sharedDimensions": ["coordination", "participation"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "nimrud-palace--ashoka-messages",
+      "subjects": ["nimrud-palace", "ashoka-messages"],
+      "question": "How do rulers address different audiences in stone?",
+      "sharedDimensions": ["evidence", "participation"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "athens-water--qin-administration",
+      "subjects": ["athens-water", "qin-administration"],
+      "question": "How does everyday work test a government’s claims?",
+      "sharedDimensions": ["coordination", "participation"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "taharqo--maya-vessel",
+      "subjects": ["taharqo", "maya-vessel"],
+      "question": "How can an object express rank and religious authority?",
+      "sharedDimensions": ["evidence", "participation"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "chavin-textile--inca-weaving",
+      "subjects": ["chavin-textile", "inca-weaving"],
+      "question": "How do textiles join skilled work to social meaning?",
+      "sharedDimensions": ["evidence", "production"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "byzantium--tang-city",
+      "subjects": ["byzantium", "tang-city"],
+      "question": "How do capitals and institutions change within long political histories?",
+      "sharedDimensions": ["evidence", "participation"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "abbasid-craft--song-art",
+      "subjects": ["abbasid-craft", "song-art"],
+      "question": "How do materials and institutions shape artistic production?",
+      "sharedDimensions": ["production"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "tang-city--abbasid-craft",
+      "subjects": ["tang-city", "abbasid-craft"],
+      "question": "How do capitals organize access, skill and resources while political authority changes?",
+      "sharedDimensions": ["coordination", "evidence"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "abbasid-craft--nalanda",
+      "subjects": ["abbasid-craft", "nalanda"],
+      "question": "How do different institutions support skilled work and learning?",
+      "sharedDimensions": ["coordination", "evidence", "production"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "borobudur--nalanda",
+      "subjects": ["borobudur", "nalanda"],
+      "question": "How can a built place organize religious life and learning?",
+      "sharedDimensions": ["evidence", "production"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "mali-networks--middle-niger",
+      "subjects": ["mali-networks", "middle-niger"],
+      "question": "What different forms of authority can an urban network support?",
+      "sharedDimensions": ["evidence", "participation"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "song-art--inca-weaving",
+      "subjects": ["song-art", "inca-weaving"],
+      "question": "How can we test a claim that an obligation benefited the people doing the work?",
+      "sharedDimensions": ["obligation", "production"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "portuguese-voyage--benin-ivory",
+      "subjects": ["portuguese-voyage", "benin-ivory"],
+      "question": "How did makers and intermediaries shape an encounter beyond a patron’s or captain’s instructions?",
+      "sharedDimensions": ["evidence", "mediation"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "portuguese-voyage--kongo-translation",
+      "subjects": ["portuguese-voyage", "kongo-translation"],
+      "question": "What distinguishes enabling communication from establishing free choice or protection?",
+      "sharedDimensions": ["evidence", "mediation"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "mali-networks--inca-weaving",
+      "subjects": ["mali-networks", "inca-weaving"],
+      "question": "What can royal images and finished objects reveal about workers, and whose voices are missing?",
+      "sharedDimensions": ["evidence", "obligation"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "angkor--dholavira",
+      "subjects": ["angkor", "dholavira"],
+      "question": "How does water shape a city’s work and organization?",
+      "sharedDimensions": ["evidence"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "factory-reform--hine-labor",
+      "subjects": ["factory-reform", "hine-labor"],
+      "question": "What is the difference between documenting work and changing its conditions?",
+      "sharedDimensions": ["production", "work-organization"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "tomioka--hine-labor",
+      "subjects": ["tomioka", "hine-labor"],
+      "question": "How do factory systems organize skill and labor?",
+      "sharedDimensions": ["evidence", "production", "work-organization"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "tiriti--partition-1947",
+      "subjects": ["tiriti", "partition-1947"],
+      "question": "What separates an official document from people’s experience of political change?",
+      "sharedDimensions": ["evidence", "participation"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "partition-1947--south-africa-rights",
+      "subjects": ["partition-1947", "south-africa-rights"],
+      "question": "What does a new political settlement promise, and what must be investigated afterward?",
+      "sharedDimensions": ["evidence", "participation"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "world-war-one--world-war-two",
+      "subjects": ["world-war-one", "world-war-two"],
+      "question": "How do institutions and choices turn conflict into mass violence?",
+      "sharedDimensions": ["evidence", "participation"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "sputnik--tomioka",
+      "subjects": ["sputnik", "tomioka"],
+      "question": "How does technical change depend on organized work?",
+      "sharedDimensions": ["evidence", "production"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "poverty-point--hopewell-earthworks",
+      "subjects": ["poverty-point", "hopewell-earthworks"],
+      "question": "What does coordinated earthmoving show, and what remains uncertain?",
+      "sharedDimensions": ["coordination", "evidence-limits"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "chaco-communities--cahokia-city",
+      "subjects": ["chaco-communities", "cahokia-city"],
+      "question": "How can archaeology test explanations of gathering and change?",
+      "sharedDimensions": ["coordination", "evidence-limits", "place-work"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "ottoman-workshops--isfahan-silk",
+      "subjects": ["ottoman-workshops", "isfahan-silk"],
+      "question": "How do patrons, markets and unequal power shape craft?",
+      "sharedDimensions": ["evidence", "inequality", "patronage"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "bukhara-books--zand-iran",
+      "subjects": ["bukhara-books", "zand-iran"],
+      "question": "How do changing patrons affect books and decorative arts?",
+      "sharedDimensions": ["evidence", "inequality", "patronage", "place-work"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "bering-sea-carvers--inuinnait-sewing",
+      "subjects": ["bering-sea-carvers", "inuinnait-sewing"],
+      "question": "How do tools and clothing carry skilled knowledge?",
+      "sharedDimensions": ["custody", "knowledge", "materials"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "ozette-makah--kwakwakawakw-potlatch",
+      "subjects": ["ozette-makah", "kwakwakawakw-potlatch"],
+      "question": "How do surviving belongings relate to community knowledge and authority?",
+      "sharedDimensions": ["custody", "knowledge", "materials"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "blackfoot-bison--hidatsa-villages",
+      "subjects": ["blackfoot-bison", "hidatsa-villages"],
+      "question": "How do communities coordinate food, work and seasonal knowledge?",
+      "sharedDimensions": ["custody", "knowledge", "materials"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "ocmulgee-council--wendat-laine",
+      "subjects": ["ocmulgee-council", "wendat-laine"],
+      "question": "What can a public building and a village reveal about collective life?",
+      "sharedDimensions": ["evidence-authority", "knowledge", "materials"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "haudenosaunee-canandaigua--cherokee-print",
+      "subjects": ["haudenosaunee-canandaigua", "cherokee-print"],
+      "question": "How do words and records carry political responsibilities?",
+      "sharedDimensions": ["evidence-authority", "knowledge", "materials"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "ojibwe-manoomin--inuinnait-sewing",
+      "subjects": ["ojibwe-manoomin", "inuinnait-sewing"],
+      "question": "How do material work and knowledge connect across generations?",
+      "sharedDimensions": ["knowledge", "materials"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "nimrud-palace--taharqo",
+      "subjects": ["nimrud-palace", "taharqo"],
+      "question": "How do royal images, work claims and excavated production answer different questions about authority?",
+      "sharedDimensions": ["evidence", "material-work", "participation"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    },
+    {
+      "id": "kerma-potters--taharqo",
+      "subjects": ["kerma-potters", "taharqo"],
+      "question": "What can different materials and find contexts tell us about skilled work and institutions?",
+      "sharedDimensions": ["evidence", "material-work"],
+      "review": "Shared dimensions establish a renderable pair, not historical equivalence. Source and asymmetry review pending."
+    }
+  ],
+  "casesWithoutAuthoredPair": []
+}

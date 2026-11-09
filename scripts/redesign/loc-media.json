@@ -1,0 +1,63 @@
+[
+  {
+    "id": "loc-hine",
+    "title": "A young spinner at Mollahan Mills",
+    "subject": "hine-labor",
+    "source": "hine",
+    "accession": "2018674890",
+    "creator": "Lewis Wickes Hine",
+    "date": {
+      "start": 1908,
+      "end": 1908,
+      "label": "3 December 1908",
+      "precision": "exact",
+      "note": "Hine’s caption card dates the photograph to 3 December 1908."
+    },
+    "place": "Newberry, South Carolina, United States",
+    "material": "Digitized photographic print from a glass-negative photograph",
+    "image": "/atlas/media/loc-hine.webp",
+    "thumbnail": "/atlas/media/loc-hine-thumb.webp",
+    "width": 1024,
+    "height": 729,
+    "alt": "A young girl stands beside a long row of spinning machinery in a cotton mill.",
+    "caption": "Hine’s photograph and caption record different kinds of evidence. The overseer’s denial is reported by Hine; hours and age cannot be read directly from the image.",
+    "notice": [
+      "Compare the person’s height with the machinery.",
+      "What can the image show without its caption?"
+    ],
+    "rights": "Library of Congress records no known restrictions on publication. The National Child Labor Committee placed no restrictions on use of the Hine material when donating the collection.",
+    "credit": "Lewis Wickes Hine. National Child Labor Committee collection, Library of Congress, Prints and Photographs Division. Hine 358; LC-DIG-nclc-01451.",
+    "sourceImage": "https://tile.loc.gov/storage-services/service/pnp/nclc/01400/01451v.jpg",
+    "depiction": "contemporary document",
+    "relevance": "Work, reform and the different evidentiary roles of a photograph and its caption."
+  },
+  {
+    "id": "loc-war-poster",
+    "title": "Woman your country needs you!",
+    "subject": "world-war-one",
+    "source": "war-poster",
+    "accession": "2002708941",
+    "creator": "Maker not identified in the consulted catalogue",
+    "date": {
+      "start": 1917,
+      "end": 1917,
+      "label": "[1917]",
+      "precision": "approximate",
+      "note": "The Library of Congress supplies the year in brackets. The imprint gives no exact date."
+    },
+    "place": "United States",
+    "material": "Digitized printed poster",
+    "image": "/atlas/media/loc-war-poster.webp",
+    "thumbnail": "/atlas/media/loc-war-poster-thumb.webp",
+    "width": 511,
+    "height": 640,
+    "alt": "Liberty presents a sword marked Service to a younger woman; a shield names State and National Councils of Defense.",
+    "caption": "A 1917 wartime recruiting appeal. Persuasive language is evidence of the desired response, not proof of actual participation.",
+    "notice": ["Who is being addressed?", "Which response does the poster seek?"],
+    "rights": "Library of Congress records no known restrictions on publication for this U.S. World War I poster.",
+    "credit": "Library of Congress, Prints and Photographs Division. LC-USZC4-9547; item 2002708941.",
+    "sourceImage": "https://cdn.loc.gov/service/pnp/cph/3g00000/3g09000/3g09500/3g09547r.jpg",
+    "depiction": "contemporary document",
+    "relevance": "Mass mobilization, persuasion and the limits of a public appeal."
+  }
+]

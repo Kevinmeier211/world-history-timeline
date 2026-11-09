@@ -1,0 +1,420 @@
+{
+  "records": [
+    {
+      "id": "uruk-accounting-diagram",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "Chronos / Codex, 2026. The project grants CC BY 4.0 for this artwork. Its generator draws text and vector primitives; the SVG contains no linked or embedded source images, fonts or third-party figures. The thumbnail is an exact regeneration from that artwork.",
+      "fidelityFinding": "Pictographs, quantity impressions and a physical clay record support the three accounting panels. The museum qualifies the grain identification; the graphic supplies no reading of individual signs.",
+      "descriptionFinding": "The alt separates three functions and the omitted-work question.",
+      "dateFinding": "Teaching diagram made 28 October 2026. c. 3100–2900 BCE is the tablet range.",
+      "evidence": [
+        "scripts/redesign/make-early-cities-diagrams.mjs — authored vector construction; isolated generation reproduced the SVG and WebP byte for byte.",
+        "public/atlas/media/uruk-accounting-diagram.svg — SHA-256 49db74c8c5286be4e16fce8e2e07f46b2a49b68dfe2553f03555fb9bd94820f5.",
+        "public/atlas/media/uruk-accounting-diagram-thumb.webp — SHA-256 76c5e6089f2b0a30eae13c964d618c4e46c569eed1d485e277f048b76ea675bf; rendered at 300 px wide and visually inspected.",
+        "public/atlas/exports/reader-uruk-accounts.pdf, p. 5 — labels “Category” and “Quantity”, figure caption, Chronos / Codex attribution and CC BY 4.0 URL checked in the extracted page.",
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://www.metmuseum.org/art/collection/search/327384"
+      ],
+      "gaps": []
+    },
+    {
+      "id": "dholavira-water-diagram",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "Chronos / Codex, 2026. The project grants CC BY 4.0 for this artwork. Its generator draws text and vector primitives; the SVG contains no linked or embedded source images, fonts or third-party figures. The thumbnail is an exact regeneration from that artwork.",
+      "fidelityFinding": "ASI identifies the castle well, drain and reservoirs; the radar paper investigates ground east of the excavated East Reservoir. The dashed box is a separate research note below the site components. Its page position is not a mapped southern findspot.",
+      "descriptionFinding": "Corrected the alt to distinguish the physical position of the dashed note from the direction of the research area it describes.",
+      "dateFinding": "Teaching diagram made 28 October 2026. Components span phases; 2020 and 2018 date the plan and study.",
+      "evidence": [
+        "scripts/redesign/make-early-cities-diagrams.mjs — authored vector construction; isolated generation reproduced the SVG and WebP byte for byte.",
+        "public/atlas/media/dholavira-water-diagram.svg — SHA-256 6fb7374c2ceb4a7a7ea113bd7634ba5f56867ab70f83cbf1aafcbb91538866e0.",
+        "public/atlas/media/dholavira-water-diagram-thumb.webp — SHA-256 f633b6aae5bb563cc1176344bb346d80b08b25ecb140cb435fae430a7e812222; rendered at 300 px wide and visually inspected.",
+        "public/atlas/exports/reader-dholavira.pdf, p. 5 — labels “castle” and “South reservoirs”, figure caption, Chronos / Codex attribution and CC BY 4.0 URL checked in the extracted page.",
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://whc.unesco.org/document/189006",
+        "https://asc.iitgn.ac.in/assets/research/completed_projects/Archaeological_studies_at_Dholavira_using_GPR_Agrawal_Majumder_Bisht_Prashant.pdf"
+      ],
+      "gaps": []
+    },
+    {
+      "id": "liangzhu-water-diagram",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "Chronos / Codex, 2026. The project grants CC BY 4.0 for this artwork. Its generator draws text and vector primitives; the SVG contains no linked or embedded source images, fonts or third-party figures. The thumbnail is an exact regeneration from that artwork.",
+      "fidelityFinding": "The hydraulic study describes clay wrapped in grass, dams, stored water and transport. Production and movement are functional relationships. The questions leave allocation of labour and benefits open.",
+      "descriptionFinding": "Alt covers the three panels and identifies the distinction between coordination and household obligations.",
+      "dateFinding": "Teaching diagram made 28 October 2026. c. 3300–2300 BCE describes the cultural landscape. Individual dam samples have separate dating distributions.",
+      "evidence": [
+        "scripts/redesign/make-early-cities-diagrams.mjs — authored vector construction; isolated generation reproduced the SVG and WebP byte for byte.",
+        "public/atlas/media/liangzhu-water-diagram.svg — SHA-256 f390a7235d419e24cc88d754406a3660c5de428ce354cef462fd2672f128b033.",
+        "public/atlas/media/liangzhu-water-diagram-thumb.webp — SHA-256 47a73b14326c004d5411f81c823b0d67826088420a36b281cb3efee1bd7d47cd; rendered at 300 px wide and visually inspected.",
+        "public/atlas/exports/reader-liangzhu.pdf, p. 4 — labels “Build” and “Manage water”, figure caption, Chronos / Codex attribution and CC BY 4.0 URL checked in the extracted page.",
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://www.pnas.org/doi/10.1073/pnas.1710516114",
+        "https://www.pnas.org/doi/10.1073/pnas.1722309115"
+      ],
+      "gaps": []
+    },
+    {
+      "id": "hattusha-evidence-diagram",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "Chronos / Codex, 2026. The project grants CC BY 4.0 for this artwork. Its generator draws text and vector primitives; the SVG contains no linked or embedded source images, fonts or third-party figures. The thumbnail is an exact regeneration from that artwork.",
+      "fidelityFinding": "Gordion tree-ring proxies support the named dry interval. Capital phases appear in a separate panel, and the dashed political question keeps a proxy at Gordion distinct from measured rain at Hattusha or proof of collapse.",
+      "descriptionFinding": "Alt preserves the site difference, uncertainty and lack of measured rainfall series.",
+      "dateFinding": "Teaching diagram made 28 October 2026. Capital c. 1650–1180 BCE and the c. 1198–1196 BCE episode ±3 years use separate clocks.",
+      "evidence": [
+        "scripts/redesign/make-bronze-institutions-media.mjs — authored vector construction; isolated generation reproduced the SVG and WebP byte for byte.",
+        "public/atlas/media/hattusha-evidence-diagram.svg — SHA-256 98b9f7d94b69bef1b49959c8b61d0bfe8c47085ef392b512680b9243bd1f7717.",
+        "public/atlas/media/hattusha-evidence-diagram-thumb.webp — SHA-256 44fe9ed8a3c59b8a6ab8c9b6df79d13e273154c083cb7d29bfc9f35882a2c8f6; rendered at 300 px wide and visually inspected.",
+        "public/atlas/exports/reader-hattusha-change.pdf, p. 3 — labels “Gordion timbers” and “Political explanation”, figure caption, Chronos / Codex attribution and CC BY 4.0 URL checked in the extracted page.",
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://www.dainst.org/forschung/projekte/noslug/2280",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9946833/"
+      ],
+      "gaps": []
+    },
+    {
+      "id": "uluburun-evidence-diagram",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "Chronos / Codex, 2026. The project grants CC BY 4.0 for this artwork. Its generator draws text and vector primitives; the SVG contains no linked or embedded source images, fonts or third-party figures. The thumbnail is an exact regeneration from that artwork.",
+      "fidelityFinding": "The INA project describes the wreck off Kaş, metals and hull elements. Competing provenance studies support keeping tin origins in a dashed panel. The visual supplies no route, passenger list or owner.",
+      "descriptionFinding": "Alt explains recovered material, contested assignment and the unresolved itinerary.",
+      "dateFinding": "Teaching diagram made 28 October 2026. The approximate wreck date c. 1320 BCE ±15 years is the INA project estimate; provenance analyses are modern.",
+      "evidence": [
+        "scripts/redesign/make-bronze-institutions-media.mjs — authored vector construction; isolated generation reproduced the SVG and WebP byte for byte.",
+        "public/atlas/media/uluburun-evidence-diagram.svg — SHA-256 52ba2e3189fb89cf08693c7e654bc47c2ae73d90e431a96bf013c62bc4646535.",
+        "public/atlas/media/uluburun-evidence-diagram-thumb.webp — SHA-256 aeed04b21315b04aa7c84de2ff148075328c69db421d31d960b7bc6eab3dab71; rendered at 300 px wide and visually inspected.",
+        "public/atlas/exports/reader-uluburun.pdf, p. 3 — labels “Recovered association” and “Origins inferred”, figure caption, Chronos / Codex attribution and CC BY 4.0 URL checked in the extracted page.",
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://nauticalarch.org/projects/uluburun-late-bronze-age-shipwreck-excavation/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9710885/",
+        "https://www.frontiersin.org/journals/earth-science/articles/10.3389/feart.2023.1211478/full",
+        "https://doi.org/10.15184/aqy.2025.41"
+      ],
+      "gaps": []
+    },
+    {
+      "id": "shang-practices-diagram",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "Chronos / Codex, 2026. The project grants CC BY 4.0 for this artwork. Its generator draws text and vector primitives; the SVG contains no linked or embedded source images, fonts or third-party figures. The thumbnail is an exact regeneration from that artwork.",
+      "fidelityFinding": "Model, mold sections and inner core explain hollow casting. The second activity separates the topic, interpretation of cracks and possible outcome of divination. Nothing represents a specimen-specific transcription.",
+      "descriptionFinding": "Alt preserves both processes and the conditional character of a recorded outcome.",
+      "dateFinding": "Teaching diagram made 28 October 2026. c. 1600–1046 BCE is a broad Shang frame, separate from late-capital and object dates.",
+      "evidence": [
+        "scripts/redesign/make-bronze-institutions-media.mjs — authored vector construction; isolated generation reproduced the SVG and WebP byte for byte.",
+        "public/atlas/media/shang-practices-diagram.svg — SHA-256 8fb92634345c1e229a3da6d45aaa912b7ff719c617e00e3ef20c8263efc8e6a1.",
+        "public/atlas/media/shang-practices-diagram-thumb.webp — SHA-256 352e507c8b08b8db8525dde36ca97f26c6ffe93f443e6625df4c97f098a364bf; rendered at 300 px wide and visually inspected.",
+        "public/atlas/exports/reader-shang-ritual.pdf, p. 4 — labels “Making a hollow vessel” and “Recording divination”, figure caption, Chronos / Codex attribution and CC BY 4.0 URL checked in the extracted page.",
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://www.metmuseum.org/essays/shang-and-zhou-dynasties-the-bronze-age-of-china",
+        "https://asia.si.edu/education/educator-resources/teaching-china-with-the-smithsonian/lesson-plans/making-sense-of-the-future-the-oracle-bone-and-shang-dynasty-divination/",
+        "https://www.metmuseum.org/art/collection/search/44781"
+      ],
+      "gaps": []
+    },
+    {
+      "id": "qin-records-diagram",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "Chronos / Codex, 2026. The project grants CC BY 4.0 for this artwork. Its generator draws text and vector primitives; the SVG contains no linked or embedded source images, fonts or third-party figures. The thumbnail is an exact regeneration from that artwork.",
+      "fidelityFinding": "The object records distinguish measurement of mass and capacity. The document study distinguishes standard information from variable layouts. The guide poses a test of practice without inventing a document or uniform enforcement.",
+      "descriptionFinding": "Alt names the two measurements, the grain record and the test of local practice.",
+      "dateFinding": "Teaching diagram made 28 October 2026. Imperial 221–206 BCE and mainly 222–208 BCE Liye documents overlap only partly.",
+      "evidence": [
+        "scripts/redesign/make-government-diagrams.mjs — authored vector construction; isolated generation reproduced the SVG and WebP byte for byte.",
+        "public/atlas/media/qin-records-diagram.svg — SHA-256 4becb75aff62ae69c3afa266b82c0249769072a352bdfe1af770000461393302.",
+        "public/atlas/media/qin-records-diagram-thumb.webp — SHA-256 8d0f3d9675384e582c3a9510399288e27a2e29b690bc5c5734dfba651ed1c63e; rendered at 300 px wide and visually inspected.",
+        "public/atlas/exports/reader-qin-administration.pdf, p. 4 — labels “Inscribed devices” and “Test local practice”, figure caption, Chronos / Codex attribution and CC BY 4.0 URL checked in the extracted page.",
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://doi.org/10.1017/S0041977X23000228",
+        "https://en.chnmuseum.cn/collections_577/collection_highlights_608/artifacts_handed___down_from_ancient_times_612/202008/t20200827_247511.html",
+        "https://theme.npm.edu.tw/selection/Article.aspx?lang=2&sNo=04001146"
+      ],
+      "gaps": []
+    },
+    {
+      "id": "ashoka-messages-diagram",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "Chronos / Codex, 2026. The project grants CC BY 4.0 for this artwork. Its generator draws text and vector primitives; the SVG contains no linked or embedded source images, fonts or third-party figures. The thumbnail is an exact regeneration from that artwork.",
+      "fidelityFinding": "Girnar II concerns provision, Dhauli Separate I addresses judicial officials, and Kandahar supplies separate Greek/Aramaic evidence. The three panels do not treat the records as translations of the same text.",
+      "descriptionFinding": "Alt identifies the three sites, topics and different records.",
+      "dateFinding": "Teaching diagram made 28 October 2026. c. 268–232 BCE is the Ashoka context; 1925 dates Hultzsch’s edition of the Indian texts.",
+      "evidence": [
+        "scripts/redesign/make-government-diagrams.mjs — authored vector construction; isolated generation reproduced the SVG and WebP byte for byte.",
+        "public/atlas/media/ashoka-messages-diagram.svg — SHA-256 95c286ef9c5bfa172e800c66b8c1645506cbb81bf7aba4e33338295310bc243c.",
+        "public/atlas/media/ashoka-messages-diagram-thumb.webp — SHA-256 c718bbec0b53463db4d6117a151f75e843197825cb498fc7dd2542c733eeed93; rendered at 300 px wide and visually inspected.",
+        "public/atlas/exports/reader-ashoka-messages.pdf, p. 3 — labels “Girnar” and “Dhauli”, figure caption, Chronos / Codex attribution and CC BY 4.0 URL checked in the extracted page.",
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://archive.org/details/InscriptionsOfAsoka.NewEditionByE.Hultzsch",
+        "https://depts.washington.edu/silkroad/exhibit/mauryans/essay.html"
+      ],
+      "gaps": []
+    },
+    {
+      "id": "tang-access-diagram",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "Chronos / Codex, 2026. The project grants CC BY 4.0 for this artwork. Its generator draws text and vector primitives; the SVG contains no linked or embedded source images, fonts or third-party figures. The thumbnail is an exact regeneration from that artwork.",
+      "fidelityFinding": "The ward, gate, street and market support a hypothetical daytime errand. The NUS seminar account gives functional context. Neither exact walking route nor compliance with gate rules can be recovered from the arrow.",
+      "descriptionFinding": "Alt follows the arrow and identifies its hypothetical status.",
+      "dateFinding": "Teaching diagram made 28 October 2026. 618–907 CE is a dynasty frame; the seminar account dates to 2019.",
+      "evidence": [
+        "scripts/redesign/make-learning-media.mjs — authored vector construction; isolated generation reproduced the SVG and WebP byte for byte.",
+        "public/atlas/media/tang-access-diagram.svg — SHA-256 bee0990492782294e1bba7f070fba60af7d2e6a82fcb257e066f09c92d7489ee.",
+        "public/atlas/media/tang-access-diagram-thumb.webp — SHA-256 85b83ddfe8167d0c16995ea572378734a81f5703237060743c0d46bd1b370f44; rendered at 300 px wide and visually inspected.",
+        "public/atlas/exports/reader-tang-city.pdf, p. 4 — labels “Ward” and “Market”, figure caption, Chronos / Codex attribution and CC BY 4.0 URL checked in the extracted page.",
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://research.nus.edu.sg/eai/wp-content/uploads/2019/10/2019-09-17-InFocus-HengChyeKiang.pdf",
+        "https://depts.washington.edu/silkroad/exhibit/tang/essay2.html"
+      ],
+      "gaps": []
+    },
+    {
+      "id": "abbasid-work-diagram",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "Chronos / Codex, 2026. The project grants CC BY 4.0 for this artwork. Its generator draws text and vector primitives; the SVG contains no linked or embedded source images, fonts or third-party figures. The thumbnail is an exact regeneration from that artwork.",
+      "fidelityFinding": "The Ashmolean account supports successive body, opaque glaze and lustre-decoration stages. The colored cross-sections are simplified teaching marks. They do not identify a kiln, recipe or workshop for the comparison bowl.",
+      "descriptionFinding": "Alt describes all three operations, controlled firing and the limit on workshop attribution.",
+      "dateFinding": "Teaching diagram made 28 October 2026. Mainly ninth–tenth-century Iraqi technique; the comparison bowl has its own tenth-century date.",
+      "evidence": [
+        "scripts/redesign/make-learning-media.mjs — authored vector construction; isolated generation reproduced the SVG and WebP byte for byte.",
+        "public/atlas/media/abbasid-work-diagram.svg — SHA-256 d80649e9899cc196dbd294f963be1fd8b87449268a8b006f5e895ba2e2305ba4.",
+        "public/atlas/media/abbasid-work-diagram-thumb.webp — SHA-256 8285e87eec8cd878d1bacdde3c9b9d31daf2bae16ddec3b9b046891f782d2fee; rendered at 300 px wide and visually inspected.",
+        "public/atlas/exports/reader-abbasid-craft.pdf, p. 5 — labels “Body” and “Lustre”, figure caption, Chronos / Codex attribution and CC BY 4.0 URL checked in the extracted page.",
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://islamicceramics.ashmolean.org/Abbasid/ceramics.htm",
+        "https://www.metmuseum.org/art/collection/search/451400"
+      ],
+      "gaps": []
+    },
+    {
+      "id": "song-loan-diagram",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "Chronos / Codex, 2026. The project grants CC BY 4.0 for this artwork. Its generator draws text and vector primitives; the SVG contains no linked or embedded source images, fonts or third-party figures. The thumbnail is an exact regeneration from that artwork.",
+      "fidelityFinding": "Wang Anshi’s memorial proposes borrowing before harvest and repayment around tax collection. The directed two-panel sequence gives timing. It does not establish who borrowed or what the actual repayment burden was.",
+      "descriptionFinding": "Alt names reserves, repayment and the proposal/outcome distinction.",
+      "dateFinding": "Teaching diagram made 28 October 2026. The memorial is dated 1069 CE.",
+      "evidence": [
+        "scripts/redesign/make-obligations-media.mjs — authored vector construction; isolated generation reproduced the SVG and WebP byte for byte.",
+        "public/atlas/media/song-loan-diagram.svg — SHA-256 fb7b22edb71b897f7d77b0f2ff22c0822c0d945556634e7e0ddf0fcdeb80e7b3.",
+        "public/atlas/media/song-loan-diagram-thumb.webp — SHA-256 ed7ab501170f09904bb7070a40b33681f228cb3f5c7dbd16ed1af86857487f81; rendered at 300 px wide and visually inspected.",
+        "public/atlas/exports/reader-song-art.pdf, p. 4 — labels “Before harvest” and “After harvest”, figure caption, Chronos / Codex attribution and CC BY 4.0 URL checked in the extracted page.",
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://afe.easia.columbia.edu/main_pop/ps/ps_china-wang-anshi-crop-loans.htm"
+      ],
+      "gaps": []
+    },
+    {
+      "id": "inka-work-diagram",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "Chronos / Codex, 2026. The project grants CC BY 4.0 for this artwork. Its generator draws text and vector primitives; the SVG contains no linked or embedded source images, fonts or third-party figures. The thumbnail is an exact regeneration from that artwork.",
+      "fidelityFinding": "Household/specialist production, obligations and storage illustrate different forms of work. Arrows convey connections, without quantifying distributions or identifying who made the comparison tunic.",
+      "descriptionFinding": "Alt explains three settings, the arrows and the unknown maker.",
+      "dateFinding": "Teaching diagram made 28 October 2026. Fifteenth–sixteenth-century institutional frame is separate from the 1450–1550 tunic range.",
+      "evidence": [
+        "scripts/redesign/make-obligations-media.mjs — authored vector construction; isolated generation reproduced the SVG and WebP byte for byte.",
+        "public/atlas/media/inka-work-diagram.svg — SHA-256 4e274698cd2d9691c8dc29e23ab201b3583b6ebe90dd9acd023d76af91480f74.",
+        "public/atlas/media/inka-work-diagram-thumb.webp — SHA-256 7c466cf8d261bc868d1947e134726a72b4110ea75df6b2076e0452c210eb939c; rendered at 300 px wide and visually inspected.",
+        "public/atlas/exports/reader-inca-weaving.pdf, p. 4 — labels “State demands” and “Provisioning”, figure caption, Chronos / Codex attribution and CC BY 4.0 URL checked in the extracted page.",
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://americanindian.si.edu/inkaroad/inkauniverse/inkaroadexpansion/building-road.html",
+        "https://americanindian.si.edu/inkaroad/engineering/video/colcas.html"
+      ],
+      "gaps": []
+    },
+    {
+      "id": "voyage-mediation-diagram",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "Chronos / Codex, 2026. The project grants CC BY 4.0 for this artwork. Its generator draws text and vector primitives; the SVG contains no linked or embedded source images, fonts or third-party figures. The thumbnail is an exact regeneration from that artwork.",
+      "fidelityFinding": "Malindi pilot/supplies and a Calicut audience belong to successive episodes in the published journal. The connector orders selected narrative episodes; it cannot establish an exact course or free agreement.",
+      "descriptionFinding": "Alt matches both sites, the sequence arrow and the limit on agency.",
+      "dateFinding": "Teaching diagram made 28 October 2026. 1498 dates the encounters; 1898 dates the English edition.",
+      "evidence": [
+        "scripts/redesign/make-encounters-media.mjs — authored vector construction; isolated generation reproduced the SVG and WebP byte for byte.",
+        "public/atlas/media/voyage-mediation-diagram.svg — SHA-256 a8e901fb16cf7c041b620d668872d84d6ffad10a3bc7b465abe6c056009679f2.",
+        "public/atlas/media/voyage-mediation-diagram-thumb.webp — SHA-256 e38a2bac6b5d71c9807fcdbbb4ecd16e11d0fe828bd02facaa68c32e7bbf2cce; rendered at 300 px wide and visually inspected.",
+        "public/atlas/exports/reader-portuguese-voyage.pdf, p. 3 — labels “Malindi” and “Calicut”, figure caption, Chronos / Codex attribution and CC BY 4.0 URL checked in the extracted page.",
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://www.gutenberg.org/cache/epub/46440/pg46440-images.html",
+        "https://media.unesco.org/sites/default/files/webform/mow001/portugal_first_voyage_vasco_da_gama_to_india.pdf"
+      ],
+      "gaps": []
+    },
+    {
+      "id": "giza-provisioning-diagram",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "Chronos / Codex, 2026. The project grants CC BY 4.0 for this artwork. Its generator draws text and vector primitives; the SVG contains no linked or embedded source images, fonts or third-party figures. The thumbnail is an exact regeneration from that artwork.",
+      "fidelityFinding": "AERA’s food and settlement research supports storage, preparation and meal provision as related tasks. The icons give neither quantities nor a reconstructed menu or street plan.",
+      "descriptionFinding": "Alt identifies each task and the grain, bowl and person symbols.",
+      "dateFinding": "Teaching diagram made 28 October 2026. The historical frame is Fourth Dynasty Giza; modern bakery experiments are distinct evidence.",
+      "evidence": [
+        "scripts/redesign/make-households-media.mjs — authored vector construction; isolated generation reproduced the SVG and WebP byte for byte.",
+        "public/atlas/media/giza-provisioning-diagram.svg — SHA-256 936156f4b3f68814cbdc506d0ed05d84c0daaa2f766296855fa000115bf08c42.",
+        "public/atlas/media/giza-provisioning-diagram-thumb.webp — SHA-256 7cd05f470630f1a3a90456fc259e74710deebec3e699de74faba4d73aec1d63a; rendered at 300 px wide and visually inspected.",
+        "public/atlas/exports/reader-old-kingdom.pdf, p. 3 — labels “Grain” and “Meals”, figure caption, Chronos / Codex attribution and CC BY 4.0 URL checked in the extracted page.",
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://aeraweb.org/feeding-pyramid-workers/",
+        "https://aeraweb.org/projects/lost-city/"
+      ],
+      "gaps": []
+    },
+    {
+      "id": "caral-renewal-diagram",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "Chronos / Codex, 2026. The project grants CC BY 4.0 for this artwork. Its generator draws text and vector primitives; the SVG contains no linked or embedded source images, fonts or third-party figures. The thumbnail is an exact regeneration from that artwork.",
+      "fidelityFinding": "Checked the Peruvian project booklet’s stone-filled fiber bags (printed p. 19) and subdivision and rebuilding (p. 41). The three panels abstract practices drawn from different passages. They are not one excavated room sequence.",
+      "descriptionFinding": "Alt explains the stone-filled bag symbols and limits on sequence and quantities.",
+      "dateFinding": "Teaching diagram made 28 October 2026. 2005 dates the publication. The drawings do not claim a date or phase for a particular room.",
+      "evidence": [
+        "scripts/redesign/make-households-media.mjs — authored vector construction; isolated generation reproduced the SVG and WebP byte for byte.",
+        "public/atlas/media/caral-renewal-diagram.svg — SHA-256 3c323eff34e2b7203c5cc9708f251fc28358f7a5326233477935217a60a4a58a.",
+        "public/atlas/media/caral-renewal-diagram-thumb.webp — SHA-256 63ecac925ba96949c7659a5607418d5b6311c5197d90676887554de6f389c6fa; rendered at 300 px wide and visually inspected.",
+        "public/atlas/exports/reader-caral.pdf, p. 4 — labels “Earlier” and “renew”, figure caption, Chronos / Codex attribution and CC BY 4.0 URL checked in the extracted page.",
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://www.zonacaral.gob.pe/downloads/publicaciones/libro-caral-supe-5000-anos-identidad-cultural-2005-espanol.pdf"
+      ],
+      "gaps": []
+    },
+    {
+      "id": "skara-household-guide",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "Chronos / Codex, 2026. The project grants CC BY 4.0 for this artwork. Its generator draws text and vector primitives; the SVG contains no linked or embedded source images, fonts or third-party figures. The thumbnail is an exact regeneration from that artwork. HES © 2024 grants OGL v3.0 for textual information on PDF p. 2 and excludes images and logos. The record credits HES and links OGL v3.0; the house diagram uses independently positioned symbols.",
+      "fidelityFinding": "HES printed p. 68 / PDF p. 70 supports four side slab enclosures and a separate wider one left of the entrance. The five independently laid-out boxes, hearth and shelving convey relationships. Later rebuilding limits a restoration of the Neolithic room.",
+      "descriptionFinding": "Alt counts all five enclosures and conveys the omitted cells and unmeasured layout.",
+      "dateFinding": "Teaching diagram made 28 October 2026. Neolithic architecture and nineteenth-century rebuilding are separate from the 2024 source and 2026 drawing.",
+      "evidence": [
+        "scripts/redesign/make-households-media.mjs — authored vector construction; isolated generation reproduced the SVG and WebP byte for byte.",
+        "public/atlas/media/skara-household-guide.svg — SHA-256 e52f4fed19d8453d7a0234586f2ef6ec5c02202e0f75d48bee42a7c5e3498e22.",
+        "public/atlas/media/skara-household-guide-thumb.webp — SHA-256 65d014d65ee3b98a5972d9a75852b49b62f641c79de6b0c575dbc79000640d5f; rendered at 300 px wide and visually inspected.",
+        "public/atlas/exports/reader-skara-brae.pdf, p. 4 — labels “Stone” and “Wider”, figure caption, Chronos / Codex attribution and CC BY 4.0 URL checked in the extracted page.",
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://app-hes-pubs-prod-neu-01.azurewebsites.net/api/file/703982e8-be07-4f7a-9265-b11e0121c461",
+        "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      ],
+      "gaps": []
+    },
+    {
+      "id": "olmec-dating-guide",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "Chronos / Codex, 2026. The project grants CC BY 4.0 for this artwork. Its generator draws text and vector primitives; the SVG contains no linked or embedded source images, fonts or third-party figures. The thumbnail is an exact regeneration from that artwork. The 2020 source publishes under CC BY-NC-ND 4.0. The diagram summarizes the method with original symbols and reproduces none of its source graphics.",
+      "fidelityFinding": "Rechecked the retained Arieta Baizabal article: re-dating low surface mounds changes the inference about Olmec housing. The graphic uses an invented outline and generic layers without reproducing an excavation, source figure or census.",
+      "descriptionFinding": "Alt explains what the mound, layered sample and notes signify and identifies their schematic status.",
+      "dateFinding": "Teaching diagram made 28 October 2026. 2020 dates the article revisiting San Lorenzo evidence; no one mound or occupation date is assigned.",
+      "evidence": [
+        "scripts/redesign/make-coasts-media.mjs — authored vector construction; isolated generation reproduced the SVG and WebP byte for byte.",
+        "public/atlas/media/olmec-dating-guide.svg — SHA-256 8b2f06a75cb5f1797bb38c84320a4c19894f5a184a6b3dd3f5edbe5f78cab754.",
+        "public/atlas/media/olmec-dating-guide-thumb.webp — SHA-256 964f66a5624a78e234394d9f35d9b4390977dd9eef23ed32e9e39307bebf921b; rendered at 300 px wide and visually inspected.",
+        "public/atlas/exports/reader-olmec.pdf, p. 4 — labels “Surface” and “Dated”, figure caption, Chronos / Codex attribution and CC BY 4.0 URL checked in the extracted page.",
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://scielo.org.mx/pdf/educm/v35n1/2448-6515-educm-35-01-117.pdf"
+      ],
+      "gaps": []
+    },
+    {
+      "id": "lapita-stamp-guide",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "Chronos / Codex, 2026. The project grants CC BY 4.0 for this artwork. Its generator draws text and vector primitives; the SVG contains no linked or embedded source images, fonts or third-party figures. The thumbnail is an exact regeneration from that artwork.",
+      "fidelityFinding": "The Met describes dentate stamping. Three teeth, the spacing, the repeated group and the teaching pattern are diagram choices. The graphic does not authenticate a tool, motif or photographed plaster cast as a vessel.",
+      "descriptionFinding": "Alt explains the hypothetical three-tooth tool, the initial press and repeated marks.",
+      "dateFinding": "Teaching diagram made 28 October 2026. This is an undated generic demonstration of a historically documented technique.",
+      "evidence": [
+        "scripts/redesign/make-coasts-media.mjs — authored vector construction; isolated generation reproduced the SVG and WebP byte for byte.",
+        "public/atlas/media/lapita-stamp-guide.svg — SHA-256 d18524f31ad9ac277231e67a8ea9c1c7d245021c0e2c0d1915d19ac35fc07197.",
+        "public/atlas/media/lapita-stamp-guide-thumb.webp — SHA-256 e655bf8f1aebee460838ae69b78bb8ac4ffab8b883c0d311fa29177ce02df150; rendered at 300 px wide and visually inspected.",
+        "public/atlas/exports/reader-lapita.pdf, p. 4 — labels “Tool” and “Repeat”, figure caption, Chronos / Codex attribution and CC BY 4.0 URL checked in the extracted page.",
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://www.metmuseum.org/essays/lapita-pottery-ca-1500-500-b-c"
+      ],
+      "gaps": []
+    },
+    {
+      "id": "kerma-making-guide",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "Chronos / Codex, 2026. The project grants CC BY 4.0 for this artwork. Its generator draws text and vector primitives; the SVG contains no linked or embedded source images, fonts or third-party figures. The thumbnail is an exact regeneration from that artwork.",
+      "fidelityFinding": "The Met describes hand shaping, polishing an ocher-coated surface and controlled firing. The last symbol emphasizes the dark top. The drawing is not a measured vessel section or a firing-position diagram.",
+      "descriptionFinding": "Expanded the alt to include the tool, heat marks, dark top and connecting arrows. Linked the museum beaker record separately from the artwork licence.",
+      "dateFinding": "Teaching guide made 29 October 2026. The comparison beaker is c. 1802–1640 BCE. The drawing has no separately dated firing event.",
+      "evidence": [
+        "scripts/redesign/make-institutions-media.mjs — authored vector construction; isolated generation reproduced the SVG and WebP byte for byte.",
+        "public/atlas/media/kerma-making-guide.svg — SHA-256 7a215006f7d768145cbafde77999edc637cbdeeb78ccef30f524f595d7c08cef.",
+        "public/atlas/media/kerma-making-guide-thumb.webp — SHA-256 3a3e525292a8c87a4ef99ec98c3bc889fd2a7f89fc13488b4dd76e3f4be840f4; rendered at 300 px wide and visually inspected.",
+        "public/atlas/exports/reader-kerma-potters.pdf, p. 4 — labels “Shape” and “Polish”, figure caption, Chronos / Codex attribution and CC BY 4.0 URL checked in the extracted page.",
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://www.metmuseum.org/art/collection/search/545772"
+      ],
+      "gaps": []
+    },
+    {
+      "id": "institution-evidence-guide",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "Chronos / Codex, 2026. The project grants CC BY 4.0 for this artwork. Its generator draws text and vector primitives; the SVG contains no linked or embedded source images, fonts or third-party figures. The thumbnail is an exact regeneration from that artwork.",
+      "fidelityFinding": "Compared ORACC’s royal inscription and administrative letter. The former records a royal account; the latter gives instructions concerning captives and provisions. A question mark asks what confirms receipt. No ancient text or script is reproduced.",
+      "descriptionFinding": "Expanded the alt to identify the two document icons, the question mark and the unproven outcome. The media record now links directly to the letter.",
+      "dateFinding": "Teaching guide made 29 October 2026. Ninth-century BCE royal inscription; letter assigned to 744–727 BCE, undated, with 732 BCE proposed in its catalogue.",
+      "evidence": [
+        "scripts/redesign/make-institutions-media.mjs — authored vector construction; isolated generation reproduced the SVG and WebP byte for byte.",
+        "public/atlas/media/institution-evidence-guide.svg — SHA-256 7013c44332b0dce4a2b9bdfb69e15685271f16be47709fe5503335f336c7ee00.",
+        "public/atlas/media/institution-evidence-guide-thumb.webp — SHA-256 6f21a0bd97a082b25c7f8f14d4d8ffaaf7e69de2452952be40e9c1c09c21020b; rendered at 300 px wide and visually inspected.",
+        "public/atlas/exports/reader-nimrud-palace.pdf, p. 4 — labels “Claim” and “Outcome”, figure caption, Chronos / Codex attribution and CC BY 4.0 URL checked in the extracted page.",
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://oracc.museum.upenn.edu/riao/Q004477",
+        "https://oracc.museum.upenn.edu/saao/saa19/P224478"
+      ],
+      "gaps": []
+    },
+    {
+      "id": "teotihuacan-household-guide",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "Chronos / Codex, 2026. The project grants CC BY 4.0 for this artwork. Its generator draws text and vector primitives; the SVG contains no linked or embedded source images, fonts or third-party figures. The thumbnail is an exact regeneration from that artwork.",
+      "fidelityFinding": "PATT describes blade production in Compound 17, and drains and central courtyards in Compounds 17 and 18. The line between panels compares activities and spaces rather than reconstructing streets or one simultaneous occupation.",
+      "descriptionFinding": "Alt covers rooms, courtyards, street drainage and schematic layout. The media record now links to the excavation project.",
+      "dateFinding": "Teaching guide made 29 October 2026. Mainly third–sixth-century CE residential/production context, with several architectural phases.",
+      "evidence": [
+        "scripts/redesign/make-images-work-diagrams.mjs — authored vector construction; isolated generation reproduced the SVG and WebP byte for byte.",
+        "public/atlas/media/teotihuacan-household-guide.svg — SHA-256 cd86bc9a3307c798176ede48d55277beed953d183807259c2c7d0a51249e432f.",
+        "public/atlas/media/teotihuacan-household-guide-thumb.webp — SHA-256 21657e1142a130c6beb0a85acb44c8fac976acebb319195457d227e137e848da; rendered at 300 px wide and visually inspected.",
+        "public/atlas/exports/reader-teotihuacan.pdf, p. 6 — labels “Rooms” and “Courtyard”, figure caption, Chronos / Codex attribution and CC BY 4.0 URL checked in the extracted page.",
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://sites.bu.edu/patt/research/household-archaeology/",
+        "https://sites.bu.edu/patt/research/domestic-economy/"
+      ],
+      "gaps": []
+    },
+    {
+      "id": "moche-evidence-guide",
+      "rightsStatus": "supported",
+      "fidelityStatus": "supported",
+      "rightsFinding": "Chronos / Codex, 2026. The project grants CC BY 4.0 for this artwork. Its generator draws text and vector primitives; the SVG contains no linked or embedded source images, fonts or third-party figures. The thumbnail is an exact regeneration from that artwork.",
+      "fidelityFinding": "Bernier describes tools, molds, rejected pieces and firing evidence in excavated workshops. Visible form/surface in the other panel concern separate museum objects. Similar material cannot establish provenance for these vessels.",
+      "descriptionFinding": "Alt preserves the difference between observing an object and excavating production debris. The media record now links to the workshop study.",
+      "dateFinding": "Teaching guide made 29 October 2026. Separate first-millennium CE object and workshop histories; no common findspot, single phase or diagnostic chronology inferred.",
+      "evidence": [
+        "scripts/redesign/make-images-work-diagrams.mjs — authored vector construction; isolated generation reproduced the SVG and WebP byte for byte.",
+        "public/atlas/media/moche-evidence-guide.svg — SHA-256 9aba22a9c72e12d913dee9fcffede617ab3666e5e7c6f2524a8794a7213f8a5e.",
+        "public/atlas/media/moche-evidence-guide-thumb.webp — SHA-256 944e5cb66a8e6ea0b192ee5e32ff384a6fdb1f976b296b28d7c17b84b433e215; rendered at 300 px wide and visually inspected.",
+        "public/atlas/exports/reader-moche.pdf, p. 5 — labels “Object” and “Excavation”, figure caption, Chronos / Codex attribution and CC BY 4.0 URL checked in the extracted page.",
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://www.scielo.cl/scielo.php?pid=S0718-10432009000100010&script=sci_arttext",
+        "https://www.iia.unam.mx/sites/default/files/archivos/MANL510125/2009_ManzanillaChapdelaine-DomesticLifePrehispanicCapitals.pdf"
+      ],
+      "gaps": []
+    }
+  ]
+}

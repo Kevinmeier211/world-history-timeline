@@ -1,0 +1,36 @@
+{
+  "subject": "poverty-point",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "pp-cooking-objects",
+      "caption": "These varied heating objects make food preparation part of the history of monumental earthworks. The publication does not give an individual date or findspot for each example. Modern experiments support a cooking interpretation; the photograph alone cannot show the contents of a meal.",
+      "notice": [
+        "Which shapes and grooves can you distinguish?",
+        "What further evidence would show how they were used?"
+      ],
+      "creator": "Makers not recorded; photograph credited to Brian Cockerham",
+      "place": "Lower Mississippi Valley; individual findspots not supplied in Figure 10",
+      "material": "Baked earth; archaeological heating objects",
+      "representedDate": "Regional Poverty Point tradition; photograph published in the corrected 1985 printing",
+      "relevance": "Connects domestic work and experimental archaeology to Poverty Point’s monumental landscape.",
+      "datingNote": "The 1985 publication identifies these as Poverty Point heating objects but supplies no individual accession or production date. They are contextual examples, not objects securely assigned to one year of the main site.",
+      "additionalImages": []
+    },
+    {
+      "id": "poverty-terrain-model",
+      "caption": "K. Ervin’s modern elevation model labels mounds A, B, C, E and F, six ridges and the plaza; Mound D is not labeled. Lighter colors show higher ground and dark green lower ground, not ancient building materials or dates. North is up. The scale bar spans 0–420 m, contours are 0.5 m, and displayed elevations are roughly 19–55 m above sea level. The source names the Pioneer quadrangle, West Carroll Parish, and NAD 83. Its small original legend needs zoom or this text equivalent. This is a modern surface, not one ancient construction phase; the LiDAR acquisition date is unstated. Converted without cropping, enhancement or upscaling.",
+      "notice": [
+        "Find Mound A west of the ridges and the plaza inside them.",
+        "Which differences are heights, and what separate evidence would date the features?"
+      ],
+      "creator": "K. Ervin; published in Grooms, Ward and Kidder (2023)",
+      "place": "Poverty Point, West Carroll Parish, Louisiana; modern mapped surface",
+      "material": "Published LiDAR digital elevation model; WebP conversion of source figure",
+      "representedDate": "Surviving modern ground surface with earthworks and later alterations from different periods; individual feature dates cannot be read from the elevation model alone.",
+      "relevance": "Makes surviving ground height and relative arrangement inspectable, while separate archaeological evidence explains construction, maintenance and later changes.",
+      "additionalImages": [],
+      "printWidthMm": 165
+    }
+  ]
+}

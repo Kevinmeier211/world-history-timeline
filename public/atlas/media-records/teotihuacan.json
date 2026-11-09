@@ -1,0 +1,46 @@
+{
+  "subject": "teotihuacan",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "met-312736",
+      "caption": "A heavy greenstone face dated to the third–seventh centuries. The museum suggests attachment to another object rather than wearing by a living person.",
+      "notice": ["Are there holes that would allow a wearer to see?"],
+      "creator": "Teotihuacan artist(s)",
+      "place": "Mexico, Mesoamerica; cultural attribution",
+      "material": "Greenstone (chlorite schist)",
+      "relevance": "Material observation can constrain functional interpretation; the object belongs to a later range than an exact 200 CE snapshot.",
+      "additionalImages": []
+    },
+    {
+      "id": "teotihuacan-household-guide",
+      "caption": "The Tlajinga project describes obsidian production in Compound 17 and shared courtyards and drains in the investigated compounds. This original guide connects activities and spaces without copying a source plan. The connecting line is a teaching relationship, not a street, an artifact route or a claim that every task occurred simultaneously.",
+      "notice": [
+        "Find one making task and one shared space.",
+        "Which further evidence would show who maintained a drain?"
+      ],
+      "creator": "Chronos / Codex; independently drawn teaching symbols",
+      "place": "Tlajinga, Teotihuacan; relationships described by the project, not measured locations",
+      "material": "Original SVG teaching diagram",
+      "representedDate": "Selected Teotihuacan residential and production evidence, mainly third–sixth centuries CE; no single architectural phase reconstructed",
+      "relevance": "Makes relationships between production, homes and shared facilities legible while distinguishing a conceptual guide from archaeological geometry.",
+      "additionalImages": [],
+      "printWidthMm": 145
+    },
+    {
+      "id": "teotihuacan-tlajinga-map",
+      "caption": "Figure 1 combines the Teotihuacan Mapping Project base with later PATT and Widmer/Storey fieldwork. Upper panel: city reference with north arrow and 1 km scale. Lower panel: southern Tlajinga, San Lorenzo River, Street of the Dead, Compounds 17, 18 and 33, and the platform group, with a 200 m scale. This is a composite locator map, not a single-phase household plan. Its small original labels need enlargement; the readable text here retains the key spatial relationships. No numerical compound coordinates or political boundary are inferred.",
+      "notice": [
+        "Find Tlajinga (7) in the upper city map, then Compounds 17 and 18 in the lower detail.",
+        "Compare domestic compounds with the platform group without making all outlines one ancient phase."
+      ],
+      "creator": "David M. Carballo and colleagues; mapping based on TMP (Millon, Drewitt and Cowgill 1973), PATT fieldwork and Widmer and Storey 1993",
+      "place": "Teotihuacan and its southern Tlajinga district, central Mexico",
+      "material": "Published archaeological mapping figure; supplied PNG converted losslessly to WebP",
+      "representedDate": "Teotihuacan archaeological city and Tlajinga district, combining multiple research and occupation phases",
+      "relevance": "Locates the studied neighborhood and the different architectural settings discussed in the household and production account. Mapping conventions, composite chronology and small labels remain explicit.",
+      "additionalImages": [],
+      "printWidthMm": 85
+    }
+  ]
+}

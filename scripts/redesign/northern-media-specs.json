@@ -1,0 +1,211 @@
+[
+  {
+    "met": 717577,
+    "key": "met-717577",
+    "subject": "bering-sea-carvers",
+    "source": "met-717577",
+    "place": "Alaska; broader Bering Strait context, precise findspot not supplied",
+    "alt": "Carved ivory harpoon counterweight with a central upright fitting and curved, engraved arms.",
+    "additionalImageAlts": [
+      "Reverse view of the counterweight with two rounded ends framing the central fitting.",
+      "Close view of the upright fitting and engraved curves on one end of the counterweight."
+    ],
+    "caption": "The catalogue identifies walrus ivory, a harpoon counterweight and 300–500 CE. Possible animal features remain an interpretation. A regional chronology debate does not supply a new individual date or a recovered account of one hunt.",
+    "printCaption": "Walrus-ivory tool component, catalogued 300–500 CE. Regional chronology is debated; no individual redating is supplied.",
+    "notice": [
+      "Follow a line across the ivory.",
+      "Which part might fit another component?"
+    ],
+    "relevance": "Joins material skill, practical function and the difference between an object attribution and regional dating.",
+    "views": 2
+  },
+  {
+    "key": "inuinnait-plate-1922",
+    "subject": "inuinnait-sewing",
+    "source": "jenness-1922",
+    "title": "Ikpakhuak and Higilak in dancing costume",
+    "accession": "Jenness 1922, frontispiece Plate I; digital PDF page 8",
+    "creator": "Canadian Arctic Expedition photograph; individual photographer not named on plate",
+    "date": {
+      "start": 1922,
+      "end": 1922,
+      "label": "Photograph published 1922; exact exposure undated",
+      "precision": "exact",
+      "note": "Publication date of the report. The title page names Southern Party 1913–16; the plate does not independently date its exposure."
+    },
+    "representedDate": "Ikpakhuak and Higilak in dancing costume; expedition context 1913–16",
+    "place": "Canadian Arctic; exact exposure location not given on plate",
+    "material": "Printed photographic plate, digitally rendered from a 1922 government report",
+    "url": "https://archive.org/download/lifeofcoppereski00jenn/lifeofcoppereski00jenn.pdf",
+    "localImage": "output/redesign/northern-expansion/research/inuinnait-plate-1922.png",
+    "documentSha256": "050a517bd00cf89a094d26624077bf65adbbeb2d29b8d15066e0df9f2ad0c7b0",
+    "extraction": "PDF page 8 rendered at 2400px with pdftoppm; full plate and caption retained, resized to local WebP",
+    "rights": "Public domain in the United States (published 1922); historic Canadian government publication, expired Crown term",
+    "credit": "Canadian Arctic Expedition, in Diamond Jenness, 1922, vol. XII, frontispiece Plate I. Ottawa: F.A.Acland, Printer to the King. Internet Archive scan.",
+    "alt": "Historic printed photograph of Ikpakhuak and Higilak standing in patterned fur clothing, with the original caption naming them and describing dancing costume.",
+    "caption": "The report names these two people and identifies dancing costume. It does not give an exact exposure date or establish every Arctic person’s everyday clothing. The complete printed plate is retained; an old expedition caption is evidence to read alongside community knowledge.",
+    "printCaption": "Named people in dancing costume, published 1922. The exposure is individually undated; the photograph is not a universal Arctic outfit.",
+    "printCredit": "Canadian Arctic Expedition / Jenness 1922, vol. XII, frontispiece Plate I; Internet Archive.",
+    "notice": [
+      "Compare the shapes and contrasting bands of the two outfits.",
+      "What could a still photograph leave out about making and wearing them?"
+    ],
+    "relevance": "Makes named people, clothing, documentary dates and the limits of expedition observation inspectable.",
+    "depiction": "contemporary document"
+  },
+  {
+    "key": "makah-loc-1910",
+    "subject": "ozette-makah",
+    "source": "makah-loc",
+    "title": "Light House Joe beside a boat, Neah Bay(?)",
+    "accession": "LOC 94501684; LC-USZ62-109749",
+    "creator": "Asahel Curtis",
+    "date": {
+      "start": 1910,
+      "end": 1911,
+      "label": "c. 1910 photograph; copyright 1911",
+      "precision": "approximate",
+      "note": "Catalogue gives c. 1910, c. 1911 and original copyright credit. The question mark on Neah Bay is retained."
+    },
+    "representedDate": "Light House Joe and a boat in the early twentieth century; not the Ozette burial event",
+    "place": "Neah Bay(?), Washington, as qualified by the archive",
+    "material": "Photographic print; digital reproduction",
+    "url": "https://tile.loc.gov/storage-services/service/pnp/cph/3c00000/3c09000/3c09700/3c09749v.jpg",
+    "rights": "Public domain in the United States: original U.S. photograph published/copyrighted 1910–1911; copyright expired",
+    "credit": "Asahel Curtis, c. 1910/copyright 1911. Library of Congress, Prints and Photographs Division, LOT 12766; LC-USZ62-109749.",
+    "alt": "Black-and-white archival photograph of Light House Joe holding a long pole beside a boat on a beach.",
+    "caption": "The archive identifies Light House Joe and qualifies the place as Neah Bay(?). This is later Makah community documentation, not a photograph of the buried houses at Ozette. It cannot identify this boat as one of the excavated cedar pieces or establish how far back sails were used.",
+    "printCaption": "Light House Joe beside a boat, Neah Bay(?), c. 1910/copyright 1911. Later community documentation, not the buried village or a specific excavated canoe.",
+    "printCredit": "Asahel Curtis / Library of Congress, LOT 12766; LC-USZ62-109749.",
+    "notice": [
+      "What work might moving and maintaining a boat require?",
+      "Which details can you observe without inventing an ancient story?"
+    ],
+    "relevance": "Links a named archival person to the wider Makah context while preserving chronology and location limits.",
+    "depiction": "later depiction",
+    "localImage": "output/redesign/northern-expansion/research/makah-candidate.jpg"
+  },
+  {
+    "key": "hsi-cliff-2005",
+    "subject": "blackfoot-bison",
+    "source": "hsi-image",
+    "title": "Cliff and prairie at Head-Smashed-In",
+    "accession": "Commons: Head-Smashed-In.jpg",
+    "creator": "UM, original photographer",
+    "date": {
+      "start": 2005,
+      "end": 2005,
+      "label": "Photograph published online 2005",
+      "precision": "exact",
+      "note": "Own photograph uploaded 17 July 2005. Publication is known; an exact exposure date is not independently established."
+    },
+    "representedDate": "Modern view of a much older communal-hunting landscape",
+    "place": "Head-Smashed-In, Alberta, Canada",
+    "material": "Digital landscape photograph",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Head-Smashed-In.jpg",
+    "rights": "Creator’s worldwide public-domain dedication; original file page preserves the fallback unrestricted-use grant",
+    "credit": "UM, Head-Smashed-In.jpg, Wikimedia Commons, uploaded 17 July 2005; own photograph released to public domain.",
+    "alt": "Open prairie and a rocky cliff at Head-Smashed-In, seen from beside the escarpment.",
+    "caption": "A modern landscape can show the relationship between open grassland and a cliff. It does not show a historic hunt, every drive-lane marker, the buried layers or all the processing camps. Archaeological and community sources provide those other kinds of evidence.",
+    "printCaption": "A modern view of the cliff and land, not a picture of a hunt. Drive lanes, deposits and processing areas require other evidence.",
+    "printCredit": "UM, Wikimedia Commons, Head-Smashed-In.jpg, published 2005; public-domain release.",
+    "notice": [
+      "Where would you look for a path toward the cliff?",
+      "What important work would happen outside this photograph?"
+    ],
+    "relevance": "Gives a real geographic landscape while keeping the limits of visible surface evidence explicit.",
+    "depiction": "later depiction",
+    "localImage": "output/redesign/northern-expansion/research/hsi-cliff-2005.jpg"
+  },
+  {
+    "key": "knife-earthlodge",
+    "subject": "hidatsa-villages",
+    "source": "knife-women",
+    "title": "A reconstructed earthlodge at Knife River",
+    "accession": "NPS EARTHLODGE-resized_1.jpg",
+    "creator": "National Park Service; individual photographer not supplied",
+    "date": {
+      "start": null,
+      "end": null,
+      "label": "Modern photograph; exposure date not supplied",
+      "precision": "unknown",
+      "note": "A photograph of an interpretive reconstruction, not an original 1600–1845 house. No exposure date is given."
+    },
+    "representedDate": "Modern reconstruction explaining Hidatsa earthlodge construction",
+    "place": "Knife River Indian Villages National Historic Site, North Dakota",
+    "material": "Digital photograph of a reconstructed timber-and-earth building",
+    "url": "https://www.nps.gov/articles/images/EARTHLODGE-resized_1.jpg",
+    "rights": "U.S. Government work; public domain in the United States (explicit NPS Photo credit and NPS ownership policy)",
+    "credit": "National Park Service, Hidatsa Women & Earthlodges of the Upper Missouri River; NPS Photo.",
+    "alt": "A dome-shaped reconstructed earthlodge covered in grass and sod, with a projecting timber-framed doorway.",
+    "caption": "This standing lodge is a modern reconstruction used to explain building knowledge. NPS describes women’s construction, ownership and maintenance through clan cooperation. The 650-pixel source has limited detail; it is not enlarged beyond its original resolution.",
+    "printCaption": "Modern interpretive reconstruction, not an untouched historical house. Community and archaeological accounts explain its structure and women’s work.",
+    "notice": [
+      "How might the timber and earth support one another?",
+      "What would a photograph fail to tell us about ownership and knowledge?"
+    ],
+    "relevance": "Makes reconstruction visible while linking architecture with women’s labor and authority.",
+    "depiction": "later depiction"
+  },
+  {
+    "key": "knife-garden-tools",
+    "subject": "hidatsa-villages",
+    "source": "knife-subsistence",
+    "title": "A scapula hoe and digging stick: teaching illustration",
+    "accession": "NPS teacher guide, hoe-and-digging-stick.jpg",
+    "creator": "National Park Service; illustrator not individually identified",
+    "date": {
+      "start": null,
+      "end": null,
+      "label": "Modern teaching illustration; creation date not supplied",
+      "precision": "unknown",
+      "note": "The institutional text describes tools made with wood and a bison scapula. This is not a dated excavated object photograph."
+    },
+    "representedDate": "Tools explained in a community-authored account of Hidatsa gardening",
+    "place": "Knife River teaching context; no excavated findspot",
+    "material": "Digital reproduction of an explanatory tool illustration",
+    "url": "https://www.nps.gov/articles/images/hoe-and-digging-stick.jpg",
+    "rights": "U.S. Government work; public domain in the United States (NPS credit and ownership policy)",
+    "credit": "National Park Service, Subsistence: Tribal Nutrition & Health; community-authored teacher guide. Source image credited NPS Photo, with alt text identifying illustration.",
+    "alt": "Teaching illustration showing a hoe with a bison shoulder blade attached to wood and a separate pointed digging stick.",
+    "caption": "The institutional image illustrates tools rather than presenting accessioned ancient implements. Read it with the community-authored description of preparing fields and growing crops. The illustration cannot establish the maker, date or condition of a particular historical hoe.",
+    "notice": [
+      "Which part comes from an animal and which from a plant?",
+      "What further evidence would identify one actual historical tool?"
+    ],
+    "relevance": "Connects bison materials with agriculture and distinguishes explanatory imagery from artifact evidence.",
+    "depiction": "later depiction"
+  },
+  {
+    "key": "hunt-title-1921",
+    "subject": "kwakwakawakw-potlatch",
+    "source": "hunt-boas-1921",
+    "title": "A 1921 title page: Hunt’s data and Boas’s authorship",
+    "accession": "LOC 21020998, part 2, p. V; scan 0013",
+    "creator": "Government Printing Office; text credits George Hunt and Franz Boas",
+    "date": {
+      "start": 1921,
+      "end": 1921,
+      "label": "Published 1921",
+      "precision": "exact",
+      "note": "Publication date from the volume title and catalogue; annual-report period 1913–14 is a separate date."
+    },
+    "representedDate": "How a 1921 ethnography credits collected knowledge; not a photograph of 1921 confiscation",
+    "place": "Washington, DC publication; knowledge concerns Kwakwaka’wakw communities",
+    "material": "Printed ethnographic title page; digital archive reproduction",
+    "url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:ethnologyofkwaki02boas:ethnologyofkwaki02boas_0013/full/1600,/0/default.jpg",
+    "rights": "Public domain:1921 U.S. Government Printing Office publication; LOC identifies the book as free to use and reuse",
+    "credit": "George Hunt; Franz Boas, Ethnology of the Kwakiutl, 1921, part 2, p. V. Bureau of American Ethnology 35th Annual Report. Library of Congress.",
+    "alt": "Printed title page naming Ethnology of the Kwakiutl, based on data collected by George Hunt, by Franz Boas.",
+    "caption": "The page distinguishes the person credited with collecting knowledge from the author named by the publication. That credit is evidence of how the book was made, not proof that a government or museum owns the meaning of every practice it describes. Historical terminology is retained within the original source.",
+    "printCaption": "The title page names George Hunt’s collected data and Franz Boas’s authorship. Publication and community authority are different claims.",
+    "printCredit": "Hunt / Boas, 1921, part 2, p. V; Government Printing Office / Library of Congress.",
+    "notice": [
+      "Find both personal names on the page.",
+      "Whose work might a title page still leave unmentioned?"
+    ],
+    "relevance": "Offers a genuine primary document for asking who records, credits and interprets community knowledge.",
+    "depiction": "contemporary document",
+    "localImage": "output/redesign/northern-expansion/research/hunt-13.jpg"
+  }
+]

@@ -1,0 +1,761 @@
+{
+  "scope": "Case-specific author/editorial readings of the main account, deeper reading, family activity and supplied evidence. Targeted checks add to the named-claim register. The evidence locator identifies what was inspected, and the limit states its reach.",
+  "cases": [
+    {
+      "id": "uruk-accounts",
+      "chapter": "C1",
+      "rubric": {
+        "orientation": "The tablet provides a concrete entry to grain accounting in southern Mesopotamia. The city locator and the probable provenance stay distinguishable.",
+        "explanation": "The explanation moves from impressions and incisions to the practical work of separating an item from its amount and carrying an account beyond the original exchange.",
+        "evidence": "Spar connects large temple estates with accounting for revenue. That passage supports the institutional mechanism while leaving the recipients, legal status and exact reading of this tablet undetermined.",
+        "chronology_geography": "The c. 3100–2900 BCE label attaches to the tablet. The later excavated residential quarters have a separate chronology.",
+        "perspective": "The administrator selects what enters the account. Household food preparation and the counted workers’ own priorities remain research questions.",
+        "reading": "The opening photograph gives a reader an observable task before the adult discussion of phonetic signs and institutional estates.",
+        "activity": "The meal-record exercise can be drawn or spoken. Its answer key asks for an omission and clearly identifies the invented marks as the learner’s.",
+        "connections": "Dholavira and Liangzhu let the reader compare coordination of work without assuming an exchange route or a shared government."
+      },
+      "evidence": [
+        {
+          "source": "writing",
+          "url": "https://www.metmuseum.org/essays/the-origins-of-writing",
+          "locator": "Uruk temple estates and economic recording, opening historical account",
+          "access": "Direct museum essay"
+        },
+        {
+          "source": "met-327384",
+          "url": "https://www.metmuseum.org/art/collection/search/327384",
+          "locator": "Catalogue grain interpretation and missing verbs",
+          "access": "Previously consulted dossier record"
+        }
+      ],
+      "verifiedFindings": [
+        "Spar connects large temple estates with accounting for revenue. That passage supports the institutional mechanism while leaving the recipients, legal status and exact reading of this tablet undetermined."
+      ],
+      "limits": "Social and legal status cannot be recovered for the unnamed participants.",
+      "defects": []
+    },
+    {
+      "id": "old-kingdom",
+      "chapter": "C1",
+      "rubric": {
+        "orientation": "The Saqqara chapel introduces a question about commemoration. The text moves explicitly to different evidence from Giza.",
+        "explanation": "Vats, molds, fuel and repeated bakery work explain how grain could supply a workforce. A logbook adds transport and daily scheduling.",
+        "evidence": "AERA describes its September–October 1993 experimental bakery and the excavated installations. The distinction between experimental baking and recovery of an ancient recipe is sustained.",
+        "chronology_geography": "The case dates cover the Old Kingdom. The chapel’s object range, Giza settlement, and Wadi el-Jarf findspot of a log describing Tura/Giza travel are identified individually.",
+        "perspective": "An elite funerary commission, crew log and food remains illuminate different work. The narrative declines to assign personal freedom from those records.",
+        "reading": "The family guide starts with food preparation. Adults can follow the translation gaps, experimental materials and redeposited offerings.",
+        "activity": "The diagram and text support naming a supply task and the kind of remains that could test it. No estimate of rations or bread yield is required.",
+        "connections": "The Uruk comparison gives two records of provision with different purposes, while the Caral comparison broadens the question to sustaining construction."
+      },
+      "evidence": [
+        {
+          "source": "giza-provisioning",
+          "url": "https://aeraweb.org/feeding-pyramid-workers/",
+          "locator": "Feeding the Pyramid Workers, opening, excavated bakeries and reconstruction",
+          "access": "Direct AERA excavation-project account"
+        },
+        {
+          "source": "merer-logbook",
+          "url": "https://www.ifao.egnet.net/uploads/publications/divers/MIFAO136_ann_01.pdf",
+          "locator": "English annex to MIFAO 136, crew itinerary and food mission",
+          "access": "Prior household source review"
+        }
+      ],
+      "verifiedFindings": [
+        "AERA describes its September–October 1993 experimental bakery and the excavated installations. The distinction between experimental baking and recovery of an ancient recipe is sustained."
+      ],
+      "limits": "The experiment tests a possible process. Redeposited offerings cannot establish a complete staff diet.",
+      "defects": []
+    },
+    {
+      "id": "dholavira",
+      "chapter": "C1",
+      "rubric": {
+        "orientation": "The city on Khadir Island supplies the water-management problem. The regional Indus seal has its own provenance.",
+        "explanation": "The sequence distinguishes capture, holding water and maintaining capacity. Labels separate exposed components, a Stage VI workshop and radar hypotheses.",
+        "evidence": "The Met identifies a stamp seal and its modern impression and describes an undeciphered script. The reader can compare reversed surfaces without claiming they name the city’s water administrators.",
+        "chronology_geography": "The site occupation, the object window and the two published end-date conventions are visible. A combined plan cannot establish simultaneous operation.",
+        "perspective": "Unequal residential arrangements allow questions about differences in access. Household allocations, occupations and legal status are explicitly unresolved.",
+        "reading": "The twin concepts of storing and capturing water are explained before the adult radar and household-access discussion.",
+        "activity": "The solid structures and dashed survey area let a learner make one observation and one excavation prediction from supplied material.",
+        "connections": "The Liangzhu comparison works through dated built features and what evidence of coordination can tell us about households."
+      },
+      "evidence": [
+        {
+          "source": "met-324062",
+          "url": "https://www.metmuseum.org/art/collection/search/324062",
+          "locator": "Catalogue title, description and object details for seal and modern impression",
+          "access": "Direct museum catalogue"
+        },
+        {
+          "source": "dholavira-plan",
+          "url": "https://whc.unesco.org/document/189006",
+          "locator": "ASI plan key for castle well, chute, reservoirs and Stage VI workshop",
+          "access": "Recorded in C1 source review; the UNESCO site endpoint returned 503 on this pass"
+        }
+      ],
+      "verifiedFindings": [
+        "The Met identifies a stamp seal and its modern impression and describes an undeciphered script. The reader can compare reversed surfaces without claiming they name the city’s water administrators."
+      ],
+      "limits": "The plan is composite. Reconstructing a full phased flow network would require more excavation evidence.",
+      "defects": []
+    },
+    {
+      "id": "liangzhu",
+      "chapter": "C1",
+      "rubric": {
+        "orientation": "The Lower Yangtze city, regional dams and an individual jade are introduced as three scales of inquiry.",
+        "explanation": "Grass-wrapped clay makes dam construction intelligible as a chain of material tasks. The text separates reconstructed capacity from use and allocation.",
+        "evidence": "The Met catalogue describes a cylindrical opening inside a squared, tapering exterior and corner masks. It qualifies status as an interpretation and leaves function uncertain, supporting the limited description of the cong.",
+        "chronology_geography": "The object date, site sequence and dated dam samples keep their separate clocks. The museum object is not assigned a city burial findspot.",
+        "perspective": "The account distinguishes differentiated burial assemblages from household labor contracts or decisions inferred solely from infrastructure.",
+        "reading": "The material and opening can be observed before readers consider the paper’s correction and calibrated years BP.",
+        "activity": "The guide supports sorting a material, structure and activity. The final question explicitly asks for a social question the artifacts leave open.",
+        "connections": "Dholavira offers a comparison of water management and uncertain household access, preserving separate local systems."
+      },
+      "evidence": [
+        {
+          "source": "met-72376",
+          "url": "https://www.metmuseum.org/art/collection/search/72376",
+          "locator": "Catalogue description and object details: shape, face motifs and nephrite",
+          "access": "Direct museum catalogue"
+        },
+        {
+          "source": "liangzhu-correction",
+          "url": "https://www.pnas.org/doi/10.1073/pnas.1722309115",
+          "locator": "2018 correction, revised high- and low-reservoir capacities",
+          "access": "Earlier named-claim/source review"
+        }
+      ],
+      "verifiedFindings": [
+        "The Met catalogue describes a cylindrical opening inside a squared, tapering exterior and corner masks. It qualifies status as an interpretation and leaves function uncertain, supporting the limited description of the cong."
+      ],
+      "limits": "The UNESCO property endpoint returned 503 in this access attempt. Hydraulic calculations were not independently reproduced.",
+      "defects": []
+    },
+    {
+      "id": "caral",
+      "chapter": "C1",
+      "rubric": {
+        "orientation": "The Supe Valley site is placed inland from the coast. The opening ties public architecture to recurrent provision and renewal.",
+        "explanation": "Woven shicras, stone fill and subdivision of rooms explain how previous buildings could be incorporated into later work.",
+        "evidence": "The underlying dental-calculus paper reports twenty teeth, two per burial context, and distinguishes the Caral maize evidence at 2398–2038 cal BCE. The article and Table 1 support a site-specific sample rather than a diet percentage for the whole valley.",
+        "chronology_geography": "Caral and Áspero remain distinct within the 3000–1800 BCE frame. A burial date and a sequence of buildings answer different questions.",
+        "perspective": "The project’s inference of higher-status occupants is attributed to layout and finish. The work obligations and identities of the people moving the stones remain open.",
+        "reading": "The diagram supplies a simple spatial sequence first. The deeper text explains sampling, dates and the problems with turning microscopic counts into portions.",
+        "activity": "The three building stages provide enough evidence to identify the ordering and name tasks. A hypothetical excavation observation can be judged against the guide.",
+        "connections": "The Old Kingdom and Skara comparisons ask how buildings were renewed and supplied in distinct places."
+      },
+      "evidence": [
+        {
+          "source": "caral-starch-2023",
+          "url": "https://www.nature.com/articles/s41598-023-41015-6",
+          "locator": "Methods, tooth sampling; Table 1 and discussion of CAR 391",
+          "access": "Europe PMC full-text XML, PMC10465486, DOI matched; publisher redirect and PMC web challenge failed"
+        },
+        {
+          "source": "caral-project-2005",
+          "url": "https://www.zonacaral.gob.pe/downloads/publicaciones/libro-caral-supe-5000-anos-identidad-cultural-2005-espanol.pdf",
+          "locator": "Printed pp. 19, 36–37, 41 on shicras, residences and room renewal",
+          "access": "Documented original PDF page review in C1-HOUSEHOLDS-SOURCES; fresh download timed out"
+        }
+      ],
+      "verifiedFindings": [
+        "The underlying dental-calculus paper reports twenty teeth, two per burial context, and distinguishes the Caral maize evidence at 2398–2038 cal BCE. The article and Table 1 support a site-specific sample rather than a diet percentage for the whole valley."
+      ],
+      "limits": "The regional sample is small. No dietary percentage or identification of individual construction workers follows.",
+      "defects": []
+    },
+    {
+      "id": "skara-brae",
+      "chapter": "C1",
+      "rubric": {
+        "orientation": "The stone interiors at Sandwick introduce domestic work. The locator identifies the present site without projecting its coastline backward.",
+        "explanation": "Buildings, hearths and passages explain how heating, storage and access depended on maintenance and changes to adjoining structures.",
+        "evidence": "Bishop and colleagues place the early cereal assemblage below the main settlement and distinguish later assemblages. The dossier correctly prevents the large Ha’Breck grain store from being assigned to Skara.",
+        "chronology_geography": "An uncertain modeled boundary and Phase 0 sample are distinguished from the visible houses. The nineteenth-century rebuilding belongs to a separate chronology.",
+        "perspective": "Stone furnishings support questions about household practices while leaving gendered labor and inhabitants’ exact movements open.",
+        "reading": "Fuel and a hearth make the learner’s problem concrete. Adults can examine rebuilding, phase boundaries and what different plant remains can establish.",
+        "activity": "The learner traces an imagined route and identifies evidence needed to test it. A measured ancient floor plan is unnecessary for that exercise.",
+        "connections": "Caral offers a comparison of household renewal. The wider Orkney monuments have separate functions and dates."
+      },
+      "evidence": [
+        {
+          "source": "skara-crops-2022",
+          "url": "https://www.cambridge.org/core/journals/antiquity/article/scotlands-first-farmers-new-insights-into-early-farming-practices-in-northwest-europe/7C027B8A129F68533E558FAB47B63027",
+          "locator": "Skara Brae and Braes of Ha’Breck section, Phase 0 assemblage and later settlement",
+          "access": "Direct publisher full text"
+        },
+        {
+          "source": "skara-significance-2024",
+          "url": "https://app-hes-pubs-prod-neu-01.azurewebsites.net/api/file/703982e8-be07-4f7a-9265-b11e0121c461",
+          "locator": "House 1 rebuilding and occupation boundary discussion",
+          "access": "Previously consulted HES statement, C1-HOUSEHOLDS-SOURCES"
+        }
+      ],
+      "verifiedFindings": [
+        "Bishop and colleagues place the early cereal assemblage below the main settlement and distinguish later assemblages. The dossier correctly prevents the large Ha’Breck grain store from being assigned to Skara."
+      ],
+      "limits": "The sample does not represent the full diet of later households. Exact oral accounts of occupants are unavailable.",
+      "defects": []
+    },
+    {
+      "id": "kerma-potters",
+      "chapter": "C1",
+      "rubric": {
+        "orientation": "The visually distinctive beaker is the entry into a Nubian capital. Giving Abydos tomb 525 separately prevents the regional marker being mistaken for the findspot.",
+        "explanation": "Hand-forming, finishing and firing connect practical steps to the vessel. Courtyards and provisioning widen the inquiry from craft to the city.",
+        "evidence": "The excavation project describes residential groups divided by a courtyard and locates kitchens, silos and domestic annexes there. This supports the household provisioning passage without yielding a menu for the selected vessel.",
+        "chronology_geography": "The case, phase table and museum object have separate published ranges. The text distinguishes the later Doukki Gel workshops and Taharqo’s political setting.",
+        "perspective": "The idea of a trader from Kerma living in Egypt is presented as a museum proposal. A burial vessel cannot assign its owner an ethnic or professional identity.",
+        "reading": "The family can begin by drawing the color boundary. The deeper account explains how excavation overturned the earlier trading-post interpretation.",
+        "activity": "Surface, documented grave and imagined biography are separable using the photograph and capsule alone. The activity requires no real firing.",
+        "connections": "The Taharqo comparison asks about making and institutions at different dates. The Olmec link compares techniques and the interpretation of craft evidence."
+      },
+      "evidence": [
+        {
+          "source": "kerma-city-project",
+          "url": "https://kerma.ch/en/site/",
+          "locator": "City of Kerma, residential buildings paragraph on courtyards, kitchens and silos",
+          "access": "Direct excavation project account"
+        },
+        {
+          "source": "met-545772",
+          "url": "https://www.metmuseum.org/art/collection/search/545772",
+          "locator": "Catalogue manufacturing interpretation, tomb 525 and possible owner",
+          "access": "Existing named-claim and source review"
+        }
+      ],
+      "verifiedFindings": [
+        "The excavation project describes residential groups divided by a courtyard and locates kitchens, silos and domestic annexes there. This supports the household provisioning passage without yielding a menu for the selected vessel."
+      ],
+      "limits": "The courtyard account has a city-wide scale. It cannot identify the burial occupant or measure a household diet.",
+      "defects": []
+    },
+    {
+      "id": "hattusha-change",
+      "chapter": "C2",
+      "rubric": {
+        "orientation": "The opening distinguishes life in a capital and the loss of its central administration. It locates Hattusha and the separate Gordion tree samples.",
+        "explanation": "The grain-store example shows how consecutive short harvests could reduce reserves. The text leaves access, choices and withdrawal as further causal questions.",
+        "evidence": "The DAI excavation abstract traces a northern Lower City neighborhood through three building layers from the kārum period into Hittite times and reports houses beside an official building. The paper on drought separately supplies the proxy estimate.",
+        "chronology_geography": "The original wording placed the whole episode beyond c. 1200 BCE. The central estimate is later, but ±3 years permits overlap with the approximate endpoint. The passage and dated phase now explain this distinction.",
+        "perspective": "The royal and cult archives foreground institutional decisions. The houses establish other activity without recovering each resident’s coping strategy.",
+        "reading": "The mechanism of recurring shortages comes before the technical discussion of detrending and isotope evidence.",
+        "activity": "The revised family task asks what the uncertainty does to the boundary comparison. Its separate prompt about food and decisions is answerable from the supplied example.",
+        "connections": "Uluburun supplies a contemporary regional comparison of institutions and provisioning without turning drought into a cause of the shipwreck."
+      },
+      "evidence": [
+        {
+          "source": "hattusha-houses",
+          "url": "https://publications.dainst.org/journals/aa/article/view/1929",
+          "locator": "German abstract, northern Lower City paragraph",
+          "access": "Direct DAI project publication"
+        },
+        {
+          "source": "hittite-drought",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9946833/",
+          "locator": "Discussion and uncertainty in the dated dry interval; see archived PMC9946833.xml",
+          "access": "Primary full text from the current project source-recheck"
+        }
+      ],
+      "verifiedFindings": [
+        "The DAI excavation abstract traces a northern Lower City neighborhood through three building layers from the kārum period into Hittite times and reports houses beside an official building. The paper on drought separately supplies the proxy estimate."
+      ],
+      "limits": "The overlap is arithmetic applied to the reported three-year uncertainty. A common exact year for the drought and political withdrawal cannot be inferred.",
+      "defects": [
+        {
+          "status": "repaired",
+          "file": "scripts/redesign/content-bronze-institutions.ts",
+          "finding": "Qualified the chronological boundary in the dossier, reference phase and family task."
+        }
+      ]
+    },
+    {
+      "id": "uluburun",
+      "chapter": "C2",
+      "rubric": {
+        "orientation": "The Kaş wreck location anchors the cargo question. The displayed point can be found without inferring a complete voyage.",
+        "explanation": "The account moves from recovered materials to the shipbuilding, packing and maintenance that allowed them to travel together.",
+        "evidence": "INA identifies Lebanese cedar, pegged mortise-and-tenon construction and a proto-keel. The hull is direct evidence of building technique while the crew’s identity requires different evidence.",
+        "chronology_geography": "The excavation estimate retains its ±15-year range around 1320 BCE. A seabed position, source region and intended destination are treated separately.",
+        "perspective": "Tools and personal objects widen the account beyond elites. The dossier keeps possible royal patronage and an inferred passenger identity qualified.",
+        "reading": "A learner can sort two cargo items and one unknown. An adult can follow differing ore-source arguments and the separate scope of later wreck studies.",
+        "activity": "The evidence guide distinguishes recovered cargo, inferred metal provenance and an unknown itinerary. Each category has an example in the capsule.",
+        "connections": "The Hattusha and Shang comparisons use institutions and craft as questions. The mixed freight does not establish contact with either selected object."
+      },
+      "evidence": [
+        {
+          "source": "uluburun",
+          "url": "https://nauticalarch.org/projects/uluburun-late-bronze-age-shipwreck-excavation/",
+          "locator": "INA project, ship construction paragraph and recovered cargo",
+          "access": "Direct excavation project account"
+        },
+        {
+          "source": "uluburun-tin-2025",
+          "url": "https://doi.org/10.15184/aqy.2025.41",
+          "locator": "Uluburun-specific contamination and remelting, printed p. 718",
+          "access": "Earlier C2 source consultation"
+        }
+      ],
+      "verifiedFindings": [
+        "INA identifies Lebanese cedar, pegged mortise-and-tenon construction and a proto-keel. The hull is direct evidence of building technique while the crew’s identity requires different evidence."
+      ],
+      "limits": "No reconstruction of the whole route or passenger roster is supported.",
+      "defects": []
+    },
+    {
+      "id": "shang-ritual",
+      "chapter": "C2",
+      "rubric": {
+        "orientation": "The setting distinguishes late Anyang from the longer Shang chronology and from the two objects’ place attributions.",
+        "explanation": "Making a hollow bronze and recording a divination charge are described as different skilled sequences. The lesson’s translated examples refer to their own objects.",
+        "evidence": "The Met gong record specifies Henan and qualifies Anyang as possible. Its spout and handle support the pouring-vessel discussion; its decoration supplies no named owner.",
+        "chronology_geography": "The gong’s broad 13th–11th-century date, the bone’s broad attribution and the late capital each retain their own scope.",
+        "perspective": "The royal questions reveal what the court chose to record. The farmer’s voice and individual sacrificial victims’ accounts cannot be recovered through these objects.",
+        "reading": "The family can compare the two surfaces before considering workshop organization and unequal power in the adult reading.",
+        "activity": "The prior instruction simultaneously said to choose one statement and to use all three. The revised action requests one observation, one catalogue identification and one further evidence need.",
+        "connections": "Dong Son and Uluburun offer bounded comparisons of bronze and production. The prompt avoids attributing any one museum object to Fu Hao’s tomb."
+      },
+      "evidence": [
+        {
+          "source": "met-44781",
+          "url": "https://www.metmuseum.org/art/collection/search/44781",
+          "locator": "Culture field and description of the wine pouring vessel",
+          "access": "Direct Met catalogue"
+        },
+        {
+          "source": "shang-divination",
+          "url": "https://asia.si.edu/education/educator-resources/teaching-china-with-the-smithsonian/lesson-plans/making-sense-of-the-future-the-oracle-bone-and-shang-dynasty-divination/",
+          "locator": "Lesson examples of charge, interpretation and recorded outcome",
+          "access": "Prior C2 source consultation"
+        }
+      ],
+      "verifiedFindings": [
+        "The Met gong record specifies Henan and qualifies Anyang as possible. Its spout and handle support the pouring-vessel discussion; its decoration supplies no named owner."
+      ],
+      "limits": "No translation of the selected Met bone or precise excavation context for this gong is claimed.",
+      "defects": [
+        {
+          "status": "repaired",
+          "file": "scripts/redesign/content-bronze-institutions.ts",
+          "finding": "Made the three requested family responses unambiguous."
+        }
+      ]
+    },
+    {
+      "id": "olmec",
+      "chapter": "C2",
+      "rubric": {
+        "orientation": "The small ceramic figure provides a way into the distinct histories of San Lorenzo and La Venta. Its own findspot is unspecified.",
+        "explanation": "Ear ornaments open a question about bodily display, while floor samples, redistributed soil and workshop traces supply distinct scales of production.",
+        "evidence": "The Met record measures the ceramic figure at 17 cm and discusses possible social meanings. Its scale supports comparison with a monument while its ornaments alone cannot identify an office.",
+        "chronology_geography": "The art frame, earlier site phases and later misdated mounds are distinguished. The San Lorenzo anchor is not described as the findspot of the figure.",
+        "perspective": "The discussion of changing house estimates explains why a modern household analogy remains conditional. Household members’ identities cannot be reconstructed from a floor count.",
+        "reading": "Readers can begin with the ornaments and hands. The deeper account gives each inference between an auger sample, a building and an estimated population.",
+        "activity": "Two visible features and one further question can be supplied from the figure and caption. Alternative interpretations of adornment remain possible.",
+        "connections": "Poverty Point and Kerma permit comparison of materials and organized work. Each retains a distinct chronology and evidence for settlement."
+      },
+      "evidence": [
+        {
+          "source": "met-314609",
+          "url": "https://www.metmuseum.org/art/collection/search/314609",
+          "locator": "Object details, dimensions and curatorial discussion of adornment",
+          "access": "Direct Met catalogue"
+        },
+        {
+          "source": "olmec-sampling-2020",
+          "url": "https://scielo.org.mx/pdf/educm/v35n1/2448-6515-educm-35-01-117.pdf",
+          "locator": "Correction of surface-mound attribution and assumptions behind the buried-floor estimate",
+          "access": "Prior C2 clay source review"
+        }
+      ],
+      "verifiedFindings": [
+        "The Met record measures the ceramic figure at 17 cm and discusses possible social meanings. Its scale supports comparison with a monument while its ornaments alone cannot identify an office."
+      ],
+      "limits": "The object cannot establish a particular household or the complete distribution of its use.",
+      "defects": []
+    },
+    {
+      "id": "lapita",
+      "chapter": "C2",
+      "rubric": {
+        "orientation": "The introduction sets the Bismarck Archipelago alongside several later island communities rather than assigning a single journey to every Lapita find.",
+        "explanation": "The account connects making a pot, transporting materials and feeding an island settlement. The Rove case distinguishes nonlocal temper from an inferred transfer of finished pottery.",
+        "evidence": "The Teouma authors analyzed bone-collagen isotopes from 49 adults against a dietary baseline. The dossier keeps the protein measure and its local group distinct from every meal on every island.",
+        "chronology_geography": "The coral files at Nukuleka, their deposition and subsequent plain-pottery histories have independent dates. The later c. 400 BCE estimate marks ceramic change.",
+        "perspective": "Islanders appear as navigators, potters and food producers. The linguistic reconstruction has separate evidence, and decoration cannot identify an individual speaker.",
+        "reading": "The learner can repeat a drawn pattern before the deeper discussion of dating models, redeposition and linguistic arguments.",
+        "activity": "The activity explicitly uses a learner-made motif and asks what material or dated evidence would be needed to infer movement. The response criteria allow drawing or explanation.",
+        "connections": "Polynesian voyaging offers a later inquiry into maritime skills. Kuk adds another independently dated setting for production."
+      },
+      "evidence": [
+        {
+          "source": "lapita-teouma-diet",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0090376",
+          "locator": "Abstract, sample and local dietary baseline",
+          "access": "Direct PLOS research paper"
+        },
+        {
+          "source": "lapita-rove-temper",
+          "url": "https://pacificarchaeology.org/index.php/journal/article/view/DickinsonNunn",
+          "locator": "Abstract, Rove sands and nonlocal volcanic temper",
+          "access": "Prior C2 clay source review"
+        }
+      ],
+      "verifiedFindings": [
+        "The Teouma authors analyzed bone-collagen isotopes from 49 adults against a dietary baseline. The dossier keeps the protein measure and its local group distinct from every meal on every island."
+      ],
+      "limits": "Bone collagen preferentially reflects dietary protein. Local pots, sampled people and a language reconstruction have different denominators.",
+      "defects": []
+    },
+    {
+      "id": "poverty-point",
+      "chapter": "C2",
+      "rubric": {
+        "orientation": "Macon Ridge locates the selected complex. The question about food and large-scale earthmoving does not define all Lower Mississippi Valley communities.",
+        "explanation": "Builders filled depressions and maintained a plaza as well as constructing mounds. The small heating objects offer a second way to connect food supply and work.",
+        "evidence": "Grooms and colleagues report earlier Jaketown practices, based on locally dated deposits, and explicitly avoid extending the Poverty Point type-site chronology backward. The dossier correctly uses convergence as an interpretation.",
+        "chronology_geography": "The main complex is dated c. 1700–1100 BCE. The later Mound D can include older artifacts in reused soil. The modern terrain model has separate acquisition and labeling limits.",
+        "perspective": "Builders and cooks are included through their work without inventing a political office, a leader or a specific cook.",
+        "reading": "The family first sees grooves and outlines. Adults can examine the difference between a heating experiment, a construction stage and a regional dating argument.",
+        "activity": "The supplied photograph and experimental paraphrase support describing one shape and a possible use. Corrected the capsule’s run-together list of mound letters to keep the LiDAR legend readable.",
+        "connections": "Olmec and Lapita provide separate comparisons of useful materials. Shared questions about supplying a community do not imply common political structure."
+      },
+      "evidence": [
+        {
+          "source": "pp-chronology-2023",
+          "url": "https://www.cambridge.org/core/journals/antiquity/article/convergence-at-poverty-point-a-revised-chronology-of-the-late-archaic-lower-mississippi-valley/121431E2E3469A819185F44BF7AB81EA",
+          "locator": "Abstract and opening discussion of the Jaketown chronostratigraphy; distinction from the type-site",
+          "access": "Direct publisher paper"
+        },
+        {
+          "source": "pp-louisiana",
+          "url": "https://www.crt.state.la.us/dataprojects/archaeology/povertypoint/assets/poverty-point-pdf-1.0.pdf",
+          "locator": "Mound D, plaza maintenance and terrain figure legend",
+          "access": "Previously consulted state booklet"
+        }
+      ],
+      "verifiedFindings": [
+        "Grooms and colleagues report earlier Jaketown practices, based on locally dated deposits, and explicitly avoid extending the Poverty Point type-site chronology backward. The dossier correctly uses convergence as an interpretation."
+      ],
+      "limits": "The family exercise cannot establish an ancient recipe. No claim about the pace of the whole site is derived from a single mound.",
+      "defects": [
+        {
+          "status": "repaired",
+          "file": "scripts/redesign/coasts-poverty.ts",
+          "finding": "Separated the five letter labels in the evidence capsule."
+        }
+      ]
+    },
+    {
+      "id": "colima",
+      "chapter": "C3",
+      "rubric": {
+        "orientation": "The stair, levels and roof invite a concrete question about a small ceramic building from western Mexico.",
+        "explanation": "Making an offering and preparing a chamber explain how a model might participate in a ceremony. The suggested burner function has its own test.",
+        "evidence": "The Huitzilapa researchers report six interments in two chambers. Microscopy distinguished cotton and agave while many presumed food remains permitted only broad identifications.",
+        "chronology_geography": "The current accession range ends at 200 CE. The 2015 caption extends it to 300 CE. Huitzilapa in Jalisco supplies a separately dated comparison.",
+        "perspective": "The differences among funerary offerings allow questions about status. Ancestor relationships are an attributed interpretation across varied communities.",
+        "reading": "Following the shape and making an observation precede the optional abstract-based discussion of burial materials and competing date ranges.",
+        "activity": "The two views and a three-way sorting task distinguish a visible roof, a proposed lid and an unknown tomb. The learner can offer a possible test using the explanation.",
+        "connections": "Hopewell offers a comparison about deposited objects and organized work. The regional locator supplies no shared origin with that example."
+      },
+      "evidence": [
+        {
+          "source": "colima-huitzilapa-organics-2006",
+          "url": "https://www.cambridge.org/core/journals/ancient-mesoamerica/article/abs/organic-offerings-paper-and-fibers-from-the-huitzilapa-shaft-tomb-jalisco-mexico/41566F34B95E68B4F00FC499BACA573F",
+          "locator": "Abstract, opening and identification of fibres and paper around the interments, pp. 283–296",
+          "access": "Direct publisher abstract"
+        },
+        {
+          "source": "met-317600",
+          "url": "https://www.metmuseum.org/art/collection/search/317600",
+          "locator": "Accession 1995.63.5, catalogue and suggested use",
+          "access": "Previously consulted dossier record"
+        }
+      ],
+      "verifiedFindings": [
+        "The Huitzilapa researchers report six interments in two chambers. Microscopy distinguished cotton and agave while many presumed food remains permitted only broad identifications."
+      ],
+      "limits": "Only the published abstract of the organic study was used. The model has no established Huitzilapa association.",
+      "defects": []
+    },
+    {
+      "id": "teotihuacan",
+      "chapter": "C3",
+      "rubric": {
+        "orientation": "The city question starts with household spaces and distinguishes the greenstone face from the excavations at Tlajinga.",
+        "explanation": "Blade manufacture, access to imported materials and drains show how residents participated in the city. The floor study tests competing uses of a neighborhood platform.",
+        "evidence": "The excavation project identifies variable masonry and adobe, restricted luxury goods, central courtyards and drains emptying onto the Street of the Dead in Compounds 17 and 18.",
+        "chronology_geography": "The monument and apartment construction phases overlap a long urban interval. The mask and the modern composite map each receive separate dating qualifications.",
+        "perspective": "The actual work of making blades is visible in byproducts. Household apprenticeship is an interpretation. The excavated sample cannot give the names or powers of decision makers.",
+        "reading": "A straightforward home-and-street account prepares readers for the deeper discussion of testing a building function against different classes of evidence.",
+        "activity": "The family draws a modern relationship diagram using selected features, labels an inferred maintenance arrangement and leaves one labor question open.",
+        "connections": "The Chavín textile and Moche comparisons offer material evidence of productive work and social organization at different places and scales."
+      },
+      "evidence": [
+        {
+          "source": "teot-patt-households",
+          "url": "https://sites.bu.edu/patt/research/household-archaeology/",
+          "locator": "Household Archaeology, excavation of Compounds 17 and 18, construction, drains and imported goods",
+          "access": "Direct project account"
+        },
+        {
+          "source": "teot-tlajinga-2026",
+          "url": "https://www.cambridge.org/core/journals/latin-american-antiquity/article/disentangling-community-and-domestic-uses-of-space-in-teotihuacans-tlajinga-district/2949C67FEBA7F7F90D105F83157CC47E",
+          "locator": "Comparison of platform and apartment architecture, artifacts and floor chemistry",
+          "access": "Published study and previously consulted dossier record"
+        }
+      ],
+      "verifiedFindings": [
+        "The excavation project identifies variable masonry and adobe, restricted luxury goods, central courtyards and drains emptying onto the Street of the Dead in Compounds 17 and 18."
+      ],
+      "limits": "Only parts of the two compounds were excavated. Neither the household data nor city map identifies where the selected mask was used.",
+      "defects": []
+    },
+    {
+      "id": "dongson",
+      "chapter": "C3",
+      "rubric": {
+        "orientation": "The four frogs and the miniature’s height introduce a question about uses of a repeated drum form across different places.",
+        "explanation": "Tools inside one drum, a drum over a wooden vessel elsewhere, and moulds discarded at a workshop show different stages in the lives of objects.",
+        "evidence": "The 2024 excavation report identifies inner and outer mould fragments, crucible and furnace fragments and slag in a waste layer with third–sixth-century material.",
+        "chronology_geography": "The late Luy Lâu reference extends past the miniature’s broad interval. The two published Ngọc Lũ discovery-location accounts disagree and remain distinct.",
+        "perspective": "Woodworking and textile production appear alongside casting. The preserved objects cannot identify individual artisans, and no bones survived in the presumed Phú Chánh graves.",
+        "reading": "A measurement and two contrasting deposits anchor the family reading. The deeper discussion distinguishes stylistic dates from dated associated material.",
+        "activity": "A ruler helps a pair imagine the small object. Two separately labelled context cards prevent evidence from one burial or hoard being assigned to the miniature.",
+        "connections": "Hopewell deposits and Shang bronzes support comparisons about context and interpretation. Neither supplies the Vietnamese object’s route or use."
+      },
+      "evidence": [
+        {
+          "source": "dongson-luy-lau-2024",
+          "url": "https://baotanglichsuquocgia.vn/vi/Articles/3090/75114/hoi-nghi-bao-cao-so-bo-ket-qua-khai-quat-di-tich-thanh-co-luy-lau-nam-2024.html",
+          "locator": "Preliminary report, 2024 trench description and inventory of drum-part moulds in the workshop discard",
+          "access": "Direct Vietnamese museum report"
+        },
+        {
+          "source": "dongson-phu-chanh-2008",
+          "url": "https://journals.lib.washington.edu/index.php/BIPPA/article/view/12017",
+          "locator": "Pit 6 wood jar and presumed burial setting",
+          "access": "Previously consulted excavation dossier"
+        }
+      ],
+      "verifiedFindings": [
+        "The 2024 excavation report identifies inner and outer mould fragments, crucible and furnace fragments and slag in a waste layer with third–sixth-century material."
+      ],
+      "limits": "The 2024 report is preliminary. Layer association does not date every miniature or establish its purpose.",
+      "defects": []
+    },
+    {
+      "id": "nimrud-palace",
+      "chapter": "C3",
+      "rubric": {
+        "orientation": "The protective figure and the writing on the palace wall open a question about the royal audience at Kalhu.",
+        "explanation": "Quarrying, moving and carving stone and arranging the reliefs connect skilled labor to an official account of kingship. The later administrative command seeks a practical result.",
+        "evidence": "Seymour identifies local gypsum slabs on a mud-brick palace and describes the challenges of transport and carving. The gallery combines reliefs from several rooms.",
+        "chronology_geography": "The palace belongs to the reign of 883–859 BCE. The composite plan includes later features and the letter’s editorial date is about 732 BCE.",
+        "perspective": "People moved by force appear in a royal claim and in an order to officials. Neither voice represents their own testimony or demonstrates fulfillment.",
+        "reading": "The relief’s wings and bucket provide a family entry. The adult track asks how a plan or a coercive command can be read against the purpose of its maker.",
+        "activity": "Children describe a visible feature and then use the capsule to explain the inferred protective setting. No translation from a photograph is required.",
+        "connections": "Ashoka and Taharqo allow comparison of royal communication and display. Different texts, buildings and audiences give each comparison a specific limit."
+      },
+      "evidence": [
+        {
+          "source": "assyrian-court",
+          "url": "https://www.metmuseum.org/essays/the-assyrian-sculpture-court",
+          "locator": "Seymour, discussion immediately after the illustrated gallery inventory, palace materials, carved panels and display",
+          "access": "Direct museum essay"
+        },
+        {
+          "source": "nimrud-palace-project",
+          "url": "https://oracc.museum.upenn.edu/nimrud/ancientkalhu/thecity/northwestpalace/index.html",
+          "locator": "Robson, room ZZ and the composite Northwest Palace plan",
+          "access": "Previously consulted dossier record. Direct request for the Penn page returned HTTP 502"
+        }
+      ],
+      "verifiedFindings": [
+        "Seymour identifies local gypsum slabs on a mud-brick palace and describes the challenges of transport and carving. The gallery combines reliefs from several rooms."
+      ],
+      "limits": "The palace materials were independently checked. The service-room identification rests on the earlier documented project reading.",
+      "defects": []
+    },
+    {
+      "id": "ashoka-messages",
+      "chapter": "C3",
+      "rubric": {
+        "orientation": "Selected inscription sites give the question about communicating across languages distinct places and audiences.",
+        "explanation": "Edicts connect practical tasks such as wells and planting with instructions to judicial officers. Describing the actions makes their implementation open to investigation.",
+        "evidence": "Neelis distinguishes the broader moral and administrative policies from Buddhist doctrine and explicitly identifies donations to the Ajivikas alongside Buddhist patronage.",
+        "chronology_geography": "The Sarnath marker orients one pillar. Girnar, Dhauli and Kandahar have different texts and versions. The 1925 English edition precedes the later discoveries.",
+        "perspective": "Officials and subjects have different roles in these texts. The king’s remorse and promise of care sit alongside the coercion of conquest and the absence of measured outcomes.",
+        "reading": "The family track turns a named task into a question about work. The deeper track explains edition, language, distribution and the regional edict substitutions.",
+        "activity": "The three-site matching task can be done from the supplied map and capsules. The answer asks for independent evidence that would test an announcement.",
+        "connections": "Qin standardization and Athenian institutions provide points of comparison for instructions and their reception. Readers have to identify the evidence for each."
+      },
+      "evidence": [
+        {
+          "source": "ashoka",
+          "url": "https://depts.washington.edu/silkroad/exhibit/mauryans/essay.html",
+          "locator": "Neelis, The Mauryan Empire, paragraphs on Kandahar, royal proclamations, donations to Ajivikas and Kalinga",
+          "access": "Direct scholarly exhibit"
+        },
+        {
+          "source": "ashoka-edicts-1925",
+          "url": "https://archive.org/details/InscriptionsOfAsoka.NewEditionByE.Hultzsch",
+          "locator": "Girnar Rock Edict II and Dhauli Separate Edict I",
+          "access": "Previously consulted translated edition"
+        }
+      ],
+      "verifiedFindings": [
+        "Neelis distinguishes the broader moral and administrative policies from Buddhist doctrine and explicitly identifies donations to the Ajivikas alongside Buddhist patronage."
+      ],
+      "limits": "The inscription demonstrates royal communication. Reception and maintenance of the announced facilities require other evidence.",
+      "defects": []
+    },
+    {
+      "id": "athens-water",
+      "chapter": "C3",
+      "rubric": {
+        "orientation": "The hydria starts a question about working in a public space and participating in civic decisions in Athens.",
+        "explanation": "The water task and the scrutiny for civic enrollment expose two different conditions for participation. Wealth and enslavement affected the distribution of work.",
+        "evidence": "Part 42 expressly gives age eighteen, a deme vote and scrutiny of free birth and parentage. Part 43 describes the Council and Assembly procedures.",
+        "chronology_geography": "The Met jar dates to about 510–500 BCE. The Würzburg vase and its inscriptions are a different object, and the constitutional account is late fourth century.",
+        "perspective": "The account includes free and enslaved women, resident foreigners and contested legal status while treating the figures’ specific identities as unknown.",
+        "reading": "Observation of vessels and handles leads into the optional discussion of argument and interested speakers in legal proceedings.",
+        "activity": "The map separates the Agora, fountain building and Pnyx. The final question accepts civic contributions beyond voting without identifying the painted women’s status.",
+        "connections": "Ashoka and Qin offer comparisons of formal authority. The city-level archaeological map and eligibility rules restrict what can be compared."
+      },
+      "evidence": [
+        {
+          "source": "athens-constitution",
+          "url": "https://www.gutenberg.org/ebooks/26095",
+          "locator": "The Athenian Constitution, Part 42 opening paragraph and Part 43, Council and Assembly",
+          "access": "Direct linked edition, Gutenberg HTML"
+        },
+        {
+          "source": "met-247244",
+          "url": "https://www.metmuseum.org/art/collection/search/247244",
+          "locator": "Catalogue 06.1021.77, vase date and fountain-house scene",
+          "access": "Previously consulted object record"
+        }
+      ],
+      "verifiedFindings": [
+        "Part 42 expressly gives age eighteen, a deme vote and scrutiny of free birth and parentage. Part 43 describes the Council and Assembly procedures."
+      ],
+      "limits": "The procedural account belongs to a later date than the jar. Neither it nor the jar yields the represented figures’ legal position.",
+      "defects": []
+    },
+    {
+      "id": "taharqo",
+      "chapter": "C3",
+      "rubric": {
+        "orientation": "The granite shabti supplies a starting question about power, work and elite expectations in Kushite Egypt and Sudan.",
+        "explanation": "Kawa gives a king’s claim to send workers. Sanam gives traces of manufacture. Nuri gives different strengths of association for two different shabtis.",
+        "evidence": "The excavators explicitly identify the match between the temple mould and an uninscribed green faience fragment in the Sanam workshop, Figure 10. Their inference concerns the organization of faience production.",
+        "chronology_geography": "The selected granite figure is attributed to the reign, c. 690–664 BCE, and probably to Nuri. An older spell on the separate calcite example cannot reset the granite object’s date.",
+        "perspective": "Workers, craft specialists and temple servants appear through inscriptions and workshop residue. The text keeps open the individual conditions of their service.",
+        "reading": "The reader starts with visible carving and three named materials. The optional reading adds the problem of archaizing imagery and texts.",
+        "activity": "The activity asks the family to distinguish the source about crews, the excavation, and the museum attribution, then name evidence for an individual worker’s experience.",
+        "connections": "The Maya vessel and Nimrud comparisons make royal imagery and survival of elite voices shared questions while preserving the shabti’s funerary setting."
+      },
+      "evidence": [
+        {
+          "source": "sanam-production-2026",
+          "url": "https://www.cambridge.org/core/journals/antiquity/article/crafting-power-in-kush-faience-production-and-state-control-in-the-napatan-region/A15CF88886CC39E3C6D4110DD58B94A5",
+          "locator": "Results, Figure 10 caption and adjacent manufacturing discussion",
+          "access": "Direct publisher article"
+        },
+        {
+          "source": "met-544883",
+          "url": "https://www.metmuseum.org/art/collection/search/544883",
+          "locator": "Accession 18.2.10, accession-specific material and probable association",
+          "access": "Previously consulted museum record"
+        }
+      ],
+      "verifiedFindings": [
+        "The excavators explicitly identify the match between the temple mould and an uninscribed green faience fragment in the Sanam workshop, Figure 10. Their inference concerns the organization of faience production."
+      ],
+      "limits": "The production evidence concerns faience. It cannot locate a workshop for the granite figure.",
+      "defects": []
+    },
+    {
+      "id": "chavin-textile",
+      "chapter": "C3",
+      "rubric": {
+        "orientation": "Painted shapes on a woven cloth introduce how an image might travel while the object’s own route stays uncertain.",
+        "explanation": "Readers distinguish making the cloth from adding pigment. The motif comparison with highland carving explains why portability is a historical question.",
+        "evidence": "The catalogue for 1987.394.704 gives cotton and refined iron-earth pigments. Its interpretation identifies profile heads and an inverted form within the larger image. Its displayed references omit a full entry for the cited Burger et al. 2023.",
+        "chronology_geography": "The fourth–third-century BCE date is the catalogue’s for this fragment. The highland site chronology and a reported southern coastal origin cannot independently date or locate it.",
+        "perspective": "The text allows multiple makers, viewers and readings. Neither wearing this fragment nor political control of all related motifs is demonstrated.",
+        "reading": "Replaced an opaque reference to centre dates with a concrete distinction between a dated building and a dated cloth, and identified the accession needed to check a laboratory result.",
+        "activity": "The learner locates unpainted threads and outlines a surviving red shape. Leaving the missing parts blank models the source limit directly.",
+        "connections": "Comparing this cloth with Teotihuacan and Moche evidence allows questions about imagery, skill and movement without inventing an itinerary."
+      },
+      "evidence": [
+        {
+          "source": "met-315784",
+          "url": "https://www.metmuseum.org/art/collection/search/315784",
+          "locator": "Accession 1987.394.704. Artwork Details and description of the Staff God, inverted head, pigment and citation, followed by references",
+          "access": "Direct museum record"
+        },
+        {
+          "source": "chavin-weaving-abstraction",
+          "url": "https://www.metmuseum.org/met-publications/weaving-abstraction",
+          "locator": "Pillsbury, Infinite Pattern, pp. 8–9, Figure 3 caption for this accession",
+          "access": "Previously consulted museum publication"
+        }
+      ],
+      "verifiedFindings": [
+        "The catalogue for 1987.394.704 gives cotton and refined iron-earth pigments. Its interpretation identifies profile heads and an inverted form within the larger image. Its displayed references omit a full entry for the cited Burger et al. 2023."
+      ],
+      "limits": "An SAA 2020 programme names a Karwa textile dating talk by Salazar and Burger. It gives no specimen-linked measurement for this accession and cannot identify the catalogue’s 2023 citation. Catalogue date retained.",
+      "defects": [
+        {
+          "status": "repaired",
+          "file": "scripts/redesign/images-work-chavin.ts",
+          "finding": "Clarified what is dated and the specimen-level evidence needed to investigate the museum’s incomplete reference. Corrected run-together citation locators."
+        }
+      ]
+    },
+    {
+      "id": "qin-administration",
+      "chapter": "C3",
+      "rubric": {
+        "orientation": "A mass weight, a capacity measure and a written grain record give the comparison of rules and practice a tangible starting point.",
+        "explanation": "Officials had to create, route and check documents. Preserving required information despite differing layouts shows how a standard could work amid local constraints.",
+        "evidence": "Staack links a Liye fragment about cutting tablets to a possible register of convict laborers and a statute on obtaining wood. He treats manufacture of some stationery by convicts as a possibility.",
+        "chronology_geography": "The imperial frame is 221–206 BCE in the selected Met chronology. The Liye records mainly date to 222–208 BCE and include the transition to empire. Other conventions remain visible.",
+        "perspective": "Alongside the literate officials the story includes people who prepared wood, with the distinction between coercion as a possibility and every worker’s actual status retained.",
+        "reading": "The family starts by distinguishing what each device does. The adult discussion examines a prescribed format from a manuscript group of uncertain provenance.",
+        "activity": "The family can reorder three facts in a modern grain record and decide what information would be lost if a fact disappeared. The model claims no recovered inscription.",
+        "connections": "Ashoka and Athens provide contrasting documentary evidence about authority. Liye supplies one excavated local archive and cannot represent all Qin administration."
+      },
+      "evidence": [
+        {
+          "source": "qin-practice",
+          "url": "https://doi.org/10.1017/S0041977X23000228",
+          "locator": "Staack, section 2.2, final paragraphs before 2.3, fragment on cutting tablets and register inference; concluding discussion of staff and resources",
+          "access": "Direct publisher article"
+        },
+        {
+          "source": "qin-measure",
+          "url": "https://theme.npm.edu.tw/selection/Article.aspx?lang=2&sNo=04001146",
+          "locator": "First Emperor year 26 inscribed measure",
+          "access": "Previously consulted Palace Museum record"
+        }
+      ],
+      "verifiedFindings": [
+        "Staack links a Liye fragment about cutting tablets to a possible register of convict laborers and a statute on obtaining wood. He treats manufacture of some stationery by convicts as a possibility."
+      ],
+      "limits": "The unprovenanced Yuelu prescriptions and excavated Liye records have different source histories.",
+      "defects": [
+        {
+          "status": "repaired",
+          "file": "scripts/redesign/content-qin.ts",
+          "finding": "Separated the Qin date range from the preceding comma in its reader-facing interval label."
+        }
+      ]
+    }
+  ]
+}

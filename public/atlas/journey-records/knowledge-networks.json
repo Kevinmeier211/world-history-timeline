@@ -1,0 +1,51 @@
+{
+  "journey": "knowledge-networks",
+  "revision": "e8e41dc5ca854df3b325a29cc400365461889f7dc192af1f09ca2cd0aaada310",
+  "stops": [
+    {
+      "index": 0,
+      "narrative": "Compare oral history, foreign imagery and material evidence."
+    },
+    {
+      "index": 1,
+      "narrative": "Inspect the figure’s posture before naming an emotion or a ruler."
+    },
+    {
+      "index": 2,
+      "narrative": "Put water, roads and farming into the urban landscape."
+    },
+    {
+      "index": 3,
+      "narrative": "Explore court and scholarly purposes beside a glazed bowl."
+    },
+    {
+      "index": 4,
+      "narrative": "Compare a regional production argument with the uncertainty of an object’s precise itinerary."
+    },
+    {
+      "index": 5,
+      "narrative": "Separate settlement dating from the broader history of knowledge."
+    }
+  ],
+  "conclusion": "Journeys, techniques, memories and infrastructures connect communities in different ways. Each needs its own evidence. A line on a map can summarize a supported connection; it cannot create one.",
+  "evidence": {
+    "prompt": "Which connection is described at the right level of certainty?",
+    "options": [
+      {
+        "text": "The tunic’s technical features support regional comparison, while its exact individual route remains unknown.",
+        "supported": true,
+        "feedback": "The catalogue makes a technical and regional argument. It does not provide a complete object itinerary."
+      },
+      {
+        "text": "One long date range proves an object was made both before and after a conquest.",
+        "supported": false,
+        "feedback": "A date range expresses uncertainty about when it was made, not repeated production of the same object."
+      },
+      {
+        "text": "A navigation tradition requires a surviving written map to count as knowledge.",
+        "supported": false,
+        "feedback": "Taonui describes memorized and practiced ways of reading stars, swells and landmarks."
+      }
+    ]
+  }
+}

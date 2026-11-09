@@ -1,0 +1,51 @@
+{
+  "journey": "eastern-woodlands",
+  "revision": "73ba80ce8c8a0f2e02a9ee3f30d2e49d581edfd663398517c73999f7fcf97211",
+  "stops": [
+    {
+      "index": 0,
+      "narrative": "Inspect the surviving clay and reconstructed shelter, then investigate the revised dating. The reading year is a context, not a settled construction date."
+    },
+    {
+      "index": 1,
+      "narrative": "Return to an earlier Ohio network. Compare forms of gathering without making Hopewell the founder of every later woodland society."
+    },
+    {
+      "index": 2,
+      "narrative": "Put village work beside the calibration problem. Two possible date clusters do not mean a village existed continuously between them."
+    },
+    {
+      "index": 3,
+      "narrative": "Separate negotiation, the treaty clauses, U.S. ratification and Onondaga explanations of wampum. Identify the further evidence needed to test a promise."
+    },
+    {
+      "index": 4,
+      "narrative": "Compare printed assertions with the treaty. A national newspaper can document agency, disagreement and unequal rights, while later removal tests the limits of written promises."
+    },
+    {
+      "index": 5,
+      "narrative": "Use Ojibwe accounts to investigate harvesting, finishing and care for rice waters. Keep the archive’s unnamed person and probable location explicit."
+    }
+  ],
+  "conclusion": "Council spaces, village fields, spoken agreements, printed pages and rice waters connected practical work with responsibilities and authority. The evidence is uneven, and the histories are distinct. Neither a revised archaeological date, a printed promise nor forced movement establishes the disappearance of a people. Carry one specific question back to its sources.",
+  "evidence": {
+    "prompt": "Which explanation respects both the records and the people whose histories they concern?",
+    "options": [
+      {
+        "text": "Treaties and newspapers record particular commitments and arguments; investigating their effects requires further evidence.",
+        "supported": true,
+        "feedback": "Canandaigua’s clauses state promises. The Cherokee constitution records both national assertions and exclusions. Neither text proves equal rights, complete consent or successful enforcement for everyone."
+      },
+      {
+        "text": "A reconstructed building and an exact-looking date let us recover every ancient decision with certainty.",
+        "supported": false,
+        "feedback": "Ocmulgee distinguishes surviving clay from reconstructed walls and roof. The newer study revises the older date and leaves questions open. A dating model does not recover the words spoken in a council."
+      },
+      {
+        "text": "A photograph of rice canoes tells us the full work of every Eastern Woodlands community.",
+        "supported": false,
+        "feedback": "The archive qualifies person and place. Ojibwe accounts explain several harvesting and finishing operations, but one image cannot represent every community, century or food system."
+      }
+    ]
+  }
+}

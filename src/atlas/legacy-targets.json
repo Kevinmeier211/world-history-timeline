@@ -1,0 +1,832 @@
+{
+  "moche": {
+    "name": "Moche",
+    "target": "moche",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C4",
+    "region": "Americas",
+    "start": 1,
+    "end": 800
+  },
+  "norte_chico": {
+    "name": "Norte Chico (Caral-Supe)",
+    "target": "caral",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C1",
+    "region": "Americas",
+    "start": -3000,
+    "end": -1800
+  },
+  "chavin_culture": {
+    "name": "Chavín Culture",
+    "target": "chavin-textile",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C3",
+    "region": "Americas",
+    "start": -400,
+    "end": -200
+  },
+  "nazca_moche": {
+    "name": "Nazca & Moche Cultures",
+    "target": "moche",
+    "disposition": "split",
+    "reason": "Composite label separated into defined researched contexts where available. Unrepresented portions remain excluded from release, not silently absorbed into the replacement. No common identity or succession inferred.",
+    "pack": "C4",
+    "region": "Americas",
+    "start": 1,
+    "end": 800
+  },
+  "inca_empire": {
+    "name": "Inca Empire (Tawantinsuyu)",
+    "target": "inca-weaving",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C6",
+    "region": "Americas",
+    "start": 1450,
+    "end": 1550
+  },
+  "united_kingdom": {
+    "name": "United Kingdom",
+    "target": "factory-reform",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C8",
+    "region": "Europe",
+    "start": 1833,
+    "end": 1836
+  },
+  "tang": {
+    "name": "Tang",
+    "target": "tang-city",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C5",
+    "region": "East Asia",
+    "start": 618,
+    "end": 907
+  },
+  "northern_song": {
+    "name": "Northern Song",
+    "target": "song-art",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C5",
+    "region": "East Asia",
+    "start": 960,
+    "end": 1279
+  },
+  "southern_song": {
+    "name": "Southern Song",
+    "target": "song-art",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C5",
+    "region": "East Asia",
+    "start": 960,
+    "end": 1279
+  },
+  "ming": {
+    "name": "Ming",
+    "target": "ming-workshops",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C6",
+    "region": "East Asia",
+    "start": 1368,
+    "end": 1644
+  },
+  "liangzhu": {
+    "name": "Liangzhu",
+    "target": "liangzhu",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C1",
+    "region": "East Asia",
+    "start": -3300,
+    "end": -2300
+  },
+  "qin": {
+    "name": "Qin",
+    "target": "qin-administration",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C3",
+    "region": "East Asia",
+    "start": -221,
+    "end": -206
+  },
+  "eastern_han": {
+    "name": "Eastern Han",
+    "target": "eastern-han",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C4",
+    "region": "East Asia",
+    "start": 25,
+    "end": 220
+  },
+  "shang_dynasty": {
+    "name": "Shang Dynasty",
+    "target": "shang-ritual",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C2",
+    "region": "East Asia",
+    "start": -1600,
+    "end": -1046
+  },
+  "han_dynasty": {
+    "name": "Qin & Han Dynasties",
+    "target": "eastern-han",
+    "disposition": "split",
+    "reason": "Composite label separated into defined researched contexts where available. Unrepresented portions remain excluded from release, not silently absorbed into the replacement. No common identity or succession inferred.",
+    "pack": "C4",
+    "region": "East Asia",
+    "start": 25,
+    "end": 220
+  },
+  "tang_song_dynasty": {
+    "name": "Sui, Tang & Song Dynasties",
+    "target": "tang-city",
+    "disposition": "split",
+    "reason": "Composite label separated into defined researched contexts where available. Unrepresented portions remain excluded from release, not silently absorbed into the replacement. No common identity or succession inferred.",
+    "pack": "C5",
+    "region": "East Asia",
+    "start": 618,
+    "end": 907
+  },
+  "ming_qing_china": {
+    "name": "Ming & Qing Dynasties → Modern China",
+    "target": "ming-workshops",
+    "disposition": "split",
+    "reason": "Composite label separated into defined researched contexts where available. Unrepresented portions remain excluded from release, not silently absorbed into the replacement. No common identity or succession inferred.",
+    "pack": "C6",
+    "region": "East Asia",
+    "start": 1368,
+    "end": 1644
+  },
+  "athens": {
+    "name": "Athens",
+    "target": "athens-water",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C3",
+    "region": "Europe",
+    "start": -600,
+    "end": -300
+  },
+  "classical_greece": {
+    "name": "Archaic & Classical Greece",
+    "target": "athens-water",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C3",
+    "region": "Europe",
+    "start": -600,
+    "end": -300
+  },
+  "byzantine_empire": {
+    "name": "Byzantine Empire (Eastern Rome)",
+    "target": "byzantium",
+    "disposition": "merged",
+    "reason": "Eastern Roman/Byzantine naming reconciled under a sourced conventional330–1453 frame with1204–1261 interruption. Inherited395–476 span rejected; no display clipping changes the historical dates.",
+    "pack": "C4",
+    "region": "Europe",
+    "start": 330,
+    "end": 1453
+  },
+  "eastern_roman_empire": {
+    "name": "Eastern Roman Empire",
+    "target": "byzantium",
+    "disposition": "merged",
+    "reason": "Eastern Roman/Byzantine naming reconciled under a sourced conventional330–1453 frame with1204–1261 interruption. Inherited395–476 span rejected; no display clipping changes the historical dates.",
+    "pack": "C4",
+    "region": "Europe",
+    "start": 330,
+    "end": 1453
+  },
+  "india": {
+    "name": "India",
+    "target": "partition-1947",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C8",
+    "region": "South Asia",
+    "start": 1947,
+    "end": 1947
+  },
+  "pakistan": {
+    "name": "Pakistan",
+    "target": "partition-1947",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C8",
+    "region": "South Asia",
+    "start": 1947,
+    "end": 1947
+  },
+  "mature_harappan": {
+    "name": "Mature Harappan",
+    "target": "dholavira",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C1",
+    "region": "South Asia",
+    "start": -3000,
+    "end": -1500
+  },
+  "kushan": {
+    "name": "Kushan",
+    "target": "kushan-contexts",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C4",
+    "region": "South Asia",
+    "start": 1,
+    "end": 300
+  },
+  "indus_valley": {
+    "name": "Indus Valley Civilization (Harappan)",
+    "target": "dholavira",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C1",
+    "region": "South Asia",
+    "start": -3000,
+    "end": -1500
+  },
+  "maurya_empire": {
+    "name": "Maurya Empire → Kushan & Satavahana",
+    "target": "ashoka-messages",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C3",
+    "region": "South Asia",
+    "start": -268,
+    "end": -232
+  },
+  "mughal_empire": {
+    "name": "Delhi Sultanate, Vijayanagara & Mughal Empire",
+    "target": "mughal-books",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C7",
+    "region": "South Asia",
+    "start": 1556,
+    "end": 1605
+  },
+  "modern_india": {
+    "name": "Republic of India & South Asia",
+    "target": "partition-1947",
+    "disposition": "split",
+    "reason": "Composite label separated into defined researched contexts where available. Unrepresented portions remain excluded from release, not silently absorbed into the replacement. No common identity or succession inferred.",
+    "pack": "C8",
+    "region": "South Asia",
+    "start": 1947,
+    "end": 1947
+  },
+  "abbasid": {
+    "name": "Abbasid Caliphate",
+    "target": "abbasid-craft",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C5",
+    "region": "West/Central Asia",
+    "start": 750,
+    "end": 1258
+  },
+  "ottoman": {
+    "name": "Ottoman Empire",
+    "target": "ottoman-workshops",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C7",
+    "region": "West/Central Asia",
+    "start": 1500,
+    "end": 1755
+  },
+  "ottoman_empire": {
+    "name": "Mamluk Sultanate & Ottoman Empire",
+    "target": "ottoman-workshops",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C7",
+    "region": "West/Central Asia",
+    "start": 1500,
+    "end": 1755
+  },
+  "meiji": {
+    "name": "Meiji",
+    "target": "tomioka",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C8",
+    "region": "East Asia",
+    "start": 1872,
+    "end": 1872
+  },
+  "empire_of_japan": {
+    "name": "Empire of Japan",
+    "target": "tomioka",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C8",
+    "region": "East Asia",
+    "start": 1872,
+    "end": 1872
+  },
+  "portugal": {
+    "name": "Portugal",
+    "target": "portuguese-voyage",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C6",
+    "region": "Europe",
+    "start": 1497,
+    "end": 1499
+  },
+  "nazi_germany": {
+    "name": "Nazi Germany",
+    "target": "world-war-two",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C8",
+    "region": "Europe",
+    "start": 1933,
+    "end": 1945
+  },
+  "roman_empire": {
+    "name": "Roman Empire",
+    "target": "roman-world",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C4",
+    "region": "Europe",
+    "start": 193,
+    "end": 235
+  },
+  "haiti": {
+    "name": "Haiti",
+    "target": "haitian-revolution",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C7",
+    "region": "Americas",
+    "start": 1791,
+    "end": 1804
+  },
+  "teotihuacan": {
+    "name": "Teotihuacan",
+    "target": "teotihuacan",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C3",
+    "region": "Americas",
+    "start": -100,
+    "end": 800
+  },
+  "maya_classic": {
+    "name": "Maya Classic",
+    "target": "maya-vessel",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C5",
+    "region": "Americas",
+    "start": 600,
+    "end": 800
+  },
+  "olmecs": {
+    "name": "Olmec Civilization",
+    "target": "olmec",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C2",
+    "region": "Americas",
+    "start": -1200,
+    "end": -400
+  },
+  "maya_civilization": {
+    "name": "Maya Civilization",
+    "target": "maya-vessel",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C5",
+    "region": "Americas",
+    "start": 600,
+    "end": 800
+  },
+  "neo_assyrian": {
+    "name": "Neo-Assyrian Empire",
+    "target": "nimrud-palace",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C3",
+    "region": "West/Central Asia",
+    "start": -883,
+    "end": -859
+  },
+  "sumer_akkad": {
+    "name": "Sumerian City-States & Akkadian Empire",
+    "target": "uruk-accounts",
+    "disposition": "split",
+    "reason": "Composite label separated into defined researched contexts where available. Unrepresented portions remain excluded from release, not silently absorbed into the replacement. No common identity or succession inferred.",
+    "pack": "C1",
+    "region": "West/Central Asia",
+    "start": -3100,
+    "end": -2900
+  },
+  "babylon_assyria": {
+    "name": "Old Babylonia, Assyria & Elam",
+    "target": "nimrud-palace",
+    "disposition": "split",
+    "reason": "Composite label separated into defined researched contexts where available. Unrepresented portions remain excluded from release, not silently absorbed into the replacement. No common identity or succession inferred.",
+    "pack": "C3",
+    "region": "West/Central Asia",
+    "start": -883,
+    "end": -859
+  },
+  "hittites": {
+    "name": "Hittite Empire",
+    "target": "hattusha-change",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C2",
+    "region": "West/Central Asia",
+    "start": -1300,
+    "end": -1200
+  },
+  "neo_assyria_babylon": {
+    "name": "Neo-Assyrian & Neo-Babylonian Empires",
+    "target": "nimrud-palace",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C3",
+    "region": "West/Central Asia",
+    "start": -883,
+    "end": -859
+  },
+  "old_kingdom_egypt": {
+    "name": "Old Kingdom",
+    "target": "old-kingdom",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C1",
+    "region": "Africa",
+    "start": -2649,
+    "end": -2130
+  },
+  "roman_egypt": {
+    "name": "Roman Egypt",
+    "target": "roman-world",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C4",
+    "region": "Europe",
+    "start": 193,
+    "end": 235
+  },
+  "egypt_old_kingdom": {
+    "name": "Early Dynastic & Old Kingdom Egypt",
+    "target": "old-kingdom",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C1",
+    "region": "Africa",
+    "start": -2649,
+    "end": -2130
+  },
+  "cahokia": {
+    "name": "Cahokia",
+    "target": "cahokia-city",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C6",
+    "region": "Americas",
+    "start": 1050,
+    "end": 1400
+  },
+  "haudenosaunee": {
+    "name": "Haudenosaunee Confederacy",
+    "target": "haudenosaunee-canandaigua",
+    "disposition": "replaced",
+    "reason": "Related replacement: a precisely sourced 1794 treaty and 1795 U.S. ratification investigation, not a researched lifespan or founding date for the whole Confederacy. Legacy dates/prose are not promoted; 1795 does not end the nations or their promises.",
+    "pack": "C7",
+    "region": "Americas",
+    "start": 1794,
+    "end": 1795
+  },
+  "united_states": {
+    "name": "United States",
+    "target": "hine-labor",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C8",
+    "region": "Americas",
+    "start": 1908,
+    "end": 1908
+  },
+  "poverty_point": {
+    "name": "Poverty Point Culture",
+    "target": "poverty-point",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C2",
+    "region": "Americas",
+    "start": -1700,
+    "end": -1100
+  },
+  "hopewell_tradition": {
+    "name": "Adena & Hopewell Tradition",
+    "target": "hopewell-earthworks",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C4",
+    "region": "Americas",
+    "start": 1,
+    "end": 400
+  },
+  "ancestral_puebloans": {
+    "name": "Ancestral Puebloans & Hohokam",
+    "target": "chaco-communities",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C5",
+    "region": "Americas",
+    "start": 850,
+    "end": 1250
+  },
+  "iroquois_indigenous_nations": {
+    "name": "Haudenosaunee & First Nations",
+    "target": "haudenosaunee-canandaigua",
+    "disposition": "split",
+    "reason": "The composite Haudenosaunee & First Nations label is not one canonical people or state. Separate Haudenosaunee, Wendat and Ojibwe investigations are related examples, not an exhaustive partition or common identity. Other peoples remain outside this replacement; no shared genealogy or legacy date span is inherited.",
+    "pack": "C7",
+    "region": "Americas",
+    "start": 1794,
+    "end": 1795
+  },
+  "safavid_dynasty": {
+    "name": "Safavid",
+    "target": "isfahan-silk",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C7",
+    "region": "West/Central Asia",
+    "start": 1598,
+    "end": 1722
+  },
+  "safavid_iran": {
+    "name": "Seljuk, Timurid & Safavid → Modern Iran",
+    "target": "isfahan-silk",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C7",
+    "region": "West/Central Asia",
+    "start": 1598,
+    "end": 1722
+  },
+  "ussr": {
+    "name": "USSR",
+    "target": "sputnik",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C8",
+    "region": "West/Central Asia",
+    "start": 1957,
+    "end": 1957
+  },
+  "philippines": {
+    "name": "Philippines",
+    "target": "manila-network",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C7",
+    "region": "Americas",
+    "start": 1565,
+    "end": 1815
+  },
+  "voc": {
+    "name": "VOC",
+    "target": "banda-1621",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C7",
+    "region": "Southeast Asia/Oceania",
+    "start": 1621,
+    "end": 1621
+  },
+  "lapita": {
+    "name": "Lapita",
+    "target": "lapita",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C2",
+    "region": "Southeast Asia/Oceania",
+    "start": -1500,
+    "end": -500
+  },
+  "east_polynesia": {
+    "name": "East Polynesia",
+    "target": "polynesian-voyaging",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C6",
+    "region": "Southeast Asia/Oceania",
+    "start": 1250,
+    "end": 1300
+  },
+  "aotearoa": {
+    "name": "Aotearoa",
+    "target": "polynesian-voyaging",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C6",
+    "region": "Southeast Asia/Oceania",
+    "start": 1250,
+    "end": 1300
+  },
+  "new_zealand": {
+    "name": "New Zealand",
+    "target": "tiriti",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C8",
+    "region": "Southeast Asia/Oceania",
+    "start": 1840,
+    "end": 1840
+  },
+  "dong_son": {
+    "name": "Dong Son",
+    "target": "dongson",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C3",
+    "region": "Southeast Asia/Oceania",
+    "start": -500,
+    "end": 300
+  },
+  "khmer_angkor": {
+    "name": "Khmer Angkor",
+    "target": "angkor",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C5",
+    "region": "Southeast Asia/Oceania",
+    "start": 800,
+    "end": 1500
+  },
+  "spanish_philippines": {
+    "name": "Spanish Philippines",
+    "target": "manila-network",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C7",
+    "region": "Americas",
+    "start": 1565,
+    "end": 1815
+  },
+  "khmer_majapahit_sea": {
+    "name": "Funan, Khmer Empire (Angkor) & Majapahit",
+    "target": "angkor",
+    "disposition": "split",
+    "reason": "Composite label separated into defined researched contexts where available. Unrepresented portions remain excluded from release, not silently absorbed into the replacement. No common identity or succession inferred.",
+    "pack": "C5",
+    "region": "Southeast Asia/Oceania",
+    "start": 800,
+    "end": 1500
+  },
+  "kongo": {
+    "name": "Kongo",
+    "target": "kongo-translation",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C6",
+    "region": "Africa",
+    "start": 1491,
+    "end": null
+  },
+  "south_africa_apartheid": {
+    "name": "Apartheid South Africa",
+    "target": "south-africa-rights",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C8",
+    "region": "Africa",
+    "start": 1994,
+    "end": 1997
+  },
+  "kerma": {
+    "name": "Kerma",
+    "target": "kerma-potters",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C1",
+    "region": "Africa",
+    "start": -2050,
+    "end": -1500
+  },
+  "kush_napatan": {
+    "name": "Kush, Napatan",
+    "target": "taharqo",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C3",
+    "region": "Africa",
+    "start": -690,
+    "end": -664
+  },
+  "kush_twenty_fifth": {
+    "name": "Kushite 25th Dynasty",
+    "target": "taharqo",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C3",
+    "region": "Africa",
+    "start": -690,
+    "end": -664
+  },
+  "aksum": {
+    "name": "Aksum",
+    "target": "aksum",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C4",
+    "region": "Africa",
+    "start": 1,
+    "end": 800
+  },
+  "mali_empire": {
+    "name": "Mali",
+    "target": "mali-networks",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C6",
+    "region": "Africa",
+    "start": 1230,
+    "end": 1600
+  },
+  "benin_kingdom": {
+    "name": "Benin",
+    "target": "benin-ivory",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C7",
+    "region": "Africa",
+    "start": 1525,
+    "end": 1600
+  },
+  "kerma_kush": {
+    "name": "Kingdom of Kerma & Kush",
+    "target": "kerma-potters",
+    "disposition": "split",
+    "reason": "Composite label separated into defined researched contexts where available. Unrepresented portions remain excluded from release, not silently absorbed into the replacement. No common identity or succession inferred.",
+    "pack": "C1",
+    "region": "Africa",
+    "start": -2050,
+    "end": -1500
+  },
+  "aksumite_empire": {
+    "name": "Aksumite → Ethiopian Empire",
+    "target": "aksum",
+    "disposition": "split",
+    "reason": "Composite label separated into defined researched contexts where available. Unrepresented portions remain excluded from release, not silently absorbed into the replacement. No common identity or succession inferred.",
+    "pack": "C4",
+    "region": "Africa",
+    "start": 1,
+    "end": 800
+  },
+  "ghana_mali_songhai": {
+    "name": "Ghana, Mali & Songhai Empires",
+    "target": "mali-networks",
+    "disposition": "split",
+    "reason": "Composite label separated into defined researched contexts where available. Unrepresented portions remain excluded from release, not silently absorbed into the replacement. No common identity or succession inferred.",
+    "pack": "C6",
+    "region": "Africa",
+    "start": 1230,
+    "end": 1600
+  },
+  "modern_africa": {
+    "name": "Post-Colonial African Nations",
+    "target": "south-africa-rights",
+    "disposition": "split",
+    "reason": "Composite label separated into defined researched contexts where available. Unrepresented portions remain excluded from release, not silently absorbed into the replacement. No common identity or succession inferred.",
+    "pack": "C8",
+    "region": "Africa",
+    "start": 1994,
+    "end": 1997
+  },
+  "mughal": {
+    "name": "Mughal",
+    "target": "mughal-books",
+    "disposition": "replaced",
+    "reason": "Replaced by a newly researched investigation with its own narrower or corrected definition, chronology and claim-specific citations. Legacy prose/dates/quantities are not promoted; this is a related entry, not equivalence to the entire inherited entity.",
+    "pack": "C7",
+    "region": "South Asia",
+    "start": 1556,
+    "end": 1605
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "journey": "work-obligation-voices",
+  "revision": "93b1ddfb846b71e29ae99c739ecf5a48234a14b8b71588363c68d4d07497dd0d",
+  "stops": [
+    {
+      "index": 0,
+      "narrative": "Trace resources before harvest and repayment later. What would you ask a household before accepting the policy’s promised benefit?"
+    },
+    {
+      "index": 1,
+      "narrative": "Describe visible royal signs, then use the account of common pottery to identify work the image omits."
+    },
+    {
+      "index": 2,
+      "narrative": "Find construction features in the garment. Distinguish them from evidence about rotating service, resettlement and provisioning."
+    }
+  ],
+  "conclusion": "Proposals, royal images and finished objects can conceal different parts of work. Add household evidence and distinct voices before judging benefits or choices.",
+  "evidence": {
+    "prompt": "Which evidence would best test whether the proposed Song loan helped a particular household?",
+    "options": [
+      {
+        "text": "The official memorial says the policy would benefit people.",
+        "supported": false,
+        "feedback": "That explains the authors’ justification, not the household’s actual experience."
+      },
+      {
+        "text": "Dated local borrowing and repayment records, read alongside that household’s circumstances.",
+        "supported": true,
+        "feedback": "These could test timing, terms, harvest conditions and collection against the promise. Surviving records still need interpretation."
+      },
+      {
+        "text": "The Mali map depicts a ruler holding gold.",
+        "supported": false,
+        "feedback": "A foreign royal image cannot establish the outcome of a particular Song loan."
+      }
+    ]
+  }
+}

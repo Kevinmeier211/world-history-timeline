@@ -1,0 +1,20 @@
+{
+  "subject": "portuguese-voyage",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "voyage-mediation-diagram",
+      "caption": "Modern guide to work in the selected 1498 narrative. An arrow follows the account, not an exact sailing line; assistance does not establish free choice.",
+      "notice": [
+        "Name a task that sailing alone could not complete.",
+        "Keep the journal’s detention episodes alongside its accounts of assistance."
+      ],
+      "creator": "Chronos / Codex; source-based editorial diagram",
+      "place": "Modern task sequence, not a ship track or surveyed harbor plan",
+      "material": "Original SVG diagram",
+      "representedDate": "Selected Malindi and Calicut encounters in the 1498 narrative; English edition 1898.",
+      "relevance": "Makes necessary tasks explicit while keeping coercion and the source’s perspective visible.",
+      "printWidthMm": 145
+    }
+  ]
+}

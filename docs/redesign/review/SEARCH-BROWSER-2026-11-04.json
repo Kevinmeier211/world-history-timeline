@@ -1,0 +1,710 @@
+{
+  "mainAsset": "/assets/index-DzHKBFCg.js",
+  "mainAssetSHA256": "6926594287c93e05799a348c9128bca795c042e536c73c6a2cb5686965966593",
+  "corpusSHA256": "e1a55385b2e242dbb9dcf865d94a0527fa4ed14396a2df0908d427bb5866cddd",
+  "searchSHA256": "2218a2c77391d6c77dc04d50b477d8b29cac84549c5c4777a2d7f3f51c884608",
+  "fixturesSHA256": "65d5d3830fed0d9ecf308b14376bd4fc853fe5c2d8d5c56723f8c46a07f819c5",
+  "scope": "Browser-visible results, keyboard navigation and Chromium accessibility-tree live properties. Screen-reader speech output was not sampled.",
+  "checks": [
+    {
+      "id": "SEARCH01",
+      "category": "name_or_alias",
+      "query": "Rome",
+      "status": "3 subjects · 0 investigations · 0 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 3,
+      "expansions": [],
+      "allShown": 3,
+      "excerptsChecked": 3,
+      "expectedHitRank": 1,
+      "expectedExcerpt": "Also called: Rome",
+      "tabsToChoice": 1,
+      "openedSubject": "roman-world"
+    },
+    {
+      "id": "SEARCH02",
+      "category": "name_or_alias",
+      "query": "Han China",
+      "status": "5 subjects · 0 investigations · 0 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 5,
+      "expansions": [],
+      "allShown": 5,
+      "excerptsChecked": 5,
+      "expectedHitRank": 1,
+      "expectedExcerpt": "Also called: Han China",
+      "tabsToChoice": 1,
+      "openedSubject": "eastern-han"
+    },
+    {
+      "id": "SEARCH03",
+      "category": "name_or_alias",
+      "query": "Tadmor",
+      "status": "1 subjects · 0 investigations · 0 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 1,
+      "expansions": [],
+      "allShown": 1,
+      "excerptsChecked": 1,
+      "expectedHitRank": 1,
+      "expectedExcerpt": "Also called: Tadmor",
+      "tabsToChoice": 1,
+      "openedSubject": "palmyra"
+    },
+    {
+      "id": "SEARCH04",
+      "category": "name_or_alias",
+      "query": "Axum",
+      "status": "1 subjects · 0 investigations · 0 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 1,
+      "expansions": [],
+      "allShown": 1,
+      "excerptsChecked": 1,
+      "expectedHitRank": 1,
+      "expectedExcerpt": "Also called: Axum",
+      "tabsToChoice": 1,
+      "openedSubject": "aksum"
+    },
+    {
+      "id": "SEARCH05",
+      "category": "name_or_alias",
+      "query": "Mochica",
+      "status": "1 subjects · 0 investigations · 0 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 1,
+      "expansions": [],
+      "allShown": 1,
+      "excerptsChecked": 1,
+      "expectedHitRank": 1,
+      "expectedExcerpt": "Also called: Mochica",
+      "tabsToChoice": 1,
+      "openedSubject": "moche"
+    },
+    {
+      "id": "SEARCH06",
+      "category": "name_or_alias",
+      "query": "Harappa",
+      "status": "1 subjects · 0 investigations · 0 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 1,
+      "expansions": [],
+      "allShown": 1,
+      "excerptsChecked": 1,
+      "expectedHitRank": 1,
+      "expectedExcerpt": "Also called: Harappa",
+      "tabsToChoice": 1,
+      "openedSubject": "dholavira"
+    },
+    {
+      "id": "SEARCH07",
+      "category": "name_or_alias",
+      "query": "Hittites",
+      "status": "1 subjects · 0 investigations · 0 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 1,
+      "expansions": [],
+      "allShown": 1,
+      "excerptsChecked": 1,
+      "expectedHitRank": 1,
+      "expectedExcerpt": "Also called: Hittites",
+      "tabsToChoice": 1,
+      "openedSubject": "hattusha-change"
+    },
+    {
+      "id": "SEARCH08",
+      "category": "name_or_alias",
+      "query": "Maurya",
+      "status": "1 subjects · 0 investigations · 0 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 1,
+      "expansions": [],
+      "allShown": 1,
+      "excerptsChecked": 1,
+      "expectedHitRank": 1,
+      "expectedExcerpt": "Also called: Maurya",
+      "tabsToChoice": 1,
+      "openedSubject": "ashoka-messages"
+    },
+    {
+      "id": "SEARCH09",
+      "category": "name_or_alias",
+      "query": "Baghdad",
+      "status": "1 subjects · 0 investigations · 0 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 1,
+      "expansions": [],
+      "allShown": 1,
+      "excerptsChecked": 1,
+      "expectedHitRank": 1,
+      "expectedExcerpt": "Also called: Baghdad",
+      "tabsToChoice": 1,
+      "openedSubject": "abbasid-craft"
+    },
+    {
+      "id": "SEARCH10",
+      "category": "name_or_alias",
+      "query": "Gold Coast",
+      "status": "1 subjects · 0 investigations · 0 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 1,
+      "expansions": [],
+      "allShown": 1,
+      "excerptsChecked": 1,
+      "expectedHitRank": 1,
+      "expectedExcerpt": "Also called: Gold Coast",
+      "tabsToChoice": 1,
+      "openedSubject": "ghana-independence"
+    },
+    {
+      "id": "SEARCH11",
+      "category": "concept",
+      "query": "frontier monopolies",
+      "status": "1 subjects · 0 investigations · 0 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 1,
+      "expansions": [],
+      "allShown": 1,
+      "excerptsChecked": 1,
+      "expectedHitRank": 1,
+      "expectedExcerpt": "Reading excerpt: …penalties. His reasoning joined status, stored supplies and frontier needs. This is a policy proposal from Western Han, centuries before many of the featured models. It does not describe the rules on …",
+      "tabsToChoice": 1,
+      "openedSubject": "eastern-han"
+    },
+    {
+      "id": "SEARCH12",
+      "category": "concept",
+      "query": "lidar",
+      "status": "2 subjects · 0 investigations · 1 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 2,
+      "expansions": [],
+      "allShown": 2,
+      "excerptsChecked": 2,
+      "expectedHitRank": 1,
+      "expectedExcerpt": "Summary: …cture require other ways of looking. Satellite observation, lidar, excavation and network models help us ask how the city worked, why it changed, and why the story cannot end with an empty jungle.",
+      "tabsToChoice": 1,
+      "openedSubject": "angkor"
+    },
+    {
+      "id": "SEARCH13",
+      "category": "concept",
+      "query": "Buddhism",
+      "status": "2 subjects · 0 investigations · 0 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 2,
+      "expansions": [],
+      "allShown": 2,
+      "excerptsChecked": 2,
+      "expectedHitRank": 1,
+      "expectedExcerpt": "Also called: Buddhism",
+      "tabsToChoice": 1,
+      "openedSubject": "borobudur"
+    },
+    {
+      "id": "SEARCH14",
+      "category": "concept",
+      "query": "oracle bones",
+      "status": "1 subjects · 0 investigations · 0 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 1,
+      "expansions": [],
+      "allShown": 1,
+      "excerptsChecked": 1,
+      "expectedHitRank": 1,
+      "expectedExcerpt": "Also called: Oracle bones",
+      "tabsToChoice": 1,
+      "openedSubject": "shang-ritual"
+    },
+    {
+      "id": "SEARCH15",
+      "category": "concept",
+      "query": "standardization",
+      "status": "1 subjects · 0 investigations · 1 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 1,
+      "expansions": [],
+      "allShown": 1,
+      "excerptsChecked": 1,
+      "expectedHitRank": 1,
+      "expectedExcerpt": "Also called: standardization",
+      "tabsToChoice": 1,
+      "openedSubject": "qin-administration"
+    },
+    {
+      "id": "SEARCH16",
+      "category": "concept",
+      "query": "silk reeling",
+      "status": "1 subjects · 0 investigations · 0 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 1,
+      "expansions": [],
+      "allShown": 1,
+      "excerptsChecked": 1,
+      "expectedHitRank": 1,
+      "expectedExcerpt": "Also called: Silk reeling",
+      "tabsToChoice": 1,
+      "openedSubject": "tomioka"
+    },
+    {
+      "id": "SEARCH17",
+      "category": "concept",
+      "query": "child labor",
+      "status": "2 subjects · 0 investigations · 0 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 2,
+      "expansions": [],
+      "allShown": 2,
+      "excerptsChecked": 2,
+      "expectedHitRank": 1,
+      "expectedExcerpt": "Also called: Child labor",
+      "tabsToChoice": 1,
+      "openedSubject": "hine-labor"
+    },
+    {
+      "id": "SEARCH18",
+      "category": "concept",
+      "query": "wampum",
+      "status": "1 subjects · 0 investigations · 1 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 1,
+      "expansions": [],
+      "allShown": 1,
+      "excerptsChecked": 1,
+      "expectedHitRank": 1,
+      "expectedExcerpt": "Name: Haudenosaunee diplomacy: Canandaigua, wampum and a promise",
+      "tabsToChoice": 1,
+      "openedSubject": "haudenosaunee-canandaigua"
+    },
+    {
+      "id": "SEARCH19",
+      "category": "concept",
+      "query": "wild rice",
+      "status": "1 subjects · 0 investigations · 1 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 1,
+      "expansions": [],
+      "allShown": 1,
+      "excerptsChecked": 1,
+      "expectedHitRank": 1,
+      "expectedExcerpt": "Also called: wild rice",
+      "tabsToChoice": 1,
+      "openedSubject": "ojibwe-manoomin"
+    },
+    {
+      "id": "SEARCH20",
+      "category": "concept",
+      "query": "forced removal",
+      "status": "2 subjects · 0 investigations · 0 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 2,
+      "expansions": [],
+      "allShown": 2,
+      "excerptsChecked": 2,
+      "expectedHitRank": 1,
+      "expectedExcerpt": "Name: Cherokee printing: language, political debate and forced removal",
+      "tabsToChoice": 1,
+      "openedSubject": "cherokee-print"
+    },
+    {
+      "id": "SEARCH21",
+      "category": "date_or_bce_ce_boundary",
+      "query": "1200 BCE",
+      "status": "Go to 1200 BCE by date. 3 subjects · 1 investigations · 0 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 3,
+      "expansions": [],
+      "allShown": 3,
+      "excerptsChecked": 3,
+      "tabsToChoice": 1,
+      "openedYear": -1200
+    },
+    {
+      "id": "SEARCH22",
+      "category": "date_or_bce_ce_boundary",
+      "query": "200 CE",
+      "status": "Go to 200 CE by date. 11 subjects · 1 investigations · 0 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 11,
+      "expansions": [],
+      "allShown": 11,
+      "excerptsChecked": 11,
+      "tabsToChoice": 1,
+      "openedYear": 200
+    },
+    {
+      "id": "SEARCH23",
+      "category": "date_or_bce_ce_boundary",
+      "query": "1 BCE",
+      "status": "Go to 1 BCE by date. 19 subjects · 0 investigations · 0 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 12,
+      "expansions": [19],
+      "allShown": 19,
+      "excerptsChecked": 19,
+      "tabsToChoice": 4,
+      "openedYear": -1
+    },
+    {
+      "id": "SEARCH24",
+      "category": "date_or_bce_ce_boundary",
+      "query": "1 CE",
+      "status": "Go to 1 CE by date. 69 subjects · 0 investigations · 0 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 12,
+      "expansions": [24, 36, 48, 60, 69],
+      "allShown": 69,
+      "excerptsChecked": 69,
+      "tabsToChoice": 4,
+      "openedYear": 1
+    },
+    {
+      "id": "SEARCH25",
+      "category": "date_or_bce_ce_boundary",
+      "query": "1950",
+      "status": "Go to 1950 CE by date. 6 subjects · 0 investigations · 0 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 6,
+      "expansions": [],
+      "allShown": 6,
+      "excerptsChecked": 6,
+      "tabsToChoice": 1,
+      "openedYear": 1950
+    },
+    {
+      "id": "SEARCH26",
+      "category": "date_or_bce_ce_boundary",
+      "query": "3300 BCE",
+      "status": "Go to 3300 BCE by date. 2 subjects · 0 investigations · 0 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 2,
+      "expansions": [],
+      "allShown": 2,
+      "excerptsChecked": 2,
+      "tabsToChoice": 1,
+      "openedYear": -3300
+    },
+    {
+      "id": "SEARCH27",
+      "category": "date_or_bce_ce_boundary",
+      "query": "2000 CE",
+      "status": "Go to 2000 CE by date. 0 subjects · 0 investigations · 0 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 0,
+      "expansions": [],
+      "allShown": 0,
+      "excerptsChecked": 0,
+      "tabsToChoice": 1,
+      "openedYear": 2000
+    },
+    {
+      "id": "SEARCH28",
+      "category": "date_or_bce_ce_boundary",
+      "query": "0 CE",
+      "status": "There is no year zero. Try 1 BCE or 1 CE.",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 0,
+      "expansions": [],
+      "allShown": 0,
+      "excerptsChecked": 0,
+      "invalidYearHasNoJump": true,
+      "firstEscapeClearedSearch": true,
+      "escapeRestoredFocus": true
+    },
+    {
+      "id": "SEARCH29",
+      "category": "spelling_or_diacritic",
+      "query": "Dong Son",
+      "status": "1 subjects · 0 investigations · 0 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 1,
+      "expansions": [],
+      "allShown": 1,
+      "excerptsChecked": 1,
+      "expectedHitRank": 1,
+      "expectedExcerpt": "Also called: Dong Son",
+      "tabsToChoice": 1,
+      "openedSubject": "dongson"
+    },
+    {
+      "id": "SEARCH30",
+      "category": "spelling_or_diacritic",
+      "query": "Chavin",
+      "status": "1 subjects · 1 investigations · 0 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 1,
+      "expansions": [],
+      "allShown": 1,
+      "excerptsChecked": 1,
+      "expectedHitRank": 1,
+      "expectedExcerpt": "Name: A Chavín textile: traveling images?",
+      "tabsToChoice": 1,
+      "openedSubject": "chavin-textile"
+    },
+    {
+      "id": "SEARCH31",
+      "category": "spelling_or_diacritic",
+      "query": "Maori",
+      "status": "2 subjects · 0 investigations · 0 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 2,
+      "expansions": [],
+      "allShown": 2,
+      "excerptsChecked": 2,
+      "expectedHitRank": 1,
+      "expectedExcerpt": "Also called: Māori",
+      "tabsToChoice": 1,
+      "openedSubject": "tiriti"
+    },
+    {
+      "id": "SEARCH32",
+      "category": "spelling_or_diacritic",
+      "query": "Suleyman",
+      "status": "1 subjects · 0 investigations · 0 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 1,
+      "expansions": [],
+      "allShown": 1,
+      "excerptsChecked": 1,
+      "expectedHitRank": 1,
+      "expectedExcerpt": "Also called: Süleyman",
+      "tabsToChoice": 1,
+      "openedSubject": "ottoman-workshops"
+    },
+    {
+      "id": "SEARCH33",
+      "category": "spelling_or_diacritic",
+      "query": "Jenne-jeno",
+      "status": "2 subjects · 0 investigations · 0 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 2,
+      "expansions": [],
+      "allShown": 2,
+      "excerptsChecked": 2,
+      "expectedHitRank": 1,
+      "expectedExcerpt": "Also called: Jenne-jeno",
+      "tabsToChoice": 1,
+      "openedSubject": "middle-niger"
+    },
+    {
+      "id": "SEARCH34",
+      "category": "spelling_or_diacritic",
+      "query": "Jean-Baptiste Laine",
+      "status": "1 subjects · 0 investigations · 0 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 1,
+      "expansions": [],
+      "allShown": 1,
+      "excerptsChecked": 1,
+      "expectedHitRank": 1,
+      "expectedExcerpt": "Name: Wendat village life: Jean-Baptiste Lainé and the problem of dating",
+      "tabsToChoice": 1,
+      "openedSubject": "wendat-laine"
+    },
+    {
+      "id": "SEARCH35",
+      "category": "deliberate_coverage_gap",
+      "query": "Antarctic Treaty",
+      "status": "0 subjects · 0 investigations · 0 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 0,
+      "expansions": [],
+      "allShown": 0,
+      "excerptsChecked": 0,
+      "gapExplanation": "No match in the current selection. A missing result may mean the topic has not been researched here. Try a broader place or idea, or a date for nearby context.",
+      "firstEscapeClearedSearch": true,
+      "escapeRestoredFocus": true
+    },
+    {
+      "id": "SEARCH36",
+      "category": "deliberate_coverage_gap",
+      "query": "Tokugawa shogunate",
+      "status": "0 subjects · 0 investigations · 0 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 0,
+      "expansions": [],
+      "allShown": 0,
+      "excerptsChecked": 0,
+      "gapExplanation": "No match in the current selection. A missing result may mean the topic has not been researched here. Try a broader place or idea, or a date for nearby context.",
+      "firstEscapeClearedSearch": true,
+      "escapeRestoredFocus": true
+    },
+    {
+      "id": "SEARCH37",
+      "category": "deliberate_coverage_gap",
+      "query": "Australian federation",
+      "status": "0 subjects · 0 investigations · 0 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 0,
+      "expansions": [],
+      "allShown": 0,
+      "excerptsChecked": 0,
+      "gapExplanation": "No match in the current selection. A missing result may mean the topic has not been researched here. Try a broader place or idea, or a date for nearby context.",
+      "firstEscapeClearedSearch": true,
+      "escapeRestoredFocus": true
+    },
+    {
+      "id": "SEARCH38",
+      "category": "deliberate_coverage_gap",
+      "query": "Mali space programme",
+      "status": "0 subjects · 0 investigations · 0 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 0,
+      "expansions": [],
+      "allShown": 0,
+      "excerptsChecked": 0,
+      "gapExplanation": "No match in the current selection. A missing result may mean the topic has not been researched here. Try a broader place or idea, or a date for nearby context.",
+      "firstEscapeClearedSearch": true,
+      "escapeRestoredFocus": true
+    },
+    {
+      "id": "SEARCH39",
+      "category": "deliberate_coverage_gap",
+      "query": "Sumerian television",
+      "status": "0 subjects · 0 investigations · 0 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 0,
+      "expansions": [],
+      "allShown": 0,
+      "excerptsChecked": 0,
+      "gapExplanation": "No match in the current selection. A missing result may mean the topic has not been researched here. Try a broader place or idea, or a date for nearby context.",
+      "firstEscapeClearedSearch": true,
+      "escapeRestoredFocus": true
+    },
+    {
+      "id": "SEARCH40",
+      "category": "deliberate_coverage_gap",
+      "query": "zzunrepresentedzz",
+      "status": "0 subjects · 0 investigations · 0 glossary terms",
+      "live": {
+        "live": "polite",
+        "atomic": true
+      },
+      "initialShown": 0,
+      "expansions": [],
+      "allShown": 0,
+      "excerptsChecked": 0,
+      "gapExplanation": "No match in the current selection. A missing result may mean the topic has not been researched here. Try a broader place or idea, or a date for nearby context.",
+      "firstEscapeClearedSearch": true,
+      "escapeRestoredFocus": true
+    }
+  ],
+  "failures": []
+}

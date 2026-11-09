@@ -1,0 +1,39 @@
+{
+  "journey": "objects-places-associations",
+  "revision": "326765c10ebaaa89fc8e06284ad24b3b743f1e7446ee948bdcc465f634668e5f",
+  "stops": [
+    {
+      "index": 0,
+      "narrative": "Inspect the miniature’s scale and visible forms. Then use the selected Vietnam map to compare a drum containing other bronze objects, a presumed burial association and later production evidence. Each record has its own place and date; none establishes this miniature’s workshop or purpose."
+    },
+    {
+      "index": 1,
+      "narrative": "Find the roof, opening and raised platform using the modern notes. The catalogue proposes an incense-burner lid. Regional offerings and the excavated Huitzilapa tomb supply comparisons, while this model retains an unknown precise findspot and two published date ranges."
+    },
+    {
+      "index": 2,
+      "narrative": "Compare the Mound City survey with its separately dated restored-site photograph. The existing North Fork Works plan represents Hopewell Mound Group, a different site. Construction evidence at Hopeton and named contemporary Miami voices add distinct kinds of knowledge without making the surveys ancient eyewitness views."
+    }
+  ],
+  "conclusion": "A useful explanation connects a particular claim with the evidence that can test it. A visible roof supports observation; a documented deposit supplies an association; a survey records a landscape at a later time. Keep an object’s unknown history open, and identify the people and methods behind later interpretation and care.",
+  "evidence": {
+    "prompt": "Which claim is best supported by the supplied Colima evidence?",
+    "options": [
+      {
+        "text": "The photographed model has a roof and platform; the catalogue proposes that it may have been an incense-burner lid.",
+        "supported": true,
+        "feedback": "This distinguishes visible features from a qualified catalogue interpretation. Neither step supplies an exact tomb or an associated burner body."
+      },
+      {
+        "text": "Because another shaft tomb was excavated at Huitzilapa, this model came from that tomb.",
+        "supported": false,
+        "feedback": "A documented regional comparison does not transfer its findspot to a different object."
+      },
+      {
+        "text": "Similar model buildings demonstrate one government across western Mexico.",
+        "supported": false,
+        "feedback": "Shared forms can coexist with regional and political differences. A style is not a recovered constitution or boundary."
+      }
+    ]
+  }
+}

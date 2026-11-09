@@ -1,0 +1,412 @@
+[
+  {
+    "id": "genocide",
+    "name": "genocide",
+    "definition": "Under the Genocide Convention, genocide involves specified acts committed with the intent to destroy all or part of a national, ethnic, racial or religious group because it is that group. The acts include killing members, seriously harming them, and forcibly transferring children of the group to another group."
+  },
+  {
+    "id": "primary-source",
+    "name": "primary source",
+    "definition": "Original evidence directly connected to the historical question, such as an object, record or first-hand account. A memoir or oral history recorded later can also be a primary source. Its date, purpose, memory and mediation still need examination."
+  },
+  {
+    "id": "patronage",
+    "name": "patronage",
+    "definition": "Support or commissioning of work by a person or institution, shaping what makers could produce."
+  },
+  {
+    "id": "tomb",
+    "name": "tomb",
+    "definition": "A place prepared for the dead. Its objects may reflect the beliefs and resources of those arranging the burial."
+  },
+  {
+    "id": "estate",
+    "name": "estate",
+    "definition": "A substantial property and the land, buildings and labor that sustain it."
+  },
+  {
+    "id": "afterlife",
+    "name": "afterlife",
+    "definition": "Beliefs about an existence after death. Historians study how people represented and practiced these beliefs."
+  },
+  {
+    "id": "evidence",
+    "name": "evidence",
+    "definition": "Information used to support or challenge an account of the past. Objects, written records and spoken testimony can all provide evidence. Each needs to be understood in context."
+  },
+  {
+    "id": "inference",
+    "name": "inference",
+    "definition": "An explanation drawn from evidence rather than something directly observed."
+  },
+  {
+    "id": "chronology",
+    "name": "chronology",
+    "definition": "The ordering and dating of events. Dates can be approximate, disputed or revised."
+  },
+  {
+    "id": "ritual",
+    "name": "ritual",
+    "definition": "An action or sequence given particular shared significance, often repeated in a religious or social setting."
+  },
+  {
+    "id": "dynasty",
+    "name": "dynasty",
+    "definition": "A sequence of rulers associated with one family; it is not the same thing as a whole society."
+  },
+  {
+    "id": "empire",
+    "name": "empire",
+    "definition": "A political formation ruling over diverse territories and peoples, often through conquest and unequal power."
+  },
+  {
+    "id": "freedman",
+    "name": "freedman",
+    "definition": "A formerly enslaved man. The label identifies a past legal status, not the full experience of a person."
+  },
+  {
+    "id": "caravan",
+    "name": "caravan",
+    "definition": "People and pack animals traveling together, often carrying goods."
+  },
+  {
+    "id": "inscription",
+    "name": "inscription",
+    "definition": "Words deliberately written or cut on a surface. The author’s purposes and audience matter."
+  },
+  {
+    "id": "coinage",
+    "name": "coinage",
+    "definition": "Coins and the practices through which authorities issue and people use them."
+  },
+  {
+    "id": "provenance",
+    "name": "provenance",
+    "definition": "The documented history of an object, including its origins, past ownership and previous locations. Archaeologists distinguish this from provenience: the recorded location where an object was found. A find context also includes surroundings and associations. Knowing one part of this history does not fill gaps in another."
+  },
+  {
+    "id": "port",
+    "name": "port",
+    "definition": "A place where vessels land and goods or people enter a wider network."
+  },
+  {
+    "id": "stele",
+    "name": "stele",
+    "definition": "An upright stone monument, often carved or inscribed."
+  },
+  {
+    "id": "archaeology",
+    "name": "archaeology",
+    "definition": "Study of the past through material remains and their contexts."
+  },
+  {
+    "id": "irrigation",
+    "name": "irrigation",
+    "definition": "Directing water to fields. The channels and their maintenance involve both environments and people."
+  },
+  {
+    "id": "tribute",
+    "name": "tribute",
+    "definition": "Goods or labor demanded by a political authority. Its precise form varies by setting."
+  },
+  {
+    "id": "iconography",
+    "name": "iconography",
+    "definition": "The study of imagery and its meanings in a particular context."
+  },
+  {
+    "id": "regalia",
+    "name": "regalia",
+    "definition": "Objects that represent office, rank or authority."
+  },
+  {
+    "id": "material culture",
+    "name": "material culture",
+    "definition": "Things people make and use, studied as part of social life."
+  },
+  {
+    "id": "enslavement",
+    "name": "enslavement",
+    "definition": "The coercive treatment of people as property, denying freedom and exploiting their work."
+  },
+  {
+    "id": "colonialism",
+    "name": "colonialism",
+    "definition": "Control of people and territories by an outside power, involving unequal political and economic relationships."
+  },
+  {
+    "id": "decolonization",
+    "name": "decolonization",
+    "definition": "Processes of ending colonial rule; political independence did not automatically end every inequality."
+  },
+  {
+    "id": "archive",
+    "name": "archive",
+    "definition": "A collection of records, shaped by decisions about what was created, kept, lost and made accessible."
+  },
+  {
+    "id": "industrialization",
+    "name": "industrialization",
+    "definition": "Changes in production involving machines, energy, workplaces and labor organization; timing and effects differ by region."
+  },
+  {
+    "id": "earthwork",
+    "name": "earthwork",
+    "definition": "A deliberately shaped construction of earth, such as a mound or enclosure. Its form alone does not establish its purpose or governing system."
+  },
+  {
+    "id": "terminus-post-quem",
+    "name": "terminus post quem",
+    "definition": "The earliest possible date for an event, given the evidence. A timber could only have been used in a wall in or after the year its last surviving ring grew. The wood may have been stored or reused."
+  },
+  {
+    "id": "calibration",
+    "name": "calibration",
+    "definition": "Converting a radiocarbon determination into possible calendar dates using an independently established reference curve. One determination can have more than one plausible calendar placement."
+  },
+  {
+    "id": "syllabary",
+    "name": "syllabary",
+    "definition": "A writing system whose signs represent syllables. The Cherokee syllabary is a system for writing Cherokee, not an ornamental version of English."
+  },
+  {
+    "id": "wampum",
+    "name": "wampum",
+    "definition": "Worked shell beads used in particular Indigenous contexts. The Onondaga account here explains agreements, speakers, memory and responsibilities; a pattern does not interpret itself."
+  },
+  {
+    "id": "ratification",
+    "name": "ratification",
+    "definition": "A formal act of confirming an agreement through a government’s procedures. It can occur after negotiation and signing, and does not by itself prove that commitments were fulfilled."
+  },
+  {
+    "id": "manoomin",
+    "name": "manoomin",
+    "definition": "The Ojibwe name for wild rice, explained in the community sources as food with physical, cultural and spiritual significance. Related practices differ among communities."
+  },
+  {
+    "id": "winnowing",
+    "name": "winnowing",
+    "definition": "Separating grain from lighter chaff, often with the help of moving air. It is one stage of finishing rice, distinct from harvesting, drying, parching and hulling."
+  },
+  {
+    "id": "marine-reservoir-effect",
+    "name": "marine reservoir effect",
+    "definition": "Marine carbon can give a sample a different radiocarbon age from a contemporary land-based sample. Appropriate calibration and reservoir corrections matter; a regional revision does not automatically redetermine every catalogued object."
+  },
+  {
+    "id": "reconstruction",
+    "name": "reconstruction",
+    "definition": "A modern interpretation made from evidence about an earlier object, building or practice. It can help investigate how something worked, while remaining distinct from the surviving original."
+  },
+  {
+    "id": "radiocarbon",
+    "name": "radiocarbon",
+    "definition": "A method that estimates the age of once-living material from radioactive carbon. Samples, calibration and environmental effects matter; an uncalibrated age in years BP is not automatically a calendar year."
+  },
+  {
+    "id": "waterlogged-preservation",
+    "name": "waterlogged preservation",
+    "definition": "Survival of material in persistently wet conditions that slow some forms of decay. The preserved material is still a selective record, not a complete picture of a household."
+  },
+  {
+    "id": "seasonal-round",
+    "name": "seasonal round",
+    "definition": "An organized pattern of activities and movement through the year. Mobility can depend on detailed knowledge, planning and social institutions."
+  },
+  {
+    "id": "cache-pit",
+    "name": "cache pit",
+    "definition": "A prepared underground storage space. Its construction, contents and use require evidence; an explanatory model is not an excavated original."
+  },
+  {
+    "id": "repatriation",
+    "name": "repatriation",
+    "definition": "Return of belongings or ancestral remains to the peoples or communities to whom they belong. The atlas follows the particular community account rather than assuming one process for every collection."
+  },
+  {
+    "id": "potlatch",
+    "name": "potlatch",
+    "definition": "A ceremony with specific forms and responsibilities in different Northwest Coast communities. In the Kwakwaka’wakw account here, invited people witness consequential events and gifts acknowledge their role."
+  },
+  {
+    "id": "experimental-archaeology",
+    "name": "experimental archaeology",
+    "definition": "Testing an interpretation by reproducing a material, technique or activity under stated conditions. An experiment supports a possibility; it is not a recovered ancient event."
+  },
+  {
+    "id": "archaeological-tradition",
+    "name": "archaeological tradition",
+    "definition": "A research label for related material practices across places or times. It is not automatically the name of one people, language or state."
+  },
+  {
+    "id": "biomarker",
+    "name": "biomarker",
+    "definition": "A detectable chemical or biological trace used as evidence of a substance or process. Its interpretation depends on the method, sample and alternative explanations."
+  },
+  {
+    "id": "kiva",
+    "name": "kiva",
+    "definition": "A Pueblo ceremonial space with varied forms and histories. Archaeological identification and living community knowledge both matter; not every circular room has an identical meaning."
+  },
+  {
+    "id": "proxy",
+    "name": "proxy",
+    "definition": "An indirect measurement used to investigate something not directly counted or observed. A lake-sediment signal, for example, requires interpretation before it becomes a population claim."
+  },
+  {
+    "id": "chiefdom",
+    "name": "chiefdom",
+    "definition": "An analytical term for a society with ranked authority and leadership above a local community. Its use for an archaeological case is an interpretation, not a surviving official name."
+  },
+  {
+    "id": "stonepaste",
+    "name": "stonepaste",
+    "definition": "A ceramic body containing abundant crushed quartz with clay and glassy material. It differs from porcelain even when makers adapt similar designs."
+  },
+  {
+    "id": "tughra",
+    "name": "tughra",
+    "definition": "A calligraphic emblem of an Ottoman sultan’s authority used on official documents and other media. Drawing and ornament could involve specialized makers."
+  },
+  {
+    "id": "forced-relocation",
+    "name": "forced relocation",
+    "definition": "Movement imposed on people by authorities or armed power. Later achievements or privileges do not make the original movement voluntary."
+  },
+  {
+    "id": "caravansary",
+    "name": "caravansary",
+    "definition": "An establishment offering space and facilities for traveling merchants and their goods, often linked to urban markets or overland travel."
+  },
+  {
+    "id": "madrasa",
+    "name": "madrasa",
+    "definition": "An institution of learning in Islamic societies, with varied subjects, forms and patronage across time and place. A building does not by itself reveal every student’s experience."
+  },
+  {
+    "id": "lacquer",
+    "name": "lacquer",
+    "definition": "A protective, often glossy surface finish applied over painted or decorated material. The Iranian case here uses painted papier-mâché and pasteboard."
+  },
+  {
+    "id": "sovereignty",
+    "name": "sovereignty",
+    "definition": "A claim to supreme political authority, including independence from another state. A declaration, recognition by other states and effective control can have different dates and histories."
+  },
+  {
+    "id": "federation",
+    "name": "federation",
+    "definition": "A political arrangement in which powers are divided between a central government and constituent governments. Its actual distribution of authority must be read in the particular constitution or agreement."
+  },
+  {
+    "id": "standardization",
+    "name": "Standardization",
+    "definition": "An attempt to establish common units, forms or procedures. An announced standard and the way people use it are separate historical questions."
+  },
+  {
+    "id": "dhamma",
+    "name": "Dhamma",
+    "definition": "In Ashoka’s messages, a moral and administrative program concerning conduct and government. Its uses need context and are not identical with a complete statement of Buddhist doctrine."
+  },
+  {
+    "id": "deme",
+    "name": "Deme",
+    "definition": "A local civic community in ancient Attica. The late-fourth-century Athenian account describes scrutiny and enrollment of eligible young men among its members."
+  },
+  {
+    "id": "stratigraphy",
+    "name": "Stratigraphy",
+    "definition": "The sequence and relationships of archaeological layers and features. An object’s manufacture date and the date or history of the deposit containing it are different questions."
+  },
+  {
+    "id": "endowment",
+    "name": "Endowment",
+    "definition": "A grant of land, property or resources intended to support an institution over time. Its terms and the work supplying that support need their own evidence."
+  },
+  {
+    "id": "mita",
+    "name": "Mit’a",
+    "definition": "Rotating labor service required by Inca authorities. It differs from permanent or semi-permanent resettlement; provisioning does not by itself establish equal choice or returns."
+  },
+  {
+    "id": "jeli",
+    "name": "Jeli / jeliw",
+    "definition": "A Mande specialist in oral traditions and performance, with roles including genealogy, praise and diplomacy. Jeliw is plural; particular performances have their own dates, audiences and purposes."
+  },
+  {
+    "id": "provisioning",
+    "name": "Provisioning",
+    "definition": "Organizing and supplying the food and other materials needed by people or institutions. Storage, preparation and delivery involve different tasks."
+  },
+  {
+    "id": "shicra",
+    "name": "Shicra",
+    "definition": "A woven plant-fiber bag. Stone-filled examples occur in Caral’s construction deposits; their presence alone does not establish how every worker was recruited or required to contribute."
+  },
+  {
+    "id": "midden",
+    "name": "Midden",
+    "definition": "An accumulation of discarded material and occupation deposits. Its contents and layers can help investigate activities, but need their own context and chronology."
+  },
+  {
+    "id": "temper",
+    "name": "Temper",
+    "definition": "Non-clay material, such as sand or plant fibers, mixed with clay to change how pottery behaves. Its composition can help investigate material sources, without identifying a particular carrier or voyage."
+  },
+  {
+    "id": "type-site",
+    "name": "Type-site",
+    "definition": "A place whose name supplies the label for an archaeological category. Similar finds elsewhere still need their own dates and contexts; the name alone does not prove that practices spread outward from that place."
+  },
+  {
+    "id": "lidar",
+    "name": "LiDAR",
+    "definition": "Light detection and ranging: measurements of light pulses used to model elevation. A ground-surface model can reveal forms, while excavation and dating help investigate their histories."
+  },
+  {
+    "id": "faience",
+    "name": "Faience",
+    "definition": "A manufactured, usually quartz-rich material with a glazed surface. Ancient Egyptian and Kushite faience is distinct from a granite carving or ordinary clay pottery; a mould and production debris can help investigate its making."
+  },
+  {
+    "id": "shabti",
+    "name": "Shabti",
+    "definition": "A funerary figure intended to substitute for work required of the deceased in the afterlife. Its name, material, inscription and find context need their own evidence; a royal example does not represent every household’s beliefs."
+  },
+  {
+    "id": "plain-weave",
+    "name": "Plain weave",
+    "definition": "A way of making cloth. The crosswise thread (weft) passes over one lengthwise thread (warp) and under the next. On the return row, the pattern reverses. A diagram shows the method. Identifying the weave of a particular cloth requires examining its threads."
+  },
+  {
+    "id": "residential-compound",
+    "name": "Residential compound",
+    "definition": "A connected group of rooms and open spaces used for living and other activities. An archaeological compound may include production, storage and gathering; its walls do not by themselves identify one nuclear family or its legal status."
+  },
+  {
+    "id": "find-context",
+    "name": "Find context",
+    "definition": "The recorded place and associations in which something was found, including its position, surrounding material and relationship to other features. A regional style or present museum location does not supply a precise archaeological find context."
+  },
+  {
+    "id": "relief",
+    "name": "Relief",
+    "definition": "An image carved or modelled so that forms project from a background surface. A relief can organize a story on that surface; its interpretation and use require further evidence."
+  },
+  {
+    "id": "iconoclasm",
+    "name": "Iconoclasm",
+    "definition": "Opposition to or destruction of images, especially in religious settings. Byzantine disputes involved particular periods and policies; the term does not describe every Christian view about images."
+  },
+  {
+    "id": "masonry",
+    "name": "Masonry",
+    "definition": "Building with stone, brick or similar units. Facing stones and a rubble core can perform different tasks within one wall; its materials alone do not identify every builder or the institution organizing the work."
+  },
+  {
+    "id": "workshop",
+    "name": "Workshop",
+    "definition": "A setting or group in which people produce or prepare work. Size, training, ownership and the division of tasks vary; a catalogue’s workshop attribution does not identify every maker."
+  }
+]

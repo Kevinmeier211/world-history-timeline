@@ -1,0 +1,44 @@
+{
+  "journey": "clay-work-local-histories",
+  "revision": "b6af514888e9001dc5625c9682d32d60b934e3af192d8c568709e6e317fec5fa",
+  "stops": [
+    {
+      "index": 0,
+      "narrative": "Observe the heating-object shapes, then read how the account connects them to cooking. Set that work beside building and maintaining the plaza. The modern terrain image and excavated deposits answer different questions about the place."
+    },
+    {
+      "index": 1,
+      "narrative": "Look at the figure’s ornaments and modeled details before proposing a social meaning. Its missing excavated findspot matters. Compare a portable figure with earth building and the revised dating of supposed households at San Lorenzo."
+    },
+    {
+      "index": 2,
+      "narrative": "Follow the original modern stamp-action guide. Then distinguish the museum’s plaster cast, ancient ceramic samples and scientific studies of materials, dates and diet. Similar decoration starts an inquiry; it does not recover a canoe’s itinerary."
+    }
+  ],
+  "conclusion": "Clay could supply heat, represent a body or become a useful decorated container. Making and using these forms involved different skills and social settings. Material observations, dated contexts and carefully chosen comparisons explain more than assigning every similar object one use or one origin.",
+  "evidence": {
+    "prompt": "What next investigation would best test a ceramic-transfer interpretation?",
+    "options": [
+      {
+        "text": "Date a coral tool from the same island.",
+        "supported": false,
+        "feedback": "A well-contextualized dated tool can improve settlement chronology. It does not directly identify the ceramic’s material source or distinguish a carried vessel from local production."
+      },
+      {
+        "text": "Compare the sherd’s minerals with local and nonlocal source samples, alongside its dated context.",
+        "supported": true,
+        "feedback": "Material comparison directly tests provenance. Nonlocal fabric can strengthen a transfer interpretation, while movement of raw ingredients remains an alternative to consider; no individual carrier or exact itinerary follows automatically."
+      },
+      {
+        "text": "Compare burial protein-isotope values with food baselines.",
+        "supported": false,
+        "feedback": "That is useful for a different question about dietary protein. It does not directly test where the pottery’s clay or temper originated."
+      },
+      {
+        "text": "Match decorative bands on a modern plaster cast.",
+        "supported": false,
+        "feedback": "A cast can help compare represented surface detail. Its plaster is not the ancient vessel’s fabric, so it cannot supply that vessel’s clay composition or prove ceramic transfer."
+      }
+    ]
+  }
+}

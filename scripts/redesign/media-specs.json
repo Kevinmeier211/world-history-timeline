@@ -1,0 +1,468 @@
+[
+  {
+    "id": 49519,
+    "subject": "eastern-han",
+    "place": "China; precise findspot not specified here",
+    "caption": "Pottery architecture made for a burial context. Its range spans the first through early third century; it is not dated precisely to 200 CE.",
+    "alt": "Green glazed pottery watchtower with tiered roofs, balconies and a walled base.",
+    "additionalImageAlts": [
+      "Frontal colour view of the green watchtower, showing the stacked balconies and rooflines.",
+      "Black-and-white side view of the same model. The narrow profile shows how far the roof and balconies project."
+    ],
+    "notice": [
+      "Which parts look like a building?",
+      "Which features can you describe before guessing their purpose?"
+    ],
+    "relevance": "Architectural model, elite estate context and afterlife provision.",
+    "views": 2
+  },
+  {
+    "id": 317600,
+    "subject": "colima",
+    "place": "Colima, Mexico; regional attribution",
+    "caption": "A roofed building on a platform, possibly once an incense-burner lid. Current catalogue: 200 BCE\u2013200 CE.",
+    "alt": "Small ceramic model of a peaked-roof building on an elevated rectangular platform.",
+    "additionalImageAlts": [
+      "Frontal view of the peaked roof and the short stairway ascending the platform between two raised corner features."
+    ],
+    "notice": [
+      "What supports the roof?",
+      "What makes the proposed function more than a visual observation?"
+    ],
+    "relevance": "Compare architectural form and tentative use with the Han tower without asserting contact.",
+    "datingNote": "Current catalogue: 200 BCE\u2013200 CE. Pillsbury\u2019s 2015 essay captions the same accession 200 BCE\u2013300 CE. Current catalogue followed; discrepancy preserved.",
+    "views": 1
+  },
+  {
+    "id": 52010,
+    "subject": "eastern-han",
+    "place": "China; regional attribution",
+    "caption": "A Han granary model brings storage and provisioning into a burial setting.",
+    "alt": "Black-and-white photograph of a cylindrical pottery granary on short feet, with a broad round roof and a small rectangular opening near the base.",
+    "notice": ["What parts might relate to storing food?"],
+    "relevance": "Investigate estate work alongside the watchtower."
+  },
+  {
+    "id": 52527,
+    "subject": "eastern-han",
+    "place": "China; regional attribution",
+    "caption": "A well-head model broadens the architectural story from protection to water.",
+    "alt": "Black-and-white photograph of a round well-head model with an arched frame rising from the rim and a small fitting at the top.",
+    "notice": ["How might water be lifted?"],
+    "relevance": "Compare water provisioning and funerary models."
+  },
+  {
+    "id": 251870,
+    "subject": "roman-world",
+    "place": "Roman world; precise manufacture and findspot not specified here",
+    "caption": "Julia Domna\u2019s portrait engraved into beryl, approximately 200\u2013210 CE. A small image participates in dynastic representation.",
+    "alt": "Blue-green, roughly rectangular gem with bevelled edges. The engraved profile of Julia Domna shows rows of waves in her hair.",
+    "notice": [
+      "Which features identify this as a portrait?",
+      "How does a small object carry a large political message?"
+    ],
+    "relevance": "Imperial authority, Syrian connections and the political work of images."
+  },
+  {
+    "id": 547951,
+    "subject": "roman-world",
+    "place": "Egypt; museum attribution",
+    "caption": "A funerary portrait of Eutyches, 100\u2013150 CE. Parts of its Greek inscription have competing translations.",
+    "alt": "Painted portrait of a young person with short dark hair, white tunic and large dark eyes.",
+    "notice": [
+      "Where does light seem to strike the face?",
+      "What can the inscription add to the image?"
+    ],
+    "relevance": "Identity, freed status and mixed practices in Roman Egypt."
+  },
+  {
+    "id": 256732,
+    "subject": "roman-world",
+    "place": "Roman world; this specimen is not identified as excavated at Aksum",
+    "caption": "A third-century Roman grape-shaped bottle. The Aksum essay compares this type with an excavated example; it does not give this specimen an Aksum findspot.",
+    "alt": "Small molded glass vessel shaped like a cluster of grapes with a narrow neck.",
+    "notice": ["What shape has the glassmaker borrowed from nature?"],
+    "relevance": "Separate type comparison from the provenance of an individual object."
+  },
+  {
+    "id": 322375,
+    "subject": "palmyra",
+    "place": "Palmyra, Syria",
+    "caption": "A Palmyrene family\u2019s funerary relief with named figures and ancestors in an Aramaic inscription.",
+    "alt": "Limestone relief with a reclining man and three smaller figures beside an inscription.",
+    "notice": [
+      "How are the figures arranged?",
+      "What does naming people add to our understanding?"
+    ],
+    "relevance": "Family commemoration in a city connected to caravan exchange."
+  },
+  {
+    "id": 39385,
+    "subject": "kushan-contexts",
+    "place": "Pakistan, ancient Gandhara; catalogue attribution",
+    "caption": "A gold coin of Kanishka, catalogued approximately 130 CE. Coin imagery supports a question about royal representation, not every person\u2019s beliefs.",
+    "alt": "Gold coin showing a standing ruler with a surrounding inscription.",
+    "additionalImageAlts": [
+      "Reverse of the gold coin. A standing figure extends an arm beside an animal, with lettering around the rim."
+    ],
+    "notice": [
+      "What can you distinguish on each side?",
+      "What would you need to establish where it circulated?"
+    ],
+    "relevance": "Royal imagery, monetary standards, dating uncertainty and find-context limits.",
+    "views": 1
+  },
+  {
+    "id": 312736,
+    "subject": "teotihuacan",
+    "place": "Mexico, Mesoamerica; cultural attribution",
+    "caption": "A heavy greenstone face dated to the third\u2013seventh centuries. The museum suggests attachment to another object rather than wearing by a living person.",
+    "alt": "Broad carved stone face with narrow eye recesses, a projecting nose and a partly open mouth.",
+    "notice": ["Are there holes that would allow a wearer to see?"],
+    "relevance": "Material observation can constrain functional interpretation; the object belongs to a later range than an exact 200 CE snapshot."
+  },
+  {
+    "id": 316721,
+    "subject": "moche",
+    "place": "Peru; Moche cultural attribution",
+    "caption": "A modeled serpent wraps around a stirrup-spout bottle. The meaning of its imagery remains uncertain.",
+    "alt": "Rounded Moche ceramic bottle with a raised snake curling around its body and an arched spout.",
+    "notice": [
+      "Where does the animal\u2019s body go?",
+      "Which features seem unlike an ordinary snake?"
+    ],
+    "relevance": "Distinguish material technique, imagery and uncertain interpretation."
+  },
+  {
+    "id": 307474,
+    "subject": "moche",
+    "place": "Peru; Moche cultural attribution",
+    "caption": "A seated figure becomes part of a vessel, dated 200\u2013500 CE.",
+    "alt": "Moche ceramic stirrup-spout bottle modeled as a seated human figure.",
+    "notice": ["How are figure and container combined?"],
+    "relevance": "Modeled human representation and specialized ceramic work."
+  },
+  {
+    "id": 39209,
+    "subject": "dongson",
+    "place": "Vietnam; regional attribution",
+    "caption": "A bronze drum in miniature, with four frogs. The broad catalogue range does not establish one exact year or one agreed function.",
+    "alt": "Small bronze drum with a flared base, decorated surface and four frog figures on top.",
+    "notice": [
+      "Can you find all four frogs?",
+      "How might the uses of a miniature and a full-size drum differ?"
+    ],
+    "relevance": "Non-state material traditions, circulation, miniature scale and uncertain function."
+  },
+  {
+    "id": 309900,
+    "subject": "benin-ivory",
+    "place": "Court of Benin(?), Nigeria; qualified museum attribution",
+    "caption": "Portuguese men interpreted by a Benin ivory carver, c. 1525\u20131600. Poses and dress distinguish rank.",
+    "alt": "Carved ivory saltcellar supported by Portuguese figures in detailed hats and clothing.",
+    "notice": ["Which figures face outward?", "How does the carver distinguish rank?"],
+    "relevance": "African artistic agency, commissioning and representation of foreign patrons."
+  },
+  {
+    "id": 318323,
+    "subject": "kongo-translation",
+    "place": "Kongo; regional attribution",
+    "caption": "A cast-brass crucifix dated to the sixteenth\u2013seventeenth centuries. Local artistic choices complicate a simple story of copying.",
+    "alt": "Brass crucifix with a central Christ figure and additional small figures around the arms.",
+    "notice": [
+      "How are the additional figures placed?",
+      "What can form alone tell us about a user\u2019s beliefs?"
+    ],
+    "relevance": "Translation of Christian forms, local meaning and uncertainty in provenance."
+  },
+  {
+    "id": 448183,
+    "subject": "mughal-books",
+    "place": "Probably Lahore, present-day Pakistan",
+    "caption": "A folio made around 1590\u201395 depicting Krishna protecting villagers. The making date is not the date of the sacred story.",
+    "representedDate": "A sacred narrative; no historical event year assigned.",
+    "alt": "Colorful manuscript painting of Krishna lifting a mountain above gathered villagers and animals.",
+    "notice": [
+      "How does the artist arrange the protected people?",
+      "How is the sheltering mountain made visible?"
+    ],
+    "relevance": "Courtly translation and manuscript invention; sacred representation distinguished from eyewitness evidence."
+  },
+  {
+    "id": 42549,
+    "subject": "ming-workshops",
+    "place": "Jingdezhen, China; production attribution",
+    "caption": "A mid-sixteenth-century porcelain jar decorated with fish and lotus plants. This specimen is not identified as galleon cargo.",
+    "alt": "Large round porcelain jar with orange carp and water plants painted around its surface.",
+    "notice": [
+      "How many fish can you follow around the surface?",
+      "Which materials and colors required specialized work?"
+    ],
+    "relevance": "Imperial production, technique and comparison of intended audiences."
+  },
+  {
+    "id": 9198,
+    "subject": "manila-network",
+    "place": "Made in Mexico",
+    "caption": "Mexican tin-glazed earthenware, c. 1680\u20131700. A later chapter in the Pacific exchange story, after the journey\u2019s 1450\u20131650 focus.",
+    "alt": "Blue and white decorated ceramic jar with a broad body and narrow base.",
+    "notice": [
+      "What differs between this earthenware jar and the Chinese porcelain jar?"
+    ],
+    "relevance": "Later American transformation within the wider network; chronology made explicit."
+  },
+  {
+    "id": 327384,
+    "subject": "uruk-accounts",
+    "place": "Mesopotamia; probably Uruk, modern Warka",
+    "caption": "A probable grain account, c. 3100\u20132900 BCE. Missing verbs limit precise interpretation.",
+    "alt": "Small rectangular clay tablet incised with pictographic signs and round numerical impressions.",
+    "additionalImageAlts": [
+      "Other face of the clay tablet, with groups of wedge-shaped and circular impressions separated by lines."
+    ],
+    "notice": [
+      "Which marks repeat?",
+      "Which claims need interpretation beyond what you can see?"
+    ],
+    "relevance": "Economic recordkeeping, work and the limits of early textual interpretation.",
+    "views": 1
+  },
+  {
+    "id": 543914,
+    "subject": "old-kingdom",
+    "place": "Saqqara, cemetery north of Djoser complex, tomb QS915, documented excavations",
+    "caption": "An elite chapel wall showing offerings, music and senet, c. 2465\u20132389 BCE. The present arrangement includes a displaced element.",
+    "alt": "Painted limestone tomb wall with tall false-door panels and smaller rows of people, offerings and musicians.",
+    "notice": [
+      "How do the sizes of figures differ?",
+      "Can you find activities beyond the large portraits?"
+    ],
+    "relevance": "Daily-life representation in a selective funerary setting; recarving and museum arrangement."
+  },
+  {
+    "id": 324062,
+    "subject": "dholavira",
+    "place": "Indus Valley; not identified here as a Dholavira find",
+    "caption": "An ancient seal with a modern impression, c. 2600\u20131900 BCE. The carving\u2019s signs have not been fully deciphered.",
+    "representedDate": "Ancient seal; accompanying impression is modern.",
+    "alt": "Square Indus seal with a one-horned animal and signs, alongside a modern positive impression.",
+    "additionalImageAlts": [
+      "Black-and-white photograph of the back of the seal, showing a raised grip on the square slab."
+    ],
+    "notice": [
+      "How does the impression reverse the carved design?",
+      "Can an unread sign still tell us something about making and use?"
+    ],
+    "relevance": "Distinguish the ancient object, modern impression, uncertain reading and regional attribution.",
+    "views": 1
+  },
+  {
+    "id": 72376,
+    "subject": "liangzhu",
+    "place": "China; Liangzhu cultural attribution",
+    "caption": "A jade cong, c. 2400 BCE, with a square exterior and round bore. Function and meaning remain uncertain.",
+    "alt": "Tall dark jade cong with a square tapered exterior, circular opening and faint carved faces at the corners.",
+    "notice": [
+      "What changes when you look from the top?",
+      "Can you locate the small faces?"
+    ],
+    "relevance": "Skilled work, social status, uncertain ritual meaning and separate city/culture/object chronologies."
+  },
+  {
+    "id": 545772,
+    "subject": "kerma-potters",
+    "place": "Excavated in Abydos, Egypt, tomb 525; Kerma ceramic tradition",
+    "dateOverride": {
+      "start": -1802,
+      "end": -1640,
+      "label": "c. 1802\u20131640 BCE",
+      "precision": "approximate",
+      "note": "Visible catalogue range retained. API objectEndDate repeats -1802 and is corrected from the record\u2019s Date field."
+    },
+    "caption": "A Kerma beaker found in an Egyptian grave. Its location is known; the owner\u2019s origin is a tentative interpretation.",
+    "alt": "Thin-walled bell-shaped pottery beaker with a polished red body, black rim and iridescent transition band.",
+    "notice": [
+      "How do the two surface colors meet?",
+      "Which claim requires more than looking at the pot?"
+    ],
+    "relevance": "Skilled firing, documented findspot and the limits of inferring a person\u2019s identity."
+  },
+  {
+    "id": 42045,
+    "subject": "shang-ritual",
+    "place": "China; broad Shang attribution, no precise findspot supplied here",
+    "dateOverride": {
+      "start": -1600,
+      "end": -1046,
+      "label": "Shang period, c. 1600\u20131046 BCE; no narrower object date supplied",
+      "precision": "approximate",
+      "note": "The record has no displayed narrow Date. Its Period supplies only this broad attribution."
+    },
+    "caption": "An inscribed oracle bone attributed to the Shang period. No translation of this particular specimen is supplied without support.",
+    "alt": "Long pale fragment of animal bone with small incised Chinese signs across its surface.",
+    "notice": [
+      "How are the signs placed on the available surface?",
+      "What would you need before claiming a translation?"
+    ],
+    "relevance": "Selectivity of ritual writing and honest dating precision."
+  },
+  {
+    "id": 314609,
+    "subject": "olmec",
+    "place": "Mesoamerica; Olmec cultural attribution",
+    "caption": "A ceramic female figure, 1200\u2013900 BCE. Adornment and modeled features invite questions about social identification.",
+    "alt": "Small modeled ceramic female figure with wide eyes, styled hair and ear ornaments.",
+    "notice": [
+      "Which features are modeled carefully, and which are exaggerated?",
+      "What can adornment suggest without identifying an individual?"
+    ],
+    "relevance": "Small-scale representations, social identities and attributed ritual interpretations."
+  },
+  {
+    "id": 322614,
+    "subject": "nimrud-palace",
+    "place": "Nimrud, Northwest Palace",
+    "caption": "A protective figure from Ashurnasirpal II\u2019s palace, c.883\u2013859 BCE. Its museum setting differs from its original room.",
+    "alt": "Carved gypsum relief showing a winged bearded figure in patterned dress.",
+    "notice": [
+      "What suggests protection or authority?",
+      "How does stone change the scale of a message?"
+    ],
+    "relevance": "Royal representation, skilled labor and reconstructed display."
+  },
+  {
+    "id": 247244,
+    "subject": "athens-water",
+    "place": "Greek, Attic attribution",
+    "caption": "A water jar with women at a fountain, c.510\u2013500 BCE. A represented scene is not a census of later Athenian life.",
+    "alt": "Black-figure terracotta water jar showing women with vessels at a fountain house.",
+    "notice": [
+      "Find the lifting and pouring handles.",
+      "What work does the scene show?"
+    ],
+    "relevance": "Daily work, public water and the limits of using images as social evidence."
+  },
+  {
+    "id": 544883,
+    "subject": "taharqo",
+    "place": "Probably from Taharqo\u2019s pyramid at Nuri, Sudan",
+    "dateOverride": {
+      "start": -690,
+      "end": -664,
+      "label": "c.690\u2013664 BCE",
+      "precision": "approximate",
+      "note": "Displayed catalogue reign range; API end repeats -690 and is corrected from the Date field."
+    },
+    "caption": "A royal shabti of Taharqo; the Nuri origin is probable.",
+    "alt": "Black-and-white photograph of a standing stone funerary figure with a headdress, crossed arms and lines of writing on the lower body.",
+    "notice": [
+      "Which details identify a royal figure?",
+      "What does \u201cprobably\u201d change in an object label?"
+    ],
+    "relevance": "Funerary labor, Kushite kingship and qualified provenance."
+  },
+  {
+    "id": 315784,
+    "subject": "chavin-textile",
+    "place": "Peru; said to come from the southern coast",
+    "caption": "Painted cotton, fourth\u2013third centuries BCE, with imagery related to Chav\u00edn. The reported origin does not reveal a complete route.",
+    "alt": "Fragmentary pale cotton textile painted with a large fanged figure and curling serpent-like forms.",
+    "notice": [
+      "Which shapes recur?",
+      "How might a cloth travel differently from a carved wall?"
+    ],
+    "relevance": "Revised chronology, portable imagery and uncertain provenance."
+  },
+  {
+    "id": 464428,
+    "subject": "byzantium",
+    "place": "Probably Constantinople",
+    "caption": "Mid-tenth-century ivory icon; the missing wings once formed a triptych. Probable private devotional use is an interpretation.",
+    "alt": "Small carved ivory icon with a central cross, standing figures and an architectural canopy.",
+    "notice": [
+      "Where might the lost side panels have fitted?",
+      "How would the size affect use?"
+    ],
+    "relevance": "Separate object chronology, devotional setting and political frame."
+  },
+  {
+    "id": 452833,
+    "subject": "abbasid-craft",
+    "place": "Attributed to Iraq",
+    "caption": "Tenth-century luster-painted bowl with figures and a blessing inscription.",
+    "alt": "Cream-colored shallow bowl painted in metallic brown with a seated figure and two birds.",
+    "additionalImageAlts": [
+      "A second overhead photograph of the bowl in brighter light, showing the seated figure and curving decoration against the pale glaze."
+    ],
+    "notice": [
+      "How does light change the painted surface?",
+      "Where is the inscription?"
+    ],
+    "relevance": "Technique, imagery and the diversity of settings within Islamic art.",
+    "views": 1
+  },
+  {
+    "id": 44800,
+    "subject": "tang-city",
+    "place": "China; no precise findspot supplied",
+    "caption": "An earthenware court lady, seventh\u2013eighth century. The figure is not identified as a named person.",
+    "alt": "Standing painted earthenware woman in a long robe with hands held in front of her.",
+    "notice": [
+      "What details of dress survive?",
+      "Which personal details remain unknown?"
+    ],
+    "relevance": "Elite burial representation and limits of biography."
+  },
+  {
+    "id": 316711,
+    "subject": "maya-vessel",
+    "place": "Mesoamerica; Tabasco association proposed",
+    "caption": "A seventh\u2013eighth-century Maya vessel. Its ownership text does not identify the ruler\u2019s polity.",
+    "alt": "Tall ceramic vessel with incised seated ruler, hieroglyphic text and supernatural imagery.",
+    "notice": [
+      "Where do text and image overlap?",
+      "What claims need a decipherment rather than visual observation?"
+    ],
+    "relevance": "Food, ownership, rank and uncertain regional attribution."
+  },
+  {
+    "id": 314362,
+    "subject": "middle-niger",
+    "place": "Inland Niger Delta, Mali; no secure excavated context asserted",
+    "caption": "A thirteenth-century terracotta figure. Its original purpose and the meaning of its markings remain uncertain.",
+    "alt": "Terracotta seated person curled around one raised knee with the head resting sideways.",
+    "additionalImageAlts": [
+      "Rear view of the curled seated figure, showing rows of raised bumps down its rounded back."
+    ],
+    "notice": [
+      "Describe the posture without naming a feeling.",
+      "Turn to the back view: what marks can you see?"
+    ],
+    "relevance": "Skilled modeling, uncertain meaning and urbanism beyond a single state model.",
+    "views": 1
+  },
+  {
+    "id": 42455,
+    "subject": "song-art",
+    "place": "China; Jian ware",
+    "caption": "An eleventh\u2013twelfth-century stoneware tea bowl with streaked \u201chare\u2019s-fur\u201d glaze.",
+    "alt": "Dark round tea bowl with brown streaks radiating across its glazed interior.",
+    "notice": [
+      "How does the glaze change toward the rim?",
+      "What would a photograph of the bottom add?"
+    ],
+    "relevance": "Craft at the scale of a hand-held object within broader artistic and political histories."
+  },
+  {
+    "id": 313152,
+    "subject": "inca-weaving",
+    "place": "Peru; highland technique with coastal comparisons",
+    "caption": "A camelid-hair tunic dated1450\u20131550. Its historical range remains intact across chapter boundaries.",
+    "alt": "Wide Andean tunic with black and white upper stripes and jagged stepped lower bands.",
+    "notice": [
+      "Where do different patterns meet?",
+      "Can you identify two joined pieces?"
+    ],
+    "relevance": "Skilled work, regional comparison and chronology crossing a political rupture."
+  }
+]

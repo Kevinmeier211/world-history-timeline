@@ -1,0 +1,503 @@
+{
+  "date": "2026-11-04",
+  "scope": "Individual editorial reading of all compiled glossary terms and their dossier assignments. External checks are identified by URL on the affected terms. The working-language review considers adult and family reading; it does not measure reader performance.",
+  "terms": [
+    {
+      "id": "genocide",
+      "exampleSubject": "world-war-two",
+      "outcome": "revised",
+      "finding": "Corrected the definition to require specified acts and intent directed at a protected group. The new examples are illustrative; identification of an act alone cannot establish intent.",
+      "source": "https://www.un.org/en/node/218413"
+    },
+    {
+      "id": "primary-source",
+      "exampleSubject": "nimrud-palace",
+      "outcome": "revised",
+      "finding": "Retained the later oral-history and memoir examples, which are essential for Partition. Changed the visible name to two words while preserving the link ID."
+    },
+    {
+      "id": "patronage",
+      "exampleSubject": "ming-workshops",
+      "outcome": "retained",
+      "finding": "Ming and Mughal works illustrate commissioning and support. A patron’s role leaves the number and identities of individual makers open."
+    },
+    {
+      "id": "tomb",
+      "exampleSubject": "eastern-han",
+      "outcome": "retained",
+      "finding": "The Han tomb material is associated with people who arranged burial as well as the deceased. The qualification about whose beliefs the objects reflect is important."
+    },
+    {
+      "id": "estate",
+      "exampleSubject": "eastern-han",
+      "outcome": "retained",
+      "finding": "In the Han entry, land, buildings and associated labor are concrete references for the model. Its depiction does not supply an owner’s balance sheet."
+    },
+    {
+      "id": "afterlife",
+      "exampleSubject": "eastern-han",
+      "outcome": "retained",
+      "finding": "The Han and Egyptian examples require attribution of beliefs to particular settings. The definition makes their historical representation open to study."
+    },
+    {
+      "id": "evidence",
+      "exampleSubject": "eastern-han",
+      "outcome": "revised",
+      "finding": "Broadened the examples to include spoken testimony alongside written records and objects. This fits living community accounts as well as excavated material."
+    },
+    {
+      "id": "inference",
+      "exampleSubject": "colima",
+      "outcome": "retained",
+      "finding": "Colima’s selected figures support descriptions and interpretations with different levels of certainty. The definition uses that distinction directly."
+    },
+    {
+      "id": "chronology",
+      "exampleSubject": "colima",
+      "outcome": "retained",
+      "finding": "Caral and Colima use different kinds of date ranges. The short definition allows both revised dates and uncertain ordering."
+    },
+    {
+      "id": "ritual",
+      "exampleSubject": "colima",
+      "outcome": "retained",
+      "finding": "Repetition and shared meaning offer a starting point for Colima; shape alone cannot identify a particular act or belief."
+    },
+    {
+      "id": "dynasty",
+      "exampleSubject": "roman-world",
+      "outcome": "retained",
+      "finding": "A line of rulers is intelligible in imperial China and Mughal history. The family frame leaves room for conflict and changing institutions."
+    },
+    {
+      "id": "empire",
+      "exampleSubject": "roman-world",
+      "outcome": "retained",
+      "finding": "Diverse subjects and unequal power fit the Roman example; the word “often” avoids requiring identical conquest or government in every case."
+    },
+    {
+      "id": "freedman",
+      "exampleSubject": "roman-world",
+      "outcome": "retained",
+      "finding": "The Roman use is appropriately gendered and identifies a previous legal status. It gives no automatic entitlement to citizenship, wealth or office."
+    },
+    {
+      "id": "caravan",
+      "exampleSubject": "palmyra",
+      "outcome": "retained",
+      "finding": "Traveling together explains overland transport at Palmyra. It does not prescribe one animal species or a complete route for an individual object."
+    },
+    {
+      "id": "inscription",
+      "exampleSubject": "palmyra",
+      "outcome": "retained",
+      "finding": "Words on a surface are identifiable on the Palmyra stone and the Kushan coin. A claim in an inscription still has an author and audience."
+    },
+    {
+      "id": "coinage",
+      "exampleSubject": "kushan-contexts",
+      "outcome": "retained",
+      "finding": "Issuing and using coins connects the Kushan object with an authority and users without treating circulation as a border map."
+    },
+    {
+      "id": "provenance",
+      "exampleSubject": "kushan-contexts",
+      "outcome": "retained",
+      "finding": "The core ownership-history meaning fits the museum examples; it leaves the archaeological findspot as a separate question. Dimensions such as loans or custody may also matter in particular cases.",
+      "source": "https://www.getty.edu/museum/provenance/"
+    },
+    {
+      "id": "port",
+      "exampleSubject": "aksum",
+      "outcome": "retained",
+      "finding": "The definition accommodates coastal and river connections and the transfer of both people and goods. A port name alone cannot trace an individual vessel."
+    },
+    {
+      "id": "stele",
+      "exampleSubject": "aksum",
+      "outcome": "retained",
+      "finding": "The simple upright-monument description fits Aksum. Carving and writing are possible features rather than required features."
+    },
+    {
+      "id": "archaeology",
+      "exampleSubject": "colima",
+      "outcome": "retained",
+      "finding": "Material remains together with their contexts encompass tools, architecture and deposits in Colima and Moche. This avoids equating archaeology with collecting objects."
+    },
+    {
+      "id": "irrigation",
+      "exampleSubject": "moche",
+      "outcome": "retained",
+      "finding": "Directing water to fields fits the agricultural examples. Household water storage or an urban drain requires separate functional evidence."
+    },
+    {
+      "id": "tribute",
+      "exampleSubject": "moche",
+      "outcome": "retained",
+      "finding": "Goods and labor under political demand are both possible in the Moche inquiry. The generic definition does not establish who owed what in that setting."
+    },
+    {
+      "id": "iconography",
+      "exampleSubject": "moche",
+      "outcome": "retained",
+      "finding": "The term explains how subjects in an image are interpreted in context. The Moche example requires separate evidence for which figure or action is shown."
+    },
+    {
+      "id": "regalia",
+      "exampleSubject": "dongson",
+      "outcome": "retained",
+      "finding": "Rank, office and authority describe what the Benin example can communicate. Possession or resemblance alone cannot identify a specific historical officer."
+    },
+    {
+      "id": "material culture",
+      "exampleSubject": "dongson",
+      "outcome": "retained",
+      "finding": "Everyday things and prestige objects both fit. The example of a drum uses making, use and social relations rather than metal alone."
+    },
+    {
+      "id": "enslavement",
+      "exampleSubject": "kongo-translation",
+      "outcome": "retained",
+      "finding": "The definition makes coercion and denial of freedom explicit. Its use in Banda and Atlantic contexts should not be extended to every form of dependent labor."
+    },
+    {
+      "id": "colonialism",
+      "exampleSubject": "portuguese-voyage",
+      "outcome": "retained",
+      "finding": "Outside power and unequal relations fit Banda and Saint-Domingue. An imported object by itself would be insufficient to identify colonial rule."
+    },
+    {
+      "id": "decolonization",
+      "exampleSubject": "partition-1947",
+      "outcome": "retained",
+      "finding": "The plural “processes” fits Ghana, Indonesia and Partition. Political handover can be dated separately from changes to local power and inequality."
+    },
+    {
+      "id": "archive",
+      "exampleSubject": "banda-1621",
+      "outcome": "retained",
+      "finding": "Keeping, losing and providing access help explain the surviving Banda and Warsaw records. A gap in a collection cannot show that an event never happened."
+    },
+    {
+      "id": "industrialization",
+      "exampleSubject": "factory-reform",
+      "outcome": "retained",
+      "finding": "Skill and work organization appear beside machines and energy, making this applicable to Tomioka as well as British factories. Different timings remain explicit."
+    },
+    {
+      "id": "earthwork",
+      "exampleSubject": "poverty-point",
+      "outcome": "retained",
+      "finding": "Mounds and enclosures at Poverty Point and Hopewell fit the definition; neither shape nor size alone identifies their builders’ government."
+    },
+    {
+      "id": "terminus-post-quem",
+      "exampleSubject": "ocmulgee-council",
+      "outcome": "revised",
+      "finding": "Replaced a vague “limit after which” with the earliest possible date supported by evidence. The example dates the use of the specific timber and allows storage and reuse.",
+      "source": "https://www.nps.gov/articles/000/how-do-archeologists-date-sites-and-artifacts.htm"
+    },
+    {
+      "id": "calibration",
+      "exampleSubject": "lapita",
+      "outcome": "retained",
+      "finding": "A reference curve and several possible calendar dates account for the Wendat graph. Calibration is distinguished from simply subtracting a radiocarbon age from a year."
+    },
+    {
+      "id": "syllabary",
+      "exampleSubject": "cherokee-print",
+      "outcome": "retained",
+      "finding": "Signs represent syllables, which explains why the Cherokee page has its own writing system. The definition does not imply that a bilingual page was readable by everyone."
+    },
+    {
+      "id": "wampum",
+      "exampleSubject": "haudenosaunee-canandaigua",
+      "outcome": "retained",
+      "finding": "The Onondaga account supplies situated meanings of belts and speakers. Recognizing shell beads does not permit an observer to assign a belt’s message independently."
+    },
+    {
+      "id": "ratification",
+      "exampleSubject": "haudenosaunee-canandaigua",
+      "outcome": "retained",
+      "finding": "Separates negotiation, signature and formal confirmation in Canandaigua. The text does not equate ratification with fulfillment of promises."
+    },
+    {
+      "id": "manoomin",
+      "exampleSubject": "ojibwe-manoomin",
+      "outcome": "retained",
+      "finding": "The Ojibwe name remains connected with food, cultural and spiritual significance. Naming the community accounts avoids claiming identical practices throughout the region."
+    },
+    {
+      "id": "winnowing",
+      "exampleSubject": "ojibwe-manoomin",
+      "outcome": "retained",
+      "finding": "Separation of grain from lighter chaff fits the Commission’s finishing sequence, distinct from other postharvest steps.",
+      "source": "https://glifwc.org/stewardship/ganawenindiwag-manoomin-anishinaabeg"
+    },
+    {
+      "id": "marine-reservoir-effect",
+      "exampleSubject": "bering-sea-carvers",
+      "outcome": "retained",
+      "finding": "The comparison is between marine and contemporary terrestrial carbon; the need for local corrections is meaningful for the Bering Sea case."
+    },
+    {
+      "id": "reconstruction",
+      "exampleSubject": "skara-brae",
+      "outcome": "retained",
+      "finding": "The modern Hidatsa lodge and Inuinnait parkas show different uses of earlier evidence. Modern construction has its own date even when representing past practices."
+    },
+    {
+      "id": "radiocarbon",
+      "exampleSubject": "skara-brae",
+      "outcome": "retained",
+      "finding": "Once-living material, calibration and environmental effects anchor the method in sampled remains. The caution about BP matters at Ozette."
+    },
+    {
+      "id": "waterlogged-preservation",
+      "exampleSubject": "ozette-makah",
+      "outcome": "retained",
+      "finding": "Slow decay under persistently wet conditions explains why wood can survive at Ozette. The wording leaves room for selective survival."
+    },
+    {
+      "id": "seasonal-round",
+      "exampleSubject": "blackfoot-bison",
+      "outcome": "retained",
+      "finding": "Organized movements and activities across a year fit the Blackfoot landscape. Mobility is treated as work requiring knowledge rather than an absence of institutions."
+    },
+    {
+      "id": "cache-pit",
+      "exampleSubject": "hidatsa-villages",
+      "outcome": "retained",
+      "finding": "An underground storage space connects Hidatsa agriculture to storage. An illustrative model cannot establish the contents of a particular excavated pit."
+    },
+    {
+      "id": "repatriation",
+      "exampleSubject": "kwakwakawakw-potlatch",
+      "outcome": "retained",
+      "finding": "Return is situated in the account of Kwakwaka’wakw belongings. The definition encompasses ancestral remains without implying they are interchangeable with objects."
+    },
+    {
+      "id": "potlatch",
+      "exampleSubject": "kwakwakawakw-potlatch",
+      "outcome": "retained",
+      "finding": "Witnessing and gifts are introduced through the named Kwakwaka’wakw account. Variation across Northwest Coast communities is explicit."
+    },
+    {
+      "id": "experimental-archaeology",
+      "exampleSubject": "old-kingdom",
+      "outcome": "retained",
+      "finding": "Stated conditions and a possible method fit the bison-processing experiment. The reader can distinguish experimental materials from an excavated event."
+    },
+    {
+      "id": "archaeological-tradition",
+      "exampleSubject": "hopewell-earthworks",
+      "outcome": "retained",
+      "finding": "Shared material practices can be grouped across sites; a Hopewell or Bering Sea label alone cannot identify a state, language or unified nation."
+    },
+    {
+      "id": "biomarker",
+      "exampleSubject": "chaco-communities",
+      "outcome": "retained",
+      "finding": "The chemical-trace example fits the Chaco vessel inquiry. It requires a stated sample and alternative explanations before reconstructing a drink or practice."
+    },
+    {
+      "id": "kiva",
+      "exampleSubject": "chaco-communities",
+      "outcome": "retained",
+      "finding": "The Pueblo context and variable form distinguish a cultural identification from a plan shape. A circular feature alone remains insufficient."
+    },
+    {
+      "id": "proxy",
+      "exampleSubject": "cahokia-city",
+      "outcome": "retained",
+      "finding": "The lake-sediment example translates an indirect observation into everyday language. A changing signal does not count individual Cahokia residents."
+    },
+    {
+      "id": "chiefdom",
+      "exampleSubject": "cahokia-city",
+      "outcome": "retained",
+      "finding": "The Cahokia entry identifies an analytical interpretation of ranked leadership. Neither an official title nor institutional unanimity follows from the term."
+    },
+    {
+      "id": "stonepaste",
+      "exampleSubject": "ottoman-workshops",
+      "outcome": "retained",
+      "finding": "Quartz, clay and glassy material distinguish the Iznik ceramic body from porcelain. The definition does not purport to provide the selected dish’s recipe."
+    },
+    {
+      "id": "tughra",
+      "exampleSubject": "ottoman-workshops",
+      "outcome": "retained",
+      "finding": "An Ottoman sultan’s emblem can involve calligraphy and decoration; the definition permits multiple skilled participants. It does not attribute the drawing to the sultan personally."
+    },
+    {
+      "id": "forced-relocation",
+      "exampleSubject": "isfahan-silk",
+      "outcome": "retained",
+      "finding": "Coercion is explicit in the New Julfa and Cherokee cases. Later adaptation or success is kept separate from the conditions of removal."
+    },
+    {
+      "id": "caravansary",
+      "exampleSubject": "isfahan-silk",
+      "outcome": "retained",
+      "finding": "Merchants, goods and an establishment make this more specific than a route. The term accommodates both urban and overland settings."
+    },
+    {
+      "id": "madrasa",
+      "exampleSubject": "bukhara-books",
+      "outcome": "retained",
+      "finding": "Learning institutions vary across Islamic societies. Bukhara’s surviving building requires further evidence for the curriculum or an individual student’s experience."
+    },
+    {
+      "id": "lacquer",
+      "exampleSubject": "zand-iran",
+      "outcome": "retained",
+      "finding": "The protective finish is distinguished from the painted papier-mâché and pasteboard support in the Iranian dressing case. No chemical recipe is inferred."
+    },
+    {
+      "id": "sovereignty",
+      "exampleSubject": "indonesia-independence",
+      "outcome": "retained",
+      "finding": "Proclamation, foreign recognition and effective control can be investigated separately. This matters particularly for Indonesia’s 1945, 1949 and 1950 milestones."
+    },
+    {
+      "id": "federation",
+      "exampleSubject": "indonesia-independence",
+      "outcome": "retained",
+      "finding": "Divided powers, subject to a particular agreement, fits the Indonesian settlement and Ghanaian debates. It does not imply equal power at each level."
+    },
+    {
+      "id": "standardization",
+      "exampleSubject": "qin-administration",
+      "outcome": "retained",
+      "finding": "The distinction between an announced standard and observed practice fits Qin measures. A rule does not establish immediate or universal adoption."
+    },
+    {
+      "id": "dhamma",
+      "exampleSubject": "ashoka-messages",
+      "outcome": "retained",
+      "finding": "The term is explicitly attached to Ashoka’s messages on conduct and government. It avoids treating a selected edict as an exhaustive account of Buddhist belief."
+    },
+    {
+      "id": "deme",
+      "exampleSubject": "athens-water",
+      "outcome": "retained",
+      "finding": "The local Attic community and a specified fourth-century account prevent confusion with citizenship in any modern municipality. Enrollment is attributed to eligible men."
+    },
+    {
+      "id": "stratigraphy",
+      "exampleSubject": "aksum",
+      "outcome": "retained",
+      "finding": "Relationships between layers and features explain why a deposit and its contents may have different dates. This applies to the Aksum and Caral examples."
+    },
+    {
+      "id": "endowment",
+      "exampleSubject": "nalanda",
+      "outcome": "retained",
+      "finding": "Property or other resources can sustain an institution over time. At Nalanda, terms and maintenance require evidence beyond the surviving building."
+    },
+    {
+      "id": "mita",
+      "exampleSubject": "inca-weaving",
+      "outcome": "retained",
+      "finding": "Rotating service is distinguished from resettlement. Food supplied to Inca workers does not in itself measure how much choice they had."
+    },
+    {
+      "id": "jeli",
+      "exampleSubject": "mali-networks",
+      "outcome": "retained",
+      "finding": "The definition identifies the plural jeliw and includes multiple Mande performance roles. A particular performance retains its own audience and date."
+    },
+    {
+      "id": "provisioning",
+      "exampleSubject": "moche",
+      "outcome": "retained",
+      "finding": "Storage, preparation and delivery translate an abstract word into identifiable tasks. Egyptian and Moche cases can then be compared without assuming identical administration."
+    },
+    {
+      "id": "shicra",
+      "exampleSubject": "caral",
+      "outcome": "retained",
+      "finding": "A woven plant-fiber bag is concrete; stone-filled examples belong specifically to Caral deposits. Bags cannot identify a labor obligation unaided."
+    },
+    {
+      "id": "midden",
+      "exampleSubject": "skara-brae",
+      "outcome": "retained",
+      "finding": "Discarded material and layered occupation deposits are both intelligible at Skara Brae and Poverty Point. A midden requires its own formation history and dating."
+    },
+    {
+      "id": "temper",
+      "exampleSubject": "lapita",
+      "outcome": "retained",
+      "finding": "Added non-clay material affects how pottery behaves. The Lapita case can consider material sources without inferring a named carrier or complete voyage."
+    },
+    {
+      "id": "type-site",
+      "exampleSubject": "poverty-point",
+      "outcome": "retained",
+      "finding": "Naming a category after a place differs from proving that the practice originated or spread from there. This distinction is directly relevant to Poverty Point."
+    },
+    {
+      "id": "lidar",
+      "exampleSubject": "poverty-point",
+      "outcome": "retained",
+      "finding": "Light pulses and elevation modeling explain how ground shapes become visible. Neither the model nor an observed mound supplies a construction date."
+    },
+    {
+      "id": "faience",
+      "exampleSubject": "taharqo",
+      "outcome": "retained",
+      "finding": "Quartz-rich glazed material is distinguishable from granite and ordinary clay. The Taharqo inquiry also needs object-specific evidence of manufacture."
+    },
+    {
+      "id": "shabti",
+      "exampleSubject": "taharqo",
+      "outcome": "retained",
+      "finding": "The figure’s intended funerary work is clear. The words “intended” and “royal example” leave particular objects and beliefs open to specific investigation."
+    },
+    {
+      "id": "plain-weave",
+      "exampleSubject": "chavin-textile",
+      "outcome": "revised",
+      "finding": "Added the reversal on the next row. The crosswise and lengthwise terms now allow the learner to follow both directions in the Chavín teaching diagram.",
+      "source": "https://www.nps.gov/articles/000/weaving-patterns.htm"
+    },
+    {
+      "id": "residential-compound",
+      "exampleSubject": "teotihuacan",
+      "outcome": "retained",
+      "finding": "Connected rooms and open spaces can support multiple activities. At Teotihuacan the structure alone does not identify the size or legal status of a household."
+    },
+    {
+      "id": "find-context",
+      "exampleSubject": "colima",
+      "outcome": "retained",
+      "finding": "Place, surrounding material and association distinguish archaeological context from style, ownership or museum location. This applies to the Colima figures."
+    },
+    {
+      "id": "relief",
+      "exampleSubject": "byzantium",
+      "outcome": "retained",
+      "finding": "Forms projecting from a background give a visible test applicable at Borobudur. The representation still requires evidence for use and interpretation."
+    },
+    {
+      "id": "iconoclasm",
+      "exampleSubject": "byzantium",
+      "outcome": "retained",
+      "finding": "Opposition can extend to destruction but takes different forms. The Byzantine entry attaches disputes to specific periods and policies."
+    },
+    {
+      "id": "masonry",
+      "exampleSubject": "chaco-communities",
+      "outcome": "retained",
+      "finding": "Stone, bricks and different components of a wall are concrete. The Chaco construction does not identify its builders’ identities or governance by material alone."
+    },
+    {
+      "id": "workshop",
+      "exampleSubject": "ming-workshops",
+      "outcome": "retained",
+      "finding": "Both a setting and a group of workers are possible. Catalogue attribution to an Ottoman or Mughal workshop supplies neither a roster nor ownership on its own."
+    }
+  ]
+}

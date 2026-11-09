@@ -1,0 +1,23 @@
+{
+  "subject": "kushan-contexts",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "met-39385",
+      "caption": "A gold coin of Kanishka, catalogued approximately 130 CE. Coin imagery supports a question about royal representation, not every person’s beliefs.",
+      "notice": [
+        "Describe a visible feature on each of the two photographed sides.",
+        "Distinguish this accession from other coins described in the catalogue’s general paragraph.",
+        "A place attribution does not establish this specimen’s circulation."
+      ],
+      "creator": "Maker not recorded",
+      "place": "Pakistan, ancient Gandhara; catalogue attribution",
+      "material": "Gold",
+      "relevance": "Royal imagery, monetary standards, dating uncertainty and find-context limits.",
+      "additionalImages": ["/atlas/media/39385-1.webp"],
+      "additionalImageAlts": [
+        "Reverse of the gold coin. A standing figure extends an arm beside an animal, with lettering around the rim."
+      ]
+    }
+  ]
+}

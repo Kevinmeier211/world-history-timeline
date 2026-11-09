@@ -1,0 +1,42 @@
+{
+  "subject": "roman-world",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "met-251870",
+      "caption": "Julia Domna’s portrait engraved into beryl, approximately 200–210 CE. A small image participates in dynastic representation.",
+      "notice": [
+        "Which features identify this as a portrait?",
+        "How does a small object carry a large political message?"
+      ],
+      "creator": "Maker not recorded",
+      "place": "Roman world; precise manufacture and findspot not specified here",
+      "material": "Beryl",
+      "relevance": "Imperial authority, Syrian connections and the political work of images.",
+      "additionalImages": []
+    },
+    {
+      "id": "met-547951",
+      "caption": "A funerary portrait of Eutyches, 100–150 CE. Parts of its Greek inscription have competing translations.",
+      "notice": [
+        "Where does light seem to strike the face?",
+        "What can the inscription add to the image?"
+      ],
+      "creator": "Maker not recorded",
+      "place": "Egypt; museum attribution",
+      "material": "Encaustic on wood",
+      "relevance": "Identity, freed status and mixed practices in Roman Egypt.",
+      "additionalImages": []
+    },
+    {
+      "id": "met-256732",
+      "caption": "A third-century Roman grape-shaped bottle. The Aksum essay compares this type with an excavated example; it does not give this specimen an Aksum findspot.",
+      "notice": ["What shape has the glassmaker borrowed from nature?"],
+      "creator": "Maker not recorded",
+      "place": "Roman world; this specimen is not identified as excavated at Aksum",
+      "material": "Glass",
+      "relevance": "Separate type comparison from the provenance of an individual object.",
+      "additionalImages": []
+    }
+  ]
+}

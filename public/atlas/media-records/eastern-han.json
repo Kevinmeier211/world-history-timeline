@@ -1,0 +1,43 @@
+{
+  "subject": "eastern-han",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "met-49519",
+      "caption": "Pottery architecture made for a burial context. Its range spans the first through early third century; it is not dated precisely to 200 CE.",
+      "notice": [
+        "Which parts look like a building?",
+        "Which features can you describe before guessing their purpose?"
+      ],
+      "creator": "Maker not recorded",
+      "place": "China; precise findspot not specified here",
+      "material": "Earthenware with green lead glaze",
+      "relevance": "Architectural model, elite estate context and afterlife provision.",
+      "additionalImages": ["/atlas/media/49519-1.webp", "/atlas/media/49519-2.webp"],
+      "additionalImageAlts": [
+        "Frontal colour view of the green watchtower, showing the stacked balconies and rooflines.",
+        "Black-and-white side view of the same model. The narrow profile shows how far the roof and balconies project."
+      ]
+    },
+    {
+      "id": "met-52010",
+      "caption": "A Han granary model brings storage and provisioning into a burial setting.",
+      "notice": ["What parts might relate to storing food?"],
+      "creator": "Maker not recorded",
+      "place": "China; regional attribution",
+      "material": "Earthenware with green lead glaze",
+      "relevance": "Investigate estate work alongside the watchtower.",
+      "additionalImages": []
+    },
+    {
+      "id": "met-52527",
+      "caption": "A well-head model broadens the architectural story from protection to water.",
+      "notice": ["How might water be lifted?"],
+      "creator": "Maker not recorded",
+      "place": "China; regional attribution",
+      "material": "Earthenware with green lead glaze",
+      "relevance": "Compare water provisioning and funerary models.",
+      "additionalImages": []
+    }
+  ]
+}

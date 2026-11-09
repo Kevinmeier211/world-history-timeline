@@ -1,0 +1,37 @@
+{
+  "subject": "abbasid-craft",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "met-452833",
+      "caption": "Tenth-century luster-painted bowl with figures and a blessing inscription.",
+      "notice": [
+        "Describe the seated figure, cup, branch and birds in the decorated interior.",
+        "The two supplied photographs show the interior; neither shows the foot inscription.",
+        "Distinguish a visible feature from the catalogue’s reading of the blessing on the foot."
+      ],
+      "creator": "Maker not recorded",
+      "place": "Attributed to Iraq",
+      "material": "Earthenware; luster-painted on opaque white glaze",
+      "relevance": "Technique, imagery and the diversity of settings within Islamic art.",
+      "additionalImages": ["/atlas/media/452833-1.webp"],
+      "additionalImageAlts": [
+        "A second overhead photograph of the bowl in brighter light, showing the seated figure and curving decoration against the pale glaze."
+      ]
+    },
+    {
+      "id": "abbasid-work-diagram",
+      "caption": "Modern process guide. Forming, glazing and lustre firing are different tasks. The simplified sequence is not a tested recipe, a reconstruction of this bowl’s workshop or evidence of royal sponsorship.",
+      "notice": [
+        "Trace the relationship between the separate labeled settings or tasks.",
+        "Distinguish what the guide explains from what the historical source establishes."
+      ],
+      "creator": "Chronos / Codex; source-based editorial diagram",
+      "place": "Modern functional guide; not a surveyed plan, facsimile or exact recipe",
+      "material": "Original SVG diagram",
+      "representedDate": "Mainly ninth–tenth-century Iraqi pottery; selected Met bowl is tenth century.",
+      "relevance": "Makes access or skilled work visible without inventing an ancient plan, text or workshop history.",
+      "printWidthMm": 145
+    }
+  ]
+}

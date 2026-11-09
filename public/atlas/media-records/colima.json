@@ -1,0 +1,70 @@
+{
+  "subject": "colima",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "met-317600",
+      "caption": "A roofed building on a platform, possibly once an incense-burner lid. Current catalogue: 200 BCE–200 CE. Three numbered modern notes point to visible architecture on the unchanged photograph; they do not reconstruct missing rooms or prove the proposed use.",
+      "notice": [
+        "What supports the roof?",
+        "What makes the proposed function more than a visual observation?"
+      ],
+      "creator": "Maker not recorded",
+      "place": "Colima, Mexico; regional attribution",
+      "material": "Ceramic",
+      "relevance": "Compare architectural form and tentative use with the Han tower without asserting contact.",
+      "datingNote": "Current catalogue: 200 BCE–200 CE. Pillsbury’s 2015 essay captions the same accession 200 BCE–300 CE. Current catalogue followed; discrepancy preserved.",
+      "additionalImages": ["/atlas/media/317600-1.webp"],
+      "additionalImageAlts": [
+        "Frontal view of the peaked roof and the short stairway ascending the platform between two raised corner features."
+      ],
+      "annotations": {
+        "createdOn": "2026-10-29",
+        "credit": "Chronos / Codex, 2026.",
+        "rights": "Modern annotations: CC BY 4.0. The underlying photograph has separate credit and rights.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "items": [
+          {
+            "id": "roof",
+            "label": "A peaked roof",
+            "x": 0.49,
+            "y": 0.14,
+            "text": "Two sloping surfaces meet at the roof’s high point. The catalogue calls this a temple model; this photograph does not identify a surviving full-size building or the roof’s original building material.",
+            "citations": [
+              {
+                "source": "met-317600",
+                "locator": "Description; existing main photograph, roof"
+              }
+            ]
+          },
+          {
+            "id": "open-space",
+            "label": "An opening beneath the roof",
+            "x": 0.47,
+            "y": 0.3,
+            "text": "An open front lets us see space beneath the roof. No figure or complete ceremony is supplied by this view. The proposed incense-burner-lid use comes from the catalogue, rather than being proved by the opening alone.",
+            "citations": [
+              {
+                "source": "met-317600",
+                "locator": "Description; existing main photograph, open front"
+              }
+            ]
+          },
+          {
+            "id": "platform",
+            "label": "A raised platform",
+            "x": 0.63,
+            "y": 0.64,
+            "text": "The roofed structure stands above a broad ceramic platform, with a small stair at its front. This makes levels and access visible in miniature; it does not supply an architectural scale, a known tomb or the missing body of a burner.",
+            "citations": [
+              {
+                "source": "met-317600",
+                "locator": "Description; existing main photograph, platform and stair"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

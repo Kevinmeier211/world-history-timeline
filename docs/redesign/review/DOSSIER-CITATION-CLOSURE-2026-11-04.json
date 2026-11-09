@@ -1,0 +1,186 @@
+{
+  "result": "pass",
+  "corpusSHA256": "65db1e4fec1a68d60beed65bf1d8c53714b3ab1dc184854ad48fad2554f7c52e",
+  "priorPass": "CLAIM-FOLLOWUP-RESULTS-2026-11-04.json",
+  "scope": "Four previously open named claims. The preceding two passes account for the other 110 of 114.",
+  "repairs": [
+    {
+      "id": "polynesian-voyaging-checked",
+      "previous": {
+        "id": "polynesian-voyaging-checked",
+        "text": "The released Te Ara synthesis places arrival broadly around 1250–1300 CE; navigation used multiple learned environmental signs.",
+        "citations": [
+          {
+            "source": "nz-settlement",
+            "locator": "Story summary"
+          }
+        ],
+        "status": "published",
+        "checkedBy": "Codex source consultation and self-review; not independent historian approval",
+        "checkedOn": "2026-10-26"
+      },
+      "repaired": {
+        "id": "polynesian-voyaging-checked",
+        "text": "Te Ara dates Polynesian settlement of Aotearoa to about 1250–1300 CE. Navigators learned to steer by stars and ocean swells.",
+        "citations": [
+          {
+            "source": "nz-settlement",
+            "locator": "Story summary, first settlement and revised dating"
+          },
+          {
+            "source": "navigation",
+            "locator": "Ocean voyaging, Navigation at sea: stars and swells"
+          }
+        ],
+        "status": "published",
+        "checkedBy": "Codex source consultation and self-review; not independent historian approval",
+        "checkedOn": "2026-11-04"
+      },
+      "sources": [
+        {
+          "id": "nz-settlement",
+          "title": "When was New Zealand first settled?",
+          "url": "https://teara.govt.nz/en/when-was-new-zealand-first-settled",
+          "locator": "Story summary, first settlement and revised dating"
+        },
+        {
+          "id": "navigation",
+          "title": "Canoe navigation",
+          "url": "https://teara.govt.nz/en/canoe-navigation/print",
+          "locator": "Ocean voyaging, Navigation at sea: stars and swells"
+        }
+      ],
+      "finding": "The settlement summary supports the approximate date. Rāwiri Taonui’s Ocean voyaging account describes using stars and swells to keep direction. These statements require separate passages.",
+      "liveEvidenceLinks": "pass"
+    },
+    {
+      "id": "haitian-revolution-checked",
+      "previous": {
+        "id": "haitian-revolution-checked",
+        "text": "The declaration is dated 1 January 1804 at Gonaïves in the catalogued pamphlet.",
+        "citations": [
+          {
+            "source": "haiti-declaration",
+            "locator": "Page 7 date note"
+          }
+        ],
+        "status": "published",
+        "checkedBy": "Codex source consultation and self-review; not independent historian approval",
+        "checkedOn": "2026-10-26"
+      },
+      "repaired": {
+        "id": "haitian-revolution-checked",
+        "text": "The printed pamphlet dates Dessalines’s address at Gonaïves on 1 January 1804.",
+        "citations": [
+          {
+            "source": "haiti-declaration",
+            "locator": "Printed p. 7 (digital leaf 8), final dateline above Dessalines’s name"
+          }
+        ],
+        "status": "published",
+        "checkedBy": "Codex source consultation and self-review; not independent historian approval",
+        "checkedOn": "2026-11-04"
+      },
+      "sources": [
+        {
+          "id": "haiti-declaration",
+          "title": "Liberté, ou la mort: Armée indigène",
+          "url": "https://ufdcimages.uflib.ufl.edu/UF/00/09/95/42/00001/00003_Page_8.jpg",
+          "locator": "Printed p. 7 (digital leaf 8), final dateline above Dessalines’s name"
+        }
+      ],
+      "finding": "Printed p. 7 on digital leaf 8 gives the closing place and date of Dessalines’s address. His name below the dateline is printed. The image establishes the dateline, without establishing a manuscript signature or granting republication rights.",
+      "liveEvidenceLinks": "pass"
+    },
+    {
+      "id": "world-war-one-checked",
+      "previous": {
+        "id": "world-war-one-checked",
+        "text": "The conflict involved fronts beyond western Europe, including Africa and the Middle East.",
+        "citations": [
+          {
+            "source": "ww1",
+            "locator": "Key fact1"
+          }
+        ],
+        "status": "published",
+        "checkedBy": "Codex source consultation and self-review; not independent historian approval",
+        "checkedOn": "2026-10-26"
+      },
+      "repaired": {
+        "id": "world-war-one-checked",
+        "text": "Indian troops served in Mesopotamia and East Africa during the First World War.",
+        "citations": [
+          {
+            "source": "ww1-indian-service-geography",
+            "locator": "Exhibition description, paragraph listing the major campaigns"
+          }
+        ],
+        "status": "published",
+        "checkedBy": "Codex source consultation and self-review; not independent historian approval",
+        "checkedOn": "2026-11-04"
+      },
+      "sources": [
+        {
+          "id": "ww1-indian-service-geography",
+          "title": "British Indian Army: Soldiers of the First World War",
+          "url": "https://www.nam.ac.uk/whats-on/british-indian-army-soldiers-first-world-war",
+          "locator": "Exhibition description, paragraph listing the major campaigns"
+        }
+      ],
+      "finding": "The National Army Museum exhibition account, prepared with the United Service Institution of India, explicitly lists both campaigns. The original Key Facts URL could not be retrieved. Tara Arts’ Subterranean Sepoys pack independently lists the locations on printed p. 6.",
+      "liveEvidenceLinks": "pass"
+    },
+    {
+      "id": "ozette-makah-checked",
+      "previous": {
+        "id": "ozette-makah-checked",
+        "text": "The 1560/1700 bounds represent differing published estimates for house burial; they are not the lifetime of Ozette or a continuous 140-year slide.",
+        "citations": [
+          {
+            "source": "ozette-architecture",
+            "locator": "Mudslide dating alternatives"
+          }
+        ],
+        "status": "published",
+        "checkedBy": "Codex source consultation and self-review; not independent historian approval",
+        "checkedOn": "2026-10-27"
+      },
+      "repaired": {
+        "id": "ozette-makah-checked",
+        "text": "Makah oral history recalls a slide that buried part of Ozette. Researchers disagree about when it happened. The village has a longer history than the burial of these houses.",
+        "citations": [
+          {
+            "source": "ozette-museum",
+            "locator": "Ozette Archaeological Site, oral history and reported radiocarbon age of 500 ± 50 BP"
+          },
+          {
+            "source": "ozette-dating-discussion",
+            "locator": "Printed p. 84, midden age and competing burial estimates"
+          }
+        ],
+        "status": "published",
+        "checkedBy": "Codex source consultation and self-review; not independent historian approval",
+        "checkedOn": "2026-11-04"
+      },
+      "sources": [
+        {
+          "id": "ozette-museum",
+          "title": "Ozette Archaeological Site",
+          "url": "https://makahmuseum.com/about/ozette-archaeological-site/",
+          "locator": "Ozette Archaeological Site, oral history and reported radiocarbon age of 500 ± 50 BP"
+        },
+        {
+          "id": "ozette-dating-discussion",
+          "title": "Paleoenvironmental Change on the Olympic Peninsula, Washington",
+          "url": "https://www.depts.washington.edu/pnwcesu/reports/J8W07100028_Final_Report.pdf#page=91",
+          "locator": "Printed p. 84, midden age and competing burial estimates"
+        }
+      ],
+      "finding": "The Makah museum describes the oral history and reports 500 ± 50 BP. Gavin et al., printed p. 84, distinguish the initial estimate around 1500 from a proposed 1700 earthquake correlation. The interval separately attributes 1560/1700 to SAH. The new report supplies no independent determination of 1560 or an exact year for the slide.",
+      "liveEvidenceLinks": "pass"
+    }
+  ],
+  "catalogFilesVerified": 138,
+  "catalogPages": 2069
+}

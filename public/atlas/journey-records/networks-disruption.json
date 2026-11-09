@@ -1,0 +1,51 @@
+{
+  "journey": "networks-disruption",
+  "revision": "67f1044d94205e1a2ef6d15272b75d4b7e1791e0cc35a1c0def96d03b5c1a126",
+  "stops": [
+    {
+      "index": 0,
+      "narrative": "Distinguish objects found together in a wreck from a fully reconstructed route."
+    },
+    {
+      "index": 1,
+      "narrative": "Separate a tree-ring drought finding, political transformation and the changing occupation of a capital."
+    },
+    {
+      "index": 2,
+      "narrative": "Inspect a Kerma vessel excavated in Egypt. Keep the pot’s context separate from the proposed origin of a person."
+    },
+    {
+      "index": 3,
+      "narrative": "Explore ritual writing and skilled casting without imposing Anatolia’s chronology on China."
+    },
+    {
+      "index": 4,
+      "narrative": "Inspect a small ceramic figure and think about how its scale differs from communal monuments."
+    },
+    {
+      "index": 5,
+      "narrative": "Ask how dated patterns, settlements and food remains can support different accounts of voyaging."
+    }
+  ],
+  "conclusion": "A network can be demonstrated without knowing every route. A political center can change without all its people vanishing. A dated drought can matter without explaining everything. Elsewhere, other communities faced their own histories and choices.",
+  "evidence": {
+    "prompt": "What can the Hittite drought study support?",
+    "options": [
+      {
+        "text": "A severe environmental stress occurred near the political transformation; direct causation remains unproved.",
+        "supported": true,
+        "feedback": "The authors explicitly preserve that distinction. Other political, social and regional evidence still matters."
+      },
+      {
+        "text": "Exactly the same disaster ended every society in the world in 1200 BCE.",
+        "supported": false,
+        "feedback": "The evidence is regional, and other societies had different chronologies. A shared date on an atlas creates no shared cause."
+      },
+      {
+        "text": "Every place at Hattusha was occupied and destroyed simultaneously.",
+        "supported": false,
+        "feedback": "The archaeological abstract emphasizes changing areas of occupation and warns against treating the combined plan as one moment."
+      }
+    ]
+  }
+}

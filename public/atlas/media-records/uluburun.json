@@ -1,0 +1,20 @@
+{
+  "subject": "uluburun",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "uluburun-evidence-diagram",
+      "caption": "Solid panels concern the wreck and recovered association. Dashed: contested origin inference. The final panel asks unresolved questions; this is not a sailing map or stowage plan.",
+      "notice": [
+        "Identify which labels describe recovered material and which describe an interpretation.",
+        "Read the source limitations before connecting the panels."
+      ],
+      "creator": "Chronos / Codex; source-based editorial diagram",
+      "place": "Modern conceptual schematic; no surveyed plan or route",
+      "material": "Original SVG diagram",
+      "representedDate": "Wreck c1320 BCE ±15 years; origin studies are modern research.",
+      "relevance": "Distinguishes material evidence, analytical inference and unresolved historical questions without an invented ancient scene.",
+      "printWidthMm": 145
+    }
+  ]
+}

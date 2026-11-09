@@ -1,0 +1,573 @@
+{
+  "status": "passed_local_scope",
+  "date": "2026-11-06",
+  "corpusSHA256": "cacd0e7d9be7ef13909afe5f9bd511a0ce73b5cc9379648b6d59380fc81d167c",
+  "mainScript": "assets/index-D7b7zApS.js",
+  "mainSHA256": "c2f075364b162e153ce9366d67e4f9e786ab4ca76a4119acc4588c27f11367b0",
+  "indexHTMLSHA256": "2ff83bce2a62b09c1c39b80a0c380eb8e14a4eecbe38f3514e8288f703d3ffdd",
+  "isolatedStage": "/var/folders/nq/v3kxk2vj23s0ymjxc8sch9k80000gn/T/chronos-candidate-oqxd8cr9",
+  "isolatedReceipt": "output/gzip-performance-2026-11-06/isolated/receipt.json",
+  "buildFiles": 714,
+  "atlasTests": 719,
+  "atlasTestFiles": 74,
+  "legacyRerunThisPass": false,
+  "buildParity": {
+    "status": "pass",
+    "buildFiles": 714,
+    "sourceCodeFilesMatched": 928,
+    "isolatedStage": "/var/folders/nq/v3kxk2vj23s0ymjxc8sch9k80000gn/T/chronos-candidate-oqxd8cr9",
+    "unchangedAtlasFilesExceptBootstrapIndex": 648,
+    "unchangedPDFs": 138,
+    "unchangedFontFiles": 52,
+    "stylesheetChange": "Search backdrop blur removed; dark native modal backdrop retained.",
+    "corpusSHA256": "cacd0e7d9be7ef13909afe5f9bd511a0ce73b5cc9379648b6d59380fc81d167c",
+    "indexChange": "Only print-only investigation fields and deferred phase labels omitted; exact invitation IDs/order, navigation years and all other bootstrap values preserved.",
+    "candidateIndexGzipBytes": 121237,
+    "baselineIndexGzipBytes": 132265,
+    "soleStylesheetSourceChangeVerified": true
+  },
+  "performance": {
+    "status": "pass",
+    "date": "2026-11-06",
+    "encoding": "gzip",
+    "limitsMs": {
+      "textUsefulMs": 2500,
+      "illustratedUsefulMs": 2500,
+      "searchMs": 200,
+      "selectionMs": 200,
+      "searchIndexReadyMs": 2500,
+      "dossierReadyMs": 2500
+    },
+    "limitsChanged": false,
+    "profile": "12 cold-cache trials: stories/timeline × desktop/phone × 3; phone 390×844, 4×CPU, 200000 B/s down, 93750 B/s up, 150ms latency. Same useful-view, image-decode, fonts-ready, full-search and dossier-ready endpoints.",
+    "runs": {
+      "baseline": {
+        "receipt": "output/gzip-performance-2026-11-06/baseline/performance/performance.json",
+        "trials": 12,
+        "maximaMs": {
+          "textUsefulMs": 2299,
+          "illustratedUsefulMs": 2565,
+          "searchMs": 198,
+          "selectionMs": 88,
+          "searchIndexReadyMs": 1552,
+          "dossierReadyMs": 378
+        },
+        "pass": false,
+        "failures": [
+          {
+            "presentation": "timeline",
+            "profile": "phone 390×844,4×CPU,1.6Mbps down,750Kbps up,150ms latency,cold cache",
+            "trial": 1,
+            "metric": "illustratedUsefulMs",
+            "ms": 2547,
+            "limit": 2500
+          },
+          {
+            "presentation": "timeline",
+            "profile": "phone 390×844,4×CPU,1.6Mbps down,750Kbps up,150ms latency,cold cache",
+            "trial": 2,
+            "metric": "illustratedUsefulMs",
+            "ms": 2565,
+            "limit": 2500
+          }
+        ],
+        "mainScriptURLs": ["http://127.0.0.1:4941/assets/index-ZibHSj7L.js"],
+        "encoding": "gzip, verified response headers in all 12 trials"
+      },
+      "candidate": {
+        "receipt": "output/gzip-performance-2026-11-06/candidate/performance/performance.json",
+        "trials": 12,
+        "maximaMs": {
+          "textUsefulMs": 2129,
+          "illustratedUsefulMs": 2424,
+          "searchMs": 122,
+          "selectionMs": 73,
+          "searchIndexReadyMs": 1463,
+          "dossierReadyMs": 897
+        },
+        "pass": true,
+        "failures": [],
+        "mainScriptURLs": ["http://127.0.0.1:4942/assets/index-Biuw7ZbW.js"],
+        "encoding": "gzip, verified response headers in all 12 trials"
+      },
+      "confirmation": {
+        "receipt": "output/gzip-performance-2026-11-06/confirmation/performance/performance.json",
+        "trials": 12,
+        "maximaMs": {
+          "textUsefulMs": 2198,
+          "illustratedUsefulMs": 2428,
+          "searchMs": 215,
+          "selectionMs": 72,
+          "searchIndexReadyMs": 1587,
+          "dossierReadyMs": 869
+        },
+        "pass": false,
+        "failures": [
+          {
+            "presentation": "stories",
+            "profile": "phone 390×844,4×CPU,1.6Mbps down,750Kbps up,150ms latency,cold cache",
+            "trial": 2,
+            "metric": "searchMs",
+            "ms": 215,
+            "limit": 200
+          }
+        ],
+        "mainScriptURLs": ["http://127.0.0.1:4942/assets/index-GbTV5ziq.js"],
+        "encoding": "gzip, verified response headers in all 12 trials"
+      },
+      "search-isolated": {
+        "receipt": "output/gzip-performance-2026-11-06/search-isolated/performance/performance.json",
+        "trials": 12,
+        "maximaMs": {
+          "textUsefulMs": 2151,
+          "illustratedUsefulMs": 2451,
+          "searchMs": 125,
+          "selectionMs": 74,
+          "searchIndexReadyMs": 1457,
+          "dossierReadyMs": 851
+        },
+        "pass": true,
+        "failures": [],
+        "mainScriptURLs": ["http://127.0.0.1:4942/assets/index-BxSC7fuV.js"],
+        "encoding": "gzip, verified response headers in all 12 trials"
+      },
+      "selection-diagnostic": {
+        "receipt": "output/gzip-performance-2026-11-06/selection-diagnostic/performance/performance.json",
+        "trials": 12,
+        "maximaMs": {
+          "textUsefulMs": 2212,
+          "illustratedUsefulMs": 2430,
+          "searchMs": 125,
+          "selectionMs": 322,
+          "searchIndexReadyMs": 1465,
+          "dossierReadyMs": 1120
+        },
+        "pass": false,
+        "failures": [
+          {
+            "presentation": "stories",
+            "profile": "phone 390×844,4×CPU,1.6Mbps down,750Kbps up,150ms latency,cold cache",
+            "trial": 3,
+            "metric": "selectionMs",
+            "ms": 322,
+            "limit": 200
+          }
+        ],
+        "mainScriptURLs": ["http://127.0.0.1:4942/assets/index-BxSC7fuV.js"],
+        "encoding": "gzip, verified response headers in all 12 trials"
+      },
+      "prepared-search-diagnostic": {
+        "receipt": "output/gzip-performance-2026-11-06/prepared-search-diagnostic/performance/performance.json",
+        "trials": 12,
+        "maximaMs": {
+          "textUsefulMs": 2204,
+          "illustratedUsefulMs": 2544,
+          "searchMs": 169,
+          "selectionMs": 73,
+          "searchIndexReadyMs": 1500,
+          "dossierReadyMs": 866
+        },
+        "pass": false,
+        "failures": [
+          {
+            "presentation": "timeline",
+            "profile": "phone 390×844,4×CPU,1.6Mbps down,750Kbps up,150ms latency,cold cache",
+            "trial": 3,
+            "metric": "illustratedUsefulMs",
+            "ms": 2544,
+            "limit": 2500
+          }
+        ],
+        "mainScriptURLs": ["http://127.0.0.1:4942/assets/index-BgqN74ap.js"],
+        "encoding": "gzip, verified response headers in all 12 trials"
+      },
+      "notebook-diagnostic": {
+        "receipt": "output/gzip-performance-2026-11-06/notebook-diagnostic/performance/performance.json",
+        "trials": 12,
+        "maximaMs": {
+          "textUsefulMs": 2100,
+          "illustratedUsefulMs": 2396,
+          "searchMs": 230,
+          "selectionMs": 66,
+          "searchIndexReadyMs": 1619,
+          "dossierReadyMs": 855
+        },
+        "pass": false,
+        "failures": [
+          {
+            "presentation": "timeline",
+            "profile": "phone 390×844,4×CPU,1.6Mbps down,750Kbps up,150ms latency,cold cache",
+            "trial": 3,
+            "metric": "searchMs",
+            "ms": 230,
+            "limit": 200
+          }
+        ],
+        "mainScriptURLs": ["http://127.0.0.1:4942/assets/index-C5xsx9er.js"],
+        "encoding": "gzip, verified response headers in all 12 trials"
+      },
+      "dialog-layout-diagnostic": {
+        "receipt": "output/gzip-performance-2026-11-06/dialog-layout-diagnostic/performance/performance.json",
+        "trials": 12,
+        "maximaMs": {
+          "textUsefulMs": 2085,
+          "illustratedUsefulMs": 2397,
+          "searchMs": 214,
+          "selectionMs": 59,
+          "searchIndexReadyMs": 1571,
+          "dossierReadyMs": 846
+        },
+        "pass": false,
+        "failures": [
+          {
+            "presentation": "stories",
+            "profile": "phone 390×844,4×CPU,1.6Mbps down,750Kbps up,150ms latency,cold cache",
+            "trial": 2,
+            "metric": "searchMs",
+            "ms": 214,
+            "limit": 200
+          }
+        ],
+        "mainScriptURLs": ["http://127.0.0.1:4942/assets/index-fUmVxP2W.js"],
+        "encoding": "gzip, verified response headers in all 12 trials"
+      },
+      "metadata-priority-diagnostic": {
+        "receipt": "output/gzip-performance-2026-11-06/metadata-priority-diagnostic/performance/performance.json",
+        "trials": 12,
+        "maximaMs": {
+          "textUsefulMs": 2202,
+          "illustratedUsefulMs": 2495,
+          "searchMs": 219,
+          "selectionMs": 125,
+          "searchIndexReadyMs": 1562,
+          "dossierReadyMs": 909
+        },
+        "pass": false,
+        "failures": [
+          {
+            "presentation": "timeline",
+            "profile": "desktop1440×900,unthrottled,cold cache",
+            "trial": 3,
+            "metric": "searchMs",
+            "ms": 219,
+            "limit": 200
+          }
+        ],
+        "mainScriptURLs": ["http://127.0.0.1:4942/assets/index-DtYMXMIo.js"],
+        "encoding": "gzip, verified response headers in all 12 trials"
+      },
+      "final-gzip": {
+        "receipt": "output/gzip-performance-2026-11-06/final-gzip/performance/performance.json",
+        "trials": 12,
+        "maximaMs": {
+          "textUsefulMs": 2085,
+          "illustratedUsefulMs": 2395,
+          "searchMs": 146,
+          "selectionMs": 81,
+          "searchIndexReadyMs": 1558,
+          "dossierReadyMs": 865
+        },
+        "pass": true,
+        "failures": [],
+        "mainScriptURLs": ["http://127.0.0.1:4942/assets/index-D7b7zApS.js"],
+        "encoding": "gzip, verified response headers in all 12 trials"
+      }
+    },
+    "finalMaximaMs": {
+      "textUsefulMs": 2085,
+      "illustratedUsefulMs": 2395,
+      "searchMs": 146,
+      "selectionMs": 81,
+      "searchIndexReadyMs": 1558,
+      "dossierReadyMs": 865
+    },
+    "timingScope": "Local gzip on final build; November 5 Brotli result remains dated evidence. No field Core Web Vitals claim."
+  },
+  "startupBytes": {
+    "baselineMainGzip": 120166,
+    "finalMainGzip": 112182,
+    "baselineIndexGzip": 132265,
+    "finalIndexGzip": 121237,
+    "deliveredJavaScriptGzip": 156867,
+    "totalJavaScriptGzip": 157217,
+    "javascriptGzipCeiling": 400000
+  },
+  "budgetParity": {
+    "status": "pass",
+    "baselineScript": "/var/folders/nq/v3kxk2vj23s0ymjxc8sch9k80000gn/T/chronos-candidate-1403g5o8/scripts/redesign/performance.mjs",
+    "currentScript": "scripts/redesign/performance.mjs",
+    "identicalLimitsMs": {
+      "textUsefulMs": 2500,
+      "illustratedUsefulMs": 2500,
+      "searchMs": 200,
+      "selectionMs": 200,
+      "searchIndexReadyMs": 2500,
+      "dossierReadyMs": 2500
+    },
+    "preservedProfileAndReadinessAssertions": [
+      "width: 390, height: 844",
+      "width: 1440, height: 900",
+      "trial <= 3",
+      "['stories', 'timeline']",
+      "cacheDisabled: true",
+      "rate: 4",
+      "latency: 150",
+      "downloadThroughput: 200000",
+      "uploadThroughput: 93750",
+      "document.fonts.ready",
+      "i.decode()",
+      ".dossier[data-reading-ready=true] #main-explanation + .dossier-section"
+    ],
+    "note": "Passive encoding/event/long-task evidence and reliable cleanup added. No thresholds, trial count, network/CPU profile, cache policy or readiness conditions relaxed."
+  },
+  "browserChecks": {
+    "chromium": {
+      "version": "156.0.8078.4",
+      "navigation": 11,
+      "loadingAndRecovery": 6,
+      "accessibilitySmokes": 1
+    },
+    "firefox": {
+      "version": "157.0",
+      "navigation": 11,
+      "loadingAndRecovery": 6,
+      "accessibilitySmokes": 1
+    },
+    "webkit": {
+      "version": "27.2",
+      "navigation": 11,
+      "loadingAndRecovery": 6,
+      "accessibilitySmokes": 1
+    }
+  },
+  "webkitAbortRecovery": "pass",
+  "stagingFixtureTests": 14,
+  "searchBackdropCheck": {
+    "status": "pass",
+    "results": [
+      {
+        "width": 390,
+        "style": {
+          "filter": "none",
+          "background": "rgba(20, 37, 29, 0.8)"
+        },
+        "initialInputFocus": true,
+        "escapeReturnsFocus": true
+      },
+      {
+        "width": 1440,
+        "style": {
+          "filter": "none",
+          "background": "rgba(20, 37, 29, 0.8)"
+        },
+        "initialInputFocus": true,
+        "escapeReturnsFocus": true
+      }
+    ]
+  },
+  "browserDiagnostic": {
+    "firstFinalNavigationRun": "accepted-gzip-browser.log",
+    "observation": "One WebKit contexts.json access-control page error during full-page navigation. Not reproduced; no errors suppressed.",
+    "followup": "final-navigation/webkit-network-diagnostic.json",
+    "followupNavigations": 29,
+    "followupFailedRequests": 0,
+    "followupPageErrors": 0,
+    "firstRunLog": "chromium 11 navigation checks passed\nfirefox 11 navigation checks passed\nnode:internal/modules/run_main:111\n    triggerUncaughtException(\n    ^\n\nAssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   '/127.0.0.1:4942/atlas/contexts.json due to access control checks.'\n+ ]\n- []\n\n    at file:///Users/kevinmeier/World%20Hist%20Timeline/scripts/completion/navigation-browser.mjs:142:10 {\n  generatedMessage: true,\n  code: 'ERR_ASSERTION',\n  actual: [\n    '/127.0.0.1:4942/atlas/contexts.json due to access control checks.'\n  ],\n  expected: [],\n  operator: 'deepStrictEqual',\n  diff: 'simple'\n}\n\nNode.js v26.10.0\n",
+    "followupEvents": [
+      {
+        "event": "navigation",
+        "url": "http://127.0.0.1:4942/?subject=eastern-han&pack=C4&year=200",
+        "at": 1793996874365
+      },
+      {
+        "event": "navigation",
+        "url": "http://127.0.0.1:4942/?subject=eastern-han&pack=C4&year=200",
+        "at": 1793996874569
+      },
+      {
+        "event": "navigation",
+        "url": "http://127.0.0.1:4942/?page=explore&view=timeline&scale=world&pack=C4&year=200+CE&subject=eastern-han&compare=roman-world",
+        "at": 1793996874855
+      },
+      {
+        "event": "navigation",
+        "url": "http://127.0.0.1:4942/?page=explore&view=timeline&scale=world&pack=C4&year=200+CE&subject=eastern-han",
+        "at": 1793996875686
+      },
+      {
+        "event": "navigation",
+        "url": "http://127.0.0.1:4942/?page=explore&view=timeline&scale=world&pack=C4&year=200+CE&subject=eastern-han&compare=roman-world",
+        "at": 1793996875718
+      },
+      {
+        "event": "navigation",
+        "url": "http://127.0.0.1:4942/?page=explore&view=timeline&scale=world&pack=C4&year=200+CE&subject=eastern-han",
+        "at": 1793996875769
+      },
+      {
+        "event": "navigation",
+        "url": "http://127.0.0.1:4942/?page=explore&view=timeline&scale=world&pack=C4&year=200+CE&subject=eastern-han&compare=roman-world",
+        "at": 1793996875774
+      },
+      {
+        "event": "navigation",
+        "url": "http://127.0.0.1:4942/?subject=eastern-han&pack=C4&year=200",
+        "at": 1793996875785
+      },
+      {
+        "event": "navigation",
+        "url": "http://127.0.0.1:4942/?page=explore&view=timeline&scale=world&pack=C4&year=200+CE&subject=eastern-han&evidence=1",
+        "at": 1793996875834
+      },
+      {
+        "event": "navigation",
+        "url": "http://127.0.0.1:4942/?subject=eastern-han&pack=C4&year=200",
+        "at": 1793996875866
+      },
+      {
+        "event": "navigation",
+        "url": "http://127.0.0.1:4942/?page=explore&view=timeline&scale=world&pack=C4&year=200+CE&subject=eastern-han&evidence=1",
+        "at": 1793996875893
+      },
+      {
+        "event": "navigation",
+        "url": "http://127.0.0.1:4942/?page=explore&view=timeline&scale=world&pack=C4&year=200+CE&subject=eastern-han&evidence=1",
+        "at": 1793996875905
+      },
+      {
+        "event": "navigation",
+        "url": "http://127.0.0.1:4942/?page=explore&view=timeline&scale=world&pack=C4&year=200+CE&subject=eastern-han&compare=roman-world&evidence=1",
+        "at": 1793996876082
+      },
+      {
+        "event": "navigation",
+        "url": "http://127.0.0.1:4942/?page=explore&view=timeline&scale=world&pack=C4&year=200+CE&subject=eastern-han&evidence=1",
+        "at": 1793996876878
+      },
+      {
+        "event": "navigation",
+        "url": "http://127.0.0.1:4942/?page=explore&view=timeline&scale=local&pack=C3&year=221+BCE&subject=qin-administration&preview=qin-administration",
+        "at": 1793996877102
+      },
+      {
+        "event": "navigation",
+        "url": "http://127.0.0.1:4942/?subject=removed-case&year=200",
+        "at": 1793996877178
+      },
+      {
+        "event": "navigation",
+        "url": "http://127.0.0.1:4942/?subject=removed-case&year=200",
+        "at": 1793996877207
+      },
+      {
+        "event": "navigation",
+        "url": "http://127.0.0.1:4942/?subject=eastern-han&object=removed-photo&year=200",
+        "at": 1793996877262
+      },
+      {
+        "event": "navigation",
+        "url": "http://127.0.0.1:4942/?subject=eastern-han&object=removed-photo&year=200",
+        "at": 1793996877284
+      },
+      {
+        "event": "navigation",
+        "url": "http://127.0.0.1:4942/?journey=removed-journey&year=200",
+        "at": 1793996877340
+      },
+      {
+        "event": "navigation",
+        "url": "http://127.0.0.1:4942/?journey=removed-journey&year=200",
+        "at": 1793996877368
+      },
+      {
+        "event": "navigation",
+        "url": "http://127.0.0.1:4942/?page=journeys&view=timeline&scale=world&pack=C4&year=200+CE",
+        "at": 1793996877488
+      },
+      {
+        "event": "navigation",
+        "url": "http://127.0.0.1:4942/#sel=moche&y=200",
+        "at": 1793996877559
+      },
+      {
+        "event": "navigation",
+        "url": "http://127.0.0.1:4942/#sel=moche&y=200",
+        "at": 1793996877580
+      },
+      {
+        "event": "navigation",
+        "url": "http://127.0.0.1:4942/?page=explore&view=timeline&scale=local&pack=C4&year=200+CE&legacy=moche&region=Americas&subject=moche",
+        "at": 1793996877580
+      },
+      {
+        "event": "navigation",
+        "url": "http://127.0.0.1:4942/?subject=eastern-han&year=200",
+        "at": 1793996877706
+      },
+      {
+        "event": "navigation",
+        "url": "http://127.0.0.1:4942/?subject=eastern-han&year=200",
+        "at": 1793996877740
+      },
+      {
+        "event": "navigation",
+        "url": "http://127.0.0.1:4942/?page=explore&view=timeline&scale=world&pack=C4&year=200+CE&subject=eastern-han&evidence=1",
+        "at": 1793996877851
+      },
+      {
+        "event": "navigation",
+        "url": "http://127.0.0.1:4942/?subject=eastern-han&year=200",
+        "at": 1793996877909
+      }
+    ]
+  },
+  "changes": [
+    "Dossier controls are imported only when a case is selected. Pending/error views retain the case title and full-reader readiness remains a separate assertion.",
+    "Chapter investigation startup records retain navigation IDs; print-only instructions remain unchanged in the full corpus.",
+    "Search dialog open state is local to SearchLayer, avoiding a gallery/timeline rerender on opening. Dismissal and navigation retain their different focus behavior. Native modal opening and initial focus occur before paint; index loading remains asynchronous.",
+    "Vite omits redundant target-module preloads only for Dossier, WorldContext and Notebook. Native imports recover after failed requests; shared dependencies and print CSS/target preloads remain intact.",
+    "Search backdrop keeps its dark dimming but omits whole-page blur.",
+    "Initial source-metadata updates yield to user interactions; explicit retry status/focus remains urgent. A desktop 219ms diagnostic still records an 88ms rendering task just after the native dialog opens; the final candidate removes search-only backdrop blur, retaining the dark native modal backdrop.",
+    "Notebook controls load on navigation; data and drafts remain in Atlas. Failure offers exact recovery text before reload.",
+    "Detailed phase labels stay in contexts.json; all 368 bootstrap navigation years remain unchanged."
+  ],
+  "searchRankingParity": {
+    "status": "pass",
+    "queries": 599,
+    "checks": 1198,
+    "indexStates": ["summary only", "full text"],
+    "comparison": "Exact ordered subject IDs from old implementation versus prepared queries; includes all acceptance queries and every name/alias/prefix."
+  },
+  "limits": [
+    "Local throttled lab evidence only; hosted compression, access policy and performance remain unverified pending deployment approval.",
+    "Human historical/community review, final adult/family sessions, experienced assistive-technology/device/keyboard evaluation, physical print and spoken PDF reading order remain open.",
+    "H01/H02 formative-pilot requirements remain removed by owner, not passed.",
+    "Rights qualifications and source conflicts remain as documented; no new historical or media acceptance is inferred."
+  ],
+  "deploymentPerformed": false,
+  "humanObservations": 0,
+  "portable": {
+    "result": "pass",
+    "scope": "local review package; not release acceptance",
+    "archive": "output/completion-2026-11-04/portable/chronos-review-d00b8f842cc2.zip",
+    "bytes": 156350421,
+    "sha256": "c2c989cb33ad44c9d4bdeef1bc4b636feaafd7b1bd51c32f0fc358f9aaad1788",
+    "filesVerifiedAfterExtraction": 717,
+    "artifactIdentity": "d00b8f842cc26dfed8cfe25327cef0b98bea5318b13763d5689b22cd5294afa6"
+  },
+  "diagnosticsRetained": {
+    "baselineGzipMiss": "baseline/performance/performance.json",
+    "intermediateSearchMiss": "confirmation/performance/performance.json",
+    "intermediateSelectionMiss": "selection-diagnostic/performance/performance.json",
+    "preparedSearchViewMiss": "prepared-search-diagnostic/performance/performance.json",
+    "browserLaunchPermissionFailure": "search-isolated.log",
+    "offlineDependencyUnavailable": "isolated-offline-install-unavailable/install.log",
+    "trackerFormattingFailure": "isolated-format-diagnostic/current-atlas-gate.log",
+    "oldMockExportFailure": "isolated-old-mock-diagnostic/current-atlas-gate.log",
+    "webkitModuleFailures": [
+      "loading/world-loading-webkit.json",
+      "webkit-recovery-diagnostic",
+      "webkit-http-recovery"
+    ]
+  }
+}

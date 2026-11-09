@@ -1,0 +1,2066 @@
+{
+  "date": "2026-11-04",
+  "scope": "Named-claim recheck batch. Not acceptance of whole dossiers, every surrounding claim, rights, comparisons or learning outcomes. Missing original access is not converted to a failed historical claim.",
+  "corpusSHA256": "aeb04e0a0cb464f956f6325a8624edc6589ef690aaa2cd996a73f76e967b11b8",
+  "totalNamedClaims": 114,
+  "attempted": 114,
+  "supportedOrRepaired": 102,
+  "freshAccessUnavailable": 8,
+  "primaryPDF": {
+    "url": "https://cdn.nationalarchives.gov.uk/documents/education/partition-of-british-india.pdf",
+    "sha256": "e2ddc3bbcd865dec2b304ada63c33855af2e8e7d3b098fc29c5b3ef391f8dfe8",
+    "localPath": "output/completion-2026-11-04/source-recheck/national-archives-partition.pdf",
+    "pagesConsultedAndRendered": [4, 12, 28, 29],
+    "limits": "Selected source passages, not adoption of every numerical or interpretive statement in the teaching pack."
+  },
+  "claims": [
+    {
+      "subject": "eastern-han",
+      "claim": "han-dates",
+      "text": "The Eastern Han period is dated 25–220 CE.",
+      "citations": [
+        {
+          "source": "met-49519",
+          "locator": "Period: Eastern Han dynasty (25–220)"
+        }
+      ],
+      "status": "supported",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Period field separates Eastern Han 25–220 from the object date of first–early third century.",
+      "sourceURLs": ["https://www.metmuseum.org/art/collection/search/49519"]
+    },
+    {
+      "subject": "eastern-han",
+      "claim": "han-models",
+      "text": "Pottery building models in Eastern Han tombs could provide for an afterlife.",
+      "citations": [
+        {
+          "source": "met-49519",
+          "locator": "Opening description"
+        }
+      ],
+      "status": "supported",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Opening catalogue explanation identifies funerary provision as the purpose of such pottery models; no claim that the model is a measured real building.",
+      "sourceURLs": ["https://www.metmuseum.org/art/collection/search/49519"]
+    },
+    {
+      "subject": "eastern-han",
+      "claim": "eastern-han-expanded-reading",
+      "text": "The Western Han policy texts predate the Eastern Han tomb models and are dated separately.",
+      "citations": [
+        {
+          "source": "han-salt",
+          "locator": "Translated positions of the literati and Sang Hongyang"
+        },
+        {
+          "source": "han",
+          "locator": "Western and Eastern Han; Luoyang; diplomacy"
+        },
+        {
+          "source": "met-49519",
+          "locator": "Period"
+        }
+      ],
+      "status": "supported",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Translated debate introduction dates the fiscal debate to 81 BCE. Han essay and watchtower catalogue separately place Eastern Han rule and the tomb models later.",
+      "sourceURLs": [
+        "https://afe.easia.columbia.edu/main_pop/ps/ps_china-debate-salt-iron.htm",
+        "https://www.metmuseum.org/essays/han-dynasty-206-b-c-220-a-d",
+        "https://www.metmuseum.org/art/collection/search/49519"
+      ]
+    },
+    {
+      "subject": "colima",
+      "claim": "colima-date",
+      "text": "The current catalogue dates accession 1995.63.5 to 200 BCE–200 CE.",
+      "citations": [
+        {
+          "source": "met-317600",
+          "locator": "Artwork Details: Date"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Met 317600 gives 200 BCE–200 CE and accession 1995.63.5.",
+      "sourceURLs": ["https://www.metmuseum.org/art/collection/search/317600"]
+    },
+    {
+      "subject": "colima",
+      "claim": "colima-use",
+      "text": "The model may have served as an incense-burner lid.",
+      "citations": [
+        {
+          "source": "met-317600",
+          "locator": "Opening description"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "The object description says the model may have served as an incense-burner lid; possibility is preserved.",
+      "sourceURLs": ["https://www.metmuseum.org/art/collection/search/317600"]
+    },
+    {
+      "subject": "roman-world",
+      "claim": "severan-dates",
+      "text": "The Severan dynasty is presented here as a period beginning in 193 and ending in 235 CE.",
+      "citations": [
+        {
+          "source": "rome",
+          "locator": "The Severans and the Soldier-Emperors"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "The Roman Empire essay identifies Septimius Severus’s accession in 193 and the last Severan’s death in 235, separating subsequent soldier-emperors.",
+      "sourceURLs": ["https://www.metmuseum.org/essays/the-roman-empire-27-b-c-393-a-d"]
+    },
+    {
+      "subject": "roman-world",
+      "claim": "julia-image",
+      "text": "Julia Domna’s portrait was distributed in dynastic representation.",
+      "citations": [
+        {
+          "source": "met-251870",
+          "locator": "Description, last sentence"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Met 251870 explicitly describes the widespread copying/distribution of Julia Domna’s portrait in her family’s political representation.",
+      "sourceURLs": ["https://www.metmuseum.org/art/collection/search/251870"]
+    },
+    {
+      "subject": "roman-world",
+      "claim": "roman-world-expanded-reading",
+      "text": "The Severan political period and the dates of individual portraits are distinct from the wider Roman imperial frame.",
+      "citations": [
+        {
+          "source": "rome-severans",
+          "locator": "Military officers; Caracalla’s citizenship grant"
+        },
+        {
+          "source": "rome-educators",
+          "locator": "Printed p. 130: Occupations"
+        },
+        {
+          "source": "met-547951",
+          "locator": "Description, inscription and dating"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "The Severan essay gives 193–235 CE; Met 547951 gives the Eutyches portrait 100–150 CE, distinct from the wider imperial frame. This supports the narrow chronology claim. The educator PDF’s occupations section was not rechecked and broader social-history passages remain outside this finding.",
+      "sourceURLs": [
+        "https://www.metmuseum.org/essays/the-severan-dynasty-193-235",
+        "https://resources.metmuseum.org/resources/metpublications/pdf/Roman_Art_A_Resource_for_Educators.pdf",
+        "https://www.metmuseum.org/art/collection/search/547951"
+      ]
+    },
+    {
+      "subject": "palmyra",
+      "claim": "palmyra-route",
+      "text": "Palmyra linked Roman-controlled Mediterranean ports with the Parthian Near East through caravan routes.",
+      "citations": [
+        {
+          "source": "met-322375",
+          "locator": "Paragraph beginning “By the mid-first century”"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Met 322375 connects Palmyrene caravan routes with the Parthian Near East and Roman-controlled Mediterranean ports.",
+      "sourceURLs": ["https://www.metmuseum.org/art/collection/search/322375"]
+    },
+    {
+      "subject": "palmyra",
+      "claim": "palmyra-family",
+      "text": "The relief names a man, his son and two daughters.",
+      "citations": [
+        {
+          "source": "met-322375",
+          "locator": "Inscription translation"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Met 322375 gives an inscription transcription and identifies the relief’s man, son and two daughters.",
+      "sourceURLs": ["https://www.metmuseum.org/art/collection/search/322375"]
+    },
+    {
+      "subject": "kushan-contexts",
+      "claim": "kushan-connections",
+      "text": "Kushan-ruled regions participated in both overland and maritime exchange.",
+      "citations": [
+        {
+          "source": "kushan",
+          "locator": "Opening paragraph"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "The museum’s identical essay on its /it/ route was accessible in English and explicitly describes seagoing trade and Silk Road commerce. The original route repeatedly timed out.",
+      "sourceURLs": [
+        "https://www.metmuseum.org/essays/kushan-empire-ca-second-century-b-c-third-century-a-d"
+      ],
+      "consultedURLs": [
+        "https://www.metmuseum.org/it/essays/kushan-empire-ca-second-century-b-c-third-century-a-d"
+      ]
+    },
+    {
+      "subject": "kushan-contexts",
+      "claim": "kushan-coin-date",
+      "text": "The Met dates its Kanishka coin approximately 130 CE.",
+      "citations": [
+        {
+          "source": "met-39385",
+          "locator": "Date"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Met 39385 dates the Kanishka coin c130 in both heading and artwork details.",
+      "sourceURLs": ["https://www.metmuseum.org/art/collection/search/39385"]
+    },
+    {
+      "subject": "aksum",
+      "claim": "aksum-port",
+      "text": "Aksum’s trade connected through Adulis.",
+      "citations": [
+        {
+          "source": "aksum",
+          "locator": "Opening paragraph"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "The museum’s Aksum essay identifies luxury-goods trade through Adulis.",
+      "sourceURLs": [
+        "https://www.metmuseum.org/essays/monumental-architecture-and-stelae-of-the-aksumite-empire"
+      ]
+    },
+    {
+      "subject": "aksum",
+      "claim": "aksum-stelae",
+      "text": "Major stelae are dated indirectly to the third and fourth centuries.",
+      "citations": [
+        {
+          "source": "aksum",
+          "locator": "Stelae chronology paragraph"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "The Aksum essay specifically describes the major stelae as indirectly dated to the third and fourth centuries.",
+      "sourceURLs": [
+        "https://www.metmuseum.org/essays/monumental-architecture-and-stelae-of-the-aksumite-empire"
+      ]
+    },
+    {
+      "subject": "teotihuacan",
+      "claim": "teo-dates",
+      "text": "The city’s broad chronology is approximately 100 BCE–800 CE.",
+      "citations": [
+        {
+          "source": "teotihuacan",
+          "locator": "Introduction"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "The museum’s Teotihuacan essay uses c100 BCE–800 CE and distinguishes later population decline within that frame.",
+      "sourceURLs": ["https://www.metmuseum.org/essays/teotihuacan"]
+    },
+    {
+      "subject": "teotihuacan",
+      "claim": "teo-mask",
+      "text": "The mask probably was not worn by living people.",
+      "citations": [
+        {
+          "source": "met-312736",
+          "locator": "Description: weight, perforations, closed eyes and mouth"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Met 312736 infers from weight and absent eye/mouth openings that living people probably did not wear these masks. Proposed alternatives remain hypotheses.",
+      "sourceURLs": ["https://www.metmuseum.org/art/collection/search/312736"]
+    },
+    {
+      "subject": "moche",
+      "claim": "moche-range",
+      "text": "Moche society flourished on the northern Peruvian coast during the first–eighth centuries CE.",
+      "citations": [
+        {
+          "source": "moche",
+          "locator": "Opening paragraph"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "The Moche ceramics essay gives a first–eighth-century CE flourishing on the north Peruvian coast.",
+      "sourceURLs": ["https://www.metmuseum.org/essays/moche-decorated-ceramics"]
+    },
+    {
+      "subject": "moche",
+      "claim": "moche-snake",
+      "text": "The meaning of snakes on the selected bottle is uncertain.",
+      "citations": [
+        {
+          "source": "met-316721",
+          "locator": "Final descriptive paragraph"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Met 316721 explicitly calls snake meaning unclear and proposes renewal/regeneration only tentatively.",
+      "sourceURLs": ["https://www.metmuseum.org/art/collection/search/316721"]
+    },
+    {
+      "subject": "dongson",
+      "claim": "drum-date",
+      "text": "The selected miniature is catalogued approximately 500 BCE–300 CE.",
+      "citations": [
+        {
+          "source": "met-39209",
+          "locator": "Date"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Met 39209 dates the miniature c500 BCE–300 CE.",
+      "sourceURLs": ["https://www.metmuseum.org/art/collection/search/39209"]
+    },
+    {
+      "subject": "dongson",
+      "claim": "drum-function",
+      "text": "The function of Đông Sơn drums remains unclear in the consulted catalogue.",
+      "citations": [
+        {
+          "source": "met-39209",
+          "locator": "Description"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Met 39209 explicitly says the function of these drums remains unclear.",
+      "sourceURLs": ["https://www.metmuseum.org/art/collection/search/39209"]
+    },
+    {
+      "subject": "benin-ivory",
+      "claim": "benin-salt-date",
+      "text": "The saltcellar is dated approximately 1525–1600.",
+      "citations": [
+        {
+          "source": "met-309900",
+          "locator": "Artwork Details"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Met 309900 gives c1525–1600 for the saltcellar.",
+      "sourceURLs": ["https://www.metmuseum.org/art/collection/search/309900"]
+    },
+    {
+      "subject": "benin-ivory",
+      "claim": "benin-maker",
+      "text": "The museum attributes the work to a Benin ivory carver and identifies Portuguese figures.",
+      "citations": [
+        {
+          "source": "met-309900",
+          "locator": "Description and qualified artist attribution"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Met 309900 attributes carving to a Benin ivory carver and identifies four Portuguese male figures; attribution is to the catalogue.",
+      "sourceURLs": ["https://www.metmuseum.org/art/collection/search/309900"]
+    },
+    {
+      "subject": "kongo-translation",
+      "claim": "kongo-baptism",
+      "text": "Nzinga Nkuwu accepted baptism in 1491.",
+      "citations": [
+        {
+          "source": "kongo-christianity",
+          "locator": "Opening paragraph"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Almeida’s museum essay, accessible in English on the /it/ route, dates Nzinga Nkuwu’s baptism to 1491.",
+      "sourceURLs": [
+        "https://www.metmuseum.org/essays/christianity-kongo-visual-culture"
+      ],
+      "consultedURLs": [
+        "https://www.metmuseum.org/it/essays/christianity-kongo-visual-culture"
+      ]
+    },
+    {
+      "subject": "kongo-translation",
+      "claim": "kongo-dating",
+      "text": "Missing provenance and precise dating limit firm sequences for surviving crucifixes.",
+      "citations": [
+        {
+          "source": "kongo-christianity",
+          "locator": "Final paragraph"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "The same essay explicitly says missing provenance and precise dating prevent firm conclusions about proposed sequences of crucifix style.",
+      "sourceURLs": [
+        "https://www.metmuseum.org/essays/christianity-kongo-visual-culture"
+      ],
+      "consultedURLs": [
+        "https://www.metmuseum.org/it/essays/christianity-kongo-visual-culture"
+      ]
+    },
+    {
+      "subject": "portuguese-voyage",
+      "claim": "gama-voyage",
+      "text": "The consulted chronology dates da Gama’s Calicut voyage to 1497–99.",
+      "citations": [
+        {
+          "source": "interwoven",
+          "locator": "Portugal chronology"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Interwoven Globe chronology gives 1497–99 for da Gama’s Calicut voyage.",
+      "sourceURLs": [
+        "https://www.metmuseum.org/exhibitions/listings/2013/interwoven-globe"
+      ]
+    },
+    {
+      "subject": "portuguese-voyage",
+      "claim": "goa-conquest",
+      "text": "The Portuguese conquered Goa in 1510.",
+      "citations": [
+        {
+          "source": "interwoven",
+          "locator": "India chronology, 1510"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "The exhibition chronology dates Albuquerque’s conquest of Goa for Portugal to 1510.",
+      "sourceURLs": [
+        "https://www.metmuseum.org/exhibitions/listings/2013/interwoven-globe"
+      ]
+    },
+    {
+      "subject": "manila-network",
+      "claim": "galleon-range",
+      "text": "The Manila galleon trade is dated 1565–1815.",
+      "citations": [
+        {
+          "source": "galleon",
+          "locator": "Title and route discussion"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "The museum essay title and citation define the Manila galleon trade frame as 1565–1815.",
+      "sourceURLs": [
+        "https://www.metmuseum.org/essays/the-manila-galleon-trade-1565-1815"
+      ]
+    },
+    {
+      "subject": "manila-network",
+      "claim": "agustin-wreck",
+      "text": "San Agustín was wrecked in Drakes Bay in 1595 with porcelain aboard.",
+      "citations": [
+        {
+          "source": "point-reyes",
+          "locator": "Shipwreck paragraph"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "NPS collection account identifies the 1595 San Agustín wreck in Drakes Bay and porcelain cargo.",
+      "sourceURLs": [
+        "https://www.nps.gov/pore/learn/historyculture/collections-museum-cultural-archeology-contact.htm"
+      ]
+    },
+    {
+      "subject": "ming-workshops",
+      "claim": "ming-dates",
+      "text": "The Ming period is conventionally dated 1368–1644.",
+      "citations": [
+        {
+          "source": "ming",
+          "locator": "Title"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "The museum essay’s displayed title uses Ming 1368–1644.",
+      "sourceURLs": ["https://www.metmuseum.org/essays/ming-dynasty-1368-1644"]
+    },
+    {
+      "subject": "ming-workshops",
+      "claim": "ming-jar",
+      "text": "The selected jar is mid-sixteenth-century Jingdezhen porcelain with underglaze and overglaze decoration.",
+      "citations": [
+        {
+          "source": "met-42549",
+          "locator": "Date and Medium"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Met 42549 gives mid-sixteenth-century Jingdezhen porcelain with underglaze cobalt blue and overglaze enamels.",
+      "sourceURLs": ["https://www.metmuseum.org/art/collection/search/42549"]
+    },
+    {
+      "subject": "mughal-books",
+      "claim": "akbar-range",
+      "text": "Akbar reigned 1556–1605.",
+      "citations": [
+        {
+          "source": "mughal",
+          "locator": "Akbar paragraph"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "The Mughal essay dates Akbar’s reign 1556–1605; folio catalogue 448183 independently repeats this frame.",
+      "sourceURLs": [
+        "https://www.metmuseum.org/essays/the-art-of-the-mughals-before-1600"
+      ]
+    },
+    {
+      "subject": "mughal-books",
+      "claim": "harivamsa-production",
+      "text": "The selected folio is dated approximately 1590–95 and depicts Krishna sheltering villagers.",
+      "citations": [
+        {
+          "source": "met-448183",
+          "locator": "Date; Description"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Met 448183 dates the folio c1590–95 and identifies Krishna sheltering Braj villagers under Mount Govardhan.",
+      "sourceURLs": ["https://www.metmuseum.org/art/collection/search/448183"]
+    },
+    {
+      "subject": "banda-1621",
+      "claim": "banda-campaign",
+      "text": "Coen led the VOC campaign against Banda in 1621.",
+      "citations": [
+        {
+          "source": "banda-archive",
+          "locator": "Genocide op Banda"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Nationaal Archief’s Dutch account places Coen’s campaign in 1621, with specific April decisions. This checks the dated campaign, not every casualty estimate.",
+      "sourceURLs": [
+        "https://www.nationaalarchief.nl/beleven/onderwijs/bronnenbox/hoe-ging-het-verder-op-banda"
+      ]
+    },
+    {
+      "subject": "banda-1621",
+      "claim": "banda-letter",
+      "text": "The archive presents Coen’s report dated 6 May 1621.",
+      "citations": [
+        {
+          "source": "banda-archive",
+          "locator": "Letter caption, inventory 1073"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "The institutional caption explicitly identifies Coen’s report about the starvation decision as 6 May 1621. Caption consulted; manuscript handwriting not independently transcribed.",
+      "sourceURLs": [
+        "https://www.nationaalarchief.nl/beleven/onderwijs/bronnenbox/hoe-ging-het-verder-op-banda"
+      ]
+    },
+    {
+      "subject": "uruk-accounts",
+      "claim": "uruk-tablet-date",
+      "text": "The selected tablet is dated approximately 3100–2900 BCE.",
+      "citations": [
+        {
+          "source": "met-327384",
+          "locator": "Date"
+        }
+      ],
+      "status": "supported",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Date field: approximately 3100–2900 BCE. Geography remains probable Uruk, not a secure excavation findspot.",
+      "sourceURLs": ["https://www.metmuseum.org/art/collection/search/327384"]
+    },
+    {
+      "subject": "uruk-accounts",
+      "claim": "uruk-tablet-reading",
+      "text": "Its grain-account interpretation is probable, with uncertainty arising from early textual form.",
+      "citations": [
+        {
+          "source": "met-327384",
+          "locator": "Final descriptive paragraph"
+        }
+      ],
+      "status": "supported",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Final descriptive paragraph explicitly qualifies grain interpretation because early texts lack verbs.",
+      "sourceURLs": ["https://www.metmuseum.org/art/collection/search/327384"]
+    },
+    {
+      "subject": "old-kingdom",
+      "claim": "old-kingdom-range",
+      "text": "The current essay uses approximately 2649–2130 BCE for the Old Kingdom.",
+      "citations": [
+        {
+          "source": "old-kingdom",
+          "locator": "Title and opening"
+        }
+      ],
+      "status": "supported",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Current Met essay title and opening use c2649–2130 BCE. The older URL slug ends in 2150; the displayed article, not that slug, supports the selected range.",
+      "sourceURLs": [
+        "https://www.metmuseum.org/essays/egypt-in-the-old-kingdom-ca-2649-2150-b-c"
+      ]
+    },
+    {
+      "subject": "old-kingdom",
+      "claim": "chapel-range",
+      "text": "The chapel wall is dated approximately 2465–2389 BCE and has a documented Saqqara context.",
+      "citations": [
+        {
+          "source": "met-543914",
+          "locator": "Artwork Details: Date and Geography"
+        }
+      ],
+      "status": "supported",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Met 543914 gives c2465–2389 BCE and Saqqara, cemetery north of the Djoser pyramid complex, tomb QS 915, west wall. Object dating remains separate from the Old Kingdom period.",
+      "sourceURLs": ["https://www.metmuseum.org/art/collection/search/543914"]
+    },
+    {
+      "subject": "dholavira",
+      "claim": "dholavira-range",
+      "text": "The site account dates occupation approximately 3000–1500 BCE.",
+      "citations": [
+        {
+          "source": "dholavira",
+          "locator": "Description"
+        }
+      ],
+      "status": "supported",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "UNESCO inscription account gives c3000–1500 BCE. Its opening has a Southeast Asia wording error; the brief synthesis identifies South Asia. The atlas correctly retains South Asia.",
+      "sourceURLs": ["https://whc.unesco.org/en/list/1645/"]
+    },
+    {
+      "subject": "dholavira",
+      "claim": "indus-seal-reading",
+      "text": "The selected Indus seal contains signs whose script has not been fully deciphered.",
+      "citations": [
+        {
+          "source": "met-324062",
+          "locator": "Description"
+        }
+      ],
+      "status": "supported",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Met 324062 describes the seal signs as a script not yet fully deciphered. This supports restraint about translating the individual signs.",
+      "sourceURLs": ["https://www.metmuseum.org/art/collection/search/324062"]
+    },
+    {
+      "subject": "dholavira",
+      "claim": "dholavira-radar-limit",
+      "text": "The proposed buried water structures in the 2018 GPR study require archaeological excavation for confirmation.",
+      "citations": [
+        {
+          "source": "dholavira-gpr",
+          "locator": "Printed p. 886, final interpretation"
+        }
+      ],
+      "status": "supported",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Agrawal et al., Current Science 114 (2018), printed p886 (PDF page 8), expressly require careful archaeological excavation to confirm the interpreted buried structures. The radar study is not excavation confirmation.",
+      "sourceURLs": [
+        "https://asc.iitgn.ac.in/assets/research/completed_projects/Archaeological_studies_at_Dholavira_using_GPR_Agrawal_Majumder_Bisht_Prashant.pdf"
+      ]
+    },
+    {
+      "subject": "liangzhu",
+      "claim": "liangzhu-range",
+      "text": "The UNESCO city account uses approximately 3300–2300 BCE.",
+      "citations": [
+        {
+          "source": "liangzhu",
+          "locator": "Description"
+        }
+      ],
+      "status": "supported",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "UNESCO brief synthesis and authenticity sections give the city c3300–2300 BCE. This does not replace the different broader culture/date fields of individual objects.",
+      "sourceURLs": ["https://whc.unesco.org/en/list/1592/"]
+    },
+    {
+      "subject": "liangzhu",
+      "claim": "cong-meaning",
+      "text": "The selected cong’s function and meaning remain uncertain; status is a proposed association.",
+      "citations": [
+        {
+          "source": "met-72376",
+          "locator": "Description"
+        }
+      ],
+      "status": "supported",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Met 72376 states that function and meaning are unknown and proposes wealth/status associations. The catalogue object date c2400 BCE is distinct from its broader culture period.",
+      "sourceURLs": ["https://www.metmuseum.org/art/collection/search/72376"]
+    },
+    {
+      "subject": "liangzhu",
+      "claim": "liangzhu-capacity-correction",
+      "text": "The 2018 correction gives estimated high/low reservoir capacities of about 14.98/50.72 million cubic metres.",
+      "citations": [
+        {
+          "source": "liangzhu-correction",
+          "locator": "Correction of p. 13641"
+        }
+      ],
+      "status": "supported",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "The published 2018 correction, consulted in PMC, replaces the two original capacities with about 14.98 and 50.72 million cubic metres. This checks the correction values; it does not independently recompute reservoir volumes.",
+      "sourceURLs": ["https://www.pnas.org/doi/10.1073/pnas.1722309115"],
+      "consultedURLs": ["https://pmc.ncbi.nlm.nih.gov/articles/PMC5789968/"],
+      "accessNote": "Publisher URL returned 403; the exact published correction was available through PMC."
+    },
+    {
+      "subject": "caral",
+      "claim": "caral-range",
+      "text": "UNESCO gives a development range of 3000–1800 BCE.",
+      "citations": [
+        {
+          "source": "caral",
+          "locator": "Integrity and Authenticity"
+        }
+      ],
+      "status": "supported",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "UNESCO integrity/authenticity text attributes 3000–1800 BCE to radiocarbon analysis of site development. The approximate site frame is supported.",
+      "sourceURLs": ["https://whc.unesco.org/en/list/1269/"]
+    },
+    {
+      "subject": "caral",
+      "claim": "caral-courts",
+      "text": "Monumental platforms and recessed circular courts form part of Caral’s urban plan.",
+      "citations": [
+        {
+          "source": "caral",
+          "locator": "Brief synthesis"
+        }
+      ],
+      "status": "supported",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "UNESCO brief synthesis describes monumental platforms and recessed circular courts as architectural components. No single simultaneous construction date follows from that description.",
+      "sourceURLs": ["https://whc.unesco.org/en/list/1269/"]
+    },
+    {
+      "subject": "skara-brae",
+      "claim": "skara-homes",
+      "text": "The village had stone-built houses with covered passages and fitted furnishings.",
+      "citations": [
+        {
+          "source": "skara-houses",
+          "locator": "Village houses and furniture"
+        }
+      ],
+      "status": "supported",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Historic Environment Scotland, Village houses and furniture, describes stone slabs, covered passageways and stone furnishings. This supports the architectural claim.",
+      "sourceURLs": [
+        "https://www.historicenvironment.scot/visit/all/skara-brae/history-and-stories/"
+      ]
+    },
+    {
+      "subject": "skara-brae",
+      "claim": "skara-tool-function",
+      "text": "The notched sandstone tool’s exact use is uncertain.",
+      "citations": [
+        {
+          "source": "skara-tool",
+          "locator": "Overview"
+        }
+      ],
+      "status": "supported",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "The institutional object page redirects to Trove object 9194. Its summary calls the precise function unclear and a hand-held rake only a possibility. No definite use is assigned.",
+      "sourceURLs": [
+        "https://historicenvironment.scot/archives-and-research/archives-and-collections/properties-in-care-collections/object/stone-tool-3180-bc-2500-bc-neolithic-skara-brae-9194"
+      ],
+      "consultedURLs": [
+        "https://www.trove.scot/object/9194?rsrc=historicenvironment.scot"
+      ]
+    },
+    {
+      "subject": "hattusha-change",
+      "claim": "hittite-proxy",
+      "text": "The primary study identifies drought around 1198–1196 BCE but cannot establish direct causation for collapse.",
+      "citations": [
+        {
+          "source": "hittite-drought",
+          "locator": "Discussion, explicit causation limitation"
+        }
+      ],
+      "status": "fresh_access_unavailable",
+      "reviewer": "Codex source-access attempt; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "PMC returned a browser challenge; Nature HTML/PDF redirected to inaccessible identity handling; PubMed extraction returned no abstract. Search excerpts identify 1198–1196 ±3 BCE but do not constitute a fresh full-paper appraisal of the causal limit. Keep this named claim unresolved in this audit.",
+      "sourceURLs": ["https://pmc.ncbi.nlm.nih.gov/articles/PMC9946833/"],
+      "attemptedURLs": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9946833/",
+        "https://www.nature.com/articles/s41586-022-05693-y",
+        "https://www.nature.com/articles/s41586-022-05693-y.pdf",
+        "https://pubmed.ncbi.nlm.nih.gov/36755095/"
+      ]
+    },
+    {
+      "subject": "hattusha-change",
+      "claim": "hattusha-plan",
+      "text": "The archaeological abstract warns that the combined site plan does not represent one fully occupied moment.",
+      "citations": [
+        {
+          "source": "hattusha-research",
+          "locator": "Abstract"
+        }
+      ],
+      "status": "supported",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Schachner 2024 abstract on Cambridge Core states that the composite plan is a modern reconstruction and that the city probably was never occupied across that entire extent at once. Only the abstract was consulted.",
+      "sourceURLs": [
+        "https://www.cambridge.org/core/journals/anatolian-studies/article/abs/new-look-at-an-ancient-city-an-outline-of-the-chronological-and-urban-development-of-the-hittite-capital-hattusa/871EDFEBD924576F4FCA67BA0F0CD265"
+      ]
+    },
+    {
+      "subject": "uluburun",
+      "claim": "uluburun-range",
+      "text": "The excavators’ project account reports a wreck date around 1320 BCE ±15 years.",
+      "citations": [
+        {
+          "source": "uluburun",
+          "locator": "Date of wreck header"
+        }
+      ],
+      "status": "supported",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Excavation project header gives ca. 1320 ±15 BCE; this is the project account’s estimate, not a newly adjudicated absolute date.",
+      "sourceURLs": [
+        "https://nauticalarch.org/projects/uluburun-late-bronze-age-shipwreck-excavation/"
+      ]
+    },
+    {
+      "subject": "uluburun",
+      "claim": "uluburun-cargo",
+      "text": "Copper and tin ingots formed part of the cargo found together.",
+      "citations": [
+        {
+          "source": "uluburun",
+          "locator": "Main cargo paragraph"
+        }
+      ],
+      "status": "supported",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Cargo paragraph explicitly identifies copper and tin ingots found in the wreck.",
+      "sourceURLs": [
+        "https://nauticalarch.org/projects/uluburun-late-bronze-age-shipwreck-excavation/"
+      ]
+    },
+    {
+      "subject": "uluburun",
+      "claim": "uluburun-origin-limit",
+      "text": "Recent studies offer competing interpretations of the tin’s origins; no complete ship itinerary is established here.",
+      "citations": [
+        {
+          "source": "uluburun-tin-2025",
+          "locator": "Printed pp. 717–719"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Article discusses lead contamination, overlapping isotope ranges and competing provenance studies. Supports retaining uncertainty; original laboratory datasets and every competing paper were not independently reanalysed.",
+      "sourceURLs": ["https://doi.org/10.15184/aqy.2025.41"]
+    },
+    {
+      "subject": "shang-ritual",
+      "claim": "shang-period",
+      "text": "The current museum chronology places Shang approximately 1600–1046 BCE.",
+      "citations": [
+        {
+          "source": "shang-zhou",
+          "locator": "Shang chronology paragraph"
+        }
+      ],
+      "status": "supported",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "The Met Shang/Zhou essay gives c1600–1046 BCE for Shang. This is the broader dynasty frame, not the late-capital date.",
+      "sourceURLs": [
+        "https://www.metmuseum.org/essays/shang-and-zhou-dynasties-the-bronze-age-of-china"
+      ]
+    },
+    {
+      "subject": "shang-ritual",
+      "claim": "shang-bone",
+      "text": "The selected specimen is identified as an oracle bone made of inscribed bone.",
+      "citations": [
+        {
+          "source": "met-42045",
+          "locator": "Title and Medium"
+        }
+      ],
+      "status": "supported",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Met 42045 identifies the object as Oracle bone and its medium as inscribed bone. The catalogue does not supply a translation here.",
+      "sourceURLs": ["https://www.metmuseum.org/art/collection/search/42045"]
+    },
+    {
+      "subject": "shang-ritual",
+      "claim": "shang-yinxu-frame",
+      "text": "Yin Xu’s c1300–1046 BCE late-capital frame is narrower than the conventional c1600–1046 BCE Shang period.",
+      "citations": [
+        {
+          "source": "shang-yinxu",
+          "locator": "Description"
+        }
+      ],
+      "status": "supported",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "UNESCO Yin Xu account gives 1300–1046 BCE for the late capital; the Met chronology separately gives c1600–1046 BCE for Shang. The two scopes are not interchangeable.",
+      "sourceURLs": ["https://whc.unesco.org/en/list/1114/"]
+    },
+    {
+      "subject": "kerma-potters",
+      "claim": "kerma-beaker-date",
+      "text": "The catalogue dates this beaker approximately 1802–1640 BCE.",
+      "citations": [
+        {
+          "source": "met-545772",
+          "locator": "Date"
+        }
+      ],
+      "status": "supported",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Met 545772 dates the beaker c1802–1640 BCE in its title and artwork details. This is the selected object date, not the entire Kerma period.",
+      "sourceURLs": ["https://www.metmuseum.org/art/collection/search/545772"]
+    },
+    {
+      "subject": "kerma-potters",
+      "claim": "kerma-findspot",
+      "text": "The beaker was excavated in Abydos tomb 525; a Nubian identity for the owner is not certain.",
+      "citations": [
+        {
+          "source": "met-545772",
+          "locator": "Geography; final descriptive paragraph"
+        }
+      ],
+      "status": "supported",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Met 545772 identifies Abydos tomb 525 and explicitly treats Nubian identity of owners of such tombs as uncertain. Kerma ware alone does not establish an individual owner’s identity.",
+      "sourceURLs": ["https://www.metmuseum.org/art/collection/search/545772"]
+    },
+    {
+      "subject": "olmec",
+      "claim": "olmec-frame",
+      "text": "Doyle uses approximately 1200–400 BCE for a major Olmec cultural and artistic flourishing.",
+      "citations": [
+        {
+          "source": "olmec",
+          "locator": "Opening paragraph"
+        }
+      ],
+      "status": "supported",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Doyle’s Met essay identifies the Gulf Coast flourishing between 1200 and 400 BCE. It is a regional cultural/artistic frame, not a date assigned to every Olmec object.",
+      "sourceURLs": ["https://www.metmuseum.org/essays/olmec-art"]
+    },
+    {
+      "subject": "olmec",
+      "claim": "olmec-figure-date",
+      "text": "The selected ceramic figure is dated 1200–900 BCE.",
+      "citations": [
+        {
+          "source": "met-314609",
+          "locator": "Date"
+        }
+      ],
+      "status": "supported",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Met 314609 dates the selected female figure 1200–900 BCE in the object heading and artwork details.",
+      "sourceURLs": ["https://www.metmuseum.org/art/collection/search/314609"]
+    },
+    {
+      "subject": "lapita",
+      "claim": "lapita-emergence",
+      "text": "Te Ara places the Lapita complex in the Bismarck Archipelago around 1500 BCE.",
+      "citations": [
+        {
+          "source": "lapita-voyaging",
+          "locator": "Opening paragraph"
+        }
+      ],
+      "status": "supported",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Te Ara’s Into Remote Oceania page places the Lapita complex in the Bismarck Archipelago around 1500 BCE. This checks the selected regional emergence statement, not the entire migration reconstruction.",
+      "sourceURLs": ["https://teara.govt.nz/en/pacific-migrations/page-3"]
+    },
+    {
+      "subject": "lapita",
+      "claim": "lapita-technique",
+      "text": "Repeating patterns were formed with toothed stamping tools before firing.",
+      "citations": [
+        {
+          "source": "lapita",
+          "locator": "Ceramic technique"
+        }
+      ],
+      "status": "supported",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "The Met Lapita essay describes patterns stamped into wet clay with a comb-like tool before firing. This supports the technique claim.",
+      "sourceURLs": ["https://www.metmuseum.org/essays/lapita-pottery-ca-1500-500-b-c"]
+    },
+    {
+      "subject": "nimrud-palace",
+      "claim": "nimrud-reconstruction",
+      "text": "The present gallery combines palace material rather than preserving one original room.",
+      "citations": [
+        {
+          "source": "assyrian-court",
+          "locator": "Gallery reconstruction"
+        }
+      ],
+      "status": "supported",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Opening discussion of Gallery 401 states that sculptures came from multiple rooms and the gallery is not a full reconstruction.",
+      "sourceURLs": ["https://www.metmuseum.org/essays/the-assyrian-sculpture-court"]
+    },
+    {
+      "subject": "ashoka-messages",
+      "claim": "ashoka-language",
+      "text": "The inscriptions include regional Prakrits and northwestern Greek and Aramaic examples.",
+      "citations": [
+        {
+          "source": "ashoka",
+          "locator": "Languages and Kandahar"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "University of Washington’s Mauryan essay identifies Prakrit vernaculars and Greek/Aramaic inscriptions in the northwestern borderlands.",
+      "sourceURLs": [
+        "https://depts.washington.edu/silkroad/exhibit/mauryans/essay.html"
+      ]
+    },
+    {
+      "subject": "athens-water",
+      "claim": "athens-space",
+      "text": "Restriction of formal political participation did not mean that women were absent from public work.",
+      "citations": [
+        {
+          "source": "agora-women",
+          "locator": "Printed pp7–11"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "ASCSA’s Women in the Athenian Agora, PDF pages 9 and 13, separates male civic participation from women’s documented market work. The passage distinguishes uncertain legal status of individual women rather than treating every trader as a citizen.",
+      "sourceURLs": [
+        "https://www.ascsa.edu.gr/uploads/media/WomenInTheAthenianAgora.pdf"
+      ]
+    },
+    {
+      "subject": "taharqo",
+      "claim": "taharqo-date",
+      "text": "The visible catalogue dates Taharqo’s figure to c.690–664 BCE, with a probable Nuri association.",
+      "citations": [
+        {
+          "source": "met-544883",
+          "locator": "Date and Geography"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Met 544883 gives 690–664 BCE and describes the Nuri association as probable/presumed.",
+      "sourceURLs": ["https://www.metmuseum.org/art/collection/search/544883"]
+    },
+    {
+      "subject": "chavin-textile",
+      "claim": "chavin-provenance",
+      "text": "The southern coastal origin is reported rather than a secure excavation context.",
+      "citations": [
+        {
+          "source": "met-315784",
+          "locator": "Geography and description"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Met 315784 says the fragment was reportedly found on the southern Peruvian coast, preserving the insecure findspot.",
+      "sourceURLs": ["https://www.metmuseum.org/art/collection/search/315784"]
+    },
+    {
+      "subject": "byzantium",
+      "claim": "byzantium-checked",
+      "text": "The medieval inhabitants described themselves as Romans; Constantinople’s 1204–1261 Latin occupation interrupts a simple continuous-capital story.",
+      "citations": [
+        {
+          "source": "byzantium",
+          "locator": "Opening; Latin Occupation"
+        }
+      ],
+      "status": "supported",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Opening identifies Rhomaioi; Latin Occupation section explicitly gives 1204–1261. No claim of uninterrupted political control adopted.",
+      "sourceURLs": ["https://www.metmuseum.org/essays/byzantium-ca-330-1453"]
+    },
+    {
+      "subject": "tang-city",
+      "claim": "tang-city-checked",
+      "text": "The dynasty continued after the mid-eighth-century rebellion, despite weakened court authority.",
+      "citations": [
+        {
+          "source": "tang",
+          "locator": "Final paragraph"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "The Tang essay explicitly says court authority weakened after An Lushan’s rebellion but the restored government continued another century and a half.",
+      "sourceURLs": ["https://www.metmuseum.org/essays/tang-dynasty-618-906"]
+    },
+    {
+      "subject": "abbasid-craft",
+      "claim": "abbasid-craft-checked",
+      "text": "Baghdad’s 762 foundation and Samarra’s 836–892 capital phase are different from the full dynastic frame.",
+      "citations": [
+        {
+          "source": "abbasid",
+          "locator": "First paragraph"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "The Abbasid essay separates Baghdad’s foundation in 762 and Samarra’s capital phase 836–892 from the dynasty’s 750–1258 frame.",
+      "sourceURLs": [
+        "https://www.metmuseum.org/essays/the-art-of-the-abbasid-period-750-1258"
+      ]
+    },
+    {
+      "subject": "borobudur",
+      "claim": "borobudur-checked",
+      "text": "The monumental construction dates broadly to the eighth–ninth centuries, and its present form includes modern restoration.",
+      "citations": [
+        {
+          "source": "borobudur",
+          "locator": "Description and Brief synthesis"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "UNESCO gives eighth–ninth-century construction and explicitly notes restoration with UNESCO assistance in the 1970s.",
+      "sourceURLs": ["https://whc.unesco.org/en/list/592/"]
+    },
+    {
+      "subject": "nalanda",
+      "claim": "nalanda-checked",
+      "text": "The detailed UNESCO synthesis dates the scholastic institution to the fifth–thirteenth centuries, while earlier archaeological remains have a longer chronology.",
+      "citations": [
+        {
+          "source": "nalanda",
+          "locator": "Brief synthesis"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "UNESCO’s detailed synthesis separates remains from cthird century BCE and the scholastic establishment from fifth–thirteenth centuries CE; its short opening compresses those chronologies.",
+      "sourceURLs": ["https://whc.unesco.org/en/list/1502/"]
+    },
+    {
+      "subject": "maya-vessel",
+      "claim": "maya-vessel-checked",
+      "text": "The cup’s ownership text does not specify the ruler’s polity; the regional attribution is a hypothesis.",
+      "citations": [
+        {
+          "source": "met-316711",
+          "locator": "Polity and Tabasco discussion"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Met 316711 says the ownership text does not specify the ruler’s polity and presents Tabasco origin as a hypothesis supported by comparisons.",
+      "sourceURLs": ["https://www.metmuseum.org/art/collection/search/316711"]
+    },
+    {
+      "subject": "mali-networks",
+      "claim": "mali-networks-checked",
+      "text": "The exhibition dates the pilgrimage via Cairo to 1324; European royal imagery expresses a foreign viewpoint.",
+      "citations": [
+        {
+          "source": "sahel",
+          "locator": "Trade and Islam"
+        },
+        {
+          "source": "catalan-block",
+          "locator": "Object 26: possible commission and royal imagery"
+        }
+      ],
+      "status": "repaired_and_supported",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Islam section supports Cairo/pilgrimage in 1324. The separate Catalan Atlas claim needed its own citation; added existing catalan-block object 26, freshly read for qualified attribution/commission and royal imagery.",
+      "sourceURLs": [
+        "https://www.metmuseum.org/exhibitions/sahel-art-empire-sahara/inside-the-exhibition",
+        "https://caravans.library.northwestern.edu/works/26/"
+      ]
+    },
+    {
+      "subject": "middle-niger",
+      "claim": "middle-niger-checked",
+      "text": "The catalogue dates the figure to the thirteenth century and acknowledges uncertainty about original significance.",
+      "citations": [
+        {
+          "source": "met-314362",
+          "locator": "Date and description"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Met 314362 dates the figure to the thirteenth century and states that limited controlled excavation yields only vague understanding of original significance.",
+      "sourceURLs": ["https://www.metmuseum.org/art/collection/search/314362"]
+    },
+    {
+      "subject": "angkor",
+      "claim": "angkor-checked",
+      "text": "Angkor includes successive urban plans and water infrastructure, and is a living inhabited landscape.",
+      "citations": [
+        {
+          "source": "angkor",
+          "locator": "Brief synthesis and villages paragraph"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "UNESCO describes hydraulic structures and successive capital layouts and explicitly identifies an inhabited, living heritage landscape.",
+      "sourceURLs": ["https://whc.unesco.org/en/list/668/"]
+    },
+    {
+      "subject": "angkor",
+      "claim": "angkor-expanded-reading",
+      "text": "Water-network modeling and evidence of continuing occupation support a history of transformation rather than universal abandonment.",
+      "citations": [
+        {
+          "source": "angkor-network",
+          "locator": "Fig. 2; model results and discussion"
+        },
+        {
+          "source": "angkor-occupation",
+          "locator": "Timing and Tempo of Collapse; occupation layers"
+        },
+        {
+          "source": "angkor",
+          "locator": "Living communities and villages"
+        }
+      ],
+      "status": "partially_supported",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "UNESCO confirms an inhabited landscape, but the selected water-network paper returned a browser challenge and the second paper’s DOI was inaccessible. The two studies’ methods and occupation findings have not been freshly rechecked; the combined claim remains partially reviewed.",
+      "sourceURLs": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6192684/",
+        "https://doi.org/10.1073/pnas.1821879116",
+        "https://whc.unesco.org/en/list/668/"
+      ]
+    },
+    {
+      "subject": "song-art",
+      "claim": "song-art-checked",
+      "text": "The selected tea bowl is eleventh–twelfth-century Jian ware, separate from the full Song dynastic frame.",
+      "citations": [
+        {
+          "source": "met-42455",
+          "locator": "Date and medium"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Met 42455 gives an eleventh–twelfth-century date and Jian ware, separately from the Song period field.",
+      "sourceURLs": ["https://www.metmuseum.org/art/collection/search/42455"]
+    },
+    {
+      "subject": "inca-weaving",
+      "claim": "inca-weaving-checked",
+      "text": "The museum gives a 1450–1550 object range and interprets highland technique alongside coastal comparisons.",
+      "citations": [
+        {
+          "source": "met-313152",
+          "locator": "Date and description"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Met 313152 gives 1450–1550 and contrasts highland technical features with coastal finds/comparisons; the origin is qualified rather than an excavated certainty.",
+      "sourceURLs": ["https://www.metmuseum.org/art/collection/search/313152"]
+    },
+    {
+      "subject": "polynesian-voyaging",
+      "claim": "polynesian-voyaging-checked",
+      "text": "The released Te Ara synthesis places arrival broadly around 1250–1300 CE; navigation used multiple learned environmental signs.",
+      "citations": [
+        {
+          "source": "nz-settlement",
+          "locator": "Story summary"
+        }
+      ],
+      "status": "partially_supported",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "The cited Te Ara settlement page supports arrival around 1250–1300 CE. It does not, in the consulted passage, substantiate the appended navigation-signs clause. Verify the appropriate navigation source and its locator before closing the combined claim.",
+      "sourceURLs": ["https://teara.govt.nz/en/when-was-new-zealand-first-settled"]
+    },
+    {
+      "subject": "factory-reform",
+      "claim": "factory-reform-checked",
+      "text": "The archival investigation pairs the 1833 law with an1836 inspector report to test enforcement.",
+      "citations": [
+        {
+          "source": "factory-act",
+          "locator": "Source 1 identification"
+        }
+      ],
+      "status": "fresh_access_unavailable",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "The exact National Archives teaching page returned 403. The 1833 law/1836 inspector pairing was not freshly consulted.",
+      "sourceURLs": [
+        "https://www.nationalarchives.gov.uk/education/resources/1833-factory-act/"
+      ]
+    },
+    {
+      "subject": "hine-labor",
+      "claim": "hine-labor-checked",
+      "text": "The catalogue dates the photograph to 3 December 1908 and identifies its caption as an NCLC caption card.",
+      "citations": [
+        {
+          "source": "hine",
+          "locator": "Created/Published and Notes"
+        }
+      ],
+      "status": "fresh_access_unavailable",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "LOC catalogue 2018674890 returned 403. The exact 3 December 1908 date and NCLC caption-card attribution were not freshly read.",
+      "sourceURLs": ["https://www.loc.gov/item/2018674890/"]
+    },
+    {
+      "subject": "tomioka",
+      "claim": "tomioka-checked",
+      "text": "The mill opened in October 1872, combining French technical input with Japanese construction and regional silk expertise.",
+      "citations": [
+        {
+          "source": "tomioka-local",
+          "locator": "Tomioka Silk Mill"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "The Gunma heritage account gives October 1872 opening, French designs/advisers, construction by Japanese carpenters and placement in a major regional silk-producing area.",
+      "sourceURLs": ["https://worldheritage.pref.gunma.jp/tomikinu/index.php/en/"]
+    },
+    {
+      "subject": "haitian-revolution",
+      "claim": "haitian-revolution-checked",
+      "text": "The declaration is dated 1 January 1804 at Gonaïves in the catalogued pamphlet.",
+      "citations": [
+        {
+          "source": "haiti-declaration",
+          "locator": "Page 7 date note"
+        }
+      ],
+      "status": "fresh_access_unavailable",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Columbia catalogue redirects to an access-denied page. Retain prior scoped consultation without claiming a fresh verification; date-spacing copy repair does not establish historical support.",
+      "sourceURLs": ["https://pegasus.law.columbia.edu/record/127673"]
+    },
+    {
+      "subject": "tiriti",
+      "claim": "tiriti-checked",
+      "text": "The Māori and English texts differ significantly over governance, sovereignty and retained authority.",
+      "citations": [
+        {
+          "source": "treaty-texts",
+          "locator": "Articles 1 and2"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Archives New Zealand’s Article 1/2 discussion explicitly contrasts governance and sovereignty and explains uncertainty about retained rangatira authority.",
+      "sourceURLs": [
+        "https://www.archives.govt.nz/discover-our-stories/the-treaty-of-waitangi/what-te-tiriti-o-waitangi-says-in-english-and-te-reo-maori"
+      ]
+    },
+    {
+      "subject": "partition-1947",
+      "claim": "partition-1947-checked",
+      "text": "The archival account separates independence on 14/15 August from the border announcement on 17 August 1947.",
+      "citations": [
+        {
+          "source": "partition",
+          "locator": "Regions affected by partition"
+        }
+      ],
+      "status": "supported_via_official_companion",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "HTML returned 403. Downloaded official National Archives teaching PDF; physical PDF page 4 distinguishes 14/15 August independence and 17 August border announcement.",
+      "sourceURLs": [
+        "https://www.nationalarchives.gov.uk/education/teaching-resources/partition-of-british-india/"
+      ]
+    },
+    {
+      "subject": "partition-1947",
+      "claim": "partition-1947-expanded-reading",
+      "text": "The September telegram and later personal testimony address different scales of the aftermath.",
+      "citations": [
+        {
+          "source": "partition",
+          "locator": "Source 1: DO 142/416, telegram sent 23 September 1947"
+        },
+        {
+          "source": "partition",
+          "locator": "Source 6: Learning Hindi; My father and Mr Ansari transcripts"
+        },
+        {
+          "source": "partition-oral",
+          "locator": "Sunil Chandra Ghosh and Hamida summaries"
+        }
+      ],
+      "status": "supported_via_official_companion",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Official PDF page 12 transcribes telegram sent 23 September, received 24 September 1947; pages 28–29 contain Learning Hindi, My father and Mr Ansari testimony. PDF calls this source 5a, while existing HTML locator says source 6; preserve the version distinction. Partition Museum page independently supplies Ghosh/Hamida summaries, not full video/transcript review.",
+      "sourceURLs": [
+        "https://www.nationalarchives.gov.uk/education/teaching-resources/partition-of-british-india/",
+        "https://www.nationalarchives.gov.uk/education/teaching-resources/partition-of-british-india/",
+        "https://www.partitionmuseum.org/oral-history"
+      ]
+    },
+    {
+      "subject": "south-africa-rights",
+      "claim": "south-africa-distinct-dates",
+      "text": "The constitution was signed on 10 December 1996 and came into effect on 4 February 1997, after the 1994 democratic transition.",
+      "citations": [
+        {
+          "source": "sa-transition",
+          "locator": "1994, 1996 and 1997 milestones"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "The government chronology separates 1994 elections, constitution signing on 10 December 1996 and commencement on 4 February 1997.",
+      "sourceURLs": ["https://www.gov.za/issues/20years/milestones-20-years-freedom"]
+    },
+    {
+      "subject": "world-war-one",
+      "claim": "world-war-one-checked",
+      "text": "The conflict involved fronts beyond western Europe, including Africa and the Middle East.",
+      "citations": [
+        {
+          "source": "ww1",
+          "locator": "Key fact1"
+        }
+      ],
+      "status": "fresh_access_unavailable",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "The selected IWM key-facts page returned 403. The named geographical claim was not freshly checked against that source.",
+      "sourceURLs": ["https://www.iwm.org.uk/history/first-world-war/key-facts"]
+    },
+    {
+      "subject": "world-war-two",
+      "claim": "world-war-two-checked",
+      "text": "USHMM identifies six million European Jews murdered in the Holocaust and a 1933–1945 frame distinct from the European war’s 1939 start.",
+      "citations": [
+        {
+          "source": "holocaust",
+          "locator": "Opening definition and chronology"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "USHMM defines the Holocaust’s six million murdered European Jews and 1933–1945 frame, separately dating the European war’s start to September 1939.",
+      "sourceURLs": [
+        "https://encyclopedia.ushmm.org/content/en/article/introduction-to-the-holocaust"
+      ]
+    },
+    {
+      "subject": "sputnik",
+      "claim": "sputnik-checked",
+      "text": "The Soviet Union launched Sputnik 1 on 4 October 1957.",
+      "citations": [
+        {
+          "source": "sputnik",
+          "locator": "Opening"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "NASA’s account identifies the Soviet launch of Sputnik 1 on 4 October 1957.",
+      "sourceURLs": ["https://www.nasa.gov/history/dawn-of-the-space-age/"]
+    },
+    {
+      "subject": "qin-administration",
+      "claim": "qin-administration-checked",
+      "text": "Liye documents show uneven adherence to prescribed document standards; the study does not establish identical practice throughout the empire.",
+      "citations": [
+        {
+          "source": "qin-practice",
+          "locator": "§4 conclusions"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Richter’s article abstract compares Liye practices with prescribed standards and explicitly describes variable/pragmatic compliance in Qianling county. This does not warrant an empire-wide uniform-practice claim.",
+      "sourceURLs": ["https://doi.org/10.1017/S0041977X23000228"]
+    },
+    {
+      "subject": "qin-administration",
+      "claim": "qin-period-frame",
+      "text": "The Met uses 221–206 BCE for imperial Qin; other consulted sources use 221–207 BCE.",
+      "citations": [
+        {
+          "source": "qin",
+          "locator": "Essay title"
+        },
+        {
+          "source": "qin-measure",
+          "locator": "Dynasty label"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "The Met title uses 221–206 BCE; the National Palace Museum catalogue uses 221–207 BCE. Both conventions were directly consulted and retained.",
+      "sourceURLs": [
+        "https://www.metmuseum.org/essays/qin-dynasty-221-206-b-c",
+        "https://theme.npm.edu.tw/selection/Article.aspx?lang=2&sNo=04001146"
+      ]
+    },
+    {
+      "subject": "poverty-point",
+      "claim": "poverty-point-checked",
+      "text": "The selected earthwork complex was made by hunter-fisher-gatherers in the c1700–1100 BCE frame, rather than by a society known here to depend on crop agriculture.",
+      "citations": [
+        {
+          "source": "pp-nps",
+          "locator": "Earthwork complex and subsistence description"
+        }
+      ],
+      "status": "supported",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "The National Park Service identifies hunter-fisher-gatherer builders and a 1700–1100 BCE residential/ceremonial frame. This supports the selected subsistence characterization without inferring identical practices across all nearby societies.",
+      "sourceURLs": [
+        "https://www.nps.gov/articles/000/monumental-earthworks-of-poverty-point-world-heritage-site.htm"
+      ]
+    },
+    {
+      "subject": "hopewell-earthworks",
+      "claim": "hopewell-earthworks-checked",
+      "text": "The visible earthworks at Mound City are modern restorations informed by ancient base layers, documents and field research.",
+      "citations": [
+        {
+          "source": "hopewell-moundcity",
+          "locator": "Introduction, paragraph on all visible mounds and walls"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "NPS explains that visible Mound City earthworks are modern restorations based on surviving base layers and documentary/field research; it distinguishes unrestored Mound 15.",
+      "sourceURLs": [
+        "https://www.nps.gov/hocu/learn/historyculture/mound-city-group.htm"
+      ]
+    },
+    {
+      "subject": "chaco-communities",
+      "claim": "chaco-communities-checked",
+      "text": "The 2009 analysis detected theobromine in three of five tested vessel-fragment samples; the result supports cacao use at Pueblo Bonito, not universal access or an exact route.",
+      "citations": [
+        {
+          "source": "chaco-cacao",
+          "locator": "Sample selection and Results, three probable cylinder-jar samples"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Crown and Hurst’s 2009 methods/results specify five vessel-fragment samples and theobromine in three. The limited sample supports cacao use at Pueblo Bonito, not universal access or a precise route.",
+      "sourceURLs": ["https://pmc.ncbi.nlm.nih.gov/articles/PMC2650116/"]
+    },
+    {
+      "subject": "cahokia-city",
+      "claim": "cahokia-city-checked",
+      "text": "The post-1400 Horseshoe Lake population reconstruction is debated; the proxy should not be presented as an uncontested census or a certain identification of a people.",
+      "citations": [
+        {
+          "source": "cahokia-critique",
+          "locator": "Abstract, critique of population and identity interpretation"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "The Illinois-hosted authors’ abstract explicitly challenges the Horseshoe Lake population reconstruction and Illinois Confederation identification, citing alternative explanations for stanols. The abstract confirms a published dispute, not its resolution.",
+      "sourceURLs": [
+        "https://experts.illinois.edu/en/publications/questioning-the-native-american-population-rebound-in-the-horsesh/"
+      ]
+    },
+    {
+      "subject": "ottoman-workshops",
+      "claim": "ottoman-workshops-checked",
+      "text": "The visible catalogue dates the Iznik dish c1575–90 and the tughra c1555–60; the museum API’s wider search envelopes do not replace these object dates.",
+      "citations": [
+        {
+          "source": "met-451490",
+          "locator": "Visible date and Artwork Details"
+        },
+        {
+          "source": "met-449533",
+          "locator": "Visible catalogue date c1555–60"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "The two visible Met catalogues give c1575–90 and c1555–60. The API-versus-visible-envelope comparison was not rerun in this batch; these displayed dates directly support the adopted object chronology.",
+      "sourceURLs": [
+        "https://www.metmuseum.org/art/collection/search/451490",
+        "https://www.metmuseum.org/art/collection/search/449533"
+      ]
+    },
+    {
+      "subject": "isfahan-silk",
+      "claim": "isfahan-silk-checked",
+      "text": "New Julfa’s later commercial importance followed forced relocation in 1604 and settlement at Isfahan in 1605; prosperity does not establish voluntary migration.",
+      "citations": [
+        {
+          "source": "julfa-forced",
+          "locator": "Origin, settlement, and population, 1604–1605"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Iranica’s Origin, settlement, and population section dates forced deportation October–November 1604 and arrival/building at Isfahan in early summer 1605. Its subsequent prosperity account does not recast deportation as voluntary.",
+      "sourceURLs": ["https://www.iranicaonline.org/articles/julfa-i-safavid-period/"]
+    },
+    {
+      "subject": "bukhara-books",
+      "claim": "bukhara-books-checked",
+      "text": "The manuscript’s copying in Herat and later illustration probably in Bukhara are qualified catalogue attributions, not a single certain place and production date.",
+      "citations": [
+        {
+          "source": "met-452671",
+          "locator": "Description, manuscript stages and probably Bukhara in the 1530s"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Met 452671 qualifies copying in Herat as likely and subsequent Bukhara illustration as probable, in the 1530s.",
+      "sourceURLs": ["https://www.metmuseum.org/art/collection/search/452671"]
+    },
+    {
+      "subject": "zand-iran",
+      "claim": "zand-iran-checked",
+      "text": "The case is dated 1789, ten years after Karim Khan’s death in 1779; its catalogue does not assign it to his use or identify a secure Shiraz workshop.",
+      "citations": [
+        {
+          "source": "met-681122",
+          "locator": "Artwork Details: dated 1204 AH/1789 CE; Geography Iran"
+        },
+        {
+          "source": "zand-history",
+          "locator": "Karim Khan, death in 1779"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Met 681122 dates the case 1789 and gives Iran, not a secure Shiraz workshop or Karim Khan ownership. Iranica dates Karim Khan’s death 1779; the ten-year separation is arithmetic.",
+      "sourceURLs": [
+        "https://www.metmuseum.org/art/collection/search/681122",
+        "https://www.iranicaonline.org/articles/zand-dynasty/"
+      ]
+    },
+    {
+      "subject": "bering-sea-carvers",
+      "claim": "bering-sea-carvers-checked",
+      "text": "The Met dates this counterweight 300–500 CE, while Mason/Rasic’s later regional chronology concerns a different level of evidence; the latter does not individually redetermine this carving’s date.",
+      "citations": [
+        {
+          "source": "met-717577",
+          "locator": "Visible date, attribution and object 2019.456.17"
+        },
+        {
+          "source": "bering-whaling",
+          "locator": "Abstract: regional chronology and marine-carbon correction"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Met 717577 dates the individual counterweight 300–500 CE. The NPS-hosted Mason/Rasic abstract describes a regional revised chronology, not redating this accession.",
+      "sourceURLs": [
+        "https://www.metmuseum.org/art/collection/search/717577",
+        "https://www.nps.gov/articles/beringwhalingorigins.htm"
+      ]
+    },
+    {
+      "subject": "inuinnait-sewing",
+      "claim": "inuinnait-sewing-checked",
+      "text": "The 1922 frontispiece identifies Ikpakhuak and Higilak in dancing costume; its publication date and the 1913–16 expedition window do not establish an exact exposure date.",
+      "citations": [
+        {
+          "source": "jenness-1922",
+          "locator": "Frontispiece Plate I and title page"
+        }
+      ],
+      "status": "partially_supported",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Internet Archive metadata confirms 1922 publication and the 1913–16 Southern Party, but the frontispiece caption was not accessible in this recheck. The named people, dress identification and photographic dating limitation remain unverified here.",
+      "sourceURLs": ["https://archive.org/details/lifeofcoppereski00jenn"]
+    },
+    {
+      "subject": "ozette-makah",
+      "claim": "ozette-makah-checked",
+      "text": "The 1560/1700 bounds represent differing published estimates for house burial; they are not the lifetime of Ozette or a continuous 140-year slide.",
+      "citations": [
+        {
+          "source": "ozette-architecture",
+          "locator": "Mudslide dating alternatives"
+        }
+      ],
+      "status": "fresh_access_unavailable",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "The SAH Archipedia record returned 403. Its differing burial estimates were not freshly consulted.",
+      "sourceURLs": ["https://sah-archipedia.org/buildings/WA-01-009-0042"]
+    },
+    {
+      "subject": "blackfoot-bison",
+      "claim": "blackfoot-bison-checked",
+      "text": "Head-Smashed-In includes drive lanes, a jump, bone deposits and processing camps; the landscape supports a history of coordinated hunting rather than an isolated cliff event.",
+      "citations": [
+        {
+          "source": "hsi-unesco",
+          "locator": "Brief synthesis: component features"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "UNESCO’s synthesis explicitly describes drive lanes, cliff, stratified bone deposits and butchering camps as one coordinated hunting landscape.",
+      "sourceURLs": ["https://whc.unesco.org/en/list/158/"]
+    },
+    {
+      "subject": "hidatsa-villages",
+      "claim": "hidatsa-villages-checked",
+      "text": "Big Hidatsa’s c. 1600–1845 occupation is a village history; 1845 relocation did not end Hidatsa people or their knowledge.",
+      "citations": [
+        {
+          "source": "knife-village",
+          "locator": "Village occupation and continuing cultural importance"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "NPS gives Big Hidatsa’s establishment around 1600 and the 1845 move to Like-a-Fishhook Village, documenting relocation rather than an end to Hidatsa people.",
+      "sourceURLs": [
+        "https://www.nps.gov/knri/learn/historyculture/hidatsa-village.htm"
+      ]
+    },
+    {
+      "subject": "kwakwakawakw-potlatch",
+      "claim": "kwakwakawakw-potlatch-checked",
+      "text": "The 1884 legislation did not end potlatching; U’mista documents continuing practice, confiscations following the 1921 potlatch and the 1951 removal of the prohibition.",
+      "citations": [
+        {
+          "source": "umista-history",
+          "locator": "Prohibition, continued practice, Village Island and 1951 revision"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "U’mista records the 1884 prohibition, continued potlatching including Cranmer’s 1921 gathering, confiscation history and deletion of the prohibition in 1951.",
+      "sourceURLs": ["https://www.umista.ca/pages/collection-history"]
+    },
+    {
+      "subject": "ocmulgee-council",
+      "claim": "ocmulgee-council-checked",
+      "text": "The familiar 1015 construction label and newer roof-wood evidence answer different dating questions; the Earthlodge has no settled exact construction year in this atlas.",
+      "citations": [
+        {
+          "source": "ocmu-chronology",
+          "locator": "Discussion: older median date, timber after c.1160 and possible earlier structure"
+        }
+      ],
+      "status": "fresh_access_unavailable",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "The exact article DOI was inaccessible and a targeted publisher search did not return the article. The new roof-wood findings were not freshly read; no conclusion that the claim is historically false follows.",
+      "sourceURLs": ["https://doi.org/10.1017/aaq.2025.10106"]
+    },
+    {
+      "subject": "wendat-laine",
+      "claim": "wendat-laine-checked",
+      "text": "The preferred c.1595–1626 range is a modeled placement for an ancestral Wendat village; the earlier c.1500–1530 attribution is retained as a superseded interpretation rather than silently mixed into one span.",
+      "citations": [
+        {
+          "source": "laine-chronology",
+          "locator": "Abstract, Introduction and Conclusions: alternative placements and preferred model"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Manning/Birch’s exact 2022 paper, retrieved from NSF, supports a preferred modeled 1595–1626 placement and identifies the earlier 1500–1530 interpretation. PDF pages 1 and 27 were read and rendered. The abstract’s 95.4% and discussion’s 68.3% descriptions differ; the existing atlas already preserves this conflict without assigning one percentage. Models/tables were not independently recomputed.",
+      "sourceURLs": ["https://doi.org/10.1017/RDC.2022.23"],
+      "consultedURLs": ["https://par.nsf.gov/servlets/purl/10359598"]
+    },
+    {
+      "subject": "haudenosaunee-canandaigua",
+      "claim": "haudenosaunee-canandaigua-checked",
+      "text": "The treaty’s 1794 signing and the U.S. ratification in January 1795 are separate actions recorded in the same archival file; neither date establishes complete performance of its promises.",
+      "citations": [
+        {
+          "source": "canandaigua-archive",
+          "locator": "File contents, creation date and ratification instrument"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "The archival catalogue identifies 11 November 1794 signing and the instrument of ratification dated 21 January 1795. It does not establish subsequent performance of treaty promises.",
+      "sourceURLs": ["https://digitreaties.org/treaties/treaty/12013172/"]
+    },
+    {
+      "subject": "cherokee-print",
+      "claim": "cherokee-print-checked",
+      "text": "Cherokee and English printing began in the Phoenix in February 1828; the displayed April issue and the later forced-removal history must be read as separate evidence, not one undifferentiated event.",
+      "citations": [
+        {
+          "source": "phoenix-catalogue",
+          "locator": "First issue date and bilingual publication history"
+        },
+        {
+          "source": "phoenix-photo",
+          "locator": "April 10 issue identification"
+        },
+        {
+          "source": "cherokee-nation-history",
+          "locator": "Forced removal and reorganization"
+        }
+      ],
+      "status": "partially_supported",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Cherokee Nation’s history page was accessible, but both LOC catalogue/issue pages returned 403. The exact February publication start and selected April issue were not freshly verified; the combined claim remains open.",
+      "sourceURLs": [
+        "https://www.loc.gov/item/sn83020866",
+        "https://www.loc.gov/item/97512373/",
+        "https://www.cherokee.gov/about-the-nation/history/"
+      ]
+    },
+    {
+      "subject": "ojibwe-manoomin",
+      "claim": "ojibwe-manoomin-checked",
+      "text": "The Linde photograph is catalogued [1913] with a probable Ontario location and an unnamed Ojibwe person; it does not by itself establish the complete harvesting process or a precise community biography.",
+      "citations": [
+        {
+          "source": "rice-linde",
+          "locator": "Catalogue date and summary"
+        }
+      ],
+      "status": "fresh_access_unavailable",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "The LOC catalogue returned 403. Its bracketed date, probable location and subject description were not freshly read.",
+      "sourceURLs": ["https://www.loc.gov/pictures/collection/cph/item/2020637524/"]
+    },
+    {
+      "subject": "indonesia-independence",
+      "claim": "indonesia-dates",
+      "text": "Indonesia proclaimed independence on 17 August 1945; the Dutch transfer to a federal United States of Indonesia followed on 27 December 1949.",
+      "citations": [
+        {
+          "source": "indonesia-transfer",
+          "locator": "Proclamation and transfer sections"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "Nationaal Archief separates the 17 August 1945 independence date and 27 December 1949 transfer, explaining the federal United States of Indonesia and its replacement in 1950.",
+      "sourceURLs": [
+        "https://www.nationaalarchief.nl/beleven/onderwijs/bronnenbox/soevereiniteitsoverdracht-indonesie-1949"
+      ]
+    },
+    {
+      "subject": "ghana-independence",
+      "claim": "ghana-dates",
+      "text": "Ghana became independent on 6 March 1957 and a republic in 1960; independence did not initially end the monarchy.",
+      "citations": [
+        {
+          "source": "ghana-country-study",
+          "locator": "Printed pp. 30 and 33"
+        }
+      ],
+      "status": "supported_with_limits",
+      "reviewer": "Codex source consultation and self-review; not independent historian approval",
+      "reviewDate": "2026-11-04",
+      "finding": "The Library of Congress country study, printed xxxi (PDF page 35), separates 6 March 1957 independence under a crown representative from the 1960 republic; printed p33 (PDF page 77) specifies 1 July 1960. The source PDF was downloaded, hashed and page 35 rendered/inspected.",
+      "sourceURLs": [
+        "https://tile.loc.gov/storage-services/master/frd/frdcstdy/gh/ghanacountrystud00berr_0/ghanacountrystud00berr_0.pdf"
+      ]
+    }
+  ],
+  "batches": [
+    {
+      "id": "initial-selected-claims",
+      "attempted": 14,
+      "supportedOrRepaired": 13,
+      "freshAccessUnavailable": 1
+    },
+    {
+      "id": "remaining-c1-c2-named-claims",
+      "attempted": 24,
+      "supportedOrRepaired": 23,
+      "freshAccessUnavailable": 1,
+      "scope": "Named claims only; no full-dossier acceptance and no application content changes in this batch."
+    },
+    {
+      "id": "remaining-named-claims",
+      "attempted": 76,
+      "supportedOrRepaired": 66,
+      "partiallySupported": 4,
+      "freshAccessUnavailable": 6,
+      "scope": "Selected claim passages and catalogue fields. No whole-dossier or whole-source approval; no application content changes in this batch."
+    }
+  ],
+  "partiallySupported": 4,
+  "additionalPDFs": [
+    {
+      "claim": "ghana-dates",
+      "url": "https://tile.loc.gov/storage-services/master/frd/frdcstdy/gh/ghanacountrystud00berr_0/ghanacountrystud00berr_0.pdf",
+      "localPath": "output/completion-2026-11-04/source-recheck/ghana-country-study.pdf",
+      "sha256": "54d53ab312bc85b02ed49a226f4bce2db5f989e63ac5c64e7a0d52bd5376732f",
+      "pagesConsulted": [35, 77],
+      "pagesRenderedAndInspected": [35]
+    },
+    {
+      "claim": "wendat-laine-checked",
+      "url": "https://par.nsf.gov/servlets/purl/10359598",
+      "localPath": "output/completion-2026-11-04/source-recheck/laine-2022.pdf",
+      "sha256": "10e96741a37748f9e00c364c1c616833538673ec671ba1fae54c1da80b4f0525",
+      "pagesConsulted": [1, 27],
+      "pagesRenderedAndInspected": [1, 27]
+    }
+  ]
+}

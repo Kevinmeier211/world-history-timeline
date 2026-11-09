@@ -1,0 +1,173 @@
+[
+  {
+    "id": "byzantium",
+    "name": "Byzantium: Romans across changing centuries",
+    "kind": "political entity",
+    "region": "Europe",
+    "place": "Constantinople, present-day Istanbul; territories varied",
+    "aliases": ["Eastern Roman Empire", "Byzantine Empire", "Constantinople"],
+    "coordinates": [28.98, 41.01],
+    "geographicPrecision": "Capital locator on the Bosporus; no single imperial boundary.",
+    "interval": {
+      "start": 330,
+      "end": 1453,
+      "label": "Conventional frame, 330–1453 CE",
+      "note": "New capital in 330 to Ottoman capture in 1453. Constantinople was under Latin rule 1204–1261; Byzantine states continued elsewhere. Not an uninterrupted single territorial unit.",
+      "precision": "approximate"
+    },
+    "packs": ["C4", "C5", "C6"],
+    "claims": [
+      {
+        "id": "byzantium-checked",
+        "text": "The medieval inhabitants described themselves as Romans; Constantinople’s 1204–1261 Latin occupation interrupts a simple continuous-capital story.",
+        "citations": [
+          {
+            "source": "byzantium",
+            "locator": "Opening; Latin Occupation"
+          }
+        ],
+        "status": "published",
+        "checkedBy": "Codex source consultation and self-review; not independent historian approval",
+        "checkedOn": "2026-10-26"
+      }
+    ],
+    "question": "Can political change and cultural continuity coexist?",
+    "returnPrompt": "What does a single long timeline band conceal about a changing political identity?",
+    "objectIds": ["met-464428"],
+    "dimensions": {
+      "participation": {
+        "text": "Imperial and church institutions changed; Roman self-identification persisted across the modern label.",
+        "citations": [
+          {
+            "source": "byzantium",
+            "locator": "Early and Middle Byzantium"
+          }
+        ]
+      },
+      "evidence": {
+        "text": "A tenth-century devotional object represents a particular practice, not every century of imperial life.",
+        "citations": [
+          {
+            "source": "met-464428",
+            "locator": "Description and date"
+          }
+        ]
+      }
+    },
+    "status": "published"
+  },
+  {
+    "id": "borobudur",
+    "name": "Borobudur: a landscape for Buddhist ideas",
+    "kind": "place",
+    "region": "Southeast Asia/Oceania",
+    "place": "Kedu Valley, Central Java, Indonesia",
+    "aliases": ["Java", "Syailendra", "Buddhism", "Buddhist temple"],
+    "coordinates": [110.2, -7.61],
+    "geographicPrecision": "Temple-site locator; no inference of a regional political boundary.",
+    "interval": {
+      "start": 700,
+      "end": 900,
+      "label": "Built in the eighth–ninth centuries CE",
+      "note": "Broad construction frame from UNESCO, not exact building dates or the entire duration of use.",
+      "precision": "approximate"
+    },
+    "packs": ["C5"],
+    "claims": [
+      {
+        "id": "borobudur-checked",
+        "text": "The monumental construction dates broadly to the eighth–ninth centuries, and its present form includes modern restoration.",
+        "citations": [
+          {
+            "source": "borobudur",
+            "locator": "Description and Brief synthesis"
+          }
+        ],
+        "status": "published",
+        "checkedBy": "Codex source consultation and self-review; not independent historian approval",
+        "checkedOn": "2026-10-26"
+      }
+    ],
+    "question": "How can movement through a building teach an idea?",
+    "returnPrompt": "How would you distinguish a building’s original construction, later use and modern restoration?",
+    "objectIds": [],
+    "dimensions": {
+      "evidence": {
+        "text": "A conserved monumental site combines early fabric with later intervention.",
+        "citations": [
+          {
+            "source": "borobudur",
+            "locator": "Restoration history"
+          }
+        ]
+      },
+      "production": {
+        "text": "Terraces, carved reliefs and stupas required coordinated building and carving.",
+        "citations": [
+          {
+            "source": "borobudur",
+            "locator": "Architectural description"
+          }
+        ]
+      }
+    },
+    "status": "published"
+  },
+  {
+    "id": "maya-vessel",
+    "name": "A Maya drinking vessel: text, food and rank",
+    "kind": "object",
+    "region": "Americas",
+    "place": "Mesoamerica; proposed Tabasco association",
+    "aliases": ["Maya courts", "Cacao", "Kaan Took’"],
+    "coordinates": [-92.8, 18.1],
+    "geographicPrecision": "Broad hypothesized region; no precise excavated findspot is claimed.",
+    "interval": {
+      "start": 600,
+      "end": 800,
+      "label": "Seventh–eighth centuries CE",
+      "note": "Catalogue object range; not a lifespan for Maya peoples, who continue today.",
+      "precision": "approximate"
+    },
+    "packs": ["C5"],
+    "claims": [
+      {
+        "id": "maya-vessel-checked",
+        "text": "The cup’s ownership text does not specify the ruler’s polity; the regional attribution is a hypothesis.",
+        "citations": [
+          {
+            "source": "met-316711",
+            "locator": "Polity and Tabasco discussion"
+          }
+        ],
+        "status": "published",
+        "checkedBy": "Codex source consultation and self-review; not independent historian approval",
+        "checkedOn": "2026-10-26"
+      }
+    ],
+    "question": "What can a name on a cup tell us—and what does it leave open?",
+    "returnPrompt": "Which evidence would strengthen or weaken the proposed regional attribution?",
+    "objectIds": ["met-316711"],
+    "dimensions": {
+      "participation": {
+        "text": "An elite owner’s name and imagery connect rank with food and fertility; other voices are less directly represented.",
+        "citations": [
+          {
+            "source": "met-316711",
+            "locator": "Text and image"
+          }
+        ]
+      },
+      "evidence": {
+        "text": "The proposed regional origin rests on comparisons rather than a documented excavation of this vessel.",
+        "citations": [
+          {
+            "source": "met-316711",
+            "locator": "Regional hypothesis"
+          }
+        ]
+      }
+    },
+    "status": "published"
+  }
+]

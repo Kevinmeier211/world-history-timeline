@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360" role="img"><title>Small marks make a pattern</title><desc>Original modern action guide. A hypothetical tool has three rectangular teeth. One downward press leaves three short marks in a generic band; repeating the action produces three groups of three marks. This is not a copied Lapita motif, the pattern of a photographed cast, an archaeologically recovered tool or an ancient vessel reconstruction. Tool, band and marks are illustrative rather than measured.</desc><style>text{font-family:Arial,sans-serif;font-size:32px;fill:#182d24}.head{font-weight:700}.shape{fill:none;stroke:#33483e;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}.mark{fill:#33483e}</style><rect width="600" height="360" fill="#fffdf6"/><text x="18" y="41" class="head"><tspan x="18" dy="0">Small marks make a pattern</tspan></text>
+<rect x="18" y="78" width="170" height="178" rx="9" fill="#edf2f0" stroke="#33483e" stroke-width="3"/><rect x="215" y="78" width="170" height="178" rx="9" fill="#eadfb5" stroke="#33483e" stroke-width="3"/><rect x="412" y="78" width="170" height="178" rx="9" fill="#edf2f0" stroke="#33483e" stroke-width="3"/>
+<text x="103" y="119" text-anchor="middle"><tspan x="103" dy="0">Tool</tspan></text>
+<text x="300" y="119" text-anchor="middle"><tspan x="300" dy="0">Press</tspan></text>
+<text x="497" y="119" text-anchor="middle"><tspan x="497" dy="0">Repeat</tspan></text>
+<path d="M194,190H209m-7,-6l7,6l-7,6" fill="none" stroke="#33483e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M391,190H406m-7,-6l7,6l-7,6" fill="none" stroke="#33483e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M76,157H130V173H120V202H110V173H98V202H88V173H76V202H66V157Z" fill="#d5c796" stroke="#33483e" stroke-width="3" stroke-linejoin="round"/>
+<path class="shape" d="M300,147V169m-7,-7l7,7l7,-7"/>
+<rect x="243" y="180" width="114" height="48" rx="5" fill="#fffdf6" stroke="#33483e" stroke-width="3"/>
+<rect class="mark" x="286" y="192" width="6" height="24" rx="2"/><rect class="mark" x="297" y="192" width="6" height="24" rx="2"/><rect class="mark" x="308" y="192" width="6" height="24" rx="2"/>
+<rect x="425" y="180" width="144" height="48" rx="5" fill="#fffdf6" stroke="#33483e" stroke-width="3"/>
+<rect class="mark" x="433" y="192" width="6" height="24" rx="2"/><rect class="mark" x="444" y="192" width="6" height="24" rx="2"/><rect class="mark" x="455" y="192" width="6" height="24" rx="2"/>
+<rect class="mark" x="482" y="192" width="6" height="24" rx="2"/><rect class="mark" x="493" y="192" width="6" height="24" rx="2"/><rect class="mark" x="504" y="192" width="6" height="24" rx="2"/>
+<rect class="mark" x="531" y="192" width="6" height="24" rx="2"/><rect class="mark" x="542" y="192" width="6" height="24" rx="2"/><rect class="mark" x="553" y="192" width="6" height="24" rx="2"/>
+<text x="18" y="301"><tspan x="18" dy="0">Hypothetical tool and pattern.</tspan></text>
+<text x="18" y="343"><tspan x="18" dy="0">Modern guide, not a vessel.</tspan></text></svg>

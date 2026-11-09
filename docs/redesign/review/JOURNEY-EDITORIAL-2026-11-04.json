@@ -1,0 +1,1876 @@
+{
+  "date": "2026-11-04",
+  "scope": "Author-side review of 33 route sequences, questions, transitions, materials and both evidence tracks. Stop anchors are UI reading positions; archaeological and other dates retain the qualifications in each stop and dossier.",
+  "inputCorpusSHA256": "65db1e4fec1a68d60beed65bf1d8c53714b3ab1dc184854ad48fad2554f7c52e",
+  "durationMethod": "All displayed durations are editorial estimates. No participant timing was collected. Adult-guided family route for ages 10–14; adult self-directed route also reviewed.",
+  "prerequisites": "For each route the family card supplies the text, notice prompts, source and feedback needed for its task. Where it calls for a pictured object, select the linked object. Adults may use the stop dossiers, linked objects and cited selections for the return question.",
+  "navigationScope": "Every stop, optional stop object, comparison target, family citation and adult citation was checked against the corpus. Exact order and anchor years are retained below. Browser resume and reset checks are recorded separately from this editorial review.",
+  "journeys": [
+    {
+      "id": "cities-evidence",
+      "chapter": "C1",
+      "role": "chapter route",
+      "estimatedDuration": "25–40 minutes",
+      "observedDuration": null,
+      "sequence": [
+        {
+          "subject": "uruk-accounts",
+          "place": "Southern Mesopotamia; probably Uruk, modern Iraq",
+          "anchor": -3000,
+          "object": "met-327384"
+        },
+        {
+          "subject": "old-kingdom",
+          "place": "Nile Valley; Saqqara as the selected object’s context",
+          "anchor": -2400,
+          "object": "met-543914"
+        },
+        {
+          "subject": "dholavira",
+          "place": "Khadir island, Gujarat, India",
+          "anchor": -2400,
+          "object": "met-324062",
+          "compare": "uruk-accounts"
+        },
+        {
+          "subject": "liangzhu",
+          "place": "Lower Yangtze region near Hangzhou, China",
+          "anchor": -2400,
+          "object": "met-72376"
+        },
+        {
+          "subject": "caral",
+          "place": "Supe Valley, coastal Peru",
+          "anchor": -2400,
+          "compare": "liangzhu"
+        },
+        {
+          "subject": "skara-brae",
+          "place": "Sandwick, Orkney, Scotland",
+          "anchor": -2800
+        }
+      ],
+      "transitionFinding": "Begin by estimating what a single sign or image communicates. The detour from Liangzhu to Caral explicitly invites comparison across oceans, and the backward jump to Skara Brae ends at household scale.",
+      "evidenceFinding": "Grain signs, burials and buildings give a learner different questions to pose. Compare the tablet’s probable reading with what the Indus seal leaves unresolved.",
+      "familyMaterial": "Read a record of grain",
+      "familySources": [
+        {
+          "source": "met-327384",
+          "locator": "Description and Artwork Details"
+        }
+      ],
+      "adultSources": [
+        {
+          "source": "met-327384",
+          "locator": "Description"
+        },
+        {
+          "source": "met-324062",
+          "locator": "Decipherment"
+        },
+        {
+          "source": "liangzhu",
+          "locator": "Differentiated burials"
+        }
+      ],
+      "returnQuestion": "Choose two kinds of evidence. What can each show, and what does each leave difficult to know?"
+    },
+    {
+      "id": "networks-disruption",
+      "chapter": "C2",
+      "role": "chapter route",
+      "estimatedDuration": "25–40 minutes",
+      "observedDuration": null,
+      "sequence": [
+        {
+          "subject": "uluburun",
+          "place": "Off Kaş, eastern Mediterranean coast of Türkiye",
+          "anchor": -1320
+        },
+        {
+          "subject": "hattusha-change",
+          "place": "Central Anatolia, present-day Türkiye",
+          "anchor": -1200,
+          "compare": "uluburun"
+        },
+        {
+          "subject": "kerma-potters",
+          "place": "Upper Nubia; selected beaker found at Abydos in Egypt",
+          "anchor": -1700,
+          "object": "met-545772"
+        },
+        {
+          "subject": "shang-ritual",
+          "place": "Yellow River region; Anyang as a late center",
+          "anchor": -1200,
+          "object": "met-42045"
+        },
+        {
+          "subject": "olmec",
+          "place": "Gulf Coast and connected Mesoamerican regions",
+          "anchor": -1100,
+          "object": "met-314609"
+        },
+        {
+          "subject": "lapita",
+          "place": "Bismarck Archipelago and routes into Remote Oceania",
+          "anchor": -1100
+        }
+      ],
+      "transitionFinding": "The wreck and drought open a causal question in the eastern Mediterranean. The move back to Kerma and sideways to China, Mexico and the Pacific tests where that question stops traveling.",
+      "evidenceFinding": "At Gordion the measured record is tree growth and isotope variation. A causal story about choices at Hattusha needs independent political evidence.",
+      "familyMaterial": "Read a study summary",
+      "familySources": [
+        {
+          "source": "hittite-drought",
+          "locator": "Printed pp. 719–722: Gordion, dating and causation"
+        }
+      ],
+      "adultSources": [
+        {
+          "source": "hittite-drought",
+          "locator": "Discussion and causation limit"
+        },
+        {
+          "source": "hattusha-research",
+          "locator": "Abstract"
+        }
+      ],
+      "returnQuestion": "Explain one connection we can demonstrate, one proposed cause we must qualify, and one distant history that should not be folded into the same story."
+    },
+    {
+      "id": "voices-power",
+      "chapter": "C3",
+      "role": "chapter route",
+      "estimatedDuration": "25–40 minutes",
+      "observedDuration": null,
+      "sequence": [
+        {
+          "subject": "nimrud-palace",
+          "place": "Nimrud, northern Iraq",
+          "anchor": -870,
+          "object": "met-322614"
+        },
+        {
+          "subject": "ashoka-messages",
+          "place": "South Asia; locator at Sarnath, one pillar site",
+          "anchor": -250,
+          "compare": "nimrud-palace"
+        },
+        {
+          "subject": "athens-water",
+          "place": "Athens, Greece",
+          "anchor": -500,
+          "object": "met-247244"
+        },
+        {
+          "subject": "taharqo",
+          "place": "Nuri and the Nile valley; present-day Sudan and Egypt",
+          "anchor": -675,
+          "object": "met-544883"
+        },
+        {
+          "subject": "chavin-textile",
+          "place": "Peru; said to come from the southern coast",
+          "anchor": -300,
+          "object": "met-315784"
+        },
+        {
+          "subject": "qin-administration",
+          "place": "Qin imperial administration; local evidence at Liye, Hunan, China",
+          "anchor": -216
+        },
+        {
+          "subject": "dongson",
+          "place": "Northern Vietnam and wider Southeast Asian circulation",
+          "anchor": -300
+        }
+      ],
+      "transitionFinding": "Royal messages in Nimrud and South Asia precede domestic water work, funerary evidence, a portable textile, administrative records and bronze casting. Geography and the source change together.",
+      "evidenceFinding": "The court’s announcement is evidence of the sender’s claim. Testing effects on ruled people gives the return question an answerable direction.",
+      "familyMaterial": "A palace object in a museum",
+      "familySources": [
+        {
+          "source": "met-322614",
+          "locator": "Description and Artwork Details"
+        },
+        {
+          "source": "assyrian-court",
+          "locator": "Palace arrangement and gallery reconstruction"
+        }
+      ],
+      "adultSources": [
+        {
+          "source": "ashoka",
+          "locator": "Edicts"
+        },
+        {
+          "source": "agora-women",
+          "locator": "Printed pp7–11"
+        },
+        {
+          "source": "met-315784",
+          "locator": "Provenance"
+        }
+      ],
+      "returnQuestion": "Choose a record and name a person whose experience it might leave out."
+    },
+    {
+      "id": "world-200",
+      "chapter": "C4",
+      "role": "chapter route",
+      "estimatedDuration": "25–40 minutes, or one stop at a time",
+      "observedDuration": null,
+      "sequence": [
+        {
+          "subject": "eastern-han",
+          "place": "Luoyang and Han-ruled regions of China",
+          "anchor": 200,
+          "object": "met-49519"
+        },
+        {
+          "subject": "roman-world",
+          "place": "Mediterranean world; Rome as locator",
+          "anchor": 200,
+          "object": "met-251870"
+        },
+        {
+          "subject": "palmyra",
+          "place": "Syrian desert, present-day Syria",
+          "anchor": 200,
+          "object": "met-322375"
+        },
+        {
+          "subject": "kushan-contexts",
+          "place": "Gandhara and adjoining Central/South Asian regions",
+          "anchor": 200,
+          "object": "met-39385"
+        },
+        {
+          "subject": "aksum",
+          "place": "Northern Ethiopia and Eritrea; Red Sea connections",
+          "anchor": 200
+        },
+        {
+          "subject": "moche",
+          "place": "Northern coastal Peru",
+          "anchor": 200,
+          "object": "met-316721"
+        },
+        {
+          "subject": "dongson",
+          "place": "Northern Vietnam and wider Southeast Asian circulation",
+          "anchor": 200,
+          "object": "met-39209"
+        },
+        {
+          "subject": "colima",
+          "place": "Colima, western Mexico",
+          "anchor": 200,
+          "object": "met-317600",
+          "compare": "eastern-han"
+        }
+      ],
+      "transitionFinding": "Each stop holds the atlas year at 200 CE while changing region. The earlier Kanishka coin and later Aksum monuments teach the distinction between the comparison year and an object date.",
+      "evidenceFinding": "The Han tower and Colima model invite comparison of visible forms and possible uses. The Mexican and Chinese cases supply no direct connection between the two objects.",
+      "familyMaterial": "One model, a wider inquiry",
+      "familySources": [
+        {
+          "source": "met-49519",
+          "locator": "Description; Period, Date and Medium"
+        }
+      ],
+      "adultSources": [
+        {
+          "source": "met-49519",
+          "locator": "Description"
+        },
+        {
+          "source": "met-317600",
+          "locator": "Description"
+        },
+        {
+          "source": "models",
+          "locator": "Comparison of architectural effigies"
+        }
+      ],
+      "returnQuestion": "What changed in your picture of the world around 200 CE? Name one supported connection and one comparison that does not imply contact."
+    },
+    {
+      "id": "institutions-images",
+      "chapter": "C5",
+      "role": "chapter route",
+      "estimatedDuration": "30–45 minutes",
+      "observedDuration": null,
+      "sequence": [
+        {
+          "subject": "byzantium",
+          "place": "Constantinople, present-day Istanbul; territories varied",
+          "anchor": 950,
+          "object": "met-464428"
+        },
+        {
+          "subject": "abbasid-craft",
+          "place": "Baghdad and Samarra, Iraq",
+          "anchor": 950,
+          "object": "met-452833"
+        },
+        {
+          "subject": "tang-city",
+          "place": "Chang’an, present-day Xi’an, China",
+          "anchor": 750,
+          "object": "met-44800"
+        },
+        {
+          "subject": "maya-vessel",
+          "place": "Mesoamerica; proposed Tabasco association",
+          "anchor": 750,
+          "object": "met-316711"
+        },
+        {
+          "subject": "borobudur",
+          "place": "Kedu Valley, Central Java, Indonesia",
+          "anchor": 850
+        },
+        {
+          "subject": "nalanda",
+          "place": "Nalanda, Bihar, India",
+          "anchor": 850,
+          "compare": "borobudur"
+        }
+      ],
+      "transitionFinding": "Move between capitals, a vessel, a building and a teaching center. Reversals from 950 to 750 make this a comparison of institutions across time.",
+      "evidenceFinding": "Nalanda contains earlier archaeology and later evidence for a scholastic establishment. Different dates make the final request for change inside a long label possible.",
+      "familyMaterial": "Two dates for different things",
+      "familySources": [
+        {
+          "source": "nalanda",
+          "locator": "Brief synthesis; Authenticity"
+        }
+      ],
+      "adultSources": [
+        {
+          "source": "nalanda",
+          "locator": "Description and Brief synthesis"
+        }
+      ],
+      "returnQuestion": "Choose a long historical label and explain one important change inside it."
+    },
+    {
+      "id": "knowledge-networks",
+      "chapter": "C6",
+      "role": "chapter route",
+      "estimatedDuration": "30–45 minutes",
+      "observedDuration": null,
+      "sequence": [
+        {
+          "subject": "mali-networks",
+          "place": "Western Sahel; locator at Timbuktu, Mali",
+          "anchor": 1324
+        },
+        {
+          "subject": "middle-niger",
+          "place": "Inland Niger Delta, present-day Mali",
+          "anchor": 1250,
+          "object": "met-314362"
+        },
+        {
+          "subject": "angkor",
+          "place": "Siem Reap region, Cambodia",
+          "anchor": 1200
+        },
+        {
+          "subject": "song-art",
+          "place": "China; Northern capital at Kaifeng, later southern court",
+          "anchor": 1100,
+          "object": "met-42455"
+        },
+        {
+          "subject": "inca-weaving",
+          "place": "Peru; highland technique and coastal comparisons",
+          "anchor": 1475,
+          "object": "met-313152"
+        },
+        {
+          "subject": "polynesian-voyaging",
+          "place": "East Polynesia and Aotearoa New Zealand",
+          "anchor": 1280
+        }
+      ],
+      "transitionFinding": "Move from Mali to the Middle Niger, Angkor and Song, then to Andean cloth and Pacific wayfinding. The geographic jumps require a fresh claim about connection at each stop.",
+      "evidenceFinding": "The tunic’s construction can support comparison. An individual itinerary requires a different source. The return asks which relationship the learner can actually demonstrate.",
+      "familyMaterial": "Compare features without inventing a route",
+      "familySources": [
+        {
+          "source": "met-313152",
+          "locator": "Description and artwork details"
+        }
+      ],
+      "adultSources": [
+        {
+          "source": "met-313152",
+          "locator": "Description"
+        },
+        {
+          "source": "navigation",
+          "locator": "Ocean voyaging"
+        }
+      ],
+      "returnQuestion": "Explain one demonstrated connection and one connection that remains a question."
+    },
+    {
+      "id": "ocean-connections",
+      "chapter": "C7",
+      "role": "chapter route",
+      "estimatedDuration": "30–45 minutes, or one encounter at a time",
+      "observedDuration": null,
+      "sequence": [
+        {
+          "subject": "portuguese-voyage",
+          "place": "Lisbon, Cape route and Calicut (Kozhikode)",
+          "anchor": 1498
+        },
+        {
+          "subject": "benin-ivory",
+          "place": "Court of Benin(?), present-day Nigeria",
+          "anchor": 1550,
+          "object": "met-309900"
+        },
+        {
+          "subject": "kongo-translation",
+          "place": "Mbanza Kongo and surrounding Central African regions",
+          "anchor": 1600,
+          "object": "met-318323"
+        },
+        {
+          "subject": "mughal-books",
+          "place": "Mughal courts at Fatehpur Sikri and Lahore",
+          "anchor": 1595,
+          "object": "met-448183"
+        },
+        {
+          "subject": "ming-workshops",
+          "place": "China; Jingdezhen ceramic production",
+          "anchor": 1550,
+          "object": "met-42549",
+          "compare": "benin-ivory"
+        },
+        {
+          "subject": "manila-network",
+          "place": "Acapulco, Manila and Chinese production centers",
+          "anchor": 1600
+        },
+        {
+          "subject": "banda-1621",
+          "place": "Banda Islands, present-day Indonesia",
+          "anchor": 1621
+        }
+      ],
+      "transitionFinding": "Port negotiations lead into patronage and religious interpretation, then books, kilns and two colonial trading systems. The sequence groups encounters by mechanism even as some object dates overlap.",
+      "evidenceFinding": "Coen’s account describes company action in Banda from a company official’s perspective. Use other voices to test effects on Bandanese people.",
+      "familyMaterial": "Read a company official’s report",
+      "familySources": [
+        {
+          "source": "banda-archive",
+          "locator": "Coen letter; VOC 1.04.02, inventory 1073"
+        }
+      ],
+      "adultSources": [
+        {
+          "source": "banda-archive",
+          "locator": "Coen letter and contextual discussion"
+        }
+      ],
+      "returnQuestion": "Choose two ocean connections. How did their mechanisms, power relationships and surviving evidence differ?"
+    },
+    {
+      "id": "machines-work",
+      "chapter": "C8",
+      "role": "chapter route",
+      "estimatedDuration": "25–35 minutes",
+      "observedDuration": null,
+      "sequence": [
+        {
+          "subject": "haitian-revolution",
+          "place": "Saint-Domingue/Haiti, Caribbean",
+          "anchor": 1804
+        },
+        {
+          "subject": "factory-reform",
+          "place": "British textile factories; locator near Manchester",
+          "anchor": 1836
+        },
+        {
+          "subject": "tomioka",
+          "place": "Gunma Prefecture, Japan",
+          "anchor": 1872
+        },
+        {
+          "subject": "hine-labor",
+          "place": "Newberry, South Carolina, United States",
+          "anchor": 1908,
+          "object": "loc-hine",
+          "compare": "factory-reform"
+        }
+      ],
+      "transitionFinding": "Proceed from Haitian independence through the factory investigation and Tomioka to Hine’s photograph. At each stop distinguish changes in production from power over the worker.",
+      "evidenceFinding": "The image depicts a setting. The caption attributes the overseer’s reported words to Hine’s account. A claim about lasting protection needs follow-up evidence.",
+      "familyMaterial": "A photograph and a caption",
+      "familySources": [
+        {
+          "source": "hine",
+          "locator": "Photograph LC-DIG-nclc-01451; caption card, Hine 358"
+        }
+      ],
+      "adultSources": [
+        {
+          "source": "hine",
+          "locator": "Photograph and caption"
+        }
+      ],
+      "returnQuestion": "Name one change in production and one separate question about power over work."
+    },
+    {
+      "id": "promises-rights",
+      "chapter": "C8",
+      "role": "additional investigation",
+      "estimatedDuration": "25–40 minutes",
+      "observedDuration": null,
+      "sequence": [
+        {
+          "subject": "tiriti",
+          "place": "Waitangi and signing places across Aotearoa New Zealand",
+          "anchor": 1840
+        },
+        {
+          "subject": "partition-1947",
+          "place": "British India, especially Punjab and Bengal",
+          "anchor": 1947
+        },
+        {
+          "subject": "south-africa-rights",
+          "place": "South Africa; Sharpeville signing context",
+          "anchor": 1996,
+          "compare": "tiriti"
+        }
+      ],
+      "transitionFinding": "Move forward from te Tiriti to Partition and the South African constitution. They are different kinds of political instruments whose effects require distinct local evidence.",
+      "evidenceFinding": "Read the selected right as a commitment. A learner can name people affected and specify the record or experience that would help test implementation.",
+      "familyMaterial": "Read a commitment — editorial paraphrase",
+      "familySources": [
+        {
+          "source": "sa-rights",
+          "locator": "Sections 9 and 19"
+        }
+      ],
+      "adultSources": [
+        {
+          "source": "sa-rights",
+          "locator": "Section 7"
+        },
+        {
+          "source": "treaty-signing",
+          "locator": "Signing process"
+        }
+      ],
+      "returnQuestion": "Choose a promise and explain whose experience would help test it."
+    },
+    {
+      "id": "war-signals",
+      "chapter": "C8",
+      "role": "additional investigation",
+      "estimatedDuration": "25–40 minutes",
+      "observedDuration": null,
+      "sequence": [
+        {
+          "subject": "world-war-one",
+          "place": "European crisis with global imperial fronts and labor",
+          "anchor": 1917,
+          "object": "loc-war-poster"
+        },
+        {
+          "subject": "world-war-two",
+          "place": "Europe, Asia and wider war zones; locator at Berlin",
+          "anchor": 1942
+        },
+        {
+          "subject": "sputnik",
+          "place": "Launched from Soviet Central Asia, present-day Kazakhstan",
+          "anchor": 1957
+        }
+      ],
+      "transitionFinding": "Move from a wartime recruiting poster through the regional chronologies of the Second World War to reporting about Sputnik. The three sources serve different purposes.",
+      "evidenceFinding": "The supported answer distinguishes war in Asia, war in Europe and the Holocaust’s chronology. The family exercise uses the dates already supplied.",
+      "familyMaterial": "Read the dates separately",
+      "familySources": [
+        {
+          "source": "ww2",
+          "locator": "German and Japanese Expansion; Invasion of Poland"
+        },
+        {
+          "source": "holocaust",
+          "locator": "Definition and chronology"
+        }
+      ],
+      "adultSources": [
+        {
+          "source": "ww2",
+          "locator": "German and Japanese Expansion"
+        },
+        {
+          "source": "holocaust",
+          "locator": "Chronology"
+        }
+      ],
+      "returnQuestion": "What does a public image encourage you to see, and what evidence would broaden that view?"
+    },
+    {
+      "id": "north-american-communities",
+      "chapter": "C6",
+      "role": "additional investigation",
+      "estimatedDuration": "25–40 minutes",
+      "observedDuration": null,
+      "sequence": [
+        {
+          "subject": "poverty-point",
+          "place": "Macon Ridge, northeastern Louisiana, United States",
+          "anchor": -1500,
+          "object": "pp-cooking-objects"
+        },
+        {
+          "subject": "hopewell-earthworks",
+          "place": "Ohio River tributaries; locator at Mound City Group, Ohio, United States",
+          "anchor": 200,
+          "object": "hopewell-restored-mound"
+        },
+        {
+          "subject": "chaco-communities",
+          "place": "Chaco Canyon, San Juan Basin, New Mexico, United States",
+          "anchor": 1100,
+          "object": "chaco-corner-door"
+        },
+        {
+          "subject": "cahokia-city",
+          "place": "Mississippi River floodplain near present-day Collinsville, Illinois, United States",
+          "anchor": 1150,
+          "object": "cahokia-view-1907",
+          "compare": "chaco-communities"
+        }
+      ],
+      "transitionFinding": "The sequence moves through four distinct landscapes in chronological order, from Poverty Point to Cahokia. Changing scale from an object to an entire community requires independent evidence.",
+      "evidenceFinding": "The cacao result applies to a small set of fragments from Pueblo Bonito. Compare the architecture photograph with the chemical report before making an argument about consumption.",
+      "familyMaterial": "A building photograph and a separate study",
+      "familySources": [
+        {
+          "source": "chaco-cacao",
+          "locator": "Sample selection and results, pp. 2110–2112"
+        }
+      ],
+      "adultSources": [
+        {
+          "source": "chaco-cacao",
+          "locator": "Sample selection and results, pp. 2110–2112"
+        },
+        {
+          "source": "chaco-pueblo-council",
+          "locator": "Page 1, continuing significance"
+        },
+        {
+          "source": "cahokia-critique",
+          "locator": "Abstract"
+        }
+      ],
+      "returnQuestion": "Choose one object or landscape. State an observation, a supported explanation and one thing it cannot tell you."
+    },
+    {
+      "id": "west-central-workshops",
+      "chapter": "C7",
+      "role": "additional investigation",
+      "estimatedDuration": "25–40 minutes",
+      "observedDuration": null,
+      "sequence": [
+        {
+          "subject": "bukhara-books",
+          "place": "Bukhara, present-day Uzbekistan",
+          "anchor": 1530,
+          "object": "met-452671"
+        },
+        {
+          "subject": "ottoman-workshops",
+          "place": "Istanbul and Iznik, present-day Türkiye; locator at Istanbul",
+          "anchor": 1580,
+          "object": "met-451490"
+        },
+        {
+          "subject": "isfahan-silk",
+          "place": "Isfahan and New Julfa, Iran",
+          "anchor": 1630,
+          "object": "met-451028",
+          "compare": "ottoman-workshops"
+        },
+        {
+          "subject": "zand-iran",
+          "place": "Shiraz and western Iran; object attributed only to Iran",
+          "anchor": 1789,
+          "object": "met-681122",
+          "compare": "isfahan-silk"
+        }
+      ],
+      "transitionFinding": "Compare distinct centers for copying and painting, İznik ceramics, New Julfa’s trading community and a later lacquer case. The proposed movement of one manuscript differs from forced population movement.",
+      "evidenceFinding": "The silk evidence permits a discussion of work and trade. The 1604 deportation prevents later commercial prominence from being read back as consent.",
+      "familyMaterial": "Craft and movement need different evidence",
+      "familySources": [
+        {
+          "source": "julfa-forced",
+          "locator": "Origin, settlement and population, 1604–1605"
+        },
+        {
+          "source": "met-451028",
+          "locator": "Description and production centers"
+        }
+      ],
+      "adultSources": [
+        {
+          "source": "safavid-silk",
+          "locator": "Workshop organization and skilled production"
+        },
+        {
+          "source": "julfa-forced",
+          "locator": "1604 deportation and 1605 settlement"
+        },
+        {
+          "source": "met-451028",
+          "locator": "Description: misattribution and centers"
+        }
+      ],
+      "returnQuestion": "Choose one luxury object and explain a chain of work around it. Identify one person or experience the object alone cannot recover."
+    },
+    {
+      "id": "northern-knowledge",
+      "chapter": "C8",
+      "role": "additional investigation",
+      "estimatedDuration": "35–50 minutes",
+      "observedDuration": null,
+      "sequence": [
+        {
+          "subject": "bering-sea-carvers",
+          "place": "Bering Strait region; object catalogued to Alaska",
+          "anchor": 400,
+          "object": "met-717577"
+        },
+        {
+          "subject": "ozette-makah",
+          "place": "Ozette, near Cape Alava, Olympic Peninsula, Washington",
+          "anchor": 1700,
+          "object": "makah-loc-1910"
+        },
+        {
+          "subject": "blackfoot-bison",
+          "place": "Head-Smashed-In, southern Alberta; wider Blackfoot cultural context",
+          "anchor": 1750,
+          "object": "hsi-cliff-2005"
+        },
+        {
+          "subject": "hidatsa-villages",
+          "place": "Big Hidatsa Village and the Knife–Missouri river confluence, North Dakota",
+          "anchor": 1780,
+          "object": "knife-earthlodge",
+          "compare": "ozette-makah"
+        },
+        {
+          "subject": "inuinnait-sewing",
+          "place": "Coronation Gulf and Victoria Island region, Canadian Arctic",
+          "anchor": 1915,
+          "object": "inuinnait-plate-1922"
+        },
+        {
+          "subject": "kwakwakawakw-potlatch",
+          "place": "Northern Vancouver Island and adjacent mainland; locator at Alert Bay",
+          "anchor": 1980,
+          "object": "hunt-title-1921",
+          "compare": "inuinnait-sewing"
+        }
+      ],
+      "transitionFinding": "Move across distinct communities and much later sources, from Bering Sea carving to a twentieth-century institutional milestone. The Ozette stop explicitly warns that its burial date is disputed.",
+      "evidenceFinding": "Hidatsa gardening and Makah cedar work allow a comparison of practical needs. Community accounts and selected material remains support different parts of that comparison.",
+      "familyMaterial": "Keep community accounts distinct",
+      "familySources": [
+        {
+          "source": "knife-subsistence",
+          "locator": "Women’s Influence; Food Storage"
+        },
+        {
+          "source": "makah-canoes",
+          "locator": "Makah Canoe Construction"
+        }
+      ],
+      "adultSources": [
+        {
+          "source": "knife-subsistence",
+          "locator": "Women’s Influence and Food Storage"
+        },
+        {
+          "source": "makah-canoes",
+          "locator": "Makah Canoe Construction"
+        },
+        {
+          "source": "umista-history",
+          "locator": "Continued practice and return efforts"
+        }
+      ],
+      "returnQuestion": "Choose one northern object or landscape. Keep one observation, one supported explanation and one question that requires another kind of evidence."
+    },
+    {
+      "id": "eastern-woodlands",
+      "chapter": "C8",
+      "role": "additional investigation",
+      "estimatedDuration": "35–50 minutes",
+      "observedDuration": null,
+      "sequence": [
+        {
+          "subject": "ocmulgee-council",
+          "place": "Ocmulgee, beside the Ocmulgee River, present-day Macon, Georgia",
+          "anchor": 1200,
+          "object": "ocmulgee-floor"
+        },
+        {
+          "subject": "hopewell-earthworks",
+          "place": "Ohio River tributaries; locator at Mound City Group, Ohio, United States",
+          "anchor": 200
+        },
+        {
+          "subject": "wendat-laine",
+          "place": "Jean-Baptiste Lainé site, Whitchurch-Stouffville, Ontario",
+          "anchor": 1600,
+          "object": "laine-radiocarbon-2022",
+          "compare": "ocmulgee-council"
+        },
+        {
+          "subject": "haudenosaunee-canandaigua",
+          "place": "Canandaigua, present-day New York; six distinct Haudenosaunee nations",
+          "anchor": 1794,
+          "object": "canandaigua-ratification"
+        },
+        {
+          "subject": "cherokee-print",
+          "place": "New Echota and southeastern Cherokee homelands; forced removal to Indian Territory",
+          "anchor": 1828,
+          "object": "phoenix-april-1828",
+          "compare": "haudenosaunee-canandaigua"
+        },
+        {
+          "subject": "ojibwe-manoomin",
+          "place": "Great Lakes rice waters; archival photograph probably Ontario",
+          "anchor": 1913,
+          "object": "rice-linde-1913"
+        }
+      ],
+      "transitionFinding": "The jump backward from Ocmulgee to Ohio is deliberate. The later sequence moves from a Wendat village into treaty, newspaper and harvesting records from different communities.",
+      "evidenceFinding": "A written promise or editorial claim can be read closely. The family can identify a second source needed to show implementation and lived effects.",
+      "familyMaterial": "A written commitment needs an outcome inquiry",
+      "familySources": [
+        {
+          "source": "canandaigua-archive",
+          "locator": "NAID 12013172: contents and recto"
+        },
+        {
+          "source": "canandaigua-onondaga",
+          "locator": "Articles I–III and VII"
+        }
+      ],
+      "adultSources": [
+        {
+          "source": "canandaigua-onondaga",
+          "locator": "Articles I–III and VII"
+        },
+        {
+          "source": "phoenix-constitution",
+          "locator": "Articles I–III, especially III §§4 and 7"
+        },
+        {
+          "source": "ocmu-chronology",
+          "locator": "Earthlodge results and discussion"
+        },
+        {
+          "source": "rice-goodberry",
+          "locator": "Harvesting and Processing, PDF pp.5–6"
+        }
+      ],
+      "returnQuestion": "Keep an observation, a supported explanation and a question. Revisit this place or record with another type of source."
+    },
+    {
+      "id": "independence-citizenship",
+      "chapter": "C8",
+      "role": "additional investigation",
+      "estimatedDuration": "35–50 minutes",
+      "observedDuration": null,
+      "sequence": [
+        {
+          "subject": "indonesia-independence",
+          "place": "Indonesian archipelago; proclamation at Jakarta",
+          "anchor": 1945,
+          "object": "indonesia-proclamation",
+          "compare": "ghana-independence"
+        },
+        {
+          "subject": "partition-1947",
+          "place": "British India, especially Punjab and Bengal",
+          "anchor": 1947
+        },
+        {
+          "subject": "ghana-independence",
+          "place": "Gold Coast and independent Ghana; Accra",
+          "anchor": 1957,
+          "object": "ghana-independence-stamp",
+          "compare": "indonesia-independence"
+        },
+        {
+          "subject": "south-africa-rights",
+          "place": "South Africa; Sharpeville signing context",
+          "anchor": 1996,
+          "object": "mandela-voting",
+          "compare": "ghana-independence"
+        }
+      ],
+      "transitionFinding": "Four later-twentieth-century milestones run forward. The stops distinguish Indonesian proclamation and recognition, Partition’s boundary announcement, transfer of power in Ghana and South African constitutional commitments.",
+      "evidenceFinding": "A declaration, altered stamp and voting photograph establish different kinds of event. The return makes the learner identify the power that actually changed.",
+      "familyMaterial": "A declaration and a separate outcome",
+      "familySources": [
+        {
+          "source": "indonesia-proclamation-archive",
+          "locator": "Printed p. 7: proclamation draft and context"
+        },
+        {
+          "source": "indonesia-proclamation-image",
+          "locator": "Typed facsimile and description"
+        }
+      ],
+      "adultSources": [
+        {
+          "source": "indonesia-transfer",
+          "locator": "1945 and 1949 milestones"
+        },
+        {
+          "source": "ghana-debate-1957",
+          "locator": "Columns 23–26"
+        },
+        {
+          "source": "sa-rights",
+          "locator": "Sections 7, 19, 26–29"
+        }
+      ],
+      "returnQuestion": "Choose two cases. Name the power that changed, the evidence for that change and one outcome that needs more investigation."
+    },
+    {
+      "id": "cities-work-water",
+      "chapter": "C1",
+      "role": "additional investigation",
+      "estimatedDuration": "About 20–30 minutes",
+      "observedDuration": null,
+      "sequence": [
+        {
+          "subject": "uruk-accounts",
+          "place": "Southern Mesopotamia; probably Uruk, modern Iraq",
+          "anchor": -3000,
+          "object": "met-327384",
+          "compare": "dholavira"
+        },
+        {
+          "subject": "dholavira",
+          "place": "Khadir island, Gujarat, India",
+          "anchor": -2400,
+          "object": "dholavira-water-diagram",
+          "compare": "liangzhu"
+        },
+        {
+          "subject": "liangzhu",
+          "place": "Lower Yangtze region near Hangzhou, China",
+          "anchor": -2800,
+          "object": "liangzhu-water-diagram",
+          "compare": "uruk-accounts"
+        }
+      ],
+      "transitionFinding": "Move from accounting to water systems in Dholavira and Liangzhu; the last stop moves back in time. Coordination is the shared question, with independent evidence at each place.",
+      "evidenceFinding": "The family can point to selected items in a grain record. Waterworks support a different argument from one household’s daily obligations.",
+      "familyMaterial": "Grain and the work of recording",
+      "familySources": [
+        {
+          "source": "met-327384",
+          "locator": "Description and Artwork Details"
+        }
+      ],
+      "adultSources": [
+        {
+          "source": "met-327384",
+          "locator": "Qualified account reading"
+        },
+        {
+          "source": "dholavira-gpr",
+          "locator": "Printed p. 886, excavation requirement"
+        },
+        {
+          "source": "liangzhu",
+          "locator": "Burial differentiation and regional state"
+        }
+      ],
+      "returnQuestion": "Choose two cases. For each, name the practical task, the evidence for organization and one household-level question the source cannot answer."
+    },
+    {
+      "id": "institutions-shipment-ritual",
+      "chapter": "C2",
+      "role": "additional investigation",
+      "estimatedDuration": "About 20–30 minutes",
+      "observedDuration": null,
+      "sequence": [
+        {
+          "subject": "uluburun",
+          "place": "Off Kaş, eastern Mediterranean coast of Türkiye",
+          "anchor": -1320,
+          "compare": "hattusha-change"
+        },
+        {
+          "subject": "hattusha-change",
+          "place": "Central Anatolia, present-day Türkiye",
+          "anchor": -1200,
+          "compare": "uluburun"
+        },
+        {
+          "subject": "shang-ritual",
+          "place": "Yellow River region; Anyang as a late center",
+          "anchor": -1200,
+          "object": "met-44781",
+          "compare": "uluburun"
+        }
+      ],
+      "transitionFinding": "Begin with excavated cargo, then test a proxy-climate inference and finally inspect a bronze. Neither contemporaneity nor one record type obliges all the objects to share an institutional history.",
+      "evidenceFinding": "Cargo shows association, trees measure environmental conditions and casting leaves physical traces. A worker’s name or a ship’s entire itinerary needs separate proof.",
+      "familyMaterial": "Visible features, qualified attribution",
+      "familySources": [
+        {
+          "source": "met-44781",
+          "locator": "Description and Artwork Details; qualified place attribution"
+        }
+      ],
+      "adultSources": [
+        {
+          "source": "uluburun",
+          "locator": "Wreck date and association"
+        },
+        {
+          "source": "hittite-drought",
+          "locator": "Printed pp. 721–722, causation limit"
+        },
+        {
+          "source": "met-44781",
+          "locator": "Qualified Culture field"
+        }
+      ],
+      "returnQuestion": "Choose two cases. Name what is observed or recovered, what is inferred about organization, and one new source that could test the inference."
+    },
+    {
+      "id": "rules-messages-public-work",
+      "chapter": "C3",
+      "role": "additional investigation",
+      "estimatedDuration": "About 20–30 minutes",
+      "observedDuration": null,
+      "sequence": [
+        {
+          "subject": "qin-administration",
+          "place": "Qin imperial administration; local evidence at Liye, Hunan, China",
+          "anchor": -216,
+          "compare": "ashoka-messages"
+        },
+        {
+          "subject": "ashoka-messages",
+          "place": "South Asia; locator at Sarnath, one pillar site",
+          "anchor": -250,
+          "compare": "qin-administration"
+        },
+        {
+          "subject": "athens-water",
+          "place": "Athens, Greece",
+          "anchor": -430,
+          "object": "met-247244",
+          "compare": "qin-administration"
+        }
+      ],
+      "transitionFinding": "The stops move backward from Qin administration through Ashoka’s public messages to an Athenian water scene. The comparison concerns rules and the work needed to put them into practice.",
+      "evidenceFinding": "A pictured task does not settle political eligibility. Dated local administrative records can test how a formal standard was applied.",
+      "familyMaterial": "A pictured task is not a census",
+      "familySources": [
+        {
+          "source": "met-247244",
+          "locator": "Description and Artwork Details"
+        }
+      ],
+      "adultSources": [
+        {
+          "source": "qin-practice",
+          "locator": "Printed pp. 169–170"
+        },
+        {
+          "source": "ashoka-edicts-1925",
+          "locator": "Dhauli Separate I"
+        },
+        {
+          "source": "athens-constitution",
+          "locator": "Parts 42–43"
+        }
+      ],
+      "returnQuestion": "Choose two cases. Explain who had to do something for a rule to work, and name one source that could test what happened."
+    },
+    {
+      "id": "objects-work-exchange",
+      "chapter": "C4",
+      "role": "additional investigation",
+      "estimatedDuration": "About 20–30 minutes",
+      "observedDuration": null,
+      "sequence": [
+        {
+          "subject": "palmyra",
+          "place": "Syrian desert, present-day Syria",
+          "anchor": 200,
+          "object": "met-322375"
+        },
+        {
+          "subject": "kushan-contexts",
+          "place": "Gandhara and adjoining Central/South Asian regions",
+          "anchor": 159,
+          "object": "met-39385"
+        },
+        {
+          "subject": "aksum",
+          "place": "Northern Ethiopia and Eritrea; Red Sea connections",
+          "anchor": 600,
+          "object": "beta-samati-coins",
+          "compare": "kushan-contexts"
+        }
+      ],
+      "transitionFinding": "Begin at a Palmyrene family memorial, move back to a dated inscription and coin context, then ahead to Aksum. The move between commercial places raises a question about relationships.",
+      "evidenceFinding": "The Palmyrene inscription identifies family members. Establishing a caravan investment requires a record connecting those particular people to that particular venture.",
+      "familyMaterial": "Named people, a separate trade question",
+      "familySources": [
+        {
+          "source": "met-322375",
+          "locator": "Description: family inscription and burial marker"
+        }
+      ],
+      "adultSources": [
+        {
+          "source": "met-322375",
+          "locator": "Family inscription and burial marker"
+        },
+        {
+          "source": "palmyra-getty",
+          "locator": "Trade: caravan inscriptions and trading communities"
+        }
+      ],
+      "returnQuestion": "Choose two records. Explain the work or relationship each makes visible, then name evidence needed before drawing a route between their places."
+    },
+    {
+      "id": "spaces-skills-learning",
+      "chapter": "C5",
+      "role": "additional investigation",
+      "estimatedDuration": "About 20–30 minutes",
+      "observedDuration": null,
+      "sequence": [
+        {
+          "subject": "tang-city",
+          "place": "Chang’an, present-day Xi’an, China",
+          "anchor": 700,
+          "object": "tang-access-diagram"
+        },
+        {
+          "subject": "abbasid-craft",
+          "place": "Baghdad and Samarra, Iraq",
+          "anchor": 950,
+          "object": "met-452833",
+          "compare": "tang-city"
+        },
+        {
+          "subject": "nalanda",
+          "place": "Nalanda, Bihar, India",
+          "anchor": 680,
+          "object": "nalanda-brick-photo",
+          "compare": "abbasid-craft"
+        }
+      ],
+      "transitionFinding": "The gate diagram frames access at Chang’an; the Abbasid bowl changes the question to making, and Nalanda to sustaining study. These overlapping periods do not describe one institution’s development.",
+      "evidenceFinding": "A dated gate rule and evidence about actual entry test the imagined errand. The family can distinguish its modern diagram from observations of a resident’s trip.",
+      "familyMaterial": "A modern guide to a practical constraint",
+      "familySources": [
+        {
+          "source": "tang-wards",
+          "locator": "Walled wards, gates, curfew and reconstruction limits"
+        }
+      ],
+      "adultSources": [
+        {
+          "source": "tang-wards",
+          "locator": "Gates, curfew and reconstruction limits"
+        },
+        {
+          "source": "met-44800",
+          "locator": "Classification"
+        }
+      ],
+      "returnQuestion": "Choose one institution. Explain a practical task and who helped perform it, then name evidence needed before claiming everyone had the same access."
+    },
+    {
+      "id": "work-obligation-voices",
+      "chapter": "C6",
+      "role": "additional investigation",
+      "estimatedDuration": "About 20–30 minutes",
+      "observedDuration": null,
+      "sequence": [
+        {
+          "subject": "song-art",
+          "place": "China; Northern capital at Kaifeng, later southern court",
+          "anchor": 1069,
+          "object": "song-loan-diagram"
+        },
+        {
+          "subject": "mali-networks",
+          "place": "Western Sahel; locator at Timbuktu, Mali",
+          "anchor": 1375,
+          "object": "catalan-musa-detail",
+          "compare": "song-art"
+        },
+        {
+          "subject": "inca-weaving",
+          "place": "Peru; highland technique and coastal comparisons",
+          "anchor": 1500,
+          "object": "met-313152",
+          "compare": "mali-networks"
+        }
+      ],
+      "transitionFinding": "Move forward from the Song memorial to the ruler on the Catalan Atlas and the Andean tunic. At each transition identify whose priorities the evidence reveals.",
+      "evidenceFinding": "Specify a household, local borrowing and repayment evidence before judging its experience of the proposed loan. The family can trace the proposal from reserves to tax collection.",
+      "familyMaterial": "Read a proposal before claiming a result",
+      "familySources": [
+        {
+          "source": "song-crop-loans",
+          "locator": "Longer selection: provision and repayment"
+        }
+      ],
+      "adultSources": [
+        {
+          "source": "song-crop-loans",
+          "locator": "Longer selection"
+        },
+        {
+          "source": "catalan-block",
+          "locator": "Object 26"
+        }
+      ],
+      "returnQuestion": "Choose one case. Explain a practical task, name the voice describing it, and identify evidence needed before saying the arrangement benefited its workers."
+    },
+    {
+      "id": "makers-interpreters-encounters",
+      "chapter": "C7",
+      "role": "additional investigation",
+      "estimatedDuration": "About 20–30 minutes",
+      "observedDuration": null,
+      "sequence": [
+        {
+          "subject": "portuguese-voyage",
+          "place": "Lisbon, Cape route and Calicut (Kozhikode)",
+          "anchor": 1498,
+          "object": "voyage-mediation-diagram"
+        },
+        {
+          "subject": "benin-ivory",
+          "place": "Court of Benin(?), present-day Nigeria",
+          "anchor": 1550,
+          "object": "met-309900",
+          "compare": "portuguese-voyage"
+        },
+        {
+          "subject": "kongo-translation",
+          "place": "Mbanza Kongo and surrounding Central African regions",
+          "anchor": 1624,
+          "object": "met-318323",
+          "compare": "portuguese-voyage"
+        }
+      ],
+      "transitionFinding": "Pass from Malindi and Calicut to Benin and Kongo. The voyage provides a pilot and interpreter; African workshops and royal correspondence supply different roles and voices.",
+      "evidenceFinding": "The journal and its diagram show why pilotage and interpretation mattered. They leave workers’ choices for a separate inquiry.",
+      "familyMaterial": "Read the tasks in a narrative",
+      "familySources": [
+        {
+          "source": "gama-journal-1898",
+          "locator": "Selected English edition, printed pp. 39–57"
+        }
+      ],
+      "adultSources": [
+        {
+          "source": "gama-journal-1898",
+          "locator": "Printed pp. 39–57"
+        }
+      ],
+      "returnQuestion": "Choose a task, identify the source that reveals it, and explain what further evidence would help establish the worker’s choices."
+    },
+    {
+      "id": "homes-provision-renewal",
+      "chapter": "C1",
+      "role": "additional investigation",
+      "estimatedDuration": "30–40 minutes",
+      "observedDuration": null,
+      "sequence": [
+        {
+          "subject": "old-kingdom",
+          "place": "Nile Valley; Saqqara as the selected object’s context",
+          "anchor": -2450,
+          "object": "giza-provisioning-diagram"
+        },
+        {
+          "subject": "caral",
+          "place": "Supe Valley, coastal Peru",
+          "anchor": -2400,
+          "object": "caral-renewal-diagram",
+          "compare": "old-kingdom"
+        },
+        {
+          "subject": "skara-brae",
+          "place": "Sandwick, Orkney, Scotland",
+          "anchor": -2800,
+          "object": "skara-household-guide",
+          "compare": "caral"
+        }
+      ],
+      "transitionFinding": "Compare provision at Giza, rebuilding at Caral and practical work inside a Scottish dwelling. The last stop moves to an earlier context to return to household work.",
+      "evidenceFinding": "A phased house or reused room can reveal repeated work. The final answer must identify a specific task and the record that supports it.",
+      "familyMaterial": "A practical task in a changing room",
+      "familySources": [
+        {
+          "source": "skara-significance-2024",
+          "locator": "Printed pp.67–69 / PDF 69–71: House 1"
+        }
+      ],
+      "adultSources": [
+        {
+          "source": "giza-provisioning",
+          "locator": "Excavated bakeries and modern experiment"
+        },
+        {
+          "source": "caral-project-2005",
+          "locator": "Printed pp.19 and41 / PDF 21 and43: fill and renewal"
+        },
+        {
+          "source": "skara-significance-2024",
+          "locator": "Printed pp.67–69: House 1 features and rebuilding"
+        }
+      ],
+      "returnQuestion": "Choose one task. Explain who or what had to contribute, cite the record that supports it, and name one question needing further evidence."
+    },
+    {
+      "id": "clay-work-local-histories",
+      "chapter": "C2",
+      "role": "additional investigation",
+      "estimatedDuration": "30–40 minutes",
+      "observedDuration": null,
+      "sequence": [
+        {
+          "subject": "poverty-point",
+          "place": "Macon Ridge, northeastern Louisiana, United States",
+          "anchor": -1400,
+          "object": "pp-cooking-objects"
+        },
+        {
+          "subject": "olmec",
+          "place": "Gulf Coast and connected Mesoamerican regions",
+          "anchor": -1000,
+          "object": "met-314609",
+          "compare": "poverty-point"
+        },
+        {
+          "subject": "lapita",
+          "place": "Bismarck Archipelago and routes into Remote Oceania",
+          "anchor": -900,
+          "object": "lapita-stamp-guide",
+          "compare": "poverty-point"
+        }
+      ],
+      "transitionFinding": "Poverty Point heating objects, a small Olmec figure and Lapita stamping connect through work with clay. The chronological movement gives no archaeological chain of transmission between these regions.",
+      "evidenceFinding": "Mineral comparison against possible source clays and secure dating would test a proposed transfer. The pattern task illustrates a manufacturing operation.",
+      "familyMaterial": "Small actions make a larger pattern",
+      "familySources": [
+        {
+          "source": "lapita",
+          "locator": "Ceramic technique and proposed vessel uses"
+        }
+      ],
+      "adultSources": [
+        {
+          "source": "lapita-rove-temper",
+          "locator": "Published abstract: local and nonlocal temper"
+        },
+        {
+          "source": "lapita-nukuleka-uth",
+          "locator": "Sample Context; Results"
+        },
+        {
+          "source": "lapita-teouma-diet",
+          "locator": "Isotope reconstruction and Conclusions"
+        },
+        {
+          "source": "met-314215-cast",
+          "locator": "Date; Medium; catalogue details"
+        }
+      ],
+      "returnQuestion": "Choose one practical task and one proposed connection. Name the evidence that supports each, then choose a further test that would answer the remaining question."
+    },
+    {
+      "id": "makers-supplies-royal-claims",
+      "chapter": "C3",
+      "role": "additional investigation",
+      "estimatedDuration": "20–30 minutes",
+      "observedDuration": null,
+      "sequence": [
+        {
+          "subject": "kerma-potters",
+          "place": "Upper Nubia; selected beaker found at Abydos in Egypt",
+          "anchor": -1800,
+          "object": "kerma-making-guide"
+        },
+        {
+          "subject": "nimrud-palace",
+          "place": "Nimrud, northern Iraq",
+          "anchor": -870,
+          "object": "institution-evidence-guide"
+        },
+        {
+          "subject": "taharqo",
+          "place": "Nuri and the Nile valley; present-day Sudan and Egypt",
+          "anchor": -675,
+          "object": "met-544883"
+        }
+      ],
+      "transitionFinding": "Move through Kerma pottery, rooms and provision at Nimrud, and Taharqo’s royal representation. Technical and administrative evidence address different parts of organized work.",
+      "evidenceFinding": "The order provides evidence for a request. A delivery or recipient record would test whether people carried it out.",
+      "familyMaterial": "An order needs checking",
+      "familySources": [
+        {
+          "source": "nimrud-captives-letter",
+          "locator": "Online translation: commands to provide for captives and warning against neglect; editorial date (732)"
+        }
+      ],
+      "adultSources": [
+        {
+          "source": "nimrud-captives-letter",
+          "locator": "Online translation: commands to provide for captives and warning against neglect; editorial date (732)"
+        },
+        {
+          "source": "nimrud-standard-inscription",
+          "locator": "Translation lines 15b–17a: conquest and settlement claims"
+        }
+      ],
+      "returnQuestion": "Choose one making task and one claim about its organisation. Name the supporting evidence, whose voice it preserves and a further source that could improve the explanation."
+    },
+    {
+      "id": "images-spaces-work",
+      "chapter": "C4",
+      "role": "additional investigation",
+      "estimatedDuration": "20–30 minutes",
+      "observedDuration": null,
+      "sequence": [
+        {
+          "subject": "chavin-textile",
+          "place": "Peru; said to come from the southern coast",
+          "anchor": -300,
+          "object": "met-315784"
+        },
+        {
+          "subject": "teotihuacan",
+          "place": "Basin of Mexico",
+          "anchor": 400,
+          "object": "teotihuacan-household-guide"
+        },
+        {
+          "subject": "moche",
+          "place": "Northern coastal Peru",
+          "anchor": 400,
+          "object": "moche-evidence-guide"
+        }
+      ],
+      "transitionFinding": "Start with Chavín textile imagery, then compare a Teotihuacan household context and a Moche vessel. The last two share a timeline anchor while the source type changes.",
+      "evidenceFinding": "A vessel’s surface supports observation. Secure archaeological context and technical comparison would strengthen an attribution to an individual workshop.",
+      "familyMaterial": "What can you show in this photograph?",
+      "familySources": [
+        {
+          "source": "met-315784",
+          "locator": "Description paragraphs 1–5; Artwork Details; existing photograph"
+        }
+      ],
+      "adultSources": [
+        {
+          "source": "moche-production-2009",
+          "locator": "Archaeological workshop evidence; Cerámica utilitaria; Cerámica fina o ritual"
+        },
+        {
+          "source": "met-316721",
+          "locator": "Artwork Details and Description: broad attribution, no excavated workshop"
+        }
+      ],
+      "returnQuestion": "Choose one activity, show the evidence that supports it, and name one additional source that could explain who organized or performed the work."
+    },
+    {
+      "id": "objects-places-associations",
+      "chapter": "C4",
+      "role": "additional investigation",
+      "estimatedDuration": "20–30 minutes",
+      "observedDuration": null,
+      "sequence": [
+        {
+          "subject": "dongson",
+          "place": "Northern Vietnam and wider Southeast Asian circulation",
+          "anchor": -200,
+          "object": "met-39209"
+        },
+        {
+          "subject": "colima",
+          "place": "Colima, western Mexico",
+          "anchor": 1,
+          "object": "met-317600"
+        },
+        {
+          "subject": "hopewell-earthworks",
+          "place": "Ohio River tributaries; locator at Mound City Group, Ohio, United States",
+          "anchor": 300,
+          "object": "hopewell-moundcity-1848"
+        }
+      ],
+      "transitionFinding": "A Đông Sơn object, Colima model and surveyed Ohio earthwork raise three questions about associating an artifact or later view with a specific place.",
+      "evidenceFinding": "The model’s roof is observable and its possible use as an incense-burner lid is a catalogue interpretation. The learner can name which part needs new evidence.",
+      "familyMaterial": "See a roof. Test a use.",
+      "familySources": [
+        {
+          "source": "met-317600",
+          "locator": "Description; existing photograph"
+        }
+      ],
+      "adultSources": [
+        {
+          "source": "met-317600",
+          "locator": "Description; existing photograph"
+        },
+        {
+          "source": "colima-huitzilapa-1996",
+          "locator": "Publisher abstract"
+        },
+        {
+          "source": "colima-western-polities-2026",
+          "locator": "Political organization paragraphs"
+        }
+      ],
+      "returnQuestion": "Choose one claim, identify its supporting object or place record, and ask for one additional source that could test it."
+    },
+    {
+      "id": "places-patrons-work",
+      "chapter": "C5",
+      "role": "additional investigation",
+      "estimatedDuration": "20–30 minutes",
+      "observedDuration": null,
+      "sequence": [
+        {
+          "subject": "maya-vessel",
+          "place": "Mesoamerica; proposed Tabasco association",
+          "anchor": 750,
+          "object": "met-316711"
+        },
+        {
+          "subject": "borobudur",
+          "place": "Kedu Valley, Central Java, Indonesia",
+          "anchor": 800,
+          "object": "borobudur-schematic-plan"
+        },
+        {
+          "subject": "byzantium",
+          "place": "Constantinople, present-day Istanbul; territories varied",
+          "anchor": 950,
+          "object": "met-464428"
+        }
+      ],
+      "transitionFinding": "Proceed from a Maya inscription to Borobudur’s reconstructed forms to carved ivory and a separately excavated harbor. The cases offer different evidence for people who supported work.",
+      "evidenceFinding": "The published schematic allows comparison of square and circular forms. Establishing a compulsory ancient walking route needs dated evidence of use.",
+      "familyMaterial": "Shapes we can see; routes we need to test",
+      "familySources": [
+        {
+          "source": "borobudur-plan-image",
+          "locator": "Inspected diagram and file record"
+        }
+      ],
+      "adultSources": [
+        {
+          "source": "borobudur-plan-image",
+          "locator": "Source diagram and file record"
+        },
+        {
+          "source": "borobudur",
+          "locator": "Brief synthesis: built form and interpretation"
+        }
+      ],
+      "returnQuestion": "Name one kind of work, identify its supporting evidence, and ask which person or institution remains to be explained."
+    },
+    {
+      "id": "buildings-food-continuity",
+      "chapter": "C6",
+      "role": "additional investigation",
+      "estimatedDuration": "20–30 minutes",
+      "observedDuration": null,
+      "sequence": [
+        {
+          "subject": "chaco-communities",
+          "place": "Chaco Canyon, San Juan Basin, New Mexico, United States",
+          "anchor": 1000,
+          "object": "chaco-plan-1850"
+        },
+        {
+          "subject": "cahokia-city",
+          "place": "Mississippi River floodplain near present-day Collinsville, Illinois, United States",
+          "anchor": 1100,
+          "object": "cahokia-view-1907"
+        },
+        {
+          "subject": "ocmulgee-council",
+          "place": "Ocmulgee, beside the Ocmulgee River, present-day Macon, Georgia",
+          "anchor": 1200,
+          "object": "ocmulgee-earthlodge-feature-plan"
+        }
+      ],
+      "transitionFinding": "Compare Pueblo Bonito’s historic plan, Cahokia’s later view and Ocmulgee’s earthlodge feature plan. Each stop distinguishes the age of the record from the urban activity it helps explain.",
+      "evidenceFinding": "Room groupings can be checked on the plan; interpretation of habitation needs excavation. The drawing supplies no roster of ancient residents.",
+      "familyMaterial": "A later drawing, a question about work",
+      "familySources": [
+        {
+          "source": "chaco-plan-1850",
+          "locator": "Inspected source plan and file record"
+        }
+      ],
+      "adultSources": [
+        {
+          "source": "chaco-plan-1850",
+          "locator": "Inspected Plate 37 / No. 6 and file record"
+        },
+        {
+          "source": "chaco-pueblo-period",
+          "locator": "Architecture: great houses and smaller habitation sites"
+        }
+      ],
+      "returnQuestion": "Name one kind of work, identify its supporting record and ask whose experience or which date remains to be explained."
+    },
+    {
+      "id": "makers-patrons-markets",
+      "chapter": "C7",
+      "role": "additional investigation",
+      "estimatedDuration": "20–30 minutes",
+      "observedDuration": null,
+      "sequence": [
+        {
+          "subject": "ming-workshops",
+          "place": "China; Jingdezhen ceramic production",
+          "anchor": 1550,
+          "object": "met-42549"
+        },
+        {
+          "subject": "ottoman-workshops",
+          "place": "Istanbul and Iznik, present-day Türkiye; locator at Istanbul",
+          "anchor": 1560,
+          "object": "met-449533"
+        },
+        {
+          "subject": "mughal-books",
+          "place": "Mughal courts at Fatehpur Sikri and Lahore",
+          "anchor": 1592,
+          "object": "met-448183"
+        }
+      ],
+      "transitionFinding": "Move between a Ming fish jar, Ottoman court and ceramic work, and Mughal bookmaking. Similar centuries leave changes of patron, workshop and buyer to be established separately.",
+      "evidenceFinding": "The image supports an observation about arrangement. Materials, a related court order and wider production belong to catalogues and documentary sources.",
+      "familyMaterial": "A visible pattern, a question about work",
+      "familySources": [
+        {
+          "source": "met-42549",
+          "locator": "Catalogue: date, material and supplied photograph"
+        }
+      ],
+      "adultSources": [
+        {
+          "source": "met-42549",
+          "locator": "Catalogue: material, date and record for similar jars"
+        },
+        {
+          "source": "ming-palace-production-2016",
+          "locator": "Design, inspection and distribution"
+        }
+      ],
+      "returnQuestion": "Name one task, identify its supporting source and ask which worker, audience or working relationship remains to be explained."
+    },
+    {
+      "id": "households-books-city-work",
+      "chapter": "C7",
+      "role": "additional investigation",
+      "estimatedDuration": "20–30 minutes",
+      "observedDuration": null,
+      "sequence": [
+        {
+          "subject": "bukhara-books",
+          "place": "Bukhara, present-day Uzbekistan",
+          "anchor": 1530,
+          "object": "met-452671"
+        },
+        {
+          "subject": "isfahan-silk",
+          "place": "Isfahan and New Julfa, Iran",
+          "anchor": 1700,
+          "object": "met-451028"
+        },
+        {
+          "subject": "zand-iran",
+          "place": "Shiraz and western Iran; object attributed only to Iran",
+          "anchor": 1789,
+          "object": "met-681122"
+        }
+      ],
+      "transitionFinding": "Begin with a Bukhara manuscript, then move to Isfahan’s forced relocation and commercial work and a Zand object. This sequence distinguishes a depicted reception from household and urban work.",
+      "evidenceFinding": "The catalogue qualifies copying and painting as separate stages. The photograph alone cannot identify every worker or assign all parts to one city.",
+      "familyMaterial": "A book made in stages",
+      "familySources": [
+        {
+          "source": "met-452671",
+          "locator": "Description; qualified production stages and supplied photograph"
+        }
+      ],
+      "adultSources": [
+        {
+          "source": "met-452671",
+          "locator": "Catalogue: description, date and qualified copying/painting places"
+        }
+      ],
+      "returnQuestion": "Name a supporting task, its source and one person or household whose experience remains unknown."
+    },
+    {
+      "id": "goods-work-coercion",
+      "chapter": "C7",
+      "role": "additional investigation",
+      "estimatedDuration": "15–20 minutes",
+      "observedDuration": null,
+      "sequence": [
+        {
+          "subject": "banda-1621",
+          "place": "Banda Islands, present-day Indonesia",
+          "anchor": 1621
+        },
+        {
+          "subject": "manila-network",
+          "place": "Acapulco, Manila and Chinese production centers",
+          "anchor": 1726,
+          "object": "met-9198"
+        }
+      ],
+      "transitionFinding": "Two stops connect VOC coercion in Banda with the differently dated and governed Manila trade. The Mexican jar and the registered 1726 consignment are deliberately separated.",
+      "evidenceFinding": "A record of shipped goods can support a claim at shipment scale. Assigning the particular jar to a vessel or a Banda–Manila route needs direct evidence.",
+      "familyMaterial": "A jar and a shipping record",
+      "familySources": [
+        {
+          "source": "met-9198",
+          "locator": "Date, Geography and Medium; supplied photograph"
+        },
+        {
+          "source": "manila-santo-cristo-2022",
+          "locator": "PDF 4 note 5; PDF 14: registered goods"
+        }
+      ],
+      "adultSources": [
+        {
+          "source": "met-9198",
+          "locator": "Date, Geography and Medium; accession 11.87.36"
+        },
+        {
+          "source": "point-reyes",
+          "locator": "San Agustín wreck, 1595; separate later object"
+        },
+        {
+          "source": "manila-santo-cristo-2022",
+          "locator": "Selected PDF 4 note 5; PDF 14: Julián Ignacio"
+        },
+        {
+          "source": "banda-archive",
+          "locator": "Koloniaal bronmateriaal; Genocide; Na de genocide"
+        },
+        {
+          "source": "banda-wandan-statement-2021",
+          "locator": "PDF 1–2: identity, audience and date"
+        }
+      ],
+      "returnQuestion": "Name one task, its source and a person’s experience or movement that still needs evidence."
+    },
+    {
+      "id": "skills-records-protection",
+      "chapter": "C8",
+      "role": "additional investigation",
+      "estimatedDuration": "20–30 minutes",
+      "observedDuration": null,
+      "sequence": [
+        {
+          "subject": "factory-reform",
+          "place": "British textile factories; locator near Manchester",
+          "anchor": 1836
+        },
+        {
+          "subject": "tomioka",
+          "place": "Gunma Prefecture, Japan",
+          "anchor": 1872,
+          "object": "tomioka-reeling-print"
+        },
+        {
+          "subject": "hine-labor",
+          "place": "Newberry, South Carolina, United States",
+          "anchor": 1908,
+          "object": "loc-hine"
+        }
+      ],
+      "transitionFinding": "Use an 1836 factory investigation, a depiction of silk reeling and a later Hine photograph to distinguish enforcement, technical education and advocacy.",
+      "evidenceFinding": "A drawing can help identify a skill, and a report records an inquiry. Establishing effective protection requires evidence from workers or subsequent enforcement.",
+      "familyMaterial": "A drawing of work is one kind of record",
+      "familySources": [
+        {
+          "source": "tomioka-ndl-print",
+          "locator": "Selected composition; NDL catalogue attribution"
+        },
+        {
+          "source": "tomioka-instructors-2022",
+          "locator": "Exposed Introduction: learning reeling operations"
+        }
+      ],
+      "adultSources": [
+        {
+          "source": "factory-inspection-1836",
+          "locator": "Selected Source 1 transcription: reported investigation"
+        },
+        {
+          "source": "tomioka-instructors-2022",
+          "locator": "Exposed Introduction: learned operations and teaching"
+        },
+        {
+          "source": "tomioka-ndl-print",
+          "locator": "Selected print composition and bracketed attribution"
+        },
+        {
+          "source": "hine-federal-administration-1921",
+          "locator": "Selected printed pp.7–17 and75–76; later administrative account"
+        }
+      ],
+      "returnQuestion": "Name a practical task, the source explaining it and one separate question about working conditions that still needs evidence."
+    }
+  ],
+  "cardReadback": {
+    "authoredOutcomeSources": {
+      "chapterLearningDeeperOutcome": 8,
+      "journeyReturnPrompt": 25
+    },
+    "time": "The library explicitly labels all displayed times as estimated; observed durations are unknown.",
+    "resume": "The matching card shows the saved stop and total, beside the option to start over. The library also offers global continuation and reset. Storage is device-local.",
+    "verification": "Reviewed the production component and the generated corpus. The journey UI tests exercise all card tasks, estimated durations, accessible names, and one continuation from the saved card to the second stop. Test execution is recorded with the release checks."
+  }
+}

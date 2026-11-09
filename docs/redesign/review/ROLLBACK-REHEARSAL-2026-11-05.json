@@ -1,0 +1,126 @@
+{
+  "workstream": "R04",
+  "recordedAt": "2026-11-05T20:24:47.519089+00:00",
+  "localRehearsal": "passed",
+  "providerRollbackGate": "pending_not_executed",
+  "priorAutomaticRollbackSuitable": false,
+  "priorBlockers": [
+    "Restores original partition-punjab-map and partition-telegram scans with unresolved redistribution scope.",
+    "Restores prior notebook behavior without present serialization, session draft persistence and recovery safeguards."
+  ],
+  "priorDeploymentId": "dpl_4wTFc4yAWPs4358p1v45mLed8rUJ",
+  "artifactVerification": {
+    "priorDeploymentId": "dpl_4wTFc4yAWPs4358p1v45mLed8rUJ",
+    "priorManifestSha256": "8ae427ad768682043741f97c6783d35ba38d9d49cd49a5f695965fdcef68365d",
+    "priorFilesVerifiedAgainstHistoricalManifest": 474,
+    "prior-site": {
+      "files": 475,
+      "manifestSha256": "66093a4f66405ab07110d9bc7f775e590048ebfa26f12d2e3254c041226b5d21",
+      "indexSha256": "9113ad04db653bcbe828dbee9b64e4f96a14f6ac69e011dfbf71bef8aeef4855",
+      "corpusSha256": "4b6ea2949c3e65c599d9291ef2bb91063ccca18bb7bc998981106b65158f5431"
+    },
+    "candidate-site": {
+      "files": 933,
+      "manifestSha256": "7b505c33121b68950e9df3d8b0c482508b5367b87640886fea6a5ec32d0e5cf3",
+      "indexSha256": "8cf344b06e41ee8724ce37173c4d6276285429f22e99236f29277e6443e642b6",
+      "corpusSha256": "e1a55385b2e242dbb9dcf865d94a0527fa4ed14396a2df0908d427bb5866cddd"
+    }
+  },
+  "forwardRestoration": {
+    "archive": "output/completion-2026-11-04/portable/chronos-review-e5ad905147d2.zip",
+    "sha256": "836c6ddf07ef4f0d45df2d76b418b9f77015bf120c99f80b68f6ea56fe2a47fc",
+    "artifactIdentity": "e5ad905147d278e1da81d70c2074220a041afeb08acf595fd834d3eb8563f7f3",
+    "archiveFilesVerified": 713,
+    "staticFilesEqualToRehearsedCandidate": 710,
+    "previouslyDeployed": false,
+    "releaseAccepted": false
+  },
+  "browserRehearsal": {
+    "status": "passed",
+    "recordedAt": "2026-11-05T20:21:32.147Z",
+    "browser": "156.0.8078.4",
+    "origin": "http://127.0.0.1:50869",
+    "checks": [
+      "candidate before rollback: served index and corpus match frozen hashes",
+      "candidate UI creates first answer/revision, imports conflicting revision as alternative, accepts sparse-context and legacy notes",
+      "prior restored on same origin: served index and corpus match frozen hashes",
+      "prior reader on same origin preserves localStorage bytes and renders all four notes, both conflicting revisions and sparse context; export deep-equals candidate export",
+      "fresh prior reader imports candidate export and exports all fields unchanged",
+      "candidate restored after prior: served index and corpus match frozen hashes",
+      "prior reader can add revision; restored candidate preserves prior edits and complete notebook on same origin",
+      "fresh candidate import recovers prior-edited export without loss"
+    ],
+    "exports": [
+      {
+        "path": "candidate-export.json",
+        "bytes": 10057,
+        "sha256": "064dba77750760abd3b82f5e7f6e17be2178474a4e0ac9dc728e41d840e15c14"
+      },
+      {
+        "path": "prior-roundtrip-export.json",
+        "bytes": 10057,
+        "sha256": "064dba77750760abd3b82f5e7f6e17be2178474a4e0ac9dc728e41d840e15c14"
+      },
+      {
+        "path": "prior-fresh-import-export.json",
+        "bytes": 10057,
+        "sha256": "064dba77750760abd3b82f5e7f6e17be2178474a4e0ac9dc728e41d840e15c14"
+      },
+      {
+        "path": "prior-edited-export.json",
+        "bytes": 10314,
+        "sha256": "447c633cb548049b19a98cdadf05952c7829e850d3381f2af3fe70aed50578ad"
+      },
+      {
+        "path": "candidate-restored-export.json",
+        "bytes": 10314,
+        "sha256": "447c633cb548049b19a98cdadf05952c7829e850d3381f2af3fe70aed50578ad"
+      },
+      {
+        "path": "candidate-fresh-recovery-export.json",
+        "bytes": 10314,
+        "sha256": "447c633cb548049b19a98cdadf05952c7829e850d3381f2af3fe70aed50578ad"
+      }
+    ],
+    "pageErrors": [],
+    "externalRequests": [],
+    "syntheticOnly": true,
+    "hostedRollbackPerformed": false
+  },
+  "fieldComparisonReceipt": "output/remaining-plan-2026-11-05/rollback/final-verification.json",
+  "preservation": {
+    "historicalStaticFilesUnchanged": 474,
+    "filesMatchCachedNovember1RemoteManifest": 475,
+    "realUserDataAccessed": false,
+    "hostingChanges": false,
+    "gitChanges": false,
+    "existingServersChanged": false,
+    "ownedBrowsersAndServerClosed": true
+  },
+  "limits": [
+    "Single managed Chromium synthetic-data rehearsal; not physical device or provider validation.",
+    "Saved version 1 notes tested; unfinished drafts and browser backup/recovery keys are not notebook exports.",
+    "No current provider-state assertion; exact prior target comes from archived November 1 receipt.",
+    "Forward package is an undeployed local review candidate, not an accepted release."
+  ],
+  "evidenceHashes": {
+    "output/remaining-plan-2026-11-05/rollback/artifact-verification.json": "70322f6a19eda43c5537add48b480d1051a8c04e2cd1ca6737a1d3a5c62eaac0",
+    "output/remaining-plan-2026-11-05/rollback/browser-failure.json": "45fcc9483baf53b3399b7b7eb567e21339758bdeeaeb77a2d04cbddd02e825d0",
+    "output/remaining-plan-2026-11-05/rollback/browser-rehearsal.json": "7a852d64e12bb2d8d44185ea600c685b461b409a1dabd31279af3eb444c572cf",
+    "output/remaining-plan-2026-11-05/rollback/candidate-export.json": "064dba77750760abd3b82f5e7f6e17be2178474a4e0ac9dc728e41d840e15c14",
+    "output/remaining-plan-2026-11-05/rollback/candidate-fresh-recovery-export.json": "447c633cb548049b19a98cdadf05952c7829e850d3381f2af3fe70aed50578ad",
+    "output/remaining-plan-2026-11-05/rollback/candidate-restored-export.json": "447c633cb548049b19a98cdadf05952c7829e850d3381f2af3fe70aed50578ad",
+    "output/remaining-plan-2026-11-05/rollback/candidate-restored-notebook.png": "4a7b463f029fba19806dd548b6cfdd82dd1d99238b5da41aae7e9e55855f72b4",
+    "output/remaining-plan-2026-11-05/rollback/candidate-site-manifest.json": "7b505c33121b68950e9df3d8b0c482508b5367b87640886fea6a5ec32d0e5cf3",
+    "output/remaining-plan-2026-11-05/rollback/final-verification.json": "f2a53de291ca6bbbdd423d50108cf4c385a5eeae658d6b1406a8e7a47e4a227e",
+    "output/remaining-plan-2026-11-05/rollback/prepare.py": "3943b7008091acee729739182660c2e25e72ad916fdda8e8ba52f5de4893e166",
+    "output/remaining-plan-2026-11-05/rollback/prior-edited-export.json": "447c633cb548049b19a98cdadf05952c7829e850d3381f2af3fe70aed50578ad",
+    "output/remaining-plan-2026-11-05/rollback/prior-fresh-import-export.json": "064dba77750760abd3b82f5e7f6e17be2178474a4e0ac9dc728e41d840e15c14",
+    "output/remaining-plan-2026-11-05/rollback/prior-restored-notebook.png": "abf0e757cd17cc8e2ebbf47eb840af0edea3daa5fa135bffb3ba1a23cfeacb35",
+    "output/remaining-plan-2026-11-05/rollback/prior-roundtrip-export.json": "064dba77750760abd3b82f5e7f6e17be2178474a4e0ac9dc728e41d840e15c14",
+    "output/remaining-plan-2026-11-05/rollback/prior-site-manifest.json": "66093a4f66405ab07110d9bc7f775e590048ebfa26f12d2e3254c041226b5d21",
+    "output/remaining-plan-2026-11-05/rollback/rehearse.mjs": "7c4e5ba8e3bdec9c66ab80d0a4bec010282689af82471f27ddc16f1fb5114287",
+    "output/remaining-plan-2026-11-05/rollback/synthetic-conflicts-and-context.json": "1584d92dfbd3bea9fef8a760cdec3632beb2bd7c18ddace25b00b7f851e071c8",
+    "output/remaining-plan-2026-11-05/rollback/verify.py": "d944bc620b9c75e0c196a767370844af0e93c27c88111c1169cf0896c6a909a8"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "subject": "tomioka",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "tomioka-reeling-print",
+      "caption": "Ichiyōsai Kuniteru’s print arranges workers and equipment in two rows beneath repeated roof supports. NDL catalogues this impression as [1872]; MAFF dates a comparable impression 1873 without establishing the NDL copy’s date. The published depiction supports observation of its drawn arrangement, not a measured floor plan or a photograph of every shift. Individual identities, working hours and freedom remain unestablished; modern digitization date unstated.",
+      "notice": [
+        "Find the two rows of workers and equipment and the passage between them.",
+        "Describe a roof support. Which questions about a worker’s hours or choices need a different source?"
+      ],
+      "creator": "Ichiyōsai Kuniteru (Utagawa Kuniteru II), artist; Daikokuya Heikichi, publisher",
+      "place": "Tomioka, Gunma, Japan, depicted workplace; catalogue publisher in Tokyo. No artist visit or measured room geometry established.",
+      "material": "Color woodblock print (nishiki-e), three-sheet composition; modern digital reproduction",
+      "representedDate": "An artistic representation of early Tomioka mill work. A particular shift, individual identities and the exact moment represented are unestablished; this is not a photographic exposure date or a measured survey.",
+      "relevance": "Makes workers, equipment and a constructed workplace visible through a published representation. Training, employment conditions and enforcement require separately dated records rather than an inference from orderly composition.",
+      "datingNote": "Use the selected NDL impression’s bracketed [1872] attribution. Keep the comparable MAFF 1873 impression, unknown print-state relationship and unknown modern digitization date explicit; do not infer an exact publication day or replace the October 1872 case event.",
+      "printWidthMm": 160
+    }
+  ]
+}

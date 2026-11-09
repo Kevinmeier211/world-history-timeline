@@ -1,0 +1,35 @@
+{
+  "journey": "goods-work-coercion",
+  "revision": "b80c3ff298df27497442b8240314ce8e5417327874e945dd461e6418e04fd147",
+  "stops": [
+    {
+      "index": 0,
+      "narrative": "Banda’s spice commerce depended on cultivation, processing and food supplied through trade. The colonial council’s removal decision and Coen’s report expose policies used to impose company control. Later sources trace enslaved cultivation and continuing diaspora communities. A public statement from 2021 and Farid’s separately attributed essay add living purposes for remembrance; they are not 1621 eyewitness accounts or one universal community position. The three modern island-reference points orient names without reconstructing a campaign, plantation or path of flight."
+    },
+    {
+      "index": 1,
+      "narrative": "This stop’s 1726 date belongs to the Santo Cristo’s Cavite register for a voyage toward Acapulco. The study follows Julián Ignacio’s entry, including lacquered furnishings and ceramics described as Japanese. Registration does not establish every object’s manufacture, arrival or sale. The pictured object is a Mexican tin-glazed earthenware jar dated ca. 1680–1700; it is not identified in that entry or as cargo from the different 1595 wreck. Earlier 1618/1619 reports explain skilled shipbuilding and community burdens, without supplying the working lives behind every shipment."
+    }
+  ],
+  "conclusion": "Identify a particular task or policy and the record supporting your explanation. Then ask what further evidence would establish a worker’s experience or a completed movement. A register, an official intention, a material object and a living public claim supply different information; comparison does not join them into one voyage or outcome.",
+  "evidence": {
+    "prompt": "Which conclusion is supported by these particular sources?",
+    "options": [
+      {
+        "text": "The records have distinct dates and purposes; none identifies this Mexican jar with the 1726 consignment or connects the two cases by one route.",
+        "supported": true,
+        "feedback": "The catalogue identifies the jar, the register documents a particular consignment and Banda’s records expose colonial purposes. A documented association is needed before assigning an object or person to a particular movement."
+      },
+      {
+        "text": "Because the jar’s date falls within the longer Pacific-trade period, the selected register establishes its voyage.",
+        "supported": false,
+        "feedback": "Chronological overlap does not identify an accession in a register. This jar’s catalogue and the selected entry do not supply that association."
+      },
+      {
+        "text": "The 1621 company records supply the experience of every Bandanese household and show that Bandanese history ended with the campaign.",
+        "supported": false,
+        "feedback": "The official perspective leaves other voices harder to recover. Later records and attributed living claims establish continuing histories without becoming a complete account of every household."
+      }
+    ]
+  }
+}

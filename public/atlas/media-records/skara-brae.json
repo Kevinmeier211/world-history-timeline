@@ -1,0 +1,21 @@
+{
+  "subject": "skara-brae",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "skara-household-guide",
+      "caption": "Modern, nonmeasured relationship guide from HES’s textual description. House 1 has a central hearth, shelving beyond, two slab enclosures per side and an additional wider enclosure left of the entrance: five enclosures in total. Nineteenth-century rebuilding omitted recorded cells; the present interior differs from the excavation record. No source plan or photograph was copied.",
+      "notice": [
+        "Find the entrance, hearth, shelving and side enclosures.",
+        "Imagine bringing fuel to the hearth, keeping the guide separate from an exact ancient route.",
+        "Which later changes would need documentation before interpreting the present interior?"
+      ],
+      "creator": "Chronos / Codex; source-based editorial diagram",
+      "place": "Modern functional guide; no surveyed plan or exact historical dimensions",
+      "material": "Original SVG diagram",
+      "representedDate": "Neolithic House 1 features and nineteenth-century rebuilding described by HES in 2024; this modern guide does not date each feature.",
+      "relevance": "Makes practical tasks and relationships visible without inventing a measured ancient plan, individual worker or complete social arrangement.",
+      "printWidthMm": 145
+    }
+  ]
+}

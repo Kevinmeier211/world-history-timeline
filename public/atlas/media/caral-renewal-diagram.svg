@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360" role="img"><title>Rooms changed through repeated work</title><desc>Original conceptual guide to earlier space, subdivision, and fill beneath renewed building. Stone-filled bag symbols indicate a type of material, not a measured quantity. This is not a surveyed plan or a universal sequence.</desc><style>text{font-family:Arial,sans-serif;font-size:28px;fill:#182d24}.head{font-size:32px;font-weight:700}.shape{fill:none;stroke:#33483e;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}.stone{fill:#d5c796;stroke:#33483e;stroke-width:2}</style><rect width="600" height="360" fill="#fffdf6"/><text x="18" y="40" class="head"><tspan x="18" dy="0">Rooms changed through work</tspan></text>
+<rect x="18" y="78" width="170" height="182" rx="9" fill="#edf2f0" stroke="#33483e" stroke-width="3"/><rect x="215" y="78" width="170" height="182" rx="9" fill="#edf2f0" stroke="#33483e" stroke-width="3"/><rect x="412" y="78" width="170" height="182" rx="9" fill="#eadfb5" stroke="#33483e" stroke-width="3"/>
+<text x="103" y="112" text-anchor="middle"><tspan x="103" dy="0">Earlier</tspan><tspan x="103" dy="34">space</tspan></text>
+<text x="300" y="112" text-anchor="middle"><tspan x="300" dy="0">Divide</tspan><tspan x="300" dy="34">space</tspan></text>
+<text x="497" y="112" text-anchor="middle"><tspan x="497" dy="0">Fill and</tspan><tspan x="497" dy="34">renew</tspan></text>
+<path d="M194,177H209m-7,-6l7,6l-7,6" fill="none" stroke="#33483e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M391,177H406m-7,-6l7,6l-7,6" fill="none" stroke="#33483e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path class="shape" d="M49,176v64h108v-64"/>
+<path class="shape" d="M246,176v64h108v-64m-54,0v64"/>
+<path class="shape" d="M442,166v35h109v-35m-121,43h134v36H430Z"/>
+<path d="M439,232q-5,-17 13,-17q18,0 13,17q-1,10 -13,10q-12,0 -13,-10m42,0q-5,-17 13,-17q18,0 13,17q-1,10 -13,10q-12,0 -13,-10m42,0q-5,-17 13,-17q18,0 13,17q-1,10 -13,10q-12,0 -13,-10" fill="#fffdf6" stroke="#33483e" stroke-width="2"/>
+<circle class="stone" cx="449" cy="226" r="4"/><circle class="stone" cx="457" cy="233" r="4"/><circle class="stone" cx="491" cy="226" r="4"/><circle class="stone" cx="499" cy="233" r="4"/><circle class="stone" cx="533" cy="226" r="4"/><circle class="stone" cx="541" cy="233" r="4"/>
+<text x="18" y="299"><tspan x="18" dy="0">Modern guide, not a surveyed plan.</tspan></text>
+<text x="18" y="339"><tspan x="18" dy="0">Stages vary; symbols show no amounts.</tspan></text></svg>

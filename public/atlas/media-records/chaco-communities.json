@@ -1,0 +1,37 @@
+{
+  "subject": "chaco-communities",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "chaco-corner-door",
+      "caption": "The photograph draws attention to masonry and access between rooms. It does not show the building as it looked when occupied, or tell us every room’s use. The larger landscape still carries significance for Pueblo peoples and other traditionally associated communities.",
+      "notice": [
+        "How do builders arrange stones of different sizes?",
+        "Which materials survive better than others?"
+      ],
+      "creator": "National Park Service; individual photographer not supplied",
+      "place": "Chaco Canyon, New Mexico, United States",
+      "material": "Digital photograph of surviving stone architecture",
+      "representedDate": "Pueblo Bonito construction, approximately 850–1150 CE",
+      "relevance": "Opens questions about construction work, preservation and the limits of a visitor’s view.",
+      "datingNote": "No photographic date is given. NPS dates the selected construction context to about 850–1150 CE; this is a view of surviving masonry, not a reconstruction of an occupied building.",
+      "additionalImages": []
+    },
+    {
+      "id": "chaco-plan-1850",
+      "caption": "Published 1850 with a U.S. military expedition report, Plate 37/No. 6 records ruins at Pueblo Bonito. Visible labels include Open Court and Estufa; these are the recorder’s labels, not recovered ancient room names. True/magnetic-meridian marks and an approximate Circuit about 1300 feet note appear, but there is no measured scale bar. Regular room rows and ruined areas do not supply one complete occupied phase, a census or the functions of every room. The scan retains the original bounds; no source geometry is traced or restored.",
+      "notice": [
+        "Find the open court, rectangular room marks and circular labelled features.",
+        "Which observations belong to an 1850 record rather than a known ancient building plan?"
+      ],
+      "creator": "Lithography P. S. Duval; published with J. H. Simpson report; individual drafter unverified",
+      "place": "Pueblo Bonito, Chaco Canyon; historical source plan, not a modern georeferenced survey",
+      "material": "Digital JPEG scan of a published coloured lithograph",
+      "representedDate": "Nineteenth-century record of surviving ruins; no single ancient occupied phase reconstructed",
+      "relevance": "Makes a dated observer’s spatial record inspectable while separating source labels, ruin conditions, modern scanning and ancient building/use questions.",
+      "datingNote": "The 1850 publication belongs to a military reconnaissance record, not ancient construction. Field observation and scan dates are not independently established; the complete source volume and direct Rumsey item were not read.",
+      "additionalImages": [],
+      "printWidthMm": 145
+    }
+  ]
+}

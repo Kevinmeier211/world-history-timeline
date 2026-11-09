@@ -1,0 +1,39 @@
+{
+  "journey": "makers-patrons-markets",
+  "revision": "27572240e837099a9f6b7f211596f3f54cb4415672f209377bbd3c0a848b580d",
+  "stops": [
+    {
+      "index": 0,
+      "narrative": "Observe the jar’s fish, plants and repeated decoration. The catalogue supplies its technical identification. Wider accounts distinguish official models, supervision, private production and markets. The 1542 record concerns similar jars; it does not identify this accession’s batch, every worker, a fulfilled order or a particular voyage."
+    },
+    {
+      "index": 1,
+      "narrative": "Keep the decorated tughra separate from the ceramic dish and the separately catalogued 1549 signed lamp. A named decorator identifies one relationship, not every maker. Excavation and technical abstracts add limited material evidence; the mediated 1670s market account concerns another time and source. None supplies one universal recipe or the complete experience of an Ottoman workshop."
+    },
+    {
+      "index": 2,
+      "narrative": "The selected folio is catalogued around 1590–95. Compare its representation with accounts of translation, writing, painting and the House of Books. Project names, teams, copies and attributed preface arguments have distinct dates and evidentiary limits. Courtly sponsorship does not prove equal power among participants, a universal audience or every worker’s identity."
+    }
+  ],
+  "conclusion": "Explain a particular task and the relationship that supported it. Then distinguish what an object shows, what a catalogue identifies and what another record says about commissioning, buying or translation. A named patron, decorator or project does not recover every working life.",
+  "evidence": {
+    "prompt": "Which explanation best fits the supplied photograph of the Ming jar and its source account?",
+    "options": [
+      {
+        "text": "The arrangement is visible; its material identification and connection to wider production require the catalogue and other records.",
+        "supported": true,
+        "feedback": "Looking and technical identification answer different questions. A broader account of orders and markets does not name this jar’s individual maker or buyer."
+      },
+      {
+        "text": "The record of similar jars in 1542 proves this accession came from that exact batch.",
+        "supported": false,
+        "feedback": "The supplied record concerns similar work. Identifying a particular batch needs an additional documented association."
+      },
+      {
+        "text": "Repeated decorative forms prove that one patron and workshop organized all three cases.",
+        "supported": false,
+        "feedback": "Resemblance supports comparison. A shared patron or workshop requires its own evidence, with particular dates and people."
+      }
+    ]
+  }
+}

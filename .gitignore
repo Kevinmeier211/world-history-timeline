@@ -32,3 +32,12 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# Reproducible local release artifacts; source and manifests are kept separately.
+public/atlas/exports/
+tmp/
+
+# Private research and reproducible local receipts; never stage with the application.
+output/
+docs/reference/local-only/
+.playwright-cli/

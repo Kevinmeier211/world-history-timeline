@@ -1,0 +1,39 @@
+{
+  "journey": "makers-interpreters-encounters",
+  "revision": "d39433ead4ffe76746b4a17471b890e3d30ba07dddc1f4332b573946a209f8eb",
+  "stops": [
+    {
+      "index": 0,
+      "narrative": "Identify a pilot, interpreter and court official. Find the account’s evidence that assistance and coercion could coexist."
+    },
+    {
+      "index": 1,
+      "narrative": "Point to carved details and distinguish a patron’s likely audience from unknown instructions or a named maker."
+    },
+    {
+      "index": 2,
+      "narrative": "Compare the crucifix interpretation with Afonso’s earlier proposed inspection rule. Neither proves what everyone believed or what officials enforced."
+    }
+  ],
+  "conclusion": "Objects and accounts show active makers and intermediaries. Their creativity does not erase coercion, and a ruler’s request does not supply every person’s voice.",
+  "evidence": {
+    "prompt": "Which work does this guide identify beyond sailing?",
+    "options": [
+      {
+        "text": "Pilotage and interpretation helped an arrival become possible.",
+        "supported": true,
+        "feedback": "The guide identifies supplies and a pilot at Malindi, then interpreters and a court audience at Calicut. Useful assistance does not prove that everyone could choose freely."
+      },
+      {
+        "text": "Everyone involved could choose freely.",
+        "supported": false,
+        "feedback": "The guide explicitly leaves free choice unproven. The journal also records detention."
+      },
+      {
+        "text": "The arrow records the exact ship track.",
+        "supported": false,
+        "feedback": "The arrow follows the narrative sequence. It is not a reconstructed sailing course."
+      }
+    ]
+  }
+}

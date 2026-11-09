@@ -1,0 +1,17 @@
+{
+  "status": "blank_template_not_an_observation",
+  "id": null,
+  "gate": null,
+  "candidateIdentity": null,
+  "reviewerOrSession": null,
+  "unitOrTask": null,
+  "observedTextOrAction": null,
+  "expectedResult": null,
+  "sourceOrPage": null,
+  "severity": null,
+  "assistance": null,
+  "repair": null,
+  "successorIdentity": null,
+  "retestResult": null,
+  "reviewerReconciliation": null
+}

@@ -1,0 +1,660 @@
+{
+  "scope": "Author-side eight-part dossier reads using the released main and deeper sections, source capsules, family tasks, the named-claim register and targeted consultation of additional source passages. Uncertainties below delimit each finding.",
+  "reviewedInputCorpusSHA256": "ab07b81d6150eb754552346cc4ce8655af5ab600ffeff8107bbd6b6ec3c82900",
+  "cases": [
+    {
+      "id": "eastern-han",
+      "chapter": "C4",
+      "rubric": {
+        "orientation": "The Luoyang court and models of rural estates answer the opening question at two different scales.",
+        "explanation": "Tower, well and granary connect a household’s continued provision to unnamed work. The memorial supplies a distinct mechanism for moving surplus toward the state.",
+        "evidence": "Columbia’s longer translated excerpt explicitly proposes honoring grain or pardoning an offense in exchange for deliveries. The teaching introduction dates Chao Cuo’s proposal to 178 BCE.",
+        "chronology_geography": "25–220 CE encloses the Eastern Han phase. The 178 and 81 BCE texts are explicitly earlier Western Han evidence.",
+        "perspective": "The memorial addresses the ruler and characterizes farmers and merchants for a political purpose. The owners who commissioned burial models are unusually visible.",
+        "reading": "The models provide a concrete short entrance. The deeper discussion asks who possessed enough surplus to benefit from a proposed policy.",
+        "activity": "Each of the three objects supplies a visible feature and a household need. Naming a task left unseen is possible without assigning a named worker.",
+        "connections": "The Han/Xin context clarifies the interruption. Comparing Rome’s named portraits with elite Han burials keeps both sample biases visible."
+      },
+      "evidence": [
+        {
+          "source": "han-agriculture",
+          "url": "https://afe.easia.columbia.edu/main_pop/ps/ps_china-chaocuo-agriculture.htm",
+          "locator": "HTML teaching edition, introduction and final paragraph of the longer excerpt, Sources of Chinese Tradition (1999), pp. 355–357. Direct HTML retrieval returned 200.",
+          "checkedFinding": "Columbia’s longer translated excerpt explicitly proposes honoring grain or pardoning an offense in exchange for deliveries. The teaching introduction dates Chao Cuo’s proposal to 178 BCE."
+        }
+      ],
+      "fixes": [
+        "Replaced the failed PDF link with Columbia’s complete HTML teaching edition, retained the previous scope and recorded the new access date."
+      ],
+      "limits": [
+        "The memorial cannot establish household-level outcomes in the Eastern Han period."
+      ]
+    },
+    {
+      "id": "roman-world",
+      "chapter": "C4",
+      "rubric": {
+        "orientation": "Rome’s court and the earlier Egyptian portrait give the reader named people and distinct locations.",
+        "explanation": "Military backing, public representation and legal status explain why a dynasty needed more than a portrait and why occupation alone cannot classify a worker.",
+        "evidence": "The Met’s inscription discussion identifies Eutyches as a freedman and offers alternative readings of the following names and signature. The deeper section appropriately attributes the interpretation.",
+        "chronology_geography": "193–235 CE is the Severan frame. The Egyptian portrait’s approximately 100–150 date precedes it, and 212 citizenship is separately situated.",
+        "perspective": "The provincial portrait widens the court narrative, while commemoration still gives selective access to the boy’s life.",
+        "reading": "Two faces provide the short comparison. The deeper reading distinguishes legal freedom, social position and a possible manumission witness.",
+        "activity": "The learner can use materials, text and pose before using the two captions to distinguish burial from imperial display.",
+        "connections": "The earlier Roman frame and Han comparison share a question about resource demands while leaving the sources for each polity distinct."
+      },
+      "evidence": [
+        {
+          "source": "met-547951",
+          "url": "https://www.metmuseum.org/art/collection/search/547951",
+          "locator": "Artwork description, paragraph on the Greek inscription and its possible witnesses or painter.",
+          "checkedFinding": "The Met’s inscription discussion identifies Eutyches as a freedman and offers alternative readings of the following names and signature. The deeper section appropriately attributes the interpretation."
+        }
+      ],
+      "fixes": [],
+      "limits": [
+        "The gem supplies no estimate of audience size, and the mummy portrait supplies no complete biography."
+      ]
+    },
+    {
+      "id": "palmyra",
+      "chapter": "C4",
+      "rubric": {
+        "orientation": "The family relief identifies a Syrian city through a particular commemorative commission. The civic tariff supplies a separate public setting.",
+        "explanation": "Tax schedules and honors for caravan organizers give different evidence for local exchange and long-distance movement.",
+        "evidence": "The Met’s numbered transliteration and English gloss separate Zabdibol’s ancestors from Mokimu, Tadmur and Alayyat. Naming children is warranted independently of pose.",
+        "chronology_geography": "The object’s second–third-century range differs from the explicitly dated 137 council tariff and the events of 272–273.",
+        "perspective": "The tribute of a stone memorial and public honorific inscriptions privileges families and merchants with resources. The text marks the absence of a population-wide literacy measure.",
+        "reading": "The first task uses a bounded family group. The deeper Berlin relief discussion explains why a possible tutor or tablet on another object cannot identify the selected children.",
+        "activity": "The supplied names answer the kinship question. A tax question can be assigned to the tariff without assuming the depicted family financed a caravan.",
+        "connections": "The civic context and exchange-network place study make the distinction between a family’s memorial and a schematic regional route explicit."
+      },
+      "evidence": [
+        {
+          "source": "met-322375",
+          "url": "https://www.metmuseum.org/art/collection/search/322375",
+          "locator": "Artwork description, four inscription groups, including the named children. The Matthews DOI was unavailable through the fresh web lookup, so the local-economy argument retains its previously recorded excerpt scope.",
+          "checkedFinding": "The Met’s numbered transliteration and English gloss separate Zabdibol’s ancestors from Mokimu, Tadmur and Alayyat. Naming children is warranted independently of pose."
+        }
+      ],
+      "fixes": [],
+      "limits": [
+        "No finding about the family’s occupation, the journey of its members or city-wide literacy follows from the inscription."
+      ]
+    },
+    {
+      "id": "kushan-contexts",
+      "chapter": "C4",
+      "rubric": {
+        "orientation": "The coin anchors a broad Gandhara/Kushan frame, with contrasting evidence from named Bactrian temple sites.",
+        "explanation": "The Rabatak royal orders and Surkh Kotal water shortage explain how commands, construction and commemoration relate.",
+        "evidence": "Sims-Williams’s published Surkh Kotal edition distinguishes the Burzmihr and Mihraman formulae across versions. The dossier distinguishes credited work from proof of who physically dug the well.",
+        "chronology_geography": "The selected coin is about 130 CE. Inscription year one, a possible year six and year 31 are not interchangeable modern dates.",
+        "perspective": "An official and a writer are identifiable, while the workforce and worshippers are not fully represented by this record.",
+        "reading": "Both sides of a coin give the family a visible start. The deeper discussion introduces language versus script through a qualified epigraphic reading.",
+        "activity": "The well capsule specifies the problem, action and official. The activity never requires readers to guess a reverse deity or undocumented findspot.",
+        "connections": "The temple context and comparison can follow the communication question without transferring the Berlin coin’s deity or provenance to the Met specimen."
+      },
+      "evidence": [
+        {
+          "source": "kushan-inscriptions",
+          "url": "https://edspace.american.edu/silkroadjournal/wp-content/uploads/sites/984/2017/09/SilkRoad_10_2012_simswilliams.pdf",
+          "locator": "Sims-Williams, The Bactrian Inscriptions of the Kushan Period, Surkh Kotal translation and discussion, printed pp. 78–79.",
+          "checkedFinding": "Sims-Williams’s published Surkh Kotal edition distinguishes the Burzmihr and Mihraman formulae across versions. The dossier distinguishes credited work from proof of who physically dug the well."
+        }
+      ],
+      "fixes": [],
+      "limits": [
+        "The named workers and uncertain technical terms cannot reconstruct a complete workforce or water-lifting machine."
+      ]
+    },
+    {
+      "id": "aksum",
+      "chapter": "C4",
+      "rubric": {
+        "orientation": "The first-century port account names Adulis and the inland city. Beta Samati introduces an excavated town distinct from both.",
+        "explanation": "Grinding stones, storage caches and workshop debris explain how production and provision supported an inland settlement.",
+        "evidence": "The excavators’ Area A discussion records slag and glass wasters and interprets production alongside domestic activity. Figure 4 pairs two faces of each coin. The evidence supports local work without assigning every glass object a local origin.",
+        "chronology_geography": "The early Periplus, fourth-century texts and late deposits are kept on their own timescales. The unrelated Roman bottle is identified as a type comparison.",
+        "perspective": "Trade writing favors merchant concerns. The archaeological account reveals household and workshop activity but does not identify each worker.",
+        "reading": "Five coins give readers a tangible sequence of manufacture, deposition and excavation. The separate monuments and scripts provide the deeper reading.",
+        "activity": "The exercise asks for five objects rather than ten photographed faces and permits the circulation time to remain unknown.",
+        "connections": "Red Sea context links highland and port. The evidence for ordinary production broadens a comparison that could otherwise rest entirely on royal inscriptions."
+      },
+      "evidence": [
+        {
+          "source": "beta-samati",
+          "url": "https://doi.org/10.15184/aqy.2019.84",
+          "locator": "Cambridge publisher version, Area A, especially the discussion of slag, glass wasters and the Fig. 4 coin caption. Publisher article DOI 10.15184/aqy.2019.84.",
+          "checkedFinding": "The excavators’ Area A discussion records slag and glass wasters and interprets production alongside domestic activity. Figure 4 pairs two faces of each coin. The evidence supports local work without assigning every glass object a local origin."
+        }
+      ],
+      "fixes": [],
+      "limits": [
+        "Mixed deposits require more than the date of a coin. The Armah chronology and merchant text’s Zoskales identification remain qualified."
+      ]
+    },
+    {
+      "id": "moche",
+      "chapter": "C4",
+      "rubric": {
+        "orientation": "Named northern coastal river valleys establish the regional setting and distinguish stylistic similarities from political unity.",
+        "explanation": "Tools, moulds, unfired pieces and firing failures distinguish pottery production at a site from merely finding finished vessels there.",
+        "evidence": "Bernier’s workshop discussion distinguishes a partially excavated fineware installation from utilitarian remains visible on the surface. This supports production at Huacas de Moche while leaving the two museum vessels’ workshops unknown.",
+        "chronology_geography": "Huacas de Moche production and Jequetepeque political models are attributed to separate sites within a long regional frame.",
+        "perspective": "Household and food-processing evidence complements elite imagery. The dossiers attribute proposed ritual interpretations and local political coordination.",
+        "reading": "Visible vessel surfaces make the short entry usable. Comparing exchange, architectural imagery and stratified workshop evidence gives a deeper investigation.",
+        "activity": "The answer key separates on-site production, the tentative renewal interpretation and the unsupported inference of a common ruler.",
+        "connections": "The valley/work context and paired comparison use recurring craft and material questions without positing one centre of manufacture."
+      },
+      "evidence": [
+        {
+          "source": "moche-production-2009",
+          "url": "https://www.scielo.cl/scielo.php?pid=S0718-10432009000100010&script=sci_arttext",
+          "locator": "Bernier, Producción de cerámica en Huacas de Moche, observations on the partial fineware excavation and surface traces in the utilitarian sector, especially paragraphs around Figures 5–9.",
+          "checkedFinding": "Bernier’s workshop discussion distinguishes a partially excavated fineware installation from utilitarian remains visible on the surface. This supports production at Huacas de Moche while leaving the two museum vessels’ workshops unknown."
+        }
+      ],
+      "fixes": [],
+      "limits": [
+        "The sample cannot identify who made the two catalogued bottles or whether individual potters controlled their distribution."
+      ]
+    },
+    {
+      "id": "byzantium",
+      "chapter": "C4",
+      "rubric": {
+        "orientation": "Constantinople links a portable ivory and a separately excavated working ship. The city changed hands within the long political frame.",
+        "explanation": "Carving a folding devotional image, joining planks, sealing seams and repairing a vessel reveal different kinds of skilled work.",
+        "evidence": "Pulak, Ingram and Jones describe YK14’s grass-and-pine-pitch seams, timber fasteners, recycled repair pieces and renewed caulking. This directly supports the maintenance passage.",
+        "chronology_geography": "Wood-based proposed construction and pottery-layer deposition have distinct dates, and neither the wreck nor the ivory is treated as present at the city’s dedication in 330.",
+        "perspective": "A probable devotional use and scholarly interpretation of the figure beneath the cross remain attributable interpretations. The crew’s status and cargo remain unknown.",
+        "reading": "Material tasks give a family a point of entry, while the deeper account investigates competing iconographic and chronological arguments.",
+        "activity": "The paired evidence exercise can distinguish observable ivory carving, missing wings and recorded hull repairs using the supplied material.",
+        "connections": "The Byzantine transition context connects the city to changing sovereignty and avoids inventing an ivory shipment in YK14."
+      },
+      "evidence": [
+        {
+          "source": "byzantium-yenikapi-2015",
+          "url": "https://nauticalarch.org/wp-content/uploads/2015/08/ijna12083.pdf",
+          "locator": "Eight Byzantine Shipwrecks, YK14, printed pp. 53–55 (PDF pp. 15–17), hull assembly and multiple repairs.",
+          "checkedFinding": "Pulak, Ingram and Jones describe YK14’s grass-and-pine-pitch seams, timber fasteners, recycled repair pieces and renewed caulking. This directly supports the maintenance passage."
+        }
+      ],
+      "fixes": [],
+      "limits": [
+        "The likely date of a timber constrains construction. It supplies neither a launch date nor identification of cargo."
+      ]
+    },
+    {
+      "id": "hopewell-earthworks",
+      "chapter": "C4",
+      "rubric": {
+        "orientation": "The named Ohio sites and the contrast between gatherings and daily provision keep the period label geographically bounded.",
+        "explanation": "Preparing floors, dismantling buildings and adding earth explain a construction process, while the Hopeton cross-sections provide a distinct test of sequence.",
+        "evidence": "NPS describes topsoil removal and layered soil addition, then assigns approximately 300 CE to the initial construction of one sampled Hopeton wall from burned logs. The review found no basis for extending that date to every earthwork.",
+        "chronology_geography": "The selected 1–400 CE inquiry, a nineteenth-century survey and modern restoration photograph are dated independently. The North Fork and Mound City sheets represent different places.",
+        "perspective": "Chief Lankford and Logan York speak about present responsibility in an attributed Miami Tribe publication. They are not treated as witnesses to ancient ceremonies.",
+        "reading": "The construction task gives three concrete verbs. The deeper reading asks which changes come from surveyors, plowing and restoration.",
+        "activity": "The capsule gives material and stage evidence but no number of gatherings. The answer can correctly leave the meeting schedule unknown.",
+        "connections": "The gathering context and Mound City/Hopeton maps give named alternatives to inferring a settlement pattern from visible geometry alone."
+      },
+      "evidence": [
+        {
+          "source": "hopewell-hopeton-research",
+          "url": "https://www.nps.gov/articles/archeology-at-hopewell-culture-national-historical-park.htm",
+          "locator": "National Park Service, Archeology at Hopewell Culture National Historical Park, Ongoing Research, trenches and burned-log dates.",
+          "checkedFinding": "NPS describes topsoil removal and layered soil addition, then assigns approximately 300 CE to the initial construction of one sampled Hopeton wall from burned logs. The review found no basis for extending that date to every earthwork."
+        }
+      ],
+      "fixes": [],
+      "limits": [
+        "The park’s rounded date does not supply a calibrated interval here. Individual wall dates and restored grounds require separate evidence."
+      ]
+    },
+    {
+      "id": "bering-sea-carvers",
+      "chapter": "C4",
+      "rubric": {
+        "orientation": "The tool component is assigned a Bering Strait regional context, with the particular museum attribution identified separately.",
+        "explanation": "Engraving and shaping affect form. A counterweight’s function raises questions about marine hunting without recovering the complete weapon or hunt.",
+        "evidence": "Kawerak’s public report describes learning with family and mentors and distinguishes those contemporary experiences from the ancient carver’s unknown biography.",
+        "chronology_geography": "The 300–500 CE catalogue, later proposed regional florescence, 2019 acquisition and interviews concern different things.",
+        "perspective": "The public report presents participating artists’ experiences and access to materials. The reading does not substitute them for all Bering Strait communities.",
+        "reading": "Three source cards organize the short reading. The deeper path asks about marine-carbon corrections and the distinction between a regional proposal and an individual assay.",
+        "activity": "The full-object and alternate views distinguish modern supports and ivory. The question about the maker can be answered by leaving the name unknown.",
+        "connections": "The catalogue/regional chronologies context supports comparison of dates and evidence types without asserting a continuous genealogy from the object."
+      },
+      "evidence": [
+        {
+          "source": "bering-kawerak-artists",
+          "url": "https://kawerak.org/wp-content/uploads/2024/07/FINAL_2_kawerak_bering_artA42.pdf",
+          "locator": "Kawerak public Bering Strait arts report, Methods and Learning sections, printed pp. 8–11, specifically family and mentor learning.",
+          "checkedFinding": "Kawerak’s public report describes learning with family and mentors and distinguishes those contemporary experiences from the ancient carver’s unknown biography."
+        }
+      ],
+      "fixes": [],
+      "limits": [
+        "The community report concerns the participating artists. The regional radiocarbon abstract has no assay for this particular accession."
+      ]
+    },
+    {
+      "id": "tang-city",
+      "chapter": "C5",
+      "rubric": {
+        "orientation": "A tomb musician introduces the question of who could move through Chang’an and who could afford burial goods.",
+        "explanation": "A gate on the errand diagram makes the effect of a curfew intelligible. A separate section explains the learned work of translating scriptures.",
+        "evidence": "Washington’s account assigns Xuanzang’s return, the original pagoda and the reconstruction to three distinct dates.",
+        "chronology_geography": "The Sui capital lay south of the Han site. The example of Bai Juyi’s residence belongs to Luoyang.",
+        "perspective": "The musician represents a funerary choice. The dossier leaves open how a living performer experienced the city.",
+        "reading": "The adult reading explains why a street grid can survive more clearly than details of ward interiors.",
+        "activity": "A child can trace an errand, cover a gate and ask for opening times before proposing another route.",
+        "connections": "The return question asks which records might reach families briefly glimpsed through expensive tomb goods."
+      },
+      "evidence": [
+        {
+          "source": "tang-changan",
+          "url": "https://depts.washington.edu/silkroad/exhibit/tang/essay2.html",
+          "locator": "University of Washington, Chang’an essay, paragraph beginning “Under the Tang”; returned texts in 645, Dayan Pagoda construction in 652, rebuilding in 701–704.",
+          "checkedFinding": "Washington’s account assigns Xuanzang’s return, the original pagoda and the reconstruction to three distinct dates."
+        }
+      ],
+      "fixes": [],
+      "limits": [
+        "The accessible NUS seminar summary gives urban constraints at a different level of detail from the underlying reconstruction research."
+      ]
+    },
+    {
+      "id": "abbasid-craft",
+      "chapter": "C5",
+      "rubric": {
+        "orientation": "A lustre-painted bowl invites the reader to follow techniques across changing courts.",
+        "explanation": "Preparing and firing a ceramic surface makes the work behind its decoration visible. Common wares supply a second view of production.",
+        "evidence": "Petersen reports uncertain discovery circumstances for early kiln furniture and allows several southern Iraqi production centers. He also qualifies surface ceramics as indicative.",
+        "chronology_geography": "The court moved between Baghdad and Samarra. The tenth-century bowl’s date crosses the Buyid takeover in 945.",
+        "perspective": "Artisans, manuscript workers and users of plain vessels each enter alongside rulers.",
+        "reading": "The deeper section uses petrography to ask where wares could have been made. It reports the selected Murwab sample separately.",
+        "activity": "Comparing a visible motif with a hidden firing step gives a child an answer that can be checked against the image and diagram.",
+        "connections": "The return question about survival extends the investigation from ceramics to the uneven evidence for buildings."
+      },
+      "evidence": [
+        {
+          "source": "basrah-fieldwork",
+          "url": "https://maxvanberchem.org/en/scientific-activities/projects/archeology/8-francais/170-early-islamic-basrah-iraq",
+          "locator": "Petersen, Early Islamic Basrah, paragraph beginning “In 1952” and section 3, Surface material, final paragraph. Checked retained project report.",
+          "checkedFinding": "Petersen reports uncertain discovery circumstances for early kiln furniture and allows several southern Iraqi production centers. He also qualifies surface ceramics as indicative."
+        }
+      ],
+      "fixes": [],
+      "limits": [
+        "Neither a surface collection nor similarity of decoration identifies this bowl’s kiln."
+      ]
+    },
+    {
+      "id": "borobudur",
+      "chapter": "C5",
+      "rubric": {
+        "orientation": "The contrast between a visitor’s movement and the order used to describe reliefs gives the opening question a concrete object.",
+        "explanation": "The hill, terraces and spouts explain how gravity carried rain across levels; restoration added new infrastructure.",
+        "evidence": "The conservation authority explicitly separates the earlier jaladwara outlets from second-restoration pipes, infiltration wells and inspection basins.",
+        "chronology_geography": "The dossier dates the inscription, the modern schematic, the conserved-site photograph and the monitoring mission separately.",
+        "perspective": "The relief study supplies a researcher’s interpretation; a monitoring mission records contemporary residents’ and vendors’ concerns.",
+        "reading": "The deeper sections identify which stanzas have English translations and limit what can be claimed for agreements about upkeep.",
+        "activity": "The family can compare square and circular forms in two supplied views. The answer explains why the diagram cannot establish a compulsory itinerary.",
+        "connections": "The return question asks how each of construction, later use and restoration might leave separate traces."
+      },
+      "evidence": [
+        {
+          "source": "borobudur-drainage-2018",
+          "url": "https://borobudurpedia.id/ensiklopedia/drainase/",
+          "locator": "Balai Konservasi Borobudur, Drainase, final two paragraphs describing the original system and pemugaran kedua, 9 November 2018.",
+          "checkedFinding": "The conservation authority explicitly separates the earlier jaladwara outlets from second-restoration pipes, infiltration wells and inspection basins."
+        }
+      ],
+      "fixes": [
+        "Corrected the visible missing space in “The 842 interpretation” in the deeper reading."
+      ],
+      "limits": [
+        "The available English stanzas of the Kayumwungan edition leave the complete Old Javanese grant unassessed."
+      ]
+    },
+    {
+      "id": "nalanda",
+      "chapter": "C5",
+      "rubric": {
+        "orientation": "Brick openings provide a starting point for asking what residential architecture can show about education.",
+        "explanation": "Land support, household work and teaching are treated as practical requirements. Moving a chant leader between halls gives an example of coordination.",
+        "evidence": "Takakusu’s edition describes the precentor moving between halls, preceded by lay servants and children with incense and flowers.",
+        "chronology_geography": "The deeper text identifies Tamralipti as the setting of the earlier customs before the account turns to Nalanda. The modern photo has its own date.",
+        "perspective": "Yijing names support workers and students teaching others. His translated monastic description carries the concerns of its author and edition.",
+        "reading": "The donor and village passages help an adult distinguish a grant from testimony about villagers’ obligations.",
+        "activity": "A child can identify a doorway in the photograph and explain which account would supply evidence of a day’s activity.",
+        "connections": "The return prompt asks when buildings, written observations and oral testimony could answer different questions about a school."
+      },
+      "evidence": [
+        {
+          "source": "yijing-1896",
+          "url": "https://www.sabrizain.org/malaya/library/itsing.pdf",
+          "locator": "Yijing, Takakusu translation, printed pp. 154–155 (daily chanting at Nalanda); compare pp. 176–177 for teaching and study at Nalanda or Valabhi. Retained edition text.",
+          "checkedFinding": "Takakusu’s edition describes the precentor moving between halls, preceded by lay servants and children with incense and flowers."
+        }
+      ],
+      "fixes": [],
+      "limits": [
+        "The account supplies one author’s description; the photograph cannot date every visible course of brick or establish a timetable."
+      ]
+    },
+    {
+      "id": "maya-vessel",
+      "chapter": "C5",
+      "rubric": {
+        "orientation": "An inscribed cup allows a learner to distinguish identifying an owner from identifying a maker.",
+        "explanation": "Production, food preparation and exchange appear through separate sources, including households at Cerén.",
+        "evidence": "Sheets distinguishes household production for use, exchange of surplus from part-time specialties, and the exchange of surplus at elite centers. Examples include painted gourds, grinding tools and agave fiber.",
+        "chronology_geography": "An argued Tabasco affiliation remains separate from excavated Cerén in modern El Salvador and from the cup’s twentieth-century collection history.",
+        "perspective": "A named owner and sometimes anonymous makers appear alongside households with productive specialties.",
+        "reading": "The deeper reading identifies the limits of the name reading, missing findspot and contextual evidence that would strengthen the suggested attribution.",
+        "activity": "The family can describe an incised line without decoding it, then use the catalogue capsule to justify an ownership statement.",
+        "connections": "The return question explicitly allows new evidence to weaken the regional attribution."
+      },
+      "evidence": [
+        {
+          "source": "maya-ceren-households-2000",
+          "url": "https://www.cambridge.org/core/journals/ancient-mesoamerica/article/abs/provisioning-the-ceren-household/2EB7D6F6216169EB16CCE318F6A833C5",
+          "locator": "Sheets, Provisioning the Ceren Household, publisher’s abstract, numbered economies 1–3; opening statements on self-provisioning, part-time surplus and elite-center exchange.",
+          "checkedFinding": "Sheets distinguishes household production for use, exchange of surplus from part-time specialties, and the exchange of surplus at elite centers. Examples include painted gourds, grinding tools and agave fiber."
+        }
+      ],
+      "fixes": [],
+      "limits": [
+        "This consultation reached the abstract. The Comalcalco brick edition and Jonuta study underlying the cup’s proposed association remain indirect."
+      ]
+    },
+    {
+      "id": "angkor",
+      "chapter": "C5",
+      "rubric": {
+        "orientation": "Looking beyond Angkor Wat leads the reader to a settlement that included waterworks and areas of habitation.",
+        "explanation": "A branching channel explains how incision can concentrate flow and encourage silt deposition in a neighboring branch.",
+        "evidence": "Penny and colleagues describe incising paths capturing flow, depriving adjacent channels and increasing sedimentation. The supporting experiment is a network model.",
+        "chronology_geography": "The network model uses the configuration attributed to the thirteenth century. The dossier separates that landscape from specific habitation mounds and later temple use.",
+        "perspective": "People who maintained waterworks and grew food enter beside builders and court patrons. Their particular labor arrangements remain a research question.",
+        "reading": "The deeper comparison assigns satellite imagery, lidar elevation, excavation and modeling to different kinds of observation.",
+        "activity": "The family locates named features, then uses the excess-flow example to predict a consequence at a second location.",
+        "connections": "The return question asks which evidence might identify agricultural and maintenance work."
+      },
+      "evidence": [
+        {
+          "source": "angkor-network",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6192684/",
+          "locator": "Penny et al., retained original JATS, model description and phase 3 feedback paragraph; incising channels capture flow and sedimentation reduces the capacity of adjacent paths.",
+          "checkedFinding": "Penny and colleagues describe incising paths capturing flow, depriving adjacent channels and increasing sedimentation. The supporting experiment is a network model."
+        }
+      ],
+      "fixes": [],
+      "limits": [
+        "The simulation establishes a plausible failure mechanism. The earlier configurations and individual causes of relocation cannot all be reconstructed."
+      ]
+    },
+    {
+      "id": "song-art",
+      "chapter": "C5",
+      "rubric": {
+        "orientation": "A dark-glazed bowl supplies a tangible entry into production and exchange before the discussion turns to public lending.",
+        "explanation": "The sequence of public reserves, loans, harvest and tax collection explains why seasonal timing mattered.",
+        "evidence": "The commission proposes half the loan repayment at each of the summer and autumn tax payments, with deferral in a disaster.",
+        "chronology_geography": "The 1069 memorial is fixed in time; the bowl’s eleventh–twelfth-century date crosses the political transition of 1127.",
+        "perspective": "The commission describes its goals. A learner is asked what a borrowing farmer might report about the actual outcome.",
+        "reading": "The deeper comparison of state grain, cash and seasonal collections gives the governance discussion a concrete transaction.",
+        "activity": "Moving an imagined harvest between borrowing and repayment tests the sequence using the supplied diagram.",
+        "connections": "The return prompt asks which questions about production or use a ceramic style label leaves open."
+      },
+      "evidence": [
+        {
+          "source": "song-crop-loans",
+          "url": "https://afe.easia.columbia.edu/main_pop/ps/ps_china-wang-anshi-crop-loans.htm",
+          "locator": "Columbia longer selection, Sources of Chinese Tradition, vol. 1, pp. 617–618, paragraphs on summer/autumn tax installments and disaster deferral.",
+          "checkedFinding": "The commission proposes half the loan repayment at each of the summer and autumn tax payments, with deferral in a disaster."
+        }
+      ],
+      "fixes": [],
+      "limits": [
+        "The memorial reports the rationale for lending and a decision to implement it. Household-level effects would require other records."
+      ]
+    },
+    {
+      "id": "chaco-communities",
+      "chapter": "C5",
+      "rubric": {
+        "orientation": "A wall, a food residue and a living landscape give three distinct ways to investigate Pueblo Bonito.",
+        "explanation": "Great-house stonework and smaller household structures bring masonry, storage and food preparation into the account.",
+        "evidence": "NPS identifies carved steps, masonry stairs and ramps. Only some confirmed road segments connect over long distances, with the Great North and South roads singled out.",
+        "chronology_geography": "Pueblo Bonito’s photographed masonry includes a preservation history. The council resolution belongs to 2025.",
+        "perspective": "The All Pueblo Council of Governors speaks about a present relationship, distinct from institutional archaeological interpretations of prehistoric roads and gathering.",
+        "reading": "The five-fragment cacao comparison keeps the sampled vessels and the probable cylinder-jar subset visible.",
+        "activity": "A child can identify stone courses and wood over an opening, then cite a separate source for a core, an ingredient or a contemporary relationship.",
+        "connections": "The return prompt requires a bounded inference from chemical evidence as well as a claim the sample cannot settle."
+      },
+      "evidence": [
+        {
+          "source": "chaco-roads",
+          "url": "https://www.nps.gov/chcu/learn/historyculture/chacoan-roads.htm",
+          "locator": "National Park Service, Chacoan Roads, paragraphs on the Jackson Stairway, ramps and aerially identified discontinuous segments; examples of the Great North and South roads.",
+          "checkedFinding": "NPS identifies carved steps, masonry stairs and ramps. Only some confirmed road segments connect over long distances, with the Great North and South roads singled out."
+        }
+      ],
+      "fixes": [],
+      "limits": [
+        "Continuous road use, a particular trade itinerary and a universal menu each require evidence beyond these remains."
+      ]
+    },
+    {
+      "id": "kongo-translation",
+      "chapter": "C6",
+      "rubric": {
+        "orientation": "The brass crucifix lets a reader ask who gave an adopted symbol meaning. The account begins with interpreters, students and religious practice.",
+        "explanation": "Raised figures and incised lines supply an example of a maker’s choices. Afonso’s letters show how diplomacy, schooling and trafficking intersected.",
+        "evidence": "In the translated supplement Afonso asks for medical workers and supplies in addition to describing kidnapping. This concrete request supports the discussion of diplomacy and care.",
+        "chronology_geography": "The July and October 1526 letters have specific settings; the cross has a broad object date. The chronology avoids dating its design by progressive resemblance to European forms.",
+        "perspective": "Afonso’s position helps explain his concerns about free people and his authority. The letters cannot speak for those seized.",
+        "reading": "The adult sections identify the missing translator and critical edition, and give reasons to treat descriptions of religious change as interpretations.",
+        "activity": "A child can distinguish the smaller cast figures from a written request for officials to inspect purchases.",
+        "connections": "The return prompt connects changes in meaning with the people negotiating religious practices."
+      },
+      "evidence": [
+        {
+          "source": "afonso-letters-1526",
+          "url": "https://open.library.okstate.edu/interculturalcommunication/chapter/europe-and-africa/",
+          "locator": "Oklahoma State, Primary Source Supplement 1, second letter, last paragraphs requesting two physicians, two apothecaries and one surgeon; compare the preceding letter’s request for priests and educators.",
+          "checkedFinding": "In the translated supplement Afonso asks for medical workers and supplies in addition to describing kidnapping. This concrete request supports the discussion of diplomacy and care."
+        }
+      ],
+      "fixes": [],
+      "limits": [
+        "The English teaching supplement omits the translator and critical edition. Exact wording and the seized people’s experiences require different evidence."
+      ]
+    },
+    {
+      "id": "portuguese-voyage",
+      "chapter": "C6",
+      "rubric": {
+        "orientation": "Asking whose route was new introduces existing port communities and the knowledge on which the expedition relied.",
+        "explanation": "Supplies, the pilot’s services and multilingual conversations explain work on both sides of the ocean crossing.",
+        "evidence": "Ravenstein’s translated journal describes a convict taken to two men from Tunis able to communicate in Castilian and Genoese. This supports a specific encounter at Calicut.",
+        "chronology_geography": "Malindi and Calicut are distinct stops. The late-fifteenth-century voyage, later manuscript copy and 1898 edition are dated separately.",
+        "perspective": "The writer’s Christian framing and account of hostage-taking complicate the reader’s understanding of help and consent.",
+        "reading": "The deeper reading explains why a navigator’s visibility at one moment leaves a partial biography.",
+        "activity": "A child can label one shore-based task and locate its ports without treating the schematic as a reconstructed ship track.",
+        "connections": "The merchant-perspective prompt invites a different question about the arrival. The preceding text explains why local testimony would be needed to substantiate an answer."
+      },
+      "evidence": [
+        {
+          "source": "gama-journal-1898",
+          "url": "https://www.gutenberg.org/cache/epub/46440/pg46440-images.html",
+          "locator": "Ravenstein’s 1898 English edition, Calicut narrative, 21 May entry, paragraph on the convict’s encounter with the two men from Tunis (notes 145–146).",
+          "checkedFinding": "Ravenstein’s translated journal describes a convict taken to two men from Tunis able to communicate in Castilian and Genoese. This supports a specific encounter at Calicut."
+        }
+      ],
+      "fixes": [],
+      "limits": [
+        "This is the visiting party’s surviving narrative in translation; it cannot supply testimony about the event from a named local merchant."
+      ]
+    },
+    {
+      "id": "ming-workshops",
+      "chapter": "C6",
+      "rubric": {
+        "orientation": "The fish jar supplies a concrete object for asking who designed, made, selected and bought porcelain.",
+        "explanation": "The text describes decoration below and above glaze, then follows decisions from court designs to finished wares and disposal.",
+        "evidence": "The Palace Museum distinguishes destruction of rejected ware from collection and burial of ware damaged in use.",
+        "chronology_geography": "The Jiajing-period example and 1542 order for similar jars remain separate from the conventional Ming interval and the 1608 institutional change.",
+        "perspective": "Court officials, private workshops, contracted makers and buyers enter the discussion. Individual makers remain unnamed.",
+        "reading": "The adult comparison of intact vessels and excavated fragments explains how institutional selection affects a museum collection.",
+        "activity": "Tracing a fish and border on the photograph precedes a catalogue-based discussion of glaze and color.",
+        "connections": "The return question asks what might establish an individual buyer, keeping a related order in its proper evidentiary role."
+      },
+      "evidence": [
+        {
+          "source": "ming-palace-production-2016",
+          "url": "https://intl.dpm.org.cn/exhibition/details/63304.html",
+          "locator": "Palace Museum exhibition, opening account of court designs, quality testing, disposal and burial; retained 2016 exhibition HTML.",
+          "checkedFinding": "The Palace Museum distinguishes destruction of rejected ware from collection and burial of ware damaged in use."
+        }
+      ],
+      "fixes": [],
+      "limits": [
+        "This account describes prescribed selection. It supplies neither an actual rejection rate nor the commissioning history of the selected jar."
+      ]
+    },
+    {
+      "id": "mali-networks",
+      "chapter": "C6",
+      "rubric": {
+        "orientation": "A foreign map of Mansa Musa opens a question about where the wealth of a court came from and who appears in a royal image.",
+        "explanation": "Farming, fishing and carrying goods give the reader work to place behind a crown and a gold-colored object.",
+        "evidence": "Berzock’s published caption explains the archaeological frequency of unglazed terracotta, domestic cooking and storage, and transport of fish and grain from the Inland Niger Delta.",
+        "chronology_geography": "Cairo in 1324 is the selected anchor; the later Majorcan atlas and an alternative modern date for the pilgrimage are identified separately.",
+        "perspective": "Mande jeliw, craftspeople, traders and enslaved people receive attention alongside the speaker for a foreign court.",
+        "reading": "The adult sections put excavated fragments back into context and explain how assumptions affect the reading of ruler signs and the atlas crop.",
+        "activity": "A child can identify the three drawn signs and name one task a court portrait leaves out, using the capsule to support the inference.",
+        "connections": "The return question compares the purposes of community storytelling and a foreign image."
+      },
+      "evidence": [
+        {
+          "source": "caravans-fragments",
+          "url": "https://assets.press.princeton.edu/chapters/s14202.pdf",
+          "locator": "Berzock, Caravans of Gold, chapter 1 excerpt, PDF page 4, caption beside the Inland Niger Delta sherd photograph; checked specific claims for cooking, storage and transport.",
+          "checkedFinding": "Berzock’s published caption explains the archaeological frequency of unglazed terracotta, domestic cooking and storage, and transport of fish and grain from the Inland Niger Delta."
+        }
+      ],
+      "fixes": [],
+      "limits": [
+        "The fragment cannot show who transported a particular cargo, and the map cannot measure political borders or the ruler’s treasury."
+      ]
+    },
+    {
+      "id": "middle-niger",
+      "chapter": "C6",
+      "rubric": {
+        "orientation": "The bent clay figure asks readers to study urban life without presupposing a palace or named ruler.",
+        "explanation": "Food supplies, storage buildings and changing furnace locations demonstrate several ways to organize work.",
+        "evidence": "The McIntoshes’ published extract reports prior iron manufacture, growth and an urban high point between 750 and 1100. It grounds the separation between the city’s development and the terracotta figure.",
+        "chronology_geography": "The pre-imperial town, thirteenth-century object date and 1981 acquisition each mean something different.",
+        "perspective": "Daouda Keïta’s translated interview supplies a named Malian archaeologist’s observations on community knowledge and stewardship.",
+        "reading": "The deeper text explains how loss of textiles, erosion and selective sampling affect proposed interpretations of hierarchy.",
+        "activity": "The front and back photographs support description of posture and marks, while the supplied excavation capsule supports a separate statement about storage or craft work.",
+        "connections": "The return question allows a clear observational answer without assigning a feeling to a depicted person."
+      },
+      "evidence": [
+        {
+          "source": "middle-niger-urbanism-1981",
+          "url": "https://www.cambridge.org/core/journals/journal-of-african-history/article/abs/inland-niger-delta-before-the-empire-of-mali-evidence-from-jennejeno/111CBA0644CA0D9EE7B3210C7A8F50F6",
+          "locator": "R. and S. McIntosh, The Inland Niger Delta before the Empire of Mali, publisher’s opening extract on the third-century BCE occupation and the 750–1100 urban high point.",
+          "checkedFinding": "The McIntoshes’ published extract reports prior iron manufacture, growth and an urban high point between 750 and 1100. It grounds the separation between the city’s development and the terracotta figure."
+        }
+      ],
+      "fixes": [],
+      "limits": [
+        "The controlled findspot of the figure remains unknown. The excavated urban sequence cannot establish its custody or original use."
+      ]
+    },
+    {
+      "id": "inca-weaving",
+      "chapter": "C6",
+      "rubric": {
+        "orientation": "The tunic’s seams and decorated surfaces begin an investigation of skilled work, obligations and supplies.",
+        "explanation": "The text connects production to workers’ need for food and distinguishes rotations of service from resettlement.",
+        "evidence": "The Yanawilka study reports 31 tools in its first round and nine repeated plus 22 new tools in the second, giving 53 distinct tools.",
+        "chronology_geography": "The object’s 1450–1550 range crosses the invasion; Guaman Poma wrote in a different colonial setting.",
+        "perspective": "The account places resettled households and an Indigenous colonial author alongside state stores and permission to travel.",
+        "reading": "The adult discussion distinguishes two recovery methods and cautions against using starch presence to reconstruct a route or coercion for one individual.",
+        "activity": "A child can point to openings and patterned areas, then name separate garment-making and provisioning tasks using the diagram.",
+        "connections": "The return prompt invites an answer about labor that a ruler list could miss."
+      },
+      "evidence": [
+        {
+          "source": "yanawilka-food",
+          "url": "https://doi.org/10.1017/S0959774324000258",
+          "locator": "Cambridge Archaeological Journal, Food and Labour under Imperial Rule, methods paragraph before Table 1, two rounds of starch recovery and their overlapping sample. Publisher full text reached by article title.",
+          "checkedFinding": "The Yanawilka study reports 31 tools in its first round and nine repeated plus 22 new tools in the second, giving 53 distinct tools."
+        }
+      ],
+      "fixes": [],
+      "limits": [
+        "The residue study supplies evidence of household food processing. It leaves this particular tunic’s maker, labor terms and route unknown."
+      ]
+    },
+    {
+      "id": "polynesian-voyaging",
+      "chapter": "C6",
+      "rubric": {
+        "orientation": "The investigation treats keeping course, preparing supplies and teaching as practices through which knowledge survives.",
+        "explanation": "Planning a reference course, tracking movement and recognizing landfall distinguish several kinds of judgment.",
+        "evidence": "Te Ara counts generations to illustrate how an assumed generation length changes the resulting calendar estimate. The later archaeological paper independently reports different North and South Island date ranges.",
+        "chronology_geography": "The island settlement windows, rat study and documented 1976 voyage each answer a different chronological question.",
+        "perspective": "The account names Māori researcher Haki Tuaupiki and navigator Jack Thatcher; the Hawaiian teaching system has its own attributed setting.",
+        "reading": "The adult path distinguishes chronological models from whakapapa and preserves the need for language expertise in interpreting oral sources.",
+        "activity": "The four-card family activity can be completed from the text and asks learners to sort preparations, practice, material traces and later demonstration.",
+        "connections": "The return prompt invites a locally meaningful example of learning by practice without requiring a reconstruction of ancestral navigation."
+      },
+      "evidence": [
+        {
+          "source": "nz-settlement",
+          "url": "https://teara.govt.nz/en/when-was-new-zealand-first-settled",
+          "locator": "Irwin and Walrond, Te Ara print view, Genealogical dating, paragraph explaining 24–27 generations and the assumed 25-year interval; compare Bunbury, Petchey and Bickler, JCU record 76732, Abstract, for the separate island model outputs.",
+          "checkedFinding": "Te Ara counts generations to illustrate how an assumed generation length changes the resulting calendar estimate. The later archaeological paper independently reports different North and South Island date ranges."
+        }
+      ],
+      "fixes": [],
+      "limits": [
+        "Only published descriptions of the oral sources were consulted. The research does not recover an ancestral crew, complete itinerary or individual date of departure."
+      ]
+    },
+    {
+      "id": "cahokia-city",
+      "chapter": "C6",
+      "rubric": {
+        "orientation": "The later view of a mound prompts a question about the distinction between the changing urban center and continuing Indigenous histories.",
+        "explanation": "Housing, wood consumption and the stages of copperworking place actual tasks beside explanations of landscape change.",
+        "evidence": "Chastain and colleagues describe eight sheet-copper pieces from Perino’s 1956 backdirt as probable scraps or blanks and compare laboratory cutting trials with individual archaeological pieces.",
+        "chronology_geography": "The urban study interval, the 1907 print and current Tribal preservation accounts each cover distinct periods and scales.",
+        "perspective": "The Osage preservation account and the account of a Peoria visit identify different speakers and audiences.",
+        "reading": "The deeper reading distinguishes evidence that can test soil erosion from assumptions behind lake-based population reconstructions.",
+        "activity": "A child can identify rows and a mound in the print, then explain why buried metalworking requires separate evidence.",
+        "connections": "The return prompt requires separate statements about urban change, estimates of regional population and enduring Indigenous histories."
+      },
+      "evidence": [
+        {
+          "source": "cahokia-copper-2011",
+          "url": "https://www.dunand.northwestern.edu/pdf/chastain2011.pdf",
+          "locator": "Chastain et al., sections 2.1 (eight objects, Mound 34, 1956 backdirt) and 4–5 (fatigue-based cutting inference strongest for artifact 6 and tentative for 7–8).",
+          "checkedFinding": "Chastain and colleagues describe eight sheet-copper pieces from Perino’s 1956 backdirt as probable scraps or blanks and compare laboratory cutting trials with individual archaeological pieces."
+        }
+      ],
+      "fixes": [],
+      "limits": [
+        "The excavation context and repeated heating limit recovery of the original sequence. Neither these objects nor a later photograph can identify all inhabitants."
+      ]
+    }
+  ]
+}

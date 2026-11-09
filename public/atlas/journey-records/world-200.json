@@ -1,0 +1,59 @@
+{
+  "journey": "world-200",
+  "revision": "cad50831c5e110d289972313f588e7ba044f10ea717562f09280164b0fd8307b",
+  "stops": [
+    {
+      "index": 0,
+      "narrative": "Look closely before reading. Name one feature you can see and one idea you are inferring. Then investigate why a model might enter a tomb."
+    },
+    {
+      "index": 1,
+      "narrative": "A gem carries the portrait of a woman from Syria in Rome’s ruling family. Compare the scale of an object with the reach of its political message."
+    },
+    {
+      "index": 2,
+      "narrative": "Read the names on a family memorial. Follow a sourced network through intermediate cities, and keep the family’s choices separate from the history of every traveler."
+    },
+    {
+      "index": 3,
+      "narrative": "Inspect both sides of the Kanishka coin. Its catalogue date is earlier than our anchor. What does a royal image communicate, and what find evidence would establish circulation?"
+    },
+    {
+      "index": 4,
+      "narrative": "Locate Aksum and the Red Sea. Distinguish a Roman bottle used as a type comparison from an object actually excavated at Aksum. Notice how later monuments complicate a single-year snapshot."
+    },
+    {
+      "index": 5,
+      "narrative": "Cross to the north coast of Peru. Investigate irrigation and pottery without drawing a contact line from Eurasia. Then look at Teotihuacan’s different urban setting."
+    },
+    {
+      "index": 6,
+      "narrative": "Count the frogs, consider bronze manufacture and examine the catalogue’s competing explanations. A broad distribution does not establish a single use."
+    },
+    {
+      "index": 7,
+      "narrative": "Compare with the Han tower. Separate visible form, proposed function and confidence. Choose a supported claim, then save a question to revisit."
+    }
+  ],
+  "conclusion": "Our shared timeline placed distant societies in view without turning them into one connected world. Specific routes and objects supported some connections; comparison helped us ask questions elsewhere. A historical claim becomes stronger when it states its limits.",
+  "evidence": {
+    "prompt": "Which claim follows from comparing the Han tower and Colima model?",
+    "options": [
+      {
+        "text": "Everyone in Eastern Han China lived in a tower.",
+        "supported": false,
+        "feedback": "An elite burial model cannot represent every household. We would need settlement and household evidence."
+      },
+      {
+        "text": "The models help investigate buildings, social meanings and possible ritual uses.",
+        "supported": true,
+        "feedback": "This is appropriately limited. The catalogues and curatorial account support these questions while preserving uncertainty."
+      },
+      {
+        "text": "Their resemblance proves trade between China and Mexico.",
+        "supported": false,
+        "feedback": "Similarity and overlapping dates establish neither contact nor a route. Evidence for an actual mechanism is missing."
+      }
+    ]
+  }
+}

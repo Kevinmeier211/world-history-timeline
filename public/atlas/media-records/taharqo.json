@@ -1,0 +1,49 @@
+{
+  "subject": "taharqo",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "met-544883",
+      "caption": "A royal shabti of Taharqo; the Nuri origin is probable.",
+      "notice": [
+        "Which details identify a royal figure?",
+        "What does “probably” change in an object label?"
+      ],
+      "creator": "Maker not recorded",
+      "place": "Probably from Taharqo’s pyramid at Nuri, Sudan",
+      "material": "Granite  [a Nubian variety]",
+      "relevance": "Funerary labor, Kushite kingship and qualified provenance.",
+      "additionalImages": []
+    },
+    {
+      "id": "sanam-workshop-view",
+      "caption": "The excavators annotate three firing pits, two basins and collapsed mudbrick, with a 5 m scale bar. No north arrow is supplied. This modern excavation view supports a spatial account of production; it is not an ancient plan or a picture of a known firing day. The broad workshop chronology does not identify a particular ruler’s commission or establish the origin of the Met granite figure. Original bounds retained without cropping or enhancement.",
+      "notice": [
+        "Find the three pits and two basins.",
+        "Which parts are photographed remains and which are the excavators’ annotations?"
+      ],
+      "creator": "Rennan Lemos, Kathryn Howley, Siobhan Shinn and Shadia Abdu Rabo; figure by the authors",
+      "place": "Sanam, Sudan; excavated production area",
+      "material": "Modern annotated orthophoto of an excavation",
+      "representedDate": "Workshop context broadly Early–Middle Napatan; abstract uses mid-seventh-century BCE, while pottery parallels span wider intervals",
+      "relevance": "Makes a material production space visible while retaining the excavators’ chronology and interpretation limits.",
+      "additionalImages": [],
+      "printWidthMm": 145
+    },
+    {
+      "id": "sanam-mould-match",
+      "caption": "The excavators match a faience shabti fragment found in the workshop to a mould found inside the temple. The fragment is uninscribed; it does not name Taharqo. The small original scale has no readable unit, so no centimetre measurement is inferred. This is a different material and object from the selected Met granite figure. The 512-pixel source retains its natural-size ceiling; format conversion adds no recovered detail.",
+      "notice": [
+        "Compare the raised shape with the hollow mould.",
+        "Why does a match support making, while leaving the buyer or royal name uncertain?"
+      ],
+      "creator": "Ancient makers not recorded; photograph credited to the article’s authors",
+      "place": "Sanam, Sudan. Shabti fragment from the workshop, mould from inside the temple.",
+      "material": "Faience fragment and clay negative mould, photographed together",
+      "representedDate": "Early–Middle Napatan production context, with the article’s different ceramic-dating conventions retained",
+      "relevance": "Shows a consequential material match without attributing an uninscribed faience object to a named king or granite workshop.",
+      "additionalImages": [],
+      "printWidthMm": 100
+    }
+  ]
+}

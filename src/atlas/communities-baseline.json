@@ -1,0 +1,617 @@
+{
+  "startingCommit": "01e97998a0ef0e9ed2512fde5b14fde844e7df41",
+  "subjects": [
+    {
+      "aliases": ["Ancestral Puebloan", "Pueblo Bonito", "Chaco Canyon"],
+      "terms": ["evidence", "inference", "biomarker", "kiva"],
+      "dimensions": {
+        "coordination": {
+          "text": "Masonry, timber acquisition, water management and gathering practices connect skilled work to a regional center.",
+          "citations": [
+            {
+              "source": "chaco-history",
+              "locator": "Great-house construction and regional system"
+            }
+          ]
+        },
+        "evidence-limits": {
+          "text": "Surviving buildings, chemical residues and community statements establish different kinds of knowledge; none supplies a complete census or route map.",
+          "citations": [
+            {
+              "source": "chaco-cacao",
+              "locator": "Sample selection, results and implications"
+            }
+          ]
+        }
+      },
+      "status": "published",
+      "id": "chaco-communities",
+      "name": "Chaco: building, gathering and continuing histories",
+      "kind": "place",
+      "region": "Americas",
+      "place": "Chaco Canyon, San Juan Basin, New Mexico, United States",
+      "coordinates": [-107.96, 36.06],
+      "geographicPrecision": "Pueblo Bonito site locator. The regional Chacoan system extended beyond this point; no fixed political border is drawn.",
+      "interval": {
+        "start": 850,
+        "end": 1250,
+        "label": "Selected Chaco regional context, c. 850–1250 CE",
+        "note": "Regional frame. Pueblo Bonito construction c850–1150 and changes in the 1100s/1200s are distinct; this endpoint does not end Pueblo peoples or their ties to Chaco.",
+        "precision": "approximate"
+      },
+      "packs": ["C5", "C6"],
+      "question": "What connects a stone building, a traded ingredient and a living cultural landscape?",
+      "summary": "Ancestral Pueblo people built great houses with planned masonry, timber and ceremonial spaces in an environment with limited rainfall. Chaco linked communities across the San Juan Basin and beyond. Archaeological chemistry adds evidence of cacao movement, while Pueblo accounts and contemporary community statements insist that this landscape’s history does not end when a regional center changes.",
+      "sections": [
+        {
+          "title": "Constructing a place to gather",
+          "text": "Pueblo Bonito was built in stages over roughly three centuries. Quarrying, shaping and placing stone, obtaining timber and organizing rooms were different kinds of work. NPS distinguishes this building history from Chaco’s broader regional system and describes a gathering place where peoples and clans shared knowledge and ceremonies. The surviving walls show impressive construction; they cannot, on their own, tell us the identity of every worker or occupant.",
+          "citations": [
+            {
+              "source": "chaco-history",
+              "locator": "Great houses, construction, gathering and descendants’ accounts"
+            }
+          ]
+        },
+        {
+          "title": "A chemical result with a limited reach",
+          "text": "Crown and Hurst’s 2009 study selected fragments representing five vessels from Pueblo Bonito. Three probable cylinder-jar samples yielded theobromine, interpreted as cacao evidence. The sherds were dated stylistically to about 1000–1125 CE. This supports movement of a tropical ingredient into the Southwest. It does not identify each intermediary, establish a precise route, or prove that every household drank the same beverage. The published study’s vessel photograph has separate copyright and is not reproduced here.",
+          "citations": [
+            {
+              "source": "chaco-cacao",
+              "locator": "Sample selection and HPLC-MS results, pp2110–2112"
+            }
+          ]
+        },
+        {
+          "title": "Changing centers are not disappearing peoples",
+          "text": "New construction slowed and Chaco’s regional role changed in the 1100s and 1200s. Migration and reorganization are different from extinction. NPS describes continued connections with other centers and with modern Southwest communities. Our c850–1250 window defines a selected regional context; the narrower c850–1150 dates for Pueblo Bonito describe construction of a building, not the duration of all Pueblo history.",
+          "citations": [
+            {
+              "source": "chaco-bonito",
+              "locator": "Construction in stages, 850–1150 CE"
+            },
+            {
+              "source": "chaco-history",
+              "locator": "Changes in the 1100s/1200s, migration and continuing connections"
+            }
+          ]
+        },
+        {
+          "title": "Whose evidence belongs in the account?",
+          "text": "A 2025 resolution of the All Pueblo Council of Governors describes Greater Chaco’s continuing spiritual, historical and cultural significance to Pueblos and Tribes including Hopi. It is a community-authored source about living relationships with the landscape, not an archaeological date for a wall. Reading it alongside material evidence helps prevent the mistaken story that ancient construction left no connected people. The resolution is cited in its dated context, without claiming its policy requests describe current law.",
+          "citations": [
+            {
+              "source": "chaco-pueblo-council",
+              "locator": "Page 1, second WHEREAS clause; dated resolution"
+            }
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "chaco-communities-checked",
+          "text": "The 2009 analysis detected theobromine in three of five tested vessel-fragment samples; the result supports cacao use at Pueblo Bonito, not universal access or an exact route.",
+          "citations": [
+            {
+              "source": "chaco-cacao",
+              "locator": "Sample selection and Results, three probable cylinder-jar samples"
+            }
+          ],
+          "status": "published",
+          "checkedBy": "Codex source consultation and self-review; not independent historian approval",
+          "checkedOn": "2026-10-27"
+        }
+      ],
+      "objectIds": ["chaco-corner-door"],
+      "returnPrompt": "Explain one conclusion supported by the cacao analysis and one stronger claim it cannot establish.",
+      "dimensionKeys": ["coordination", "evidence-limits"]
+    },
+    {
+      "aliases": ["Cahokia", "Mississippian", "Monks Mound", "Greater Cahokia"],
+      "terms": ["evidence", "inference", "proxy", "chiefdom"],
+      "dimensions": {
+        "coordination": {
+          "text": "Concentrated settlement combined monumental construction, agriculture, neighborhoods and specialized work under unequal authority.",
+          "citations": [
+            {
+              "source": "cahokia-unesco",
+              "locator": "Description and Brief synthesis"
+            }
+          ]
+        },
+        "evidence-limits": {
+          "text": "A later photograph shows surviving landforms; excavation and contested lake proxies address a broader urban and regional history.",
+          "citations": [
+            {
+              "source": "cahokia-critique",
+              "locator": "Abstract and alternative proxy explanations"
+            }
+          ]
+        }
+      },
+      "status": "published",
+      "id": "cahokia-city",
+      "name": "Cahokia: city life and the problem of disappearance",
+      "kind": "place",
+      "region": "Americas",
+      "place": "Mississippi River floodplain near present-day Collinsville, Illinois, United States",
+      "coordinates": [-90.062, 38.661],
+      "geographicPrecision": "Cahokia core-site locator; Greater Cahokia and other Mississippian communities are not merged into one state.",
+      "interval": {
+        "start": 1050,
+        "end": 1400,
+        "label": "Selected urban context, c. 1050–1400 CE",
+        "note": "Urban investigation frame used in the 2020 study; UNESCO describes broader occupation from c800 and an urban peak c1050–1150. The boundary does not assert that Indigenous life ended here.",
+        "precision": "approximate"
+      },
+      "packs": ["C6"],
+      "question": "How do we tell the end of an urban center from the end of a people?",
+      "summary": "Cahokia was a large settlement with earthen monuments, neighborhoods, public spaces and working areas connected to a much wider region. Its history includes concentrated authority and ordinary labor. Archaeologists continue to debate later regional population patterns. Calling the city’s decline a vanished civilization would erase both differences in the evidence and later Indigenous histories.",
+      "sections": [
+        {
+          "title": "A city larger than one mound",
+          "text": "Monks Mound dominates many images, but UNESCO also identifies residential, public and specialized activity areas. The city’s working life cannot be reduced to a monumental silhouette. The Illinois research program studies a wider urban landscape with multiple precincts. This dossier locates the core and asks how concentrated settlement was built; it does not draw an empire around every place with related Mississippian material.",
+          "citations": [
+            {
+              "source": "cahokia-illinois",
+              "locator": "Greater Cahokia, urban core and earthmoving around 1050 CE"
+            }
+          ]
+        },
+        {
+          "title": "Work, food and unequal power",
+          "text": "Agriculture, earthmoving, building and making things sustained the settlement. UNESCO interprets Cahokia as a complex chiefdom with surrounding centers and villages. That interpretation supports investigating unequal authority, but a site plan does not identify the conditions of every worker. The regional label Mississippian covers many communities and times. A similar ceramic form or mound is not proof that every maker was governed from Cahokia.",
+          "citations": [
+            {
+              "source": "cahokia-unesco",
+              "locator": "Description and Brief synthesis: agricultural society, chiefdom and activity areas"
+            }
+          ]
+        },
+        {
+          "title": "What happened after the city changed?",
+          "text": "White and colleagues used lake-sediment fecal stanols together with archaeological, historical and environmental evidence to argue for renewed Indigenous population around Horseshoe Lake after the urban decline. Skousen and Aiuvalasit challenged that reconstruction and the attribution of particular populations, citing alternative explanations and regional datasets. This disagreement concerns how indirect evidence supports population history. A lake proxy is not a direct count, and this atlas does not choose a precise post-1400 population curve as settled fact.",
+          "citations": [
+            {
+              "source": "cahokia-after",
+              "locator": "Abstract and population-reconstruction design; read with the paired critique"
+            },
+            {
+              "source": "cahokia-critique",
+              "locator": "Authors’ abstract: alternative explanations and regional datasets"
+            }
+          ]
+        },
+        {
+          "title": "A later photograph and a continuing question",
+          "text": "The 1907 print shows a surviving mound long after the urban era, not an occupied medieval city. Its missing houses and people cannot be treated as proof that the wider landscape was empty. Compare the photograph, excavated activity areas and the disputed environmental reconstruction. The critical account keeps the city, the broader region, later populations and modern interpretations separate.",
+          "citations": [
+            {
+              "source": "cahokia-critique",
+              "locator": "Authors’ abstract: archaeological/historical datasets and alternative stanol explanations"
+            }
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "cahokia-city-checked",
+          "text": "The post-1400 Horseshoe Lake population reconstruction is debated; the proxy should not be presented as an uncontested census or a certain identification of a people.",
+          "citations": [
+            {
+              "source": "cahokia-critique",
+              "locator": "Abstract, critique of population and identity interpretation"
+            }
+          ],
+          "status": "published",
+          "checkedBy": "Codex source consultation and self-review; not independent historian approval",
+          "checkedOn": "2026-10-27"
+        }
+      ],
+      "objectIds": ["cahokia-view-1907"],
+      "returnPrompt": "Distinguish the city’s changing role, a regional population estimate and the continuing history of Indigenous peoples.",
+      "dimensionKeys": ["coordination", "evidence-limits"]
+    },
+    {
+      "aliases": ["Ocmulgee", "Muscogee", "Creek", "Earth Lodge", "Earthlodge"],
+      "terms": [
+        "evidence",
+        "inference",
+        "radiocarbon",
+        "reconstruction",
+        "terminus-post-quem"
+      ],
+      "dimensions": {
+        "materials": {
+          "text": "Surviving clay, wooden supports and a modern protective reconstruction require different explanations.",
+          "citations": [
+            {
+              "source": "ocmu-earthlodge",
+              "locator": "Ancient floor and reconstructed walls/ceiling"
+            }
+          ]
+        },
+        "knowledge": {
+          "text": "Community collaboration and council-house history keep an ancestral place within a history of political continuity and change.",
+          "citations": [
+            {
+              "source": "muscogee-councilhouse",
+              "locator": "Council House as a bridge from southeastern homelands"
+            }
+          ]
+        },
+        "evidence-authority": {
+          "text": "Revised sample analysis can change a familiar institutional date without making a new exact birthday.",
+          "citations": [
+            {
+              "source": "ocmu-chronology",
+              "locator": "Earthlodge results and discussion"
+            }
+          ]
+        }
+      },
+      "status": "published",
+      "id": "ocmulgee-council",
+      "name": "Ocmulgee: a council building, a revised date and continuing ties",
+      "kind": "place",
+      "region": "Americas",
+      "place": "Ocmulgee, beside the Ocmulgee River, present-day Macon, Georgia",
+      "coordinates": [-83.596, 32.839],
+      "geographicPrecision": "Locator for one ancestral place, not a boundary for all Muscogee towns or the findspot of every dated sample.",
+      "interval": {
+        "start": null,
+        "end": null,
+        "label": "Earthlodge construction chronology under revision",
+        "note": "No settled construction/use endpoints are plotted. The older 1015 label is a median of early radiocarbon determinations; newer roof-wood evidence indicates cutting sometime after c.1160 and leaves possible earlier construction unresolved. Neither observation dates the lifespan of Muscogee people or the whole Ocmulgee site.",
+        "precision": "disputed",
+        "alternatives": [
+          {
+            "label": "NPS retains 1015, an older median date; this is not a directly observed construction year.",
+            "citations": [
+              {
+                "source": "ocmu-earthlodge",
+                "locator": "Older date label"
+              },
+              {
+                "source": "ocmu-chronology",
+                "locator": "Discussion: older median"
+              }
+            ]
+          },
+          {
+            "label": "New roof-wood evidence indicates cutting sometime after c.1160; possible earlier construction remains unresolved.",
+            "citations": [
+              {
+                "source": "ocmu-chronology",
+                "locator": "Earthlodge results and discussion"
+              }
+            ]
+          }
+        ]
+      },
+      "packs": ["C6"],
+      "question": "How can a building bring people together while its history remains open to revision?",
+      "summary": "Ocmulgee’s Earthlodge joins surviving clay, reconstructed walls and roof, archaeological interpretation and Muscogee connections to an ancestral place. Its arranged seating helps investigate a public gathering space. New dating work changes the familiar story, while community collaboration challenges the idea that a gap in an old chart proves that people abandoned a place forever.",
+      "sections": [
+        {
+          "title": "Separate the surviving building from the reconstruction",
+          "text": "NPS identifies the clay floor as surviving ancient material, while the walls and ceiling were reconstructed in the late 1930s. The exterior photograph therefore shows an interpretation protecting an archaeological interior. It cannot reveal the exact ancient roof or who sat in each seat. Read the structure’s arrangement as evidence for gathering; a reconstructed doorway is not an untouched medieval entrance.",
+          "citations": [
+            {
+              "source": "ocmu-earthlodge",
+              "locator": "Reconstruction paragraph: surviving floor and late-1930s walls/ceiling"
+            },
+            {
+              "source": "ocmu-floor-image",
+              "locator": "Specific Earth Lodge floor carousel item, NPS credit and absent exposure date"
+            }
+          ]
+        },
+        {
+          "title": "A precise-looking date may hide an older method",
+          "text": "The collaborative study explains that 1015 is a median from older radiocarbon work. Newly analyzed roof wood instead indicates cutting sometime after about 1160; cane samples may also reflect an earlier structure. A latest preserved tree ring is not automatically the day a building was completed. This account retains the disagreement without drawing a false span between two unlike dates.",
+          "citations": [
+            {
+              "source": "ocmu-chronology",
+              "locator": "Results: Earthlodge; Discussion: Earthlodge and Public Buildings"
+            }
+          ]
+        },
+        {
+          "title": "Gathering was part of political life",
+          "text": "The seating around the room and the more prominent platform support interpretation as a public council space. Elsewhere, NPS describes Muscogee political organization through towns, surrounding villages and councils. These are useful questions about organization rather than a recovered roll call for this particular room. Ancestral connections do not establish that every later office or custom already existed in exactly the same form.",
+          "citations": [
+            {
+              "source": "ocmu-chronology",
+              "locator": "Earthlodge and Council Houses: seating and public-building interpretation"
+            },
+            {
+              "source": "ocmu-muscogee",
+              "locator": "Early Interactions: towns, villages and councils"
+            }
+          ]
+        },
+        {
+          "title": "An archaeological gap is not a vanished people",
+          "text": "The study questions a simple site-wide abandonment story and works with Muscogee collaborators. Community history at the Council House in Okmulgee traces a bridge from southeastern homelands through forced removal to renewed political life in Indian Territory. That later building is not the Ocmulgee Earthlodge. Together these accounts invite a better question: what changed in a particular place, and what evidence shows continuing relationships?",
+          "citations": [
+            {
+              "source": "muscogee-councilhouse",
+              "locator": "The Council House: bridge from southeastern homelands; governmental role from 1878"
+            },
+            {
+              "source": "ocmu-chronology",
+              "locator": "Discussion: chronology, abandonment and Muscogee collaboration"
+            }
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "ocmulgee-council-checked",
+          "text": "The familiar 1015 construction label and newer roof-wood evidence answer different dating questions; the Earthlodge has no settled exact construction year in this atlas.",
+          "citations": [
+            {
+              "source": "ocmu-chronology",
+              "locator": "Discussion: older median date, timber after c.1160 and possible earlier structure"
+            }
+          ],
+          "status": "published",
+          "checkedBy": "Codex source consultation and self-review; not independent historian approval",
+          "checkedOn": "2026-10-27"
+        }
+      ],
+      "objectIds": ["ocmulgee-floor", "ocmulgee-exterior"],
+      "returnPrompt": "Choose one visible feature and one dating claim. What would you need to know before calling each ancient, reconstructed or uncertain?",
+      "dimensionKeys": ["materials", "knowledge", "evidence-authority"]
+    }
+  ],
+  "media": [
+    {
+      "id": "chaco-corner-door",
+      "subject": "chaco-communities",
+      "source": "chaco-nps-photo",
+      "title": "Masonry and a corner doorway at Pueblo Bonito",
+      "accession": "NPS Pueblo-Bonito_1.jpg",
+      "creator": "National Park Service; individual photographer not supplied",
+      "date": {
+        "start": null,
+        "end": null,
+        "label": "Modern photograph; exposure date not supplied",
+        "precision": "unknown",
+        "note": "No photographic date is given. NPS dates the selected construction context to about 850–1150 CE; this is a view of surviving masonry, not a reconstruction of an occupied building."
+      },
+      "representedDate": "Pueblo Bonito construction, approximately 850–1150 CE",
+      "place": "Chaco Canyon, New Mexico, United States",
+      "material": "Digital photograph of surviving stone architecture",
+      "image": "/atlas/media/chaco-corner-door-0.webp",
+      "width": 1600,
+      "height": 1200,
+      "thumbnail": "/atlas/media/chaco-corner-door-thumb.webp",
+      "additionalImages": [],
+      "alt": "Surviving layered stone walls and a corner doorway at Pueblo Bonito, with exposed wooden beams.",
+      "caption": "The photograph draws attention to masonry and access between rooms. It does not show the building as it looked when occupied, or tell us every room’s use. The larger landscape still carries significance for Pueblo peoples and other traditionally associated communities.",
+      "notice": [
+        "How do builders arrange stones of different sizes?",
+        "Which materials survive better than others?"
+      ],
+      "relevance": "Opens questions about construction work, preservation and the limits of a visitor’s view.",
+      "rights": "U.S. Government work; public domain in the United States (NPS Photo credit and ownership policy)",
+      "credit": "National Park Service, Places To Go, Chaco Culture National Historical Park. Caption identifies a corner doorway at Pueblo Bonito. No protection claimed in original U.S. Government works.",
+      "sourceImage": "https://www.nps.gov/chcu/planyourvisit/images/Pueblo-Bonito_1.jpg",
+      "depiction": "later depiction",
+      "datingNote": "No photographic date is given. NPS dates the selected construction context to about 850–1150 CE; this is a view of surviving masonry, not a reconstruction of an occupied building."
+    },
+    {
+      "id": "cahokia-view-1907",
+      "subject": "cahokia-city",
+      "source": "cahokia-loc-1907",
+      "title": "Illinois, Cahokia Mound, October 16, 1907",
+      "accession": "Library of Congress 97505973; LC-USZ62-118522",
+      "creator": "National Photographic Library, copyright credit on the original",
+      "date": {
+        "start": 1907,
+        "end": 1907,
+        "label": "1907 photomechanical print",
+        "precision": "exact",
+        "note": "The catalogue dates the print c1907 and its title names 16 October 1907. This is later documentation, not a picture of the occupied medieval city."
+      },
+      "representedDate": "Surviving Cahokia earthwork photographed in 1907",
+      "place": "Cahokia Mounds, Illinois, United States",
+      "material": "Photomechanical print, rotogravure; digital reproduction",
+      "image": "/atlas/media/cahokia-view-1907-0.webp",
+      "width": 1024,
+      "height": 820,
+      "thumbnail": "/atlas/media/cahokia-view-1907-thumb.webp",
+      "additionalImages": [],
+      "alt": "Historic black-and-white view of the large Cahokia mound in a much later open landscape.",
+      "caption": "A 1907 print documents a surviving mound centuries after Cahokia’s urban era. It cannot show the vanished houses, working spaces or full urban population. Compare its narrow field of view with archaeological evidence for the larger settlement.",
+      "printCaption": "A 1907 view of a surviving mound, not a picture of the inhabited city. Houses, workplaces and the wider settlement require other evidence.",
+      "printCredit": "Library of Congress, LOT 3889; LC-USZ62-118522. National Photographic Library, c1907.",
+      "notice": [
+        "What occupies most of this photograph?",
+        "Which parts of city life would leave little trace in this view?"
+      ],
+      "relevance": "Distinguishes later documentation from evidence of an occupied city.",
+      "rights": "Public domain in the United States: U.S. photomechanical print published/copyrighted in 1907; original copyright has expired",
+      "credit": "Library of Congress, Prints and Photographs Division, LOT 3889; LC-USZ62-118522. Original credited to National Photographic Library, c1907.",
+      "sourceImage": "https://tile.loc.gov/storage-services/service/pnp/cph/3c10000/3c18000/3c18500/3c18522v.jpg",
+      "depiction": "later depiction",
+      "datingNote": "The catalogue dates the print c1907 and its title names 16 October 1907. This is later documentation, not a picture of the occupied medieval city."
+    },
+    {
+      "id": "ocmulgee-floor",
+      "subject": "ocmulgee-council",
+      "source": "ocmu-floor-image",
+      "title": "Ocmulgee Earthlodge: surviving clay",
+      "accession": "Earth Lodge floor, NPS image 3C79797E",
+      "creator": "National Park Service; individual photographer not named",
+      "date": {
+        "start": null,
+        "end": null,
+        "label": "Modern interior photograph; exposure undated",
+        "precision": "unknown",
+        "note": "NPS supplies no exposure date. The surviving archaeological clay and reconstructed shelter have different dates. Source is 526×339 pixels and is not enlarged."
+      },
+      "representedDate": "Surviving archaeological floor and seating under a modern protective reconstruction",
+      "place": "Ocmulgee Earthlodge, Georgia",
+      "material": "Digital photograph of archaeological clay floor and reconstructed interior",
+      "image": "/atlas/media/ocmulgee-floor-0.webp",
+      "width": 526,
+      "height": 339,
+      "thumbnail": "/atlas/media/ocmulgee-floor-thumb.webp",
+      "additionalImages": [],
+      "alt": "Clay floor with a raised platform beneath reconstructed wooden supports and roof timbers.",
+      "caption": "The surviving clay floor and raised platform sit within a reconstructed shelter. The NPS image caption’s older 1015 date is assessed against newer collaborative research rather than copied as settled. The photograph has no supplied exposure date; its limited original resolution is retained.",
+      "printCaption": "Clay floor and raised platform beneath reconstructed walls and roof. Construction chronology remains debated.",
+      "printCredit": "National Park Service. Source 526×339; no upscaling.",
+      "notice": [
+        "Find the raised clay platform and the wooden supports.",
+        "Which parts might survive if the wooden shelter disappeared?"
+      ],
+      "relevance": "Allows close inspection of real surviving material while keeping restoration and dating claims separate.",
+      "rights": "U.S. Government work; public domain in the United States.",
+      "credit": "National Park Service, Ocmulgee Mounds image carousel, Earth Lodge floor. Source photograph 526×339; no upscaling.",
+      "sourceImage": "https://www.nps.gov/common/uploads/structured_data/3C79797E-1DD8-B71B-0B467EFC07A0E785.jpg",
+      "depiction": "object photograph",
+      "datingNote": "NPS supplies no exposure date. The surviving archaeological clay and reconstructed shelter have different dates. Source is 526×339 pixels and is not enlarged."
+    },
+    {
+      "id": "ocmulgee-exterior",
+      "subject": "ocmulgee-council",
+      "source": "ocmu-earthlodge",
+      "title": "Ocmulgee Earthlodge: reconstructed exterior",
+      "accession": "NPS Earth Lodge place record; NPS/Martinson photograph",
+      "creator": "NPS / Martinson",
+      "date": {
+        "start": null,
+        "end": null,
+        "label": "Modern reconstruction; photograph exposure undated",
+        "precision": "unknown",
+        "note": "The exterior shows reconstructed walls/roof, not an ancient photograph. Source supplies no exposure date."
+      },
+      "representedDate": "Modern protective reconstruction above surviving ancient clay; construction chronology debated",
+      "place": "Ocmulgee Mounds, Georgia",
+      "material": "Digital photograph of a reconstructed building",
+      "image": "/atlas/media/ocmulgee-exterior-0.webp",
+      "width": 1600,
+      "height": 900,
+      "thumbnail": "/atlas/media/ocmulgee-exterior-thumb.webp",
+      "additionalImages": [],
+      "alt": "Grass-covered reconstructed Earthlodge with a wooden doorway and modern path.",
+      "caption": "The modern walls and roof protect a surviving archaeological floor. This exterior cannot show the exact ancient roof or settle the building’s date. The older NPS 1015 label is discussed beside newer collaborative dating research.",
+      "printCaption": "Reconstructed exterior protecting surviving clay. Exposure undated; construction chronology is debated.",
+      "notice": [
+        "Which features are visible, and which are hidden inside?",
+        "What evidence would distinguish a reconstruction from a surviving ancient surface?"
+      ],
+      "relevance": "Makes restoration and surviving archaeological material separate parts of the inquiry.",
+      "rights": "U.S. Government work; public domain in the United States (explicit NPS/Martinson credit)",
+      "credit": "National Park Service / Martinson. Earth Lodge, Ocmulgee Mounds National Historical Park.",
+      "sourceImage": "https://www.nps.gov/common/uploads/cropped_image/primary/9CB0B003-C3B0-29D4-D84E1EE1945DDC41.jpeg?width=1600&quality=90&mode=crop",
+      "depiction": "later depiction",
+      "datingNote": "The exterior shows reconstructed walls/roof, not an ancient photograph. Source supplies no exposure date."
+    }
+  ],
+  "oldComparisons": [
+    {
+      "id": "chaco-communities--cahokia-city",
+      "subjects": ["chaco-communities", "cahokia-city"],
+      "question": "How can archaeology test explanations of gathering and change?"
+    }
+  ],
+  "retainedSources": [
+    {
+      "id": "chaco-cacao",
+      "title": "Evidence of cacao use in the Prehispanic American Southwest",
+      "institution": "PNAS 106(7), 2110–2113; PMC2650116",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2650116/",
+      "type": "primary",
+      "scope": "doi:10.1073/pnas.0812817106. Abstract; sample selection, chemical methods/results and Discussion: five vessel-fragment samples, three positive probable cylinder jars; stylistic dating c1000–1125 CE. Does not identify an exact trade route or universal access. Figure 1 has separate copyright and is not reproduced.",
+      "author": "Patricia L. Crown and W. Jeffrey Hurst",
+      "accessed": "2026-10-27"
+    },
+    {
+      "id": "cahokia-unesco",
+      "title": "Cahokia Mounds State Historic Site",
+      "institution": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/198/",
+      "type": "archaeology",
+      "scope": "Description and Brief synthesis: broader occupation 800–1400, urban peak 1050–1150, residential/public/work areas and reconstruction. The selected urban investigation is c1050–1400; no exact population count adopted.",
+      "accessed": "2026-10-27"
+    },
+    {
+      "id": "cahokia-illinois",
+      "title": "About the Cahokia Initiative",
+      "institution": "University of Illinois, Cahokia Initiative",
+      "url": "https://cahokia.web.illinois.edu/about/",
+      "type": "archaeology",
+      "scope": "Urban core and wider Greater Cahokia; organized earthmoving around 1050 CE, neighborhoods and archaeological scale. Interpretive claims are attributed, not used to invent imperial borders.",
+      "accessed": "2026-10-27"
+    },
+    {
+      "id": "cahokia-after",
+      "title": "After Cahokia: Indigenous Repopulation and Depopulation of the Horseshoe Lake Watershed AD 1400–1900",
+      "institution": "American Antiquity 85(2), 263–278",
+      "url": "https://www.cambridge.org/core/journals/american-antiquity/article/after-cahokia-indigenous-repopulation-and-depopulation-of-the-horseshoe-lake-watershed-ad-14001900/C678D62BE9FAB07C9283D62BE9757685",
+      "type": "primary",
+      "scope": "2020, doi:10.1017/aaq.2019.103. Abstract and study design: sediment fecal-stanol reconstruction with archaeological/historical/environmental evidence; regional post-1400 population interpretation, not a direct census. Paired with the 2021 critique.",
+      "author": "A. J. White, Samuel E. Munoz, Sissel Schroeder and Lora R. Stevens",
+      "accessed": "2026-10-27"
+    },
+    {
+      "id": "cahokia-critique",
+      "title": "Questioning the Native American Population Rebound in the Horseshoe Lake Watershed from AD 1500 to AD 1700",
+      "institution": "American Antiquity 86(1), 199–202; Illinois Experts",
+      "url": "https://experts.illinois.edu/en/publications/questioning-the-native-american-population-rebound-in-the-horsesh/",
+      "type": "scholarship",
+      "scope": "2021, doi:10.1017/aaq.2020.74. Authors’ abstract: disputes White et al.’s population/identity interpretation and alternative explanations of stanols. Only abstract-level claims are used.",
+      "author": "B. Jacob Skousen and Michael Aiuvalasit",
+      "accessed": "2026-10-27"
+    },
+    {
+      "id": "cahokia-loc-1907",
+      "title": "Illinois, Cahokia Mound, October 16, 1907",
+      "institution": "Library of Congress",
+      "url": "https://www.loc.gov/pictures/item/97505973/",
+      "type": "catalogue",
+      "scope": "Photomechanical print, c1907; copyright credit National Photographic Library; LOT 3889 / LC-USZ62-118522. Image is later documentation. U.S. publication copyright is expired.",
+      "accessed": "2026-10-27"
+    }
+  ],
+  "imageBytes": [
+    {
+      "path": "/atlas/media/chaco-corner-door-0.webp",
+      "sha256": "3bd3e966a7713171b4e9b75a08d954c67ff8a31e8e829e77f30d8947a0199e07"
+    },
+    {
+      "path": "/atlas/media/chaco-corner-door-thumb.webp",
+      "sha256": "deecb488ec25556288b0ab85c24db4fb1532815ebb126f5c9115e003429fd835"
+    },
+    {
+      "path": "/atlas/media/cahokia-view-1907-0.webp",
+      "sha256": "edeb9c52c3d2ca260ea4383042023f157df9e0ee335b349584e248b90d723fa1"
+    },
+    {
+      "path": "/atlas/media/cahokia-view-1907-thumb.webp",
+      "sha256": "0ffa0ec95caaf486629f92c1734669a25e7c4bf4e7eaedd9832e70ebf845f009"
+    },
+    {
+      "path": "/atlas/media/ocmulgee-floor-0.webp",
+      "sha256": "e52275bc59eb1f55c6c8c5bac75406b2fdf4ec2a493b60e66a10db1cd3d38899"
+    },
+    {
+      "path": "/atlas/media/ocmulgee-floor-thumb.webp",
+      "sha256": "3984693eeb667e7ecf21a0410e83e4e03462a5cd75fb975e82d6d73c1c38eaa4"
+    },
+    {
+      "path": "/atlas/media/ocmulgee-exterior-0.webp",
+      "sha256": "8ebdbc7d26215ec7ee11ce4d46687a1789038456674b74fcc657cefd86b57f99"
+    },
+    {
+      "path": "/atlas/media/ocmulgee-exterior-thumb.webp",
+      "sha256": "e93c1e7fce5d86633b5342f7e5016c6b150976a71cf4143bfbb78ac2675e47cf"
+    }
+  ]
+}

@@ -6,11 +6,11 @@ import { describe, expect, it } from 'vitest';
 import { parseRunConfig } from './runConfig.ts';
 
 describe('parseRunConfig', () => {
-  it('reads the checked-in switches as off and phase 7', () => {
+  it('enables authorized local media while preserving remote-write switches', () => {
     const text = readFileSync(path.resolve('docs/RUN_CONFIG.md'), 'utf8');
     expect(parseRunConfig(text)).toEqual({
       MAX_PHASE: 7,
-      ALLOW_MEDIA_DOWNLOAD: false,
+      ALLOW_MEDIA_DOWNLOAD: true,
       ALLOW_PUSH: false,
       ALLOW_DEPLOY: false,
       DEPLOY_TARGET: '',

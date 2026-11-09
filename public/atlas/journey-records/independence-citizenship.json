@@ -1,0 +1,43 @@
+{
+  "journey": "independence-citizenship",
+  "revision": "459fe871c1606a6e7684f89c155de338632cdd6f6895e0cfbaefacd84e47c738",
+  "stops": [
+    {
+      "index": 0,
+      "narrative": "Inspect the signatures and the short text. Use the phases to distinguish the declaration from Dutch recognition and the later unitary state."
+    },
+    {
+      "index": 1,
+      "narrative": "Follow the independence and boundary-announcement sequence. Use the place study to ask why a national milestone did not settle every family’s security."
+    },
+    {
+      "index": 2,
+      "narrative": "Find what changed on the stamp and what remained underneath. Then read the debate to identify the powers that changed hands at independence."
+    },
+    {
+      "index": 3,
+      "narrative": "Move from the 1994 voting photograph to the 1996 constitutional text. Distinguish the right to govern from the rights that constrain government."
+    }
+  ],
+  "conclusion": "A proclamation, a transfer of sovereignty, an election and a constitutional right do different work. Each can change institutions without settling every question of safety, participation or material life. Explain the particular mechanism before comparing outcomes.",
+  "evidence": {
+    "prompt": "Which conclusion best uses the evidence encountered on this journey?",
+    "options": [
+      {
+        "text": "A national independence date establishes when everyone gained equal rights and secure livelihoods.",
+        "supported": false,
+        "feedback": "The documents identify political changes. They do not measure every person’s rights, safety or livelihood."
+      },
+      {
+        "text": "Different milestones change different powers; later outcomes need evidence beyond the announcement or image.",
+        "supported": true,
+        "feedback": "The proclamation, stamp, border timetable and constitution let you identify specific changes and ask a separate question about their effects."
+      },
+      {
+        "text": "Because these transitions involved institutions, ordinary people played no part in them.",
+        "supported": false,
+        "feedback": "The Ghana account describes organizing networks, and the South African sources discuss public participation. Institutional history also involves people’s work."
+      }
+    ]
+  }
+}

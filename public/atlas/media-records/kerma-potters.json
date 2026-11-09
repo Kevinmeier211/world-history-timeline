@@ -1,0 +1,34 @@
+{
+  "subject": "kerma-potters",
+  "revision": "609126e525ed4e1a95ebcd532746cf448c0e844818a0357bad22bc58d50ff1ec",
+  "media": [
+    {
+      "id": "met-545772",
+      "caption": "A Kerma beaker found in an Egyptian grave. Its location is known; the owner’s origin is a tentative interpretation.",
+      "notice": [
+        "How do the two surface colors meet?",
+        "Which claim requires more than looking at the pot?"
+      ],
+      "creator": "Maker not recorded",
+      "place": "Excavated in Abydos, Egypt, tomb 525; Kerma ceramic tradition",
+      "material": "Pottery",
+      "relevance": "Skilled firing, documented findspot and the limits of inferring a person’s identity.",
+      "additionalImages": []
+    },
+    {
+      "id": "kerma-making-guide",
+      "caption": "Hand shaping, surface coating/polishing and controlled firing are distinct kinds of work in the Met catalogue account. These generic symbols explain operations; they are not a measured vessel profile, excavated kiln, temperature record or complete firing schedule. Teaching colors do not constitute a material analysis.",
+      "notice": [
+        "Find the three action labels.",
+        "Which surface observation could you compare with the photographed vessel?"
+      ],
+      "creator": "Chronos / Codex; independently drawn teaching symbols",
+      "place": "Modern teaching guide; no ancient workshop or record reconstructed",
+      "material": "Original SVG diagram",
+      "representedDate": "The Met dates the comparison beaker to c. 1802–1640 BCE. The panels explain manufacture without dating an individual firing.",
+      "relevance": "Provides legible modern symbols for an evidence question, with source images and their different rights retained separately.",
+      "additionalImages": [],
+      "printWidthMm": 145
+    }
+  ]
+}

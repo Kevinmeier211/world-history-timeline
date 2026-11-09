@@ -1,0 +1,32 @@
+{
+  "journey": "machines-work",
+  "revision": "b3991bd361dc3828413c0013b8452464de745b2a04a747b73dc4720d71aac534",
+  "stops": [
+    {
+      "index": 0,
+      "narrative": "Distinguish emancipation, its threatened reversal and independence."
+    },
+    { "index": 1, "narrative": "Use inspection to test implementation." },
+    { "index": 2, "narrative": "Find the local skills and wider supply system." },
+    {
+      "index": 3,
+      "narrative": "Describe what is visible, then consider the competing accounts."
+    }
+  ],
+  "conclusion": "Work changed through resistance, law, institutions, skilled adaptation and campaigning. Mechanization alone does not explain who had freedom, protection or control.",
+  "evidence": {
+    "prompt": "What can the Hine image and caption establish most directly?",
+    "options": [
+      {
+        "text": "A particular photographed setting and Hine’s recorded account of an overseer’s response.",
+        "supported": true,
+        "feedback": "The photograph and caption have different evidentiary roles. Hours, age and prevalence need further records."
+      },
+      {
+        "text": "Every child in every factory worked exactly the same hours.",
+        "supported": false,
+        "feedback": "One image cannot establish a universal quantity or experience."
+      }
+    ]
+  }
+}

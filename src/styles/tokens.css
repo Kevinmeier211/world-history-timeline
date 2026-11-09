@@ -62,3 +62,44 @@ body {
   outline: 2px solid var(--focus);
   outline-offset: 2px;
 }
+
+/* Researched atlas palette. Values are shared by screen and print compositions. */
+:root {
+  --atlas-c-0003: #0003;
+  --atlas-c-0004: #0004;
+  --atlas-c-14251dcc: #14251dcc;
+  --atlas-c-16261a: #16261a;
+  --atlas-c-18221c: #18221c;
+  --atlas-c-202d26: #202d26;
+  --atlas-c-26382f: #26382f;
+  --atlas-c-293f45: #293f45;
+  --atlas-c-2d3c31: #2d3c31;
+  --atlas-c-355e49: #355e49;
+  --atlas-c-36503a: #36503a;
+  --atlas-c-506052: #506052;
+  --atlas-c-52664e: #52664e;
+  --atlas-c-56675b: #56675b;
+  --atlas-c-9a4b16: #9a4b16;
+  --atlas-c-a04e1d: #a04e1d;
+  --atlas-c-a7ccab: #a7ccab;
+  --atlas-c-b5c3b5: #b5c3b5;
+  --atlas-c-b6c8ca: #b6c8ca;
+  --atlas-c-cbd0c2: #cbd0c2;
+  --atlas-c-d1e1e6: #d1e1e6;
+  --atlas-c-d6d8cd: #d6d8cd;
+  --atlas-c-dbe3d6: #dbe3d6;
+  --atlas-c-ddddbc: #ddddbc;
+  --atlas-c-dfe6d8: #dfe6d8;
+  --atlas-c-e0d9e9: #e0d9e9;
+  --atlas-c-e0eaeb: #e0eaeb;
+  --atlas-c-e7d6ca: #e7d6ca;
+  --atlas-c-eadfb5: #eadfb5;
+  --atlas-c-ecd6c5: #ecd6c5;
+  --atlas-c-ecece3: #ecece3;
+  --atlas-c-eeece2: #eeece2;
+  --atlas-c-f1f0e5: #f1f0e5;
+  --atlas-c-f4bc80: #f4bc80;
+  --atlas-c-f4f2e9: #f4f2e9;
+  --atlas-c-fbfaf4: #fbfaf4;
+  --atlas-c-fff: #fff;
+}
